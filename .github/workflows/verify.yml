@@ -1,0 +1,23 @@
+name: Verify Library
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  lint:
+    name: Lint & format check (ogrl)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install ogrl CLI
+        uses: dtolnay/rust-toolchain@stable
+      - name: Build ogrl CLI from ogrl-rs
+        run: cargo install --git https://github.com/adversitydotdev/ogrl-rs ogrl-cli --locked
+      - name: Lint library (YAML 1.2 + RFC 0001 §7.20)
+        run: ogrl lint library --profile library --format sarif > ogrl.sarif || (ogrl lint library --profile library && exit 1)
+      - name: Check canonical formatting
+        run: ogrl fmt library --check
+      - name: Print projection digest
+        run: ogrl bundle digest library
