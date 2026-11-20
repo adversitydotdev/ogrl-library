@@ -1,0 +1,15 @@
+type: framework
+id: framework--iso-iec-27001-2022
+spec_version: "0.1.0"
+created: "2026-11-20T00:00:00Z"
+modified: "2026-11-20T00:00:00Z"
+name: "ISO/IEC 27001:2022"
+external_references:
+  - source: ISO/IEC
+    description: >
+      Information security, cybersecurity and privacy protection — Information
+      security management systems — Requirements
+    url: "https://www.iso.org/standard/27001"
+publisher: ISO/IEC
+reproduction: citation-only
+version: "2022"

@@ -1,0 +1,29 @@
+type: baseline
+id: baseline--ogrl-iso27001
+spec_version: "0.1.0"
+created: "2026-11-20T00:00:00Z"
+modified: "2026-11-20T00:00:00Z"
+name: "OGRL ISO/IEC 27001:2022 Starter Baseline"
+control_refs:
+  - control--ogrl-ac-01
+  - control--ogrl-ac-02
+  - control--ogrl-ac-03
+  - control--ogrl-ia-01
+  - control--ogrl-ia-02
+  - control--ogrl-au-01
+  - control--ogrl-cm-01
+  - control--ogrl-sc-01
+framework_refs:
+  - framework--iso-iec-27001-2022
+requirement_refs:
+  - requirement--iso-iec-27001-2022-a-5-15
+  - requirement--iso-iec-27001-2022-a-5-16
+  - requirement--iso-iec-27001-2022-a-5-17
+  - requirement--iso-iec-27001-2022-a-5-18
+  - requirement--iso-iec-27001-2022-a-8-5
+  - requirement--iso-iec-27001-2022-a-8-15
+  - requirement--iso-iec-27001-2022-a-8-24
+  - requirement--iso-iec-27001-2022-a-8-32
+tags:
+  - iso27001
+  - starter

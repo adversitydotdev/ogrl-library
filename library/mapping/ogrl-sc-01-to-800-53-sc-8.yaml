@@ -1,0 +1,14 @@
+type: mapping
+id: mapping--ogrl-sc-01-to-800-53-sc-8
+spec_version: "0.1.0"
+created: "2026-11-20T00:00:00Z"
+modified: "2026-11-20T00:00:00Z"
+confidence: high
+rationale: functional
+relationship: equivalent-to
+review_status: reviewed
+source_ref: control--ogrl-sc-01
+summary: >
+  Enforcing modern TLS protects confidentiality and integrity of transmitted
+  information per SC-8.
+target_ref: requirement--nist-sp-800-53-r5-sc-8

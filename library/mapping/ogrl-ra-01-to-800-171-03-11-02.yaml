@@ -1,0 +1,17 @@
+type: mapping
+id: mapping--ogrl-ra-01-to-800-171-03-11-02
+spec_version: "0.1.0"
+created: "2026-11-20T00:00:00Z"
+modified: "2026-11-20T00:00:00Z"
+confidence: high
+parameter_map:
+  a_03_11_02_odp_01: scan_cadence
+  a_03_11_02_odp_03: remediation_sla
+rationale: functional
+relationship: equivalent-to
+review_status: reviewed
+source_ref: control--ogrl-ra-01
+summary: >
+  Continuous vulnerability scanning and SLA remediation satisfy SP 800-171
+  03.11.02.
+target_ref: requirement--nist-sp-800-171-r3-03-11-02

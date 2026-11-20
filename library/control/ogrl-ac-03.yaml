@@ -1,0 +1,33 @@
+type: control
+id: control--ogrl-ac-03
+spec_version: "0.1.0"
+created: "2026-11-20T00:00:00Z"
+modified: "2026-11-20T00:00:00Z"
+name: Least Privilege and Role-Based Access Enforcement
+display_id: OGRL-AC-03
+control_type: preventive
+family: Access Control
+frequency: continuous
+guidance: >
+  Avoid standing administrative privileges on production environments; use
+  scoped IAM roles, just-in-time elevation, and separation between developer
+  and production-deployment permissions.
+objective: >
+  Limit blast radius by preventing unauthorized read, write, or administrative
+  operations.
+origin: standard
+parameters:
+  privileged_elevation:
+    label: Privileged elevation mechanism
+    value: time-bound just-in-time elevation
+statement: >
+  Restrict logical access to systems, administrative interfaces, and sensitive
+  data using role-based access control scoped to least privilege, requiring
+  {{ privileged_elevation }} for administrative actions.
+summary: >
+  Enforce least-privilege role-based access control so users and services
+  receive only permissions required for their job function.
+tags:
+  - rbac
+  - least-privilege
+  - access-control

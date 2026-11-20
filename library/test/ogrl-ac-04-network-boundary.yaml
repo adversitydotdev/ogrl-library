@@ -1,0 +1,13 @@
+type: test
+id: test--ogrl-ac-04-network-boundary
+spec_version: "0.1.0"
+created: "2026-11-20T00:00:00Z"
+modified: "2026-11-20T00:00:00Z"
+name: Verify Default-Deny Network Ingress Policies
+control_ref: control--ogrl-ac-04
+description: >
+  Inspect cloud security groups and firewall rules to confirm administrative
+  ports (SSH, RDP, database ports) are not exposed to 0.0.0.0/0.
+interval: daily
+method: automated
+required: true

@@ -1,0 +1,15 @@
+type: test
+id: test--ogrl-ac-02-access-review
+spec_version: "0.1.0"
+created: "2026-11-20T00:00:00Z"
+modified: "2026-11-20T00:00:00Z"
+name: Verify Quarterly Access Review Completion
+control_ref: control--ogrl-ac-02
+description: >
+  Examine completed quarterly user access review records to confirm reviewer
+  sign-off and timely removal of revoked entitlements.
+interval: quarterly
+method: manual
+objective_refs:
+  - "requirement--nist-sp-800-53-r5-ac-2#obj.j"
+required: true

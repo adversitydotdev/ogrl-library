@@ -1,0 +1,15 @@
+type: framework
+id: framework--soc2-tsc-2017
+spec_version: "0.1.0"
+created: "2026-11-20T00:00:00Z"
+modified: "2026-11-20T00:00:00Z"
+name: AICPA SOC 2 Trust Services Criteria
+external_references:
+  - source: AICPA
+    description: >
+      Trust Services Criteria for Security, Availability, Processing Integrity,
+      Confidentiality, and Privacy
+    url: "https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022"
+publisher: AICPA
+reproduction: citation-only
+version: "2017 (with 2022 Points of Focus)"

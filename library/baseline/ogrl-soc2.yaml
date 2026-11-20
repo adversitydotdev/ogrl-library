@@ -1,0 +1,34 @@
+type: baseline
+id: baseline--ogrl-soc2
+spec_version: "0.1.0"
+created: "2026-11-20T00:00:00Z"
+modified: "2026-11-20T00:00:00Z"
+name: OGRL SOC 2 Security Starter Baseline
+control_refs:
+  - control--ogrl-ac-01
+  - control--ogrl-ac-02
+  - control--ogrl-ac-03
+  - control--ogrl-ac-04
+  - control--ogrl-ia-01
+  - control--ogrl-au-01
+  - control--ogrl-au-02
+  - control--ogrl-cm-01
+  - control--ogrl-sc-01
+  - control--ogrl-ir-01
+  - control--ogrl-ra-01
+framework_refs:
+  - framework--soc2-tsc-2017
+requirement_refs:
+  - requirement--soc2-tsc-2017-cc3-2
+  - requirement--soc2-tsc-2017-cc6-1
+  - requirement--soc2-tsc-2017-cc6-2
+  - requirement--soc2-tsc-2017-cc6-3
+  - requirement--soc2-tsc-2017-cc6-6
+  - requirement--soc2-tsc-2017-cc6-7
+  - requirement--soc2-tsc-2017-cc7-1
+  - requirement--soc2-tsc-2017-cc7-2
+  - requirement--soc2-tsc-2017-cc7-3
+  - requirement--soc2-tsc-2017-cc8-1
+tags:
+  - soc2
+  - starter

@@ -1,0 +1,16 @@
+type: mapping
+id: mapping--ogrl-au-02-to-800-53-si-4-b
+spec_version: "0.1.0"
+created: "2026-11-20T00:00:00Z"
+modified: "2026-11-20T00:00:00Z"
+confidence: high
+parameter_map:
+  si_04_odp_02: monitoring_methods
+rationale: functional
+relationship: equivalent-to
+review_status: reviewed
+source_ref: control--ogrl-au-02
+summary: >
+  SIEM correlation and cloud threat detection identify unauthorized system use
+  per SI-4(b).
+target_ref: "requirement--nist-sp-800-53-r5-si-4#b"

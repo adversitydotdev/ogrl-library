@@ -1,0 +1,32 @@
+type: control
+id: control--ogrl-ac-04
+spec_version: "0.1.0"
+created: "2026-11-20T00:00:00Z"
+modified: "2026-11-20T00:00:00Z"
+name: Network Boundary and Logical Access Restriction
+display_id: OGRL-AC-04
+control_type: preventive
+family: Access Control
+frequency: continuous
+guidance: >
+  Manage security groups, firewall rules, and private network peering via
+  infrastructure-as-code with automated drift detection.
+objective: >
+  Prevent unauthorized network traffic and direct internet exposure of
+  internal or administrative services.
+origin: standard
+parameters:
+  admin_access_path:
+    label: Authorized administrative network path
+    value: authenticated VPN or zero-trust bastion endpoints
+statement: >
+  Enforce default-deny network ingress policies at system boundaries, allowing
+  only explicitly documented service ports and restricting administrative
+  access to {{ admin_access_path }}.
+summary: >
+  Segment network boundaries with default-deny ingress controls and restrict
+  administrative ports from the public internet.
+tags:
+  - network
+  - segmentation
+  - access-control

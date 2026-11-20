@@ -1,0 +1,36 @@
+type: control
+id: control--ogrl-ir-01
+spec_version: "0.1.0"
+created: "2026-11-20T00:00:00Z"
+modified: "2026-11-20T00:00:00Z"
+name: Incident Response Plan and Tabletop Testing
+display_id: OGRL-IR-01
+control_type: corrective
+family: Incident Response
+frequency: annual
+guidance: >
+  Document post-incident lessons learned, track corrective action items to
+  closure, and update contact trees whenever on-call rotations or regulatory
+  notification obligations change.
+objective: >
+  Ensure personnel can rapidly detect, contain, eradicate, recover from, and
+  report security incidents.
+origin: standard
+parameters:
+  ir_test_cadence:
+    label: Incident response test frequency
+    value: at least annually
+  ir_test_method:
+    label: Incident response test method
+    value: structured tabletop exercises and simulated incident drills
+statement: >
+  Maintain a documented security incident response plan with defined roles and
+  escalation paths, and test response effectiveness {{ ir_test_cadence }}
+  using {{ ir_test_method }}.
+summary: >
+  Maintain a documented security incident response plan and exercise it
+  regularly through tabletop or simulated drills.
+tags:
+  - incident-response
+  - tabletop
+  - resilience

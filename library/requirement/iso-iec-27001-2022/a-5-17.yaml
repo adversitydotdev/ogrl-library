@@ -1,0 +1,14 @@
+type: requirement
+id: requirement--iso-iec-27001-2022-a-5-17
+spec_version: "0.1.0"
+created: "2026-11-20T00:00:00Z"
+modified: "2026-11-20T00:00:00Z"
+name: Authentication Secret Management
+display_id: A.5.17
+citation: "ISO/IEC 27001:2022 Annex A.5.17"
+class: clause
+external_references:
+  - source: ISO/IEC
+    description: "ISO/IEC 27001:2022 Annex A.5.17"
+    url: "https://www.iso.org/standard/27001"
+framework_ref: framework--iso-iec-27001-2022

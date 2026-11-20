@@ -1,0 +1,36 @@
+type: control
+id: control--ogrl-ac-01
+spec_version: "0.1.0"
+created: "2026-11-20T00:00:00Z"
+modified: "2026-11-20T00:00:00Z"
+name: Account Provisioning and Lifecycle Governance
+display_id: OGRL-AC-01
+control_type: preventive
+family: Access Control
+frequency: event-driven
+guidance: >
+  Integrate the identity provider with HR lifecycle events so terminations
+  automatically trigger session revocation and account suspension within the
+  defined SLA.
+objective: >
+  Ensure only authorized personnel and services hold active accounts on
+  in-scope systems.
+origin: standard
+parameters:
+  approver_role:
+    label: Account approval authority
+    value: the system owner or manager
+  deprovision_sla:
+    label: Termination deprovisioning SLA
+    value: "24 hours"
+statement: >
+  Approve every user and service account request through {{ approver_role }}
+  prior to provisioning, and revoke or disable accounts within
+  {{ deprovision_sla }} of personnel termination or role change.
+summary: >
+  Require documented approval before provisioning user or service accounts and
+  disable accounts promptly upon departure.
+tags:
+  - identity
+  - lifecycle
+  - access-control

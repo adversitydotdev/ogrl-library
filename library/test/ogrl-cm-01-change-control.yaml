@@ -1,0 +1,16 @@
+type: test
+id: test--ogrl-cm-01-change-control
+spec_version: "0.1.0"
+created: "2026-11-20T00:00:00Z"
+modified: "2026-11-20T00:00:00Z"
+name: Verify Branch Protection and Peer-Reviewed Deployments
+control_ref: control--ogrl-cm-01
+description: >
+  Confirm production repositories enforce required independent pull-request
+  reviews and passing CI status checks with no bypassed merges.
+interval: daily
+method: automated
+objective_refs:
+  - "requirement--nist-sp-800-53-r5-cm-3#obj.b-1"
+  - "requirement--nist-sp-800-53-r5-cm-3#obj.e"
+required: true

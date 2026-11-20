@@ -1,0 +1,17 @@
+type: test
+id: test--ogrl-ac-01-lifecycle
+spec_version: "0.1.0"
+created: "2026-11-20T00:00:00Z"
+modified: "2026-11-20T00:00:00Z"
+name: Verify Account Provisioning Approvals and Termination Revocation
+control_ref: control--ogrl-ac-01
+description: >
+  Confirm newly provisioned accounts have linked approval tickets and all
+  terminated personnel accounts were disabled within the configured
+  deprovisioning SLA.
+interval: daily
+method: automated
+objective_refs:
+  - "requirement--nist-sp-800-53-r5-ac-2#obj.e"
+  - "requirement--nist-sp-800-53-r5-ac-2#obj.h.2"
+required: true

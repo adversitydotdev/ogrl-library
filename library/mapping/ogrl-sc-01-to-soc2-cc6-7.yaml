@@ -1,0 +1,14 @@
+type: mapping
+id: mapping--ogrl-sc-01-to-soc2-cc6-7
+spec_version: "0.1.0"
+created: "2026-11-20T00:00:00Z"
+modified: "2026-11-20T00:00:00Z"
+confidence: high
+rationale: functional
+relationship: equivalent-to
+review_status: reviewed
+source_ref: control--ogrl-sc-01
+summary: >
+  TLS in transit and encryption at rest satisfy SOC 2 CC6.7 transmission and
+  data protection.
+target_ref: requirement--soc2-tsc-2017-cc6-7

@@ -1,0 +1,27 @@
+type: baseline
+id: baseline--ogrl-core
+spec_version: "0.1.0"
+created: "2026-11-20T00:00:00Z"
+modified: "2026-11-20T00:00:00Z"
+name: OGRL Core Security Baseline
+control_refs:
+  - control--ogrl-ac-01
+  - control--ogrl-ac-02
+  - control--ogrl-ac-03
+  - control--ogrl-ac-04
+  - control--ogrl-ia-01
+  - control--ogrl-ia-02
+  - control--ogrl-au-01
+  - control--ogrl-au-02
+  - control--ogrl-cm-01
+  - control--ogrl-sc-01
+  - control--ogrl-ir-01
+  - control--ogrl-ra-01
+framework_refs:
+  - framework--nist-sp-800-53-r5
+  - framework--nist-sp-800-171-r3
+  - framework--soc2-tsc-2017
+  - framework--iso-iec-27001-2022
+tags:
+  - starter
+  - multi-framework

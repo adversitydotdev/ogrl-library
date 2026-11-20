@@ -1,0 +1,14 @@
+type: test
+id: test--ogrl-ac-03-least-privilege
+spec_version: "0.1.0"
+created: "2026-11-20T00:00:00Z"
+modified: "2026-11-20T00:00:00Z"
+name: Verify Least-Privilege Role Assignments
+control_ref: control--ogrl-ac-03
+description: >
+  Check IAM role bindings and administrative group memberships to verify no
+  unauthorized wildcard permissions or standing administrative privileges
+  exist.
+interval: daily
+method: automated
+required: true

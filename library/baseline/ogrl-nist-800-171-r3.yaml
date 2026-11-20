@@ -1,0 +1,31 @@
+type: baseline
+id: baseline--ogrl-nist-800-171-r3
+spec_version: "0.1.0"
+created: "2026-11-20T00:00:00Z"
+modified: "2026-11-20T00:00:00Z"
+name: OGRL NIST SP 800-171 Rev 3 Core Baseline
+control_refs:
+  - control--ogrl-ac-01
+  - control--ogrl-ac-02
+  - control--ogrl-ac-03
+  - control--ogrl-ia-01
+  - control--ogrl-au-01
+  - control--ogrl-cm-01
+  - control--ogrl-sc-01
+  - control--ogrl-ir-01
+  - control--ogrl-ra-01
+framework_refs:
+  - framework--nist-sp-800-171-r3
+requirement_refs:
+  - requirement--nist-sp-800-171-r3-03-01-01
+  - requirement--nist-sp-800-171-r3-03-01-05
+  - requirement--nist-sp-800-171-r3-03-03-01
+  - requirement--nist-sp-800-171-r3-03-04-03
+  - requirement--nist-sp-800-171-r3-03-05-03
+  - requirement--nist-sp-800-171-r3-03-06-03
+  - requirement--nist-sp-800-171-r3-03-11-02
+  - requirement--nist-sp-800-171-r3-03-13-08
+tags:
+  - nist
+  - cui
+  - starter
