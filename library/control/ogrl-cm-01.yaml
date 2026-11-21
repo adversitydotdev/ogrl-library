@@ -6,7 +6,7 @@ modified: "2026-11-20T00:00:00Z"
 name: Peer-Reviewed Production Change Control
 display_id: OGRL-CM-01
 control_type: preventive
-family: Configuration Management
+family: cm
 frequency: event-driven
 guidance: >
   Enforce branch protection rules that prevent self-approval, require passing

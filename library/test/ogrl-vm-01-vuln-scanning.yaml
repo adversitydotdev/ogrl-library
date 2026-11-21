@@ -1,0 +1,16 @@
+type: test
+id: test--ogrl-vm-01-vuln-scanning
+spec_version: "0.1.0"
+created: "2026-11-20T00:00:00Z"
+modified: "2026-11-20T00:00:00Z"
+name: Verify Vulnerability Scan Cadence and SLA Compliance
+control_ref: control--ogrl-vm-01
+description: >
+  Confirm vulnerability scans completed within the configured cadence and no
+  confirmed critical or high findings remain open past their remediation SLA.
+interval: weekly
+method: automated
+objective_refs:
+  - "requirement--nist-sp-800-53-r5-ra-5#obj.a-2"
+  - "requirement--nist-sp-800-53-r5-ra-5#obj.d"
+required: true

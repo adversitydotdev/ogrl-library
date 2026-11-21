@@ -1,0 +1,32 @@
+type: control
+id: control--ogrl-ac-05
+spec_version: "0.1.0"
+created: "2026-11-20T00:00:00Z"
+modified: "2026-11-20T00:00:00Z"
+name: Multi-Factor Authentication Enforcement
+display_id: OGRL-AC-05
+control_type: preventive
+family: ac
+frequency: continuous
+guidance: >
+  Prefer FIDO2/WebAuthn security keys or platform authenticators for
+  privileged accounts, and block legacy single-factor protocols.
+objective: >
+  Prevent account compromise from stolen, reused, or phished single-factor
+  credentials.
+origin: standard
+parameters:
+  mfa_standard:
+    label: Required MFA factor strength
+    value: "phishing-resistant (FIDO2/WebAuthn or TOTP)"
+statement: >
+  Enforce {{ mfa_standard }} multi-factor authentication on all interactive
+  workforce, remote, and privileged accounts across identity providers and
+  in-scope systems.
+summary: >
+  Require phishing-resistant or hardware-backed multi-factor authentication
+  for all interactive user and privileged logins.
+tags:
+  - mfa
+  - authentication
+  - identity

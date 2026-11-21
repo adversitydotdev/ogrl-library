@@ -6,7 +6,7 @@ modified: "2026-11-20T00:00:00Z"
 name: Periodic User Access Review
 display_id: OGRL-AC-02
 control_type: detective
-family: Access Control
+family: ac
 frequency: quarterly
 guidance: >
   Generate account rosters directly from authoritative identity providers and

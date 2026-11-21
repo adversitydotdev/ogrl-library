@@ -8,11 +8,11 @@ control_refs:
   - control--ogrl-ac-01
   - control--ogrl-ac-02
   - control--ogrl-ac-03
-  - control--ogrl-ia-01
-  - control--ogrl-ia-02
-  - control--ogrl-au-01
+  - control--ogrl-ac-05
+  - control--ogrl-ac-06
+  - control--ogrl-lm-01
   - control--ogrl-cm-01
-  - control--ogrl-sc-01
+  - control--ogrl-cr-01
 framework_refs:
   - framework--iso-iec-27001-2022
 requirement_refs:

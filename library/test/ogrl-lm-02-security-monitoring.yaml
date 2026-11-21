@@ -1,0 +1,16 @@
+type: test
+id: test--ogrl-lm-02-security-monitoring
+spec_version: "0.1.0"
+created: "2026-11-20T00:00:00Z"
+modified: "2026-11-20T00:00:00Z"
+name: Verify Active Threat Detection and Alert Routing
+control_ref: control--ogrl-lm-02
+description: >
+  Confirm threat detection rules are active, alert delivery channels are
+  healthy, and open high-severity alerts are triaged within SLA.
+interval: daily
+method: automated
+objective_refs:
+  - "requirement--nist-sp-800-53-r5-si-4#obj.a.1"
+  - "requirement--nist-sp-800-53-r5-si-4#obj.d-1"
+required: true

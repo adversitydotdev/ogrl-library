@@ -6,7 +6,7 @@ modified: "2026-11-20T00:00:00Z"
 name: Network Boundary and Logical Access Restriction
 display_id: OGRL-AC-04
 control_type: preventive
-family: Access Control
+family: ac
 frequency: continuous
 guidance: >
   Manage security groups, firewall rules, and private network peering via

@@ -6,7 +6,7 @@ modified: "2026-11-20T00:00:00Z"
 name: Account Provisioning and Lifecycle Governance
 display_id: OGRL-AC-01
 control_type: preventive
-family: Access Control
+family: ac
 frequency: event-driven
 guidance: >
   Integrate the identity provider with HR lifecycle events so terminations

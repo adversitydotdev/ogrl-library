@@ -6,7 +6,7 @@ modified: "2026-11-20T00:00:00Z"
 name: Least Privilege and Role-Based Access Enforcement
 display_id: OGRL-AC-03
 control_type: preventive
-family: Access Control
+family: ac
 frequency: continuous
 guidance: >
   Avoid standing administrative privileges on production environments; use
