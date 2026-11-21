@@ -1,0 +1,16 @@
+type: mapping
+id: mapping--ogrl-cm-09-to-800-53-si-7-a
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: high
+parameter_map:
+  si_7_prm_1: integrity_protected_assets
+rationale: functional
+relationship: subset-of
+review_status: draft
+source_ref: control--ogrl-cm-09
+summary: >
+  Integrity verification covers software and critical configuration; firmware
+  and general information are out of scope for SI-7(a).
+target_ref: "requirement--nist-sp-800-53-r5-si-7#a"

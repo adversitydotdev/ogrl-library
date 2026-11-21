@@ -1,0 +1,14 @@
+type: mapping
+id: mapping--ogrl-lm-03-to-soc2-cc7-2
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: medium
+rationale: functional
+relationship: subset-of
+review_status: draft
+source_ref: control--ogrl-lm-03
+summary: >
+  Trustworthy, tamper-resistant logs underpin the anomaly monitoring expected
+  under CC7.2.
+target_ref: requirement--soc2-tsc-2017-cc7-2

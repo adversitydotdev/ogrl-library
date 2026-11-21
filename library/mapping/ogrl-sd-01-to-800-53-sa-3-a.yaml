@@ -1,0 +1,12 @@
+type: mapping
+id: mapping--ogrl-sd-01-to-800-53-sa-3-a
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: high
+rationale: functional
+relationship: equivalent-to
+review_status: draft
+source_ref: control--ogrl-sd-01
+summary: "A documented SDLC with security activities in each phase satisfies SA-3(a)."
+target_ref: "requirement--nist-sp-800-53-r5-sa-3#a"

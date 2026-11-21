@@ -1,0 +1,49 @@
+type: control
+id: control--ogrl-sd-01
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+name: Secure Development Lifecycle
+display_id: OGRL-SD-01
+control_type: preventive
+family: sd
+frequency: annual
+guidance: >
+  Keep the SDLC as a short engineering handbook page that links to the
+  concrete gates: design review template, code review (OGRL-SD-02), automated
+  scanning (OGRL-SD-03), branch protection (OGRL-SD-04), and change testing
+  (OGRL-CM-07). Record approval with a dated sign-off. Reference OWASP SAMM or
+  NIST SSDF if a maturity model is helpful.
+objective: >
+  Ensure security is designed into systems consistently rather than added
+  after release.
+origin: standard
+parameters:
+  sdlc_owner:
+    label: SDLC approval authority
+    value: the head of engineering and the security lead
+  sdlc_review_frequency:
+    label: SDLC review frequency
+    value: annually
+  secure_design_principles:
+    label: Secure design principles
+    value: >
+      least privilege, defense in depth, secure defaults, and attack-surface
+      minimization
+  threat_model_triggers:
+    label: Work requiring threat modeling
+    value: "new services, new external integrations, and major architecture changes"
+statement: >
+  Maintain a documented secure development lifecycle that defines required
+  security activities for design, implementation, testing, release, and
+  maintenance, requires threat modeling for {{ threat_model_triggers }},
+  applies {{ secure_design_principles }}, assigns security responsibilities to
+  named roles, and is reviewed and approved by {{ sdlc_owner }}
+  {{ sdlc_review_frequency }}.
+summary: >
+  Maintain a documented SDLC that builds security activities, roles, and
+  design principles into every phase.
+tags:
+  - sdlc
+  - secure-development
+  - threat-modeling

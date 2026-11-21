@@ -1,0 +1,16 @@
+type: mapping
+id: mapping--ogrl-sd-01-to-800-53-sa-8
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: medium
+parameter_map:
+  sa_8_prm_1: secure_design_principles
+rationale: functional
+relationship: intersects-with
+review_status: draft
+source_ref: control--ogrl-sd-01
+summary: >
+  The SDLC names secure design principles to apply, supplying the SA-8
+  principles; application across all lifecycle stages is broader.
+target_ref: requirement--nist-sp-800-53-r5-sa-8

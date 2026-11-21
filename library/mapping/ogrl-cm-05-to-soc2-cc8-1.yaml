@@ -1,0 +1,14 @@
+type: mapping
+id: mapping--ogrl-cm-05-to-soc2-cc8-1
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: high
+rationale: functional
+relationship: subset-of
+review_status: draft
+source_ref: control--ogrl-cm-05
+summary: >
+  Restricting who can implement production changes supports the authorized
+  change process under CC8.1.
+target_ref: requirement--soc2-tsc-2017-cc8-1

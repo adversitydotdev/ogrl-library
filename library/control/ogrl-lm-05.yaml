@@ -1,0 +1,46 @@
+type: control
+id: control--ogrl-lm-05
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+name: Processing Monitoring and Reconciliation
+display_id: OGRL-LM-05
+control_type: detective
+family: lm
+frequency: daily
+guidance: >
+  Emit job success, duration, and record-count metrics and alert on failures,
+  missed schedules, and dead-letter queue depth. Automate reconciliation
+  queries that compare source and destination counts or sums and open a ticket
+  on mismatch. Evidence is the alert configuration plus a sample of
+  reconciliation results and resolved discrepancy tickets.
+objective: >
+  Detect and correct incomplete or inaccurate processing before it affects
+  customers or downstream systems.
+origin: standard
+parameters:
+  discrepancy_resolution_sla:
+    label: Discrepancy resolution SLA
+    value: "2 business days"
+  monitored_processing_jobs:
+    label: Processing monitored for completeness
+    value: "scheduled jobs, data pipelines, and queue consumers that process customer data"
+  processing_owner:
+    label: Discrepancy owner
+    value: the owning engineering team
+  reconciliation_frequency:
+    label: Reconciliation frequency
+    value: daily
+statement: >
+  Monitor {{ monitored_processing_jobs }} for failures, delays, and incomplete
+  runs, reconcile record counts or control totals between inputs and outputs
+  {{ reconciliation_frequency }}, and route discrepancies to
+  {{ processing_owner }} for investigation and correction within
+  {{ discrepancy_resolution_sla }}.
+summary: >
+  Monitor processing jobs for failures and reconcile inputs to outputs,
+  correcting discrepancies promptly.
+tags:
+  - processing-integrity
+  - reconciliation
+  - monitoring

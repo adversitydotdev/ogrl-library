@@ -1,0 +1,14 @@
+type: mapping
+id: mapping--ogrl-cm-08-to-800-53-cm-11-c
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: high
+parameter_map:
+  cm_11_odp_03: software_compliance_review_frequency
+rationale: functional
+relationship: equivalent-to
+review_status: draft
+source_ref: control--ogrl-cm-08
+summary: "Periodic compliance review supplies the CM-11(c) monitoring frequency."
+target_ref: "requirement--nist-sp-800-53-r5-cm-11#c"

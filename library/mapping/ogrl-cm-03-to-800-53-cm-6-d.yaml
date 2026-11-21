@@ -1,0 +1,14 @@
+type: mapping
+id: mapping--ogrl-cm-03-to-800-53-cm-6-d
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: high
+rationale: functional
+relationship: subset-of
+review_status: draft
+source_ref: control--ogrl-cm-03
+summary: >
+  Automated drift detection and resolution monitors and controls changes to
+  configuration settings under CM-6(d).
+target_ref: "requirement--nist-sp-800-53-r5-cm-6#d"

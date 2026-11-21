@@ -1,0 +1,41 @@
+type: control
+id: control--ogrl-sd-07
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+name: Error Handling
+display_id: OGRL-SD-07
+control_type: corrective
+family: sd
+frequency: continuous
+guidance: >
+  Use a global exception handler that maps exceptions to generic responses
+  with a correlation ID. Disable framework debug modes in production. Wrap
+  multi-step writes in transactions and configure dead-letter queues with
+  alerting on depth for asynchronous consumers. Reconciliation of processed
+  volumes is covered by OGRL-LM-05.
+objective: >
+  Ensure processing errors are corrected rather than lost, without leaking
+  information useful to an attacker.
+origin: standard
+parameters:
+  error_detail_roles:
+    label: Roles permitted to view detailed errors
+    value: authorized engineering and support personnel
+  error_queue:
+    label: Failed transaction handling destination
+    value: a monitored dead-letter or error queue
+statement: >
+  Implement application error handling that returns messages giving users
+  enough information to correct the problem without exposing stack traces,
+  internal identifiers, queries, or system details, records detailed error
+  information only in logs accessible to {{ error_detail_roles }}, and rolls
+  back or routes failed transactions to {{ error_queue }} for retry or
+  correction so that no processing failure is silently discarded.
+summary: >
+  Return safe error messages, keep error detail restricted, and never silently
+  drop failed transactions.
+tags:
+  - error-handling
+  - processing-integrity
+  - application-security

@@ -1,0 +1,44 @@
+type: control
+id: control--ogrl-vm-05
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+name: Penetration Testing
+display_id: OGRL-VM-05
+control_type: detective
+family: vm
+frequency: annual
+guidance: >
+  Define rules of engagement and scope in a statement of work, include
+  authenticated testing of multi-tenant isolation, and import findings into
+  the vulnerability tracker. Keep the executive summary and retest letter as
+  evidence; many customers will request them.
+objective: >
+  Find exploitable weaknesses that automated scanning misses and confirm they
+  are fixed.
+origin: standard
+parameters:
+  pentest_frequency:
+    label: Penetration test frequency
+    value: annually
+  pentest_provider:
+    label: Penetration test provider
+    value: a qualified independent third party
+  pentest_scope:
+    label: Penetration test scope
+    value: >
+      the production application, public APIs, and external-facing cloud
+      infrastructure
+statement: >
+  Engage {{ pentest_provider }} to perform penetration testing of
+  {{ pentest_scope }} {{ pentest_frequency }} and after significant changes to
+  the external attack surface, remediate findings within the organization's
+  vulnerability remediation SLAs, and retest or otherwise validate fixes for
+  critical and high findings.
+summary: >
+  Commission independent penetration tests on a schedule and after major
+  changes, and remediate findings.
+tags:
+  - penetration-testing
+  - vulnerability-management
+  - assessment

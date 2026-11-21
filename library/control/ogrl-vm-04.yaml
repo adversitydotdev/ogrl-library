@@ -1,0 +1,44 @@
+type: control
+id: control--ogrl-vm-04
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+name: Security Alerts and Threat Intelligence
+display_id: OGRL-VM-04
+control_type: detective
+family: vm
+frequency: continuous
+guidance: >
+  Route vendor security bulletins, the CISA Known Exploited Vulnerabilities
+  feed, and GitHub security advisories into a shared channel or ticket queue
+  owned by security. Record a triage decision on each relevant advisory.
+  Remediation timelines follow OGRL-VM-01 and OGRL-VM-02.
+objective: >
+  Learn about relevant new threats and vulnerabilities promptly and ensure
+  they result in action.
+origin: standard
+parameters:
+  advisory_recipients:
+    label: Advisory dissemination recipients
+    value: affected service owners and the engineering on-call channel
+  advisory_sources:
+    label: Advisory and threat intelligence sources
+    value: >
+      vendors of in-scope software and cloud services, CISA (including the Known
+      Exploited Vulnerabilities catalog), and GitHub security advisories
+  advisory_triage_sla:
+    label: Advisory triage SLA
+    value: "2 business days"
+statement: >
+  Subscribe to security advisories and threat intelligence from
+  {{ advisory_sources }}, triage each advisory affecting in-scope technologies
+  within {{ advisory_triage_sla }}, disseminate actionable advisories to
+  {{ advisory_recipients }}, and track required actions to completion in the
+  issue tracker.
+summary: >
+  Receive external security advisories, triage those affecting in-scope
+  technology, and drive required actions.
+tags:
+  - threat-intelligence
+  - vulnerability-management
+  - advisories

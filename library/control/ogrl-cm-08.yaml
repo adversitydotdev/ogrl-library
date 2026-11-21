@@ -1,0 +1,48 @@
+type: control
+id: control--ogrl-cm-08
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+name: Least Functionality and Software Restriction
+display_id: OGRL-CM-08
+control_type: preventive
+family: cm
+frequency: continuous
+guidance: >
+  Use minimal or distroless base images, default-deny security groups, and
+  read-only root filesystems. On endpoints, remove local administrator rights
+  and use MDM-managed application catalogs or allow-listing. A quarterly
+  export of listening ports, image package lists, and MDM installed-software
+  reports provides evidence.
+objective: >
+  Reduce attack surface and prevent unauthorized or malicious software from
+  being introduced.
+origin: standard
+parameters:
+  approved_software_sources:
+    label: Approved software sources
+    value: >
+      approved package repositories, the internal container registry, and the
+      MDM-managed software catalog
+  software_compliance_review_frequency:
+    label: Software compliance review frequency
+    value: quarterly
+  software_enforcement_methods:
+    label: Software restriction enforcement methods
+    value: >
+      immutable container images, removal of local administrator rights, and MDM
+      application allow-listing
+statement: >
+  Configure production hosts and container images to run only the services,
+  ports, and protocols required for their function with all others disabled or
+  blocked by default, restrict software installation on production systems and
+  workforce endpoints to {{ approved_software_sources }} enforced through
+  {{ software_enforcement_methods }}, and review compliance
+  {{ software_compliance_review_frequency }}.
+summary: >
+  Run only required services and ports on production, and restrict software
+  installation to approved sources.
+tags:
+  - hardening
+  - least-functionality
+  - endpoint-security

@@ -1,0 +1,43 @@
+type: control
+id: control--ogrl-lm-03
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+name: Audit Log Protection
+display_id: OGRL-LM-03
+control_type: preventive
+family: lm
+frequency: continuous
+guidance: >
+  Ship logs to a separate logging account or project with S3 Object Lock, GCS
+  bucket lock, or equivalent retention locks. Deny log deletion and trail
+  modification with organization policies. Alert on events such as
+  StopLogging, DeleteTrail, or sink deletion. Log generation and retention
+  periods are covered by OGRL-LM-01.
+objective: >
+  Preserve the integrity and confidentiality of audit trails so they remain
+  trustworthy for investigations.
+origin: standard
+parameters:
+  log_reader_roles:
+    label: Roles permitted to read audit logs
+    value: security and designated on-call engineering roles
+  log_store:
+    label: Protected log storage location
+    value: a dedicated logging account or project separate from production workloads
+  log_tamper_alert_recipients:
+    label: Log tampering alert recipients
+    value: the security on-call team
+statement: >
+  Store audit logs in {{ log_store }} with immutable or write-once retention,
+  restrict read access to {{ log_reader_roles }}, prevent modification or
+  deletion by any user including administrators of the logged systems, and
+  alert {{ log_tamper_alert_recipients }} on attempts to disable logging,
+  change log configuration, or delete log data.
+summary: >
+  Store audit logs immutably with restricted access and alert on attempts to
+  tamper with logging.
+tags:
+  - logging
+  - integrity
+  - audit

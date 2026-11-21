@@ -1,0 +1,42 @@
+type: control
+id: control--ogrl-cm-04
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+name: Security Impact Analysis of Changes
+display_id: OGRL-CM-04
+control_type: preventive
+family: cm
+frequency: event-driven
+guidance: >
+  Add a security-impact section to the design document or pull-request
+  template that is required when a change matches a significant-change label.
+  Lightweight threat modeling (for example STRIDE on a data-flow diagram) is
+  sufficient for most changes. Organization-level risk re-evaluation for
+  significant business changes is covered by the risk family.
+objective: >
+  Ensure significant changes do not introduce unassessed security or privacy
+  risk into production.
+origin: standard
+parameters:
+  impact_reviewer:
+    label: Security impact sign-off authority
+    value: the security lead or a designated security reviewer
+  significant_change_types:
+    label: Changes requiring security impact analysis
+    value: >
+      significant changes, including new external integrations, changes to
+      authentication or authorization, new data stores holding customer data, and
+      network boundary changes
+statement: >
+  Before implementing {{ significant_change_types }}, document an analysis of
+  the change's potential security and privacy impact, covering affected data,
+  trust boundaries, access paths, and existing controls, and obtain sign-off
+  from {{ impact_reviewer }} prior to deployment.
+summary: >
+  Analyze and sign off on the security and privacy impact of significant
+  changes before they are deployed.
+tags:
+  - change-management
+  - threat-modeling
+  - risk

@@ -1,0 +1,49 @@
+type: control
+id: control--ogrl-cm-09
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+name: Software and Data Integrity Verification
+display_id: OGRL-CM-09
+control_type: detective
+family: cm
+frequency: continuous
+guidance: >
+  Sign build artifacts and container images in CI (for example Sigstore
+  cosign), pin deployments to image digests, and enforce signature
+  verification with an admission controller or deployment policy. Use file
+  integrity monitoring or immutable infrastructure for hosts. Integrity of
+  customer data stores is addressed by the data integrity control in the
+  cryptography family.
+objective: >
+  Detect and stop tampered or unauthorized software and configuration before
+  it can affect production.
+origin: standard
+parameters:
+  integrity_mechanisms:
+    label: Integrity verification mechanisms
+    value: >
+      cryptographic signing and digest pinning of artifacts and images, plus file
+      integrity monitoring on hosts
+  integrity_protected_assets:
+    label: Assets subject to integrity verification
+    value: >
+      build artifacts, container images, infrastructure-as-code templates, and
+      critical system binaries and configuration files
+  integrity_response_actions:
+    label: Actions on integrity failure
+    value: >
+      block the deployment or isolate the affected host, alert the security
+      on-call team, and open a security incident
+statement: >
+  Verify the integrity of {{ integrity_protected_assets }} using
+  {{ integrity_mechanisms }} before deployment and while running, and when
+  verification fails or an unauthorized change is detected,
+  {{ integrity_response_actions }}.
+summary: >
+  Verify the integrity of build artifacts and critical system files and act on
+  unauthorized changes.
+tags:
+  - integrity
+  - supply-chain
+  - file-integrity-monitoring

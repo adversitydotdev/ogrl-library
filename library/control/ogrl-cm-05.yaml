@@ -1,0 +1,41 @@
+type: control
+id: control--ogrl-cm-05
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+name: Production Change Access Restrictions
+display_id: OGRL-CM-05
+control_type: preventive
+family: cm
+frequency: continuous
+guidance: >
+  Grant production write access to the pipeline's workload identity (for
+  example GitHub Actions OIDC roles) rather than to humans. Keep human
+  production access read-only by default with just-in-time elevation. Use
+  GitHub environments with required reviewers and restrict who can modify
+  pipeline definitions. Evidence is the IAM policy export and the quarterly
+  review record.
+objective: >
+  Ensure production can only be changed through the controlled, reviewable
+  delivery path.
+origin: standard
+parameters:
+  change_access_review_frequency:
+    label: Production change access review frequency
+    value: quarterly
+  deploy_authorized_identities:
+    label: Identities permitted to change production
+    value: the automated deployment pipeline and a named set of platform engineers
+statement: >
+  Restrict permissions to deploy to or modify production systems to
+  {{ deploy_authorized_identities }} acting through the CI/CD pipeline or
+  infrastructure-as-code workflow, prohibit direct manual changes outside that
+  path except under the emergency change procedure, and review the identities
+  holding production change permissions {{ change_access_review_frequency }}.
+summary: >
+  Limit who and what can change production to the deployment pipeline and a
+  small reviewed set of identities.
+tags:
+  - change-management
+  - least-privilege
+  - ci-cd

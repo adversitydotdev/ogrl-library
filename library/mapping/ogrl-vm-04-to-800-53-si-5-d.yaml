@@ -1,0 +1,14 @@
+type: mapping
+id: mapping--ogrl-vm-04-to-800-53-si-5-d
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: medium
+rationale: functional
+relationship: intersects-with
+review_status: draft
+source_ref: control--ogrl-vm-04
+summary: >
+  Tracking required actions to completion overlaps SI-5(d), which also covers
+  formal directives and noncompliance notice.
+target_ref: "requirement--nist-sp-800-53-r5-si-5#d"

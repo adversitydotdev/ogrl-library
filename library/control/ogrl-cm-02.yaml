@@ -1,0 +1,51 @@
+type: control
+id: control--ogrl-cm-02
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+name: Baseline Configuration and Hardening Standards
+display_id: OGRL-CM-02
+control_type: preventive
+family: cm
+frequency: annual
+guidance: >
+  Express baselines as infrastructure-as-code modules, golden machine images,
+  hardened container base images, and organization-level cloud policies (for
+  example AWS SCPs, Azure Policy, or GCP organization policies). Keep a short
+  deviation register linked to the baseline repository. Use CIS Benchmarks or
+  provider security best-practice guides as the starting point and record
+  which settings were tailored and why. Drift detection against these
+  baselines is covered by OGRL-CM-03.
+objective: >
+  Ensure in-scope components start from, and remain traceable to, an approved
+  secure configuration rather than ad hoc vendor defaults.
+origin: standard
+parameters:
+  baseline_review_frequency:
+    label: Baseline review frequency
+    value: annually
+  baseline_scope:
+    label: Components covered by hardened baselines
+    value: >
+      cloud accounts and projects, compute images, container base images, managed
+      databases, and network configurations
+  deviation_approver:
+    label: Baseline deviation approver
+    value: the security lead
+  hardening_benchmark:
+    label: Hardening benchmark source
+    value: "CIS Benchmarks or the cloud provider's security best-practice guidance"
+statement: >
+  Define hardened baseline configurations for {{ baseline_scope }} derived
+  from {{ hardening_benchmark }}, maintain them as version-controlled code or
+  templates, provision new components only from an approved baseline, require
+  documented approval by {{ deviation_approver }} for any deviation, and
+  review and update each baseline {{ baseline_review_frequency }} and whenever
+  covered components are introduced or upgraded.
+summary: >
+  Define hardened, version-controlled configuration baselines for in-scope
+  components and build new components only from them.
+tags:
+  - configuration-management
+  - hardening
+  - infrastructure-as-code

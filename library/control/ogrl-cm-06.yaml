@@ -1,0 +1,37 @@
+type: control
+id: control--ogrl-cm-06
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+name: Emergency Change Procedure
+display_id: OGRL-CM-06
+control_type: corrective
+family: cm
+frequency: event-driven
+guidance: >
+  Use a dedicated emergency label or break-glass deployment workflow that
+  records who invoked it and requires an incident ID. A weekly query for
+  merges that bypassed branch protection or deployments without an approved
+  review gives auditors a complete population to sample.
+objective: "Allow rapid remediation without creating an unreviewed path into production.\n"
+origin: standard
+parameters:
+  emergency_authorizer:
+    label: Emergency change authorizer
+    value: the incident commander or on-call engineering lead
+  retro_review_window:
+    label: Retrospective review deadline
+    value: "2 business days"
+statement: >
+  Permit changes that bypass standard pre-deployment approval only when
+  authorized by {{ emergency_authorizer }} to resolve an active incident or
+  critical vulnerability, record each emergency change with its justification
+  and linked incident or ticket, and complete retrospective peer review and
+  approval of the change within {{ retro_review_window }}.
+summary: >
+  Allow expedited production changes during incidents while preserving
+  authorization, records, and after-the-fact review.
+tags:
+  - change-management
+  - emergency-change
+  - incident-response

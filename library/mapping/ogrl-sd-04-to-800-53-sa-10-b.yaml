@@ -1,0 +1,16 @@
+type: mapping
+id: mapping--ogrl-sd-04-to-800-53-sa-10-b
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: high
+parameter_map:
+  sa_10_odp_02: versioned_assets
+rationale: functional
+relationship: equivalent-to
+review_status: draft
+source_ref: control--ogrl-sd-04
+summary: >
+  Versioning all production assets and protecting branches controls the
+  integrity of changes to configuration items per SA-10(b).
+target_ref: "requirement--nist-sp-800-53-r5-sa-10#b"
