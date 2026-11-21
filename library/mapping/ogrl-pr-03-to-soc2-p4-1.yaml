@@ -1,0 +1,12 @@
+type: mapping
+id: mapping--ogrl-pr-03-to-soc2-p4-1
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: high
+rationale: functional
+relationship: subset-of
+review_status: draft
+source_ref: control--ogrl-pr-03
+summary: Restricting use to documented purposes addresses the use limitation in P4.1.
+target_ref: requirement--soc2-tsc-2017-p4-1

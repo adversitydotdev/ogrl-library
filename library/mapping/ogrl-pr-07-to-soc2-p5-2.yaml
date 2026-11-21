@@ -1,0 +1,14 @@
+type: mapping
+id: mapping--ogrl-pr-07-to-soc2-p5-2
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: high
+rationale: functional
+relationship: subset-of
+review_status: draft
+source_ref: control--ogrl-pr-07
+summary: >
+  Correction handling with recipient notification and denial reasons addresses
+  P5.2.
+target_ref: requirement--soc2-tsc-2017-p5-2

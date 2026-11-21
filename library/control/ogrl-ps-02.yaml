@@ -1,0 +1,49 @@
+type: control
+id: control--ogrl-ps-02
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+name: Physical Access Control
+display_id: OGRL-PS-02
+control_type: preventive
+family: ps
+frequency: continuous
+guidance: >
+  Badge readers that log each entry satisfy both enforcement and logging;
+  areas that rely on physical keys need a key register. Inventory issued
+  badges against ps-01's authorized list to catch orphaned credentials. Where
+  production runs on a cloud provider, data-center physical controls are
+  inherited from the provider and validated by reviewing its SOC 2 report;
+  offices and any organization-operated server, network, or storage rooms
+  remain in scope.
+objective: >
+  Prevent unauthorized individuals from entering facilities that house
+  personnel or system components, and keep a record of who entered.
+origin: standard
+parameters:
+  access_device_inventory_cadence:
+    label: Physical access device inventory frequency
+    value: annually
+  controlled_facilities:
+    label: Controlled facilities
+    value: "company offices and any organization-operated server, network, or storage rooms"
+  entry_control_mechanism:
+    label: Entry control mechanism
+    value: electronic badge readers or keyed locks
+  entry_log_retention:
+    label: Physical entry log retention
+    value: "90 days"
+statement: >
+  Enforce physical access authorizations at every entry and exit point of
+  {{ controlled_facilities }} using {{ entry_control_mechanism }}, retain
+  electronic entry logs for {{ entry_log_retention }}, secure unissued keys,
+  badges, and combinations, inventory physical access devices
+  {{ access_device_inventory_cadence }}, and change combinations or rekey
+  locks when a key or code is lost or compromised or its holder leaves.
+summary: >
+  Enforce authorized entry at every facility entry point and keep keys,
+  badges, and combinations under inventory and control.
+tags:
+  - physical-security
+  - access-control
+  - facilities

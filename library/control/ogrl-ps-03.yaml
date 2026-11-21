@@ -1,0 +1,49 @@
+type: control
+id: control--ogrl-ps-03
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+name: Visitor Access Records
+display_id: OGRL-PS-03
+control_type: detective
+family: ps
+frequency: monthly
+guidance: >
+  A tablet-based visitor management system or front-desk sign-in sheet both
+  work; capture host and badge-return evidence. Anomalies include unescorted
+  visitors, missing sign-outs, and unreturned visitor badges. In shared
+  buildings, building-reception logs may be used if the organization can
+  retrieve entries for its own visitors. Where production runs on a cloud
+  provider, data-center physical controls are inherited from the provider and
+  validated by reviewing its SOC 2 report; offices and any
+  organization-operated server, network, or storage rooms remain in scope.
+objective: >
+  Maintain accountability for non-workforce individuals who enter facilities
+  and detect unusual visitor activity.
+origin: standard
+parameters:
+  controlled_facilities:
+    label: Controlled facilities
+    value: "company offices and any organization-operated server, network, or storage rooms"
+  visitor_anomaly_recipient:
+    label: Recipient of visitor anomaly reports
+    value: the security team
+  visitor_record_retention:
+    label: Visitor record retention period
+    value: "1 year"
+  visitor_review_cadence:
+    label: Visitor record review frequency
+    value: monthly
+statement: >
+  Record each visitor to {{ controlled_facilities }} with name, organization,
+  host, and times of arrival and departure, escort visitors in non-public
+  areas, retain visitor records for {{ visitor_record_retention }}, review the
+  records {{ visitor_review_cadence }}, and report anomalies to
+  {{ visitor_anomaly_recipient }}.
+summary: >
+  Log every visitor, escort them in non-public areas, and review the visitor
+  log for anomalies.
+tags:
+  - physical-security
+  - visitor-management
+  - facilities

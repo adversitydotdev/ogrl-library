@@ -1,0 +1,36 @@
+type: control
+id: control--ogrl-pr-03
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+name: Purpose Specification and Use Limitation
+display_id: OGRL-PR-03
+control_type: preventive
+family: pr
+frequency: event-driven
+guidance: >
+  Record purposes and legal basis per processing activity in the PII inventory
+  (pr-05). Add a privacy checkbox to product and data-pipeline design reviews
+  so new uses (analytics, ML training, marketing) trigger review before
+  launch.
+objective: >
+  Prevent personal information from being used for purposes individuals were
+  not told about or that lack a legal basis.
+origin: standard
+parameters:
+  purpose_change_review:
+    label: Review required for new or changed purposes
+    value: a documented privacy review approved by the privacy lead
+statement: >
+  Document the purposes and legal authority for each personal information
+  processing activity, reflect those purposes in the privacy notice, restrict
+  collection and use of personal information to the documented purposes, and
+  require {{ purpose_change_review }} before personal information is processed
+  for a new or changed purpose.
+summary: >
+  Document the purpose and legal authority for each PII processing activity
+  and restrict use to those purposes.
+tags:
+  - privacy
+  - purpose-limitation
+  - data-governance

@@ -1,0 +1,50 @@
+type: control
+id: control--ogrl-ps-05
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+name: Environmental Safeguards
+display_id: OGRL-PS-05
+control_type: preventive
+family: ps
+frequency: continuous
+guidance: >
+  Applies only to server rooms, network closets, or on-premises data centers
+  run by the organization. For cloud-hosted production, these safeguards are
+  inherited from the provider and validated through its SOC 2 report; document
+  the inheritance and review the report each year. Office spaces with only
+  laptops and a network switch typically need only UPS for network gear and
+  landlord-provided fire protection.
+objective: >
+  Prevent loss of availability or equipment damage from environmental hazards
+  in facilities the organization operates.
+origin: standard
+parameters:
+  environmental_factors:
+    label: Environmental factors controlled
+    value: temperature and humidity
+  environmental_monitoring_cadence:
+    label: Environmental monitoring frequency
+    value: continuously
+  environmental_ranges:
+    label: Acceptable environmental ranges
+    value: "the equipment manufacturer's recommended operating ranges"
+  ups_capability:
+    label: Uninterruptible power supply capability
+    value: an orderly shutdown of in-scope systems
+statement: >
+  In each organization-operated facility that houses in-scope system
+  components, maintain {{ environmental_factors }} within
+  {{ environmental_ranges }} and monitor them
+  {{ environmental_monitoring_cadence }} with alerting; provide an
+  uninterruptible power supply sufficient to allow {{ ups_capability }};
+  employ fire detection and suppression systems with an independent power
+  source; and keep master water shutoff or isolation valves accessible,
+  working, and known to facilities personnel.
+summary: >
+  Protect organization-operated equipment rooms with environmental monitoring,
+  backup power, fire protection, and water-damage protection.
+tags:
+  - physical-security
+  - environmental-controls
+  - availability

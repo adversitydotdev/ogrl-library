@@ -1,0 +1,42 @@
+type: control
+id: control--ogrl-pr-02
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+name: Consent Management
+display_id: OGRL-PR-02
+control_type: preventive
+family: pr
+frequency: event-driven
+guidance: >
+  Use unchecked opt-in boxes or a consent management platform; store consent
+  records in a system queryable by user ID. Withdrawal should be as easy as
+  giving consent and must propagate to downstream processors such as marketing
+  tools.
+objective: >
+  Ensure personal information processed on the basis of consent is backed by a
+  valid, provable, and revocable consent.
+origin: standard
+parameters:
+  consent_mechanism:
+    label: Consent collection mechanism
+    value: unbundled opt-in controls presented with a link to the privacy notice
+  consent_withdrawal_sla:
+    label: Consent withdrawal processing SLA
+    value: "10 business days"
+  sensitive_pii_categories:
+    label: Sensitive personal information categories
+    value: "health, biometric, financial, precise location, or government ID data"
+statement: >
+  Where consent is the basis for processing, obtain informed, affirmative
+  consent through {{ consent_mechanism }} before collecting personal
+  information, obtain separate explicit consent before collecting
+  {{ sensitive_pii_categories }}, record each consent with the individual,
+  scope, timestamp, and notice version, and give effect to consent withdrawals
+  within {{ consent_withdrawal_sla }}.
+summary: >
+  Obtain, record, and honor withdrawal of consent wherever consent is the
+  basis for processing personal information.
+tags:
+  - privacy
+  - consent

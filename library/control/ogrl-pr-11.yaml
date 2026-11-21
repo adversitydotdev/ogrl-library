@@ -1,0 +1,48 @@
+type: control
+id: control--ogrl-pr-11
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+name: Privacy Inquiry and Complaint Management
+display_id: OGRL-PR-11
+control_type: corrective
+family: pr
+frequency: event-driven
+guidance: >
+  A shared privacy mailbox feeding a ticket queue with SLA timers is usually
+  enough. Report complaint volume and themes to leadership periodically and
+  feed recurring issues into the privacy risk assessment.
+objective: >
+  Ensure individuals' privacy concerns are heard, addressed in a timely way,
+  and used to improve privacy practices.
+origin: standard
+parameters:
+  complaint_acknowledgement_sla:
+    label: Complaint acknowledgement SLA
+    value: "5 business days"
+  complaint_channels:
+    label: Privacy complaint channels
+    value: a privacy email address and web form linked from the privacy notice
+  complaint_resolution_sla:
+    label: Complaint resolution SLA
+    value: "60 days"
+  complaint_response_sla:
+    label: Complaint response SLA
+    value: "30 days"
+  privacy_lead_role:
+    label: Accountable privacy role
+    value: the privacy lead
+statement: >
+  Designate {{ privacy_lead_role }} as accountable for privacy inquiries and
+  complaints, publish {{ complaint_channels }} together with the information
+  needed to file a complaint, track each inquiry or complaint to closure,
+  acknowledge it within {{ complaint_acknowledgement_sla }}, respond within
+  {{ complaint_response_sla }}, and resolve or escalate it within
+  {{ complaint_resolution_sla }}.
+summary: >
+  Receive, track, and respond to privacy inquiries and complaints within
+  defined timelines under an accountable privacy lead.
+tags:
+  - privacy
+  - complaint-management
+  - accountability

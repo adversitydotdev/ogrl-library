@@ -1,0 +1,12 @@
+type: mapping
+id: mapping--ogrl-ps-05-to-800-53-pe-13
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: high
+rationale: functional
+relationship: equivalent-to
+review_status: draft
+source_ref: control--ogrl-ps-05
+summary: Fire detection and suppression with independent power satisfies PE-13.
+target_ref: requirement--nist-sp-800-53-r5-pe-13

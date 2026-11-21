@@ -1,0 +1,41 @@
+type: control
+id: control--ogrl-pr-09
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+name: Accounting of Disclosures
+display_id: OGRL-PR-09
+control_type: detective
+family: pr
+frequency: event-driven
+guidance: >
+  Routine sharing with contracted processors can be recorded at category level
+  via the subprocessor list and PII inventory; ad hoc disclosures (law
+  enforcement requests, data transfers to partners, unauthorized disclosures
+  found during incidents) should be logged individually in a ticket or
+  register.
+objective: >
+  Maintain a reliable history of who received personal information and why,
+  supporting individual rights and investigations.
+origin: standard
+parameters:
+  disclosure_accounting_sla:
+    label: Disclosure accounting response SLA
+    value: "30 days"
+  disclosure_record_retention:
+    label: Disclosure record retention period
+    value: the longer of the life of the information or five years after disclosure
+statement: >
+  Record each disclosure of personal information to a third party with the
+  date, nature and purpose of the disclosure, and the recipient's name and
+  contact information, retain each record for
+  {{ disclosure_record_retention }}, and provide individuals with the record
+  of disclosures of their personal information within
+  {{ disclosure_accounting_sla }} of request.
+summary: >
+  Record disclosures of personal information to third parties and make the
+  record available to affected individuals on request.
+tags:
+  - privacy
+  - disclosure-tracking
+  - data-sharing

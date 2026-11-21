@@ -1,0 +1,35 @@
+type: control
+id: control--ogrl-pr-05
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+name: PII Inventory and Processing Records
+display_id: OGRL-PR-05
+control_type: detective
+family: pr
+frequency: annual
+guidance: >
+  A spreadsheet or data-map tool is sufficient; seed it from the system and
+  vendor inventories and data-discovery scans. Make updates part of the change
+  and vendor-onboarding workflows.
+objective: >
+  Provide an accurate record of where personal information lives and how it
+  flows, enabling notice, rights requests, and risk management.
+origin: standard
+parameters:
+  pii_inventory_review_cadence:
+    label: PII inventory review frequency
+    value: annually
+statement: >
+  Maintain an inventory of systems, applications, vendors, and projects that
+  process personal information, recording for each the personal information
+  categories, data subjects, purposes, legal basis, storage locations,
+  recipients, and retention period; update it when processing changes and
+  review it in full {{ pii_inventory_review_cadence }}.
+summary: >
+  Maintain an inventory of systems, vendors, and processing activities that
+  handle personal information.
+tags:
+  - privacy
+  - data-inventory
+  - data-mapping

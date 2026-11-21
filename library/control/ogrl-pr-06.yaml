@@ -1,0 +1,44 @@
+type: control
+id: control--ogrl-pr-06
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+name: Data Subject Access Requests
+display_id: OGRL-PR-06
+control_type: corrective
+family: pr
+frequency: event-driven
+guidance: >
+  Track requests in a ticketing queue with due dates; use the PII inventory
+  (pr-05) to locate data across systems and processors. Avoid over-collecting
+  identity documents for verification; matching account login or a verified
+  email is usually enough.
+objective: >
+  Enable individuals to learn what personal information the organization holds
+  about them in a timely and secure manner.
+origin: standard
+parameters:
+  access_request_channels:
+    label: Access request channels
+    value: a web form and a published privacy email address
+  access_request_elements:
+    label: Personal information disclosed in response
+    value: "a copy of their personal information and its categories, sources, and recipients"
+  access_request_sla:
+    label: Access request response SLA
+    value: "30 days"
+  requester_verification_method:
+    label: Requester identity verification method
+    value: account authentication or confirmation via the email address on file
+statement: >
+  Provide {{ access_request_channels }} through which individuals can request
+  access to their personal information, verify the requester's identity using
+  {{ requester_verification_method }}, provide {{ access_request_elements }}
+  within {{ access_request_sla }}, and log each request, its outcome, and the
+  reason for any denial.
+summary: >
+  Give individuals a way to request and receive the personal information held
+  about them, within a defined timeline.
+tags:
+  - privacy
+  - data-subject-rights

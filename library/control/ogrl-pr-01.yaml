@@ -1,0 +1,46 @@
+type: control
+id: control--ogrl-pr-01
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+name: Privacy Notice
+display_id: OGRL-PR-01
+control_type: preventive
+family: pr
+frequency: annual
+guidance: >
+  Link the notice from sign-up flows, the website footer, and mobile app
+  settings; keep a version history with effective dates. Have legal or the
+  privacy lead confirm the notice still matches the PII inventory at each
+  review.
+objective: >
+  Ensure individuals are informed about how their personal information is
+  processed before and while it is processed.
+origin: standard
+parameters:
+  notice_change_lead_time:
+    label: Advance notice of material changes
+    value: at least 30 days before they take effect
+  notice_contents:
+    label: Required privacy notice contents
+    value: "data categories, sources, recipients, retention, individual rights, and contacts"
+  notice_locations:
+    label: Privacy notice locations
+    value: the public website and every point where personal information is collected
+  notice_review_cadence:
+    label: Privacy notice review frequency
+    value: annually
+statement: >
+  Publish a plain-language privacy notice at {{ notice_locations }} that is
+  available before or at first collection of personal information and that
+  states the purposes and legal basis for processing and includes
+  {{ notice_contents }}; review the notice {{ notice_review_cadence }} and
+  before any material change in processing, and inform affected individuals of
+  material changes {{ notice_change_lead_time }}.
+summary: >
+  Publish a plain-language privacy notice at the point of collection and keep
+  it current.
+tags:
+  - privacy
+  - privacy-notice
+  - transparency
