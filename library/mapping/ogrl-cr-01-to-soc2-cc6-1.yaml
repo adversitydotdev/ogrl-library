@@ -1,0 +1,14 @@
+type: mapping
+id: mapping--ogrl-cr-01-to-soc2-cc6-1
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: medium
+rationale: functional
+relationship: intersects-with
+review_status: draft
+source_ref: control--ogrl-cr-01
+summary: >
+  Encryption at rest protects information assets as part of the logical access
+  safeguards in CC6.1.
+target_ref: requirement--soc2-tsc-2017-cc6-1
