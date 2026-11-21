@@ -1,0 +1,14 @@
+type: mapping
+id: mapping--ogrl-ir-05-to-800-53-ir-4-c
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: high
+rationale: functional
+relationship: equivalent-to
+review_status: draft
+source_ref: control--ogrl-ir-05
+summary: >
+  Post-incident reviews with tracked corrective actions feed lessons learned
+  into procedures, training, and testing as IR-4(c) requires.
+target_ref: "requirement--nist-sp-800-53-r5-ir-4#c"

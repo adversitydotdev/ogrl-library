@@ -1,0 +1,38 @@
+type: control
+id: control--ogrl-bc-07
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+name: Business Impact Analysis
+display_id: OGRL-BC-07
+control_type: preventive
+family: bc
+frequency: annual
+guidance: >
+  Keep the analysis lightweight: a table of customer-facing services and
+  internal functions with their supporting cloud resources, data stores, and
+  SaaS vendors, a criticality tier, impact over time (for example at 1 hour, 1
+  day, 1 week), and the resulting recovery objectives. Draw dependencies from
+  the system inventory (OGRL-AM-01) and vendor inventory (OGRL-TP-01). Feed
+  results into the continuity plan (OGRL-BC-01).
+objective: >
+  Ensure recovery priorities and objectives reflect the actual impact of
+  disruption on customers and the business.
+origin: standard
+parameters:
+  bia_cadence:
+    label: Business impact analysis frequency
+    value: at least annually
+statement: >
+  Perform a business impact analysis {{ bia_cadence }} and upon significant
+  changes to services or infrastructure that identifies critical business
+  functions and the systems, data, personnel, and third-party dependencies
+  supporting them, rates their criticality, and determines the maximum
+  tolerable downtime and data loss used to set recovery objectives.
+summary: >
+  Analyze the impact of disruption to critical business functions and the
+  systems and dependencies that support them to set recovery objectives.
+tags:
+  - business-continuity
+  - business-impact-analysis
+  - risk-assessment

@@ -1,0 +1,50 @@
+type: control
+id: control--ogrl-bc-01
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+name: Business Continuity and Disaster Recovery Plan
+display_id: OGRL-BC-01
+control_type: corrective
+family: bc
+frequency: annual
+guidance: >
+  Cover cloud-relevant scenarios such as availability zone and region outages,
+  cloud account compromise or ransomware, loss of a critical SaaS dependency
+  (identity provider, code hosting, payment processor), and loss of key
+  personnel. Derive recovery objectives from the business impact analysis
+  (OGRL-BC-07) and customer SLAs. Keep a copy accessible outside the primary
+  environment in case SSO or the main workspace is unavailable, and restrict
+  edit access. Align with the incident response plan (OGRL-IR-01) and fold in
+  lessons from plan tests (OGRL-BC-02).
+objective: >
+  Ensure the organization can sustain critical services and restore systems to
+  normal operation within committed timeframes after a disruption.
+origin: standard
+parameters:
+  plan_approver:
+    label: Plan approval authority
+    value: executive leadership
+  plan_recipients:
+    label: Recipients of plan changes
+    value: key contingency personnel and critical service owners
+  plan_review_cadence:
+    label: Plan review frequency
+    value: at least annually
+statement: >
+  Maintain a documented business continuity and disaster recovery plan,
+  approved by {{ plan_approver }}, that identifies critical services with
+  their recovery time and recovery point objectives, recovery priorities,
+  contingency roles with current contact information, and procedures for
+  continuing operations during a disruption and fully restoring systems
+  afterward; review and update the plan {{ plan_review_cadence }} and after
+  significant changes or tests, and communicate changes to
+  {{ plan_recipients }}.
+summary: >
+  Maintain an approved business continuity and disaster recovery plan that
+  defines recovery objectives, priorities, roles, and procedures, and keep it
+  current.
+tags:
+  - business-continuity
+  - disaster-recovery
+  - resilience

@@ -1,0 +1,12 @@
+type: mapping
+id: mapping--ogrl-cr-04-to-soc2-c1-2
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: medium
+rationale: functional
+relationship: subset-of
+review_status: draft
+source_ref: control--ogrl-cr-04
+summary: Media sanitization is one mechanism for disposing of confidential information.
+target_ref: requirement--soc2-tsc-2017-c1-2

@@ -1,0 +1,14 @@
+type: mapping
+id: mapping--ogrl-ir-02-to-soc2-cc7-3
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: high
+rationale: functional
+relationship: intersects-with
+review_status: draft
+source_ref: control--ogrl-ir-02
+summary: >
+  Triage and severity classification determine whether security events are
+  incidents requiring response.
+target_ref: requirement--soc2-tsc-2017-cc7-3

@@ -1,0 +1,42 @@
+type: control
+id: control--ogrl-ir-03
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+name: Incident Tracking and Documentation
+display_id: OGRL-IR-03
+control_type: detective
+family: ir
+frequency: event-driven
+guidance: >
+  Use a dedicated ticket type or project with mandatory fields rather than
+  free-form chat threads, and link alerts, incident channel exports, and
+  post-incident reviews to the record. Restrict who can delete incident
+  records. Report incident counts, time to detect, and time to resolve to
+  leadership periodically. Auditors typically sample incidents for
+  completeness, so keep the register even in periods with no incidents and
+  document that none occurred.
+objective: >
+  Maintain a complete and reliable history of incidents that supports
+  coordinated response, trend analysis, and audit evidence.
+origin: standard
+parameters:
+  incident_record_retention:
+    label: Incident record retention period
+    value: at least 3 years
+  incident_tracking_system:
+    label: Incident tracking system
+    value: a dedicated incident ticket queue with mandatory fields
+statement: >
+  Record every security incident in {{ incident_tracking_system }} from
+  detection through closure, capturing at minimum the detection source,
+  timeline, severity, affected systems and data, actions taken, responsible
+  owner, and resolution, and retain incident records for
+  {{ incident_record_retention }}.
+summary: >
+  Record every security incident in a tracking system from detection through
+  closure with a consistent set of required details.
+tags:
+  - incident-response
+  - documentation
+  - tracking

@@ -1,0 +1,44 @@
+type: control
+id: control--ogrl-bc-09
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+name: Denial-of-Service Protection
+display_id: OGRL-BC-09
+control_type: preventive
+family: bc
+frequency: continuous
+guidance: >
+  Place public endpoints behind a CDN or cloud load balancer with provider
+  DDoS protection, add WAF rate-based rules for login, signup, and expensive
+  API routes, and apply per-tenant or per-key API quotas. Avoid exposing
+  origin servers directly. Keep a runbook for engaging the provider's DDoS
+  response team during large attacks.
+objective: Keep services available to legitimate users during denial-of-service attacks.
+origin: standard
+parameters:
+  dos_alert_recipients:
+    label: Denial-of-service alert recipients
+    value: the on-call engineering team
+  dos_event_types:
+    label: Denial-of-service event types
+    value: >
+      volumetric network floods, protocol attacks, and application-layer request
+      floods
+  dos_protections:
+    label: Denial-of-service protections
+    value: >
+      cloud DDoS mitigation, web application firewall rate limiting, and API
+      request quotas
+statement: >
+  Protect internet-facing services against the effects of
+  {{ dos_event_types }} by employing {{ dos_protections }} in front of all
+  public endpoints, and alert {{ dos_alert_recipients }} when attack traffic
+  or rate-limit thresholds are exceeded.
+summary: >
+  Protect internet-facing services against denial-of-service attacks with
+  layered mitigations and alerting.
+tags:
+  - ddos
+  - availability
+  - network-security

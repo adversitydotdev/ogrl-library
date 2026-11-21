@@ -1,0 +1,14 @@
+type: mapping
+id: mapping--ogrl-ir-02-to-800-53-ir-4-d
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: medium
+rationale: functional
+relationship: intersects-with
+review_status: draft
+source_ref: control--ogrl-ir-02
+summary: >
+  A shared severity matrix and runbooks make incident handling consistent,
+  contributing to the predictability IR-4(d) expects across the organization.
+target_ref: "requirement--nist-sp-800-53-r5-ir-4#d"

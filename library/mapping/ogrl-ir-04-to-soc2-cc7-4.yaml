@@ -1,0 +1,14 @@
+type: mapping
+id: mapping--ogrl-ir-04-to-soc2-cc7-4
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: high
+rationale: functional
+relationship: intersects-with
+review_status: draft
+source_ref: control--ogrl-ir-04
+summary: >
+  Internal escalation and external notification are part of responding to
+  identified incidents.
+target_ref: requirement--soc2-tsc-2017-cc7-4

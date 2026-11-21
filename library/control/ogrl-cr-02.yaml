@@ -1,0 +1,45 @@
+type: control
+id: control--ogrl-cr-02
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+name: Cryptographic Key Management
+display_id: OGRL-CR-02
+control_type: preventive
+family: cr
+frequency: continuous
+guidance: >
+  Use a cloud KMS (AWS KMS, Google Cloud KMS, Azure Key Vault) with HSM-backed
+  keys and enable automatic rotation for customer-managed keys. Separate key
+  administrators from key users in IAM policy, require a waiting period before
+  key deletion, and send KMS audit events to the central log store. Manage TLS
+  certificates through a managed certificate service with automated renewal.
+  Keep a key inventory recording owner and purpose, and never embed key
+  material in source code or images (see OGRL-AC-06).
+objective: >
+  Keep cryptographic keys confidential, available, and under authorized
+  control throughout their lifecycle so that encryption remains effective.
+origin: standard
+parameters:
+  key_management_system:
+    label: Key management system
+    value: a FIPS 140-validated cloud key management service or HSM
+  key_rotation_period:
+    label: Key rotation frequency
+    value: at least annually
+  key_scope:
+    label: Data and services protected by managed keys
+    value: "production data stores, backups, and TLS endpoints"
+statement: >
+  Generate, store, and use cryptographic keys protecting {{ key_scope }}
+  within {{ key_management_system }}, restrict key administration and key use
+  to authorized roles through least-privilege policies, rotate keys
+  {{ key_rotation_period }} and upon suspected compromise, and log all key
+  administration actions.
+summary: >
+  Manage encryption keys in a dedicated key management service with restricted
+  access, periodic rotation, and logged administration.
+tags:
+  - cryptography
+  - key-management
+  - kms

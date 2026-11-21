@@ -1,0 +1,44 @@
+type: control
+id: control--ogrl-bc-08
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+name: Capacity Planning and Monitoring
+display_id: OGRL-BC-08
+control_type: detective
+family: bc
+frequency: continuous
+guidance: >
+  Use cloud-native metrics and alarms for CPU, memory, disk, connection
+  counts, queue depth, and service quota usage, and enable autoscaling with
+  sensible maximums. Confirm that quotas and reserved capacity in the failover
+  region can absorb production load. Record capacity reviews in a recurring
+  ticket or meeting notes with resulting actions.
+objective: >
+  Maintain sufficient capacity to meet availability commitments as demand
+  grows and during failover.
+origin: standard
+parameters:
+  capacity_alert_recipients:
+    label: Capacity alert recipients
+    value: the on-call engineering team
+  capacity_alert_threshold:
+    label: Capacity alert threshold
+    value: "80 percent of provisioned capacity or quota"
+  capacity_review_cadence:
+    label: Capacity review frequency
+    value: quarterly
+statement: >
+  Monitor utilization of critical compute, storage, database, and network
+  resources and cloud service quotas, alert {{ capacity_alert_recipients }}
+  when utilization exceeds {{ capacity_alert_threshold }}, and review capacity
+  forecasts {{ capacity_review_cadence }} to provision additional capacity,
+  including the capacity needed to operate from alternate locations during
+  contingency operations.
+summary: >
+  Monitor resource utilization and quotas against thresholds and periodically
+  forecast capacity needs, including for contingency operations.
+tags:
+  - capacity
+  - availability
+  - monitoring

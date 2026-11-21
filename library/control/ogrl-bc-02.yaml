@@ -1,0 +1,45 @@
+type: control
+id: control--ogrl-bc-02
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+name: Continuity and Recovery Plan Testing
+display_id: OGRL-BC-02
+control_type: detective
+family: bc
+frequency: annual
+guidance: >
+  Combine a tabletop walkthrough with a technical exercise such as promoting a
+  database replica in another region or rebuilding an environment from
+  infrastructure as code into a clean account. Measure actual recovery time
+  and data loss and compare them with stated objectives. Tests may share a
+  session with incident response tabletops (OGRL-IR-01) but keep separate
+  results records. Feed findings back into the plan (OGRL-BC-01).
+objective: >
+  Demonstrate that recovery procedures work and objectives are achievable, and
+  correct weaknesses before a real disruption.
+origin: standard
+parameters:
+  dr_test_cadence:
+    label: Plan test frequency
+    value: at least annually
+  dr_test_methods:
+    label: Plan test methods
+    value: >
+      a tabletop walkthrough and a technical failover or restoration exercise for
+      at least one critical service
+  dr_test_reviewer:
+    label: Test results reviewer
+    value: the business continuity plan owner
+statement: >
+  Test the business continuity and disaster recovery plan
+  {{ dr_test_cadence }} using {{ dr_test_methods }}, document results against
+  recovery time and recovery point objectives, have results reviewed by
+  {{ dr_test_reviewer }}, and track identified gaps to remediation.
+summary: >
+  Exercise the business continuity and disaster recovery plan on a schedule,
+  review results against recovery objectives, and remediate gaps.
+tags:
+  - business-continuity
+  - disaster-recovery
+  - testing

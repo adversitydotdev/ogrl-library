@@ -1,0 +1,14 @@
+type: mapping
+id: mapping--ogrl-bc-06-to-soc2-a1-2
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: medium
+rationale: functional
+relationship: intersects-with
+review_status: draft
+source_ref: control--ogrl-bc-06
+summary: >
+  Runbook-driven restoration within objectives relies on and exercises the
+  recovery infrastructure.
+target_ref: requirement--soc2-tsc-2017-a1-2

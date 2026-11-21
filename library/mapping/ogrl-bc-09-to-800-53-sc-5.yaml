@@ -1,0 +1,15 @@
+type: mapping
+id: mapping--ogrl-bc-09-to-800-53-sc-5
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: high
+parameter_map:
+  sc_05_odp_01: dos_event_types
+  sc_05_odp_03: dos_protections
+rationale: functional
+relationship: equivalent-to
+review_status: draft
+source_ref: control--ogrl-bc-09
+summary: Layered denial-of-service mitigations for defined attack types satisfy SC-5.
+target_ref: requirement--nist-sp-800-53-r5-sc-5

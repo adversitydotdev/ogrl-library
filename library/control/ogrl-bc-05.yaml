@@ -1,0 +1,46 @@
+type: control
+id: control--ogrl-bc-05
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+name: Redundant Processing and Storage Sites
+display_id: OGRL-BC-05
+control_type: preventive
+family: bc
+frequency: continuous
+guidance: >
+  In cloud environments, alternate sites are additional availability zones and
+  regions rather than separate data centers, and provider agreements cover the
+  facilities. Deploy stateless tiers across zones behind load balancers and
+  use multi-zone managed databases. For regional failover, keep infrastructure
+  as code and container images deployable to a secondary region and replicate
+  backups there. Apply identical IaC modules, IAM guardrails, logging, and
+  encryption settings to every region so the secondary environment is not a
+  weaker target.
+objective: >
+  Ensure the loss of a single facility, zone, or region does not cause
+  prolonged unavailability or loss of data.
+origin: standard
+parameters:
+  alternate_storage_location:
+    label: Alternate storage location
+    value: a region geographically separate from the primary data
+  failover_time_limit:
+    label: Alternate processing resumption time
+    value: the recovery time objective defined in the business continuity plan
+  processing_redundancy:
+    label: Processing redundancy
+    value: at least two availability zones
+statement: >
+  Run critical production services across {{ processing_redundancy }} with the
+  ability to resume them at an alternate processing location within
+  {{ failover_time_limit }}, keep backup copies in
+  {{ alternate_storage_location }}, and apply the same security baseline to
+  alternate locations as to the primary environment.
+summary: >
+  Run critical services across redundant locations, keep backups in a separate
+  region, and secure alternate locations to the same baseline as primary.
+tags:
+  - redundancy
+  - high-availability
+  - disaster-recovery
