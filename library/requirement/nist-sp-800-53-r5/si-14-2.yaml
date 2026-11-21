@@ -13,41 +13,45 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; procedures addressing non-persistence for system components;
-          system design documentation; system configuration settings and associated
-          documentation; system audit records; system security plan; other relevant
-          documents or records
+          System and information integrity policy; system and
+          information integrity procedures; procedures addressing
+          non-persistence for system components; system design
+          documentation; system configuration settings and
+          associated documentation; system audit records; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel responsible for ensuring that information is and
-          remains non-persistent; organizational personnel with information security
-          responsibilities
+          Organizational personnel responsible for ensuring that
+          information is and remains non-persistent; organizational
+          personnel with information security responsibilities
       - method: test
         statement: >
-          Organizational processes for ensuring that information is and remains
-          non-persistent; automated mechanisms supporting and/or implementing
-          component and service refreshes
+          Organizational processes for ensuring that information is
+          and remains non-persistent; automated mechanisms
+          supporting and/or implementing component and service
+          refreshes
     statement: "{{ si_14_02_odp_01 }} is performed;"
   - id: b
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; procedures addressing non-persistence for system components;
-          system design documentation; system configuration settings and associated
-          documentation; system audit records; system security plan; other relevant
-          documents or records
+          System and information integrity policy; system and
+          information integrity procedures; procedures addressing
+          non-persistence for system components; system design
+          documentation; system configuration settings and
+          associated documentation; system audit records; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel responsible for ensuring that information is and
-          remains non-persistent; organizational personnel with information security
-          responsibilities
+          Organizational personnel responsible for ensuring that
+          information is and remains non-persistent; organizational
+          personnel with information security responsibilities
       - method: test
         statement: >
-          Organizational processes for ensuring that information is and remains
-          non-persistent; automated mechanisms supporting and/or implementing
-          component and service refreshes
+          Organizational processes for ensuring that information is
+          and remains non-persistent; automated mechanisms
+          supporting and/or implementing component and service
+          refreshes
     statement: information is deleted when no longer needed.
 parameters:
   si_14_02_odp_01:

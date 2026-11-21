@@ -13,40 +13,46 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Assessment, authorization, and monitoring policy; organizational continuous
-          monitoring strategy; system-level continuous monitoring strategy; procedures
-          addressing continuous monitoring of system security controls; assessment
-          report; plan of action and milestones; system monitoring records; security
-          impact analyses; status reports; system security plan; other relevant
-          documents or records
+          Assessment, authorization, and monitoring policy;
+          organizational continuous monitoring strategy;
+          system-level continuous monitoring strategy; procedures
+          addressing continuous monitoring of system security
+          controls; assessment report; plan of action and
+          milestones; system monitoring records; security impact
+          analyses; status reports; system security plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with continuous monitoring responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities
+          Organizational personnel with continuous monitoring
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities
       - method: test
         statement: Mechanisms supporting consistency analyses
-    statement: "{{ ca_07_05_odp_01 }} are employed to validate that policies are established;"
+    statement: >-
+      {{ ca_07_05_odp_01 }} are employed to validate that policies
+      are established;
   - id: "ca-07(05).ca-07(05)[02]"
     methods:
       - method: examine
         statement: >
-          Assessment, authorization, and monitoring policy; organizational continuous
-          monitoring strategy; system-level continuous monitoring strategy; procedures
-          addressing continuous monitoring of system security controls; assessment
-          report; plan of action and milestones; system monitoring records; security
-          impact analyses; status reports; system security plan; other relevant
-          documents or records
+          Assessment, authorization, and monitoring policy;
+          organizational continuous monitoring strategy;
+          system-level continuous monitoring strategy; procedures
+          addressing continuous monitoring of system security
+          controls; assessment report; plan of action and
+          milestones; system monitoring records; security impact
+          analyses; status reports; system security plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with continuous monitoring responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities
+          Organizational personnel with continuous monitoring
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities
       - method: test
         statement: Mechanisms supporting consistency analyses
     statement: >
-      {{ ca_07_05_odp_02 }} are employed to validate that implemented controls are
-      operating in a consistent manner.
+      {{ ca_07_05_odp_02 }} are employed to validate that
+      implemented controls are operating in a consistent manner.
 parameters:
   ca_07_05_odp_01:
     label: actions
@@ -55,6 +61,6 @@ parameters:
   ca_7_5_prm_1:
     label: organization-defined actions
 statement: >
-  Employ the following actions to validate that policies are established and
-  implemented controls are operating in a consistent manner:
-  {{ ca_7_5_prm_1 }}.
+  Employ the following actions to validate that policies are
+  established and implemented controls are operating in a consistent
+  manner: {{ ca_7_5_prm_1 }}.

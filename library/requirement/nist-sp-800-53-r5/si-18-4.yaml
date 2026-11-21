@@ -13,25 +13,30 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; personally identifiable information processing policy; system
-          configuration; individual requests; records of correction or deletion
-          actions performed; system audit records; system security plan; privacy plan;
-          privacy impact assessment; privacy risk assessment documentation; other
-          relevant documents or records
+          System and information integrity policy; system and
+          information integrity procedures; personally identifiable
+          information processing policy; system configuration;
+          individual requests; records of correction or deletion
+          actions performed; system audit records; system security
+          plan; privacy plan; privacy impact assessment; privacy
+          risk assessment documentation; other relevant documents or
+          records
       - method: interview
         statement: >
-          Organizational personnel responsible for responding to individual requests
-          for personally identifiable information correction or deletion;
-          organizational personnel with information security and privacy
+          Organizational personnel responsible for responding to
+          individual requests for personally identifiable
+          information correction or deletion; organizational
+          personnel with information security and privacy
           responsibilities
       - method: test
         statement: >
-          Request mechanisms; automated mechanisms supporting and/or implementing
-          individual requests for correction or deletion
+          Request mechanisms; automated mechanisms supporting and/or
+          implementing individual requests for correction or
+          deletion
     statement: >
-      personally identifiable information is corrected or deleted upon request by
-      individuals or their designated representatives.
+      personally identifiable information is corrected or deleted
+      upon request by individuals or their designated
+      representatives.
 statement: >
-  Correct or delete personally identifiable information upon request by
-  individuals or their designated representatives.
+  Correct or delete personally identifiable information upon request
+  by individuals or their designated representatives.

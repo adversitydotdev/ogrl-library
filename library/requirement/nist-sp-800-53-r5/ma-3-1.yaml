@@ -13,21 +13,24 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Maintenance policy; procedures addressing system maintenance tools; system
-          maintenance tools and associated documentation; maintenance tool inspection
-          records; maintenance records; system security plan; other relevant documents
-          or records
+          Maintenance policy; procedures addressing system
+          maintenance tools; system maintenance tools and associated
+          documentation; maintenance tool inspection records;
+          maintenance records; system security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with system maintenance responsibilities;
-          organizational personnel with information security responsibilities
+          Organizational personnel with system maintenance
+          responsibilities; organizational personnel with
+          information security responsibilities
       - method: test
         statement: >
-          Organizational processes for inspecting maintenance tools; mechanisms
-          supporting and/or implementing the inspection of maintenance tools
+          Organizational processes for inspecting maintenance tools;
+          mechanisms supporting and/or implementing the inspection
+          of maintenance tools
     statement: >
-      maintenance tools used by maintenance personnel are inspected for improper
-      or unauthorized modifications.
+      maintenance tools used by maintenance personnel are inspected
+      for improper or unauthorized modifications.
 statement: >
-  Inspect the maintenance tools used by maintenance personnel for improper or
-  unauthorized modifications.
+  Inspect the maintenance tools used by maintenance personnel for
+  improper or unauthorized modifications.

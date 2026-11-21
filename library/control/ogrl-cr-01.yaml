@@ -9,17 +9,19 @@ control_type: preventive
 family: cr
 frequency: continuous
 guidance: >
-  Disable TLS versions below 1.2, enforce HSTS on public web endpoints, and
-  enable cloud KMS encryption on all databases, object stores, and block
-  volumes.
+  Disable TLS versions below 1.2, enforce HSTS on public web
+  endpoints, and enable cloud KMS encryption on all databases,
+  object stores, and block volumes.
 objective: >
-  Preserve confidentiality and integrity of sensitive data across networks and
-  storage media.
+  Preserve confidentiality and integrity of sensitive data across
+  networks and storage media.
 origin: standard
 parameters:
   protected_data_scope:
     label: Protected data scope
-    value: "all customer, authentication, and confidential organizational data"
+    value: >-
+      all customer, authentication, and confidential organizational
+      data
   rest_cipher_suite:
     label: Minimum storage encryption
     value: AES-256
@@ -28,11 +30,11 @@ parameters:
     value: TLS 1.2 or higher
 statement: >
   Protect {{ protected_data_scope }} in transit using
-  {{ transit_cipher_suite }} and at rest using {{ rest_cipher_suite }} with
-  centrally managed keys.
+  {{ transit_cipher_suite }} and at rest using
+  {{ rest_cipher_suite }} with centrally managed keys.
 summary: >
-  Encrypt sensitive data in transit using modern TLS and at rest using strong
-  managed cryptographic keys.
+  Encrypt sensitive data in transit using modern TLS and at rest
+  using strong managed cryptographic keys.
 tags:
   - cryptography
   - tls

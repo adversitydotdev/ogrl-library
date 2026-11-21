@@ -13,27 +13,31 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures for addressing account management; system
-          design documentation; system configuration settings and associated
-          documentation; system-generated list of temporary accounts removed and/or
-          disabled; system-generated list of emergency accounts removed and/or
-          disabled; system audit records; system security plan; other relevant
-          documents or records
+          Access control policy; procedures for addressing account
+          management; system design documentation; system
+          configuration settings and associated documentation;
+          system-generated list of temporary accounts removed and/or
+          disabled; system-generated list of emergency accounts
+          removed and/or disabled; system audit records; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with account management responsibilities;
-          system/network administrators; organizational personnel with information
-          security with information security responsibilities; system developers
+          Organizational personnel with account management
+          responsibilities; system/network administrators;
+          organizational personnel with information security with
+          information security responsibilities; system developers
       - method: test
-        statement: Automated mechanisms for implementing account management functions
+        statement: >-
+          Automated mechanisms for implementing account management
+          functions
     statement: >
-      temporary and emergency accounts are automatically {{ ac_02_02_odp_01 }}
-      after {{ ac_02_02_odp_02 }}.
+      temporary and emergency accounts are automatically
+      {{ ac_02_02_odp_01 }} after {{ ac_02_02_odp_02 }}.
 parameters:
   ac_02_02_odp_01:
     label: ac-02.02_odp.01
   ac_02_02_odp_02:
     label: time period
 statement: >
-  Automatically {{ ac_02_02_odp_01 }} temporary and emergency accounts after
-  {{ ac_02_02_odp_02 }}.
+  Automatically {{ ac_02_02_odp_01 }} temporary and emergency
+  accounts after {{ ac_02_02_odp_02 }}.

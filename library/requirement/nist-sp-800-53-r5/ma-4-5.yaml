@@ -13,44 +13,50 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Maintenance policy; procedures addressing nonlocal system maintenance;
-          notifications supporting nonlocal maintenance sessions; maintenance records;
-          audit records; system security plan; other relevant documents or records
+          Maintenance policy; procedures addressing nonlocal system
+          maintenance; notifications supporting nonlocal maintenance
+          sessions; maintenance records; audit records; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with system maintenance responsibilities;
-          organizational personnel with notification responsibilities; organizational
-          personnel with approval responsibilities; organizational personnel with
-          information security responsibilities
+          Organizational personnel with system maintenance
+          responsibilities; organizational personnel with
+          notification responsibilities; organizational personnel
+          with approval responsibilities; organizational personnel
+          with information security responsibilities
       - method: test
         statement: >
-          Organizational processes for approving and notifying personnel regarding
-          nonlocal maintenance; mechanisms supporting the notification and approval of
-          nonlocal maintenance
+          Organizational processes for approving and notifying
+          personnel regarding nonlocal maintenance; mechanisms
+          supporting the notification and approval of nonlocal
+          maintenance
     statement: >
-      the approval of each nonlocal maintenance session is required by
-      {{ ma_04_05_odp_01 }};
+      the approval of each nonlocal maintenance session is required
+      by {{ ma_04_05_odp_01 }};
   - id: b
     methods:
       - method: examine
         statement: >
-          Maintenance policy; procedures addressing nonlocal system maintenance;
-          notifications supporting nonlocal maintenance sessions; maintenance records;
-          audit records; system security plan; other relevant documents or records
+          Maintenance policy; procedures addressing nonlocal system
+          maintenance; notifications supporting nonlocal maintenance
+          sessions; maintenance records; audit records; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with system maintenance responsibilities;
-          organizational personnel with notification responsibilities; organizational
-          personnel with approval responsibilities; organizational personnel with
-          information security responsibilities
+          Organizational personnel with system maintenance
+          responsibilities; organizational personnel with
+          notification responsibilities; organizational personnel
+          with approval responsibilities; organizational personnel
+          with information security responsibilities
       - method: test
         statement: >
-          Organizational processes for approving and notifying personnel regarding
-          nonlocal maintenance; mechanisms supporting the notification and approval of
-          nonlocal maintenance
+          Organizational processes for approving and notifying
+          personnel regarding nonlocal maintenance; mechanisms
+          supporting the notification and approval of nonlocal
+          maintenance
     statement: >
-      {{ ma_04_05_odp_02 }} is/are notified of the date and time of planned
-      nonlocal maintenance.
+      {{ ma_04_05_odp_02 }} is/are notified of the date and time of
+      planned nonlocal maintenance.
 parameters:
   ma_04_05_odp_01:
     label: personnel or roles
@@ -63,5 +69,5 @@ parts:
       {{ ma_04_05_odp_01 }} ; and
   - id: b
     statement: >
-      Notify the following personnel or roles of the date and time of planned
-      nonlocal maintenance: {{ ma_04_05_odp_02 }}.
+      Notify the following personnel or roles of the date and time
+      of planned nonlocal maintenance: {{ ma_04_05_odp_02 }}.

@@ -13,68 +13,86 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and services acquisition policy; audit and accountability policy;
-          access control policy; procedures addressing least privilege; procedures
-          addressing auditable events; identification and authentication policy;
-          procedures addressing user identification and authentication; procedures
-          addressing the security design principle of accountability and traceability
-          used in the specification, design, development, implementation, and
-          modification of the system; system design documentation; system audit
-          records; system auditable events; system configuration settings and
-          associated documentation; security and privacy requirements and
-          specifications for the system; system security and privacy architecture;
+          System and services acquisition policy; audit and
+          accountability policy; access control policy; procedures
+          addressing least privilege; procedures addressing
+          auditable events; identification and authentication
+          policy; procedures addressing user identification and
+          authentication; procedures addressing the security design
+          principle of accountability and traceability used in the
+          specification, design, development, implementation, and
+          modification of the system; system design documentation;
+          system audit records; system auditable events; system
+          configuration settings and associated documentation;
+          security and privacy requirements and specifications for
+          the system; system security and privacy architecture;
           system security plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with the responsibility for determining system
-          security and privacy requirements; organizational personnel with audit and
-          accountability responsibilities; organizational personnel with system
-          specification, design, development, implementation, and modification
-          responsibilities; system developers; organizational personnel with
-          information security responsibilities
+          Organizational personnel with the responsibility for
+          determining system security and privacy requirements;
+          organizational personnel with audit and accountability
+          responsibilities; organizational personnel with system
+          specification, design, development, implementation, and
+          modification responsibilities; system developers;
+          organizational personnel with information security
+          responsibilities
       - method: test
         statement: >
-          Organizational processes for applying the security design principle of
-          accountability and traceability in system specification, design,
-          development, implementation, and modification; mechanisms supporting the
-          application of the security design principle of accountability and
-          traceability in system specification, design, development, implementation,
-          and modification; mechanisms implementing information system auditing;
-          mechanisms implementing least privilege functions
-    statement: "{{ sa_08_22_odp_01 }} implement the security design principle of accountability;"
+          Organizational processes for applying the security design
+          principle of accountability and traceability in system
+          specification, design, development, implementation, and
+          modification; mechanisms supporting the application of the
+          security design principle of accountability and
+          traceability in system specification, design, development,
+          implementation, and modification; mechanisms implementing
+          information system auditing; mechanisms implementing least
+          privilege functions
+    statement: >-
+      {{ sa_08_22_odp_01 }} implement the security design principle
+      of accountability;
   - id: "sa-08(22).sa-08(22)[02]"
     methods:
       - method: examine
         statement: >
-          System and services acquisition policy; audit and accountability policy;
-          access control policy; procedures addressing least privilege; procedures
-          addressing auditable events; identification and authentication policy;
-          procedures addressing user identification and authentication; procedures
-          addressing the security design principle of accountability and traceability
-          used in the specification, design, development, implementation, and
-          modification of the system; system design documentation; system audit
-          records; system auditable events; system configuration settings and
-          associated documentation; security and privacy requirements and
-          specifications for the system; system security and privacy architecture;
+          System and services acquisition policy; audit and
+          accountability policy; access control policy; procedures
+          addressing least privilege; procedures addressing
+          auditable events; identification and authentication
+          policy; procedures addressing user identification and
+          authentication; procedures addressing the security design
+          principle of accountability and traceability used in the
+          specification, design, development, implementation, and
+          modification of the system; system design documentation;
+          system audit records; system auditable events; system
+          configuration settings and associated documentation;
+          security and privacy requirements and specifications for
+          the system; system security and privacy architecture;
           system security plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with the responsibility for determining system
-          security and privacy requirements; organizational personnel with audit and
-          accountability responsibilities; organizational personnel with system
-          specification, design, development, implementation, and modification
-          responsibilities; system developers; organizational personnel with
-          information security responsibilities
+          Organizational personnel with the responsibility for
+          determining system security and privacy requirements;
+          organizational personnel with audit and accountability
+          responsibilities; organizational personnel with system
+          specification, design, development, implementation, and
+          modification responsibilities; system developers;
+          organizational personnel with information security
+          responsibilities
       - method: test
         statement: >
-          Organizational processes for applying the security design principle of
-          accountability and traceability in system specification, design,
-          development, implementation, and modification; mechanisms supporting the
-          application of the security design principle of accountability and
-          traceability in system specification, design, development, implementation,
-          and modification; mechanisms implementing information system auditing;
-          mechanisms implementing least privilege functions
-    statement: "{{ sa_08_22_odp_02 }} implement the security design principle of traceability."
+          Organizational processes for applying the security design
+          principle of accountability and traceability in system
+          specification, design, development, implementation, and
+          modification; mechanisms supporting the application of the
+          security design principle of accountability and
+          traceability in system specification, design, development,
+          implementation, and modification; mechanisms implementing
+          information system auditing; mechanisms implementing least
+          privilege functions
+    statement: >-
+      {{ sa_08_22_odp_02 }} implement the security design principle
+      of traceability.
 parameters:
   sa_08_22_odp_01:
     label: systems or system components
@@ -83,5 +101,5 @@ parameters:
   sa_8_22_prm_1:
     label: organization-defined systems or system components
 statement: >
-  Implement the security design principle of accountability and traceability
-  in {{ sa_8_22_prm_1 }}.
+  Implement the security design principle of accountability and
+  traceability in {{ sa_8_22_prm_1 }}.

@@ -13,29 +13,34 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; access control policy and
-          procedures; procedures addressing sensor capability and data collection;
-          personally identifiable information processing policy; system design
-          documentation; system configuration settings and associated documentation;
-          system architecture; system audit records; system security plan; privacy
-          plan; other relevant documents or records
+          System and communications protection policy; access
+          control policy and procedures; procedures addressing
+          sensor capability and data collection; personally
+          identifiable information processing policy; system design
+          documentation; system configuration settings and
+          associated documentation; system architecture; system
+          audit records; system security plan; privacy plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security and privacy responsibilities; system developer; organizational
-          personnel installing, configuring, and/or maintaining the system;
-          organizational personnel responsible for the sensor capabilities
+          System/network administrators; organizational personnel
+          with information security and privacy responsibilities;
+          system developer; organizational personnel installing,
+          configuring, and/or maintaining the system; organizational
+          personnel responsible for the sensor capabilities
       - method: test
         statement: >
-          Mechanisms restricting the reporting of sensor information to those
-          authorized; sensor data collection and reporting capabilities for the system
+          Mechanisms restricting the reporting of sensor information
+          to those authorized; sensor data collection and reporting
+          capabilities for the system
     statement: >
-      the system is configured so that data or information collected by the
-      {{ sc_42_01_odp }} is only reported to authorized individuals or roles.
+      the system is configured so that data or information collected
+      by the {{ sc_42_01_odp }} is only reported to authorized
+      individuals or roles.
 parameters:
   sc_42_01_odp:
     label: sensors
 statement: >
-  Verify that the system is configured so that data or information collected
-  by the {{ sc_42_01_odp }} is only reported to authorized individuals or
-  roles.
+  Verify that the system is configured so that data or information
+  collected by the {{ sc_42_01_odp }} is only reported to authorized
+  individuals or roles.

@@ -13,19 +13,27 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Identification and authentication policy; procedures addressing
-          authenticator management; system security plan; system design documentation;
-          system configuration settings and associated documentation; system audit
-          records; other relevant documents or records
+          Identification and authentication policy; procedures
+          addressing authenticator management; system security plan;
+          system design documentation; system configuration settings
+          and associated documentation; system audit records; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with authenticator management responsibilities;
-          organizational personnel with information security responsibilities;
-          system/network administrators; system developers
+          Organizational personnel with authenticator management
+          responsibilities; organizational personnel with
+          information security responsibilities; system/network
+          administrators; system developers
       - method: test
-        statement: Mechanisms supporting and/or implementing authenticator management capability
-    statement: "the use of cached authenticators is prohibited after {{ ia_05_13_odp }}."
+        statement: >-
+          Mechanisms supporting and/or implementing authenticator
+          management capability
+    statement: >-
+      the use of cached authenticators is prohibited after
+      {{ ia_05_13_odp }}.
 parameters:
   ia_05_13_odp:
     label: time period
-statement: "Prohibit the use of cached authenticators after {{ ia_05_13_odp }}."
+statement: >-
+  Prohibit the use of cached authenticators after
+  {{ ia_05_13_odp }}.

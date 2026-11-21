@@ -13,48 +13,52 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Information flow enforcement policy; information flow control policies;
-          procedures addressing information flow enforcement; system design
-          documentation; system configuration settings and associated documentation;
-          list of security policy filtering criteria applied to metadata and data
-          payloads; system audit records; system security plan; privacy plan; other
-          relevant documents or records
+          Information flow enforcement policy; information flow
+          control policies; procedures addressing information flow
+          enforcement; system design documentation; system
+          configuration settings and associated documentation; list
+          of security policy filtering criteria applied to metadata
+          and data payloads; system audit records; system security
+          plan; privacy plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with information flow enforcement responsibilities;
-          system/network administrators; organizational personnel with information
-          security responsibilities; organizational personnel with privacy
+          Organizational personnel with information flow enforcement
+          responsibilities; system/network administrators;
+          organizational personnel with information security
+          responsibilities; organizational personnel with privacy
           responsibilities; system developers
       - method: test
         statement: >
-          Mechanisms implementing information flow enforcement functions; security and
-          policy filters
+          Mechanisms implementing information flow enforcement
+          functions; security and policy filters
     statement: >
-      when transferring information between different security domains,
-      {{ ac_04_19_odp_01 }} are implemented on metadata;
+      when transferring information between different security
+      domains, {{ ac_04_19_odp_01 }} are implemented on metadata;
   - id: "ac-04(19).ac-04(19)[02]"
     methods:
       - method: examine
         statement: >
-          Information flow enforcement policy; information flow control policies;
-          procedures addressing information flow enforcement; system design
-          documentation; system configuration settings and associated documentation;
-          list of security policy filtering criteria applied to metadata and data
-          payloads; system audit records; system security plan; privacy plan; other
-          relevant documents or records
+          Information flow enforcement policy; information flow
+          control policies; procedures addressing information flow
+          enforcement; system design documentation; system
+          configuration settings and associated documentation; list
+          of security policy filtering criteria applied to metadata
+          and data payloads; system audit records; system security
+          plan; privacy plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with information flow enforcement responsibilities;
-          system/network administrators; organizational personnel with information
-          security responsibilities; organizational personnel with privacy
+          Organizational personnel with information flow enforcement
+          responsibilities; system/network administrators;
+          organizational personnel with information security
+          responsibilities; organizational personnel with privacy
           responsibilities; system developers
       - method: test
         statement: >
-          Mechanisms implementing information flow enforcement functions; security and
-          policy filters
+          Mechanisms implementing information flow enforcement
+          functions; security and policy filters
     statement: >
-      when transferring information between different security domains,
-      {{ ac_04_19_odp_02 }} are implemented on metadata.
+      when transferring information between different security
+      domains, {{ ac_04_19_odp_02 }} are implemented on metadata.
 parameters:
   ac_04_19_odp_01:
     label: security policy filters
@@ -63,5 +67,5 @@ parameters:
   ac_4_19_prm_1:
     label: organization-defined security or privacy policy filters
 statement: >
-  When transferring information between different security domains, implement
-  {{ ac_4_19_prm_1 }} on metadata.
+  When transferring information between different security domains,
+  implement {{ ac_4_19_prm_1 }} on metadata.

@@ -9,9 +9,9 @@ control_type: preventive
 family: pr
 frequency: annual
 guidance: >
-  Enforce minimization in form and API schemas, and use data discovery or
-  schema diffs to spot unapproved fields. Prefer pseudonymized or aggregated
-  data for analytics and testing.
+  Enforce minimization in form and API schemas, and use data
+  discovery or schema diffs to spot unapproved fields. Prefer
+  pseudonymized or aggregated data for analytics and testing.
 objective: >
   Reduce privacy risk and breach impact by holding no more personal
   information than each purpose requires.
@@ -22,19 +22,22 @@ parameters:
     value: annually
   permitted_pii_elements:
     label: Permitted personal information elements
-    value: the elements approved for each processing activity in the PII inventory
+    value: >-
+      the elements approved for each processing activity in the PII
+      inventory
   pii_element_approver:
     label: Approver for new personal information elements
     value: the privacy lead
 statement: >
   Limit personal information collected and processed to
-  {{ permitted_pii_elements }}, require {{ pii_element_approver }} to approve
-  any new personal information element before collection begins, and review
-  collection points and data stores {{ minimization_review_cadence }} to
-  remove elements no longer needed.
+  {{ permitted_pii_elements }}, require {{ pii_element_approver }}
+  to approve any new personal information element before collection
+  begins, and review collection points and data stores
+  {{ minimization_review_cadence }} to remove elements no longer
+  needed.
 summary: >
-  Collect and retain only the personal information elements needed for each
-  documented purpose.
+  Collect and retain only the personal information elements needed
+  for each documented purpose.
 tags:
   - privacy
   - data-minimization

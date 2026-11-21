@@ -13,33 +13,38 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and services acquisition policy; system and services acquisition
-          procedures; procedures addressing the integration of Privacy Act
-          requirements into systems of records operated by external organizations;
-          solicitation documentation; acquisition documentation; acquisition contracts
-          for the system, system component, or system service; service level
-          agreements; system security plan; privacy plan; personally identifiable
-          information processing policy; privacy program plan; privacy impact
-          assessment; privacy risk assessment documentation; other relevant documents
-          or records
+          System and services acquisition policy; system and
+          services acquisition procedures; procedures addressing the
+          integration of Privacy Act requirements into systems of
+          records operated by external organizations; solicitation
+          documentation; acquisition documentation; acquisition
+          contracts for the system, system component, or system
+          service; service level agreements; system security plan;
+          privacy plan; personally identifiable information
+          processing policy; privacy program plan; privacy impact
+          assessment; privacy risk assessment documentation; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with acquisition responsibilities; organizational
-          personnel with information security and privacy responsibilities
+          Organizational personnel with acquisition
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities
       - method: test
         statement: >
-          Contract management processes to verify Privacy Act requirements are defined
-          for the operation of a system of records; vendor processes for demonstrating
-          incorporation of Privacy Act requirements in its operation of a system of
-          records
+          Contract management processes to verify Privacy Act
+          requirements are defined for the operation of a system of
+          records; vendor processes for demonstrating incorporation
+          of Privacy Act requirements in its operation of a system
+          of records
     statement: >
-      {{ sa_04_11_odp }} are defined in the acquisition contract for the operation
-      of a system of records on behalf of an organization to accomplish an
-      organizational mission or function.
+      {{ sa_04_11_odp }} are defined in the acquisition contract for
+      the operation of a system of records on behalf of an
+      organization to accomplish an organizational mission or
+      function.
 parameters:
   sa_04_11_odp:
     label: Privacy Act requirements
 statement: >
-  Include {{ sa_04_11_odp }} in the acquisition contract for the operation of
-  a system of records on behalf of an organization to accomplish an
-  organizational mission or function.
+  Include {{ sa_04_11_odp }} in the acquisition contract for the
+  operation of a system of records on behalf of an organization to
+  accomplish an organizational mission or function.

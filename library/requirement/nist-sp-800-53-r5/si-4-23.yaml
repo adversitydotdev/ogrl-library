@@ -13,24 +13,30 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; procedures addressing system monitoring tools and techniques;
-          system design documentation; host-based monitoring mechanisms; system
-          monitoring tools and techniques documentation; system configuration settings
-          and associated documentation; list of system components requiring host-based
-          monitoring; system monitoring logs or records; system audit records; system
-          security plan; other relevant documents or records
+          System and information integrity policy; system and
+          information integrity procedures; procedures addressing
+          system monitoring tools and techniques; system design
+          documentation; host-based monitoring mechanisms; system
+          monitoring tools and techniques documentation; system
+          configuration settings and associated documentation; list
+          of system components requiring host-based monitoring;
+          system monitoring logs or records; system audit records;
+          system security plan; other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; organizational personnel installing, configuring,
-          and/or maintaining the system; organizational personnel responsible for
+          System/network administrators; organizational personnel
+          with information security responsibilities; organizational
+          personnel installing, configuring, and/or maintaining the
+          system; organizational personnel responsible for
           monitoring system hosts
       - method: test
         statement: >
-          Organizational processes for system monitoring; mechanisms supporting and/or
-          implementing a host-based monitoring capability
-    statement: "{{ si_04_23_odp_01 }} are implemented on {{ si_04_23_odp_02 }}."
+          Organizational processes for system monitoring; mechanisms
+          supporting and/or implementing a host-based monitoring
+          capability
+    statement: >-
+      {{ si_04_23_odp_01 }} are implemented on
+      {{ si_04_23_odp_02 }}.
 parameters:
   si_04_23_odp_01:
     label: host-based monitoring mechanisms

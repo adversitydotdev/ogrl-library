@@ -13,45 +13,57 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Identification and authentication policy; system security plan; procedures
-          addressing user identification and authentication; system design
-          documentation; system configuration settings and associated documentation;
-          system audit records; PIV-I verification records; evidence of PIV-I
-          credentials; PIV-I credential authorizations; other relevant documents or
-          records
+          Identification and authentication policy; system security
+          plan; procedures addressing user identification and
+          authentication; system design documentation; system
+          configuration settings and associated documentation;
+          system audit records; PIV-I verification records; evidence
+          of PIV-I credentials; PIV-I credential authorizations;
+          other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with system operations responsibilities;
-          organizational personnel with information security responsibilities;
-          system/network administrators; system developers; organizational personnel
-          with account management responsibilities
+          Organizational personnel with system operations
+          responsibilities; organizational personnel with
+          information security responsibilities; system/network
+          administrators; system developers; organizational
+          personnel with account management responsibilities
       - method: test
         statement: >
-          Mechanisms supporting and/or implementing identification and authentication
-          capabilities; mechanisms that accept and verify PIV-I credentials
-    statement: "federated or PKI credentials that meet {{ ia_08_05_odp }} are accepted;"
+          Mechanisms supporting and/or implementing identification
+          and authentication capabilities; mechanisms that accept
+          and verify PIV-I credentials
+    statement: >-
+      federated or PKI credentials that meet {{ ia_08_05_odp }} are
+      accepted;
   - id: "ia-08(05).ia-08(05)[02]"
     methods:
       - method: examine
         statement: >
-          Identification and authentication policy; system security plan; procedures
-          addressing user identification and authentication; system design
-          documentation; system configuration settings and associated documentation;
-          system audit records; PIV-I verification records; evidence of PIV-I
-          credentials; PIV-I credential authorizations; other relevant documents or
-          records
+          Identification and authentication policy; system security
+          plan; procedures addressing user identification and
+          authentication; system design documentation; system
+          configuration settings and associated documentation;
+          system audit records; PIV-I verification records; evidence
+          of PIV-I credentials; PIV-I credential authorizations;
+          other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with system operations responsibilities;
-          organizational personnel with information security responsibilities;
-          system/network administrators; system developers; organizational personnel
-          with account management responsibilities
+          Organizational personnel with system operations
+          responsibilities; organizational personnel with
+          information security responsibilities; system/network
+          administrators; system developers; organizational
+          personnel with account management responsibilities
       - method: test
         statement: >
-          Mechanisms supporting and/or implementing identification and authentication
-          capabilities; mechanisms that accept and verify PIV-I credentials
-    statement: "federated or PKI credentials that meet {{ ia_08_05_odp }} are verified."
+          Mechanisms supporting and/or implementing identification
+          and authentication capabilities; mechanisms that accept
+          and verify PIV-I credentials
+    statement: >-
+      federated or PKI credentials that meet {{ ia_08_05_odp }} are
+      verified.
 parameters:
   ia_08_05_odp:
     label: policy
-statement: "Accept and verify federated or PKI credentials that meet {{ ia_08_05_odp }}."
+statement: >-
+  Accept and verify federated or PKI credentials that meet
+  {{ ia_08_05_odp }}.

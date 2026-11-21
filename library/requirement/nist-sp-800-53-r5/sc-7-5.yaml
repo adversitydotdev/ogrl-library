@@ -13,34 +13,46 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; procedures addressing boundary
-          protection; system design documentation; system configuration settings and
-          associated documentation; system audit records; system security plan; other
-          relevant documents or records
+          System and communications protection policy; procedures
+          addressing boundary protection; system design
+          documentation; system configuration settings and
+          associated documentation; system audit records; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; system developer; organizational personnel with
-          boundary protection responsibilities
+          System/network administrators; organizational personnel
+          with information security responsibilities; system
+          developer; organizational personnel with boundary
+          protection responsibilities
       - method: test
-        statement: Mechanisms implementing traffic management at managed interfaces
-    statement: "network communications traffic is denied by default {{ sc_07_05_odp_01 }};"
+        statement: >-
+          Mechanisms implementing traffic management at managed
+          interfaces
+    statement: >-
+      network communications traffic is denied by default
+      {{ sc_07_05_odp_01 }};
   - id: "sc-07(05).sc-07(05)[02]"
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; procedures addressing boundary
-          protection; system design documentation; system configuration settings and
-          associated documentation; system audit records; system security plan; other
-          relevant documents or records
+          System and communications protection policy; procedures
+          addressing boundary protection; system design
+          documentation; system configuration settings and
+          associated documentation; system audit records; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; system developer; organizational personnel with
-          boundary protection responsibilities
+          System/network administrators; organizational personnel
+          with information security responsibilities; system
+          developer; organizational personnel with boundary
+          protection responsibilities
       - method: test
-        statement: Mechanisms implementing traffic management at managed interfaces
-    statement: "network communications traffic is allowed by exception {{ sc_07_05_odp_01 }}."
+        statement: >-
+          Mechanisms implementing traffic management at managed
+          interfaces
+    statement: >-
+      network communications traffic is allowed by exception
+      {{ sc_07_05_odp_01 }}.
 parameters:
   sc_07_05_odp_01:
     label: sc-07.05_odp.01

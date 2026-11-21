@@ -13,24 +13,28 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Physical and environmental protection policy; procedures addressing asset
-          monitoring and tracking; documentation showing the use of asset location
-          technologies; system configuration documentation; list of organizational
-          assets requiring tracking and monitoring; asset monitoring and tracking
-          records; system security plan; privacy plan; other relevant documents or
-          records
+          Physical and environmental protection policy; procedures
+          addressing asset monitoring and tracking; documentation
+          showing the use of asset location technologies; system
+          configuration documentation; list of organizational assets
+          requiring tracking and monitoring; asset monitoring and
+          tracking records; system security plan; privacy plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with asset monitoring and tracking
-          responsibilities; legal counsel; organizational personnel with information
-          security and privacy responsibilities
+          Organizational personnel with asset monitoring and
+          tracking responsibilities; legal counsel; organizational
+          personnel with information security and privacy
+          responsibilities
       - method: test
         statement: >
-          Organizational processes for tracking and monitoring assets; mechanisms
-          supporting and/or implementing the tracking and monitoring of assets
+          Organizational processes for tracking and monitoring
+          assets; mechanisms supporting and/or implementing the
+          tracking and monitoring of assets
     statement: >
-      {{ pe_20_odp_01 }} are employed to track and monitor the location and
-      movement of {{ pe_20_odp_02 }} within {{ pe_20_odp_03 }}.
+      {{ pe_20_odp_01 }} are employed to track and monitor the
+      location and movement of {{ pe_20_odp_02 }} within
+      {{ pe_20_odp_03 }}.
 parameters:
   pe_20_odp_01:
     label: asset location technologies
@@ -39,5 +43,5 @@ parameters:
   pe_20_odp_03:
     label: controlled areas
 statement: >
-  Employ {{ pe_20_odp_01 }} to track and monitor the location and movement of
-  {{ pe_20_odp_02 }} within {{ pe_20_odp_03 }}.
+  Employ {{ pe_20_odp_01 }} to track and monitor the location and
+  movement of {{ pe_20_odp_02 }} within {{ pe_20_odp_03 }}.

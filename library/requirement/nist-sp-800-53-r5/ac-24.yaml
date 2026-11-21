@@ -20,25 +20,30 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing access control decisions;
-          system design documentation; system configuration settings and associated
-          documentation; system audit records; system security plan; other relevant
+          Access control policy; procedures addressing access
+          control decisions; system design documentation; system
+          configuration settings and associated documentation;
+          system audit records; system security plan; other relevant
           documents or records
       - method: interview
         statement: >
-          Organizational personnel with responsibilities for establishing procedures
-          regarding access control decisions to the system; organizational personnel
-          with information security responsibilities
+          Organizational personnel with responsibilities for
+          establishing procedures regarding access control decisions
+          to the system; organizational personnel with information
+          security responsibilities
       - method: test
-        statement: Mechanisms applying established access control decisions and procedures
+        statement: >-
+          Mechanisms applying established access control decisions
+          and procedures
     statement: >
-      {{ ac_24_odp_01 }} are taken to ensure that {{ ac_24_odp_02 }} are applied
-      to each access request prior to access enforcement.
+      {{ ac_24_odp_01 }} are taken to ensure that {{ ac_24_odp_02 }}
+      are applied to each access request prior to access
+      enforcement.
 parameters:
   ac_24_odp_01:
     label: ac-24_odp.01
   ac_24_odp_02:
     label: access control decisions
 statement: >
-  {{ ac_24_odp_01 }} to ensure {{ ac_24_odp_02 }} are applied to each access
-  request prior to access enforcement.
+  {{ ac_24_odp_01 }} to ensure {{ ac_24_odp_02 }} are applied to
+  each access request prior to access enforcement.

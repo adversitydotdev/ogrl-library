@@ -9,30 +9,34 @@ control_type: detective
 family: sd
 frequency: event-driven
 guidance: >
-  Apply response schema validation in API tests, compare export row counts
-  with source query counts, and enforce tenant scoping on download and API
-  endpoints. Failed validations should block publication and page the owning
-  team.
-objective: "Ensure outputs are complete, accurate, and reach only their intended recipients.\n"
+  Apply response schema validation in API tests, compare export row
+  counts with source query counts, and enforce tenant scoping on
+  download and API endpoints. Failed validations should block
+  publication and page the owning team.
+objective: >
+  Ensure outputs are complete, accurate, and reach only their
+  intended recipients.
 origin: standard
 parameters:
   output_delivery_channels:
     label: Authorized output delivery channels
-    value: "authenticated APIs, tenant-scoped downloads, and encrypted transfer channels"
+    value: >-
+      authenticated APIs, tenant-scoped downloads, and encrypted
+      transfer channels
   validated_output_sources:
     label: Outputs subject to validation
     value: >
-      customer-facing reports, data exports, outbound data feeds, and API
-      responses with defined schemas
+      customer-facing reports, data exports, outbound data feeds,
+      and API responses with defined schemas
 statement: >
-  Validate outputs from {{ validated_output_sources }} against expected
-  schemas, record counts, or control totals before release, deliver outputs
-  only to authorized recipients through {{ output_delivery_channels }}, and
-  hold, investigate, and correct any output that fails validation before it is
-  redistributed.
+  Validate outputs from {{ validated_output_sources }} against
+  expected schemas, record counts, or control totals before release,
+  deliver outputs only to authorized recipients through
+  {{ output_delivery_channels }}, and hold, investigate, and correct
+  any output that fails validation before it is redistributed.
 summary: >
-  Validate system outputs before release and deliver them only to authorized
-  recipients.
+  Validate system outputs before release and deliver them only to
+  authorized recipients.
 tags:
   - output-validation
   - processing-integrity

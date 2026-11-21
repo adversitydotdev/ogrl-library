@@ -23,97 +23,121 @@ objectives:
     methods:
       - method: examine
         statement: >
-          system and information integrity policy and procedures; procedures for flaw
-          remediation; procedures for configuration management; list of recent
-          security flaw remediation actions performed on the system; list of flaws and
-          vulnerabilities that may potentially affect the system; test results from
-          the installation of software and firmware updates to correct system flaws;
-          installation and change control records for security-relevant software and
-          firmware updates; system security plan; other relevant documents or records
+          system and information integrity policy and procedures;
+          procedures for flaw remediation; procedures for
+          configuration management; list of recent security flaw
+          remediation actions performed on the system; list of flaws
+          and vulnerabilities that may potentially affect the
+          system; test results from the installation of software and
+          firmware updates to correct system flaws; installation and
+          change control records for security-relevant software and
+          firmware updates; system security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          personnel responsible for installing, configuring, or maintaining the
-          system; personnel responsible for flaw remediation; personnel with
-          configuration management responsibilities; personnel with information
-          security responsibilities; system administrators
+          personnel responsible for installing, configuring, or
+          maintaining the system; personnel responsible for flaw
+          remediation; personnel with configuration management
+          responsibilities; personnel with information security
+          responsibilities; system administrators
       - method: test
         statement: >
-          processes for identifying, reporting, and correcting system flaws; processes
-          for installing software and firmware updates; mechanisms for supporting or
-          implementing the reporting and correction of system flaws; mechanisms for
-          supporting or implementing the testing software and firmware updates
+          processes for identifying, reporting, and correcting
+          system flaws; processes for installing software and
+          firmware updates; mechanisms for supporting or
+          implementing the reporting and correction of system flaws;
+          mechanisms for supporting or implementing the testing
+          software and firmware updates
     statement: system flaws are identified.
   - id: a.02
     methods:
       - method: examine
         statement: >
-          system and information integrity policy and procedures; procedures for flaw
-          remediation; procedures for configuration management; list of recent
-          security flaw remediation actions performed on the system; list of flaws and
-          vulnerabilities that may potentially affect the system; test results from
-          the installation of software and firmware updates to correct system flaws;
-          installation and change control records for security-relevant software and
-          firmware updates; system security plan; other relevant documents or records
+          system and information integrity policy and procedures;
+          procedures for flaw remediation; procedures for
+          configuration management; list of recent security flaw
+          remediation actions performed on the system; list of flaws
+          and vulnerabilities that may potentially affect the
+          system; test results from the installation of software and
+          firmware updates to correct system flaws; installation and
+          change control records for security-relevant software and
+          firmware updates; system security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          personnel responsible for installing, configuring, or maintaining the
-          system; personnel responsible for flaw remediation; personnel with
-          configuration management responsibilities; personnel with information
-          security responsibilities; system administrators
+          personnel responsible for installing, configuring, or
+          maintaining the system; personnel responsible for flaw
+          remediation; personnel with configuration management
+          responsibilities; personnel with information security
+          responsibilities; system administrators
       - method: test
         statement: >
-          processes for identifying, reporting, and correcting system flaws; processes
-          for installing software and firmware updates; mechanisms for supporting or
-          implementing the reporting and correction of system flaws; mechanisms for
-          supporting or implementing the testing software and firmware updates
+          processes for identifying, reporting, and correcting
+          system flaws; processes for installing software and
+          firmware updates; mechanisms for supporting or
+          implementing the reporting and correction of system flaws;
+          mechanisms for supporting or implementing the testing
+          software and firmware updates
     statement: system flaws are reported.
   - id: a.03
     methods:
       - method: examine
         statement: >
-          system and information integrity policy and procedures; procedures for flaw
-          remediation; procedures for configuration management; list of recent
-          security flaw remediation actions performed on the system; list of flaws and
-          vulnerabilities that may potentially affect the system; test results from
-          the installation of software and firmware updates to correct system flaws;
-          installation and change control records for security-relevant software and
-          firmware updates; system security plan; other relevant documents or records
+          system and information integrity policy and procedures;
+          procedures for flaw remediation; procedures for
+          configuration management; list of recent security flaw
+          remediation actions performed on the system; list of flaws
+          and vulnerabilities that may potentially affect the
+          system; test results from the installation of software and
+          firmware updates to correct system flaws; installation and
+          change control records for security-relevant software and
+          firmware updates; system security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          personnel responsible for installing, configuring, or maintaining the
-          system; personnel responsible for flaw remediation; personnel with
-          configuration management responsibilities; personnel with information
-          security responsibilities; system administrators
+          personnel responsible for installing, configuring, or
+          maintaining the system; personnel responsible for flaw
+          remediation; personnel with configuration management
+          responsibilities; personnel with information security
+          responsibilities; system administrators
       - method: test
         statement: >
-          processes for identifying, reporting, and correcting system flaws; processes
-          for installing software and firmware updates; mechanisms for supporting or
-          implementing the reporting and correction of system flaws; mechanisms for
-          supporting or implementing the testing software and firmware updates
+          processes for identifying, reporting, and correcting
+          system flaws; processes for installing software and
+          firmware updates; mechanisms for supporting or
+          implementing the reporting and correction of system flaws;
+          mechanisms for supporting or implementing the testing
+          software and firmware updates
     statement: system flaws are corrected.
   - id: b.01
     methods:
       - method: examine
         statement: >
-          system and information integrity policy and procedures; procedures for flaw
-          remediation; procedures for configuration management; list of recent
-          security flaw remediation actions performed on the system; list of flaws and
-          vulnerabilities that may potentially affect the system; test results from
-          the installation of software and firmware updates to correct system flaws;
-          installation and change control records for security-relevant software and
-          firmware updates; system security plan; other relevant documents or records
+          system and information integrity policy and procedures;
+          procedures for flaw remediation; procedures for
+          configuration management; list of recent security flaw
+          remediation actions performed on the system; list of flaws
+          and vulnerabilities that may potentially affect the
+          system; test results from the installation of software and
+          firmware updates to correct system flaws; installation and
+          change control records for security-relevant software and
+          firmware updates; system security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          personnel responsible for installing, configuring, or maintaining the
-          system; personnel responsible for flaw remediation; personnel with
-          configuration management responsibilities; personnel with information
-          security responsibilities; system administrators
+          personnel responsible for installing, configuring, or
+          maintaining the system; personnel responsible for flaw
+          remediation; personnel with configuration management
+          responsibilities; personnel with information security
+          responsibilities; system administrators
       - method: test
         statement: >
-          processes for identifying, reporting, and correcting system flaws; processes
-          for installing software and firmware updates; mechanisms for supporting or
-          implementing the reporting and correction of system flaws; mechanisms for
-          supporting or implementing the testing software and firmware updates
+          processes for identifying, reporting, and correcting
+          system flaws; processes for installing software and
+          firmware updates; mechanisms for supporting or
+          implementing the reporting and correction of system flaws;
+          mechanisms for supporting or implementing the testing
+          software and firmware updates
     statement: >
       security-relevant software updates are installed within
       {{ a_03_14_01_odp_01 }} of the release of the updates.
@@ -121,25 +145,31 @@ objectives:
     methods:
       - method: examine
         statement: >
-          system and information integrity policy and procedures; procedures for flaw
-          remediation; procedures for configuration management; list of recent
-          security flaw remediation actions performed on the system; list of flaws and
-          vulnerabilities that may potentially affect the system; test results from
-          the installation of software and firmware updates to correct system flaws;
-          installation and change control records for security-relevant software and
-          firmware updates; system security plan; other relevant documents or records
+          system and information integrity policy and procedures;
+          procedures for flaw remediation; procedures for
+          configuration management; list of recent security flaw
+          remediation actions performed on the system; list of flaws
+          and vulnerabilities that may potentially affect the
+          system; test results from the installation of software and
+          firmware updates to correct system flaws; installation and
+          change control records for security-relevant software and
+          firmware updates; system security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          personnel responsible for installing, configuring, or maintaining the
-          system; personnel responsible for flaw remediation; personnel with
-          configuration management responsibilities; personnel with information
-          security responsibilities; system administrators
+          personnel responsible for installing, configuring, or
+          maintaining the system; personnel responsible for flaw
+          remediation; personnel with configuration management
+          responsibilities; personnel with information security
+          responsibilities; system administrators
       - method: test
         statement: >
-          processes for identifying, reporting, and correcting system flaws; processes
-          for installing software and firmware updates; mechanisms for supporting or
-          implementing the reporting and correction of system flaws; mechanisms for
-          supporting or implementing the testing software and firmware updates
+          processes for identifying, reporting, and correcting
+          system flaws; processes for installing software and
+          firmware updates; mechanisms for supporting or
+          implementing the reporting and correction of system flaws;
+          mechanisms for supporting or implementing the testing
+          software and firmware updates
     statement: >
       security-relevant firmware updates are installed within
       {{ a_03_14_01_odp_02 }} of the release of the updates.

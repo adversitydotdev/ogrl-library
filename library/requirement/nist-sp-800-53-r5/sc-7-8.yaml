@@ -13,28 +13,30 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; procedures addressing boundary
-          protection; system design documentation; system hardware and software;
-          system architecture; system configuration settings and associated
-          documentation; system audit records; system security plan; other relevant
-          documents or records
+          System and communications protection policy; procedures
+          addressing boundary protection; system design
+          documentation; system hardware and software; system
+          architecture; system configuration settings and associated
+          documentation; system audit records; system security plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; system developer; organizational personnel with
-          boundary protection responsibilities
+          System/network administrators; organizational personnel
+          with information security responsibilities; system
+          developer; organizational personnel with boundary
+          protection responsibilities
       - method: test
         statement: >
-          Mechanisms implementing traffic management through authenticated proxy
-          servers at managed interfaces
+          Mechanisms implementing traffic management through
+          authenticated proxy servers at managed interfaces
     statement: >
-      {{ sc_07_08_odp_01 }} is routed to {{ sc_07_08_odp_02 }} through
-      authenticated proxy servers at managed interfaces.
+      {{ sc_07_08_odp_01 }} is routed to {{ sc_07_08_odp_02 }}
+      through authenticated proxy servers at managed interfaces.
 parameters:
   sc_07_08_odp_01:
     label: internal communications traffic
   sc_07_08_odp_02:
     label: external networks
 statement: >
-  Route {{ sc_07_08_odp_01 }} to {{ sc_07_08_odp_02 }} through authenticated
-  proxy servers at managed interfaces.
+  Route {{ sc_07_08_odp_01 }} to {{ sc_07_08_odp_02 }} through
+  authenticated proxy servers at managed interfaces.

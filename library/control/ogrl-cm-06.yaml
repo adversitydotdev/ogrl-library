@@ -9,11 +9,14 @@ control_type: corrective
 family: cm
 frequency: event-driven
 guidance: >
-  Use a dedicated emergency label or break-glass deployment workflow that
-  records who invoked it and requires an incident ID. A weekly query for
-  merges that bypassed branch protection or deployments without an approved
-  review gives auditors a complete population to sample.
-objective: "Allow rapid remediation without creating an unreviewed path into production.\n"
+  Use a dedicated emergency label or break-glass deployment workflow
+  that records who invoked it and requires an incident ID. A weekly
+  query for merges that bypassed branch protection or deployments
+  without an approved review gives auditors a complete population to
+  sample.
+objective: >
+  Allow rapid remediation without creating an unreviewed path into
+  production.
 origin: standard
 parameters:
   emergency_authorizer:
@@ -23,14 +26,15 @@ parameters:
     label: Retrospective review deadline
     value: "2 business days"
 statement: >
-  Permit changes that bypass standard pre-deployment approval only when
-  authorized by {{ emergency_authorizer }} to resolve an active incident or
-  critical vulnerability, record each emergency change with its justification
-  and linked incident or ticket, and complete retrospective peer review and
-  approval of the change within {{ retro_review_window }}.
+  Permit changes that bypass standard pre-deployment approval only
+  when authorized by {{ emergency_authorizer }} to resolve an active
+  incident or critical vulnerability, record each emergency change
+  with its justification and linked incident or ticket, and complete
+  retrospective peer review and approval of the change within
+  {{ retro_review_window }}.
 summary: >
-  Allow expedited production changes during incidents while preserving
-  authorization, records, and after-the-fact review.
+  Allow expedited production changes during incidents while
+  preserving authorization, records, and after-the-fact review.
 tags:
   - change-management
   - emergency-change

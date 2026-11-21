@@ -32,205 +32,238 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Access control policy and procedures; system security plan; privacy plan;
-          other relevant documents or records
+          Access control policy and procedures; system security
+          plan; privacy plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with access control responsibilities;
-          organizational personnel with information security with information security
-          and privacy responsibilities
+          Organizational personnel with access control
+          responsibilities; organizational personnel with
+          information security with information security and privacy
+          responsibilities
     statement: an access control policy is developed and documented;
   - id: a-2
     methods:
       - method: examine
         statement: >
-          Access control policy and procedures; system security plan; privacy plan;
-          other relevant documents or records
+          Access control policy and procedures; system security
+          plan; privacy plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with access control responsibilities;
-          organizational personnel with information security with information security
-          and privacy responsibilities
-    statement: "the access control policy is disseminated to {{ ac_01_odp_01 }};"
+          Organizational personnel with access control
+          responsibilities; organizational personnel with
+          information security with information security and privacy
+          responsibilities
+    statement: >-
+      the access control policy is disseminated to
+      {{ ac_01_odp_01 }};
   - id: a-3
     methods:
       - method: examine
         statement: >
-          Access control policy and procedures; system security plan; privacy plan;
-          other relevant documents or records
+          Access control policy and procedures; system security
+          plan; privacy plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with access control responsibilities;
-          organizational personnel with information security with information security
-          and privacy responsibilities
+          Organizational personnel with access control
+          responsibilities; organizational personnel with
+          information security with information security and privacy
+          responsibilities
     statement: >
-      access control procedures to facilitate the implementation of the access
-      control policy and associated controls are developed and documented;
+      access control procedures to facilitate the implementation of
+      the access control policy and associated controls are
+      developed and documented;
   - id: a-4
     methods:
       - method: examine
         statement: >
-          Access control policy and procedures; system security plan; privacy plan;
-          other relevant documents or records
+          Access control policy and procedures; system security
+          plan; privacy plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with access control responsibilities;
-          organizational personnel with information security with information security
-          and privacy responsibilities
-    statement: "the access control procedures are disseminated to {{ ac_01_odp_02 }};"
+          Organizational personnel with access control
+          responsibilities; organizational personnel with
+          information security with information security and privacy
+          responsibilities
+    statement: >-
+      the access control procedures are disseminated to
+      {{ ac_01_odp_02 }};
   - id: a.1.a-1
     methods:
       - method: examine
         statement: >
-          Access control policy and procedures; system security plan; privacy plan;
-          other relevant documents or records
+          Access control policy and procedures; system security
+          plan; privacy plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with access control responsibilities;
-          organizational personnel with information security with information security
-          and privacy responsibilities
-    statement: "the {{ ac_01_odp_03 }} access control policy addresses purpose;"
+          Organizational personnel with access control
+          responsibilities; organizational personnel with
+          information security with information security and privacy
+          responsibilities
+    statement: >-
+      the {{ ac_01_odp_03 }} access control policy addresses
+      purpose;
   - id: a.1.a-2
     methods:
       - method: examine
         statement: >
-          Access control policy and procedures; system security plan; privacy plan;
-          other relevant documents or records
+          Access control policy and procedures; system security
+          plan; privacy plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with access control responsibilities;
-          organizational personnel with information security with information security
-          and privacy responsibilities
-    statement: "the {{ ac_01_odp_03 }} access control policy addresses scope;"
+          Organizational personnel with access control
+          responsibilities; organizational personnel with
+          information security with information security and privacy
+          responsibilities
+    statement: >-
+      the {{ ac_01_odp_03 }} access control policy addresses scope;
   - id: a.1.a-3
     methods:
       - method: examine
         statement: >
-          Access control policy and procedures; system security plan; privacy plan;
-          other relevant documents or records
+          Access control policy and procedures; system security
+          plan; privacy plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with access control responsibilities;
-          organizational personnel with information security with information security
-          and privacy responsibilities
-    statement: "the {{ ac_01_odp_03 }} access control policy addresses roles;"
+          Organizational personnel with access control
+          responsibilities; organizational personnel with
+          information security with information security and privacy
+          responsibilities
+    statement: >-
+      the {{ ac_01_odp_03 }} access control policy addresses roles;
   - id: a.1.a-4
     methods:
       - method: examine
         statement: >
-          Access control policy and procedures; system security plan; privacy plan;
-          other relevant documents or records
+          Access control policy and procedures; system security
+          plan; privacy plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with access control responsibilities;
-          organizational personnel with information security with information security
-          and privacy responsibilities
-    statement: "the {{ ac_01_odp_03 }} access control policy addresses responsibilities;"
+          Organizational personnel with access control
+          responsibilities; organizational personnel with
+          information security with information security and privacy
+          responsibilities
+    statement: >-
+      the {{ ac_01_odp_03 }} access control policy addresses
+      responsibilities;
   - id: a.1.a-5
     methods:
       - method: examine
         statement: >
-          Access control policy and procedures; system security plan; privacy plan;
-          other relevant documents or records
+          Access control policy and procedures; system security
+          plan; privacy plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with access control responsibilities;
-          organizational personnel with information security with information security
-          and privacy responsibilities
-    statement: "the {{ ac_01_odp_03 }} access control policy addresses management commitment;"
+          Organizational personnel with access control
+          responsibilities; organizational personnel with
+          information security with information security and privacy
+          responsibilities
+    statement: >-
+      the {{ ac_01_odp_03 }} access control policy addresses
+      management commitment;
   - id: a.1.a-6
     methods:
       - method: examine
         statement: >
-          Access control policy and procedures; system security plan; privacy plan;
-          other relevant documents or records
+          Access control policy and procedures; system security
+          plan; privacy plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with access control responsibilities;
-          organizational personnel with information security with information security
-          and privacy responsibilities
+          Organizational personnel with access control
+          responsibilities; organizational personnel with
+          information security with information security and privacy
+          responsibilities
     statement: >
-      the {{ ac_01_odp_03 }} access control policy addresses coordination among
-      organizational entities;
+      the {{ ac_01_odp_03 }} access control policy addresses
+      coordination among organizational entities;
   - id: a.1.a-7
     methods:
       - method: examine
         statement: >
-          Access control policy and procedures; system security plan; privacy plan;
-          other relevant documents or records
+          Access control policy and procedures; system security
+          plan; privacy plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with access control responsibilities;
-          organizational personnel with information security with information security
-          and privacy responsibilities
-    statement: "the {{ ac_01_odp_03 }} access control policy addresses compliance;"
+          Organizational personnel with access control
+          responsibilities; organizational personnel with
+          information security with information security and privacy
+          responsibilities
+    statement: >-
+      the {{ ac_01_odp_03 }} access control policy addresses
+      compliance;
   - id: a.1.b
     methods:
       - method: examine
         statement: >
-          Access control policy and procedures; system security plan; privacy plan;
-          other relevant documents or records
+          Access control policy and procedures; system security
+          plan; privacy plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with access control responsibilities;
-          organizational personnel with information security with information security
-          and privacy responsibilities
+          Organizational personnel with access control
+          responsibilities; organizational personnel with
+          information security with information security and privacy
+          responsibilities
     statement: >
-      the {{ ac_01_odp_03 }} access control policy is consistent with applicable
-      laws, Executive Orders, directives, regulations, policies, standards, and
-      guidelines;
+      the {{ ac_01_odp_03 }} access control policy is consistent
+      with applicable laws, Executive Orders, directives,
+      regulations, policies, standards, and guidelines;
   - id: b
     methods:
       - method: examine
         statement: >
-          Access control policy and procedures; system security plan; privacy plan;
-          other relevant documents or records
+          Access control policy and procedures; system security
+          plan; privacy plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with access control responsibilities;
-          organizational personnel with information security with information security
-          and privacy responsibilities
+          Organizational personnel with access control
+          responsibilities; organizational personnel with
+          information security with information security and privacy
+          responsibilities
     statement: >
-      the {{ ac_01_odp_04 }} is designated to manage the development,
-      documentation, and dissemination of the access control policy and
-      procedures;
+      the {{ ac_01_odp_04 }} is designated to manage the
+      development, documentation, and dissemination of the access
+      control policy and procedures;
   - id: c.1-1
     methods:
       - method: examine
         statement: >
-          Access control policy and procedures; system security plan; privacy plan;
-          other relevant documents or records
+          Access control policy and procedures; system security
+          plan; privacy plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with access control responsibilities;
-          organizational personnel with information security with information security
-          and privacy responsibilities
-    statement: "the current access control policy is reviewed and updated {{ ac_01_odp_05 }};"
+          Organizational personnel with access control
+          responsibilities; organizational personnel with
+          information security with information security and privacy
+          responsibilities
+    statement: >-
+      the current access control policy is reviewed and updated
+      {{ ac_01_odp_05 }};
   - id: c.1-2
     methods:
       - method: examine
         statement: >
-          Access control policy and procedures; system security plan; privacy plan;
-          other relevant documents or records
+          Access control policy and procedures; system security
+          plan; privacy plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with access control responsibilities;
-          organizational personnel with information security with information security
-          and privacy responsibilities
+          Organizational personnel with access control
+          responsibilities; organizational personnel with
+          information security with information security and privacy
+          responsibilities
     statement: >
-      the current access control policy is reviewed and updated following
-      {{ ac_01_odp_06 }};
+      the current access control policy is reviewed and updated
+      following {{ ac_01_odp_06 }};
   - id: c.2-1
     methods:
       - method: examine
         statement: >
-          Access control policy and procedures; system security plan; privacy plan;
-          other relevant documents or records
+          Access control policy and procedures; system security
+          plan; privacy plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with access control responsibilities;
-          organizational personnel with information security with information security
-          and privacy responsibilities
+          Organizational personnel with access control
+          responsibilities; organizational personnel with
+          information security with information security and privacy
+          responsibilities
     statement: >
       the current access control procedures are reviewed and updated
       {{ ac_01_odp_07 }};
@@ -238,16 +271,17 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Access control policy and procedures; system security plan; privacy plan;
-          other relevant documents or records
+          Access control policy and procedures; system security
+          plan; privacy plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with access control responsibilities;
-          organizational personnel with information security with information security
-          and privacy responsibilities
+          Organizational personnel with access control
+          responsibilities; organizational personnel with
+          information security with information security and privacy
+          responsibilities
     statement: >
-      the current access control procedures are reviewed and updated following
-      {{ ac_01_odp_08 }}.
+      the current access control procedures are reviewed and updated
+      following {{ ac_01_odp_08 }}.
 parameters:
   ac_01_odp_01:
     label: personnel or roles
@@ -269,28 +303,36 @@ parameters:
     label: organization-defined personnel or roles
 parts:
   - id: a
-    statement: "Develop, document, and disseminate to {{ ac_1_prm_1 }}:"
+    statement: >-
+      Develop, document, and disseminate to {{ ac_1_prm_1 }}:
   - id: a.1
     statement: "{{ ac_01_odp_03 }} access control policy that:"
   - id: a.1.a
     statement: >
-      Addresses purpose, scope, roles, responsibilities, management commitment,
-      coordination among organizational entities, and compliance; and
+      Addresses purpose, scope, roles, responsibilities, management
+      commitment, coordination among organizational entities, and
+      compliance; and
   - id: a.1.b
     statement: >
-      Is consistent with applicable laws, executive orders, directives,
-      regulations, policies, standards, and guidelines; and
+      Is consistent with applicable laws, executive orders,
+      directives, regulations, policies, standards, and guidelines;
+      and
   - id: a.2
     statement: >
-      Procedures to facilitate the implementation of the access control policy and
-      the associated access controls;
+      Procedures to facilitate the implementation of the access
+      control policy and the associated access controls;
   - id: b
     statement: >
-      Designate an {{ ac_01_odp_04 }} to manage the development, documentation,
-      and dissemination of the access control policy and procedures; and
+      Designate an {{ ac_01_odp_04 }} to manage the development,
+      documentation, and dissemination of the access control policy
+      and procedures; and
   - id: c
     statement: "Review and update the current access control:"
   - id: c.1
-    statement: "Policy {{ ac_01_odp_05 }} and following {{ ac_01_odp_06 }} ; and"
+    statement: >-
+      Policy {{ ac_01_odp_05 }} and following {{ ac_01_odp_06 }} ;
+      and
   - id: c.2
-    statement: "Procedures {{ ac_01_odp_07 }} and following {{ ac_01_odp_08 }}."
+    statement: >-
+      Procedures {{ ac_01_odp_07 }} and following
+      {{ ac_01_odp_08 }}.

@@ -13,25 +13,29 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Audit and accountability policy; system security plan; privacy plan;
-          procedures addressing audit review, analysis, and reporting; system design
-          documentation; system configuration settings and associated documentation;
-          documentation providing evidence of correlated information obtained from
-          audit records and organization-defined non-technical sources; list of
-          information types from non-technical sources for correlation with audit
-          information; other relevant documents or records
+          Audit and accountability policy; system security plan;
+          privacy plan; procedures addressing audit review,
+          analysis, and reporting; system design documentation;
+          system configuration settings and associated
+          documentation; documentation providing evidence of
+          correlated information obtained from audit records and
+          organization-defined non-technical sources; list of
+          information types from non-technical sources for
+          correlation with audit information; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with audit review, analysis, and reporting
-          responsibilities; organizational personnel with information security and
-          privacy responsibilities
+          Organizational personnel with audit review, analysis, and
+          reporting responsibilities; organizational personnel with
+          information security and privacy responsibilities
       - method: test
         statement: >
-          Mechanisms implementing capability to correlate information from
-          non-technical sources
+          Mechanisms implementing capability to correlate
+          information from non-technical sources
     statement: >
-      information from non-technical sources is correlated with audit record
-      information to enhance organization-wide situational awareness.
+      information from non-technical sources is correlated with
+      audit record information to enhance organization-wide
+      situational awareness.
 statement: >
   Correlate information from nontechnical sources with audit record
   information to enhance organization-wide situational awareness.

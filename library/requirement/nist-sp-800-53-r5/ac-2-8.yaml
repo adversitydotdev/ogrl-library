@@ -13,67 +13,89 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing account management; system
-          design documentation; system configuration settings and associated
-          documentation; system-generated list of system accounts; system audit
-          records; system security plan; other relevant documents or records
+          Access control policy; procedures addressing account
+          management; system design documentation; system
+          configuration settings and associated documentation;
+          system-generated list of system accounts; system audit
+          records; system security plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          Organizational personnel with account management responsibilities;
-          system/network administrators; organizational personnel with information
-          security responsibilities; system developers
+          Organizational personnel with account management
+          responsibilities; system/network administrators;
+          organizational personnel with information security
+          responsibilities; system developers
       - method: test
-        statement: Automated mechanisms implementing account management functions
+        statement: >-
+          Automated mechanisms implementing account management
+          functions
     statement: "{{ ac_02_08_odp }} are created dynamically;"
   - id: "ac-02(08).ac-02(08)[02]"
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing account management; system
-          design documentation; system configuration settings and associated
-          documentation; system-generated list of system accounts; system audit
-          records; system security plan; other relevant documents or records
+          Access control policy; procedures addressing account
+          management; system design documentation; system
+          configuration settings and associated documentation;
+          system-generated list of system accounts; system audit
+          records; system security plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          Organizational personnel with account management responsibilities;
-          system/network administrators; organizational personnel with information
-          security responsibilities; system developers
+          Organizational personnel with account management
+          responsibilities; system/network administrators;
+          organizational personnel with information security
+          responsibilities; system developers
       - method: test
-        statement: Automated mechanisms implementing account management functions
+        statement: >-
+          Automated mechanisms implementing account management
+          functions
     statement: "{{ ac_02_08_odp }} are activated dynamically;"
   - id: "ac-02(08).ac-02(08)[03]"
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing account management; system
-          design documentation; system configuration settings and associated
-          documentation; system-generated list of system accounts; system audit
-          records; system security plan; other relevant documents or records
+          Access control policy; procedures addressing account
+          management; system design documentation; system
+          configuration settings and associated documentation;
+          system-generated list of system accounts; system audit
+          records; system security plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          Organizational personnel with account management responsibilities;
-          system/network administrators; organizational personnel with information
-          security responsibilities; system developers
+          Organizational personnel with account management
+          responsibilities; system/network administrators;
+          organizational personnel with information security
+          responsibilities; system developers
       - method: test
-        statement: Automated mechanisms implementing account management functions
+        statement: >-
+          Automated mechanisms implementing account management
+          functions
     statement: "{{ ac_02_08_odp }} are managed dynamically;"
   - id: "ac-02(08).ac-02(08)[04]"
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing account management; system
-          design documentation; system configuration settings and associated
-          documentation; system-generated list of system accounts; system audit
-          records; system security plan; other relevant documents or records
+          Access control policy; procedures addressing account
+          management; system design documentation; system
+          configuration settings and associated documentation;
+          system-generated list of system accounts; system audit
+          records; system security plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          Organizational personnel with account management responsibilities;
-          system/network administrators; organizational personnel with information
-          security responsibilities; system developers
+          Organizational personnel with account management
+          responsibilities; system/network administrators;
+          organizational personnel with information security
+          responsibilities; system developers
       - method: test
-        statement: Automated mechanisms implementing account management functions
+        statement: >-
+          Automated mechanisms implementing account management
+          functions
     statement: "{{ ac_02_08_odp }} are deactivated dynamically."
 parameters:
   ac_02_08_odp:
     label: system accounts
-statement: "Create, activate, manage, and deactivate {{ ac_02_08_odp }} dynamically."
+statement: >-
+  Create, activate, manage, and deactivate {{ ac_02_08_odp }}
+  dynamically.

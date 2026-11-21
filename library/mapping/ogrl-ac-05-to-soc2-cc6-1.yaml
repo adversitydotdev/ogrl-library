@@ -8,5 +8,6 @@ rationale: functional
 relationship: subset-of
 review_status: reviewed
 source_ref: control--ogrl-ac-05
-summary: Universal MFA strengthens authentication required by SOC 2 CC6.1.
+summary: >-
+  Universal MFA strengthens authentication required by SOC 2 CC6.1.
 target_ref: requirement--soc2-tsc-2017-cc6-1

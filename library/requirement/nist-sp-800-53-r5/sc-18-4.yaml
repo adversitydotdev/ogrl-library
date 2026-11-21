@@ -13,51 +13,62 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; procedures addressing mobile
-          code; mobile code usage restrictions; mobile code implementation policy and
-          procedures; system design documentation; system configuration settings and
-          associated documentation; list of software applications in which the
-          automatic execution of mobile code must be prohibited; list of actions
-          required before execution of mobile code; system security plan; other
-          relevant documents or records
+          System and communications protection policy; procedures
+          addressing mobile code; mobile code usage restrictions;
+          mobile code implementation policy and procedures; system
+          design documentation; system configuration settings and
+          associated documentation; list of software applications in
+          which the automatic execution of mobile code must be
+          prohibited; list of actions required before execution of
+          mobile code; system security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; system developer; organizational personnel with
-          responsibilities for managing mobile code
+          System/network administrators; organizational personnel
+          with information security responsibilities; system
+          developer; organizational personnel with responsibilities
+          for managing mobile code
       - method: test
         statement: >
-          Mechanisms preventing the automatic execution of unacceptable mobile code;
-          mechanisms enforcing actions to be taken prior to the execution of the
-          mobile code
-    statement: "the automatic execution of mobile code in {{ sc_18_04_odp_01 }} is prevented;"
+          Mechanisms preventing the automatic execution of
+          unacceptable mobile code; mechanisms enforcing actions to
+          be taken prior to the execution of the mobile code
+    statement: >-
+      the automatic execution of mobile code in
+      {{ sc_18_04_odp_01 }} is prevented;
   - id: "sc-18(04).sc-18(04)[02]"
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; procedures addressing mobile
-          code; mobile code usage restrictions; mobile code implementation policy and
-          procedures; system design documentation; system configuration settings and
-          associated documentation; list of software applications in which the
-          automatic execution of mobile code must be prohibited; list of actions
-          required before execution of mobile code; system security plan; other
-          relevant documents or records
+          System and communications protection policy; procedures
+          addressing mobile code; mobile code usage restrictions;
+          mobile code implementation policy and procedures; system
+          design documentation; system configuration settings and
+          associated documentation; list of software applications in
+          which the automatic execution of mobile code must be
+          prohibited; list of actions required before execution of
+          mobile code; system security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; system developer; organizational personnel with
-          responsibilities for managing mobile code
+          System/network administrators; organizational personnel
+          with information security responsibilities; system
+          developer; organizational personnel with responsibilities
+          for managing mobile code
       - method: test
         statement: >
-          Mechanisms preventing the automatic execution of unacceptable mobile code;
-          mechanisms enforcing actions to be taken prior to the execution of the
-          mobile code
-    statement: "{{ sc_18_04_odp_02 }} are enforced prior to executing mobile code."
+          Mechanisms preventing the automatic execution of
+          unacceptable mobile code; mechanisms enforcing actions to
+          be taken prior to the execution of the mobile code
+    statement: >-
+      {{ sc_18_04_odp_02 }} are enforced prior to executing mobile
+      code.
 parameters:
   sc_18_04_odp_01:
     label: software applications
   sc_18_04_odp_02:
     label: actions
 statement: >
-  Prevent the automatic execution of mobile code in {{ sc_18_04_odp_01 }} and
-  enforce {{ sc_18_04_odp_02 }} prior to executing the code.
+  Prevent the automatic execution of mobile code in
+  {{ sc_18_04_odp_01 }} and enforce {{ sc_18_04_odp_02 }} prior to
+  executing the code.

@@ -8,5 +8,7 @@ rationale: functional
 relationship: equivalent-to
 review_status: draft
 source_ref: control--ogrl-vm-02
-summary: "Updates are tested in non-production before production deployment per SI-2(b)."
+summary: >-
+  Updates are tested in non-production before production deployment
+  per SI-2(b).
 target_ref: "requirement--nist-sp-800-53-r5-si-2#b"

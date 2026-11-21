@@ -17,109 +17,123 @@ objectives:
     methods:
       - method: examine
         statement: >
-          security assessment and monitoring policy and procedures; procedures for
-          plans of action and milestones; security assessment plan; security
-          assessment report; security assessment evidence; plan of action and
-          milestones; system security plan; other relevant documents or records
+          security assessment and monitoring policy and procedures;
+          procedures for plans of action and milestones; security
+          assessment plan; security assessment report; security
+          assessment evidence; plan of action and milestones; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          personnel with plans of action and milestones development and implementation
-          responsibilities; personnel with information security responsibilities
+          personnel with plans of action and milestones development
+          and implementation responsibilities; personnel with
+          information security responsibilities
       - method: test
         statement: >
-          mechanisms for developing, implementing, and maintaining plans of action and
-          milestones
+          mechanisms for developing, implementing, and maintaining
+          plans of action and milestones
     statement: >
-      a plan of action and milestones for the system is developed to document the
-      planned remediation actions for correcting weaknesses or deficiencies noted
-      during security assessments.
+      a plan of action and milestones for the system is developed to
+      document the planned remediation actions for correcting
+      weaknesses or deficiencies noted during security assessments.
   - id: a.02
     methods:
       - method: examine
         statement: >
-          security assessment and monitoring policy and procedures; procedures for
-          plans of action and milestones; security assessment plan; security
-          assessment report; security assessment evidence; plan of action and
-          milestones; system security plan; other relevant documents or records
+          security assessment and monitoring policy and procedures;
+          procedures for plans of action and milestones; security
+          assessment plan; security assessment report; security
+          assessment evidence; plan of action and milestones; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          personnel with plans of action and milestones development and implementation
-          responsibilities; personnel with information security responsibilities
+          personnel with plans of action and milestones development
+          and implementation responsibilities; personnel with
+          information security responsibilities
       - method: test
         statement: >
-          mechanisms for developing, implementing, and maintaining plans of action and
-          milestones
+          mechanisms for developing, implementing, and maintaining
+          plans of action and milestones
     statement: >
-      a plan of action and milestones for the system is developed to reduce or
-      eliminate known system vulnerabilities.
+      a plan of action and milestones for the system is developed to
+      reduce or eliminate known system vulnerabilities.
   - id: b.01
     methods:
       - method: examine
         statement: >
-          security assessment and monitoring policy and procedures; procedures for
-          plans of action and milestones; security assessment plan; security
-          assessment report; security assessment evidence; plan of action and
-          milestones; system security plan; other relevant documents or records
+          security assessment and monitoring policy and procedures;
+          procedures for plans of action and milestones; security
+          assessment plan; security assessment report; security
+          assessment evidence; plan of action and milestones; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          personnel with plans of action and milestones development and implementation
-          responsibilities; personnel with information security responsibilities
+          personnel with plans of action and milestones development
+          and implementation responsibilities; personnel with
+          information security responsibilities
       - method: test
         statement: >
-          mechanisms for developing, implementing, and maintaining plans of action and
-          milestones
+          mechanisms for developing, implementing, and maintaining
+          plans of action and milestones
     statement: >
-      the existing plan of action and milestones is updated based on the findings
-      from security assessments.
+      the existing plan of action and milestones is updated based on
+      the findings from security assessments.
   - id: b.03
     methods:
       - method: examine
         statement: >
-          security assessment and monitoring policy and procedures; procedures for
-          plans of action and milestones; security assessment plan; security
-          assessment report; security assessment evidence; plan of action and
-          milestones; system security plan; other relevant documents or records
+          security assessment and monitoring policy and procedures;
+          procedures for plans of action and milestones; security
+          assessment plan; security assessment report; security
+          assessment evidence; plan of action and milestones; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          personnel with plans of action and milestones development and implementation
-          responsibilities; personnel with information security responsibilities
+          personnel with plans of action and milestones development
+          and implementation responsibilities; personnel with
+          information security responsibilities
       - method: test
         statement: >
-          mechanisms for developing, implementing, and maintaining plans of action and
-          milestones
+          mechanisms for developing, implementing, and maintaining
+          plans of action and milestones
     statement: >
-      the existing plan of action and milestones is updated based on the findings
-      from continuous monitoring activities.
+      the existing plan of action and milestones is updated based on
+      the findings from continuous monitoring activities.
   - id: b.02
     methods:
       - method: examine
         statement: >
-          security assessment and monitoring policy and procedures; procedures for
-          plans of action and milestones; security assessment plan; security
-          assessment report; security assessment evidence; plan of action and
-          milestones; system security plan; other relevant documents or records
+          security assessment and monitoring policy and procedures;
+          procedures for plans of action and milestones; security
+          assessment plan; security assessment report; security
+          assessment evidence; plan of action and milestones; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          personnel with plans of action and milestones development and implementation
-          responsibilities; personnel with information security responsibilities
+          personnel with plans of action and milestones development
+          and implementation responsibilities; personnel with
+          information security responsibilities
       - method: test
         statement: >
-          mechanisms for developing, implementing, and maintaining plans of action and
-          milestones
+          mechanisms for developing, implementing, and maintaining
+          plans of action and milestones
     statement: >
-      the existing plan of action and milestones is updated based on the findings
-      from audits or reviews.
+      the existing plan of action and milestones is updated based on
+      the findings from audits or reviews.
 parts:
   - id: a
-    statement: "Develop a plan of action and milestones for the system:"
+    statement: >-
+      Develop a plan of action and milestones for the system:
   - id: a.01
     statement: >
-      To document the planned remediation actions to correct weaknesses or
-      deficiencies noted during security assessments and
+      To document the planned remediation actions to correct
+      weaknesses or deficiencies noted during security assessments
+      and
   - id: a.02
     statement: To reduce or eliminate known system vulnerabilities.
   - id: b
-    statement: "Update the existing plan of action and milestones based on the findings from:"
+    statement: >-
+      Update the existing plan of action and milestones based on the
+      findings from:
   - id: b.01
     statement: "Security assessments,"
   - id: b.02

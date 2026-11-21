@@ -13,35 +13,42 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and services acquisition policy; procedures addressing system
-          developer security testing; processes, procedures, and/or techniques for
-          performing manual code reviews; solicitation documentation; acquisition
-          documentation; service level agreements; acquisition contracts for the
-          system, system component, or system service; system developer security
-          testing and evaluation plans; system developer security testing and
-          evaluation results; list of code requiring manual reviews; records of manual
-          code reviews; system security plan; other relevant documents or records
+          System and services acquisition policy; procedures
+          addressing system developer security testing; processes,
+          procedures, and/or techniques for performing manual code
+          reviews; solicitation documentation; acquisition
+          documentation; service level agreements; acquisition
+          contracts for the system, system component, or system
+          service; system developer security testing and evaluation
+          plans; system developer security testing and evaluation
+          results; list of code requiring manual reviews; records of
+          manual code reviews; system security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with system and service acquisition
-          responsibilities; organizational personnel with information security
-          responsibilities; organizational personnel with developer security testing
-          responsibilities; system developers; independent verification agent
+          Organizational personnel with system and service
+          acquisition responsibilities; organizational personnel
+          with information security responsibilities; organizational
+          personnel with developer security testing
+          responsibilities; system developers; independent
+          verification agent
       - method: test
         statement: >
-          Organizational processes for monitoring developer security testing and
-          evaluation; mechanisms supporting and/or implementing the monitoring of
-          developer testing and evaluation
+          Organizational processes for monitoring developer security
+          testing and evaluation; mechanisms supporting and/or
+          implementing the monitoring of developer testing and
+          evaluation
     statement: >
-      the developer of the system, system component, or system service is required
-      to perform a manual code review of {{ sa_11_04_odp_01 }} using
-      {{ sa_11_04_odp_02 }}.
+      the developer of the system, system component, or system
+      service is required to perform a manual code review of
+      {{ sa_11_04_odp_01 }} using {{ sa_11_04_odp_02 }}.
 parameters:
   sa_11_04_odp_01:
     label: specific code
   sa_11_04_odp_02:
     label: "processes, procedures, and/or techniques"
 statement: >
-  Require the developer of the system, system component, or system service to
-  perform a manual code review of {{ sa_11_04_odp_01 }} using the following
-  processes, procedures, and/or techniques: {{ sa_11_04_odp_02 }}.
+  Require the developer of the system, system component, or system
+  service to perform a manual code review of {{ sa_11_04_odp_01 }}
+  using the following processes, procedures, and/or techniques:
+  {{ sa_11_04_odp_02 }}.

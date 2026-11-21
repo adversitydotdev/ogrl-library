@@ -13,28 +13,31 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; procedures addressing boundary
-          protection; system design documentation; system hardware and software;
-          enterprise architecture documentation; system architecture; system
-          configuration settings and associated documentation; system audit records;
-          system security plan; other relevant documents or records
+          System and communications protection policy; procedures
+          addressing boundary protection; system design
+          documentation; system hardware and software; enterprise
+          architecture documentation; system architecture; system
+          configuration settings and associated documentation;
+          system audit records; system security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; organizational personnel with boundary protection
-          responsibilities
+          System/network administrators; organizational personnel
+          with information security responsibilities; organizational
+          personnel with boundary protection responsibilities
       - method: test
         statement: >
-          Mechanisms supporting and/or implementing the capability to separate system
-          components supporting organizational missions and/or business functions
+          Mechanisms supporting and/or implementing the capability
+          to separate system components supporting organizational
+          missions and/or business functions
     statement: >
-      boundary protection mechanisms are employed to isolate {{ sc_07_21_odp_01 }}
-      supporting {{ sc_07_21_odp_02 }}.
+      boundary protection mechanisms are employed to isolate
+      {{ sc_07_21_odp_01 }} supporting {{ sc_07_21_odp_02 }}.
 parameters:
   sc_07_21_odp_01:
     label: system components
   sc_07_21_odp_02:
     label: missions and/or business functions
 statement: >
-  Employ boundary protection mechanisms to isolate {{ sc_07_21_odp_01 }}
-  supporting {{ sc_07_21_odp_02 }}.
+  Employ boundary protection mechanisms to isolate
+  {{ sc_07_21_odp_01 }} supporting {{ sc_07_21_odp_02 }}.

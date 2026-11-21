@@ -23,24 +23,27 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Incident response policy; contingency planning policy; procedures addressing
-          incident response testing; procedures addressing contingency plan testing;
-          incident response testing material; incident response test results; incident
-          response test plan; incident response plan; contingency plan; system
-          security plan; privacy plan; other relevant documents or records
+          Incident response policy; contingency planning policy;
+          procedures addressing incident response testing;
+          procedures addressing contingency plan testing; incident
+          response testing material; incident response test results;
+          incident response test plan; incident response plan;
+          contingency plan; system security plan; privacy plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with incident response testing responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities
+          Organizational personnel with incident response testing
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities
     statement: >
-      the effectiveness of the incident response capability for the system is
-      tested {{ ir_03_odp_01 }} using {{ ir_03_odp_02 }}.
+      the effectiveness of the incident response capability for the
+      system is tested {{ ir_03_odp_01 }} using {{ ir_03_odp_02 }}.
 parameters:
   ir_03_odp_01:
     label: frequency
   ir_03_odp_02:
     label: tests
 statement: >
-  Test the effectiveness of the incident response capability for the system
-  {{ ir_03_odp_01 }} using the following tests: {{ ir_03_odp_02 }}.
+  Test the effectiveness of the incident response capability for the
+  system {{ ir_03_odp_01 }} using the following tests:
+  {{ ir_03_odp_02 }}.

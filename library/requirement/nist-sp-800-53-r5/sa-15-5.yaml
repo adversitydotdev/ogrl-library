@@ -13,29 +13,36 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and services acquisition policy; procedures addressing development
-          process, standards, and tools; procedures addressing attack surface
-          reduction; solicitation documentation; acquisition documentation; service
-          level agreements; acquisition contracts for the system or system service;
-          system design documentation; network diagram; system configuration settings
-          and associated documentation establishing/enforcing organization-defined
-          thresholds for reducing attack surfaces; list of restricted ports,
-          protocols, functions, and services; system security plan; other relevant
+          System and services acquisition policy; procedures
+          addressing development process, standards, and tools;
+          procedures addressing attack surface reduction;
+          solicitation documentation; acquisition documentation;
+          service level agreements; acquisition contracts for the
+          system or system service; system design documentation;
+          network diagram; system configuration settings and
+          associated documentation establishing/enforcing
+          organization-defined thresholds for reducing attack
+          surfaces; list of restricted ports, protocols, functions,
+          and services; system security plan; other relevant
           documents or records
       - method: interview
         statement: >
-          Organizational personnel with system and service acquisition
-          responsibilities; organizational personnel with information security
-          responsibilities; organizational personnel responsible for attack surface
-          reduction thresholds; system developer
+          Organizational personnel with system and service
+          acquisition responsibilities; organizational personnel
+          with information security responsibilities; organizational
+          personnel responsible for attack surface reduction
+          thresholds; system developer
       - method: test
-        statement: Organizational processes for defining attack surface reduction thresholds
+        statement: >-
+          Organizational processes for defining attack surface
+          reduction thresholds
     statement: >
-      the developer of the system, system component, or system service is required
-      to reduce attack surfaces to {{ sa_15_05_odp }}.
+      the developer of the system, system component, or system
+      service is required to reduce attack surfaces to
+      {{ sa_15_05_odp }}.
 parameters:
   sa_15_05_odp:
     label: thresholds
 statement: >
-  Require the developer of the system, system component, or system service to
-  reduce attack surfaces to {{ sa_15_05_odp }}.
+  Require the developer of the system, system component, or system
+  service to reduce attack surfaces to {{ sa_15_05_odp }}.

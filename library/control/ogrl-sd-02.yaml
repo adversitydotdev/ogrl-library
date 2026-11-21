@@ -9,36 +9,38 @@ control_type: preventive
 family: sd
 frequency: event-driven
 guidance: >
-  Map security-sensitive paths in a CODEOWNERS file to a security reviewer
-  group and enable the require-code-owner-review branch protection setting.
-  General independent peer review of all production changes is covered by
-  OGRL-CM-01; this control adds security-focused review for high-risk code.
+  Map security-sensitive paths in a CODEOWNERS file to a security
+  reviewer group and enable the require-code-owner-review branch
+  protection setting. General independent peer review of all
+  production changes is covered by OGRL-CM-01; this control adds
+  security-focused review for high-risk code.
 objective: >
-  Catch security defects in high-risk code paths that general peer review and
-  automated scanning may miss.
+  Catch security defects in high-risk code paths that general peer
+  review and automated scanning may miss.
 origin: standard
 parameters:
   code_review_techniques:
     label: Security code review technique
     value: >
-      the organization's secure code review checklist covering OWASP Top 10
-      weakness classes
+      the organization's secure code review checklist covering OWASP
+      Top 10 weakness classes
   security_code_reviewer:
     label: Security code reviewer
     value: a designated security code owner other than the author
   security_sensitive_code:
     label: Security-sensitive code requiring security review
     value: >
-      authentication, authorization, cryptography, session management, payment,
-      and tenant-isolation code paths
+      authentication, authorization, cryptography, session
+      management, payment, and tenant-isolation code paths
 statement: >
-  Require every pull request that modifies {{ security_sensitive_code }} to be
-  reviewed and approved by {{ security_code_reviewer }} using
-  {{ code_review_techniques }} before merge, enforced through code-owner rules
-  in the source control platform.
+  Require every pull request that modifies
+  {{ security_sensitive_code }} to be reviewed and approved by
+  {{ security_code_reviewer }} using {{ code_review_techniques }}
+  before merge, enforced through code-owner rules in the source
+  control platform.
 summary: >
-  Require security-qualified review of changes to security-sensitive code
-  before merge.
+  Require security-qualified review of changes to security-sensitive
+  code before merge.
 tags:
   - code-review
   - secure-development

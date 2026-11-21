@@ -13,28 +13,36 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Configuration management policy; procedures addressing least functionality
-          in the system; configuration management plan; system design documentation;
-          system configuration settings and associated documentation; system component
-          inventory; common secure configuration checklists; specifications for
-          preventing software program execution; change control records; system audit
-          records; system security plan; other relevant documents or records
+          Configuration management policy; procedures addressing
+          least functionality in the system; configuration
+          management plan; system design documentation; system
+          configuration settings and associated documentation;
+          system component inventory; common secure configuration
+          checklists; specifications for preventing software program
+          execution; change control records; system audit records;
+          system security plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with information security responsibilities;
-          system/network administrators; system developers
+          Organizational personnel with information security
+          responsibilities; system/network administrators; system
+          developers
       - method: test
         statement: >
-          Organizational processes preventing program execution on the system;
-          organizational processes for software program usage and restrictions;
-          mechanisms preventing program execution on the system; mechanisms supporting
-          and/or implementing software program usage and restrictions
-    statement: "program execution is prevented in accordance with {{ cm_07_02_odp_01 }}."
+          Organizational processes preventing program execution on
+          the system; organizational processes for software program
+          usage and restrictions; mechanisms preventing program
+          execution on the system; mechanisms supporting and/or
+          implementing software program usage and restrictions
+    statement: >-
+      program execution is prevented in accordance with
+      {{ cm_07_02_odp_01 }}.
 parameters:
   cm_07_02_odp_01:
     label: cm-07.02_odp.01
   cm_07_02_odp_02:
     label: >
-      policies, rules of behavior, and/or access agreements regarding software
-      program usage and restrictions
-statement: "Prevent program execution in accordance with {{ cm_07_02_odp_01 }}."
+      policies, rules of behavior, and/or access agreements
+      regarding software program usage and restrictions
+statement: >-
+  Prevent program execution in accordance with
+  {{ cm_07_02_odp_01 }}.

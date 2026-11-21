@@ -13,19 +13,20 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing the association of security and
-          privacy attributes to information; procedures addressing labeling or
-          marking; system design documentation; system configuration settings and
-          associated documentation; system security plan; privacy plan; other relevant
-          documents or records
+          Access control policy; procedures addressing the
+          association of security and privacy attributes to
+          information; procedures addressing labeling or marking;
+          system design documentation; system configuration settings
+          and associated documentation; system security plan;
+          privacy plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with information security and privacy
-          responsibilities; system developers
+          Organizational personnel with information security and
+          privacy responsibilities; system developers
       - method: test
         statement: >
-          Mechanisms maintaining association and integrity of security and privacy
-          attributes to information
+          Mechanisms maintaining association and integrity of
+          security and privacy attributes to information
     statement: >
       the association and integrity of {{ ac_16_03_odp_01 }} to
       {{ ac_16_03_odp_03 }} is maintained;
@@ -33,19 +34,20 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing the association of security and
-          privacy attributes to information; procedures addressing labeling or
-          marking; system design documentation; system configuration settings and
-          associated documentation; system security plan; privacy plan; other relevant
-          documents or records
+          Access control policy; procedures addressing the
+          association of security and privacy attributes to
+          information; procedures addressing labeling or marking;
+          system design documentation; system configuration settings
+          and associated documentation; system security plan;
+          privacy plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with information security and privacy
-          responsibilities; system developers
+          Organizational personnel with information security and
+          privacy responsibilities; system developers
       - method: test
         statement: >
-          Mechanisms maintaining association and integrity of security and privacy
-          attributes to information
+          Mechanisms maintaining association and integrity of
+          security and privacy attributes to information
     statement: >
       the association and integrity of {{ ac_16_03_odp_01 }} to
       {{ ac_16_03_odp_04 }} is maintained.
@@ -53,19 +55,20 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing the association of security and
-          privacy attributes to information; procedures addressing labeling or
-          marking; system design documentation; system configuration settings and
-          associated documentation; system security plan; privacy plan; other relevant
-          documents or records
+          Access control policy; procedures addressing the
+          association of security and privacy attributes to
+          information; procedures addressing labeling or marking;
+          system design documentation; system configuration settings
+          and associated documentation; system security plan;
+          privacy plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with information security and privacy
-          responsibilities; system developers
+          Organizational personnel with information security and
+          privacy responsibilities; system developers
       - method: test
         statement: >
-          Mechanisms maintaining association and integrity of security and privacy
-          attributes to information
+          Mechanisms maintaining association and integrity of
+          security and privacy attributes to information
     statement: >
       the association and integrity of {{ ac_16_03_odp_02 }} to
       {{ ac_16_03_odp_05 }} is maintained;
@@ -73,19 +76,20 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing the association of security and
-          privacy attributes to information; procedures addressing labeling or
-          marking; system design documentation; system configuration settings and
-          associated documentation; system security plan; privacy plan; other relevant
-          documents or records
+          Access control policy; procedures addressing the
+          association of security and privacy attributes to
+          information; procedures addressing labeling or marking;
+          system design documentation; system configuration settings
+          and associated documentation; system security plan;
+          privacy plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with information security and privacy
-          responsibilities; system developers
+          Organizational personnel with information security and
+          privacy responsibilities; system developers
       - method: test
         statement: >
-          Mechanisms maintaining association and integrity of security and privacy
-          attributes to information
+          Mechanisms maintaining association and integrity of
+          security and privacy attributes to information
     statement: >
       the association and integrity of {{ ac_16_03_odp_02 }} to
       {{ ac_16_03_odp_06 }} is maintained.

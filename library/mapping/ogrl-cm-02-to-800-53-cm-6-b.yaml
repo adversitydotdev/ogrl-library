@@ -9,6 +9,6 @@ relationship: equivalent-to
 review_status: draft
 source_ref: control--ogrl-cm-02
 summary: >
-  Provisioning only from approved baselines implements the documented
-  configuration settings per CM-6(b).
+  Provisioning only from approved baselines implements the
+  documented configuration settings per CM-6(b).
 target_ref: "requirement--nist-sp-800-53-r5-cm-6#b"

@@ -17,14 +17,20 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System design documentation; system architecture; independent verification
-          and validation documentation; testing and evaluation documentation; other
-          relevant documents or records
+          System design documentation; system architecture;
+          independent verification and validation documentation;
+          testing and evaluation documentation; other relevant
+          documents or records
       - method: interview
-        statement: System developers/integrators; system security architect
+        statement: >-
+          System developers/integrators; system security architect
       - method: test
         statement: >
-          Mechanisms supporting and/or implementing separate execution domains for
-          each executing process
-    statement: a separate execution domain is maintained for each executing system process.
-statement: Maintain a separate execution domain for each executing system process.
+          Mechanisms supporting and/or implementing separate
+          execution domains for each executing process
+    statement: >-
+      a separate execution domain is maintained for each executing
+      system process.
+statement: >-
+  Maintain a separate execution domain for each executing system
+  process.

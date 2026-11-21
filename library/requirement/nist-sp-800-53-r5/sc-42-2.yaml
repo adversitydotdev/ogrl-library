@@ -13,33 +13,39 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; access control policy and
-          procedures; personally identifiable information processing policy; sensor
-          capability and data collection; system design documentation; system
-          configuration settings and associated documentation; system architecture;
-          list of measures to be employed to that the ensure data or information
-          collected by sensors is only used for authorized purposes; system audit
-          records; system security plan; privacy plan; other relevant documents or
-          records
+          System and communications protection policy; access
+          control policy and procedures; personally identifiable
+          information processing policy; sensor capability and data
+          collection; system design documentation; system
+          configuration settings and associated documentation;
+          system architecture; list of measures to be employed to
+          that the ensure data or information collected by sensors
+          is only used for authorized purposes; system audit
+          records; system security plan; privacy plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security and privacy responsibilities; organizational personnel installing,
-          configuring, and/or maintaining the system; organizational personnel
+          System/network administrators; organizational personnel
+          with information security and privacy responsibilities;
+          organizational personnel installing, configuring, and/or
+          maintaining the system; organizational personnel
           responsible for sensor capabilities
       - method: test
         statement: >
-          Mechanisms supporting and/or implementing measures to ensure that sensor
-          information is only used for authorized purposes; sensor information
-          collection capability for the system
+          Mechanisms supporting and/or implementing measures to
+          ensure that sensor information is only used for authorized
+          purposes; sensor information collection capability for the
+          system
     statement: >
-      {{ sc_42_02_odp }} are employed so that data or information collected by
-      {{ sc_42_01_odp }} is only used for authorized purposes.
+      {{ sc_42_02_odp }} are employed so that data or information
+      collected by {{ sc_42_01_odp }} is only used for authorized
+      purposes.
 parameters:
   sc_42_01_odp:
     label: sc-42.01_odp
   sc_42_02_odp:
     label: measures
 statement: >
-  Employ the following measures so that data or information collected by
-  {{ sc_42_01_odp }} is only used for authorized purposes: {{ sc_42_02_odp }}.
+  Employ the following measures so that data or information
+  collected by {{ sc_42_01_odp }} is only used for authorized
+  purposes: {{ sc_42_02_odp }}.

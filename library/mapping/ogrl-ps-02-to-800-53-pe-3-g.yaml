@@ -8,5 +8,7 @@ rationale: functional
 relationship: subset-of
 review_status: draft
 source_ref: control--ogrl-ps-02
-summary: "Event-triggered rekeying covers PE-3(g) except the periodic change cadence."
+summary: >-
+  Event-triggered rekeying covers PE-3(g) except the periodic change
+  cadence.
 target_ref: "requirement--nist-sp-800-53-r5-pe-3#g"

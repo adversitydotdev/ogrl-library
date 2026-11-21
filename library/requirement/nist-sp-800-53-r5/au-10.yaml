@@ -29,22 +29,26 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Audit and accountability policy; system security plan; privacy plan;
-          procedures addressing non-repudiation; system design documentation; system
-          configuration settings and associated documentation; system audit records;
-          other relevant documents or records
+          Audit and accountability policy; system security plan;
+          privacy plan; procedures addressing non-repudiation;
+          system design documentation; system configuration settings
+          and associated documentation; system audit records; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with information security and privacy
-          responsibilities; system/network administrators; system developers
+          Organizational personnel with information security and
+          privacy responsibilities; system/network administrators;
+          system developers
       - method: test
-        statement: Mechanisms implementing non-repudiation capability
+        statement: >-
+          Mechanisms implementing non-repudiation capability
     statement: >
-      irrefutable evidence is provided that an individual (or process acting on
-      behalf of an individual) has performed {{ au_10_odp }}.
+      irrefutable evidence is provided that an individual (or
+      process acting on behalf of an individual) has performed
+      {{ au_10_odp }}.
 parameters:
   au_10_odp:
     label: actions
 statement: >
-  Provide irrefutable evidence that an individual (or process acting on behalf
-  of an individual) has performed {{ au_10_odp }}.
+  Provide irrefutable evidence that an individual (or process acting
+  on behalf of an individual) has performed {{ au_10_odp }}.

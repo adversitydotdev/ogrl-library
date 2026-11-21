@@ -13,19 +13,22 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Incident response policy; procedures addressing system monitoring tools and
-          techniques; incident response plan; system monitoring logs or records;
-          system monitoring tools and techniques documentation; system configuration
-          settings and associated documentation; security plan; system component
-          inventory; network diagram; system protocols documentation; list of
-          acceptable thresholds for false positives and false negatives; system
-          security plan; other relevant documents or records
+          Incident response policy; procedures addressing system
+          monitoring tools and techniques; incident response plan;
+          system monitoring logs or records; system monitoring tools
+          and techniques documentation; system configuration
+          settings and associated documentation; security plan;
+          system component inventory; network diagram; system
+          protocols documentation; list of acceptable thresholds for
+          false positives and false negatives; system security plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with information security responsibilities;
-          system/network administrators
+          Organizational personnel with information security
+          responsibilities; system/network administrators
       - method: test
-        statement: Organizational processes for detecting anomalous behavior
+        statement: >-
+          Organizational processes for detecting anomalous behavior
     statement: >
       anomalous or suspected adversarial behavior in or related to
       {{ ir_04_13_odp }} are analyzed.
@@ -33,5 +36,5 @@ parameters:
   ir_04_13_odp:
     label: environments or resources
 statement: >
-  Analyze anomalous or suspected adversarial behavior in or related to
-  {{ ir_04_13_odp }}.
+  Analyze anomalous or suspected adversarial behavior in or related
+  to {{ ir_04_13_odp }}.

@@ -13,71 +13,80 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Incident response policy; procedures addressing incident response planning;
-          incident response plan; system security plan; privacy plan; records of
-          incident response plan reviews and approvals; other relevant documents or
-          records
+          Incident response policy; procedures addressing incident
+          response planning; incident response plan; system security
+          plan; privacy plan; records of incident response plan
+          reviews and approvals; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with incident response planning responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities
+          Organizational personnel with incident response planning
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities
       - method: test
-        statement: Organizational incident response plan and related organizational processes
+        statement: >-
+          Organizational incident response plan and related
+          organizational processes
     statement: >
-      the incident response plan for breaches involving personally identifiable
-      information includes a process to determine if notice to individuals or
-      other organizations, including oversight organizations, is needed;
+      the incident response plan for breaches involving personally
+      identifiable information includes a process to determine if
+      notice to individuals or other organizations, including
+      oversight organizations, is needed;
   - id: b
     methods:
       - method: examine
         statement: >
-          Incident response policy; procedures addressing incident response planning;
-          incident response plan; system security plan; privacy plan; records of
-          incident response plan reviews and approvals; other relevant documents or
-          records
+          Incident response policy; procedures addressing incident
+          response planning; incident response plan; system security
+          plan; privacy plan; records of incident response plan
+          reviews and approvals; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with incident response planning responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities
+          Organizational personnel with incident response planning
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities
       - method: test
-        statement: Organizational incident response plan and related organizational processes
+        statement: >-
+          Organizational incident response plan and related
+          organizational processes
     statement: >
-      the incident response plan for breaches involving personally identifiable
-      information includes an assessment process to determine the extent of the
-      harm, embarrassment, inconvenience, or unfairness to affected individuals
-      and any mechanisms to mitigate such harms;
+      the incident response plan for breaches involving personally
+      identifiable information includes an assessment process to
+      determine the extent of the harm, embarrassment,
+      inconvenience, or unfairness to affected individuals and any
+      mechanisms to mitigate such harms;
   - id: c
     methods:
       - method: examine
         statement: >
-          Incident response policy; procedures addressing incident response planning;
-          incident response plan; system security plan; privacy plan; records of
-          incident response plan reviews and approvals; other relevant documents or
-          records
+          Incident response policy; procedures addressing incident
+          response planning; incident response plan; system security
+          plan; privacy plan; records of incident response plan
+          reviews and approvals; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with incident response planning responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities
+          Organizational personnel with incident response planning
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities
       - method: test
-        statement: Organizational incident response plan and related organizational processes
+        statement: >-
+          Organizational incident response plan and related
+          organizational processes
     statement: >
-      the incident response plan for breaches involving personally identifiable
-      information includes the identification of applicable privacy requirements.
+      the incident response plan for breaches involving personally
+      identifiable information includes the identification of
+      applicable privacy requirements.
 parts:
   - id: a
     statement: >
-      A process to determine if notice to individuals or other organizations,
-      including oversight organizations, is needed;
+      A process to determine if notice to individuals or other
+      organizations, including oversight organizations, is needed;
   - id: b
     statement: >
-      An assessment process to determine the extent of the harm, embarrassment,
-      inconvenience, or unfairness to affected individuals and any mechanisms to
-      mitigate such harms; and
+      An assessment process to determine the extent of the harm,
+      embarrassment, inconvenience, or unfairness to affected
+      individuals and any mechanisms to mitigate such harms; and
   - id: c
     statement: Identification of applicable privacy requirements.
 statement: >
-  Include the following in the Incident Response Plan for breaches involving
-  personally identifiable information:
+  Include the following in the Incident Response Plan for breaches
+  involving personally identifiable information:

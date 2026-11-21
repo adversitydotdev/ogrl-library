@@ -13,30 +13,35 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; procedures addressing security alerts, advisories, and
-          directives; system design documentation; system configuration settings and
-          associated documentation; automated mechanisms supporting the distribution
-          of security alert and advisory information; records of security alerts and
-          advisories; system audit records; system security plan; other relevant
+          System and information integrity policy; system and
+          information integrity procedures; procedures addressing
+          security alerts, advisories, and directives; system design
+          documentation; system configuration settings and
+          associated documentation; automated mechanisms supporting
+          the distribution of security alert and advisory
+          information; records of security alerts and advisories;
+          system audit records; system security plan; other relevant
           documents or records
       - method: interview
         statement: >
-          Organizational personnel with security alert and advisory responsibilities;
-          organizational personnel implementing, operating, maintaining, and using the
-          system; organizational personnel, organizational elements, and/or external
-          organizations to whom alerts and advisories are to be disseminated;
-          system/network administrators; organizational personnel with information
-          security responsibilities
+          Organizational personnel with security alert and advisory
+          responsibilities; organizational personnel implementing,
+          operating, maintaining, and using the system;
+          organizational personnel, organizational elements, and/or
+          external organizations to whom alerts and advisories are
+          to be disseminated; system/network administrators;
+          organizational personnel with information security
+          responsibilities
       - method: test
         statement: >
-          Organizational processes for defining, receiving, generating, and
-          disseminating security alerts and advisories; automated mechanisms
-          supporting and/or implementing the dissemination of security alerts and
+          Organizational processes for defining, receiving,
+          generating, and disseminating security alerts and
+          advisories; automated mechanisms supporting and/or
+          implementing the dissemination of security alerts and
           advisories
     statement: >
-      {{ si_05_01_odp }} are used to broadcast security alert and advisory
-      information throughout the organization.
+      {{ si_05_01_odp }} are used to broadcast security alert and
+      advisory information throughout the organization.
 parameters:
   si_05_01_odp:
     label: automated mechanisms

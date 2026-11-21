@@ -13,44 +13,52 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Access control policy; information flow control policies; procedures
-          addressing information flow enforcement; system design documentation; system
-          configuration settings and associated documentation; list of security and
-          privacy attributes and associated source and destination objects; system
-          audit records; system security plan; privacy plan; other relevant documents
-          or records
+          Access control policy; information flow control policies;
+          procedures addressing information flow enforcement; system
+          design documentation; system configuration settings and
+          associated documentation; list of security and privacy
+          attributes and associated source and destination objects;
+          system audit records; system security plan; privacy plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; organizational personnel with privacy
-          responsibilities; system developers
+          System/network administrators; organizational personnel
+          with information security responsibilities; organizational
+          personnel with privacy responsibilities; system developers
       - method: test
-        statement: Mechanisms implementing information flow enforcement policy
+        statement: >-
+          Mechanisms implementing information flow enforcement
+          policy
     statement: >
       {{ ac_04_01_odp_01 }} associated with {{ ac_04_01_odp_03 }},
-      {{ ac_04_01_odp_05 }} , and {{ ac_04_01_odp_07 }} are used to enforce
-      {{ ac_04_01_odp_09 }} as a basis for flow control decisions;
+      {{ ac_04_01_odp_05 }} , and {{ ac_04_01_odp_07 }} are used to
+      enforce {{ ac_04_01_odp_09 }} as a basis for flow control
+      decisions;
   - id: "ac-04(01).ac-04(01)[02]"
     methods:
       - method: examine
         statement: >
-          Access control policy; information flow control policies; procedures
-          addressing information flow enforcement; system design documentation; system
-          configuration settings and associated documentation; list of security and
-          privacy attributes and associated source and destination objects; system
-          audit records; system security plan; privacy plan; other relevant documents
-          or records
+          Access control policy; information flow control policies;
+          procedures addressing information flow enforcement; system
+          design documentation; system configuration settings and
+          associated documentation; list of security and privacy
+          attributes and associated source and destination objects;
+          system audit records; system security plan; privacy plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; organizational personnel with privacy
-          responsibilities; system developers
+          System/network administrators; organizational personnel
+          with information security responsibilities; organizational
+          personnel with privacy responsibilities; system developers
       - method: test
-        statement: Mechanisms implementing information flow enforcement policy
+        statement: >-
+          Mechanisms implementing information flow enforcement
+          policy
     statement: >
       {{ ac_04_01_odp_02 }} associated with {{ ac_04_01_odp_04 }},
-      {{ ac_04_01_odp_06 }} , and {{ ac_04_01_odp_08 }} are used to enforce
-      {{ ac_04_01_odp_09 }} as a basis for flow control decisions.
+      {{ ac_04_01_odp_06 }} , and {{ ac_04_01_odp_08 }} are used to
+      enforce {{ ac_04_01_odp_09 }} as a basis for flow control
+      decisions.
 parameters:
   ac_04_01_odp_01:
     label: security attributes
@@ -73,7 +81,10 @@ parameters:
   ac_4_1_prm_1:
     label: organization-defined security and privacy attributes
   ac_4_1_prm_2:
-    label: "organization-defined information, source, and destination objects"
+    label: >-
+      organization-defined information, source, and destination
+      objects
 statement: >
-  Use {{ ac_4_1_prm_1 }} associated with {{ ac_4_1_prm_2 }} to enforce
-  {{ ac_04_01_odp_09 }} as a basis for flow control decisions.
+  Use {{ ac_4_1_prm_1 }} associated with {{ ac_4_1_prm_2 }} to
+  enforce {{ ac_04_01_odp_09 }} as a basis for flow control
+  decisions.

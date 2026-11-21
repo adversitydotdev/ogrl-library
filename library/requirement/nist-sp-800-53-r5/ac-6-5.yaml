@@ -13,20 +13,25 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing least privilege; list of
-          system-generated privileged accounts; list of system administration
-          personnel; system configuration settings and associated documentation;
-          system audit records; system security plan; other relevant documents or
-          records
+          Access control policy; procedures addressing least
+          privilege; list of system-generated privileged accounts;
+          list of system administration personnel; system
+          configuration settings and associated documentation;
+          system audit records; system security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with responsibilities for defining least privileges
-          necessary to accomplish specified tasks; organizational personnel with
-          information security responsibilities; system/network administrators
+          Organizational personnel with responsibilities for
+          defining least privileges necessary to accomplish
+          specified tasks; organizational personnel with information
+          security responsibilities; system/network administrators
       - method: test
         statement: Mechanisms implementing least privilege functions
-    statement: "privileged accounts on the system are restricted to {{ ac_06_05_odp }}."
+    statement: >-
+      privileged accounts on the system are restricted to
+      {{ ac_06_05_odp }}.
 parameters:
   ac_06_05_odp:
     label: personnel or roles
-statement: "Restrict privileged accounts on the system to {{ ac_06_05_odp }}."
+statement: >-
+  Restrict privileged accounts on the system to {{ ac_06_05_odp }}.

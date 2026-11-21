@@ -13,65 +13,77 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Physical and environmental protection policy; procedures addressing physical
-          access monitoring; video surveillance equipment used to monitor operational
-          areas; video recordings of operational areas where video surveillance is
-          employed; video surveillance equipment logs or records; system security
-          plan; privacy plan; privacy impact assessment; privacy risk assessment
-          documentation; other relevant documents or records
+          Physical and environmental protection policy; procedures
+          addressing physical access monitoring; video surveillance
+          equipment used to monitor operational areas; video
+          recordings of operational areas where video surveillance
+          is employed; video surveillance equipment logs or records;
+          system security plan; privacy plan; privacy impact
+          assessment; privacy risk assessment documentation; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with physical access monitoring responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities
+          Organizational personnel with physical access monitoring
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities
       - method: test
         statement: >
-          Organizational processes for monitoring physical access; mechanisms
-          supporting and/or implementing physical access monitoring; mechanisms
-          supporting and/or implementing video surveillance
-    statement: "video surveillance of {{ pe_06_03_odp_01 }} is employed;"
+          Organizational processes for monitoring physical access;
+          mechanisms supporting and/or implementing physical access
+          monitoring; mechanisms supporting and/or implementing
+          video surveillance
+    statement: >-
+      video surveillance of {{ pe_06_03_odp_01 }} is employed;
   - id: b
     methods:
       - method: examine
         statement: >
-          Physical and environmental protection policy; procedures addressing physical
-          access monitoring; video surveillance equipment used to monitor operational
-          areas; video recordings of operational areas where video surveillance is
-          employed; video surveillance equipment logs or records; system security
-          plan; privacy plan; privacy impact assessment; privacy risk assessment
-          documentation; other relevant documents or records
+          Physical and environmental protection policy; procedures
+          addressing physical access monitoring; video surveillance
+          equipment used to monitor operational areas; video
+          recordings of operational areas where video surveillance
+          is employed; video surveillance equipment logs or records;
+          system security plan; privacy plan; privacy impact
+          assessment; privacy risk assessment documentation; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with physical access monitoring responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities
+          Organizational personnel with physical access monitoring
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities
       - method: test
         statement: >
-          Organizational processes for monitoring physical access; mechanisms
-          supporting and/or implementing physical access monitoring; mechanisms
-          supporting and/or implementing video surveillance
-    statement: "video recordings are reviewed {{ pe_06_03_odp_02 }};"
+          Organizational processes for monitoring physical access;
+          mechanisms supporting and/or implementing physical access
+          monitoring; mechanisms supporting and/or implementing
+          video surveillance
+    statement: >-
+      video recordings are reviewed {{ pe_06_03_odp_02 }};
   - id: c
     methods:
       - method: examine
         statement: >
-          Physical and environmental protection policy; procedures addressing physical
-          access monitoring; video surveillance equipment used to monitor operational
-          areas; video recordings of operational areas where video surveillance is
-          employed; video surveillance equipment logs or records; system security
-          plan; privacy plan; privacy impact assessment; privacy risk assessment
-          documentation; other relevant documents or records
+          Physical and environmental protection policy; procedures
+          addressing physical access monitoring; video surveillance
+          equipment used to monitor operational areas; video
+          recordings of operational areas where video surveillance
+          is employed; video surveillance equipment logs or records;
+          system security plan; privacy plan; privacy impact
+          assessment; privacy risk assessment documentation; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with physical access monitoring responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities
+          Organizational personnel with physical access monitoring
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities
       - method: test
         statement: >
-          Organizational processes for monitoring physical access; mechanisms
-          supporting and/or implementing physical access monitoring; mechanisms
-          supporting and/or implementing video surveillance
-    statement: "video recordings are retained for {{ pe_06_03_odp_03 }}."
+          Organizational processes for monitoring physical access;
+          mechanisms supporting and/or implementing physical access
+          monitoring; mechanisms supporting and/or implementing
+          video surveillance
+    statement: >-
+      video recordings are retained for {{ pe_06_03_odp_03 }}.
 parameters:
   pe_06_03_odp_01:
     label: operational areas

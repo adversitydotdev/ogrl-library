@@ -17,25 +17,31 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Supply chain risk management policy and procedures; supply chain risk
-          management plan; system and services acquisition policy; records of random
-          inspections; inspection reports/results; assessment reports/results;
-          acquisition documentation; service level agreements; acquisition contracts
-          for the system, system component, or system service; inter-organizational
-          agreements and procedures; system security plan; other relevant documents or
-          records
+          Supply chain risk management policy and procedures; supply
+          chain risk management plan; system and services
+          acquisition policy; records of random inspections;
+          inspection reports/results; assessment reports/results;
+          acquisition documentation; service level agreements;
+          acquisition contracts for the system, system component, or
+          system service; inter-organizational agreements and
+          procedures; system security plan; other relevant documents
+          or records
       - method: interview
         statement: >
-          Organizational personnel with system and services acquisition
-          responsibilities; organizational personnel with information security
-          responsibilities; organizational personnel with supply chain risk management
+          Organizational personnel with system and services
+          acquisition responsibilities; organizational personnel
+          with information security responsibilities; organizational
+          personnel with supply chain risk management
           responsibilities
       - method: test
         statement: >
-          Organizational processes for establishing inter-organizational agreements
-          and procedures with supply chain entities; organizational processes to
-          inspect for tampering
-    statement: "{{ sr_10_odp_01 }} are inspected {{ sr_10_odp_02 }} to detect tampering."
+          Organizational processes for establishing
+          inter-organizational agreements and procedures with supply
+          chain entities; organizational processes to inspect for
+          tampering
+    statement: >-
+      {{ sr_10_odp_01 }} are inspected {{ sr_10_odp_02 }} to detect
+      tampering.
 parameters:
   sr_10_odp_01:
     label: systems or system components
@@ -46,5 +52,5 @@ parameters:
   sr_10_odp_04:
     label: indications of need for inspection
 statement: >
-  Inspect the following systems or system components {{ sr_10_odp_02 }} to
-  detect tampering: {{ sr_10_odp_01 }}.
+  Inspect the following systems or system components
+  {{ sr_10_odp_02 }} to detect tampering: {{ sr_10_odp_01 }}.

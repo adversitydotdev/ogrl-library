@@ -13,87 +13,112 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing account management; system
-          design documentation; system configuration settings and associated
-          documentation; notifications/alerts of account creation, modification,
-          enabling, disabling, and removal actions; system audit records; system
-          security plan; other relevant documents or records
+          Access control policy; procedures addressing account
+          management; system design documentation; system
+          configuration settings and associated documentation;
+          notifications/alerts of account creation, modification,
+          enabling, disabling, and removal actions; system audit
+          records; system security plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          Organizational personnel with account management responsibilities;
-          system/network administrators; organizational personnel with information
-          security responsibilities
+          Organizational personnel with account management
+          responsibilities; system/network administrators;
+          organizational personnel with information security
+          responsibilities
       - method: test
-        statement: Automated mechanisms implementing account management functions
+        statement: >-
+          Automated mechanisms implementing account management
+          functions
     statement: account creation is automatically audited;
   - id: "ac-02(04).ac-02(04)[02]"
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing account management; system
-          design documentation; system configuration settings and associated
-          documentation; notifications/alerts of account creation, modification,
-          enabling, disabling, and removal actions; system audit records; system
-          security plan; other relevant documents or records
+          Access control policy; procedures addressing account
+          management; system design documentation; system
+          configuration settings and associated documentation;
+          notifications/alerts of account creation, modification,
+          enabling, disabling, and removal actions; system audit
+          records; system security plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          Organizational personnel with account management responsibilities;
-          system/network administrators; organizational personnel with information
-          security responsibilities
+          Organizational personnel with account management
+          responsibilities; system/network administrators;
+          organizational personnel with information security
+          responsibilities
       - method: test
-        statement: Automated mechanisms implementing account management functions
+        statement: >-
+          Automated mechanisms implementing account management
+          functions
     statement: account modification is automatically audited;
   - id: "ac-02(04).ac-02(04)[03]"
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing account management; system
-          design documentation; system configuration settings and associated
-          documentation; notifications/alerts of account creation, modification,
-          enabling, disabling, and removal actions; system audit records; system
-          security plan; other relevant documents or records
+          Access control policy; procedures addressing account
+          management; system design documentation; system
+          configuration settings and associated documentation;
+          notifications/alerts of account creation, modification,
+          enabling, disabling, and removal actions; system audit
+          records; system security plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          Organizational personnel with account management responsibilities;
-          system/network administrators; organizational personnel with information
-          security responsibilities
+          Organizational personnel with account management
+          responsibilities; system/network administrators;
+          organizational personnel with information security
+          responsibilities
       - method: test
-        statement: Automated mechanisms implementing account management functions
+        statement: >-
+          Automated mechanisms implementing account management
+          functions
     statement: account enabling is automatically audited;
   - id: "ac-02(04).ac-02(04)[04]"
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing account management; system
-          design documentation; system configuration settings and associated
-          documentation; notifications/alerts of account creation, modification,
-          enabling, disabling, and removal actions; system audit records; system
-          security plan; other relevant documents or records
+          Access control policy; procedures addressing account
+          management; system design documentation; system
+          configuration settings and associated documentation;
+          notifications/alerts of account creation, modification,
+          enabling, disabling, and removal actions; system audit
+          records; system security plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          Organizational personnel with account management responsibilities;
-          system/network administrators; organizational personnel with information
-          security responsibilities
+          Organizational personnel with account management
+          responsibilities; system/network administrators;
+          organizational personnel with information security
+          responsibilities
       - method: test
-        statement: Automated mechanisms implementing account management functions
+        statement: >-
+          Automated mechanisms implementing account management
+          functions
     statement: account disabling is automatically audited;
   - id: "ac-02(04).ac-02(04)[05]"
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing account management; system
-          design documentation; system configuration settings and associated
-          documentation; notifications/alerts of account creation, modification,
-          enabling, disabling, and removal actions; system audit records; system
-          security plan; other relevant documents or records
+          Access control policy; procedures addressing account
+          management; system design documentation; system
+          configuration settings and associated documentation;
+          notifications/alerts of account creation, modification,
+          enabling, disabling, and removal actions; system audit
+          records; system security plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          Organizational personnel with account management responsibilities;
-          system/network administrators; organizational personnel with information
-          security responsibilities
+          Organizational personnel with account management
+          responsibilities; system/network administrators;
+          organizational personnel with information security
+          responsibilities
       - method: test
-        statement: Automated mechanisms implementing account management functions
+        statement: >-
+          Automated mechanisms implementing account management
+          functions
     statement: account removal actions are automatically audited.
 statement: >
-  Automatically audit account creation, modification, enabling, disabling, and
-  removal actions.
+  Automatically audit account creation, modification, enabling,
+  disabling, and removal actions.

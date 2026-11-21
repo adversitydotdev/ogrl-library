@@ -13,40 +13,46 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing access enforcement; system
-          design documentation; system configuration settings and associated
-          documentation; system audit records; system security plan; privacy plan;
+          Access control policy; procedures addressing access
+          enforcement; system design documentation; system
+          configuration settings and associated documentation;
+          system audit records; system security plan; privacy plan;
           other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with access enforcement responsibilities;
-          system/network administrators; organizational personnel with information
-          security and privacy responsibilities; system developers
+          Organizational personnel with access enforcement
+          responsibilities; system/network administrators;
+          organizational personnel with information security and
+          privacy responsibilities; system developers
       - method: test
-        statement: Mechanisms implementing access enforcement functions
+        statement: >-
+          Mechanisms implementing access enforcement functions
     statement: >
-      access control decisions are enforced based on {{ ac_24_02_odp_01 }} that do
-      not include the identity of the user or process acting on behalf of the user
-      (if selected);
+      access control decisions are enforced based on
+      {{ ac_24_02_odp_01 }} that do not include the identity of the
+      user or process acting on behalf of the user (if selected);
   - id: "ac-24(02).ac-24(02)[02]"
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing access enforcement; system
-          design documentation; system configuration settings and associated
-          documentation; system audit records; system security plan; privacy plan;
+          Access control policy; procedures addressing access
+          enforcement; system design documentation; system
+          configuration settings and associated documentation;
+          system audit records; system security plan; privacy plan;
           other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with access enforcement responsibilities;
-          system/network administrators; organizational personnel with information
-          security and privacy responsibilities; system developers
+          Organizational personnel with access enforcement
+          responsibilities; system/network administrators;
+          organizational personnel with information security and
+          privacy responsibilities; system developers
       - method: test
-        statement: Mechanisms implementing access enforcement functions
+        statement: >-
+          Mechanisms implementing access enforcement functions
     statement: >
-      access control decisions are enforced based on {{ ac_24_02_odp_02 }} that do
-      not include the identity of the user or process acting on behalf of the user
-      (if selected).
+      access control decisions are enforced based on
+      {{ ac_24_02_odp_02 }} that do not include the identity of the
+      user or process acting on behalf of the user (if selected).
 parameters:
   ac_24_02_odp_01:
     label: security attributes
@@ -55,5 +61,6 @@ parameters:
   ac_24_2_prm_1:
     label: organization-defined security or privacy attributes
 statement: >
-  Enforce access control decisions based on {{ ac_24_2_prm_1 }} that do not
-  include the identity of the user or process acting on behalf of the user.
+  Enforce access control decisions based on {{ ac_24_2_prm_1 }} that
+  do not include the identity of the user or process acting on
+  behalf of the user.

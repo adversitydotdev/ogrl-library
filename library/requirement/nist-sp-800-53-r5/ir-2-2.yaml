@@ -13,22 +13,27 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Incident response policy; procedures addressing incident response training;
-          incident response training curriculum; incident response training materials;
-          automated mechanisms supporting incident response training; incident
-          response plan; system security plan; privacy plan; other relevant documents
-          or records
+          Incident response policy; procedures addressing incident
+          response training; incident response training curriculum;
+          incident response training materials; automated mechanisms
+          supporting incident response training; incident response
+          plan; system security plan; privacy plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with incident response training and operational
-          responsibilities; organizational personnel with information security and
-          privacy responsibilities
+          Organizational personnel with incident response training
+          and operational responsibilities; organizational personnel
+          with information security and privacy responsibilities
       - method: test
         statement: >
-          Automated mechanisms that provide a thorough and realistic incident response
-          training environment
-    statement: "an incident response training environment is provided using {{ ir_02_02_odp }}."
+          Automated mechanisms that provide a thorough and realistic
+          incident response training environment
+    statement: >-
+      an incident response training environment is provided using
+      {{ ir_02_02_odp }}.
 parameters:
   ir_02_02_odp:
     label: automated mechanisms
-statement: "Provide an incident response training environment using {{ ir_02_02_odp }}."
+statement: >-
+  Provide an incident response training environment using
+  {{ ir_02_02_odp }}.

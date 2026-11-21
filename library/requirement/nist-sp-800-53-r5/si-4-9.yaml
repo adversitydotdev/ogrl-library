@@ -13,25 +13,32 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; procedures addressing the testing of system monitoring tools and
-          techniques; documentation providing evidence of testing intrusion-monitoring
-          tools; system security plan; other relevant documents or records
+          System and information integrity policy; system and
+          information integrity procedures; procedures addressing
+          the testing of system monitoring tools and techniques;
+          documentation providing evidence of testing
+          intrusion-monitoring tools; system security plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; organizational personnel installing, configuring,
-          and/or maintaining the system; organizational personnel responsible for
-          monitoring the system; organizational personnel responsible for the
-          intrusion detection system
+          System/network administrators; organizational personnel
+          with information security responsibilities; organizational
+          personnel installing, configuring, and/or maintaining the
+          system; organizational personnel responsible for
+          monitoring the system; organizational personnel
+          responsible for the intrusion detection system
       - method: test
         statement: >
-          Organizational processes for intrusion detection and system monitoring;
-          mechanisms supporting and/or implementing intrusion detection and system
-          monitoring capabilities; mechanisms supporting and/or implementing the
-          testing of intrusion-monitoring tools
-    statement: "intrusion-monitoring tools and mechanisms are tested {{ si_04_09_odp }}."
+          Organizational processes for intrusion detection and
+          system monitoring; mechanisms supporting and/or
+          implementing intrusion detection and system monitoring
+          capabilities; mechanisms supporting and/or implementing
+          the testing of intrusion-monitoring tools
+    statement: >-
+      intrusion-monitoring tools and mechanisms are tested
+      {{ si_04_09_odp }}.
 parameters:
   si_04_09_odp:
     label: frequency
-statement: "Test intrusion-monitoring tools and mechanisms {{ si_04_09_odp }}."
+statement: >-
+  Test intrusion-monitoring tools and mechanisms {{ si_04_09_odp }}.

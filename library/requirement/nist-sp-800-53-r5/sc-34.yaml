@@ -13,56 +13,66 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; procedures addressing
-          non-modifiable executable programs; system design documentation; system
-          configuration settings and associated documentation; system architecture;
-          list of operating system components to be loaded from hardware-enforced,
-          read-only media; list of applications to be loaded from hardware-enforced,
-          read-only media; media used to load and execute the system operating
-          environment; media used to load and execute system applications; system
-          audit records; system security plan; other relevant documents or records
+          System and communications protection policy; procedures
+          addressing non-modifiable executable programs; system
+          design documentation; system configuration settings and
+          associated documentation; system architecture; list of
+          operating system components to be loaded from
+          hardware-enforced, read-only media; list of applications
+          to be loaded from hardware-enforced, read-only media;
+          media used to load and execute the system operating
+          environment; media used to load and execute system
+          applications; system audit records; system security plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; system developer; organizational personnel
-          installing, configuring, and/or maintaining the system; system
+          System/network administrators; organizational personnel
+          with information security responsibilities; system
+          developer; organizational personnel installing,
+          configuring, and/or maintaining the system; system
           developers/integrators
       - method: test
         statement: >
-          Mechanisms supporting and/or implementing, loading, and executing the
-          operating environment from hardware-enforced, read-only media; mechanisms
-          supporting and/or implementing, loading, and executing applications from
-          hardware-enforced, read-only media
+          Mechanisms supporting and/or implementing, loading, and
+          executing the operating environment from
+          hardware-enforced, read-only media; mechanisms supporting
+          and/or implementing, loading, and executing applications
+          from hardware-enforced, read-only media
     statement: >
-      the operating environment for {{ sc_34_odp_01 }} is loaded and executed from
-      hardware-enforced, read-only media;
+      the operating environment for {{ sc_34_odp_01 }} is loaded and
+      executed from hardware-enforced, read-only media;
   - id: b
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; procedures addressing
-          non-modifiable executable programs; system design documentation; system
-          configuration settings and associated documentation; system architecture;
-          list of operating system components to be loaded from hardware-enforced,
-          read-only media; list of applications to be loaded from hardware-enforced,
-          read-only media; media used to load and execute the system operating
-          environment; media used to load and execute system applications; system
-          audit records; system security plan; other relevant documents or records
+          System and communications protection policy; procedures
+          addressing non-modifiable executable programs; system
+          design documentation; system configuration settings and
+          associated documentation; system architecture; list of
+          operating system components to be loaded from
+          hardware-enforced, read-only media; list of applications
+          to be loaded from hardware-enforced, read-only media;
+          media used to load and execute the system operating
+          environment; media used to load and execute system
+          applications; system audit records; system security plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; system developer; organizational personnel
-          installing, configuring, and/or maintaining the system; system
+          System/network administrators; organizational personnel
+          with information security responsibilities; system
+          developer; organizational personnel installing,
+          configuring, and/or maintaining the system; system
           developers/integrators
       - method: test
         statement: >
-          Mechanisms supporting and/or implementing, loading, and executing the
-          operating environment from hardware-enforced, read-only media; mechanisms
-          supporting and/or implementing, loading, and executing applications from
-          hardware-enforced, read-only media
+          Mechanisms supporting and/or implementing, loading, and
+          executing the operating environment from
+          hardware-enforced, read-only media; mechanisms supporting
+          and/or implementing, loading, and executing applications
+          from hardware-enforced, read-only media
     statement: >
-      {{ sc_34_odp_02 }} for {{ sc_34_odp_01 }} are loaded and executed from
-      hardware-enforced, read-only media.
+      {{ sc_34_odp_02 }} for {{ sc_34_odp_01 }} are loaded and
+      executed from hardware-enforced, read-only media.
 parameters:
   sc_34_odp_01:
     label: system components
@@ -70,9 +80,11 @@ parameters:
     label: applications
 parts:
   - id: a
-    statement: "The operating environment from hardware-enforced, read-only media; and"
+    statement: >-
+      The operating environment from hardware-enforced, read-only
+      media; and
   - id: b
     statement: >
-      The following applications from hardware-enforced, read-only media:
-      {{ sc_34_odp_02 }}.
+      The following applications from hardware-enforced, read-only
+      media: {{ sc_34_odp_02 }}.
 statement: "For {{ sc_34_odp_01 }} , load and execute:"

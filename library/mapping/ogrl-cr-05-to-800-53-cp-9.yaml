@@ -9,6 +9,7 @@ relationship: intersects-with
 review_status: draft
 source_ref: control--ogrl-cr-05
 summary: >
-  Replicated copies preserve data availability, overlapping with backup
-  objectives, but replication is not a substitute for point-in-time backups.
+  Replicated copies preserve data availability, overlapping with
+  backup objectives, but replication is not a substitute for
+  point-in-time backups.
 target_ref: requirement--nist-sp-800-53-r5-cp-9

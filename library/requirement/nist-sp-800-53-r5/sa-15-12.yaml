@@ -13,30 +13,35 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and services acquisition policy; system and services acquisition
-          procedures; procedures addressing the development process; procedures
-          addressing the minimization of personally identifiable information in
-          testing, training, and research; personally identifiable information
-          processing policy; procedures addressing the authority to test with
-          personally identifiable information; standards and tools; solicitation
-          documentation; service level agreements; acquisition contracts for the
-          system or services; system security plan; privacy plan; other relevant
-          documents or records
+          System and services acquisition policy; system and
+          services acquisition procedures; procedures addressing the
+          development process; procedures addressing the
+          minimization of personally identifiable information in
+          testing, training, and research; personally identifiable
+          information processing policy; procedures addressing the
+          authority to test with personally identifiable
+          information; standards and tools; solicitation
+          documentation; service level agreements; acquisition
+          contracts for the system or services; system security
+          plan; privacy plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with acquisition responsibilities; organizational
-          personnel with information security and privacy responsibilities; system
+          Organizational personnel with acquisition
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities; system
           developer
       - method: test
         statement: >
-          Organizational processes for the minimization of personally identifiable
-          information in development and test environments; mechanisms to facilitate
-          the minimization of personally identifiable information in development and
-          test environments
+          Organizational processes for the minimization of
+          personally identifiable information in development and
+          test environments; mechanisms to facilitate the
+          minimization of personally identifiable information in
+          development and test environments
     statement: >
-      the developer of the system or system component is required to minimize the
-      use of personally identifiable information in development and test
-      environments.
+      the developer of the system or system component is required to
+      minimize the use of personally identifiable information in
+      development and test environments.
 statement: >
-  Require the developer of the system or system component to minimize the use
-  of personally identifiable information in development and test environments.
+  Require the developer of the system or system component to
+  minimize the use of personally identifiable information in
+  development and test environments.

@@ -11,6 +11,6 @@ relationship: intersects-with
 review_status: draft
 source_ref: control--ogrl-cm-03
 summary: >
-  Automated drift checks keep the recorded baseline and actual state aligned,
-  partly supporting CM-2(2) accuracy and currency.
+  Automated drift checks keep the recorded baseline and actual state
+  aligned, partly supporting CM-2(2) accuracy and currency.
 target_ref: requirement--nist-sp-800-53-r5-cm-2-2

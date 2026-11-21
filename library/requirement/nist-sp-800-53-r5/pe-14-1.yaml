@@ -13,26 +13,28 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Physical and environmental protection policy; procedures addressing
-          temperature and humidity controls; facility housing the system; automated
-          mechanisms for temperature and humidity; temperature and humidity controls;
-          temperature and humidity documentation; system security plan; other relevant
-          documents or records
+          Physical and environmental protection policy; procedures
+          addressing temperature and humidity controls; facility
+          housing the system; automated mechanisms for temperature
+          and humidity; temperature and humidity controls;
+          temperature and humidity documentation; system security
+          plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with responsibilities for system environmental
-          controls; organizational personnel with information security
-          responsibilities
+          Organizational personnel with responsibilities for system
+          environmental controls; organizational personnel with
+          information security responsibilities
       - method: test
         statement: >
-          Automated mechanisms supporting and/or implementing temperature and humidity
-          levels
+          Automated mechanisms supporting and/or implementing
+          temperature and humidity levels
     statement: >
-      {{ pe_14_01_odp }} are employed in the facility to prevent fluctuations that
-      are potentially harmful to the system.
+      {{ pe_14_01_odp }} are employed in the facility to prevent
+      fluctuations that are potentially harmful to the system.
 parameters:
   pe_14_01_odp:
     label: automatic environmental controls
 statement: >
-  Employ the following automatic environmental controls in the facility to
-  prevent fluctuations potentially harmful to the system: {{ pe_14_01_odp }}.
+  Employ the following automatic environmental controls in the
+  facility to prevent fluctuations potentially harmful to the
+  system: {{ pe_14_01_odp }}.

@@ -13,22 +13,25 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; procedures addressing system monitoring; system design
-          documentation; system monitoring tools and techniques documentation; system
-          configuration settings and associated documentation; system monitoring logs
-          or records; system audit records; system security plan; other relevant
-          documents or records
+          System and information integrity policy; system and
+          information integrity procedures; procedures addressing
+          system monitoring; system design documentation; system
+          monitoring tools and techniques documentation; system
+          configuration settings and associated documentation;
+          system monitoring logs or records; system audit records;
+          system security plan; other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; organizational personnel installing, configuring,
-          and/or maintaining the system; organizational personnel responsible for
+          System/network administrators; organizational personnel
+          with information security responsibilities; organizational
+          personnel installing, configuring, and/or maintaining the
+          system; organizational personnel responsible for
           monitoring the system
       - method: test
         statement: >
-          Organizational processes for system monitoring; mechanisms supporting and/or
-          implementing a system monitoring capability
+          Organizational processes for system monitoring; mechanisms
+          supporting and/or implementing a system monitoring
+          capability
     statement: >
       {{ si_04_21_odp_01 }} of individuals is implemented during
       {{ si_04_21_odp_02 }}.
@@ -38,5 +41,5 @@ parameters:
   si_04_21_odp_02:
     label: probationary period
 statement: >
-  Implement the following additional monitoring of individuals during
-  {{ si_04_21_odp_02 }}: {{ si_04_21_odp_01 }}.
+  Implement the following additional monitoring of individuals
+  during {{ si_04_21_odp_02 }}: {{ si_04_21_odp_01 }}.

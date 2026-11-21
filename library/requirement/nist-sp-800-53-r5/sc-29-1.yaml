@@ -13,29 +13,33 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; configuration management policy
-          and procedures; system design documentation; system configuration settings
-          and associated documentation; system architecture; list of operating systems
-          and applications deployed using virtualization techniques; change control
-          records; configuration management records; system audit records; system
-          security plan; other relevant documents or records
+          System and communications protection policy; configuration
+          management policy and procedures; system design
+          documentation; system configuration settings and
+          associated documentation; system architecture; list of
+          operating systems and applications deployed using
+          virtualization techniques; change control records;
+          configuration management records; system audit records;
+          system security plan; other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; organizational personnel with responsibilities
-          for implementing approved virtualization techniques to the system
+          System/network administrators; organizational personnel
+          with information security responsibilities; organizational
+          personnel with responsibilities for implementing approved
+          virtualization techniques to the system
       - method: test
         statement: >
-          Mechanisms supporting and/or implementing the employment of a diverse set of
-          information technologies; mechanisms supporting and/or implementing
-          virtualization techniques
+          Mechanisms supporting and/or implementing the employment
+          of a diverse set of information technologies; mechanisms
+          supporting and/or implementing virtualization techniques
     statement: >
-      virtualization techniques are employed to support the deployment of a
-      diverse range of operating systems and applications that are changed
-      {{ sc_29_01_odp }}.
+      virtualization techniques are employed to support the
+      deployment of a diverse range of operating systems and
+      applications that are changed {{ sc_29_01_odp }}.
 parameters:
   sc_29_01_odp:
     label: frequency
 statement: >
-  Employ virtualization techniques to support the deployment of a diversity of
-  operating systems and applications that are changed {{ sc_29_01_odp }}.
+  Employ virtualization techniques to support the deployment of a
+  diversity of operating systems and applications that are changed
+  {{ sc_29_01_odp }}.

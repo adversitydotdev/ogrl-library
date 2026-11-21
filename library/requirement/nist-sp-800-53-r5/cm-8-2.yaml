@@ -13,90 +13,98 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Configuration management policy; procedures addressing system component
-          inventory; configuration management plan; system design documentation;
-          system security plan; system component inventory; change control records;
-          system maintenance records; system audit records; system security plan;
-          other relevant documents or records
+          Configuration management policy; procedures addressing
+          system component inventory; configuration management plan;
+          system design documentation; system security plan; system
+          component inventory; change control records; system
+          maintenance records; system audit records; system security
+          plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with component inventory management
-          responsibilities; organizational personnel with information security
-          responsibilities; system/network administrators; system developers
+          Organizational personnel with component inventory
+          management responsibilities; organizational personnel with
+          information security responsibilities; system/network
+          administrators; system developers
       - method: test
         statement: >
-          Organizational processes for maintaining the system component inventory;
-          automated mechanisms supporting and/or implementing the system component
-          inventory
+          Organizational processes for maintaining the system
+          component inventory; automated mechanisms supporting
+          and/or implementing the system component inventory
     statement: >
-      {{ cm_08_02_odp_01 }} are used to maintain the currency of the system
-      component inventory;
+      {{ cm_08_02_odp_01 }} are used to maintain the currency of the
+      system component inventory;
   - id: "cm-08(02).cm-08(02)[02]"
     methods:
       - method: examine
         statement: >
-          Configuration management policy; procedures addressing system component
-          inventory; configuration management plan; system design documentation;
-          system security plan; system component inventory; change control records;
-          system maintenance records; system audit records; system security plan;
-          other relevant documents or records
+          Configuration management policy; procedures addressing
+          system component inventory; configuration management plan;
+          system design documentation; system security plan; system
+          component inventory; change control records; system
+          maintenance records; system audit records; system security
+          plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with component inventory management
-          responsibilities; organizational personnel with information security
-          responsibilities; system/network administrators; system developers
+          Organizational personnel with component inventory
+          management responsibilities; organizational personnel with
+          information security responsibilities; system/network
+          administrators; system developers
       - method: test
         statement: >
-          Organizational processes for maintaining the system component inventory;
-          automated mechanisms supporting and/or implementing the system component
-          inventory
+          Organizational processes for maintaining the system
+          component inventory; automated mechanisms supporting
+          and/or implementing the system component inventory
     statement: >
-      {{ cm_08_02_odp_02 }} are used to maintain the completeness of the system
-      component inventory;
+      {{ cm_08_02_odp_02 }} are used to maintain the completeness of
+      the system component inventory;
   - id: "cm-08(02).cm-08(02)[03]"
     methods:
       - method: examine
         statement: >
-          Configuration management policy; procedures addressing system component
-          inventory; configuration management plan; system design documentation;
-          system security plan; system component inventory; change control records;
-          system maintenance records; system audit records; system security plan;
-          other relevant documents or records
+          Configuration management policy; procedures addressing
+          system component inventory; configuration management plan;
+          system design documentation; system security plan; system
+          component inventory; change control records; system
+          maintenance records; system audit records; system security
+          plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with component inventory management
-          responsibilities; organizational personnel with information security
-          responsibilities; system/network administrators; system developers
+          Organizational personnel with component inventory
+          management responsibilities; organizational personnel with
+          information security responsibilities; system/network
+          administrators; system developers
       - method: test
         statement: >
-          Organizational processes for maintaining the system component inventory;
-          automated mechanisms supporting and/or implementing the system component
-          inventory
+          Organizational processes for maintaining the system
+          component inventory; automated mechanisms supporting
+          and/or implementing the system component inventory
     statement: >
-      {{ cm_08_02_odp_03 }} are used to maintain the accuracy of the system
-      component inventory;
+      {{ cm_08_02_odp_03 }} are used to maintain the accuracy of the
+      system component inventory;
   - id: "cm-08(02).cm-08(02)[04]"
     methods:
       - method: examine
         statement: >
-          Configuration management policy; procedures addressing system component
-          inventory; configuration management plan; system design documentation;
-          system security plan; system component inventory; change control records;
-          system maintenance records; system audit records; system security plan;
-          other relevant documents or records
+          Configuration management policy; procedures addressing
+          system component inventory; configuration management plan;
+          system design documentation; system security plan; system
+          component inventory; change control records; system
+          maintenance records; system audit records; system security
+          plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with component inventory management
-          responsibilities; organizational personnel with information security
-          responsibilities; system/network administrators; system developers
+          Organizational personnel with component inventory
+          management responsibilities; organizational personnel with
+          information security responsibilities; system/network
+          administrators; system developers
       - method: test
         statement: >
-          Organizational processes for maintaining the system component inventory;
-          automated mechanisms supporting and/or implementing the system component
-          inventory
+          Organizational processes for maintaining the system
+          component inventory; automated mechanisms supporting
+          and/or implementing the system component inventory
     statement: >
-      {{ cm_08_02_odp_04 }} are used to maintain the availability of the system
-      component inventory.
+      {{ cm_08_02_odp_04 }} are used to maintain the availability of
+      the system component inventory.
 parameters:
   cm_08_02_odp_01:
     label: automated mechanisms
@@ -109,5 +117,5 @@ parameters:
   cm_8_2_prm_1:
     label: organization-defined automated mechanisms
 statement: >
-  Maintain the currency, completeness, accuracy, and availability of the
-  inventory of system components using {{ cm_8_2_prm_1 }}.
+  Maintain the currency, completeness, accuracy, and availability of
+  the inventory of system components using {{ cm_8_2_prm_1 }}.

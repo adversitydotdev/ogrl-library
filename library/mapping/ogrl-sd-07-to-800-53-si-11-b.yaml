@@ -10,5 +10,7 @@ rationale: functional
 relationship: equivalent-to
 review_status: draft
 source_ref: control--ogrl-sd-07
-summary: "Detailed error information is restricted to defined roles per SI-11(b)."
+summary: >-
+  Detailed error information is restricted to defined roles per
+  SI-11(b).
 target_ref: "requirement--nist-sp-800-53-r5-si-11#b"

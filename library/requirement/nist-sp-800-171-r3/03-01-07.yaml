@@ -13,44 +13,50 @@ objectives:
     methods:
       - method: examine
         statement: >
-          access control policy and procedures; procedures for least privilege; system
-          design documentation; system configuration settings; system audit records;
-          list of audited events; list of privileged functions to be audited and
-          associated user account assignments; system security plan; other relevant
-          documents or records
+          access control policy and procedures; procedures for least
+          privilege; system design documentation; system
+          configuration settings; system audit records; list of
+          audited events; list of privileged functions to be audited
+          and associated user account assignments; system security
+          plan; other relevant documents or records
       - method: interview
         statement: >
-          personnel with responsibilities for reviewing least privileges; personnel
-          with information security responsibilities; system developers; system
-          administrators
+          personnel with responsibilities for reviewing least
+          privileges; personnel with information security
+          responsibilities; system developers; system administrators
       - method: test
         statement: >
-          mechanisms for auditing the execution of least privilege functions;
-          mechanisms for implementing least privilege functions for non-privileged
-          users
+          mechanisms for auditing the execution of least privilege
+          functions; mechanisms for implementing least privilege
+          functions for non-privileged users
     statement: the execution of privileged functions is logged.
   - id: a
     methods:
       - method: examine
         statement: >
-          access control policy and procedures; procedures for least privilege; system
-          design documentation; system configuration settings; system audit records;
-          list of audited events; list of privileged functions to be audited and
-          associated user account assignments; system security plan; other relevant
-          documents or records
+          access control policy and procedures; procedures for least
+          privilege; system design documentation; system
+          configuration settings; system audit records; list of
+          audited events; list of privileged functions to be audited
+          and associated user account assignments; system security
+          plan; other relevant documents or records
       - method: interview
         statement: >
-          personnel with responsibilities for reviewing least privileges; personnel
-          with information security responsibilities; system developers; system
-          administrators
+          personnel with responsibilities for reviewing least
+          privileges; personnel with information security
+          responsibilities; system developers; system administrators
       - method: test
         statement: >
-          mechanisms for auditing the execution of least privilege functions;
-          mechanisms for implementing least privilege functions for non-privileged
-          users
-    statement: non-privileged users are prevented from executing privileged functions.
+          mechanisms for auditing the execution of least privilege
+          functions; mechanisms for implementing least privilege
+          functions for non-privileged users
+    statement: >-
+      non-privileged users are prevented from executing privileged
+      functions.
 parts:
   - id: a
-    statement: Prevent non-privileged users from executing privileged functions.
+    statement: >-
+      Prevent non-privileged users from executing privileged
+      functions.
   - id: b
     statement: Log the execution of privileged functions.

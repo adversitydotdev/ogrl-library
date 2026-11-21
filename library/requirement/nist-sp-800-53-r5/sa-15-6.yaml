@@ -13,26 +13,29 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and services acquisition policy; system and services acquisition
-          procedures; procedures addressing development process, standards, and tools;
-          solicitation documentation; acquisition documentation; service level
-          agreements; acquisition contracts for the system, system component, or
-          system service; quality goals and metrics for improving the system
-          development process; security assessments; quality control reviews of system
-          development process; plans of action and milestones for improving the system
-          development process; system security plan; privacy plan; privacy impact
-          assessment; privacy risk assessment documentation; other relevant documents
-          or records
+          System and services acquisition policy; system and
+          services acquisition procedures; procedures addressing
+          development process, standards, and tools; solicitation
+          documentation; acquisition documentation; service level
+          agreements; acquisition contracts for the system, system
+          component, or system service; quality goals and metrics
+          for improving the system development process; security
+          assessments; quality control reviews of system development
+          process; plans of action and milestones for improving the
+          system development process; system security plan; privacy
+          plan; privacy impact assessment; privacy risk assessment
+          documentation; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with system and service acquisition
-          responsibilities; organizational personnel with information security and
-          privacy responsibilities; system developer
+          Organizational personnel with system and service
+          acquisition responsibilities; organizational personnel
+          with information security and privacy responsibilities;
+          system developer
     statement: >
-      the developer of the system, system component, or system service is required
-      to implement an explicit process to continuously improve the development
-      process.
+      the developer of the system, system component, or system
+      service is required to implement an explicit process to
+      continuously improve the development process.
 statement: >
-  Require the developer of the system, system component, or system service to
-  implement an explicit process to continuously improve the development
-  process.
+  Require the developer of the system, system component, or system
+  service to implement an explicit process to continuously improve
+  the development process.

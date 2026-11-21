@@ -13,45 +13,57 @@ objectives:
     methods:
       - method: examine
         statement: >
-          access control policy and procedures; procedures for least privilege; list
-          of system-generated privileged accounts; list of system administration
-          personnel; system audit records; system configuration settings; system
-          security plan; list of system-generated security functions or
-          security-relevant information assigned to system accounts or roles; other
-          relevant documents or records
+          access control policy and procedures; procedures for least
+          privilege; list of system-generated privileged accounts;
+          list of system administration personnel; system audit
+          records; system configuration settings; system security
+          plan; list of system-generated security functions or
+          security-relevant information assigned to system accounts
+          or roles; other relevant documents or records
       - method: interview
         statement: >
-          personnel with responsibilities for defining least privileges; personnel
-          with information security responsibilities; system administrators
+          personnel with responsibilities for defining least
+          privileges; personnel with information security
+          responsibilities; system administrators
       - method: test
-        statement: mechanisms for implementing least privilege functions
-    statement: "privileged accounts on the system are restricted to {{ a_03_01_06_odp_01 }}."
+        statement: >-
+          mechanisms for implementing least privilege functions
+    statement: >-
+      privileged accounts on the system are restricted to
+      {{ a_03_01_06_odp_01 }}.
   - id: b
     methods:
       - method: examine
         statement: >
-          access control policy and procedures; procedures for least privilege; list
-          of system-generated privileged accounts; list of system administration
-          personnel; system audit records; system configuration settings; system
-          security plan; list of system-generated security functions or
-          security-relevant information assigned to system accounts or roles; other
-          relevant documents or records
+          access control policy and procedures; procedures for least
+          privilege; list of system-generated privileged accounts;
+          list of system administration personnel; system audit
+          records; system configuration settings; system security
+          plan; list of system-generated security functions or
+          security-relevant information assigned to system accounts
+          or roles; other relevant documents or records
       - method: interview
         statement: >
-          personnel with responsibilities for defining least privileges; personnel
-          with information security responsibilities; system administrators
+          personnel with responsibilities for defining least
+          privileges; personnel with information security
+          responsibilities; system administrators
       - method: test
-        statement: mechanisms for implementing least privilege functions
+        statement: >-
+          mechanisms for implementing least privilege functions
     statement: >
-      users (or roles) with privileged accounts are required to use non-privileged
-      accounts when accessing non-security functions or non-security information.
+      users (or roles) with privileged accounts are required to use
+      non-privileged accounts when accessing non-security functions
+      or non-security information.
 parameters:
   a_03_01_06_odp_01:
     label: personnel or roles
 parts:
   - id: a
-    statement: "Restrict privileged accounts on the system to {{ a_03_01_06_odp_01 }}.."
+    statement: >-
+      Restrict privileged accounts on the system to
+      {{ a_03_01_06_odp_01 }}..
   - id: b
     statement: >
-      Require that users (or roles) with privileged accounts use non-privileged
-      accounts when accessing non-security functions or non-security information.
+      Require that users (or roles) with privileged accounts use
+      non-privileged accounts when accessing non-security functions
+      or non-security information.

@@ -26,13 +26,19 @@ objectives:
     methods:
       - method: examine
         statement: >
-          system and communications protection policy and procedures; procedures for
-          session authenticity; system design documentation; system configuration
-          settings; system audit records; system security plan; other relevant
+          system and communications protection policy and
+          procedures; procedures for session authenticity; system
+          design documentation; system configuration settings;
+          system audit records; system security plan; other relevant
           documents or records
       - method: interview
-        statement: personnel with information security responsibilities; system administrators
+        statement: >-
+          personnel with information security responsibilities;
+          system administrators
       - method: test
-        statement: mechanisms for supporting or implementing session authenticity
-    statement: the authenticity of communications sessions is protected.
+        statement: >-
+          mechanisms for supporting or implementing session
+          authenticity
+    statement: >-
+      the authenticity of communications sessions is protected.
 statement: Protect the authenticity of communications sessions.

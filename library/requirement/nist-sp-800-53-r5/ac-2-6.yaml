@@ -13,18 +13,22 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing account management; system
-          design documentation; system configuration settings and associated
-          documentation; system-generated list of dynamic privilege management
-          capabilities; system audit records; system security plan; other relevant
-          documents or records
+          Access control policy; procedures addressing account
+          management; system design documentation; system
+          configuration settings and associated documentation;
+          system-generated list of dynamic privilege management
+          capabilities; system audit records; system security plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with account management responsibilities;
-          system/network administrators; organizational personnel with information
-          security responsibilities; system developers
+          Organizational personnel with account management
+          responsibilities; system/network administrators;
+          organizational personnel with information security
+          responsibilities; system developers
       - method: test
-        statement: system or mechanisms implementing dynamic privilege management capabilities
+        statement: >-
+          system or mechanisms implementing dynamic privilege
+          management capabilities
     statement: "{{ ac_02_06_odp }} are implemented."
 parameters:
   ac_02_06_odp:

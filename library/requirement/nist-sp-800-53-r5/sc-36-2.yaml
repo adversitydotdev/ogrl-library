@@ -13,21 +13,23 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; system design documentation;
-          system configuration settings and associated documentation; system
-          architecture; list of distributed processing and storage components subject
-          to polling; system polling techniques and associated documentation or
-          records; system audit records; system security plan; other relevant
-          documents or records
+          System and communications protection policy; system design
+          documentation; system configuration settings and
+          associated documentation; system architecture; list of
+          distributed processing and storage components subject to
+          polling; system polling techniques and associated
+          documentation or records; system audit records; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; organizational personnel installing, configuring,
-          and/or maintaining the system; system developers/integrators
+          System/network administrators; organizational personnel
+          with information security responsibilities; organizational
+          personnel installing, configuring, and/or maintaining the
+          system; system developers/integrators
       - method: test
         statement: >
-          Mechanisms supporting and/or implementing duplicate system or system
-          component synchronization
+          Mechanisms supporting and/or implementing duplicate system
+          or system component synchronization
     statement: "{{ sc_36_02_odp }} are synchronized."
 parameters:
   sc_36_02_odp:

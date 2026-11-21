@@ -13,28 +13,31 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; procedures addressing
-          information protection in shared system resources; system design
-          documentation; system configuration settings and associated documentation;
-          system audit records; system security plan; other relevant documents or
-          records
+          System and communications protection policy; procedures
+          addressing information protection in shared system
+          resources; system design documentation; system
+          configuration settings and associated documentation;
+          system audit records; system security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; system developer
+          System/network administrators; organizational personnel
+          with information security responsibilities; system
+          developer
       - method: test
         statement: >
-          Mechanisms preventing the unauthorized transfer of information via shared
-          system resources
+          Mechanisms preventing the unauthorized transfer of
+          information via shared system resources
     statement: >
-      unauthorized information transfer via shared resources is prevented in
-      accordance with {{ sc_04_02_odp }} when system processing explicitly
-      switches between different information classification levels or security
-      categories.
+      unauthorized information transfer via shared resources is
+      prevented in accordance with {{ sc_04_02_odp }} when system
+      processing explicitly switches between different information
+      classification levels or security categories.
 parameters:
   sc_04_02_odp:
     label: procedures
 statement: >
-  Prevent unauthorized information transfer via shared resources in accordance
-  with {{ sc_04_02_odp }} when system processing explicitly switches between
-  different information classification levels or security categories.
+  Prevent unauthorized information transfer via shared resources in
+  accordance with {{ sc_04_02_odp }} when system processing
+  explicitly switches between different information classification
+  levels or security categories.

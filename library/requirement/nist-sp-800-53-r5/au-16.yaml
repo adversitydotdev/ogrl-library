@@ -13,28 +13,31 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Audit and accountability policy; system security plan; privacy plan;
-          procedures addressing methods for coordinating audit information among
-          external organizations; system design documentation; system configuration
-          settings and associated documentation; system audit records; other relevant
-          documents or records
+          Audit and accountability policy; system security plan;
+          privacy plan; procedures addressing methods for
+          coordinating audit information among external
+          organizations; system design documentation; system
+          configuration settings and associated documentation;
+          system audit records; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with responsibilities for coordinating audit
-          information among external organizations; organizational personnel with
-          information security and privacy responsibilities
+          Organizational personnel with responsibilities for
+          coordinating audit information among external
+          organizations; organizational personnel with information
+          security and privacy responsibilities
       - method: test
-        statement: Mechanisms implementing cross-organizational auditing
+        statement: >-
+          Mechanisms implementing cross-organizational auditing
     statement: >
-      {{ au_16_odp_01 }} for coordinating {{ au_16_odp_02 }} among external
-      organizations when audit information is transmitted across organizational
-      boundaries are employed.
+      {{ au_16_odp_01 }} for coordinating {{ au_16_odp_02 }} among
+      external organizations when audit information is transmitted
+      across organizational boundaries are employed.
 parameters:
   au_16_odp_01:
     label: methods
   au_16_odp_02:
     label: audit information
 statement: >
-  Employ {{ au_16_odp_01 }} for coordinating {{ au_16_odp_02 }} among external
-  organizations when audit information is transmitted across organizational
-  boundaries.
+  Employ {{ au_16_odp_01 }} for coordinating {{ au_16_odp_02 }}
+  among external organizations when audit information is transmitted
+  across organizational boundaries.

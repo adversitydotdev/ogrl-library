@@ -20,51 +20,60 @@ objectives:
     methods:
       - method: examine
         statement: >
-          physical protection policy and procedures; procedures for alternate work
-          sites for personnel; list of security requirements for alternate work sites;
-          assessments of security requirements at alternate work sites; system
+          physical protection policy and procedures; procedures for
+          alternate work sites for personnel; list of security
+          requirements for alternate work sites; assessments of
+          security requirements at alternate work sites; system
           security plan; other relevant documents or records
       - method: interview
         statement: >
-          personnel approving the use of alternate work sites; personnel using
-          alternate work sites; personnel assessing security requirements at alternate
-          work sites; personnel with information security responsibilities
+          personnel approving the use of alternate work sites;
+          personnel using alternate work sites; personnel assessing
+          security requirements at alternate work sites; personnel
+          with information security responsibilities
       - method: test
         statement: >
-          processes for security at alternate work sites; mechanisms for supporting
-          alternate work sites; security requirements employed at alternate work
-          sites; means of communication between personnel at alternate work sites and
-          security personnel
-    statement: alternate work sites allowed for use by employees are determined.
+          processes for security at alternate work sites; mechanisms
+          for supporting alternate work sites; security requirements
+          employed at alternate work sites; means of communication
+          between personnel at alternate work sites and security
+          personnel
+    statement: >-
+      alternate work sites allowed for use by employees are
+      determined.
   - id: b
     methods:
       - method: examine
         statement: >
-          physical protection policy and procedures; procedures for alternate work
-          sites for personnel; list of security requirements for alternate work sites;
-          assessments of security requirements at alternate work sites; system
+          physical protection policy and procedures; procedures for
+          alternate work sites for personnel; list of security
+          requirements for alternate work sites; assessments of
+          security requirements at alternate work sites; system
           security plan; other relevant documents or records
       - method: interview
         statement: >
-          personnel approving the use of alternate work sites; personnel using
-          alternate work sites; personnel assessing security requirements at alternate
-          work sites; personnel with information security responsibilities
+          personnel approving the use of alternate work sites;
+          personnel using alternate work sites; personnel assessing
+          security requirements at alternate work sites; personnel
+          with information security responsibilities
       - method: test
         statement: >
-          processes for security at alternate work sites; mechanisms for supporting
-          alternate work sites; security requirements employed at alternate work
-          sites; means of communication between personnel at alternate work sites and
-          security personnel
+          processes for security at alternate work sites; mechanisms
+          for supporting alternate work sites; security requirements
+          employed at alternate work sites; means of communication
+          between personnel at alternate work sites and security
+          personnel
     statement: >
-      the following security requirements are employed at alternate work sites:
-      {{ a_03_10_06_odp_01 }}.
+      the following security requirements are employed at alternate
+      work sites: {{ a_03_10_06_odp_01 }}.
 parameters:
   a_03_10_06_odp_01:
     label: security requirements
 parts:
   - id: a
-    statement: Determine alternate work sites allowed for use by employees.
+    statement: >-
+      Determine alternate work sites allowed for use by employees.
   - id: b
     statement: >
-      Employ the following security requirements at alternate work sites:
-      {{ a_03_10_06_odp_01 }}.
+      Employ the following security requirements at alternate work
+      sites: {{ a_03_10_06_odp_01 }}.

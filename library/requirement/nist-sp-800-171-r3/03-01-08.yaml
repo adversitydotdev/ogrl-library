@@ -20,40 +20,40 @@ objectives:
     methods:
       - method: examine
         statement: >
-          access control policy and procedures; procedures for unsuccessful logon
-          attempts; system design documentation; system audit records; system
-          configuration settings; system security plan; other relevant documents or
-          records
+          access control policy and procedures; procedures for
+          unsuccessful logon attempts; system design documentation;
+          system audit records; system configuration settings;
+          system security plan; other relevant documents or records
       - method: interview
         statement: >
-          personnel with information security responsibilities; system developers;
-          system administrators
+          personnel with information security responsibilities;
+          system developers; system administrators
       - method: test
         statement: >
-          mechanisms for implementing the access control policy for unsuccessful logon
-          attempts
+          mechanisms for implementing the access control policy for
+          unsuccessful logon attempts
     statement: >
-      a limit of {{ a_03_01_08_odp_01 }} consecutive invalid logon attempts by a
-      user during {{ a_03_01_08_odp_02 }} is enforced.
+      a limit of {{ a_03_01_08_odp_01 }} consecutive invalid logon
+      attempts by a user during {{ a_03_01_08_odp_02 }} is enforced.
   - id: b
     methods:
       - method: examine
         statement: >
-          access control policy and procedures; procedures for unsuccessful logon
-          attempts; system design documentation; system audit records; system
-          configuration settings; system security plan; other relevant documents or
-          records
+          access control policy and procedures; procedures for
+          unsuccessful logon attempts; system design documentation;
+          system audit records; system configuration settings;
+          system security plan; other relevant documents or records
       - method: interview
         statement: >
-          personnel with information security responsibilities; system developers;
-          system administrators
+          personnel with information security responsibilities;
+          system developers; system administrators
       - method: test
         statement: >
-          mechanisms for implementing the access control policy for unsuccessful logon
-          attempts
+          mechanisms for implementing the access control policy for
+          unsuccessful logon attempts
     statement: >
-      {{ a_03_01_08_odp_03 }} when the maximum number of unsuccessful attempts is
-      exceeded.
+      {{ a_03_01_08_odp_03 }} when the maximum number of
+      unsuccessful attempts is exceeded.
 parameters:
   a_03_01_08_odp_01:
     label: number
@@ -66,9 +66,9 @@ parameters:
 parts:
   - id: a
     statement: >
-      Enforce a limit of {{ a_03_01_08_odp_01 }} consecutive invalid logon
-      attempts by a user during a {{ a_03_01_08_odp_02 }}.
+      Enforce a limit of {{ a_03_01_08_odp_01 }} consecutive invalid
+      logon attempts by a user during a {{ a_03_01_08_odp_02 }}.
   - id: b
     statement: >
-      Automatically {{ a_03_01_08_odp_03 }} when the maximum number of
-      unsuccessful attempts is exceeded.
+      Automatically {{ a_03_01_08_odp_03 }} when the maximum number
+      of unsuccessful attempts is exceeded.

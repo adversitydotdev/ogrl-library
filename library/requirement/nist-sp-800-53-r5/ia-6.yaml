@@ -13,23 +13,26 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Identification and authentication policy; system security plan; procedures
-          addressing authenticator feedback; system design documentation; system
-          configuration settings and associated documentation; system audit records;
-          other relevant documents or records
+          Identification and authentication policy; system security
+          plan; procedures addressing authenticator feedback; system
+          design documentation; system configuration settings and
+          associated documentation; system audit records; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with information security responsibilities;
-          system/network administrators; system developers
+          Organizational personnel with information security
+          responsibilities; system/network administrators; system
+          developers
       - method: test
         statement: >
-          Mechanisms supporting and/or implementing the obscuring of feedback of
-          authentication information during authentication
+          Mechanisms supporting and/or implementing the obscuring of
+          feedback of authentication information during
+          authentication
     statement: >
-      the feedback of authentication information is obscured during the
-      authentication process to protect the information from possible exploitation
-      and use by unauthorized individuals.
+      the feedback of authentication information is obscured during
+      the authentication process to protect the information from
+      possible exploitation and use by unauthorized individuals.
 statement: >
-  Obscure feedback of authentication information during the authentication
-  process to protect the information from possible exploitation and use by
-  unauthorized individuals.
+  Obscure feedback of authentication information during the
+  authentication process to protect the information from possible
+  exploitation and use by unauthorized individuals.

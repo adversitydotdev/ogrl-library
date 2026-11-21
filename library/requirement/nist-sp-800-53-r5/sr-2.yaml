@@ -47,371 +47,471 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Supply chain risk management policy; supply chain risk management
-          procedures; supply chain risk management plan; system and services
-          acquisition policy; system and services acquisition procedures; procedures
-          addressing supply chain protection; procedures for protecting the supply
-          chain risk management plan from unauthorized disclosure and modification;
-          system development life cycle procedures; procedures addressing the
-          integration of information security and privacy requirements into the
-          acquisition process; acquisition documentation; service level agreements;
-          acquisition contracts for the system, system component, or system service;
-          list of supply chain threats; list of safeguards to be taken against supply
-          chain threats; system life cycle documentation; inter-organizational
-          agreements and procedures; system security plan; privacy plan; privacy
-          program plan; other relevant documents or records
+          Supply chain risk management policy; supply chain risk
+          management procedures; supply chain risk management plan;
+          system and services acquisition policy; system and
+          services acquisition procedures; procedures addressing
+          supply chain protection; procedures for protecting the
+          supply chain risk management plan from unauthorized
+          disclosure and modification; system development life cycle
+          procedures; procedures addressing the integration of
+          information security and privacy requirements into the
+          acquisition process; acquisition documentation; service
+          level agreements; acquisition contracts for the system,
+          system component, or system service; list of supply chain
+          threats; list of safeguards to be taken against supply
+          chain threats; system life cycle documentation;
+          inter-organizational agreements and procedures; system
+          security plan; privacy plan; privacy program plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with acquisition responsibilities; organizational
-          personnel with information security and privacy responsibilities;
-          organizational personnel with supply chain risk management responsibilities
+          Organizational personnel with acquisition
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities;
+          organizational personnel with supply chain risk management
+          responsibilities
       - method: test
         statement: >
-          Organizational processes for defining and documenting the system development
-          life cycle (SDLC); organizational processes for identifying SDLC roles and
-          responsibilities; organizational processes for integrating supply chain risk
-          management into the SDLC; mechanisms supporting and/or implementing the SDLC
+          Organizational processes for defining and documenting the
+          system development life cycle (SDLC); organizational
+          processes for identifying SDLC roles and responsibilities;
+          organizational processes for integrating supply chain risk
+          management into the SDLC; mechanisms supporting and/or
+          implementing the SDLC
     statement: a plan for managing supply chain risks is developed;
   - id: a-2
     methods:
       - method: examine
         statement: >
-          Supply chain risk management policy; supply chain risk management
-          procedures; supply chain risk management plan; system and services
-          acquisition policy; system and services acquisition procedures; procedures
-          addressing supply chain protection; procedures for protecting the supply
-          chain risk management plan from unauthorized disclosure and modification;
-          system development life cycle procedures; procedures addressing the
-          integration of information security and privacy requirements into the
-          acquisition process; acquisition documentation; service level agreements;
-          acquisition contracts for the system, system component, or system service;
-          list of supply chain threats; list of safeguards to be taken against supply
-          chain threats; system life cycle documentation; inter-organizational
-          agreements and procedures; system security plan; privacy plan; privacy
-          program plan; other relevant documents or records
+          Supply chain risk management policy; supply chain risk
+          management procedures; supply chain risk management plan;
+          system and services acquisition policy; system and
+          services acquisition procedures; procedures addressing
+          supply chain protection; procedures for protecting the
+          supply chain risk management plan from unauthorized
+          disclosure and modification; system development life cycle
+          procedures; procedures addressing the integration of
+          information security and privacy requirements into the
+          acquisition process; acquisition documentation; service
+          level agreements; acquisition contracts for the system,
+          system component, or system service; list of supply chain
+          threats; list of safeguards to be taken against supply
+          chain threats; system life cycle documentation;
+          inter-organizational agreements and procedures; system
+          security plan; privacy plan; privacy program plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with acquisition responsibilities; organizational
-          personnel with information security and privacy responsibilities;
-          organizational personnel with supply chain risk management responsibilities
+          Organizational personnel with acquisition
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities;
+          organizational personnel with supply chain risk management
+          responsibilities
       - method: test
         statement: >
-          Organizational processes for defining and documenting the system development
-          life cycle (SDLC); organizational processes for identifying SDLC roles and
-          responsibilities; organizational processes for integrating supply chain risk
-          management into the SDLC; mechanisms supporting and/or implementing the SDLC
+          Organizational processes for defining and documenting the
+          system development life cycle (SDLC); organizational
+          processes for identifying SDLC roles and responsibilities;
+          organizational processes for integrating supply chain risk
+          management into the SDLC; mechanisms supporting and/or
+          implementing the SDLC
     statement: >
-      the supply chain risk management plan addresses risks associated with the
-      research and development of {{ sr_02_odp_01 }};
+      the supply chain risk management plan addresses risks
+      associated with the research and development of
+      {{ sr_02_odp_01 }};
   - id: a-3
     methods:
       - method: examine
         statement: >
-          Supply chain risk management policy; supply chain risk management
-          procedures; supply chain risk management plan; system and services
-          acquisition policy; system and services acquisition procedures; procedures
-          addressing supply chain protection; procedures for protecting the supply
-          chain risk management plan from unauthorized disclosure and modification;
-          system development life cycle procedures; procedures addressing the
-          integration of information security and privacy requirements into the
-          acquisition process; acquisition documentation; service level agreements;
-          acquisition contracts for the system, system component, or system service;
-          list of supply chain threats; list of safeguards to be taken against supply
-          chain threats; system life cycle documentation; inter-organizational
-          agreements and procedures; system security plan; privacy plan; privacy
-          program plan; other relevant documents or records
+          Supply chain risk management policy; supply chain risk
+          management procedures; supply chain risk management plan;
+          system and services acquisition policy; system and
+          services acquisition procedures; procedures addressing
+          supply chain protection; procedures for protecting the
+          supply chain risk management plan from unauthorized
+          disclosure and modification; system development life cycle
+          procedures; procedures addressing the integration of
+          information security and privacy requirements into the
+          acquisition process; acquisition documentation; service
+          level agreements; acquisition contracts for the system,
+          system component, or system service; list of supply chain
+          threats; list of safeguards to be taken against supply
+          chain threats; system life cycle documentation;
+          inter-organizational agreements and procedures; system
+          security plan; privacy plan; privacy program plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with acquisition responsibilities; organizational
-          personnel with information security and privacy responsibilities;
-          organizational personnel with supply chain risk management responsibilities
+          Organizational personnel with acquisition
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities;
+          organizational personnel with supply chain risk management
+          responsibilities
       - method: test
         statement: >
-          Organizational processes for defining and documenting the system development
-          life cycle (SDLC); organizational processes for identifying SDLC roles and
-          responsibilities; organizational processes for integrating supply chain risk
-          management into the SDLC; mechanisms supporting and/or implementing the SDLC
+          Organizational processes for defining and documenting the
+          system development life cycle (SDLC); organizational
+          processes for identifying SDLC roles and responsibilities;
+          organizational processes for integrating supply chain risk
+          management into the SDLC; mechanisms supporting and/or
+          implementing the SDLC
     statement: >
-      the supply chain risk management plan addresses risks associated with the
-      design of {{ sr_02_odp_01 }};
+      the supply chain risk management plan addresses risks
+      associated with the design of {{ sr_02_odp_01 }};
   - id: a-4
     methods:
       - method: examine
         statement: >
-          Supply chain risk management policy; supply chain risk management
-          procedures; supply chain risk management plan; system and services
-          acquisition policy; system and services acquisition procedures; procedures
-          addressing supply chain protection; procedures for protecting the supply
-          chain risk management plan from unauthorized disclosure and modification;
-          system development life cycle procedures; procedures addressing the
-          integration of information security and privacy requirements into the
-          acquisition process; acquisition documentation; service level agreements;
-          acquisition contracts for the system, system component, or system service;
-          list of supply chain threats; list of safeguards to be taken against supply
-          chain threats; system life cycle documentation; inter-organizational
-          agreements and procedures; system security plan; privacy plan; privacy
-          program plan; other relevant documents or records
+          Supply chain risk management policy; supply chain risk
+          management procedures; supply chain risk management plan;
+          system and services acquisition policy; system and
+          services acquisition procedures; procedures addressing
+          supply chain protection; procedures for protecting the
+          supply chain risk management plan from unauthorized
+          disclosure and modification; system development life cycle
+          procedures; procedures addressing the integration of
+          information security and privacy requirements into the
+          acquisition process; acquisition documentation; service
+          level agreements; acquisition contracts for the system,
+          system component, or system service; list of supply chain
+          threats; list of safeguards to be taken against supply
+          chain threats; system life cycle documentation;
+          inter-organizational agreements and procedures; system
+          security plan; privacy plan; privacy program plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with acquisition responsibilities; organizational
-          personnel with information security and privacy responsibilities;
-          organizational personnel with supply chain risk management responsibilities
+          Organizational personnel with acquisition
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities;
+          organizational personnel with supply chain risk management
+          responsibilities
       - method: test
         statement: >
-          Organizational processes for defining and documenting the system development
-          life cycle (SDLC); organizational processes for identifying SDLC roles and
-          responsibilities; organizational processes for integrating supply chain risk
-          management into the SDLC; mechanisms supporting and/or implementing the SDLC
+          Organizational processes for defining and documenting the
+          system development life cycle (SDLC); organizational
+          processes for identifying SDLC roles and responsibilities;
+          organizational processes for integrating supply chain risk
+          management into the SDLC; mechanisms supporting and/or
+          implementing the SDLC
     statement: >
-      the supply chain risk management plan addresses risks associated with the
-      manufacturing of {{ sr_02_odp_01 }};
+      the supply chain risk management plan addresses risks
+      associated with the manufacturing of {{ sr_02_odp_01 }};
   - id: a-5
     methods:
       - method: examine
         statement: >
-          Supply chain risk management policy; supply chain risk management
-          procedures; supply chain risk management plan; system and services
-          acquisition policy; system and services acquisition procedures; procedures
-          addressing supply chain protection; procedures for protecting the supply
-          chain risk management plan from unauthorized disclosure and modification;
-          system development life cycle procedures; procedures addressing the
-          integration of information security and privacy requirements into the
-          acquisition process; acquisition documentation; service level agreements;
-          acquisition contracts for the system, system component, or system service;
-          list of supply chain threats; list of safeguards to be taken against supply
-          chain threats; system life cycle documentation; inter-organizational
-          agreements and procedures; system security plan; privacy plan; privacy
-          program plan; other relevant documents or records
+          Supply chain risk management policy; supply chain risk
+          management procedures; supply chain risk management plan;
+          system and services acquisition policy; system and
+          services acquisition procedures; procedures addressing
+          supply chain protection; procedures for protecting the
+          supply chain risk management plan from unauthorized
+          disclosure and modification; system development life cycle
+          procedures; procedures addressing the integration of
+          information security and privacy requirements into the
+          acquisition process; acquisition documentation; service
+          level agreements; acquisition contracts for the system,
+          system component, or system service; list of supply chain
+          threats; list of safeguards to be taken against supply
+          chain threats; system life cycle documentation;
+          inter-organizational agreements and procedures; system
+          security plan; privacy plan; privacy program plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with acquisition responsibilities; organizational
-          personnel with information security and privacy responsibilities;
-          organizational personnel with supply chain risk management responsibilities
+          Organizational personnel with acquisition
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities;
+          organizational personnel with supply chain risk management
+          responsibilities
       - method: test
         statement: >
-          Organizational processes for defining and documenting the system development
-          life cycle (SDLC); organizational processes for identifying SDLC roles and
-          responsibilities; organizational processes for integrating supply chain risk
-          management into the SDLC; mechanisms supporting and/or implementing the SDLC
+          Organizational processes for defining and documenting the
+          system development life cycle (SDLC); organizational
+          processes for identifying SDLC roles and responsibilities;
+          organizational processes for integrating supply chain risk
+          management into the SDLC; mechanisms supporting and/or
+          implementing the SDLC
     statement: >
-      the supply chain risk management plan addresses risks associated with the
-      acquisition of {{ sr_02_odp_01 }};
+      the supply chain risk management plan addresses risks
+      associated with the acquisition of {{ sr_02_odp_01 }};
   - id: a-6
     methods:
       - method: examine
         statement: >
-          Supply chain risk management policy; supply chain risk management
-          procedures; supply chain risk management plan; system and services
-          acquisition policy; system and services acquisition procedures; procedures
-          addressing supply chain protection; procedures for protecting the supply
-          chain risk management plan from unauthorized disclosure and modification;
-          system development life cycle procedures; procedures addressing the
-          integration of information security and privacy requirements into the
-          acquisition process; acquisition documentation; service level agreements;
-          acquisition contracts for the system, system component, or system service;
-          list of supply chain threats; list of safeguards to be taken against supply
-          chain threats; system life cycle documentation; inter-organizational
-          agreements and procedures; system security plan; privacy plan; privacy
-          program plan; other relevant documents or records
+          Supply chain risk management policy; supply chain risk
+          management procedures; supply chain risk management plan;
+          system and services acquisition policy; system and
+          services acquisition procedures; procedures addressing
+          supply chain protection; procedures for protecting the
+          supply chain risk management plan from unauthorized
+          disclosure and modification; system development life cycle
+          procedures; procedures addressing the integration of
+          information security and privacy requirements into the
+          acquisition process; acquisition documentation; service
+          level agreements; acquisition contracts for the system,
+          system component, or system service; list of supply chain
+          threats; list of safeguards to be taken against supply
+          chain threats; system life cycle documentation;
+          inter-organizational agreements and procedures; system
+          security plan; privacy plan; privacy program plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with acquisition responsibilities; organizational
-          personnel with information security and privacy responsibilities;
-          organizational personnel with supply chain risk management responsibilities
+          Organizational personnel with acquisition
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities;
+          organizational personnel with supply chain risk management
+          responsibilities
       - method: test
         statement: >
-          Organizational processes for defining and documenting the system development
-          life cycle (SDLC); organizational processes for identifying SDLC roles and
-          responsibilities; organizational processes for integrating supply chain risk
-          management into the SDLC; mechanisms supporting and/or implementing the SDLC
+          Organizational processes for defining and documenting the
+          system development life cycle (SDLC); organizational
+          processes for identifying SDLC roles and responsibilities;
+          organizational processes for integrating supply chain risk
+          management into the SDLC; mechanisms supporting and/or
+          implementing the SDLC
     statement: >
-      the supply chain risk management plan addresses risks associated with the
-      delivery of {{ sr_02_odp_01 }};
+      the supply chain risk management plan addresses risks
+      associated with the delivery of {{ sr_02_odp_01 }};
   - id: a-7
     methods:
       - method: examine
         statement: >
-          Supply chain risk management policy; supply chain risk management
-          procedures; supply chain risk management plan; system and services
-          acquisition policy; system and services acquisition procedures; procedures
-          addressing supply chain protection; procedures for protecting the supply
-          chain risk management plan from unauthorized disclosure and modification;
-          system development life cycle procedures; procedures addressing the
-          integration of information security and privacy requirements into the
-          acquisition process; acquisition documentation; service level agreements;
-          acquisition contracts for the system, system component, or system service;
-          list of supply chain threats; list of safeguards to be taken against supply
-          chain threats; system life cycle documentation; inter-organizational
-          agreements and procedures; system security plan; privacy plan; privacy
-          program plan; other relevant documents or records
+          Supply chain risk management policy; supply chain risk
+          management procedures; supply chain risk management plan;
+          system and services acquisition policy; system and
+          services acquisition procedures; procedures addressing
+          supply chain protection; procedures for protecting the
+          supply chain risk management plan from unauthorized
+          disclosure and modification; system development life cycle
+          procedures; procedures addressing the integration of
+          information security and privacy requirements into the
+          acquisition process; acquisition documentation; service
+          level agreements; acquisition contracts for the system,
+          system component, or system service; list of supply chain
+          threats; list of safeguards to be taken against supply
+          chain threats; system life cycle documentation;
+          inter-organizational agreements and procedures; system
+          security plan; privacy plan; privacy program plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with acquisition responsibilities; organizational
-          personnel with information security and privacy responsibilities;
-          organizational personnel with supply chain risk management responsibilities
+          Organizational personnel with acquisition
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities;
+          organizational personnel with supply chain risk management
+          responsibilities
       - method: test
         statement: >
-          Organizational processes for defining and documenting the system development
-          life cycle (SDLC); organizational processes for identifying SDLC roles and
-          responsibilities; organizational processes for integrating supply chain risk
-          management into the SDLC; mechanisms supporting and/or implementing the SDLC
+          Organizational processes for defining and documenting the
+          system development life cycle (SDLC); organizational
+          processes for identifying SDLC roles and responsibilities;
+          organizational processes for integrating supply chain risk
+          management into the SDLC; mechanisms supporting and/or
+          implementing the SDLC
     statement: >
-      the supply chain risk management plan addresses risks associated with the
-      integration of {{ sr_02_odp_01 }};
+      the supply chain risk management plan addresses risks
+      associated with the integration of {{ sr_02_odp_01 }};
   - id: a-8
     methods:
       - method: examine
         statement: >
-          Supply chain risk management policy; supply chain risk management
-          procedures; supply chain risk management plan; system and services
-          acquisition policy; system and services acquisition procedures; procedures
-          addressing supply chain protection; procedures for protecting the supply
-          chain risk management plan from unauthorized disclosure and modification;
-          system development life cycle procedures; procedures addressing the
-          integration of information security and privacy requirements into the
-          acquisition process; acquisition documentation; service level agreements;
-          acquisition contracts for the system, system component, or system service;
-          list of supply chain threats; list of safeguards to be taken against supply
-          chain threats; system life cycle documentation; inter-organizational
-          agreements and procedures; system security plan; privacy plan; privacy
-          program plan; other relevant documents or records
+          Supply chain risk management policy; supply chain risk
+          management procedures; supply chain risk management plan;
+          system and services acquisition policy; system and
+          services acquisition procedures; procedures addressing
+          supply chain protection; procedures for protecting the
+          supply chain risk management plan from unauthorized
+          disclosure and modification; system development life cycle
+          procedures; procedures addressing the integration of
+          information security and privacy requirements into the
+          acquisition process; acquisition documentation; service
+          level agreements; acquisition contracts for the system,
+          system component, or system service; list of supply chain
+          threats; list of safeguards to be taken against supply
+          chain threats; system life cycle documentation;
+          inter-organizational agreements and procedures; system
+          security plan; privacy plan; privacy program plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with acquisition responsibilities; organizational
-          personnel with information security and privacy responsibilities;
-          organizational personnel with supply chain risk management responsibilities
+          Organizational personnel with acquisition
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities;
+          organizational personnel with supply chain risk management
+          responsibilities
       - method: test
         statement: >
-          Organizational processes for defining and documenting the system development
-          life cycle (SDLC); organizational processes for identifying SDLC roles and
-          responsibilities; organizational processes for integrating supply chain risk
-          management into the SDLC; mechanisms supporting and/or implementing the SDLC
+          Organizational processes for defining and documenting the
+          system development life cycle (SDLC); organizational
+          processes for identifying SDLC roles and responsibilities;
+          organizational processes for integrating supply chain risk
+          management into the SDLC; mechanisms supporting and/or
+          implementing the SDLC
     statement: >
-      the supply chain risk management plan addresses risks associated with the
-      operation and maintenance of {{ sr_02_odp_01 }};
+      the supply chain risk management plan addresses risks
+      associated with the operation and maintenance of
+      {{ sr_02_odp_01 }};
   - id: a-9
     methods:
       - method: examine
         statement: >
-          Supply chain risk management policy; supply chain risk management
-          procedures; supply chain risk management plan; system and services
-          acquisition policy; system and services acquisition procedures; procedures
-          addressing supply chain protection; procedures for protecting the supply
-          chain risk management plan from unauthorized disclosure and modification;
-          system development life cycle procedures; procedures addressing the
-          integration of information security and privacy requirements into the
-          acquisition process; acquisition documentation; service level agreements;
-          acquisition contracts for the system, system component, or system service;
-          list of supply chain threats; list of safeguards to be taken against supply
-          chain threats; system life cycle documentation; inter-organizational
-          agreements and procedures; system security plan; privacy plan; privacy
-          program plan; other relevant documents or records
+          Supply chain risk management policy; supply chain risk
+          management procedures; supply chain risk management plan;
+          system and services acquisition policy; system and
+          services acquisition procedures; procedures addressing
+          supply chain protection; procedures for protecting the
+          supply chain risk management plan from unauthorized
+          disclosure and modification; system development life cycle
+          procedures; procedures addressing the integration of
+          information security and privacy requirements into the
+          acquisition process; acquisition documentation; service
+          level agreements; acquisition contracts for the system,
+          system component, or system service; list of supply chain
+          threats; list of safeguards to be taken against supply
+          chain threats; system life cycle documentation;
+          inter-organizational agreements and procedures; system
+          security plan; privacy plan; privacy program plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with acquisition responsibilities; organizational
-          personnel with information security and privacy responsibilities;
-          organizational personnel with supply chain risk management responsibilities
+          Organizational personnel with acquisition
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities;
+          organizational personnel with supply chain risk management
+          responsibilities
       - method: test
         statement: >
-          Organizational processes for defining and documenting the system development
-          life cycle (SDLC); organizational processes for identifying SDLC roles and
-          responsibilities; organizational processes for integrating supply chain risk
-          management into the SDLC; mechanisms supporting and/or implementing the SDLC
+          Organizational processes for defining and documenting the
+          system development life cycle (SDLC); organizational
+          processes for identifying SDLC roles and responsibilities;
+          organizational processes for integrating supply chain risk
+          management into the SDLC; mechanisms supporting and/or
+          implementing the SDLC
     statement: >
-      the supply chain risk management plan addresses risks associated with the
-      disposal of {{ sr_02_odp_01 }};
+      the supply chain risk management plan addresses risks
+      associated with the disposal of {{ sr_02_odp_01 }};
   - id: b
     methods:
       - method: examine
         statement: >
-          Supply chain risk management policy; supply chain risk management
-          procedures; supply chain risk management plan; system and services
-          acquisition policy; system and services acquisition procedures; procedures
-          addressing supply chain protection; procedures for protecting the supply
-          chain risk management plan from unauthorized disclosure and modification;
-          system development life cycle procedures; procedures addressing the
-          integration of information security and privacy requirements into the
-          acquisition process; acquisition documentation; service level agreements;
-          acquisition contracts for the system, system component, or system service;
-          list of supply chain threats; list of safeguards to be taken against supply
-          chain threats; system life cycle documentation; inter-organizational
-          agreements and procedures; system security plan; privacy plan; privacy
-          program plan; other relevant documents or records
+          Supply chain risk management policy; supply chain risk
+          management procedures; supply chain risk management plan;
+          system and services acquisition policy; system and
+          services acquisition procedures; procedures addressing
+          supply chain protection; procedures for protecting the
+          supply chain risk management plan from unauthorized
+          disclosure and modification; system development life cycle
+          procedures; procedures addressing the integration of
+          information security and privacy requirements into the
+          acquisition process; acquisition documentation; service
+          level agreements; acquisition contracts for the system,
+          system component, or system service; list of supply chain
+          threats; list of safeguards to be taken against supply
+          chain threats; system life cycle documentation;
+          inter-organizational agreements and procedures; system
+          security plan; privacy plan; privacy program plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with acquisition responsibilities; organizational
-          personnel with information security and privacy responsibilities;
-          organizational personnel with supply chain risk management responsibilities
+          Organizational personnel with acquisition
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities;
+          organizational personnel with supply chain risk management
+          responsibilities
       - method: test
         statement: >
-          Organizational processes for defining and documenting the system development
-          life cycle (SDLC); organizational processes for identifying SDLC roles and
-          responsibilities; organizational processes for integrating supply chain risk
-          management into the SDLC; mechanisms supporting and/or implementing the SDLC
+          Organizational processes for defining and documenting the
+          system development life cycle (SDLC); organizational
+          processes for identifying SDLC roles and responsibilities;
+          organizational processes for integrating supply chain risk
+          management into the SDLC; mechanisms supporting and/or
+          implementing the SDLC
     statement: >
       the supply chain risk management plan is reviewed and updated
-      {{ sr_02_odp_02 }} or as required to address threat, organizational, or
-      environmental changes;
+      {{ sr_02_odp_02 }} or as required to address threat,
+      organizational, or environmental changes;
   - id: c-1
     methods:
       - method: examine
         statement: >
-          Supply chain risk management policy; supply chain risk management
-          procedures; supply chain risk management plan; system and services
-          acquisition policy; system and services acquisition procedures; procedures
-          addressing supply chain protection; procedures for protecting the supply
-          chain risk management plan from unauthorized disclosure and modification;
-          system development life cycle procedures; procedures addressing the
-          integration of information security and privacy requirements into the
-          acquisition process; acquisition documentation; service level agreements;
-          acquisition contracts for the system, system component, or system service;
-          list of supply chain threats; list of safeguards to be taken against supply
-          chain threats; system life cycle documentation; inter-organizational
-          agreements and procedures; system security plan; privacy plan; privacy
-          program plan; other relevant documents or records
+          Supply chain risk management policy; supply chain risk
+          management procedures; supply chain risk management plan;
+          system and services acquisition policy; system and
+          services acquisition procedures; procedures addressing
+          supply chain protection; procedures for protecting the
+          supply chain risk management plan from unauthorized
+          disclosure and modification; system development life cycle
+          procedures; procedures addressing the integration of
+          information security and privacy requirements into the
+          acquisition process; acquisition documentation; service
+          level agreements; acquisition contracts for the system,
+          system component, or system service; list of supply chain
+          threats; list of safeguards to be taken against supply
+          chain threats; system life cycle documentation;
+          inter-organizational agreements and procedures; system
+          security plan; privacy plan; privacy program plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with acquisition responsibilities; organizational
-          personnel with information security and privacy responsibilities;
-          organizational personnel with supply chain risk management responsibilities
+          Organizational personnel with acquisition
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities;
+          organizational personnel with supply chain risk management
+          responsibilities
       - method: test
         statement: >
-          Organizational processes for defining and documenting the system development
-          life cycle (SDLC); organizational processes for identifying SDLC roles and
-          responsibilities; organizational processes for integrating supply chain risk
-          management into the SDLC; mechanisms supporting and/or implementing the SDLC
-    statement: the supply chain risk management plan is protected from unauthorized disclosure;
+          Organizational processes for defining and documenting the
+          system development life cycle (SDLC); organizational
+          processes for identifying SDLC roles and responsibilities;
+          organizational processes for integrating supply chain risk
+          management into the SDLC; mechanisms supporting and/or
+          implementing the SDLC
+    statement: >-
+      the supply chain risk management plan is protected from
+      unauthorized disclosure;
   - id: c-2
     methods:
       - method: examine
         statement: >
-          Supply chain risk management policy; supply chain risk management
-          procedures; supply chain risk management plan; system and services
-          acquisition policy; system and services acquisition procedures; procedures
-          addressing supply chain protection; procedures for protecting the supply
-          chain risk management plan from unauthorized disclosure and modification;
-          system development life cycle procedures; procedures addressing the
-          integration of information security and privacy requirements into the
-          acquisition process; acquisition documentation; service level agreements;
-          acquisition contracts for the system, system component, or system service;
-          list of supply chain threats; list of safeguards to be taken against supply
-          chain threats; system life cycle documentation; inter-organizational
-          agreements and procedures; system security plan; privacy plan; privacy
-          program plan; other relevant documents or records
+          Supply chain risk management policy; supply chain risk
+          management procedures; supply chain risk management plan;
+          system and services acquisition policy; system and
+          services acquisition procedures; procedures addressing
+          supply chain protection; procedures for protecting the
+          supply chain risk management plan from unauthorized
+          disclosure and modification; system development life cycle
+          procedures; procedures addressing the integration of
+          information security and privacy requirements into the
+          acquisition process; acquisition documentation; service
+          level agreements; acquisition contracts for the system,
+          system component, or system service; list of supply chain
+          threats; list of safeguards to be taken against supply
+          chain threats; system life cycle documentation;
+          inter-organizational agreements and procedures; system
+          security plan; privacy plan; privacy program plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with acquisition responsibilities; organizational
-          personnel with information security and privacy responsibilities;
-          organizational personnel with supply chain risk management responsibilities
+          Organizational personnel with acquisition
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities;
+          organizational personnel with supply chain risk management
+          responsibilities
       - method: test
         statement: >
-          Organizational processes for defining and documenting the system development
-          life cycle (SDLC); organizational processes for identifying SDLC roles and
-          responsibilities; organizational processes for integrating supply chain risk
-          management into the SDLC; mechanisms supporting and/or implementing the SDLC
+          Organizational processes for defining and documenting the
+          system development life cycle (SDLC); organizational
+          processes for identifying SDLC roles and responsibilities;
+          organizational processes for integrating supply chain risk
+          management into the SDLC; mechanisms supporting and/or
+          implementing the SDLC
     statement: >
-      the supply chain risk management plan is protected from unauthorized
-      modification.
+      the supply chain risk management plan is protected from
+      unauthorized modification.
 parameters:
   sr_02_odp_01:
     label: "systems, system components, or system services"
@@ -420,16 +520,17 @@ parameters:
 parts:
   - id: a
     statement: >
-      Develop a plan for managing supply chain risks associated with the research
-      and development, design, manufacturing, acquisition, delivery, integration,
-      operations and maintenance, and disposal of the following systems, system
+      Develop a plan for managing supply chain risks associated with
+      the research and development, design, manufacturing,
+      acquisition, delivery, integration, operations and
+      maintenance, and disposal of the following systems, system
       components or system services: {{ sr_02_odp_01 }};
   - id: b
     statement: >
-      Review and update the supply chain risk management plan {{ sr_02_odp_02 }}
-      or as required, to address threat, organizational or environmental changes;
-      and
+      Review and update the supply chain risk management plan
+      {{ sr_02_odp_02 }} or as required, to address threat,
+      organizational or environmental changes; and
   - id: c
     statement: >
-      Protect the supply chain risk management plan from unauthorized disclosure
-      and modification.
+      Protect the supply chain risk management plan from
+      unauthorized disclosure and modification.

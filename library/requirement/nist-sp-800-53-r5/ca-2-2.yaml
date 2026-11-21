@@ -13,20 +13,22 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Assessment, authorization, and monitoring policy; procedures addressing
-          control assessments; control assessment plan; control assessment report;
-          control assessment evidence; system security plan; privacy plan; other
-          relevant documents or records
+          Assessment, authorization, and monitoring policy;
+          procedures addressing control assessments; control
+          assessment plan; control assessment report; control
+          assessment evidence; system security plan; privacy plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with control assessment responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities
+          Organizational personnel with control assessment
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities
       - method: test
         statement: Mechanisms supporting control assessment
     statement: >
-      {{ ca_02_02_odp_01 }} {{ ca_02_02_odp_02 }} {{ ca_02_02_odp_03 }} are
-      included as part of control assessments.
+      {{ ca_02_02_odp_01 }} {{ ca_02_02_odp_02 }}
+      {{ ca_02_02_odp_03 }} are included as part of control
+      assessments.
 parameters:
   ca_02_02_odp_01:
     label: specialized assessment frequency

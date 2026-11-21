@@ -13,26 +13,32 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Contingency planning policy; procedures addressing alternate security
-          mechanisms; contingency plan; continuity of operations plan; system design
-          documentation; system configuration settings and associated documentation;
-          contingency plan test records; contingency plan test results; system
-          security plan; other relevant documents or records
+          Contingency planning policy; procedures addressing
+          alternate security mechanisms; contingency plan;
+          continuity of operations plan; system design
+          documentation; system configuration settings and
+          associated documentation; contingency plan test records;
+          contingency plan test results; system security plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with system operation responsibilities;
-          organizational personnel with information security responsibilities
+          Organizational personnel with system operation
+          responsibilities; organizational personnel with
+          information security responsibilities
       - method: test
-        statement: system capability implementing alternative security mechanisms
+        statement: >-
+          system capability implementing alternative security
+          mechanisms
     statement: >
-      {{ cp_13_odp_01 }} are employed for satisfying {{ cp_13_odp_02 }} when the
-      primary means of implementing the security function is unavailable or
-      compromised.
+      {{ cp_13_odp_01 }} are employed for satisfying
+      {{ cp_13_odp_02 }} when the primary means of implementing the
+      security function is unavailable or compromised.
 parameters:
   cp_13_odp_01:
     label: alternative or supplemental security mechanisms
   cp_13_odp_02:
     label: security functions
 statement: >
-  Employ {{ cp_13_odp_01 }} for satisfying {{ cp_13_odp_02 }} when the primary
-  means of implementing the security function is unavailable or compromised.
+  Employ {{ cp_13_odp_01 }} for satisfying {{ cp_13_odp_02 }} when
+  the primary means of implementing the security function is
+  unavailable or compromised.

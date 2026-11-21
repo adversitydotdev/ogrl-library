@@ -9,14 +9,15 @@ control_type: preventive
 family: hr
 frequency: event-driven
 guidance: >
-  Sponsor every contractor account through an internal owner and give it an
-  end date in the identity provider. Include personnel security clauses in
-  staffing agreements and request attestation of screening and training
-  completion. Reconcile active contractor accounts against the provider's
-  roster as part of verification.
+  Sponsor every contractor account through an internal owner and
+  give it an end date in the identity provider. Include personnel
+  security clauses in staffing agreements and request attestation of
+  screening and training completion. Reconcile active contractor
+  accounts against the provider's roster as part of verification.
 objective: >
-  Ensure external personnel with access meet the same security expectations as
-  employees and lose access promptly when their engagement ends.
+  Ensure external personnel with access meet the same security
+  expectations as employees and lose access promptly when their
+  engagement ends.
 origin: standard
 parameters:
   compliance_verification_frequency:
@@ -31,14 +32,16 @@ parameters:
 statement: >
   Require providers whose personnel access organizational systems or
   confidential data to apply the organization's personnel security
-  requirements, including screening, confidentiality agreements, and security
-  training, with roles and responsibilities documented in the contract;
-  require the provider to notify {{ notification_recipient }} of any transfer
-  or termination of such personnel within {{ notification_window }}; and
-  verify provider compliance {{ compliance_verification_frequency }}.
+  requirements, including screening, confidentiality agreements, and
+  security training, with roles and responsibilities documented in
+  the contract; require the provider to notify
+  {{ notification_recipient }} of any transfer or termination of
+  such personnel within {{ notification_window }}; and verify
+  provider compliance {{ compliance_verification_frequency }}.
 summary: >
-  Hold external personnel with system access to the organization's personnel
-  security requirements and require timely notice of their departures.
+  Hold external personnel with system access to the organization's
+  personnel security requirements and require timely notice of their
+  departures.
 tags:
   - personnel-security
   - contractors

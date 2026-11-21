@@ -13,23 +13,26 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Incident response policy; procedures addressing incident handling;
-          mechanisms supporting incident handling; list of system components to be
-          dynamically reconfigured as part of incident response capability; system
-          design documentation; system configuration settings and associated
-          documentation; system audit records; incident response plan; system security
-          plan; other relevant documents or records
+          Incident response policy; procedures addressing incident
+          handling; mechanisms supporting incident handling; list of
+          system components to be dynamically reconfigured as part
+          of incident response capability; system design
+          documentation; system configuration settings and
+          associated documentation; system audit records; incident
+          response plan; system security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with incident handling responsibilities;
-          organizational personnel with information security responsibilities
+          Organizational personnel with incident handling
+          responsibilities; organizational personnel with
+          information security responsibilities
       - method: test
         statement: >
-          Mechanisms that support and/or implement the dynamic reconfiguration of
-          components as part of incident response
+          Mechanisms that support and/or implement the dynamic
+          reconfiguration of components as part of incident response
     statement: >
-      {{ ir_04_02_odp_01 }} for {{ ir_04_02_odp_02 }} are included as part of the
-      incident response capability.
+      {{ ir_04_02_odp_01 }} for {{ ir_04_02_odp_02 }} are included
+      as part of the incident response capability.
 parameters:
   ir_04_02_odp_01:
     label: types of dynamic reconfiguration

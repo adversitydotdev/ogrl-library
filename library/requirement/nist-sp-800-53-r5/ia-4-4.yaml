@@ -13,23 +13,27 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Identification and authentication policy; system security plan; procedures
-          addressing identifier management; procedures addressing account management;
-          list of characteristics identifying individual status; other relevant
-          documents or records
+          Identification and authentication policy; system security
+          plan; procedures addressing identifier management;
+          procedures addressing account management; list of
+          characteristics identifying individual status; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with identifier management responsibilities;
-          organizational personnel with information security responsibilities;
-          system/network administrators
+          Organizational personnel with identifier management
+          responsibilities; organizational personnel with
+          information security responsibilities; system/network
+          administrators
       - method: test
-        statement: Mechanisms supporting and/or implementing identifier management
+        statement: >-
+          Mechanisms supporting and/or implementing identifier
+          management
     statement: >
-      individual identifiers are managed by uniquely identifying each individual
-      as {{ ia_04_04_odp }}.
+      individual identifiers are managed by uniquely identifying
+      each individual as {{ ia_04_04_odp }}.
 parameters:
   ia_04_04_odp:
     label: characteristics
 statement: >
-  Manage individual identifiers by uniquely identifying each individual as
-  {{ ia_04_04_odp }}.
+  Manage individual identifiers by uniquely identifying each
+  individual as {{ ia_04_04_odp }}.

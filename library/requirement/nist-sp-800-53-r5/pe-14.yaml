@@ -13,42 +13,45 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Physical and environmental protection policy; procedures addressing
-          temperature and humidity control; temperature and humidity controls;
-          facility housing the system; temperature and humidity controls
-          documentation; temperature and humidity records; system security plan; other
-          relevant documents or records
+          Physical and environmental protection policy; procedures
+          addressing temperature and humidity control; temperature
+          and humidity controls; facility housing the system;
+          temperature and humidity controls documentation;
+          temperature and humidity records; system security plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with responsibilities for system environmental
-          controls; organizational personnel with information security
-          responsibilities
+          Organizational personnel with responsibilities for system
+          environmental controls; organizational personnel with
+          information security responsibilities
       - method: test
         statement: >
-          Mechanisms supporting and/or implementing the maintenance and monitoring of
-          temperature and humidity levels
+          Mechanisms supporting and/or implementing the maintenance
+          and monitoring of temperature and humidity levels
     statement: >
-      {{ pe_14_odp_01 }} levels are maintained at {{ pe_14_odp_03 }} within the
-      facility where the system resides;
+      {{ pe_14_odp_01 }} levels are maintained at {{ pe_14_odp_03 }}
+      within the facility where the system resides;
   - id: b
     methods:
       - method: examine
         statement: >
-          Physical and environmental protection policy; procedures addressing
-          temperature and humidity control; temperature and humidity controls;
-          facility housing the system; temperature and humidity controls
-          documentation; temperature and humidity records; system security plan; other
-          relevant documents or records
+          Physical and environmental protection policy; procedures
+          addressing temperature and humidity control; temperature
+          and humidity controls; facility housing the system;
+          temperature and humidity controls documentation;
+          temperature and humidity records; system security plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with responsibilities for system environmental
-          controls; organizational personnel with information security
-          responsibilities
+          Organizational personnel with responsibilities for system
+          environmental controls; organizational personnel with
+          information security responsibilities
       - method: test
         statement: >
-          Mechanisms supporting and/or implementing the maintenance and monitoring of
-          temperature and humidity levels
-    statement: "environmental control levels are monitored {{ pe_14_odp_04 }}."
+          Mechanisms supporting and/or implementing the maintenance
+          and monitoring of temperature and humidity levels
+    statement: >-
+      environmental control levels are monitored {{ pe_14_odp_04 }}.
 parameters:
   pe_14_odp_01:
     label: pe-14_odp.01
@@ -61,7 +64,8 @@ parameters:
 parts:
   - id: a
     statement: >
-      Maintain {{ pe_14_odp_01 }} levels within the facility where the system
-      resides at {{ pe_14_odp_03 }} ; and
+      Maintain {{ pe_14_odp_01 }} levels within the facility where
+      the system resides at {{ pe_14_odp_03 }} ; and
   - id: b
-    statement: "Monitor environmental control levels {{ pe_14_odp_04 }}."
+    statement: >-
+      Monitor environmental control levels {{ pe_14_odp_04 }}.

@@ -13,32 +13,42 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Configuration management policy; procedures addressing system configuration
-          change control; configuration management plan; system security plan; privacy
-          plan; other relevant documents or records
+          Configuration management policy; procedures addressing
+          system configuration change control; configuration
+          management plan; system security plan; privacy plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with configuration change control responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities; members of change control board or similar
+          Organizational personnel with configuration change control
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities; members
+          of change control board or similar
       - method: test
-        statement: Organizational processes for configuration change control
-    statement: "{{ cm_03_04_odp_01 }} are required to be members of the {{ cm_03_04_odp_03 }};"
+        statement: >-
+          Organizational processes for configuration change control
+    statement: >-
+      {{ cm_03_04_odp_01 }} are required to be members of the
+      {{ cm_03_04_odp_03 }};
   - id: "cm-03(04).cm-03(04)[02]"
     methods:
       - method: examine
         statement: >
-          Configuration management policy; procedures addressing system configuration
-          change control; configuration management plan; system security plan; privacy
-          plan; other relevant documents or records
+          Configuration management policy; procedures addressing
+          system configuration change control; configuration
+          management plan; system security plan; privacy plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with configuration change control responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities; members of change control board or similar
+          Organizational personnel with configuration change control
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities; members
+          of change control board or similar
       - method: test
-        statement: Organizational processes for configuration change control
-    statement: "{{ cm_03_04_odp_02 }} are required to be members of the {{ cm_03_04_odp_03 }}."
+        statement: >-
+          Organizational processes for configuration change control
+    statement: >-
+      {{ cm_03_04_odp_02 }} are required to be members of the
+      {{ cm_03_04_odp_03 }}.
 parameters:
   cm_03_04_odp_01:
     label: security representatives
@@ -48,4 +58,6 @@ parameters:
     label: configuration change control element
   cm_3_4_prm_1:
     label: organization-defined security and privacy representatives
-statement: "Require {{ cm_3_4_prm_1 }} to be members of the {{ cm_03_04_odp_03 }}."
+statement: >-
+  Require {{ cm_3_4_prm_1 }} to be members of the
+  {{ cm_03_04_odp_03 }}.

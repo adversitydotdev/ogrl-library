@@ -23,188 +23,227 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Configuration management policy; procedures addressing identification and
-          documentation of information location; configuration management plan; system
-          design documentation; system architecture documentation; PII inventory
-          documentation; data mapping documentation; audit records; list of users with
-          system and system component access; change control records; system component
-          inventory; system security plan; privacy plan; other relevant documents or
-          records
+          Configuration management policy; procedures addressing
+          identification and documentation of information location;
+          configuration management plan; system design
+          documentation; system architecture documentation; PII
+          inventory documentation; data mapping documentation; audit
+          records; list of users with system and system component
+          access; change control records; system component
+          inventory; system security plan; privacy plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with responsibilities for managing information
-          location and user access to information; organizational personnel with
-          responsibilities for operating, using, and/or maintaining the system;
-          organizational personnel with information security and privacy
-          responsibilities; system/network administrators; system developers
+          Organizational personnel with responsibilities for
+          managing information location and user access to
+          information; organizational personnel with
+          responsibilities for operating, using, and/or maintaining
+          the system; organizational personnel with information
+          security and privacy responsibilities; system/network
+          administrators; system developers
       - method: test
         statement: >
-          Organizational processes governing information location; mechanisms
-          enforcing policies and methods for governing information location
-    statement: "the location of {{ cm_12_odp }} is identified and documented;"
+          Organizational processes governing information location;
+          mechanisms enforcing policies and methods for governing
+          information location
+    statement: >-
+      the location of {{ cm_12_odp }} is identified and documented;
   - id: a-2
     methods:
       - method: examine
         statement: >
-          Configuration management policy; procedures addressing identification and
-          documentation of information location; configuration management plan; system
-          design documentation; system architecture documentation; PII inventory
-          documentation; data mapping documentation; audit records; list of users with
-          system and system component access; change control records; system component
-          inventory; system security plan; privacy plan; other relevant documents or
-          records
+          Configuration management policy; procedures addressing
+          identification and documentation of information location;
+          configuration management plan; system design
+          documentation; system architecture documentation; PII
+          inventory documentation; data mapping documentation; audit
+          records; list of users with system and system component
+          access; change control records; system component
+          inventory; system security plan; privacy plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with responsibilities for managing information
-          location and user access to information; organizational personnel with
-          responsibilities for operating, using, and/or maintaining the system;
-          organizational personnel with information security and privacy
-          responsibilities; system/network administrators; system developers
+          Organizational personnel with responsibilities for
+          managing information location and user access to
+          information; organizational personnel with
+          responsibilities for operating, using, and/or maintaining
+          the system; organizational personnel with information
+          security and privacy responsibilities; system/network
+          administrators; system developers
       - method: test
         statement: >
-          Organizational processes governing information location; mechanisms
-          enforcing policies and methods for governing information location
+          Organizational processes governing information location;
+          mechanisms enforcing policies and methods for governing
+          information location
     statement: >
-      the specific system components on which {{ cm_12_odp }} is processed are
-      identified and documented;
+      the specific system components on which {{ cm_12_odp }} is
+      processed are identified and documented;
   - id: a-3
     methods:
       - method: examine
         statement: >
-          Configuration management policy; procedures addressing identification and
-          documentation of information location; configuration management plan; system
-          design documentation; system architecture documentation; PII inventory
-          documentation; data mapping documentation; audit records; list of users with
-          system and system component access; change control records; system component
-          inventory; system security plan; privacy plan; other relevant documents or
-          records
+          Configuration management policy; procedures addressing
+          identification and documentation of information location;
+          configuration management plan; system design
+          documentation; system architecture documentation; PII
+          inventory documentation; data mapping documentation; audit
+          records; list of users with system and system component
+          access; change control records; system component
+          inventory; system security plan; privacy plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with responsibilities for managing information
-          location and user access to information; organizational personnel with
-          responsibilities for operating, using, and/or maintaining the system;
-          organizational personnel with information security and privacy
-          responsibilities; system/network administrators; system developers
+          Organizational personnel with responsibilities for
+          managing information location and user access to
+          information; organizational personnel with
+          responsibilities for operating, using, and/or maintaining
+          the system; organizational personnel with information
+          security and privacy responsibilities; system/network
+          administrators; system developers
       - method: test
         statement: >
-          Organizational processes governing information location; mechanisms
-          enforcing policies and methods for governing information location
+          Organizational processes governing information location;
+          mechanisms enforcing policies and methods for governing
+          information location
     statement: >
-      the specific system components on which {{ cm_12_odp }} is stored are
-      identified and documented;
+      the specific system components on which {{ cm_12_odp }} is
+      stored are identified and documented;
   - id: b-1
     methods:
       - method: examine
         statement: >
-          Configuration management policy; procedures addressing identification and
-          documentation of information location; configuration management plan; system
-          design documentation; system architecture documentation; PII inventory
-          documentation; data mapping documentation; audit records; list of users with
-          system and system component access; change control records; system component
-          inventory; system security plan; privacy plan; other relevant documents or
-          records
+          Configuration management policy; procedures addressing
+          identification and documentation of information location;
+          configuration management plan; system design
+          documentation; system architecture documentation; PII
+          inventory documentation; data mapping documentation; audit
+          records; list of users with system and system component
+          access; change control records; system component
+          inventory; system security plan; privacy plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with responsibilities for managing information
-          location and user access to information; organizational personnel with
-          responsibilities for operating, using, and/or maintaining the system;
-          organizational personnel with information security and privacy
-          responsibilities; system/network administrators; system developers
+          Organizational personnel with responsibilities for
+          managing information location and user access to
+          information; organizational personnel with
+          responsibilities for operating, using, and/or maintaining
+          the system; organizational personnel with information
+          security and privacy responsibilities; system/network
+          administrators; system developers
       - method: test
         statement: >
-          Organizational processes governing information location; mechanisms
-          enforcing policies and methods for governing information location
+          Organizational processes governing information location;
+          mechanisms enforcing policies and methods for governing
+          information location
     statement: >
-      the users who have access to the system and system components where
-      {{ cm_12_odp }} is processed are identified and documented;
+      the users who have access to the system and system components
+      where {{ cm_12_odp }} is processed are identified and
+      documented;
   - id: b-2
     methods:
       - method: examine
         statement: >
-          Configuration management policy; procedures addressing identification and
-          documentation of information location; configuration management plan; system
-          design documentation; system architecture documentation; PII inventory
-          documentation; data mapping documentation; audit records; list of users with
-          system and system component access; change control records; system component
-          inventory; system security plan; privacy plan; other relevant documents or
-          records
+          Configuration management policy; procedures addressing
+          identification and documentation of information location;
+          configuration management plan; system design
+          documentation; system architecture documentation; PII
+          inventory documentation; data mapping documentation; audit
+          records; list of users with system and system component
+          access; change control records; system component
+          inventory; system security plan; privacy plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with responsibilities for managing information
-          location and user access to information; organizational personnel with
-          responsibilities for operating, using, and/or maintaining the system;
-          organizational personnel with information security and privacy
-          responsibilities; system/network administrators; system developers
+          Organizational personnel with responsibilities for
+          managing information location and user access to
+          information; organizational personnel with
+          responsibilities for operating, using, and/or maintaining
+          the system; organizational personnel with information
+          security and privacy responsibilities; system/network
+          administrators; system developers
       - method: test
         statement: >
-          Organizational processes governing information location; mechanisms
-          enforcing policies and methods for governing information location
+          Organizational processes governing information location;
+          mechanisms enforcing policies and methods for governing
+          information location
     statement: >
-      the users who have access to the system and system components where
-      {{ cm_12_odp }} is stored are identified and documented;
+      the users who have access to the system and system components
+      where {{ cm_12_odp }} is stored are identified and documented;
   - id: c-1
     methods:
       - method: examine
         statement: >
-          Configuration management policy; procedures addressing identification and
-          documentation of information location; configuration management plan; system
-          design documentation; system architecture documentation; PII inventory
-          documentation; data mapping documentation; audit records; list of users with
-          system and system component access; change control records; system component
-          inventory; system security plan; privacy plan; other relevant documents or
-          records
+          Configuration management policy; procedures addressing
+          identification and documentation of information location;
+          configuration management plan; system design
+          documentation; system architecture documentation; PII
+          inventory documentation; data mapping documentation; audit
+          records; list of users with system and system component
+          access; change control records; system component
+          inventory; system security plan; privacy plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with responsibilities for managing information
-          location and user access to information; organizational personnel with
-          responsibilities for operating, using, and/or maintaining the system;
-          organizational personnel with information security and privacy
-          responsibilities; system/network administrators; system developers
+          Organizational personnel with responsibilities for
+          managing information location and user access to
+          information; organizational personnel with
+          responsibilities for operating, using, and/or maintaining
+          the system; organizational personnel with information
+          security and privacy responsibilities; system/network
+          administrators; system developers
       - method: test
         statement: >
-          Organizational processes governing information location; mechanisms
-          enforcing policies and methods for governing information location
+          Organizational processes governing information location;
+          mechanisms enforcing policies and methods for governing
+          information location
     statement: >
-      changes to the location (i.e., system or system components) where
-      {{ cm_12_odp }} is processed are documented;
+      changes to the location (i.e., system or system components)
+      where {{ cm_12_odp }} is processed are documented;
   - id: c-2
     methods:
       - method: examine
         statement: >
-          Configuration management policy; procedures addressing identification and
-          documentation of information location; configuration management plan; system
-          design documentation; system architecture documentation; PII inventory
-          documentation; data mapping documentation; audit records; list of users with
-          system and system component access; change control records; system component
-          inventory; system security plan; privacy plan; other relevant documents or
-          records
+          Configuration management policy; procedures addressing
+          identification and documentation of information location;
+          configuration management plan; system design
+          documentation; system architecture documentation; PII
+          inventory documentation; data mapping documentation; audit
+          records; list of users with system and system component
+          access; change control records; system component
+          inventory; system security plan; privacy plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with responsibilities for managing information
-          location and user access to information; organizational personnel with
-          responsibilities for operating, using, and/or maintaining the system;
-          organizational personnel with information security and privacy
-          responsibilities; system/network administrators; system developers
+          Organizational personnel with responsibilities for
+          managing information location and user access to
+          information; organizational personnel with
+          responsibilities for operating, using, and/or maintaining
+          the system; organizational personnel with information
+          security and privacy responsibilities; system/network
+          administrators; system developers
       - method: test
         statement: >
-          Organizational processes governing information location; mechanisms
-          enforcing policies and methods for governing information location
+          Organizational processes governing information location;
+          mechanisms enforcing policies and methods for governing
+          information location
     statement: >
-      changes to the location (i.e., system or system components) where
-      {{ cm_12_odp }} is stored are documented.
+      changes to the location (i.e., system or system components)
+      where {{ cm_12_odp }} is stored are documented.
 parameters:
   cm_12_odp:
     label: information
 parts:
   - id: a
     statement: >
-      Identify and document the location of {{ cm_12_odp }} and the specific
-      system components on which the information is processed and stored;
+      Identify and document the location of {{ cm_12_odp }} and the
+      specific system components on which the information is
+      processed and stored;
   - id: b
     statement: >
-      Identify and document the users who have access to the system and system
-      components where the information is processed and stored; and
+      Identify and document the users who have access to the system
+      and system components where the information is processed and
+      stored; and
   - id: c
     statement: >
-      Document changes to the location (i.e., system or system components) where
-      the information is processed and stored.
+      Document changes to the location (i.e., system or system
+      components) where the information is processed and stored.

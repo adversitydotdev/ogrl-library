@@ -20,86 +20,105 @@ objectives:
     methods:
       - method: examine
         statement: >
-          incident response policy and procedures; procedures for incident response
-          training; incident response training curriculum; incident response training
-          materials; incident response plan; incident response training records;
-          system security plan; other relevant documents or records
+          incident response policy and procedures; procedures for
+          incident response training; incident response training
+          curriculum; incident response training materials; incident
+          response plan; incident response training records; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          personnel with incident response training and operational responsibilities;
-          personnel with information security responsibilities
+          personnel with incident response training and operational
+          responsibilities; personnel with information security
+          responsibilities
     statement: >
-      incident response training for system users consistent with assigned roles
-      and responsibilities is provided within {{ a_03_06_04_odp_01 }} of assuming
-      an incident response role or responsibility or acquiring system access.
+      incident response training for system users consistent with
+      assigned roles and responsibilities is provided within
+      {{ a_03_06_04_odp_01 }} of assuming an incident response role
+      or responsibility or acquiring system access.
   - id: a.02
     methods:
       - method: examine
         statement: >
-          incident response policy and procedures; procedures for incident response
-          training; incident response training curriculum; incident response training
-          materials; incident response plan; incident response training records;
-          system security plan; other relevant documents or records
+          incident response policy and procedures; procedures for
+          incident response training; incident response training
+          curriculum; incident response training materials; incident
+          response plan; incident response training records; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          personnel with incident response training and operational responsibilities;
-          personnel with information security responsibilities
+          personnel with incident response training and operational
+          responsibilities; personnel with information security
+          responsibilities
     statement: >
-      incident response training for system users consistent with assigned roles
-      and responsibilities is provided when required by system changes.
+      incident response training for system users consistent with
+      assigned roles and responsibilities is provided when required
+      by system changes.
   - id: a.03
     methods:
       - method: examine
         statement: >
-          incident response policy and procedures; procedures for incident response
-          training; incident response training curriculum; incident response training
-          materials; incident response plan; incident response training records;
-          system security plan; other relevant documents or records
+          incident response policy and procedures; procedures for
+          incident response training; incident response training
+          curriculum; incident response training materials; incident
+          response plan; incident response training records; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          personnel with incident response training and operational responsibilities;
-          personnel with information security responsibilities
+          personnel with incident response training and operational
+          responsibilities; personnel with information security
+          responsibilities
     statement: >
-      incident response training for system users consistent with assigned roles
-      and responsibilities is provided {{ a_03_06_04_odp_02 }} thereafter.
+      incident response training for system users consistent with
+      assigned roles and responsibilities is provided
+      {{ a_03_06_04_odp_02 }} thereafter.
   - id: b.04
     methods:
       - method: examine
         statement: >
-          incident response policy and procedures; procedures for incident response
-          training; incident response training curriculum; incident response training
-          materials; incident response plan; incident response training records;
-          system security plan; other relevant documents or records
+          incident response policy and procedures; procedures for
+          incident response training; incident response training
+          curriculum; incident response training materials; incident
+          response plan; incident response training records; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          personnel with incident response training and operational responsibilities;
-          personnel with information security responsibilities
-    statement: "incident response training content is updated following {{ a_03_06_04_odp_04 }}."
+          personnel with incident response training and operational
+          responsibilities; personnel with information security
+          responsibilities
+    statement: >-
+      incident response training content is updated following
+      {{ a_03_06_04_odp_04 }}.
   - id: b.02
     methods:
       - method: examine
         statement: >
-          incident response policy and procedures; procedures for incident response
-          training; incident response training curriculum; incident response training
-          materials; incident response plan; incident response training records;
-          system security plan; other relevant documents or records
+          incident response policy and procedures; procedures for
+          incident response training; incident response training
+          curriculum; incident response training materials; incident
+          response plan; incident response training records; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          personnel with incident response training and operational responsibilities;
-          personnel with information security responsibilities
-    statement: "incident response training content is updated {{ a_03_06_04_odp_03 }}."
+          personnel with incident response training and operational
+          responsibilities; personnel with information security
+          responsibilities
+    statement: >-
+      incident response training content is updated
+      {{ a_03_06_04_odp_03 }}.
   - id: b.03
     methods:
       - method: examine
         statement: >
-          incident response policy and procedures; procedures for incident response
-          training; incident response training curriculum; incident response training
-          materials; incident response plan; incident response training records;
-          system security plan; other relevant documents or records
+          incident response policy and procedures; procedures for
+          incident response training; incident response training
+          curriculum; incident response training materials; incident
+          response plan; incident response training records; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          personnel with incident response training and operational responsibilities;
-          personnel with information security responsibilities
+          personnel with incident response training and operational
+          responsibilities; personnel with information security
+          responsibilities
     statement: >
       incident response training content is reviewed following
       {{ a_03_06_04_odp_04 }}.
@@ -107,15 +126,19 @@ objectives:
     methods:
       - method: examine
         statement: >
-          incident response policy and procedures; procedures for incident response
-          training; incident response training curriculum; incident response training
-          materials; incident response plan; incident response training records;
-          system security plan; other relevant documents or records
+          incident response policy and procedures; procedures for
+          incident response training; incident response training
+          curriculum; incident response training materials; incident
+          response plan; incident response training records; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          personnel with incident response training and operational responsibilities;
-          personnel with information security responsibilities
-    statement: "incident response training content is reviewed {{ a_03_06_04_odp_03 }}."
+          personnel with incident response training and operational
+          responsibilities; personnel with information security
+          responsibilities
+    statement: >-
+      incident response training content is reviewed
+      {{ a_03_06_04_odp_03 }}.
 parameters:
   a_03_06_04_odp_01:
     label: time period
@@ -128,17 +151,17 @@ parameters:
 parts:
   - id: a
     statement: >
-      Provide incident response training to system users consistent with assigned
-      roles and responsibilities:
+      Provide incident response training to system users consistent
+      with assigned roles and responsibilities:
   - id: a.01
     statement: >
-      Within {{ a_03_06_04_odp_01 }} of assuming an incident response role or
-      responsibility or acquiring system access,
+      Within {{ a_03_06_04_odp_01 }} of assuming an incident
+      response role or responsibility or acquiring system access,
   - id: a.02
     statement: "When required by system changes, and"
   - id: a.03
     statement: "{{ a_03_06_04_odp_02 }} thereafter."
   - id: b
     statement: >
-      Review and update incident response training content {{ a_03_06_04_odp_03 }}
-      and following {{ a_03_06_04_odp_04 }}.
+      Review and update incident response training content
+      {{ a_03_06_04_odp_03 }} and following {{ a_03_06_04_odp_04 }}.

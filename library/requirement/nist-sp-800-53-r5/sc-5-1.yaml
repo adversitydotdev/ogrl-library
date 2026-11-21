@@ -13,26 +13,30 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; procedures addressing
-          denial-of-service protection; system design documentation; list of
-          denial-of-service attacks launched by individuals against systems; system
-          configuration settings and associated documentation; system audit records;
-          system security plan; other relevant documents or records
+          System and communications protection policy; procedures
+          addressing denial-of-service protection; system design
+          documentation; list of denial-of-service attacks launched
+          by individuals against systems; system configuration
+          settings and associated documentation; system audit
+          records; system security plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; organizational personnel with incident response
-          responsibilities; system developer
+          System/network administrators; organizational personnel
+          with information security responsibilities; organizational
+          personnel with incident response responsibilities; system
+          developer
       - method: test
         statement: >
-          Mechanisms restricting the ability to launch denial-of-service attacks
-          against other systems
+          Mechanisms restricting the ability to launch
+          denial-of-service attacks against other systems
     statement: >
-      the ability of individuals to launch {{ sc_05_01_odp }} against other
-      systems is restricted.
+      the ability of individuals to launch {{ sc_05_01_odp }}
+      against other systems is restricted.
 parameters:
   sc_05_01_odp:
     label: denial-of-service attacks
 statement: >
   Restrict the ability of individuals to launch the following
-  denial-of-service attacks against other systems: {{ sc_05_01_odp }}.
+  denial-of-service attacks against other systems:
+  {{ sc_05_01_odp }}.

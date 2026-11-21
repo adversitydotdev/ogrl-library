@@ -13,86 +13,105 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Configuration management policy; procedures addressing least functionality
-          in the system; configuration management plan; system security plan; system
-          design documentation; system configuration settings and associated
-          documentation; list or record of binary or machine-executable code; system
-          component inventory; common secure configuration checklists; system audit
-          records; system security plan; other relevant documents or records
+          Configuration management policy; procedures addressing
+          least functionality in the system; configuration
+          management plan; system security plan; system design
+          documentation; system configuration settings and
+          associated documentation; list or record of binary or
+          machine-executable code; system component inventory;
+          common secure configuration checklists; system audit
+          records; system security plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          Organizational personnel with responsibilities for determining mission and
-          operational requirements; authorizing official for the system;
-          organizational personnel with information security responsibilities;
-          organizational personnel with software management responsibilities;
-          system/network administrators
+          Organizational personnel with responsibilities for
+          determining mission and operational requirements;
+          authorizing official for the system; organizational
+          personnel with information security responsibilities;
+          organizational personnel with software management
+          responsibilities; system/network administrators
       - method: test
         statement: >
-          Organizational process for approving execution of binary or
-          machine-executable code; mechanisms supporting and/or implementing the
-          prohibition of binary or machine-executable code
+          Organizational process for approving execution of binary
+          or machine-executable code; mechanisms supporting and/or
+          implementing the prohibition of binary or
+          machine-executable code
     statement: >
-      the use of binary or machine-executable code is prohibited when it
-      originates from sources with limited or no warranty or without the provision
-      of source code;
+      the use of binary or machine-executable code is prohibited
+      when it originates from sources with limited or no warranty or
+      without the provision of source code;
   - id: b-1
     methods:
       - method: examine
         statement: >
-          Configuration management policy; procedures addressing least functionality
-          in the system; configuration management plan; system security plan; system
-          design documentation; system configuration settings and associated
-          documentation; list or record of binary or machine-executable code; system
-          component inventory; common secure configuration checklists; system audit
-          records; system security plan; other relevant documents or records
+          Configuration management policy; procedures addressing
+          least functionality in the system; configuration
+          management plan; system security plan; system design
+          documentation; system configuration settings and
+          associated documentation; list or record of binary or
+          machine-executable code; system component inventory;
+          common secure configuration checklists; system audit
+          records; system security plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          Organizational personnel with responsibilities for determining mission and
-          operational requirements; authorizing official for the system;
-          organizational personnel with information security responsibilities;
-          organizational personnel with software management responsibilities;
-          system/network administrators
+          Organizational personnel with responsibilities for
+          determining mission and operational requirements;
+          authorizing official for the system; organizational
+          personnel with information security responsibilities;
+          organizational personnel with software management
+          responsibilities; system/network administrators
       - method: test
         statement: >
-          Organizational process for approving execution of binary or
-          machine-executable code; mechanisms supporting and/or implementing the
-          prohibition of binary or machine-executable code
+          Organizational process for approving execution of binary
+          or machine-executable code; mechanisms supporting and/or
+          implementing the prohibition of binary or
+          machine-executable code
     statement: >
-      exceptions to the prohibition of binary or machine-executable code from
-      sources with limited or no warranty or without the provision of source code
-      are allowed only for compelling mission or operational requirements;
+      exceptions to the prohibition of binary or machine-executable
+      code from sources with limited or no warranty or without the
+      provision of source code are allowed only for compelling
+      mission or operational requirements;
   - id: b-2
     methods:
       - method: examine
         statement: >
-          Configuration management policy; procedures addressing least functionality
-          in the system; configuration management plan; system security plan; system
-          design documentation; system configuration settings and associated
-          documentation; list or record of binary or machine-executable code; system
-          component inventory; common secure configuration checklists; system audit
-          records; system security plan; other relevant documents or records
+          Configuration management policy; procedures addressing
+          least functionality in the system; configuration
+          management plan; system security plan; system design
+          documentation; system configuration settings and
+          associated documentation; list or record of binary or
+          machine-executable code; system component inventory;
+          common secure configuration checklists; system audit
+          records; system security plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          Organizational personnel with responsibilities for determining mission and
-          operational requirements; authorizing official for the system;
-          organizational personnel with information security responsibilities;
-          organizational personnel with software management responsibilities;
-          system/network administrators
+          Organizational personnel with responsibilities for
+          determining mission and operational requirements;
+          authorizing official for the system; organizational
+          personnel with information security responsibilities;
+          organizational personnel with software management
+          responsibilities; system/network administrators
       - method: test
         statement: >
-          Organizational process for approving execution of binary or
-          machine-executable code; mechanisms supporting and/or implementing the
-          prohibition of binary or machine-executable code
+          Organizational process for approving execution of binary
+          or machine-executable code; mechanisms supporting and/or
+          implementing the prohibition of binary or
+          machine-executable code
     statement: >
-      exceptions to the prohibition of binary or machine-executable code from
-      sources with limited or no warranty or without the provision of source code
-      are allowed only with the approval of the authorizing official.
+      exceptions to the prohibition of binary or machine-executable
+      code from sources with limited or no warranty or without the
+      provision of source code are allowed only with the approval of
+      the authorizing official.
 parts:
   - id: a
     statement: >
-      Prohibit the use of binary or machine-executable code from sources with
-      limited or no warranty or without the provision of source code; and
+      Prohibit the use of binary or machine-executable code from
+      sources with limited or no warranty or without the provision
+      of source code; and
   - id: b
     statement: >
-      Allow exceptions only for compelling mission or operational requirements and
-      with the approval of the authorizing official.
+      Allow exceptions only for compelling mission or operational
+      requirements and with the approval of the authorizing
+      official.

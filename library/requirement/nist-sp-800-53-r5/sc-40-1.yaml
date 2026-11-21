@@ -13,29 +13,33 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; access control policy and
-          procedures; procedures addressing wireless link protection; system design
-          documentation; wireless network diagrams; system configuration settings and
-          associated documentation; system architecture; system communications
-          hardware and software; security categorization results; system audit
-          records; system security plan; other relevant documents or records
+          System and communications protection policy; access
+          control policy and procedures; procedures addressing
+          wireless link protection; system design documentation;
+          wireless network diagrams; system configuration settings
+          and associated documentation; system architecture; system
+          communications hardware and software; security
+          categorization results; system audit records; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; system developer; organizational personnel
-          installing, configuring, and/or maintaining the system; organizational
-          personnel authorizing, installing, configuring, and/or maintaining internal
-          and external wireless links
+          System/network administrators; organizational personnel
+          with information security responsibilities; system
+          developer; organizational personnel installing,
+          configuring, and/or maintaining the system; organizational
+          personnel authorizing, installing, configuring, and/or
+          maintaining internal and external wireless links
       - method: test
         statement: >
-          Cryptographic mechanisms enforcing protections against effects of
-          intentional electromagnetic interference
+          Cryptographic mechanisms enforcing protections against
+          effects of intentional electromagnetic interference
     statement: >
-      cryptographic mechanisms that achieve {{ sc_40_01_odp }} against the effects
-      of intentional electromagnetic interference are implemented.
+      cryptographic mechanisms that achieve {{ sc_40_01_odp }}
+      against the effects of intentional electromagnetic
+      interference are implemented.
 parameters:
   sc_40_01_odp:
     label: level of protection
 statement: >
-  Implement cryptographic mechanisms that achieve {{ sc_40_01_odp }} against
-  the effects of intentional electromagnetic interference.
+  Implement cryptographic mechanisms that achieve {{ sc_40_01_odp }}
+  against the effects of intentional electromagnetic interference.

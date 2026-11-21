@@ -13,24 +13,28 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Risk assessment policy; procedures addressing vulnerability scanning; risk
-          assessment; vulnerability scanning tools and techniques documentation;
-          vulnerability scanning results; vulnerability management records; audit
-          records; public reporting channel; system security plan; other relevant
-          documents or records
+          Risk assessment policy; procedures addressing
+          vulnerability scanning; risk assessment; vulnerability
+          scanning tools and techniques documentation; vulnerability
+          scanning results; vulnerability management records; audit
+          records; public reporting channel; system security plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with vulnerability scanning responsibilities;
-          organizational personnel with vulnerability scan analysis responsibilities;
+          Organizational personnel with vulnerability scanning
+          responsibilities; organizational personnel with
+          vulnerability scan analysis responsibilities;
           organizational personnel with security responsibilities
       - method: test
         statement: >
-          Organizational processes for vulnerability scanning; mechanisms/tools
-          supporting and/or implementing vulnerability scanning; mechanisms
-          implementing the public reporting of vulnerabilities
+          Organizational processes for vulnerability scanning;
+          mechanisms/tools supporting and/or implementing
+          vulnerability scanning; mechanisms implementing the public
+          reporting of vulnerabilities
     statement: >
-      a public reporting channel is established for receiving reports of
-      vulnerabilities in organizational systems and system components.
+      a public reporting channel is established for receiving
+      reports of vulnerabilities in organizational systems and
+      system components.
 statement: >
   Establish a public reporting channel for receiving reports of
   vulnerabilities in organizational systems and system components.

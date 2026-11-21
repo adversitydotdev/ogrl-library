@@ -8,5 +8,7 @@ rationale: functional
 relationship: equivalent-to
 review_status: draft
 source_ref: control--ogrl-ps-02
-summary: "Securing unissued keys, badges, and combinations satisfies PE-3(e)."
+summary: >-
+  Securing unissued keys, badges, and combinations satisfies
+  PE-3(e).
 target_ref: "requirement--nist-sp-800-53-r5-pe-3#e"

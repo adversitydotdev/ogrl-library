@@ -13,23 +13,27 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; procedures addressing spam protection; spam protection
-          mechanisms; system design documentation; system configuration settings and
-          associated documentation; system audit records; system security plan; other
-          relevant documents or records
+          System and information integrity policy; system and
+          information integrity procedures; procedures addressing
+          spam protection; spam protection mechanisms; system design
+          documentation; system configuration settings and
+          associated documentation; system audit records; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel responsible for spam protection; organizational
-          personnel with information security responsibilities; system/network
-          administrators; system developer
+          Organizational personnel responsible for spam protection;
+          organizational personnel with information security
+          responsibilities; system/network administrators; system
+          developer
       - method: test
         statement: >
-          Organizational processes for spam protection; mechanisms supporting and/or
-          implementing spam protection mechanisms with a learning capability
+          Organizational processes for spam protection; mechanisms
+          supporting and/or implementing spam protection mechanisms
+          with a learning capability
     statement: >
-      spam protection mechanisms with a learning capability are implemented to
-      more effectively identify legitimate communications traffic.
+      spam protection mechanisms with a learning capability are
+      implemented to more effectively identify legitimate
+      communications traffic.
 statement: >
-  Implement spam protection mechanisms with a learning capability to more
-  effectively identify legitimate communications traffic.
+  Implement spam protection mechanisms with a learning capability to
+  more effectively identify legitimate communications traffic.

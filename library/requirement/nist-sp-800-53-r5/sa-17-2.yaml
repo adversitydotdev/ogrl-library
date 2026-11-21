@@ -13,96 +13,112 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and services acquisition policy; enterprise architecture policy;
-          procedures addressing developer security architecture and design
-          specifications for the system; solicitation documentation; acquisition
-          documentation; service level agreements; acquisition contracts for the
-          system, system component, or system service; list of security-relevant
-          hardware, software, and firmware components; documented rationale of
-          completeness regarding definitions provided for security-relevant hardware,
-          software, and firmware; system security plan; other relevant documents or
-          records
+          System and services acquisition policy; enterprise
+          architecture policy; procedures addressing developer
+          security architecture and design specifications for the
+          system; solicitation documentation; acquisition
+          documentation; service level agreements; acquisition
+          contracts for the system, system component, or system
+          service; list of security-relevant hardware, software, and
+          firmware components; documented rationale of completeness
+          regarding definitions provided for security-relevant
+          hardware, software, and firmware; system security plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with system and service acquisition
-          responsibilities; organizational personnel with information security
-          responsibilities; system developers; organizational personnel with
-          information security architecture and design responsibilities
+          Organizational personnel with system and service
+          acquisition responsibilities; organizational personnel
+          with information security responsibilities; system
+          developers; organizational personnel with information
+          security architecture and design responsibilities
     statement: >
-      the developer of the system, system component, or system service is required
-      to define security-relevant hardware;
+      the developer of the system, system component, or system
+      service is required to define security-relevant hardware;
   - id: a-2
     methods:
       - method: examine
         statement: >
-          System and services acquisition policy; enterprise architecture policy;
-          procedures addressing developer security architecture and design
-          specifications for the system; solicitation documentation; acquisition
-          documentation; service level agreements; acquisition contracts for the
-          system, system component, or system service; list of security-relevant
-          hardware, software, and firmware components; documented rationale of
-          completeness regarding definitions provided for security-relevant hardware,
-          software, and firmware; system security plan; other relevant documents or
-          records
+          System and services acquisition policy; enterprise
+          architecture policy; procedures addressing developer
+          security architecture and design specifications for the
+          system; solicitation documentation; acquisition
+          documentation; service level agreements; acquisition
+          contracts for the system, system component, or system
+          service; list of security-relevant hardware, software, and
+          firmware components; documented rationale of completeness
+          regarding definitions provided for security-relevant
+          hardware, software, and firmware; system security plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with system and service acquisition
-          responsibilities; organizational personnel with information security
-          responsibilities; system developers; organizational personnel with
-          information security architecture and design responsibilities
+          Organizational personnel with system and service
+          acquisition responsibilities; organizational personnel
+          with information security responsibilities; system
+          developers; organizational personnel with information
+          security architecture and design responsibilities
     statement: >
-      the developer of the system, system component, or system service is required
-      to define security-relevant software;
+      the developer of the system, system component, or system
+      service is required to define security-relevant software;
   - id: a-3
     methods:
       - method: examine
         statement: >
-          System and services acquisition policy; enterprise architecture policy;
-          procedures addressing developer security architecture and design
-          specifications for the system; solicitation documentation; acquisition
-          documentation; service level agreements; acquisition contracts for the
-          system, system component, or system service; list of security-relevant
-          hardware, software, and firmware components; documented rationale of
-          completeness regarding definitions provided for security-relevant hardware,
-          software, and firmware; system security plan; other relevant documents or
-          records
+          System and services acquisition policy; enterprise
+          architecture policy; procedures addressing developer
+          security architecture and design specifications for the
+          system; solicitation documentation; acquisition
+          documentation; service level agreements; acquisition
+          contracts for the system, system component, or system
+          service; list of security-relevant hardware, software, and
+          firmware components; documented rationale of completeness
+          regarding definitions provided for security-relevant
+          hardware, software, and firmware; system security plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with system and service acquisition
-          responsibilities; organizational personnel with information security
-          responsibilities; system developers; organizational personnel with
-          information security architecture and design responsibilities
+          Organizational personnel with system and service
+          acquisition responsibilities; organizational personnel
+          with information security responsibilities; system
+          developers; organizational personnel with information
+          security architecture and design responsibilities
     statement: >
-      the developer of the system, system component, or system service is required
-      to define security-relevant firmware;
+      the developer of the system, system component, or system
+      service is required to define security-relevant firmware;
   - id: b
     methods:
       - method: examine
         statement: >
-          System and services acquisition policy; enterprise architecture policy;
-          procedures addressing developer security architecture and design
-          specifications for the system; solicitation documentation; acquisition
-          documentation; service level agreements; acquisition contracts for the
-          system, system component, or system service; list of security-relevant
-          hardware, software, and firmware components; documented rationale of
-          completeness regarding definitions provided for security-relevant hardware,
-          software, and firmware; system security plan; other relevant documents or
-          records
+          System and services acquisition policy; enterprise
+          architecture policy; procedures addressing developer
+          security architecture and design specifications for the
+          system; solicitation documentation; acquisition
+          documentation; service level agreements; acquisition
+          contracts for the system, system component, or system
+          service; list of security-relevant hardware, software, and
+          firmware components; documented rationale of completeness
+          regarding definitions provided for security-relevant
+          hardware, software, and firmware; system security plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with system and service acquisition
-          responsibilities; organizational personnel with information security
-          responsibilities; system developers; organizational personnel with
-          information security architecture and design responsibilities
+          Organizational personnel with system and service
+          acquisition responsibilities; organizational personnel
+          with information security responsibilities; system
+          developers; organizational personnel with information
+          security architecture and design responsibilities
     statement: >
-      the developer of the system, system component, or system service is required
-      to provide a rationale that the definition for security-relevant hardware,
-      software, and firmware is complete.
+      the developer of the system, system component, or system
+      service is required to provide a rationale that the definition
+      for security-relevant hardware, software, and firmware is
+      complete.
 parts:
   - id: a
-    statement: "Define security-relevant hardware, software, and firmware; and"
+    statement: >-
+      Define security-relevant hardware, software, and firmware; and
   - id: b
     statement: >
-      Provide a rationale that the definition for security-relevant hardware,
-      software, and firmware is complete.
-statement: "Require the developer of the system, system component, or system service to:"
+      Provide a rationale that the definition for security-relevant
+      hardware, software, and firmware is complete.
+statement: >-
+  Require the developer of the system, system component, or system
+  service to:

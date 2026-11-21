@@ -17,75 +17,93 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Maintenance policy; procedures addressing system maintenance tools; system
-          maintenance tools and associated documentation; maintenance records; system
-          security plan; other relevant documents or records
+          Maintenance policy; procedures addressing system
+          maintenance tools; system maintenance tools and associated
+          documentation; maintenance records; system security plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with system maintenance responsibilities;
-          organizational personnel with information security responsibilities
+          Organizational personnel with system maintenance
+          responsibilities; organizational personnel with
+          information security responsibilities
       - method: test
         statement: >
-          Organizational processes for approving, controlling, and monitoring
-          maintenance tools; mechanisms supporting and/or implementing the approval,
-          control, and/or monitoring of maintenance tools
+          Organizational processes for approving, controlling, and
+          monitoring maintenance tools; mechanisms supporting and/or
+          implementing the approval, control, and/or monitoring of
+          maintenance tools
     statement: the use of system maintenance tools is approved;
   - id: a-2
     methods:
       - method: examine
         statement: >
-          Maintenance policy; procedures addressing system maintenance tools; system
-          maintenance tools and associated documentation; maintenance records; system
-          security plan; other relevant documents or records
+          Maintenance policy; procedures addressing system
+          maintenance tools; system maintenance tools and associated
+          documentation; maintenance records; system security plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with system maintenance responsibilities;
-          organizational personnel with information security responsibilities
+          Organizational personnel with system maintenance
+          responsibilities; organizational personnel with
+          information security responsibilities
       - method: test
         statement: >
-          Organizational processes for approving, controlling, and monitoring
-          maintenance tools; mechanisms supporting and/or implementing the approval,
-          control, and/or monitoring of maintenance tools
+          Organizational processes for approving, controlling, and
+          monitoring maintenance tools; mechanisms supporting and/or
+          implementing the approval, control, and/or monitoring of
+          maintenance tools
     statement: the use of system maintenance tools is controlled;
   - id: a-3
     methods:
       - method: examine
         statement: >
-          Maintenance policy; procedures addressing system maintenance tools; system
-          maintenance tools and associated documentation; maintenance records; system
-          security plan; other relevant documents or records
+          Maintenance policy; procedures addressing system
+          maintenance tools; system maintenance tools and associated
+          documentation; maintenance records; system security plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with system maintenance responsibilities;
-          organizational personnel with information security responsibilities
+          Organizational personnel with system maintenance
+          responsibilities; organizational personnel with
+          information security responsibilities
       - method: test
         statement: >
-          Organizational processes for approving, controlling, and monitoring
-          maintenance tools; mechanisms supporting and/or implementing the approval,
-          control, and/or monitoring of maintenance tools
+          Organizational processes for approving, controlling, and
+          monitoring maintenance tools; mechanisms supporting and/or
+          implementing the approval, control, and/or monitoring of
+          maintenance tools
     statement: the use of system maintenance tools is monitored;
   - id: b
     methods:
       - method: examine
         statement: >
-          Maintenance policy; procedures addressing system maintenance tools; system
-          maintenance tools and associated documentation; maintenance records; system
-          security plan; other relevant documents or records
+          Maintenance policy; procedures addressing system
+          maintenance tools; system maintenance tools and associated
+          documentation; maintenance records; system security plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with system maintenance responsibilities;
-          organizational personnel with information security responsibilities
+          Organizational personnel with system maintenance
+          responsibilities; organizational personnel with
+          information security responsibilities
       - method: test
         statement: >
-          Organizational processes for approving, controlling, and monitoring
-          maintenance tools; mechanisms supporting and/or implementing the approval,
-          control, and/or monitoring of maintenance tools
-    statement: "previously approved system maintenance tools are reviewed {{ ma_03_odp }}."
+          Organizational processes for approving, controlling, and
+          monitoring maintenance tools; mechanisms supporting and/or
+          implementing the approval, control, and/or monitoring of
+          maintenance tools
+    statement: >-
+      previously approved system maintenance tools are reviewed
+      {{ ma_03_odp }}.
 parameters:
   ma_03_odp:
     label: frequency
 parts:
   - id: a
-    statement: "Approve, control, and monitor the use of system maintenance tools; and"
+    statement: >-
+      Approve, control, and monitor the use of system maintenance
+      tools; and
   - id: b
-    statement: "Review previously approved system maintenance tools {{ ma_03_odp }}."
+    statement: >-
+      Review previously approved system maintenance tools
+      {{ ma_03_odp }}.

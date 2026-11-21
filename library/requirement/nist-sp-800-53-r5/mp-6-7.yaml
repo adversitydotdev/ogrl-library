@@ -13,23 +13,30 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System media protection policy; procedures addressing media sanitization and
-          disposal; dual authorization policy and procedures; list of system media
-          requiring dual authorization for sanitization; authorization records; media
-          sanitization records; audit records; system security plan; other relevant
-          documents or records
+          System media protection policy; procedures addressing
+          media sanitization and disposal; dual authorization policy
+          and procedures; list of system media requiring dual
+          authorization for sanitization; authorization records;
+          media sanitization records; audit records; system security
+          plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with system media sanitization responsibilities;
-          organizational personnel with information security responsibilities;
-          system/network administrators
+          Organizational personnel with system media sanitization
+          responsibilities; organizational personnel with
+          information security responsibilities; system/network
+          administrators
       - method: test
         statement: >
-          Organizational processes requiring dual authorization for media
-          sanitization; mechanisms supporting and/or implementing media sanitization;
-          mechanisms supporting and/or implementing dual authorization
-    statement: "dual authorization for sanitization of {{ mp_06_07_odp }} is enforced."
+          Organizational processes requiring dual authorization for
+          media sanitization; mechanisms supporting and/or
+          implementing media sanitization; mechanisms supporting
+          and/or implementing dual authorization
+    statement: >-
+      dual authorization for sanitization of {{ mp_06_07_odp }} is
+      enforced.
 parameters:
   mp_06_07_odp:
     label: system media
-statement: "Enforce dual authorization for the sanitization of {{ mp_06_07_odp }}."
+statement: >-
+  Enforce dual authorization for the sanitization of
+  {{ mp_06_07_odp }}.

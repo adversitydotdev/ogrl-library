@@ -13,29 +13,32 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Contingency planning policy; procedures addressing system recovery and
-          reconstitution; contingency plan; system design documentation; system
-          configuration settings and associated documentation; contingency plan test
-          documentation; contingency plan test results; evidence of system recovery
-          and reconstitution operations; system security plan; other relevant
-          documents or records
+          Contingency planning policy; procedures addressing system
+          recovery and reconstitution; contingency plan; system
+          design documentation; system configuration settings and
+          associated documentation; contingency plan test
+          documentation; contingency plan test results; evidence of
+          system recovery and reconstitution operations; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with system recovery and reconstitution
-          responsibilities; organizational personnel with information security
-          responsibilities
+          Organizational personnel with system recovery and
+          reconstitution responsibilities; organizational personnel
+          with information security responsibilities
       - method: test
         statement: >
-          Mechanisms supporting and/or implementing the recovery/reconstitution of
-          system information
+          Mechanisms supporting and/or implementing the
+          recovery/reconstitution of system information
     statement: >
-      the capability to restore system components within {{ cp_10_04_odp }} from
-      configuration-controlled and integrity-protected information representing a
-      known, operational state for the components is provided.
+      the capability to restore system components within
+      {{ cp_10_04_odp }} from configuration-controlled and
+      integrity-protected information representing a known,
+      operational state for the components is provided.
 parameters:
   cp_10_04_odp:
     label: restoration time periods
 statement: >
   Provide the capability to restore system components within
-  {{ cp_10_04_odp }} from configuration-controlled and integrity-protected
-  information representing a known, operational state for the components.
+  {{ cp_10_04_odp }} from configuration-controlled and
+  integrity-protected information representing a known, operational
+  state for the components.

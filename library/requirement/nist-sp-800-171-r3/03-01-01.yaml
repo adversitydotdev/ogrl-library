@@ -53,600 +53,721 @@ objectives:
     methods:
       - method: examine
         statement: >
-          access control policy and procedures; personnel termination or transfer
-          policies and procedures; procedures for account management; list of active
-          system accounts and the name of the individual associated with each account;
-          system design documentation; list of conditions for group and role
-          membership; system configuration settings; notifications of recent
-          transfers, separations, or terminations of employees; list of recently
-          disabled system accounts and the name of the individual associated with each
-          account; list of user activities that pose significant organizational risks;
-          access authorization records; account management compliance reviews; system
-          monitoring and audit records; system security plan; system-generated list of
-          accounts removed; system-generated list of emergency accounts disabled;
-          system-generated list of disabled accounts; other relevant documents and
-          records
+          access control policy and procedures; personnel
+          termination or transfer policies and procedures;
+          procedures for account management; list of active system
+          accounts and the name of the individual associated with
+          each account; system design documentation; list of
+          conditions for group and role membership; system
+          configuration settings; notifications of recent transfers,
+          separations, or terminations of employees; list of
+          recently disabled system accounts and the name of the
+          individual associated with each account; list of user
+          activities that pose significant organizational risks;
+          access authorization records; account management
+          compliance reviews; system monitoring and audit records;
+          system security plan; system-generated list of accounts
+          removed; system-generated list of emergency accounts
+          disabled; system-generated list of disabled accounts;
+          other relevant documents and records
       - method: interview
         statement: >
-          personnel with account management responsibilities; system administrators;
-          personnel with information security responsibilities; system developers
+          personnel with account management responsibilities; system
+          administrators; personnel with information security
+          responsibilities; system developers
       - method: test
         statement: >
-          processes for account management on the system; mechanisms for implementing
-          account management
+          processes for account management on the system; mechanisms
+          for implementing account management
     statement: >
-      system accounts are created in accordance with organizational policy,
-      procedures, prerequisites, and criteria.
+      system accounts are created in accordance with organizational
+      policy, procedures, prerequisites, and criteria.
   - id: b.02
     methods:
       - method: examine
         statement: >
-          access control policy and procedures; personnel termination or transfer
-          policies and procedures; procedures for account management; list of active
-          system accounts and the name of the individual associated with each account;
-          system design documentation; list of conditions for group and role
-          membership; system configuration settings; notifications of recent
-          transfers, separations, or terminations of employees; list of recently
-          disabled system accounts and the name of the individual associated with each
-          account; list of user activities that pose significant organizational risks;
-          access authorization records; account management compliance reviews; system
-          monitoring and audit records; system security plan; system-generated list of
-          accounts removed; system-generated list of emergency accounts disabled;
-          system-generated list of disabled accounts; other relevant documents and
-          records
+          access control policy and procedures; personnel
+          termination or transfer policies and procedures;
+          procedures for account management; list of active system
+          accounts and the name of the individual associated with
+          each account; system design documentation; list of
+          conditions for group and role membership; system
+          configuration settings; notifications of recent transfers,
+          separations, or terminations of employees; list of
+          recently disabled system accounts and the name of the
+          individual associated with each account; list of user
+          activities that pose significant organizational risks;
+          access authorization records; account management
+          compliance reviews; system monitoring and audit records;
+          system security plan; system-generated list of accounts
+          removed; system-generated list of emergency accounts
+          disabled; system-generated list of disabled accounts;
+          other relevant documents and records
       - method: interview
         statement: >
-          personnel with account management responsibilities; system administrators;
-          personnel with information security responsibilities; system developers
+          personnel with account management responsibilities; system
+          administrators; personnel with information security
+          responsibilities; system developers
       - method: test
         statement: >
-          processes for account management on the system; mechanisms for implementing
-          account management
+          processes for account management on the system; mechanisms
+          for implementing account management
     statement: >
-      system accounts are enabled in accordance with organizational policy,
-      procedures, prerequisites, and criteria.
+      system accounts are enabled in accordance with organizational
+      policy, procedures, prerequisites, and criteria.
   - id: b.03
     methods:
       - method: examine
         statement: >
-          access control policy and procedures; personnel termination or transfer
-          policies and procedures; procedures for account management; list of active
-          system accounts and the name of the individual associated with each account;
-          system design documentation; list of conditions for group and role
-          membership; system configuration settings; notifications of recent
-          transfers, separations, or terminations of employees; list of recently
-          disabled system accounts and the name of the individual associated with each
-          account; list of user activities that pose significant organizational risks;
-          access authorization records; account management compliance reviews; system
-          monitoring and audit records; system security plan; system-generated list of
-          accounts removed; system-generated list of emergency accounts disabled;
-          system-generated list of disabled accounts; other relevant documents and
-          records
+          access control policy and procedures; personnel
+          termination or transfer policies and procedures;
+          procedures for account management; list of active system
+          accounts and the name of the individual associated with
+          each account; system design documentation; list of
+          conditions for group and role membership; system
+          configuration settings; notifications of recent transfers,
+          separations, or terminations of employees; list of
+          recently disabled system accounts and the name of the
+          individual associated with each account; list of user
+          activities that pose significant organizational risks;
+          access authorization records; account management
+          compliance reviews; system monitoring and audit records;
+          system security plan; system-generated list of accounts
+          removed; system-generated list of emergency accounts
+          disabled; system-generated list of disabled accounts;
+          other relevant documents and records
       - method: interview
         statement: >
-          personnel with account management responsibilities; system administrators;
-          personnel with information security responsibilities; system developers
+          personnel with account management responsibilities; system
+          administrators; personnel with information security
+          responsibilities; system developers
       - method: test
         statement: >
-          processes for account management on the system; mechanisms for implementing
-          account management
+          processes for account management on the system; mechanisms
+          for implementing account management
     statement: >
-      system accounts are modified in accordance with organizational policy,
-      procedures, prerequisites, and criteria.
+      system accounts are modified in accordance with organizational
+      policy, procedures, prerequisites, and criteria.
   - id: b.04
     methods:
       - method: examine
         statement: >
-          access control policy and procedures; personnel termination or transfer
-          policies and procedures; procedures for account management; list of active
-          system accounts and the name of the individual associated with each account;
-          system design documentation; list of conditions for group and role
-          membership; system configuration settings; notifications of recent
-          transfers, separations, or terminations of employees; list of recently
-          disabled system accounts and the name of the individual associated with each
-          account; list of user activities that pose significant organizational risks;
-          access authorization records; account management compliance reviews; system
-          monitoring and audit records; system security plan; system-generated list of
-          accounts removed; system-generated list of emergency accounts disabled;
-          system-generated list of disabled accounts; other relevant documents and
-          records
+          access control policy and procedures; personnel
+          termination or transfer policies and procedures;
+          procedures for account management; list of active system
+          accounts and the name of the individual associated with
+          each account; system design documentation; list of
+          conditions for group and role membership; system
+          configuration settings; notifications of recent transfers,
+          separations, or terminations of employees; list of
+          recently disabled system accounts and the name of the
+          individual associated with each account; list of user
+          activities that pose significant organizational risks;
+          access authorization records; account management
+          compliance reviews; system monitoring and audit records;
+          system security plan; system-generated list of accounts
+          removed; system-generated list of emergency accounts
+          disabled; system-generated list of disabled accounts;
+          other relevant documents and records
       - method: interview
         statement: >
-          personnel with account management responsibilities; system administrators;
-          personnel with information security responsibilities; system developers
+          personnel with account management responsibilities; system
+          administrators; personnel with information security
+          responsibilities; system developers
       - method: test
         statement: >
-          processes for account management on the system; mechanisms for implementing
-          account management
+          processes for account management on the system; mechanisms
+          for implementing account management
     statement: >
-      system accounts are disabled in accordance with organizational policy,
-      procedures, prerequisites, and criteria.
+      system accounts are disabled in accordance with organizational
+      policy, procedures, prerequisites, and criteria.
   - id: b.05
     methods:
       - method: examine
         statement: >
-          access control policy and procedures; personnel termination or transfer
-          policies and procedures; procedures for account management; list of active
-          system accounts and the name of the individual associated with each account;
-          system design documentation; list of conditions for group and role
-          membership; system configuration settings; notifications of recent
-          transfers, separations, or terminations of employees; list of recently
-          disabled system accounts and the name of the individual associated with each
-          account; list of user activities that pose significant organizational risks;
-          access authorization records; account management compliance reviews; system
-          monitoring and audit records; system security plan; system-generated list of
-          accounts removed; system-generated list of emergency accounts disabled;
-          system-generated list of disabled accounts; other relevant documents and
-          records
+          access control policy and procedures; personnel
+          termination or transfer policies and procedures;
+          procedures for account management; list of active system
+          accounts and the name of the individual associated with
+          each account; system design documentation; list of
+          conditions for group and role membership; system
+          configuration settings; notifications of recent transfers,
+          separations, or terminations of employees; list of
+          recently disabled system accounts and the name of the
+          individual associated with each account; list of user
+          activities that pose significant organizational risks;
+          access authorization records; account management
+          compliance reviews; system monitoring and audit records;
+          system security plan; system-generated list of accounts
+          removed; system-generated list of emergency accounts
+          disabled; system-generated list of disabled accounts;
+          other relevant documents and records
       - method: interview
         statement: >
-          personnel with account management responsibilities; system administrators;
-          personnel with information security responsibilities; system developers
+          personnel with account management responsibilities; system
+          administrators; personnel with information security
+          responsibilities; system developers
       - method: test
         statement: >
-          processes for account management on the system; mechanisms for implementing
-          account management
+          processes for account management on the system; mechanisms
+          for implementing account management
     statement: >
-      system accounts are removed in accordance with organizational policy,
-      procedures, prerequisites, and criteria.
+      system accounts are removed in accordance with organizational
+      policy, procedures, prerequisites, and criteria.
   - id: a.01
     methods:
       - method: examine
         statement: >
-          access control policy and procedures; personnel termination or transfer
-          policies and procedures; procedures for account management; list of active
-          system accounts and the name of the individual associated with each account;
-          system design documentation; list of conditions for group and role
-          membership; system configuration settings; notifications of recent
-          transfers, separations, or terminations of employees; list of recently
-          disabled system accounts and the name of the individual associated with each
-          account; list of user activities that pose significant organizational risks;
-          access authorization records; account management compliance reviews; system
-          monitoring and audit records; system security plan; system-generated list of
-          accounts removed; system-generated list of emergency accounts disabled;
-          system-generated list of disabled accounts; other relevant documents and
-          records
+          access control policy and procedures; personnel
+          termination or transfer policies and procedures;
+          procedures for account management; list of active system
+          accounts and the name of the individual associated with
+          each account; system design documentation; list of
+          conditions for group and role membership; system
+          configuration settings; notifications of recent transfers,
+          separations, or terminations of employees; list of
+          recently disabled system accounts and the name of the
+          individual associated with each account; list of user
+          activities that pose significant organizational risks;
+          access authorization records; account management
+          compliance reviews; system monitoring and audit records;
+          system security plan; system-generated list of accounts
+          removed; system-generated list of emergency accounts
+          disabled; system-generated list of disabled accounts;
+          other relevant documents and records
       - method: interview
         statement: >
-          personnel with account management responsibilities; system administrators;
-          personnel with information security responsibilities; system developers
+          personnel with account management responsibilities; system
+          administrators; personnel with information security
+          responsibilities; system developers
       - method: test
         statement: >
-          processes for account management on the system; mechanisms for implementing
-          account management
+          processes for account management on the system; mechanisms
+          for implementing account management
     statement: system account types allowed are defined.
   - id: a.02
     methods:
       - method: examine
         statement: >
-          access control policy and procedures; personnel termination or transfer
-          policies and procedures; procedures for account management; list of active
-          system accounts and the name of the individual associated with each account;
-          system design documentation; list of conditions for group and role
-          membership; system configuration settings; notifications of recent
-          transfers, separations, or terminations of employees; list of recently
-          disabled system accounts and the name of the individual associated with each
-          account; list of user activities that pose significant organizational risks;
-          access authorization records; account management compliance reviews; system
-          monitoring and audit records; system security plan; system-generated list of
-          accounts removed; system-generated list of emergency accounts disabled;
-          system-generated list of disabled accounts; other relevant documents and
-          records
+          access control policy and procedures; personnel
+          termination or transfer policies and procedures;
+          procedures for account management; list of active system
+          accounts and the name of the individual associated with
+          each account; system design documentation; list of
+          conditions for group and role membership; system
+          configuration settings; notifications of recent transfers,
+          separations, or terminations of employees; list of
+          recently disabled system accounts and the name of the
+          individual associated with each account; list of user
+          activities that pose significant organizational risks;
+          access authorization records; account management
+          compliance reviews; system monitoring and audit records;
+          system security plan; system-generated list of accounts
+          removed; system-generated list of emergency accounts
+          disabled; system-generated list of disabled accounts;
+          other relevant documents and records
       - method: interview
         statement: >
-          personnel with account management responsibilities; system administrators;
-          personnel with information security responsibilities; system developers
+          personnel with account management responsibilities; system
+          administrators; personnel with information security
+          responsibilities; system developers
       - method: test
         statement: >
-          processes for account management on the system; mechanisms for implementing
-          account management
+          processes for account management on the system; mechanisms
+          for implementing account management
     statement: system account types prohibited are defined.
   - id: c.01
     methods:
       - method: examine
         statement: >
-          access control policy and procedures; personnel termination or transfer
-          policies and procedures; procedures for account management; list of active
-          system accounts and the name of the individual associated with each account;
-          system design documentation; list of conditions for group and role
-          membership; system configuration settings; notifications of recent
-          transfers, separations, or terminations of employees; list of recently
-          disabled system accounts and the name of the individual associated with each
-          account; list of user activities that pose significant organizational risks;
-          access authorization records; account management compliance reviews; system
-          monitoring and audit records; system security plan; system-generated list of
-          accounts removed; system-generated list of emergency accounts disabled;
-          system-generated list of disabled accounts; other relevant documents and
-          records
+          access control policy and procedures; personnel
+          termination or transfer policies and procedures;
+          procedures for account management; list of active system
+          accounts and the name of the individual associated with
+          each account; system design documentation; list of
+          conditions for group and role membership; system
+          configuration settings; notifications of recent transfers,
+          separations, or terminations of employees; list of
+          recently disabled system accounts and the name of the
+          individual associated with each account; list of user
+          activities that pose significant organizational risks;
+          access authorization records; account management
+          compliance reviews; system monitoring and audit records;
+          system security plan; system-generated list of accounts
+          removed; system-generated list of emergency accounts
+          disabled; system-generated list of disabled accounts;
+          other relevant documents and records
       - method: interview
         statement: >
-          personnel with account management responsibilities; system administrators;
-          personnel with information security responsibilities; system developers
+          personnel with account management responsibilities; system
+          administrators; personnel with information security
+          responsibilities; system developers
       - method: test
         statement: >
-          processes for account management on the system; mechanisms for implementing
-          account management
+          processes for account management on the system; mechanisms
+          for implementing account management
     statement: authorized users of the system are specified.
   - id: c.02
     methods:
       - method: examine
         statement: >
-          access control policy and procedures; personnel termination or transfer
-          policies and procedures; procedures for account management; list of active
-          system accounts and the name of the individual associated with each account;
-          system design documentation; list of conditions for group and role
-          membership; system configuration settings; notifications of recent
-          transfers, separations, or terminations of employees; list of recently
-          disabled system accounts and the name of the individual associated with each
-          account; list of user activities that pose significant organizational risks;
-          access authorization records; account management compliance reviews; system
-          monitoring and audit records; system security plan; system-generated list of
-          accounts removed; system-generated list of emergency accounts disabled;
-          system-generated list of disabled accounts; other relevant documents and
-          records
+          access control policy and procedures; personnel
+          termination or transfer policies and procedures;
+          procedures for account management; list of active system
+          accounts and the name of the individual associated with
+          each account; system design documentation; list of
+          conditions for group and role membership; system
+          configuration settings; notifications of recent transfers,
+          separations, or terminations of employees; list of
+          recently disabled system accounts and the name of the
+          individual associated with each account; list of user
+          activities that pose significant organizational risks;
+          access authorization records; account management
+          compliance reviews; system monitoring and audit records;
+          system security plan; system-generated list of accounts
+          removed; system-generated list of emergency accounts
+          disabled; system-generated list of disabled accounts;
+          other relevant documents and records
       - method: interview
         statement: >
-          personnel with account management responsibilities; system administrators;
-          personnel with information security responsibilities; system developers
+          personnel with account management responsibilities; system
+          administrators; personnel with information security
+          responsibilities; system developers
       - method: test
         statement: >
-          processes for account management on the system; mechanisms for implementing
-          account management
+          processes for account management on the system; mechanisms
+          for implementing account management
     statement: group and role memberships are specified.
   - id: c.03
     methods:
       - method: examine
         statement: >
-          access control policy and procedures; personnel termination or transfer
-          policies and procedures; procedures for account management; list of active
-          system accounts and the name of the individual associated with each account;
-          system design documentation; list of conditions for group and role
-          membership; system configuration settings; notifications of recent
-          transfers, separations, or terminations of employees; list of recently
-          disabled system accounts and the name of the individual associated with each
-          account; list of user activities that pose significant organizational risks;
-          access authorization records; account management compliance reviews; system
-          monitoring and audit records; system security plan; system-generated list of
-          accounts removed; system-generated list of emergency accounts disabled;
-          system-generated list of disabled accounts; other relevant documents and
-          records
+          access control policy and procedures; personnel
+          termination or transfer policies and procedures;
+          procedures for account management; list of active system
+          accounts and the name of the individual associated with
+          each account; system design documentation; list of
+          conditions for group and role membership; system
+          configuration settings; notifications of recent transfers,
+          separations, or terminations of employees; list of
+          recently disabled system accounts and the name of the
+          individual associated with each account; list of user
+          activities that pose significant organizational risks;
+          access authorization records; account management
+          compliance reviews; system monitoring and audit records;
+          system security plan; system-generated list of accounts
+          removed; system-generated list of emergency accounts
+          disabled; system-generated list of disabled accounts;
+          other relevant documents and records
       - method: interview
         statement: >
-          personnel with account management responsibilities; system administrators;
-          personnel with information security responsibilities; system developers
+          personnel with account management responsibilities; system
+          administrators; personnel with information security
+          responsibilities; system developers
       - method: test
         statement: >
-          processes for account management on the system; mechanisms for implementing
-          account management
-    statement: "access authorizations (i.e., privileges) for each account are specified."
+          processes for account management on the system; mechanisms
+          for implementing account management
+    statement: >-
+      access authorizations (i.e., privileges) for each account are
+      specified.
   - id: d.01
     methods:
       - method: examine
         statement: >
-          access control policy and procedures; personnel termination or transfer
-          policies and procedures; procedures for account management; list of active
-          system accounts and the name of the individual associated with each account;
-          system design documentation; list of conditions for group and role
-          membership; system configuration settings; notifications of recent
-          transfers, separations, or terminations of employees; list of recently
-          disabled system accounts and the name of the individual associated with each
-          account; list of user activities that pose significant organizational risks;
-          access authorization records; account management compliance reviews; system
-          monitoring and audit records; system security plan; system-generated list of
-          accounts removed; system-generated list of emergency accounts disabled;
-          system-generated list of disabled accounts; other relevant documents and
-          records
+          access control policy and procedures; personnel
+          termination or transfer policies and procedures;
+          procedures for account management; list of active system
+          accounts and the name of the individual associated with
+          each account; system design documentation; list of
+          conditions for group and role membership; system
+          configuration settings; notifications of recent transfers,
+          separations, or terminations of employees; list of
+          recently disabled system accounts and the name of the
+          individual associated with each account; list of user
+          activities that pose significant organizational risks;
+          access authorization records; account management
+          compliance reviews; system monitoring and audit records;
+          system security plan; system-generated list of accounts
+          removed; system-generated list of emergency accounts
+          disabled; system-generated list of disabled accounts;
+          other relevant documents and records
       - method: interview
         statement: >
-          personnel with account management responsibilities; system administrators;
-          personnel with information security responsibilities; system developers
+          personnel with account management responsibilities; system
+          administrators; personnel with information security
+          responsibilities; system developers
       - method: test
         statement: >
-          processes for account management on the system; mechanisms for implementing
-          account management
-    statement: access to the system is authorized based on a valid access authorization.
+          processes for account management on the system; mechanisms
+          for implementing account management
+    statement: >-
+      access to the system is authorized based on a valid access
+      authorization.
   - id: d.02
     methods:
       - method: examine
         statement: >
-          access control policy and procedures; personnel termination or transfer
-          policies and procedures; procedures for account management; list of active
-          system accounts and the name of the individual associated with each account;
-          system design documentation; list of conditions for group and role
-          membership; system configuration settings; notifications of recent
-          transfers, separations, or terminations of employees; list of recently
-          disabled system accounts and the name of the individual associated with each
-          account; list of user activities that pose significant organizational risks;
-          access authorization records; account management compliance reviews; system
-          monitoring and audit records; system security plan; system-generated list of
-          accounts removed; system-generated list of emergency accounts disabled;
-          system-generated list of disabled accounts; other relevant documents and
-          records
+          access control policy and procedures; personnel
+          termination or transfer policies and procedures;
+          procedures for account management; list of active system
+          accounts and the name of the individual associated with
+          each account; system design documentation; list of
+          conditions for group and role membership; system
+          configuration settings; notifications of recent transfers,
+          separations, or terminations of employees; list of
+          recently disabled system accounts and the name of the
+          individual associated with each account; list of user
+          activities that pose significant organizational risks;
+          access authorization records; account management
+          compliance reviews; system monitoring and audit records;
+          system security plan; system-generated list of accounts
+          removed; system-generated list of emergency accounts
+          disabled; system-generated list of disabled accounts;
+          other relevant documents and records
       - method: interview
         statement: >
-          personnel with account management responsibilities; system administrators;
-          personnel with information security responsibilities; system developers
+          personnel with account management responsibilities; system
+          administrators; personnel with information security
+          responsibilities; system developers
       - method: test
         statement: >
-          processes for account management on the system; mechanisms for implementing
-          account management
-    statement: access to the system is authorized based on intended system usage.
+          processes for account management on the system; mechanisms
+          for implementing account management
+    statement: >-
+      access to the system is authorized based on intended system
+      usage.
   - id: e
     methods:
       - method: examine
         statement: >
-          access control policy and procedures; personnel termination or transfer
-          policies and procedures; procedures for account management; list of active
-          system accounts and the name of the individual associated with each account;
-          system design documentation; list of conditions for group and role
-          membership; system configuration settings; notifications of recent
-          transfers, separations, or terminations of employees; list of recently
-          disabled system accounts and the name of the individual associated with each
-          account; list of user activities that pose significant organizational risks;
-          access authorization records; account management compliance reviews; system
-          monitoring and audit records; system security plan; system-generated list of
-          accounts removed; system-generated list of emergency accounts disabled;
-          system-generated list of disabled accounts; other relevant documents and
-          records
+          access control policy and procedures; personnel
+          termination or transfer policies and procedures;
+          procedures for account management; list of active system
+          accounts and the name of the individual associated with
+          each account; system design documentation; list of
+          conditions for group and role membership; system
+          configuration settings; notifications of recent transfers,
+          separations, or terminations of employees; list of
+          recently disabled system accounts and the name of the
+          individual associated with each account; list of user
+          activities that pose significant organizational risks;
+          access authorization records; account management
+          compliance reviews; system monitoring and audit records;
+          system security plan; system-generated list of accounts
+          removed; system-generated list of emergency accounts
+          disabled; system-generated list of disabled accounts;
+          other relevant documents and records
       - method: interview
         statement: >
-          personnel with account management responsibilities; system administrators;
-          personnel with information security responsibilities; system developers
+          personnel with account management responsibilities; system
+          administrators; personnel with information security
+          responsibilities; system developers
       - method: test
         statement: >
-          processes for account management on the system; mechanisms for implementing
-          account management
+          processes for account management on the system; mechanisms
+          for implementing account management
     statement: the use of system accounts is monitored.
   - id: f.01
     methods:
       - method: examine
         statement: >
-          access control policy and procedures; personnel termination or transfer
-          policies and procedures; procedures for account management; list of active
-          system accounts and the name of the individual associated with each account;
-          system design documentation; list of conditions for group and role
-          membership; system configuration settings; notifications of recent
-          transfers, separations, or terminations of employees; list of recently
-          disabled system accounts and the name of the individual associated with each
-          account; list of user activities that pose significant organizational risks;
-          access authorization records; account management compliance reviews; system
-          monitoring and audit records; system security plan; system-generated list of
-          accounts removed; system-generated list of emergency accounts disabled;
-          system-generated list of disabled accounts; other relevant documents and
-          records
+          access control policy and procedures; personnel
+          termination or transfer policies and procedures;
+          procedures for account management; list of active system
+          accounts and the name of the individual associated with
+          each account; system design documentation; list of
+          conditions for group and role membership; system
+          configuration settings; notifications of recent transfers,
+          separations, or terminations of employees; list of
+          recently disabled system accounts and the name of the
+          individual associated with each account; list of user
+          activities that pose significant organizational risks;
+          access authorization records; account management
+          compliance reviews; system monitoring and audit records;
+          system security plan; system-generated list of accounts
+          removed; system-generated list of emergency accounts
+          disabled; system-generated list of disabled accounts;
+          other relevant documents and records
       - method: interview
         statement: >
-          personnel with account management responsibilities; system administrators;
-          personnel with information security responsibilities; system developers
+          personnel with account management responsibilities; system
+          administrators; personnel with information security
+          responsibilities; system developers
       - method: test
         statement: >
-          processes for account management on the system; mechanisms for implementing
-          account management
-    statement: system accounts are disabled when the accounts have expired.
+          processes for account management on the system; mechanisms
+          for implementing account management
+    statement: >-
+      system accounts are disabled when the accounts have expired.
   - id: f.02
     methods:
       - method: examine
         statement: >
-          access control policy and procedures; personnel termination or transfer
-          policies and procedures; procedures for account management; list of active
-          system accounts and the name of the individual associated with each account;
-          system design documentation; list of conditions for group and role
-          membership; system configuration settings; notifications of recent
-          transfers, separations, or terminations of employees; list of recently
-          disabled system accounts and the name of the individual associated with each
-          account; list of user activities that pose significant organizational risks;
-          access authorization records; account management compliance reviews; system
-          monitoring and audit records; system security plan; system-generated list of
-          accounts removed; system-generated list of emergency accounts disabled;
-          system-generated list of disabled accounts; other relevant documents and
-          records
+          access control policy and procedures; personnel
+          termination or transfer policies and procedures;
+          procedures for account management; list of active system
+          accounts and the name of the individual associated with
+          each account; system design documentation; list of
+          conditions for group and role membership; system
+          configuration settings; notifications of recent transfers,
+          separations, or terminations of employees; list of
+          recently disabled system accounts and the name of the
+          individual associated with each account; list of user
+          activities that pose significant organizational risks;
+          access authorization records; account management
+          compliance reviews; system monitoring and audit records;
+          system security plan; system-generated list of accounts
+          removed; system-generated list of emergency accounts
+          disabled; system-generated list of disabled accounts;
+          other relevant documents and records
       - method: interview
         statement: >
-          personnel with account management responsibilities; system administrators;
-          personnel with information security responsibilities; system developers
+          personnel with account management responsibilities; system
+          administrators; personnel with information security
+          responsibilities; system developers
       - method: test
         statement: >
-          processes for account management on the system; mechanisms for implementing
-          account management
+          processes for account management on the system; mechanisms
+          for implementing account management
     statement: >
-      system accounts are disabled when the accounts have been inactive for
-      {{ a_03_01_01_odp_01 }}.
+      system accounts are disabled when the accounts have been
+      inactive for {{ a_03_01_01_odp_01 }}.
   - id: f.03
     methods:
       - method: examine
         statement: >
-          access control policy and procedures; personnel termination or transfer
-          policies and procedures; procedures for account management; list of active
-          system accounts and the name of the individual associated with each account;
-          system design documentation; list of conditions for group and role
-          membership; system configuration settings; notifications of recent
-          transfers, separations, or terminations of employees; list of recently
-          disabled system accounts and the name of the individual associated with each
-          account; list of user activities that pose significant organizational risks;
-          access authorization records; account management compliance reviews; system
-          monitoring and audit records; system security plan; system-generated list of
-          accounts removed; system-generated list of emergency accounts disabled;
-          system-generated list of disabled accounts; other relevant documents and
-          records
+          access control policy and procedures; personnel
+          termination or transfer policies and procedures;
+          procedures for account management; list of active system
+          accounts and the name of the individual associated with
+          each account; system design documentation; list of
+          conditions for group and role membership; system
+          configuration settings; notifications of recent transfers,
+          separations, or terminations of employees; list of
+          recently disabled system accounts and the name of the
+          individual associated with each account; list of user
+          activities that pose significant organizational risks;
+          access authorization records; account management
+          compliance reviews; system monitoring and audit records;
+          system security plan; system-generated list of accounts
+          removed; system-generated list of emergency accounts
+          disabled; system-generated list of disabled accounts;
+          other relevant documents and records
       - method: interview
         statement: >
-          personnel with account management responsibilities; system administrators;
-          personnel with information security responsibilities; system developers
+          personnel with account management responsibilities; system
+          administrators; personnel with information security
+          responsibilities; system developers
       - method: test
         statement: >
-          processes for account management on the system; mechanisms for implementing
-          account management
+          processes for account management on the system; mechanisms
+          for implementing account management
     statement: >
-      system accounts are disabled when the accounts are no longer associated with
-      a user or individual.
+      system accounts are disabled when the accounts are no longer
+      associated with a user or individual.
   - id: f.04
     methods:
       - method: examine
         statement: >
-          access control policy and procedures; personnel termination or transfer
-          policies and procedures; procedures for account management; list of active
-          system accounts and the name of the individual associated with each account;
-          system design documentation; list of conditions for group and role
-          membership; system configuration settings; notifications of recent
-          transfers, separations, or terminations of employees; list of recently
-          disabled system accounts and the name of the individual associated with each
-          account; list of user activities that pose significant organizational risks;
-          access authorization records; account management compliance reviews; system
-          monitoring and audit records; system security plan; system-generated list of
-          accounts removed; system-generated list of emergency accounts disabled;
-          system-generated list of disabled accounts; other relevant documents and
-          records
+          access control policy and procedures; personnel
+          termination or transfer policies and procedures;
+          procedures for account management; list of active system
+          accounts and the name of the individual associated with
+          each account; system design documentation; list of
+          conditions for group and role membership; system
+          configuration settings; notifications of recent transfers,
+          separations, or terminations of employees; list of
+          recently disabled system accounts and the name of the
+          individual associated with each account; list of user
+          activities that pose significant organizational risks;
+          access authorization records; account management
+          compliance reviews; system monitoring and audit records;
+          system security plan; system-generated list of accounts
+          removed; system-generated list of emergency accounts
+          disabled; system-generated list of disabled accounts;
+          other relevant documents and records
       - method: interview
         statement: >
-          personnel with account management responsibilities; system administrators;
-          personnel with information security responsibilities; system developers
+          personnel with account management responsibilities; system
+          administrators; personnel with information security
+          responsibilities; system developers
       - method: test
         statement: >
-          processes for account management on the system; mechanisms for implementing
-          account management
-    statement: system accounts are disabled when the accounts violate organizational policy.
+          processes for account management on the system; mechanisms
+          for implementing account management
+    statement: >-
+      system accounts are disabled when the accounts violate
+      organizational policy.
   - id: g.01
     methods:
       - method: examine
         statement: >
-          access control policy and procedures; personnel termination or transfer
-          policies and procedures; procedures for account management; list of active
-          system accounts and the name of the individual associated with each account;
-          system design documentation; list of conditions for group and role
-          membership; system configuration settings; notifications of recent
-          transfers, separations, or terminations of employees; list of recently
-          disabled system accounts and the name of the individual associated with each
-          account; list of user activities that pose significant organizational risks;
-          access authorization records; account management compliance reviews; system
-          monitoring and audit records; system security plan; system-generated list of
-          accounts removed; system-generated list of emergency accounts disabled;
-          system-generated list of disabled accounts; other relevant documents and
-          records
+          access control policy and procedures; personnel
+          termination or transfer policies and procedures;
+          procedures for account management; list of active system
+          accounts and the name of the individual associated with
+          each account; system design documentation; list of
+          conditions for group and role membership; system
+          configuration settings; notifications of recent transfers,
+          separations, or terminations of employees; list of
+          recently disabled system accounts and the name of the
+          individual associated with each account; list of user
+          activities that pose significant organizational risks;
+          access authorization records; account management
+          compliance reviews; system monitoring and audit records;
+          system security plan; system-generated list of accounts
+          removed; system-generated list of emergency accounts
+          disabled; system-generated list of disabled accounts;
+          other relevant documents and records
       - method: interview
         statement: >
-          personnel with account management responsibilities; system administrators;
-          personnel with information security responsibilities; system developers
+          personnel with account management responsibilities; system
+          administrators; personnel with information security
+          responsibilities; system developers
       - method: test
         statement: >
-          processes for account management on the system; mechanisms for implementing
-          account management
+          processes for account management on the system; mechanisms
+          for implementing account management
     statement: >
-      account managers and designated personnel or roles are notified within
-      {{ a_03_01_01_odp_02 }} when accounts are no longer required.
+      account managers and designated personnel or roles are
+      notified within {{ a_03_01_01_odp_02 }} when accounts are no
+      longer required.
   - id: g.02
     methods:
       - method: examine
         statement: >
-          access control policy and procedures; personnel termination or transfer
-          policies and procedures; procedures for account management; list of active
-          system accounts and the name of the individual associated with each account;
-          system design documentation; list of conditions for group and role
-          membership; system configuration settings; notifications of recent
-          transfers, separations, or terminations of employees; list of recently
-          disabled system accounts and the name of the individual associated with each
-          account; list of user activities that pose significant organizational risks;
-          access authorization records; account management compliance reviews; system
-          monitoring and audit records; system security plan; system-generated list of
-          accounts removed; system-generated list of emergency accounts disabled;
-          system-generated list of disabled accounts; other relevant documents and
-          records
+          access control policy and procedures; personnel
+          termination or transfer policies and procedures;
+          procedures for account management; list of active system
+          accounts and the name of the individual associated with
+          each account; system design documentation; list of
+          conditions for group and role membership; system
+          configuration settings; notifications of recent transfers,
+          separations, or terminations of employees; list of
+          recently disabled system accounts and the name of the
+          individual associated with each account; list of user
+          activities that pose significant organizational risks;
+          access authorization records; account management
+          compliance reviews; system monitoring and audit records;
+          system security plan; system-generated list of accounts
+          removed; system-generated list of emergency accounts
+          disabled; system-generated list of disabled accounts;
+          other relevant documents and records
       - method: interview
         statement: >
-          personnel with account management responsibilities; system administrators;
-          personnel with information security responsibilities; system developers
+          personnel with account management responsibilities; system
+          administrators; personnel with information security
+          responsibilities; system developers
       - method: test
         statement: >
-          processes for account management on the system; mechanisms for implementing
-          account management
+          processes for account management on the system; mechanisms
+          for implementing account management
     statement: >
-      account managers and designated personnel or roles are notified within
-      {{ a_03_01_01_odp_03 }} when users are terminated or transferred.
+      account managers and designated personnel or roles are
+      notified within {{ a_03_01_01_odp_03 }} when users are
+      terminated or transferred.
   - id: g.03
     methods:
       - method: examine
         statement: >
-          access control policy and procedures; personnel termination or transfer
-          policies and procedures; procedures for account management; list of active
-          system accounts and the name of the individual associated with each account;
-          system design documentation; list of conditions for group and role
-          membership; system configuration settings; notifications of recent
-          transfers, separations, or terminations of employees; list of recently
-          disabled system accounts and the name of the individual associated with each
-          account; list of user activities that pose significant organizational risks;
-          access authorization records; account management compliance reviews; system
-          monitoring and audit records; system security plan; system-generated list of
-          accounts removed; system-generated list of emergency accounts disabled;
-          system-generated list of disabled accounts; other relevant documents and
-          records
+          access control policy and procedures; personnel
+          termination or transfer policies and procedures;
+          procedures for account management; list of active system
+          accounts and the name of the individual associated with
+          each account; system design documentation; list of
+          conditions for group and role membership; system
+          configuration settings; notifications of recent transfers,
+          separations, or terminations of employees; list of
+          recently disabled system accounts and the name of the
+          individual associated with each account; list of user
+          activities that pose significant organizational risks;
+          access authorization records; account management
+          compliance reviews; system monitoring and audit records;
+          system security plan; system-generated list of accounts
+          removed; system-generated list of emergency accounts
+          disabled; system-generated list of disabled accounts;
+          other relevant documents and records
       - method: interview
         statement: >
-          personnel with account management responsibilities; system administrators;
-          personnel with information security responsibilities; system developers
+          personnel with account management responsibilities; system
+          administrators; personnel with information security
+          responsibilities; system developers
       - method: test
         statement: >
-          processes for account management on the system; mechanisms for implementing
-          account management
+          processes for account management on the system; mechanisms
+          for implementing account management
     statement: >
-      account managers and designated personnel or roles are notified within
-      {{ a_03_01_01_odp_04 }} when system usage or the need-to-know changes for an
-      individual.
+      account managers and designated personnel or roles are
+      notified within {{ a_03_01_01_odp_04 }} when system usage or
+      the need-to-know changes for an individual.
   - id: f.05
     methods:
       - method: examine
         statement: >
-          access control policy and procedures; personnel termination or transfer
-          policies and procedures; procedures for account management; list of active
-          system accounts and the name of the individual associated with each account;
-          system design documentation; list of conditions for group and role
-          membership; system configuration settings; notifications of recent
-          transfers, separations, or terminations of employees; list of recently
-          disabled system accounts and the name of the individual associated with each
-          account; list of user activities that pose significant organizational risks;
-          access authorization records; account management compliance reviews; system
-          monitoring and audit records; system security plan; system-generated list of
-          accounts removed; system-generated list of emergency accounts disabled;
-          system-generated list of disabled accounts; other relevant documents and
-          records
+          access control policy and procedures; personnel
+          termination or transfer policies and procedures;
+          procedures for account management; list of active system
+          accounts and the name of the individual associated with
+          each account; system design documentation; list of
+          conditions for group and role membership; system
+          configuration settings; notifications of recent transfers,
+          separations, or terminations of employees; list of
+          recently disabled system accounts and the name of the
+          individual associated with each account; list of user
+          activities that pose significant organizational risks;
+          access authorization records; account management
+          compliance reviews; system monitoring and audit records;
+          system security plan; system-generated list of accounts
+          removed; system-generated list of emergency accounts
+          disabled; system-generated list of disabled accounts;
+          other relevant documents and records
       - method: interview
         statement: >
-          personnel with account management responsibilities; system administrators;
-          personnel with information security responsibilities; system developers
+          personnel with account management responsibilities; system
+          administrators; personnel with information security
+          responsibilities; system developers
       - method: test
         statement: >
-          processes for account management on the system; mechanisms for implementing
-          account management
+          processes for account management on the system; mechanisms
+          for implementing account management
     statement: >
-      system accounts are disabled when significant risks associated with
-      individuals are discovered.
+      system accounts are disabled when significant risks associated
+      with individuals are discovered.
   - id: h
     methods:
       - method: examine
         statement: >
-          access control policy and procedures; personnel termination or transfer
-          policies and procedures; procedures for account management; list of active
-          system accounts and the name of the individual associated with each account;
-          system design documentation; list of conditions for group and role
-          membership; system configuration settings; notifications of recent
-          transfers, separations, or terminations of employees; list of recently
-          disabled system accounts and the name of the individual associated with each
-          account; list of user activities that pose significant organizational risks;
-          access authorization records; account management compliance reviews; system
-          monitoring and audit records; system security plan; system-generated list of
-          accounts removed; system-generated list of emergency accounts disabled;
-          system-generated list of disabled accounts; other relevant documents and
-          records
+          access control policy and procedures; personnel
+          termination or transfer policies and procedures;
+          procedures for account management; list of active system
+          accounts and the name of the individual associated with
+          each account; system design documentation; list of
+          conditions for group and role membership; system
+          configuration settings; notifications of recent transfers,
+          separations, or terminations of employees; list of
+          recently disabled system accounts and the name of the
+          individual associated with each account; list of user
+          activities that pose significant organizational risks;
+          access authorization records; account management
+          compliance reviews; system monitoring and audit records;
+          system security plan; system-generated list of accounts
+          removed; system-generated list of emergency accounts
+          disabled; system-generated list of disabled accounts;
+          other relevant documents and records
       - method: interview
         statement: >
-          personnel with account management responsibilities; system administrators;
-          personnel with information security responsibilities; system developers
+          personnel with account management responsibilities; system
+          administrators; personnel with information security
+          responsibilities; system developers
       - method: test
         statement: >
-          processes for account management on the system; mechanisms for implementing
-          account management
+          processes for account management on the system; mechanisms
+          for implementing account management
     statement: >
-      users are required to log out of the system after {{ a_03_01_01_odp_05 }} of
-      expected inactivity or when the following circumstances occur:
-      {{ a_03_01_01_odp_06 }}.
+      users are required to log out of the system after
+      {{ a_03_01_01_odp_05 }} of expected inactivity or when the
+      following circumstances occur: {{ a_03_01_01_odp_06 }}.
 parameters:
   a_03_01_01_odp_01:
     label: time period
@@ -662,11 +783,13 @@ parameters:
     label: circumstances
 parts:
   - id: a
-    statement: Define the types of system accounts allowed and prohibited.
+    statement: >-
+      Define the types of system accounts allowed and prohibited.
   - id: b
     statement: >
-      Create, enable, modify, disable, and remove system accounts in accordance
-      with policy, procedures, prerequisites, and criteria.
+      Create, enable, modify, disable, and remove system accounts in
+      accordance with policy, procedures, prerequisites, and
+      criteria.
   - id: c
     statement: "Specify:"
   - id: c.01
@@ -674,7 +797,8 @@ parts:
   - id: c.02
     statement: "Group and role membership, and"
   - id: c.03
-    statement: "Access authorizations (i.e., privileges) for each account."
+    statement: >-
+      Access authorizations (i.e., privileges) for each account.
   - id: d
     statement: "Authorize access to the system based on:"
   - id: d.01
@@ -688,24 +812,35 @@ parts:
   - id: f.01
     statement: "The accounts have expired,"
   - id: f.02
-    statement: "The accounts have been inactive for {{ a_03_01_01_odp_01 }},"
+    statement: >-
+      The accounts have been inactive for {{ a_03_01_01_odp_01 }},
   - id: f.03
-    statement: "The accounts are no longer associated with a user or individual,"
+    statement: >-
+      The accounts are no longer associated with a user or
+      individual,
   - id: f.04
-    statement: "The accounts are in violation of organizational policy, or"
+    statement: >-
+      The accounts are in violation of organizational policy, or
   - id: f.05
-    statement: Significant risks associated with individuals are discovered.
+    statement: >-
+      Significant risks associated with individuals are discovered.
   - id: g
-    statement: "Notify account managers and designated personnel or roles within:"
+    statement: >-
+      Notify account managers and designated personnel or roles
+      within:
   - id: g.01
-    statement: "{{ a_03_01_01_odp_02 }} when accounts are no longer required."
+    statement: >-
+      {{ a_03_01_01_odp_02 }} when accounts are no longer required.
   - id: g.02
-    statement: "{{ a_03_01_01_odp_03 }} when users are terminated or transferred."
+    statement: >-
+      {{ a_03_01_01_odp_03 }} when users are terminated or
+      transferred.
   - id: g.03
     statement: >
-      {{ a_03_01_01_odp_04 }} when system usage or the need-to-know changes for an
-      individual.
+      {{ a_03_01_01_odp_04 }} when system usage or the need-to-know
+      changes for an individual.
   - id: h
     statement: >
-      Require that users log out of the system after {{ a_03_01_01_odp_05 }} of
-      expected inactivity or when {{ a_03_01_01_odp_06 }}.
+      Require that users log out of the system after
+      {{ a_03_01_01_odp_05 }} of expected inactivity or when
+      {{ a_03_01_01_odp_06 }}.

@@ -20,91 +20,108 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; usage restrictions; procedures
-          addressing usage restrictions; implementation policy and procedures;
-          authorization records; system monitoring records; system audit records;
+          System and communications protection policy; usage
+          restrictions; procedures addressing usage restrictions;
+          implementation policy and procedures; authorization
+          records; system monitoring records; system audit records;
           system security plan; other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; organizational personnel installing, configuring,
-          and/or maintaining the system
+          System/network administrators; organizational personnel
+          with information security responsibilities; organizational
+          personnel installing, configuring, and/or maintaining the
+          system
       - method: test
         statement: >
-          Organizational processes for authorizing, monitoring, and controlling the
-          use of components with usage restrictions; mechanisms supporting and/or
-          implementing, authorizing, monitoring, and controlling the use of components
-          with usage restrictions
+          Organizational processes for authorizing, monitoring, and
+          controlling the use of components with usage restrictions;
+          mechanisms supporting and/or implementing, authorizing,
+          monitoring, and controlling the use of components with
+          usage restrictions
     statement: >
-      usage restrictions and implementation guidelines are established for
-      {{ sc_43_odp }};
+      usage restrictions and implementation guidelines are
+      established for {{ sc_43_odp }};
   - id: b-1
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; usage restrictions; procedures
-          addressing usage restrictions; implementation policy and procedures;
-          authorization records; system monitoring records; system audit records;
+          System and communications protection policy; usage
+          restrictions; procedures addressing usage restrictions;
+          implementation policy and procedures; authorization
+          records; system monitoring records; system audit records;
           system security plan; other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; organizational personnel installing, configuring,
-          and/or maintaining the system
+          System/network administrators; organizational personnel
+          with information security responsibilities; organizational
+          personnel installing, configuring, and/or maintaining the
+          system
       - method: test
         statement: >
-          Organizational processes for authorizing, monitoring, and controlling the
-          use of components with usage restrictions; mechanisms supporting and/or
-          implementing, authorizing, monitoring, and controlling the use of components
-          with usage restrictions
-    statement: "the use of {{ sc_43_odp }} is authorized within the system;"
+          Organizational processes for authorizing, monitoring, and
+          controlling the use of components with usage restrictions;
+          mechanisms supporting and/or implementing, authorizing,
+          monitoring, and controlling the use of components with
+          usage restrictions
+    statement: >-
+      the use of {{ sc_43_odp }} is authorized within the system;
   - id: b-2
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; usage restrictions; procedures
-          addressing usage restrictions; implementation policy and procedures;
-          authorization records; system monitoring records; system audit records;
+          System and communications protection policy; usage
+          restrictions; procedures addressing usage restrictions;
+          implementation policy and procedures; authorization
+          records; system monitoring records; system audit records;
           system security plan; other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; organizational personnel installing, configuring,
-          and/or maintaining the system
+          System/network administrators; organizational personnel
+          with information security responsibilities; organizational
+          personnel installing, configuring, and/or maintaining the
+          system
       - method: test
         statement: >
-          Organizational processes for authorizing, monitoring, and controlling the
-          use of components with usage restrictions; mechanisms supporting and/or
-          implementing, authorizing, monitoring, and controlling the use of components
-          with usage restrictions
-    statement: "the use of {{ sc_43_odp }} is monitored within the system;"
+          Organizational processes for authorizing, monitoring, and
+          controlling the use of components with usage restrictions;
+          mechanisms supporting and/or implementing, authorizing,
+          monitoring, and controlling the use of components with
+          usage restrictions
+    statement: >-
+      the use of {{ sc_43_odp }} is monitored within the system;
   - id: b-3
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; usage restrictions; procedures
-          addressing usage restrictions; implementation policy and procedures;
-          authorization records; system monitoring records; system audit records;
+          System and communications protection policy; usage
+          restrictions; procedures addressing usage restrictions;
+          implementation policy and procedures; authorization
+          records; system monitoring records; system audit records;
           system security plan; other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; organizational personnel installing, configuring,
-          and/or maintaining the system
+          System/network administrators; organizational personnel
+          with information security responsibilities; organizational
+          personnel installing, configuring, and/or maintaining the
+          system
       - method: test
         statement: >
-          Organizational processes for authorizing, monitoring, and controlling the
-          use of components with usage restrictions; mechanisms supporting and/or
-          implementing, authorizing, monitoring, and controlling the use of components
-          with usage restrictions
-    statement: "the use of {{ sc_43_odp }} is controlled within the system."
+          Organizational processes for authorizing, monitoring, and
+          controlling the use of components with usage restrictions;
+          mechanisms supporting and/or implementing, authorizing,
+          monitoring, and controlling the use of components with
+          usage restrictions
+    statement: >-
+      the use of {{ sc_43_odp }} is controlled within the system.
 parameters:
   sc_43_odp:
     label: components
 parts:
   - id: a
     statement: >
-      Establish usage restrictions and implementation guidelines for the following
-      system components: {{ sc_43_odp }} ; and
+      Establish usage restrictions and implementation guidelines for
+      the following system components: {{ sc_43_odp }} ; and
   - id: b
-    statement: "Authorize, monitor, and control the use of such components within the system."
+    statement: >-
+      Authorize, monitor, and control the use of such components
+      within the system.

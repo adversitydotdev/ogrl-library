@@ -13,78 +13,90 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Configuration management policy; procedures addressing least functionality
-          in the system; configuration management plan; system design documentation;
-          system configuration settings and associated documentation; list of software
-          programs not authorized to execute on the system; system component
-          inventory; common secure configuration checklists; review and update records
-          associated with list of unauthorized software programs; change control
-          records; system audit records; system security plan; other relevant
-          documents or records
+          Configuration management policy; procedures addressing
+          least functionality in the system; configuration
+          management plan; system design documentation; system
+          configuration settings and associated documentation; list
+          of software programs not authorized to execute on the
+          system; system component inventory; common secure
+          configuration checklists; review and update records
+          associated with list of unauthorized software programs;
+          change control records; system audit records; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with responsibilities for identifying software not
-          authorized to execute on the system; organizational personnel with
-          information security responsibilities; system/network administrators
+          Organizational personnel with responsibilities for
+          identifying software not authorized to execute on the
+          system; organizational personnel with information security
+          responsibilities; system/network administrators
       - method: test
         statement: >
-          Organizational process for identifying, reviewing, and updating programs not
-          authorized to execute on the system; organizational process for implementing
-          unauthorized software policy; mechanisms supporting and/or implementing
+          Organizational process for identifying, reviewing, and
+          updating programs not authorized to execute on the system;
+          organizational process for implementing unauthorized
+          software policy; mechanisms supporting and/or implementing
           unauthorized software policy
     statement: "{{ cm_07_04_odp_01 }} are identified;"
   - id: b
     methods:
       - method: examine
         statement: >
-          Configuration management policy; procedures addressing least functionality
-          in the system; configuration management plan; system design documentation;
-          system configuration settings and associated documentation; list of software
-          programs not authorized to execute on the system; system component
-          inventory; common secure configuration checklists; review and update records
-          associated with list of unauthorized software programs; change control
-          records; system audit records; system security plan; other relevant
-          documents or records
+          Configuration management policy; procedures addressing
+          least functionality in the system; configuration
+          management plan; system design documentation; system
+          configuration settings and associated documentation; list
+          of software programs not authorized to execute on the
+          system; system component inventory; common secure
+          configuration checklists; review and update records
+          associated with list of unauthorized software programs;
+          change control records; system audit records; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with responsibilities for identifying software not
-          authorized to execute on the system; organizational personnel with
-          information security responsibilities; system/network administrators
+          Organizational personnel with responsibilities for
+          identifying software not authorized to execute on the
+          system; organizational personnel with information security
+          responsibilities; system/network administrators
       - method: test
         statement: >
-          Organizational process for identifying, reviewing, and updating programs not
-          authorized to execute on the system; organizational process for implementing
-          unauthorized software policy; mechanisms supporting and/or implementing
+          Organizational process for identifying, reviewing, and
+          updating programs not authorized to execute on the system;
+          organizational process for implementing unauthorized
+          software policy; mechanisms supporting and/or implementing
           unauthorized software policy
     statement: >
-      an allow-all, deny-by-exception policy is employed to prohibit the execution
-      of unauthorized software programs on the system;
+      an allow-all, deny-by-exception policy is employed to prohibit
+      the execution of unauthorized software programs on the system;
   - id: c
     methods:
       - method: examine
         statement: >
-          Configuration management policy; procedures addressing least functionality
-          in the system; configuration management plan; system design documentation;
-          system configuration settings and associated documentation; list of software
-          programs not authorized to execute on the system; system component
-          inventory; common secure configuration checklists; review and update records
-          associated with list of unauthorized software programs; change control
-          records; system audit records; system security plan; other relevant
-          documents or records
+          Configuration management policy; procedures addressing
+          least functionality in the system; configuration
+          management plan; system design documentation; system
+          configuration settings and associated documentation; list
+          of software programs not authorized to execute on the
+          system; system component inventory; common secure
+          configuration checklists; review and update records
+          associated with list of unauthorized software programs;
+          change control records; system audit records; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with responsibilities for identifying software not
-          authorized to execute on the system; organizational personnel with
-          information security responsibilities; system/network administrators
+          Organizational personnel with responsibilities for
+          identifying software not authorized to execute on the
+          system; organizational personnel with information security
+          responsibilities; system/network administrators
       - method: test
         statement: >
-          Organizational process for identifying, reviewing, and updating programs not
-          authorized to execute on the system; organizational process for implementing
-          unauthorized software policy; mechanisms supporting and/or implementing
+          Organizational process for identifying, reviewing, and
+          updating programs not authorized to execute on the system;
+          organizational process for implementing unauthorized
+          software policy; mechanisms supporting and/or implementing
           unauthorized software policy
     statement: >
-      the list of unauthorized software programs is reviewed and updated
-      {{ cm_07_04_odp_02 }}.
+      the list of unauthorized software programs is reviewed and
+      updated {{ cm_07_04_odp_02 }}.
 parameters:
   cm_07_04_odp_01:
     label: software programs
@@ -95,8 +107,8 @@ parts:
     statement: "Identify {{ cm_07_04_odp_01 }};"
   - id: b
     statement: >
-      Employ an allow-all, deny-by-exception policy to prohibit the execution of
-      unauthorized software programs on the system; and
+      Employ an allow-all, deny-by-exception policy to prohibit the
+      execution of unauthorized software programs on the system; and
   - id: c
     statement: >
       Review and update the list of unauthorized software programs

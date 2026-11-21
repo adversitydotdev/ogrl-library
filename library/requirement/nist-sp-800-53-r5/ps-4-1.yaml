@@ -13,44 +13,52 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Personnel security policy; procedures addressing personnel termination;
-          signed post-employment acknowledgement forms; list of applicable, legally
-          binding post-employment requirements; system security plan; other relevant
+          Personnel security policy; procedures addressing personnel
+          termination; signed post-employment acknowledgement forms;
+          list of applicable, legally binding post-employment
+          requirements; system security plan; other relevant
           documents or records
       - method: interview
         statement: >
-          Organizational personnel with personnel security responsibilities;
-          organizational personnel with information security responsibilities
+          Organizational personnel with personnel security
+          responsibilities; organizational personnel with
+          information security responsibilities
       - method: test
-        statement: Organizational processes for post-employment requirements
+        statement: >-
+          Organizational processes for post-employment requirements
     statement: >
-      terminated individuals are notified of applicable, legally binding
-      post-employment requirements for the protection of organizational
-      information;
+      terminated individuals are notified of applicable, legally
+      binding post-employment requirements for the protection of
+      organizational information;
   - id: b
     methods:
       - method: examine
         statement: >
-          Personnel security policy; procedures addressing personnel termination;
-          signed post-employment acknowledgement forms; list of applicable, legally
-          binding post-employment requirements; system security plan; other relevant
+          Personnel security policy; procedures addressing personnel
+          termination; signed post-employment acknowledgement forms;
+          list of applicable, legally binding post-employment
+          requirements; system security plan; other relevant
           documents or records
       - method: interview
         statement: >
-          Organizational personnel with personnel security responsibilities;
-          organizational personnel with information security responsibilities
+          Organizational personnel with personnel security
+          responsibilities; organizational personnel with
+          information security responsibilities
       - method: test
-        statement: Organizational processes for post-employment requirements
+        statement: >-
+          Organizational processes for post-employment requirements
     statement: >
-      terminated individuals are required to sign an acknowledgement of
-      post-employment requirements as part of the organizational termination
-      process.
+      terminated individuals are required to sign an acknowledgement
+      of post-employment requirements as part of the organizational
+      termination process.
 parts:
   - id: a
     statement: >
-      Notify terminated individuals of applicable, legally binding post-employment
-      requirements for the protection of organizational information; and
+      Notify terminated individuals of applicable, legally binding
+      post-employment requirements for the protection of
+      organizational information; and
   - id: b
     statement: >
-      Require terminated individuals to sign an acknowledgment of post-employment
-      requirements as part of the organizational termination process.
+      Require terminated individuals to sign an acknowledgment of
+      post-employment requirements as part of the organizational
+      termination process.

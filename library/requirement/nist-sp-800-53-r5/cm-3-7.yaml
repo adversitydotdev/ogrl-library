@@ -13,25 +13,27 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Configuration management policy; procedures addressing system configuration
-          change control; configuration management plan; change control records;
-          system architecture and configuration documentation; system configuration
-          settings and associated documentation; system audit records; system
-          component inventory; system security plan; other relevant documents or
-          records
+          Configuration management policy; procedures addressing
+          system configuration change control; configuration
+          management plan; change control records; system
+          architecture and configuration documentation; system
+          configuration settings and associated documentation;
+          system audit records; system component inventory; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with configuration change control responsibilities;
-          organizational personnel with security responsibilities; system/network
-          administrators; members of change control board or similar
+          Organizational personnel with configuration change control
+          responsibilities; organizational personnel with security
+          responsibilities; system/network administrators; members
+          of change control board or similar
       - method: test
         statement: >
-          Organizational processes for configuration change control; mechanisms
-          implementing audit records for changes
+          Organizational processes for configuration change control;
+          mechanisms implementing audit records for changes
     statement: >
-      changes to the system are reviewed {{ cm_03_07_odp_01 }} or when
-      {{ cm_03_07_odp_02 }} to determine whether unauthorized changes have
-      occurred.
+      changes to the system are reviewed {{ cm_03_07_odp_01 }} or
+      when {{ cm_03_07_odp_02 }} to determine whether unauthorized
+      changes have occurred.
 parameters:
   cm_03_07_odp_01:
     label: frequency
@@ -39,5 +41,5 @@ parameters:
     label: circumstances
 statement: >
   Review changes to the system {{ cm_03_07_odp_01 }} or when
-  {{ cm_03_07_odp_02 }} to determine whether unauthorized changes have
-  occurred.
+  {{ cm_03_07_odp_02 }} to determine whether unauthorized changes
+  have occurred.

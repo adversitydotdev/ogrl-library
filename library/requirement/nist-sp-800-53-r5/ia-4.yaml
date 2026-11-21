@@ -29,79 +29,99 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Identification and authentication policy; procedures addressing identifier
-          management; procedures addressing account management; system security plan;
-          system design documentation; system configuration settings and associated
-          documentation; list of system accounts; list of identifiers generated from
-          physical access control devices; other relevant documents or records
+          Identification and authentication policy; procedures
+          addressing identifier management; procedures addressing
+          account management; system security plan; system design
+          documentation; system configuration settings and
+          associated documentation; list of system accounts; list of
+          identifiers generated from physical access control
+          devices; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with identifier management responsibilities;
-          organizational personnel with information security responsibilities;
-          system/network administrators; system developers
+          Organizational personnel with identifier management
+          responsibilities; organizational personnel with
+          information security responsibilities; system/network
+          administrators; system developers
       - method: test
-        statement: Mechanisms supporting and/or implementing identifier management
+        statement: >-
+          Mechanisms supporting and/or implementing identifier
+          management
     statement: >
       system identifiers are managed by receiving authorization from
-      {{ ia_04_odp_01 }} to assign to an individual, group, role, or device
-      identifier;
+      {{ ia_04_odp_01 }} to assign to an individual, group, role, or
+      device identifier;
   - id: b
     methods:
       - method: examine
         statement: >
-          Identification and authentication policy; procedures addressing identifier
-          management; procedures addressing account management; system security plan;
-          system design documentation; system configuration settings and associated
-          documentation; list of system accounts; list of identifiers generated from
-          physical access control devices; other relevant documents or records
+          Identification and authentication policy; procedures
+          addressing identifier management; procedures addressing
+          account management; system security plan; system design
+          documentation; system configuration settings and
+          associated documentation; list of system accounts; list of
+          identifiers generated from physical access control
+          devices; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with identifier management responsibilities;
-          organizational personnel with information security responsibilities;
-          system/network administrators; system developers
+          Organizational personnel with identifier management
+          responsibilities; organizational personnel with
+          information security responsibilities; system/network
+          administrators; system developers
       - method: test
-        statement: Mechanisms supporting and/or implementing identifier management
+        statement: >-
+          Mechanisms supporting and/or implementing identifier
+          management
     statement: >
-      system identifiers are managed by selecting an identifier that identifies an
-      individual, group, role, service, or device;
+      system identifiers are managed by selecting an identifier that
+      identifies an individual, group, role, service, or device;
   - id: c
     methods:
       - method: examine
         statement: >
-          Identification and authentication policy; procedures addressing identifier
-          management; procedures addressing account management; system security plan;
-          system design documentation; system configuration settings and associated
-          documentation; list of system accounts; list of identifiers generated from
-          physical access control devices; other relevant documents or records
+          Identification and authentication policy; procedures
+          addressing identifier management; procedures addressing
+          account management; system security plan; system design
+          documentation; system configuration settings and
+          associated documentation; list of system accounts; list of
+          identifiers generated from physical access control
+          devices; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with identifier management responsibilities;
-          organizational personnel with information security responsibilities;
-          system/network administrators; system developers
+          Organizational personnel with identifier management
+          responsibilities; organizational personnel with
+          information security responsibilities; system/network
+          administrators; system developers
       - method: test
-        statement: Mechanisms supporting and/or implementing identifier management
+        statement: >-
+          Mechanisms supporting and/or implementing identifier
+          management
     statement: >
-      system identifiers are managed by assigning the identifier to the intended
-      individual, group, role, service, or device;
+      system identifiers are managed by assigning the identifier to
+      the intended individual, group, role, service, or device;
   - id: d
     methods:
       - method: examine
         statement: >
-          Identification and authentication policy; procedures addressing identifier
-          management; procedures addressing account management; system security plan;
-          system design documentation; system configuration settings and associated
-          documentation; list of system accounts; list of identifiers generated from
-          physical access control devices; other relevant documents or records
+          Identification and authentication policy; procedures
+          addressing identifier management; procedures addressing
+          account management; system security plan; system design
+          documentation; system configuration settings and
+          associated documentation; list of system accounts; list of
+          identifiers generated from physical access control
+          devices; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with identifier management responsibilities;
-          organizational personnel with information security responsibilities;
-          system/network administrators; system developers
+          Organizational personnel with identifier management
+          responsibilities; organizational personnel with
+          information security responsibilities; system/network
+          administrators; system developers
       - method: test
-        statement: Mechanisms supporting and/or implementing identifier management
+        statement: >-
+          Mechanisms supporting and/or implementing identifier
+          management
     statement: >
-      system identifiers are managed by preventing reuse of identifiers for
-      {{ ia_04_odp_02 }}.
+      system identifiers are managed by preventing reuse of
+      identifiers for {{ ia_04_odp_02 }}.
 parameters:
   ia_04_odp_01:
     label: personnel or roles
@@ -110,16 +130,17 @@ parameters:
 parts:
   - id: a
     statement: >
-      Receiving authorization from {{ ia_04_odp_01 }} to assign an individual,
-      group, role, service, or device identifier;
+      Receiving authorization from {{ ia_04_odp_01 }} to assign an
+      individual, group, role, service, or device identifier;
   - id: b
     statement: >
-      Selecting an identifier that identifies an individual, group, role, service,
-      or device;
+      Selecting an identifier that identifies an individual, group,
+      role, service, or device;
   - id: c
     statement: >
-      Assigning the identifier to the intended individual, group, role, service,
-      or device; and
+      Assigning the identifier to the intended individual, group,
+      role, service, or device; and
   - id: d
-    statement: "Preventing reuse of identifiers for {{ ia_04_odp_02 }}."
+    statement: >-
+      Preventing reuse of identifiers for {{ ia_04_odp_02 }}.
 statement: "Manage system identifiers by:"

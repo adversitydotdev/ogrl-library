@@ -13,55 +13,72 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Audit and accountability policy; system security plan; privacy plan;
-          procedures addressing information disclosure monitoring; system design
-          documentation; system configuration settings and associated documentation;
-          monitoring records; system audit records; other relevant documents or
-          records
+          Audit and accountability policy; system security plan;
+          privacy plan; procedures addressing information disclosure
+          monitoring; system design documentation; system
+          configuration settings and associated documentation;
+          monitoring records; system audit records; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with responsibilities for monitoring open-source
-          information and/or information sites; organizational personnel with security
-          and privacy responsibilities
+          Organizational personnel with responsibilities for
+          monitoring open-source information and/or information
+          sites; organizational personnel with security and privacy
+          responsibilities
       - method: test
-        statement: Mechanisms implementing monitoring for information disclosure
+        statement: >-
+          Mechanisms implementing monitoring for information
+          disclosure
     statement: >
-      {{ au_13_odp_01 }} is/are monitored {{ au_13_odp_02 }} for evidence of
-      unauthorized disclosure of organizational information;
+      {{ au_13_odp_01 }} is/are monitored {{ au_13_odp_02 }} for
+      evidence of unauthorized disclosure of organizational
+      information;
   - id: b.1
     methods:
       - method: examine
         statement: >
-          Audit and accountability policy; system security plan; privacy plan;
-          procedures addressing information disclosure monitoring; system design
-          documentation; system configuration settings and associated documentation;
-          monitoring records; system audit records; other relevant documents or
-          records
+          Audit and accountability policy; system security plan;
+          privacy plan; procedures addressing information disclosure
+          monitoring; system design documentation; system
+          configuration settings and associated documentation;
+          monitoring records; system audit records; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with responsibilities for monitoring open-source
-          information and/or information sites; organizational personnel with security
-          and privacy responsibilities
+          Organizational personnel with responsibilities for
+          monitoring open-source information and/or information
+          sites; organizational personnel with security and privacy
+          responsibilities
       - method: test
-        statement: Mechanisms implementing monitoring for information disclosure
-    statement: "{{ au_13_odp_03 }} are notified if an information disclosure is discovered;"
+        statement: >-
+          Mechanisms implementing monitoring for information
+          disclosure
+    statement: >-
+      {{ au_13_odp_03 }} are notified if an information disclosure
+      is discovered;
   - id: b.2
     methods:
       - method: examine
         statement: >
-          Audit and accountability policy; system security plan; privacy plan;
-          procedures addressing information disclosure monitoring; system design
-          documentation; system configuration settings and associated documentation;
-          monitoring records; system audit records; other relevant documents or
-          records
+          Audit and accountability policy; system security plan;
+          privacy plan; procedures addressing information disclosure
+          monitoring; system design documentation; system
+          configuration settings and associated documentation;
+          monitoring records; system audit records; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with responsibilities for monitoring open-source
-          information and/or information sites; organizational personnel with security
-          and privacy responsibilities
+          Organizational personnel with responsibilities for
+          monitoring open-source information and/or information
+          sites; organizational personnel with security and privacy
+          responsibilities
       - method: test
-        statement: Mechanisms implementing monitoring for information disclosure
-    statement: "{{ au_13_odp_04 }} are taken if an information disclosure is discovered."
+        statement: >-
+          Mechanisms implementing monitoring for information
+          disclosure
+    statement: >-
+      {{ au_13_odp_04 }} are taken if an information disclosure is
+      discovered.
 parameters:
   au_13_odp_01:
     label: open-source information and/or information sites
@@ -74,11 +91,12 @@ parameters:
 parts:
   - id: a
     statement: >
-      Monitor {{ au_13_odp_01 }} {{ au_13_odp_02 }} for evidence of unauthorized
-      disclosure of organizational information; and
+      Monitor {{ au_13_odp_01 }} {{ au_13_odp_02 }} for evidence of
+      unauthorized disclosure of organizational information; and
   - id: b
     statement: "If an information disclosure is discovered:"
   - id: b.1
     statement: "Notify {{ au_13_odp_03 }} ; and"
   - id: b.2
-    statement: "Take the following additional actions: {{ au_13_odp_04 }}."
+    statement: >-
+      Take the following additional actions: {{ au_13_odp_04 }}.

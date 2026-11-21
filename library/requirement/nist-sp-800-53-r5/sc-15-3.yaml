@@ -13,30 +13,34 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; procedures addressing
-          collaborative computing; access control policy and procedures; system design
-          documentation; system configuration settings and associated documentation;
-          system audit records; list of secure work areas; systems or system
-          components in secured work areas where collaborative computing devices are
-          to be disabled or removed; system security plan; other relevant documents or
+          System and communications protection policy; procedures
+          addressing collaborative computing; access control policy
+          and procedures; system design documentation; system
+          configuration settings and associated documentation;
+          system audit records; list of secure work areas; systems
+          or system components in secured work areas where
+          collaborative computing devices are to be disabled or
+          removed; system security plan; other relevant documents or
           records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; organizational personnel with responsibilities
-          for managing collaborative computing devices
+          System/network administrators; organizational personnel
+          with information security responsibilities; organizational
+          personnel with responsibilities for managing collaborative
+          computing devices
       - method: test
         statement: >
-          Mechanisms supporting and/or implementing the capability to disable
-          collaborative computing devices
+          Mechanisms supporting and/or implementing the capability
+          to disable collaborative computing devices
     statement: >
-      collaborative computing devices and applications are disabled or removed
-      from {{ sc_15_03_odp_01 }} in {{ sc_15_03_odp_02 }}.
+      collaborative computing devices and applications are disabled
+      or removed from {{ sc_15_03_odp_01 }} in
+      {{ sc_15_03_odp_02 }}.
 parameters:
   sc_15_03_odp_01:
     label: systems or system components
   sc_15_03_odp_02:
     label: secure work areas
 statement: >
-  Disable or remove collaborative computing devices and applications from
-  {{ sc_15_03_odp_01 }} in {{ sc_15_03_odp_02 }}.
+  Disable or remove collaborative computing devices and applications
+  from {{ sc_15_03_odp_01 }} in {{ sc_15_03_odp_02 }}.

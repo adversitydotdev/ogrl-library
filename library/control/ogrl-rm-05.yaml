@@ -9,14 +9,15 @@ control_type: detective
 family: rm
 frequency: event-driven
 guidance: >
-  Trigger the evaluation from the architecture review or design-doc template,
-  vendor onboarding, and leadership or legal change processes. A short
-  structured note (what changed, new risks, affected controls, decision)
-  linked to the register entry is sufficient. Routine code changes are covered
-  by change management, not this control.
+  Trigger the evaluation from the architecture review or design-doc
+  template, vendor onboarding, and leadership or legal change
+  processes. A short structured note (what changed, new risks,
+  affected controls, decision) linked to the register entry is
+  sufficient. Routine code changes are covered by change management,
+  not this control.
 objective: >
-  Risk and control impacts of significant changes are understood and addressed
-  before the changes take effect.
+  Risk and control impacts of significant changes are understood and
+  addressed before the changes take effect.
 origin: standard
 parameters:
   change_risk_approver:
@@ -25,17 +26,17 @@ parameters:
   significant_changes:
     label: Changes requiring risk evaluation
     value: >
-      new products or major features, architecture or hosting changes, new
-      critical vendors, acquisitions, leadership changes, and new regulatory
-      obligations
+      new products or major features, architecture or hosting
+      changes, new critical vendors, acquisitions, leadership
+      changes, and new regulatory obligations
 statement: >
   Before a significant change takes effect, including
-  {{ significant_changes }}, evaluate its effect on security risk and on
-  existing controls, document the evaluation, update the risk register, and
-  obtain approval from {{ change_risk_approver }}.
+  {{ significant_changes }}, evaluate its effect on security risk
+  and on existing controls, document the evaluation, update the risk
+  register, and obtain approval from {{ change_risk_approver }}.
 summary: >
-  Evaluate security risk before significant changes take effect and update the
-  risk register accordingly.
+  Evaluate security risk before significant changes take effect and
+  update the risk register accordingly.
 tags:
   - risk-management
   - change-management

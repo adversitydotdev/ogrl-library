@@ -10,5 +10,7 @@ rationale: functional
 relationship: equivalent-to
 review_status: reviewed
 source_ref: control--ogrl-vm-01
-summary: "Sharing vulnerability advisories with service owners satisfies NIST RA-5(e)."
+summary: >-
+  Sharing vulnerability advisories with service owners satisfies
+  NIST RA-5(e).
 target_ref: "requirement--nist-sp-800-53-r5-ra-5#e"

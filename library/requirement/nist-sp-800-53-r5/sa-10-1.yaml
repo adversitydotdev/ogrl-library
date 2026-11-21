@@ -13,29 +13,36 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and services acquisition policy; procedures addressing system
-          developer configuration management; solicitation documentation; acquisition
-          documentation; service level agreements; acquisition contracts for the
-          system, system component, or system service; system developer configuration
-          management plan; software and firmware integrity verification records;
-          system change authorization records; change control records; configuration
-          management records; system security plan; supply chain risk management plan;
-          other relevant documents or records
+          System and services acquisition policy; procedures
+          addressing system developer configuration management;
+          solicitation documentation; acquisition documentation;
+          service level agreements; acquisition contracts for the
+          system, system component, or system service; system
+          developer configuration management plan; software and
+          firmware integrity verification records; system change
+          authorization records; change control records;
+          configuration management records; system security plan;
+          supply chain risk management plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with system and service acquisition
-          responsibilities; organizational personnel with information security
-          responsibilities; organizational personnel with configuration management
-          responsibilities; system developers; organizational personnel with supply
+          Organizational personnel with system and service
+          acquisition responsibilities; organizational personnel
+          with information security responsibilities; organizational
+          personnel with configuration management responsibilities;
+          system developers; organizational personnel with supply
           chain risk management responsibilities
       - method: test
         statement: >
-          Organizational processes for monitoring developer configuration management;
-          mechanisms supporting and/or implementing the monitoring of developer
-          configuration management
+          Organizational processes for monitoring developer
+          configuration management; mechanisms supporting and/or
+          implementing the monitoring of developer configuration
+          management
     statement: >
-      the developer of the system, system component, or system service is required
-      to enable integrity verification of software and firmware components.
+      the developer of the system, system component, or system
+      service is required to enable integrity verification of
+      software and firmware components.
 statement: >
-  Require the developer of the system, system component, or system service to
-  enable integrity verification of software and firmware components.
+  Require the developer of the system, system component, or system
+  service to enable integrity verification of software and firmware
+  components.

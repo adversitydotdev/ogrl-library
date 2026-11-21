@@ -13,25 +13,28 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; personally identifiable information processing policy;
-          procedures addressing data tagging; personally identifiable information
-          inventory; system audit records; audit findings; system security plan;
-          privacy plan; privacy impact assessment; privacy risk assessment
-          documentation; other relevant documents or records
+          System and information integrity policy; system and
+          information integrity procedures; personally identifiable
+          information processing policy; procedures addressing data
+          tagging; personally identifiable information inventory;
+          system audit records; audit findings; system security
+          plan; privacy plan; privacy impact assessment; privacy
+          risk assessment documentation; other relevant documents or
+          records
       - method: interview
         statement: >
-          Organizational personnel responsible for tagging data; organizational
-          personnel with information security and privacy responsibilities
+          Organizational personnel responsible for tagging data;
+          organizational personnel with information security and
+          privacy responsibilities
       - method: test
         statement: >
-          Data tagging mechanisms; automated mechanisms supporting and/or implementing
-          data tagging
+          Data tagging mechanisms; automated mechanisms supporting
+          and/or implementing data tagging
     statement: >
-      data tags are employed to automate the correction or deletion of personally
-      identifiable information across the information life cycle within
-      organizational systems.
+      data tags are employed to automate the correction or deletion
+      of personally identifiable information across the information
+      life cycle within organizational systems.
 statement: >
-  Employ data tags to automate the correction or deletion of personally
-  identifiable information across the information life cycle within
-  organizational systems.
+  Employ data tags to automate the correction or deletion of
+  personally identifiable information across the information life
+  cycle within organizational systems.

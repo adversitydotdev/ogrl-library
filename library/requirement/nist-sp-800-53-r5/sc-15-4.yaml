@@ -13,25 +13,31 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; procedures addressing
-          collaborative computing; access control policy and procedures; system design
-          documentation; system configuration settings and associated documentation;
-          system audit records; list of types of meetings and teleconferences
-          requiring explicit indication of current participants; system security plan;
-          other relevant documents or records
+          System and communications protection policy; procedures
+          addressing collaborative computing; access control policy
+          and procedures; system design documentation; system
+          configuration settings and associated documentation;
+          system audit records; list of types of meetings and
+          teleconferences requiring explicit indication of current
+          participants; system security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; organizational personnel with responsibilities
-          for managing collaborative computing devices
+          System/network administrators; organizational personnel
+          with information security responsibilities; organizational
+          personnel with responsibilities for managing collaborative
+          computing devices
       - method: test
         statement: >
-          Mechanisms supporting and/or implementing the capability to indicate
-          participants on collaborative computing devices
+          Mechanisms supporting and/or implementing the capability
+          to indicate participants on collaborative computing
+          devices
     statement: >
-      an explicit indication of current participants in {{ sc_15_04_odp }} is
-      provided.
+      an explicit indication of current participants in
+      {{ sc_15_04_odp }} is provided.
 parameters:
   sc_15_04_odp:
     label: online meetings and teleconferences
-statement: "Provide an explicit indication of current participants in {{ sc_15_04_odp }}."
+statement: >-
+  Provide an explicit indication of current participants in
+  {{ sc_15_04_odp }}.

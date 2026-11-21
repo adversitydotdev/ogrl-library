@@ -13,22 +13,28 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Information flow enforcement policy; procedures addressing information flow
-          enforcement; system design documentation; system configuration settings and
-          associated documentation; system audit records; system security plan; other
-          relevant documents or records
+          Information flow enforcement policy; procedures addressing
+          information flow enforcement; system design documentation;
+          system configuration settings and associated
+          documentation; system audit records; system security plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with information flow enforcement responsibilities;
-          system/network administrators; organizational personnel with information
-          security responsibilities
+          Organizational personnel with information flow enforcement
+          responsibilities; system/network administrators;
+          organizational personnel with information security
+          responsibilities
       - method: test
-        statement: Mechanisms implementing information flow enforcement functions
+        statement: >-
+          Mechanisms implementing information flow enforcement
+          functions
     statement: >
-      access is provided from a single device to computing platforms,
-      applications, or data that reside in multiple different security domains
-      while preventing information flow between the different security domains.
+      access is provided from a single device to computing
+      platforms, applications, or data that reside in multiple
+      different security domains while preventing information flow
+      between the different security domains.
 statement: >
-  Provide access from a single device to computing platforms, applications, or
-  data residing in multiple different security domains, while preventing
-  information flow between the different security domains.
+  Provide access from a single device to computing platforms,
+  applications, or data residing in multiple different security
+  domains, while preventing information flow between the different
+  security domains.

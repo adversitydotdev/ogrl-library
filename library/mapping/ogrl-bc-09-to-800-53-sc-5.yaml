@@ -11,5 +11,7 @@ rationale: functional
 relationship: equivalent-to
 review_status: draft
 source_ref: control--ogrl-bc-09
-summary: Layered denial-of-service mitigations for defined attack types satisfy SC-5.
+summary: >-
+  Layered denial-of-service mitigations for defined attack types
+  satisfy SC-5.
 target_ref: requirement--nist-sp-800-53-r5-sc-5

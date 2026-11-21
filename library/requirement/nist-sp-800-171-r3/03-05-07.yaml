@@ -17,155 +17,171 @@ objectives:
     methods:
       - method: examine
         statement: >
-          identification and authentication policy and procedures; password policy;
-          procedures for authenticator management; system design documentation; system
-          configuration settings; password configurations; system security plan; other
-          relevant documents or records
+          identification and authentication policy and procedures;
+          password policy; procedures for authenticator management;
+          system design documentation; system configuration
+          settings; password configurations; system security plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          personnel with authenticator management responsibilities; personnel with
-          information security responsibilities; system developers; system
-          administrators
+          personnel with authenticator management responsibilities;
+          personnel with information security responsibilities;
+          system developers; system administrators
       - method: test
         statement: >
-          mechanisms for supporting or implementing a password-based authenticator
-          management capability
-    statement: "a list of commonly used, expected, or compromised passwords is maintained."
+          mechanisms for supporting or implementing a password-based
+          authenticator management capability
+    statement: >-
+      a list of commonly used, expected, or compromised passwords is
+      maintained.
   - id: a.02
     methods:
       - method: examine
         statement: >
-          identification and authentication policy and procedures; password policy;
-          procedures for authenticator management; system design documentation; system
-          configuration settings; password configurations; system security plan; other
-          relevant documents or records
+          identification and authentication policy and procedures;
+          password policy; procedures for authenticator management;
+          system design documentation; system configuration
+          settings; password configurations; system security plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          personnel with authenticator management responsibilities; personnel with
-          information security responsibilities; system developers; system
-          administrators
+          personnel with authenticator management responsibilities;
+          personnel with information security responsibilities;
+          system developers; system administrators
       - method: test
         statement: >
-          mechanisms for supporting or implementing a password-based authenticator
-          management capability
+          mechanisms for supporting or implementing a password-based
+          authenticator management capability
     statement: >
-      a list of commonly used, expected, or compromised passwords is updated
-      {{ a_03_05_07_odp_01 }}.
+      a list of commonly used, expected, or compromised passwords is
+      updated {{ a_03_05_07_odp_01 }}.
   - id: a.03
     methods:
       - method: examine
         statement: >
-          identification and authentication policy and procedures; password policy;
-          procedures for authenticator management; system design documentation; system
-          configuration settings; password configurations; system security plan; other
-          relevant documents or records
+          identification and authentication policy and procedures;
+          password policy; procedures for authenticator management;
+          system design documentation; system configuration
+          settings; password configurations; system security plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          personnel with authenticator management responsibilities; personnel with
-          information security responsibilities; system developers; system
-          administrators
+          personnel with authenticator management responsibilities;
+          personnel with information security responsibilities;
+          system developers; system administrators
       - method: test
         statement: >
-          mechanisms for supporting or implementing a password-based authenticator
-          management capability
+          mechanisms for supporting or implementing a password-based
+          authenticator management capability
     statement: >
-      a list of commonly used, expected, or compromised passwords is updated when
-      organizational passwords are suspected to have been compromised.
+      a list of commonly used, expected, or compromised passwords is
+      updated when organizational passwords are suspected to have
+      been compromised.
   - id: b
     methods:
       - method: examine
         statement: >
-          identification and authentication policy and procedures; password policy;
-          procedures for authenticator management; system design documentation; system
-          configuration settings; password configurations; system security plan; other
-          relevant documents or records
+          identification and authentication policy and procedures;
+          password policy; procedures for authenticator management;
+          system design documentation; system configuration
+          settings; password configurations; system security plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          personnel with authenticator management responsibilities; personnel with
-          information security responsibilities; system developers; system
-          administrators
+          personnel with authenticator management responsibilities;
+          personnel with information security responsibilities;
+          system developers; system administrators
       - method: test
         statement: >
-          mechanisms for supporting or implementing a password-based authenticator
-          management capability
+          mechanisms for supporting or implementing a password-based
+          authenticator management capability
     statement: >
-      passwords are verified not to be found on the list of commonly used,
-      expected, or compromised passwords when they are created or updated by
-      users.
+      passwords are verified not to be found on the list of commonly
+      used, expected, or compromised passwords when they are created
+      or updated by users.
   - id: c
     methods:
       - method: examine
         statement: >
-          identification and authentication policy and procedures; password policy;
-          procedures for authenticator management; system design documentation; system
-          configuration settings; password configurations; system security plan; other
-          relevant documents or records
+          identification and authentication policy and procedures;
+          password policy; procedures for authenticator management;
+          system design documentation; system configuration
+          settings; password configurations; system security plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          personnel with authenticator management responsibilities; personnel with
-          information security responsibilities; system developers; system
-          administrators
+          personnel with authenticator management responsibilities;
+          personnel with information security responsibilities;
+          system developers; system administrators
       - method: test
         statement: >
-          mechanisms for supporting or implementing a password-based authenticator
-          management capability
-    statement: passwords are only transmitted over cryptographically protected channels.
+          mechanisms for supporting or implementing a password-based
+          authenticator management capability
+    statement: >-
+      passwords are only transmitted over cryptographically
+      protected channels.
   - id: d
     methods:
       - method: examine
         statement: >
-          identification and authentication policy and procedures; password policy;
-          procedures for authenticator management; system design documentation; system
-          configuration settings; password configurations; system security plan; other
-          relevant documents or records
+          identification and authentication policy and procedures;
+          password policy; procedures for authenticator management;
+          system design documentation; system configuration
+          settings; password configurations; system security plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          personnel with authenticator management responsibilities; personnel with
-          information security responsibilities; system developers; system
-          administrators
+          personnel with authenticator management responsibilities;
+          personnel with information security responsibilities;
+          system developers; system administrators
       - method: test
         statement: >
-          mechanisms for supporting or implementing a password-based authenticator
-          management capability
-    statement: passwords are stored in a cryptographically protected form.
+          mechanisms for supporting or implementing a password-based
+          authenticator management capability
+    statement: >-
+      passwords are stored in a cryptographically protected form.
   - id: e
     methods:
       - method: examine
         statement: >
-          identification and authentication policy and procedures; password policy;
-          procedures for authenticator management; system design documentation; system
-          configuration settings; password configurations; system security plan; other
-          relevant documents or records
+          identification and authentication policy and procedures;
+          password policy; procedures for authenticator management;
+          system design documentation; system configuration
+          settings; password configurations; system security plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          personnel with authenticator management responsibilities; personnel with
-          information security responsibilities; system developers; system
-          administrators
+          personnel with authenticator management responsibilities;
+          personnel with information security responsibilities;
+          system developers; system administrators
       - method: test
         statement: >
-          mechanisms for supporting or implementing a password-based authenticator
-          management capability
-    statement: a new password is selected upon first use after account recovery.
+          mechanisms for supporting or implementing a password-based
+          authenticator management capability
+    statement: >-
+      a new password is selected upon first use after account
+      recovery.
   - id: f
     methods:
       - method: examine
         statement: >
-          identification and authentication policy and procedures; password policy;
-          procedures for authenticator management; system design documentation; system
-          configuration settings; password configurations; system security plan; other
-          relevant documents or records
+          identification and authentication policy and procedures;
+          password policy; procedures for authenticator management;
+          system design documentation; system configuration
+          settings; password configurations; system security plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          personnel with authenticator management responsibilities; personnel with
-          information security responsibilities; system developers; system
-          administrators
+          personnel with authenticator management responsibilities;
+          personnel with information security responsibilities;
+          system developers; system administrators
       - method: test
         statement: >
-          mechanisms for supporting or implementing a password-based authenticator
-          management capability
+          mechanisms for supporting or implementing a password-based
+          authenticator management capability
     statement: >
-      the following composition and complexity rules for passwords are enforced:
-      {{ a_03_05_07_odp_02 }}.
+      the following composition and complexity rules for passwords
+      are enforced: {{ a_03_05_07_odp_02 }}.
 parameters:
   a_03_05_07_odp_01:
     label: frequency
@@ -174,20 +190,26 @@ parameters:
 parts:
   - id: a
     statement: >
-      Maintain a list of commonly-used, expected, or compromised passwords, and
-      update the list {{ a_03_05_07_odp_01 }} and when organizational passwords
-      are suspected to have been compromised.
+      Maintain a list of commonly-used, expected, or compromised
+      passwords, and update the list {{ a_03_05_07_odp_01 }} and
+      when organizational passwords are suspected to have been
+      compromised.
   - id: b
     statement: >
-      Verify that passwords are not found on the list of commonly used, expected,
-      or compromised passwords when users create or update passwords.
+      Verify that passwords are not found on the list of commonly
+      used, expected, or compromised passwords when users create or
+      update passwords.
   - id: c
-    statement: Transmit passwords only over cryptographically protected channels.
+    statement: >-
+      Transmit passwords only over cryptographically protected
+      channels.
   - id: d
-    statement: Store passwords in a cryptographically protected form.
+    statement: >-
+      Store passwords in a cryptographically protected form.
   - id: e
-    statement: Select a new password upon first use after account recovery.
+    statement: >-
+      Select a new password upon first use after account recovery.
   - id: f
     statement: >
-      Enforce the following composition and complexity rules for passwords:
-      {{ a_03_05_07_odp_02 }}.
+      Enforce the following composition and complexity rules for
+      passwords: {{ a_03_05_07_odp_02 }}.

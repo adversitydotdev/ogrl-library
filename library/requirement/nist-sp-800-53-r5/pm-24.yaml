@@ -23,43 +23,51 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Privacy program plan; privacy program documents relating to the Data
-          Integrity Board, including documents establishing the board, its charter of
-          operations, and any plans and reports; computer matching agreements and
-          notices; information sharing agreements; memoranda of understanding; records
-          documenting annual reviews; governing requirements, including laws,
-          executive orders, regulations, standards, and guidance
+          Privacy program plan; privacy program documents relating
+          to the Data Integrity Board, including documents
+          establishing the board, its charter of operations, and any
+          plans and reports; computer matching agreements and
+          notices; information sharing agreements; memoranda of
+          understanding; records documenting annual reviews;
+          governing requirements, including laws, executive orders,
+          regulations, standards, and guidance
       - method: interview
         statement: >
-          members of the Data Integrity Board (e.g., the chief information officer,
-          senior information security officer, senior agency official for privacy, and
-          agency Inspector General)
+          members of the Data Integrity Board (e.g., the chief
+          information officer, senior information security officer,
+          senior agency official for privacy, and agency Inspector
+          General)
     statement: >
-      the Data Integrity Board reviews proposals to conduct or participate in a
-      matching program;
+      the Data Integrity Board reviews proposals to conduct or
+      participate in a matching program;
   - id: b
     methods:
       - method: examine
         statement: >
-          Privacy program plan; privacy program documents relating to the Data
-          Integrity Board, including documents establishing the board, its charter of
-          operations, and any plans and reports; computer matching agreements and
-          notices; information sharing agreements; memoranda of understanding; records
-          documenting annual reviews; governing requirements, including laws,
-          executive orders, regulations, standards, and guidance
+          Privacy program plan; privacy program documents relating
+          to the Data Integrity Board, including documents
+          establishing the board, its charter of operations, and any
+          plans and reports; computer matching agreements and
+          notices; information sharing agreements; memoranda of
+          understanding; records documenting annual reviews;
+          governing requirements, including laws, executive orders,
+          regulations, standards, and guidance
       - method: interview
         statement: >
-          members of the Data Integrity Board (e.g., the chief information officer,
-          senior information security officer, senior agency official for privacy, and
-          agency Inspector General)
+          members of the Data Integrity Board (e.g., the chief
+          information officer, senior information security officer,
+          senior agency official for privacy, and agency Inspector
+          General)
     statement: >
-      the Data Integrity Board conducts an annual review of all matching programs
-      in which the agency has participated.
+      the Data Integrity Board conducts an annual review of all
+      matching programs in which the agency has participated.
 parts:
   - id: a
-    statement: Review proposals to conduct or participate in a matching program; and
+    statement: >-
+      Review proposals to conduct or participate in a matching
+      program; and
   - id: b
     statement: >
-      Conduct an annual review of all matching programs in which the agency has
-      participated.
+      Conduct an annual review of all matching programs in which the
+      agency has participated.
 statement: "Establish a Data Integrity Board to:"

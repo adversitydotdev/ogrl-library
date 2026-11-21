@@ -9,18 +9,19 @@ control_type: detective
 family: lm
 frequency: continuous
 guidance: >
-  Synchronize system clocks via NTP, enforce append-only or write-once storage
-  policies on log buckets, and ensure log shippers alert on ingestion drops.
+  Synchronize system clocks via NTP, enforce append-only or
+  write-once storage policies on log buckets, and ensure log
+  shippers alert on ingestion drops.
 objective: >
-  Maintain reliable, tamper-resistant audit trails sufficient for forensic
-  investigation and accountability.
+  Maintain reliable, tamper-resistant audit trails sufficient for
+  forensic investigation and accountability.
 origin: standard
 parameters:
   logged_events:
     label: Auditable security event types
     value: >
-      authentication attempts, privilege changes, configuration mutations, and
-      sensitive data access
+      authentication attempts, privilege changes, configuration
+      mutations, and sensitive data access
   logging_review_cadence:
     label: Logging scope review cadence
     value: annually
@@ -28,13 +29,13 @@ parameters:
     label: Minimum audit log retention period
     value: "365 days"
 statement: >
-  Log {{ logged_events }} across all in-scope systems to a centralized,
-  access-controlled log store, review logging coverage
-  {{ logging_review_cadence }}, and retain audit records for at least
-  {{ retention_period }}.
+  Log {{ logged_events }} across all in-scope systems to a
+  centralized, access-controlled log store, review logging coverage
+  {{ logging_review_cadence }}, and retain audit records for at
+  least {{ retention_period }}.
 summary: >
-  Capture security-relevant authentication, authorization, and administrative
-  logs centrally with tamper-resistant retention.
+  Capture security-relevant authentication, authorization, and
+  administrative logs centrally with tamper-resistant retention.
 tags:
   - logging
   - audit

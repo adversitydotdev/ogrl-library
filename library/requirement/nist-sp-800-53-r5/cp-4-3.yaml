@@ -13,19 +13,23 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Contingency planning policy; procedures addressing contingency plan testing;
-          contingency plan; automated mechanisms supporting contingency plan testing;
-          contingency plan test documentation; contingency plan test results; system
-          security plan; other relevant documents or records
+          Contingency planning policy; procedures addressing
+          contingency plan testing; contingency plan; automated
+          mechanisms supporting contingency plan testing;
+          contingency plan test documentation; contingency plan test
+          results; system security plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          Organizational personnel with contingency plan testing responsibilities;
-          organizational personnel with information security responsibilities
+          Organizational personnel with contingency plan testing
+          responsibilities; organizational personnel with
+          information security responsibilities
       - method: test
         statement: >
-          Organizational processes for contingency plan testing; automated mechanisms
-          supporting contingency plan testing
-    statement: "the contingency plan is tested using {{ cp_04_03_odp }}."
+          Organizational processes for contingency plan testing;
+          automated mechanisms supporting contingency plan testing
+    statement: >-
+      the contingency plan is tested using {{ cp_04_03_odp }}.
 parameters:
   cp_04_03_odp:
     label: automated mechanisms

@@ -13,21 +13,24 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Audit and accountability policy; system security plan; privacy plan;
-          procedures addressing audit review, analysis, and reporting; system design
-          documentation; system configuration settings and associated documentation;
-          system audit records across different repositories; other relevant documents
-          or records
+          Audit and accountability policy; system security plan;
+          privacy plan; procedures addressing audit review,
+          analysis, and reporting; system design documentation;
+          system configuration settings and associated
+          documentation; system audit records across different
+          repositories; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with audit review, analysis, and reporting
-          responsibilities; organizational personnel with information security and
-          privacy responsibilities
+          Organizational personnel with audit review, analysis, and
+          reporting responsibilities; organizational personnel with
+          information security and privacy responsibilities
       - method: test
-        statement: Mechanisms supporting the analysis and correlation of audit records
+        statement: >-
+          Mechanisms supporting the analysis and correlation of
+          audit records
     statement: >
-      audit records across different repositories are analyzed and correlated to
-      gain organization-wide situational awareness.
+      audit records across different repositories are analyzed and
+      correlated to gain organization-wide situational awareness.
 statement: >
-  Analyze and correlate audit records across different repositories to gain
-  organization-wide situational awareness.
+  Analyze and correlate audit records across different repositories
+  to gain organization-wide situational awareness.

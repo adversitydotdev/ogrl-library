@@ -13,16 +13,23 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Audit and accountability policy; system security plan; privacy plan;
-          procedures addressing cross-organizational audit trails; system design
-          documentation; system configuration settings and associated documentation;
+          Audit and accountability policy; system security plan;
+          privacy plan; procedures addressing cross-organizational
+          audit trails; system design documentation; system
+          configuration settings and associated documentation;
           system audit records; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with cross-organizational audit responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities
+          Organizational personnel with cross-organizational audit
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities
       - method: test
-        statement: "Mechanisms implementing cross-organizational auditing (if applicable)"
-    statement: the identity of individuals in cross-organizational audit trails is preserved.
-statement: Preserve the identity of individuals in cross-organizational audit trails.
+        statement: >-
+          Mechanisms implementing cross-organizational auditing (if
+          applicable)
+    statement: >-
+      the identity of individuals in cross-organizational audit
+      trails is preserved.
+statement: >-
+  Preserve the identity of individuals in cross-organizational audit
+  trails.

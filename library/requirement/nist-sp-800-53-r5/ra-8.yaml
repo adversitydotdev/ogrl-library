@@ -23,82 +23,101 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Risk assessment policy; security and privacy risk assessment reports;
-          acquisitions documents; system security plan; privacy plan; other relevant
-          documents or records
+          Risk assessment policy; security and privacy risk
+          assessment reports; acquisitions documents; system
+          security plan; privacy plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          Organizational personnel with assessment and auditing responsibilities;
-          system/network administrators; system developers; program managers; legal
-          counsel; organizational personnel with security and privacy responsibilities
+          Organizational personnel with assessment and auditing
+          responsibilities; system/network administrators; system
+          developers; program managers; legal counsel;
+          organizational personnel with security and privacy
+          responsibilities
       - method: test
         statement: >
-          Organizational processes for assessments and audits; mechanisms/tools
-          supporting and/or implementing assessments and auditing
+          Organizational processes for assessments and audits;
+          mechanisms/tools supporting and/or implementing
+          assessments and auditing
     statement: >
-      privacy impact assessments are conducted for systems, programs, or other
-      activities before developing or procuring information technology that
-      processes personally identifiable information;
+      privacy impact assessments are conducted for systems,
+      programs, or other activities before developing or procuring
+      information technology that processes personally identifiable
+      information;
   - id: b-1
     methods:
       - method: examine
         statement: >
-          Risk assessment policy; security and privacy risk assessment reports;
-          acquisitions documents; system security plan; privacy plan; other relevant
-          documents or records
+          Risk assessment policy; security and privacy risk
+          assessment reports; acquisitions documents; system
+          security plan; privacy plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          Organizational personnel with assessment and auditing responsibilities;
-          system/network administrators; system developers; program managers; legal
-          counsel; organizational personnel with security and privacy responsibilities
+          Organizational personnel with assessment and auditing
+          responsibilities; system/network administrators; system
+          developers; program managers; legal counsel;
+          organizational personnel with security and privacy
+          responsibilities
       - method: test
         statement: >
-          Organizational processes for assessments and audits; mechanisms/tools
-          supporting and/or implementing assessments and auditing
+          Organizational processes for assessments and audits;
+          mechanisms/tools supporting and/or implementing
+          assessments and auditing
     statement: >
-      privacy impact assessments are conducted for systems, programs, or other
-      activities before initiating a collection of personally identifiable
-      information that will be processed using information technology;
+      privacy impact assessments are conducted for systems,
+      programs, or other activities before initiating a collection
+      of personally identifiable information that will be processed
+      using information technology;
   - id: b-2
     methods:
       - method: examine
         statement: >
-          Risk assessment policy; security and privacy risk assessment reports;
-          acquisitions documents; system security plan; privacy plan; other relevant
-          documents or records
+          Risk assessment policy; security and privacy risk
+          assessment reports; acquisitions documents; system
+          security plan; privacy plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          Organizational personnel with assessment and auditing responsibilities;
-          system/network administrators; system developers; program managers; legal
-          counsel; organizational personnel with security and privacy responsibilities
+          Organizational personnel with assessment and auditing
+          responsibilities; system/network administrators; system
+          developers; program managers; legal counsel;
+          organizational personnel with security and privacy
+          responsibilities
       - method: test
         statement: >
-          Organizational processes for assessments and audits; mechanisms/tools
-          supporting and/or implementing assessments and auditing
+          Organizational processes for assessments and audits;
+          mechanisms/tools supporting and/or implementing
+          assessments and auditing
     statement: >
-      privacy impact assessments are conducted for systems, programs, or other
-      activities before initiating a collection of personally identifiable
-      information that includes personally identifiable information permitting the
-      physical or virtual (online) contacting of a specific individual, if
-      identical questions have been posed to, or identical reporting requirements
-      imposed on, ten or more individuals, other than agencies, instrumentalities,
-      or employees of the federal government.
+      privacy impact assessments are conducted for systems,
+      programs, or other activities before initiating a collection
+      of personally identifiable information that includes
+      personally identifiable information permitting the physical or
+      virtual (online) contacting of a specific individual, if
+      identical questions have been posed to, or identical reporting
+      requirements imposed on, ten or more individuals, other than
+      agencies, instrumentalities, or employees of the federal
+      government.
 parts:
   - id: a
     statement: >
-      Developing or procuring information technology that processes personally
-      identifiable information; and
+      Developing or procuring information technology that processes
+      personally identifiable information; and
   - id: b
-    statement: "Initiating a new collection of personally identifiable information that:"
+    statement: >-
+      Initiating a new collection of personally identifiable
+      information that:
   - id: b.1
     statement: Will be processed using information technology; and
   - id: b.2
     statement: >
-      Includes personally identifiable information permitting the physical or
-      virtual (online) contacting of a specific individual, if identical questions
-      have been posed to, or identical reporting requirements imposed on, ten or
-      more individuals, other than agencies, instrumentalities, or employees of
-      the federal government.
+      Includes personally identifiable information permitting the
+      physical or virtual (online) contacting of a specific
+      individual, if identical questions have been posed to, or
+      identical reporting requirements imposed on, ten or more
+      individuals, other than agencies, instrumentalities, or
+      employees of the federal government.
 statement: >
   Conduct privacy impact assessments for systems, programs, or other
   activities before:

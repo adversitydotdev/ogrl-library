@@ -13,18 +13,23 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing account management; system
-          design documentation; system configuration settings and associated
-          documentation; security violation reports; system audit records; system
+          Access control policy; procedures addressing account
+          management; system design documentation; system
+          configuration settings and associated documentation;
+          security violation reports; system audit records; system
           security plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with account management responsibilities;
-          system/network administrators; organizational personnel with information
-          security responsibilities; users that must comply with inactivity logout
-          policy
-    statement: "users are required to log out when {{ ac_02_05_odp }}."
+          Organizational personnel with account management
+          responsibilities; system/network administrators;
+          organizational personnel with information security
+          responsibilities; users that must comply with inactivity
+          logout policy
+    statement: >-
+      users are required to log out when {{ ac_02_05_odp }}.
 parameters:
   ac_02_05_odp:
-    label: time period of expected inactivity or description of when to log out
+    label: >-
+      time period of expected inactivity or description of when to
+      log out
 statement: "Require that users log out when {{ ac_02_05_odp }}."

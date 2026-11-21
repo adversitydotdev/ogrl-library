@@ -13,47 +13,57 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Configuration management policy; configuration management plan; procedures
-          addressing the baseline configuration of the system; procedures addressing
-          system component installations and upgrades; system architecture and
-          configuration documentation; system configuration settings and associated
-          documentation; system component inventory; records of system baseline
-          configuration reviews and updates; system component installations/upgrades
-          and associated records; change control records; system security plan; other
-          relevant documents or records
+          Configuration management policy; configuration management
+          plan; procedures addressing the baseline configuration of
+          the system; procedures addressing system component
+          installations and upgrades; system architecture and
+          configuration documentation; system configuration settings
+          and associated documentation; system component inventory;
+          records of system baseline configuration reviews and
+          updates; system component installations/upgrades and
+          associated records; change control records; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with configuration management responsibilities;
-          organizational personnel with information security responsibilities;
-          system/network administrators
+          Organizational personnel with configuration management
+          responsibilities; organizational personnel with
+          information security responsibilities; system/network
+          administrators
       - method: test
-        statement: Organizational processes for managing baseline configurations
+        statement: >-
+          Organizational processes for managing baseline
+          configurations
     statement: >
-      {{ cm_02_07_odp_01 }} with {{ cm_02_07_odp_02 }} are issued to individuals
-      traveling to locations that the organization deems to be of significant
-      risk;
+      {{ cm_02_07_odp_01 }} with {{ cm_02_07_odp_02 }} are issued to
+      individuals traveling to locations that the organization deems
+      to be of significant risk;
   - id: b
     methods:
       - method: examine
         statement: >
-          Configuration management policy; configuration management plan; procedures
-          addressing the baseline configuration of the system; procedures addressing
-          system component installations and upgrades; system architecture and
-          configuration documentation; system configuration settings and associated
-          documentation; system component inventory; records of system baseline
-          configuration reviews and updates; system component installations/upgrades
-          and associated records; change control records; system security plan; other
-          relevant documents or records
+          Configuration management policy; configuration management
+          plan; procedures addressing the baseline configuration of
+          the system; procedures addressing system component
+          installations and upgrades; system architecture and
+          configuration documentation; system configuration settings
+          and associated documentation; system component inventory;
+          records of system baseline configuration reviews and
+          updates; system component installations/upgrades and
+          associated records; change control records; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with configuration management responsibilities;
-          organizational personnel with information security responsibilities;
-          system/network administrators
+          Organizational personnel with configuration management
+          responsibilities; organizational personnel with
+          information security responsibilities; system/network
+          administrators
       - method: test
-        statement: Organizational processes for managing baseline configurations
+        statement: >-
+          Organizational processes for managing baseline
+          configurations
     statement: >
-      {{ cm_02_07_odp_03 }} are applied to the systems or system components when
-      the individuals return from travel.
+      {{ cm_02_07_odp_03 }} are applied to the systems or system
+      components when the individuals return from travel.
 parameters:
   cm_02_07_odp_01:
     label: systems or system components
@@ -64,10 +74,10 @@ parameters:
 parts:
   - id: a
     statement: >
-      Issue {{ cm_02_07_odp_01 }} with {{ cm_02_07_odp_02 }} to individuals
-      traveling to locations that the organization deems to be of significant
-      risk; and
+      Issue {{ cm_02_07_odp_01 }} with {{ cm_02_07_odp_02 }} to
+      individuals traveling to locations that the organization deems
+      to be of significant risk; and
   - id: b
     statement: >
-      Apply the following controls to the systems or components when the
-      individuals return from travel: {{ cm_02_07_odp_03 }}.
+      Apply the following controls to the systems or components when
+      the individuals return from travel: {{ cm_02_07_odp_03 }}.

@@ -13,25 +13,30 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Identification and authentication policy; procedures addressing identifier
-          management; system security plan; system design documentation; automated
-          mechanisms providing dynamic binding of identifiers and authenticators;
-          system configuration settings and associated documentation; system audit
-          records; other relevant documents or records
+          Identification and authentication policy; procedures
+          addressing identifier management; system security plan;
+          system design documentation; automated mechanisms
+          providing dynamic binding of identifiers and
+          authenticators; system configuration settings and
+          associated documentation; system audit records; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with identifier management responsibilities;
-          organizational personnel with information security responsibilities;
-          system/network administrators
+          Organizational personnel with identifier management
+          responsibilities; organizational personnel with
+          information security responsibilities; system/network
+          administrators
       - method: test
         statement: >
-          Automated mechanisms implementing identifier management capability;
-          automated mechanisms implementing dynamic binding of identities and
-          authenticators
-    statement: "identities and authenticators are dynamically bound using {{ ia_05_10_odp }}."
+          Automated mechanisms implementing identifier management
+          capability; automated mechanisms implementing dynamic
+          binding of identities and authenticators
+    statement: >-
+      identities and authenticators are dynamically bound using
+      {{ ia_05_10_odp }}.
 parameters:
   ia_05_10_odp:
     label: binding rules
 statement: >
-  Bind identities and authenticators dynamically using the following rules:
-  {{ ia_05_10_odp }}.
+  Bind identities and authenticators dynamically using the following
+  rules: {{ ia_05_10_odp }}.

@@ -13,23 +13,26 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Personally identifiable information processing and transparency policy and
-          procedures including procedures addressing data tagging; data tag
-          definitions; documented requirements for use and monitoring of data tagging;
-          data extracts with corresponding data tags; privacy plan; other relevant
-          documents or records
+          Personally identifiable information processing and
+          transparency policy and procedures including procedures
+          addressing data tagging; data tag definitions; documented
+          requirements for use and monitoring of data tagging; data
+          extracts with corresponding data tags; privacy plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with personally identifiable information processing
-          and transparency responsibilities; organizational personnel with information
-          security and privacy responsibilities
+          Organizational personnel with personally identifiable
+          information processing and transparency responsibilities;
+          organizational personnel with information security and
+          privacy responsibilities
       - method: test
         statement: >
-          Organizational processes for authorizing the processing of personally
-          identifiable information; organizational processes for data tagging;
-          mechanisms for applying and monitoring data tagging; mechanisms supporting
-          and/or implementing the restriction of personally identifiable information
-          processing
+          Organizational processes for authorizing the processing of
+          personally identifiable information; organizational
+          processes for data tagging; mechanisms for applying and
+          monitoring data tagging; mechanisms supporting and/or
+          implementing the restriction of personally identifiable
+          information processing
     statement: >
       data tags containing {{ pt_02_01_odp_01 }} are attached to
       {{ pt_02_01_odp_02 }}.
@@ -38,4 +41,6 @@ parameters:
     label: authorized processing
   pt_02_01_odp_02:
     label: elements of personally identifiable information
-statement: "Attach data tags containing {{ pt_02_01_odp_01 }} to {{ pt_02_01_odp_02 }}."
+statement: >-
+  Attach data tags containing {{ pt_02_01_odp_01 }} to
+  {{ pt_02_01_odp_02 }}.

@@ -13,24 +13,28 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; procedures addressing memory protection for the system; system
-          design documentation; system configuration settings and associated
-          documentation; list of security safeguards protecting system memory from
-          unauthorized code execution; system audit records; system security plan;
-          other relevant documents or records
+          System and information integrity policy; system and
+          information integrity procedures; procedures addressing
+          memory protection for the system; system design
+          documentation; system configuration settings and
+          associated documentation; list of security safeguards
+          protecting system memory from unauthorized code execution;
+          system audit records; system security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel responsible for memory protection; organizational
-          personnel with information security responsibilities; system/network
-          administrators; system developer
+          Organizational personnel responsible for memory
+          protection; organizational personnel with information
+          security responsibilities; system/network administrators;
+          system developer
       - method: test
         statement: >
-          Automated mechanisms supporting and/or implementing safeguards to protect
-          the system memory from unauthorized code execution
+          Automated mechanisms supporting and/or implementing
+          safeguards to protect the system memory from unauthorized
+          code execution
     statement: >
-      {{ si_16_odp }} are implemented to protect the system memory from
-      unauthorized code execution.
+      {{ si_16_odp }} are implemented to protect the system memory
+      from unauthorized code execution.
 parameters:
   si_16_odp:
     label: controls

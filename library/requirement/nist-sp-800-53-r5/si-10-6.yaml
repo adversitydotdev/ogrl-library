@@ -13,20 +13,24 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; procedures addressing information input validation; system
-          design documentation; system configuration settings and associated
-          documentation; list of trusted sources for information inputs; list of
-          acceptable formats for input restrictions; system audit records; system
-          security plan; other relevant documents or records
+          System and information integrity policy; system and
+          information integrity procedures; procedures addressing
+          information input validation; system design documentation;
+          system configuration settings and associated
+          documentation; list of trusted sources for information
+          inputs; list of acceptable formats for input restrictions;
+          system audit records; system security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel responsible for information input validation;
-          organizational personnel with information security responsibilities;
-          system/network administrators; system developer
+          Organizational personnel responsible for information input
+          validation; organizational personnel with information
+          security responsibilities; system/network administrators;
+          system developer
       - method: test
         statement: >
-          Organizational processes for preventing untrusted data injections; automated
-          mechanisms supporting and/or implementing injection prevention
+          Organizational processes for preventing untrusted data
+          injections; automated mechanisms supporting and/or
+          implementing injection prevention
     statement: untrusted data injections are prevented.
 statement: Prevent untrusted data injections.

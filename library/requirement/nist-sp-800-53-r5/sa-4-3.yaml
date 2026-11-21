@@ -13,89 +13,113 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and services acquisition policy; system and services acquisition
-          procedures; procedures addressing the integration of security and privacy
-          requirements, descriptions, and criteria into the acquisition process;
-          solicitation documents; acquisition documentation; acquisition contracts for
-          the system, system component, or system service; list of systems security
-          and privacy engineering methods to be included in the developer’s system
-          development life cycle process; list of software development methods to be
-          included in the developer’s system development life cycle process; list of
-          testing, evaluation, or validation techniques to be included in the
-          developer’s system development life cycle process; list of quality control
-          processes to be included in the developer’s system development life cycle
-          process; system security plan; privacy plan; other relevant documents or
-          records
+          System and services acquisition policy; system and
+          services acquisition procedures; procedures addressing the
+          integration of security and privacy requirements,
+          descriptions, and criteria into the acquisition process;
+          solicitation documents; acquisition documentation;
+          acquisition contracts for the system, system component, or
+          system service; list of systems security and privacy
+          engineering methods to be included in the developer’s
+          system development life cycle process; list of software
+          development methods to be included in the developer’s
+          system development life cycle process; list of testing,
+          evaluation, or validation techniques to be included in the
+          developer’s system development life cycle process; list
+          of quality control processes to be included in the
+          developer’s system development life cycle process;
+          system security plan; privacy plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with acquisition/contracting responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities; organizational personnel with system life cycle
+          Organizational personnel with acquisition/contracting
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities;
+          organizational personnel with system life cycle
           responsibilities; system developers or service provider
       - method: test
-        statement: "Organizational processes for development methods, techniques, and processes"
+        statement: >-
+          Organizational processes for development methods,
+          techniques, and processes
     statement: >
-      the developer of the system, system component, or system service is required
-      to demonstrate the use of a system development life cycle process that
-      includes {{ sa_04_03_odp_01 }};
+      the developer of the system, system component, or system
+      service is required to demonstrate the use of a system
+      development life cycle process that includes
+      {{ sa_04_03_odp_01 }};
   - id: b
     methods:
       - method: examine
         statement: >
-          System and services acquisition policy; system and services acquisition
-          procedures; procedures addressing the integration of security and privacy
-          requirements, descriptions, and criteria into the acquisition process;
-          solicitation documents; acquisition documentation; acquisition contracts for
-          the system, system component, or system service; list of systems security
-          and privacy engineering methods to be included in the developer’s system
-          development life cycle process; list of software development methods to be
-          included in the developer’s system development life cycle process; list of
-          testing, evaluation, or validation techniques to be included in the
-          developer’s system development life cycle process; list of quality control
-          processes to be included in the developer’s system development life cycle
-          process; system security plan; privacy plan; other relevant documents or
-          records
+          System and services acquisition policy; system and
+          services acquisition procedures; procedures addressing the
+          integration of security and privacy requirements,
+          descriptions, and criteria into the acquisition process;
+          solicitation documents; acquisition documentation;
+          acquisition contracts for the system, system component, or
+          system service; list of systems security and privacy
+          engineering methods to be included in the developer’s
+          system development life cycle process; list of software
+          development methods to be included in the developer’s
+          system development life cycle process; list of testing,
+          evaluation, or validation techniques to be included in the
+          developer’s system development life cycle process; list
+          of quality control processes to be included in the
+          developer’s system development life cycle process;
+          system security plan; privacy plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with acquisition/contracting responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities; organizational personnel with system life cycle
+          Organizational personnel with acquisition/contracting
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities;
+          organizational personnel with system life cycle
           responsibilities; system developers or service provider
       - method: test
-        statement: "Organizational processes for development methods, techniques, and processes"
+        statement: >-
+          Organizational processes for development methods,
+          techniques, and processes
     statement: >
-      the developer of the system, system component, or system service is required
-      to demonstrate the use of a system development life cycle process that
-      includes {{ sa_04_03_odp_02 }};
+      the developer of the system, system component, or system
+      service is required to demonstrate the use of a system
+      development life cycle process that includes
+      {{ sa_04_03_odp_02 }};
   - id: c
     methods:
       - method: examine
         statement: >
-          System and services acquisition policy; system and services acquisition
-          procedures; procedures addressing the integration of security and privacy
-          requirements, descriptions, and criteria into the acquisition process;
-          solicitation documents; acquisition documentation; acquisition contracts for
-          the system, system component, or system service; list of systems security
-          and privacy engineering methods to be included in the developer’s system
-          development life cycle process; list of software development methods to be
-          included in the developer’s system development life cycle process; list of
-          testing, evaluation, or validation techniques to be included in the
-          developer’s system development life cycle process; list of quality control
-          processes to be included in the developer’s system development life cycle
-          process; system security plan; privacy plan; other relevant documents or
-          records
+          System and services acquisition policy; system and
+          services acquisition procedures; procedures addressing the
+          integration of security and privacy requirements,
+          descriptions, and criteria into the acquisition process;
+          solicitation documents; acquisition documentation;
+          acquisition contracts for the system, system component, or
+          system service; list of systems security and privacy
+          engineering methods to be included in the developer’s
+          system development life cycle process; list of software
+          development methods to be included in the developer’s
+          system development life cycle process; list of testing,
+          evaluation, or validation techniques to be included in the
+          developer’s system development life cycle process; list
+          of quality control processes to be included in the
+          developer’s system development life cycle process;
+          system security plan; privacy plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with acquisition/contracting responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities; organizational personnel with system life cycle
+          Organizational personnel with acquisition/contracting
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities;
+          organizational personnel with system life cycle
           responsibilities; system developers or service provider
       - method: test
-        statement: "Organizational processes for development methods, techniques, and processes"
+        statement: >-
+          Organizational processes for development methods,
+          techniques, and processes
     statement: >
-      the developer of the system, system component, or system service is required
-      to demonstrate the use of a system development life cycle process that
-      includes {{ sa_04_03_odp_05 }}.
+      the developer of the system, system component, or system
+      service is required to demonstrate the use of a system
+      development life cycle process that includes
+      {{ sa_04_03_odp_05 }}.
 parameters:
   sa_04_03_odp_01:
     label: systems engineering methods
@@ -110,7 +134,9 @@ parameters:
   sa_04_03_odp_06:
     label: software development methods
   sa_04_03_odp_07:
-    label: "testing, evaluation, assessment, verification, and validation methods"
+    label: >-
+      testing, evaluation, assessment, verification, and validation
+      methods
   sa_04_03_odp_08:
     label: quality control processes
 parts:
@@ -121,6 +147,6 @@ parts:
   - id: c
     statement: "{{ sa_04_03_odp_05 }}."
 statement: >
-  Require the developer of the system, system component, or system service to
-  demonstrate the use of a system development life cycle process that
-  includes:
+  Require the developer of the system, system component, or system
+  service to demonstrate the use of a system development life cycle
+  process that includes:

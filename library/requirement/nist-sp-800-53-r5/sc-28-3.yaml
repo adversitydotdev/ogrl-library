@@ -13,17 +13,21 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; procedures addressing the
-          protection of information at rest; system design documentation; system
-          configuration settings and associated documentation; cryptographic
-          mechanisms and associated configuration documentation; system audit records;
-          system security plan; other relevant documents or records
+          System and communications protection policy; procedures
+          addressing the protection of information at rest; system
+          design documentation; system configuration settings and
+          associated documentation; cryptographic mechanisms and
+          associated configuration documentation; system audit
+          records; system security plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities
+          System/network administrators; organizational personnel
+          with information security responsibilities
       - method: test
-        statement: Mechanisms supporting and/or implementing hardware-based key store protection
+        statement: >-
+          Mechanisms supporting and/or implementing hardware-based
+          key store protection
     statement: >
       protected storage for cryptographic keys is provided using
       {{ sc_28_03_odp_01 }}.
@@ -32,4 +36,6 @@ parameters:
     label: sc-28.03_odp.01
   sc_28_03_odp_02:
     label: safeguards
-statement: "Provide protected storage for cryptographic keys {{ sc_28_03_odp_01 }}."
+statement: >-
+  Provide protected storage for cryptographic keys
+  {{ sc_28_03_odp_01 }}.

@@ -20,84 +20,96 @@ objectives:
     methods:
       - method: examine
         statement: >
-          SCRM policy and procedures; SCRM strategy; SCRM plan; systems and critical
-          system components inventory documentation; system and services acquisition
-          policy and procedures; procedures for the integration of security
-          requirements into the acquisition process; solicitation documentation;
-          acquisition documentation (including purchase orders); shipping and handling
-          procedures; configuration management documentation and records; acquisition
-          contracts for systems or services; service-level agreements; risk register
-          documentation; system security plan; other relevant documents or records
+          SCRM policy and procedures; SCRM strategy; SCRM plan;
+          systems and critical system components inventory
+          documentation; system and services acquisition policy and
+          procedures; procedures for the integration of security
+          requirements into the acquisition process; solicitation
+          documentation; acquisition documentation (including
+          purchase orders); shipping and handling procedures;
+          configuration management documentation and records;
+          acquisition contracts for systems or services;
+          service-level agreements; risk register documentation;
+          system security plan; other relevant documents or records
       - method: interview
         statement: >
-          personnel with acquisition responsibilities; personnel with information
-          security responsibilities; personnel with SCRM responsibilities
+          personnel with acquisition responsibilities; personnel
+          with information security responsibilities; personnel with
+          SCRM responsibilities
       - method: test
         statement: >
-          processes for identifying and addressing supply chain element and process
-          deficiencies
+          processes for identifying and addressing supply chain
+          element and process deficiencies
     statement: >
-      a process for identifying weaknesses or deficiencies in the supply chain
-      elements and processes is established.
+      a process for identifying weaknesses or deficiencies in the
+      supply chain elements and processes is established.
   - id: a.02
     methods:
       - method: examine
         statement: >
-          SCRM policy and procedures; SCRM strategy; SCRM plan; systems and critical
-          system components inventory documentation; system and services acquisition
-          policy and procedures; procedures for the integration of security
-          requirements into the acquisition process; solicitation documentation;
-          acquisition documentation (including purchase orders); shipping and handling
-          procedures; configuration management documentation and records; acquisition
-          contracts for systems or services; service-level agreements; risk register
-          documentation; system security plan; other relevant documents or records
+          SCRM policy and procedures; SCRM strategy; SCRM plan;
+          systems and critical system components inventory
+          documentation; system and services acquisition policy and
+          procedures; procedures for the integration of security
+          requirements into the acquisition process; solicitation
+          documentation; acquisition documentation (including
+          purchase orders); shipping and handling procedures;
+          configuration management documentation and records;
+          acquisition contracts for systems or services;
+          service-level agreements; risk register documentation;
+          system security plan; other relevant documents or records
       - method: interview
         statement: >
-          personnel with acquisition responsibilities; personnel with information
-          security responsibilities; personnel with SCRM responsibilities
+          personnel with acquisition responsibilities; personnel
+          with information security responsibilities; personnel with
+          SCRM responsibilities
       - method: test
         statement: >
-          processes for identifying and addressing supply chain element and process
-          deficiencies
+          processes for identifying and addressing supply chain
+          element and process deficiencies
     statement: >
-      a process for addressing weaknesses or deficiencies in the supply chain
-      elements and processes is established.
+      a process for addressing weaknesses or deficiencies in the
+      supply chain elements and processes is established.
   - id: b
     methods:
       - method: examine
         statement: >
-          SCRM policy and procedures; SCRM strategy; SCRM plan; systems and critical
-          system components inventory documentation; system and services acquisition
-          policy and procedures; procedures for the integration of security
-          requirements into the acquisition process; solicitation documentation;
-          acquisition documentation (including purchase orders); shipping and handling
-          procedures; configuration management documentation and records; acquisition
-          contracts for systems or services; service-level agreements; risk register
-          documentation; system security plan; other relevant documents or records
+          SCRM policy and procedures; SCRM strategy; SCRM plan;
+          systems and critical system components inventory
+          documentation; system and services acquisition policy and
+          procedures; procedures for the integration of security
+          requirements into the acquisition process; solicitation
+          documentation; acquisition documentation (including
+          purchase orders); shipping and handling procedures;
+          configuration management documentation and records;
+          acquisition contracts for systems or services;
+          service-level agreements; risk register documentation;
+          system security plan; other relevant documents or records
       - method: interview
         statement: >
-          personnel with acquisition responsibilities; personnel with information
-          security responsibilities; personnel with SCRM responsibilities
+          personnel with acquisition responsibilities; personnel
+          with information security responsibilities; personnel with
+          SCRM responsibilities
       - method: test
         statement: >
-          processes for identifying and addressing supply chain element and process
-          deficiencies
+          processes for identifying and addressing supply chain
+          element and process deficiencies
     statement: >
-      the following security requirements are enforced to protect against supply
-      chain risks to the system, system components, or system services and to
-      limit the harm or consequences of supply chain-related events:
-      {{ a_03_17_03_odp_01 }}.
+      the following security requirements are enforced to protect
+      against supply chain risks to the system, system components,
+      or system services and to limit the harm or consequences of
+      supply chain-related events: {{ a_03_17_03_odp_01 }}.
 parameters:
   a_03_17_03_odp_01:
     label: security requirements
 parts:
   - id: a
     statement: >
-      Establish a process for identifying and addressing weaknesses or
-      deficiencies in the supply chain elements and processes.
+      Establish a process for identifying and addressing weaknesses
+      or deficiencies in the supply chain elements and processes.
   - id: b
     statement: >
-      Enforce the following security requirements to protect against supply chain
-      risks to the system, system components, or system services and to limit the
-      harm or consequences from supply chain-related events:
-      {{ a_03_17_03_odp_01 }}.
+      Enforce the following security requirements to protect against
+      supply chain risks to the system, system components, or system
+      services and to limit the harm or consequences from supply
+      chain-related events: {{ a_03_17_03_odp_01 }}.

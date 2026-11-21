@@ -13,31 +13,35 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; procedures addressing flaw remediation; mechanisms supporting
-          flaw remediation and automatic software/firmware updates; system design
-          documentation; system configuration settings and associated documentation;
-          list of system flaws; records of recent security-relevant software and
-          firmware updates that are automatically installed to system components;
-          system audit records; system security plan; other relevant documents or
-          records
+          System and information integrity policy; system and
+          information integrity procedures; procedures addressing
+          flaw remediation; mechanisms supporting flaw remediation
+          and automatic software/firmware updates; system design
+          documentation; system configuration settings and
+          associated documentation; list of system flaws; records of
+          recent security-relevant software and firmware updates
+          that are automatically installed to system components;
+          system audit records; system security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; organizational personnel installing, configuring,
-          and/or maintaining the system; organizational personnel responsible for flaw
+          System/network administrators; organizational personnel
+          with information security responsibilities; organizational
+          personnel installing, configuring, and/or maintaining the
+          system; organizational personnel responsible for flaw
           remediation
       - method: test
         statement: >
-          Automated patch management tools; mechanisms implementing automatic
-          software/firmware updates; mechanisms facilitating flaw remediation to
-          system components
+          Automated patch management tools; mechanisms implementing
+          automatic software/firmware updates; mechanisms
+          facilitating flaw remediation to system components
     statement: >
-      automated patch management tools are employed to facilitate flaw remediation
-      to {{ si_02_04_odp }}.
+      automated patch management tools are employed to facilitate
+      flaw remediation to {{ si_02_04_odp }}.
 parameters:
   si_02_04_odp:
     label: components
 statement: >
-  Employ automated patch management tools to facilitate flaw remediation to
-  the following system components: {{ si_02_04_odp }}.
+  Employ automated patch management tools to facilitate flaw
+  remediation to the following system components:
+  {{ si_02_04_odp }}.

@@ -20,39 +20,49 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Information security program plan; system inventory; procedures addressing
-          system inventory development and maintenance; OMB FISMA reporting guidance;
-          other relevant documents or records
+          Information security program plan; system inventory;
+          procedures addressing system inventory development and
+          maintenance; OMB FISMA reporting guidance; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with information security program planning and plan
-          implementation responsibilities; organizational personnel responsible for
-          developing and maintaining the system inventory; organizational personnel
+          Organizational personnel with information security program
+          planning and plan implementation responsibilities;
+          organizational personnel responsible for developing and
+          maintaining the system inventory; organizational personnel
           with information security responsibilities
       - method: test
         statement: >
-          Organizational processes for system inventory development and maintenance;
-          mechanisms supporting the system inventory
+          Organizational processes for system inventory development
+          and maintenance; mechanisms supporting the system
+          inventory
     statement: an inventory of organizational systems is developed;
   - id: "[02]"
     methods:
       - method: examine
         statement: >
-          Information security program plan; system inventory; procedures addressing
-          system inventory development and maintenance; OMB FISMA reporting guidance;
-          other relevant documents or records
+          Information security program plan; system inventory;
+          procedures addressing system inventory development and
+          maintenance; OMB FISMA reporting guidance; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with information security program planning and plan
-          implementation responsibilities; organizational personnel responsible for
-          developing and maintaining the system inventory; organizational personnel
+          Organizational personnel with information security program
+          planning and plan implementation responsibilities;
+          organizational personnel responsible for developing and
+          maintaining the system inventory; organizational personnel
           with information security responsibilities
       - method: test
         statement: >
-          Organizational processes for system inventory development and maintenance;
-          mechanisms supporting the system inventory
-    statement: "the inventory of organizational systems is updated {{ pm_05_odp }}."
+          Organizational processes for system inventory development
+          and maintenance; mechanisms supporting the system
+          inventory
+    statement: >-
+      the inventory of organizational systems is updated
+      {{ pm_05_odp }}.
 parameters:
   pm_05_odp:
     label: frequency
-statement: "Develop and update {{ pm_05_odp }} an inventory of organizational systems."
+statement: >-
+  Develop and update {{ pm_05_odp }} an inventory of organizational
+  systems.

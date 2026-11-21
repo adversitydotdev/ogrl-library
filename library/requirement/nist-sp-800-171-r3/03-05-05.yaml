@@ -17,100 +17,123 @@ objectives:
     methods:
       - method: examine
         statement: >
-          identification and authentication policy and procedures; procedures for
-          identifier management; procedures for account management; system design
-          documentation; list of system accounts; list of characteristics identifying
-          individual status; system configuration settings; list of identifiers
-          generated from physical access control devices; system security plan; other
-          relevant documents or records
+          identification and authentication policy and procedures;
+          procedures for identifier management; procedures for
+          account management; system design documentation; list of
+          system accounts; list of characteristics identifying
+          individual status; system configuration settings; list of
+          identifiers generated from physical access control
+          devices; system security plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          personnel with identifier management responsibilities; personnel with
-          information security responsibilities; system developers; system
-          administrators
+          personnel with identifier management responsibilities;
+          personnel with information security responsibilities;
+          system developers; system administrators
       - method: test
-        statement: mechanisms for supporting or implementing identifier management
+        statement: >-
+          mechanisms for supporting or implementing identifier
+          management
     statement: >
-      authorization is received from organizational personnel or roles to assign
-      an individual, group, role, service, or device identifier.
+      authorization is received from organizational personnel or
+      roles to assign an individual, group, role, service, or device
+      identifier.
   - id: b.01
     methods:
       - method: examine
         statement: >
-          identification and authentication policy and procedures; procedures for
-          identifier management; procedures for account management; system design
-          documentation; list of system accounts; list of characteristics identifying
-          individual status; system configuration settings; list of identifiers
-          generated from physical access control devices; system security plan; other
-          relevant documents or records
+          identification and authentication policy and procedures;
+          procedures for identifier management; procedures for
+          account management; system design documentation; list of
+          system accounts; list of characteristics identifying
+          individual status; system configuration settings; list of
+          identifiers generated from physical access control
+          devices; system security plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          personnel with identifier management responsibilities; personnel with
-          information security responsibilities; system developers; system
-          administrators
+          personnel with identifier management responsibilities;
+          personnel with information security responsibilities;
+          system developers; system administrators
       - method: test
-        statement: mechanisms for supporting or implementing identifier management
+        statement: >-
+          mechanisms for supporting or implementing identifier
+          management
     statement: >
-      an identifier that identifies an individual, group, role, service, or device
-      is selected.
+      an identifier that identifies an individual, group, role,
+      service, or device is selected.
   - id: b.02
     methods:
       - method: examine
         statement: >
-          identification and authentication policy and procedures; procedures for
-          identifier management; procedures for account management; system design
-          documentation; list of system accounts; list of characteristics identifying
-          individual status; system configuration settings; list of identifiers
-          generated from physical access control devices; system security plan; other
-          relevant documents or records
+          identification and authentication policy and procedures;
+          procedures for identifier management; procedures for
+          account management; system design documentation; list of
+          system accounts; list of characteristics identifying
+          individual status; system configuration settings; list of
+          identifiers generated from physical access control
+          devices; system security plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          personnel with identifier management responsibilities; personnel with
-          information security responsibilities; system developers; system
-          administrators
+          personnel with identifier management responsibilities;
+          personnel with information security responsibilities;
+          system developers; system administrators
       - method: test
-        statement: mechanisms for supporting or implementing identifier management
+        statement: >-
+          mechanisms for supporting or implementing identifier
+          management
     statement: >
-      an identifier that identifies an individual, group, role, service, or device
-      is assigned.
+      an identifier that identifies an individual, group, role,
+      service, or device is assigned.
   - id: c
     methods:
       - method: examine
         statement: >
-          identification and authentication policy and procedures; procedures for
-          identifier management; procedures for account management; system design
-          documentation; list of system accounts; list of characteristics identifying
-          individual status; system configuration settings; list of identifiers
-          generated from physical access control devices; system security plan; other
-          relevant documents or records
+          identification and authentication policy and procedures;
+          procedures for identifier management; procedures for
+          account management; system design documentation; list of
+          system accounts; list of characteristics identifying
+          individual status; system configuration settings; list of
+          identifiers generated from physical access control
+          devices; system security plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          personnel with identifier management responsibilities; personnel with
-          information security responsibilities; system developers; system
-          administrators
+          personnel with identifier management responsibilities;
+          personnel with information security responsibilities;
+          system developers; system administrators
       - method: test
-        statement: mechanisms for supporting or implementing identifier management
-    statement: "the reuse of identifiers for {{ a_03_05_05_odp_01 }} is prevented."
+        statement: >-
+          mechanisms for supporting or implementing identifier
+          management
+    statement: >-
+      the reuse of identifiers for {{ a_03_05_05_odp_01 }} is
+      prevented.
   - id: d
     methods:
       - method: examine
         statement: >
-          identification and authentication policy and procedures; procedures for
-          identifier management; procedures for account management; system design
-          documentation; list of system accounts; list of characteristics identifying
-          individual status; system configuration settings; list of identifiers
-          generated from physical access control devices; system security plan; other
-          relevant documents or records
+          identification and authentication policy and procedures;
+          procedures for identifier management; procedures for
+          account management; system design documentation; list of
+          system accounts; list of characteristics identifying
+          individual status; system configuration settings; list of
+          identifiers generated from physical access control
+          devices; system security plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          personnel with identifier management responsibilities; personnel with
-          information security responsibilities; system developers; system
-          administrators
+          personnel with identifier management responsibilities;
+          personnel with information security responsibilities;
+          system developers; system administrators
       - method: test
-        statement: mechanisms for supporting or implementing identifier management
+        statement: >-
+          mechanisms for supporting or implementing identifier
+          management
     statement: >
-      individual identifiers are managed by uniquely identifying each individual
-      as {{ a_03_05_05_odp_02 }}.
+      individual identifiers are managed by uniquely identifying
+      each individual as {{ a_03_05_05_odp_02 }}.
 parameters:
   a_03_05_05_odp_01:
     label: time period
@@ -119,15 +142,17 @@ parameters:
 parts:
   - id: a
     statement: >
-      Receive authorization from organizational personnel or roles to assign an
-      individual, group, role, service, or device identifier.
+      Receive authorization from organizational personnel or roles
+      to assign an individual, group, role, service, or device
+      identifier.
   - id: b
     statement: >
-      Select and assign an identifier that identifies an individual, group, role,
-      service, or device.
+      Select and assign an identifier that identifies an individual,
+      group, role, service, or device.
   - id: c
-    statement: "Prevent the reuse of identifiers for {{ a_03_05_05_odp_01 }}."
+    statement: >-
+      Prevent the reuse of identifiers for {{ a_03_05_05_odp_01 }}.
   - id: d
     statement: >
-      Manage individual identifiers by uniquely identifying each individual as
-      {{ a_03_05_05_odp_02 }}.
+      Manage individual identifiers by uniquely identifying each
+      individual as {{ a_03_05_05_odp_02 }}.

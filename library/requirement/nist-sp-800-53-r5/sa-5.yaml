@@ -17,559 +17,646 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and services acquisition policy; system and services acquisition
-          procedures; procedures addressing system documentation; system
-          documentation, including administrator and user guides; system design
-          documentation; records documenting attempts to obtain unavailable or
-          nonexistent system documentation; list of actions to be taken in response to
-          documented attempts to obtain system, system component, or system service
-          documentation; risk management strategy documentation; system security plan;
-          privacy plan; privacy impact assessment; privacy risk assessment
-          documentation; other relevant documents or records
+          System and services acquisition policy; system and
+          services acquisition procedures; procedures addressing
+          system documentation; system documentation, including
+          administrator and user guides; system design
+          documentation; records documenting attempts to obtain
+          unavailable or nonexistent system documentation; list of
+          actions to be taken in response to documented attempts to
+          obtain system, system component, or system service
+          documentation; risk management strategy documentation;
+          system security plan; privacy plan; privacy impact
+          assessment; privacy risk assessment documentation; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with acquisition/contracting responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities; system administrators; organizational personnel
-          responsible for operating, using, and/or maintaining the system; system
+          Organizational personnel with acquisition/contracting
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities; system
+          administrators; organizational personnel responsible for
+          operating, using, and/or maintaining the system; system
           developers
       - method: test
         statement: >
-          Organizational processes for obtaining, protecting, and distributing system
-          administrator and user documentation
+          Organizational processes for obtaining, protecting, and
+          distributing system administrator and user documentation
     statement: >
-      administrator documentation for the system, system component, or system
-      service that describes the secure configuration of the system, component, or
-      service is obtained or developed;
+      administrator documentation for the system, system component,
+      or system service that describes the secure configuration of
+      the system, component, or service is obtained or developed;
   - id: a.1-2
     methods:
       - method: examine
         statement: >
-          System and services acquisition policy; system and services acquisition
-          procedures; procedures addressing system documentation; system
-          documentation, including administrator and user guides; system design
-          documentation; records documenting attempts to obtain unavailable or
-          nonexistent system documentation; list of actions to be taken in response to
-          documented attempts to obtain system, system component, or system service
-          documentation; risk management strategy documentation; system security plan;
-          privacy plan; privacy impact assessment; privacy risk assessment
-          documentation; other relevant documents or records
+          System and services acquisition policy; system and
+          services acquisition procedures; procedures addressing
+          system documentation; system documentation, including
+          administrator and user guides; system design
+          documentation; records documenting attempts to obtain
+          unavailable or nonexistent system documentation; list of
+          actions to be taken in response to documented attempts to
+          obtain system, system component, or system service
+          documentation; risk management strategy documentation;
+          system security plan; privacy plan; privacy impact
+          assessment; privacy risk assessment documentation; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with acquisition/contracting responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities; system administrators; organizational personnel
-          responsible for operating, using, and/or maintaining the system; system
+          Organizational personnel with acquisition/contracting
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities; system
+          administrators; organizational personnel responsible for
+          operating, using, and/or maintaining the system; system
           developers
       - method: test
         statement: >
-          Organizational processes for obtaining, protecting, and distributing system
-          administrator and user documentation
+          Organizational processes for obtaining, protecting, and
+          distributing system administrator and user documentation
     statement: >
-      administrator documentation for the system, system component, or system
-      service that describes the secure installation of the system, component, or
-      service is obtained or developed;
+      administrator documentation for the system, system component,
+      or system service that describes the secure installation of
+      the system, component, or service is obtained or developed;
   - id: a.1-3
     methods:
       - method: examine
         statement: >
-          System and services acquisition policy; system and services acquisition
-          procedures; procedures addressing system documentation; system
-          documentation, including administrator and user guides; system design
-          documentation; records documenting attempts to obtain unavailable or
-          nonexistent system documentation; list of actions to be taken in response to
-          documented attempts to obtain system, system component, or system service
-          documentation; risk management strategy documentation; system security plan;
-          privacy plan; privacy impact assessment; privacy risk assessment
-          documentation; other relevant documents or records
+          System and services acquisition policy; system and
+          services acquisition procedures; procedures addressing
+          system documentation; system documentation, including
+          administrator and user guides; system design
+          documentation; records documenting attempts to obtain
+          unavailable or nonexistent system documentation; list of
+          actions to be taken in response to documented attempts to
+          obtain system, system component, or system service
+          documentation; risk management strategy documentation;
+          system security plan; privacy plan; privacy impact
+          assessment; privacy risk assessment documentation; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with acquisition/contracting responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities; system administrators; organizational personnel
-          responsible for operating, using, and/or maintaining the system; system
+          Organizational personnel with acquisition/contracting
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities; system
+          administrators; organizational personnel responsible for
+          operating, using, and/or maintaining the system; system
           developers
       - method: test
         statement: >
-          Organizational processes for obtaining, protecting, and distributing system
-          administrator and user documentation
+          Organizational processes for obtaining, protecting, and
+          distributing system administrator and user documentation
     statement: >
-      administrator documentation for the system, system component, or system
-      service that describes the secure operation of the system, component, or
-      service is obtained or developed;
+      administrator documentation for the system, system component,
+      or system service that describes the secure operation of the
+      system, component, or service is obtained or developed;
   - id: a.2-1
     methods:
       - method: examine
         statement: >
-          System and services acquisition policy; system and services acquisition
-          procedures; procedures addressing system documentation; system
-          documentation, including administrator and user guides; system design
-          documentation; records documenting attempts to obtain unavailable or
-          nonexistent system documentation; list of actions to be taken in response to
-          documented attempts to obtain system, system component, or system service
-          documentation; risk management strategy documentation; system security plan;
-          privacy plan; privacy impact assessment; privacy risk assessment
-          documentation; other relevant documents or records
+          System and services acquisition policy; system and
+          services acquisition procedures; procedures addressing
+          system documentation; system documentation, including
+          administrator and user guides; system design
+          documentation; records documenting attempts to obtain
+          unavailable or nonexistent system documentation; list of
+          actions to be taken in response to documented attempts to
+          obtain system, system component, or system service
+          documentation; risk management strategy documentation;
+          system security plan; privacy plan; privacy impact
+          assessment; privacy risk assessment documentation; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with acquisition/contracting responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities; system administrators; organizational personnel
-          responsible for operating, using, and/or maintaining the system; system
+          Organizational personnel with acquisition/contracting
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities; system
+          administrators; organizational personnel responsible for
+          operating, using, and/or maintaining the system; system
           developers
       - method: test
         statement: >
-          Organizational processes for obtaining, protecting, and distributing system
-          administrator and user documentation
+          Organizational processes for obtaining, protecting, and
+          distributing system administrator and user documentation
     statement: >
-      administrator documentation for the system, system component, or system
-      service that describes the effective use of security functions and
-      mechanisms is obtained or developed;
+      administrator documentation for the system, system component,
+      or system service that describes the effective use of security
+      functions and mechanisms is obtained or developed;
   - id: a.2-2
     methods:
       - method: examine
         statement: >
-          System and services acquisition policy; system and services acquisition
-          procedures; procedures addressing system documentation; system
-          documentation, including administrator and user guides; system design
-          documentation; records documenting attempts to obtain unavailable or
-          nonexistent system documentation; list of actions to be taken in response to
-          documented attempts to obtain system, system component, or system service
-          documentation; risk management strategy documentation; system security plan;
-          privacy plan; privacy impact assessment; privacy risk assessment
-          documentation; other relevant documents or records
+          System and services acquisition policy; system and
+          services acquisition procedures; procedures addressing
+          system documentation; system documentation, including
+          administrator and user guides; system design
+          documentation; records documenting attempts to obtain
+          unavailable or nonexistent system documentation; list of
+          actions to be taken in response to documented attempts to
+          obtain system, system component, or system service
+          documentation; risk management strategy documentation;
+          system security plan; privacy plan; privacy impact
+          assessment; privacy risk assessment documentation; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with acquisition/contracting responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities; system administrators; organizational personnel
-          responsible for operating, using, and/or maintaining the system; system
+          Organizational personnel with acquisition/contracting
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities; system
+          administrators; organizational personnel responsible for
+          operating, using, and/or maintaining the system; system
           developers
       - method: test
         statement: >
-          Organizational processes for obtaining, protecting, and distributing system
-          administrator and user documentation
+          Organizational processes for obtaining, protecting, and
+          distributing system administrator and user documentation
     statement: >
-      administrator documentation for the system, system component, or system
-      service that describes the effective maintenance of security functions and
-      mechanisms is obtained or developed;
+      administrator documentation for the system, system component,
+      or system service that describes the effective maintenance of
+      security functions and mechanisms is obtained or developed;
   - id: a.2-3
     methods:
       - method: examine
         statement: >
-          System and services acquisition policy; system and services acquisition
-          procedures; procedures addressing system documentation; system
-          documentation, including administrator and user guides; system design
-          documentation; records documenting attempts to obtain unavailable or
-          nonexistent system documentation; list of actions to be taken in response to
-          documented attempts to obtain system, system component, or system service
-          documentation; risk management strategy documentation; system security plan;
-          privacy plan; privacy impact assessment; privacy risk assessment
-          documentation; other relevant documents or records
+          System and services acquisition policy; system and
+          services acquisition procedures; procedures addressing
+          system documentation; system documentation, including
+          administrator and user guides; system design
+          documentation; records documenting attempts to obtain
+          unavailable or nonexistent system documentation; list of
+          actions to be taken in response to documented attempts to
+          obtain system, system component, or system service
+          documentation; risk management strategy documentation;
+          system security plan; privacy plan; privacy impact
+          assessment; privacy risk assessment documentation; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with acquisition/contracting responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities; system administrators; organizational personnel
-          responsible for operating, using, and/or maintaining the system; system
+          Organizational personnel with acquisition/contracting
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities; system
+          administrators; organizational personnel responsible for
+          operating, using, and/or maintaining the system; system
           developers
       - method: test
         statement: >
-          Organizational processes for obtaining, protecting, and distributing system
-          administrator and user documentation
+          Organizational processes for obtaining, protecting, and
+          distributing system administrator and user documentation
     statement: >
-      administrator documentation for the system, system component, or system
-      service that describes the effective use of privacy functions and mechanisms
-      is obtained or developed;
+      administrator documentation for the system, system component,
+      or system service that describes the effective use of privacy
+      functions and mechanisms is obtained or developed;
   - id: a.2-4
     methods:
       - method: examine
         statement: >
-          System and services acquisition policy; system and services acquisition
-          procedures; procedures addressing system documentation; system
-          documentation, including administrator and user guides; system design
-          documentation; records documenting attempts to obtain unavailable or
-          nonexistent system documentation; list of actions to be taken in response to
-          documented attempts to obtain system, system component, or system service
-          documentation; risk management strategy documentation; system security plan;
-          privacy plan; privacy impact assessment; privacy risk assessment
-          documentation; other relevant documents or records
+          System and services acquisition policy; system and
+          services acquisition procedures; procedures addressing
+          system documentation; system documentation, including
+          administrator and user guides; system design
+          documentation; records documenting attempts to obtain
+          unavailable or nonexistent system documentation; list of
+          actions to be taken in response to documented attempts to
+          obtain system, system component, or system service
+          documentation; risk management strategy documentation;
+          system security plan; privacy plan; privacy impact
+          assessment; privacy risk assessment documentation; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with acquisition/contracting responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities; system administrators; organizational personnel
-          responsible for operating, using, and/or maintaining the system; system
+          Organizational personnel with acquisition/contracting
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities; system
+          administrators; organizational personnel responsible for
+          operating, using, and/or maintaining the system; system
           developers
       - method: test
         statement: >
-          Organizational processes for obtaining, protecting, and distributing system
-          administrator and user documentation
+          Organizational processes for obtaining, protecting, and
+          distributing system administrator and user documentation
     statement: >
-      administrator documentation for the system, system component, or system
-      service that describes the effective maintenance of privacy functions and
-      mechanisms is obtained or developed;
+      administrator documentation for the system, system component,
+      or system service that describes the effective maintenance of
+      privacy functions and mechanisms is obtained or developed;
   - id: a.3-1
     methods:
       - method: examine
         statement: >
-          System and services acquisition policy; system and services acquisition
-          procedures; procedures addressing system documentation; system
-          documentation, including administrator and user guides; system design
-          documentation; records documenting attempts to obtain unavailable or
-          nonexistent system documentation; list of actions to be taken in response to
-          documented attempts to obtain system, system component, or system service
-          documentation; risk management strategy documentation; system security plan;
-          privacy plan; privacy impact assessment; privacy risk assessment
-          documentation; other relevant documents or records
+          System and services acquisition policy; system and
+          services acquisition procedures; procedures addressing
+          system documentation; system documentation, including
+          administrator and user guides; system design
+          documentation; records documenting attempts to obtain
+          unavailable or nonexistent system documentation; list of
+          actions to be taken in response to documented attempts to
+          obtain system, system component, or system service
+          documentation; risk management strategy documentation;
+          system security plan; privacy plan; privacy impact
+          assessment; privacy risk assessment documentation; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with acquisition/contracting responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities; system administrators; organizational personnel
-          responsible for operating, using, and/or maintaining the system; system
+          Organizational personnel with acquisition/contracting
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities; system
+          administrators; organizational personnel responsible for
+          operating, using, and/or maintaining the system; system
           developers
       - method: test
         statement: >
-          Organizational processes for obtaining, protecting, and distributing system
-          administrator and user documentation
+          Organizational processes for obtaining, protecting, and
+          distributing system administrator and user documentation
     statement: >
-      administrator documentation for the system, system component, or system
-      service that describes known vulnerabilities regarding the configuration of
-      administrative or privileged functions is obtained or developed;
+      administrator documentation for the system, system component,
+      or system service that describes known vulnerabilities
+      regarding the configuration of administrative or privileged
+      functions is obtained or developed;
   - id: a.3-2
     methods:
       - method: examine
         statement: >
-          System and services acquisition policy; system and services acquisition
-          procedures; procedures addressing system documentation; system
-          documentation, including administrator and user guides; system design
-          documentation; records documenting attempts to obtain unavailable or
-          nonexistent system documentation; list of actions to be taken in response to
-          documented attempts to obtain system, system component, or system service
-          documentation; risk management strategy documentation; system security plan;
-          privacy plan; privacy impact assessment; privacy risk assessment
-          documentation; other relevant documents or records
+          System and services acquisition policy; system and
+          services acquisition procedures; procedures addressing
+          system documentation; system documentation, including
+          administrator and user guides; system design
+          documentation; records documenting attempts to obtain
+          unavailable or nonexistent system documentation; list of
+          actions to be taken in response to documented attempts to
+          obtain system, system component, or system service
+          documentation; risk management strategy documentation;
+          system security plan; privacy plan; privacy impact
+          assessment; privacy risk assessment documentation; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with acquisition/contracting responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities; system administrators; organizational personnel
-          responsible for operating, using, and/or maintaining the system; system
+          Organizational personnel with acquisition/contracting
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities; system
+          administrators; organizational personnel responsible for
+          operating, using, and/or maintaining the system; system
           developers
       - method: test
         statement: >
-          Organizational processes for obtaining, protecting, and distributing system
-          administrator and user documentation
+          Organizational processes for obtaining, protecting, and
+          distributing system administrator and user documentation
     statement: >
-      administrator documentation for the system, system component, or system
-      service that describes known vulnerabilities regarding the use of
-      administrative or privileged functions is obtained or developed;
+      administrator documentation for the system, system component,
+      or system service that describes known vulnerabilities
+      regarding the use of administrative or privileged functions is
+      obtained or developed;
   - id: b.1-1
     methods:
       - method: examine
         statement: >
-          System and services acquisition policy; system and services acquisition
-          procedures; procedures addressing system documentation; system
-          documentation, including administrator and user guides; system design
-          documentation; records documenting attempts to obtain unavailable or
-          nonexistent system documentation; list of actions to be taken in response to
-          documented attempts to obtain system, system component, or system service
-          documentation; risk management strategy documentation; system security plan;
-          privacy plan; privacy impact assessment; privacy risk assessment
-          documentation; other relevant documents or records
+          System and services acquisition policy; system and
+          services acquisition procedures; procedures addressing
+          system documentation; system documentation, including
+          administrator and user guides; system design
+          documentation; records documenting attempts to obtain
+          unavailable or nonexistent system documentation; list of
+          actions to be taken in response to documented attempts to
+          obtain system, system component, or system service
+          documentation; risk management strategy documentation;
+          system security plan; privacy plan; privacy impact
+          assessment; privacy risk assessment documentation; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with acquisition/contracting responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities; system administrators; organizational personnel
-          responsible for operating, using, and/or maintaining the system; system
+          Organizational personnel with acquisition/contracting
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities; system
+          administrators; organizational personnel responsible for
+          operating, using, and/or maintaining the system; system
           developers
       - method: test
         statement: >
-          Organizational processes for obtaining, protecting, and distributing system
-          administrator and user documentation
+          Organizational processes for obtaining, protecting, and
+          distributing system administrator and user documentation
     statement: >
-      user documentation for the system, system component, or system service that
-      describes user-accessible security functions and mechanisms is obtained or
-      developed;
+      user documentation for the system, system component, or system
+      service that describes user-accessible security functions and
+      mechanisms is obtained or developed;
   - id: b.1-2
     methods:
       - method: examine
         statement: >
-          System and services acquisition policy; system and services acquisition
-          procedures; procedures addressing system documentation; system
-          documentation, including administrator and user guides; system design
-          documentation; records documenting attempts to obtain unavailable or
-          nonexistent system documentation; list of actions to be taken in response to
-          documented attempts to obtain system, system component, or system service
-          documentation; risk management strategy documentation; system security plan;
-          privacy plan; privacy impact assessment; privacy risk assessment
-          documentation; other relevant documents or records
+          System and services acquisition policy; system and
+          services acquisition procedures; procedures addressing
+          system documentation; system documentation, including
+          administrator and user guides; system design
+          documentation; records documenting attempts to obtain
+          unavailable or nonexistent system documentation; list of
+          actions to be taken in response to documented attempts to
+          obtain system, system component, or system service
+          documentation; risk management strategy documentation;
+          system security plan; privacy plan; privacy impact
+          assessment; privacy risk assessment documentation; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with acquisition/contracting responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities; system administrators; organizational personnel
-          responsible for operating, using, and/or maintaining the system; system
+          Organizational personnel with acquisition/contracting
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities; system
+          administrators; organizational personnel responsible for
+          operating, using, and/or maintaining the system; system
           developers
       - method: test
         statement: >
-          Organizational processes for obtaining, protecting, and distributing system
-          administrator and user documentation
+          Organizational processes for obtaining, protecting, and
+          distributing system administrator and user documentation
     statement: >
-      user documentation for the system, system component, or system service that
-      describes how to effectively use those (user-accessible security) functions
-      and mechanisms is obtained or developed;
+      user documentation for the system, system component, or system
+      service that describes how to effectively use those
+      (user-accessible security) functions and mechanisms is
+      obtained or developed;
   - id: b.1-3
     methods:
       - method: examine
         statement: >
-          System and services acquisition policy; system and services acquisition
-          procedures; procedures addressing system documentation; system
-          documentation, including administrator and user guides; system design
-          documentation; records documenting attempts to obtain unavailable or
-          nonexistent system documentation; list of actions to be taken in response to
-          documented attempts to obtain system, system component, or system service
-          documentation; risk management strategy documentation; system security plan;
-          privacy plan; privacy impact assessment; privacy risk assessment
-          documentation; other relevant documents or records
+          System and services acquisition policy; system and
+          services acquisition procedures; procedures addressing
+          system documentation; system documentation, including
+          administrator and user guides; system design
+          documentation; records documenting attempts to obtain
+          unavailable or nonexistent system documentation; list of
+          actions to be taken in response to documented attempts to
+          obtain system, system component, or system service
+          documentation; risk management strategy documentation;
+          system security plan; privacy plan; privacy impact
+          assessment; privacy risk assessment documentation; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with acquisition/contracting responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities; system administrators; organizational personnel
-          responsible for operating, using, and/or maintaining the system; system
+          Organizational personnel with acquisition/contracting
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities; system
+          administrators; organizational personnel responsible for
+          operating, using, and/or maintaining the system; system
           developers
       - method: test
         statement: >
-          Organizational processes for obtaining, protecting, and distributing system
-          administrator and user documentation
+          Organizational processes for obtaining, protecting, and
+          distributing system administrator and user documentation
     statement: >
-      user documentation for the system, system component, or system service that
-      describes user-accessible privacy functions and mechanisms is obtained or
-      developed;
+      user documentation for the system, system component, or system
+      service that describes user-accessible privacy functions and
+      mechanisms is obtained or developed;
   - id: b.1-4
     methods:
       - method: examine
         statement: >
-          System and services acquisition policy; system and services acquisition
-          procedures; procedures addressing system documentation; system
-          documentation, including administrator and user guides; system design
-          documentation; records documenting attempts to obtain unavailable or
-          nonexistent system documentation; list of actions to be taken in response to
-          documented attempts to obtain system, system component, or system service
-          documentation; risk management strategy documentation; system security plan;
-          privacy plan; privacy impact assessment; privacy risk assessment
-          documentation; other relevant documents or records
+          System and services acquisition policy; system and
+          services acquisition procedures; procedures addressing
+          system documentation; system documentation, including
+          administrator and user guides; system design
+          documentation; records documenting attempts to obtain
+          unavailable or nonexistent system documentation; list of
+          actions to be taken in response to documented attempts to
+          obtain system, system component, or system service
+          documentation; risk management strategy documentation;
+          system security plan; privacy plan; privacy impact
+          assessment; privacy risk assessment documentation; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with acquisition/contracting responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities; system administrators; organizational personnel
-          responsible for operating, using, and/or maintaining the system; system
+          Organizational personnel with acquisition/contracting
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities; system
+          administrators; organizational personnel responsible for
+          operating, using, and/or maintaining the system; system
           developers
       - method: test
         statement: >
-          Organizational processes for obtaining, protecting, and distributing system
-          administrator and user documentation
+          Organizational processes for obtaining, protecting, and
+          distributing system administrator and user documentation
     statement: >
-      user documentation for the system, system component, or system service that
-      describes how to effectively use those (user-accessible privacy) functions
-      and mechanisms is obtained or developed;
+      user documentation for the system, system component, or system
+      service that describes how to effectively use those
+      (user-accessible privacy) functions and mechanisms is obtained
+      or developed;
   - id: b.2-1
     methods:
       - method: examine
         statement: >
-          System and services acquisition policy; system and services acquisition
-          procedures; procedures addressing system documentation; system
-          documentation, including administrator and user guides; system design
-          documentation; records documenting attempts to obtain unavailable or
-          nonexistent system documentation; list of actions to be taken in response to
-          documented attempts to obtain system, system component, or system service
-          documentation; risk management strategy documentation; system security plan;
-          privacy plan; privacy impact assessment; privacy risk assessment
-          documentation; other relevant documents or records
+          System and services acquisition policy; system and
+          services acquisition procedures; procedures addressing
+          system documentation; system documentation, including
+          administrator and user guides; system design
+          documentation; records documenting attempts to obtain
+          unavailable or nonexistent system documentation; list of
+          actions to be taken in response to documented attempts to
+          obtain system, system component, or system service
+          documentation; risk management strategy documentation;
+          system security plan; privacy plan; privacy impact
+          assessment; privacy risk assessment documentation; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with acquisition/contracting responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities; system administrators; organizational personnel
-          responsible for operating, using, and/or maintaining the system; system
+          Organizational personnel with acquisition/contracting
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities; system
+          administrators; organizational personnel responsible for
+          operating, using, and/or maintaining the system; system
           developers
       - method: test
         statement: >
-          Organizational processes for obtaining, protecting, and distributing system
-          administrator and user documentation
+          Organizational processes for obtaining, protecting, and
+          distributing system administrator and user documentation
     statement: >
-      user documentation for the system, system component, or system service that
-      describes methods for user interaction, which enable individuals to use the
-      system, component, or service in a more secure manner is obtained or
-      developed;
+      user documentation for the system, system component, or system
+      service that describes methods for user interaction, which
+      enable individuals to use the system, component, or service in
+      a more secure manner is obtained or developed;
   - id: b.2-2
     methods:
       - method: examine
         statement: >
-          System and services acquisition policy; system and services acquisition
-          procedures; procedures addressing system documentation; system
-          documentation, including administrator and user guides; system design
-          documentation; records documenting attempts to obtain unavailable or
-          nonexistent system documentation; list of actions to be taken in response to
-          documented attempts to obtain system, system component, or system service
-          documentation; risk management strategy documentation; system security plan;
-          privacy plan; privacy impact assessment; privacy risk assessment
-          documentation; other relevant documents or records
+          System and services acquisition policy; system and
+          services acquisition procedures; procedures addressing
+          system documentation; system documentation, including
+          administrator and user guides; system design
+          documentation; records documenting attempts to obtain
+          unavailable or nonexistent system documentation; list of
+          actions to be taken in response to documented attempts to
+          obtain system, system component, or system service
+          documentation; risk management strategy documentation;
+          system security plan; privacy plan; privacy impact
+          assessment; privacy risk assessment documentation; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with acquisition/contracting responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities; system administrators; organizational personnel
-          responsible for operating, using, and/or maintaining the system; system
+          Organizational personnel with acquisition/contracting
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities; system
+          administrators; organizational personnel responsible for
+          operating, using, and/or maintaining the system; system
           developers
       - method: test
         statement: >
-          Organizational processes for obtaining, protecting, and distributing system
-          administrator and user documentation
+          Organizational processes for obtaining, protecting, and
+          distributing system administrator and user documentation
     statement: >
-      user documentation for the system, system component, or system service that
-      describes methods for user interaction, which enable individuals to use the
-      system, component, or service to protect individual privacy is obtained or
-      developed;
+      user documentation for the system, system component, or system
+      service that describes methods for user interaction, which
+      enable individuals to use the system, component, or service to
+      protect individual privacy is obtained or developed;
   - id: b.3-1
     methods:
       - method: examine
         statement: >
-          System and services acquisition policy; system and services acquisition
-          procedures; procedures addressing system documentation; system
-          documentation, including administrator and user guides; system design
-          documentation; records documenting attempts to obtain unavailable or
-          nonexistent system documentation; list of actions to be taken in response to
-          documented attempts to obtain system, system component, or system service
-          documentation; risk management strategy documentation; system security plan;
-          privacy plan; privacy impact assessment; privacy risk assessment
-          documentation; other relevant documents or records
+          System and services acquisition policy; system and
+          services acquisition procedures; procedures addressing
+          system documentation; system documentation, including
+          administrator and user guides; system design
+          documentation; records documenting attempts to obtain
+          unavailable or nonexistent system documentation; list of
+          actions to be taken in response to documented attempts to
+          obtain system, system component, or system service
+          documentation; risk management strategy documentation;
+          system security plan; privacy plan; privacy impact
+          assessment; privacy risk assessment documentation; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with acquisition/contracting responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities; system administrators; organizational personnel
-          responsible for operating, using, and/or maintaining the system; system
+          Organizational personnel with acquisition/contracting
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities; system
+          administrators; organizational personnel responsible for
+          operating, using, and/or maintaining the system; system
           developers
       - method: test
         statement: >
-          Organizational processes for obtaining, protecting, and distributing system
-          administrator and user documentation
+          Organizational processes for obtaining, protecting, and
+          distributing system administrator and user documentation
     statement: >
-      user documentation for the system, system component, or system service that
-      describes user responsibilities for maintaining the security of the system,
-      component, or service is obtained or developed;
+      user documentation for the system, system component, or system
+      service that describes user responsibilities for maintaining
+      the security of the system, component, or service is obtained
+      or developed;
   - id: b.3-2
     methods:
       - method: examine
         statement: >
-          System and services acquisition policy; system and services acquisition
-          procedures; procedures addressing system documentation; system
-          documentation, including administrator and user guides; system design
-          documentation; records documenting attempts to obtain unavailable or
-          nonexistent system documentation; list of actions to be taken in response to
-          documented attempts to obtain system, system component, or system service
-          documentation; risk management strategy documentation; system security plan;
-          privacy plan; privacy impact assessment; privacy risk assessment
-          documentation; other relevant documents or records
+          System and services acquisition policy; system and
+          services acquisition procedures; procedures addressing
+          system documentation; system documentation, including
+          administrator and user guides; system design
+          documentation; records documenting attempts to obtain
+          unavailable or nonexistent system documentation; list of
+          actions to be taken in response to documented attempts to
+          obtain system, system component, or system service
+          documentation; risk management strategy documentation;
+          system security plan; privacy plan; privacy impact
+          assessment; privacy risk assessment documentation; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with acquisition/contracting responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities; system administrators; organizational personnel
-          responsible for operating, using, and/or maintaining the system; system
+          Organizational personnel with acquisition/contracting
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities; system
+          administrators; organizational personnel responsible for
+          operating, using, and/or maintaining the system; system
           developers
       - method: test
         statement: >
-          Organizational processes for obtaining, protecting, and distributing system
-          administrator and user documentation
+          Organizational processes for obtaining, protecting, and
+          distributing system administrator and user documentation
     statement: >
-      user documentation for the system, system component, or system service that
-      describes user responsibilities for maintaining the privacy of individuals
-      is obtained or developed;
+      user documentation for the system, system component, or system
+      service that describes user responsibilities for maintaining
+      the privacy of individuals is obtained or developed;
   - id: c-1
     methods:
       - method: examine
         statement: >
-          System and services acquisition policy; system and services acquisition
-          procedures; procedures addressing system documentation; system
-          documentation, including administrator and user guides; system design
-          documentation; records documenting attempts to obtain unavailable or
-          nonexistent system documentation; list of actions to be taken in response to
-          documented attempts to obtain system, system component, or system service
-          documentation; risk management strategy documentation; system security plan;
-          privacy plan; privacy impact assessment; privacy risk assessment
-          documentation; other relevant documents or records
+          System and services acquisition policy; system and
+          services acquisition procedures; procedures addressing
+          system documentation; system documentation, including
+          administrator and user guides; system design
+          documentation; records documenting attempts to obtain
+          unavailable or nonexistent system documentation; list of
+          actions to be taken in response to documented attempts to
+          obtain system, system component, or system service
+          documentation; risk management strategy documentation;
+          system security plan; privacy plan; privacy impact
+          assessment; privacy risk assessment documentation; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with acquisition/contracting responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities; system administrators; organizational personnel
-          responsible for operating, using, and/or maintaining the system; system
+          Organizational personnel with acquisition/contracting
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities; system
+          administrators; organizational personnel responsible for
+          operating, using, and/or maintaining the system; system
           developers
       - method: test
         statement: >
-          Organizational processes for obtaining, protecting, and distributing system
-          administrator and user documentation
+          Organizational processes for obtaining, protecting, and
+          distributing system administrator and user documentation
     statement: >
-      attempts to obtain system, system component, or system service documentation
-      when such documentation is either unavailable or nonexistent is documented;
+      attempts to obtain system, system component, or system service
+      documentation when such documentation is either unavailable or
+      nonexistent is documented;
   - id: c-2
     methods:
       - method: examine
         statement: >
-          System and services acquisition policy; system and services acquisition
-          procedures; procedures addressing system documentation; system
-          documentation, including administrator and user guides; system design
-          documentation; records documenting attempts to obtain unavailable or
-          nonexistent system documentation; list of actions to be taken in response to
-          documented attempts to obtain system, system component, or system service
-          documentation; risk management strategy documentation; system security plan;
-          privacy plan; privacy impact assessment; privacy risk assessment
-          documentation; other relevant documents or records
+          System and services acquisition policy; system and
+          services acquisition procedures; procedures addressing
+          system documentation; system documentation, including
+          administrator and user guides; system design
+          documentation; records documenting attempts to obtain
+          unavailable or nonexistent system documentation; list of
+          actions to be taken in response to documented attempts to
+          obtain system, system component, or system service
+          documentation; risk management strategy documentation;
+          system security plan; privacy plan; privacy impact
+          assessment; privacy risk assessment documentation; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with acquisition/contracting responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities; system administrators; organizational personnel
-          responsible for operating, using, and/or maintaining the system; system
+          Organizational personnel with acquisition/contracting
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities; system
+          administrators; organizational personnel responsible for
+          operating, using, and/or maintaining the system; system
           developers
       - method: test
         statement: >
-          Organizational processes for obtaining, protecting, and distributing system
-          administrator and user documentation
+          Organizational processes for obtaining, protecting, and
+          distributing system administrator and user documentation
     statement: >
-      after attempts to obtain system, system component, or system service
-      documentation when such documentation is either unavailable or nonexistent,
-      {{ sa_05_odp_01 }} are taken in response;
+      after attempts to obtain system, system component, or system
+      service documentation when such documentation is either
+      unavailable or nonexistent, {{ sa_05_odp_01 }} are taken in
+      response;
   - id: d
     methods:
       - method: examine
         statement: >
-          System and services acquisition policy; system and services acquisition
-          procedures; procedures addressing system documentation; system
-          documentation, including administrator and user guides; system design
-          documentation; records documenting attempts to obtain unavailable or
-          nonexistent system documentation; list of actions to be taken in response to
-          documented attempts to obtain system, system component, or system service
-          documentation; risk management strategy documentation; system security plan;
-          privacy plan; privacy impact assessment; privacy risk assessment
-          documentation; other relevant documents or records
+          System and services acquisition policy; system and
+          services acquisition procedures; procedures addressing
+          system documentation; system documentation, including
+          administrator and user guides; system design
+          documentation; records documenting attempts to obtain
+          unavailable or nonexistent system documentation; list of
+          actions to be taken in response to documented attempts to
+          obtain system, system component, or system service
+          documentation; risk management strategy documentation;
+          system security plan; privacy plan; privacy impact
+          assessment; privacy risk assessment documentation; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with acquisition/contracting responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities; system administrators; organizational personnel
-          responsible for operating, using, and/or maintaining the system; system
+          Organizational personnel with acquisition/contracting
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities; system
+          administrators; organizational personnel responsible for
+          operating, using, and/or maintaining the system; system
           developers
       - method: test
         statement: >
-          Organizational processes for obtaining, protecting, and distributing system
-          administrator and user documentation
+          Organizational processes for obtaining, protecting, and
+          distributing system administrator and user documentation
     statement: "documentation is distributed to {{ sa_05_odp_02 }}."
 parameters:
   sa_05_odp_01:
@@ -579,41 +666,42 @@ parameters:
 parts:
   - id: a
     statement: >
-      Obtain or develop administrator documentation for the system, system
-      component, or system service that describes:
+      Obtain or develop administrator documentation for the system,
+      system component, or system service that describes:
   - id: a.1
     statement: >
-      Secure configuration, installation, and operation of the system, component,
-      or service;
+      Secure configuration, installation, and operation of the
+      system, component, or service;
   - id: a.2
     statement: >
-      Effective use and maintenance of security and privacy functions and
-      mechanisms; and
+      Effective use and maintenance of security and privacy
+      functions and mechanisms; and
   - id: a.3
     statement: >
-      Known vulnerabilities regarding configuration and use of administrative or
-      privileged functions;
+      Known vulnerabilities regarding configuration and use of
+      administrative or privileged functions;
   - id: b
     statement: >
-      Obtain or develop user documentation for the system, system component, or
-      system service that describes:
+      Obtain or develop user documentation for the system, system
+      component, or system service that describes:
   - id: b.1
     statement: >
-      User-accessible security and privacy functions and mechanisms and how to
-      effectively use those functions and mechanisms;
+      User-accessible security and privacy functions and mechanisms
+      and how to effectively use those functions and mechanisms;
   - id: b.2
     statement: >
-      Methods for user interaction, which enables individuals to use the system,
-      component, or service in a more secure manner and protect individual
-      privacy; and
+      Methods for user interaction, which enables individuals to use
+      the system, component, or service in a more secure manner and
+      protect individual privacy; and
   - id: b.3
     statement: >
-      User responsibilities in maintaining the security of the system, component,
-      or service and privacy of individuals;
+      User responsibilities in maintaining the security of the
+      system, component, or service and privacy of individuals;
   - id: c
     statement: >
-      Document attempts to obtain system, system component, or system service
-      documentation when such documentation is either unavailable or nonexistent
-      and take {{ sa_05_odp_01 }} in response; and
+      Document attempts to obtain system, system component, or
+      system service documentation when such documentation is either
+      unavailable or nonexistent and take {{ sa_05_odp_01 }} in
+      response; and
   - id: d
     statement: "Distribute documentation to {{ sa_05_odp_02 }}."

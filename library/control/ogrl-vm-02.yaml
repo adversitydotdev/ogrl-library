@@ -9,25 +9,30 @@ control_type: corrective
 family: vm
 frequency: continuous
 guidance: >
-  Automate update pull requests (for example Dependabot or Renovate), rebuild
-  images on base-image releases, and enable managed-service auto-patching with
-  maintenance windows. Track patch age as a metric against the SLA.
-  Vulnerability identification and scanning is covered by OGRL-VM-01.
-objective: "Close known software flaws quickly without destabilizing production.\n"
+  Automate update pull requests (for example Dependabot or
+  Renovate), rebuild images on base-image releases, and enable
+  managed-service auto-patching with maintenance windows. Track
+  patch age as a metric against the SLA. Vulnerability
+  identification and scanning is covered by OGRL-VM-01.
+objective: >
+  Close known software flaws quickly without destabilizing
+  production.
 origin: standard
 parameters:
   patch_sla:
     label: Security update installation SLA
-    value: "14 days for critical, 30 days for high, and 90 days for other security updates"
+    value: >-
+      14 days for critical, 30 days for high, and 90 days for other
+      security updates
 statement: >
-  Install security-relevant updates for operating systems, container base
-  images, language runtimes, and third-party dependencies within
-  {{ patch_sla }} of vendor release, test each update in a non-production
-  environment before production deployment, and deploy updates through the
-  standard change management process.
+  Install security-relevant updates for operating systems, container
+  base images, language runtimes, and third-party dependencies
+  within {{ patch_sla }} of vendor release, test each update in a
+  non-production environment before production deployment, and
+  deploy updates through the standard change management process.
 summary: >
-  Apply security updates within defined timeframes after testing, through the
-  normal change process.
+  Apply security updates within defined timeframes after testing,
+  through the normal change process.
 tags:
   - patching
   - vulnerability-management

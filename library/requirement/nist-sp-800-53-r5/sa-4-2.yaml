@@ -13,29 +13,35 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and services acquisition policy; system and services acquisition
-          procedures; procedures addressing the integration of security requirements,
-          descriptions, and criteria into the acquisition process; solicitation
-          documents; acquisition documentation; acquisition contracts for the system,
-          system components, or system services; design and implementation information
-          for controls employed in the system, system component, or system service;
-          system security plan; other relevant documents or records
+          System and services acquisition policy; system and
+          services acquisition procedures; procedures addressing the
+          integration of security requirements, descriptions, and
+          criteria into the acquisition process; solicitation
+          documents; acquisition documentation; acquisition
+          contracts for the system, system components, or system
+          services; design and implementation information for
+          controls employed in the system, system component, or
+          system service; system security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with acquisition/contracting responsibilities;
-          organizational personnel with the responsibility to determine system
-          security requirements; system developers or service provider; organizational
+          Organizational personnel with acquisition/contracting
+          responsibilities; organizational personnel with the
+          responsibility to determine system security requirements;
+          system developers or service provider; organizational
           personnel with information security responsibilities
       - method: test
         statement: >
-          Organizational processes for determining the level of detail for system
-          design and controls; organizational processes for developing acquisition
-          contracts; mechanisms supporting and/or implementing the development of
-          system design details
+          Organizational processes for determining the level of
+          detail for system design and controls; organizational
+          processes for developing acquisition contracts; mechanisms
+          supporting and/or implementing the development of system
+          design details
     statement: >
-      the developer of the system, system component, or system service is required
-      to provide design and implementation information for the controls that
-      includes using {{ sa_04_02_odp_01 }} at {{ sa_04_02_odp_03 }}.
+      the developer of the system, system component, or system
+      service is required to provide design and implementation
+      information for the controls that includes using
+      {{ sa_04_02_odp_01 }} at {{ sa_04_02_odp_03 }}.
 parameters:
   sa_04_02_odp_01:
     label: sa-04.02_odp.01
@@ -44,6 +50,7 @@ parameters:
   sa_04_02_odp_03:
     label: level of detail
 statement: >
-  Require the developer of the system, system component, or system service to
-  provide design and implementation information for the controls that
-  includes: {{ sa_04_02_odp_01 }} at {{ sa_04_02_odp_03 }}.
+  Require the developer of the system, system component, or system
+  service to provide design and implementation information for the
+  controls that includes: {{ sa_04_02_odp_01 }} at
+  {{ sa_04_02_odp_03 }}.

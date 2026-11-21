@@ -23,68 +23,86 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing the use of external systems;
-          external systems terms and conditions; list of types of applications
-          accessible from external systems; maximum security categorization for
-          information processed, stored, or transmitted on external systems; system
-          configuration settings and associated documentation; system security plan;
-          other relevant documents or records
+          Access control policy; procedures addressing the use of
+          external systems; external systems terms and conditions;
+          list of types of applications accessible from external
+          systems; maximum security categorization for information
+          processed, stored, or transmitted on external systems;
+          system configuration settings and associated
+          documentation; system security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with responsibilities for defining terms and
-          conditions for use of external systems to access organizational systems;
-          system/network administrators; organizational personnel with information
+          Organizational personnel with responsibilities for
+          defining terms and conditions for use of external systems
+          to access organizational systems; system/network
+          administrators; organizational personnel with information
           security responsibilities
       - method: test
-        statement: Mechanisms implementing terms and conditions on the use of external systems
+        statement: >-
+          Mechanisms implementing terms and conditions on the use of
+          external systems
     statement: >
-      {{ ac_20_odp_01 }} is/are consistent with the trust relationships
-      established with other organizations owning, operating, and/or maintaining
-      external systems, allowing authorized individuals to access the system from
-      external systems (if applicable);
+      {{ ac_20_odp_01 }} is/are consistent with the trust
+      relationships established with other organizations owning,
+      operating, and/or maintaining external systems, allowing
+      authorized individuals to access the system from external
+      systems (if applicable);
   - id: a.2
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing the use of external systems;
-          external systems terms and conditions; list of types of applications
-          accessible from external systems; maximum security categorization for
-          information processed, stored, or transmitted on external systems; system
-          configuration settings and associated documentation; system security plan;
-          other relevant documents or records
+          Access control policy; procedures addressing the use of
+          external systems; external systems terms and conditions;
+          list of types of applications accessible from external
+          systems; maximum security categorization for information
+          processed, stored, or transmitted on external systems;
+          system configuration settings and associated
+          documentation; system security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with responsibilities for defining terms and
-          conditions for use of external systems to access organizational systems;
-          system/network administrators; organizational personnel with information
+          Organizational personnel with responsibilities for
+          defining terms and conditions for use of external systems
+          to access organizational systems; system/network
+          administrators; organizational personnel with information
           security responsibilities
       - method: test
-        statement: Mechanisms implementing terms and conditions on the use of external systems
+        statement: >-
+          Mechanisms implementing terms and conditions on the use of
+          external systems
     statement: >
-      {{ ac_20_odp_01 }} is/are consistent with the trust relationships
-      established with other organizations owning, operating, and/or maintaining
-      external systems, allowing authorized individuals to process, store, or
-      transmit organization-controlled information using external systems (if
+      {{ ac_20_odp_01 }} is/are consistent with the trust
+      relationships established with other organizations owning,
+      operating, and/or maintaining external systems, allowing
+      authorized individuals to process, store, or transmit
+      organization-controlled information using external systems (if
       applicable);
   - id: b
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing the use of external systems;
-          external systems terms and conditions; list of types of applications
-          accessible from external systems; maximum security categorization for
-          information processed, stored, or transmitted on external systems; system
-          configuration settings and associated documentation; system security plan;
-          other relevant documents or records
+          Access control policy; procedures addressing the use of
+          external systems; external systems terms and conditions;
+          list of types of applications accessible from external
+          systems; maximum security categorization for information
+          processed, stored, or transmitted on external systems;
+          system configuration settings and associated
+          documentation; system security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with responsibilities for defining terms and
-          conditions for use of external systems to access organizational systems;
-          system/network administrators; organizational personnel with information
+          Organizational personnel with responsibilities for
+          defining terms and conditions for use of external systems
+          to access organizational systems; system/network
+          administrators; organizational personnel with information
           security responsibilities
       - method: test
-        statement: Mechanisms implementing terms and conditions on the use of external systems
-    statement: "the use of {{ ac_20_odp_04 }} is prohibited (if applicable)."
+        statement: >-
+          Mechanisms implementing terms and conditions on the use of
+          external systems
+    statement: >-
+      the use of {{ ac_20_odp_04 }} is prohibited (if applicable).
 parameters:
   ac_20_odp_01:
     label: ac-20_odp.01
@@ -97,14 +115,15 @@ parameters:
 parts:
   - id: a
     statement: >
-      {{ ac_20_odp_01 }} , consistent with the trust relationships established
-      with other organizations owning, operating, and/or maintaining external
-      systems, allowing authorized individuals to:
+      {{ ac_20_odp_01 }} , consistent with the trust relationships
+      established with other organizations owning, operating, and/or
+      maintaining external systems, allowing authorized individuals
+      to:
   - id: a.1
     statement: Access the system from external systems; and
   - id: a.2
     statement: >
-      Process, store, or transmit organization-controlled information using
-      external systems; or
+      Process, store, or transmit organization-controlled
+      information using external systems; or
   - id: b
     statement: "Prohibit the use of {{ ac_20_odp_04 }}."

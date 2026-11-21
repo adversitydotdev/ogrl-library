@@ -13,21 +13,24 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; procedures addressing
-          concealment and misdirection techniques for the system; system design
-          documentation; system configuration settings and associated documentation;
-          system architecture; list of concealment and misdirection techniques to be
-          employed for organizational systems; system audit records; system security
-          plan; other relevant documents or records
+          System and communications protection policy; procedures
+          addressing concealment and misdirection techniques for the
+          system; system design documentation; system configuration
+          settings and associated documentation; system
+          architecture; list of concealment and misdirection
+          techniques to be employed for organizational systems;
+          system audit records; system security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; organizational personnel with the responsibility
-          to implement concealment and misdirection techniques for systems
+          System/network administrators; organizational personnel
+          with information security responsibilities; organizational
+          personnel with the responsibility to implement concealment
+          and misdirection techniques for systems
       - method: test
         statement: >
-          Mechanisms supporting and/or implementing concealment and misdirection
-          techniques
+          Mechanisms supporting and/or implementing concealment and
+          misdirection techniques
     statement: >
       {{ sc_30_odp_01 }} are employed for {{ sc_30_odp_02 }} for
       {{ sc_30_odp_03 }} to confuse and mislead adversaries.
@@ -40,5 +43,5 @@ parameters:
     label: time periods
 statement: >
   Employ the following concealment and misdirection techniques for
-  {{ sc_30_odp_02 }} at {{ sc_30_odp_03 }} to confuse and mislead adversaries:
-  {{ sc_30_odp_01 }}.
+  {{ sc_30_odp_02 }} at {{ sc_30_odp_03 }} to confuse and mislead
+  adversaries: {{ sc_30_odp_01 }}.

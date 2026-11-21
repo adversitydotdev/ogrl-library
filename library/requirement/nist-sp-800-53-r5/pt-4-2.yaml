@@ -13,24 +13,28 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Personally identifiable information processing and transparency policy and
-          procedures; consent policies and procedures; privacy plan; other relevant
-          documents or records
+          Personally identifiable information processing and
+          transparency policy and procedures; consent policies and
+          procedures; privacy plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          Organizational personnel with personally identifiable information processing
-          and transparency responsibilities; organizational personnel with user
-          interface or user experience responsibilities; organizational personnel with
+          Organizational personnel with personally identifiable
+          information processing and transparency responsibilities;
+          organizational personnel with user interface or user
+          experience responsibilities; organizational personnel with
           information security and privacy responsibilities
       - method: test
         statement: >
-          Organizational processes for the collection of personally identifiable
-          information; mechanisms for obtaining just-in-time consent from users for
-          the processing of their personally identifiable information; mechanisms
+          Organizational processes for the collection of personally
+          identifiable information; mechanisms for obtaining
+          just-in-time consent from users for the processing of
+          their personally identifiable information; mechanisms
           implementing just-in-time consent
     statement: >
-      {{ pt_04_02_odp_01 }} are presented to individuals {{ pt_04_02_odp_02 }} and
-      in conjunction with {{ pt_04_02_odp_03 }}.
+      {{ pt_04_02_odp_01 }} are presented to individuals
+      {{ pt_04_02_odp_02 }} and in conjunction with
+      {{ pt_04_02_odp_03 }}.
 parameters:
   pt_04_02_odp_01:
     label: consent mechanisms
@@ -39,5 +43,6 @@ parameters:
   pt_04_02_odp_03:
     label: personally identifiable information processing
 statement: >
-  Present {{ pt_04_02_odp_01 }} to individuals at {{ pt_04_02_odp_02 }} and in
-  conjunction with {{ pt_04_02_odp_03 }}.
+  Present {{ pt_04_02_odp_01 }} to individuals at
+  {{ pt_04_02_odp_02 }} and in conjunction with
+  {{ pt_04_02_odp_03 }}.

@@ -13,23 +13,27 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Audit and accountability policy; procedures addressing response to audit
-          processing failures; system design documentation; system security plan;
-          privacy plan; system configuration settings and associated documentation;
+          Audit and accountability policy; procedures addressing
+          response to audit processing failures; system design
+          documentation; system security plan; privacy plan; system
+          configuration settings and associated documentation;
           system audit records; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with audit and accountability responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities; system/network administrators; system developers
+          Organizational personnel with audit and accountability
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities;
+          system/network administrators; system developers
       - method: test
         statement: Alternate audit logging capability
     statement: >
-      an alternate audit logging capability is provided in the event of a failure
-      in primary audit logging capability that implements {{ au_05_05_odp }}.
+      an alternate audit logging capability is provided in the event
+      of a failure in primary audit logging capability that
+      implements {{ au_05_05_odp }}.
 parameters:
   au_05_05_odp:
     label: alternate audit logging functionality
 statement: >
-  Provide an alternate audit logging capability in the event of a failure in
-  primary audit logging capability that implements {{ au_05_05_odp }}.
+  Provide an alternate audit logging capability in the event of a
+  failure in primary audit logging capability that implements
+  {{ au_05_05_odp }}.

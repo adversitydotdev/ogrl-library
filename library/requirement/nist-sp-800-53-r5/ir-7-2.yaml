@@ -13,41 +13,44 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Incident response policy; procedures addressing incident response
-          assistance; incident response plan; system security plan; privacy plan;
-          other relevant documents or records
+          Incident response policy; procedures addressing incident
+          response assistance; incident response plan; system
+          security plan; privacy plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          Organizational personnel with incident response support and assistance
-          responsibilities; external providers of system protection capability;
-          organizational personnel with information security and privacy
-          responsibilities
+          Organizational personnel with incident response support
+          and assistance responsibilities; external providers of
+          system protection capability; organizational personnel
+          with information security and privacy responsibilities
     statement: >
-      a direct, cooperative relationship is established between its incident
-      response capability and external providers of the system protection
-      capability;
+      a direct, cooperative relationship is established between its
+      incident response capability and external providers of the
+      system protection capability;
   - id: b
     methods:
       - method: examine
         statement: >
-          Incident response policy; procedures addressing incident response
-          assistance; incident response plan; system security plan; privacy plan;
-          other relevant documents or records
+          Incident response policy; procedures addressing incident
+          response assistance; incident response plan; system
+          security plan; privacy plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          Organizational personnel with incident response support and assistance
-          responsibilities; external providers of system protection capability;
-          organizational personnel with information security and privacy
-          responsibilities
+          Organizational personnel with incident response support
+          and assistance responsibilities; external providers of
+          system protection capability; organizational personnel
+          with information security and privacy responsibilities
     statement: >
-      organizational incident response team members are identified to the external
-      providers.
+      organizational incident response team members are identified
+      to the external providers.
 parts:
   - id: a
     statement: >
-      Establish a direct, cooperative relationship between its incident response
-      capability and external providers of system protection capability; and
+      Establish a direct, cooperative relationship between its
+      incident response capability and external providers of system
+      protection capability; and
   - id: b
     statement: >
-      Identify organizational incident response team members to the external
-      providers.
+      Identify organizational incident response team members to the
+      external providers.

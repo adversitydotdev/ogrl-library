@@ -13,28 +13,34 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Identification and authentication policy; system security plan; privacy
-          plan; procedures addressing user identification and authentication; system
-          design documentation; system configuration settings and associated
-          documentation; system audit records; other relevant documents or records
+          Identification and authentication policy; system security
+          plan; privacy plan; procedures addressing user
+          identification and authentication; system design
+          documentation; system configuration settings and
+          associated documentation; system audit records; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with system operations responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities; system/network administrators; system developers;
-          organizational personnel with account management responsibilities
+          Organizational personnel with system operations
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities;
+          system/network administrators; system developers;
+          organizational personnel with account management
+          responsibilities
       - method: test
         statement: >
-          Mechanisms supporting and/or implementing identification and authentication
-          capabilities
+          Mechanisms supporting and/or implementing identification
+          and authentication capabilities
     statement: >
-      {{ ia_08_06_odp }} to disassociate user attributes or identifier assertion
-      relationships among individuals, credential service providers, and relying
-      parties are implemented.
+      {{ ia_08_06_odp }} to disassociate user attributes or
+      identifier assertion relationships among individuals,
+      credential service providers, and relying parties are
+      implemented.
 parameters:
   ia_08_06_odp:
     label: measures
 statement: >
-  Implement the following measures to disassociate user attributes or
-  identifier assertion relationships among individuals, credential service
-  providers, and relying parties: {{ ia_08_06_odp }}.
+  Implement the following measures to disassociate user attributes
+  or identifier assertion relationships among individuals,
+  credential service providers, and relying parties:
+  {{ ia_08_06_odp }}.

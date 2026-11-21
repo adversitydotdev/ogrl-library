@@ -11,6 +11,6 @@ relationship: equivalent-to
 review_status: reviewed
 source_ref: control--ogrl-lm-02
 summary: >
-  Continuous telemetry monitoring against defined threat objectives satisfies
-  NIST SI-4(a.1).
+  Continuous telemetry monitoring against defined threat objectives
+  satisfies NIST SI-4(a.1).
 target_ref: "requirement--nist-sp-800-53-r5-si-4#a.1"

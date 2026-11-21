@@ -9,28 +9,29 @@ control_type: detective
 family: bc
 frequency: quarterly
 guidance: >
-  Automate restore tests where possible, for example a scheduled job that
-  restores the latest snapshot to a temporary instance, runs row-count and
-  checksum queries, records timing, and tears down the instance. Rotate which
-  data stores are tested if full coverage each period is impractical, but test
-  every critical store at least annually. Keep the job output or a ticket per
-  test as evidence.
+  Automate restore tests where possible, for example a scheduled job
+  that restores the latest snapshot to a temporary instance, runs
+  row-count and checksum queries, records timing, and tears down the
+  instance. Rotate which data stores are tested if full coverage
+  each period is impractical, but test every critical store at least
+  annually. Keep the job output or a ticket per test as evidence.
 objective: >
-  Confirm that backups are reliable and can be restored within committed
-  recovery objectives before they are needed.
+  Confirm that backups are reliable and can be restored within
+  committed recovery objectives before they are needed.
 origin: standard
 parameters:
   restore_test_cadence:
     label: Restoration test frequency
     value: at least quarterly
 statement: >
-  Restore backups of each critical data store {{ restore_test_cadence }} into
-  an isolated environment, verify data completeness and integrity against
-  defined checks, record the restore duration and data recency against
-  recovery time and recovery point objectives, and remediate failed tests.
+  Restore backups of each critical data store
+  {{ restore_test_cadence }} into an isolated environment, verify
+  data completeness and integrity against defined checks, record the
+  restore duration and data recency against recovery time and
+  recovery point objectives, and remediate failed tests.
 summary: >
-  Periodically restore backups of critical data stores to confirm they are
-  usable, complete, and recoverable within objectives.
+  Periodically restore backups of critical data stores to confirm
+  they are usable, complete, and recoverable within objectives.
 tags:
   - backup
   - restore-testing

@@ -13,22 +13,25 @@ objectives:
     methods:
       - method: examine
         statement: >
-          access control policy and procedures; privacy and security policies,
-          procedures for system use notification; documented approval of system use
-          notification messages; system audit records; user acknowledgements of system
-          use notification messages; system design documentation; system configuration
-          settings; system use notification messages; system security plan; other
-          relevant documents or records
+          access control policy and procedures; privacy and security
+          policies, procedures for system use notification;
+          documented approval of system use notification messages;
+          system audit records; user acknowledgements of system use
+          notification messages; system design documentation; system
+          configuration settings; system use notification messages;
+          system security plan; other relevant documents or records
       - method: interview
         statement: >
-          personnel with information security responsibilities; legal counsel; system
-          developers; system administrators
+          personnel with information security responsibilities;
+          legal counsel; system developers; system administrators
       - method: test
-        statement: mechanisms for implementing system use notifications
+        statement: >-
+          mechanisms for implementing system use notifications
     statement: >
-      a system use notification message with privacy and security notices
-      consistent with applicable CUI rules is displayed before granting access to
-      the system.
+      a system use notification message with privacy and security
+      notices consistent with applicable CUI rules is displayed
+      before granting access to the system.
 statement: >
-  Display a system use notification message with privacy and security notices
-  consistent with applicable CUI rules before granting access to the system.
+  Display a system use notification message with privacy and
+  security notices consistent with applicable CUI rules before
+  granting access to the system.

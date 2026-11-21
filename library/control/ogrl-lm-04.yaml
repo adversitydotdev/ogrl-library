@@ -9,13 +9,14 @@ control_type: detective
 family: lm
 frequency: weekly
 guidance: >
-  Use saved SIEM queries or dashboards for each review so it is repeatable,
-  and record the review as a ticket with the query output attached. Focus on
-  privileged and administrative actions, break-glass usage, and changes to
-  security tooling. Real-time automated alerting is covered by OGRL-LM-02.
+  Use saved SIEM queries or dashboards for each review so it is
+  repeatable, and record the review as a ticket with the query
+  output attached. Focus on privileged and administrative actions,
+  break-glass usage, and changes to security tooling. Real-time
+  automated alerting is covered by OGRL-LM-02.
 objective: >
-  Identify inappropriate or unusual activity that automated alerting may not
-  catch, and leave evidence that review occurred.
+  Identify inappropriate or unusual activity that automated alerting
+  may not catch, and leave evidence that review occurred.
 origin: standard
 parameters:
   log_review_frequency:
@@ -27,20 +28,24 @@ parameters:
   reviewed_activity:
     label: Activity sought in log review
     value: >
-      unauthorized privileged actions, anomalous authentication patterns, and
-      disabled or modified security controls
+      unauthorized privileged actions, anomalous authentication
+      patterns, and disabled or modified security controls
   reviewed_log_sources:
     label: Logs subject to periodic review
     value: >
-      privileged and administrative activity logs, authentication logs, and
-      security tooling configuration changes
+      privileged and administrative activity logs, authentication
+      logs, and security tooling configuration changes
 statement: >
-  Review and analyze {{ reviewed_log_sources }} {{ log_review_frequency }} for
-  indications of {{ reviewed_activity }}, document each review with reviewer,
-  date, and findings, report findings to {{ log_review_report_recipients }},
-  and increase review scope or frequency when incidents, threat intelligence,
-  or significant system changes indicate elevated risk.
-summary: "Periodically review high-risk audit logs, document findings, and escalate them.\n"
+  Review and analyze {{ reviewed_log_sources }}
+  {{ log_review_frequency }} for indications of
+  {{ reviewed_activity }}, document each review with reviewer, date,
+  and findings, report findings to
+  {{ log_review_report_recipients }}, and increase review scope or
+  frequency when incidents, threat intelligence, or significant
+  system changes indicate elevated risk.
+summary: >
+  Periodically review high-risk audit logs, document findings, and
+  escalate them.
 tags:
   - logging
   - audit

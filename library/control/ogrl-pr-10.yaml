@@ -9,12 +9,13 @@ control_type: corrective
 family: pr
 frequency: annual
 guidance: >
-  Input validation, self-service profile editing, and bounce or undeliverable
-  handling cover most needs. Periodic checks can be automated data-quality
-  queries or stale-record reports reviewed by the data owner.
+  Input validation, self-service profile editing, and bounce or
+  undeliverable handling cover most needs. Periodic checks can be
+  automated data-quality queries or stale-record reports reviewed by
+  the data owner.
 objective: >
-  Ensure decisions and communications that rely on personal information are
-  based on accurate and current data.
+  Ensure decisions and communications that rely on personal
+  information are based on accurate and current data.
 origin: standard
 parameters:
   pii_quality_check_cadence:
@@ -25,13 +26,13 @@ parameters:
     value: "30 days"
 statement: >
   Validate personal information at collection, check the accuracy,
-  completeness, relevance, and timeliness of stored personal information
-  {{ pii_quality_check_cadence }}, and correct or delete inaccurate or
-  outdated personal information within {{ pii_quality_remediation_sla }} of
-  detection.
+  completeness, relevance, and timeliness of stored personal
+  information {{ pii_quality_check_cadence }}, and correct or delete
+  inaccurate or outdated personal information within
+  {{ pii_quality_remediation_sla }} of detection.
 summary: >
-  Periodically check personal information for accuracy and completeness and
-  fix or remove bad data.
+  Periodically check personal information for accuracy and
+  completeness and fix or remove bad data.
 tags:
   - privacy
   - data-quality

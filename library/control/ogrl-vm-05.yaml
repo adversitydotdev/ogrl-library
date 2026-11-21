@@ -9,13 +9,14 @@ control_type: detective
 family: vm
 frequency: annual
 guidance: >
-  Define rules of engagement and scope in a statement of work, include
-  authenticated testing of multi-tenant isolation, and import findings into
-  the vulnerability tracker. Keep the executive summary and retest letter as
-  evidence; many customers will request them.
+  Define rules of engagement and scope in a statement of work,
+  include authenticated testing of multi-tenant isolation, and
+  import findings into the vulnerability tracker. Keep the executive
+  summary and retest letter as evidence; many customers will request
+  them.
 objective: >
-  Find exploitable weaknesses that automated scanning misses and confirm they
-  are fixed.
+  Find exploitable weaknesses that automated scanning misses and
+  confirm they are fixed.
 origin: standard
 parameters:
   pentest_frequency:
@@ -27,17 +28,17 @@ parameters:
   pentest_scope:
     label: Penetration test scope
     value: >
-      the production application, public APIs, and external-facing cloud
-      infrastructure
+      the production application, public APIs, and external-facing
+      cloud infrastructure
 statement: >
   Engage {{ pentest_provider }} to perform penetration testing of
-  {{ pentest_scope }} {{ pentest_frequency }} and after significant changes to
-  the external attack surface, remediate findings within the organization's
-  vulnerability remediation SLAs, and retest or otherwise validate fixes for
-  critical and high findings.
+  {{ pentest_scope }} {{ pentest_frequency }} and after significant
+  changes to the external attack surface, remediate findings within
+  the organization's vulnerability remediation SLAs, and retest or
+  otherwise validate fixes for critical and high findings.
 summary: >
-  Commission independent penetration tests on a schedule and after major
-  changes, and remediate findings.
+  Commission independent penetration tests on a schedule and after
+  major changes, and remediate findings.
 tags:
   - penetration-testing
   - vulnerability-management

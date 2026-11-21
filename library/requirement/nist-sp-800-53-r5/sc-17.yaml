@@ -29,51 +29,57 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; procedures addressing public
-          key infrastructure certificates; public key certificate policy or policies;
-          public key issuing process; system security plan; other relevant documents
-          or records
+          System and communications protection policy; procedures
+          addressing public key infrastructure certificates; public
+          key certificate policy or policies; public key issuing
+          process; system security plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; organizational personnel with responsibilities
-          for issuing public key certificates; service providers
+          System/network administrators; organizational personnel
+          with information security responsibilities; organizational
+          personnel with responsibilities for issuing public key
+          certificates; service providers
       - method: test
         statement: >
-          Mechanisms supporting and/or implementing the management of public key
-          infrastructure certificates
+          Mechanisms supporting and/or implementing the management
+          of public key infrastructure certificates
     statement: >
-      public key certificates are issued under {{ sc_17_odp }} , or public key
-      certificates are obtained from an approved service provider;
+      public key certificates are issued under {{ sc_17_odp }} , or
+      public key certificates are obtained from an approved service
+      provider;
   - id: b
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; procedures addressing public
-          key infrastructure certificates; public key certificate policy or policies;
-          public key issuing process; system security plan; other relevant documents
-          or records
+          System and communications protection policy; procedures
+          addressing public key infrastructure certificates; public
+          key certificate policy or policies; public key issuing
+          process; system security plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; organizational personnel with responsibilities
-          for issuing public key certificates; service providers
+          System/network administrators; organizational personnel
+          with information security responsibilities; organizational
+          personnel with responsibilities for issuing public key
+          certificates; service providers
       - method: test
         statement: >
-          Mechanisms supporting and/or implementing the management of public key
-          infrastructure certificates
+          Mechanisms supporting and/or implementing the management
+          of public key infrastructure certificates
     statement: >
-      only approved trust anchors are included in trust stores or certificate
-      stores managed by the organization.
+      only approved trust anchors are included in trust stores or
+      certificate stores managed by the organization.
 parameters:
   sc_17_odp:
     label: certificate policy
 parts:
   - id: a
     statement: >
-      Issue public key certificates under an {{ sc_17_odp }} or obtain public key
-      certificates from an approved service provider; and
+      Issue public key certificates under an {{ sc_17_odp }} or
+      obtain public key certificates from an approved service
+      provider; and
   - id: b
     statement: >
-      Include only approved trust anchors in trust stores or certificate stores
-      managed by the organization.
+      Include only approved trust anchors in trust stores or
+      certificate stores managed by the organization.

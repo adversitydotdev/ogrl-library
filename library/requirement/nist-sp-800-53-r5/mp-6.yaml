@@ -44,96 +44,115 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System media protection policy; procedures addressing media sanitization and
-          disposal; applicable federal standards and policies addressing media
-          sanitization policy; media sanitization records; system audit records;
-          system design documentation; records retention and disposition policy;
-          records retention and disposition procedures; system configuration settings
-          and associated documentation; system security plan; privacy plan; other
+          System media protection policy; procedures addressing
+          media sanitization and disposal; applicable federal
+          standards and policies addressing media sanitization
+          policy; media sanitization records; system audit records;
+          system design documentation; records retention and
+          disposition policy; records retention and disposition
+          procedures; system configuration settings and associated
+          documentation; system security plan; privacy plan; other
           relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with media sanitization responsibilities;
-          organizational personnel with records retention and disposition
-          responsibilities; organizational personnel with information security and
-          privacy responsibilities; system/network administrators
+          Organizational personnel with media sanitization
+          responsibilities; organizational personnel with records
+          retention and disposition responsibilities; organizational
+          personnel with information security and privacy
+          responsibilities; system/network administrators
       - method: test
         statement: >
-          Organizational processes for media sanitization; mechanisms supporting
-          and/or implementing media sanitization
-    statement: "{{ mp_06_odp_01 }} is sanitized using {{ mp_06_odp_04 }} prior to disposal;"
+          Organizational processes for media sanitization;
+          mechanisms supporting and/or implementing media
+          sanitization
+    statement: >-
+      {{ mp_06_odp_01 }} is sanitized using {{ mp_06_odp_04 }} prior
+      to disposal;
   - id: a-2
     methods:
       - method: examine
         statement: >
-          System media protection policy; procedures addressing media sanitization and
-          disposal; applicable federal standards and policies addressing media
-          sanitization policy; media sanitization records; system audit records;
-          system design documentation; records retention and disposition policy;
-          records retention and disposition procedures; system configuration settings
-          and associated documentation; system security plan; privacy plan; other
+          System media protection policy; procedures addressing
+          media sanitization and disposal; applicable federal
+          standards and policies addressing media sanitization
+          policy; media sanitization records; system audit records;
+          system design documentation; records retention and
+          disposition policy; records retention and disposition
+          procedures; system configuration settings and associated
+          documentation; system security plan; privacy plan; other
           relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with media sanitization responsibilities;
-          organizational personnel with records retention and disposition
-          responsibilities; organizational personnel with information security and
-          privacy responsibilities; system/network administrators
+          Organizational personnel with media sanitization
+          responsibilities; organizational personnel with records
+          retention and disposition responsibilities; organizational
+          personnel with information security and privacy
+          responsibilities; system/network administrators
       - method: test
         statement: >
-          Organizational processes for media sanitization; mechanisms supporting
-          and/or implementing media sanitization
+          Organizational processes for media sanitization;
+          mechanisms supporting and/or implementing media
+          sanitization
     statement: >
-      {{ mp_06_odp_02 }} is sanitized using {{ mp_06_odp_05 }} prior to release
-      from organizational control;
+      {{ mp_06_odp_02 }} is sanitized using {{ mp_06_odp_05 }} prior
+      to release from organizational control;
   - id: a-3
     methods:
       - method: examine
         statement: >
-          System media protection policy; procedures addressing media sanitization and
-          disposal; applicable federal standards and policies addressing media
-          sanitization policy; media sanitization records; system audit records;
-          system design documentation; records retention and disposition policy;
-          records retention and disposition procedures; system configuration settings
-          and associated documentation; system security plan; privacy plan; other
+          System media protection policy; procedures addressing
+          media sanitization and disposal; applicable federal
+          standards and policies addressing media sanitization
+          policy; media sanitization records; system audit records;
+          system design documentation; records retention and
+          disposition policy; records retention and disposition
+          procedures; system configuration settings and associated
+          documentation; system security plan; privacy plan; other
           relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with media sanitization responsibilities;
-          organizational personnel with records retention and disposition
-          responsibilities; organizational personnel with information security and
-          privacy responsibilities; system/network administrators
+          Organizational personnel with media sanitization
+          responsibilities; organizational personnel with records
+          retention and disposition responsibilities; organizational
+          personnel with information security and privacy
+          responsibilities; system/network administrators
       - method: test
         statement: >
-          Organizational processes for media sanitization; mechanisms supporting
-          and/or implementing media sanitization
+          Organizational processes for media sanitization;
+          mechanisms supporting and/or implementing media
+          sanitization
     statement: >
-      {{ mp_06_odp_03 }} is sanitized using {{ mp_06_odp_06 }} prior to release
-      for reuse;
+      {{ mp_06_odp_03 }} is sanitized using {{ mp_06_odp_06 }} prior
+      to release for reuse;
   - id: b
     methods:
       - method: examine
         statement: >
-          System media protection policy; procedures addressing media sanitization and
-          disposal; applicable federal standards and policies addressing media
-          sanitization policy; media sanitization records; system audit records;
-          system design documentation; records retention and disposition policy;
-          records retention and disposition procedures; system configuration settings
-          and associated documentation; system security plan; privacy plan; other
+          System media protection policy; procedures addressing
+          media sanitization and disposal; applicable federal
+          standards and policies addressing media sanitization
+          policy; media sanitization records; system audit records;
+          system design documentation; records retention and
+          disposition policy; records retention and disposition
+          procedures; system configuration settings and associated
+          documentation; system security plan; privacy plan; other
           relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with media sanitization responsibilities;
-          organizational personnel with records retention and disposition
-          responsibilities; organizational personnel with information security and
-          privacy responsibilities; system/network administrators
+          Organizational personnel with media sanitization
+          responsibilities; organizational personnel with records
+          retention and disposition responsibilities; organizational
+          personnel with information security and privacy
+          responsibilities; system/network administrators
       - method: test
         statement: >
-          Organizational processes for media sanitization; mechanisms supporting
-          and/or implementing media sanitization
+          Organizational processes for media sanitization;
+          mechanisms supporting and/or implementing media
+          sanitization
     statement: >
-      sanitization mechanisms with strength and integrity commensurate with the
-      security category or classification of the information are employed.
+      sanitization mechanisms with strength and integrity
+      commensurate with the security category or classification of
+      the information are employed.
 parameters:
   mp_06_odp_01:
     label: system media
@@ -150,13 +169,16 @@ parameters:
   mp_6_prm_1:
     label: organization-defined system media
   mp_6_prm_2:
-    label: organization-defined sanitization techniques and procedures
+    label: >-
+      organization-defined sanitization techniques and procedures
 parts:
   - id: a
     statement: >
-      Sanitize {{ mp_6_prm_1 }} prior to disposal, release out of organizational
-      control, or release for reuse using {{ mp_6_prm_2 }} ; and
+      Sanitize {{ mp_6_prm_1 }} prior to disposal, release out of
+      organizational control, or release for reuse using
+      {{ mp_6_prm_2 }} ; and
   - id: b
     statement: >
-      Employ sanitization mechanisms with the strength and integrity commensurate
-      with the security category or classification of the information.
+      Employ sanitization mechanisms with the strength and integrity
+      commensurate with the security category or classification of
+      the information.

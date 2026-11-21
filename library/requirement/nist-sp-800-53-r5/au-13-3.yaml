@@ -13,24 +13,29 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Audit and accountability policy; system security plan; privacy plan;
-          procedures addressing information disclosure monitoring; procedures
-          addressing information replication; system design documentation; system
-          configuration settings and associated documentation; system audit records;
-          training resources for staff to recognize the unauthorized use of
-          organizational information; other relevant documents or records
+          Audit and accountability policy; system security plan;
+          privacy plan; procedures addressing information disclosure
+          monitoring; procedures addressing information replication;
+          system design documentation; system configuration settings
+          and associated documentation; system audit records;
+          training resources for staff to recognize the unauthorized
+          use of organizational information; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with responsibilities for monitoring unauthorized
-          replication of information; organizational personnel with information
-          security and privacy responsibilities
+          Organizational personnel with responsibilities for
+          monitoring unauthorized replication of information;
+          organizational personnel with information security and
+          privacy responsibilities
       - method: test
-        statement: Discovery tools for identifying unauthorized information replication
+        statement: >-
+          Discovery tools for identifying unauthorized information
+          replication
     statement: >
-      discovery techniques, processes, and tools are employed to determine if
-      external entities are replicating organizational information in an
-      unauthorized manner.
+      discovery techniques, processes, and tools are employed to
+      determine if external entities are replicating organizational
+      information in an unauthorized manner.
 statement: >
-  Employ discovery techniques, processes, and tools to determine if external
-  entities are replicating organizational information in an unauthorized
-  manner.
+  Employ discovery techniques, processes, and tools to determine if
+  external entities are replicating organizational information in an
+  unauthorized manner.

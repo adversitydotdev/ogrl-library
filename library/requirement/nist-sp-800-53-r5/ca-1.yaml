@@ -44,242 +44,283 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Assessment, authorization, and monitoring policy and procedures; system
-          security plan; privacy plan; other relevant documents or records
+          Assessment, authorization, and monitoring policy and
+          procedures; system security plan; privacy plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with assessment, authorization, and monitoring
-          policy responsibilities; organizational personnel with information security
-          and privacy responsibilities
-    statement: "an assessment, authorization, and monitoring policy is developed and documented;"
+          Organizational personnel with assessment, authorization,
+          and monitoring policy responsibilities; organizational
+          personnel with information security and privacy
+          responsibilities
+    statement: >-
+      an assessment, authorization, and monitoring policy is
+      developed and documented;
   - id: a-2
     methods:
       - method: examine
         statement: >
-          Assessment, authorization, and monitoring policy and procedures; system
-          security plan; privacy plan; other relevant documents or records
+          Assessment, authorization, and monitoring policy and
+          procedures; system security plan; privacy plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with assessment, authorization, and monitoring
-          policy responsibilities; organizational personnel with information security
-          and privacy responsibilities
+          Organizational personnel with assessment, authorization,
+          and monitoring policy responsibilities; organizational
+          personnel with information security and privacy
+          responsibilities
     statement: >
-      the assessment, authorization, and monitoring policy is disseminated to
-      {{ ca_01_odp_01 }};
+      the assessment, authorization, and monitoring policy is
+      disseminated to {{ ca_01_odp_01 }};
   - id: a-3
     methods:
       - method: examine
         statement: >
-          Assessment, authorization, and monitoring policy and procedures; system
-          security plan; privacy plan; other relevant documents or records
+          Assessment, authorization, and monitoring policy and
+          procedures; system security plan; privacy plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with assessment, authorization, and monitoring
-          policy responsibilities; organizational personnel with information security
-          and privacy responsibilities
+          Organizational personnel with assessment, authorization,
+          and monitoring policy responsibilities; organizational
+          personnel with information security and privacy
+          responsibilities
     statement: >
-      assessment, authorization, and monitoring procedures to facilitate the
-      implementation of the assessment, authorization, and monitoring policy and
-      associated assessment, authorization, and monitoring controls are developed
-      and documented;
+      assessment, authorization, and monitoring procedures to
+      facilitate the implementation of the assessment,
+      authorization, and monitoring policy and associated
+      assessment, authorization, and monitoring controls are
+      developed and documented;
   - id: a-4
     methods:
       - method: examine
         statement: >
-          Assessment, authorization, and monitoring policy and procedures; system
-          security plan; privacy plan; other relevant documents or records
+          Assessment, authorization, and monitoring policy and
+          procedures; system security plan; privacy plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with assessment, authorization, and monitoring
-          policy responsibilities; organizational personnel with information security
-          and privacy responsibilities
+          Organizational personnel with assessment, authorization,
+          and monitoring policy responsibilities; organizational
+          personnel with information security and privacy
+          responsibilities
     statement: >
-      the assessment, authorization, and monitoring procedures are disseminated to
-      {{ ca_01_odp_02 }};
+      the assessment, authorization, and monitoring procedures are
+      disseminated to {{ ca_01_odp_02 }};
   - id: a.1.a-1
     methods:
       - method: examine
         statement: >
-          Assessment, authorization, and monitoring policy and procedures; system
-          security plan; privacy plan; other relevant documents or records
+          Assessment, authorization, and monitoring policy and
+          procedures; system security plan; privacy plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with assessment, authorization, and monitoring
-          policy responsibilities; organizational personnel with information security
-          and privacy responsibilities
+          Organizational personnel with assessment, authorization,
+          and monitoring policy responsibilities; organizational
+          personnel with information security and privacy
+          responsibilities
     statement: >
-      the {{ ca_01_odp_03 }} assessment, authorization, and monitoring policy
-      addresses purpose;
+      the {{ ca_01_odp_03 }} assessment, authorization, and
+      monitoring policy addresses purpose;
   - id: a.1.a-2
     methods:
       - method: examine
         statement: >
-          Assessment, authorization, and monitoring policy and procedures; system
-          security plan; privacy plan; other relevant documents or records
+          Assessment, authorization, and monitoring policy and
+          procedures; system security plan; privacy plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with assessment, authorization, and monitoring
-          policy responsibilities; organizational personnel with information security
-          and privacy responsibilities
+          Organizational personnel with assessment, authorization,
+          and monitoring policy responsibilities; organizational
+          personnel with information security and privacy
+          responsibilities
     statement: >
-      the {{ ca_01_odp_03 }} assessment, authorization, and monitoring policy
-      addresses scope;
+      the {{ ca_01_odp_03 }} assessment, authorization, and
+      monitoring policy addresses scope;
   - id: a.1.a-3
     methods:
       - method: examine
         statement: >
-          Assessment, authorization, and monitoring policy and procedures; system
-          security plan; privacy plan; other relevant documents or records
+          Assessment, authorization, and monitoring policy and
+          procedures; system security plan; privacy plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with assessment, authorization, and monitoring
-          policy responsibilities; organizational personnel with information security
-          and privacy responsibilities
+          Organizational personnel with assessment, authorization,
+          and monitoring policy responsibilities; organizational
+          personnel with information security and privacy
+          responsibilities
     statement: >
-      the {{ ca_01_odp_03 }} assessment, authorization, and monitoring policy
-      addresses roles;
+      the {{ ca_01_odp_03 }} assessment, authorization, and
+      monitoring policy addresses roles;
   - id: a.1.a-4
     methods:
       - method: examine
         statement: >
-          Assessment, authorization, and monitoring policy and procedures; system
-          security plan; privacy plan; other relevant documents or records
+          Assessment, authorization, and monitoring policy and
+          procedures; system security plan; privacy plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with assessment, authorization, and monitoring
-          policy responsibilities; organizational personnel with information security
-          and privacy responsibilities
+          Organizational personnel with assessment, authorization,
+          and monitoring policy responsibilities; organizational
+          personnel with information security and privacy
+          responsibilities
     statement: >
-      the {{ ca_01_odp_03 }} assessment, authorization, and monitoring policy
-      addresses responsibilities;
+      the {{ ca_01_odp_03 }} assessment, authorization, and
+      monitoring policy addresses responsibilities;
   - id: a.1.a-5
     methods:
       - method: examine
         statement: >
-          Assessment, authorization, and monitoring policy and procedures; system
-          security plan; privacy plan; other relevant documents or records
+          Assessment, authorization, and monitoring policy and
+          procedures; system security plan; privacy plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with assessment, authorization, and monitoring
-          policy responsibilities; organizational personnel with information security
-          and privacy responsibilities
+          Organizational personnel with assessment, authorization,
+          and monitoring policy responsibilities; organizational
+          personnel with information security and privacy
+          responsibilities
     statement: >
-      the {{ ca_01_odp_03 }} assessment, authorization, and monitoring policy
-      addresses management commitment;
+      the {{ ca_01_odp_03 }} assessment, authorization, and
+      monitoring policy addresses management commitment;
   - id: a.1.a-6
     methods:
       - method: examine
         statement: >
-          Assessment, authorization, and monitoring policy and procedures; system
-          security plan; privacy plan; other relevant documents or records
+          Assessment, authorization, and monitoring policy and
+          procedures; system security plan; privacy plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with assessment, authorization, and monitoring
-          policy responsibilities; organizational personnel with information security
-          and privacy responsibilities
+          Organizational personnel with assessment, authorization,
+          and monitoring policy responsibilities; organizational
+          personnel with information security and privacy
+          responsibilities
     statement: >
-      the {{ ca_01_odp_03 }} assessment, authorization, and monitoring policy
-      addresses coordination among organizational entities;
+      the {{ ca_01_odp_03 }} assessment, authorization, and
+      monitoring policy addresses coordination among organizational
+      entities;
   - id: a.1.a-7
     methods:
       - method: examine
         statement: >
-          Assessment, authorization, and monitoring policy and procedures; system
-          security plan; privacy plan; other relevant documents or records
+          Assessment, authorization, and monitoring policy and
+          procedures; system security plan; privacy plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with assessment, authorization, and monitoring
-          policy responsibilities; organizational personnel with information security
-          and privacy responsibilities
+          Organizational personnel with assessment, authorization,
+          and monitoring policy responsibilities; organizational
+          personnel with information security and privacy
+          responsibilities
     statement: >
-      the {{ ca_01_odp_03 }} assessment, authorization, and monitoring policy
-      addresses compliance;
+      the {{ ca_01_odp_03 }} assessment, authorization, and
+      monitoring policy addresses compliance;
   - id: a.1.b
     methods:
       - method: examine
         statement: >
-          Assessment, authorization, and monitoring policy and procedures; system
-          security plan; privacy plan; other relevant documents or records
+          Assessment, authorization, and monitoring policy and
+          procedures; system security plan; privacy plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with assessment, authorization, and monitoring
-          policy responsibilities; organizational personnel with information security
-          and privacy responsibilities
+          Organizational personnel with assessment, authorization,
+          and monitoring policy responsibilities; organizational
+          personnel with information security and privacy
+          responsibilities
     statement: >
-      the {{ ca_01_odp_03 }} assessment, authorization, and monitoring policy is
-      consistent with applicable laws, executive orders, directives, regulations,
-      policies, standards, and guidelines;
+      the {{ ca_01_odp_03 }} assessment, authorization, and
+      monitoring policy is consistent with applicable laws,
+      executive orders, directives, regulations, policies,
+      standards, and guidelines;
   - id: b
     methods:
       - method: examine
         statement: >
-          Assessment, authorization, and monitoring policy and procedures; system
-          security plan; privacy plan; other relevant documents or records
+          Assessment, authorization, and monitoring policy and
+          procedures; system security plan; privacy plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with assessment, authorization, and monitoring
-          policy responsibilities; organizational personnel with information security
-          and privacy responsibilities
+          Organizational personnel with assessment, authorization,
+          and monitoring policy responsibilities; organizational
+          personnel with information security and privacy
+          responsibilities
     statement: >
-      the {{ ca_01_odp_04 }} is designated to manage the development,
-      documentation, and dissemination of the assessment, authorization, and
-      monitoring policy and procedures;
+      the {{ ca_01_odp_04 }} is designated to manage the
+      development, documentation, and dissemination of the
+      assessment, authorization, and monitoring policy and
+      procedures;
   - id: c.1-1
     methods:
       - method: examine
         statement: >
-          Assessment, authorization, and monitoring policy and procedures; system
-          security plan; privacy plan; other relevant documents or records
+          Assessment, authorization, and monitoring policy and
+          procedures; system security plan; privacy plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with assessment, authorization, and monitoring
-          policy responsibilities; organizational personnel with information security
-          and privacy responsibilities
+          Organizational personnel with assessment, authorization,
+          and monitoring policy responsibilities; organizational
+          personnel with information security and privacy
+          responsibilities
     statement: >
-      the current assessment, authorization, and monitoring policy is reviewed and
-      updated {{ ca_01_odp_05 }};
+      the current assessment, authorization, and monitoring policy
+      is reviewed and updated {{ ca_01_odp_05 }};
   - id: c.1-2
     methods:
       - method: examine
         statement: >
-          Assessment, authorization, and monitoring policy and procedures; system
-          security plan; privacy plan; other relevant documents or records
+          Assessment, authorization, and monitoring policy and
+          procedures; system security plan; privacy plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with assessment, authorization, and monitoring
-          policy responsibilities; organizational personnel with information security
-          and privacy responsibilities
+          Organizational personnel with assessment, authorization,
+          and monitoring policy responsibilities; organizational
+          personnel with information security and privacy
+          responsibilities
     statement: >
-      the current assessment, authorization, and monitoring policy is reviewed and
-      updated following {{ ca_01_odp_06 }};
+      the current assessment, authorization, and monitoring policy
+      is reviewed and updated following {{ ca_01_odp_06 }};
   - id: c.2-1
     methods:
       - method: examine
         statement: >
-          Assessment, authorization, and monitoring policy and procedures; system
-          security plan; privacy plan; other relevant documents or records
+          Assessment, authorization, and monitoring policy and
+          procedures; system security plan; privacy plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with assessment, authorization, and monitoring
-          policy responsibilities; organizational personnel with information security
-          and privacy responsibilities
+          Organizational personnel with assessment, authorization,
+          and monitoring policy responsibilities; organizational
+          personnel with information security and privacy
+          responsibilities
     statement: >
-      the current assessment, authorization, and monitoring procedures are
-      reviewed and updated {{ ca_01_odp_07 }};
+      the current assessment, authorization, and monitoring
+      procedures are reviewed and updated {{ ca_01_odp_07 }};
   - id: c.2-2
     methods:
       - method: examine
         statement: >
-          Assessment, authorization, and monitoring policy and procedures; system
-          security plan; privacy plan; other relevant documents or records
+          Assessment, authorization, and monitoring policy and
+          procedures; system security plan; privacy plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with assessment, authorization, and monitoring
-          policy responsibilities; organizational personnel with information security
-          and privacy responsibilities
+          Organizational personnel with assessment, authorization,
+          and monitoring policy responsibilities; organizational
+          personnel with information security and privacy
+          responsibilities
     statement: >
-      the current assessment, authorization, and monitoring procedures are
-      reviewed and updated following {{ ca_01_odp_08 }}.
+      the current assessment, authorization, and monitoring
+      procedures are reviewed and updated following
+      {{ ca_01_odp_08 }}.
 parameters:
   ca_01_odp_01:
     label: personnel or roles
@@ -301,30 +342,41 @@ parameters:
     label: organization-defined personnel or roles
 parts:
   - id: a
-    statement: "Develop, document, and disseminate to {{ ca_1_prm_1 }}:"
+    statement: >-
+      Develop, document, and disseminate to {{ ca_1_prm_1 }}:
   - id: a.1
-    statement: "{{ ca_01_odp_03 }} assessment, authorization, and monitoring policy that:"
+    statement: >-
+      {{ ca_01_odp_03 }} assessment, authorization, and monitoring
+      policy that:
   - id: a.1.a
     statement: >
-      Addresses purpose, scope, roles, responsibilities, management commitment,
-      coordination among organizational entities, and compliance; and
+      Addresses purpose, scope, roles, responsibilities, management
+      commitment, coordination among organizational entities, and
+      compliance; and
   - id: a.1.b
     statement: >
-      Is consistent with applicable laws, executive orders, directives,
-      regulations, policies, standards, and guidelines; and
+      Is consistent with applicable laws, executive orders,
+      directives, regulations, policies, standards, and guidelines;
+      and
   - id: a.2
     statement: >
       Procedures to facilitate the implementation of the assessment,
-      authorization, and monitoring policy and the associated assessment,
-      authorization, and monitoring controls;
+      authorization, and monitoring policy and the associated
+      assessment, authorization, and monitoring controls;
   - id: b
     statement: >
-      Designate an {{ ca_01_odp_04 }} to manage the development, documentation,
-      and dissemination of the assessment, authorization, and monitoring policy
-      and procedures; and
+      Designate an {{ ca_01_odp_04 }} to manage the development,
+      documentation, and dissemination of the assessment,
+      authorization, and monitoring policy and procedures; and
   - id: c
-    statement: "Review and update the current assessment, authorization, and monitoring:"
+    statement: >-
+      Review and update the current assessment, authorization, and
+      monitoring:
   - id: c.1
-    statement: "Policy {{ ca_01_odp_05 }} and following {{ ca_01_odp_06 }} ; and"
+    statement: >-
+      Policy {{ ca_01_odp_05 }} and following {{ ca_01_odp_06 }} ;
+      and
   - id: c.2
-    statement: "Procedures {{ ca_01_odp_07 }} and following {{ ca_01_odp_08 }}."
+    statement: >-
+      Procedures {{ ca_01_odp_07 }} and following
+      {{ ca_01_odp_08 }}.

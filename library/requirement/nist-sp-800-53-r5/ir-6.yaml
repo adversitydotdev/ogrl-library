@@ -26,42 +26,50 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Incident response policy; procedures addressing incident reporting; incident
-          reporting records and documentation; incident response plan; system security
-          plan; privacy plan; other relevant documents or records
+          Incident response policy; procedures addressing incident
+          reporting; incident reporting records and documentation;
+          incident response plan; system security plan; privacy
+          plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with incident reporting responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities; personnel who have/should have reported incidents;
-          personnel (authorities) to whom incident information is to be reported;
-          system users
+          Organizational personnel with incident reporting
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities;
+          personnel who have/should have reported incidents;
+          personnel (authorities) to whom incident information is to
+          be reported; system users
       - method: test
         statement: >
-          Organizational processes for incident reporting; mechanisms supporting
-          and/or implementing incident reporting
+          Organizational processes for incident reporting;
+          mechanisms supporting and/or implementing incident
+          reporting
     statement: >
       personnel is/are required to report suspected incidents to the
-      organizational incident response capability within {{ ir_06_odp_01 }};
+      organizational incident response capability within
+      {{ ir_06_odp_01 }};
   - id: b
     methods:
       - method: examine
         statement: >
-          Incident response policy; procedures addressing incident reporting; incident
-          reporting records and documentation; incident response plan; system security
-          plan; privacy plan; other relevant documents or records
+          Incident response policy; procedures addressing incident
+          reporting; incident reporting records and documentation;
+          incident response plan; system security plan; privacy
+          plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with incident reporting responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities; personnel who have/should have reported incidents;
-          personnel (authorities) to whom incident information is to be reported;
-          system users
+          Organizational personnel with incident reporting
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities;
+          personnel who have/should have reported incidents;
+          personnel (authorities) to whom incident information is to
+          be reported; system users
       - method: test
         statement: >
-          Organizational processes for incident reporting; mechanisms supporting
-          and/or implementing incident reporting
-    statement: "incident information is reported to {{ ir_06_odp_02 }}."
+          Organizational processes for incident reporting;
+          mechanisms supporting and/or implementing incident
+          reporting
+    statement: >-
+      incident information is reported to {{ ir_06_odp_02 }}.
 parameters:
   ir_06_odp_01:
     label: time period
@@ -70,7 +78,8 @@ parameters:
 parts:
   - id: a
     statement: >
-      Require personnel to report suspected incidents to the organizational
-      incident response capability within {{ ir_06_odp_01 }} ; and
+      Require personnel to report suspected incidents to the
+      organizational incident response capability within
+      {{ ir_06_odp_01 }} ; and
   - id: b
     statement: "Report incident information to {{ ir_06_odp_02 }}."

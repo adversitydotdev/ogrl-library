@@ -13,103 +13,122 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Physical and environmental protection policy; procedures addressing physical
-          access monitoring; physical access logs or records; physical access
-          monitoring records; physical access log reviews; system security plan; other
+          Physical and environmental protection policy; procedures
+          addressing physical access monitoring; physical access
+          logs or records; physical access monitoring records;
+          physical access log reviews; system security plan; other
           relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with physical access monitoring responsibilities;
-          organizational personnel with incident response responsibilities;
-          organizational personnel with information security responsibilities
+          Organizational personnel with physical access monitoring
+          responsibilities; organizational personnel with incident
+          response responsibilities; organizational personnel with
+          information security responsibilities
       - method: test
         statement: >
-          Organizational processes for monitoring physical access; mechanisms
-          supporting and/or implementing physical access monitoring; mechanisms
-          supporting and/or implementing the review of physical access logs
+          Organizational processes for monitoring physical access;
+          mechanisms supporting and/or implementing physical access
+          monitoring; mechanisms supporting and/or implementing the
+          review of physical access logs
     statement: >
-      physical access to the facility where the system resides is monitored to
-      detect and respond to physical security incidents;
+      physical access to the facility where the system resides is
+      monitored to detect and respond to physical security
+      incidents;
   - id: b-1
     methods:
       - method: examine
         statement: >
-          Physical and environmental protection policy; procedures addressing physical
-          access monitoring; physical access logs or records; physical access
-          monitoring records; physical access log reviews; system security plan; other
+          Physical and environmental protection policy; procedures
+          addressing physical access monitoring; physical access
+          logs or records; physical access monitoring records;
+          physical access log reviews; system security plan; other
           relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with physical access monitoring responsibilities;
-          organizational personnel with incident response responsibilities;
-          organizational personnel with information security responsibilities
+          Organizational personnel with physical access monitoring
+          responsibilities; organizational personnel with incident
+          response responsibilities; organizational personnel with
+          information security responsibilities
       - method: test
         statement: >
-          Organizational processes for monitoring physical access; mechanisms
-          supporting and/or implementing physical access monitoring; mechanisms
-          supporting and/or implementing the review of physical access logs
-    statement: "physical access logs are reviewed {{ pe_06_odp_01 }};"
+          Organizational processes for monitoring physical access;
+          mechanisms supporting and/or implementing physical access
+          monitoring; mechanisms supporting and/or implementing the
+          review of physical access logs
+    statement: >-
+      physical access logs are reviewed {{ pe_06_odp_01 }};
   - id: b-2
     methods:
       - method: examine
         statement: >
-          Physical and environmental protection policy; procedures addressing physical
-          access monitoring; physical access logs or records; physical access
-          monitoring records; physical access log reviews; system security plan; other
+          Physical and environmental protection policy; procedures
+          addressing physical access monitoring; physical access
+          logs or records; physical access monitoring records;
+          physical access log reviews; system security plan; other
           relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with physical access monitoring responsibilities;
-          organizational personnel with incident response responsibilities;
-          organizational personnel with information security responsibilities
+          Organizational personnel with physical access monitoring
+          responsibilities; organizational personnel with incident
+          response responsibilities; organizational personnel with
+          information security responsibilities
       - method: test
         statement: >
-          Organizational processes for monitoring physical access; mechanisms
-          supporting and/or implementing physical access monitoring; mechanisms
-          supporting and/or implementing the review of physical access logs
-    statement: "physical access logs are reviewed upon occurrence of {{ pe_06_odp_02 }};"
+          Organizational processes for monitoring physical access;
+          mechanisms supporting and/or implementing physical access
+          monitoring; mechanisms supporting and/or implementing the
+          review of physical access logs
+    statement: >-
+      physical access logs are reviewed upon occurrence of
+      {{ pe_06_odp_02 }};
   - id: c-1
     methods:
       - method: examine
         statement: >
-          Physical and environmental protection policy; procedures addressing physical
-          access monitoring; physical access logs or records; physical access
-          monitoring records; physical access log reviews; system security plan; other
+          Physical and environmental protection policy; procedures
+          addressing physical access monitoring; physical access
+          logs or records; physical access monitoring records;
+          physical access log reviews; system security plan; other
           relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with physical access monitoring responsibilities;
-          organizational personnel with incident response responsibilities;
-          organizational personnel with information security responsibilities
+          Organizational personnel with physical access monitoring
+          responsibilities; organizational personnel with incident
+          response responsibilities; organizational personnel with
+          information security responsibilities
       - method: test
         statement: >
-          Organizational processes for monitoring physical access; mechanisms
-          supporting and/or implementing physical access monitoring; mechanisms
-          supporting and/or implementing the review of physical access logs
+          Organizational processes for monitoring physical access;
+          mechanisms supporting and/or implementing physical access
+          monitoring; mechanisms supporting and/or implementing the
+          review of physical access logs
     statement: >
-      results of reviews are coordinated with organizational incident response
-      capabilities;
+      results of reviews are coordinated with organizational
+      incident response capabilities;
   - id: c-2
     methods:
       - method: examine
         statement: >
-          Physical and environmental protection policy; procedures addressing physical
-          access monitoring; physical access logs or records; physical access
-          monitoring records; physical access log reviews; system security plan; other
+          Physical and environmental protection policy; procedures
+          addressing physical access monitoring; physical access
+          logs or records; physical access monitoring records;
+          physical access log reviews; system security plan; other
           relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with physical access monitoring responsibilities;
-          organizational personnel with incident response responsibilities;
-          organizational personnel with information security responsibilities
+          Organizational personnel with physical access monitoring
+          responsibilities; organizational personnel with incident
+          response responsibilities; organizational personnel with
+          information security responsibilities
       - method: test
         statement: >
-          Organizational processes for monitoring physical access; mechanisms
-          supporting and/or implementing physical access monitoring; mechanisms
-          supporting and/or implementing the review of physical access logs
+          Organizational processes for monitoring physical access;
+          mechanisms supporting and/or implementing physical access
+          monitoring; mechanisms supporting and/or implementing the
+          review of physical access logs
     statement: >
-      results of investigations are coordinated with organizational incident
-      response capabilities.
+      results of investigations are coordinated with organizational
+      incident response capabilities.
 parameters:
   pe_06_odp_01:
     label: frequency
@@ -118,13 +137,13 @@ parameters:
 parts:
   - id: a
     statement: >
-      Monitor physical access to the facility where the system resides to detect
-      and respond to physical security incidents;
+      Monitor physical access to the facility where the system
+      resides to detect and respond to physical security incidents;
   - id: b
     statement: >
-      Review physical access logs {{ pe_06_odp_01 }} and upon occurrence of
-      {{ pe_06_odp_02 }} ; and
+      Review physical access logs {{ pe_06_odp_01 }} and upon
+      occurrence of {{ pe_06_odp_02 }} ; and
   - id: c
     statement: >
-      Coordinate results of reviews and investigations with the organizational
-      incident response capability.
+      Coordinate results of reviews and investigations with the
+      organizational incident response capability.

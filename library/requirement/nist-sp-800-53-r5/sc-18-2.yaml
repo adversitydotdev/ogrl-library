@@ -13,72 +13,80 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; procedures addressing mobile
-          code; mobile code requirements; mobile code usage restrictions; mobile code
-          implementation policy and procedures; acquisition documentation; acquisition
-          contracts for system, system component, or system service; system
-          development life cycle documentation; system security plan; other relevant
-          documents or records
+          System and communications protection policy; procedures
+          addressing mobile code; mobile code requirements; mobile
+          code usage restrictions; mobile code implementation policy
+          and procedures; acquisition documentation; acquisition
+          contracts for system, system component, or system service;
+          system development life cycle documentation; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; organizational personnel with responsibilities
-          for managing mobile code; organizational personnel with acquisition and
-          contracting responsibilities
+          System/network administrators; organizational personnel
+          with information security responsibilities; organizational
+          personnel with responsibilities for managing mobile code;
+          organizational personnel with acquisition and contracting
+          responsibilities
       - method: test
         statement: >
-          Organizational processes for the acquisition, development, and use of mobile
-          code
+          Organizational processes for the acquisition, development,
+          and use of mobile code
     statement: >
-      the acquisition of mobile code to be deployed in the system meets
-      {{ sc_18_02_odp }};
+      the acquisition of mobile code to be deployed in the system
+      meets {{ sc_18_02_odp }};
   - id: "sc-18(02).sc-18(02)[02]"
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; procedures addressing mobile
-          code; mobile code requirements; mobile code usage restrictions; mobile code
-          implementation policy and procedures; acquisition documentation; acquisition
-          contracts for system, system component, or system service; system
-          development life cycle documentation; system security plan; other relevant
-          documents or records
+          System and communications protection policy; procedures
+          addressing mobile code; mobile code requirements; mobile
+          code usage restrictions; mobile code implementation policy
+          and procedures; acquisition documentation; acquisition
+          contracts for system, system component, or system service;
+          system development life cycle documentation; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; organizational personnel with responsibilities
-          for managing mobile code; organizational personnel with acquisition and
-          contracting responsibilities
+          System/network administrators; organizational personnel
+          with information security responsibilities; organizational
+          personnel with responsibilities for managing mobile code;
+          organizational personnel with acquisition and contracting
+          responsibilities
       - method: test
         statement: >
-          Organizational processes for the acquisition, development, and use of mobile
-          code
+          Organizational processes for the acquisition, development,
+          and use of mobile code
     statement: >
-      the development of mobile code to be deployed in the system meets
-      {{ sc_18_02_odp }};
+      the development of mobile code to be deployed in the system
+      meets {{ sc_18_02_odp }};
   - id: "sc-18(02).sc-18(02)[03]"
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; procedures addressing mobile
-          code; mobile code requirements; mobile code usage restrictions; mobile code
-          implementation policy and procedures; acquisition documentation; acquisition
-          contracts for system, system component, or system service; system
-          development life cycle documentation; system security plan; other relevant
-          documents or records
+          System and communications protection policy; procedures
+          addressing mobile code; mobile code requirements; mobile
+          code usage restrictions; mobile code implementation policy
+          and procedures; acquisition documentation; acquisition
+          contracts for system, system component, or system service;
+          system development life cycle documentation; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; organizational personnel with responsibilities
-          for managing mobile code; organizational personnel with acquisition and
-          contracting responsibilities
+          System/network administrators; organizational personnel
+          with information security responsibilities; organizational
+          personnel with responsibilities for managing mobile code;
+          organizational personnel with acquisition and contracting
+          responsibilities
       - method: test
         statement: >
-          Organizational processes for the acquisition, development, and use of mobile
-          code
-    statement: "the use of mobile code to be deployed in the system meets {{ sc_18_02_odp }}."
+          Organizational processes for the acquisition, development,
+          and use of mobile code
+    statement: >-
+      the use of mobile code to be deployed in the system meets
+      {{ sc_18_02_odp }}.
 parameters:
   sc_18_02_odp:
     label: mobile code requirements
 statement: >
-  Verify that the acquisition, development, and use of mobile code to be
-  deployed in the system meets {{ sc_18_02_odp }}.
+  Verify that the acquisition, development, and use of mobile code
+  to be deployed in the system meets {{ sc_18_02_odp }}.

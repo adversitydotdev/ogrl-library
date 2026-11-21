@@ -13,22 +13,25 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Maintenance policy; procedures addressing system maintenance; service
-          provider contracts; service-level agreements; maintenance records; list of
-          system components requiring predictive maintenance; system security plan;
+          Maintenance policy; procedures addressing system
+          maintenance; service provider contracts; service-level
+          agreements; maintenance records; list of system components
+          requiring predictive maintenance; system security plan;
           other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with system maintenance responsibilities;
-          organizational personnel with information security responsibilities;
-          system/network administrators
+          Organizational personnel with system maintenance
+          responsibilities; organizational personnel with
+          information security responsibilities; system/network
+          administrators
       - method: test
         statement: >
-          Organizational processes for predictive maintenance; mechanisms supporting
-          and/or implementing predictive maintenance
+          Organizational processes for predictive maintenance;
+          mechanisms supporting and/or implementing predictive
+          maintenance
     statement: >
-      predictive maintenance is performed on {{ ma_06_02_odp_01 }} at
-      {{ ma_06_02_odp_02 }}.
+      predictive maintenance is performed on {{ ma_06_02_odp_01 }}
+      at {{ ma_06_02_odp_02 }}.
 parameters:
   ma_06_02_odp_01:
     label: system components

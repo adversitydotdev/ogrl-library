@@ -13,27 +13,31 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; procedures addressing covert
-          channel analysis; system design documentation; system configuration settings
-          and associated documentation; covert channel analysis documentation; system
-          audit records; system security plan; other relevant documents or records
+          System and communications protection policy; procedures
+          addressing covert channel analysis; system design
+          documentation; system configuration settings and
+          associated documentation; covert channel analysis
+          documentation; system audit records; system security plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; organizational personnel with covert channel
-          analysis responsibilities; system developers/integrators
+          System/network administrators; organizational personnel
+          with information security responsibilities; organizational
+          personnel with covert channel analysis responsibilities;
+          system developers/integrators
       - method: test
         statement: >
-          Organizational process for conducting covert channel analysis; mechanisms
-          supporting and/or implementing covert channel analysis; mechanisms
-          supporting and/or implementing the capability to measure the bandwidth of
+          Organizational process for conducting covert channel
+          analysis; mechanisms supporting and/or implementing covert
+          channel analysis; mechanisms supporting and/or
+          implementing the capability to measure the bandwidth of
           covert channels
     statement: >
-      the bandwidth of {{ sc_31_03_odp }} is measured in the operational
-      environment of the system.
+      the bandwidth of {{ sc_31_03_odp }} is measured in the
+      operational environment of the system.
 parameters:
   sc_31_03_odp:
     label: subset of identified covert channels
 statement: >
-  Measure the bandwidth of {{ sc_31_03_odp }} in the operational environment
-  of the system.
+  Measure the bandwidth of {{ sc_31_03_odp }} in the operational
+  environment of the system.

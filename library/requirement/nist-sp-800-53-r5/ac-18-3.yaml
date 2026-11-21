@@ -13,21 +13,24 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing wireless implementation and
-          usage (including restrictions); system design documentation; system
-          configuration settings and associated documentation; system audit records;
-          system security plan; other relevant documents or records
+          Access control policy; procedures addressing wireless
+          implementation and usage (including restrictions); system
+          design documentation; system configuration settings and
+          associated documentation; system audit records; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities
+          System/network administrators; organizational personnel
+          with information security responsibilities
       - method: test
         statement: >
-          Mechanisms managing the disabling of wireless networking capabilities
-          internally embedded within system components
+          Mechanisms managing the disabling of wireless networking
+          capabilities internally embedded within system components
     statement: >
-      when not intended for use, wireless networking capabilities embedded within
-      system components are disabled prior to issuance and deployment.
+      when not intended for use, wireless networking capabilities
+      embedded within system components are disabled prior to
+      issuance and deployment.
 statement: >
-  Disable, when not intended for use, wireless networking capabilities
-  embedded within system components prior to issuance and deployment.
+  Disable, when not intended for use, wireless networking
+  capabilities embedded within system components prior to issuance
+  and deployment.

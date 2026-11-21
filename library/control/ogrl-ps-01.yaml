@@ -9,17 +9,19 @@ control_type: preventive
 family: ps
 frequency: quarterly
 guidance: >
-  Use the badge or door-access system as the source of truth and reconcile it
-  against the HR roster during each review; tie offboarding tickets to badge
-  deactivation so removal evidence is automatic. Coworking or shared offices
-  can rely on the landlord's badge system if the organization can obtain the
-  list of its credential holders. Where production runs on a cloud provider,
-  data-center physical controls are inherited from the provider and validated
-  by reviewing its SOC 2 report; offices and any organization-operated server,
-  network, or storage rooms remain in scope.
+  Use the badge or door-access system as the source of truth and
+  reconcile it against the HR roster during each review; tie
+  offboarding tickets to badge deactivation so removal evidence is
+  automatic. Coworking or shared offices can rely on the landlord's
+  badge system if the organization can obtain the list of its
+  credential holders. Where production runs on a cloud provider,
+  data-center physical controls are inherited from the provider and
+  validated by reviewing its SOC 2 report; offices and any
+  organization-operated server, network, or storage rooms remain in
+  scope.
 objective: >
-  Ensure only currently authorized individuals hold credentials that grant
-  entry to facilities housing personnel or system components.
+  Ensure only currently authorized individuals hold credentials that
+  grant entry to facilities housing personnel or system components.
 origin: standard
 parameters:
   access_approver:
@@ -33,17 +35,20 @@ parameters:
     value: quarterly
   controlled_facilities:
     label: Controlled facilities
-    value: "company offices and any organization-operated server, network, or storage rooms"
+    value: >-
+      company offices and any organization-operated server, network,
+      or storage rooms
 statement: >
   Maintain a list of individuals authorized to enter
-  {{ controlled_facilities }}, issue badges, keys, or other access credentials
-  only after approval by {{ access_approver }}, review the list
-  {{ access_review_cadence }}, and remove an individual's physical access
-  within {{ access_removal_sla }} of termination or when access is no longer
-  required.
+  {{ controlled_facilities }}, issue badges, keys, or other access
+  credentials only after approval by {{ access_approver }}, review
+  the list {{ access_review_cadence }}, and remove an individual's
+  physical access within {{ access_removal_sla }} of termination or
+  when access is no longer required.
 summary: >
-  Keep an approved list of people allowed into controlled facilities, review
-  it regularly, and remove access promptly when it is no longer needed.
+  Keep an approved list of people allowed into controlled
+  facilities, review it regularly, and remove access promptly when
+  it is no longer needed.
 tags:
   - physical-security
   - access-control

@@ -9,16 +9,17 @@ control_type: preventive
 family: cr
 frequency: quarterly
 guidance: >
-  Implement retention with object storage lifecycle policies, database TTL or
-  scheduled purge jobs, and log-group retention settings. Document that
-  deleted data persists in backups until they age out under OGRL-BC-03.
-  Provide a legal-hold process that suspends deletion when required.
-  Per-tenant encryption keys enable cryptographic erasure of a customer's data
-  at offboarding. Keep deletion job output or tickets as evidence and provide
-  deletion confirmations to customers on request.
+  Implement retention with object storage lifecycle policies,
+  database TTL or scheduled purge jobs, and log-group retention
+  settings. Document that deleted data persists in backups until
+  they age out under OGRL-BC-03. Provide a legal-hold process that
+  suspends deletion when required. Per-tenant encryption keys enable
+  cryptographic erasure of a customer's data at offboarding. Keep
+  deletion job output or tickets as evidence and provide deletion
+  confirmations to customers on request.
 objective: >
-  Retain information only as long as required for business, legal, and
-  contractual purposes and dispose of it securely afterward.
+  Retain information only as long as required for business, legal,
+  and contractual purposes and dispose of it securely afterward.
 origin: standard
 parameters:
   customer_deletion_window:
@@ -28,15 +29,17 @@ parameters:
     label: Retention enforcement review frequency
     value: quarterly
 statement: >
-  Define retention periods for each category of customer, personal, and
-  confidential data in a documented retention schedule; enforce them through
-  automated deletion or lifecycle rules where technically feasible; delete
-  customer data within {{ customer_deletion_window }} of contract termination
-  or a verified deletion request; and verify {{ retention_review_cadence }}
-  that data past its retention period has been disposed of.
+  Define retention periods for each category of customer, personal,
+  and confidential data in a documented retention schedule; enforce
+  them through automated deletion or lifecycle rules where
+  technically feasible; delete customer data within
+  {{ customer_deletion_window }} of contract termination or a
+  verified deletion request; and verify
+  {{ retention_review_cadence }} that data past its retention period
+  has been disposed of.
 summary: >
-  Define retention periods for each data category, enforce them, and dispose
-  of data that has expired or that customers ask to delete.
+  Define retention periods for each data category, enforce them, and
+  dispose of data that has expired or that customers ask to delete.
 tags:
   - data-retention
   - data-disposal

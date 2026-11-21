@@ -17,21 +17,24 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Contingency planning policy; procedures addressing system backup;
-          contingency plan; system backup test results; contingency plan test results;
-          contingency plan test documentation; redundant secondary system for system
-          backups; location(s) of redundant secondary backup system(s); system
-          security plan; other relevant documents or records
+          Contingency planning policy; procedures addressing system
+          backup; contingency plan; system backup test results;
+          contingency plan test results; contingency plan test
+          documentation; redundant secondary system for system
+          backups; location(s) of redundant secondary backup
+          system(s); system security plan; other relevant documents
+          or records
       - method: interview
         statement: >
-          Organizational personnel with contingency planning, recovery, and/or
-          reconstitution responsibilities; organizational personnel with information
-          security responsibilities
+          Organizational personnel with contingency planning,
+          recovery, and/or reconstitution responsibilities;
+          organizational personnel with information security
+          responsibilities
       - method: test
         statement: >
-          Organizational processes implementing system recovery and reconstitution
-          operations; mechanisms supporting and/or implementing system recovery and
-          reconstitution operations
+          Organizational processes implementing system recovery and
+          reconstitution operations; mechanisms supporting and/or
+          implementing system recovery and reconstitution operations
     statement: >
       the recovery of the system to a known state is provided within
       {{ cp_10_odp_01 }} after a disruption, compromise, or failure;
@@ -39,24 +42,28 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Contingency planning policy; procedures addressing system backup;
-          contingency plan; system backup test results; contingency plan test results;
-          contingency plan test documentation; redundant secondary system for system
-          backups; location(s) of redundant secondary backup system(s); system
-          security plan; other relevant documents or records
+          Contingency planning policy; procedures addressing system
+          backup; contingency plan; system backup test results;
+          contingency plan test results; contingency plan test
+          documentation; redundant secondary system for system
+          backups; location(s) of redundant secondary backup
+          system(s); system security plan; other relevant documents
+          or records
       - method: interview
         statement: >
-          Organizational personnel with contingency planning, recovery, and/or
-          reconstitution responsibilities; organizational personnel with information
-          security responsibilities
+          Organizational personnel with contingency planning,
+          recovery, and/or reconstitution responsibilities;
+          organizational personnel with information security
+          responsibilities
       - method: test
         statement: >
-          Organizational processes implementing system recovery and reconstitution
-          operations; mechanisms supporting and/or implementing system recovery and
-          reconstitution operations
+          Organizational processes implementing system recovery and
+          reconstitution operations; mechanisms supporting and/or
+          implementing system recovery and reconstitution operations
     statement: >
-      a reconstitution of the system to a known state is provided within
-      {{ cp_10_odp_02 }} after a disruption, compromise, or failure.
+      a reconstitution of the system to a known state is provided
+      within {{ cp_10_odp_02 }} after a disruption, compromise, or
+      failure.
 parameters:
   cp_10_odp_01:
     label: time period
@@ -64,8 +71,9 @@ parameters:
     label: time period
   cp_10_prm_1:
     label: >
-      organization-defined time period consistent with recovery time and recovery
-      point objectives
+      organization-defined time period consistent with recovery time
+      and recovery point objectives
 statement: >
-  Provide for the recovery and reconstitution of the system to a known state
-  within {{ cp_10_prm_1 }} after a disruption, compromise, or failure.
+  Provide for the recovery and reconstitution of the system to a
+  known state within {{ cp_10_prm_1 }} after a disruption,
+  compromise, or failure.

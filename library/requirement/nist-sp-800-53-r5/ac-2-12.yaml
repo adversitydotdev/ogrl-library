@@ -13,36 +13,47 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing account management; system
-          design documentation; system configuration settings and associated
-          documentation; system monitoring records; system audit records; audit
-          tracking and monitoring reports; privacy impact assessment; system security
-          plan; privacy plan; other relevant documents or records
+          Access control policy; procedures addressing account
+          management; system design documentation; system
+          configuration settings and associated documentation;
+          system monitoring records; system audit records; audit
+          tracking and monitoring reports; privacy impact
+          assessment; system security plan; privacy plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with account management responsibilities;
-          system/network administrators; organizational personnel with information
-          security responsibilities
+          Organizational personnel with account management
+          responsibilities; system/network administrators;
+          organizational personnel with information security
+          responsibilities
       - method: test
-        statement: Mechanisms implementing account management functions
-    statement: "system accounts are monitored for {{ ac_02_12_odp_01 }};"
+        statement: >-
+          Mechanisms implementing account management functions
+    statement: >-
+      system accounts are monitored for {{ ac_02_12_odp_01 }};
   - id: b
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing account management; system
-          design documentation; system configuration settings and associated
-          documentation; system monitoring records; system audit records; audit
-          tracking and monitoring reports; privacy impact assessment; system security
-          plan; privacy plan; other relevant documents or records
+          Access control policy; procedures addressing account
+          management; system design documentation; system
+          configuration settings and associated documentation;
+          system monitoring records; system audit records; audit
+          tracking and monitoring reports; privacy impact
+          assessment; system security plan; privacy plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with account management responsibilities;
-          system/network administrators; organizational personnel with information
-          security responsibilities
+          Organizational personnel with account management
+          responsibilities; system/network administrators;
+          organizational personnel with information security
+          responsibilities
       - method: test
-        statement: Mechanisms implementing account management functions
-    statement: "atypical usage of system accounts is reported to {{ ac_02_12_odp_02 }}."
+        statement: >-
+          Mechanisms implementing account management functions
+    statement: >-
+      atypical usage of system accounts is reported to
+      {{ ac_02_12_odp_02 }}.
 parameters:
   ac_02_12_odp_01:
     label: atypical usage
@@ -50,6 +61,9 @@ parameters:
     label: personnel or roles
 parts:
   - id: a
-    statement: "Monitor system accounts for {{ ac_02_12_odp_01 }} ; and"
+    statement: >-
+      Monitor system accounts for {{ ac_02_12_odp_01 }} ; and
   - id: b
-    statement: "Report atypical usage of system accounts to {{ ac_02_12_odp_02 }}."
+    statement: >-
+      Report atypical usage of system accounts to
+      {{ ac_02_12_odp_02 }}.

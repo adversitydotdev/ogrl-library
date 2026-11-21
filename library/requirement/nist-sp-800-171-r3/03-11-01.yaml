@@ -20,55 +20,66 @@ objectives:
     methods:
       - method: examine
         statement: >
-          risk assessment policy and procedures; security planning policy and
-          procedures; procedures for organizational assessments of risk; risk
-          assessment; risk assessment results; risk assessment reviews; risk
-          assessment updates; SCRM policy and procedures; inventory of critical
-          systems, system components, and system services; procedures for
-          organizational assessments of supply chain risk; acquisition policy; SCRM
-          plan; system security plan; other relevant documents or records
+          risk assessment policy and procedures; security planning
+          policy and procedures; procedures for organizational
+          assessments of risk; risk assessment; risk assessment
+          results; risk assessment reviews; risk assessment updates;
+          SCRM policy and procedures; inventory of critical systems,
+          system components, and system services; procedures for
+          organizational assessments of supply chain risk;
+          acquisition policy; SCRM plan; system security plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          personnel with risk assessment responsibilities; personnel with SCRM
-          responsibilities; personnel with security responsibilities
+          personnel with risk assessment responsibilities; personnel
+          with SCRM responsibilities; personnel with security
+          responsibilities
       - method: test
         statement: >
-          processes for organizational risk assessments; mechanisms for supporting or
-          conducting, documenting, reviewing, disseminating, and updating risk
-          assessments; mechanisms for supporting or conducting, documenting,
-          reviewing, disseminating, and updating supply chain risk assessments
+          processes for organizational risk assessments; mechanisms
+          for supporting or conducting, documenting, reviewing,
+          disseminating, and updating risk assessments; mechanisms
+          for supporting or conducting, documenting, reviewing,
+          disseminating, and updating supply chain risk assessments
     statement: >
-      the risk (including supply chain risk) of unauthorized disclosure resulting
-      from the processing, storage, or transmission of CUI is assessed.
+      the risk (including supply chain risk) of unauthorized
+      disclosure resulting from the processing, storage, or
+      transmission of CUI is assessed.
   - id: b
     methods:
       - method: examine
         statement: >
-          risk assessment policy and procedures; security planning policy and
-          procedures; procedures for organizational assessments of risk; risk
-          assessment; risk assessment results; risk assessment reviews; risk
-          assessment updates; SCRM policy and procedures; inventory of critical
-          systems, system components, and system services; procedures for
-          organizational assessments of supply chain risk; acquisition policy; SCRM
-          plan; system security plan; other relevant documents or records
+          risk assessment policy and procedures; security planning
+          policy and procedures; procedures for organizational
+          assessments of risk; risk assessment; risk assessment
+          results; risk assessment reviews; risk assessment updates;
+          SCRM policy and procedures; inventory of critical systems,
+          system components, and system services; procedures for
+          organizational assessments of supply chain risk;
+          acquisition policy; SCRM plan; system security plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          personnel with risk assessment responsibilities; personnel with SCRM
-          responsibilities; personnel with security responsibilities
+          personnel with risk assessment responsibilities; personnel
+          with SCRM responsibilities; personnel with security
+          responsibilities
       - method: test
         statement: >
-          processes for organizational risk assessments; mechanisms for supporting or
-          conducting, documenting, reviewing, disseminating, and updating risk
-          assessments; mechanisms for supporting or conducting, documenting,
-          reviewing, disseminating, and updating supply chain risk assessments
-    statement: "risk assessments are updated {{ a_03_11_01_odp_01 }}."
+          processes for organizational risk assessments; mechanisms
+          for supporting or conducting, documenting, reviewing,
+          disseminating, and updating risk assessments; mechanisms
+          for supporting or conducting, documenting, reviewing,
+          disseminating, and updating supply chain risk assessments
+    statement: >-
+      risk assessments are updated {{ a_03_11_01_odp_01 }}.
 parameters:
   a_03_11_01_odp_01:
     label: frequency
 parts:
   - id: a
     statement: >
-      Assess the risk (including supply chain risk) of unauthorized disclosure
-      resulting from the processing, storage, or transmission of CUI.
+      Assess the risk (including supply chain risk) of unauthorized
+      disclosure resulting from the processing, storage, or
+      transmission of CUI.
   - id: b
     statement: "Update risk assessments {{ a_03_11_01_odp_01 }}."

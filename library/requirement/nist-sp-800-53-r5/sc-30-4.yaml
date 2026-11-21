@@ -13,27 +13,30 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; configuration management policy
-          and procedures; procedures addressing concealment and misdirection
-          techniques for the system; system design documentation; system configuration
-          settings and associated documentation; system audit records; system security
-          plan; other relevant documents or records
+          System and communications protection policy; configuration
+          management policy and procedures; procedures addressing
+          concealment and misdirection techniques for the system;
+          system design documentation; system configuration settings
+          and associated documentation; system audit records; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; organizational personnel with the responsibility
-          to define and employ realistic but misleading information about the security
+          System/network administrators; organizational personnel
+          with information security responsibilities; organizational
+          personnel with the responsibility to define and employ
+          realistic but misleading information about the security
           posture of system components
       - method: test
         statement: >
-          Mechanisms supporting and/or implementing the employment of realistic but
-          misleading information about the security posture of system components
+          Mechanisms supporting and/or implementing the employment
+          of realistic but misleading information about the security
+          posture of system components
     statement: >
-      realistic but misleading information about the security state or posture of
-      {{ sc_30_04_odp }} is employed.
+      realistic but misleading information about the security state
+      or posture of {{ sc_30_04_odp }} is employed.
 parameters:
   sc_30_04_odp:
     label: system components
 statement: >
-  Employ realistic, but misleading information in {{ sc_30_04_odp }} about its
-  security state or posture.
+  Employ realistic, but misleading information in {{ sc_30_04_odp }}
+  about its security state or posture.

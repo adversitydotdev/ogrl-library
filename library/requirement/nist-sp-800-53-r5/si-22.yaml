@@ -17,43 +17,50 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; personally identifiable information processing policy; system
-          design documentation; system configuration settings and associated
-          documentation; list of information sources; system security plan; privacy
-          plan; other relevant documents or records
+          System and information integrity policy; system and
+          information integrity procedures; personally identifiable
+          information processing policy; system design
+          documentation; system configuration settings and
+          associated documentation; list of information sources;
+          system security plan; privacy plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with information security and privacy
-          responsibilities; organizational personnel with systems security engineering
-          responsibilities; system developers
+          Organizational personnel with information security and
+          privacy responsibilities; organizational personnel with
+          systems security engineering responsibilities; system
+          developers
       - method: test
         statement: >
-          Automated methods and mechanisms to convert information from an analog to
-          digital medium
-    statement: "{{ si_22_odp_01 }} for {{ si_22_odp_02 }} are identified;"
+          Automated methods and mechanisms to convert information
+          from an analog to digital medium
+    statement: >-
+      {{ si_22_odp_01 }} for {{ si_22_odp_02 }} are identified;
   - id: b
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; personally identifiable information processing policy; system
-          design documentation; system configuration settings and associated
-          documentation; list of information sources; system security plan; privacy
-          plan; other relevant documents or records
+          System and information integrity policy; system and
+          information integrity procedures; personally identifiable
+          information processing policy; system design
+          documentation; system configuration settings and
+          associated documentation; list of information sources;
+          system security plan; privacy plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with information security and privacy
-          responsibilities; organizational personnel with systems security engineering
-          responsibilities; system developers
+          Organizational personnel with information security and
+          privacy responsibilities; organizational personnel with
+          systems security engineering responsibilities; system
+          developers
       - method: test
         statement: >
-          Automated methods and mechanisms to convert information from an analog to
-          digital medium
+          Automated methods and mechanisms to convert information
+          from an analog to digital medium
     statement: >
-      an alternative information source is used for the execution of essential
-      functions or services on {{ si_22_odp_03 }} when the primary source of
-      information is corrupted or unavailable.
+      an alternative information source is used for the execution of
+      essential functions or services on {{ si_22_odp_03 }} when the
+      primary source of information is corrupted or unavailable.
 parameters:
   si_22_odp_01:
     label: alternative information sources
@@ -68,6 +75,6 @@ parts:
       {{ si_22_odp_02 }}: {{ si_22_odp_01 }} ; and
   - id: b
     statement: >
-      Use an alternative information source for the execution of essential
-      functions or services on {{ si_22_odp_03 }} when the primary source of
-      information is corrupted or unavailable.
+      Use an alternative information source for the execution of
+      essential functions or services on {{ si_22_odp_03 }} when the
+      primary source of information is corrupted or unavailable.

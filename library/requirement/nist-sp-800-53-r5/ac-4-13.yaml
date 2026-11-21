@@ -13,24 +13,28 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Access control policy; information flow control policies; procedures
-          addressing information flow enforcement; system design documentation; system
-          configuration settings and associated documentation; system audit records;
-          system security plan; other relevant documents or records
+          Access control policy; information flow control policies;
+          procedures addressing information flow enforcement; system
+          design documentation; system configuration settings and
+          associated documentation; system audit records; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; system developers
+          System/network administrators; organizational personnel
+          with information security responsibilities; system
+          developers
       - method: test
-        statement: Mechanisms implementing information flow enforcement policy
+        statement: >-
+          Mechanisms implementing information flow enforcement
+          policy
     statement: >
-      when transferring information between different security domains,
-      information is decomposed into {{ ac_04_13_odp }} for submission to policy
-      enforcement mechanisms.
+      when transferring information between different security
+      domains, information is decomposed into {{ ac_04_13_odp }} for
+      submission to policy enforcement mechanisms.
 parameters:
   ac_04_13_odp:
     label: policy-relevant subcomponents
 statement: >
-  When transferring information between different security domains, decompose
-  information into {{ ac_04_13_odp }} for submission to policy enforcement
-  mechanisms.
+  When transferring information between different security domains,
+  decompose information into {{ ac_04_13_odp }} for submission to
+  policy enforcement mechanisms.

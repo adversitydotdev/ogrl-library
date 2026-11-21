@@ -13,56 +13,74 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; procedures addressing software, firmware, and information
-          integrity testing; system design documentation; system configuration
-          settings and associated documentation; integrity verification tools and
-          associated documentation; records of integrity scans; system security plan;
-          other relevant documents or records
+          System and information integrity policy; system and
+          information integrity procedures; procedures addressing
+          software, firmware, and information integrity testing;
+          system design documentation; system configuration settings
+          and associated documentation; integrity verification tools
+          and associated documentation; records of integrity scans;
+          system security plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel responsible for software, firmware, and/or
-          information integrity; organizational personnel with information security
-          responsibilities; system/network administrators; system developer
+          Organizational personnel responsible for software,
+          firmware, and/or information integrity; organizational
+          personnel with information security responsibilities;
+          system/network administrators; system developer
       - method: test
-        statement: "Software, firmware, and information integrity verification tools"
-    statement: "an integrity check of {{ si_07_01_odp_01 }} is performed {{ si_07_01_odp_02 }};"
+        statement: >-
+          Software, firmware, and information integrity verification
+          tools
+    statement: >-
+      an integrity check of {{ si_07_01_odp_01 }} is performed
+      {{ si_07_01_odp_02 }};
   - id: "si-07(01).si-07(01)[02]"
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; procedures addressing software, firmware, and information
-          integrity testing; system design documentation; system configuration
-          settings and associated documentation; integrity verification tools and
-          associated documentation; records of integrity scans; system security plan;
-          other relevant documents or records
+          System and information integrity policy; system and
+          information integrity procedures; procedures addressing
+          software, firmware, and information integrity testing;
+          system design documentation; system configuration settings
+          and associated documentation; integrity verification tools
+          and associated documentation; records of integrity scans;
+          system security plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel responsible for software, firmware, and/or
-          information integrity; organizational personnel with information security
-          responsibilities; system/network administrators; system developer
+          Organizational personnel responsible for software,
+          firmware, and/or information integrity; organizational
+          personnel with information security responsibilities;
+          system/network administrators; system developer
       - method: test
-        statement: "Software, firmware, and information integrity verification tools"
-    statement: "an integrity check of {{ si_07_01_odp_05 }} is performed {{ si_07_01_odp_06 }};"
+        statement: >-
+          Software, firmware, and information integrity verification
+          tools
+    statement: >-
+      an integrity check of {{ si_07_01_odp_05 }} is performed
+      {{ si_07_01_odp_06 }};
   - id: "si-07(01).si-07(01)[03]"
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; procedures addressing software, firmware, and information
-          integrity testing; system design documentation; system configuration
-          settings and associated documentation; integrity verification tools and
-          associated documentation; records of integrity scans; system security plan;
-          other relevant documents or records
+          System and information integrity policy; system and
+          information integrity procedures; procedures addressing
+          software, firmware, and information integrity testing;
+          system design documentation; system configuration settings
+          and associated documentation; integrity verification tools
+          and associated documentation; records of integrity scans;
+          system security plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel responsible for software, firmware, and/or
-          information integrity; organizational personnel with information security
-          responsibilities; system/network administrators; system developer
+          Organizational personnel responsible for software,
+          firmware, and/or information integrity; organizational
+          personnel with information security responsibilities;
+          system/network administrators; system developer
       - method: test
-        statement: "Software, firmware, and information integrity verification tools"
-    statement: "an integrity check of {{ si_07_01_odp_09 }} is performed {{ si_07_01_odp_10 }}."
+        statement: >-
+          Software, firmware, and information integrity verification
+          tools
+    statement: >-
+      an integrity check of {{ si_07_01_odp_09 }} is performed
+      {{ si_07_01_odp_10 }}.
 parameters:
   si_07_01_odp_01:
     label: software
@@ -89,11 +107,16 @@ parameters:
   si_07_01_odp_12:
     label: frequency
   si_7_1_prm_1:
-    label: "organization-defined software, firmware, and information"
+    label: >-
+      organization-defined software, firmware, and information
   si_7_1_prm_2:
     label: si-7.1_prm_2
   si_7_1_prm_3:
-    label: organization-defined transitional states or security-relevant events
+    label: >-
+      organization-defined transitional states or security-relevant
+      events
   si_7_1_prm_4:
     label: organization-defined frequency
-statement: "Perform an integrity check of {{ si_7_1_prm_1 }} {{ si_7_1_prm_2 }}."
+statement: >-
+  Perform an integrity check of {{ si_7_1_prm_1 }}
+  {{ si_7_1_prm_2 }}.

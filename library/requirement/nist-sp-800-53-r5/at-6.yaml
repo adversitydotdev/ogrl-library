@@ -13,23 +13,26 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Security awareness and training policy; procedures addressing security
-          training records; security awareness and training records; security plan;
-          other relevant documents or records
+          Security awareness and training policy; procedures
+          addressing security training records; security awareness
+          and training records; security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with information security training record retention
-          responsibilities
+          Organizational personnel with information security
+          training record retention responsibilities
       - method: test
-        statement: Mechanisms supporting the management of security training records
+        statement: >-
+          Mechanisms supporting the management of security training
+          records
     statement: >
-      feedback on organizational training results is provided {{ at_06_odp_01 }}
-      to {{ at_06_odp_02 }}.
+      feedback on organizational training results is provided
+      {{ at_06_odp_01 }} to {{ at_06_odp_02 }}.
 parameters:
   at_06_odp_01:
     label: frequency
   at_06_odp_02:
     label: personnel
 statement: >
-  Provide feedback on organizational training results to the following
-  personnel {{ at_06_odp_01 }}: {{ at_06_odp_02 }}.
+  Provide feedback on organizational training results to the
+  following personnel {{ at_06_odp_01 }}: {{ at_06_odp_02 }}.

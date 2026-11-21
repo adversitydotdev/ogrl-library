@@ -13,50 +13,57 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Maintenance policy; procedures addressing maintenance personnel; personnel
-          records; maintenance records; access control records; access credentials;
-          access authorizations; system security plan; other relevant documents or
-          records
+          Maintenance policy; procedures addressing maintenance
+          personnel; personnel records; maintenance records; access
+          control records; access credentials; access
+          authorizations; system security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with system maintenance responsibilities;
-          organizational personnel with personnel security responsibilities;
-          organizational personnel with physical access control responsibilities;
-          organizational personnel with information security responsibilities
+          Organizational personnel with system maintenance
+          responsibilities; organizational personnel with personnel
+          security responsibilities; organizational personnel with
+          physical access control responsibilities; organizational
+          personnel with information security responsibilities
       - method: test
         statement: >
-          Organizational processes for managing security clearances for maintenance
-          personnel
+          Organizational processes for managing security clearances
+          for maintenance personnel
     statement: >
-      personnel performing maintenance and diagnostic activities on a system
-      processing, storing, or transmitting classified information possess security
-      clearances for at least the highest classification level and for
-      compartments of information on the system;
+      personnel performing maintenance and diagnostic activities on
+      a system processing, storing, or transmitting classified
+      information possess security clearances for at least the
+      highest classification level and for compartments of
+      information on the system;
   - id: "ma-05(02).ma-05(02)[02]"
     methods:
       - method: examine
         statement: >
-          Maintenance policy; procedures addressing maintenance personnel; personnel
-          records; maintenance records; access control records; access credentials;
-          access authorizations; system security plan; other relevant documents or
-          records
+          Maintenance policy; procedures addressing maintenance
+          personnel; personnel records; maintenance records; access
+          control records; access credentials; access
+          authorizations; system security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with system maintenance responsibilities;
-          organizational personnel with personnel security responsibilities;
-          organizational personnel with physical access control responsibilities;
-          organizational personnel with information security responsibilities
+          Organizational personnel with system maintenance
+          responsibilities; organizational personnel with personnel
+          security responsibilities; organizational personnel with
+          physical access control responsibilities; organizational
+          personnel with information security responsibilities
       - method: test
         statement: >
-          Organizational processes for managing security clearances for maintenance
-          personnel
+          Organizational processes for managing security clearances
+          for maintenance personnel
     statement: >
-      personnel performing maintenance and diagnostic activities on a system
-      processing, storing, or transmitting classified information possess formal
-      access approvals for at least the highest classification level and for
-      compartments of information on the system.
+      personnel performing maintenance and diagnostic activities on
+      a system processing, storing, or transmitting classified
+      information possess formal access approvals for at least the
+      highest classification level and for compartments of
+      information on the system.
 statement: >
-  Verify that personnel performing maintenance and diagnostic activities on a
-  system processing, storing, or transmitting classified information possess
-  security clearances and formal access approvals for at least the highest
-  classification level and for compartments of information on the system.
+  Verify that personnel performing maintenance and diagnostic
+  activities on a system processing, storing, or transmitting
+  classified information possess security clearances and formal
+  access approvals for at least the highest classification level and
+  for compartments of information on the system.

@@ -13,19 +13,22 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Incident response policy; procedures addressing incident reporting;
-          automated mechanisms supporting incident reporting; system design
-          documentation; system configuration settings and associated documentation;
-          incident response plan; system security plan; other relevant documents or
-          records
+          Incident response policy; procedures addressing incident
+          reporting; automated mechanisms supporting incident
+          reporting; system design documentation; system
+          configuration settings and associated documentation;
+          incident response plan; system security plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with incident reporting responsibilities;
-          organizational personnel with information security responsibilities
+          Organizational personnel with incident reporting
+          responsibilities; organizational personnel with
+          information security responsibilities
       - method: test
         statement: >
-          Organizational processes for incident reporting; automated mechanisms
-          supporting and/or implementing the reporting of security incidents
+          Organizational processes for incident reporting; automated
+          mechanisms supporting and/or implementing the reporting of
+          security incidents
     statement: "incidents are reported using {{ ir_06_01_odp }}."
 parameters:
   ir_06_01_odp:

@@ -9,6 +9,7 @@ relationship: intersects-with
 review_status: draft
 source_ref: control--ogrl-cm-08
 summary: >
-  Default-deny of unneeded services and restricted software sources overlap
-  with the CM-7(b) prohibitions, which the organization still enumerates.
+  Default-deny of unneeded services and restricted software sources
+  overlap with the CM-7(b) prohibitions, which the organization
+  still enumerates.
 target_ref: "requirement--nist-sp-800-53-r5-cm-7#b"

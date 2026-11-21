@@ -9,6 +9,7 @@ relationship: intersects-with
 review_status: draft
 source_ref: control--ogrl-vm-03
 summary: >
-  Endpoint and host anti-malware provides detection and eradication, though
-  not necessarily at every system entry and exit point required by SI-3(a).
+  Endpoint and host anti-malware provides detection and eradication,
+  though not necessarily at every system entry and exit point
+  required by SI-3(a).
 target_ref: "requirement--nist-sp-800-53-r5-si-3#a"

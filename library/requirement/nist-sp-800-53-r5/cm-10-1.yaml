@@ -13,28 +13,33 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Configuration management policy; software usage restrictions; software
-          contract agreements and copyright laws; site license documentation; list of
-          software usage restrictions; software license tracking reports;
-          configuration management plan; system security plan; system security plan;
-          other relevant documents or records
+          Configuration management policy; software usage
+          restrictions; software contract agreements and copyright
+          laws; site license documentation; list of software usage
+          restrictions; software license tracking reports;
+          configuration management plan; system security plan;
+          system security plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel operating, using, and/or maintaining the system;
-          organizational personnel with software license management responsibilities;
-          organizational personnel with information security responsibilities;
-          system/network administrators
+          Organizational personnel operating, using, and/or
+          maintaining the system; organizational personnel with
+          software license management responsibilities;
+          organizational personnel with information security
+          responsibilities; system/network administrators
       - method: test
         statement: >
-          Organizational processes for tracking the use of software protected by
-          quantity licenses; organizational processes for controlling/documenting the
-          use of peer-to-peer file sharing technology; mechanisms implementing
-          software license tracking; mechanisms implementing and controlling the use
-          of peer-to-peer files sharing technology
-    statement: "{{ cm_10_01_odp }} are established for the use of open-source software."
+          Organizational processes for tracking the use of software
+          protected by quantity licenses; organizational processes
+          for controlling/documenting the use of peer-to-peer file
+          sharing technology; mechanisms implementing software
+          license tracking; mechanisms implementing and controlling
+          the use of peer-to-peer files sharing technology
+    statement: >-
+      {{ cm_10_01_odp }} are established for the use of open-source
+      software.
 parameters:
   cm_10_01_odp:
     label: restrictions
 statement: >
-  Establish the following restrictions on the use of open-source software:
-  {{ cm_10_01_odp }}.
+  Establish the following restrictions on the use of open-source
+  software: {{ cm_10_01_odp }}.

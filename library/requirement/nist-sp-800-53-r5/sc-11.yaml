@@ -17,39 +17,49 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; procedures addressing trusted
-          communication paths; security plan; system design documentation; system
-          configuration settings and associated documentation; assessment results from
-          independent, testing organizations; system audit records; system security
-          plan; other relevant documents or records
+          System and communications protection policy; procedures
+          addressing trusted communication paths; security plan;
+          system design documentation; system configuration settings
+          and associated documentation; assessment results from
+          independent, testing organizations; system audit records;
+          system security plan; other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; system developer
+          System/network administrators; organizational personnel
+          with information security responsibilities; system
+          developer
       - method: test
-        statement: Mechanisms supporting and/or implementing trusted communication paths
+        statement: >-
+          Mechanisms supporting and/or implementing trusted
+          communication paths
     statement: >
-      a {{ sc_11_odp_01 }} isolated trusted communication path is provided for
-      communications between the user and the trusted components of the system;
+      a {{ sc_11_odp_01 }} isolated trusted communication path is
+      provided for communications between the user and the trusted
+      components of the system;
   - id: b
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; procedures addressing trusted
-          communication paths; security plan; system design documentation; system
-          configuration settings and associated documentation; assessment results from
-          independent, testing organizations; system audit records; system security
-          plan; other relevant documents or records
+          System and communications protection policy; procedures
+          addressing trusted communication paths; security plan;
+          system design documentation; system configuration settings
+          and associated documentation; assessment results from
+          independent, testing organizations; system audit records;
+          system security plan; other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; system developer
+          System/network administrators; organizational personnel
+          with information security responsibilities; system
+          developer
       - method: test
-        statement: Mechanisms supporting and/or implementing trusted communication paths
+        statement: >-
+          Mechanisms supporting and/or implementing trusted
+          communication paths
     statement: >
-      users are permitted to invoke the trusted communication path for
-      communications between the user and the {{ sc_11_odp_02 }} of the system,
-      including authentication and re-authentication, at a minimum.
+      users are permitted to invoke the trusted communication path
+      for communications between the user and the {{ sc_11_odp_02 }}
+      of the system, including authentication and re-authentication,
+      at a minimum.
 parameters:
   sc_11_odp_01:
     label: sc-11_odp.01
@@ -58,12 +68,12 @@ parameters:
 parts:
   - id: a
     statement: >
-      Provide a {{ sc_11_odp_01 }} isolated trusted communications path for
-      communications between the user and the trusted components of the system;
-      and
+      Provide a {{ sc_11_odp_01 }} isolated trusted communications
+      path for communications between the user and the trusted
+      components of the system; and
   - id: b
     statement: >
-      Permit users to invoke the trusted communications path for communications
-      between the user and the following security functions of the system,
-      including at a minimum, authentication and re-authentication:
-      {{ sc_11_odp_02 }}.
+      Permit users to invoke the trusted communications path for
+      communications between the user and the following security
+      functions of the system, including at a minimum,
+      authentication and re-authentication: {{ sc_11_odp_02 }}.

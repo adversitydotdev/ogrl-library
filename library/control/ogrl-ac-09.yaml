@@ -9,19 +9,20 @@ control_type: preventive
 family: ac
 frequency: daily
 guidance: >
-  Use identity provider inactivity policies or a scheduled job that compares
-  last-login data from the IdP and directly-managed systems against the
-  threshold. Set expiration dates on contractor, vendor-support, and
-  break-glass accounts at creation. Service accounts are excluded from the
-  inactivity rule but must have an owner and appear in access reviews
-  (OGRL-AC-02).
+  Use identity provider inactivity policies or a scheduled job that
+  compares last-login data from the IdP and directly-managed systems
+  against the threshold. Set expiration dates on contractor,
+  vendor-support, and break-glass accounts at creation. Service
+  accounts are excluded from the inactivity rule but must have an
+  owner and appear in access reviews (OGRL-AC-02).
 objective: >
-  Eliminate dormant and leftover accounts that could be used for unauthorized
-  access.
+  Eliminate dormant and leftover accounts that could be used for
+  unauthorized access.
 origin: standard
 parameters:
   disable_window:
-    label: "Time to disable expired, orphaned, or non-compliant accounts"
+    label: >-
+      Time to disable expired, orphaned, or non-compliant accounts
     value: "24 hours"
   inactivity_period:
     label: Inactivity threshold
@@ -34,12 +35,14 @@ parameters:
     value: "the approved expiration date, not to exceed 30 days"
 statement: >
   Automatically disable user accounts that have been inactive for
-  {{ inactivity_period }}; disable accounts that have expired, are no longer
-  associated with an active individual, or violate policy within
-  {{ disable_window }} of detection; and configure temporary and emergency
-  accounts to be {{ temporary_account_action }} automatically after
-  {{ temporary_account_lifetime }}.
-summary: "Automatically disable dormant, expired, orphaned, and temporary accounts.\n"
+  {{ inactivity_period }}; disable accounts that have expired, are
+  no longer associated with an active individual, or violate policy
+  within {{ disable_window }} of detection; and configure temporary
+  and emergency accounts to be {{ temporary_account_action }}
+  automatically after {{ temporary_account_lifetime }}.
+summary: >
+  Automatically disable dormant, expired, orphaned, and temporary
+  accounts.
 tags:
   - account-management
   - lifecycle

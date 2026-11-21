@@ -13,62 +13,71 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and services acquisition policy; procedures addressing incident
-          response, standards, and tools; solicitation documentation; acquisition
-          documentation; service level agreements; acquisition contracts for the
-          system, system components or services; acquisition documentation;
-          solicitation documentation; service level agreements; developer incident
-          response plan; system security plan; privacy plan; supply chain risk
-          management plan; other relevant documents or records
+          System and services acquisition policy; procedures
+          addressing incident response, standards, and tools;
+          solicitation documentation; acquisition documentation;
+          service level agreements; acquisition contracts for the
+          system, system components or services; acquisition
+          documentation; solicitation documentation; service level
+          agreements; developer incident response plan; system
+          security plan; privacy plan; supply chain risk management
+          plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with system and service acquisition
-          responsibilities; organizational personnel with information security
-          responsibilities; system developer; organizational personnel with supply
-          chain risk management responsibilities
+          Organizational personnel with system and service
+          acquisition responsibilities; organizational personnel
+          with information security responsibilities; system
+          developer; organizational personnel with supply chain risk
+          management responsibilities
     statement: >
-      the developer of the system, system component, or system service is required
-      to provide an incident response plan;
+      the developer of the system, system component, or system
+      service is required to provide an incident response plan;
   - id: _obj-2
     methods:
       - method: examine
         statement: >
-          System and services acquisition policy; procedures addressing incident
-          response, standards, and tools; solicitation documentation; acquisition
-          documentation; service level agreements; acquisition contracts for the
-          system, system components or services; acquisition documentation;
-          solicitation documentation; service level agreements; developer incident
-          response plan; system security plan; privacy plan; supply chain risk
-          management plan; other relevant documents or records
+          System and services acquisition policy; procedures
+          addressing incident response, standards, and tools;
+          solicitation documentation; acquisition documentation;
+          service level agreements; acquisition contracts for the
+          system, system components or services; acquisition
+          documentation; solicitation documentation; service level
+          agreements; developer incident response plan; system
+          security plan; privacy plan; supply chain risk management
+          plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with system and service acquisition
-          responsibilities; organizational personnel with information security
-          responsibilities; system developer; organizational personnel with supply
-          chain risk management responsibilities
+          Organizational personnel with system and service
+          acquisition responsibilities; organizational personnel
+          with information security responsibilities; system
+          developer; organizational personnel with supply chain risk
+          management responsibilities
     statement: >
-      the developer of the system, system component, or system service is required
-      to implement an incident response plan;
+      the developer of the system, system component, or system
+      service is required to implement an incident response plan;
   - id: _obj-3
     methods:
       - method: examine
         statement: >
-          System and services acquisition policy; procedures addressing incident
-          response, standards, and tools; solicitation documentation; acquisition
-          documentation; service level agreements; acquisition contracts for the
-          system, system components or services; acquisition documentation;
-          solicitation documentation; service level agreements; developer incident
-          response plan; system security plan; privacy plan; supply chain risk
-          management plan; other relevant documents or records
+          System and services acquisition policy; procedures
+          addressing incident response, standards, and tools;
+          solicitation documentation; acquisition documentation;
+          service level agreements; acquisition contracts for the
+          system, system components or services; acquisition
+          documentation; solicitation documentation; service level
+          agreements; developer incident response plan; system
+          security plan; privacy plan; supply chain risk management
+          plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with system and service acquisition
-          responsibilities; organizational personnel with information security
-          responsibilities; system developer; organizational personnel with supply
-          chain risk management responsibilities
+          Organizational personnel with system and service
+          acquisition responsibilities; organizational personnel
+          with information security responsibilities; system
+          developer; organizational personnel with supply chain risk
+          management responsibilities
     statement: >
-      the developer of the system, system component, or system service is required
-      to test an incident response plan.
+      the developer of the system, system component, or system
+      service is required to test an incident response plan.
 statement: >
-  Require the developer of the system, system component, or system service to
-  provide, implement, and test an incident response plan.
+  Require the developer of the system, system component, or system
+  service to provide, implement, and test an incident response plan.

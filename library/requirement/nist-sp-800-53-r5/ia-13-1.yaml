@@ -13,80 +13,96 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Identification and authentication policy;; procedures addressing
-          cryptographic key establishment and management;; system design
-          documentation;; cryptographic mechanisms;; system configuration settings and
-          associated documentation;; system security plan;; other relevant documents
-          or records
+          Identification and authentication policy;; procedures
+          addressing cryptographic key establishment and
+          management;; system design documentation;; cryptographic
+          mechanisms;; system configuration settings and associated
+          documentation;; system security plan;; other relevant
+          documents or records
       - method: interview
         statement: >
-          System/network administrators;; organizational personnel with information
-          security responsibilities;; organizational personnel with responsibilities
-          for cryptographic key establishment and/or management
+          System/network administrators;; organizational personnel
+          with information security responsibilities;;
+          organizational personnel with responsibilities for
+          cryptographic key establishment and/or management
       - method: test
         statement: >
-          Organizational processes for cryptographic key management;; cryptographic
-          modules generating, storing, and using cryptographic keys
-    statement: cryptographic keys that protect access tokens are generated;
+          Organizational processes for cryptographic key
+          management;; cryptographic modules generating, storing,
+          and using cryptographic keys
+    statement: >-
+      cryptographic keys that protect access tokens are generated;
   - id: "ia-13(01).ia-13(01)[02]"
     methods:
       - method: examine
         statement: >
-          Identification and authentication policy;; procedures addressing
-          cryptographic key establishment and management;; system design
-          documentation;; cryptographic mechanisms;; system configuration settings and
-          associated documentation;; system security plan;; other relevant documents
-          or records
+          Identification and authentication policy;; procedures
+          addressing cryptographic key establishment and
+          management;; system design documentation;; cryptographic
+          mechanisms;; system configuration settings and associated
+          documentation;; system security plan;; other relevant
+          documents or records
       - method: interview
         statement: >
-          System/network administrators;; organizational personnel with information
-          security responsibilities;; organizational personnel with responsibilities
-          for cryptographic key establishment and/or management
+          System/network administrators;; organizational personnel
+          with information security responsibilities;;
+          organizational personnel with responsibilities for
+          cryptographic key establishment and/or management
       - method: test
         statement: >
-          Organizational processes for cryptographic key management;; cryptographic
-          modules generating, storing, and using cryptographic keys
-    statement: cryptographic keys that protect access tokens are managed;
+          Organizational processes for cryptographic key
+          management;; cryptographic modules generating, storing,
+          and using cryptographic keys
+    statement: >-
+      cryptographic keys that protect access tokens are managed;
   - id: "ia-13(01).ia-13(01)[03]"
     methods:
       - method: examine
         statement: >
-          Identification and authentication policy;; procedures addressing
-          cryptographic key establishment and management;; system design
-          documentation;; cryptographic mechanisms;; system configuration settings and
-          associated documentation;; system security plan;; other relevant documents
-          or records
+          Identification and authentication policy;; procedures
+          addressing cryptographic key establishment and
+          management;; system design documentation;; cryptographic
+          mechanisms;; system configuration settings and associated
+          documentation;; system security plan;; other relevant
+          documents or records
       - method: interview
         statement: >
-          System/network administrators;; organizational personnel with information
-          security responsibilities;; organizational personnel with responsibilities
-          for cryptographic key establishment and/or management
+          System/network administrators;; organizational personnel
+          with information security responsibilities;;
+          organizational personnel with responsibilities for
+          cryptographic key establishment and/or management
       - method: test
         statement: >
-          Organizational processes for cryptographic key management;; cryptographic
-          modules generating, storing, and using cryptographic keys
-    statement: cryptographic keys that protect access tokens are protected from disclosure; and
+          Organizational processes for cryptographic key
+          management;; cryptographic modules generating, storing,
+          and using cryptographic keys
+    statement: >-
+      cryptographic keys that protect access tokens are protected
+      from disclosure; and
   - id: "ia-13(01).ia-13(01)[04]"
     methods:
       - method: examine
         statement: >
-          Identification and authentication policy;; procedures addressing
-          cryptographic key establishment and management;; system design
-          documentation;; cryptographic mechanisms;; system configuration settings and
-          associated documentation;; system security plan;; other relevant documents
-          or records
+          Identification and authentication policy;; procedures
+          addressing cryptographic key establishment and
+          management;; system design documentation;; cryptographic
+          mechanisms;; system configuration settings and associated
+          documentation;; system security plan;; other relevant
+          documents or records
       - method: interview
         statement: >
-          System/network administrators;; organizational personnel with information
-          security responsibilities;; organizational personnel with responsibilities
-          for cryptographic key establishment and/or management
+          System/network administrators;; organizational personnel
+          with information security responsibilities;;
+          organizational personnel with responsibilities for
+          cryptographic key establishment and/or management
       - method: test
         statement: >
-          Organizational processes for cryptographic key management;; cryptographic
-          modules generating, storing, and using cryptographic keys
+          Organizational processes for cryptographic key
+          management;; cryptographic modules generating, storing,
+          and using cryptographic keys
     statement: >
-      cryptographic keys that protect access tokens are protected from disclosure
-      and misuse
+      cryptographic keys that protect access tokens are protected
+      from disclosure and misuse
 statement: >
-  Cryptographic keys that protect access tokens are generated, managed, and
-  protected from disclosure and misuse.
+  Cryptographic keys that protect access tokens are generated,
+  managed, and protected from disclosure and misuse.

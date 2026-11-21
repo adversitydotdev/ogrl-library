@@ -13,20 +13,24 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Access control policy; information flow control policies; procedures
-          addressing information flow enforcement; system design documentation; system
-          configuration settings and associated documentation; system hardware
-          mechanisms and associated configurations; system audit records; system
+          Access control policy; information flow control policies;
+          procedures addressing information flow enforcement; system
+          design documentation; system configuration settings and
+          associated documentation; system hardware mechanisms and
+          associated configurations; system audit records; system
           security plan; other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; system developers
+          System/network administrators; organizational personnel
+          with information security responsibilities; system
+          developers
       - method: test
-        statement: Hardware mechanisms implementing information flow enforcement policy
+        statement: >-
+          Hardware mechanisms implementing information flow
+          enforcement policy
     statement: >
-      one-way information flows are enforced through hardware-based flow control
-      mechanisms.
+      one-way information flows are enforced through hardware-based
+      flow control mechanisms.
 statement: >
-  Enforce one-way information flows through hardware-based flow control
-  mechanisms.
+  Enforce one-way information flows through hardware-based flow
+  control mechanisms.

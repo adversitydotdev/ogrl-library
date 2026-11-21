@@ -13,17 +13,22 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing least privilege; system design
-          documentation; system configuration settings and associated documentation;
-          list of privileged functions to be audited; list of audited events; system
-          audit records; system security plan; other relevant documents or records
+          Access control policy; procedures addressing least
+          privilege; system design documentation; system
+          configuration settings and associated documentation; list
+          of privileged functions to be audited; list of audited
+          events; system audit records; system security plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with responsibilities for reviewing least
-          privileges necessary to accomplish specified tasks; organizational personnel
-          with information security responsibilities; system/network administrators;
+          Organizational personnel with responsibilities for
+          reviewing least privileges necessary to accomplish
+          specified tasks; organizational personnel with information
+          security responsibilities; system/network administrators;
           system developers
       - method: test
-        statement: Mechanisms auditing the execution of least privilege functions
+        statement: >-
+          Mechanisms auditing the execution of least privilege
+          functions
     statement: the execution of privileged functions is logged.
 statement: Log the execution of privileged functions.

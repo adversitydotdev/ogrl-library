@@ -13,23 +13,27 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Maintenance policy; procedures addressing system maintenance tools; system
-          maintenance tools and associated documentation; list of personnel authorized
-          to use maintenance tools; maintenance tool usage records; maintenance
-          records; system security plan; other relevant documents or records
+          Maintenance policy; procedures addressing system
+          maintenance tools; system maintenance tools and associated
+          documentation; list of personnel authorized to use
+          maintenance tools; maintenance tool usage records;
+          maintenance records; system security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with system maintenance responsibilities;
-          organizational personnel with information security responsibilities
+          Organizational personnel with system maintenance
+          responsibilities; organizational personnel with
+          information security responsibilities
       - method: test
         statement: >
-          Organizational processes for inspecting maintenance tools; organizational
-          processes for maintenance tools updates; mechanisms supporting and/or
-          implementing the inspection of maintenance tools; mechanisms supporting
-          and/or implementing maintenance tool updates.
+          Organizational processes for inspecting maintenance tools;
+          organizational processes for maintenance tools updates;
+          mechanisms supporting and/or implementing the inspection
+          of maintenance tools; mechanisms supporting and/or
+          implementing maintenance tool updates.
     statement: >
-      maintenance tools are inspected to ensure that the latest software updates
-      and patches are installed.
+      maintenance tools are inspected to ensure that the latest
+      software updates and patches are installed.
 statement: >
-  Inspect maintenance tools to ensure the latest software updates and patches
-  are installed.
+  Inspect maintenance tools to ensure the latest software updates
+  and patches are installed.

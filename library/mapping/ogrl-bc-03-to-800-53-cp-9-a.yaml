@@ -12,6 +12,6 @@ relationship: equivalent-to
 review_status: draft
 source_ref: control--ogrl-bc-03
 summary: >
-  Automated backups of production data stores at a defined frequency satisfy
-  CP-9(a).
+  Automated backups of production data stores at a defined frequency
+  satisfy CP-9(a).
 target_ref: "requirement--nist-sp-800-53-r5-cp-9#a"

@@ -4,7 +4,8 @@ id: requirement--nist-sp-800-53-r5-sc-7-13
 spec_version: "0.1.0"
 created: "2026-10-22T11:30:00Z"
 modified: "2026-10-22T11:30:00Z"
-name: "Isolation of Security Tools, Mechanisms, and Support Components"
+name: >-
+  Isolation of Security Tools, Mechanisms, and Support Components
 display_id: "SC-7(13)"
 class: enhancement
 framework_ref: framework--nist-sp-800-53-r5
@@ -13,29 +14,33 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; procedures addressing boundary
-          protection; system design documentation; system hardware and software;
-          system architecture; system configuration settings and associated
-          documentation; list of security tools and support components to be isolated
-          from other internal system components; system audit records; system security
-          plan; other relevant documents or records
+          System and communications protection policy; procedures
+          addressing boundary protection; system design
+          documentation; system hardware and software; system
+          architecture; system configuration settings and associated
+          documentation; list of security tools and support
+          components to be isolated from other internal system
+          components; system audit records; system security plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; organizational personnel with boundary protection
-          responsibilities
+          System/network administrators; organizational personnel
+          with information security responsibilities; organizational
+          personnel with boundary protection responsibilities
       - method: test
         statement: >
-          Mechanisms supporting and/or implementing the isolation of information
-          security tools, mechanisms, and support components
+          Mechanisms supporting and/or implementing the isolation of
+          information security tools, mechanisms, and support
+          components
     statement: >
-      {{ sc_07_13_odp }} are isolated from other internal system components by
-      implementing physically separate subnetworks with managed interfaces to
-      other components of the system.
+      {{ sc_07_13_odp }} are isolated from other internal system
+      components by implementing physically separate subnetworks
+      with managed interfaces to other components of the system.
 parameters:
   sc_07_13_odp:
-    label: "information security tools, mechanisms, and support components"
+    label: >-
+      information security tools, mechanisms, and support components
 statement: >
-  Isolate {{ sc_07_13_odp }} from other internal system components by
-  implementing physically separate subnetworks with managed interfaces to
-  other components of the system.
+  Isolate {{ sc_07_13_odp }} from other internal system components
+  by implementing physically separate subnetworks with managed
+  interfaces to other components of the system.

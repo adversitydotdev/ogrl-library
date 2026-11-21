@@ -13,23 +13,28 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Identification and authentication policy; system security plan; system and
-          services acquisition policy; procedures addressing authenticator management;
-          procedures addressing the integration of security requirements into the
-          acquisition process; acquisition documentation; acquisition contracts for
-          system procurements or services; other relevant documents or records
+          Identification and authentication policy; system security
+          plan; system and services acquisition policy; procedures
+          addressing authenticator management; procedures addressing
+          the integration of security requirements into the
+          acquisition process; acquisition documentation;
+          acquisition contracts for system procurements or services;
+          other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with authenticator management responsibilities;
-          organizational personnel with information security, acquisition, and
-          contracting responsibilities; system developers
+          Organizational personnel with authenticator management
+          responsibilities; organizational personnel with
+          information security, acquisition, and contracting
+          responsibilities; system developers
       - method: test
-        statement: Mechanisms supporting and/or implementing authenticator management capability
+        statement: >-
+          Mechanisms supporting and/or implementing authenticator
+          management capability
     statement: >
-      developers and installers of system components are required to provide
-      unique authenticators or change default authenticators prior to delivery and
-      installation.
+      developers and installers of system components are required to
+      provide unique authenticators or change default authenticators
+      prior to delivery and installation.
 statement: >
-  Require developers and installers of system components to provide unique
-  authenticators or change default authenticators prior to delivery and
-  installation.
+  Require developers and installers of system components to provide
+  unique authenticators or change default authenticators prior to
+  delivery and installation.

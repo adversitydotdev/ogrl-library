@@ -13,30 +13,34 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and services acquisition policy; system and services acquisition
-          procedures; procedures addressing developer-provided training; solicitation
-          documentation; acquisition documentation; service level agreements;
-          acquisition contracts for the system, system component, or system service;
-          organizational security and privacy training policy; developer-provided
-          training materials; training records; system security plan; privacy plan;
-          privacy impact assessment; privacy risk assessment documentation; other
-          relevant documents or records
+          System and services acquisition policy; system and
+          services acquisition procedures; procedures addressing
+          developer-provided training; solicitation documentation;
+          acquisition documentation; service level agreements;
+          acquisition contracts for the system, system component, or
+          system service; organizational security and privacy
+          training policy; developer-provided training materials;
+          training records; system security plan; privacy plan;
+          privacy impact assessment; privacy risk assessment
+          documentation; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with system and service acquisition
-          responsibilities; organizational personnel with information security and
-          privacy responsibilities; system developer; external or internal (in-house)
-          developers with training responsibilities for the system, system component,
-          or information system service
+          Organizational personnel with system and service
+          acquisition responsibilities; organizational personnel
+          with information security and privacy responsibilities;
+          system developer; external or internal (in-house)
+          developers with training responsibilities for the system,
+          system component, or information system service
     statement: >
-      the developer of the system, system component, or system service is required
-      to provide {{ sa_16_odp }} on the correct use and operation of the
-      implemented security and privacy functions, controls, and/or mechanisms.
+      the developer of the system, system component, or system
+      service is required to provide {{ sa_16_odp }} on the correct
+      use and operation of the implemented security and privacy
+      functions, controls, and/or mechanisms.
 parameters:
   sa_16_odp:
     label: training
 statement: >
-  Require the developer of the system, system component, or system service to
-  provide the following training on the correct use and operation of the
-  implemented security and privacy functions, controls, and/or mechanisms:
-  {{ sa_16_odp }}.
+  Require the developer of the system, system component, or system
+  service to provide the following training on the correct use and
+  operation of the implemented security and privacy functions,
+  controls, and/or mechanisms: {{ sa_16_odp }}.

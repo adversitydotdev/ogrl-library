@@ -13,28 +13,33 @@ objectives:
     methods:
       - method: examine
         statement: >
-          physical protection policy and procedures; procedures for access control for
-          transmission mediums; system design documentation; facility communications
-          and wiring diagrams; list of physical security safeguards applied to system
-          distribution and transmission lines; procedures for access control for
-          display medium; facility layout of system components; list of output devices
-          and associated outputs that require physical access controls; actual
-          displays from system components; physical access control logs or records for
-          areas containing output devices and related outputs; system security plan;
-          other relevant documents or records
+          physical protection policy and procedures; procedures for
+          access control for transmission mediums; system design
+          documentation; facility communications and wiring
+          diagrams; list of physical security safeguards applied to
+          system distribution and transmission lines; procedures for
+          access control for display medium; facility layout of
+          system components; list of output devices and associated
+          outputs that require physical access controls; actual
+          displays from system components; physical access control
+          logs or records for areas containing output devices and
+          related outputs; system security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          personnel with physical access control responsibilities; personnel with
-          information security responsibilities
+          personnel with physical access control responsibilities;
+          personnel with information security responsibilities
       - method: test
         statement: >
-          processes for access control for distribution and transmission lines;
-          mechanisms for supporting or implementing access control for distribution
-          and transmission lines; processes for access control to output devices;
-          mechanisms for supporting or implementing access control for output devices
+          processes for access control for distribution and
+          transmission lines; mechanisms for supporting or
+          implementing access control for distribution and
+          transmission lines; processes for access control to output
+          devices; mechanisms for supporting or implementing access
+          control for output devices
     statement: >
-      physical access to system distribution and transmission lines within
-      organizational facilities is controlled.
+      physical access to system distribution and transmission lines
+      within organizational facilities is controlled.
 statement: >
-  Control physical access to system distribution and transmission lines within
-  organizational facilities.
+  Control physical access to system distribution and transmission
+  lines within organizational facilities.

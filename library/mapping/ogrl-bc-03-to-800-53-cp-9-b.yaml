@@ -11,6 +11,6 @@ relationship: equivalent-to
 review_status: draft
 source_ref: control--ogrl-bc-03
 summary: >
-  Backing up system configuration and state not held in version control at the
-  same frequency satisfies CP-9(b).
+  Backing up system configuration and state not held in version
+  control at the same frequency satisfies CP-9(b).
 target_ref: "requirement--nist-sp-800-53-r5-cp-9#b"

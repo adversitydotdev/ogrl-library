@@ -20,42 +20,50 @@ objectives:
     methods:
       - method: examine
         statement: >
-          configuration management policy and procedures; configuration management
-          plan; procedures for the baseline configuration of the system; procedures
-          for system component installations and upgrades; system component inventory;
-          system component installations or upgrades and associated records; records
-          of system baseline configuration reviews and updates; system configuration
-          settings; system architecture; change control records; system security plan;
-          other relevant documents or records
+          configuration management policy and procedures;
+          configuration management plan; procedures for the baseline
+          configuration of the system; procedures for system
+          component installations and upgrades; system component
+          inventory; system component installations or upgrades and
+          associated records; records of system baseline
+          configuration reviews and updates; system configuration
+          settings; system architecture; change control records;
+          system security plan; other relevant documents or records
       - method: interview
         statement: >
-          personnel with configuration management responsibilities; personnel with
-          information security responsibilities; system administrators
+          personnel with configuration management responsibilities;
+          personnel with information security responsibilities;
+          system administrators
       - method: test
         statement: processes for managing baseline configurations
     statement: >
-      systems or system components with the following configurations are issued to
-      individuals traveling to high-risk locations: {{ a_03_04_12_odp_01 }}.
+      systems or system components with the following configurations
+      are issued to individuals traveling to high-risk locations:
+      {{ a_03_04_12_odp_01 }}.
   - id: b
     methods:
       - method: examine
         statement: >
-          configuration management policy and procedures; configuration management
-          plan; procedures for the baseline configuration of the system; procedures
-          for system component installations and upgrades; system component inventory;
-          system component installations or upgrades and associated records; records
-          of system baseline configuration reviews and updates; system configuration
-          settings; system architecture; change control records; system security plan;
-          other relevant documents or records
+          configuration management policy and procedures;
+          configuration management plan; procedures for the baseline
+          configuration of the system; procedures for system
+          component installations and upgrades; system component
+          inventory; system component installations or upgrades and
+          associated records; records of system baseline
+          configuration reviews and updates; system configuration
+          settings; system architecture; change control records;
+          system security plan; other relevant documents or records
       - method: interview
         statement: >
-          personnel with configuration management responsibilities; personnel with
-          information security responsibilities; system administrators
+          personnel with configuration management responsibilities;
+          personnel with information security responsibilities;
+          system administrators
       - method: test
         statement: processes for managing baseline configurations
     statement: >
-      the following security requirements are applied to the system or system
-      components when the individuals return from travel: {{ a_03_04_12_odp_02 }}.
+      the following security requirements are applied to the system
+      or system components when the individuals return from travel:
+      {{ a_03_04_12_odp_02 }}.
 parameters:
   a_03_04_12_odp_01:
     label: configurations
@@ -64,9 +72,11 @@ parameters:
 parts:
   - id: a
     statement: >
-      Issue systems or system components with the following configurations to
-      individuals traveling to high-risk locations: {{ a_03_04_12_odp_01 }}.
+      Issue systems or system components with the following
+      configurations to individuals traveling to high-risk
+      locations: {{ a_03_04_12_odp_01 }}.
   - id: b
     statement: >
-      Apply the following security requirements to the systems or components when
-      the individuals return from travel: {{ a_03_04_12_odp_02 }}.
+      Apply the following security requirements to the systems or
+      components when the individuals return from travel:
+      {{ a_03_04_12_odp_02 }}.

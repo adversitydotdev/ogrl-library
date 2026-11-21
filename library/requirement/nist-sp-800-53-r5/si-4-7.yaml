@@ -13,54 +13,72 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; procedures addressing system monitoring tools and techniques;
-          system design documentation; system monitoring tools and techniques
-          documentation; system configuration settings and associated documentation;
-          alerts and notifications generated based on detected suspicious events;
-          records of actions taken to terminate suspicious events; system audit
-          records; system security plan; other relevant documents or records
+          System and information integrity policy; system and
+          information integrity procedures; procedures addressing
+          system monitoring tools and techniques; system design
+          documentation; system monitoring tools and techniques
+          documentation; system configuration settings and
+          associated documentation; alerts and notifications
+          generated based on detected suspicious events; records of
+          actions taken to terminate suspicious events; system audit
+          records; system security plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; system developers; organizational personnel
-          installing, configuring, and/or maintaining the system; organizational
-          personnel responsible for monitoring the system; organizational personnel
-          responsible for the intrusion detection system
+          System/network administrators; organizational personnel
+          with information security responsibilities; system
+          developers; organizational personnel installing,
+          configuring, and/or maintaining the system; organizational
+          personnel responsible for monitoring the system;
+          organizational personnel responsible for the intrusion
+          detection system
       - method: test
         statement: >
-          Organizational processes for intrusion detection and system monitoring;
-          mechanisms supporting and/or implementing intrusion detection and system
-          monitoring capabilities; mechanisms supporting and/or implementing
-          notifications to incident response personnel; mechanisms supporting and/or
-          implementing actions to terminate suspicious events
-    statement: "{{ si_04_07_odp_01 }} are notified of detected suspicious events;"
+          Organizational processes for intrusion detection and
+          system monitoring; mechanisms supporting and/or
+          implementing intrusion detection and system monitoring
+          capabilities; mechanisms supporting and/or implementing
+          notifications to incident response personnel; mechanisms
+          supporting and/or implementing actions to terminate
+          suspicious events
+    statement: >-
+      {{ si_04_07_odp_01 }} are notified of detected suspicious
+      events;
   - id: b
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; procedures addressing system monitoring tools and techniques;
-          system design documentation; system monitoring tools and techniques
-          documentation; system configuration settings and associated documentation;
-          alerts and notifications generated based on detected suspicious events;
-          records of actions taken to terminate suspicious events; system audit
-          records; system security plan; other relevant documents or records
+          System and information integrity policy; system and
+          information integrity procedures; procedures addressing
+          system monitoring tools and techniques; system design
+          documentation; system monitoring tools and techniques
+          documentation; system configuration settings and
+          associated documentation; alerts and notifications
+          generated based on detected suspicious events; records of
+          actions taken to terminate suspicious events; system audit
+          records; system security plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; system developers; organizational personnel
-          installing, configuring, and/or maintaining the system; organizational
-          personnel responsible for monitoring the system; organizational personnel
-          responsible for the intrusion detection system
+          System/network administrators; organizational personnel
+          with information security responsibilities; system
+          developers; organizational personnel installing,
+          configuring, and/or maintaining the system; organizational
+          personnel responsible for monitoring the system;
+          organizational personnel responsible for the intrusion
+          detection system
       - method: test
         statement: >
-          Organizational processes for intrusion detection and system monitoring;
-          mechanisms supporting and/or implementing intrusion detection and system
-          monitoring capabilities; mechanisms supporting and/or implementing
-          notifications to incident response personnel; mechanisms supporting and/or
-          implementing actions to terminate suspicious events
-    statement: "{{ si_04_07_odp_02 }} are taken upon the detection of suspicious events."
+          Organizational processes for intrusion detection and
+          system monitoring; mechanisms supporting and/or
+          implementing intrusion detection and system monitoring
+          capabilities; mechanisms supporting and/or implementing
+          notifications to incident response personnel; mechanisms
+          supporting and/or implementing actions to terminate
+          suspicious events
+    statement: >-
+      {{ si_04_07_odp_02 }} are taken upon the detection of
+      suspicious events.
 parameters:
   si_04_07_odp_01:
     label: incident response personnel
@@ -68,6 +86,10 @@ parameters:
     label: least-disruptive actions
 parts:
   - id: a
-    statement: "Notify {{ si_04_07_odp_01 }} of detected suspicious events; and"
+    statement: >-
+      Notify {{ si_04_07_odp_01 }} of detected suspicious events;
+      and
   - id: b
-    statement: "Take the following actions upon detection: {{ si_04_07_odp_02 }}."
+    statement: >-
+      Take the following actions upon detection:
+      {{ si_04_07_odp_02 }}.

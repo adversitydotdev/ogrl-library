@@ -17,49 +17,59 @@ objectives:
     methods:
       - method: examine
         statement: >
-          audit and accountability policy and procedures; procedures for auditable
-          events; system design documentation; system configuration settings; system
-          audit records; system auditable events; system security plan; other relevant
+          audit and accountability policy and procedures; procedures
+          for auditable events; system design documentation; system
+          configuration settings; system audit records; system
+          auditable events; system security plan; other relevant
           documents or records
       - method: interview
         statement: >
-          personnel with audit and accountability responsibilities; personnel with
-          information security responsibilities; system administrators
+          personnel with audit and accountability responsibilities;
+          personnel with information security responsibilities;
+          system administrators
       - method: test
         statement: mechanisms for implementing system auditing
     statement: >
-      the following event types are specified for logging within the system:
-      {{ a_03_03_01_odp_01 }}.
+      the following event types are specified for logging within the
+      system: {{ a_03_03_01_odp_01 }}.
   - id: b.01
     methods:
       - method: examine
         statement: >
-          audit and accountability policy and procedures; procedures for auditable
-          events; system design documentation; system configuration settings; system
-          audit records; system auditable events; system security plan; other relevant
+          audit and accountability policy and procedures; procedures
+          for auditable events; system design documentation; system
+          configuration settings; system audit records; system
+          auditable events; system security plan; other relevant
           documents or records
       - method: interview
         statement: >
-          personnel with audit and accountability responsibilities; personnel with
-          information security responsibilities; system administrators
+          personnel with audit and accountability responsibilities;
+          personnel with information security responsibilities;
+          system administrators
       - method: test
         statement: mechanisms for implementing system auditing
-    statement: "the event types selected for logging are reviewed {{ a_03_03_01_odp_02 }}."
+    statement: >-
+      the event types selected for logging are reviewed
+      {{ a_03_03_01_odp_02 }}.
   - id: b.02
     methods:
       - method: examine
         statement: >
-          audit and accountability policy and procedures; procedures for auditable
-          events; system design documentation; system configuration settings; system
-          audit records; system auditable events; system security plan; other relevant
+          audit and accountability policy and procedures; procedures
+          for auditable events; system design documentation; system
+          configuration settings; system audit records; system
+          auditable events; system security plan; other relevant
           documents or records
       - method: interview
         statement: >
-          personnel with audit and accountability responsibilities; personnel with
-          information security responsibilities; system administrators
+          personnel with audit and accountability responsibilities;
+          personnel with information security responsibilities;
+          system administrators
       - method: test
         statement: mechanisms for implementing system auditing
-    statement: "the event types selected for logging are updated {{ a_03_03_01_odp_02 }}."
+    statement: >-
+      the event types selected for logging are updated
+      {{ a_03_03_01_odp_02 }}.
 parameters:
   a_03_03_01_odp_01:
     label: event types
@@ -68,7 +78,9 @@ parameters:
 parts:
   - id: a
     statement: >
-      Specify the following event types selected for logging within the system:
-      {{ a_03_03_01_odp_01 }}.
+      Specify the following event types selected for logging within
+      the system: {{ a_03_03_01_odp_01 }}.
   - id: b
-    statement: "Review and update the event types selected for logging {{ a_03_03_01_odp_02 }}."
+    statement: >-
+      Review and update the event types selected for logging
+      {{ a_03_03_01_odp_02 }}.

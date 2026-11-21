@@ -10,5 +10,7 @@ rationale: functional
 relationship: equivalent-to
 review_status: reviewed
 source_ref: control--ogrl-lm-02
-summary: "Routing actionable security alerts to on-call responders satisfies NIST SI-4(g)."
+summary: >-
+  Routing actionable security alerts to on-call responders satisfies
+  NIST SI-4(g).
 target_ref: "requirement--nist-sp-800-53-r5-si-4#g"

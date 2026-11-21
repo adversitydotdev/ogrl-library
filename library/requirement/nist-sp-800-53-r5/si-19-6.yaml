@@ -13,26 +13,27 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; personally identifiable information processing policy;
-          de-identification procedures; system configuration; de-identified datasets;
-          differential privacy tools; system security plan; privacy plan; privacy
-          impact assessment; privacy risk assessment documentation; other relevant
-          documents or records
+          System and information integrity policy; system and
+          information integrity procedures; personally identifiable
+          information processing policy; de-identification
+          procedures; system configuration; de-identified datasets;
+          differential privacy tools; system security plan; privacy
+          plan; privacy impact assessment; privacy risk assessment
+          documentation; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel responsible for de-identifying the dataset;
-          organizational personnel with information security and privacy
-          responsibilities
+          Organizational personnel responsible for de-identifying
+          the dataset; organizational personnel with information
+          security and privacy responsibilities
       - method: test
         statement: >
-          Online query systems; automated mechanisms supporting and/or implementing
-          differential privacy
+          Online query systems; automated mechanisms supporting
+          and/or implementing differential privacy
     statement: >
-      the disclosure of personally identifiable information is prevented by adding
-      non-deterministic noise to the results of mathematical operations before the
-      results are reported.
+      the disclosure of personally identifiable information is
+      prevented by adding non-deterministic noise to the results of
+      mathematical operations before the results are reported.
 statement: >
-  Prevent disclosure of personally identifiable information by adding
-  non-deterministic noise to the results of mathematical operations before the
-  results are reported.
+  Prevent disclosure of personally identifiable information by
+  adding non-deterministic noise to the results of mathematical
+  operations before the results are reported.

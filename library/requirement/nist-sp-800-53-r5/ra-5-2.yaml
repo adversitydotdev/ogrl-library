@@ -13,24 +13,31 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Procedures addressing vulnerability scanning; assessment report;
-          vulnerability scanning tools and associated configuration documentation;
-          vulnerability scanning results; patch and vulnerability management records;
+          Procedures addressing vulnerability scanning; assessment
+          report; vulnerability scanning tools and associated
+          configuration documentation; vulnerability scanning
+          results; patch and vulnerability management records;
           system security plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with vulnerability scanning responsibilities;
-          organizational personnel with vulnerability scan analysis responsibilities;
-          organizational personnel with security responsibilities; system/network
-          administrators
+          Organizational personnel with vulnerability scanning
+          responsibilities; organizational personnel with
+          vulnerability scan analysis responsibilities;
+          organizational personnel with security responsibilities;
+          system/network administrators
       - method: test
         statement: >
-          Organizational processes for vulnerability scanning; mechanisms/tools
-          supporting and/or implementing vulnerability scanning
-    statement: "the system vulnerabilities to be scanned are updated {{ ra_05_02_odp_01 }}."
+          Organizational processes for vulnerability scanning;
+          mechanisms/tools supporting and/or implementing
+          vulnerability scanning
+    statement: >-
+      the system vulnerabilities to be scanned are updated
+      {{ ra_05_02_odp_01 }}.
 parameters:
   ra_05_02_odp_01:
     label: ra-05.02_odp.01
   ra_05_02_odp_02:
     label: frequency
-statement: "Update the system vulnerabilities to be scanned {{ ra_05_02_odp_01 }}."
+statement: >-
+  Update the system vulnerabilities to be scanned
+  {{ ra_05_02_odp_01 }}.

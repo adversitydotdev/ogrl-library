@@ -35,109 +35,130 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Supply chain risk management policy; supply chain risk management
-          procedures; supply chain risk management strategy; supply chain risk
-          management plan; systems and critical system components inventory
-          documentation; system and services acquisition policy; system and services
-          acquisition procedures; procedures addressing the integration of information
-          security and privacy requirements into the acquisition process; solicitation
-          documentation; acquisition documentation (including purchase orders);
-          service level agreements; acquisition contracts for systems or services;
-          risk register documentation; system security plan; privacy plan; other
+          Supply chain risk management policy; supply chain risk
+          management procedures; supply chain risk management
+          strategy; supply chain risk management plan; systems and
+          critical system components inventory documentation; system
+          and services acquisition policy; system and services
+          acquisition procedures; procedures addressing the
+          integration of information security and privacy
+          requirements into the acquisition process; solicitation
+          documentation; acquisition documentation (including
+          purchase orders); service level agreements; acquisition
+          contracts for systems or services; risk register
+          documentation; system security plan; privacy plan; other
           relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with acquisition responsibilities; organizational
-          personnel with information security and privacy responsibilities;
-          organizational personnel with supply chain risk management responsibilities
+          Organizational personnel with acquisition
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities;
+          organizational personnel with supply chain risk management
+          responsibilities
       - method: test
         statement: >
-          Organizational processes for identifying and addressing supply chain element
-          and process deficiencies
+          Organizational processes for identifying and addressing
+          supply chain element and process deficiencies
     statement: >
-      a process or processes is/are established to identify and address weaknesses
-      or deficiencies in the supply chain elements and processes of
-      {{ sr_03_odp_01 }};
+      a process or processes is/are established to identify and
+      address weaknesses or deficiencies in the supply chain
+      elements and processes of {{ sr_03_odp_01 }};
   - id: a-2
     methods:
       - method: examine
         statement: >
-          Supply chain risk management policy; supply chain risk management
-          procedures; supply chain risk management strategy; supply chain risk
-          management plan; systems and critical system components inventory
-          documentation; system and services acquisition policy; system and services
-          acquisition procedures; procedures addressing the integration of information
-          security and privacy requirements into the acquisition process; solicitation
-          documentation; acquisition documentation (including purchase orders);
-          service level agreements; acquisition contracts for systems or services;
-          risk register documentation; system security plan; privacy plan; other
+          Supply chain risk management policy; supply chain risk
+          management procedures; supply chain risk management
+          strategy; supply chain risk management plan; systems and
+          critical system components inventory documentation; system
+          and services acquisition policy; system and services
+          acquisition procedures; procedures addressing the
+          integration of information security and privacy
+          requirements into the acquisition process; solicitation
+          documentation; acquisition documentation (including
+          purchase orders); service level agreements; acquisition
+          contracts for systems or services; risk register
+          documentation; system security plan; privacy plan; other
           relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with acquisition responsibilities; organizational
-          personnel with information security and privacy responsibilities;
-          organizational personnel with supply chain risk management responsibilities
+          Organizational personnel with acquisition
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities;
+          organizational personnel with supply chain risk management
+          responsibilities
       - method: test
         statement: >
-          Organizational processes for identifying and addressing supply chain element
-          and process deficiencies
+          Organizational processes for identifying and addressing
+          supply chain element and process deficiencies
     statement: >
-      the process or processes to identify and address weaknesses or deficiencies
-      in the supply chain elements and processes of {{ sr_03_odp_01 }} is/are
-      coordinated with {{ sr_03_odp_02 }};
+      the process or processes to identify and address weaknesses or
+      deficiencies in the supply chain elements and processes of
+      {{ sr_03_odp_01 }} is/are coordinated with {{ sr_03_odp_02 }};
   - id: b
     methods:
       - method: examine
         statement: >
-          Supply chain risk management policy; supply chain risk management
-          procedures; supply chain risk management strategy; supply chain risk
-          management plan; systems and critical system components inventory
-          documentation; system and services acquisition policy; system and services
-          acquisition procedures; procedures addressing the integration of information
-          security and privacy requirements into the acquisition process; solicitation
-          documentation; acquisition documentation (including purchase orders);
-          service level agreements; acquisition contracts for systems or services;
-          risk register documentation; system security plan; privacy plan; other
+          Supply chain risk management policy; supply chain risk
+          management procedures; supply chain risk management
+          strategy; supply chain risk management plan; systems and
+          critical system components inventory documentation; system
+          and services acquisition policy; system and services
+          acquisition procedures; procedures addressing the
+          integration of information security and privacy
+          requirements into the acquisition process; solicitation
+          documentation; acquisition documentation (including
+          purchase orders); service level agreements; acquisition
+          contracts for systems or services; risk register
+          documentation; system security plan; privacy plan; other
           relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with acquisition responsibilities; organizational
-          personnel with information security and privacy responsibilities;
-          organizational personnel with supply chain risk management responsibilities
+          Organizational personnel with acquisition
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities;
+          organizational personnel with supply chain risk management
+          responsibilities
       - method: test
         statement: >
-          Organizational processes for identifying and addressing supply chain element
-          and process deficiencies
+          Organizational processes for identifying and addressing
+          supply chain element and process deficiencies
     statement: >
-      {{ sr_03_odp_03 }} are employed to protect against supply chain risks to the
-      system, system component, or system service and to limit the harm or
-      consequences from supply chain-related events;
+      {{ sr_03_odp_03 }} are employed to protect against supply
+      chain risks to the system, system component, or system service
+      and to limit the harm or consequences from supply
+      chain-related events;
   - id: c
     methods:
       - method: examine
         statement: >
-          Supply chain risk management policy; supply chain risk management
-          procedures; supply chain risk management strategy; supply chain risk
-          management plan; systems and critical system components inventory
-          documentation; system and services acquisition policy; system and services
-          acquisition procedures; procedures addressing the integration of information
-          security and privacy requirements into the acquisition process; solicitation
-          documentation; acquisition documentation (including purchase orders);
-          service level agreements; acquisition contracts for systems or services;
-          risk register documentation; system security plan; privacy plan; other
+          Supply chain risk management policy; supply chain risk
+          management procedures; supply chain risk management
+          strategy; supply chain risk management plan; systems and
+          critical system components inventory documentation; system
+          and services acquisition policy; system and services
+          acquisition procedures; procedures addressing the
+          integration of information security and privacy
+          requirements into the acquisition process; solicitation
+          documentation; acquisition documentation (including
+          purchase orders); service level agreements; acquisition
+          contracts for systems or services; risk register
+          documentation; system security plan; privacy plan; other
           relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with acquisition responsibilities; organizational
-          personnel with information security and privacy responsibilities;
-          organizational personnel with supply chain risk management responsibilities
+          Organizational personnel with acquisition
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities;
+          organizational personnel with supply chain risk management
+          responsibilities
       - method: test
         statement: >
-          Organizational processes for identifying and addressing supply chain element
-          and process deficiencies
+          Organizational processes for identifying and addressing
+          supply chain element and process deficiencies
     statement: >
-      the selected and implemented supply chain processes and controls are
-      documented in {{ sr_03_odp_04 }}.
+      the selected and implemented supply chain processes and
+      controls are documented in {{ sr_03_odp_04 }}.
 parameters:
   sr_03_odp_01:
     label: system or system component
@@ -152,15 +173,17 @@ parameters:
 parts:
   - id: a
     statement: >
-      Establish a process or processes to identify and address weaknesses or
-      deficiencies in the supply chain elements and processes of
-      {{ sr_03_odp_01 }} in coordination with {{ sr_03_odp_02 }};
+      Establish a process or processes to identify and address
+      weaknesses or deficiencies in the supply chain elements and
+      processes of {{ sr_03_odp_01 }} in coordination with
+      {{ sr_03_odp_02 }};
   - id: b
     statement: >
-      Employ the following controls to protect against supply chain risks to the
-      system, system component, or system service and to limit the harm or
-      consequences from supply chain-related events: {{ sr_03_odp_03 }} ; and
+      Employ the following controls to protect against supply chain
+      risks to the system, system component, or system service and
+      to limit the harm or consequences from supply chain-related
+      events: {{ sr_03_odp_03 }} ; and
   - id: c
     statement: >
-      Document the selected and implemented supply chain processes and controls in
-      {{ sr_03_odp_04 }}.
+      Document the selected and implemented supply chain processes
+      and controls in {{ sr_03_odp_04 }}.

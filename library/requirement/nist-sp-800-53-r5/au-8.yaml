@@ -13,45 +13,53 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Audit and accountability policy; system security plan; privacy plan;
-          procedures addressing timestamp generation; system design documentation;
-          system configuration settings and associated documentation; system audit
-          records; other relevant documents or records
+          Audit and accountability policy; system security plan;
+          privacy plan; procedures addressing timestamp generation;
+          system design documentation; system configuration settings
+          and associated documentation; system audit records; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with information security and privacy
-          responsibilities; system/network administrators; system developers
+          Organizational personnel with information security and
+          privacy responsibilities; system/network administrators;
+          system developers
       - method: test
         statement: Mechanisms implementing timestamp generation
-    statement: internal system clocks are used to generate timestamps for audit records;
+    statement: >-
+      internal system clocks are used to generate timestamps for
+      audit records;
   - id: b
     methods:
       - method: examine
         statement: >
-          Audit and accountability policy; system security plan; privacy plan;
-          procedures addressing timestamp generation; system design documentation;
-          system configuration settings and associated documentation; system audit
-          records; other relevant documents or records
+          Audit and accountability policy; system security plan;
+          privacy plan; procedures addressing timestamp generation;
+          system design documentation; system configuration settings
+          and associated documentation; system audit records; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with information security and privacy
-          responsibilities; system/network administrators; system developers
+          Organizational personnel with information security and
+          privacy responsibilities; system/network administrators;
+          system developers
       - method: test
         statement: Mechanisms implementing timestamp generation
     statement: >
-      timestamps are recorded for audit records that meet {{ au_08_odp }} and that
-      use Coordinated Universal Time, have a fixed local time offset from
-      Coordinated Universal Time, or include the local time offset as part of the
-      timestamp.
+      timestamps are recorded for audit records that meet
+      {{ au_08_odp }} and that use Coordinated Universal Time, have
+      a fixed local time offset from Coordinated Universal Time, or
+      include the local time offset as part of the timestamp.
 parameters:
   au_08_odp:
     label: granularity of time measurement
 parts:
   - id: a
-    statement: Use internal system clocks to generate time stamps for audit records; and
+    statement: >-
+      Use internal system clocks to generate time stamps for audit
+      records; and
   - id: b
     statement: >
-      Record time stamps for audit records that meet {{ au_08_odp }} and that use
-      Coordinated Universal Time, have a fixed local time offset from Coordinated
-      Universal Time, or that include the local time offset as part of the time
-      stamp.
+      Record time stamps for audit records that meet {{ au_08_odp }}
+      and that use Coordinated Universal Time, have a fixed local
+      time offset from Coordinated Universal Time, or that include
+      the local time offset as part of the time stamp.

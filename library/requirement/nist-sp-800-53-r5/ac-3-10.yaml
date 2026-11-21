@@ -13,26 +13,29 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing access enforcement; system
-          design documentation; system configuration settings and associated
-          documentation; conditions for employing audited override of automated access
-          control mechanisms; system audit records; system security plan; other
-          relevant documents or records
+          Access control policy; procedures addressing access
+          enforcement; system design documentation; system
+          configuration settings and associated documentation;
+          conditions for employing audited override of automated
+          access control mechanisms; system audit records; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with access enforcement responsibilities;
-          system/network administrators; organizational personnel with information
-          security responsibilities
+          Organizational personnel with access enforcement
+          responsibilities; system/network administrators;
+          organizational personnel with information security
+          responsibilities
       - method: test
-        statement: Mechanisms implementing access enforcement functions
+        statement: >-
+          Mechanisms implementing access enforcement functions
     statement: >
-      an audited override of automated access control mechanisms is employed under
-      {{ ac_03_10_odp_01 }} by {{ ac_03_10_odp_02 }}.
+      an audited override of automated access control mechanisms is
+      employed under {{ ac_03_10_odp_01 }} by {{ ac_03_10_odp_02 }}.
 parameters:
   ac_03_10_odp_01:
     label: conditions
   ac_03_10_odp_02:
     label: roles
 statement: >
-  Employ an audited override of automated access control mechanisms under
-  {{ ac_03_10_odp_01 }} by {{ ac_03_10_odp_02 }}.
+  Employ an audited override of automated access control mechanisms
+  under {{ ac_03_10_odp_01 }} by {{ ac_03_10_odp_02 }}.

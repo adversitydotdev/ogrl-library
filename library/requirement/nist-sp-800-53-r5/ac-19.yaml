@@ -20,94 +20,113 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing access control for mobile
-          device usage (including restrictions); configuration management plan; system
-          design documentation; system configuration settings and associated
-          documentation; authorizations for mobile device connections to
-          organizational systems; system audit records; system security plan; other
-          relevant documents or records
+          Access control policy; procedures addressing access
+          control for mobile device usage (including restrictions);
+          configuration management plan; system design
+          documentation; system configuration settings and
+          associated documentation; authorizations for mobile device
+          connections to organizational systems; system audit
+          records; system security plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          Organizational personnel using mobile devices to access organizational
-          systems; system/network administrators; organizational personnel with
-          information security responsibilities
+          Organizational personnel using mobile devices to access
+          organizational systems; system/network administrators;
+          organizational personnel with information security
+          responsibilities
       - method: test
         statement: >
-          Access control capability for mobile device connections to organizational
-          systems; configurations of mobile devices
+          Access control capability for mobile device connections to
+          organizational systems; configurations of mobile devices
     statement: >
-      configuration requirements are established for organization-controlled
-      mobile devices, including when such devices are outside of the controlled
-      area;
+      configuration requirements are established for
+      organization-controlled mobile devices, including when such
+      devices are outside of the controlled area;
   - id: a-2
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing access control for mobile
-          device usage (including restrictions); configuration management plan; system
-          design documentation; system configuration settings and associated
-          documentation; authorizations for mobile device connections to
-          organizational systems; system audit records; system security plan; other
-          relevant documents or records
+          Access control policy; procedures addressing access
+          control for mobile device usage (including restrictions);
+          configuration management plan; system design
+          documentation; system configuration settings and
+          associated documentation; authorizations for mobile device
+          connections to organizational systems; system audit
+          records; system security plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          Organizational personnel using mobile devices to access organizational
-          systems; system/network administrators; organizational personnel with
-          information security responsibilities
+          Organizational personnel using mobile devices to access
+          organizational systems; system/network administrators;
+          organizational personnel with information security
+          responsibilities
       - method: test
         statement: >
-          Access control capability for mobile device connections to organizational
-          systems; configurations of mobile devices
+          Access control capability for mobile device connections to
+          organizational systems; configurations of mobile devices
     statement: >
-      connection requirements are established for organization-controlled mobile
-      devices, including when such devices are outside of the controlled area;
+      connection requirements are established for
+      organization-controlled mobile devices, including when such
+      devices are outside of the controlled area;
   - id: a-3
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing access control for mobile
-          device usage (including restrictions); configuration management plan; system
-          design documentation; system configuration settings and associated
-          documentation; authorizations for mobile device connections to
-          organizational systems; system audit records; system security plan; other
-          relevant documents or records
+          Access control policy; procedures addressing access
+          control for mobile device usage (including restrictions);
+          configuration management plan; system design
+          documentation; system configuration settings and
+          associated documentation; authorizations for mobile device
+          connections to organizational systems; system audit
+          records; system security plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          Organizational personnel using mobile devices to access organizational
-          systems; system/network administrators; organizational personnel with
-          information security responsibilities
+          Organizational personnel using mobile devices to access
+          organizational systems; system/network administrators;
+          organizational personnel with information security
+          responsibilities
       - method: test
         statement: >
-          Access control capability for mobile device connections to organizational
-          systems; configurations of mobile devices
+          Access control capability for mobile device connections to
+          organizational systems; configurations of mobile devices
     statement: >
-      implementation guidance is established for organization-controlled mobile
-      devices, including when such devices are outside of the controlled area;
+      implementation guidance is established for
+      organization-controlled mobile devices, including when such
+      devices are outside of the controlled area;
   - id: b
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing access control for mobile
-          device usage (including restrictions); configuration management plan; system
-          design documentation; system configuration settings and associated
-          documentation; authorizations for mobile device connections to
-          organizational systems; system audit records; system security plan; other
-          relevant documents or records
+          Access control policy; procedures addressing access
+          control for mobile device usage (including restrictions);
+          configuration management plan; system design
+          documentation; system configuration settings and
+          associated documentation; authorizations for mobile device
+          connections to organizational systems; system audit
+          records; system security plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          Organizational personnel using mobile devices to access organizational
-          systems; system/network administrators; organizational personnel with
-          information security responsibilities
+          Organizational personnel using mobile devices to access
+          organizational systems; system/network administrators;
+          organizational personnel with information security
+          responsibilities
       - method: test
         statement: >
-          Access control capability for mobile device connections to organizational
-          systems; configurations of mobile devices
-    statement: the connection of mobile devices to organizational systems is authorized.
+          Access control capability for mobile device connections to
+          organizational systems; configurations of mobile devices
+    statement: >-
+      the connection of mobile devices to organizational systems is
+      authorized.
 parts:
   - id: a
     statement: >
-      Establish configuration requirements, connection requirements, and
-      implementation guidance for organization-controlled mobile devices, to
-      include when such devices are outside of controlled areas; and
+      Establish configuration requirements, connection requirements,
+      and implementation guidance for organization-controlled mobile
+      devices, to include when such devices are outside of
+      controlled areas; and
   - id: b
-    statement: Authorize the connection of mobile devices to organizational systems.
+    statement: >-
+      Authorize the connection of mobile devices to organizational
+      systems.

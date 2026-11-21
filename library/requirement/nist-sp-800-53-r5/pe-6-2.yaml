@@ -13,46 +13,54 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Physical and environmental protection policy; procedures addressing physical
-          access monitoring; system design documentation; system configuration
-          settings and associated documentation; system audit records; list of
-          response actions to be initiated when specific classes/types of intrusions
-          are recognized; system security plan; privacy plan; other relevant documents
-          or records
+          Physical and environmental protection policy; procedures
+          addressing physical access monitoring; system design
+          documentation; system configuration settings and
+          associated documentation; system audit records; list of
+          response actions to be initiated when specific
+          classes/types of intrusions are recognized; system
+          security plan; privacy plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          Organizational personnel with physical access monitoring responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities
+          Organizational personnel with physical access monitoring
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities
       - method: test
         statement: >
-          Organizational processes for monitoring physical access; automated
-          mechanisms supporting and/or implementing physical access monitoring;
-          automated mechanisms supporting and/or implementing recognition of
+          Organizational processes for monitoring physical access;
+          automated mechanisms supporting and/or implementing
+          physical access monitoring; automated mechanisms
+          supporting and/or implementing recognition of
           classes/types of intrusions and initiation of a response
     statement: "{{ pe_06_02_odp_01 }} are recognized;"
   - id: "pe-06(02).pe-06(02)[02]"
     methods:
       - method: examine
         statement: >
-          Physical and environmental protection policy; procedures addressing physical
-          access monitoring; system design documentation; system configuration
-          settings and associated documentation; system audit records; list of
-          response actions to be initiated when specific classes/types of intrusions
-          are recognized; system security plan; privacy plan; other relevant documents
-          or records
+          Physical and environmental protection policy; procedures
+          addressing physical access monitoring; system design
+          documentation; system configuration settings and
+          associated documentation; system audit records; list of
+          response actions to be initiated when specific
+          classes/types of intrusions are recognized; system
+          security plan; privacy plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          Organizational personnel with physical access monitoring responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities
+          Organizational personnel with physical access monitoring
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities
       - method: test
         statement: >
-          Organizational processes for monitoring physical access; automated
-          mechanisms supporting and/or implementing physical access monitoring;
-          automated mechanisms supporting and/or implementing recognition of
+          Organizational processes for monitoring physical access;
+          automated mechanisms supporting and/or implementing
+          physical access monitoring; automated mechanisms
+          supporting and/or implementing recognition of
           classes/types of intrusions and initiation of a response
-    statement: "{{ pe_06_02_odp_02 }} are initiated using {{ pe_06_02_odp_03 }}."
+    statement: >-
+      {{ pe_06_02_odp_02 }} are initiated using
+      {{ pe_06_02_odp_03 }}.
 parameters:
   pe_06_02_odp_01:
     label: classes or types of intrusions
@@ -61,5 +69,5 @@ parameters:
   pe_06_02_odp_03:
     label: automated mechanisms
 statement: >
-  Recognize {{ pe_06_02_odp_01 }} and initiate {{ pe_06_02_odp_02 }} using
-  {{ pe_06_02_odp_03 }}.
+  Recognize {{ pe_06_02_odp_01 }} and initiate {{ pe_06_02_odp_02 }}
+  using {{ pe_06_02_odp_03 }}.

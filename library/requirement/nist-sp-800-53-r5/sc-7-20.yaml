@@ -13,27 +13,30 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; procedures addressing boundary
-          protection; system design documentation; system hardware and software;
-          system architecture; system configuration settings and associated
+          System and communications protection policy; procedures
+          addressing boundary protection; system design
+          documentation; system hardware and software; system
+          architecture; system configuration settings and associated
           documentation; list of system components to be dynamically
-          isolated/segregated from other components of the system; system audit
-          records; system security plan; other relevant documents or records
+          isolated/segregated from other components of the system;
+          system audit records; system security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; system developer; organizational personnel with
-          boundary protection responsibilities
+          System/network administrators; organizational personnel
+          with information security responsibilities; system
+          developer; organizational personnel with boundary
+          protection responsibilities
       - method: test
         statement: >
-          Mechanisms supporting and/or implementing the capability to dynamically
-          isolate/segregate system components
+          Mechanisms supporting and/or implementing the capability
+          to dynamically isolate/segregate system components
     statement: >
-      the capability to dynamically isolate {{ sc_07_20_odp }} from other system
-      components is provided.
+      the capability to dynamically isolate {{ sc_07_20_odp }} from
+      other system components is provided.
 parameters:
   sc_07_20_odp:
     label: system components
 statement: >
-  Provide the capability to dynamically isolate {{ sc_07_20_odp }} from other
-  system components.
+  Provide the capability to dynamically isolate {{ sc_07_20_odp }}
+  from other system components.

@@ -13,118 +13,139 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and services acquisition policy; system and services acquisition
-          procedures; procedures addressing the integration of security and privacy
-          into the system development life cycle process; system development life
-          cycle documentation; security risk assessment documentation; privacy impact
-          assessment; privacy risk assessment documentation; system security plan;
-          privacy plan; data mapping documentation; personally identifiable
-          information processing policy; procedures addressing the authority to test
-          with personally identifiable information; procedures addressing the
-          minimization of personally identifiable information used in testing,
-          training, and research; other relevant documents or records
+          System and services acquisition policy; system and
+          services acquisition procedures; procedures addressing the
+          integration of security and privacy into the system
+          development life cycle process; system development life
+          cycle documentation; security risk assessment
+          documentation; privacy impact assessment; privacy risk
+          assessment documentation; system security plan; privacy
+          plan; data mapping documentation; personally identifiable
+          information processing policy; procedures addressing the
+          authority to test with personally identifiable
+          information; procedures addressing the minimization of
+          personally identifiable information used in testing,
+          training, and research; other relevant documents or
+          records
       - method: interview
         statement: >
-          Organizational personnel with information security and privacy
-          responsibility; organizational personnel with system life cycle development
-          responsibilities
+          Organizational personnel with information security and
+          privacy responsibility; organizational personnel with
+          system life cycle development responsibilities
       - method: test
         statement: >
-          Organizational processes the use of live data in pre-production
-          environments; mechanisms for protecting live data in pre-production
-          environments
+          Organizational processes the use of live data in
+          pre-production environments; mechanisms for protecting
+          live data in pre-production environments
     statement: >
-      the use of live data in pre-production environments is approved for the
-      system, system component, or system service;
+      the use of live data in pre-production environments is
+      approved for the system, system component, or system service;
   - id: a-2
     methods:
       - method: examine
         statement: >
-          System and services acquisition policy; system and services acquisition
-          procedures; procedures addressing the integration of security and privacy
-          into the system development life cycle process; system development life
-          cycle documentation; security risk assessment documentation; privacy impact
-          assessment; privacy risk assessment documentation; system security plan;
-          privacy plan; data mapping documentation; personally identifiable
-          information processing policy; procedures addressing the authority to test
-          with personally identifiable information; procedures addressing the
-          minimization of personally identifiable information used in testing,
-          training, and research; other relevant documents or records
+          System and services acquisition policy; system and
+          services acquisition procedures; procedures addressing the
+          integration of security and privacy into the system
+          development life cycle process; system development life
+          cycle documentation; security risk assessment
+          documentation; privacy impact assessment; privacy risk
+          assessment documentation; system security plan; privacy
+          plan; data mapping documentation; personally identifiable
+          information processing policy; procedures addressing the
+          authority to test with personally identifiable
+          information; procedures addressing the minimization of
+          personally identifiable information used in testing,
+          training, and research; other relevant documents or
+          records
       - method: interview
         statement: >
-          Organizational personnel with information security and privacy
-          responsibility; organizational personnel with system life cycle development
-          responsibilities
+          Organizational personnel with information security and
+          privacy responsibility; organizational personnel with
+          system life cycle development responsibilities
       - method: test
         statement: >
-          Organizational processes the use of live data in pre-production
-          environments; mechanisms for protecting live data in pre-production
-          environments
+          Organizational processes the use of live data in
+          pre-production environments; mechanisms for protecting
+          live data in pre-production environments
     statement: >
-      the use of live data in pre-production environments is documented for the
-      system, system component, or system service;
+      the use of live data in pre-production environments is
+      documented for the system, system component, or system
+      service;
   - id: a-3
     methods:
       - method: examine
         statement: >
-          System and services acquisition policy; system and services acquisition
-          procedures; procedures addressing the integration of security and privacy
-          into the system development life cycle process; system development life
-          cycle documentation; security risk assessment documentation; privacy impact
-          assessment; privacy risk assessment documentation; system security plan;
-          privacy plan; data mapping documentation; personally identifiable
-          information processing policy; procedures addressing the authority to test
-          with personally identifiable information; procedures addressing the
-          minimization of personally identifiable information used in testing,
-          training, and research; other relevant documents or records
+          System and services acquisition policy; system and
+          services acquisition procedures; procedures addressing the
+          integration of security and privacy into the system
+          development life cycle process; system development life
+          cycle documentation; security risk assessment
+          documentation; privacy impact assessment; privacy risk
+          assessment documentation; system security plan; privacy
+          plan; data mapping documentation; personally identifiable
+          information processing policy; procedures addressing the
+          authority to test with personally identifiable
+          information; procedures addressing the minimization of
+          personally identifiable information used in testing,
+          training, and research; other relevant documents or
+          records
       - method: interview
         statement: >
-          Organizational personnel with information security and privacy
-          responsibility; organizational personnel with system life cycle development
-          responsibilities
+          Organizational personnel with information security and
+          privacy responsibility; organizational personnel with
+          system life cycle development responsibilities
       - method: test
         statement: >
-          Organizational processes the use of live data in pre-production
-          environments; mechanisms for protecting live data in pre-production
-          environments
+          Organizational processes the use of live data in
+          pre-production environments; mechanisms for protecting
+          live data in pre-production environments
     statement: >
-      the use of live data in pre-production environments is controlled for the
-      system, system component, or system service;
+      the use of live data in pre-production environments is
+      controlled for the system, system component, or system
+      service;
   - id: b
     methods:
       - method: examine
         statement: >
-          System and services acquisition policy; system and services acquisition
-          procedures; procedures addressing the integration of security and privacy
-          into the system development life cycle process; system development life
-          cycle documentation; security risk assessment documentation; privacy impact
-          assessment; privacy risk assessment documentation; system security plan;
-          privacy plan; data mapping documentation; personally identifiable
-          information processing policy; procedures addressing the authority to test
-          with personally identifiable information; procedures addressing the
-          minimization of personally identifiable information used in testing,
-          training, and research; other relevant documents or records
+          System and services acquisition policy; system and
+          services acquisition procedures; procedures addressing the
+          integration of security and privacy into the system
+          development life cycle process; system development life
+          cycle documentation; security risk assessment
+          documentation; privacy impact assessment; privacy risk
+          assessment documentation; system security plan; privacy
+          plan; data mapping documentation; personally identifiable
+          information processing policy; procedures addressing the
+          authority to test with personally identifiable
+          information; procedures addressing the minimization of
+          personally identifiable information used in testing,
+          training, and research; other relevant documents or
+          records
       - method: interview
         statement: >
-          Organizational personnel with information security and privacy
-          responsibility; organizational personnel with system life cycle development
-          responsibilities
+          Organizational personnel with information security and
+          privacy responsibility; organizational personnel with
+          system life cycle development responsibilities
       - method: test
         statement: >
-          Organizational processes the use of live data in pre-production
-          environments; mechanisms for protecting live data in pre-production
-          environments
+          Organizational processes the use of live data in
+          pre-production environments; mechanisms for protecting
+          live data in pre-production environments
     statement: >
-      pre-production environments for the system, system component, or system
-      service are protected at the same impact or classification level as any live
-      data in use within the pre-production environments.
+      pre-production environments for the system, system component,
+      or system service are protected at the same impact or
+      classification level as any live data in use within the
+      pre-production environments.
 parts:
   - id: a
     statement: >
-      Approve, document, and control the use of live data in preproduction
-      environments for the system, system component, or system service; and
+      Approve, document, and control the use of live data in
+      preproduction environments for the system, system component,
+      or system service; and
   - id: b
     statement: >
-      Protect preproduction environments for the system, system component, or
-      system service at the same impact or classification level as any live data
-      in use within the preproduction environments.
+      Protect preproduction environments for the system, system
+      component, or system service at the same impact or
+      classification level as any live data in use within the
+      preproduction environments.

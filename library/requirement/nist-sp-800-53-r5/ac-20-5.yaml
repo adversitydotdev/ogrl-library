@@ -13,19 +13,22 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing use of portable storage devices
-          in external systems; system design documentation; system configuration
-          settings and associated documentation; system connection or processing
-          agreements; system audit records; system security plan; other relevant
-          documents or records
+          Access control policy; procedures addressing use of
+          portable storage devices in external systems; system
+          design documentation; system configuration settings and
+          associated documentation; system connection or processing
+          agreements; system audit records; system security plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with responsibilities for prohibiting the use of
-          portable storage devices in external systems; system/network administrators;
-          organizational personnel with information security responsibilities
+          Organizational personnel with responsibilities for
+          prohibiting the use of portable storage devices in
+          external systems; system/network administrators;
+          organizational personnel with information security
+          responsibilities
     statement: >
-      the use of organization-controlled portable storage devices by authorized
-      individuals is prohibited on external systems.
+      the use of organization-controlled portable storage devices by
+      authorized individuals is prohibited on external systems.
 statement: >
-  Prohibit the use of organization-controlled portable storage devices by
-  authorized individuals on external systems.
+  Prohibit the use of organization-controlled portable storage
+  devices by authorized individuals on external systems.

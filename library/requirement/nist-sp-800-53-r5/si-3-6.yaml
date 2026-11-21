@@ -13,66 +13,76 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; procedures addressing malicious code protection; system design
-          documentation; system configuration settings and associated documentation;
-          test cases; records providing evidence of test cases executed on malicious
-          code protection mechanisms; system audit records; system security plan;
+          System and information integrity policy; system and
+          information integrity procedures; procedures addressing
+          malicious code protection; system design documentation;
+          system configuration settings and associated
+          documentation; test cases; records providing evidence of
+          test cases executed on malicious code protection
+          mechanisms; system audit records; system security plan;
           other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; organizational personnel installing, configuring,
-          and/or maintaining the system; organizational personnel responsible for
-          malicious code protection
+          System/network administrators; organizational personnel
+          with information security responsibilities; organizational
+          personnel installing, configuring, and/or maintaining the
+          system; organizational personnel responsible for malicious
+          code protection
       - method: test
         statement: >
-          Mechanisms supporting and/or implementing the testing and verification of
-          malicious code protection capabilities
+          Mechanisms supporting and/or implementing the testing and
+          verification of malicious code protection capabilities
     statement: >
-      malicious code protection mechanisms are tested {{ si_03_06_odp }} by
-      introducing known benign code into the system;
+      malicious code protection mechanisms are tested
+      {{ si_03_06_odp }} by introducing known benign code into the
+      system;
   - id: b-1
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; procedures addressing malicious code protection; system design
-          documentation; system configuration settings and associated documentation;
-          test cases; records providing evidence of test cases executed on malicious
-          code protection mechanisms; system audit records; system security plan;
+          System and information integrity policy; system and
+          information integrity procedures; procedures addressing
+          malicious code protection; system design documentation;
+          system configuration settings and associated
+          documentation; test cases; records providing evidence of
+          test cases executed on malicious code protection
+          mechanisms; system audit records; system security plan;
           other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; organizational personnel installing, configuring,
-          and/or maintaining the system; organizational personnel responsible for
-          malicious code protection
+          System/network administrators; organizational personnel
+          with information security responsibilities; organizational
+          personnel installing, configuring, and/or maintaining the
+          system; organizational personnel responsible for malicious
+          code protection
       - method: test
         statement: >
-          Mechanisms supporting and/or implementing the testing and verification of
-          malicious code protection capabilities
+          Mechanisms supporting and/or implementing the testing and
+          verification of malicious code protection capabilities
     statement: "the detection of (benign test) code occurs;"
   - id: b-2
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; procedures addressing malicious code protection; system design
-          documentation; system configuration settings and associated documentation;
-          test cases; records providing evidence of test cases executed on malicious
-          code protection mechanisms; system audit records; system security plan;
+          System and information integrity policy; system and
+          information integrity procedures; procedures addressing
+          malicious code protection; system design documentation;
+          system configuration settings and associated
+          documentation; test cases; records providing evidence of
+          test cases executed on malicious code protection
+          mechanisms; system audit records; system security plan;
           other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; organizational personnel installing, configuring,
-          and/or maintaining the system; organizational personnel responsible for
-          malicious code protection
+          System/network administrators; organizational personnel
+          with information security responsibilities; organizational
+          personnel installing, configuring, and/or maintaining the
+          system; organizational personnel responsible for malicious
+          code protection
       - method: test
         statement: >
-          Mechanisms supporting and/or implementing the testing and verification of
-          malicious code protection capabilities
+          Mechanisms supporting and/or implementing the testing and
+          verification of malicious code protection capabilities
     statement: the associated incident reporting occurs.
 parameters:
   si_03_06_odp:
@@ -80,9 +90,9 @@ parameters:
 parts:
   - id: a
     statement: >
-      Test malicious code protection mechanisms {{ si_03_06_odp }} by introducing
-      known benign code into the system; and
+      Test malicious code protection mechanisms {{ si_03_06_odp }}
+      by introducing known benign code into the system; and
   - id: b
     statement: >
-      Verify that the detection of the code and the associated incident reporting
-      occur.
+      Verify that the detection of the code and the associated
+      incident reporting occur.

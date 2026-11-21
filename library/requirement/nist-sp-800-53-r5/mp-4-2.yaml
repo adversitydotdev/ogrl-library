@@ -13,65 +13,80 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System media protection policy; procedures addressing media storage; access
-          control policy and procedures; physical and environmental protection policy
-          and procedures; system design documentation; system configuration settings
-          and associated documentation; media storage facilities; access control
-          devices; access control records; audit records; system security plan; other
+          System media protection policy; procedures addressing
+          media storage; access control policy and procedures;
+          physical and environmental protection policy and
+          procedures; system design documentation; system
+          configuration settings and associated documentation; media
+          storage facilities; access control devices; access control
+          records; audit records; system security plan; other
           relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with system media protection and storage
-          responsibilities; organizational personnel with information security
-          responsibilities; system/network administrators
+          Organizational personnel with system media protection and
+          storage responsibilities; organizational personnel with
+          information security responsibilities; system/network
+          administrators
       - method: test
         statement: >
-          Automated mechanisms restricting access to media storage areas; automated
-          mechanisms auditing access attempts and access granted to media storage
-          areas
-    statement: "access to media storage areas is restricted using {{ mp_04_02_odp_01 }};"
+          Automated mechanisms restricting access to media storage
+          areas; automated mechanisms auditing access attempts and
+          access granted to media storage areas
+    statement: >-
+      access to media storage areas is restricted using
+      {{ mp_04_02_odp_01 }};
   - id: "mp-04(02).mp-04(02)[02]"
     methods:
       - method: examine
         statement: >
-          System media protection policy; procedures addressing media storage; access
-          control policy and procedures; physical and environmental protection policy
-          and procedures; system design documentation; system configuration settings
-          and associated documentation; media storage facilities; access control
-          devices; access control records; audit records; system security plan; other
+          System media protection policy; procedures addressing
+          media storage; access control policy and procedures;
+          physical and environmental protection policy and
+          procedures; system design documentation; system
+          configuration settings and associated documentation; media
+          storage facilities; access control devices; access control
+          records; audit records; system security plan; other
           relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with system media protection and storage
-          responsibilities; organizational personnel with information security
-          responsibilities; system/network administrators
+          Organizational personnel with system media protection and
+          storage responsibilities; organizational personnel with
+          information security responsibilities; system/network
+          administrators
       - method: test
         statement: >
-          Automated mechanisms restricting access to media storage areas; automated
-          mechanisms auditing access attempts and access granted to media storage
-          areas
-    statement: "access attempts to media storage areas are logged using {{ mp_04_02_odp_02 }};"
+          Automated mechanisms restricting access to media storage
+          areas; automated mechanisms auditing access attempts and
+          access granted to media storage areas
+    statement: >-
+      access attempts to media storage areas are logged using
+      {{ mp_04_02_odp_02 }};
   - id: "mp-04(02).mp-04(02)[03]"
     methods:
       - method: examine
         statement: >
-          System media protection policy; procedures addressing media storage; access
-          control policy and procedures; physical and environmental protection policy
-          and procedures; system design documentation; system configuration settings
-          and associated documentation; media storage facilities; access control
-          devices; access control records; audit records; system security plan; other
+          System media protection policy; procedures addressing
+          media storage; access control policy and procedures;
+          physical and environmental protection policy and
+          procedures; system design documentation; system
+          configuration settings and associated documentation; media
+          storage facilities; access control devices; access control
+          records; audit records; system security plan; other
           relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with system media protection and storage
-          responsibilities; organizational personnel with information security
-          responsibilities; system/network administrators
+          Organizational personnel with system media protection and
+          storage responsibilities; organizational personnel with
+          information security responsibilities; system/network
+          administrators
       - method: test
         statement: >
-          Automated mechanisms restricting access to media storage areas; automated
-          mechanisms auditing access attempts and access granted to media storage
-          areas
-    statement: "access granted to media storage areas is logged using {{ mp_04_02_odp_03 }}."
+          Automated mechanisms restricting access to media storage
+          areas; automated mechanisms auditing access attempts and
+          access granted to media storage areas
+    statement: >-
+      access granted to media storage areas is logged using
+      {{ mp_04_02_odp_03 }}.
 parameters:
   mp_04_02_odp_01:
     label: automated mechanisms
@@ -82,5 +97,5 @@ parameters:
   mp_4_2_prm_1:
     label: organization-defined automated mechanisms
 statement: >
-  Restrict access to media storage areas and log access attempts and access
-  granted using {{ mp_4_2_prm_1 }}.
+  Restrict access to media storage areas and log access attempts and
+  access granted using {{ mp_4_2_prm_1 }}.

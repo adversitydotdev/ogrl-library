@@ -9,6 +9,6 @@ relationship: equivalent-to
 review_status: reviewed
 source_ref: control--ogrl-cr-01
 summary: >
-  TLS in transit and encryption at rest satisfy SOC 2 CC6.7 transmission and
-  data protection.
+  TLS in transit and encryption at rest satisfy SOC 2 CC6.7
+  transmission and data protection.
 target_ref: requirement--soc2-tsc-2017-cc6-7

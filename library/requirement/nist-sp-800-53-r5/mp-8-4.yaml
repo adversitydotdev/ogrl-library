@@ -13,40 +13,48 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System media protection policy; access authorization policy; procedures
-          addressing downgrading of media containing classified information;
-          procedures addressing handling of classified information; NSA standards and
-          policies regarding protection of classified information; media downgrading
-          records; system security plan; other relevant documents or records
+          System media protection policy; access authorization
+          policy; procedures addressing downgrading of media
+          containing classified information; procedures addressing
+          handling of classified information; NSA standards and
+          policies regarding protection of classified information;
+          media downgrading records; system security plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with system media downgrading responsibilities;
-          organizational personnel with information security responsibilities
+          Organizational personnel with system media downgrading
+          responsibilities; organizational personnel with
+          information security responsibilities
       - method: test
         statement: >
-          Organizational processes for media downgrading; mechanisms supporting and/or
-          implementing media downgrading
-    statement: system media containing classified information is identified;
+          Organizational processes for media downgrading; mechanisms
+          supporting and/or implementing media downgrading
+    statement: >-
+      system media containing classified information is identified;
   - id: "mp-08(04).mp-08(04)[02]"
     methods:
       - method: examine
         statement: >
-          System media protection policy; access authorization policy; procedures
-          addressing downgrading of media containing classified information;
-          procedures addressing handling of classified information; NSA standards and
-          policies regarding protection of classified information; media downgrading
-          records; system security plan; other relevant documents or records
+          System media protection policy; access authorization
+          policy; procedures addressing downgrading of media
+          containing classified information; procedures addressing
+          handling of classified information; NSA standards and
+          policies regarding protection of classified information;
+          media downgrading records; system security plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with system media downgrading responsibilities;
-          organizational personnel with information security responsibilities
+          Organizational personnel with system media downgrading
+          responsibilities; organizational personnel with
+          information security responsibilities
       - method: test
         statement: >
-          Organizational processes for media downgrading; mechanisms supporting and/or
-          implementing media downgrading
+          Organizational processes for media downgrading; mechanisms
+          supporting and/or implementing media downgrading
     statement: >
-      system media containing classified information is downgraded prior to
-      release to individuals without required access authorizations.
+      system media containing classified information is downgraded
+      prior to release to individuals without required access
+      authorizations.
 statement: >
-  Downgrade system media containing classified information prior to release to
-  individuals without required access authorizations.
+  Downgrade system media containing classified information prior to
+  release to individuals without required access authorizations.

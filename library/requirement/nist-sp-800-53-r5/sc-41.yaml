@@ -13,25 +13,28 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; access control policy and
-          procedures; procedures addressing port and input/output device access;
-          system design documentation; system configuration settings and associated
-          documentation; system architecture; systems or system components; list of
-          connection ports or input/output devices to be physically disabled or
-          removed on systems or system components; system security plan; other
-          relevant documents or records
+          System and communications protection policy; access
+          control policy and procedures; procedures addressing port
+          and input/output device access; system design
+          documentation; system configuration settings and
+          associated documentation; system architecture; systems or
+          system components; list of connection ports or
+          input/output devices to be physically disabled or removed
+          on systems or system components; system security plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; organizational personnel installing, configuring,
-          and/or maintaining the system
+          System/network administrators; organizational personnel
+          with information security responsibilities; organizational
+          personnel installing, configuring, and/or maintaining the
+          system
       - method: test
         statement: >
-          Mechanisms supporting and/or implementing the disabling of connection ports
-          or input/output devices
+          Mechanisms supporting and/or implementing the disabling of
+          connection ports or input/output devices
     statement: >
-      {{ sc_41_odp_01 }} are {{ sc_41_odp_02 }} disabled or removed on
-      {{ sc_41_odp_03 }}.
+      {{ sc_41_odp_01 }} are {{ sc_41_odp_02 }} disabled or removed
+      on {{ sc_41_odp_03 }}.
 parameters:
   sc_41_odp_01:
     label: connection ports or input/output devices
@@ -40,5 +43,5 @@ parameters:
   sc_41_odp_03:
     label: systems or system components
 statement: >
-  {{ sc_41_odp_02 }} disable or remove {{ sc_41_odp_01 }} on the following
-  systems or system components: {{ sc_41_odp_03 }}.
+  {{ sc_41_odp_02 }} disable or remove {{ sc_41_odp_01 }} on the
+  following systems or system components: {{ sc_41_odp_03 }}.

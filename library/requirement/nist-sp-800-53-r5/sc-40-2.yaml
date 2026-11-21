@@ -13,29 +13,32 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; access control policy and
-          procedures; procedures addressing wireless link protection; system design
-          documentation; wireless network diagrams; system configuration settings and
-          associated documentation; system architecture; system communications
-          hardware and software; security categorization results; system audit
-          records; system security plan; other relevant documents or records
+          System and communications protection policy; access
+          control policy and procedures; procedures addressing
+          wireless link protection; system design documentation;
+          wireless network diagrams; system configuration settings
+          and associated documentation; system architecture; system
+          communications hardware and software; security
+          categorization results; system audit records; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; system developer; organizational personnel
-          installing, configuring, and/or maintaining the system; organizational
-          personnel authorizing, installing, configuring, and/or maintaining internal
-          and external wireless links
+          System/network administrators; organizational personnel
+          with information security responsibilities; system
+          developer; organizational personnel installing,
+          configuring, and/or maintaining the system; organizational
+          personnel authorizing, installing, configuring, and/or
+          maintaining internal and external wireless links
       - method: test
         statement: >
-          Cryptographic mechanisms enforcing protections to reduce the detection of
-          wireless links
+          Cryptographic mechanisms enforcing protections to reduce
+          the detection of wireless links
     statement: >
-      cryptographic mechanisms to reduce the detection potential of wireless links
-      to {{ sc_40_02_odp }} are implemented.
+      cryptographic mechanisms to reduce the detection potential of
+      wireless links to {{ sc_40_02_odp }} are implemented.
 parameters:
   sc_40_02_odp:
     label: level of reduction
 statement: >
-  Implement cryptographic mechanisms to reduce the detection potential of
-  wireless links to {{ sc_40_02_odp }}.
+  Implement cryptographic mechanisms to reduce the detection
+  potential of wireless links to {{ sc_40_02_odp }}.

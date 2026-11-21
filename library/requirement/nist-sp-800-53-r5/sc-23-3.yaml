@@ -13,19 +13,20 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; procedures addressing session
-          authenticity; system design documentation; system configuration settings and
-          associated documentation; system audit records; system security plan; other
-          relevant documents or records
+          System and communications protection policy; procedures
+          addressing session authenticity; system design
+          documentation; system configuration settings and
+          associated documentation; system audit records; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities
+          System/network administrators; organizational personnel
+          with information security responsibilities
       - method: test
         statement: >
-          Mechanisms supporting, implementing, generating, and monitoring unique
-          session identifiers; mechanisms supporting and/or implementing randomness
-          requirements
+          Mechanisms supporting, implementing, generating, and
+          monitoring unique session identifiers; mechanisms
+          supporting and/or implementing randomness requirements
     statement: >
       a unique session identifier is generated for each session with
       {{ sc_23_03_odp }};
@@ -33,20 +34,22 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; procedures addressing session
-          authenticity; system design documentation; system configuration settings and
-          associated documentation; system audit records; system security plan; other
-          relevant documents or records
+          System and communications protection policy; procedures
+          addressing session authenticity; system design
+          documentation; system configuration settings and
+          associated documentation; system audit records; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities
+          System/network administrators; organizational personnel
+          with information security responsibilities
       - method: test
         statement: >
-          Mechanisms supporting, implementing, generating, and monitoring unique
-          session identifiers; mechanisms supporting and/or implementing randomness
-          requirements
-    statement: only system-generated session identifiers are recognized.
+          Mechanisms supporting, implementing, generating, and
+          monitoring unique session identifiers; mechanisms
+          supporting and/or implementing randomness requirements
+    statement: >-
+      only system-generated session identifiers are recognized.
 parameters:
   sc_23_03_odp:
     label: randomness requirements

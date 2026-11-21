@@ -13,104 +13,123 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Maintenance policy; procedures addressing system maintenance tools; system
-          maintenance tools and associated documentation; maintenance records;
-          equipment sanitization records; media sanitization records; exemptions for
-          equipment removal; system security plan; other relevant documents or records
+          Maintenance policy; procedures addressing system
+          maintenance tools; system maintenance tools and associated
+          documentation; maintenance records; equipment sanitization
+          records; media sanitization records; exemptions for
+          equipment removal; system security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with system maintenance responsibilities;
-          organizational personnel with information security responsibilities;
-          organizational personnel responsible for media sanitization
+          Organizational personnel with system maintenance
+          responsibilities; organizational personnel with
+          information security responsibilities; organizational
+          personnel responsible for media sanitization
       - method: test
         statement: >
-          Organizational process for preventing unauthorized removal of information;
-          mechanisms supporting media sanitization or destruction of equipment;
-          mechanisms supporting verification of media sanitization
+          Organizational process for preventing unauthorized removal
+          of information; mechanisms supporting media sanitization
+          or destruction of equipment; mechanisms supporting
+          verification of media sanitization
     statement: >
-      the removal of maintenance equipment containing organizational information
-      is prevented by verifying that there is no organizational information
-      contained on the equipment; or
+      the removal of maintenance equipment containing organizational
+      information is prevented by verifying that there is no
+      organizational information contained on the equipment; or
   - id: b
     methods:
       - method: examine
         statement: >
-          Maintenance policy; procedures addressing system maintenance tools; system
-          maintenance tools and associated documentation; maintenance records;
-          equipment sanitization records; media sanitization records; exemptions for
-          equipment removal; system security plan; other relevant documents or records
+          Maintenance policy; procedures addressing system
+          maintenance tools; system maintenance tools and associated
+          documentation; maintenance records; equipment sanitization
+          records; media sanitization records; exemptions for
+          equipment removal; system security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with system maintenance responsibilities;
-          organizational personnel with information security responsibilities;
-          organizational personnel responsible for media sanitization
+          Organizational personnel with system maintenance
+          responsibilities; organizational personnel with
+          information security responsibilities; organizational
+          personnel responsible for media sanitization
       - method: test
         statement: >
-          Organizational process for preventing unauthorized removal of information;
-          mechanisms supporting media sanitization or destruction of equipment;
-          mechanisms supporting verification of media sanitization
+          Organizational process for preventing unauthorized removal
+          of information; mechanisms supporting media sanitization
+          or destruction of equipment; mechanisms supporting
+          verification of media sanitization
     statement: >
-      the removal of maintenance equipment containing organizational information
-      is prevented by sanitizing or destroying the equipment; or
+      the removal of maintenance equipment containing organizational
+      information is prevented by sanitizing or destroying the
+      equipment; or
   - id: c
     methods:
       - method: examine
         statement: >
-          Maintenance policy; procedures addressing system maintenance tools; system
-          maintenance tools and associated documentation; maintenance records;
-          equipment sanitization records; media sanitization records; exemptions for
-          equipment removal; system security plan; other relevant documents or records
+          Maintenance policy; procedures addressing system
+          maintenance tools; system maintenance tools and associated
+          documentation; maintenance records; equipment sanitization
+          records; media sanitization records; exemptions for
+          equipment removal; system security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with system maintenance responsibilities;
-          organizational personnel with information security responsibilities;
-          organizational personnel responsible for media sanitization
+          Organizational personnel with system maintenance
+          responsibilities; organizational personnel with
+          information security responsibilities; organizational
+          personnel responsible for media sanitization
       - method: test
         statement: >
-          Organizational process for preventing unauthorized removal of information;
-          mechanisms supporting media sanitization or destruction of equipment;
-          mechanisms supporting verification of media sanitization
+          Organizational process for preventing unauthorized removal
+          of information; mechanisms supporting media sanitization
+          or destruction of equipment; mechanisms supporting
+          verification of media sanitization
     statement: >
-      the removal of maintenance equipment containing organizational information
-      is prevented by retaining the equipment within the facility; or
+      the removal of maintenance equipment containing organizational
+      information is prevented by retaining the equipment within the
+      facility; or
   - id: d
     methods:
       - method: examine
         statement: >
-          Maintenance policy; procedures addressing system maintenance tools; system
-          maintenance tools and associated documentation; maintenance records;
-          equipment sanitization records; media sanitization records; exemptions for
-          equipment removal; system security plan; other relevant documents or records
+          Maintenance policy; procedures addressing system
+          maintenance tools; system maintenance tools and associated
+          documentation; maintenance records; equipment sanitization
+          records; media sanitization records; exemptions for
+          equipment removal; system security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with system maintenance responsibilities;
-          organizational personnel with information security responsibilities;
-          organizational personnel responsible for media sanitization
+          Organizational personnel with system maintenance
+          responsibilities; organizational personnel with
+          information security responsibilities; organizational
+          personnel responsible for media sanitization
       - method: test
         statement: >
-          Organizational process for preventing unauthorized removal of information;
-          mechanisms supporting media sanitization or destruction of equipment;
-          mechanisms supporting verification of media sanitization
+          Organizational process for preventing unauthorized removal
+          of information; mechanisms supporting media sanitization
+          or destruction of equipment; mechanisms supporting
+          verification of media sanitization
     statement: >
-      the removal of maintenance equipment containing organizational information
-      is prevented by obtaining an exemption from {{ ma_03_03_odp }} explicitly
-      authorizing removal of the equipment from the facility.
+      the removal of maintenance equipment containing organizational
+      information is prevented by obtaining an exemption from
+      {{ ma_03_03_odp }} explicitly authorizing removal of the
+      equipment from the facility.
 parameters:
   ma_03_03_odp:
     label: personnel or roles
 parts:
   - id: a
     statement: >
-      Verifying that there is no organizational information contained on the
-      equipment;
+      Verifying that there is no organizational information
+      contained on the equipment;
   - id: b
     statement: Sanitizing or destroying the equipment;
   - id: c
     statement: Retaining the equipment within the facility; or
   - id: d
     statement: >
-      Obtaining an exemption from {{ ma_03_03_odp }} explicitly authorizing
-      removal of the equipment from the facility.
+      Obtaining an exemption from {{ ma_03_03_odp }} explicitly
+      authorizing removal of the equipment from the facility.
 statement: >
-  Prevent the removal of maintenance equipment containing organizational
-  information by:
+  Prevent the removal of maintenance equipment containing
+  organizational information by:

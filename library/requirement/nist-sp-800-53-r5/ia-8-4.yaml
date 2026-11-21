@@ -13,22 +13,28 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Identification and authentication policy; system security plan; system
-          design documentation; system configuration settings and associated
-          documentation; system audit records; other relevant documents or records
+          Identification and authentication policy; system security
+          plan; system design documentation; system configuration
+          settings and associated documentation; system audit
+          records; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with system operations responsibilities;
-          organizational personnel with information security responsibilities;
-          system/network administrators; system developers; organizational personnel
-          with account management responsibilities
+          Organizational personnel with system operations
+          responsibilities; organizational personnel with
+          information security responsibilities; system/network
+          administrators; system developers; organizational
+          personnel with account management responsibilities
       - method: test
         statement: >
-          Mechanisms supporting and/or implementing identification and authentication
-          capabilities; mechanisms supporting and/or implementing conformance with
-          profiles
-    statement: "there is conformance with {{ ia_08_04_odp }} for identity management."
+          Mechanisms supporting and/or implementing identification
+          and authentication capabilities; mechanisms supporting
+          and/or implementing conformance with profiles
+    statement: >-
+      there is conformance with {{ ia_08_04_odp }} for identity
+      management.
 parameters:
   ia_08_04_odp:
     label: identity management profiles
-statement: "Conform to the following profiles for identity management {{ ia_08_04_odp }}."
+statement: >-
+  Conform to the following profiles for identity management
+  {{ ia_08_04_odp }}.

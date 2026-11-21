@@ -17,87 +17,110 @@ objectives:
     methods:
       - method: examine
         statement: >
-          identification and authentication policy and procedures; list of
-          circumstances or situations requiring re-authentication; system design
-          documentation; system configuration settings; system audit records; list of
-          system accounts; system security plan; other relevant documents or records
+          identification and authentication policy and procedures;
+          list of circumstances or situations requiring
+          re-authentication; system design documentation; system
+          configuration settings; system audit records; list of
+          system accounts; system security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          personnel with identification and authentication responsibilities; personnel
-          with system operations responsibilities; personnel with account management
-          responsibilities; system developers; personnel with information security
-          responsibilities; system administrators
+          personnel with identification and authentication
+          responsibilities; personnel with system operations
+          responsibilities; personnel with account management
+          responsibilities; system developers; personnel with
+          information security responsibilities; system
+          administrators
       - method: test
         statement: >
-          processes for uniquely identifying and authenticating users; mechanisms for
-          supporting or implementing identification and authentication capabilities
+          processes for uniquely identifying and authenticating
+          users; mechanisms for supporting or implementing
+          identification and authentication capabilities
     statement: system users are uniquely identified.
   - id: a.02
     methods:
       - method: examine
         statement: >
-          identification and authentication policy and procedures; list of
-          circumstances or situations requiring re-authentication; system design
-          documentation; system configuration settings; system audit records; list of
-          system accounts; system security plan; other relevant documents or records
+          identification and authentication policy and procedures;
+          list of circumstances or situations requiring
+          re-authentication; system design documentation; system
+          configuration settings; system audit records; list of
+          system accounts; system security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          personnel with identification and authentication responsibilities; personnel
-          with system operations responsibilities; personnel with account management
-          responsibilities; system developers; personnel with information security
-          responsibilities; system administrators
+          personnel with identification and authentication
+          responsibilities; personnel with system operations
+          responsibilities; personnel with account management
+          responsibilities; system developers; personnel with
+          information security responsibilities; system
+          administrators
       - method: test
         statement: >
-          processes for uniquely identifying and authenticating users; mechanisms for
-          supporting or implementing identification and authentication capabilities
+          processes for uniquely identifying and authenticating
+          users; mechanisms for supporting or implementing
+          identification and authentication capabilities
     statement: system users are authenticated.
   - id: a.03
     methods:
       - method: examine
         statement: >
-          identification and authentication policy and procedures; list of
-          circumstances or situations requiring re-authentication; system design
-          documentation; system configuration settings; system audit records; list of
-          system accounts; system security plan; other relevant documents or records
+          identification and authentication policy and procedures;
+          list of circumstances or situations requiring
+          re-authentication; system design documentation; system
+          configuration settings; system audit records; list of
+          system accounts; system security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          personnel with identification and authentication responsibilities; personnel
-          with system operations responsibilities; personnel with account management
-          responsibilities; system developers; personnel with information security
-          responsibilities; system administrators
+          personnel with identification and authentication
+          responsibilities; personnel with system operations
+          responsibilities; personnel with account management
+          responsibilities; system developers; personnel with
+          information security responsibilities; system
+          administrators
       - method: test
         statement: >
-          processes for uniquely identifying and authenticating users; mechanisms for
-          supporting or implementing identification and authentication capabilities
+          processes for uniquely identifying and authenticating
+          users; mechanisms for supporting or implementing
+          identification and authentication capabilities
     statement: >
-      processes acting on behalf of users are associated with uniquely identified
-      and authenticated system users.
+      processes acting on behalf of users are associated with
+      uniquely identified and authenticated system users.
   - id: b
     methods:
       - method: examine
         statement: >
-          identification and authentication policy and procedures; list of
-          circumstances or situations requiring re-authentication; system design
-          documentation; system configuration settings; system audit records; list of
-          system accounts; system security plan; other relevant documents or records
+          identification and authentication policy and procedures;
+          list of circumstances or situations requiring
+          re-authentication; system design documentation; system
+          configuration settings; system audit records; list of
+          system accounts; system security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          personnel with identification and authentication responsibilities; personnel
-          with system operations responsibilities; personnel with account management
-          responsibilities; system developers; personnel with information security
-          responsibilities; system administrators
+          personnel with identification and authentication
+          responsibilities; personnel with system operations
+          responsibilities; personnel with account management
+          responsibilities; system developers; personnel with
+          information security responsibilities; system
+          administrators
       - method: test
         statement: >
-          processes for uniquely identifying and authenticating users; mechanisms for
-          supporting or implementing identification and authentication capabilities
-    statement: "users are reauthenticated when {{ a_03_05_01_odp_01 }} ."
+          processes for uniquely identifying and authenticating
+          users; mechanisms for supporting or implementing
+          identification and authentication capabilities
+    statement: >-
+      users are reauthenticated when {{ a_03_05_01_odp_01 }} .
 parameters:
   a_03_05_01_odp_01:
     label: circumstances or situations
 parts:
   - id: a
     statement: >
-      Uniquely identify and authenticate system users, and associate that unique
-      identification with processes acting on behalf of those users.
+      Uniquely identify and authenticate system users, and associate
+      that unique identification with processes acting on behalf of
+      those users.
   - id: b
-    statement: "Re-authenticate users when {{ a_03_05_01_odp_01 }} ."
+    statement: >-
+      Re-authenticate users when {{ a_03_05_01_odp_01 }} .

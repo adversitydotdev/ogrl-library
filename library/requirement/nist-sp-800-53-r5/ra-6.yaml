@@ -13,19 +13,22 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Risk assessment policy; procedures addressing technical surveillance
-          countermeasures surveys; audit records/event logs; system security plan;
-          other relevant documents or records
+          Risk assessment policy; procedures addressing technical
+          surveillance countermeasures surveys; audit records/event
+          logs; system security plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          Organizational personnel with technical surveillance countermeasures surveys
-          responsibilities; system/network administrators; organizational personnel
-          with security responsibilities
+          Organizational personnel with technical surveillance
+          countermeasures surveys responsibilities; system/network
+          administrators; organizational personnel with security
+          responsibilities
       - method: test
         statement: >
-          Organizational processes for technical surveillance countermeasures surveys;
-          mechanisms/tools supporting and/or implementing technical surveillance
-          countermeasure surveys
+          Organizational processes for technical surveillance
+          countermeasures surveys; mechanisms/tools supporting
+          and/or implementing technical surveillance countermeasure
+          surveys
     statement: >
       a technical surveillance countermeasures survey is employed at
       {{ ra_06_odp_01 }} {{ ra_06_odp_02 }}.
@@ -39,5 +42,5 @@ parameters:
   ra_06_odp_04:
     label: events or indicators
 statement: >
-  Employ a technical surveillance countermeasures survey at {{ ra_06_odp_01 }}
-  {{ ra_06_odp_02 }}.
+  Employ a technical surveillance countermeasures survey at
+  {{ ra_06_odp_01 }} {{ ra_06_odp_02 }}.

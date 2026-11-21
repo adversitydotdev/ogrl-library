@@ -11,6 +11,6 @@ relationship: equivalent-to
 review_status: draft
 source_ref: control--ogrl-ac-10
 summary: >
-  Inactivity-based screen lock that persists until re-authentication satisfies
-  AC-11.
+  Inactivity-based screen lock that persists until re-authentication
+  satisfies AC-11.
 target_ref: requirement--nist-sp-800-53-r5-ac-11

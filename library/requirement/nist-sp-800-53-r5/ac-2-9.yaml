@@ -13,22 +13,28 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing account management; system
-          design documentation; system configuration settings and associated
-          documentation; system-generated list of shared/group accounts and associated
-          roles; system audit records; system security plan; other relevant documents
-          or records
+          Access control policy; procedures addressing account
+          management; system design documentation; system
+          configuration settings and associated documentation;
+          system-generated list of shared/group accounts and
+          associated roles; system audit records; system security
+          plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with account management responsibilities;
-          system/network administrators; organizational personnel with information
-          security responsibilities
+          Organizational personnel with account management
+          responsibilities; system/network administrators;
+          organizational personnel with information security
+          responsibilities
       - method: test
-        statement: Mechanisms implementing management of shared/group accounts
+        statement: >-
+          Mechanisms implementing management of shared/group
+          accounts
     statement: >
-      the use of shared and group accounts is only permitted if {{ ac_02_09_odp }}
-      are met.
+      the use of shared and group accounts is only permitted if
+      {{ ac_02_09_odp }} are met.
 parameters:
   ac_02_09_odp:
     label: conditions
-statement: "Only permit the use of shared and group accounts that meet {{ ac_02_09_odp }}."
+statement: >-
+  Only permit the use of shared and group accounts that meet
+  {{ ac_02_09_odp }}.

@@ -13,56 +13,64 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; procedures addressing software, firmware, and information
-          integrity; system design documentation; system configuration settings and
-          associated documentation; integrity verification tools and associated
-          documentation; records of integrity scans; incident response records; list
-          of security-relevant changes to the system; automated tools supporting
-          alerts and notifications if unauthorized security changes are detected;
-          system audit records; system security plan; other relevant documents or
-          records
+          System and information integrity policy; system and
+          information integrity procedures; procedures addressing
+          software, firmware, and information integrity; system
+          design documentation; system configuration settings and
+          associated documentation; integrity verification tools and
+          associated documentation; records of integrity scans;
+          incident response records; list of security-relevant
+          changes to the system; automated tools supporting alerts
+          and notifications if unauthorized security changes are
+          detected; system audit records; system security plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel responsible for software, firmware, and/or
-          information integrity; organizational personnel with information security
-          responsibilities; system/network administrators; system developer
+          Organizational personnel responsible for software,
+          firmware, and/or information integrity; organizational
+          personnel with information security responsibilities;
+          system/network administrators; system developer
       - method: test
         statement: >
-          Software, firmware, and information integrity verification tools; mechanisms
-          supporting and/or implementing the capability to audit potential integrity
-          violations; mechanisms supporting and/or implementing alerts about potential
-          integrity violations
+          Software, firmware, and information integrity verification
+          tools; mechanisms supporting and/or implementing the
+          capability to audit potential integrity violations;
+          mechanisms supporting and/or implementing alerts about
+          potential integrity violations
     statement: >
-      the capability to audit an event upon the detection of a potential integrity
-      violation is provided;
+      the capability to audit an event upon the detection of a
+      potential integrity violation is provided;
   - id: "si-07(08).si-07(08)[02]"
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; procedures addressing software, firmware, and information
-          integrity; system design documentation; system configuration settings and
-          associated documentation; integrity verification tools and associated
-          documentation; records of integrity scans; incident response records; list
-          of security-relevant changes to the system; automated tools supporting
-          alerts and notifications if unauthorized security changes are detected;
-          system audit records; system security plan; other relevant documents or
-          records
+          System and information integrity policy; system and
+          information integrity procedures; procedures addressing
+          software, firmware, and information integrity; system
+          design documentation; system configuration settings and
+          associated documentation; integrity verification tools and
+          associated documentation; records of integrity scans;
+          incident response records; list of security-relevant
+          changes to the system; automated tools supporting alerts
+          and notifications if unauthorized security changes are
+          detected; system audit records; system security plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel responsible for software, firmware, and/or
-          information integrity; organizational personnel with information security
-          responsibilities; system/network administrators; system developer
+          Organizational personnel responsible for software,
+          firmware, and/or information integrity; organizational
+          personnel with information security responsibilities;
+          system/network administrators; system developer
       - method: test
         statement: >
-          Software, firmware, and information integrity verification tools; mechanisms
-          supporting and/or implementing the capability to audit potential integrity
-          violations; mechanisms supporting and/or implementing alerts about potential
-          integrity violations
+          Software, firmware, and information integrity verification
+          tools; mechanisms supporting and/or implementing the
+          capability to audit potential integrity violations;
+          mechanisms supporting and/or implementing alerts about
+          potential integrity violations
     statement: >
-      {{ si_07_08_odp_01 }} is/are initiated upon the detection of a potential
-      integrity violation.
+      {{ si_07_08_odp_01 }} is/are initiated upon the detection of a
+      potential integrity violation.
 parameters:
   si_07_08_odp_01:
     label: si-07.08_odp.01
@@ -71,5 +79,6 @@ parameters:
   si_07_08_odp_03:
     label: other actions
 statement: >
-  Upon detection of a potential integrity violation, provide the capability to
-  audit the event and initiate the following actions: {{ si_07_08_odp_01 }}.
+  Upon detection of a potential integrity violation, provide the
+  capability to audit the event and initiate the following actions:
+  {{ si_07_08_odp_01 }}.

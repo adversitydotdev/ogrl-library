@@ -4,7 +4,8 @@ id: requirement--nist-sp-800-171-r3-03-13-06
 spec_version: "0.1.0"
 created: "2026-10-22T11:30:00Z"
 modified: "2026-10-22T11:30:00Z"
-name: Network Communications – Deny by Default – Allow by Exception
+name: >-
+  Network Communications – Deny by Default – Allow by Exception
 display_id: "03.13.06"
 class: control
 external_references:
@@ -23,34 +24,41 @@ objectives:
     methods:
       - method: examine
         statement: >
-          system and communications protection policy and procedures; procedures for
-          boundary protection; system design documentation; system configuration
-          settings; system audit records; system security plan; other relevant
+          system and communications protection policy and
+          procedures; procedures for boundary protection; system
+          design documentation; system configuration settings;
+          system audit records; system security plan; other relevant
           documents or records
       - method: interview
         statement: >
-          personnel with boundary protection responsibilities; personnel with
-          information security responsibilities; system developers; system
-          administrators
+          personnel with boundary protection responsibilities;
+          personnel with information security responsibilities;
+          system developers; system administrators
       - method: test
-        statement: mechanisms for implementing traffic management at managed interfaces
+        statement: >-
+          mechanisms for implementing traffic management at managed
+          interfaces
     statement: network communications traffic is denied by default.
   - id: "02"
     methods:
       - method: examine
         statement: >
-          system and communications protection policy and procedures; procedures for
-          boundary protection; system design documentation; system configuration
-          settings; system audit records; system security plan; other relevant
+          system and communications protection policy and
+          procedures; procedures for boundary protection; system
+          design documentation; system configuration settings;
+          system audit records; system security plan; other relevant
           documents or records
       - method: interview
         statement: >
-          personnel with boundary protection responsibilities; personnel with
-          information security responsibilities; system developers; system
-          administrators
+          personnel with boundary protection responsibilities;
+          personnel with information security responsibilities;
+          system developers; system administrators
       - method: test
-        statement: mechanisms for implementing traffic management at managed interfaces
-    statement: network communications traffic is allowed by exception.
+        statement: >-
+          mechanisms for implementing traffic management at managed
+          interfaces
+    statement: >-
+      network communications traffic is allowed by exception.
 statement: >
   Deny network communications traffic by default, and allow network
   communications traffic by exception.

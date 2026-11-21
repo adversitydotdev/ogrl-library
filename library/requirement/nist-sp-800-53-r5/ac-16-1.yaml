@@ -13,82 +13,98 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing dynamic association of security
-          and privacy attributes to information; system design documentation; system
-          configuration settings and associated documentation; system audit records;
-          system security plan; privacy plan; other relevant documents or records
+          Access control policy; procedures addressing dynamic
+          association of security and privacy attributes to
+          information; system design documentation; system
+          configuration settings and associated documentation;
+          system audit records; system security plan; privacy plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security and privacy responsibilities; system developers
+          System/network administrators; organizational personnel
+          with information security and privacy responsibilities;
+          system developers
       - method: test
         statement: >
-          Automated mechanisms implementing dynamic association of security and
-          privacy attributes to information
+          Automated mechanisms implementing dynamic association of
+          security and privacy attributes to information
     statement: >
-      security attributes are dynamically associated with {{ ac_16_01_odp_01 }} in
-      accordance with the following security policies as information is created
-      and combined: {{ ac_16_01_odp_05 }};
+      security attributes are dynamically associated with
+      {{ ac_16_01_odp_01 }} in accordance with the following
+      security policies as information is created and combined:
+      {{ ac_16_01_odp_05 }};
   - id: "ac-16(01).ac-16(01)[02]"
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing dynamic association of security
-          and privacy attributes to information; system design documentation; system
-          configuration settings and associated documentation; system audit records;
-          system security plan; privacy plan; other relevant documents or records
+          Access control policy; procedures addressing dynamic
+          association of security and privacy attributes to
+          information; system design documentation; system
+          configuration settings and associated documentation;
+          system audit records; system security plan; privacy plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security and privacy responsibilities; system developers
+          System/network administrators; organizational personnel
+          with information security and privacy responsibilities;
+          system developers
       - method: test
         statement: >
-          Automated mechanisms implementing dynamic association of security and
-          privacy attributes to information
+          Automated mechanisms implementing dynamic association of
+          security and privacy attributes to information
     statement: >
-      security attributes are dynamically associated with {{ ac_16_01_odp_02 }} in
-      accordance with the following security policies as information is created
-      and combined: {{ ac_16_01_odp_05 }};
+      security attributes are dynamically associated with
+      {{ ac_16_01_odp_02 }} in accordance with the following
+      security policies as information is created and combined:
+      {{ ac_16_01_odp_05 }};
   - id: "ac-16(01).ac-16(01)[03]"
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing dynamic association of security
-          and privacy attributes to information; system design documentation; system
-          configuration settings and associated documentation; system audit records;
-          system security plan; privacy plan; other relevant documents or records
+          Access control policy; procedures addressing dynamic
+          association of security and privacy attributes to
+          information; system design documentation; system
+          configuration settings and associated documentation;
+          system audit records; system security plan; privacy plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security and privacy responsibilities; system developers
+          System/network administrators; organizational personnel
+          with information security and privacy responsibilities;
+          system developers
       - method: test
         statement: >
-          Automated mechanisms implementing dynamic association of security and
-          privacy attributes to information
+          Automated mechanisms implementing dynamic association of
+          security and privacy attributes to information
     statement: >
-      privacy attributes are dynamically associated with {{ ac_16_01_odp_03 }} in
-      accordance with the following privacy policies as information is created and
-      combined: {{ ac_16_01_odp_06 }};
+      privacy attributes are dynamically associated with
+      {{ ac_16_01_odp_03 }} in accordance with the following privacy
+      policies as information is created and combined:
+      {{ ac_16_01_odp_06 }};
   - id: "ac-16(01).ac-16(01)[04]"
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing dynamic association of security
-          and privacy attributes to information; system design documentation; system
-          configuration settings and associated documentation; system audit records;
-          system security plan; privacy plan; other relevant documents or records
+          Access control policy; procedures addressing dynamic
+          association of security and privacy attributes to
+          information; system design documentation; system
+          configuration settings and associated documentation;
+          system audit records; system security plan; privacy plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security and privacy responsibilities; system developers
+          System/network administrators; organizational personnel
+          with information security and privacy responsibilities;
+          system developers
       - method: test
         statement: >
-          Automated mechanisms implementing dynamic association of security and
-          privacy attributes to information
+          Automated mechanisms implementing dynamic association of
+          security and privacy attributes to information
     statement: >
-      privacy attributes are dynamically associated with {{ ac_16_01_odp_04 }} in
-      accordance with the following privacy policies as information is created and
-      combined: {{ ac_16_01_odp_06 }}.
+      privacy attributes are dynamically associated with
+      {{ ac_16_01_odp_04 }} in accordance with the following privacy
+      policies as information is created and combined:
+      {{ ac_16_01_odp_06 }}.
 parameters:
   ac_16_01_odp_01:
     label: subjects
@@ -108,5 +124,6 @@ parameters:
     label: organization-defined security and privacy policies
 statement: >
   Dynamically associate security and privacy attributes with
-  {{ ac_16_1_prm_1 }} in accordance with the following security and privacy
-  policies as information is created and combined: {{ ac_16_1_prm_2 }}.
+  {{ ac_16_1_prm_1 }} in accordance with the following security and
+  privacy policies as information is created and combined:
+  {{ ac_16_1_prm_2 }}.

@@ -13,98 +13,114 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing the association of security and
-          privacy attributes to information; system design documentation; system
-          configuration settings and associated documentation; list of users
-          authorized to associate security and privacy attributes to information;
-          system prompts for privileged users to select security and privacy
-          attributes to be associated with information objects; system audit records;
-          system security plan; privacy plan; other relevant documents or records
+          Access control policy; procedures addressing the
+          association of security and privacy attributes to
+          information; system design documentation; system
+          configuration settings and associated documentation; list
+          of users authorized to associate security and privacy
+          attributes to information; system prompts for privileged
+          users to select security and privacy attributes to be
+          associated with information objects; system audit records;
+          system security plan; privacy plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with responsibilities for associating security and
-          privacy attributes to information; organizational personnel with information
+          Organizational personnel with responsibilities for
+          associating security and privacy attributes to
+          information; organizational personnel with information
           security and privacy responsibilities; system developers
       - method: test
         statement: >
-          Mechanisms supporting user associations of security and privacy attributes
-          to information
+          Mechanisms supporting user associations of security and
+          privacy attributes to information
     statement: >
-      authorized individuals (or processes acting on behalf of individuals) are
-      provided with the capability to associate {{ ac_16_04_odp_01 }} with
-      {{ ac_16_04_odp_05 }};
+      authorized individuals (or processes acting on behalf of
+      individuals) are provided with the capability to associate
+      {{ ac_16_04_odp_01 }} with {{ ac_16_04_odp_05 }};
   - id: "ac-16(04).ac-16(04)[02]"
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing the association of security and
-          privacy attributes to information; system design documentation; system
-          configuration settings and associated documentation; list of users
-          authorized to associate security and privacy attributes to information;
-          system prompts for privileged users to select security and privacy
-          attributes to be associated with information objects; system audit records;
-          system security plan; privacy plan; other relevant documents or records
+          Access control policy; procedures addressing the
+          association of security and privacy attributes to
+          information; system design documentation; system
+          configuration settings and associated documentation; list
+          of users authorized to associate security and privacy
+          attributes to information; system prompts for privileged
+          users to select security and privacy attributes to be
+          associated with information objects; system audit records;
+          system security plan; privacy plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with responsibilities for associating security and
-          privacy attributes to information; organizational personnel with information
+          Organizational personnel with responsibilities for
+          associating security and privacy attributes to
+          information; organizational personnel with information
           security and privacy responsibilities; system developers
       - method: test
         statement: >
-          Mechanisms supporting user associations of security and privacy attributes
-          to information
+          Mechanisms supporting user associations of security and
+          privacy attributes to information
     statement: >
-      authorized individuals (or processes acting on behalf of individuals) are
-      provided with the capability to associate {{ ac_16_04_odp_02 }} with
-      {{ ac_16_04_odp_06 }};
+      authorized individuals (or processes acting on behalf of
+      individuals) are provided with the capability to associate
+      {{ ac_16_04_odp_02 }} with {{ ac_16_04_odp_06 }};
   - id: "ac-16(04).ac-16(04)[03]"
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing the association of security and
-          privacy attributes to information; system design documentation; system
-          configuration settings and associated documentation; list of users
-          authorized to associate security and privacy attributes to information;
-          system prompts for privileged users to select security and privacy
-          attributes to be associated with information objects; system audit records;
-          system security plan; privacy plan; other relevant documents or records
+          Access control policy; procedures addressing the
+          association of security and privacy attributes to
+          information; system design documentation; system
+          configuration settings and associated documentation; list
+          of users authorized to associate security and privacy
+          attributes to information; system prompts for privileged
+          users to select security and privacy attributes to be
+          associated with information objects; system audit records;
+          system security plan; privacy plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with responsibilities for associating security and
-          privacy attributes to information; organizational personnel with information
+          Organizational personnel with responsibilities for
+          associating security and privacy attributes to
+          information; organizational personnel with information
           security and privacy responsibilities; system developers
       - method: test
         statement: >
-          Mechanisms supporting user associations of security and privacy attributes
-          to information
+          Mechanisms supporting user associations of security and
+          privacy attributes to information
     statement: >
-      authorized individuals (or processes acting on behalf of individuals) are
-      provided with the capability to associate {{ ac_16_04_odp_03 }} with
-      {{ ac_16_04_odp_07 }};
+      authorized individuals (or processes acting on behalf of
+      individuals) are provided with the capability to associate
+      {{ ac_16_04_odp_03 }} with {{ ac_16_04_odp_07 }};
   - id: "ac-16(04).ac-16(04)[04]"
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing the association of security and
-          privacy attributes to information; system design documentation; system
-          configuration settings and associated documentation; list of users
-          authorized to associate security and privacy attributes to information;
-          system prompts for privileged users to select security and privacy
-          attributes to be associated with information objects; system audit records;
-          system security plan; privacy plan; other relevant documents or records
+          Access control policy; procedures addressing the
+          association of security and privacy attributes to
+          information; system design documentation; system
+          configuration settings and associated documentation; list
+          of users authorized to associate security and privacy
+          attributes to information; system prompts for privileged
+          users to select security and privacy attributes to be
+          associated with information objects; system audit records;
+          system security plan; privacy plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with responsibilities for associating security and
-          privacy attributes to information; organizational personnel with information
+          Organizational personnel with responsibilities for
+          associating security and privacy attributes to
+          information; organizational personnel with information
           security and privacy responsibilities; system developers
       - method: test
         statement: >
-          Mechanisms supporting user associations of security and privacy attributes
-          to information
+          Mechanisms supporting user associations of security and
+          privacy attributes to information
     statement: >
-      authorized individuals (or processes acting on behalf of individuals) are
-      provided with the capability to associate {{ ac_16_04_odp_04 }} with
-      {{ ac_16_04_odp_08 }}.
+      authorized individuals (or processes acting on behalf of
+      individuals) are provided with the capability to associate
+      {{ ac_16_04_odp_04 }} with {{ ac_16_04_odp_08 }}.
 parameters:
   ac_16_04_odp_01:
     label: security attributes
@@ -128,5 +144,5 @@ parameters:
     label: organization-defined subjects and objects
 statement: >
   Provide the capability to associate {{ ac_16_4_prm_1 }} with
-  {{ ac_16_4_prm_2 }} by authorized individuals (or processes acting on behalf
-  of individuals).
+  {{ ac_16_4_prm_2 }} by authorized individuals (or processes acting
+  on behalf of individuals).

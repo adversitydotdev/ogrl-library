@@ -23,40 +23,50 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System media protection policy; procedures addressing media access
-          restrictions; access control policy and procedures; physical and
-          environmental protection policy and procedures; media storage facilities;
-          access control records; system security plan; other relevant documents or
+          System media protection policy; procedures addressing
+          media access restrictions; access control policy and
+          procedures; physical and environmental protection policy
+          and procedures; media storage facilities; access control
+          records; system security plan; other relevant documents or
           records
       - method: interview
         statement: >
-          Organizational personnel with system media protection responsibilities;
-          organizational personnel with information security responsibilities;
-          system/network administrators
+          Organizational personnel with system media protection
+          responsibilities; organizational personnel with
+          information security responsibilities; system/network
+          administrators
       - method: test
         statement: >
-          Organizational processes for restricting information media; mechanisms
-          supporting and/or implementing media access restrictions
-    statement: "access to {{ mp_02_odp_01 }} is restricted to {{ mp_02_odp_02 }};"
+          Organizational processes for restricting information
+          media; mechanisms supporting and/or implementing media
+          access restrictions
+    statement: >-
+      access to {{ mp_02_odp_01 }} is restricted to
+      {{ mp_02_odp_02 }};
   - id: "[02]"
     methods:
       - method: examine
         statement: >
-          System media protection policy; procedures addressing media access
-          restrictions; access control policy and procedures; physical and
-          environmental protection policy and procedures; media storage facilities;
-          access control records; system security plan; other relevant documents or
+          System media protection policy; procedures addressing
+          media access restrictions; access control policy and
+          procedures; physical and environmental protection policy
+          and procedures; media storage facilities; access control
+          records; system security plan; other relevant documents or
           records
       - method: interview
         statement: >
-          Organizational personnel with system media protection responsibilities;
-          organizational personnel with information security responsibilities;
-          system/network administrators
+          Organizational personnel with system media protection
+          responsibilities; organizational personnel with
+          information security responsibilities; system/network
+          administrators
       - method: test
         statement: >
-          Organizational processes for restricting information media; mechanisms
-          supporting and/or implementing media access restrictions
-    statement: "access to {{ mp_02_odp_03 }} is restricted to {{ mp_02_odp_04 }}."
+          Organizational processes for restricting information
+          media; mechanisms supporting and/or implementing media
+          access restrictions
+    statement: >-
+      access to {{ mp_02_odp_03 }} is restricted to
+      {{ mp_02_odp_04 }}.
 parameters:
   mp_02_odp_01:
     label: types of digital media
@@ -67,7 +77,9 @@ parameters:
   mp_02_odp_04:
     label: personnel or roles
   mp_2_prm_1:
-    label: organization-defined types of digital and/or non-digital media
+    label: >-
+      organization-defined types of digital and/or non-digital media
   mp_2_prm_2:
     label: organization-defined personnel or roles
-statement: "Restrict access to {{ mp_2_prm_1 }} to {{ mp_2_prm_2 }}."
+statement: >-
+  Restrict access to {{ mp_2_prm_1 }} to {{ mp_2_prm_2 }}.

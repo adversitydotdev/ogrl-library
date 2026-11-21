@@ -13,19 +13,24 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and services acquisition policy;; solicitation documentation;;
-          acquisition documentation;; service level agreements;; acquisition contracts
-          for the system, system component, or system service;; requirements for
-          logging format, event types, and level of detail;; documentation evidence of
-          requirements for logging format, event types, and level of detail;; system
-          security plan; other relevant documents or records.
+          System and services acquisition policy;; solicitation
+          documentation;; acquisition documentation;; service level
+          agreements;; acquisition contracts for the system, system
+          component, or system service;; requirements for logging
+          format, event types, and level of detail;; documentation
+          evidence of requirements for logging format, event types,
+          and level of detail;; system security plan; other relevant
+          documents or records.
       - method: interview
         statement: >
-          Organizational personnel with system and service acquisition
-          responsibilities;; organizational personnel with information security
-          responsibilities;; system developer
+          Organizational personnel with system and service
+          acquisition responsibilities;; organizational personnel
+          with information security responsibilities;; system
+          developer
       - method: test
-        statement: "Developer logs for the system, system component, or system service."
+        statement: >-
+          Developer logs for the system, system component, or system
+          service.
     statement: |
       Determine if:
 
@@ -38,6 +43,6 @@ parameters:
   sa_15_13_odp_03:
     label: level of detail to log
 statement: >
-  Require the developer of the system, system component, or system service to
-  use {{ sa_15_13_odp_01 }} to log {{ sa_15_13_odp_02 }} at
-  {{ sa_15_13_odp_03 }}.
+  Require the developer of the system, system component, or system
+  service to use {{ sa_15_13_odp_01 }} to log {{ sa_15_13_odp_02 }}
+  at {{ sa_15_13_odp_03 }}.

@@ -13,28 +13,31 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; procedures addressing flaw remediation; mechanisms supporting
-          flaw remediation; system design documentation; system configuration settings
-          and associated documentation; records of software and firmware component
-          removals after updated versions are installed; system audit records; system
-          security plan; other relevant documents or records
+          System and information integrity policy; system and
+          information integrity procedures; procedures addressing
+          flaw remediation; mechanisms supporting flaw remediation;
+          system design documentation; system configuration settings
+          and associated documentation; records of software and
+          firmware component removals after updated versions are
+          installed; system audit records; system security plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; organizational personnel installing, configuring,
-          and/or maintaining the system; organizational personnel responsible for flaw
+          System/network administrators; organizational personnel
+          with information security responsibilities; organizational
+          personnel installing, configuring, and/or maintaining the
+          system; organizational personnel responsible for flaw
           remediation
       - method: test
         statement: >
-          Mechanisms supporting and/or implementing the removal of previous versions
-          of software/firmware
+          Mechanisms supporting and/or implementing the removal of
+          previous versions of software/firmware
     statement: >
-      previous versions of {{ si_02_06_odp }} are removed after updated versions
-      have been installed.
+      previous versions of {{ si_02_06_odp }} are removed after
+      updated versions have been installed.
 parameters:
   si_02_06_odp:
     label: software and firmware components
 statement: >
-  Remove previous versions of {{ si_02_06_odp }} after updated versions have
-  been installed.
+  Remove previous versions of {{ si_02_06_odp }} after updated
+  versions have been installed.

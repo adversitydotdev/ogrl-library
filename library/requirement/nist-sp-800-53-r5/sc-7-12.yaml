@@ -13,21 +13,29 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; procedures addressing boundary
-          protection; system design documentation; boundary protection hardware and
-          software; system configuration settings and associated documentation; system
-          audit records; system security plan; other relevant documents or records
+          System and communications protection policy; procedures
+          addressing boundary protection; system design
+          documentation; boundary protection hardware and software;
+          system configuration settings and associated
+          documentation; system audit records; system security plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; organizational personnel with boundary protection
-          responsibilities; system users
+          System/network administrators; organizational personnel
+          with information security responsibilities; organizational
+          personnel with boundary protection responsibilities;
+          system users
       - method: test
-        statement: Mechanisms implementing host-based boundary protection capabilities
-    statement: "{{ sc_07_12_odp_01 }} are implemented at {{ sc_07_12_odp_02 }}."
+        statement: >-
+          Mechanisms implementing host-based boundary protection
+          capabilities
+    statement: >-
+      {{ sc_07_12_odp_01 }} are implemented at
+      {{ sc_07_12_odp_02 }}.
 parameters:
   sc_07_12_odp_01:
     label: host-based boundary protection mechanisms
   sc_07_12_odp_02:
     label: system components
-statement: "Implement {{ sc_07_12_odp_01 }} at {{ sc_07_12_odp_02 }}."
+statement: >-
+  Implement {{ sc_07_12_odp_01 }} at {{ sc_07_12_odp_02 }}.

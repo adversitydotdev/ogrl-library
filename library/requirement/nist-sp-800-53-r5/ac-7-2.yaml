@@ -13,24 +13,27 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing unsuccessful logon attempts on
-          mobile devices; system design documentation; system configuration settings
-          and associated documentation; list of mobile devices to be purged/wiped
-          after organization-defined consecutive, unsuccessful device logon attempts;
-          list of purging/wiping requirements or techniques for mobile devices; system
-          audit records; system security plan; other relevant documents or records
+          Access control policy; procedures addressing unsuccessful
+          logon attempts on mobile devices; system design
+          documentation; system configuration settings and
+          associated documentation; list of mobile devices to be
+          purged/wiped after organization-defined consecutive,
+          unsuccessful device logon attempts; list of purging/wiping
+          requirements or techniques for mobile devices; system
+          audit records; system security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities
+          System/network administrators; organizational personnel
+          with information security responsibilities
       - method: test
         statement: >
-          Mechanisms implementing access control policy for unsuccessful device logon
-          attempts
+          Mechanisms implementing access control policy for
+          unsuccessful device logon attempts
     statement: >
-      information is purged or wiped from {{ ac_07_02_odp_01 }} based on
-      {{ ac_07_02_odp_02 }} after {{ ac_07_02_odp_03 }} consecutive, unsuccessful
-      device logon attempts.
+      information is purged or wiped from {{ ac_07_02_odp_01 }}
+      based on {{ ac_07_02_odp_02 }} after {{ ac_07_02_odp_03 }}
+      consecutive, unsuccessful device logon attempts.
 parameters:
   ac_07_02_odp_01:
     label: mobile devices
@@ -40,5 +43,5 @@ parameters:
     label: number
 statement: >
   Purge or wipe information from {{ ac_07_02_odp_01 }} based on
-  {{ ac_07_02_odp_02 }} after {{ ac_07_02_odp_03 }} consecutive, unsuccessful
-  device logon attempts.
+  {{ ac_07_02_odp_02 }} after {{ ac_07_02_odp_03 }} consecutive,
+  unsuccessful device logon attempts.

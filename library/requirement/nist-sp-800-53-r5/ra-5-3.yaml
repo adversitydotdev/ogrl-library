@@ -13,18 +13,24 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Procedures addressing vulnerability scanning; assessment report;
-          vulnerability scanning tools and associated configuration documentation;
-          vulnerability scanning results; patch and vulnerability management records;
+          Procedures addressing vulnerability scanning; assessment
+          report; vulnerability scanning tools and associated
+          configuration documentation; vulnerability scanning
+          results; patch and vulnerability management records;
           system security plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with vulnerability scanning responsibilities;
-          organizational personnel with vulnerability scan analysis responsibilities;
+          Organizational personnel with vulnerability scanning
+          responsibilities; organizational personnel with
+          vulnerability scan analysis responsibilities;
           organizational personnel with security responsibilities
       - method: test
         statement: >
-          Organizational processes for vulnerability scanning; mechanisms/tools
-          supporting and/or implementing vulnerability scanning
-    statement: the breadth and depth of vulnerability scanning coverage are defined.
-statement: Define the breadth and depth of vulnerability scanning coverage.
+          Organizational processes for vulnerability scanning;
+          mechanisms/tools supporting and/or implementing
+          vulnerability scanning
+    statement: >-
+      the breadth and depth of vulnerability scanning coverage are
+      defined.
+statement: >-
+  Define the breadth and depth of vulnerability scanning coverage.

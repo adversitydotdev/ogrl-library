@@ -9,33 +9,37 @@ control_type: preventive
 family: ac
 frequency: continuous
 guidance: >
-  For cloud SaaS, remote access usually means administrative paths into
-  production: cloud consoles and CLIs, SSH or database sessions via a bastion
-  or identity-aware proxy, and Kubernetes API access. Prefer identity-aware
-  proxies or SSM-style session managers over static SSH keys and public
-  bastions. Network-level exposure restrictions are covered by OGRL-AC-04.
+  For cloud SaaS, remote access usually means administrative paths
+  into production: cloud consoles and CLIs, SSH or database sessions
+  via a bastion or identity-aware proxy, and Kubernetes API access.
+  Prefer identity-aware proxies or SSM-style session managers over
+  static SSH keys and public bastions. Network-level exposure
+  restrictions are covered by OGRL-AC-04.
 objective: >
-  Ensure remote connections to production are made only through known,
-  approved, and monitored paths.
+  Ensure remote connections to production are made only through
+  known, approved, and monitored paths.
 origin: standard
 parameters:
   remote_access_gateway:
     label: Approved remote access gateway
-    value: "an approved identity-aware proxy, session manager, or VPN"
+    value: >-
+      an approved identity-aware proxy, session manager, or VPN
   remote_access_review_frequency:
     label: Remote access method review frequency
     value: annually
 statement: >
-  Document each permitted remote access method to in-scope systems with its
-  usage restrictions and configuration requirements, authorize each method
-  before it is enabled, and require all remote access to production
-  environments to pass through {{ remote_access_gateway }} that enforces
-  single sign-on with multi-factor authentication, encrypted transport, and
-  session logging; review the permitted methods
+  Document each permitted remote access method to in-scope systems
+  with its usage restrictions and configuration requirements,
+  authorize each method before it is enabled, and require all remote
+  access to production environments to pass through
+  {{ remote_access_gateway }} that enforces single sign-on with
+  multi-factor authentication, encrypted transport, and session
+  logging; review the permitted methods
   {{ remote_access_review_frequency }}.
 summary: >
-  Document and authorize each remote access method and route production remote
-  access through an approved, authenticated gateway.
+  Document and authorize each remote access method and route
+  production remote access through an approved, authenticated
+  gateway.
 tags:
   - remote-access
   - network

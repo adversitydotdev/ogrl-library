@@ -29,122 +29,152 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Configuration management policy; procedures addressing least functionality
-          in the system; configuration management plan; system design documentation;
-          system configuration settings and associated documentation; system component
-          inventory; common secure configuration checklists; system security plan;
-          other relevant documents or records
+          Configuration management policy; procedures addressing
+          least functionality in the system; configuration
+          management plan; system design documentation; system
+          configuration settings and associated documentation;
+          system component inventory; common secure configuration
+          checklists; system security plan; other relevant documents
+          or records
       - method: interview
         statement: >
-          Organizational personnel with security configuration management
-          responsibilities; organizational personnel with information security
-          responsibilities; system/network administrators; system developers
+          Organizational personnel with security configuration
+          management responsibilities; organizational personnel with
+          information security responsibilities; system/network
+          administrators; system developers
       - method: test
         statement: >
-          Organizational processes prohibiting or restricting functions, ports,
-          protocols, software, and/or services; mechanisms implementing restrictions
-          or prohibition of functions, ports, protocols, software, and/or services
-    statement: "the system is configured to provide only {{ cm_07_odp_01 }};"
+          Organizational processes prohibiting or restricting
+          functions, ports, protocols, software, and/or services;
+          mechanisms implementing restrictions or prohibition of
+          functions, ports, protocols, software, and/or services
+    statement: >-
+      the system is configured to provide only {{ cm_07_odp_01 }};
   - id: b-1
     methods:
       - method: examine
         statement: >
-          Configuration management policy; procedures addressing least functionality
-          in the system; configuration management plan; system design documentation;
-          system configuration settings and associated documentation; system component
-          inventory; common secure configuration checklists; system security plan;
-          other relevant documents or records
+          Configuration management policy; procedures addressing
+          least functionality in the system; configuration
+          management plan; system design documentation; system
+          configuration settings and associated documentation;
+          system component inventory; common secure configuration
+          checklists; system security plan; other relevant documents
+          or records
       - method: interview
         statement: >
-          Organizational personnel with security configuration management
-          responsibilities; organizational personnel with information security
-          responsibilities; system/network administrators; system developers
+          Organizational personnel with security configuration
+          management responsibilities; organizational personnel with
+          information security responsibilities; system/network
+          administrators; system developers
       - method: test
         statement: >
-          Organizational processes prohibiting or restricting functions, ports,
-          protocols, software, and/or services; mechanisms implementing restrictions
-          or prohibition of functions, ports, protocols, software, and/or services
-    statement: "the use of {{ cm_07_odp_02 }} is prohibited or restricted;"
+          Organizational processes prohibiting or restricting
+          functions, ports, protocols, software, and/or services;
+          mechanisms implementing restrictions or prohibition of
+          functions, ports, protocols, software, and/or services
+    statement: >-
+      the use of {{ cm_07_odp_02 }} is prohibited or restricted;
   - id: b-2
     methods:
       - method: examine
         statement: >
-          Configuration management policy; procedures addressing least functionality
-          in the system; configuration management plan; system design documentation;
-          system configuration settings and associated documentation; system component
-          inventory; common secure configuration checklists; system security plan;
-          other relevant documents or records
+          Configuration management policy; procedures addressing
+          least functionality in the system; configuration
+          management plan; system design documentation; system
+          configuration settings and associated documentation;
+          system component inventory; common secure configuration
+          checklists; system security plan; other relevant documents
+          or records
       - method: interview
         statement: >
-          Organizational personnel with security configuration management
-          responsibilities; organizational personnel with information security
-          responsibilities; system/network administrators; system developers
+          Organizational personnel with security configuration
+          management responsibilities; organizational personnel with
+          information security responsibilities; system/network
+          administrators; system developers
       - method: test
         statement: >
-          Organizational processes prohibiting or restricting functions, ports,
-          protocols, software, and/or services; mechanisms implementing restrictions
-          or prohibition of functions, ports, protocols, software, and/or services
-    statement: "the use of {{ cm_07_odp_03 }} is prohibited or restricted;"
+          Organizational processes prohibiting or restricting
+          functions, ports, protocols, software, and/or services;
+          mechanisms implementing restrictions or prohibition of
+          functions, ports, protocols, software, and/or services
+    statement: >-
+      the use of {{ cm_07_odp_03 }} is prohibited or restricted;
   - id: b-3
     methods:
       - method: examine
         statement: >
-          Configuration management policy; procedures addressing least functionality
-          in the system; configuration management plan; system design documentation;
-          system configuration settings and associated documentation; system component
-          inventory; common secure configuration checklists; system security plan;
-          other relevant documents or records
+          Configuration management policy; procedures addressing
+          least functionality in the system; configuration
+          management plan; system design documentation; system
+          configuration settings and associated documentation;
+          system component inventory; common secure configuration
+          checklists; system security plan; other relevant documents
+          or records
       - method: interview
         statement: >
-          Organizational personnel with security configuration management
-          responsibilities; organizational personnel with information security
-          responsibilities; system/network administrators; system developers
+          Organizational personnel with security configuration
+          management responsibilities; organizational personnel with
+          information security responsibilities; system/network
+          administrators; system developers
       - method: test
         statement: >
-          Organizational processes prohibiting or restricting functions, ports,
-          protocols, software, and/or services; mechanisms implementing restrictions
-          or prohibition of functions, ports, protocols, software, and/or services
-    statement: "the use of {{ cm_07_odp_04 }} is prohibited or restricted;"
+          Organizational processes prohibiting or restricting
+          functions, ports, protocols, software, and/or services;
+          mechanisms implementing restrictions or prohibition of
+          functions, ports, protocols, software, and/or services
+    statement: >-
+      the use of {{ cm_07_odp_04 }} is prohibited or restricted;
   - id: b-4
     methods:
       - method: examine
         statement: >
-          Configuration management policy; procedures addressing least functionality
-          in the system; configuration management plan; system design documentation;
-          system configuration settings and associated documentation; system component
-          inventory; common secure configuration checklists; system security plan;
-          other relevant documents or records
+          Configuration management policy; procedures addressing
+          least functionality in the system; configuration
+          management plan; system design documentation; system
+          configuration settings and associated documentation;
+          system component inventory; common secure configuration
+          checklists; system security plan; other relevant documents
+          or records
       - method: interview
         statement: >
-          Organizational personnel with security configuration management
-          responsibilities; organizational personnel with information security
-          responsibilities; system/network administrators; system developers
+          Organizational personnel with security configuration
+          management responsibilities; organizational personnel with
+          information security responsibilities; system/network
+          administrators; system developers
       - method: test
         statement: >
-          Organizational processes prohibiting or restricting functions, ports,
-          protocols, software, and/or services; mechanisms implementing restrictions
-          or prohibition of functions, ports, protocols, software, and/or services
-    statement: "the use of {{ cm_07_odp_05 }} is prohibited or restricted;"
+          Organizational processes prohibiting or restricting
+          functions, ports, protocols, software, and/or services;
+          mechanisms implementing restrictions or prohibition of
+          functions, ports, protocols, software, and/or services
+    statement: >-
+      the use of {{ cm_07_odp_05 }} is prohibited or restricted;
   - id: b-5
     methods:
       - method: examine
         statement: >
-          Configuration management policy; procedures addressing least functionality
-          in the system; configuration management plan; system design documentation;
-          system configuration settings and associated documentation; system component
-          inventory; common secure configuration checklists; system security plan;
-          other relevant documents or records
+          Configuration management policy; procedures addressing
+          least functionality in the system; configuration
+          management plan; system design documentation; system
+          configuration settings and associated documentation;
+          system component inventory; common secure configuration
+          checklists; system security plan; other relevant documents
+          or records
       - method: interview
         statement: >
-          Organizational personnel with security configuration management
-          responsibilities; organizational personnel with information security
-          responsibilities; system/network administrators; system developers
+          Organizational personnel with security configuration
+          management responsibilities; organizational personnel with
+          information security responsibilities; system/network
+          administrators; system developers
       - method: test
         statement: >
-          Organizational processes prohibiting or restricting functions, ports,
-          protocols, software, and/or services; mechanisms implementing restrictions
-          or prohibition of functions, ports, protocols, software, and/or services
-    statement: "the use of {{ cm_07_odp_06 }} is prohibited or restricted."
+          Organizational processes prohibiting or restricting
+          functions, ports, protocols, software, and/or services;
+          mechanisms implementing restrictions or prohibition of
+          functions, ports, protocols, software, and/or services
+    statement: >-
+      the use of {{ cm_07_odp_06 }} is prohibited or restricted.
 parameters:
   cm_07_odp_01:
     label: mission-essential capabilities
@@ -160,12 +190,13 @@ parameters:
     label: services
   cm_7_prm_2:
     label: >
-      organization-defined prohibited or restricted functions, system ports,
-      protocols, software, and/or services
+      organization-defined prohibited or restricted functions,
+      system ports, protocols, software, and/or services
 parts:
   - id: a
-    statement: "Configure the system to provide only {{ cm_07_odp_01 }} ; and"
+    statement: >-
+      Configure the system to provide only {{ cm_07_odp_01 }} ; and
   - id: b
     statement: >
-      Prohibit or restrict the use of the following functions, ports, protocols,
-      software, and/or services: {{ cm_7_prm_2 }}.
+      Prohibit or restrict the use of the following functions,
+      ports, protocols, software, and/or services: {{ cm_7_prm_2 }}.

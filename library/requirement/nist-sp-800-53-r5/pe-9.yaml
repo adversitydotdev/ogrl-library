@@ -13,36 +13,42 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Physical and environmental protection policy; procedures addressing power
-          equipment/cabling protection; facilities housing power equipment/cabling;
-          system security plan; other relevant documents or records
+          Physical and environmental protection policy; procedures
+          addressing power equipment/cabling protection; facilities
+          housing power equipment/cabling; system security plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with the responsibility to protect power
-          equipment/cabling; organizational personnel with information security
-          responsibilities
+          Organizational personnel with the responsibility to
+          protect power equipment/cabling; organizational personnel
+          with information security responsibilities
       - method: test
         statement: >
-          Mechanisms supporting and/or implementing the protection of power
-          equipment/cabling
-    statement: power equipment for the system is protected from damage and destruction;
+          Mechanisms supporting and/or implementing the protection
+          of power equipment/cabling
+    statement: >-
+      power equipment for the system is protected from damage and
+      destruction;
   - id: "[02]"
     methods:
       - method: examine
         statement: >
-          Physical and environmental protection policy; procedures addressing power
-          equipment/cabling protection; facilities housing power equipment/cabling;
-          system security plan; other relevant documents or records
+          Physical and environmental protection policy; procedures
+          addressing power equipment/cabling protection; facilities
+          housing power equipment/cabling; system security plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with the responsibility to protect power
-          equipment/cabling; organizational personnel with information security
-          responsibilities
+          Organizational personnel with the responsibility to
+          protect power equipment/cabling; organizational personnel
+          with information security responsibilities
       - method: test
         statement: >
-          Mechanisms supporting and/or implementing the protection of power
-          equipment/cabling
-    statement: power cabling for the system is protected from damage and destruction.
+          Mechanisms supporting and/or implementing the protection
+          of power equipment/cabling
+    statement: >-
+      power cabling for the system is protected from damage and
+      destruction.
 statement: >
-  Protect power equipment and power cabling for the system from damage and
-  destruction.
+  Protect power equipment and power cabling for the system from
+  damage and destruction.

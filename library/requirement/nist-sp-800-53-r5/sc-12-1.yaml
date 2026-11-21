@@ -13,23 +13,25 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; procedures addressing
-          cryptographic key establishment, management, and recovery; system design
-          documentation; system configuration settings and associated documentation;
-          system audit records; system security plan; other relevant documents or
-          records
+          System and communications protection policy; procedures
+          addressing cryptographic key establishment, management,
+          and recovery; system design documentation; system
+          configuration settings and associated documentation;
+          system audit records; system security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; organizational personnel with responsibilities
-          for cryptographic key establishment or management
+          System/network administrators; organizational personnel
+          with information security responsibilities; organizational
+          personnel with responsibilities for cryptographic key
+          establishment or management
       - method: test
         statement: >
-          Mechanisms supporting and/or implementing cryptographic key establishment
-          and management
+          Mechanisms supporting and/or implementing cryptographic
+          key establishment and management
     statement: >
-      information availability is maintained in the event of the loss of
-      cryptographic keys by users.
+      information availability is maintained in the event of the
+      loss of cryptographic keys by users.
 statement: >
   Maintain availability of information in the event of the loss of
   cryptographic keys by users.

@@ -13,25 +13,29 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Access control policy; information flow control policies; procedures
-          addressing information flow enforcement; system design documentation; system
-          configuration settings and associated documentation; list of data type
-          identifiers; system audit records; system security plan; other relevant
+          Access control policy; information flow control policies;
+          procedures addressing information flow enforcement; system
+          design documentation; system configuration settings and
+          associated documentation; list of data type identifiers;
+          system audit records; system security plan; other relevant
           documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; system developers
+          System/network administrators; organizational personnel
+          with information security responsibilities; system
+          developers
       - method: test
-        statement: Mechanisms implementing information flow enforcement policy
+        statement: >-
+          Mechanisms implementing information flow enforcement
+          policy
     statement: >
-      when transferring information between different security domains,
-      {{ ac_04_12_odp }} are used to validate data essential for information flow
-      decisions.
+      when transferring information between different security
+      domains, {{ ac_04_12_odp }} are used to validate data
+      essential for information flow decisions.
 parameters:
   ac_04_12_odp:
     label: data type identifiers
 statement: >
-  When transferring information between different security domains, use
-  {{ ac_04_12_odp }} to validate data essential for information flow
-  decisions.
+  When transferring information between different security domains,
+  use {{ ac_04_12_odp }} to validate data essential for information
+  flow decisions.

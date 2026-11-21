@@ -13,24 +13,27 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Identification and authentication policy; procedures addressing identifier
-          management; system security plan; system design documentation; mechanisms
-          providing dynamic binding of identifiers and authenticators; system
-          configuration settings and associated documentation; system audit records;
-          other relevant documents or records
+          Identification and authentication policy; procedures
+          addressing identifier management; system security plan;
+          system design documentation; mechanisms providing dynamic
+          binding of identifiers and authenticators; system
+          configuration settings and associated documentation;
+          system audit records; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with identification and authentication management
-          responsibilities; organizational personnel with information security
-          responsibilities; system/network administrators
+          Organizational personnel with identification and
+          authentication management responsibilities; organizational
+          personnel with information security responsibilities;
+          system/network administrators
       - method: test
         statement: >
-          Mechanisms supporting and/or implementing account management capability;
-          mechanisms supporting and/or implementing identification and authentication
-          management capabilities for the system
+          Mechanisms supporting and/or implementing account
+          management capability; mechanisms supporting and/or
+          implementing identification and authentication management
+          capabilities for the system
     statement: >
-      presentation attack detection mechanisms are employed for biometric-based
-      authentication.
+      presentation attack detection mechanisms are employed for
+      biometric-based authentication.
 statement: >
-  Employ presentation attack detection mechanisms for biometric-based
-  authentication.
+  Employ presentation attack detection mechanisms for
+  biometric-based authentication.

@@ -9,36 +9,42 @@ control_type: preventive
 family: ps
 frequency: event-driven
 guidance: >
-  Track movements in the asset management system or ticketing tool; laptops
-  assigned to employees for routine use need not be logged at each trip, but
-  receipt, reassignment, repair shipment, and disposal should be. Pair with
-  media sanitization controls for components leaving for repair or disposal.
-  Where production runs on a cloud provider, data-center physical controls are
-  inherited from the provider and validated by reviewing its SOC 2 report;
-  offices and any organization-operated server, network, or storage rooms
-  remain in scope.
+  Track movements in the asset management system or ticketing tool;
+  laptops assigned to employees for routine use need not be logged
+  at each trip, but receipt, reassignment, repair shipment, and
+  disposal should be. Pair with media sanitization controls for
+  components leaving for repair or disposal. Where production runs
+  on a cloud provider, data-center physical controls are inherited
+  from the provider and validated by reviewing its SOC 2 report;
+  offices and any organization-operated server, network, or storage
+  rooms remain in scope.
 objective: >
-  Ensure that system components cannot enter or leave organization facilities
-  without authorization and a traceable record.
+  Ensure that system components cannot enter or leave organization
+  facilities without authorization and a traceable record.
 origin: standard
 parameters:
   controlled_component_types:
     label: Component types subject to movement control
-    value: "servers, network devices, storage media, and workforce endpoints"
+    value: >-
+      servers, network devices, storage media, and workforce
+      endpoints
   controlled_facilities:
     label: Controlled facilities
-    value: "company offices and any organization-operated server, network, or storage rooms"
+    value: >-
+      company offices and any organization-operated server, network,
+      or storage rooms
   removal_approver:
     label: Equipment removal approval authority
     value: IT or the asset owner
 statement: >
-  Authorize and record {{ controlled_component_types }} entering and leaving
-  {{ controlled_facilities }}, require approval from {{ removal_approver }}
-  before such components are removed, and record the asset identifier, date,
-  responsible person, and purpose of each movement in the asset inventory.
+  Authorize and record {{ controlled_component_types }} entering and
+  leaving {{ controlled_facilities }}, require approval from
+  {{ removal_approver }} before such components are removed, and
+  record the asset identifier, date, responsible person, and purpose
+  of each movement in the asset inventory.
 summary: >
-  Authorize and record system components entering or leaving organization
-  facilities.
+  Authorize and record system components entering or leaving
+  organization facilities.
 tags:
   - physical-security
   - asset-management

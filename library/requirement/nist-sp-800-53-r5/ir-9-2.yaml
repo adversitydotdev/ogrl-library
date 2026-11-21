@@ -13,17 +13,22 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Incident response policy; procedures addressing information spillage
-          response training; information spillage response training curriculum;
-          information spillage response training materials; incident response plan;
-          system security plan; information spillage response training records; other
-          relevant documents or records
+          Incident response policy; procedures addressing
+          information spillage response training; information
+          spillage response training curriculum; information
+          spillage response training materials; incident response
+          plan; system security plan; information spillage response
+          training records; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with incident response training responsibilities;
-          organizational personnel with information security responsibilities
-    statement: "information spillage response training is provided {{ ir_09_02_odp }}."
+          Organizational personnel with incident response training
+          responsibilities; organizational personnel with
+          information security responsibilities
+    statement: >-
+      information spillage response training is provided
+      {{ ir_09_02_odp }}.
 parameters:
   ir_09_02_odp:
     label: frequency
-statement: "Provide information spillage response training {{ ir_09_02_odp }}."
+statement: >-
+  Provide information spillage response training {{ ir_09_02_odp }}.

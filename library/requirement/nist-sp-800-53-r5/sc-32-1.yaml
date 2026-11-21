@@ -13,19 +13,25 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; procedures addressing system
-          partitioning; system design documentation; system configuration settings and
-          associated documentation; system architecture; list of system physical
-          domains (or environments); system facility diagrams; system network
-          diagrams; system security plan; other relevant documents or records
+          System and communications protection policy; procedures
+          addressing system partitioning; system design
+          documentation; system configuration settings and
+          associated documentation; system architecture; list of
+          system physical domains (or environments); system facility
+          diagrams; system network diagrams; system security plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; organizational personnel installing, configuring,
-          and/or maintaining the system; system developers/integrators
+          System/network administrators; organizational personnel
+          with information security responsibilities; organizational
+          personnel installing, configuring, and/or maintaining the
+          system; system developers/integrators
       - method: test
         statement: >
-          Mechanisms supporting and/or implementing the physical separation of system
-          components
-    statement: privileged functions are partitioned into separate physical domains.
-statement: Partition privileged functions into separate physical domains.
+          Mechanisms supporting and/or implementing the physical
+          separation of system components
+    statement: >-
+      privileged functions are partitioned into separate physical
+      domains.
+statement: >-
+  Partition privileged functions into separate physical domains.

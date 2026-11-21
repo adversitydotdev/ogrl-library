@@ -13,86 +13,106 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing access enforcement; system
-          design documentation; system configuration settings and associated
-          documentation; list of subjects and objects (i.e., users and resources)
-          requiring enforcement of mandatory access control policies; list of subjects
-          and objects (i.e., users and resources) requiring enforcement of
-          discretionary access control policies; system audit records; system security
+          Access control policy; procedures addressing access
+          enforcement; system design documentation; system
+          configuration settings and associated documentation; list
+          of subjects and objects (i.e., users and resources)
+          requiring enforcement of mandatory access control
+          policies; list of subjects and objects (i.e., users and
+          resources) requiring enforcement of discretionary access
+          control policies; system audit records; system security
           plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with access enforcement responsibilities;
-          system/network administrators; organizational personnel with information
-          security responsibilities; system developers
+          Organizational personnel with access enforcement
+          responsibilities; system/network administrators;
+          organizational personnel with information security
+          responsibilities; system developers
       - method: test
-        statement: Mechanisms implementing mandatory and discretionary access control policy
+        statement: >-
+          Mechanisms implementing mandatory and discretionary access
+          control policy
     statement: >
-      {{ ac_03_15_odp_01 }} is enforced over the set of covered subjects specified
-      in the policy;
+      {{ ac_03_15_odp_01 }} is enforced over the set of covered
+      subjects specified in the policy;
   - id: a-2
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing access enforcement; system
-          design documentation; system configuration settings and associated
-          documentation; list of subjects and objects (i.e., users and resources)
-          requiring enforcement of mandatory access control policies; list of subjects
-          and objects (i.e., users and resources) requiring enforcement of
-          discretionary access control policies; system audit records; system security
+          Access control policy; procedures addressing access
+          enforcement; system design documentation; system
+          configuration settings and associated documentation; list
+          of subjects and objects (i.e., users and resources)
+          requiring enforcement of mandatory access control
+          policies; list of subjects and objects (i.e., users and
+          resources) requiring enforcement of discretionary access
+          control policies; system audit records; system security
           plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with access enforcement responsibilities;
-          system/network administrators; organizational personnel with information
-          security responsibilities; system developers
+          Organizational personnel with access enforcement
+          responsibilities; system/network administrators;
+          organizational personnel with information security
+          responsibilities; system developers
       - method: test
-        statement: Mechanisms implementing mandatory and discretionary access control policy
+        statement: >-
+          Mechanisms implementing mandatory and discretionary access
+          control policy
     statement: >
-      {{ ac_03_15_odp_02 }} is enforced over the set of covered objects specified
-      in the policy;
+      {{ ac_03_15_odp_02 }} is enforced over the set of covered
+      objects specified in the policy;
   - id: b-1
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing access enforcement; system
-          design documentation; system configuration settings and associated
-          documentation; list of subjects and objects (i.e., users and resources)
-          requiring enforcement of mandatory access control policies; list of subjects
-          and objects (i.e., users and resources) requiring enforcement of
-          discretionary access control policies; system audit records; system security
+          Access control policy; procedures addressing access
+          enforcement; system design documentation; system
+          configuration settings and associated documentation; list
+          of subjects and objects (i.e., users and resources)
+          requiring enforcement of mandatory access control
+          policies; list of subjects and objects (i.e., users and
+          resources) requiring enforcement of discretionary access
+          control policies; system audit records; system security
           plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with access enforcement responsibilities;
-          system/network administrators; organizational personnel with information
-          security responsibilities; system developers
+          Organizational personnel with access enforcement
+          responsibilities; system/network administrators;
+          organizational personnel with information security
+          responsibilities; system developers
       - method: test
-        statement: Mechanisms implementing mandatory and discretionary access control policy
+        statement: >-
+          Mechanisms implementing mandatory and discretionary access
+          control policy
     statement: >
-      {{ ac_03_15_odp_03 }} is enforced over the set of covered subjects specified
-      in the policy;
+      {{ ac_03_15_odp_03 }} is enforced over the set of covered
+      subjects specified in the policy;
   - id: b-2
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing access enforcement; system
-          design documentation; system configuration settings and associated
-          documentation; list of subjects and objects (i.e., users and resources)
-          requiring enforcement of mandatory access control policies; list of subjects
-          and objects (i.e., users and resources) requiring enforcement of
-          discretionary access control policies; system audit records; system security
+          Access control policy; procedures addressing access
+          enforcement; system design documentation; system
+          configuration settings and associated documentation; list
+          of subjects and objects (i.e., users and resources)
+          requiring enforcement of mandatory access control
+          policies; list of subjects and objects (i.e., users and
+          resources) requiring enforcement of discretionary access
+          control policies; system audit records; system security
           plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with access enforcement responsibilities;
-          system/network administrators; organizational personnel with information
-          security responsibilities; system developers
+          Organizational personnel with access enforcement
+          responsibilities; system/network administrators;
+          organizational personnel with information security
+          responsibilities; system developers
       - method: test
-        statement: Mechanisms implementing mandatory and discretionary access control policy
+        statement: >-
+          Mechanisms implementing mandatory and discretionary access
+          control policy
     statement: >
-      {{ ac_03_15_odp_04 }} is enforced over the set of covered objects specified
-      in the policy.
+      {{ ac_03_15_odp_04 }} is enforced over the set of covered
+      objects specified in the policy.
 parameters:
   ac_03_15_odp_01:
     label: mandatory access control policy
@@ -109,9 +129,9 @@ parameters:
 parts:
   - id: a
     statement: >
-      Enforce {{ ac_3_15_prm_1 }} over the set of covered subjects and objects
-      specified in the policy; and
+      Enforce {{ ac_3_15_prm_1 }} over the set of covered subjects
+      and objects specified in the policy; and
   - id: b
     statement: >
-      Enforce {{ ac_3_15_prm_2 }} over the set of covered subjects and objects
-      specified in the policy.
+      Enforce {{ ac_3_15_prm_2 }} over the set of covered subjects
+      and objects specified in the policy.

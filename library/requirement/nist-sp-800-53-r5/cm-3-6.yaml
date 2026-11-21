@@ -13,27 +13,30 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Configuration management policy; procedures addressing system configuration
-          change control; configuration management plan; system design documentation;
-          system architecture and configuration documentation; system configuration
-          settings and associated documentation; system security plan; other relevant
-          documents or records
+          Configuration management policy; procedures addressing
+          system configuration change control; configuration
+          management plan; system design documentation; system
+          architecture and configuration documentation; system
+          configuration settings and associated documentation;
+          system security plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with configuration change control responsibilities;
-          organizational personnel with information security responsibilities;
-          system/network administrators; system developers; members of change control
-          board or similar
+          Organizational personnel with configuration change control
+          responsibilities; organizational personnel with
+          information security responsibilities; system/network
+          administrators; system developers; members of change
+          control board or similar
       - method: test
         statement: >
-          Organizational processes for configuration change control; cryptographic
-          mechanisms implementing organizational security safeguards (controls)
+          Organizational processes for configuration change control;
+          cryptographic mechanisms implementing organizational
+          security safeguards (controls)
     statement: >
-      cryptographic mechanisms used to provide {{ cm_03_06_odp }} are under
-      configuration management.
+      cryptographic mechanisms used to provide {{ cm_03_06_odp }}
+      are under configuration management.
 parameters:
   cm_03_06_odp:
     label: controls
 statement: >
-  Ensure that cryptographic mechanisms used to provide the following controls
-  are under configuration management: {{ cm_03_06_odp }}.
+  Ensure that cryptographic mechanisms used to provide the following
+  controls are under configuration management: {{ cm_03_06_odp }}.

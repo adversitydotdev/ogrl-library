@@ -13,87 +13,98 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Audit and accountability policy; system security plan; privacy plan;
-          procedures addressing audit reduction and report generation; system design
-          documentation; system configuration settings and associated documentation;
-          audit reduction, review, analysis, and reporting tools; system audit
-          records; other relevant documents or records
+          Audit and accountability policy; system security plan;
+          privacy plan; procedures addressing audit reduction and
+          report generation; system design documentation; system
+          configuration settings and associated documentation; audit
+          reduction, review, analysis, and reporting tools; system
+          audit records; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with audit reduction and report generation
-          responsibilities; organizational personnel with information security and
-          privacy responsibilities
+          Organizational personnel with audit reduction and report
+          generation responsibilities; organizational personnel with
+          information security and privacy responsibilities
       - method: test
         statement: Audit reduction and report generation capability
     statement: >
-      an audit record reduction and report generation capability is provided that
-      supports on-demand audit record review, analysis, and reporting requirements
-      and after-the-fact investigations of incidents;
+      an audit record reduction and report generation capability is
+      provided that supports on-demand audit record review,
+      analysis, and reporting requirements and after-the-fact
+      investigations of incidents;
   - id: a-2
     methods:
       - method: examine
         statement: >
-          Audit and accountability policy; system security plan; privacy plan;
-          procedures addressing audit reduction and report generation; system design
-          documentation; system configuration settings and associated documentation;
-          audit reduction, review, analysis, and reporting tools; system audit
-          records; other relevant documents or records
+          Audit and accountability policy; system security plan;
+          privacy plan; procedures addressing audit reduction and
+          report generation; system design documentation; system
+          configuration settings and associated documentation; audit
+          reduction, review, analysis, and reporting tools; system
+          audit records; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with audit reduction and report generation
-          responsibilities; organizational personnel with information security and
-          privacy responsibilities
+          Organizational personnel with audit reduction and report
+          generation responsibilities; organizational personnel with
+          information security and privacy responsibilities
       - method: test
         statement: Audit reduction and report generation capability
     statement: >
-      an audit record reduction and report generation capability is implemented
-      that supports on-demand audit record review, analysis, and reporting
-      requirements and after-the-fact investigations of incidents;
+      an audit record reduction and report generation capability is
+      implemented that supports on-demand audit record review,
+      analysis, and reporting requirements and after-the-fact
+      investigations of incidents;
   - id: b-1
     methods:
       - method: examine
         statement: >
-          Audit and accountability policy; system security plan; privacy plan;
-          procedures addressing audit reduction and report generation; system design
-          documentation; system configuration settings and associated documentation;
-          audit reduction, review, analysis, and reporting tools; system audit
-          records; other relevant documents or records
+          Audit and accountability policy; system security plan;
+          privacy plan; procedures addressing audit reduction and
+          report generation; system design documentation; system
+          configuration settings and associated documentation; audit
+          reduction, review, analysis, and reporting tools; system
+          audit records; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with audit reduction and report generation
-          responsibilities; organizational personnel with information security and
-          privacy responsibilities
+          Organizational personnel with audit reduction and report
+          generation responsibilities; organizational personnel with
+          information security and privacy responsibilities
       - method: test
         statement: Audit reduction and report generation capability
     statement: >
-      an audit record reduction and report generation capability is provided that
-      does not alter the original content or time ordering of audit records;
+      an audit record reduction and report generation capability is
+      provided that does not alter the original content or time
+      ordering of audit records;
   - id: b-2
     methods:
       - method: examine
         statement: >
-          Audit and accountability policy; system security plan; privacy plan;
-          procedures addressing audit reduction and report generation; system design
-          documentation; system configuration settings and associated documentation;
-          audit reduction, review, analysis, and reporting tools; system audit
-          records; other relevant documents or records
+          Audit and accountability policy; system security plan;
+          privacy plan; procedures addressing audit reduction and
+          report generation; system design documentation; system
+          configuration settings and associated documentation; audit
+          reduction, review, analysis, and reporting tools; system
+          audit records; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with audit reduction and report generation
-          responsibilities; organizational personnel with information security and
-          privacy responsibilities
+          Organizational personnel with audit reduction and report
+          generation responsibilities; organizational personnel with
+          information security and privacy responsibilities
       - method: test
         statement: Audit reduction and report generation capability
     statement: >
-      an audit record reduction and report generation capability is implemented
-      that does not alter the original content or time ordering of audit records.
+      an audit record reduction and report generation capability is
+      implemented that does not alter the original content or time
+      ordering of audit records.
 parts:
   - id: a
     statement: >
-      Supports on-demand audit record review, analysis, and reporting requirements
-      and after-the-fact investigations of incidents; and
+      Supports on-demand audit record review, analysis, and
+      reporting requirements and after-the-fact investigations of
+      incidents; and
   - id: b
-    statement: Does not alter the original content or time ordering of audit records.
+    statement: >-
+      Does not alter the original content or time ordering of audit
+      records.
 statement: >
-  Provide and implement an audit record reduction and report generation
-  capability that:
+  Provide and implement an audit record reduction and report
+  generation capability that:

@@ -13,20 +13,25 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Audit and accountability policy; system security plan; privacy plan;
-          procedures addressing non-repudiation; system design documentation; system
-          configuration settings and associated documentation; records of information
-          reviews and releases; system audit records; other relevant documents or
-          records
+          Audit and accountability policy; system security plan;
+          privacy plan; procedures addressing non-repudiation;
+          system design documentation; system configuration settings
+          and associated documentation; records of information
+          reviews and releases; system audit records; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with information security and privacy
-          responsibilities; system/network administrators; system developers
+          Organizational personnel with information security and
+          privacy responsibilities; system/network administrators;
+          system developers
       - method: test
-        statement: Automated mechanisms implementing non-repudiation capability
+        statement: >-
+          Automated mechanisms implementing non-repudiation
+          capability
     statement: >
-      reviewer or releaser credentials are maintained within the established chain
-      of custody for information reviewed or released.
+      reviewer or releaser credentials are maintained within the
+      established chain of custody for information reviewed or
+      released.
 statement: >
-  Maintain reviewer or releaser credentials within the established chain of
-  custody for information reviewed or released.
+  Maintain reviewer or releaser credentials within the established
+  chain of custody for information reviewed or released.

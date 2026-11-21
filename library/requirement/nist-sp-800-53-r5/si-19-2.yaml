@@ -13,26 +13,28 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; personally identifiable information processing policy;
-          de-identification procedures; system configuration documentation; data
-          archiving mechanisms; system security plan; privacy plan; privacy impact
-          assessment; privacy risk assessment documentation; other relevant documents
-          or records
+          System and information integrity policy; system and
+          information integrity procedures; personally identifiable
+          information processing policy; de-identification
+          procedures; system configuration documentation; data
+          archiving mechanisms; system security plan; privacy plan;
+          privacy impact assessment; privacy risk assessment
+          documentation; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel responsible for de-identifying the dataset;
-          organizational personnel with dataset archival responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities
+          Organizational personnel responsible for de-identifying
+          the dataset; organizational personnel with dataset
+          archival responsibilities; organizational personnel with
+          information security and privacy responsibilities
       - method: test
         statement: >
-          Automated mechanisms prohibiting the archival of personally identifiable
-          information elements
+          Automated mechanisms prohibiting the archival of
+          personally identifiable information elements
     statement: >
-      the archiving of personally identifiable information elements is prohibited
-      if those elements in a dataset will not be needed after the dataset is
-      archived.
+      the archiving of personally identifiable information elements
+      is prohibited if those elements in a dataset will not be
+      needed after the dataset is archived.
 statement: >
-  Prohibit archiving of personally identifiable information elements if those
-  elements in a dataset will not be needed after the dataset is archived.
+  Prohibit archiving of personally identifiable information elements
+  if those elements in a dataset will not be needed after the
+  dataset is archived.

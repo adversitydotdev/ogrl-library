@@ -13,22 +13,26 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System security plan; privacy plan; literacy training and awareness policy;
-          procedures addressing literacy training and awareness implementation;
-          literacy training and awareness curriculum; literacy training and awareness
+          System security plan; privacy plan; literacy training and
+          awareness policy; procedures addressing literacy training
+          and awareness implementation; literacy training and
+          awareness curriculum; literacy training and awareness
           materials; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel who receive literacy training and awareness;
-          organizational personnel with responsibilities for basic literacy training
-          and awareness; organizational personnel with information security and
-          privacy responsibilities
+          Organizational personnel who receive literacy training and
+          awareness; organizational personnel with responsibilities
+          for basic literacy training and awareness; organizational
+          personnel with information security and privacy
+          responsibilities
     statement: >
-      literacy training on recognizing suspicious communications and anomalous
-      behavior in organizational systems using {{ at_02_04_odp }} is provided.
+      literacy training on recognizing suspicious communications and
+      anomalous behavior in organizational systems using
+      {{ at_02_04_odp }} is provided.
 parameters:
   at_02_04_odp:
     label: indicators of malicious code
 statement: >
-  Provide literacy training on recognizing suspicious communications and
-  anomalous behavior in organizational systems using {{ at_02_04_odp }}.
+  Provide literacy training on recognizing suspicious communications
+  and anomalous behavior in organizational systems using
+  {{ at_02_04_odp }}.

@@ -13,27 +13,35 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Supply chain risk management policy and procedures; supply chain risk
-          management plan; anti-counterfeit policy and procedures; system design
-          documentation; system configuration settings and associated documentation;
-          scanning tools and associated documentation; scanning results; procedures
-          addressing supply chain protection; acquisition documentation;
-          inter-organizational agreements and procedures; system security plan; other
-          relevant documents or records
+          Supply chain risk management policy and procedures; supply
+          chain risk management plan; anti-counterfeit policy and
+          procedures; system design documentation; system
+          configuration settings and associated documentation;
+          scanning tools and associated documentation; scanning
+          results; procedures addressing supply chain protection;
+          acquisition documentation; inter-organizational agreements
+          and procedures; system security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with system and services acquisition
-          responsibilities; organizational personnel with information security
-          responsibilities; organizational personnel with supply chain risk management
-          responsibilities; organizational personnel with responsibilities for
-          anti-counterfeit policies and procedures; organizational personnel with
-          responsibility for anti-counterfeit scanning
+          Organizational personnel with system and services
+          acquisition responsibilities; organizational personnel
+          with information security responsibilities; organizational
+          personnel with supply chain risk management
+          responsibilities; organizational personnel with
+          responsibilities for anti-counterfeit policies and
+          procedures; organizational personnel with responsibility
+          for anti-counterfeit scanning
       - method: test
         statement: >
-          Organizational processes for scanning for counterfeit system components;
-          mechanisms supporting and/or implementing anti-counterfeit scanning
-    statement: "scanning for counterfeit system components is conducted {{ sr_11_03_odp }}."
+          Organizational processes for scanning for counterfeit
+          system components; mechanisms supporting and/or
+          implementing anti-counterfeit scanning
+    statement: >-
+      scanning for counterfeit system components is conducted
+      {{ sr_11_03_odp }}.
 parameters:
   sr_11_03_odp:
     label: frequency
-statement: "Scan for counterfeit system components {{ sr_11_03_odp }}."
+statement: >-
+  Scan for counterfeit system components {{ sr_11_03_odp }}.

@@ -13,23 +13,27 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Physical and environmental protection policy; procedures addressing physical
-          access control; list of security safeguards to detect/prevent physical
-          tampering or alteration of system hardware components; system security plan;
-          other relevant documents or records
+          Physical and environmental protection policy; procedures
+          addressing physical access control; list of security
+          safeguards to detect/prevent physical tampering or
+          alteration of system hardware components; system security
+          plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with physical access control responsibilities;
-          organizational personnel with information security responsibilities
+          Organizational personnel with physical access control
+          responsibilities; organizational personnel with
+          information security responsibilities
       - method: test
         statement: >
-          Organizational processes to detect/prevent physical tampering or alteration
-          of system hardware components; mechanisms/security safeguards supporting
-          and/or implementing the detection/prevention of physical
+          Organizational processes to detect/prevent physical
+          tampering or alteration of system hardware components;
+          mechanisms/security safeguards supporting and/or
+          implementing the detection/prevention of physical
           tampering/alternation of system hardware components
     statement: >
-      {{ pe_03_05_odp_01 }} are employed to {{ pe_03_05_odp_02 }} physical
-      tampering or alteration of {{ pe_03_05_odp_03 }} within the system.
+      {{ pe_03_05_odp_01 }} are employed to {{ pe_03_05_odp_02 }}
+      physical tampering or alteration of {{ pe_03_05_odp_03 }}
+      within the system.
 parameters:
   pe_03_05_odp_01:
     label: anti-tamper technologies
@@ -38,5 +42,6 @@ parameters:
   pe_03_05_odp_03:
     label: hardware components
 statement: >
-  Employ {{ pe_03_05_odp_01 }} to {{ pe_03_05_odp_02 }} physical tampering or
-  alteration of {{ pe_03_05_odp_03 }} within the system.
+  Employ {{ pe_03_05_odp_01 }} to {{ pe_03_05_odp_02 }} physical
+  tampering or alteration of {{ pe_03_05_odp_03 }} within the
+  system.

@@ -8,5 +8,7 @@ rationale: functional
 relationship: equivalent-to
 review_status: draft
 source_ref: control--ogrl-sd-01
-summary: "A documented SDLC with security activities in each phase satisfies SA-3(a)."
+summary: >-
+  A documented SDLC with security activities in each phase satisfies
+  SA-3(a).
 target_ref: "requirement--nist-sp-800-53-r5-sa-3#a"

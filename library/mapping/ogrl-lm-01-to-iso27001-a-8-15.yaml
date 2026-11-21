@@ -8,5 +8,7 @@ rationale: functional
 relationship: equivalent-to
 review_status: reviewed
 source_ref: control--ogrl-lm-01
-summary: "Centralized security logging and retention satisfy ISO/IEC 27001:2022 A.8.15."
+summary: >-
+  Centralized security logging and retention satisfy ISO/IEC
+  27001:2022 A.8.15.
 target_ref: requirement--iso-iec-27001-2022-a-8-15

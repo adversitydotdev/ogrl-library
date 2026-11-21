@@ -13,32 +13,38 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Supply chain risk management plan; system and services acquisition policy;
-          procedures addressing the security design principle of trusted components
-          used in the specification, design, development, implementation, and
-          modification of the system; system design documentation; security, supply
-          chain risk management, and privacy requirements and specifications for the
-          system; system security and privacy architecture; procedures for determining
-          component assurance; system security plan; other relevant documents or
-          records
+          Supply chain risk management plan; system and services
+          acquisition policy; procedures addressing the security
+          design principle of trusted components used in the
+          specification, design, development, implementation, and
+          modification of the system; system design documentation;
+          security, supply chain risk management, and privacy
+          requirements and specifications for the system; system
+          security and privacy architecture; procedures for
+          determining component assurance; system security plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with the responsibility for determining system
-          security and privacy requirements; organizational personnel with system
-          specification, design, development, implementation, and modification
-          responsibilities; system developers; organizational personnel with
-          information security responsibilities; organizational personnel with supply
-          chain risk management responsibilities
+          Organizational personnel with the responsibility for
+          determining system security and privacy requirements;
+          organizational personnel with system specification,
+          design, development, implementation, and modification
+          responsibilities; system developers; organizational
+          personnel with information security responsibilities;
+          organizational personnel with supply chain risk management
+          responsibilities
       - method: test
         statement: >
-          Organizational processes for applying the security design principle of
-          trusted components in system specification, design, development,
-          implementation, and modification; mechanisms supporting the application of
-          the security design principle of trusted components in system specification,
-          design, development, implementation, and modification
+          Organizational processes for applying the security design
+          principle of trusted components in system specification,
+          design, development, implementation, and modification;
+          mechanisms supporting the application of the security
+          design principle of trusted components in system
+          specification, design, development, implementation, and
+          modification
     statement: >
-      {{ sa_08_09_odp }} implement the security design principle of trusted
-      components.
+      {{ sa_08_09_odp }} implement the security design principle of
+      trusted components.
 parameters:
   sa_08_09_odp:
     label: systems or system components

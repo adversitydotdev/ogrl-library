@@ -13,23 +13,28 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Identification and authentication policy; procedures addressing
-          authenticator management; security categorization documentation for the
-          system; security assessments of authenticator protections; risk assessment
-          results; system security plan; other relevant documents or records
+          Identification and authentication policy; procedures
+          addressing authenticator management; security
+          categorization documentation for the system; security
+          assessments of authenticator protections; risk assessment
+          results; system security plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          Organizational personnel with authenticator management responsibilities;
-          organizational personnel implementing and/or maintaining authenticator
-          protections; organizational personnel with information security
+          Organizational personnel with authenticator management
+          responsibilities; organizational personnel implementing
+          and/or maintaining authenticator protections;
+          organizational personnel with information security
           responsibilities; system/network administrators
       - method: test
         statement: >
-          Mechanisms supporting and/or implementing authenticator management
-          capability; mechanisms protecting authenticators
+          Mechanisms supporting and/or implementing authenticator
+          management capability; mechanisms protecting
+          authenticators
     statement: >
-      authenticators are protected commensurate with the security category of the
-      information to which use of the authenticator permits access.
+      authenticators are protected commensurate with the security
+      category of the information to which use of the authenticator
+      permits access.
 statement: >
-  Protect authenticators commensurate with the security category of the
-  information to which use of the authenticator permits access.
+  Protect authenticators commensurate with the security category of
+  the information to which use of the authenticator permits access.

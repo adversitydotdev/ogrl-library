@@ -13,19 +13,22 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Identification and authentication policy; procedures addressing
-          authenticator management; procedures addressing account management; system
-          security plan; security agreements; other relevant documents or records
+          Identification and authentication policy; procedures
+          addressing authenticator management; procedures addressing
+          account management; system security plan; security
+          agreements; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with authenticator management responsibilities;
-          organizational personnel with information security responsibilities;
-          system/network administrators
+          Organizational personnel with authenticator management
+          responsibilities; organizational personnel with
+          information security responsibilities; system/network
+          administrators
       - method: test
         statement: >
-          Mechanisms supporting and/or implementing safeguards for authenticator
-          management
-    statement: "{{ ia_05_09_odp }} are used to federate credentials."
+          Mechanisms supporting and/or implementing safeguards for
+          authenticator management
+    statement: >-
+      {{ ia_05_09_odp }} are used to federate credentials.
 parameters:
   ia_05_09_odp:
     label: external organizations

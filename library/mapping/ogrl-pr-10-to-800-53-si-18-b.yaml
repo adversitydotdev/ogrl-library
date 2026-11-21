@@ -8,5 +8,7 @@ rationale: functional
 relationship: equivalent-to
 review_status: draft
 source_ref: control--ogrl-pr-10
-summary: "Correcting or deleting inaccurate or outdated PII satisfies SI-18(b)."
+summary: >-
+  Correcting or deleting inaccurate or outdated PII satisfies
+  SI-18(b).
 target_ref: "requirement--nist-sp-800-53-r5-si-18#b"

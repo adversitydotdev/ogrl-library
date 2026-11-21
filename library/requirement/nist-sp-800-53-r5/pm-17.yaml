@@ -4,7 +4,8 @@ id: requirement--nist-sp-800-53-r5-pm-17
 spec_version: "0.1.0"
 created: "2026-10-22T11:30:00Z"
 modified: "2026-10-22T11:30:00Z"
-name: Protecting Controlled Unclassified Information on External Systems
+name: >-
+  Protecting Controlled Unclassified Information on External Systems
 display_id: PM-17
 class: control
 external_references:
@@ -26,60 +27,65 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Controlled unclassified information policy; controlled unclassified
-          information procedures; other relevant documents or records.
+          Controlled unclassified information policy; controlled
+          unclassified information procedures; other relevant
+          documents or records.
       - method: interview
         statement: >
-          Organizational personnel with controlled unclassified information
-          responsibilities; organizational personnel with information security
-          responsibilities.
+          Organizational personnel with controlled unclassified
+          information responsibilities; organizational personnel
+          with information security responsibilities.
     statement: >
-      policy is established to ensure that requirements for the protection of
-      controlled unclassified information that is processed, stored, or
-      transmitted on external systems are implemented in accordance with
-      applicable laws, executive orders, directives, policies, regulations, and
-      standards;
+      policy is established to ensure that requirements for the
+      protection of controlled unclassified information that is
+      processed, stored, or transmitted on external systems are
+      implemented in accordance with applicable laws, executive
+      orders, directives, policies, regulations, and standards;
   - id: a-2
     methods:
       - method: examine
         statement: >
-          Controlled unclassified information policy; controlled unclassified
-          information procedures; other relevant documents or records.
+          Controlled unclassified information policy; controlled
+          unclassified information procedures; other relevant
+          documents or records.
       - method: interview
         statement: >
-          Organizational personnel with controlled unclassified information
-          responsibilities; organizational personnel with information security
-          responsibilities.
+          Organizational personnel with controlled unclassified
+          information responsibilities; organizational personnel
+          with information security responsibilities.
     statement: >
-      procedures are established to ensure that requirements for the protection of
-      controlled unclassified information that is processed, stored, or
-      transmitted on external systems are implemented in accordance with
-      applicable laws, executive orders, directives, policies, regulations, and
-      standards;
+      procedures are established to ensure that requirements for the
+      protection of controlled unclassified information that is
+      processed, stored, or transmitted on external systems are
+      implemented in accordance with applicable laws, executive
+      orders, directives, policies, regulations, and standards;
   - id: b-1
     methods:
       - method: examine
         statement: >
-          Controlled unclassified information policy; controlled unclassified
-          information procedures; other relevant documents or records.
+          Controlled unclassified information policy; controlled
+          unclassified information procedures; other relevant
+          documents or records.
       - method: interview
         statement: >
-          Organizational personnel with controlled unclassified information
-          responsibilities; organizational personnel with information security
-          responsibilities.
+          Organizational personnel with controlled unclassified
+          information responsibilities; organizational personnel
+          with information security responsibilities.
     statement: "policy is reviewed and updated {{ pm_17_odp_01 }};"
   - id: b-2
     methods:
       - method: examine
         statement: >
-          Controlled unclassified information policy; controlled unclassified
-          information procedures; other relevant documents or records.
+          Controlled unclassified information policy; controlled
+          unclassified information procedures; other relevant
+          documents or records.
       - method: interview
         statement: >
-          Organizational personnel with controlled unclassified information
-          responsibilities; organizational personnel with information security
-          responsibilities.
-    statement: "procedures are reviewed and updated {{ pm_17_odp_02 }}"
+          Organizational personnel with controlled unclassified
+          information responsibilities; organizational personnel
+          with information security responsibilities.
+    statement: >-
+      procedures are reviewed and updated {{ pm_17_odp_02 }}
 parameters:
   pm_17_odp_01:
     label: frequency
@@ -90,10 +96,11 @@ parameters:
 parts:
   - id: a
     statement: >
-      Establish policy and procedures to ensure that requirements for the
-      protection of controlled unclassified information that is processed, stored
-      or transmitted on external systems, are implemented in accordance with
-      applicable laws, executive orders, directives, policies, regulations, and
-      standards; and
+      Establish policy and procedures to ensure that requirements
+      for the protection of controlled unclassified information that
+      is processed, stored or transmitted on external systems, are
+      implemented in accordance with applicable laws, executive
+      orders, directives, policies, regulations, and standards; and
   - id: b
-    statement: "Review and update the policy and procedures {{ pm_17_prm_1 }}."
+    statement: >-
+      Review and update the policy and procedures {{ pm_17_prm_1 }}.

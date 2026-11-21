@@ -10,5 +10,7 @@ rationale: functional
 relationship: equivalent-to
 review_status: reviewed
 source_ref: control--ogrl-lm-01
-summary: "Periodic review of logged event scope directly satisfies NIST AU-2(e)."
+summary: >-
+  Periodic review of logged event scope directly satisfies NIST
+  AU-2(e).
 target_ref: "requirement--nist-sp-800-53-r5-au-2#e"

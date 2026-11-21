@@ -13,64 +13,73 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Physical and environmental protection policy; procedures addressing visitor
-          access records; visitor access control logs or records; visitor access
-          record or log reviews; system security plan; privacy plan; privacy impact
-          assessment; privacy risk assessment documentation; other relevant documents
-          or records
+          Physical and environmental protection policy; procedures
+          addressing visitor access records; visitor access control
+          logs or records; visitor access record or log reviews;
+          system security plan; privacy plan; privacy impact
+          assessment; privacy risk assessment documentation; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with visitor access record responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities
+          Organizational personnel with visitor access record
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities
       - method: test
         statement: >
-          Organizational processes for maintaining and reviewing visitor access
-          records; mechanisms supporting and/or implementing the maintenance and
-          review of visitor access records
+          Organizational processes for maintaining and reviewing
+          visitor access records; mechanisms supporting and/or
+          implementing the maintenance and review of visitor access
+          records
     statement: >
-      visitor access records for the facility where the system resides are
-      maintained for {{ pe_08_odp_01 }};
+      visitor access records for the facility where the system
+      resides are maintained for {{ pe_08_odp_01 }};
   - id: b
     methods:
       - method: examine
         statement: >
-          Physical and environmental protection policy; procedures addressing visitor
-          access records; visitor access control logs or records; visitor access
-          record or log reviews; system security plan; privacy plan; privacy impact
-          assessment; privacy risk assessment documentation; other relevant documents
-          or records
+          Physical and environmental protection policy; procedures
+          addressing visitor access records; visitor access control
+          logs or records; visitor access record or log reviews;
+          system security plan; privacy plan; privacy impact
+          assessment; privacy risk assessment documentation; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with visitor access record responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities
+          Organizational personnel with visitor access record
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities
       - method: test
         statement: >
-          Organizational processes for maintaining and reviewing visitor access
-          records; mechanisms supporting and/or implementing the maintenance and
-          review of visitor access records
-    statement: "visitor access records are reviewed {{ pe_08_odp_02 }};"
+          Organizational processes for maintaining and reviewing
+          visitor access records; mechanisms supporting and/or
+          implementing the maintenance and review of visitor access
+          records
+    statement: >-
+      visitor access records are reviewed {{ pe_08_odp_02 }};
   - id: c
     methods:
       - method: examine
         statement: >
-          Physical and environmental protection policy; procedures addressing visitor
-          access records; visitor access control logs or records; visitor access
-          record or log reviews; system security plan; privacy plan; privacy impact
-          assessment; privacy risk assessment documentation; other relevant documents
-          or records
+          Physical and environmental protection policy; procedures
+          addressing visitor access records; visitor access control
+          logs or records; visitor access record or log reviews;
+          system security plan; privacy plan; privacy impact
+          assessment; privacy risk assessment documentation; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with visitor access record responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities
+          Organizational personnel with visitor access record
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities
       - method: test
         statement: >
-          Organizational processes for maintaining and reviewing visitor access
-          records; mechanisms supporting and/or implementing the maintenance and
-          review of visitor access records
-    statement: "visitor access records anomalies are reported to {{ pe_08_odp_03 }}."
+          Organizational processes for maintaining and reviewing
+          visitor access records; mechanisms supporting and/or
+          implementing the maintenance and review of visitor access
+          records
+    statement: >-
+      visitor access records anomalies are reported to
+      {{ pe_08_odp_03 }}.
 parameters:
   pe_08_odp_01:
     label: time period
@@ -81,9 +90,12 @@ parameters:
 parts:
   - id: a
     statement: >
-      Maintain visitor access records to the facility where the system resides for
-      {{ pe_08_odp_01 }};
+      Maintain visitor access records to the facility where the
+      system resides for {{ pe_08_odp_01 }};
   - id: b
-    statement: "Review visitor access records {{ pe_08_odp_02 }} ; and"
+    statement: >-
+      Review visitor access records {{ pe_08_odp_02 }} ; and
   - id: c
-    statement: "Report anomalies in visitor access records to {{ pe_08_odp_03 }}."
+    statement: >-
+      Report anomalies in visitor access records to
+      {{ pe_08_odp_03 }}.

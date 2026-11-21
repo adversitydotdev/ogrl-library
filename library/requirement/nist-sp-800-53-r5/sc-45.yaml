@@ -17,16 +17,24 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; procedures addressing time
-          synchronization; system design documentation; system configuration settings
-          and associated documentation; system audit records; system security plan;
-          other relevant documents or records
+          System and communications protection policy; procedures
+          addressing time synchronization; system design
+          documentation; system configuration settings and
+          associated documentation; system audit records; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; organizational personnel installing, configuring,
-          and/or maintaining the system
+          System/network administrators; organizational personnel
+          with information security responsibilities; organizational
+          personnel installing, configuring, and/or maintaining the
+          system
       - method: test
-        statement: Mechanisms supporting and/or implementing system time synchronization
-    statement: system clocks are synchronized within and between systems and system components.
-statement: Synchronize system clocks within and between systems and system components.
+        statement: >-
+          Mechanisms supporting and/or implementing system time
+          synchronization
+    statement: >-
+      system clocks are synchronized within and between systems and
+      system components.
+statement: >-
+  Synchronize system clocks within and between systems and system
+  components.

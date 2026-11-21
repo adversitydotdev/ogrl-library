@@ -9,15 +9,15 @@ control_type: detective
 family: gv
 frequency: annual
 guidance: >
-  Pre-revenue companies with an informal board can use a board meeting agenda
-  item with a short security deck; record attendance and decisions in minutes.
-  Where the board includes outside or independent directors, note their
-  participation. Auditors usually sample the deck and minutes for each
-  briefing in the period.
+  Pre-revenue companies with an informal board can use a board
+  meeting agenda item with a short security deck; record attendance
+  and decisions in minutes. Where the board includes outside or
+  independent directors, note their participation. Auditors usually
+  sample the deck and minutes for each briefing in the period.
 objective: >
-  Those charged with governance exercise informed, documented oversight of
-  security and risk independently of the management that operates the
-  controls.
+  Those charged with governance exercise informed, documented
+  oversight of security and risk independently of the management
+  that operates the controls.
 origin: standard
 parameters:
   briefing_frequency:
@@ -27,14 +27,16 @@ parameters:
     label: Governance body exercising oversight
     value: the board of directors or a designated board committee
 statement: >
-  Security leadership briefs {{ oversight_body }} on the state of the security
-  program {{ briefing_frequency }}, covering top risks and their treatment
-  status, significant incidents, control assessment and audit results, and
-  open deficiencies. The oversight body's review, questions, and decisions are
-  recorded in meeting minutes.
+  Security leadership briefs {{ oversight_body }} on the state of
+  the security program {{ briefing_frequency }}, covering top risks
+  and their treatment status, significant incidents, control
+  assessment and audit results, and open deficiencies. The oversight
+  body's review, questions, and decisions are recorded in meeting
+  minutes.
 summary: >
-  Security leadership briefs the board or its designated committee on security
-  and risk on a fixed cadence, and oversight is recorded.
+  Security leadership briefs the board or its designated committee
+  on security and risk on a fixed cadence, and oversight is
+  recorded.
 tags:
   - governance
   - board-oversight

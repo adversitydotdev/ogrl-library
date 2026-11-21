@@ -12,6 +12,6 @@ relationship: equivalent-to
 review_status: reviewed
 source_ref: control--ogrl-ac-06
 summary: >
-  Scheduled credential rotation and event-driven revocation directly satisfy
-  NIST IA-5(f).
+  Scheduled credential rotation and event-driven revocation directly
+  satisfy NIST IA-5(f).
 target_ref: "requirement--nist-sp-800-53-r5-ia-5#f"

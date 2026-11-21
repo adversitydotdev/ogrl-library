@@ -9,6 +9,7 @@ relationship: superset-of
 review_status: draft
 source_ref: control--ogrl-bc-08
 summary: >
-  Capacity forecasting explicitly includes contingency operations, covering
-  CP-2(2), and adds ongoing utilization monitoring and alerting.
+  Capacity forecasting explicitly includes contingency operations,
+  covering CP-2(2), and adds ongoing utilization monitoring and
+  alerting.
 target_ref: requirement--nist-sp-800-53-r5-cp-2-2

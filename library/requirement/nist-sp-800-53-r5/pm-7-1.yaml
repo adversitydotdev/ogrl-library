@@ -13,29 +13,33 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Information security program plan; privacy program plan; enterprise
-          architecture documentation; procedures addressing enterprise architecture
-          development; procedures for identifying and offloading functions or
-          services; results of risk assessments of enterprise architecture; other
-          relevant documents or records
+          Information security program plan; privacy program plan;
+          enterprise architecture documentation; procedures
+          addressing enterprise architecture development; procedures
+          for identifying and offloading functions or services;
+          results of risk assessments of enterprise architecture;
+          other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with information security and privacy program
-          planning and plan implementation responsibilities; organizational personnel
-          responsible for developing enterprise architecture; organizational personnel
-          responsible for risk assessments of enterprise architecture; organizational
-          personnel with information security and privacy responsibilities
+          Organizational personnel with information security and
+          privacy program planning and plan implementation
+          responsibilities; organizational personnel responsible for
+          developing enterprise architecture; organizational
+          personnel responsible for risk assessments of enterprise
+          architecture; organizational personnel with information
+          security and privacy responsibilities
       - method: test
         statement: >
-          Organizational processes for enterprise architecture development; mechanisms
-          supporting the enterprise architecture and its development; mechanisms for
+          Organizational processes for enterprise architecture
+          development; mechanisms supporting the enterprise
+          architecture and its development; mechanisms for
           offloading functions and services
     statement: >
-      {{ pm_07_01_odp }} are offloaded to other systems, system components, or an
-      external provider.
+      {{ pm_07_01_odp }} are offloaded to other systems, system
+      components, or an external provider.
 parameters:
   pm_07_01_odp:
     label: non-essential functions or services
 statement: >
-  Offload {{ pm_07_01_odp }} to other systems, system components, or an
-  external provider.
+  Offload {{ pm_07_01_odp }} to other systems, system components, or
+  an external provider.

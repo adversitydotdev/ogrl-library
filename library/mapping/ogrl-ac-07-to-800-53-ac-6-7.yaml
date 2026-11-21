@@ -12,6 +12,7 @@ relationship: equivalent-to
 review_status: draft
 source_ref: control--ogrl-ac-07
 summary: >
-  Periodic reconciliation of privileged assignments validates need and removes
-  unapproved privileges; non-privileged access review is in OGRL-AC-02.
+  Periodic reconciliation of privileged assignments validates need
+  and removes unapproved privileges; non-privileged access review is
+  in OGRL-AC-02.
 target_ref: requirement--nist-sp-800-53-r5-ac-6-7

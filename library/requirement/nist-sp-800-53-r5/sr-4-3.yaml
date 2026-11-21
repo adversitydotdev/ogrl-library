@@ -13,66 +13,80 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Supply chain risk management policy and procedures; supply chain risk
-          management plan; system and services acquisition policy; procedures
-          addressing supply chain protection; procedures addressing the security
-          design principle of trusted components used in the specification, design,
-          development, implementation, and modification of the system; system design
-          documentation; procedures addressing the integration of information security
-          requirements into the acquisition process; solicitation documentation;
-          acquisition documentation; service level agreements; acquisition contracts
-          for the system, system component, or system service; evidentiary
-          documentation (including applicable configurations) indicating that the
-          system or system component is genuine and has not been altered; system
-          security plan; other relevant documents or records
+          Supply chain risk management policy and procedures; supply
+          chain risk management plan; system and services
+          acquisition policy; procedures addressing supply chain
+          protection; procedures addressing the security design
+          principle of trusted components used in the specification,
+          design, development, implementation, and modification of
+          the system; system design documentation; procedures
+          addressing the integration of information security
+          requirements into the acquisition process; solicitation
+          documentation; acquisition documentation; service level
+          agreements; acquisition contracts for the system, system
+          component, or system service; evidentiary documentation
+          (including applicable configurations) indicating that the
+          system or system component is genuine and has not been
+          altered; system security plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          Organizational personnel with system and services acquisition
-          responsibilities; organizational personnel with information security
-          responsibilities; organizational personnel with supply chain risk management
+          Organizational personnel with system and services
+          acquisition responsibilities; organizational personnel
+          with information security responsibilities; organizational
+          personnel with supply chain risk management
           responsibilities
       - method: test
         statement: >
-          Organizational processes for defining and employing validation safeguards;
-          mechanisms supporting and/or implementing the definition and employment of
-          validation safeguards; mechanisms supporting the application of the security
-          design principle of trusted components in system specification, design,
-          development, implementation, and modification
+          Organizational processes for defining and employing
+          validation safeguards; mechanisms supporting and/or
+          implementing the definition and employment of validation
+          safeguards; mechanisms supporting the application of the
+          security design principle of trusted components in system
+          specification, design, development, implementation, and
+          modification
     statement: >
-      {{ sr_04_03_odp_01 }} are employed to validate that the system or system
-      component received is genuine;
+      {{ sr_04_03_odp_01 }} are employed to validate that the system
+      or system component received is genuine;
   - id: "sr-04(03).sr-04(03)[02]"
     methods:
       - method: examine
         statement: >
-          Supply chain risk management policy and procedures; supply chain risk
-          management plan; system and services acquisition policy; procedures
-          addressing supply chain protection; procedures addressing the security
-          design principle of trusted components used in the specification, design,
-          development, implementation, and modification of the system; system design
-          documentation; procedures addressing the integration of information security
-          requirements into the acquisition process; solicitation documentation;
-          acquisition documentation; service level agreements; acquisition contracts
-          for the system, system component, or system service; evidentiary
-          documentation (including applicable configurations) indicating that the
-          system or system component is genuine and has not been altered; system
-          security plan; other relevant documents or records
+          Supply chain risk management policy and procedures; supply
+          chain risk management plan; system and services
+          acquisition policy; procedures addressing supply chain
+          protection; procedures addressing the security design
+          principle of trusted components used in the specification,
+          design, development, implementation, and modification of
+          the system; system design documentation; procedures
+          addressing the integration of information security
+          requirements into the acquisition process; solicitation
+          documentation; acquisition documentation; service level
+          agreements; acquisition contracts for the system, system
+          component, or system service; evidentiary documentation
+          (including applicable configurations) indicating that the
+          system or system component is genuine and has not been
+          altered; system security plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          Organizational personnel with system and services acquisition
-          responsibilities; organizational personnel with information security
-          responsibilities; organizational personnel with supply chain risk management
+          Organizational personnel with system and services
+          acquisition responsibilities; organizational personnel
+          with information security responsibilities; organizational
+          personnel with supply chain risk management
           responsibilities
       - method: test
         statement: >
-          Organizational processes for defining and employing validation safeguards;
-          mechanisms supporting and/or implementing the definition and employment of
-          validation safeguards; mechanisms supporting the application of the security
-          design principle of trusted components in system specification, design,
-          development, implementation, and modification
+          Organizational processes for defining and employing
+          validation safeguards; mechanisms supporting and/or
+          implementing the definition and employment of validation
+          safeguards; mechanisms supporting the application of the
+          security design principle of trusted components in system
+          specification, design, development, implementation, and
+          modification
     statement: >
-      {{ sr_04_03_odp_02 }} are employed to validate that the system or system
-      component received has not been altered.
+      {{ sr_04_03_odp_02 }} are employed to validate that the system
+      or system component received has not been altered.
 parameters:
   sr_04_03_odp_01:
     label: controls
@@ -81,5 +95,6 @@ parameters:
   sr_4_3_prm_1:
     label: organization-defined controls
 statement: >
-  Employ the following controls to validate that the system or system
-  component received is genuine and has not been altered: {{ sr_4_3_prm_1 }}.
+  Employ the following controls to validate that the system or
+  system component received is genuine and has not been altered:
+  {{ sr_4_3_prm_1 }}.

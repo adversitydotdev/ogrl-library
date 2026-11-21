@@ -20,42 +20,50 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System media protection policy; system use policy; procedures addressing
-          media usage restrictions; rules of behavior; system design documentation;
-          system configuration settings and associated documentation; audit records;
-          system security plan; other relevant documents or records
+          System media protection policy; system use policy;
+          procedures addressing media usage restrictions; rules of
+          behavior; system design documentation; system
+          configuration settings and associated documentation; audit
+          records; system security plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          Organizational personnel with system media use responsibilities;
-          organizational personnel with information security responsibilities;
-          system/network administrators
+          Organizational personnel with system media use
+          responsibilities; organizational personnel with
+          information security responsibilities; system/network
+          administrators
       - method: test
         statement: >
-          Organizational processes for media use; mechanisms restricting or
-          prohibiting the use of system media on systems or system components
+          Organizational processes for media use; mechanisms
+          restricting or prohibiting the use of system media on
+          systems or system components
     statement: >
-      the use of {{ mp_07_odp_01 }} is {{ mp_07_odp_02 }} on {{ mp_07_odp_03 }}
-      using {{ mp_07_odp_04 }};
+      the use of {{ mp_07_odp_01 }} is {{ mp_07_odp_02 }} on
+      {{ mp_07_odp_03 }} using {{ mp_07_odp_04 }};
   - id: b
     methods:
       - method: examine
         statement: >
-          System media protection policy; system use policy; procedures addressing
-          media usage restrictions; rules of behavior; system design documentation;
-          system configuration settings and associated documentation; audit records;
-          system security plan; other relevant documents or records
+          System media protection policy; system use policy;
+          procedures addressing media usage restrictions; rules of
+          behavior; system design documentation; system
+          configuration settings and associated documentation; audit
+          records; system security plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          Organizational personnel with system media use responsibilities;
-          organizational personnel with information security responsibilities;
-          system/network administrators
+          Organizational personnel with system media use
+          responsibilities; organizational personnel with
+          information security responsibilities; system/network
+          administrators
       - method: test
         statement: >
-          Organizational processes for media use; mechanisms restricting or
-          prohibiting the use of system media on systems or system components
+          Organizational processes for media use; mechanisms
+          restricting or prohibiting the use of system media on
+          systems or system components
     statement: >
-      the use of portable storage devices in organizational systems is prohibited
-      when such devices have no identifiable owner.
+      the use of portable storage devices in organizational systems
+      is prohibited when such devices have no identifiable owner.
 parameters:
   mp_07_odp_01:
     label: types of system media
@@ -68,9 +76,9 @@ parameters:
 parts:
   - id: a
     statement: >
-      {{ mp_07_odp_02 }} the use of {{ mp_07_odp_01 }} on {{ mp_07_odp_03 }} using
-      {{ mp_07_odp_04 }} ; and
+      {{ mp_07_odp_02 }} the use of {{ mp_07_odp_01 }} on
+      {{ mp_07_odp_03 }} using {{ mp_07_odp_04 }} ; and
   - id: b
     statement: >
-      Prohibit the use of portable storage devices in organizational systems when
-      such devices have no identifiable owner.
+      Prohibit the use of portable storage devices in organizational
+      systems when such devices have no identifiable owner.

@@ -13,24 +13,28 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing session termination; user
-          logout messages; system design documentation; system configuration settings
-          and associated documentation; system audit records; system security plan;
-          other relevant documents or records
+          Access control policy; procedures addressing session
+          termination; user logout messages; system design
+          documentation; system configuration settings and
+          associated documentation; system audit records; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; system developers
+          System/network administrators; organizational personnel
+          with information security responsibilities; system
+          developers
       - method: test
         statement: >
-          System session termination mechanisms; logout capabilities for
-          user-initiated communications sessions
+          System session termination mechanisms; logout capabilities
+          for user-initiated communications sessions
     statement: >
-      a logout capability is provided for user-initiated communications sessions
-      whenever authentication is used to gain access to {{ ac_12_01_odp }}.
+      a logout capability is provided for user-initiated
+      communications sessions whenever authentication is used to
+      gain access to {{ ac_12_01_odp }}.
 parameters:
   ac_12_01_odp:
     label: information resources
 statement: >
-  Provide a logout capability for user-initiated communications sessions
-  whenever authentication is used to gain access to {{ ac_12_01_odp }}.
+  Provide a logout capability for user-initiated communications
+  sessions whenever authentication is used to gain access to
+  {{ ac_12_01_odp }}.

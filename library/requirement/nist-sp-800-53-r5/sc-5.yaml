@@ -17,46 +17,53 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; procedures addressing
-          denial-of-service protection; system design documentation; list of
-          denial-of-service attacks requiring employment of security safeguards to
-          protect against or limit effects of such attacks; list of security
-          safeguards protecting against or limiting the effects of denial-of-service
-          attacks; system configuration settings and associated documentation; system
-          audit records; system security plan; other relevant documents or records
+          System and communications protection policy; procedures
+          addressing denial-of-service protection; system design
+          documentation; list of denial-of-service attacks requiring
+          employment of security safeguards to protect against or
+          limit effects of such attacks; list of security safeguards
+          protecting against or limiting the effects of
+          denial-of-service attacks; system configuration settings
+          and associated documentation; system audit records; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; organizational personnel with incident response
-          responsibilities; system developer
+          System/network administrators; organizational personnel
+          with information security responsibilities; organizational
+          personnel with incident response responsibilities; system
+          developer
       - method: test
         statement: >
-          Mechanisms protecting against or limiting the effects of denial-of-service
-          attacks
-    statement: "the effects of {{ sc_05_odp_01 }} are {{ sc_05_odp_02 }};"
+          Mechanisms protecting against or limiting the effects of
+          denial-of-service attacks
+    statement: >-
+      the effects of {{ sc_05_odp_01 }} are {{ sc_05_odp_02 }};
   - id: b
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; procedures addressing
-          denial-of-service protection; system design documentation; list of
-          denial-of-service attacks requiring employment of security safeguards to
-          protect against or limit effects of such attacks; list of security
-          safeguards protecting against or limiting the effects of denial-of-service
-          attacks; system configuration settings and associated documentation; system
-          audit records; system security plan; other relevant documents or records
+          System and communications protection policy; procedures
+          addressing denial-of-service protection; system design
+          documentation; list of denial-of-service attacks requiring
+          employment of security safeguards to protect against or
+          limit effects of such attacks; list of security safeguards
+          protecting against or limiting the effects of
+          denial-of-service attacks; system configuration settings
+          and associated documentation; system audit records; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; organizational personnel with incident response
-          responsibilities; system developer
+          System/network administrators; organizational personnel
+          with information security responsibilities; organizational
+          personnel with incident response responsibilities; system
+          developer
       - method: test
         statement: >
-          Mechanisms protecting against or limiting the effects of denial-of-service
-          attacks
+          Mechanisms protecting against or limiting the effects of
+          denial-of-service attacks
     statement: >
-      {{ sc_05_odp_03 }} are employed to achieve the denial-of-service protection
-      objective.
+      {{ sc_05_odp_03 }} are employed to achieve the
+      denial-of-service protection objective.
 parameters:
   sc_05_odp_01:
     label: types of denial-of-service events
@@ -67,9 +74,9 @@ parameters:
 parts:
   - id: a
     statement: >
-      {{ sc_05_odp_02 }} the effects of the following types of denial-of-service
-      events: {{ sc_05_odp_01 }} ; and
+      {{ sc_05_odp_02 }} the effects of the following types of
+      denial-of-service events: {{ sc_05_odp_01 }} ; and
   - id: b
     statement: >
-      Employ the following controls to achieve the denial-of-service objective:
-      {{ sc_05_odp_03 }}.
+      Employ the following controls to achieve the denial-of-service
+      objective: {{ sc_05_odp_03 }}.

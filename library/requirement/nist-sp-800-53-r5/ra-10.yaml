@@ -17,66 +17,77 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Risk assessment policy; assessment reports; audit records/event logs; threat
-          hunting capability; system security plan; other relevant documents or
-          records
+          Risk assessment policy; assessment reports; audit
+          records/event logs; threat hunting capability; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with threat hunting responsibilities;
-          system/network administrators; organizational personnel with security
-          responsibilities
+          Organizational personnel with threat hunting
+          responsibilities; system/network administrators;
+          organizational personnel with security responsibilities
       - method: test
         statement: >
-          Organizational processes for assessments and audits; mechanisms/tools
-          supporting and/or implementing threat hunting capabilities
+          Organizational processes for assessments and audits;
+          mechanisms/tools supporting and/or implementing threat
+          hunting capabilities
     statement: >
-      a cyber threat capability is established and maintained to search for
-      indicators of compromise in organizational systems;
+      a cyber threat capability is established and maintained to
+      search for indicators of compromise in organizational systems;
   - id: a.2
     methods:
       - method: examine
         statement: >
-          Risk assessment policy; assessment reports; audit records/event logs; threat
-          hunting capability; system security plan; other relevant documents or
-          records
+          Risk assessment policy; assessment reports; audit
+          records/event logs; threat hunting capability; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with threat hunting responsibilities;
-          system/network administrators; organizational personnel with security
-          responsibilities
+          Organizational personnel with threat hunting
+          responsibilities; system/network administrators;
+          organizational personnel with security responsibilities
       - method: test
         statement: >
-          Organizational processes for assessments and audits; mechanisms/tools
-          supporting and/or implementing threat hunting capabilities
+          Organizational processes for assessments and audits;
+          mechanisms/tools supporting and/or implementing threat
+          hunting capabilities
     statement: >
-      a cyber threat capability is established and maintained to detect, track,
-      and disrupt threats that evade existing controls;
+      a cyber threat capability is established and maintained to
+      detect, track, and disrupt threats that evade existing
+      controls;
   - id: b
     methods:
       - method: examine
         statement: >
-          Risk assessment policy; assessment reports; audit records/event logs; threat
-          hunting capability; system security plan; other relevant documents or
-          records
+          Risk assessment policy; assessment reports; audit
+          records/event logs; threat hunting capability; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with threat hunting responsibilities;
-          system/network administrators; organizational personnel with security
-          responsibilities
+          Organizational personnel with threat hunting
+          responsibilities; system/network administrators;
+          organizational personnel with security responsibilities
       - method: test
         statement: >
-          Organizational processes for assessments and audits; mechanisms/tools
-          supporting and/or implementing threat hunting capabilities
-    statement: "the threat hunting capability is employed {{ ra_10_odp }}."
+          Organizational processes for assessments and audits;
+          mechanisms/tools supporting and/or implementing threat
+          hunting capabilities
+    statement: >-
+      the threat hunting capability is employed {{ ra_10_odp }}.
 parameters:
   ra_10_odp:
     label: frequency
 parts:
   - id: a
-    statement: "Establish and maintain a cyber threat hunting capability to:"
+    statement: >-
+      Establish and maintain a cyber threat hunting capability to:
   - id: a.1
-    statement: Search for indicators of compromise in organizational systems; and
+    statement: >-
+      Search for indicators of compromise in organizational systems;
+      and
   - id: a.2
-    statement: "Detect, track, and disrupt threats that evade existing controls; and"
+    statement: >-
+      Detect, track, and disrupt threats that evade existing
+      controls; and
   - id: b
-    statement: "Employ the threat hunting capability {{ ra_10_odp }}."
+    statement: >-
+      Employ the threat hunting capability {{ ra_10_odp }}.

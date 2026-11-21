@@ -13,27 +13,32 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Audit and accountability policy; procedures addressing response to audit
-          processing failures; system design documentation; system security plan;
-          privacy plan; system configuration settings and associated documentation;
+          Audit and accountability policy; procedures addressing
+          response to audit processing failures; system design
+          documentation; system security plan; privacy plan; system
+          configuration settings and associated documentation;
           system audit records; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with audit and accountability responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities; system/network administrators; system developers
+          Organizational personnel with audit and accountability
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities;
+          system/network administrators; system developers
       - method: test
         statement: >
-          System capability invoking system shutdown or degraded operational mode in
-          the event of an audit processing failure
+          System capability invoking system shutdown or degraded
+          operational mode in the event of an audit processing
+          failure
     statement: >
-      {{ au_05_04_odp_01 }} is/are invoked in the event of {{ au_05_04_odp_02 }} ,
-      unless an alternate audit logging capability exists.
+      {{ au_05_04_odp_01 }} is/are invoked in the event of
+      {{ au_05_04_odp_02 }} , unless an alternate audit logging
+      capability exists.
 parameters:
   au_05_04_odp_01:
     label: au-05.04_odp.01
   au_05_04_odp_02:
     label: audit logging failures
 statement: >
-  Invoke a {{ au_05_04_odp_01 }} in the event of {{ au_05_04_odp_02 }} ,
-  unless an alternate audit logging capability exists.
+  Invoke a {{ au_05_04_odp_01 }} in the event of
+  {{ au_05_04_odp_02 }} , unless an alternate audit logging
+  capability exists.

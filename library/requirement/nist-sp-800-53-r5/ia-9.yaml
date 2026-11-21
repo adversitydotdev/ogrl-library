@@ -13,28 +13,33 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Identification and authentication policy; procedures addressing service
-          identification and authentication; system security plan; system design
-          documentation; security safeguards used to identify and authenticate system
-          services; system configuration settings and associated documentation; system
-          audit records; other relevant documents or records
+          Identification and authentication policy; procedures
+          addressing service identification and authentication;
+          system security plan; system design documentation;
+          security safeguards used to identify and authenticate
+          system services; system configuration settings and
+          associated documentation; system audit records; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with system operations responsibilities;
-          organizational personnel with information security responsibilities;
-          system/network administrators; system developers; organizational personnel
-          with identification and authentication responsibilities
+          Organizational personnel with system operations
+          responsibilities; organizational personnel with
+          information security responsibilities; system/network
+          administrators; system developers; organizational
+          personnel with identification and authentication
+          responsibilities
       - method: test
         statement: >
-          Security safeguards implementing service identification and authentication
-          capabilities
+          Security safeguards implementing service identification
+          and authentication capabilities
     statement: >
-      {{ ia_09_odp }} are uniquely identified and authenticated before
-      establishing communications with devices, users, or other services or
-      applications.
+      {{ ia_09_odp }} are uniquely identified and authenticated
+      before establishing communications with devices, users, or
+      other services or applications.
 parameters:
   ia_09_odp:
     label: system services and applications
 statement: >
-  Uniquely identify and authenticate {{ ia_09_odp }} before establishing
-  communications with devices, users, or other services or applications.
+  Uniquely identify and authenticate {{ ia_09_odp }} before
+  establishing communications with devices, users, or other services
+  or applications.

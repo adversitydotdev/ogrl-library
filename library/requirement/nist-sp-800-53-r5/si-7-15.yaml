@@ -13,27 +13,30 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; procedures addressing software, firmware, and information
-          integrity; system design documentation; system configuration settings and
-          associated documentation; cryptographic mechanisms and associated
-          documentation; system audit records; system security plan; other relevant
-          documents or records
+          System and information integrity policy; system and
+          information integrity procedures; procedures addressing
+          software, firmware, and information integrity; system
+          design documentation; system configuration settings and
+          associated documentation; cryptographic mechanisms and
+          associated documentation; system audit records; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel responsible for software, firmware, and/or
-          information integrity; organizational personnel with information security
-          responsibilities; system/network administrators; system developer
+          Organizational personnel responsible for software,
+          firmware, and/or information integrity; organizational
+          personnel with information security responsibilities;
+          system/network administrators; system developer
       - method: test
         statement: >
-          Cryptographic mechanisms authenticating software and firmware prior to
-          installation
+          Cryptographic mechanisms authenticating software and
+          firmware prior to installation
     statement: >
-      cryptographic mechanisms are implemented to authenticate {{ si_07_15_odp }}
-      prior to installation.
+      cryptographic mechanisms are implemented to authenticate
+      {{ si_07_15_odp }} prior to installation.
 parameters:
   si_07_15_odp:
     label: software or firmware components
 statement: >
-  Implement cryptographic mechanisms to authenticate the following software or
-  firmware components prior to installation: {{ si_07_15_odp }}.
+  Implement cryptographic mechanisms to authenticate the following
+  software or firmware components prior to installation:
+  {{ si_07_15_odp }}.

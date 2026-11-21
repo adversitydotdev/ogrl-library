@@ -13,75 +13,87 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Contingency planning policy; procedures addressing primary and alternate
-          telecommunications services; contingency plan; primary and alternate
-          telecommunications service agreements; Telecommunications Service Priority
-          documentation; system security plan; other relevant documents or records
+          Contingency planning policy; procedures addressing primary
+          and alternate telecommunications services; contingency
+          plan; primary and alternate telecommunications service
+          agreements; Telecommunications Service Priority
+          documentation; system security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with contingency plan telecommunications
-          responsibilities; organizational personnel with system recovery
-          responsibilities; organizational personnel with information security
-          responsibilities; organizational personnel with responsibility for
-          acquisitions/contractual agreements
+          Organizational personnel with contingency plan
+          telecommunications responsibilities; organizational
+          personnel with system recovery responsibilities;
+          organizational personnel with information security
+          responsibilities; organizational personnel with
+          responsibility for acquisitions/contractual agreements
       - method: test
         statement: Mechanisms supporting telecommunications
     statement: >
       primary telecommunications service agreements that contain
-      priority-of-service provisions in accordance with availability requirements
-      (including recovery time objectives) are developed;
+      priority-of-service provisions in accordance with availability
+      requirements (including recovery time objectives) are
+      developed;
   - id: a-2
     methods:
       - method: examine
         statement: >
-          Contingency planning policy; procedures addressing primary and alternate
-          telecommunications services; contingency plan; primary and alternate
-          telecommunications service agreements; Telecommunications Service Priority
-          documentation; system security plan; other relevant documents or records
+          Contingency planning policy; procedures addressing primary
+          and alternate telecommunications services; contingency
+          plan; primary and alternate telecommunications service
+          agreements; Telecommunications Service Priority
+          documentation; system security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with contingency plan telecommunications
-          responsibilities; organizational personnel with system recovery
-          responsibilities; organizational personnel with information security
-          responsibilities; organizational personnel with responsibility for
-          acquisitions/contractual agreements
+          Organizational personnel with contingency plan
+          telecommunications responsibilities; organizational
+          personnel with system recovery responsibilities;
+          organizational personnel with information security
+          responsibilities; organizational personnel with
+          responsibility for acquisitions/contractual agreements
       - method: test
         statement: Mechanisms supporting telecommunications
     statement: >
       alternate telecommunications service agreements that contain
-      priority-of-service provisions in accordance with availability requirements
-      (including recovery time objectives) are developed;
+      priority-of-service provisions in accordance with availability
+      requirements (including recovery time objectives) are
+      developed;
   - id: b
     methods:
       - method: examine
         statement: >
-          Contingency planning policy; procedures addressing primary and alternate
-          telecommunications services; contingency plan; primary and alternate
-          telecommunications service agreements; Telecommunications Service Priority
-          documentation; system security plan; other relevant documents or records
+          Contingency planning policy; procedures addressing primary
+          and alternate telecommunications services; contingency
+          plan; primary and alternate telecommunications service
+          agreements; Telecommunications Service Priority
+          documentation; system security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with contingency plan telecommunications
-          responsibilities; organizational personnel with system recovery
-          responsibilities; organizational personnel with information security
-          responsibilities; organizational personnel with responsibility for
-          acquisitions/contractual agreements
+          Organizational personnel with contingency plan
+          telecommunications responsibilities; organizational
+          personnel with system recovery responsibilities;
+          organizational personnel with information security
+          responsibilities; organizational personnel with
+          responsibility for acquisitions/contractual agreements
       - method: test
         statement: Mechanisms supporting telecommunications
     statement: >
-      Telecommunications Service Priority is requested for all telecommunications
-      services used for national security emergency preparedness if the primary
-      and/or alternate telecommunications services are provided by a common
-      carrier.
+      Telecommunications Service Priority is requested for all
+      telecommunications services used for national security
+      emergency preparedness if the primary and/or alternate
+      telecommunications services are provided by a common carrier.
 parts:
   - id: a
     statement: >
-      Develop primary and alternate telecommunications service agreements that
-      contain priority-of-service provisions in accordance with availability
-      requirements (including recovery time objectives); and
+      Develop primary and alternate telecommunications service
+      agreements that contain priority-of-service provisions in
+      accordance with availability requirements (including recovery
+      time objectives); and
   - id: b
     statement: >
-      Request Telecommunications Service Priority for all telecommunications
-      services used for national security emergency preparedness if the primary
-      and/or alternate telecommunications services are provided by a common
-      carrier.
+      Request Telecommunications Service Priority for all
+      telecommunications services used for national security
+      emergency preparedness if the primary and/or alternate
+      telecommunications services are provided by a common carrier.

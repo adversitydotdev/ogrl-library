@@ -20,144 +20,176 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Configuration management policy; procedures addressing access restrictions
-          for changes to the system; configuration management plan; system design
-          documentation; system architecture and configuration documentation; system
-          configuration settings and associated documentation; logical access
-          approvals; physical access approvals; access credentials; change control
-          records; system audit records; system security plan; other relevant
-          documents or records
+          Configuration management policy; procedures addressing
+          access restrictions for changes to the system;
+          configuration management plan; system design
+          documentation; system architecture and configuration
+          documentation; system configuration settings and
+          associated documentation; logical access approvals;
+          physical access approvals; access credentials; change
+          control records; system audit records; system security
+          plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with logical access control responsibilities;
-          organizational personnel with physical access control responsibilities;
-          organizational personnel with information security responsibilities;
-          system/network administrators
+          Organizational personnel with logical access control
+          responsibilities; organizational personnel with physical
+          access control responsibilities; organizational personnel
+          with information security responsibilities; system/network
+          administrators
       - method: test
         statement: >
-          Organizational processes for managing access restrictions to change;
-          mechanisms supporting, implementing, or enforcing access restrictions
-          associated with changes to the system
+          Organizational processes for managing access restrictions
+          to change; mechanisms supporting, implementing, or
+          enforcing access restrictions associated with changes to
+          the system
     statement: >
-      physical access restrictions associated with changes to the system are
-      defined and documented;
+      physical access restrictions associated with changes to the
+      system are defined and documented;
   - id: "[02]"
     methods:
       - method: examine
         statement: >
-          Configuration management policy; procedures addressing access restrictions
-          for changes to the system; configuration management plan; system design
-          documentation; system architecture and configuration documentation; system
-          configuration settings and associated documentation; logical access
-          approvals; physical access approvals; access credentials; change control
-          records; system audit records; system security plan; other relevant
-          documents or records
+          Configuration management policy; procedures addressing
+          access restrictions for changes to the system;
+          configuration management plan; system design
+          documentation; system architecture and configuration
+          documentation; system configuration settings and
+          associated documentation; logical access approvals;
+          physical access approvals; access credentials; change
+          control records; system audit records; system security
+          plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with logical access control responsibilities;
-          organizational personnel with physical access control responsibilities;
-          organizational personnel with information security responsibilities;
-          system/network administrators
+          Organizational personnel with logical access control
+          responsibilities; organizational personnel with physical
+          access control responsibilities; organizational personnel
+          with information security responsibilities; system/network
+          administrators
       - method: test
         statement: >
-          Organizational processes for managing access restrictions to change;
-          mechanisms supporting, implementing, or enforcing access restrictions
-          associated with changes to the system
-    statement: physical access restrictions associated with changes to the system are approved;
+          Organizational processes for managing access restrictions
+          to change; mechanisms supporting, implementing, or
+          enforcing access restrictions associated with changes to
+          the system
+    statement: >-
+      physical access restrictions associated with changes to the
+      system are approved;
   - id: "[03]"
     methods:
       - method: examine
         statement: >
-          Configuration management policy; procedures addressing access restrictions
-          for changes to the system; configuration management plan; system design
-          documentation; system architecture and configuration documentation; system
-          configuration settings and associated documentation; logical access
-          approvals; physical access approvals; access credentials; change control
-          records; system audit records; system security plan; other relevant
-          documents or records
+          Configuration management policy; procedures addressing
+          access restrictions for changes to the system;
+          configuration management plan; system design
+          documentation; system architecture and configuration
+          documentation; system configuration settings and
+          associated documentation; logical access approvals;
+          physical access approvals; access credentials; change
+          control records; system audit records; system security
+          plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with logical access control responsibilities;
-          organizational personnel with physical access control responsibilities;
-          organizational personnel with information security responsibilities;
-          system/network administrators
+          Organizational personnel with logical access control
+          responsibilities; organizational personnel with physical
+          access control responsibilities; organizational personnel
+          with information security responsibilities; system/network
+          administrators
       - method: test
         statement: >
-          Organizational processes for managing access restrictions to change;
-          mechanisms supporting, implementing, or enforcing access restrictions
-          associated with changes to the system
-    statement: physical access restrictions associated with changes to the system are enforced;
+          Organizational processes for managing access restrictions
+          to change; mechanisms supporting, implementing, or
+          enforcing access restrictions associated with changes to
+          the system
+    statement: >-
+      physical access restrictions associated with changes to the
+      system are enforced;
   - id: "[04]"
     methods:
       - method: examine
         statement: >
-          Configuration management policy; procedures addressing access restrictions
-          for changes to the system; configuration management plan; system design
-          documentation; system architecture and configuration documentation; system
-          configuration settings and associated documentation; logical access
-          approvals; physical access approvals; access credentials; change control
-          records; system audit records; system security plan; other relevant
-          documents or records
+          Configuration management policy; procedures addressing
+          access restrictions for changes to the system;
+          configuration management plan; system design
+          documentation; system architecture and configuration
+          documentation; system configuration settings and
+          associated documentation; logical access approvals;
+          physical access approvals; access credentials; change
+          control records; system audit records; system security
+          plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with logical access control responsibilities;
-          organizational personnel with physical access control responsibilities;
-          organizational personnel with information security responsibilities;
-          system/network administrators
+          Organizational personnel with logical access control
+          responsibilities; organizational personnel with physical
+          access control responsibilities; organizational personnel
+          with information security responsibilities; system/network
+          administrators
       - method: test
         statement: >
-          Organizational processes for managing access restrictions to change;
-          mechanisms supporting, implementing, or enforcing access restrictions
-          associated with changes to the system
+          Organizational processes for managing access restrictions
+          to change; mechanisms supporting, implementing, or
+          enforcing access restrictions associated with changes to
+          the system
     statement: >
-      logical access restrictions associated with changes to the system are
-      defined and documented;
+      logical access restrictions associated with changes to the
+      system are defined and documented;
   - id: "[05]"
     methods:
       - method: examine
         statement: >
-          Configuration management policy; procedures addressing access restrictions
-          for changes to the system; configuration management plan; system design
-          documentation; system architecture and configuration documentation; system
-          configuration settings and associated documentation; logical access
-          approvals; physical access approvals; access credentials; change control
-          records; system audit records; system security plan; other relevant
-          documents or records
+          Configuration management policy; procedures addressing
+          access restrictions for changes to the system;
+          configuration management plan; system design
+          documentation; system architecture and configuration
+          documentation; system configuration settings and
+          associated documentation; logical access approvals;
+          physical access approvals; access credentials; change
+          control records; system audit records; system security
+          plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with logical access control responsibilities;
-          organizational personnel with physical access control responsibilities;
-          organizational personnel with information security responsibilities;
-          system/network administrators
+          Organizational personnel with logical access control
+          responsibilities; organizational personnel with physical
+          access control responsibilities; organizational personnel
+          with information security responsibilities; system/network
+          administrators
       - method: test
         statement: >
-          Organizational processes for managing access restrictions to change;
-          mechanisms supporting, implementing, or enforcing access restrictions
-          associated with changes to the system
-    statement: logical access restrictions associated with changes to the system are approved;
+          Organizational processes for managing access restrictions
+          to change; mechanisms supporting, implementing, or
+          enforcing access restrictions associated with changes to
+          the system
+    statement: >-
+      logical access restrictions associated with changes to the
+      system are approved;
   - id: "[06]"
     methods:
       - method: examine
         statement: >
-          Configuration management policy; procedures addressing access restrictions
-          for changes to the system; configuration management plan; system design
-          documentation; system architecture and configuration documentation; system
-          configuration settings and associated documentation; logical access
-          approvals; physical access approvals; access credentials; change control
-          records; system audit records; system security plan; other relevant
-          documents or records
+          Configuration management policy; procedures addressing
+          access restrictions for changes to the system;
+          configuration management plan; system design
+          documentation; system architecture and configuration
+          documentation; system configuration settings and
+          associated documentation; logical access approvals;
+          physical access approvals; access credentials; change
+          control records; system audit records; system security
+          plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with logical access control responsibilities;
-          organizational personnel with physical access control responsibilities;
-          organizational personnel with information security responsibilities;
-          system/network administrators
+          Organizational personnel with logical access control
+          responsibilities; organizational personnel with physical
+          access control responsibilities; organizational personnel
+          with information security responsibilities; system/network
+          administrators
       - method: test
         statement: >
-          Organizational processes for managing access restrictions to change;
-          mechanisms supporting, implementing, or enforcing access restrictions
-          associated with changes to the system
-    statement: logical access restrictions associated with changes to the system are enforced.
+          Organizational processes for managing access restrictions
+          to change; mechanisms supporting, implementing, or
+          enforcing access restrictions associated with changes to
+          the system
+    statement: >-
+      logical access restrictions associated with changes to the
+      system are enforced.
 statement: >
   Define, document, approve, and enforce physical and logical access
   restrictions associated with changes to the system.

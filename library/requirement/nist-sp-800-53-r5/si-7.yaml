@@ -35,140 +35,170 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; procedures addressing software, firmware, and information
-          integrity; personally identifiable information processing policy; system
-          design documentation; system configuration settings and associated
-          documentation; integrity verification tools and associated documentation;
-          records generated or triggered by integrity verification tools regarding
-          unauthorized software, firmware, and information changes; system audit
-          records; system security plan; privacy plan; other relevant documents or
-          records
+          System and information integrity policy; system and
+          information integrity procedures; procedures addressing
+          software, firmware, and information integrity; personally
+          identifiable information processing policy; system design
+          documentation; system configuration settings and
+          associated documentation; integrity verification tools and
+          associated documentation; records generated or triggered
+          by integrity verification tools regarding unauthorized
+          software, firmware, and information changes; system audit
+          records; system security plan; privacy plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel responsible for software, firmware, and/or
-          information integrity; organizational personnel with information security
-          and privacy responsibilities; system/network administrators
+          Organizational personnel responsible for software,
+          firmware, and/or information integrity; organizational
+          personnel with information security and privacy
+          responsibilities; system/network administrators
       - method: test
-        statement: "Software, firmware, and information integrity verification tools"
+        statement: >-
+          Software, firmware, and information integrity verification
+          tools
     statement: >
-      integrity verification tools are employed to detect unauthorized changes to
-      {{ si_07_odp_01 }};
+      integrity verification tools are employed to detect
+      unauthorized changes to {{ si_07_odp_01 }};
   - id: a-2
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; procedures addressing software, firmware, and information
-          integrity; personally identifiable information processing policy; system
-          design documentation; system configuration settings and associated
-          documentation; integrity verification tools and associated documentation;
-          records generated or triggered by integrity verification tools regarding
-          unauthorized software, firmware, and information changes; system audit
-          records; system security plan; privacy plan; other relevant documents or
-          records
+          System and information integrity policy; system and
+          information integrity procedures; procedures addressing
+          software, firmware, and information integrity; personally
+          identifiable information processing policy; system design
+          documentation; system configuration settings and
+          associated documentation; integrity verification tools and
+          associated documentation; records generated or triggered
+          by integrity verification tools regarding unauthorized
+          software, firmware, and information changes; system audit
+          records; system security plan; privacy plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel responsible for software, firmware, and/or
-          information integrity; organizational personnel with information security
-          and privacy responsibilities; system/network administrators
+          Organizational personnel responsible for software,
+          firmware, and/or information integrity; organizational
+          personnel with information security and privacy
+          responsibilities; system/network administrators
       - method: test
-        statement: "Software, firmware, and information integrity verification tools"
+        statement: >-
+          Software, firmware, and information integrity verification
+          tools
     statement: >
-      integrity verification tools are employed to detect unauthorized changes to
-      {{ si_07_odp_02 }};
+      integrity verification tools are employed to detect
+      unauthorized changes to {{ si_07_odp_02 }};
   - id: a-3
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; procedures addressing software, firmware, and information
-          integrity; personally identifiable information processing policy; system
-          design documentation; system configuration settings and associated
-          documentation; integrity verification tools and associated documentation;
-          records generated or triggered by integrity verification tools regarding
-          unauthorized software, firmware, and information changes; system audit
-          records; system security plan; privacy plan; other relevant documents or
-          records
+          System and information integrity policy; system and
+          information integrity procedures; procedures addressing
+          software, firmware, and information integrity; personally
+          identifiable information processing policy; system design
+          documentation; system configuration settings and
+          associated documentation; integrity verification tools and
+          associated documentation; records generated or triggered
+          by integrity verification tools regarding unauthorized
+          software, firmware, and information changes; system audit
+          records; system security plan; privacy plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel responsible for software, firmware, and/or
-          information integrity; organizational personnel with information security
-          and privacy responsibilities; system/network administrators
+          Organizational personnel responsible for software,
+          firmware, and/or information integrity; organizational
+          personnel with information security and privacy
+          responsibilities; system/network administrators
       - method: test
-        statement: "Software, firmware, and information integrity verification tools"
+        statement: >-
+          Software, firmware, and information integrity verification
+          tools
     statement: >
-      integrity verification tools are employed to detect unauthorized changes to
-      {{ si_07_odp_03 }};
+      integrity verification tools are employed to detect
+      unauthorized changes to {{ si_07_odp_03 }};
   - id: b-1
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; procedures addressing software, firmware, and information
-          integrity; personally identifiable information processing policy; system
-          design documentation; system configuration settings and associated
-          documentation; integrity verification tools and associated documentation;
-          records generated or triggered by integrity verification tools regarding
-          unauthorized software, firmware, and information changes; system audit
-          records; system security plan; privacy plan; other relevant documents or
-          records
+          System and information integrity policy; system and
+          information integrity procedures; procedures addressing
+          software, firmware, and information integrity; personally
+          identifiable information processing policy; system design
+          documentation; system configuration settings and
+          associated documentation; integrity verification tools and
+          associated documentation; records generated or triggered
+          by integrity verification tools regarding unauthorized
+          software, firmware, and information changes; system audit
+          records; system security plan; privacy plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel responsible for software, firmware, and/or
-          information integrity; organizational personnel with information security
-          and privacy responsibilities; system/network administrators
+          Organizational personnel responsible for software,
+          firmware, and/or information integrity; organizational
+          personnel with information security and privacy
+          responsibilities; system/network administrators
       - method: test
-        statement: "Software, firmware, and information integrity verification tools"
+        statement: >-
+          Software, firmware, and information integrity verification
+          tools
     statement: >
-      {{ si_07_odp_04 }} are taken when unauthorized changes to the software, are
-      detected;
+      {{ si_07_odp_04 }} are taken when unauthorized changes to the
+      software, are detected;
   - id: b-2
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; procedures addressing software, firmware, and information
-          integrity; personally identifiable information processing policy; system
-          design documentation; system configuration settings and associated
-          documentation; integrity verification tools and associated documentation;
-          records generated or triggered by integrity verification tools regarding
-          unauthorized software, firmware, and information changes; system audit
-          records; system security plan; privacy plan; other relevant documents or
-          records
+          System and information integrity policy; system and
+          information integrity procedures; procedures addressing
+          software, firmware, and information integrity; personally
+          identifiable information processing policy; system design
+          documentation; system configuration settings and
+          associated documentation; integrity verification tools and
+          associated documentation; records generated or triggered
+          by integrity verification tools regarding unauthorized
+          software, firmware, and information changes; system audit
+          records; system security plan; privacy plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel responsible for software, firmware, and/or
-          information integrity; organizational personnel with information security
-          and privacy responsibilities; system/network administrators
+          Organizational personnel responsible for software,
+          firmware, and/or information integrity; organizational
+          personnel with information security and privacy
+          responsibilities; system/network administrators
       - method: test
-        statement: "Software, firmware, and information integrity verification tools"
+        statement: >-
+          Software, firmware, and information integrity verification
+          tools
     statement: >
-      {{ si_07_odp_05 }} are taken when unauthorized changes to the firmware are
-      detected;
+      {{ si_07_odp_05 }} are taken when unauthorized changes to the
+      firmware are detected;
   - id: b-3
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; procedures addressing software, firmware, and information
-          integrity; personally identifiable information processing policy; system
-          design documentation; system configuration settings and associated
-          documentation; integrity verification tools and associated documentation;
-          records generated or triggered by integrity verification tools regarding
-          unauthorized software, firmware, and information changes; system audit
-          records; system security plan; privacy plan; other relevant documents or
-          records
+          System and information integrity policy; system and
+          information integrity procedures; procedures addressing
+          software, firmware, and information integrity; personally
+          identifiable information processing policy; system design
+          documentation; system configuration settings and
+          associated documentation; integrity verification tools and
+          associated documentation; records generated or triggered
+          by integrity verification tools regarding unauthorized
+          software, firmware, and information changes; system audit
+          records; system security plan; privacy plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel responsible for software, firmware, and/or
-          information integrity; organizational personnel with information security
-          and privacy responsibilities; system/network administrators
+          Organizational personnel responsible for software,
+          firmware, and/or information integrity; organizational
+          personnel with information security and privacy
+          responsibilities; system/network administrators
       - method: test
-        statement: "Software, firmware, and information integrity verification tools"
+        statement: >-
+          Software, firmware, and information integrity verification
+          tools
     statement: >
-      {{ si_07_odp_06 }} are taken when unauthorized changes to the information
-      are detected.
+      {{ si_07_odp_06 }} are taken when unauthorized changes to the
+      information are detected.
 parameters:
   si_07_odp_01:
     label: software
@@ -183,15 +213,18 @@ parameters:
   si_07_odp_06:
     label: actions
   si_7_prm_1:
-    label: "organization-defined software, firmware, and information"
+    label: >-
+      organization-defined software, firmware, and information
   si_7_prm_2:
     label: organization-defined actions
 parts:
   - id: a
     statement: >
-      Employ integrity verification tools to detect unauthorized changes to the
-      following software, firmware, and information: {{ si_7_prm_1 }} ; and
+      Employ integrity verification tools to detect unauthorized
+      changes to the following software, firmware, and information:
+      {{ si_7_prm_1 }} ; and
   - id: b
     statement: >
-      Take the following actions when unauthorized changes to the software,
-      firmware, and information are detected: {{ si_7_prm_2 }}.
+      Take the following actions when unauthorized changes to the
+      software, firmware, and information are detected:
+      {{ si_7_prm_2 }}.

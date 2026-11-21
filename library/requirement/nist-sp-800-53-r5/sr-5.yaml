@@ -41,84 +41,112 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Supply chain risk management policy; supply chain risk management
-          procedures; supply chain risk management plan; system and services
-          acquisition policy; system and services acquisition procedures; procedures
-          addressing supply chain protection; procedures addressing the integration of
-          information security and privacy requirements into the acquisition process;
-          solicitation documentation; acquisition documentation (including purchase
-          orders); service level agreements; acquisition contracts for systems, system
-          components, or services; documentation of training, education, and awareness
-          programs for personnel regarding supply chain risk; system security plan;
-          privacy plan; other relevant documents or records
+          Supply chain risk management policy; supply chain risk
+          management procedures; supply chain risk management plan;
+          system and services acquisition policy; system and
+          services acquisition procedures; procedures addressing
+          supply chain protection; procedures addressing the
+          integration of information security and privacy
+          requirements into the acquisition process; solicitation
+          documentation; acquisition documentation (including
+          purchase orders); service level agreements; acquisition
+          contracts for systems, system components, or services;
+          documentation of training, education, and awareness
+          programs for personnel regarding supply chain risk; system
+          security plan; privacy plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          Organizational personnel with acquisition responsibilities; organizational
-          personnel with information security and privacy responsibilities;
-          organizational personnel with supply chain risk management responsibilities
+          Organizational personnel with acquisition
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities;
+          organizational personnel with supply chain risk management
+          responsibilities
       - method: test
         statement: >
-          Organizational processes for defining and employing tailored acquisition
-          strategies, contract tools, and procurement methods; mechanisms supporting
-          and/or implementing the definition and employment of tailored acquisition
-          strategies, contract tools, and procurement methods
-    statement: "{{ sr_05_odp }} are employed to protect against supply chain risks;"
+          Organizational processes for defining and employing
+          tailored acquisition strategies, contract tools, and
+          procurement methods; mechanisms supporting and/or
+          implementing the definition and employment of tailored
+          acquisition strategies, contract tools, and procurement
+          methods
+    statement: >-
+      {{ sr_05_odp }} are employed to protect against supply chain
+      risks;
   - id: "[02]"
     methods:
       - method: examine
         statement: >
-          Supply chain risk management policy; supply chain risk management
-          procedures; supply chain risk management plan; system and services
-          acquisition policy; system and services acquisition procedures; procedures
-          addressing supply chain protection; procedures addressing the integration of
-          information security and privacy requirements into the acquisition process;
-          solicitation documentation; acquisition documentation (including purchase
-          orders); service level agreements; acquisition contracts for systems, system
-          components, or services; documentation of training, education, and awareness
-          programs for personnel regarding supply chain risk; system security plan;
-          privacy plan; other relevant documents or records
+          Supply chain risk management policy; supply chain risk
+          management procedures; supply chain risk management plan;
+          system and services acquisition policy; system and
+          services acquisition procedures; procedures addressing
+          supply chain protection; procedures addressing the
+          integration of information security and privacy
+          requirements into the acquisition process; solicitation
+          documentation; acquisition documentation (including
+          purchase orders); service level agreements; acquisition
+          contracts for systems, system components, or services;
+          documentation of training, education, and awareness
+          programs for personnel regarding supply chain risk; system
+          security plan; privacy plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          Organizational personnel with acquisition responsibilities; organizational
-          personnel with information security and privacy responsibilities;
-          organizational personnel with supply chain risk management responsibilities
+          Organizational personnel with acquisition
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities;
+          organizational personnel with supply chain risk management
+          responsibilities
       - method: test
         statement: >
-          Organizational processes for defining and employing tailored acquisition
-          strategies, contract tools, and procurement methods; mechanisms supporting
-          and/or implementing the definition and employment of tailored acquisition
-          strategies, contract tools, and procurement methods
-    statement: "{{ sr_05_odp }} are employed to identify supply chain risks;"
+          Organizational processes for defining and employing
+          tailored acquisition strategies, contract tools, and
+          procurement methods; mechanisms supporting and/or
+          implementing the definition and employment of tailored
+          acquisition strategies, contract tools, and procurement
+          methods
+    statement: >-
+      {{ sr_05_odp }} are employed to identify supply chain risks;
   - id: "[03]"
     methods:
       - method: examine
         statement: >
-          Supply chain risk management policy; supply chain risk management
-          procedures; supply chain risk management plan; system and services
-          acquisition policy; system and services acquisition procedures; procedures
-          addressing supply chain protection; procedures addressing the integration of
-          information security and privacy requirements into the acquisition process;
-          solicitation documentation; acquisition documentation (including purchase
-          orders); service level agreements; acquisition contracts for systems, system
-          components, or services; documentation of training, education, and awareness
-          programs for personnel regarding supply chain risk; system security plan;
-          privacy plan; other relevant documents or records
+          Supply chain risk management policy; supply chain risk
+          management procedures; supply chain risk management plan;
+          system and services acquisition policy; system and
+          services acquisition procedures; procedures addressing
+          supply chain protection; procedures addressing the
+          integration of information security and privacy
+          requirements into the acquisition process; solicitation
+          documentation; acquisition documentation (including
+          purchase orders); service level agreements; acquisition
+          contracts for systems, system components, or services;
+          documentation of training, education, and awareness
+          programs for personnel regarding supply chain risk; system
+          security plan; privacy plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          Organizational personnel with acquisition responsibilities; organizational
-          personnel with information security and privacy responsibilities;
-          organizational personnel with supply chain risk management responsibilities
+          Organizational personnel with acquisition
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities;
+          organizational personnel with supply chain risk management
+          responsibilities
       - method: test
         statement: >
-          Organizational processes for defining and employing tailored acquisition
-          strategies, contract tools, and procurement methods; mechanisms supporting
-          and/or implementing the definition and employment of tailored acquisition
-          strategies, contract tools, and procurement methods
-    statement: "{{ sr_05_odp }} are employed to mitigate supply chain risks."
+          Organizational processes for defining and employing
+          tailored acquisition strategies, contract tools, and
+          procurement methods; mechanisms supporting and/or
+          implementing the definition and employment of tailored
+          acquisition strategies, contract tools, and procurement
+          methods
+    statement: >-
+      {{ sr_05_odp }} are employed to mitigate supply chain risks.
 parameters:
   sr_05_odp:
     label: "strategies, tools, and methods"
 statement: >
-  Employ the following acquisition strategies, contract tools, and procurement
-  methods to protect against, identify, and mitigate supply chain risks:
-  {{ sr_05_odp }}.
+  Employ the following acquisition strategies, contract tools, and
+  procurement methods to protect against, identify, and mitigate
+  supply chain risks: {{ sr_05_odp }}.

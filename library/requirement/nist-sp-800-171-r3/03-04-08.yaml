@@ -20,85 +20,101 @@ objectives:
     methods:
       - method: examine
         statement: >
-          configuration management policy and procedures; procedures for least
-          functionality in the system; configuration management plan; system design
-          documentation; system configuration settings; list of software programs
-          authorized to execute on the system; system component inventory; records
-          associated with the review and update of the list of authorized software
-          programs; common secure configuration checklists; change control records;
-          system audit records; system security plan; other relevant documents or
-          records
+          configuration management policy and procedures; procedures
+          for least functionality in the system; configuration
+          management plan; system design documentation; system
+          configuration settings; list of software programs
+          authorized to execute on the system; system component
+          inventory; records associated with the review and update
+          of the list of authorized software programs; common secure
+          configuration checklists; change control records; system
+          audit records; system security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          personnel with responsibilities for identifying software authorized to
-          execute on the system; personnel with information security responsibilities;
-          system administrators
+          personnel with responsibilities for identifying software
+          authorized to execute on the system; personnel with
+          information security responsibilities; system
+          administrators
       - method: test
         statement: >
-          processes for identifying, reviewing, and updating programs authorized to
-          execute on the system; processes for implementing authorized software
-          policy; mechanisms for supporting or implementing authorized software policy
-    statement: software programs authorized to execute on the system are identified.
+          processes for identifying, reviewing, and updating
+          programs authorized to execute on the system; processes
+          for implementing authorized software policy; mechanisms
+          for supporting or implementing authorized software policy
+    statement: >-
+      software programs authorized to execute on the system are
+      identified.
   - id: b
     methods:
       - method: examine
         statement: >
-          configuration management policy and procedures; procedures for least
-          functionality in the system; configuration management plan; system design
-          documentation; system configuration settings; list of software programs
-          authorized to execute on the system; system component inventory; records
-          associated with the review and update of the list of authorized software
-          programs; common secure configuration checklists; change control records;
-          system audit records; system security plan; other relevant documents or
-          records
+          configuration management policy and procedures; procedures
+          for least functionality in the system; configuration
+          management plan; system design documentation; system
+          configuration settings; list of software programs
+          authorized to execute on the system; system component
+          inventory; records associated with the review and update
+          of the list of authorized software programs; common secure
+          configuration checklists; change control records; system
+          audit records; system security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          personnel with responsibilities for identifying software authorized to
-          execute on the system; personnel with information security responsibilities;
-          system administrators
+          personnel with responsibilities for identifying software
+          authorized to execute on the system; personnel with
+          information security responsibilities; system
+          administrators
       - method: test
         statement: >
-          processes for identifying, reviewing, and updating programs authorized to
-          execute on the system; processes for implementing authorized software
-          policy; mechanisms for supporting or implementing authorized software policy
+          processes for identifying, reviewing, and updating
+          programs authorized to execute on the system; processes
+          for implementing authorized software policy; mechanisms
+          for supporting or implementing authorized software policy
     statement: >
-      a deny-all, allow-by-exception policy for the execution of authorized
-      software programs on the system is implemented.
+      a deny-all, allow-by-exception policy for the execution of
+      authorized software programs on the system is implemented.
   - id: c
     methods:
       - method: examine
         statement: >
-          configuration management policy and procedures; procedures for least
-          functionality in the system; configuration management plan; system design
-          documentation; system configuration settings; list of software programs
-          authorized to execute on the system; system component inventory; records
-          associated with the review and update of the list of authorized software
-          programs; common secure configuration checklists; change control records;
-          system audit records; system security plan; other relevant documents or
-          records
+          configuration management policy and procedures; procedures
+          for least functionality in the system; configuration
+          management plan; system design documentation; system
+          configuration settings; list of software programs
+          authorized to execute on the system; system component
+          inventory; records associated with the review and update
+          of the list of authorized software programs; common secure
+          configuration checklists; change control records; system
+          audit records; system security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          personnel with responsibilities for identifying software authorized to
-          execute on the system; personnel with information security responsibilities;
-          system administrators
+          personnel with responsibilities for identifying software
+          authorized to execute on the system; personnel with
+          information security responsibilities; system
+          administrators
       - method: test
         statement: >
-          processes for identifying, reviewing, and updating programs authorized to
-          execute on the system; processes for implementing authorized software
-          policy; mechanisms for supporting or implementing authorized software policy
+          processes for identifying, reviewing, and updating
+          programs authorized to execute on the system; processes
+          for implementing authorized software policy; mechanisms
+          for supporting or implementing authorized software policy
     statement: >
-      the list of authorized software programs is reviewed and updated
-      {{ a_03_04_08_odp_01 }}.
+      the list of authorized software programs is reviewed and
+      updated {{ a_03_04_08_odp_01 }}.
 parameters:
   a_03_04_08_odp_01:
     label: frequency
 parts:
   - id: a
-    statement: Identify software programs authorized to execute on the system.
+    statement: >-
+      Identify software programs authorized to execute on the
+      system.
   - id: b
     statement: >
-      Implement a deny-all, allow-by-exception policy for the execution of
-      authorized software programs on the system.
+      Implement a deny-all, allow-by-exception policy for the
+      execution of authorized software programs on the system.
   - id: c
     statement: >
       Review and update the list of authorized software programs

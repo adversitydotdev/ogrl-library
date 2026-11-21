@@ -13,25 +13,29 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Configuration management policy; procedures addressing identification and
-          documentation of information location; configuration management plan; system
-          design documentation; PII inventory documentation; data mapping
-          documentation; change control records; system component inventory; system
-          security plan; privacy plan; other relevant documents or records
+          Configuration management policy; procedures addressing
+          identification and documentation of information location;
+          configuration management plan; system design
+          documentation; PII inventory documentation; data mapping
+          documentation; change control records; system component
+          inventory; system security plan; privacy plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with responsibilities for managing information
-          location; organizational personnel with information security
-          responsibilities; system/network administrators; system developers
+          Organizational personnel with responsibilities for
+          managing information location; organizational personnel
+          with information security responsibilities; system/network
+          administrators; system developers
       - method: test
         statement: >
-          Organizational processes governing information location; automated
-          mechanisms enforcing policies and methods for governing information
-          location; automated tools used to identify information on system components
+          Organizational processes governing information location;
+          automated mechanisms enforcing policies and methods for
+          governing information location; automated tools used to
+          identify information on system components
     statement: >
       automated tools are used to identify {{ cm_12_01_odp_01 }} on
-      {{ cm_12_01_odp_02 }} to ensure that controls are in place to protect
-      organizational information and individual privacy.
+      {{ cm_12_01_odp_02 }} to ensure that controls are in place to
+      protect organizational information and individual privacy.
 parameters:
   cm_12_01_odp_01:
     label: information by information type

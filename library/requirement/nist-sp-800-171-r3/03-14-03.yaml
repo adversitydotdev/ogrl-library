@@ -15,22 +15,22 @@ framework_ref: framework--nist-sp-800-171-r3
 objectives:
   - id: a
     statement: >
-      system security alerts, advisories, and directives from external
-      organizations are received on an ongoing basis.
+      system security alerts, advisories, and directives from
+      external organizations are received on an ongoing basis.
   - id: b.01
     statement: >
-      internal security alerts, advisories, and directives are generated, as
-      necessary.
+      internal security alerts, advisories, and directives are
+      generated, as necessary.
   - id: b.02
     statement: >
-      internal security alerts, advisories, and directives are disseminated, as
-      necessary.
+      internal security alerts, advisories, and directives are
+      disseminated, as necessary.
 parts:
   - id: a
     statement: >
-      Receive system security alerts, advisories, and directives from external
-      organizations on an ongoing basis.
+      Receive system security alerts, advisories, and directives
+      from external organizations on an ongoing basis.
   - id: b
     statement: >
-      Generate and disseminate internal system security alerts, advisories, and
-      directives, as necessary.
+      Generate and disseminate internal system security alerts,
+      advisories, and directives, as necessary.

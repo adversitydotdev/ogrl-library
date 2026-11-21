@@ -13,18 +13,20 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Audit and accountability policy; procedures addressing response to audit
-          processing failures; system design documentation; system security plan;
-          privacy plan; system configuration settings and associated documentation;
+          Audit and accountability policy; procedures addressing
+          response to audit processing failures; system design
+          documentation; system security plan; privacy plan; system
+          configuration settings and associated documentation;
           system audit records; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with audit and accountability responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities; system/network administrators; system developers
+          Organizational personnel with audit and accountability
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities;
+          system/network administrators; system developers
     statement: >
-      an alert is provided within {{ au_05_02_odp_01 }} to {{ au_05_02_odp_02 }}
-      when {{ au_05_02_odp_03 }} occur.
+      an alert is provided within {{ au_05_02_odp_01 }} to
+      {{ au_05_02_odp_02 }} when {{ au_05_02_odp_03 }} occur.
 parameters:
   au_05_02_odp_01:
     label: real-time period
@@ -33,5 +35,6 @@ parameters:
   au_05_02_odp_03:
     label: audit logging failure events requiring real-time alerts
 statement: >
-  Provide an alert within {{ au_05_02_odp_01 }} to {{ au_05_02_odp_02 }} when
-  the following audit failure events occur: {{ au_05_02_odp_03 }}.
+  Provide an alert within {{ au_05_02_odp_01 }} to
+  {{ au_05_02_odp_02 }} when the following audit failure events
+  occur: {{ au_05_02_odp_03 }}.

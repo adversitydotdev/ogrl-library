@@ -13,49 +13,57 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; procedures addressing malicious code protection; system design
-          documentation; malicious code protection mechanisms; warning messages sent
-          upon the detection of unauthorized operating system command execution;
-          system configuration settings and associated documentation; system audit
-          records; system security plan; other relevant documents or records
+          System and information integrity policy; system and
+          information integrity procedures; procedures addressing
+          malicious code protection; system design documentation;
+          malicious code protection mechanisms; warning messages
+          sent upon the detection of unauthorized operating system
+          command execution; system configuration settings and
+          associated documentation; system audit records; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; system developers; organizational personnel
-          installing, configuring, and/or maintaining the system; organizational
+          System/network administrators; organizational personnel
+          with information security responsibilities; system
+          developers; organizational personnel installing,
+          configuring, and/or maintaining the system; organizational
           personnel responsible for malicious code protection
       - method: test
         statement: >
-          Mechanisms supporting and/or implementing malicious code protection
-          capabilities; mechanisms supporting and/or implementing the detection of
-          unauthorized operating system commands through the kernel application
-          programming interface
+          Mechanisms supporting and/or implementing malicious code
+          protection capabilities; mechanisms supporting and/or
+          implementing the detection of unauthorized operating
+          system commands through the kernel application programming
+          interface
     statement: >
-      {{ si_03_08_odp_01 }} are detected through the kernel application
-      programming interface on {{ si_03_08_odp_02 }};
+      {{ si_03_08_odp_01 }} are detected through the kernel
+      application programming interface on {{ si_03_08_odp_02 }};
   - id: b
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; procedures addressing malicious code protection; system design
-          documentation; malicious code protection mechanisms; warning messages sent
-          upon the detection of unauthorized operating system command execution;
-          system configuration settings and associated documentation; system audit
-          records; system security plan; other relevant documents or records
+          System and information integrity policy; system and
+          information integrity procedures; procedures addressing
+          malicious code protection; system design documentation;
+          malicious code protection mechanisms; warning messages
+          sent upon the detection of unauthorized operating system
+          command execution; system configuration settings and
+          associated documentation; system audit records; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; system developers; organizational personnel
-          installing, configuring, and/or maintaining the system; organizational
+          System/network administrators; organizational personnel
+          with information security responsibilities; system
+          developers; organizational personnel installing,
+          configuring, and/or maintaining the system; organizational
           personnel responsible for malicious code protection
       - method: test
         statement: >
-          Mechanisms supporting and/or implementing malicious code protection
-          capabilities; mechanisms supporting and/or implementing the detection of
-          unauthorized operating system commands through the kernel application
-          programming interface
+          Mechanisms supporting and/or implementing malicious code
+          protection capabilities; mechanisms supporting and/or
+          implementing the detection of unauthorized operating
+          system commands through the kernel application programming
+          interface
     statement: "{{ si_03_08_odp_03 }} is/are performed."
 parameters:
   si_03_08_odp_01:
@@ -67,8 +75,8 @@ parameters:
 parts:
   - id: a
     statement: >
-      Detect the following unauthorized operating system commands through the
-      kernel application programming interface on {{ si_03_08_odp_02 }}:
-      {{ si_03_08_odp_01 }} ; and
+      Detect the following unauthorized operating system commands
+      through the kernel application programming interface on
+      {{ si_03_08_odp_02 }}: {{ si_03_08_odp_01 }} ; and
   - id: b
     statement: "{{ si_03_08_odp_03 }}."

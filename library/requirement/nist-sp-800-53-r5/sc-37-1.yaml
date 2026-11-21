@@ -13,33 +13,38 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; procedures addressing the use
-          of out-of-band channels; access control policy and procedures;
-          identification and authentication policy and procedures; system design
-          documentation; system architecture; system configuration settings and
-          associated documentation; list of security safeguards to be employed to
-          ensure that designated individuals or systems receive organization-defined
-          information, system components, or devices; list of security safeguards for
-          delivering designated information, system components, or devices to
-          designated individuals or systems; list of information, system components,
-          or devices to be delivered to designated individuals or systems; system
-          audit records; system security plan; other relevant documents or records
+          System and communications protection policy; procedures
+          addressing the use of out-of-band channels; access control
+          policy and procedures; identification and authentication
+          policy and procedures; system design documentation; system
+          architecture; system configuration settings and associated
+          documentation; list of security safeguards to be employed
+          to ensure that designated individuals or systems receive
+          organization-defined information, system components, or
+          devices; list of security safeguards for delivering
+          designated information, system components, or devices to
+          designated individuals or systems; list of information,
+          system components, or devices to be delivered to
+          designated individuals or systems; system audit records;
+          system security plan; other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; organizational personnel installing, configuring,
-          and/or maintaining the system; organizational personnel authorizing,
-          installing, configuring, operating, and/or using out-of-band channels;
+          System/network administrators; organizational personnel
+          with information security responsibilities; organizational
+          personnel installing, configuring, and/or maintaining the
+          system; organizational personnel authorizing, installing,
+          configuring, operating, and/or using out-of-band channels;
           system developers/integrators
       - method: test
         statement: >
-          Organizational processes for the use of out-of-band channels; mechanisms
-          supporting and/or implementing the use of out-of-band channels; mechanisms
-          supporting/implementing safeguards to ensure the delivery of designated
-          information, system components, or devices
+          Organizational processes for the use of out-of-band
+          channels; mechanisms supporting and/or implementing the
+          use of out-of-band channels; mechanisms
+          supporting/implementing safeguards to ensure the delivery
+          of designated information, system components, or devices
     statement: >
-      {{ sc_37_01_odp_01 }} are employed to ensure that only {{ sc_37_01_odp_02 }}
-      receive {{ sc_37_01_odp_03 }}.
+      {{ sc_37_01_odp_01 }} are employed to ensure that only
+      {{ sc_37_01_odp_02 }} receive {{ sc_37_01_odp_03 }}.
 parameters:
   sc_37_01_odp_01:
     label: controls
@@ -48,6 +53,6 @@ parameters:
   sc_37_01_odp_03:
     label: "information, system components, or devices"
 statement: >
-  Employ {{ sc_37_01_odp_01 }} to ensure that only {{ sc_37_01_odp_02 }}
-  receive the following information, system components, or devices:
-  {{ sc_37_01_odp_03 }}.
+  Employ {{ sc_37_01_odp_01 }} to ensure that only
+  {{ sc_37_01_odp_02 }} receive the following information, system
+  components, or devices: {{ sc_37_01_odp_03 }}.

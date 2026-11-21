@@ -65,50 +65,60 @@ objectives:
     methods:
       - method: examine
         statement: >
-          system and communications protection policy and procedures; procedures for
-          transmission confidentiality; procedures for the protection of information
-          at rest; system design documentation; system configuration settings;
-          cryptographic mechanisms and associated configuration documentation;
-          information in storage requiring confidentiality protection; system audit
-          records; system security plan; other relevant documents or records
+          system and communications protection policy and
+          procedures; procedures for transmission confidentiality;
+          procedures for the protection of information at rest;
+          system design documentation; system configuration
+          settings; cryptographic mechanisms and associated
+          configuration documentation; information in storage
+          requiring confidentiality protection; system audit
+          records; system security plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          personnel with information security responsibilities; system developers;
-          system administrators
+          personnel with information security responsibilities;
+          system developers; system administrators
       - method: test
         statement: >
-          mechanisms for supporting or implementing transmission confidentiality;
-          cryptographic mechanisms for supporting or implementing transmission
-          confidentiality; mechanisms for supporting or implementing confidentiality
-          protection for information in storage; cryptographic mechanisms for
-          implementing confidentiality protections for information in storage
+          mechanisms for supporting or implementing transmission
+          confidentiality; cryptographic mechanisms for supporting
+          or implementing transmission confidentiality; mechanisms
+          for supporting or implementing confidentiality protection
+          for information in storage; cryptographic mechanisms for
+          implementing confidentiality protections for information
+          in storage
     statement: >
-      cryptographic mechanisms are implemented to prevent the unauthorized
-      disclosure of CUI during transmission.
+      cryptographic mechanisms are implemented to prevent the
+      unauthorized disclosure of CUI during transmission.
   - id: "02"
     methods:
       - method: examine
         statement: >
-          system and communications protection policy and procedures; procedures for
-          transmission confidentiality; procedures for the protection of information
-          at rest; system design documentation; system configuration settings;
-          cryptographic mechanisms and associated configuration documentation;
-          information in storage requiring confidentiality protection; system audit
-          records; system security plan; other relevant documents or records
+          system and communications protection policy and
+          procedures; procedures for transmission confidentiality;
+          procedures for the protection of information at rest;
+          system design documentation; system configuration
+          settings; cryptographic mechanisms and associated
+          configuration documentation; information in storage
+          requiring confidentiality protection; system audit
+          records; system security plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          personnel with information security responsibilities; system developers;
-          system administrators
+          personnel with information security responsibilities;
+          system developers; system administrators
       - method: test
         statement: >
-          mechanisms for supporting or implementing transmission confidentiality;
-          cryptographic mechanisms for supporting or implementing transmission
-          confidentiality; mechanisms for supporting or implementing confidentiality
-          protection for information in storage; cryptographic mechanisms for
-          implementing confidentiality protections for information in storage
+          mechanisms for supporting or implementing transmission
+          confidentiality; cryptographic mechanisms for supporting
+          or implementing transmission confidentiality; mechanisms
+          for supporting or implementing confidentiality protection
+          for information in storage; cryptographic mechanisms for
+          implementing confidentiality protections for information
+          in storage
     statement: >
-      cryptographic mechanisms are implemented to prevent the unauthorized
-      disclosure of CUI while in storage.
+      cryptographic mechanisms are implemented to prevent the
+      unauthorized disclosure of CUI while in storage.
 statement: >
-  Implement cryptographic mechanisms to prevent the unauthorized disclosure of
-  CUI during transmission and while in storage.
+  Implement cryptographic mechanisms to prevent the unauthorized
+  disclosure of CUI during transmission and while in storage.

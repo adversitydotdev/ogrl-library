@@ -20,21 +20,24 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; procedures addressing
-          prioritization of system resources; system design documentation; system
-          configuration settings and associated documentation; system audit records;
-          system security plan; other relevant documents or records
+          System and communications protection policy; procedures
+          addressing prioritization of system resources; system
+          design documentation; system configuration settings and
+          associated documentation; system audit records; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; system developer
+          System/network administrators; organizational personnel
+          with information security responsibilities; system
+          developer
       - method: test
         statement: >
-          Mechanisms supporting and/or implementing a resource allocation capability;
-          safeguards employed to protect availability of resources
+          Mechanisms supporting and/or implementing a resource
+          allocation capability; safeguards employed to protect
+          availability of resources
     statement: >
-      the availability of resources is protected by allocating {{ sc_06_odp_01 }}
-      by {{ sc_06_odp_02 }}.
+      the availability of resources is protected by allocating
+      {{ sc_06_odp_01 }} by {{ sc_06_odp_02 }}.
 parameters:
   sc_06_odp_01:
     label: resources
@@ -43,5 +46,5 @@ parameters:
   sc_06_odp_03:
     label: controls
 statement: >
-  Protect the availability of resources by allocating {{ sc_06_odp_01 }} by
-  {{ sc_06_odp_02 }}.
+  Protect the availability of resources by allocating
+  {{ sc_06_odp_01 }} by {{ sc_06_odp_02 }}.

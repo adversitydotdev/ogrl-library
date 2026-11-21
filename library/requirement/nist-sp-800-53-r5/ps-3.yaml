@@ -41,41 +41,48 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Personnel security policy; procedures addressing personnel screening;
-          records of screened personnel; system security plan; other relevant
-          documents or records
+          Personnel security policy; procedures addressing personnel
+          screening; records of screened personnel; system security
+          plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with personnel security responsibilities;
-          organizational personnel with information security responsibilities
+          Organizational personnel with personnel security
+          responsibilities; organizational personnel with
+          information security responsibilities
       - method: test
         statement: Organizational processes for personnel screening
-    statement: individuals are screened prior to authorizing access to the system;
+    statement: >-
+      individuals are screened prior to authorizing access to the
+      system;
   - id: b-1
     methods:
       - method: examine
         statement: >
-          Personnel security policy; procedures addressing personnel screening;
-          records of screened personnel; system security plan; other relevant
-          documents or records
+          Personnel security policy; procedures addressing personnel
+          screening; records of screened personnel; system security
+          plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with personnel security responsibilities;
-          organizational personnel with information security responsibilities
+          Organizational personnel with personnel security
+          responsibilities; organizational personnel with
+          information security responsibilities
       - method: test
         statement: Organizational processes for personnel screening
-    statement: "individuals are rescreened in accordance with {{ ps_03_odp_01 }};"
+    statement: >-
+      individuals are rescreened in accordance with
+      {{ ps_03_odp_01 }};
   - id: b-2
     methods:
       - method: examine
         statement: >
-          Personnel security policy; procedures addressing personnel screening;
-          records of screened personnel; system security plan; other relevant
-          documents or records
+          Personnel security policy; procedures addressing personnel
+          screening; records of screened personnel; system security
+          plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with personnel security responsibilities;
-          organizational personnel with information security responsibilities
+          Organizational personnel with personnel security
+          responsibilities; organizational personnel with
+          information security responsibilities
       - method: test
         statement: Organizational processes for personnel screening
     statement: >
@@ -88,10 +95,14 @@ parameters:
     label: frequency
   ps_3_prm_1:
     label: >
-      organization-defined conditions requiring rescreening and, where rescreening
-      is so indicated, the frequency of rescreening
+      organization-defined conditions requiring rescreening and,
+      where rescreening is so indicated, the frequency of
+      rescreening
 parts:
   - id: a
-    statement: Screen individuals prior to authorizing access to the system; and
+    statement: >-
+      Screen individuals prior to authorizing access to the system;
+      and
   - id: b
-    statement: "Rescreen individuals in accordance with {{ ps_3_prm_1 }}."
+    statement: >-
+      Rescreen individuals in accordance with {{ ps_3_prm_1 }}.

@@ -11,6 +11,6 @@ relationship: equivalent-to
 review_status: draft
 source_ref: control--ogrl-bc-04
 summary: >
-  Scheduled restore tests with completeness and integrity checks verify backup
-  reliability and integrity per CP-9(1).
+  Scheduled restore tests with completeness and integrity checks
+  verify backup reliability and integrity per CP-9(1).
 target_ref: requirement--nist-sp-800-53-r5-cp-9-1

@@ -9,20 +9,21 @@ control_type: corrective
 family: gv
 frequency: monthly
 guidance: >
-  A dedicated project in the ticketing system or the compliance platform's
-  findings module works as the register. Close items only with evidence of the
-  fix and, for significant deficiencies, a retest. Evidence: the register with
-  timestamps and the review meeting notes.
+  A dedicated project in the ticketing system or the compliance
+  platform's findings module works as the register. Close items only
+  with evidence of the fix and, for significant deficiencies, a
+  retest. Evidence: the register with timestamps and the review
+  meeting notes.
 objective: >
-  Identified control weaknesses are communicated to those who can fix them and
-  are corrected in a timely, tracked way.
+  Identified control weaknesses are communicated to those who can
+  fix them and are corrected in a timely, tracked way.
 origin: standard
 parameters:
   remediation_sla:
     label: Deficiency remediation deadline
     value: >
-      30 days for high severity and 90 days for others, unless a documented risk
-      acceptance applies
+      30 days for high severity and 90 days for others, unless a
+      documented risk acceptance applies
   review_audience:
     label: Deficiency review audience
     value: the security leader and responsible control owners
@@ -31,14 +32,15 @@ parameters:
     value: monthly
 statement: >
   Record every control deficiency identified by assessments, audits,
-  continuous monitoring, penetration tests, or incidents in a deficiency
-  register with an owner, severity, remediation plan, and due date. Remediate
-  deficiencies within {{ remediation_sla }}, review open and overdue items
-  with {{ review_audience }} {{ review_frequency }}, and escalate items past
-  due to executive leadership.
+  continuous monitoring, penetration tests, or incidents in a
+  deficiency register with an owner, severity, remediation plan, and
+  due date. Remediate deficiencies within {{ remediation_sla }},
+  review open and overdue items with {{ review_audience }}
+  {{ review_frequency }}, and escalate items past due to executive
+  leadership.
 summary: >
-  Track every control deficiency to remediation with an owner and due date,
-  and review open items with leadership.
+  Track every control deficiency to remediation with an owner and
+  due date, and review open items with leadership.
 tags:
   - governance
   - deficiency-management

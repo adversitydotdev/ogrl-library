@@ -9,12 +9,12 @@ control_type: preventive
 family: cm
 frequency: event-driven
 guidance: >
-  Enforce branch protection rules that prevent self-approval, require passing
-  CI checks, and link deployments to immutable commit hashes and review
-  tickets.
+  Enforce branch protection rules that prevent self-approval,
+  require passing CI checks, and link deployments to immutable
+  commit hashes and review tickets.
 objective: >
-  Prevent unauthorized, untested, or unreviewed modifications to production
-  code and infrastructure.
+  Prevent unauthorized, untested, or unreviewed modifications to
+  production code and infrastructure.
 origin: standard
 parameters:
   change_authority:
@@ -24,13 +24,14 @@ parameters:
     label: Change record retention period
     value: "365 days"
 statement: >
-  Require independent peer review, automated verification checks, and
-  documented approval overseen by {{ change_authority }} before merging or
-  deploying changes to production, retaining change records for
-  {{ change_record_retention }}.
+  Require independent peer review, automated verification checks,
+  and documented approval overseen by {{ change_authority }} before
+  merging or deploying changes to production, retaining change
+  records for {{ change_record_retention }}.
 summary: >
-  Require independent peer review, automated testing, and traceable approval
-  before deploying production code or infrastructure changes.
+  Require independent peer review, automated testing, and traceable
+  approval before deploying production code or infrastructure
+  changes.
 tags:
   - change-management
   - sdlc

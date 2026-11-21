@@ -23,103 +23,127 @@ objectives:
     methods:
       - method: examine
         statement: >
-          configuration management policy and procedures; procedures for system
-          configuration settings; configuration management plan; system design
-          documentation; system configuration settings; common secure configuration
-          checklists; system component inventory; evidence supporting approved
-          deviations from established configuration settings; change control records;
-          system data processing and retention permissions; system audit records;
-          system security plan; other relevant documents or records
+          configuration management policy and procedures; procedures
+          for system configuration settings; configuration
+          management plan; system design documentation; system
+          configuration settings; common secure configuration
+          checklists; system component inventory; evidence
+          supporting approved deviations from established
+          configuration settings; change control records; system
+          data processing and retention permissions; system audit
+          records; system security plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          personnel with security configuration management responsibilities; personnel
-          with information security responsibilities; system administrators
+          personnel with security configuration management
+          responsibilities; personnel with information security
+          responsibilities; system administrators
       - method: test
         statement: >
-          processes for managing configuration settings; mechanisms that implement,
-          monitor, or control system configuration settings; mechanisms that identify
-          or document deviations from established configuration settings
+          processes for managing configuration settings; mechanisms
+          that implement, monitor, or control system configuration
+          settings; mechanisms that identify or document deviations
+          from established configuration settings
     statement: >
-      the following configuration settings for the system that reflect the most
-      restrictive mode consistent with operational requirements are established
-      and documented: {{ a_03_04_02_odp_01 }}.
+      the following configuration settings for the system that
+      reflect the most restrictive mode consistent with operational
+      requirements are established and documented:
+      {{ a_03_04_02_odp_01 }}.
   - id: b.01
     methods:
       - method: examine
         statement: >
-          configuration management policy and procedures; procedures for system
-          configuration settings; configuration management plan; system design
-          documentation; system configuration settings; common secure configuration
-          checklists; system component inventory; evidence supporting approved
-          deviations from established configuration settings; change control records;
-          system data processing and retention permissions; system audit records;
-          system security plan; other relevant documents or records
+          configuration management policy and procedures; procedures
+          for system configuration settings; configuration
+          management plan; system design documentation; system
+          configuration settings; common secure configuration
+          checklists; system component inventory; evidence
+          supporting approved deviations from established
+          configuration settings; change control records; system
+          data processing and retention permissions; system audit
+          records; system security plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          personnel with security configuration management responsibilities; personnel
-          with information security responsibilities; system administrators
+          personnel with security configuration management
+          responsibilities; personnel with information security
+          responsibilities; system administrators
       - method: test
         statement: >
-          processes for managing configuration settings; mechanisms that implement,
-          monitor, or control system configuration settings; mechanisms that identify
-          or document deviations from established configuration settings
+          processes for managing configuration settings; mechanisms
+          that implement, monitor, or control system configuration
+          settings; mechanisms that identify or document deviations
+          from established configuration settings
     statement: >
-      any deviations from established configuration settings are identified and
-      documented.
+      any deviations from established configuration settings are
+      identified and documented.
   - id: b.02
     methods:
       - method: examine
         statement: >
-          configuration management policy and procedures; procedures for system
-          configuration settings; configuration management plan; system design
-          documentation; system configuration settings; common secure configuration
-          checklists; system component inventory; evidence supporting approved
-          deviations from established configuration settings; change control records;
-          system data processing and retention permissions; system audit records;
-          system security plan; other relevant documents or records
+          configuration management policy and procedures; procedures
+          for system configuration settings; configuration
+          management plan; system design documentation; system
+          configuration settings; common secure configuration
+          checklists; system component inventory; evidence
+          supporting approved deviations from established
+          configuration settings; change control records; system
+          data processing and retention permissions; system audit
+          records; system security plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          personnel with security configuration management responsibilities; personnel
-          with information security responsibilities; system administrators
+          personnel with security configuration management
+          responsibilities; personnel with information security
+          responsibilities; system administrators
       - method: test
         statement: >
-          processes for managing configuration settings; mechanisms that implement,
-          monitor, or control system configuration settings; mechanisms that identify
-          or document deviations from established configuration settings
-    statement: any deviations from established configuration settings are approved.
+          processes for managing configuration settings; mechanisms
+          that implement, monitor, or control system configuration
+          settings; mechanisms that identify or document deviations
+          from established configuration settings
+    statement: >-
+      any deviations from established configuration settings are
+      approved.
   - id: a.02
     methods:
       - method: examine
         statement: >
-          configuration management policy and procedures; procedures for system
-          configuration settings; configuration management plan; system design
-          documentation; system configuration settings; common secure configuration
-          checklists; system component inventory; evidence supporting approved
-          deviations from established configuration settings; change control records;
-          system data processing and retention permissions; system audit records;
-          system security plan; other relevant documents or records
+          configuration management policy and procedures; procedures
+          for system configuration settings; configuration
+          management plan; system design documentation; system
+          configuration settings; common secure configuration
+          checklists; system component inventory; evidence
+          supporting approved deviations from established
+          configuration settings; change control records; system
+          data processing and retention permissions; system audit
+          records; system security plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          personnel with security configuration management responsibilities; personnel
-          with information security responsibilities; system administrators
+          personnel with security configuration management
+          responsibilities; personnel with information security
+          responsibilities; system administrators
       - method: test
         statement: >
-          processes for managing configuration settings; mechanisms that implement,
-          monitor, or control system configuration settings; mechanisms that identify
-          or document deviations from established configuration settings
+          processes for managing configuration settings; mechanisms
+          that implement, monitor, or control system configuration
+          settings; mechanisms that identify or document deviations
+          from established configuration settings
     statement: >
-      the following configuration settings for the system are implemented:
-      {{ a_03_04_02_odp_01 }}.
+      the following configuration settings for the system are
+      implemented: {{ a_03_04_02_odp_01 }}.
 parameters:
   a_03_04_02_odp_01:
     label: configuration settings
 parts:
   - id: a
     statement: >
-      Establish, document, and implement the following configuration settings for
-      the system that reflect the most restrictive mode consistent with
-      operational requirements: {{ a_03_04_02_odp_01 }} .
+      Establish, document, and implement the following configuration
+      settings for the system that reflect the most restrictive mode
+      consistent with operational requirements:
+      {{ a_03_04_02_odp_01 }} .
   - id: b
     statement: >
-      Identify, document, and approve any deviations from established
-      configuration settings.
+      Identify, document, and approve any deviations from
+      established configuration settings.

@@ -20,30 +20,37 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; procedures addressing system
-          partitioning; system design documentation; system configuration settings and
-          associated documentation; system architecture; list of system physical
-          domains (or environments); system facility diagrams; system network
-          diagrams; system security plan; other relevant documents or records
+          System and communications protection policy; procedures
+          addressing system partitioning; system design
+          documentation; system configuration settings and
+          associated documentation; system architecture; list of
+          system physical domains (or environments); system facility
+          diagrams; system network diagrams; system security plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; organizational personnel installing, configuring,
-          and/or maintaining the system; system developers/integrators
+          System/network administrators; organizational personnel
+          with information security responsibilities; organizational
+          personnel installing, configuring, and/or maintaining the
+          system; system developers/integrators
       - method: test
         statement: >
-          Mechanisms supporting and/or implementing the physical separation of system
-          components
+          Mechanisms supporting and/or implementing the physical
+          separation of system components
     statement: >
-      the system is partitioned into {{ sc_32_odp_01 }} residing in separate
-      {{ sc_32_odp_02 }} domains or environments based on {{ sc_32_odp_03 }}.
+      the system is partitioned into {{ sc_32_odp_01 }} residing in
+      separate {{ sc_32_odp_02 }} domains or environments based on
+      {{ sc_32_odp_03 }}.
 parameters:
   sc_32_odp_01:
     label: system components
   sc_32_odp_02:
     label: sc-32_odp.02
   sc_32_odp_03:
-    label: circumstances for the physical or logical separation of components
+    label: >-
+      circumstances for the physical or logical separation of
+      components
 statement: >
   Partition the system into {{ sc_32_odp_01 }} residing in separate
-  {{ sc_32_odp_02 }} domains or environments based on {{ sc_32_odp_03 }}.
+  {{ sc_32_odp_02 }} domains or environments based on
+  {{ sc_32_odp_03 }}.

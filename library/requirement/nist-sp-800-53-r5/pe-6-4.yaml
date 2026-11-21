@@ -13,29 +13,33 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Physical and environmental protection policy; procedures addressing physical
-          access monitoring; physical access control logs or records; physical access
-          control devices; access authorizations; access credentials; list of areas
-          within the facility containing concentrations of system components or system
-          components requiring additional physical access monitoring; system security
-          plan; privacy plan; privacy impact assessment; privacy risk assessment
+          Physical and environmental protection policy; procedures
+          addressing physical access monitoring; physical access
+          control logs or records; physical access control devices;
+          access authorizations; access credentials; list of areas
+          within the facility containing concentrations of system
+          components or system components requiring additional
+          physical access monitoring; system security plan; privacy
+          plan; privacy impact assessment; privacy risk assessment
           documentation; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with physical access monitoring responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities
+          Organizational personnel with physical access monitoring
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities
       - method: test
         statement: >
-          Organizational processes for monitoring physical access to the system;
-          mechanisms supporting and/or implementing physical access monitoring for
-          facility areas containing system components
+          Organizational processes for monitoring physical access to
+          the system; mechanisms supporting and/or implementing
+          physical access monitoring for facility areas containing
+          system components
     statement: >
-      physical access to the system is monitored in addition to the physical
-      access monitoring of the facility at {{ pe_06_04_odp }}.
+      physical access to the system is monitored in addition to the
+      physical access monitoring of the facility at
+      {{ pe_06_04_odp }}.
 parameters:
   pe_06_04_odp:
     label: physical spaces
 statement: >
-  Monitor physical access to the system in addition to the physical access
-  monitoring of the facility at {{ pe_06_04_odp }}.
+  Monitor physical access to the system in addition to the physical
+  access monitoring of the facility at {{ pe_06_04_odp }}.

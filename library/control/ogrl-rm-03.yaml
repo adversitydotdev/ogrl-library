@@ -9,15 +9,17 @@ control_type: detective
 family: rm
 frequency: annual
 guidance: >
-  Perform it as a dedicated section of the annual risk assessment (OGRL-RM-02)
-  and record scenarios in the same register with a fraud tag. Typical SaaS
-  scenarios: an engineer altering production data, an admin granting
-  themselves access, payment redirection through a vendor change request, and
-  executives bypassing change approval. Evidence: the fraud section of the
-  assessment and its review record.
+  Perform it as a dedicated section of the annual risk assessment
+  (OGRL-RM-02) and record scenarios in the same register with a
+  fraud tag. Typical SaaS scenarios: an engineer altering production
+  data, an admin granting themselves access, payment redirection
+  through a vendor change request, and executives bypassing change
+  approval. Evidence: the fraud section of the assessment and its
+  review record.
 objective: >
-  The organization has considered how fraud could compromise its systems and
-  commitments, and each identified scenario has a documented response.
+  The organization has considered how fraud could compromise its
+  systems and commitments, and each identified scenario has a
+  documented response.
 origin: standard
 parameters:
   fraud_assessment_frequency:
@@ -25,18 +27,19 @@ parameters:
     value: at least annually
   fraud_review_audience:
     label: Fraud risk review audience
-    value: executive leadership and the board or its designated committee
+    value: >-
+      executive leadership and the board or its designated committee
 statement: >
-  Assess fraud risk {{ fraud_assessment_frequency }}, considering motive,
-  opportunity, and rationalization for the workforce and third parties, the
-  potential for management override of controls, and fraud scenarios relevant
-  to the system such as misuse of privileged access or manipulation of
-  customer or billing data. Document each scenario with its rating and
-  mitigating controls, and review the results with
-  {{ fraud_review_audience }}.
+  Assess fraud risk {{ fraud_assessment_frequency }}, considering
+  motive, opportunity, and rationalization for the workforce and
+  third parties, the potential for management override of controls,
+  and fraud scenarios relevant to the system such as misuse of
+  privileged access or manipulation of customer or billing data.
+  Document each scenario with its rating and mitigating controls,
+  and review the results with {{ fraud_review_audience }}.
 summary: >
-  Assess the potential for fraud, including management override, as part of
-  risk assessment and document the controls that address it.
+  Assess the potential for fraud, including management override, as
+  part of risk assessment and document the controls that address it.
 tags:
   - risk-management
   - fraud

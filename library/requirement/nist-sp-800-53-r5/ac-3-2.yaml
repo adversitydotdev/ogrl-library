@@ -13,20 +13,26 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing access enforcement and dual
-          authorization; system design documentation; system configuration settings
-          and associated documentation; list of privileged commands requiring dual
-          authorization; list of actions requiring dual authorization; list of
-          approved authorizations (user privileges); system security plan; other
-          relevant documents or records
+          Access control policy; procedures addressing access
+          enforcement and dual authorization; system design
+          documentation; system configuration settings and
+          associated documentation; list of privileged commands
+          requiring dual authorization; list of actions requiring
+          dual authorization; list of approved authorizations (user
+          privileges); system security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with access enforcement responsibilities;
-          system/network administrators; organizational personnel with information
-          security responsibilities; system developers
+          Organizational personnel with access enforcement
+          responsibilities; system/network administrators;
+          organizational personnel with information security
+          responsibilities; system developers
       - method: test
-        statement: Dual authorization mechanisms implementing access control policy
-    statement: "dual authorization is enforced for {{ ac_03_02_odp }}."
+        statement: >-
+          Dual authorization mechanisms implementing access control
+          policy
+    statement: >-
+      dual authorization is enforced for {{ ac_03_02_odp }}.
 parameters:
   ac_03_02_odp:
     label: privileged commands and/or other actions

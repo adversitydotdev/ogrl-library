@@ -12,6 +12,6 @@ relationship: equivalent-to
 review_status: draft
 source_ref: control--ogrl-ac-14
 summary: >
-  A limit on consecutive failed attempts within a window with automatic
-  lockout or delay satisfies AC-7.
+  A limit on consecutive failed attempts within a window with
+  automatic lockout or delay satisfies AC-7.
 target_ref: requirement--nist-sp-800-53-r5-ac-7

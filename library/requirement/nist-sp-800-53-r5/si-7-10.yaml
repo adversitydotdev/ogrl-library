@@ -13,30 +13,34 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; procedures addressing software, firmware, and information
-          integrity; system design documentation; system configuration settings and
-          associated documentation; integrity verification tools and associated
-          documentation; records of integrity verification scans; system audit
-          records; system security plan; other relevant documents or records
+          System and information integrity policy; system and
+          information integrity procedures; procedures addressing
+          software, firmware, and information integrity; system
+          design documentation; system configuration settings and
+          associated documentation; integrity verification tools and
+          associated documentation; records of integrity
+          verification scans; system audit records; system security
+          plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel responsible for software, firmware, and/or
-          information integrity; organizational personnel with information security
-          responsibilities; system/network administrators; system developer
+          Organizational personnel responsible for software,
+          firmware, and/or information integrity; organizational
+          personnel with information security responsibilities;
+          system/network administrators; system developer
       - method: test
         statement: >
-          Software, firmware, and information integrity verification tools; mechanisms
-          supporting and/or implementing protection of the integrity of boot firmware;
-          safeguards implementing protection of the integrity of boot firmware
+          Software, firmware, and information integrity verification
+          tools; mechanisms supporting and/or implementing
+          protection of the integrity of boot firmware; safeguards
+          implementing protection of the integrity of boot firmware
     statement: >
-      {{ si_07_10_odp_01 }} are implemented to protect the integrity of boot
-      firmware in {{ si_07_10_odp_02 }}.
+      {{ si_07_10_odp_01 }} are implemented to protect the integrity
+      of boot firmware in {{ si_07_10_odp_02 }}.
 parameters:
   si_07_10_odp_01:
     label: mechanisms
   si_07_10_odp_02:
     label: system components
 statement: >
-  Implement the following mechanisms to protect the integrity of boot firmware
-  in {{ si_07_10_odp_02 }}: {{ si_07_10_odp_01 }}.
+  Implement the following mechanisms to protect the integrity of
+  boot firmware in {{ si_07_10_odp_02 }}: {{ si_07_10_odp_01 }}.

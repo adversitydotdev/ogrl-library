@@ -10,5 +10,7 @@ rationale: functional
 relationship: equivalent-to
 review_status: draft
 source_ref: control--ogrl-ac-07
-summary: "Privileged accounts are restricted to the defined set of eligible personnel.\n"
+summary: >
+  Privileged accounts are restricted to the defined set of eligible
+  personnel.
 target_ref: requirement--nist-sp-800-53-r5-ac-6-5

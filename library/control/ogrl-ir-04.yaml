@@ -9,17 +9,18 @@ control_type: corrective
 family: ir
 frequency: event-driven
 guidance: >
-  Publish a reporting channel such as a security@ alias or chat channel and
-  cover it in onboarding and awareness training. Maintain a notification
-  matrix of contractual (MSA, DPA) and regulatory deadlines, such as GDPR
-  supervisory-authority notice within 72 hours or public-company disclosure
-  rules, and have legal review external notices. Keep pre-approved
-  notification templates and use the status page for availability incidents.
-  Retain copies of sent notifications as evidence.
+  Publish a reporting channel such as a security@ alias or chat
+  channel and cover it in onboarding and awareness training.
+  Maintain a notification matrix of contractual (MSA, DPA) and
+  regulatory deadlines, such as GDPR supervisory-authority notice
+  within 72 hours or public-company disclosure rules, and have legal
+  review external notices. Keep pre-approved notification templates
+  and use the status page for availability incidents. Retain copies
+  of sent notifications as evidence.
 objective: >
-  Ensure incidents reach the response team quickly and that external parties
-  who rely on the system learn of incidents affecting them in time to protect
-  themselves.
+  Ensure incidents reach the response team quickly and that external
+  parties who rely on the system learn of incidents affecting them
+  in time to protect themselves.
 origin: standard
 parameters:
   external_notification_deadline:
@@ -28,22 +29,23 @@ parameters:
   external_notification_recipients:
     label: External incident notification recipients
     value: >
-      affected customers, regulators, law enforcement, and other parties as
-      required by contract or law
+      affected customers, regulators, law enforcement, and other
+      parties as required by contract or law
   internal_report_window:
     label: Internal reporting time limit
     value: "24 hours"
 statement: >
-  Require personnel to report suspected security incidents to the security
-  team through a published reporting channel within
-  {{ internal_report_window }} of discovery, and report confirmed incidents
-  affecting customer data or services to
+  Require personnel to report suspected security incidents to the
+  security team through a published reporting channel within
+  {{ internal_report_window }} of discovery, and report confirmed
+  incidents affecting customer data or services to
   {{ external_notification_recipients }} within
-  {{ external_notification_deadline }} of confirmation, or sooner where
-  contract or law requires.
+  {{ external_notification_deadline }} of confirmation, or sooner
+  where contract or law requires.
 summary: >
-  Require prompt internal reporting of suspected incidents and notify affected
-  customers and authorities of confirmed incidents within defined deadlines.
+  Require prompt internal reporting of suspected incidents and
+  notify affected customers and authorities of confirmed incidents
+  within defined deadlines.
 tags:
   - incident-response
   - notification

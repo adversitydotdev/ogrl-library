@@ -20,57 +20,66 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Assessment, authorization, and monitoring policy; procedures addressing plan
-          of action and milestones; control assessment plan; control assessment
-          report; control assessment evidence; plan of action and milestones; system
-          security plan; privacy plan; other relevant documents or records
+          Assessment, authorization, and monitoring policy;
+          procedures addressing plan of action and milestones;
+          control assessment plan; control assessment report;
+          control assessment evidence; plan of action and
+          milestones; system security plan; privacy plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with plan of action and milestones development and
-          implementation responsibilities; organizational personnel with information
-          security and privacy responsibilities
+          Organizational personnel with plan of action and
+          milestones development and implementation
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities
       - method: test
         statement: >
-          Mechanisms for developing, implementing, and maintaining plan of action and
-          milestones
+          Mechanisms for developing, implementing, and maintaining
+          plan of action and milestones
     statement: >
-      a plan of action and milestones for the system is developed to document the
-      planned remediation actions of the organization to correct weaknesses or
-      deficiencies noted during the assessment of the controls and to reduce or
-      eliminate known vulnerabilities in the system;
+      a plan of action and milestones for the system is developed to
+      document the planned remediation actions of the organization
+      to correct weaknesses or deficiencies noted during the
+      assessment of the controls and to reduce or eliminate known
+      vulnerabilities in the system;
   - id: b
     methods:
       - method: examine
         statement: >
-          Assessment, authorization, and monitoring policy; procedures addressing plan
-          of action and milestones; control assessment plan; control assessment
-          report; control assessment evidence; plan of action and milestones; system
-          security plan; privacy plan; other relevant documents or records
+          Assessment, authorization, and monitoring policy;
+          procedures addressing plan of action and milestones;
+          control assessment plan; control assessment report;
+          control assessment evidence; plan of action and
+          milestones; system security plan; privacy plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with plan of action and milestones development and
-          implementation responsibilities; organizational personnel with information
-          security and privacy responsibilities
+          Organizational personnel with plan of action and
+          milestones development and implementation
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities
       - method: test
         statement: >
-          Mechanisms for developing, implementing, and maintaining plan of action and
-          milestones
+          Mechanisms for developing, implementing, and maintaining
+          plan of action and milestones
     statement: >
-      existing plan of action and milestones are updated {{ ca_05_odp }} based on
-      the findings from control assessments, independent audits or reviews, and
-      continuous monitoring activities.
+      existing plan of action and milestones are updated
+      {{ ca_05_odp }} based on the findings from control
+      assessments, independent audits or reviews, and continuous
+      monitoring activities.
 parameters:
   ca_05_odp:
     label: frequency
 parts:
   - id: a
     statement: >
-      Develop a plan of action and milestones for the system to document the
-      planned remediation actions of the organization to correct weaknesses or
-      deficiencies noted during the assessment of the controls and to reduce or
-      eliminate known vulnerabilities in the system; and
+      Develop a plan of action and milestones for the system to
+      document the planned remediation actions of the organization
+      to correct weaknesses or deficiencies noted during the
+      assessment of the controls and to reduce or eliminate known
+      vulnerabilities in the system; and
   - id: b
     statement: >
-      Update existing plan of action and milestones {{ ca_05_odp }} based on the
-      findings from control assessments, independent audits or reviews, and
-      continuous monitoring activities.
+      Update existing plan of action and milestones {{ ca_05_odp }}
+      based on the findings from control assessments, independent
+      audits or reviews, and continuous monitoring activities.

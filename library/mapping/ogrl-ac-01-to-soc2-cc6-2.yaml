@@ -8,5 +8,7 @@ rationale: functional
 relationship: equivalent-to
 review_status: reviewed
 source_ref: control--ogrl-ac-01
-summary: Documented provisioning approval and prompt deprovisioning satisfy SOC 2 CC6.2.
+summary: >-
+  Documented provisioning approval and prompt deprovisioning satisfy
+  SOC 2 CC6.2.
 target_ref: requirement--soc2-tsc-2017-cc6-2

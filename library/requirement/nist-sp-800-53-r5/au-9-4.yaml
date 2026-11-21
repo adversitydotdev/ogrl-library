@@ -13,25 +13,28 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Audit and accountability policy; system security plan; privacy plan; access
-          control policy and procedures; procedures addressing protection of audit
-          information; system design documentation; system configuration settings and
-          associated documentation; system-generated list of privileged users with
-          access to management of audit functionality; access authorizations; access
-          control list; system audit records; other relevant documents or records
+          Audit and accountability policy; system security plan;
+          privacy plan; access control policy and procedures;
+          procedures addressing protection of audit information;
+          system design documentation; system configuration settings
+          and associated documentation; system-generated list of
+          privileged users with access to management of audit
+          functionality; access authorizations; access control list;
+          system audit records; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with audit and accountability responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities; system/network administrators
+          Organizational personnel with audit and accountability
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities;
+          system/network administrators
       - method: test
         statement: Mechanisms managing access to audit functionality
     statement: >
-      access to management of audit logging functionality is authorized only to
-      {{ au_09_04_odp }}.
+      access to management of audit logging functionality is
+      authorized only to {{ au_09_04_odp }}.
 parameters:
   au_09_04_odp:
     label: subset of privileged users or roles
 statement: >
-  Authorize access to management of audit logging functionality to only
-  {{ au_09_04_odp }}.
+  Authorize access to management of audit logging functionality to
+  only {{ au_09_04_odp }}.

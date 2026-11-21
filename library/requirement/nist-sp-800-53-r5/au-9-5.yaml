@@ -13,24 +13,30 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Audit and accountability policy; system security plan; privacy plan; access
-          control policy and procedures; procedures addressing protection of audit
-          information; system design documentation; system configuration settings and
-          associated documentation; access authorizations; system audit records; other
-          relevant documents or records
+          Audit and accountability policy; system security plan;
+          privacy plan; access control policy and procedures;
+          procedures addressing protection of audit information;
+          system design documentation; system configuration settings
+          and associated documentation; access authorizations;
+          system audit records; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with audit and accountability responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities; system/network administrators
+          Organizational personnel with audit and accountability
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities;
+          system/network administrators
       - method: test
-        statement: Mechanisms implementing the enforcement of dual authorization
+        statement: >-
+          Mechanisms implementing the enforcement of dual
+          authorization
     statement: >
-      dual authorization is enforced for the {{ au_09_05_odp_01 }} of
-      {{ au_09_05_odp_02 }}.
+      dual authorization is enforced for the {{ au_09_05_odp_01 }}
+      of {{ au_09_05_odp_02 }}.
 parameters:
   au_09_05_odp_01:
     label: au-09.05_odp.01
   au_09_05_odp_02:
     label: audit information
-statement: "Enforce dual authorization for {{ au_09_05_odp_01 }} of {{ au_09_05_odp_02 }}."
+statement: >-
+  Enforce dual authorization for {{ au_09_05_odp_01 }} of
+  {{ au_09_05_odp_02 }}.

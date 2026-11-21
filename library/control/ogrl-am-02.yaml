@@ -9,14 +9,15 @@ control_type: preventive
 family: am
 frequency: annual
 guidance: >
-  Three or four levels are typical, such as public, internal, confidential,
-  and restricted, with customer data classified confidential or higher. Tag
-  cloud data stores and buckets with their level so automated checks can
-  enforce encryption and access rules. Evidence: the scheme, the inventory
-  showing classifications, and the review record.
+  Three or four levels are typical, such as public, internal,
+  confidential, and restricted, with customer data classified
+  confidential or higher. Tag cloud data stores and buckets with
+  their level so automated checks can enforce encryption and access
+  rules. Evidence: the scheme, the inventory showing
+  classifications, and the review record.
 objective: >
-  Confidential and customer data can be located and is handled according to
-  its sensitivity.
+  Confidential and customer data can be located and is handled
+  according to its sensitivity.
 origin: standard
 parameters:
   classification_approver:
@@ -29,15 +30,16 @@ parameters:
     label: Classification review frequency
     value: at least annually
 statement: >
-  Maintain a data classification scheme defining {{ classification_levels }}
-  and the handling requirements for each level, including storage, sharing,
-  encryption, and retention. Record the classification of each in-scope data
-  store in the component inventory, have {{ classification_approver }} approve
-  classifications, and review the scheme and recorded classifications
-  {{ classification_review_frequency }}.
+  Maintain a data classification scheme defining
+  {{ classification_levels }} and the handling requirements for each
+  level, including storage, sharing, encryption, and retention.
+  Record the classification of each in-scope data store in the
+  component inventory, have {{ classification_approver }} approve
+  classifications, and review the scheme and recorded
+  classifications {{ classification_review_frequency }}.
 summary: >
-  Classify data by sensitivity under a defined scheme with handling rules, and
-  record the classification of each data store.
+  Classify data by sensitivity under a defined scheme with handling
+  rules, and record the classification of each data store.
 tags:
   - asset-management
   - data-classification

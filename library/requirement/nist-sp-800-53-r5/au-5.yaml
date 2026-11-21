@@ -13,38 +13,50 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Audit and accountability policy; procedures addressing response to audit
-          processing failures; system design documentation; system security plan;
-          privacy plan; system configuration settings and associated documentation;
-          list of personnel to be notified in case of an audit processing failure;
-          system audit records; other relevant documents or records
+          Audit and accountability policy; procedures addressing
+          response to audit processing failures; system design
+          documentation; system security plan; privacy plan; system
+          configuration settings and associated documentation; list
+          of personnel to be notified in case of an audit processing
+          failure; system audit records; other relevant documents or
+          records
       - method: interview
         statement: >
-          Organizational personnel with audit and accountability responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities; system/network administrators; system developers
+          Organizational personnel with audit and accountability
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities;
+          system/network administrators; system developers
       - method: test
-        statement: Mechanisms implementing system response to audit processing failures
+        statement: >-
+          Mechanisms implementing system response to audit
+          processing failures
     statement: >
-      {{ au_05_odp_01 }} are alerted in the event of an audit logging process
-      failure within {{ au_05_odp_02 }};
+      {{ au_05_odp_01 }} are alerted in the event of an audit
+      logging process failure within {{ au_05_odp_02 }};
   - id: b
     methods:
       - method: examine
         statement: >
-          Audit and accountability policy; procedures addressing response to audit
-          processing failures; system design documentation; system security plan;
-          privacy plan; system configuration settings and associated documentation;
-          list of personnel to be notified in case of an audit processing failure;
-          system audit records; other relevant documents or records
+          Audit and accountability policy; procedures addressing
+          response to audit processing failures; system design
+          documentation; system security plan; privacy plan; system
+          configuration settings and associated documentation; list
+          of personnel to be notified in case of an audit processing
+          failure; system audit records; other relevant documents or
+          records
       - method: interview
         statement: >
-          Organizational personnel with audit and accountability responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities; system/network administrators; system developers
+          Organizational personnel with audit and accountability
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities;
+          system/network administrators; system developers
       - method: test
-        statement: Mechanisms implementing system response to audit processing failures
-    statement: "{{ au_05_odp_03 }} are taken in the event of an audit logging process failure."
+        statement: >-
+          Mechanisms implementing system response to audit
+          processing failures
+    statement: >-
+      {{ au_05_odp_03 }} are taken in the event of an audit logging
+      process failure.
 parameters:
   au_05_odp_01:
     label: personnel or roles
@@ -55,7 +67,8 @@ parameters:
 parts:
   - id: a
     statement: >
-      Alert {{ au_05_odp_01 }} within {{ au_05_odp_02 }} in the event of an audit
-      logging process failure; and
+      Alert {{ au_05_odp_01 }} within {{ au_05_odp_02 }} in the
+      event of an audit logging process failure; and
   - id: b
-    statement: "Take the following additional actions: {{ au_05_odp_03 }}."
+    statement: >-
+      Take the following additional actions: {{ au_05_odp_03 }}.

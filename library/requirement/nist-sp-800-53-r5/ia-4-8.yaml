@@ -13,15 +13,20 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Identification and authentication policy; system security plan; procedures
-          addressing identifier management; procedures addressing account management;
-          system design documentation; system configuration settings and associated
-          documentation; system audit records; other relevant documents or records
+          Identification and authentication policy; system security
+          plan; procedures addressing identifier management;
+          procedures addressing account management; system design
+          documentation; system configuration settings and
+          associated documentation; system audit records; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with identifier management responsibilities;
-          organizational personnel with information security responsibilities
+          Organizational personnel with identifier management
+          responsibilities; organizational personnel with
+          information security responsibilities
       - method: test
-        statement: Mechanisms supporting and/or implementing identifier management
+        statement: >-
+          Mechanisms supporting and/or implementing identifier
+          management
     statement: pairwise pseudonymous identifiers are generated.
 statement: Generate pairwise pseudonymous identifiers.

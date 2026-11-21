@@ -13,42 +13,48 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; procedures addressing non-persistence for system components;
-          system design documentation; system configuration settings and associated
-          documentation; system audit records; system security plan; other relevant
-          documents or records
+          System and information integrity policy; system and
+          information integrity procedures; procedures addressing
+          non-persistence for system components; system design
+          documentation; system configuration settings and
+          associated documentation; system audit records; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel responsible for non-persistence; organizational
-          personnel with information security responsibilities; system/network
-          administrators; system developer
+          Organizational personnel responsible for non-persistence;
+          organizational personnel with information security
+          responsibilities; system/network administrators; system
+          developer
       - method: test
         statement: >
-          Automated mechanisms supporting and/or implementing the initiation and
-          termination of non-persistent components
+          Automated mechanisms supporting and/or implementing the
+          initiation and termination of non-persistent components
     statement: >
-      non-persistent {{ si_14_odp_01 }} that are initiated in a known state are
-      implemented;
+      non-persistent {{ si_14_odp_01 }} that are initiated in a
+      known state are implemented;
   - id: _obj-2
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; procedures addressing non-persistence for system components;
-          system design documentation; system configuration settings and associated
-          documentation; system audit records; system security plan; other relevant
-          documents or records
+          System and information integrity policy; system and
+          information integrity procedures; procedures addressing
+          non-persistence for system components; system design
+          documentation; system configuration settings and
+          associated documentation; system audit records; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel responsible for non-persistence; organizational
-          personnel with information security responsibilities; system/network
-          administrators; system developer
+          Organizational personnel responsible for non-persistence;
+          organizational personnel with information security
+          responsibilities; system/network administrators; system
+          developer
       - method: test
         statement: >
-          Automated mechanisms supporting and/or implementing the initiation and
-          termination of non-persistent components
-    statement: "non-persistent {{ si_14_odp_01 }} are terminated {{ si_14_odp_02 }}."
+          Automated mechanisms supporting and/or implementing the
+          initiation and termination of non-persistent components
+    statement: >-
+      non-persistent {{ si_14_odp_01 }} are terminated
+      {{ si_14_odp_02 }}.
 parameters:
   si_14_odp_01:
     label: system components and services
@@ -57,5 +63,5 @@ parameters:
   si_14_odp_03:
     label: frequency
 statement: >
-  Implement non-persistent {{ si_14_odp_01 }} that are initiated in a known
-  state and terminated {{ si_14_odp_02 }}.
+  Implement non-persistent {{ si_14_odp_01 }} that are initiated in
+  a known state and terminated {{ si_14_odp_02 }}.

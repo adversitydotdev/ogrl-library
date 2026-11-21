@@ -13,47 +13,55 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Configuration management policy; procedures addressing the baseline
-          configuration of the system; configuration management plan; system design
-          documentation; system architecture and configuration documentation; system
-          configuration settings and associated documentation; system security plan;
-          other relevant documents or records
+          Configuration management policy; procedures addressing the
+          baseline configuration of the system; configuration
+          management plan; system design documentation; system
+          architecture and configuration documentation; system
+          configuration settings and associated documentation;
+          system security plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with configuration management responsibilities;
-          organizational personnel with information security responsibilities;
-          system/network administrators
+          Organizational personnel with configuration management
+          responsibilities; organizational personnel with
+          information security responsibilities; system/network
+          administrators
       - method: test
         statement: >
-          Organizational processes for managing baseline configurations; mechanisms
-          implementing separate baseline configurations for development, test, and
-          operational environments
+          Organizational processes for managing baseline
+          configurations; mechanisms implementing separate baseline
+          configurations for development, test, and operational
+          environments
     statement: >
-      a baseline configuration for system development environments that is managed
-      separately from the operational baseline configuration is maintained;
+      a baseline configuration for system development environments
+      that is managed separately from the operational baseline
+      configuration is maintained;
   - id: "cm-02(06).cm-02(06)[02]"
     methods:
       - method: examine
         statement: >
-          Configuration management policy; procedures addressing the baseline
-          configuration of the system; configuration management plan; system design
-          documentation; system architecture and configuration documentation; system
-          configuration settings and associated documentation; system security plan;
-          other relevant documents or records
+          Configuration management policy; procedures addressing the
+          baseline configuration of the system; configuration
+          management plan; system design documentation; system
+          architecture and configuration documentation; system
+          configuration settings and associated documentation;
+          system security plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with configuration management responsibilities;
-          organizational personnel with information security responsibilities;
-          system/network administrators
+          Organizational personnel with configuration management
+          responsibilities; organizational personnel with
+          information security responsibilities; system/network
+          administrators
       - method: test
         statement: >
-          Organizational processes for managing baseline configurations; mechanisms
-          implementing separate baseline configurations for development, test, and
-          operational environments
+          Organizational processes for managing baseline
+          configurations; mechanisms implementing separate baseline
+          configurations for development, test, and operational
+          environments
     statement: >
-      a baseline configuration for test environments that is managed separately
-      from the operational baseline configuration is maintained.
+      a baseline configuration for test environments that is managed
+      separately from the operational baseline configuration is
+      maintained.
 statement: >
   Maintain a baseline configuration for system development and test
-  environments that is managed separately from the operational baseline
-  configuration.
+  environments that is managed separately from the operational
+  baseline configuration.

@@ -17,30 +17,34 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Identification and authentication policy; procedures addressing
-          adaptive/supplemental identification and authentication techniques or
-          mechanisms; system security plan; system design documentation; system
-          configuration settings and associated documentation; supplemental
-          identification and authentication techniques or mechanisms; system audit
-          records; other relevant documents or records
+          Identification and authentication policy; procedures
+          addressing adaptive/supplemental identification and
+          authentication techniques or mechanisms; system security
+          plan; system design documentation; system configuration
+          settings and associated documentation; supplemental
+          identification and authentication techniques or
+          mechanisms; system audit records; other relevant documents
+          or records
       - method: interview
         statement: >
-          Organizational personnel with system operations responsibilities;
-          organizational personnel with information security responsibilities;
-          system/network administrators; system developers; organizational personnel
-          with identification and authentication responsibilities
+          Organizational personnel with system operations
+          responsibilities; organizational personnel with
+          information security responsibilities; system/network
+          administrators; system developers; organizational
+          personnel with identification and authentication
+          responsibilities
       - method: test
         statement: >
-          Mechanisms supporting and/or implementing identification and authentication
-          capabilities
+          Mechanisms supporting and/or implementing identification
+          and authentication capabilities
     statement: >
-      individuals accessing the system are required to employ {{ ia_10_odp_01 }}
-      under specific {{ ia_10_odp_02 }}.
+      individuals accessing the system are required to employ
+      {{ ia_10_odp_01 }} under specific {{ ia_10_odp_02 }}.
 parameters:
   ia_10_odp_01:
     label: supplemental authentication techniques or mechanisms
   ia_10_odp_02:
     label: circumstances or situations
 statement: >
-  Require individuals accessing the system to employ {{ ia_10_odp_01 }} under
-  specific {{ ia_10_odp_02 }}.
+  Require individuals accessing the system to employ
+  {{ ia_10_odp_01 }} under specific {{ ia_10_odp_02 }}.

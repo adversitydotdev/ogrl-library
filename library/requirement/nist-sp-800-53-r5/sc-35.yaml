@@ -13,24 +13,27 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; procedures addressing external
-          malicious code identification; system design documentation; system
-          configuration settings and associated documentation; system components
-          deployed to identify malicious websites and/or web-based malicious code;
-          system audit records; system security plan; other relevant documents or
-          records
+          System and communications protection policy; procedures
+          addressing external malicious code identification; system
+          design documentation; system configuration settings and
+          associated documentation; system components deployed to
+          identify malicious websites and/or web-based malicious
+          code; system audit records; system security plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; organizational personnel installing, configuring,
-          and/or maintaining the system; system developers/integrators
+          System/network administrators; organizational personnel
+          with information security responsibilities; organizational
+          personnel installing, configuring, and/or maintaining the
+          system; system developers/integrators
       - method: test
         statement: >
-          Automated mechanisms supporting and/or implementing external malicious code
-          identification
+          Automated mechanisms supporting and/or implementing
+          external malicious code identification
     statement: >
-      system components that proactively seek to identify network-based malicious
-      code or malicious websites are included.
+      system components that proactively seek to identify
+      network-based malicious code or malicious websites are
+      included.
 statement: >
-  Include system components that proactively seek to identify network-based
-  malicious code or malicious websites.
+  Include system components that proactively seek to identify
+  network-based malicious code or malicious websites.

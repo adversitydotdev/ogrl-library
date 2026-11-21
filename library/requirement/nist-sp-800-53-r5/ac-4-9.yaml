@@ -13,26 +13,31 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Access control policy; information flow control policies; procedures
-          addressing information flow enforcement; system design documentation; system
-          configuration settings and associated documentation; records of human
-          reviews regarding information flows; list of information flows requiring the
-          use of human reviews; list of conditions requiring human reviews for
-          information flows; system audit records; system security plan; privacy plan;
-          other relevant documents or records
+          Access control policy; information flow control policies;
+          procedures addressing information flow enforcement; system
+          design documentation; system configuration settings and
+          associated documentation; records of human reviews
+          regarding information flows; list of information flows
+          requiring the use of human reviews; list of conditions
+          requiring human reviews for information flows; system
+          audit records; system security plan; privacy plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security and privacy responsibilities; organizational personnel with
-          information flow enforcement responsibilities; system developers
+          System/network administrators; organizational personnel
+          with information security and privacy responsibilities;
+          organizational personnel with information flow enforcement
+          responsibilities; system developers
       - method: test
         statement: Mechanisms enforcing the use of human reviews
-    statement: "human reviews are used for {{ ac_04_09_odp_01 }} under {{ ac_04_09_odp_02 }}."
+    statement: >-
+      human reviews are used for {{ ac_04_09_odp_01 }} under
+      {{ ac_04_09_odp_02 }}.
 parameters:
   ac_04_09_odp_01:
     label: information flows
   ac_04_09_odp_02:
     label: conditions
 statement: >
-  Enforce the use of human reviews for {{ ac_04_09_odp_01 }} under the
-  following conditions: {{ ac_04_09_odp_02 }}.
+  Enforce the use of human reviews for {{ ac_04_09_odp_01 }} under
+  the following conditions: {{ ac_04_09_odp_02 }}.

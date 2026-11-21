@@ -13,28 +13,30 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; procedures addressing boundary
-          protection; system design documentation; system hardware and software;
-          system architecture; system configuration settings and associated
-          documentation; system audit records; system security plan; other relevant
-          documents or records
+          System and communications protection policy; procedures
+          addressing boundary protection; system design
+          documentation; system hardware and software; system
+          architecture; system configuration settings and associated
+          documentation; system audit records; system security plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; system developer; organizational personnel with
-          boundary protection responsibilities
+          System/network administrators; organizational personnel
+          with information security responsibilities; system
+          developer; organizational personnel with boundary
+          protection responsibilities
       - method: test
         statement: >
-          Mechanisms implementing boundary protection capabilities; mechanisms
-          supporting/restricting non-remote connections
+          Mechanisms implementing boundary protection capabilities;
+          mechanisms supporting/restricting non-remote connections
     statement: >
-      split tunneling is prevented for remote devices connecting to organizational
-      systems unless the split tunnel is securely provisioned using
-      {{ sc_07_07_odp }}.
+      split tunneling is prevented for remote devices connecting to
+      organizational systems unless the split tunnel is securely
+      provisioned using {{ sc_07_07_odp }}.
 parameters:
   sc_07_07_odp:
     label: safeguards
 statement: >
-  Prevent split tunneling for remote devices connecting to organizational
-  systems unless the split tunnel is securely provisioned using
-  {{ sc_07_07_odp }}.
+  Prevent split tunneling for remote devices connecting to
+  organizational systems unless the split tunnel is securely
+  provisioned using {{ sc_07_07_odp }}.

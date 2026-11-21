@@ -13,20 +13,29 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Audit and accountability policy; procedures addressing audit storage
-          capacity; system security plan; privacy plan; system design documentation;
-          system configuration settings and associated documentation; audit record
-          storage requirements; audit record storage capability for system components;
-          system audit records; other relevant documents or records
+          Audit and accountability policy; procedures addressing
+          audit storage capacity; system security plan; privacy
+          plan; system design documentation; system configuration
+          settings and associated documentation; audit record
+          storage requirements; audit record storage capability for
+          system components; system audit records; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with audit and accountability responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities; system/network administrators; system developers
+          Organizational personnel with audit and accountability
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities;
+          system/network administrators; system developers
       - method: test
-        statement: Audit record storage capacity and related configuration settings
-    statement: "audit log storage capacity is allocated to accommodate {{ au_04_odp }}."
+        statement: >-
+          Audit record storage capacity and related configuration
+          settings
+    statement: >-
+      audit log storage capacity is allocated to accommodate
+      {{ au_04_odp }}.
 parameters:
   au_04_odp:
     label: audit log retention requirements
-statement: "Allocate audit log storage capacity to accommodate {{ au_04_odp }}."
+statement: >-
+  Allocate audit log storage capacity to accommodate
+  {{ au_04_odp }}.

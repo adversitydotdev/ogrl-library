@@ -13,22 +13,27 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; procedures addressing boundary
-          protection; system design documentation; system hardware and software;
-          system architecture; system configuration settings and associated
-          documentation; facility communications and wiring diagram system security
-          plan; other relevant documents or records
+          System and communications protection policy; procedures
+          addressing boundary protection; system design
+          documentation; system hardware and software; system
+          architecture; system configuration settings and associated
+          documentation; facility communications and wiring diagram
+          system security plan; other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; organizational personnel with boundary protection
-          responsibilities
+          System/network administrators; organizational personnel
+          with information security responsibilities; organizational
+          personnel with boundary protection responsibilities
       - method: test
         statement: >
-          Mechanisms supporting and/or implementing protection against unauthorized
-          physical connections
-    statement: "{{ sc_07_14_odp }} are protected against unauthorized physical connections."
+          Mechanisms supporting and/or implementing protection
+          against unauthorized physical connections
+    statement: >-
+      {{ sc_07_14_odp }} are protected against unauthorized physical
+      connections.
 parameters:
   sc_07_14_odp:
     label: managed interfaces
-statement: "Protect against unauthorized physical connections at {{ sc_07_14_odp }}."
+statement: >-
+  Protect against unauthorized physical connections at
+  {{ sc_07_14_odp }}.

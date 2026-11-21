@@ -13,74 +13,90 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing least privilege; list of
-          security functions (deployed in hardware, software, and firmware) and
-          security-relevant information for which access must be explicitly
-          authorized; system configuration settings and associated documentation;
-          system audit records; system security plan; other relevant documents or
-          records
+          Access control policy; procedures addressing least
+          privilege; list of security functions (deployed in
+          hardware, software, and firmware) and security-relevant
+          information for which access must be explicitly
+          authorized; system configuration settings and associated
+          documentation; system audit records; system security plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with responsibilities for defining least privileges
-          necessary to accomplish specified tasks; organizational personnel with
-          information security responsibilities; system/network administrators
+          Organizational personnel with responsibilities for
+          defining least privileges necessary to accomplish
+          specified tasks; organizational personnel with information
+          security responsibilities; system/network administrators
       - method: test
         statement: Mechanisms implementing least privilege functions
-    statement: "access is authorized for {{ ac_06_01_odp_01 }} to {{ ac_06_01_odp_02 }};"
+    statement: >-
+      access is authorized for {{ ac_06_01_odp_01 }} to
+      {{ ac_06_01_odp_02 }};
   - id: a-2
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing least privilege; list of
-          security functions (deployed in hardware, software, and firmware) and
-          security-relevant information for which access must be explicitly
-          authorized; system configuration settings and associated documentation;
-          system audit records; system security plan; other relevant documents or
-          records
+          Access control policy; procedures addressing least
+          privilege; list of security functions (deployed in
+          hardware, software, and firmware) and security-relevant
+          information for which access must be explicitly
+          authorized; system configuration settings and associated
+          documentation; system audit records; system security plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with responsibilities for defining least privileges
-          necessary to accomplish specified tasks; organizational personnel with
-          information security responsibilities; system/network administrators
+          Organizational personnel with responsibilities for
+          defining least privileges necessary to accomplish
+          specified tasks; organizational personnel with information
+          security responsibilities; system/network administrators
       - method: test
         statement: Mechanisms implementing least privilege functions
-    statement: "access is authorized for {{ ac_06_01_odp_01 }} to {{ ac_06_01_odp_03 }};"
+    statement: >-
+      access is authorized for {{ ac_06_01_odp_01 }} to
+      {{ ac_06_01_odp_03 }};
   - id: a-3
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing least privilege; list of
-          security functions (deployed in hardware, software, and firmware) and
-          security-relevant information for which access must be explicitly
-          authorized; system configuration settings and associated documentation;
-          system audit records; system security plan; other relevant documents or
-          records
+          Access control policy; procedures addressing least
+          privilege; list of security functions (deployed in
+          hardware, software, and firmware) and security-relevant
+          information for which access must be explicitly
+          authorized; system configuration settings and associated
+          documentation; system audit records; system security plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with responsibilities for defining least privileges
-          necessary to accomplish specified tasks; organizational personnel with
-          information security responsibilities; system/network administrators
+          Organizational personnel with responsibilities for
+          defining least privileges necessary to accomplish
+          specified tasks; organizational personnel with information
+          security responsibilities; system/network administrators
       - method: test
         statement: Mechanisms implementing least privilege functions
-    statement: "access is authorized for {{ ac_06_01_odp_01 }} to {{ ac_06_01_odp_04 }};"
+    statement: >-
+      access is authorized for {{ ac_06_01_odp_01 }} to
+      {{ ac_06_01_odp_04 }};
   - id: b
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing least privilege; list of
-          security functions (deployed in hardware, software, and firmware) and
-          security-relevant information for which access must be explicitly
-          authorized; system configuration settings and associated documentation;
-          system audit records; system security plan; other relevant documents or
-          records
+          Access control policy; procedures addressing least
+          privilege; list of security functions (deployed in
+          hardware, software, and firmware) and security-relevant
+          information for which access must be explicitly
+          authorized; system configuration settings and associated
+          documentation; system audit records; system security plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with responsibilities for defining least privileges
-          necessary to accomplish specified tasks; organizational personnel with
-          information security responsibilities; system/network administrators
+          Organizational personnel with responsibilities for
+          defining least privileges necessary to accomplish
+          specified tasks; organizational personnel with information
+          security responsibilities; system/network administrators
       - method: test
         statement: Mechanisms implementing least privilege functions
-    statement: "access is authorized for {{ ac_06_01_odp_01 }} to {{ ac_06_01_odp_05 }}."
+    statement: >-
+      access is authorized for {{ ac_06_01_odp_01 }} to
+      {{ ac_06_01_odp_05 }}.
 parameters:
   ac_06_01_odp_01:
     label: individuals and roles
@@ -94,8 +110,8 @@ parameters:
     label: security-relevant information
   ac_6_1_prm_2:
     label: >
-      organization-defined security functions (deployed in hardware, software, and
-      firmware)
+      organization-defined security functions (deployed in hardware,
+      software, and firmware)
 parts:
   - id: a
     statement: "{{ ac_6_1_prm_2 }} ; and"

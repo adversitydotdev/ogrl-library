@@ -11,6 +11,6 @@ relationship: equivalent-to
 review_status: reviewed
 source_ref: control--ogrl-lm-02
 summary: >
-  SIEM correlation and cloud threat detection identify unauthorized system use
-  per SI-4(b).
+  SIEM correlation and cloud threat detection identify unauthorized
+  system use per SI-4(b).
 target_ref: "requirement--nist-sp-800-53-r5-si-4#b"

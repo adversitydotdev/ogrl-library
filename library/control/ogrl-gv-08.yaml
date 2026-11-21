@@ -9,14 +9,14 @@ control_type: preventive
 family: gv
 frequency: annual
 guidance: >
-  This is the document a SOC 2 report's system description is drawn from. Keep
-  the architecture and data-flow diagrams generated from or reconciled with
-  the component inventory (OGRL-AM-01). Link controls to the OGRL control set
-  rather than restating them. Evidence: the current version, its approval, and
-  change history.
+  This is the document a SOC 2 report's system description is drawn
+  from. Keep the architecture and data-flow diagrams generated from
+  or reconciled with the component inventory (OGRL-AM-01). Link
+  controls to the OGRL control set rather than restating them.
+  Evidence: the current version, its approval, and change history.
 objective: >
-  An accurate, approved account of each system's scope and controls exists and
-  is available to those who rely on it.
+  An accurate, approved account of each system's scope and controls
+  exists and is available to those who rely on it.
 origin: standard
 parameters:
   plan_approver:
@@ -24,22 +24,24 @@ parameters:
     value: the security leader and the system owner
   plan_distribution:
     label: Recipients of the system description and changes
-    value: "engineering leadership, the compliance team, and auditors"
+    value: >-
+      engineering leadership, the compliance team, and auditors
   plan_review_frequency:
     label: System description review frequency
     value: at least annually
 statement: >
-  Maintain a system description for each in-scope system that documents its
-  boundary, infrastructure and software components, subservice organizations
-  and other dependencies, data flows, information types handled, user roles,
-  and the controls in place. The description is approved by
-  {{ plan_approver }}, distributed to {{ plan_distribution }}, stored where
-  only its owners can modify it, reviewed {{ plan_review_frequency }}, and
-  updated when the system or its environment changes significantly or
-  assessments identify problems.
+  Maintain a system description for each in-scope system that
+  documents its boundary, infrastructure and software components,
+  subservice organizations and other dependencies, data flows,
+  information types handled, user roles, and the controls in place.
+  The description is approved by {{ plan_approver }}, distributed to
+  {{ plan_distribution }}, stored where only its owners can modify
+  it, reviewed {{ plan_review_frequency }}, and updated when the
+  system or its environment changes significantly or assessments
+  identify problems.
 summary: >
-  Maintain an approved description of each in-scope system covering its
-  boundary, components, data, and controls, and keep it current.
+  Maintain an approved description of each in-scope system covering
+  its boundary, components, data, and controls, and keep it current.
 tags:
   - governance
   - system-description

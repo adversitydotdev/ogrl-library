@@ -13,21 +13,25 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Identification and authentication policy; procedures addressing identity
-          proofing; system security plan; other relevant documents or records
+          Identification and authentication policy; procedures
+          addressing identity proofing; system security plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with system operations responsibilities;
-          organizational personnel with information security responsibilities;
-          system/network administrators; system developers; organizational personnel
-          with identification and authentication responsibilities
+          Organizational personnel with system operations
+          responsibilities; organizational personnel with
+          information security responsibilities; system/network
+          administrators; system developers; organizational
+          personnel with identification and authentication
+          responsibilities
       - method: test
         statement: >
-          Mechanisms supporting and/or implementing identification and authentication
-          capabilities
+          Mechanisms supporting and/or implementing identification
+          and authentication capabilities
     statement: >
-      the validation and verification of identity evidence is conducted in person
-      before a designated registration authority.
+      the validation and verification of identity evidence is
+      conducted in person before a designated registration
+      authority.
 statement: >
-  Require that the validation and verification of identity evidence be
-  conducted in person before a designated registration authority.
+  Require that the validation and verification of identity evidence
+  be conducted in person before a designated registration authority.

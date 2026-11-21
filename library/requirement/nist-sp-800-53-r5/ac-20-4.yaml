@@ -13,24 +13,30 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing use of network-accessible
-          storage devices in external systems; system design documentation; system
-          configuration settings and associated documentation; system connection or
-          processing agreements; list of network-accessible storage devices prohibited
-          from use in external systems; system audit records; system security plan;
-          other relevant documents or records
+          Access control policy; procedures addressing use of
+          network-accessible storage devices in external systems;
+          system design documentation; system configuration settings
+          and associated documentation; system connection or
+          processing agreements; list of network-accessible storage
+          devices prohibited from use in external systems; system
+          audit records; system security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with responsibilities for prohibiting the use of
-          network-accessible storage devices in external systems; system/network
-          administrators; organizational personnel with information security
+          Organizational personnel with responsibilities for
+          prohibiting the use of network-accessible storage devices
+          in external systems; system/network administrators;
+          organizational personnel with information security
           responsibilities
       - method: test
         statement: >
-          Mechanisms prohibiting the use of network-accessible storage devices in
-          external systems
-    statement: "the use of {{ ac_20_04_odp }} is prohibited in external systems."
+          Mechanisms prohibiting the use of network-accessible
+          storage devices in external systems
+    statement: >-
+      the use of {{ ac_20_04_odp }} is prohibited in external
+      systems.
 parameters:
   ac_20_04_odp:
     label: network-accessible storage devices
-statement: "Prohibit the use of {{ ac_20_04_odp }} in external systems."
+statement: >-
+  Prohibit the use of {{ ac_20_04_odp }} in external systems.

@@ -9,28 +9,30 @@ control_type: corrective
 family: pr
 frequency: event-driven
 guidance: >
-  Reuse the access-request intake and ticket queue (pr-06). Automate deletion
-  through account-deletion workflows where possible and keep evidence of
-  processor notifications. Legal holds and retention obligations are valid
-  denial reasons when documented.
+  Reuse the access-request intake and ticket queue (pr-06). Automate
+  deletion through account-deletion workflows where possible and
+  keep evidence of processor notifications. Legal holds and
+  retention obligations are valid denial reasons when documented.
 objective: >
-  Ensure individuals can have inaccurate or unwanted personal information
-  fixed or removed and that changes reach downstream recipients.
+  Ensure individuals can have inaccurate or unwanted personal
+  information fixed or removed and that changes reach downstream
+  recipients.
 origin: standard
 parameters:
   correction_request_sla:
     label: Correction or deletion request SLA
     value: "30 days"
 statement: >
-  Accept requests from individuals or their authorized representatives to
-  correct or delete their personal information, verify the requester's
-  identity, complete the correction or deletion within
-  {{ correction_request_sla }} across all systems in the PII inventory, notify
-  third parties that received the information, and record the reason when a
-  request is denied and communicate it to the requester.
+  Accept requests from individuals or their authorized
+  representatives to correct or delete their personal information,
+  verify the requester's identity, complete the correction or
+  deletion within {{ correction_request_sla }} across all systems in
+  the PII inventory, notify third parties that received the
+  information, and record the reason when a request is denied and
+  communicate it to the requester.
 summary: >
-  Correct or delete personal information on verified request and propagate the
-  change to recipients.
+  Correct or delete personal information on verified request and
+  propagate the change to recipients.
 tags:
   - privacy
   - data-subject-rights

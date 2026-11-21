@@ -17,52 +17,62 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; contingency planning policy and
-          procedures; contingency plan; system design documentation; system
-          configuration settings and associated documentation; system architecture;
-          list of system physical locations (or environments) with distributed
-          processing and storage; system facility diagrams; processing site
-          agreements; storage site agreements; system security plan; other relevant
-          documents or records
+          System and communications protection policy; contingency
+          planning policy and procedures; contingency plan; system
+          design documentation; system configuration settings and
+          associated documentation; system architecture; list of
+          system physical locations (or environments) with
+          distributed processing and storage; system facility
+          diagrams; processing site agreements; storage site
+          agreements; system security plan; other relevant documents
+          or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; organizational personnel installing, configuring,
-          and/or maintaining the system; organizational personnel with contingency
-          planning and plan implementation responsibilities; system
+          System/network administrators; organizational personnel
+          with information security responsibilities; organizational
+          personnel installing, configuring, and/or maintaining the
+          system; organizational personnel with contingency planning
+          and plan implementation responsibilities; system
           developers/integrators
       - method: test
         statement: >
-          Organizational processes for distributed processing and storage across
-          multiple physical locations; mechanisms supporting and/or implementing the
-          capability to distribute processing and storage across multiple physical
+          Organizational processes for distributed processing and
+          storage across multiple physical locations; mechanisms
+          supporting and/or implementing the capability to
+          distribute processing and storage across multiple physical
           locations
-    statement: "{{ sc_36_odp_01 }} are distributed across {{ sc_36_odp_02 }};"
+    statement: >-
+      {{ sc_36_odp_01 }} are distributed across {{ sc_36_odp_02 }};
   - id: _obj-2
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; contingency planning policy and
-          procedures; contingency plan; system design documentation; system
-          configuration settings and associated documentation; system architecture;
-          list of system physical locations (or environments) with distributed
-          processing and storage; system facility diagrams; processing site
-          agreements; storage site agreements; system security plan; other relevant
-          documents or records
+          System and communications protection policy; contingency
+          planning policy and procedures; contingency plan; system
+          design documentation; system configuration settings and
+          associated documentation; system architecture; list of
+          system physical locations (or environments) with
+          distributed processing and storage; system facility
+          diagrams; processing site agreements; storage site
+          agreements; system security plan; other relevant documents
+          or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; organizational personnel installing, configuring,
-          and/or maintaining the system; organizational personnel with contingency
-          planning and plan implementation responsibilities; system
+          System/network administrators; organizational personnel
+          with information security responsibilities; organizational
+          personnel installing, configuring, and/or maintaining the
+          system; organizational personnel with contingency planning
+          and plan implementation responsibilities; system
           developers/integrators
       - method: test
         statement: >
-          Organizational processes for distributed processing and storage across
-          multiple physical locations; mechanisms supporting and/or implementing the
-          capability to distribute processing and storage across multiple physical
+          Organizational processes for distributed processing and
+          storage across multiple physical locations; mechanisms
+          supporting and/or implementing the capability to
+          distribute processing and storage across multiple physical
           locations
-    statement: "{{ sc_36_odp_03 }} are distributed across {{ sc_36_odp_04 }}."
+    statement: >-
+      {{ sc_36_odp_03 }} are distributed across {{ sc_36_odp_04 }}.
 parameters:
   sc_36_odp_01:
     label: processing components
@@ -77,5 +87,5 @@ parameters:
   sc_36_prm_2:
     label: organization-defined processing and storage components
 statement: >
-  Distribute the following processing and storage components across multiple
-  {{ sc_36_prm_1 }}: {{ sc_36_prm_2 }}.
+  Distribute the following processing and storage components across
+  multiple {{ sc_36_prm_1 }}: {{ sc_36_prm_2 }}.

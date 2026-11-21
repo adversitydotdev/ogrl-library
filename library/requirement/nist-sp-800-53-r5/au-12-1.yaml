@@ -13,28 +13,31 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Audit and accountability policy; system security plan; privacy plan;
-          procedures addressing audit record generation; system design documentation;
-          system configuration settings and associated documentation; system-wide
-          audit trail (logical or physical); system audit records; other relevant
-          documents or records
+          Audit and accountability policy; system security plan;
+          privacy plan; procedures addressing audit record
+          generation; system design documentation; system
+          configuration settings and associated documentation;
+          system-wide audit trail (logical or physical); system
+          audit records; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with audit record generation responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities; system/network administrators; system developers
+          Organizational personnel with audit record generation
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities;
+          system/network administrators; system developers
       - method: test
-        statement: Mechanisms implementing audit record generation capability
+        statement: >-
+          Mechanisms implementing audit record generation capability
     statement: >
-      audit records from {{ au_12_01_odp_01 }} are compiled into a system-wide
-      (logical or physical) audit trail that is time-correlated to within
-      {{ au_12_01_odp_02 }}.
+      audit records from {{ au_12_01_odp_01 }} are compiled into a
+      system-wide (logical or physical) audit trail that is
+      time-correlated to within {{ au_12_01_odp_02 }}.
 parameters:
   au_12_01_odp_01:
     label: system components
   au_12_01_odp_02:
     label: level of tolerance
 statement: >
-  Compile audit records from {{ au_12_01_odp_01 }} into a system-wide (logical
-  or physical) audit trail that is time-correlated to within
-  {{ au_12_01_odp_02 }}.
+  Compile audit records from {{ au_12_01_odp_01 }} into a
+  system-wide (logical or physical) audit trail that is
+  time-correlated to within {{ au_12_01_odp_02 }}.

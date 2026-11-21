@@ -20,51 +20,54 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Audit and accountability policy; system security plan; privacy plan;
-          procedures addressing audit review, analysis, and reporting; reports of
-          audit findings; records of actions taken in response to reviews/analyses of
-          audit records; other relevant documents or records
+          Audit and accountability policy; system security plan;
+          privacy plan; procedures addressing audit review,
+          analysis, and reporting; reports of audit findings;
+          records of actions taken in response to reviews/analyses
+          of audit records; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with audit review, analysis, and reporting
-          responsibilities; organizational personnel with information security and
-          privacy responsibilities
+          Organizational personnel with audit review, analysis, and
+          reporting responsibilities; organizational personnel with
+          information security and privacy responsibilities
     statement: >
-      system audit records are reviewed and analyzed {{ au_06_odp_01 }} for
-      indications of {{ au_06_odp_02 }} and the potential impact of the
-      inappropriate or unusual activity;
+      system audit records are reviewed and analyzed
+      {{ au_06_odp_01 }} for indications of {{ au_06_odp_02 }} and
+      the potential impact of the inappropriate or unusual activity;
   - id: b
     methods:
       - method: examine
         statement: >
-          Audit and accountability policy; system security plan; privacy plan;
-          procedures addressing audit review, analysis, and reporting; reports of
-          audit findings; records of actions taken in response to reviews/analyses of
-          audit records; other relevant documents or records
+          Audit and accountability policy; system security plan;
+          privacy plan; procedures addressing audit review,
+          analysis, and reporting; reports of audit findings;
+          records of actions taken in response to reviews/analyses
+          of audit records; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with audit review, analysis, and reporting
-          responsibilities; organizational personnel with information security and
-          privacy responsibilities
+          Organizational personnel with audit review, analysis, and
+          reporting responsibilities; organizational personnel with
+          information security and privacy responsibilities
     statement: "findings are reported to {{ au_06_odp_03 }};"
   - id: c
     methods:
       - method: examine
         statement: >
-          Audit and accountability policy; system security plan; privacy plan;
-          procedures addressing audit review, analysis, and reporting; reports of
-          audit findings; records of actions taken in response to reviews/analyses of
-          audit records; other relevant documents or records
+          Audit and accountability policy; system security plan;
+          privacy plan; procedures addressing audit review,
+          analysis, and reporting; reports of audit findings;
+          records of actions taken in response to reviews/analyses
+          of audit records; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with audit review, analysis, and reporting
-          responsibilities; organizational personnel with information security and
-          privacy responsibilities
+          Organizational personnel with audit review, analysis, and
+          reporting responsibilities; organizational personnel with
+          information security and privacy responsibilities
     statement: >
-      the level of audit record review, analysis, and reporting within the system
-      is adjusted when there is a change in risk based on law enforcement
-      information, intelligence information, or other credible sources of
-      information.
+      the level of audit record review, analysis, and reporting
+      within the system is adjusted when there is a change in risk
+      based on law enforcement information, intelligence
+      information, or other credible sources of information.
 parameters:
   au_06_odp_01:
     label: frequency
@@ -75,13 +78,14 @@ parameters:
 parts:
   - id: a
     statement: >
-      Review and analyze system audit records {{ au_06_odp_01 }} for indications
-      of {{ au_06_odp_02 }} and the potential impact of the inappropriate or
-      unusual activity;
+      Review and analyze system audit records {{ au_06_odp_01 }} for
+      indications of {{ au_06_odp_02 }} and the potential impact of
+      the inappropriate or unusual activity;
   - id: b
     statement: "Report findings to {{ au_06_odp_03 }} ; and"
   - id: c
     statement: >
-      Adjust the level of audit record review, analysis, and reporting within the
-      system when there is a change in risk based on law enforcement information,
-      intelligence information, or other credible sources of information.
+      Adjust the level of audit record review, analysis, and
+      reporting within the system when there is a change in risk
+      based on law enforcement information, intelligence
+      information, or other credible sources of information.

@@ -13,25 +13,27 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Personally identifiable information processing and transparency policy and
-          procedures; privacy plan; other relevant documents or records
+          Personally identifiable information processing and
+          transparency policy and procedures; privacy plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with personally identifiable information processing
-          and transparency responsibilities; organizational personnel with information
-          security and privacy responsibilities
+          Organizational personnel with personally identifiable
+          information processing and transparency responsibilities;
+          organizational personnel with information security and
+          privacy responsibilities
       - method: test
         statement: >
-          Organizational processes for authorizing the processing of personally
-          identifiable information; automated mechanisms supporting and/or
-          implementing the management of authorized personally identifiable
-          information processing
+          Organizational processes for authorizing the processing of
+          personally identifiable information; automated mechanisms
+          supporting and/or implementing the management of
+          authorized personally identifiable information processing
     statement: >
-      enforcement of the authorized processing of personally identifiable
-      information is managed using {{ pt_02_02_odp }}.
+      enforcement of the authorized processing of personally
+      identifiable information is managed using {{ pt_02_02_odp }}.
 parameters:
   pt_02_02_odp:
     label: automated mechanisms
 statement: >
-  Manage enforcement of the authorized processing of personally identifiable
-  information using {{ pt_02_02_odp }}.
+  Manage enforcement of the authorized processing of personally
+  identifiable information using {{ pt_02_02_odp }}.

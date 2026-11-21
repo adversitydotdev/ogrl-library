@@ -13,42 +13,46 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Incident response policy; contingency planning policy; procedures addressing
-          incident handling; procedures addressing the security operations center
-          operations; mechanisms supporting dynamic response capabilities; incident
-          response plan; contingency plan; system security plan; other relevant
-          documents or records
+          Incident response policy; contingency planning policy;
+          procedures addressing incident handling; procedures
+          addressing the security operations center operations;
+          mechanisms supporting dynamic response capabilities;
+          incident response plan; contingency plan; system security
+          plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with incident handling responsibilities;
-          organizational personnel with contingency planning responsibilities;
-          security operations center personnel; organizational personnel with
+          Organizational personnel with incident handling
+          responsibilities; organizational personnel with
+          contingency planning responsibilities; security operations
+          center personnel; organizational personnel with
           information security responsibilities
       - method: test
         statement: >
-          Mechanisms that support and/or implement the security operations center
-          capability; mechanisms that support and/or implement the incident handling
-          process
+          Mechanisms that support and/or implement the security
+          operations center capability; mechanisms that support
+          and/or implement the incident handling process
     statement: a security operations center is established;
   - id: "ir-04(14).ir-04(14)[02]"
     methods:
       - method: examine
         statement: >
-          Incident response policy; contingency planning policy; procedures addressing
-          incident handling; procedures addressing the security operations center
-          operations; mechanisms supporting dynamic response capabilities; incident
-          response plan; contingency plan; system security plan; other relevant
-          documents or records
+          Incident response policy; contingency planning policy;
+          procedures addressing incident handling; procedures
+          addressing the security operations center operations;
+          mechanisms supporting dynamic response capabilities;
+          incident response plan; contingency plan; system security
+          plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with incident handling responsibilities;
-          organizational personnel with contingency planning responsibilities;
-          security operations center personnel; organizational personnel with
+          Organizational personnel with incident handling
+          responsibilities; organizational personnel with
+          contingency planning responsibilities; security operations
+          center personnel; organizational personnel with
           information security responsibilities
       - method: test
         statement: >
-          Mechanisms that support and/or implement the security operations center
-          capability; mechanisms that support and/or implement the incident handling
-          process
+          Mechanisms that support and/or implement the security
+          operations center capability; mechanisms that support
+          and/or implement the incident handling process
     statement: a security operations center is maintained.
 statement: Establish and maintain a security operations center.

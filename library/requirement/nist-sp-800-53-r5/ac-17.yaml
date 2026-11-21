@@ -32,85 +32,97 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing remote access implementation
-          and usage (including restrictions); configuration management plan; system
-          configuration settings and associated documentation; remote access
-          authorizations; system audit records; system security plan; other relevant
-          documents or records
+          Access control policy; procedures addressing remote access
+          implementation and usage (including restrictions);
+          configuration management plan; system configuration
+          settings and associated documentation; remote access
+          authorizations; system audit records; system security
+          plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with responsibilities for managing remote access
-          connections; system/network administrators; organizational personnel with
-          information security responsibilities
+          Organizational personnel with responsibilities for
+          managing remote access connections; system/network
+          administrators; organizational personnel with information
+          security responsibilities
       - method: test
-        statement: Remote access management capability for the system
+        statement: >-
+          Remote access management capability for the system
     statement: >
-      usage restrictions are established and documented for each type of remote
-      access allowed;
+      usage restrictions are established and documented for each
+      type of remote access allowed;
   - id: a-2
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing remote access implementation
-          and usage (including restrictions); configuration management plan; system
-          configuration settings and associated documentation; remote access
-          authorizations; system audit records; system security plan; other relevant
-          documents or records
+          Access control policy; procedures addressing remote access
+          implementation and usage (including restrictions);
+          configuration management plan; system configuration
+          settings and associated documentation; remote access
+          authorizations; system audit records; system security
+          plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with responsibilities for managing remote access
-          connections; system/network administrators; organizational personnel with
-          information security responsibilities
+          Organizational personnel with responsibilities for
+          managing remote access connections; system/network
+          administrators; organizational personnel with information
+          security responsibilities
       - method: test
-        statement: Remote access management capability for the system
+        statement: >-
+          Remote access management capability for the system
     statement: >
-      configuration/connection requirements are established and documented for
-      each type of remote access allowed;
+      configuration/connection requirements are established and
+      documented for each type of remote access allowed;
   - id: a-3
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing remote access implementation
-          and usage (including restrictions); configuration management plan; system
-          configuration settings and associated documentation; remote access
-          authorizations; system audit records; system security plan; other relevant
-          documents or records
+          Access control policy; procedures addressing remote access
+          implementation and usage (including restrictions);
+          configuration management plan; system configuration
+          settings and associated documentation; remote access
+          authorizations; system audit records; system security
+          plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with responsibilities for managing remote access
-          connections; system/network administrators; organizational personnel with
-          information security responsibilities
+          Organizational personnel with responsibilities for
+          managing remote access connections; system/network
+          administrators; organizational personnel with information
+          security responsibilities
       - method: test
-        statement: Remote access management capability for the system
+        statement: >-
+          Remote access management capability for the system
     statement: >
-      implementation guidance is established and documented for each type of
-      remote access allowed;
+      implementation guidance is established and documented for each
+      type of remote access allowed;
   - id: b
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing remote access implementation
-          and usage (including restrictions); configuration management plan; system
-          configuration settings and associated documentation; remote access
-          authorizations; system audit records; system security plan; other relevant
-          documents or records
+          Access control policy; procedures addressing remote access
+          implementation and usage (including restrictions);
+          configuration management plan; system configuration
+          settings and associated documentation; remote access
+          authorizations; system audit records; system security
+          plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with responsibilities for managing remote access
-          connections; system/network administrators; organizational personnel with
-          information security responsibilities
+          Organizational personnel with responsibilities for
+          managing remote access connections; system/network
+          administrators; organizational personnel with information
+          security responsibilities
       - method: test
-        statement: Remote access management capability for the system
+        statement: >-
+          Remote access management capability for the system
     statement: >
-      each type of remote access to the system is authorized prior to allowing
-      such connections.
+      each type of remote access to the system is authorized prior
+      to allowing such connections.
 parts:
   - id: a
     statement: >
-      Establish and document usage restrictions, configuration/connection
-      requirements, and implementation guidance for each type of remote access
-      allowed; and
+      Establish and document usage restrictions,
+      configuration/connection requirements, and implementation
+      guidance for each type of remote access allowed; and
   - id: b
     statement: >
-      Authorize each type of remote access to the system prior to allowing such
-      connections.
+      Authorize each type of remote access to the system prior to
+      allowing such connections.

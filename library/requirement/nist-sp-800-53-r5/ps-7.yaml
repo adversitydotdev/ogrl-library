@@ -20,110 +20,123 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Personnel security policy; procedures addressing external personnel
-          security; list of personnel security requirements; acquisition documents;
-          service-level agreements; compliance monitoring process; system security
+          Personnel security policy; procedures addressing external
+          personnel security; list of personnel security
+          requirements; acquisition documents; service-level
+          agreements; compliance monitoring process; system security
           plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with personnel security responsibilities; external
-          providers; system/network administrators; organizational personnel with
-          account management responsibilities; organizational personnel with
+          Organizational personnel with personnel security
+          responsibilities; external providers; system/network
+          administrators; organizational personnel with account
+          management responsibilities; organizational personnel with
           information security responsibilities
       - method: test
         statement: >
-          Organizational processes for managing and monitoring external personnel
-          security; mechanisms supporting and/or implementing the monitoring of
-          provider compliance
+          Organizational processes for managing and monitoring
+          external personnel security; mechanisms supporting and/or
+          implementing the monitoring of provider compliance
     statement: >
-      personnel security requirements are established, including security roles
-      and responsibilities for external providers;
+      personnel security requirements are established, including
+      security roles and responsibilities for external providers;
   - id: b
     methods:
       - method: examine
         statement: >
-          Personnel security policy; procedures addressing external personnel
-          security; list of personnel security requirements; acquisition documents;
-          service-level agreements; compliance monitoring process; system security
+          Personnel security policy; procedures addressing external
+          personnel security; list of personnel security
+          requirements; acquisition documents; service-level
+          agreements; compliance monitoring process; system security
           plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with personnel security responsibilities; external
-          providers; system/network administrators; organizational personnel with
-          account management responsibilities; organizational personnel with
+          Organizational personnel with personnel security
+          responsibilities; external providers; system/network
+          administrators; organizational personnel with account
+          management responsibilities; organizational personnel with
           information security responsibilities
       - method: test
         statement: >
-          Organizational processes for managing and monitoring external personnel
-          security; mechanisms supporting and/or implementing the monitoring of
-          provider compliance
+          Organizational processes for managing and monitoring
+          external personnel security; mechanisms supporting and/or
+          implementing the monitoring of provider compliance
     statement: >
-      external providers are required to comply with personnel security policies
-      and procedures established by the organization;
+      external providers are required to comply with personnel
+      security policies and procedures established by the
+      organization;
   - id: c
     methods:
       - method: examine
         statement: >
-          Personnel security policy; procedures addressing external personnel
-          security; list of personnel security requirements; acquisition documents;
-          service-level agreements; compliance monitoring process; system security
+          Personnel security policy; procedures addressing external
+          personnel security; list of personnel security
+          requirements; acquisition documents; service-level
+          agreements; compliance monitoring process; system security
           plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with personnel security responsibilities; external
-          providers; system/network administrators; organizational personnel with
-          account management responsibilities; organizational personnel with
+          Organizational personnel with personnel security
+          responsibilities; external providers; system/network
+          administrators; organizational personnel with account
+          management responsibilities; organizational personnel with
           information security responsibilities
       - method: test
         statement: >
-          Organizational processes for managing and monitoring external personnel
-          security; mechanisms supporting and/or implementing the monitoring of
-          provider compliance
+          Organizational processes for managing and monitoring
+          external personnel security; mechanisms supporting and/or
+          implementing the monitoring of provider compliance
     statement: personnel security requirements are documented;
   - id: d
     methods:
       - method: examine
         statement: >
-          Personnel security policy; procedures addressing external personnel
-          security; list of personnel security requirements; acquisition documents;
-          service-level agreements; compliance monitoring process; system security
+          Personnel security policy; procedures addressing external
+          personnel security; list of personnel security
+          requirements; acquisition documents; service-level
+          agreements; compliance monitoring process; system security
           plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with personnel security responsibilities; external
-          providers; system/network administrators; organizational personnel with
-          account management responsibilities; organizational personnel with
+          Organizational personnel with personnel security
+          responsibilities; external providers; system/network
+          administrators; organizational personnel with account
+          management responsibilities; organizational personnel with
           information security responsibilities
       - method: test
         statement: >
-          Organizational processes for managing and monitoring external personnel
-          security; mechanisms supporting and/or implementing the monitoring of
-          provider compliance
+          Organizational processes for managing and monitoring
+          external personnel security; mechanisms supporting and/or
+          implementing the monitoring of provider compliance
     statement: >
-      external providers are required to notify {{ ps_07_odp_01 }} of any
-      personnel transfers or terminations of external personnel who possess
-      organizational credentials and/or badges or who have system privileges
-      within {{ ps_07_odp_02 }};
+      external providers are required to notify {{ ps_07_odp_01 }}
+      of any personnel transfers or terminations of external
+      personnel who possess organizational credentials and/or badges
+      or who have system privileges within {{ ps_07_odp_02 }};
   - id: e
     methods:
       - method: examine
         statement: >
-          Personnel security policy; procedures addressing external personnel
-          security; list of personnel security requirements; acquisition documents;
-          service-level agreements; compliance monitoring process; system security
+          Personnel security policy; procedures addressing external
+          personnel security; list of personnel security
+          requirements; acquisition documents; service-level
+          agreements; compliance monitoring process; system security
           plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with personnel security responsibilities; external
-          providers; system/network administrators; organizational personnel with
-          account management responsibilities; organizational personnel with
+          Organizational personnel with personnel security
+          responsibilities; external providers; system/network
+          administrators; organizational personnel with account
+          management responsibilities; organizational personnel with
           information security responsibilities
       - method: test
         statement: >
-          Organizational processes for managing and monitoring external personnel
-          security; mechanisms supporting and/or implementing the monitoring of
-          provider compliance
-    statement: provider compliance with personnel security requirements is monitored.
+          Organizational processes for managing and monitoring
+          external personnel security; mechanisms supporting and/or
+          implementing the monitoring of provider compliance
+    statement: >-
+      provider compliance with personnel security requirements is
+      monitored.
 parameters:
   ps_07_odp_01:
     label: personnel or roles
@@ -132,19 +145,21 @@ parameters:
 parts:
   - id: a
     statement: >
-      Establish personnel security requirements, including security roles and
-      responsibilities for external providers;
+      Establish personnel security requirements, including security
+      roles and responsibilities for external providers;
   - id: b
     statement: >
-      Require external providers to comply with personnel security policies and
-      procedures established by the organization;
+      Require external providers to comply with personnel security
+      policies and procedures established by the organization;
   - id: c
     statement: Document personnel security requirements;
   - id: d
     statement: >
-      Require external providers to notify {{ ps_07_odp_01 }} of any personnel
-      transfers or terminations of external personnel who possess organizational
-      credentials and/or badges, or who have system privileges within
-      {{ ps_07_odp_02 }} ; and
+      Require external providers to notify {{ ps_07_odp_01 }} of any
+      personnel transfers or terminations of external personnel who
+      possess organizational credentials and/or badges, or who have
+      system privileges within {{ ps_07_odp_02 }} ; and
   - id: e
-    statement: Monitor provider compliance with personnel security requirements.
+    statement: >-
+      Monitor provider compliance with personnel security
+      requirements.

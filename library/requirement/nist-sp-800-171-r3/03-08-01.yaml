@@ -20,34 +20,43 @@ objectives:
     methods:
       - method: examine
         statement: >
-          physical protection policy and procedures; media protection policy and
-          procedures; procedures for media storage; access control policy and
-          procedures; system media; system security plan; other relevant documents or
+          physical protection policy and procedures; media
+          protection policy and procedures; procedures for media
+          storage; access control policy and procedures; system
+          media; system security plan; other relevant documents or
           records
       - method: interview
         statement: >
-          personnel with system media protection and storage responsibilities;
-          personnel with information security responsibilities
+          personnel with system media protection and storage
+          responsibilities; personnel with information security
+          responsibilities
       - method: test
         statement: >
-          processes for storing information media; mechanisms for supporting or
-          implementing secure media storage/media protection
-    statement: system media that contain CUI are physically controlled.
+          processes for storing information media; mechanisms for
+          supporting or implementing secure media storage/media
+          protection
+    statement: >-
+      system media that contain CUI are physically controlled.
   - id: "02"
     methods:
       - method: examine
         statement: >
-          physical protection policy and procedures; media protection policy and
-          procedures; procedures for media storage; access control policy and
-          procedures; system media; system security plan; other relevant documents or
+          physical protection policy and procedures; media
+          protection policy and procedures; procedures for media
+          storage; access control policy and procedures; system
+          media; system security plan; other relevant documents or
           records
       - method: interview
         statement: >
-          personnel with system media protection and storage responsibilities;
-          personnel with information security responsibilities
+          personnel with system media protection and storage
+          responsibilities; personnel with information security
+          responsibilities
       - method: test
         statement: >
-          processes for storing information media; mechanisms for supporting or
-          implementing secure media storage/media protection
+          processes for storing information media; mechanisms for
+          supporting or implementing secure media storage/media
+          protection
     statement: system media that contain CUI are securely stored.
-statement: Physically control and securely store system media that contain CUI.
+statement: >-
+  Physically control and securely store system media that contain
+  CUI.

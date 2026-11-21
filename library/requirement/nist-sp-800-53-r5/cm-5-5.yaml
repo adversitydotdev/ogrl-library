@@ -13,85 +13,97 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Configuration management policy; procedures addressing access restrictions
-          for changes to the system; configuration management plan; system design
-          documentation; system architecture and configuration documentation; system
-          configuration settings and associated documentation; user privilege reviews;
-          user privilege recertifications; system component inventory; change control
-          records; system audit records; system security plan; other relevant
-          documents or records
+          Configuration management policy; procedures addressing
+          access restrictions for changes to the system;
+          configuration management plan; system design
+          documentation; system architecture and configuration
+          documentation; system configuration settings and
+          associated documentation; user privilege reviews; user
+          privilege recertifications; system component inventory;
+          change control records; system audit records; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with information security responsibilities;
-          system/network administrators
+          Organizational personnel with information security
+          responsibilities; system/network administrators
       - method: test
         statement: >
-          Organizational processes for managing access restrictions to change;
-          mechanisms supporting and/or implementing access restrictions for change
+          Organizational processes for managing access restrictions
+          to change; mechanisms supporting and/or implementing
+          access restrictions for change
     statement: >
-      privileges to change system components within a production or operational
-      environment are limited;
+      privileges to change system components within a production or
+      operational environment are limited;
   - id: a-2
     methods:
       - method: examine
         statement: >
-          Configuration management policy; procedures addressing access restrictions
-          for changes to the system; configuration management plan; system design
-          documentation; system architecture and configuration documentation; system
-          configuration settings and associated documentation; user privilege reviews;
-          user privilege recertifications; system component inventory; change control
-          records; system audit records; system security plan; other relevant
-          documents or records
+          Configuration management policy; procedures addressing
+          access restrictions for changes to the system;
+          configuration management plan; system design
+          documentation; system architecture and configuration
+          documentation; system configuration settings and
+          associated documentation; user privilege reviews; user
+          privilege recertifications; system component inventory;
+          change control records; system audit records; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with information security responsibilities;
-          system/network administrators
+          Organizational personnel with information security
+          responsibilities; system/network administrators
       - method: test
         statement: >
-          Organizational processes for managing access restrictions to change;
-          mechanisms supporting and/or implementing access restrictions for change
+          Organizational processes for managing access restrictions
+          to change; mechanisms supporting and/or implementing
+          access restrictions for change
     statement: >
-      privileges to change system-related information within a production or
-      operational environment are limited;
+      privileges to change system-related information within a
+      production or operational environment are limited;
   - id: b-1
     methods:
       - method: examine
         statement: >
-          Configuration management policy; procedures addressing access restrictions
-          for changes to the system; configuration management plan; system design
-          documentation; system architecture and configuration documentation; system
-          configuration settings and associated documentation; user privilege reviews;
-          user privilege recertifications; system component inventory; change control
-          records; system audit records; system security plan; other relevant
-          documents or records
+          Configuration management policy; procedures addressing
+          access restrictions for changes to the system;
+          configuration management plan; system design
+          documentation; system architecture and configuration
+          documentation; system configuration settings and
+          associated documentation; user privilege reviews; user
+          privilege recertifications; system component inventory;
+          change control records; system audit records; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with information security responsibilities;
-          system/network administrators
+          Organizational personnel with information security
+          responsibilities; system/network administrators
       - method: test
         statement: >
-          Organizational processes for managing access restrictions to change;
-          mechanisms supporting and/or implementing access restrictions for change
+          Organizational processes for managing access restrictions
+          to change; mechanisms supporting and/or implementing
+          access restrictions for change
     statement: "privileges are reviewed {{ cm_05_05_odp_01 }};"
   - id: b-2
     methods:
       - method: examine
         statement: >
-          Configuration management policy; procedures addressing access restrictions
-          for changes to the system; configuration management plan; system design
-          documentation; system architecture and configuration documentation; system
-          configuration settings and associated documentation; user privilege reviews;
-          user privilege recertifications; system component inventory; change control
-          records; system audit records; system security plan; other relevant
-          documents or records
+          Configuration management policy; procedures addressing
+          access restrictions for changes to the system;
+          configuration management plan; system design
+          documentation; system architecture and configuration
+          documentation; system configuration settings and
+          associated documentation; user privilege reviews; user
+          privilege recertifications; system component inventory;
+          change control records; system audit records; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with information security responsibilities;
-          system/network administrators
+          Organizational personnel with information security
+          responsibilities; system/network administrators
       - method: test
         statement: >
-          Organizational processes for managing access restrictions to change;
-          mechanisms supporting and/or implementing access restrictions for change
+          Organizational processes for managing access restrictions
+          to change; mechanisms supporting and/or implementing
+          access restrictions for change
     statement: "privileges are reevaluated {{ cm_05_05_odp_02 }}."
 parameters:
   cm_05_05_odp_01:
@@ -103,7 +115,9 @@ parameters:
 parts:
   - id: a
     statement: >
-      Limit privileges to change system components and system-related information
-      within a production or operational environment; and
+      Limit privileges to change system components and
+      system-related information within a production or operational
+      environment; and
   - id: b
-    statement: "Review and reevaluate privileges {{ cm_5_5_prm_1 }}."
+    statement: >-
+      Review and reevaluate privileges {{ cm_5_5_prm_1 }}.

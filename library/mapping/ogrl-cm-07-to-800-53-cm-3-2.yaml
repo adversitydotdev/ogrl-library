@@ -8,5 +8,7 @@ rationale: functional
 relationship: equivalent-to
 review_status: draft
 source_ref: control--ogrl-cm-07
-summary: "Gated testing, validation, and retained results before deployment meet CM-3(2)."
+summary: >-
+  Gated testing, validation, and retained results before deployment
+  meet CM-3(2).
 target_ref: requirement--nist-sp-800-53-r5-cm-3-2

@@ -20,99 +20,126 @@ objectives:
     methods:
       - method: examine
         statement: >
-          security awareness and training policy and procedures; procedures for
-          security training implementation; codes of federal regulations; security
-          training curriculum; security training materials; training records; system
+          security awareness and training policy and procedures;
+          procedures for security training implementation; codes of
+          federal regulations; security training curriculum;
+          security training materials; training records; system
           security plan; other relevant documents or records
       - method: interview
         statement: >
-          personnel with responsibilities for role-based security training; personnel
-          with assigned system security roles and responsibilities
+          personnel with responsibilities for role-based security
+          training; personnel with assigned system security roles
+          and responsibilities
       - method: test
-        statement: mechanisms for managing role-based security training and awareness
+        statement: >-
+          mechanisms for managing role-based security training and
+          awareness
     statement: >
-      role-based security training is provided to organizational personnel before
-      authorizing access to the system or CUI.
+      role-based security training is provided to organizational
+      personnel before authorizing access to the system or CUI.
   - id: a.01.02
     methods:
       - method: examine
         statement: >
-          security awareness and training policy and procedures; procedures for
-          security training implementation; codes of federal regulations; security
-          training curriculum; security training materials; training records; system
+          security awareness and training policy and procedures;
+          procedures for security training implementation; codes of
+          federal regulations; security training curriculum;
+          security training materials; training records; system
           security plan; other relevant documents or records
       - method: interview
         statement: >
-          personnel with responsibilities for role-based security training; personnel
-          with assigned system security roles and responsibilities
+          personnel with responsibilities for role-based security
+          training; personnel with assigned system security roles
+          and responsibilities
       - method: test
-        statement: mechanisms for managing role-based security training and awareness
+        statement: >-
+          mechanisms for managing role-based security training and
+          awareness
     statement: >
-      role-based security training is provided to organizational personnel before
-      performing assigned duties.
+      role-based security training is provided to organizational
+      personnel before performing assigned duties.
   - id: a.01.03
     methods:
       - method: examine
         statement: >
-          security awareness and training policy and procedures; procedures for
-          security training implementation; codes of federal regulations; security
-          training curriculum; security training materials; training records; system
+          security awareness and training policy and procedures;
+          procedures for security training implementation; codes of
+          federal regulations; security training curriculum;
+          security training materials; training records; system
           security plan; other relevant documents or records
       - method: interview
         statement: >
-          personnel with responsibilities for role-based security training; personnel
-          with assigned system security roles and responsibilities
+          personnel with responsibilities for role-based security
+          training; personnel with assigned system security roles
+          and responsibilities
       - method: test
-        statement: mechanisms for managing role-based security training and awareness
+        statement: >-
+          mechanisms for managing role-based security training and
+          awareness
     statement: >
-      role-based security training is provided to organizational personnel
-      {{ a_03_02_02_odp_01 }} after initial training.
+      role-based security training is provided to organizational
+      personnel {{ a_03_02_02_odp_01 }} after initial training.
   - id: a.02
     methods:
       - method: examine
         statement: >
-          security awareness and training policy and procedures; procedures for
-          security training implementation; codes of federal regulations; security
-          training curriculum; security training materials; training records; system
+          security awareness and training policy and procedures;
+          procedures for security training implementation; codes of
+          federal regulations; security training curriculum;
+          security training materials; training records; system
           security plan; other relevant documents or records
       - method: interview
         statement: >
-          personnel with responsibilities for role-based security training; personnel
-          with assigned system security roles and responsibilities
+          personnel with responsibilities for role-based security
+          training; personnel with assigned system security roles
+          and responsibilities
       - method: test
-        statement: mechanisms for managing role-based security training and awareness
+        statement: >-
+          mechanisms for managing role-based security training and
+          awareness
     statement: >
-      role-based security training is provided to organizational personnel when
-      required by system changes or following {{ a_03_02_02_odp_02 }}.
+      role-based security training is provided to organizational
+      personnel when required by system changes or following
+      {{ a_03_02_02_odp_02 }}.
   - id: b.01
     methods:
       - method: examine
         statement: >
-          security awareness and training policy and procedures; procedures for
-          security training implementation; codes of federal regulations; security
-          training curriculum; security training materials; training records; system
+          security awareness and training policy and procedures;
+          procedures for security training implementation; codes of
+          federal regulations; security training curriculum;
+          security training materials; training records; system
           security plan; other relevant documents or records
       - method: interview
         statement: >
-          personnel with responsibilities for role-based security training; personnel
-          with assigned system security roles and responsibilities
+          personnel with responsibilities for role-based security
+          training; personnel with assigned system security roles
+          and responsibilities
       - method: test
-        statement: mechanisms for managing role-based security training and awareness
-    statement: "role-based security training content is updated {{ a_03_02_02_odp_03 }}."
+        statement: >-
+          mechanisms for managing role-based security training and
+          awareness
+    statement: >-
+      role-based security training content is updated
+      {{ a_03_02_02_odp_03 }}.
   - id: b.02
     methods:
       - method: examine
         statement: >
-          security awareness and training policy and procedures; procedures for
-          security training implementation; codes of federal regulations; security
-          training curriculum; security training materials; training records; system
+          security awareness and training policy and procedures;
+          procedures for security training implementation; codes of
+          federal regulations; security training curriculum;
+          security training materials; training records; system
           security plan; other relevant documents or records
       - method: interview
         statement: >
-          personnel with responsibilities for role-based security training; personnel
-          with assigned system security roles and responsibilities
+          personnel with responsibilities for role-based security
+          training; personnel with assigned system security roles
+          and responsibilities
       - method: test
-        statement: mechanisms for managing role-based security training and awareness
+        statement: >-
+          mechanisms for managing role-based security training and
+          awareness
     statement: >
       role-based security training content is updated following
       {{ a_03_02_02_odp_04 }}.
@@ -127,14 +154,19 @@ parameters:
     label: events
 parts:
   - id: a
-    statement: "Provide role-based security training to organizational personnel:"
+    statement: >-
+      Provide role-based security training to organizational
+      personnel:
   - id: a.01
     statement: >
-      Before authorizing access to the system or CUI, before performing assigned
-      duties, and {{ a_03_02_02_odp_01 }} thereafter
+      Before authorizing access to the system or CUI, before
+      performing assigned duties, and {{ a_03_02_02_odp_01 }}
+      thereafter
   - id: a.02
-    statement: "When required by system changes or following {{ a_03_02_02_odp_02 }}."
+    statement: >-
+      When required by system changes or following
+      {{ a_03_02_02_odp_02 }}.
   - id: b
     statement: >
-      Update role-based training content {{ a_03_02_02_odp_03 }} and following
-      {{ a_03_02_02_odp_04 }}.
+      Update role-based training content {{ a_03_02_02_odp_03 }} and
+      following {{ a_03_02_02_odp_04 }}.

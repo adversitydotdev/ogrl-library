@@ -13,25 +13,28 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Identification and authentication policy; procedures addressing identifier
-          management; system security plan; system design documentation; mechanisms
-          providing dynamic binding of identifiers and authenticators; system
-          configuration settings and associated documentation; system audit records;
-          other relevant documents or records
+          Identification and authentication policy; procedures
+          addressing identifier management; system security plan;
+          system design documentation; mechanisms providing dynamic
+          binding of identifiers and authenticators; system
+          configuration settings and associated documentation;
+          system audit records; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with identification and authentication management
-          responsibilities; organizational personnel with information security
-          responsibilities; system/network administrators
+          Organizational personnel with identification and
+          authentication management responsibilities; organizational
+          personnel with information security responsibilities;
+          system/network administrators
       - method: test
         statement: >
-          Mechanisms supporting and/or implementing account management capability;
-          mechanisms supporting and/or implementing identification and authentication
-          management capabilities for the system
+          Mechanisms supporting and/or implementing account
+          management capability; mechanisms supporting and/or
+          implementing identification and authentication management
+          capabilities for the system
     statement: >
-      the issuance of {{ ia_05_16_odp_01 }} is required to be conducted
-      {{ ia_05_16_odp_02 }} before {{ ia_05_16_odp_03 }} with authorization by
-      {{ ia_05_16_odp_04 }}.
+      the issuance of {{ ia_05_16_odp_01 }} is required to be
+      conducted {{ ia_05_16_odp_02 }} before {{ ia_05_16_odp_03 }}
+      with authorization by {{ ia_05_16_odp_04 }}.
 parameters:
   ia_05_16_odp_01:
     label: types of and/or specific authenticators
@@ -43,5 +46,5 @@ parameters:
     label: personnel or roles
 statement: >
   Require that the issuance of {{ ia_05_16_odp_01 }} be conducted
-  {{ ia_05_16_odp_02 }} before {{ ia_05_16_odp_03 }} with authorization by
-  {{ ia_05_16_odp_04 }}.
+  {{ ia_05_16_odp_02 }} before {{ ia_05_16_odp_03 }} with
+  authorization by {{ ia_05_16_odp_04 }}.

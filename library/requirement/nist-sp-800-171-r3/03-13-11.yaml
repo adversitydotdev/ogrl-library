@@ -17,24 +17,28 @@ objectives:
     methods:
       - method: examine
         statement: >
-          system and communications protection policy and procedures; procedures for
-          cryptographic protection; system design documentation; system configuration
-          settings; cryptographic module validation certificates; list of
-          FIPS-validated cryptographic modules; system audit records; system security
-          plan; other relevant documents or records
+          system and communications protection policy and
+          procedures; procedures for cryptographic protection;
+          system design documentation; system configuration
+          settings; cryptographic module validation certificates;
+          list of FIPS-validated cryptographic modules; system audit
+          records; system security plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          personnel with responsibilities for cryptographic protection; personnel with
-          information security responsibilities; system developers; system
-          administrators
+          personnel with responsibilities for cryptographic
+          protection; personnel with information security
+          responsibilities; system developers; system administrators
       - method: test
-        statement: mechanisms for supporting or implementing cryptographic protection
+        statement: >-
+          mechanisms for supporting or implementing cryptographic
+          protection
     statement: >
-      the following types of cryptography are implemented to protect the
-      confidentiality of CUI: {{ a_03_13_11_odp_01 }}.
+      the following types of cryptography are implemented to protect
+      the confidentiality of CUI: {{ a_03_13_11_odp_01 }}.
 parameters:
   a_03_13_11_odp_01:
     label: types of cryptography
 statement: >
-  Implement the following types of cryptography to protect the confidentiality
-  of CUI: {{ a_03_13_11_odp_01 }}.
+  Implement the following types of cryptography to protect the
+  confidentiality of CUI: {{ a_03_13_11_odp_01 }}.

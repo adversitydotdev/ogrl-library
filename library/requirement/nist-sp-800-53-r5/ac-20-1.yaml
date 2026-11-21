@@ -13,50 +13,58 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing the use of external systems;
-          system connection or processing agreements; account management documents;
-          system security plan; other relevant documents or records
+          Access control policy; procedures addressing the use of
+          external systems; system connection or processing
+          agreements; account management documents; system security
+          plan; other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities
+          System/network administrators; organizational personnel
+          with information security responsibilities
       - method: test
-        statement: Mechanisms implementing limits on use of external systems
+        statement: >-
+          Mechanisms implementing limits on use of external systems
     statement: >
-      authorized individuals are permitted to use an external system to access the
-      system or to process, store, or transmit organization-controlled information
-      only after verification of the implementation of controls on the external
-      system as specified in the organization’s security and privacy policies
-      and security and privacy plans (if applicable);
+      authorized individuals are permitted to use an external system
+      to access the system or to process, store, or transmit
+      organization-controlled information only after verification of
+      the implementation of controls on the external system as
+      specified in the organization’s security and privacy
+      policies and security and privacy plans (if applicable);
   - id: b
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing the use of external systems;
-          system connection or processing agreements; account management documents;
-          system security plan; other relevant documents or records
+          Access control policy; procedures addressing the use of
+          external systems; system connection or processing
+          agreements; account management documents; system security
+          plan; other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities
+          System/network administrators; organizational personnel
+          with information security responsibilities
       - method: test
-        statement: Mechanisms implementing limits on use of external systems
+        statement: >-
+          Mechanisms implementing limits on use of external systems
     statement: >
-      authorized individuals are permitted to use an external system to access the
-      system or to process, store, or transmit organization-controlled information
-      only after retention of approved system connection or processing agreements
-      with the organizational entity hosting the external system (if applicable).
+      authorized individuals are permitted to use an external system
+      to access the system or to process, store, or transmit
+      organization-controlled information only after retention of
+      approved system connection or processing agreements with the
+      organizational entity hosting the external system (if
+      applicable).
 parts:
   - id: a
     statement: >
-      Verification of the implementation of controls on the external system as
-      specified in the organization’s security and privacy policies and security
-      and privacy plans; or
+      Verification of the implementation of controls on the external
+      system as specified in the organization’s security and
+      privacy policies and security and privacy plans; or
   - id: b
     statement: >
-      Retention of approved system connection or processing agreements with the
-      organizational entity hosting the external system.
+      Retention of approved system connection or processing
+      agreements with the organizational entity hosting the external
+      system.
 statement: >
-  Permit authorized individuals to use an external system to access the system
-  or to process, store, or transmit organization-controlled information only
-  after:
+  Permit authorized individuals to use an external system to access
+  the system or to process, store, or transmit
+  organization-controlled information only after:

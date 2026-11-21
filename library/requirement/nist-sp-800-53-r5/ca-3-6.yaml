@@ -13,25 +13,32 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing system connections; system and
-          communications protection policy; system interconnection agreements;
-          information exchange security agreements; memoranda of understanding or
-          agreements; service level agreements; non-disclosure agreements; system
-          design documentation; system configuration settings and associated
-          documentation; control assessment report; system audit records; system
-          security plan; privacy plan; other relevant documents or records
+          Access control policy; procedures addressing system
+          connections; system and communications protection policy;
+          system interconnection agreements; information exchange
+          security agreements; memoranda of understanding or
+          agreements; service level agreements; non-disclosure
+          agreements; system design documentation; system
+          configuration settings and associated documentation;
+          control assessment report; system audit records; system
+          security plan; privacy plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          Organizational personnel with responsibilities for managing connections to
-          external systems; network administrators; organizational personnel with
-          information security and privacy responsibilities
+          Organizational personnel with responsibilities for
+          managing connections to external systems; network
+          administrators; organizational personnel with information
+          security and privacy responsibilities
       - method: test
-        statement: Mechanisms implementing restrictions on external system connections
+        statement: >-
+          Mechanisms implementing restrictions on external system
+          connections
     statement: >
-      individuals or systems transferring data between interconnecting systems
-      have the requisite authorizations (i.e., write permissions or privileges)
-      prior to accepting such data.
+      individuals or systems transferring data between
+      interconnecting systems have the requisite authorizations
+      (i.e., write permissions or privileges) prior to accepting
+      such data.
 statement: >
-  Verify that individuals or systems transferring data between interconnecting
-  systems have the requisite authorizations (i.e., write permissions or
-  privileges) prior to accepting such data.
+  Verify that individuals or systems transferring data between
+  interconnecting systems have the requisite authorizations (i.e.,
+  write permissions or privileges) prior to accepting such data.

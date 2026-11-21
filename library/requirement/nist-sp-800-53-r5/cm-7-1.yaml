@@ -13,146 +13,171 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Configuration management policy; procedures addressing least functionality
-          in the system; configuration management plan; system design documentation;
-          system configuration settings and associated documentation; common secure
-          configuration checklists; documented reviews of functions, ports, protocols,
-          and/or services; change control records; system audit records; system
-          security plan; other relevant documents or records
+          Configuration management policy; procedures addressing
+          least functionality in the system; configuration
+          management plan; system design documentation; system
+          configuration settings and associated documentation;
+          common secure configuration checklists; documented reviews
+          of functions, ports, protocols, and/or services; change
+          control records; system audit records; system security
+          plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with responsibilities for reviewing functions,
-          ports, protocols, and services on the system; organizational personnel with
-          information security responsibilities; system/network administrators; system
+          Organizational personnel with responsibilities for
+          reviewing functions, ports, protocols, and services on the
+          system; organizational personnel with information security
+          responsibilities; system/network administrators; system
           developers
       - method: test
         statement: >
-          Organizational processes for reviewing or disabling functions, ports,
-          protocols, and services on the system; mechanisms implementing review and
-          disabling of functions, ports, protocols, and/or services
+          Organizational processes for reviewing or disabling
+          functions, ports, protocols, and services on the system;
+          mechanisms implementing review and disabling of functions,
+          ports, protocols, and/or services
     statement: >
-      the system is reviewed {{ cm_07_01_odp_01 }} to identify unnecessary and/or
-      non-secure functions, ports, protocols, software, and services:
+      the system is reviewed {{ cm_07_01_odp_01 }} to identify
+      unnecessary and/or non-secure functions, ports, protocols,
+      software, and services:
   - id: b-1
     methods:
       - method: examine
         statement: >
-          Configuration management policy; procedures addressing least functionality
-          in the system; configuration management plan; system design documentation;
-          system configuration settings and associated documentation; common secure
-          configuration checklists; documented reviews of functions, ports, protocols,
-          and/or services; change control records; system audit records; system
-          security plan; other relevant documents or records
+          Configuration management policy; procedures addressing
+          least functionality in the system; configuration
+          management plan; system design documentation; system
+          configuration settings and associated documentation;
+          common secure configuration checklists; documented reviews
+          of functions, ports, protocols, and/or services; change
+          control records; system audit records; system security
+          plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with responsibilities for reviewing functions,
-          ports, protocols, and services on the system; organizational personnel with
-          information security responsibilities; system/network administrators; system
+          Organizational personnel with responsibilities for
+          reviewing functions, ports, protocols, and services on the
+          system; organizational personnel with information security
+          responsibilities; system/network administrators; system
           developers
       - method: test
         statement: >
-          Organizational processes for reviewing or disabling functions, ports,
-          protocols, and services on the system; mechanisms implementing review and
-          disabling of functions, ports, protocols, and/or services
+          Organizational processes for reviewing or disabling
+          functions, ports, protocols, and services on the system;
+          mechanisms implementing review and disabling of functions,
+          ports, protocols, and/or services
     statement: >
-      {{ cm_07_01_odp_02 }} deemed to be unnecessary and/or non-secure are
-      disabled or removed;
+      {{ cm_07_01_odp_02 }} deemed to be unnecessary and/or
+      non-secure are disabled or removed;
   - id: b-2
     methods:
       - method: examine
         statement: >
-          Configuration management policy; procedures addressing least functionality
-          in the system; configuration management plan; system design documentation;
-          system configuration settings and associated documentation; common secure
-          configuration checklists; documented reviews of functions, ports, protocols,
-          and/or services; change control records; system audit records; system
-          security plan; other relevant documents or records
+          Configuration management policy; procedures addressing
+          least functionality in the system; configuration
+          management plan; system design documentation; system
+          configuration settings and associated documentation;
+          common secure configuration checklists; documented reviews
+          of functions, ports, protocols, and/or services; change
+          control records; system audit records; system security
+          plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with responsibilities for reviewing functions,
-          ports, protocols, and services on the system; organizational personnel with
-          information security responsibilities; system/network administrators; system
+          Organizational personnel with responsibilities for
+          reviewing functions, ports, protocols, and services on the
+          system; organizational personnel with information security
+          responsibilities; system/network administrators; system
           developers
       - method: test
         statement: >
-          Organizational processes for reviewing or disabling functions, ports,
-          protocols, and services on the system; mechanisms implementing review and
-          disabling of functions, ports, protocols, and/or services
+          Organizational processes for reviewing or disabling
+          functions, ports, protocols, and services on the system;
+          mechanisms implementing review and disabling of functions,
+          ports, protocols, and/or services
     statement: >
-      {{ cm_07_01_odp_03 }} deemed to be unnecessary and/or non-secure are
-      disabled or removed;
+      {{ cm_07_01_odp_03 }} deemed to be unnecessary and/or
+      non-secure are disabled or removed;
   - id: b-3
     methods:
       - method: examine
         statement: >
-          Configuration management policy; procedures addressing least functionality
-          in the system; configuration management plan; system design documentation;
-          system configuration settings and associated documentation; common secure
-          configuration checklists; documented reviews of functions, ports, protocols,
-          and/or services; change control records; system audit records; system
-          security plan; other relevant documents or records
+          Configuration management policy; procedures addressing
+          least functionality in the system; configuration
+          management plan; system design documentation; system
+          configuration settings and associated documentation;
+          common secure configuration checklists; documented reviews
+          of functions, ports, protocols, and/or services; change
+          control records; system audit records; system security
+          plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with responsibilities for reviewing functions,
-          ports, protocols, and services on the system; organizational personnel with
-          information security responsibilities; system/network administrators; system
+          Organizational personnel with responsibilities for
+          reviewing functions, ports, protocols, and services on the
+          system; organizational personnel with information security
+          responsibilities; system/network administrators; system
           developers
       - method: test
         statement: >
-          Organizational processes for reviewing or disabling functions, ports,
-          protocols, and services on the system; mechanisms implementing review and
-          disabling of functions, ports, protocols, and/or services
+          Organizational processes for reviewing or disabling
+          functions, ports, protocols, and services on the system;
+          mechanisms implementing review and disabling of functions,
+          ports, protocols, and/or services
     statement: >
-      {{ cm_07_01_odp_04 }} deemed to be unnecessary and/or non-secure are
-      disabled or removed;
+      {{ cm_07_01_odp_04 }} deemed to be unnecessary and/or
+      non-secure are disabled or removed;
   - id: b-4
     methods:
       - method: examine
         statement: >
-          Configuration management policy; procedures addressing least functionality
-          in the system; configuration management plan; system design documentation;
-          system configuration settings and associated documentation; common secure
-          configuration checklists; documented reviews of functions, ports, protocols,
-          and/or services; change control records; system audit records; system
-          security plan; other relevant documents or records
+          Configuration management policy; procedures addressing
+          least functionality in the system; configuration
+          management plan; system design documentation; system
+          configuration settings and associated documentation;
+          common secure configuration checklists; documented reviews
+          of functions, ports, protocols, and/or services; change
+          control records; system audit records; system security
+          plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with responsibilities for reviewing functions,
-          ports, protocols, and services on the system; organizational personnel with
-          information security responsibilities; system/network administrators; system
+          Organizational personnel with responsibilities for
+          reviewing functions, ports, protocols, and services on the
+          system; organizational personnel with information security
+          responsibilities; system/network administrators; system
           developers
       - method: test
         statement: >
-          Organizational processes for reviewing or disabling functions, ports,
-          protocols, and services on the system; mechanisms implementing review and
-          disabling of functions, ports, protocols, and/or services
+          Organizational processes for reviewing or disabling
+          functions, ports, protocols, and services on the system;
+          mechanisms implementing review and disabling of functions,
+          ports, protocols, and/or services
     statement: >
-      {{ cm_07_01_odp_05 }} deemed to be unnecessary and/or non-secure is disabled
-      or removed;
+      {{ cm_07_01_odp_05 }} deemed to be unnecessary and/or
+      non-secure is disabled or removed;
   - id: b-5
     methods:
       - method: examine
         statement: >
-          Configuration management policy; procedures addressing least functionality
-          in the system; configuration management plan; system design documentation;
-          system configuration settings and associated documentation; common secure
-          configuration checklists; documented reviews of functions, ports, protocols,
-          and/or services; change control records; system audit records; system
-          security plan; other relevant documents or records
+          Configuration management policy; procedures addressing
+          least functionality in the system; configuration
+          management plan; system design documentation; system
+          configuration settings and associated documentation;
+          common secure configuration checklists; documented reviews
+          of functions, ports, protocols, and/or services; change
+          control records; system audit records; system security
+          plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with responsibilities for reviewing functions,
-          ports, protocols, and services on the system; organizational personnel with
-          information security responsibilities; system/network administrators; system
+          Organizational personnel with responsibilities for
+          reviewing functions, ports, protocols, and services on the
+          system; organizational personnel with information security
+          responsibilities; system/network administrators; system
           developers
       - method: test
         statement: >
-          Organizational processes for reviewing or disabling functions, ports,
-          protocols, and services on the system; mechanisms implementing review and
-          disabling of functions, ports, protocols, and/or services
+          Organizational processes for reviewing or disabling
+          functions, ports, protocols, and services on the system;
+          mechanisms implementing review and disabling of functions,
+          ports, protocols, and/or services
     statement: >
-      {{ cm_07_01_odp_06 }} deemed to be unnecessary and/or non-secure are
-      disabled or removed.
+      {{ cm_07_01_odp_06 }} deemed to be unnecessary and/or
+      non-secure are disabled or removed.
 parameters:
   cm_07_01_odp_01:
     label: frequency
@@ -168,12 +193,14 @@ parameters:
     label: services
   cm_7_1_prm_2:
     label: >
-      organization-defined functions, ports, protocols, software, and services
-      within the system deemed to be unnecessary and/or nonsecure
+      organization-defined functions, ports, protocols, software,
+      and services within the system deemed to be unnecessary and/or
+      nonsecure
 parts:
   - id: a
     statement: >
-      Review the system {{ cm_07_01_odp_01 }} to identify unnecessary and/or
-      nonsecure functions, ports, protocols, software, and services; and
+      Review the system {{ cm_07_01_odp_01 }} to identify
+      unnecessary and/or nonsecure functions, ports, protocols,
+      software, and services; and
   - id: b
     statement: "Disable or remove {{ cm_7_1_prm_2 }}."

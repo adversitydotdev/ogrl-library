@@ -13,19 +13,22 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; procedures addressing session
-          authenticity; system design documentation; system configuration settings and
-          associated documentation; system audit records; system security plan; other
-          relevant documents or records
+          System and communications protection policy; procedures
+          addressing session authenticity; system design
+          documentation; system configuration settings and
+          associated documentation; system audit records; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities
+          System/network administrators; organizational personnel
+          with information security responsibilities
       - method: test
         statement: >
-          Mechanisms supporting and/or implementing session identifier invalidation
-          upon session termination
+          Mechanisms supporting and/or implementing session
+          identifier invalidation upon session termination
     statement: >
-      session identifiers are invalidated upon user logout or other session
-      termination.
-statement: Invalidate session identifiers upon user logout or other session termination.
+      session identifiers are invalidated upon user logout or other
+      session termination.
+statement: >-
+  Invalidate session identifiers upon user logout or other session
+  termination.

@@ -13,27 +13,33 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Audit and accountability policy; procedures addressing audit review,
-          analysis, and reporting; procedures addressing physical access monitoring;
-          system design documentation; system configuration settings and associated
-          documentation; documentation providing evidence of correlated information
-          obtained from audit records and physical access monitoring records; system
-          security plan; privacy plan; other relevant documents or records
+          Audit and accountability policy; procedures addressing
+          audit review, analysis, and reporting; procedures
+          addressing physical access monitoring; system design
+          documentation; system configuration settings and
+          associated documentation; documentation providing evidence
+          of correlated information obtained from audit records and
+          physical access monitoring records; system security plan;
+          privacy plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with audit review, analysis, and reporting
-          responsibilities; organizational personnel with physical access monitoring
-          responsibilities; organizational personnel with information security and
+          Organizational personnel with audit review, analysis, and
+          reporting responsibilities; organizational personnel with
+          physical access monitoring responsibilities;
+          organizational personnel with information security and
           privacy responsibilities
       - method: test
         statement: >
-          Mechanisms implementing the capability to correlate information from audit
-          records with information from monitoring physical access
+          Mechanisms implementing the capability to correlate
+          information from audit records with information from
+          monitoring physical access
     statement: >
-      information from audit records is correlated with information obtained from
-      monitoring physical access to further enhance the ability to identify
-      suspicious, inappropriate, unusual, or malevolent activity.
+      information from audit records is correlated with information
+      obtained from monitoring physical access to further enhance
+      the ability to identify suspicious, inappropriate, unusual, or
+      malevolent activity.
 statement: >
-  Correlate information from audit records with information obtained from
-  monitoring physical access to further enhance the ability to identify
-  suspicious, inappropriate, unusual, or malevolent activity.
+  Correlate information from audit records with information obtained
+  from monitoring physical access to further enhance the ability to
+  identify suspicious, inappropriate, unusual, or malevolent
+  activity.

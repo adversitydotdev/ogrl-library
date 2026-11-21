@@ -13,26 +13,34 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; procedures addressing predictable failure prevention; system
-          design documentation; system configuration settings and associated
-          documentation; documentation describing the failover capability provided for
-          the system; system audit records; system security plan; other relevant
-          documents or records
+          System and information integrity policy; system and
+          information integrity procedures; procedures addressing
+          predictable failure prevention; system design
+          documentation; system configuration settings and
+          associated documentation; documentation describing the
+          failover capability provided for the system; system audit
+          records; system security plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          Organizational personnel responsible for the failover capability;
-          organizational personnel with information security responsibilities;
-          system/network administrators; organizational personnel with contingency
-          planning responsibilities
+          Organizational personnel responsible for the failover
+          capability; organizational personnel with information
+          security responsibilities; system/network administrators;
+          organizational personnel with contingency planning
+          responsibilities
       - method: test
         statement: >
-          Organizational processes for managing the failover capability; automated
-          mechanisms supporting and/or implementing the failover capability
-    statement: "{{ si_13_05_odp_01 }} {{ si_13_05_odp_02 }} is provided for the system."
+          Organizational processes for managing the failover
+          capability; automated mechanisms supporting and/or
+          implementing the failover capability
+    statement: >-
+      {{ si_13_05_odp_01 }} {{ si_13_05_odp_02 }} is provided for
+      the system.
 parameters:
   si_13_05_odp_01:
     label: si-13.05_odp.01
   si_13_05_odp_02:
     label: failover capability
-statement: "Provide {{ si_13_05_odp_01 }} {{ si_13_05_odp_02 }} for the system."
+statement: >-
+  Provide {{ si_13_05_odp_01 }} {{ si_13_05_odp_02 }} for the
+  system.

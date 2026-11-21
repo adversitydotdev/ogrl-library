@@ -9,6 +9,7 @@ relationship: equivalent-to
 review_status: draft
 source_ref: control--ogrl-ac-07
 summary: >
-  Role-based privileged accounts, alerting on privileged assignments and role
-  changes, and removal of unapproved privileges cover AC-2(7).
+  Role-based privileged accounts, alerting on privileged assignments
+  and role changes, and removal of unapproved privileges cover
+  AC-2(7).
 target_ref: requirement--nist-sp-800-53-r5-ac-2-7

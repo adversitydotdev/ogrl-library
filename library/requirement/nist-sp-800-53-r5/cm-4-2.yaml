@@ -13,159 +13,184 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Configuration management policy; procedures addressing security impact
-          analyses for changes to the system; procedures addressing privacy impact
-          analyses for changes to the system; privacy risk assessment documentation;
-          configuration management plan; security and privacy impact analysis
-          documentation; privacy impact assessment; analysis tools and associated
-          outputs; change control records; control assessment results; system audit
-          records; system component inventory; system security plan; privacy plan;
-          other relevant documents or records
+          Configuration management policy; procedures addressing
+          security impact analyses for changes to the system;
+          procedures addressing privacy impact analyses for changes
+          to the system; privacy risk assessment documentation;
+          configuration management plan; security and privacy impact
+          analysis documentation; privacy impact assessment;
+          analysis tools and associated outputs; change control
+          records; control assessment results; system audit records;
+          system component inventory; system security plan; privacy
+          plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with responsibility for conducting security and
-          privacy impact analyses; organizational personnel with information security
-          and privacy responsibilities; system/network administrators; security and
-          privacy assessors
+          Organizational personnel with responsibility for
+          conducting security and privacy impact analyses;
+          organizational personnel with information security and
+          privacy responsibilities; system/network administrators;
+          security and privacy assessors
       - method: test
         statement: >
-          Organizational processes for security and privacy impact analyses;
-          mechanisms supporting and/or implementing security and privacy impact
-          analyses of changes
+          Organizational processes for security and privacy impact
+          analyses; mechanisms supporting and/or implementing
+          security and privacy impact analyses of changes
     statement: >
-      the impacted controls are implemented correctly with regard to meeting the
-      security requirements for the system after system changes;
+      the impacted controls are implemented correctly with regard to
+      meeting the security requirements for the system after system
+      changes;
   - id: "cm-04(02).cm-04(02)[02]"
     methods:
       - method: examine
         statement: >
-          Configuration management policy; procedures addressing security impact
-          analyses for changes to the system; procedures addressing privacy impact
-          analyses for changes to the system; privacy risk assessment documentation;
-          configuration management plan; security and privacy impact analysis
-          documentation; privacy impact assessment; analysis tools and associated
-          outputs; change control records; control assessment results; system audit
-          records; system component inventory; system security plan; privacy plan;
-          other relevant documents or records
+          Configuration management policy; procedures addressing
+          security impact analyses for changes to the system;
+          procedures addressing privacy impact analyses for changes
+          to the system; privacy risk assessment documentation;
+          configuration management plan; security and privacy impact
+          analysis documentation; privacy impact assessment;
+          analysis tools and associated outputs; change control
+          records; control assessment results; system audit records;
+          system component inventory; system security plan; privacy
+          plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with responsibility for conducting security and
-          privacy impact analyses; organizational personnel with information security
-          and privacy responsibilities; system/network administrators; security and
-          privacy assessors
+          Organizational personnel with responsibility for
+          conducting security and privacy impact analyses;
+          organizational personnel with information security and
+          privacy responsibilities; system/network administrators;
+          security and privacy assessors
       - method: test
         statement: >
-          Organizational processes for security and privacy impact analyses;
-          mechanisms supporting and/or implementing security and privacy impact
-          analyses of changes
+          Organizational processes for security and privacy impact
+          analyses; mechanisms supporting and/or implementing
+          security and privacy impact analyses of changes
     statement: >
-      the impacted controls are implemented correctly with regard to meeting the
-      privacy requirements for the system after system changes;
+      the impacted controls are implemented correctly with regard to
+      meeting the privacy requirements for the system after system
+      changes;
   - id: "cm-04(02).cm-04(02)[03]"
     methods:
       - method: examine
         statement: >
-          Configuration management policy; procedures addressing security impact
-          analyses for changes to the system; procedures addressing privacy impact
-          analyses for changes to the system; privacy risk assessment documentation;
-          configuration management plan; security and privacy impact analysis
-          documentation; privacy impact assessment; analysis tools and associated
-          outputs; change control records; control assessment results; system audit
-          records; system component inventory; system security plan; privacy plan;
-          other relevant documents or records
+          Configuration management policy; procedures addressing
+          security impact analyses for changes to the system;
+          procedures addressing privacy impact analyses for changes
+          to the system; privacy risk assessment documentation;
+          configuration management plan; security and privacy impact
+          analysis documentation; privacy impact assessment;
+          analysis tools and associated outputs; change control
+          records; control assessment results; system audit records;
+          system component inventory; system security plan; privacy
+          plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with responsibility for conducting security and
-          privacy impact analyses; organizational personnel with information security
-          and privacy responsibilities; system/network administrators; security and
-          privacy assessors
+          Organizational personnel with responsibility for
+          conducting security and privacy impact analyses;
+          organizational personnel with information security and
+          privacy responsibilities; system/network administrators;
+          security and privacy assessors
       - method: test
         statement: >
-          Organizational processes for security and privacy impact analyses;
-          mechanisms supporting and/or implementing security and privacy impact
-          analyses of changes
+          Organizational processes for security and privacy impact
+          analyses; mechanisms supporting and/or implementing
+          security and privacy impact analyses of changes
     statement: >
-      the impacted controls are operating as intended with regard to meeting the
-      security requirements for the system after system changes;
+      the impacted controls are operating as intended with regard to
+      meeting the security requirements for the system after system
+      changes;
   - id: "cm-04(02).cm-04(02)[04]"
     methods:
       - method: examine
         statement: >
-          Configuration management policy; procedures addressing security impact
-          analyses for changes to the system; procedures addressing privacy impact
-          analyses for changes to the system; privacy risk assessment documentation;
-          configuration management plan; security and privacy impact analysis
-          documentation; privacy impact assessment; analysis tools and associated
-          outputs; change control records; control assessment results; system audit
-          records; system component inventory; system security plan; privacy plan;
-          other relevant documents or records
+          Configuration management policy; procedures addressing
+          security impact analyses for changes to the system;
+          procedures addressing privacy impact analyses for changes
+          to the system; privacy risk assessment documentation;
+          configuration management plan; security and privacy impact
+          analysis documentation; privacy impact assessment;
+          analysis tools and associated outputs; change control
+          records; control assessment results; system audit records;
+          system component inventory; system security plan; privacy
+          plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with responsibility for conducting security and
-          privacy impact analyses; organizational personnel with information security
-          and privacy responsibilities; system/network administrators; security and
-          privacy assessors
+          Organizational personnel with responsibility for
+          conducting security and privacy impact analyses;
+          organizational personnel with information security and
+          privacy responsibilities; system/network administrators;
+          security and privacy assessors
       - method: test
         statement: >
-          Organizational processes for security and privacy impact analyses;
-          mechanisms supporting and/or implementing security and privacy impact
-          analyses of changes
+          Organizational processes for security and privacy impact
+          analyses; mechanisms supporting and/or implementing
+          security and privacy impact analyses of changes
     statement: >
-      the impacted controls are operating as intended with regard to meeting the
-      privacy requirements for the system after system changes;
+      the impacted controls are operating as intended with regard to
+      meeting the privacy requirements for the system after system
+      changes;
   - id: "cm-04(02).cm-04(02)[05]"
     methods:
       - method: examine
         statement: >
-          Configuration management policy; procedures addressing security impact
-          analyses for changes to the system; procedures addressing privacy impact
-          analyses for changes to the system; privacy risk assessment documentation;
-          configuration management plan; security and privacy impact analysis
-          documentation; privacy impact assessment; analysis tools and associated
-          outputs; change control records; control assessment results; system audit
-          records; system component inventory; system security plan; privacy plan;
-          other relevant documents or records
+          Configuration management policy; procedures addressing
+          security impact analyses for changes to the system;
+          procedures addressing privacy impact analyses for changes
+          to the system; privacy risk assessment documentation;
+          configuration management plan; security and privacy impact
+          analysis documentation; privacy impact assessment;
+          analysis tools and associated outputs; change control
+          records; control assessment results; system audit records;
+          system component inventory; system security plan; privacy
+          plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with responsibility for conducting security and
-          privacy impact analyses; organizational personnel with information security
-          and privacy responsibilities; system/network administrators; security and
-          privacy assessors
+          Organizational personnel with responsibility for
+          conducting security and privacy impact analyses;
+          organizational personnel with information security and
+          privacy responsibilities; system/network administrators;
+          security and privacy assessors
       - method: test
         statement: >
-          Organizational processes for security and privacy impact analyses;
-          mechanisms supporting and/or implementing security and privacy impact
-          analyses of changes
+          Organizational processes for security and privacy impact
+          analyses; mechanisms supporting and/or implementing
+          security and privacy impact analyses of changes
     statement: >
-      the impacted controls are producing the desired outcome with regard to
-      meeting the security requirements for the system after system changes;
+      the impacted controls are producing the desired outcome with
+      regard to meeting the security requirements for the system
+      after system changes;
   - id: "cm-04(02).cm-04(02)[06]"
     methods:
       - method: examine
         statement: >
-          Configuration management policy; procedures addressing security impact
-          analyses for changes to the system; procedures addressing privacy impact
-          analyses for changes to the system; privacy risk assessment documentation;
-          configuration management plan; security and privacy impact analysis
-          documentation; privacy impact assessment; analysis tools and associated
-          outputs; change control records; control assessment results; system audit
-          records; system component inventory; system security plan; privacy plan;
-          other relevant documents or records
+          Configuration management policy; procedures addressing
+          security impact analyses for changes to the system;
+          procedures addressing privacy impact analyses for changes
+          to the system; privacy risk assessment documentation;
+          configuration management plan; security and privacy impact
+          analysis documentation; privacy impact assessment;
+          analysis tools and associated outputs; change control
+          records; control assessment results; system audit records;
+          system component inventory; system security plan; privacy
+          plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with responsibility for conducting security and
-          privacy impact analyses; organizational personnel with information security
-          and privacy responsibilities; system/network administrators; security and
-          privacy assessors
+          Organizational personnel with responsibility for
+          conducting security and privacy impact analyses;
+          organizational personnel with information security and
+          privacy responsibilities; system/network administrators;
+          security and privacy assessors
       - method: test
         statement: >
-          Organizational processes for security and privacy impact analyses;
-          mechanisms supporting and/or implementing security and privacy impact
-          analyses of changes
+          Organizational processes for security and privacy impact
+          analyses; mechanisms supporting and/or implementing
+          security and privacy impact analyses of changes
     statement: >
-      the impacted controls are producing the desired outcome with regard to
-      meeting the privacy requirements for the system after system changes.
+      the impacted controls are producing the desired outcome with
+      regard to meeting the privacy requirements for the system
+      after system changes.
 statement: >
-  After system changes, verify that the impacted controls are implemented
-  correctly, operating as intended, and producing the desired outcome with
-  regard to meeting the security and privacy requirements for the system.
+  After system changes, verify that the impacted controls are
+  implemented correctly, operating as intended, and producing the
+  desired outcome with regard to meeting the security and privacy
+  requirements for the system.

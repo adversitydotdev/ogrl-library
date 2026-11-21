@@ -65,46 +65,56 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Identification and authentication policy; procedures addressing user
-          identification and authentication; system security plan, system design
-          documentation; system configuration settings and associated documentation;
-          system audit records; list of system accounts; other relevant documents or
-          records
+          Identification and authentication policy; procedures
+          addressing user identification and authentication; system
+          security plan, system design documentation; system
+          configuration settings and associated documentation;
+          system audit records; list of system accounts; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with system operations responsibilities;
-          organizational personnel with information security responsibilities;
-          system/network administrators; organizational personnel with account
+          Organizational personnel with system operations
+          responsibilities; organizational personnel with
+          information security responsibilities; system/network
+          administrators; organizational personnel with account
           management responsibilities; system developers
       - method: test
         statement: >
-          Organizational processes for uniquely identifying and authenticating users;
-          mechanisms supporting and/or implementing identification and authentication
+          Organizational processes for uniquely identifying and
+          authenticating users; mechanisms supporting and/or
+          implementing identification and authentication
           capabilities
-    statement: organizational users are uniquely identified and authenticated;
+    statement: >-
+      organizational users are uniquely identified and
+      authenticated;
   - id: "[02]"
     methods:
       - method: examine
         statement: >
-          Identification and authentication policy; procedures addressing user
-          identification and authentication; system security plan, system design
-          documentation; system configuration settings and associated documentation;
-          system audit records; list of system accounts; other relevant documents or
-          records
+          Identification and authentication policy; procedures
+          addressing user identification and authentication; system
+          security plan, system design documentation; system
+          configuration settings and associated documentation;
+          system audit records; list of system accounts; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with system operations responsibilities;
-          organizational personnel with information security responsibilities;
-          system/network administrators; organizational personnel with account
+          Organizational personnel with system operations
+          responsibilities; organizational personnel with
+          information security responsibilities; system/network
+          administrators; organizational personnel with account
           management responsibilities; system developers
       - method: test
         statement: >
-          Organizational processes for uniquely identifying and authenticating users;
-          mechanisms supporting and/or implementing identification and authentication
+          Organizational processes for uniquely identifying and
+          authenticating users; mechanisms supporting and/or
+          implementing identification and authentication
           capabilities
     statement: >
-      the unique identification of authenticated organizational users is
-      associated with processes acting on behalf of those users.
+      the unique identification of authenticated organizational
+      users is associated with processes acting on behalf of those
+      users.
 statement: >
-  Uniquely identify and authenticate organizational users and associate that
-  unique identification with processes acting on behalf of those users.
+  Uniquely identify and authenticate organizational users and
+  associate that unique identification with processes acting on
+  behalf of those users.

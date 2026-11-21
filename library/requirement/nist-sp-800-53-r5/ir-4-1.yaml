@@ -13,19 +13,26 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Incident response policy; procedures addressing incident handling; automated
-          mechanisms supporting incident handling; system design documentation; system
-          configuration settings and associated documentation; system audit records;
-          incident response plan; system security plan; other relevant documents or
-          records
+          Incident response policy; procedures addressing incident
+          handling; automated mechanisms supporting incident
+          handling; system design documentation; system
+          configuration settings and associated documentation;
+          system audit records; incident response plan; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with incident handling responsibilities;
-          organizational personnel with information security responsibilities
+          Organizational personnel with incident handling
+          responsibilities; organizational personnel with
+          information security responsibilities
       - method: test
-        statement: Automated mechanisms that support and/or implement the incident handling process
-    statement: "the incident handling process is supported using {{ ir_04_01_odp }}."
+        statement: >-
+          Automated mechanisms that support and/or implement the
+          incident handling process
+    statement: >-
+      the incident handling process is supported using
+      {{ ir_04_01_odp }}.
 parameters:
   ir_04_01_odp:
     label: automated mechanisms
-statement: "Support the incident handling process using {{ ir_04_01_odp }}."
+statement: >-
+  Support the incident handling process using {{ ir_04_01_odp }}.

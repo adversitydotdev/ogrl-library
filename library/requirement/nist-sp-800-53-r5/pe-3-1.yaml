@@ -13,47 +13,57 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Physical and environmental protection policy; procedures addressing physical
-          access control; physical access control logs or records; physical access
-          control devices; access authorizations; access credentials; system entry and
-          exit points; list of areas within the facility containing concentrations of
-          system components or system components requiring additional physical
-          protection; system security plan; other relevant documents or records
+          Physical and environmental protection policy; procedures
+          addressing physical access control; physical access
+          control logs or records; physical access control devices;
+          access authorizations; access credentials; system entry
+          and exit points; list of areas within the facility
+          containing concentrations of system components or system
+          components requiring additional physical protection;
+          system security plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with physical access authorization
-          responsibilities; organizational personnel with information security
-          responsibilities
+          Organizational personnel with physical access
+          authorization responsibilities; organizational personnel
+          with information security responsibilities
       - method: test
         statement: >
-          Organizational processes for physical access control to the information
-          system/components; mechanisms supporting and/or implementing physical access
-          control for facility areas containing system components
-    statement: physical access authorizations to the system are enforced;
+          Organizational processes for physical access control to
+          the information system/components; mechanisms supporting
+          and/or implementing physical access control for facility
+          areas containing system components
+    statement: >-
+      physical access authorizations to the system are enforced;
   - id: "2"
     methods:
       - method: examine
         statement: >
-          Physical and environmental protection policy; procedures addressing physical
-          access control; physical access control logs or records; physical access
-          control devices; access authorizations; access credentials; system entry and
-          exit points; list of areas within the facility containing concentrations of
-          system components or system components requiring additional physical
-          protection; system security plan; other relevant documents or records
+          Physical and environmental protection policy; procedures
+          addressing physical access control; physical access
+          control logs or records; physical access control devices;
+          access authorizations; access credentials; system entry
+          and exit points; list of areas within the facility
+          containing concentrations of system components or system
+          components requiring additional physical protection;
+          system security plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with physical access authorization
-          responsibilities; organizational personnel with information security
-          responsibilities
+          Organizational personnel with physical access
+          authorization responsibilities; organizational personnel
+          with information security responsibilities
       - method: test
         statement: >
-          Organizational processes for physical access control to the information
-          system/components; mechanisms supporting and/or implementing physical access
-          control for facility areas containing system components
-    statement: "physical access controls are enforced for the facility at {{ pe_03_01_odp }}."
+          Organizational processes for physical access control to
+          the information system/components; mechanisms supporting
+          and/or implementing physical access control for facility
+          areas containing system components
+    statement: >-
+      physical access controls are enforced for the facility at
+      {{ pe_03_01_odp }}.
 parameters:
   pe_03_01_odp:
     label: physical spaces
 statement: >
-  Enforce physical access authorizations to the system in addition to the
-  physical access controls for the facility at {{ pe_03_01_odp }}.
+  Enforce physical access authorizations to the system in addition
+  to the physical access controls for the facility at
+  {{ pe_03_01_odp }}.

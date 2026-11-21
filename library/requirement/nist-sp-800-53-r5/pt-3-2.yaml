@@ -13,25 +13,27 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Personally identifiable information processing and transparency policy and
-          procedures; data extracts with corresponding data tags; privacy plan; other
-          relevant documents or records
+          Personally identifiable information processing and
+          transparency policy and procedures; data extracts with
+          corresponding data tags; privacy plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with personally identifiable information processing
-          and transparency responsibilities; organizational personnel with information
-          security and privacy responsibilities
+          Organizational personnel with personally identifiable
+          information processing and transparency responsibilities;
+          organizational personnel with information security and
+          privacy responsibilities
       - method: test
         statement: >
-          Organizational processes for managing the enforcement of authorized
-          processing of personally identifiable information; automated tracking
-          mechanisms
+          Organizational processes for managing the enforcement of
+          authorized processing of personally identifiable
+          information; automated tracking mechanisms
     statement: >
-      the processing purposes of personally identifiable information are tracked
-      using {{ pt_03_02_odp }}.
+      the processing purposes of personally identifiable information
+      are tracked using {{ pt_03_02_odp }}.
 parameters:
   pt_03_02_odp:
     label: automated mechanisms
 statement: >
-  Track processing purposes of personally identifiable information using
-  {{ pt_03_02_odp }}.
+  Track processing purposes of personally identifiable information
+  using {{ pt_03_02_odp }}.

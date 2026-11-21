@@ -13,32 +13,39 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; access control policy and
-          procedures; personally identifiable information processing policy; sensor
-          capability and data collection policy and procedures; system design
-          documentation; system configuration settings and associated documentation;
-          privacy risk assessment documentation; privacy impact assessments; system
-          architecture; list of information being collected by sensors; list of sensor
-          configurations that minimize the collection of personally identifiable
-          information (e.g., obscure human features); system audit records; system
-          security plan; privacy plan; other relevant documents or records
+          System and communications protection policy; access
+          control policy and procedures; personally identifiable
+          information processing policy; sensor capability and data
+          collection policy and procedures; system design
+          documentation; system configuration settings and
+          associated documentation; privacy risk assessment
+          documentation; privacy impact assessments; system
+          architecture; list of information being collected by
+          sensors; list of sensor configurations that minimize the
+          collection of personally identifiable information (e.g.,
+          obscure human features); system audit records; system
+          security plan; privacy plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security and privacy responsibilities; organizational personnel installing,
-          configuring, and/or maintaining the system; organizational personnel
+          System/network administrators; organizational personnel
+          with information security and privacy responsibilities;
+          organizational personnel installing, configuring, and/or
+          maintaining the system; organizational personnel
           responsible for sensor capabilities
       - method: test
         statement: >
-          Mechanisms supporting and/or implementing measures to facilitate the review
-          of information that is being collected by sensors; sensor information
-          collection capabilities for the system
+          Mechanisms supporting and/or implementing measures to
+          facilitate the review of information that is being
+          collected by sensors; sensor information collection
+          capabilities for the system
     statement: >
-      the {{ sc_42_05_odp }} configured to minimize the collection of information
-      about individuals that is not needed are employed.
+      the {{ sc_42_05_odp }} configured to minimize the collection
+      of information about individuals that is not needed are
+      employed.
 parameters:
   sc_42_05_odp:
     label: sensors
 statement: >
-  Employ {{ sc_42_05_odp }} that are configured to minimize the collection of
-  information about individuals that is not needed.
+  Employ {{ sc_42_05_odp }} that are configured to minimize the
+  collection of information about individuals that is not needed.

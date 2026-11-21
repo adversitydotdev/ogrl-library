@@ -23,122 +23,142 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; personally identifiable information processing policy;
-          documentation addressing personally identifiable information quality
-          operations; quality reports; maintenance logs; system audit records; audit
-          findings; system security plan; privacy plan; privacy impact assessment;
-          privacy risk assessment documentation; other relevant documents or records
+          System and information integrity policy; system and
+          information integrity procedures; personally identifiable
+          information processing policy; documentation addressing
+          personally identifiable information quality operations;
+          quality reports; maintenance logs; system audit records;
+          audit findings; system security plan; privacy plan;
+          privacy impact assessment; privacy risk assessment
+          documentation; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel responsible for performing personally identifiable
-          information quality inspections; organizational personnel with information
-          security responsibilities; organizational personnel with privacy
+          Organizational personnel responsible for performing
+          personally identifiable information quality inspections;
+          organizational personnel with information security
+          responsibilities; organizational personnel with privacy
           responsibilities
       - method: test
         statement: >
-          Organizational processes for personally identifiable information quality
-          inspection; automated mechanisms supporting and/or implementing personally
-          identifiable information quality operations
+          Organizational processes for personally identifiable
+          information quality inspection; automated mechanisms
+          supporting and/or implementing personally identifiable
+          information quality operations
     statement: >
-      the accuracy of personally identifiable information across the information
-      life cycle is checked {{ si_18_odp_01 }};
+      the accuracy of personally identifiable information across the
+      information life cycle is checked {{ si_18_odp_01 }};
   - id: a-2
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; personally identifiable information processing policy;
-          documentation addressing personally identifiable information quality
-          operations; quality reports; maintenance logs; system audit records; audit
-          findings; system security plan; privacy plan; privacy impact assessment;
-          privacy risk assessment documentation; other relevant documents or records
+          System and information integrity policy; system and
+          information integrity procedures; personally identifiable
+          information processing policy; documentation addressing
+          personally identifiable information quality operations;
+          quality reports; maintenance logs; system audit records;
+          audit findings; system security plan; privacy plan;
+          privacy impact assessment; privacy risk assessment
+          documentation; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel responsible for performing personally identifiable
-          information quality inspections; organizational personnel with information
-          security responsibilities; organizational personnel with privacy
+          Organizational personnel responsible for performing
+          personally identifiable information quality inspections;
+          organizational personnel with information security
+          responsibilities; organizational personnel with privacy
           responsibilities
       - method: test
         statement: >
-          Organizational processes for personally identifiable information quality
-          inspection; automated mechanisms supporting and/or implementing personally
-          identifiable information quality operations
+          Organizational processes for personally identifiable
+          information quality inspection; automated mechanisms
+          supporting and/or implementing personally identifiable
+          information quality operations
     statement: >
-      the relevance of personally identifiable information across the information
-      life cycle is checked {{ si_18_odp_02 }};
+      the relevance of personally identifiable information across
+      the information life cycle is checked {{ si_18_odp_02 }};
   - id: a-3
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; personally identifiable information processing policy;
-          documentation addressing personally identifiable information quality
-          operations; quality reports; maintenance logs; system audit records; audit
-          findings; system security plan; privacy plan; privacy impact assessment;
-          privacy risk assessment documentation; other relevant documents or records
+          System and information integrity policy; system and
+          information integrity procedures; personally identifiable
+          information processing policy; documentation addressing
+          personally identifiable information quality operations;
+          quality reports; maintenance logs; system audit records;
+          audit findings; system security plan; privacy plan;
+          privacy impact assessment; privacy risk assessment
+          documentation; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel responsible for performing personally identifiable
-          information quality inspections; organizational personnel with information
-          security responsibilities; organizational personnel with privacy
+          Organizational personnel responsible for performing
+          personally identifiable information quality inspections;
+          organizational personnel with information security
+          responsibilities; organizational personnel with privacy
           responsibilities
       - method: test
         statement: >
-          Organizational processes for personally identifiable information quality
-          inspection; automated mechanisms supporting and/or implementing personally
-          identifiable information quality operations
+          Organizational processes for personally identifiable
+          information quality inspection; automated mechanisms
+          supporting and/or implementing personally identifiable
+          information quality operations
     statement: >
-      the timeliness of personally identifiable information across the information
-      life cycle is checked {{ si_18_odp_03 }};
+      the timeliness of personally identifiable information across
+      the information life cycle is checked {{ si_18_odp_03 }};
   - id: a-4
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; personally identifiable information processing policy;
-          documentation addressing personally identifiable information quality
-          operations; quality reports; maintenance logs; system audit records; audit
-          findings; system security plan; privacy plan; privacy impact assessment;
-          privacy risk assessment documentation; other relevant documents or records
+          System and information integrity policy; system and
+          information integrity procedures; personally identifiable
+          information processing policy; documentation addressing
+          personally identifiable information quality operations;
+          quality reports; maintenance logs; system audit records;
+          audit findings; system security plan; privacy plan;
+          privacy impact assessment; privacy risk assessment
+          documentation; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel responsible for performing personally identifiable
-          information quality inspections; organizational personnel with information
-          security responsibilities; organizational personnel with privacy
+          Organizational personnel responsible for performing
+          personally identifiable information quality inspections;
+          organizational personnel with information security
+          responsibilities; organizational personnel with privacy
           responsibilities
       - method: test
         statement: >
-          Organizational processes for personally identifiable information quality
-          inspection; automated mechanisms supporting and/or implementing personally
-          identifiable information quality operations
+          Organizational processes for personally identifiable
+          information quality inspection; automated mechanisms
+          supporting and/or implementing personally identifiable
+          information quality operations
     statement: >
-      the completeness of personally identifiable information across the
-      information life cycle is checked {{ si_18_odp_04 }};
+      the completeness of personally identifiable information across
+      the information life cycle is checked {{ si_18_odp_04 }};
   - id: b
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; personally identifiable information processing policy;
-          documentation addressing personally identifiable information quality
-          operations; quality reports; maintenance logs; system audit records; audit
-          findings; system security plan; privacy plan; privacy impact assessment;
-          privacy risk assessment documentation; other relevant documents or records
+          System and information integrity policy; system and
+          information integrity procedures; personally identifiable
+          information processing policy; documentation addressing
+          personally identifiable information quality operations;
+          quality reports; maintenance logs; system audit records;
+          audit findings; system security plan; privacy plan;
+          privacy impact assessment; privacy risk assessment
+          documentation; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel responsible for performing personally identifiable
-          information quality inspections; organizational personnel with information
-          security responsibilities; organizational personnel with privacy
+          Organizational personnel responsible for performing
+          personally identifiable information quality inspections;
+          organizational personnel with information security
+          responsibilities; organizational personnel with privacy
           responsibilities
       - method: test
         statement: >
-          Organizational processes for personally identifiable information quality
-          inspection; automated mechanisms supporting and/or implementing personally
-          identifiable information quality operations
+          Organizational processes for personally identifiable
+          information quality inspection; automated mechanisms
+          supporting and/or implementing personally identifiable
+          information quality operations
     statement: >
-      inaccurate or outdated personally identifiable information is corrected or
-      deleted.
+      inaccurate or outdated personally identifiable information is
+      corrected or deleted.
 parameters:
   si_18_odp_01:
     label: frequency
@@ -153,8 +173,10 @@ parameters:
 parts:
   - id: a
     statement: >
-      Check the accuracy, relevance, timeliness, and completeness of personally
-      identifiable information across the information life cycle {{ si_18_prm_1 }}
-      ; and
+      Check the accuracy, relevance, timeliness, and completeness of
+      personally identifiable information across the information
+      life cycle {{ si_18_prm_1 }} ; and
   - id: b
-    statement: Correct or delete inaccurate or outdated personally identifiable information.
+    statement: >-
+      Correct or delete inaccurate or outdated personally
+      identifiable information.

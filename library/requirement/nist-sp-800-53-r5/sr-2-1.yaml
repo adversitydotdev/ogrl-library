@@ -13,22 +13,27 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Supply chain risk management policy; supply chain risk management
-          procedures; supply chain risk management team charter documentation; supply
-          chain risk management strategy; supply chain risk management implementation
-          plan; procedures addressing supply chain protection; system security plan;
-          privacy plan; other relevant documents or records
+          Supply chain risk management policy; supply chain risk
+          management procedures; supply chain risk management team
+          charter documentation; supply chain risk management
+          strategy; supply chain risk management implementation
+          plan; procedures addressing supply chain protection;
+          system security plan; privacy plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with acquisition responsibilities; organizational
-          personnel with information security and privacy responsibilities;
-          organizational personnel with supply chain risk management responsibilities;
-          organizational personnel with enterprise risk management responsibilities;
-          legal counsel; organizational personnel with business continuity
+          Organizational personnel with acquisition
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities;
+          organizational personnel with supply chain risk management
+          responsibilities; organizational personnel with enterprise
+          risk management responsibilities; legal counsel;
+          organizational personnel with business continuity
           responsibilities
     statement: >
-      a supply chain risk management team consisting of {{ sr_02_01_odp_01 }} is
-      established to lead and support {{ sr_02_01_odp_02 }}.
+      a supply chain risk management team consisting of
+      {{ sr_02_01_odp_01 }} is established to lead and support
+      {{ sr_02_01_odp_02 }}.
 parameters:
   sr_02_01_odp_01:
     label: "personnel, roles and responsibilities"
@@ -36,5 +41,5 @@ parameters:
     label: supply chain risk management activities
 statement: >
   Establish a supply chain risk management team consisting of
-  {{ sr_02_01_odp_01 }} to lead and support the following SCRM activities:
-  {{ sr_02_01_odp_02 }}.
+  {{ sr_02_01_odp_01 }} to lead and support the following SCRM
+  activities: {{ sr_02_01_odp_02 }}.

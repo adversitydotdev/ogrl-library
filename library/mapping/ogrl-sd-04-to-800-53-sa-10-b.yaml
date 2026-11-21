@@ -11,6 +11,6 @@ relationship: equivalent-to
 review_status: draft
 source_ref: control--ogrl-sd-04
 summary: >
-  Versioning all production assets and protecting branches controls the
-  integrity of changes to configuration items per SA-10(b).
+  Versioning all production assets and protecting branches controls
+  the integrity of changes to configuration items per SA-10(b).
 target_ref: "requirement--nist-sp-800-53-r5-sa-10#b"

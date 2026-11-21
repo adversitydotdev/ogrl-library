@@ -13,24 +13,27 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Audit and accountability policy; procedures addressing process, role and/or
-          user permitted actions from audit review, analysis, and reporting; system
-          security plan; privacy plan; other relevant documents or records
+          Audit and accountability policy; procedures addressing
+          process, role and/or user permitted actions from audit
+          review, analysis, and reporting; system security plan;
+          privacy plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with audit review, analysis, and reporting
-          responsibilities; organizational personnel with information security and
-          privacy responsibilities
+          Organizational personnel with audit review, analysis, and
+          reporting responsibilities; organizational personnel with
+          information security and privacy responsibilities
       - method: test
         statement: >
-          Mechanisms supporting permitted actions for the review, analysis, and
-          reporting of audit information
+          Mechanisms supporting permitted actions for the review,
+          analysis, and reporting of audit information
     statement: >
-      the permitted actions for each {{ au_06_07_odp }} associated with the
-      review, analysis, and reporting of audit record information are specified.
+      the permitted actions for each {{ au_06_07_odp }} associated
+      with the review, analysis, and reporting of audit record
+      information are specified.
 parameters:
   au_06_07_odp:
     label: au-06.07_odp
 statement: >
-  Specify the permitted actions for each {{ au_06_07_odp }} associated with
-  the review, analysis, and reporting of audit record information.
+  Specify the permitted actions for each {{ au_06_07_odp }}
+  associated with the review, analysis, and reporting of audit
+  record information.

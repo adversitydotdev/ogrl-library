@@ -13,27 +13,31 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Contingency planning policy; procedures addressing alternative
-          communications protocols; contingency plan; continuity of operations plan;
-          system design documentation; system configuration settings and associated
-          documentation; list of alternative communications protocols supporting
-          continuity of operations; system security plan; other relevant documents or
-          records
+          Contingency planning policy; procedures addressing
+          alternative communications protocols; contingency plan;
+          continuity of operations plan; system design
+          documentation; system configuration settings and
+          associated documentation; list of alternative
+          communications protocols supporting continuity of
+          operations; system security plan; other relevant documents
+          or records
       - method: interview
         statement: >
-          Organizational personnel with contingency planning and plan implementation
-          responsibilities; organizational personnel with continuity of operations
-          planning and plan implementation responsibilities; organizational personnel
-          with information security responsibilities; system/network administrators;
-          system developers
+          Organizational personnel with contingency planning and
+          plan implementation responsibilities; organizational
+          personnel with continuity of operations planning and plan
+          implementation responsibilities; organizational personnel
+          with information security responsibilities; system/network
+          administrators; system developers
       - method: test
-        statement: Mechanisms employing alternative communications protocols
+        statement: >-
+          Mechanisms employing alternative communications protocols
     statement: >
-      the capability to employ {{ cp_11_odp }} are provided in support of
-      maintaining continuity of operations.
+      the capability to employ {{ cp_11_odp }} are provided in
+      support of maintaining continuity of operations.
 parameters:
   cp_11_odp:
     label: alternative communications protocols
 statement: >
-  Provide the capability to employ {{ cp_11_odp }} in support of maintaining
-  continuity of operations.
+  Provide the capability to employ {{ cp_11_odp }} in support of
+  maintaining continuity of operations.

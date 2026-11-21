@@ -13,52 +13,62 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Supply chain risk management policy and procedures; system and services
-          acquisition policy; planning policy; procedures addressing supply chain
-          protection; physical inventory of critical systems and system components;
-          inventory of critical suppliers, service providers, developers, and
-          contracts; inventory records of critical system components; list of security
-          safeguards ensuring an adequate supply of critical system components; system
+          Supply chain risk management policy and procedures; system
+          and services acquisition policy; planning policy;
+          procedures addressing supply chain protection; physical
+          inventory of critical systems and system components;
+          inventory of critical suppliers, service providers,
+          developers, and contracts; inventory records of critical
+          system components; list of security safeguards ensuring an
+          adequate supply of critical system components; system
           security plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with system and services acquisition
-          responsibilities; organizational personnel with information security
-          responsibilities; organizational personnel with supply chain protection
-          responsibilities
+          Organizational personnel with system and services
+          acquisition responsibilities; organizational personnel
+          with information security responsibilities; organizational
+          personnel with supply chain protection responsibilities
       - method: test
         statement: >
-          Organizational processes for defining and employing security safeguards to
-          ensure an adequate supply of critical system components; processes to
-          identify critical suppliers; mechanisms supporting and/or implementing the
-          security safeguards that ensure an adequate supply of critical system
-          components
-    statement: "a diverse set of sources is employed for {{ sr_03_01_odp_01 }};"
+          Organizational processes for defining and employing
+          security safeguards to ensure an adequate supply of
+          critical system components; processes to identify critical
+          suppliers; mechanisms supporting and/or implementing the
+          security safeguards that ensure an adequate supply of
+          critical system components
+    statement: >-
+      a diverse set of sources is employed for
+      {{ sr_03_01_odp_01 }};
   - id: "sr-03(01).sr-03(01)[02]"
     methods:
       - method: examine
         statement: >
-          Supply chain risk management policy and procedures; system and services
-          acquisition policy; planning policy; procedures addressing supply chain
-          protection; physical inventory of critical systems and system components;
-          inventory of critical suppliers, service providers, developers, and
-          contracts; inventory records of critical system components; list of security
-          safeguards ensuring an adequate supply of critical system components; system
+          Supply chain risk management policy and procedures; system
+          and services acquisition policy; planning policy;
+          procedures addressing supply chain protection; physical
+          inventory of critical systems and system components;
+          inventory of critical suppliers, service providers,
+          developers, and contracts; inventory records of critical
+          system components; list of security safeguards ensuring an
+          adequate supply of critical system components; system
           security plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with system and services acquisition
-          responsibilities; organizational personnel with information security
-          responsibilities; organizational personnel with supply chain protection
-          responsibilities
+          Organizational personnel with system and services
+          acquisition responsibilities; organizational personnel
+          with information security responsibilities; organizational
+          personnel with supply chain protection responsibilities
       - method: test
         statement: >
-          Organizational processes for defining and employing security safeguards to
-          ensure an adequate supply of critical system components; processes to
-          identify critical suppliers; mechanisms supporting and/or implementing the
-          security safeguards that ensure an adequate supply of critical system
-          components
-    statement: "a diverse set of sources is employed for {{ sr_03_01_odp_02 }}."
+          Organizational processes for defining and employing
+          security safeguards to ensure an adequate supply of
+          critical system components; processes to identify critical
+          suppliers; mechanisms supporting and/or implementing the
+          security safeguards that ensure an adequate supply of
+          critical system components
+    statement: >-
+      a diverse set of sources is employed for
+      {{ sr_03_01_odp_02 }}.
 parameters:
   sr_03_01_odp_01:
     label: system components
@@ -67,5 +77,5 @@ parameters:
   sr_3_1_prm_1:
     label: organization-defined system components and services
 statement: >
-  Employ a diverse set of sources for the following system components and
-  services: {{ sr_3_1_prm_1 }}.
+  Employ a diverse set of sources for the following system
+  components and services: {{ sr_3_1_prm_1 }}.

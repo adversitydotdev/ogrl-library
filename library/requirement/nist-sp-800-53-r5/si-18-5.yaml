@@ -13,28 +13,31 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; personally identifiable information processing policy; system
-          configuration; individual requests for corrections or deletions;
-          notifications of correction or deletion action; system audit records; system
-          security plan; privacy plan; privacy impact assessment; privacy risk
-          assessment documentation; other relevant documents or records
+          System and information integrity policy; system and
+          information integrity procedures; personally identifiable
+          information processing policy; system configuration;
+          individual requests for corrections or deletions;
+          notifications of correction or deletion action; system
+          audit records; system security plan; privacy plan; privacy
+          impact assessment; privacy risk assessment documentation;
+          other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel responsible for sending correction or deletion
-          notices; organizational personnel with information security and privacy
-          responsibilities
+          Organizational personnel responsible for sending
+          correction or deletion notices; organizational personnel
+          with information security and privacy responsibilities
       - method: test
         statement: >
-          Organizational processes for notifications of correction or deletion;
-          automated mechanisms supporting and/or implementing notifications of
-          correction or deletion
+          Organizational processes for notifications of correction
+          or deletion; automated mechanisms supporting and/or
+          implementing notifications of correction or deletion
     statement: >
-      {{ si_18_05_odp }} and individuals are notified when the personally
-      identifiable information has been corrected or deleted.
+      {{ si_18_05_odp }} and individuals are notified when the
+      personally identifiable information has been corrected or
+      deleted.
 parameters:
   si_18_05_odp:
     label: recipients
 statement: >
-  Notify {{ si_18_05_odp }} and individuals that the personally identifiable
-  information has been corrected or deleted.
+  Notify {{ si_18_05_odp }} and individuals that the personally
+  identifiable information has been corrected or deleted.

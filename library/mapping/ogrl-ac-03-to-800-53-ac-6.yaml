@@ -8,5 +8,7 @@ rationale: functional
 relationship: equivalent-to
 review_status: reviewed
 source_ref: control--ogrl-ac-03
-summary: Least-privilege role scoping and just-in-time elevation satisfy NIST AC-6.
+summary: >-
+  Least-privilege role scoping and just-in-time elevation satisfy
+  NIST AC-6.
 target_ref: requirement--nist-sp-800-53-r5-ac-6

@@ -13,66 +13,83 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; procedures addressing boundary
-          protection; system design documentation; system hardware and software;
-          system architecture; system configuration settings and associated
-          documentation; system audit records; system security plan; other relevant
-          documents or records
+          System and communications protection policy; procedures
+          addressing boundary protection; system design
+          documentation; system hardware and software; system
+          architecture; system configuration settings and associated
+          documentation; system audit records; system security plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; system developer; organizational personnel with
-          boundary protection responsibilities
+          System/network administrators; organizational personnel
+          with information security responsibilities; system
+          developer; organizational personnel with boundary
+          protection responsibilities
       - method: test
         statement: >
-          Mechanisms implementing boundary protection capabilities; mechanisms
-          implementing the detection and denial of threatening outgoing communications
-          traffic; mechanisms implementing auditing of outgoing communications traffic
-    statement: outgoing communications traffic posing a threat to external systems is detected;
+          Mechanisms implementing boundary protection capabilities;
+          mechanisms implementing the detection and denial of
+          threatening outgoing communications traffic; mechanisms
+          implementing auditing of outgoing communications traffic
+    statement: >-
+      outgoing communications traffic posing a threat to external
+      systems is detected;
   - id: a-2
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; procedures addressing boundary
-          protection; system design documentation; system hardware and software;
-          system architecture; system configuration settings and associated
-          documentation; system audit records; system security plan; other relevant
-          documents or records
+          System and communications protection policy; procedures
+          addressing boundary protection; system design
+          documentation; system hardware and software; system
+          architecture; system configuration settings and associated
+          documentation; system audit records; system security plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; system developer; organizational personnel with
-          boundary protection responsibilities
+          System/network administrators; organizational personnel
+          with information security responsibilities; system
+          developer; organizational personnel with boundary
+          protection responsibilities
       - method: test
         statement: >
-          Mechanisms implementing boundary protection capabilities; mechanisms
-          implementing the detection and denial of threatening outgoing communications
-          traffic; mechanisms implementing auditing of outgoing communications traffic
-    statement: outgoing communications traffic posing a threat to external systems is denied;
+          Mechanisms implementing boundary protection capabilities;
+          mechanisms implementing the detection and denial of
+          threatening outgoing communications traffic; mechanisms
+          implementing auditing of outgoing communications traffic
+    statement: >-
+      outgoing communications traffic posing a threat to external
+      systems is denied;
   - id: b
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; procedures addressing boundary
-          protection; system design documentation; system hardware and software;
-          system architecture; system configuration settings and associated
-          documentation; system audit records; system security plan; other relevant
-          documents or records
+          System and communications protection policy; procedures
+          addressing boundary protection; system design
+          documentation; system hardware and software; system
+          architecture; system configuration settings and associated
+          documentation; system audit records; system security plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; system developer; organizational personnel with
-          boundary protection responsibilities
+          System/network administrators; organizational personnel
+          with information security responsibilities; system
+          developer; organizational personnel with boundary
+          protection responsibilities
       - method: test
         statement: >
-          Mechanisms implementing boundary protection capabilities; mechanisms
-          implementing the detection and denial of threatening outgoing communications
-          traffic; mechanisms implementing auditing of outgoing communications traffic
-    statement: the identity of internal users associated with denied communications is audited.
+          Mechanisms implementing boundary protection capabilities;
+          mechanisms implementing the detection and denial of
+          threatening outgoing communications traffic; mechanisms
+          implementing auditing of outgoing communications traffic
+    statement: >-
+      the identity of internal users associated with denied
+      communications is audited.
 parts:
   - id: a
     statement: >
-      Detect and deny outgoing communications traffic posing a threat to external
-      systems; and
+      Detect and deny outgoing communications traffic posing a
+      threat to external systems; and
   - id: b
-    statement: Audit the identity of internal users associated with denied communications.
+    statement: >-
+      Audit the identity of internal users associated with denied
+      communications.

@@ -13,48 +13,61 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Supply chain risk management policy; inventory of critical systems, system
-          components, and system services; risk assessment policy; security planning
-          policy and procedures; procedures addressing organizational assessments of
-          supply chain risk; risk assessment; risk assessment results; risk assessment
-          reviews; risk assessment updates; acquisition policy; system security plan;
-          supply chain risk management plan; other relevant documents or records
+          Supply chain risk management policy; inventory of critical
+          systems, system components, and system services; risk
+          assessment policy; security planning policy and
+          procedures; procedures addressing organizational
+          assessments of supply chain risk; risk assessment; risk
+          assessment results; risk assessment reviews; risk
+          assessment updates; acquisition policy; system security
+          plan; supply chain risk management plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with risk assessment responsibilities;
-          organizational personnel with security responsibilities; organizational
-          personnel with supply chain risk management responsibilities
+          Organizational personnel with risk assessment
+          responsibilities; organizational personnel with security
+          responsibilities; organizational personnel with supply
+          chain risk management responsibilities
       - method: test
         statement: >
-          Organizational processes for risk assessment; mechanisms supporting and/or
-          conducting, documenting, reviewing, disseminating, and updating the supply
-          chain risk assessment
-    statement: "supply chain risks associated with {{ ra_03_01_odp_01 }} are assessed;"
+          Organizational processes for risk assessment; mechanisms
+          supporting and/or conducting, documenting, reviewing,
+          disseminating, and updating the supply chain risk
+          assessment
+    statement: >-
+      supply chain risks associated with {{ ra_03_01_odp_01 }} are
+      assessed;
   - id: b
     methods:
       - method: examine
         statement: >
-          Supply chain risk management policy; inventory of critical systems, system
-          components, and system services; risk assessment policy; security planning
-          policy and procedures; procedures addressing organizational assessments of
-          supply chain risk; risk assessment; risk assessment results; risk assessment
-          reviews; risk assessment updates; acquisition policy; system security plan;
-          supply chain risk management plan; other relevant documents or records
+          Supply chain risk management policy; inventory of critical
+          systems, system components, and system services; risk
+          assessment policy; security planning policy and
+          procedures; procedures addressing organizational
+          assessments of supply chain risk; risk assessment; risk
+          assessment results; risk assessment reviews; risk
+          assessment updates; acquisition policy; system security
+          plan; supply chain risk management plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with risk assessment responsibilities;
-          organizational personnel with security responsibilities; organizational
-          personnel with supply chain risk management responsibilities
+          Organizational personnel with risk assessment
+          responsibilities; organizational personnel with security
+          responsibilities; organizational personnel with supply
+          chain risk management responsibilities
       - method: test
         statement: >
-          Organizational processes for risk assessment; mechanisms supporting and/or
-          conducting, documenting, reviewing, disseminating, and updating the supply
-          chain risk assessment
+          Organizational processes for risk assessment; mechanisms
+          supporting and/or conducting, documenting, reviewing,
+          disseminating, and updating the supply chain risk
+          assessment
     statement: >
-      the supply chain risk assessment is updated {{ ra_03_01_odp_02 }} , when
-      there are significant changes to the relevant supply chain, or when changes
-      to the system, environments of operation, or other conditions may
-      necessitate a change in the supply chain.
+      the supply chain risk assessment is updated
+      {{ ra_03_01_odp_02 }} , when there are significant changes to
+      the relevant supply chain, or when changes to the system,
+      environments of operation, or other conditions may necessitate
+      a change in the supply chain.
 parameters:
   ra_03_01_odp_01:
     label: "systems, system components, and system services"
@@ -62,10 +75,13 @@ parameters:
     label: frequency
 parts:
   - id: a
-    statement: "Assess supply chain risks associated with {{ ra_03_01_odp_01 }} ; and"
+    statement: >-
+      Assess supply chain risks associated with
+      {{ ra_03_01_odp_01 }} ; and
   - id: b
     statement: >
-      Update the supply chain risk assessment {{ ra_03_01_odp_02 }} , when there
-      are significant changes to the relevant supply chain, or when changes to the
-      system, environments of operation, or other conditions may necessitate a
-      change in the supply chain.
+      Update the supply chain risk assessment {{ ra_03_01_odp_02 }}
+      , when there are significant changes to the relevant supply
+      chain, or when changes to the system, environments of
+      operation, or other conditions may necessitate a change in the
+      supply chain.

@@ -13,41 +13,47 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; procedures addressing
-          transmission confidentiality and integrity; system design documentation;
-          system configuration settings and associated documentation; system audit
-          records; system security plan; other relevant documents or records
+          System and communications protection policy; procedures
+          addressing transmission confidentiality and integrity;
+          system design documentation; system configuration settings
+          and associated documentation; system audit records; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; system developer
+          System/network administrators; organizational personnel
+          with information security responsibilities; system
+          developer
       - method: test
         statement: >
-          Mechanisms supporting and/or implementing transmission confidentiality
-          and/or integrity
+          Mechanisms supporting and/or implementing transmission
+          confidentiality and/or integrity
     statement: >
-      information {{ sc_08_02_odp }} is/are maintained during preparation for
-      transmission;
+      information {{ sc_08_02_odp }} is/are maintained during
+      preparation for transmission;
   - id: "sc-08(02).sc-08(02)[02]"
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; procedures addressing
-          transmission confidentiality and integrity; system design documentation;
-          system configuration settings and associated documentation; system audit
-          records; system security plan; other relevant documents or records
+          System and communications protection policy; procedures
+          addressing transmission confidentiality and integrity;
+          system design documentation; system configuration settings
+          and associated documentation; system audit records; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; system developer
+          System/network administrators; organizational personnel
+          with information security responsibilities; system
+          developer
       - method: test
         statement: >
-          Mechanisms supporting and/or implementing transmission confidentiality
-          and/or integrity
-    statement: "information {{ sc_08_02_odp }} is/are maintained during reception."
+          Mechanisms supporting and/or implementing transmission
+          confidentiality and/or integrity
+    statement: >-
+      information {{ sc_08_02_odp }} is/are maintained during
+      reception.
 parameters:
   sc_08_02_odp:
     label: sc-08.02_odp
 statement: >
-  Maintain the {{ sc_08_02_odp }} of information during preparation for
-  transmission and during reception.
+  Maintain the {{ sc_08_02_odp }} of information during preparation
+  for transmission and during reception.

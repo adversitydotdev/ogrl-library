@@ -13,40 +13,45 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; personally identifiable information processing policy;
-          de-identification procedures; system configuration; de-identified datasets;
-          algorithm and software validation tools; system security plan; privacy plan;
-          privacy impact assessment; privacy risk assessment documentation; other
-          relevant documents or records
+          System and information integrity policy; system and
+          information integrity procedures; personally identifiable
+          information processing policy; de-identification
+          procedures; system configuration; de-identified datasets;
+          algorithm and software validation tools; system security
+          plan; privacy plan; privacy impact assessment; privacy
+          risk assessment documentation; other relevant documents or
+          records
       - method: interview
         statement: >
-          Organizational personnel responsible for de-identifying the dataset;
-          organizational personnel with information security and privacy
-          responsibilities
+          Organizational personnel responsible for de-identifying
+          the dataset; organizational personnel with information
+          security and privacy responsibilities
       - method: test
         statement: Validated algorithms and software
-    statement: de-identification is performed using validated algorithms;
+    statement: >-
+      de-identification is performed using validated algorithms;
   - id: "si-19(07).si-19(07)[02]"
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; personally identifiable information processing policy;
-          de-identification procedures; system configuration; de-identified datasets;
-          algorithm and software validation tools; system security plan; privacy plan;
-          privacy impact assessment; privacy risk assessment documentation; other
-          relevant documents or records
+          System and information integrity policy; system and
+          information integrity procedures; personally identifiable
+          information processing policy; de-identification
+          procedures; system configuration; de-identified datasets;
+          algorithm and software validation tools; system security
+          plan; privacy plan; privacy impact assessment; privacy
+          risk assessment documentation; other relevant documents or
+          records
       - method: interview
         statement: >
-          Organizational personnel responsible for de-identifying the dataset;
-          organizational personnel with information security and privacy
-          responsibilities
+          Organizational personnel responsible for de-identifying
+          the dataset; organizational personnel with information
+          security and privacy responsibilities
       - method: test
         statement: Validated algorithms and software
     statement: >
-      de-identification is performed using software that is validated to implement
-      the algorithms.
+      de-identification is performed using software that is
+      validated to implement the algorithms.
 statement: >
-  Perform de-identification using validated algorithms and software that is
-  validated to implement the algorithms.
+  Perform de-identification using validated algorithms and software
+  that is validated to implement the algorithms.

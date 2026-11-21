@@ -9,28 +9,31 @@ control_type: preventive
 family: sd
 frequency: continuous
 guidance: >
-  Enforce validation at the API boundary with schema validators generated from
-  the specification (for example OpenAPI request validation, zod, or
-  pydantic). Use allow-list validation, parameterized queries, and size limits
-  on uploads. Batch imports should report rejected rows back to the submitter.
+  Enforce validation at the API boundary with schema validators
+  generated from the specification (for example OpenAPI request
+  validation, zod, or pydantic). Use allow-list validation,
+  parameterized queries, and size limits on uploads. Batch imports
+  should report rejected rows back to the submitter.
 objective: >
-  Ensure only complete, well-formed, and expected data enters processing,
-  protecting both data accuracy and the application from injection attacks.
+  Ensure only complete, well-formed, and expected data enters
+  processing, protecting both data accuracy and the application from
+  injection attacks.
 origin: standard
 parameters:
   validated_input_channels:
     label: Input channels subject to validation
     value: >
-      public APIs, user interface forms, file uploads, webhooks, and batch data
-      imports
+      public APIs, user interface forms, file uploads, webhooks, and
+      batch data imports
 statement: >
-  Validate inputs received through {{ validated_input_channels }} against
-  defined schemas for type, length, format, and range before processing,
-  reject or quarantine invalid inputs and log the reason, and verify
-  validation behavior with automated tests in the CI pipeline.
+  Validate inputs received through {{ validated_input_channels }}
+  against defined schemas for type, length, format, and range before
+  processing, reject or quarantine invalid inputs and log the
+  reason, and verify validation behavior with automated tests in the
+  CI pipeline.
 summary: >
-  Validate all external inputs against defined schemas before processing and
-  reject or quarantine invalid data.
+  Validate all external inputs against defined schemas before
+  processing and reject or quarantine invalid data.
 tags:
   - input-validation
   - processing-integrity

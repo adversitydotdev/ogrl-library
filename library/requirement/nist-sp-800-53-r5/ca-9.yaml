@@ -20,137 +20,163 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Assessment, authorization, and monitoring policy; access control policy;
-          procedures addressing system connections; system and communications
-          protection policy; system design documentation; system configuration
-          settings and associated documentation; list of components or classes of
-          components authorized as internal system connections; assessment report;
-          system audit records; system security plan; privacy plan; other relevant
-          documents or records
+          Assessment, authorization, and monitoring policy; access
+          control policy; procedures addressing system connections;
+          system and communications protection policy; system design
+          documentation; system configuration settings and
+          associated documentation; list of components or classes of
+          components authorized as internal system connections;
+          assessment report; system audit records; system security
+          plan; privacy plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with responsibilities for developing, implementing,
-          or authorizing internal system connections; organizational personnel with
-          information security and privacy responsibilities
+          Organizational personnel with responsibilities for
+          developing, implementing, or authorizing internal system
+          connections; organizational personnel with information
+          security and privacy responsibilities
       - method: test
         statement: Mechanisms supporting internal system connections
-    statement: "internal connections of {{ ca_09_odp_01 }} to the system are authorized;"
+    statement: >-
+      internal connections of {{ ca_09_odp_01 }} to the system are
+      authorized;
   - id: b-1
     methods:
       - method: examine
         statement: >
-          Assessment, authorization, and monitoring policy; access control policy;
-          procedures addressing system connections; system and communications
-          protection policy; system design documentation; system configuration
-          settings and associated documentation; list of components or classes of
-          components authorized as internal system connections; assessment report;
-          system audit records; system security plan; privacy plan; other relevant
-          documents or records
+          Assessment, authorization, and monitoring policy; access
+          control policy; procedures addressing system connections;
+          system and communications protection policy; system design
+          documentation; system configuration settings and
+          associated documentation; list of components or classes of
+          components authorized as internal system connections;
+          assessment report; system audit records; system security
+          plan; privacy plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with responsibilities for developing, implementing,
-          or authorizing internal system connections; organizational personnel with
-          information security and privacy responsibilities
+          Organizational personnel with responsibilities for
+          developing, implementing, or authorizing internal system
+          connections; organizational personnel with information
+          security and privacy responsibilities
       - method: test
         statement: Mechanisms supporting internal system connections
-    statement: "for each internal connection, the interface characteristics are documented;"
+    statement: >-
+      for each internal connection, the interface characteristics
+      are documented;
   - id: b-2
     methods:
       - method: examine
         statement: >
-          Assessment, authorization, and monitoring policy; access control policy;
-          procedures addressing system connections; system and communications
-          protection policy; system design documentation; system configuration
-          settings and associated documentation; list of components or classes of
-          components authorized as internal system connections; assessment report;
-          system audit records; system security plan; privacy plan; other relevant
-          documents or records
+          Assessment, authorization, and monitoring policy; access
+          control policy; procedures addressing system connections;
+          system and communications protection policy; system design
+          documentation; system configuration settings and
+          associated documentation; list of components or classes of
+          components authorized as internal system connections;
+          assessment report; system audit records; system security
+          plan; privacy plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with responsibilities for developing, implementing,
-          or authorizing internal system connections; organizational personnel with
-          information security and privacy responsibilities
+          Organizational personnel with responsibilities for
+          developing, implementing, or authorizing internal system
+          connections; organizational personnel with information
+          security and privacy responsibilities
       - method: test
         statement: Mechanisms supporting internal system connections
-    statement: "for each internal connection, the security requirements are documented;"
+    statement: >-
+      for each internal connection, the security requirements are
+      documented;
   - id: b-3
     methods:
       - method: examine
         statement: >
-          Assessment, authorization, and monitoring policy; access control policy;
-          procedures addressing system connections; system and communications
-          protection policy; system design documentation; system configuration
-          settings and associated documentation; list of components or classes of
-          components authorized as internal system connections; assessment report;
-          system audit records; system security plan; privacy plan; other relevant
-          documents or records
+          Assessment, authorization, and monitoring policy; access
+          control policy; procedures addressing system connections;
+          system and communications protection policy; system design
+          documentation; system configuration settings and
+          associated documentation; list of components or classes of
+          components authorized as internal system connections;
+          assessment report; system audit records; system security
+          plan; privacy plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with responsibilities for developing, implementing,
-          or authorizing internal system connections; organizational personnel with
-          information security and privacy responsibilities
+          Organizational personnel with responsibilities for
+          developing, implementing, or authorizing internal system
+          connections; organizational personnel with information
+          security and privacy responsibilities
       - method: test
         statement: Mechanisms supporting internal system connections
-    statement: "for each internal connection, the privacy requirements are documented;"
+    statement: >-
+      for each internal connection, the privacy requirements are
+      documented;
   - id: b-4
     methods:
       - method: examine
         statement: >
-          Assessment, authorization, and monitoring policy; access control policy;
-          procedures addressing system connections; system and communications
-          protection policy; system design documentation; system configuration
-          settings and associated documentation; list of components or classes of
-          components authorized as internal system connections; assessment report;
-          system audit records; system security plan; privacy plan; other relevant
-          documents or records
+          Assessment, authorization, and monitoring policy; access
+          control policy; procedures addressing system connections;
+          system and communications protection policy; system design
+          documentation; system configuration settings and
+          associated documentation; list of components or classes of
+          components authorized as internal system connections;
+          assessment report; system audit records; system security
+          plan; privacy plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with responsibilities for developing, implementing,
-          or authorizing internal system connections; organizational personnel with
-          information security and privacy responsibilities
+          Organizational personnel with responsibilities for
+          developing, implementing, or authorizing internal system
+          connections; organizational personnel with information
+          security and privacy responsibilities
       - method: test
         statement: Mechanisms supporting internal system connections
     statement: >
-      for each internal connection, the nature of the information communicated is
-      documented;
+      for each internal connection, the nature of the information
+      communicated is documented;
   - id: c
     methods:
       - method: examine
         statement: >
-          Assessment, authorization, and monitoring policy; access control policy;
-          procedures addressing system connections; system and communications
-          protection policy; system design documentation; system configuration
-          settings and associated documentation; list of components or classes of
-          components authorized as internal system connections; assessment report;
-          system audit records; system security plan; privacy plan; other relevant
-          documents or records
+          Assessment, authorization, and monitoring policy; access
+          control policy; procedures addressing system connections;
+          system and communications protection policy; system design
+          documentation; system configuration settings and
+          associated documentation; list of components or classes of
+          components authorized as internal system connections;
+          assessment report; system audit records; system security
+          plan; privacy plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with responsibilities for developing, implementing,
-          or authorizing internal system connections; organizational personnel with
-          information security and privacy responsibilities
+          Organizational personnel with responsibilities for
+          developing, implementing, or authorizing internal system
+          connections; organizational personnel with information
+          security and privacy responsibilities
       - method: test
         statement: Mechanisms supporting internal system connections
-    statement: "internal system connections are terminated after {{ ca_09_odp_02 }};"
+    statement: >-
+      internal system connections are terminated after
+      {{ ca_09_odp_02 }};
   - id: d
     methods:
       - method: examine
         statement: >
-          Assessment, authorization, and monitoring policy; access control policy;
-          procedures addressing system connections; system and communications
-          protection policy; system design documentation; system configuration
-          settings and associated documentation; list of components or classes of
-          components authorized as internal system connections; assessment report;
-          system audit records; system security plan; privacy plan; other relevant
-          documents or records
+          Assessment, authorization, and monitoring policy; access
+          control policy; procedures addressing system connections;
+          system and communications protection policy; system design
+          documentation; system configuration settings and
+          associated documentation; list of components or classes of
+          components authorized as internal system connections;
+          assessment report; system audit records; system security
+          plan; privacy plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with responsibilities for developing, implementing,
-          or authorizing internal system connections; organizational personnel with
-          information security and privacy responsibilities
+          Organizational personnel with responsibilities for
+          developing, implementing, or authorizing internal system
+          connections; organizational personnel with information
+          security and privacy responsibilities
       - method: test
         statement: Mechanisms supporting internal system connections
-    statement: "the continued need for each internal connection is reviewed {{ ca_09_odp_03 }}."
+    statement: >-
+      the continued need for each internal connection is reviewed
+      {{ ca_09_odp_03 }}.
 parameters:
   ca_09_odp_01:
     label: system components
@@ -160,13 +186,19 @@ parameters:
     label: frequency
 parts:
   - id: a
-    statement: "Authorize internal connections of {{ ca_09_odp_01 }} to the system;"
+    statement: >-
+      Authorize internal connections of {{ ca_09_odp_01 }} to the
+      system;
   - id: b
     statement: >
-      Document, for each internal connection, the interface characteristics,
-      security and privacy requirements, and the nature of the information
-      communicated;
+      Document, for each internal connection, the interface
+      characteristics, security and privacy requirements, and the
+      nature of the information communicated;
   - id: c
-    statement: "Terminate internal system connections after {{ ca_09_odp_02 }} ; and"
+    statement: >-
+      Terminate internal system connections after {{ ca_09_odp_02 }}
+      ; and
   - id: d
-    statement: "Review {{ ca_09_odp_03 }} the continued need for each internal connection."
+    statement: >-
+      Review {{ ca_09_odp_03 }} the continued need for each internal
+      connection.

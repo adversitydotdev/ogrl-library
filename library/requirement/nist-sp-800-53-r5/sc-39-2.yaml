@@ -13,25 +13,32 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; system design documentation;
-          system configuration settings and associated documentation; system
-          architecture; list of system execution domains for each thread in
-          multi-threaded processing; system documentation for multi-threaded
-          processing; system documentation from vendors, manufacturers, or developers;
-          independent verification and validation documentation; system security plan;
-          other relevant documents or records
+          System and communications protection policy; system design
+          documentation; system configuration settings and
+          associated documentation; system architecture; list of
+          system execution domains for each thread in multi-threaded
+          processing; system documentation for multi-threaded
+          processing; system documentation from vendors,
+          manufacturers, or developers; independent verification and
+          validation documentation; system security plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; system developer; organizational personnel
-          installing, configuring, and/or maintaining the system; system
+          System/network administrators; organizational personnel
+          with information security responsibilities; system
+          developer; organizational personnel installing,
+          configuring, and/or maintaining the system; system
           developers/integrators
       - method: test
         statement: >
-          System capability implementing a separate execution domain for each thread
-          in multi-threaded processing
-    statement: "a separate execution domain is maintained for each thread in {{ sc_39_02_odp }}."
+          System capability implementing a separate execution domain
+          for each thread in multi-threaded processing
+    statement: >-
+      a separate execution domain is maintained for each thread in
+      {{ sc_39_02_odp }}.
 parameters:
   sc_39_02_odp:
     label: multi-threaded processing
-statement: "Maintain a separate execution domain for each thread in {{ sc_39_02_odp }}."
+statement: >-
+  Maintain a separate execution domain for each thread in
+  {{ sc_39_02_odp }}.

@@ -13,101 +13,120 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Physical and environmental protection policy; procedures addressing the
-          delivery and removal of system components from the facility; facility
-          housing the system; records of items entering and exiting the facility;
-          system security plan; other relevant documents or records
+          Physical and environmental protection policy; procedures
+          addressing the delivery and removal of system components
+          from the facility; facility housing the system; records of
+          items entering and exiting the facility; system security
+          plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with responsibilities for controlling system
-          components entering and exiting the facility; organizational personnel with
-          information security responsibilities
+          Organizational personnel with responsibilities for
+          controlling system components entering and exiting the
+          facility; organizational personnel with information
+          security responsibilities
       - method: test
         statement: >
-          Organizational process for authorizing, monitoring, and controlling
-          system-related items entering and exiting the facility; mechanisms
-          supporting and/or implementing, authorizing, monitoring, and controlling
-          system-related items entering and exiting the facility
-    statement: "{{ pe_16_odp_01 }} are authorized when entering the facility;"
+          Organizational process for authorizing, monitoring, and
+          controlling system-related items entering and exiting the
+          facility; mechanisms supporting and/or implementing,
+          authorizing, monitoring, and controlling system-related
+          items entering and exiting the facility
+    statement: >-
+      {{ pe_16_odp_01 }} are authorized when entering the facility;
   - id: a-2
     methods:
       - method: examine
         statement: >
-          Physical and environmental protection policy; procedures addressing the
-          delivery and removal of system components from the facility; facility
-          housing the system; records of items entering and exiting the facility;
-          system security plan; other relevant documents or records
+          Physical and environmental protection policy; procedures
+          addressing the delivery and removal of system components
+          from the facility; facility housing the system; records of
+          items entering and exiting the facility; system security
+          plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with responsibilities for controlling system
-          components entering and exiting the facility; organizational personnel with
-          information security responsibilities
+          Organizational personnel with responsibilities for
+          controlling system components entering and exiting the
+          facility; organizational personnel with information
+          security responsibilities
       - method: test
         statement: >
-          Organizational process for authorizing, monitoring, and controlling
-          system-related items entering and exiting the facility; mechanisms
-          supporting and/or implementing, authorizing, monitoring, and controlling
-          system-related items entering and exiting the facility
-    statement: "{{ pe_16_odp_01 }} are controlled when entering the facility;"
+          Organizational process for authorizing, monitoring, and
+          controlling system-related items entering and exiting the
+          facility; mechanisms supporting and/or implementing,
+          authorizing, monitoring, and controlling system-related
+          items entering and exiting the facility
+    statement: >-
+      {{ pe_16_odp_01 }} are controlled when entering the facility;
   - id: a-3
     methods:
       - method: examine
         statement: >
-          Physical and environmental protection policy; procedures addressing the
-          delivery and removal of system components from the facility; facility
-          housing the system; records of items entering and exiting the facility;
-          system security plan; other relevant documents or records
+          Physical and environmental protection policy; procedures
+          addressing the delivery and removal of system components
+          from the facility; facility housing the system; records of
+          items entering and exiting the facility; system security
+          plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with responsibilities for controlling system
-          components entering and exiting the facility; organizational personnel with
-          information security responsibilities
+          Organizational personnel with responsibilities for
+          controlling system components entering and exiting the
+          facility; organizational personnel with information
+          security responsibilities
       - method: test
         statement: >
-          Organizational process for authorizing, monitoring, and controlling
-          system-related items entering and exiting the facility; mechanisms
-          supporting and/or implementing, authorizing, monitoring, and controlling
-          system-related items entering and exiting the facility
-    statement: "{{ pe_16_odp_02 }} are authorized when exiting the facility;"
+          Organizational process for authorizing, monitoring, and
+          controlling system-related items entering and exiting the
+          facility; mechanisms supporting and/or implementing,
+          authorizing, monitoring, and controlling system-related
+          items entering and exiting the facility
+    statement: >-
+      {{ pe_16_odp_02 }} are authorized when exiting the facility;
   - id: a-4
     methods:
       - method: examine
         statement: >
-          Physical and environmental protection policy; procedures addressing the
-          delivery and removal of system components from the facility; facility
-          housing the system; records of items entering and exiting the facility;
-          system security plan; other relevant documents or records
+          Physical and environmental protection policy; procedures
+          addressing the delivery and removal of system components
+          from the facility; facility housing the system; records of
+          items entering and exiting the facility; system security
+          plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with responsibilities for controlling system
-          components entering and exiting the facility; organizational personnel with
-          information security responsibilities
+          Organizational personnel with responsibilities for
+          controlling system components entering and exiting the
+          facility; organizational personnel with information
+          security responsibilities
       - method: test
         statement: >
-          Organizational process for authorizing, monitoring, and controlling
-          system-related items entering and exiting the facility; mechanisms
-          supporting and/or implementing, authorizing, monitoring, and controlling
-          system-related items entering and exiting the facility
-    statement: "{{ pe_16_odp_02 }} are controlled when exiting the facility;"
+          Organizational process for authorizing, monitoring, and
+          controlling system-related items entering and exiting the
+          facility; mechanisms supporting and/or implementing,
+          authorizing, monitoring, and controlling system-related
+          items entering and exiting the facility
+    statement: >-
+      {{ pe_16_odp_02 }} are controlled when exiting the facility;
   - id: b
     methods:
       - method: examine
         statement: >
-          Physical and environmental protection policy; procedures addressing the
-          delivery and removal of system components from the facility; facility
-          housing the system; records of items entering and exiting the facility;
-          system security plan; other relevant documents or records
+          Physical and environmental protection policy; procedures
+          addressing the delivery and removal of system components
+          from the facility; facility housing the system; records of
+          items entering and exiting the facility; system security
+          plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with responsibilities for controlling system
-          components entering and exiting the facility; organizational personnel with
-          information security responsibilities
+          Organizational personnel with responsibilities for
+          controlling system components entering and exiting the
+          facility; organizational personnel with information
+          security responsibilities
       - method: test
         statement: >
-          Organizational process for authorizing, monitoring, and controlling
-          system-related items entering and exiting the facility; mechanisms
-          supporting and/or implementing, authorizing, monitoring, and controlling
-          system-related items entering and exiting the facility
+          Organizational process for authorizing, monitoring, and
+          controlling system-related items entering and exiting the
+          facility; mechanisms supporting and/or implementing,
+          authorizing, monitoring, and controlling system-related
+          items entering and exiting the facility
     statement: records of the system components are maintained.
 parameters:
   pe_16_odp_01:
@@ -118,6 +137,8 @@ parameters:
     label: organization-defined types of system components
 parts:
   - id: a
-    statement: "Authorize and control {{ pe_16_prm_1 }} entering and exiting the facility; and"
+    statement: >-
+      Authorize and control {{ pe_16_prm_1 }} entering and exiting
+      the facility; and
   - id: b
     statement: Maintain records of the system components.

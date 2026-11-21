@@ -13,22 +13,30 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; procedures addressing software and information integrity; system
-          design documentation; system configuration settings and associated
-          documentation; list of known vulnerabilities addressed by runtime
-          instrumentation; system security plan; other relevant documents or records
+          System and information integrity policy; system and
+          information integrity procedures; procedures addressing
+          software and information integrity; system design
+          documentation; system configuration settings and
+          associated documentation; list of known vulnerabilities
+          addressed by runtime instrumentation; system security
+          plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel responsible for software, firmware, and/or
-          information integrity; organizational personnel with information security
-          responsibilities; system/network administrators; system developer
+          Organizational personnel responsible for software,
+          firmware, and/or information integrity; organizational
+          personnel with information security responsibilities;
+          system/network administrators; system developer
       - method: test
         statement: >
-          Software, firmware, and information integrity verification tools; mechanisms
-          supporting and/or implementing runtime application self-protection
-    statement: "{{ si_07_17_odp }} are implemented for application self-protection at runtime."
+          Software, firmware, and information integrity verification
+          tools; mechanisms supporting and/or implementing runtime
+          application self-protection
+    statement: >-
+      {{ si_07_17_odp }} are implemented for application
+      self-protection at runtime.
 parameters:
   si_07_17_odp:
     label: controls
-statement: "Implement {{ si_07_17_odp }} for application self-protection at runtime."
+statement: >-
+  Implement {{ si_07_17_odp }} for application self-protection at
+  runtime.

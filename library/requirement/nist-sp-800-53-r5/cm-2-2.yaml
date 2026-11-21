@@ -13,93 +13,109 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Configuration management policy; procedures addressing the baseline
-          configuration of the system; configuration management plan; system design
-          documentation; system architecture and configuration documentation; system
-          configuration settings and associated documentation; system component
-          inventory; configuration change control records; system security plan; other
-          relevant documents or records
+          Configuration management policy; procedures addressing the
+          baseline configuration of the system; configuration
+          management plan; system design documentation; system
+          architecture and configuration documentation; system
+          configuration settings and associated documentation;
+          system component inventory; configuration change control
+          records; system security plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          Organizational personnel with configuration management responsibilities;
-          organizational personnel with information security responsibilities;
-          system/network administrators
+          Organizational personnel with configuration management
+          responsibilities; organizational personnel with
+          information security responsibilities; system/network
+          administrators
       - method: test
         statement: >
-          Organizational processes for managing baseline configurations; automated
-          mechanisms implementing baseline configuration maintenance
+          Organizational processes for managing baseline
+          configurations; automated mechanisms implementing baseline
+          configuration maintenance
     statement: >
-      the currency of the baseline configuration of the system is maintained using
-      {{ cm_02_02_odp }};
+      the currency of the baseline configuration of the system is
+      maintained using {{ cm_02_02_odp }};
   - id: "cm-02(02).cm-02(02)[02]"
     methods:
       - method: examine
         statement: >
-          Configuration management policy; procedures addressing the baseline
-          configuration of the system; configuration management plan; system design
-          documentation; system architecture and configuration documentation; system
-          configuration settings and associated documentation; system component
-          inventory; configuration change control records; system security plan; other
-          relevant documents or records
+          Configuration management policy; procedures addressing the
+          baseline configuration of the system; configuration
+          management plan; system design documentation; system
+          architecture and configuration documentation; system
+          configuration settings and associated documentation;
+          system component inventory; configuration change control
+          records; system security plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          Organizational personnel with configuration management responsibilities;
-          organizational personnel with information security responsibilities;
-          system/network administrators
+          Organizational personnel with configuration management
+          responsibilities; organizational personnel with
+          information security responsibilities; system/network
+          administrators
       - method: test
         statement: >
-          Organizational processes for managing baseline configurations; automated
-          mechanisms implementing baseline configuration maintenance
+          Organizational processes for managing baseline
+          configurations; automated mechanisms implementing baseline
+          configuration maintenance
     statement: >
-      the completeness of the baseline configuration of the system is maintained
-      using {{ cm_02_02_odp }};
+      the completeness of the baseline configuration of the system
+      is maintained using {{ cm_02_02_odp }};
   - id: "cm-02(02).cm-02(02)[03]"
     methods:
       - method: examine
         statement: >
-          Configuration management policy; procedures addressing the baseline
-          configuration of the system; configuration management plan; system design
-          documentation; system architecture and configuration documentation; system
-          configuration settings and associated documentation; system component
-          inventory; configuration change control records; system security plan; other
-          relevant documents or records
+          Configuration management policy; procedures addressing the
+          baseline configuration of the system; configuration
+          management plan; system design documentation; system
+          architecture and configuration documentation; system
+          configuration settings and associated documentation;
+          system component inventory; configuration change control
+          records; system security plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          Organizational personnel with configuration management responsibilities;
-          organizational personnel with information security responsibilities;
-          system/network administrators
+          Organizational personnel with configuration management
+          responsibilities; organizational personnel with
+          information security responsibilities; system/network
+          administrators
       - method: test
         statement: >
-          Organizational processes for managing baseline configurations; automated
-          mechanisms implementing baseline configuration maintenance
+          Organizational processes for managing baseline
+          configurations; automated mechanisms implementing baseline
+          configuration maintenance
     statement: >
-      the accuracy of the baseline configuration of the system is maintained using
-      {{ cm_02_02_odp }};
+      the accuracy of the baseline configuration of the system is
+      maintained using {{ cm_02_02_odp }};
   - id: "cm-02(02).cm-02(02)[04]"
     methods:
       - method: examine
         statement: >
-          Configuration management policy; procedures addressing the baseline
-          configuration of the system; configuration management plan; system design
-          documentation; system architecture and configuration documentation; system
-          configuration settings and associated documentation; system component
-          inventory; configuration change control records; system security plan; other
-          relevant documents or records
+          Configuration management policy; procedures addressing the
+          baseline configuration of the system; configuration
+          management plan; system design documentation; system
+          architecture and configuration documentation; system
+          configuration settings and associated documentation;
+          system component inventory; configuration change control
+          records; system security plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          Organizational personnel with configuration management responsibilities;
-          organizational personnel with information security responsibilities;
-          system/network administrators
+          Organizational personnel with configuration management
+          responsibilities; organizational personnel with
+          information security responsibilities; system/network
+          administrators
       - method: test
         statement: >
-          Organizational processes for managing baseline configurations; automated
-          mechanisms implementing baseline configuration maintenance
+          Organizational processes for managing baseline
+          configurations; automated mechanisms implementing baseline
+          configuration maintenance
     statement: >
-      the availability of the baseline configuration of the system is maintained
-      using {{ cm_02_02_odp }}.
+      the availability of the baseline configuration of the system
+      is maintained using {{ cm_02_02_odp }}.
 parameters:
   cm_02_02_odp:
     label: automated mechanisms
 statement: >
-  Maintain the currency, completeness, accuracy, and availability of the
-  baseline configuration of the system using {{ cm_02_02_odp }}.
+  Maintain the currency, completeness, accuracy, and availability of
+  the baseline configuration of the system using {{ cm_02_02_odp }}.

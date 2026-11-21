@@ -13,80 +13,95 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; personally identifiable information processing policy;
-          personally identifiable information processing procedures; records retention
-          and disposition policy; records retention and disposition procedures; laws,
-          Executive Orders, directives, policies, regulations, standards, and
-          operational requirements applicable to information disposal; media
-          protection policy; media protection procedures; system audit records; audit
-          findings; information disposal records; system security plan; privacy plan;
-          privacy impact assessment; privacy risk assessment documentation; other
-          relevant documents or records
+          System and information integrity policy; system and
+          information integrity procedures; personally identifiable
+          information processing policy; personally identifiable
+          information processing procedures; records retention and
+          disposition policy; records retention and disposition
+          procedures; laws, Executive Orders, directives, policies,
+          regulations, standards, and operational requirements
+          applicable to information disposal; media protection
+          policy; media protection procedures; system audit records;
+          audit findings; information disposal records; system
+          security plan; privacy plan; privacy impact assessment;
+          privacy risk assessment documentation; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with information and records management, retention,
-          and disposition responsibilities; organizational personnel with information
-          security and privacy responsibilities; network administrators
+          Organizational personnel with information and records
+          management, retention, and disposition responsibilities;
+          organizational personnel with information security and
+          privacy responsibilities; network administrators
       - method: test
         statement: >
-          Organizational processes for information disposition; automated mechanisms
-          supporting and/or implementing information disposition
+          Organizational processes for information disposition;
+          automated mechanisms supporting and/or implementing
+          information disposition
     statement: >
-      {{ si_12_03_odp_01 }} are used to dispose of information following the
-      retention period;
+      {{ si_12_03_odp_01 }} are used to dispose of information
+      following the retention period;
   - id: "si-12(03).si-12(03)[02]"
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; personally identifiable information processing policy;
-          personally identifiable information processing procedures; records retention
-          and disposition policy; records retention and disposition procedures; laws,
-          Executive Orders, directives, policies, regulations, standards, and
-          operational requirements applicable to information disposal; media
-          protection policy; media protection procedures; system audit records; audit
-          findings; information disposal records; system security plan; privacy plan;
-          privacy impact assessment; privacy risk assessment documentation; other
-          relevant documents or records
+          System and information integrity policy; system and
+          information integrity procedures; personally identifiable
+          information processing policy; personally identifiable
+          information processing procedures; records retention and
+          disposition policy; records retention and disposition
+          procedures; laws, Executive Orders, directives, policies,
+          regulations, standards, and operational requirements
+          applicable to information disposal; media protection
+          policy; media protection procedures; system audit records;
+          audit findings; information disposal records; system
+          security plan; privacy plan; privacy impact assessment;
+          privacy risk assessment documentation; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with information and records management, retention,
-          and disposition responsibilities; organizational personnel with information
-          security and privacy responsibilities; network administrators
+          Organizational personnel with information and records
+          management, retention, and disposition responsibilities;
+          organizational personnel with information security and
+          privacy responsibilities; network administrators
       - method: test
         statement: >
-          Organizational processes for information disposition; automated mechanisms
-          supporting and/or implementing information disposition
+          Organizational processes for information disposition;
+          automated mechanisms supporting and/or implementing
+          information disposition
     statement: >
-      {{ si_12_03_odp_02 }} are used to destroy information following the
-      retention period;
+      {{ si_12_03_odp_02 }} are used to destroy information
+      following the retention period;
   - id: "si-12(03).si-12(03)[03]"
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; personally identifiable information processing policy;
-          personally identifiable information processing procedures; records retention
-          and disposition policy; records retention and disposition procedures; laws,
-          Executive Orders, directives, policies, regulations, standards, and
-          operational requirements applicable to information disposal; media
-          protection policy; media protection procedures; system audit records; audit
-          findings; information disposal records; system security plan; privacy plan;
-          privacy impact assessment; privacy risk assessment documentation; other
-          relevant documents or records
+          System and information integrity policy; system and
+          information integrity procedures; personally identifiable
+          information processing policy; personally identifiable
+          information processing procedures; records retention and
+          disposition policy; records retention and disposition
+          procedures; laws, Executive Orders, directives, policies,
+          regulations, standards, and operational requirements
+          applicable to information disposal; media protection
+          policy; media protection procedures; system audit records;
+          audit findings; information disposal records; system
+          security plan; privacy plan; privacy impact assessment;
+          privacy risk assessment documentation; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with information and records management, retention,
-          and disposition responsibilities; organizational personnel with information
-          security and privacy responsibilities; network administrators
+          Organizational personnel with information and records
+          management, retention, and disposition responsibilities;
+          organizational personnel with information security and
+          privacy responsibilities; network administrators
       - method: test
         statement: >
-          Organizational processes for information disposition; automated mechanisms
-          supporting and/or implementing information disposition
+          Organizational processes for information disposition;
+          automated mechanisms supporting and/or implementing
+          information disposition
     statement: >
-      {{ si_12_03_odp_03 }} are used to erase information following the retention
-      period.
+      {{ si_12_03_odp_03 }} are used to erase information following
+      the retention period.
 parameters:
   si_12_03_odp_01:
     label: techniques
@@ -97,5 +112,5 @@ parameters:
   si_12_3_prm_1:
     label: organization-defined techniques
 statement: >
-  Use the following techniques to dispose of, destroy, or erase information
-  following the retention period: {{ si_12_3_prm_1 }}.
+  Use the following techniques to dispose of, destroy, or erase
+  information following the retention period: {{ si_12_3_prm_1 }}.

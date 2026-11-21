@@ -53,30 +53,33 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Supply chain risk management policy and procedures; supply chain risk
-          management strategy; supply chain risk management plan; system and services
-          acquisition policy; procedures addressing supply chain protection;
-          procedures addressing the integration of information security requirements
-          into the acquisition process; records of supplier due diligence reviews;
-          system security plan; other relevant documents or records
+          Supply chain risk management policy and procedures; supply
+          chain risk management strategy; supply chain risk
+          management plan; system and services acquisition policy;
+          procedures addressing supply chain protection; procedures
+          addressing the integration of information security
+          requirements into the acquisition process; records of
+          supplier due diligence reviews; system security plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with system and services acquisition
-          responsibilities; organizational personnel with information security
-          responsibilities; organizational personnel with supply chain protection
-          responsibilities
+          Organizational personnel with system and services
+          acquisition responsibilities; organizational personnel
+          with information security responsibilities; organizational
+          personnel with supply chain protection responsibilities
       - method: test
         statement: >
-          Organizational processes for conducting supplier reviews; mechanisms
-          supporting and/or implementing supplier reviews
+          Organizational processes for conducting supplier reviews;
+          mechanisms supporting and/or implementing supplier reviews
     statement: >
-      the supply chain-related risks associated with suppliers or contractors and
-      the systems, system components, or system services they provide are assessed
-      and reviewed {{ sr_06_odp }}.
+      the supply chain-related risks associated with suppliers or
+      contractors and the systems, system components, or system
+      services they provide are assessed and reviewed
+      {{ sr_06_odp }}.
 parameters:
   sr_06_odp:
     label: frequency
 statement: >
-  Assess and review the supply chain-related risks associated with suppliers
-  or contractors and the system, system component, or system service they
-  provide {{ sr_06_odp }}.
+  Assess and review the supply chain-related risks associated with
+  suppliers or contractors and the system, system component, or
+  system service they provide {{ sr_06_odp }}.

@@ -13,17 +13,25 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Contingency planning policy; procedures addressing system recovery and
-          reconstitution; contingency plan; system design documentation; system
-          configuration settings and associated documentation; contingency plan test
-          documentation; contingency plan test results; system transaction recovery
-          records; system audit records; system security plan; other relevant
-          documents or records
+          Contingency planning policy; procedures addressing system
+          recovery and reconstitution; contingency plan; system
+          design documentation; system configuration settings and
+          associated documentation; contingency plan test
+          documentation; contingency plan test results; system
+          transaction recovery records; system audit records; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with responsibility for transaction recovery;
-          organizational personnel with information security responsibilities
+          Organizational personnel with responsibility for
+          transaction recovery; organizational personnel with
+          information security responsibilities
       - method: test
-        statement: Mechanisms supporting and/or implementing transaction recovery capability
-    statement: transaction recovery is implemented for systems that are transaction-based.
-statement: Implement transaction recovery for systems that are transaction-based.
+        statement: >-
+          Mechanisms supporting and/or implementing transaction
+          recovery capability
+    statement: >-
+      transaction recovery is implemented for systems that are
+      transaction-based.
+statement: >-
+  Implement transaction recovery for systems that are
+  transaction-based.

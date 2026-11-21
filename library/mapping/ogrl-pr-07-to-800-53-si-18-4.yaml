@@ -8,5 +8,6 @@ rationale: functional
 relationship: equivalent-to
 review_status: draft
 source_ref: control--ogrl-pr-07
-summary: "Correcting or deleting PII on verified request satisfies SI-18(4)."
+summary: >-
+  Correcting or deleting PII on verified request satisfies SI-18(4).
 target_ref: requirement--nist-sp-800-53-r5-si-18-4

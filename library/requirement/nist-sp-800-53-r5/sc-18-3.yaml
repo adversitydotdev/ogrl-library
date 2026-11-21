@@ -13,37 +13,46 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; procedures addressing mobile
-          code; mobile code usage restrictions; mobile code implementation policy and
-          procedures; system design documentation; system configuration settings and
-          associated documentation; system audit records; system security plan; other
-          relevant documents or records
+          System and communications protection policy; procedures
+          addressing mobile code; mobile code usage restrictions;
+          mobile code implementation policy and procedures; system
+          design documentation; system configuration settings and
+          associated documentation; system audit records; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; system developer; organizational personnel with
-          responsibilities for managing mobile code
+          System/network administrators; organizational personnel
+          with information security responsibilities; system
+          developer; organizational personnel with responsibilities
+          for managing mobile code
       - method: test
-        statement: Mechanisms preventing the download and execution of unacceptable mobile code
+        statement: >-
+          Mechanisms preventing the download and execution of
+          unacceptable mobile code
     statement: "the download of {{ sc_18_03_odp }} is prevented;"
   - id: "sc-18(03).sc-18(03)[02]"
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; procedures addressing mobile
-          code; mobile code usage restrictions; mobile code implementation policy and
-          procedures; system design documentation; system configuration settings and
-          associated documentation; system audit records; system security plan; other
-          relevant documents or records
+          System and communications protection policy; procedures
+          addressing mobile code; mobile code usage restrictions;
+          mobile code implementation policy and procedures; system
+          design documentation; system configuration settings and
+          associated documentation; system audit records; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; system developer; organizational personnel with
-          responsibilities for managing mobile code
+          System/network administrators; organizational personnel
+          with information security responsibilities; system
+          developer; organizational personnel with responsibilities
+          for managing mobile code
       - method: test
-        statement: Mechanisms preventing the download and execution of unacceptable mobile code
+        statement: >-
+          Mechanisms preventing the download and execution of
+          unacceptable mobile code
     statement: "the execution of {{ sc_18_03_odp }} is prevented."
 parameters:
   sc_18_03_odp:
     label: unacceptable mobile code
-statement: "Prevent the download and execution of {{ sc_18_03_odp }}."
+statement: >-
+  Prevent the download and execution of {{ sc_18_03_odp }}.

@@ -8,5 +8,7 @@ rationale: functional
 relationship: equivalent-to
 review_status: draft
 source_ref: control--ogrl-bc-05
-summary: "Applying the same security baseline to alternate locations satisfies CP-7(c)."
+summary: >-
+  Applying the same security baseline to alternate locations
+  satisfies CP-7(c).
 target_ref: "requirement--nist-sp-800-53-r5-cp-7#c"

@@ -53,36 +53,44 @@ objectives:
     methods:
       - method: examine
         statement: >
-          access control policy and procedures; procedures for access enforcement;
-          system design documentation; system configuration settings; list of approved
-          authorizations (i.e., user privileges); system audit records; system
+          access control policy and procedures; procedures for
+          access enforcement; system design documentation; system
+          configuration settings; list of approved authorizations
+          (i.e., user privileges); system audit records; system
           security plan; other relevant documents or records
       - method: interview
         statement: >
-          personnel with access enforcement responsibilities; system administrators;
-          personnel with information security responsibilities; system developers
+          personnel with access enforcement responsibilities; system
+          administrators; personnel with information security
+          responsibilities; system developers
       - method: test
-        statement: mechanisms for implementing the access control policy
+        statement: >-
+          mechanisms for implementing the access control policy
     statement: >
-      approved authorizations for logical access to CUI are enforced in accordance
-      with applicable access control policies.
+      approved authorizations for logical access to CUI are enforced
+      in accordance with applicable access control policies.
   - id: "02"
     methods:
       - method: examine
         statement: >
-          access control policy and procedures; procedures for access enforcement;
-          system design documentation; system configuration settings; list of approved
-          authorizations (i.e., user privileges); system audit records; system
+          access control policy and procedures; procedures for
+          access enforcement; system design documentation; system
+          configuration settings; list of approved authorizations
+          (i.e., user privileges); system audit records; system
           security plan; other relevant documents or records
       - method: interview
         statement: >
-          personnel with access enforcement responsibilities; system administrators;
-          personnel with information security responsibilities; system developers
+          personnel with access enforcement responsibilities; system
+          administrators; personnel with information security
+          responsibilities; system developers
       - method: test
-        statement: mechanisms for implementing the access control policy
+        statement: >-
+          mechanisms for implementing the access control policy
     statement: >
-      approved authorizations for logical access to system resources are enforced
-      in accordance with applicable access control policies.
+      approved authorizations for logical access to system resources
+      are enforced in accordance with applicable access control
+      policies.
 statement: >
-  Enforce approved authorizations for logical access to CUI and system
-  resources in accordance with applicable access control policies.
+  Enforce approved authorizations for logical access to CUI and
+  system resources in accordance with applicable access control
+  policies.

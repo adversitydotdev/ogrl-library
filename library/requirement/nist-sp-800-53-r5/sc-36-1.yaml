@@ -13,42 +13,50 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; system design documentation;
-          system configuration settings and associated documentation; system
-          architecture; list of distributed processing and storage components subject
-          to polling; system polling techniques and associated documentation or
-          records; system audit records; system security plan; other relevant
-          documents or records
+          System and communications protection policy; system design
+          documentation; system configuration settings and
+          associated documentation; system architecture; list of
+          distributed processing and storage components subject to
+          polling; system polling techniques and associated
+          documentation or records; system audit records; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; organizational personnel installing, configuring,
-          and/or maintaining the system; system developers/integrators
+          System/network administrators; organizational personnel
+          with information security responsibilities; organizational
+          personnel installing, configuring, and/or maintaining the
+          system; system developers/integrators
       - method: test
-        statement: Mechanisms supporting and/or implementing polling techniques
+        statement: >-
+          Mechanisms supporting and/or implementing polling
+          techniques
     statement: >
-      polling techniques are employed to identify potential faults, errors, or
-      compromises to {{ sc_36_01_odp_01 }};
+      polling techniques are employed to identify potential faults,
+      errors, or compromises to {{ sc_36_01_odp_01 }};
   - id: b
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; system design documentation;
-          system configuration settings and associated documentation; system
-          architecture; list of distributed processing and storage components subject
-          to polling; system polling techniques and associated documentation or
-          records; system audit records; system security plan; other relevant
-          documents or records
+          System and communications protection policy; system design
+          documentation; system configuration settings and
+          associated documentation; system architecture; list of
+          distributed processing and storage components subject to
+          polling; system polling techniques and associated
+          documentation or records; system audit records; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; organizational personnel installing, configuring,
-          and/or maintaining the system; system developers/integrators
+          System/network administrators; organizational personnel
+          with information security responsibilities; organizational
+          personnel installing, configuring, and/or maintaining the
+          system; system developers/integrators
       - method: test
-        statement: Mechanisms supporting and/or implementing polling techniques
+        statement: >-
+          Mechanisms supporting and/or implementing polling
+          techniques
     statement: >
-      {{ sc_36_01_odp_02 }} are taken in response to identified faults, errors, or
-      compromise.
+      {{ sc_36_01_odp_02 }} are taken in response to identified
+      faults, errors, or compromise.
 parameters:
   sc_36_01_odp_01:
     label: distributed processing and storage components
@@ -57,10 +65,10 @@ parameters:
 parts:
   - id: a
     statement: >
-      Employ polling techniques to identify potential faults, errors, or
-      compromises to the following processing and storage components:
-      {{ sc_36_01_odp_01 }} ; and
+      Employ polling techniques to identify potential faults,
+      errors, or compromises to the following processing and storage
+      components: {{ sc_36_01_odp_01 }} ; and
   - id: b
     statement: >
-      Take the following actions in response to identified faults, errors, or
-      compromises: {{ sc_36_01_odp_02 }}.
+      Take the following actions in response to identified faults,
+      errors, or compromises: {{ sc_36_01_odp_02 }}.

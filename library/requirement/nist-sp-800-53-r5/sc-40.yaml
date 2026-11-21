@@ -13,59 +13,77 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; access control policy and
-          procedures; procedures addressing wireless link protection; system design
-          documentation; wireless network diagrams; system configuration settings and
-          associated documentation; system architecture; list of internal and external
-          wireless links; list of signal parameter attacks or references to sources
-          for attacks; system audit records; system security plan; other relevant
+          System and communications protection policy; access
+          control policy and procedures; procedures addressing
+          wireless link protection; system design documentation;
+          wireless network diagrams; system configuration settings
+          and associated documentation; system architecture; list of
+          internal and external wireless links; list of signal
+          parameter attacks or references to sources for attacks;
+          system audit records; system security plan; other relevant
           documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; system developer; organizational personnel
-          installing, configuring, and/or maintaining the system; organizational
-          personnel authorizing, installing, configuring, and/or maintaining internal
-          and external wireless links
+          System/network administrators; organizational personnel
+          with information security responsibilities; system
+          developer; organizational personnel installing,
+          configuring, and/or maintaining the system; organizational
+          personnel authorizing, installing, configuring, and/or
+          maintaining internal and external wireless links
       - method: test
-        statement: Mechanisms supporting and/or implementing the protection of wireless links
-    statement: "external {{ sc_40_odp_01 }} are protected from {{ sc_40_odp_02 }}."
+        statement: >-
+          Mechanisms supporting and/or implementing the protection
+          of wireless links
+    statement: >-
+      external {{ sc_40_odp_01 }} are protected from
+      {{ sc_40_odp_02 }}.
   - id: _obj-2
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; access control policy and
-          procedures; procedures addressing wireless link protection; system design
-          documentation; wireless network diagrams; system configuration settings and
-          associated documentation; system architecture; list of internal and external
-          wireless links; list of signal parameter attacks or references to sources
-          for attacks; system audit records; system security plan; other relevant
+          System and communications protection policy; access
+          control policy and procedures; procedures addressing
+          wireless link protection; system design documentation;
+          wireless network diagrams; system configuration settings
+          and associated documentation; system architecture; list of
+          internal and external wireless links; list of signal
+          parameter attacks or references to sources for attacks;
+          system audit records; system security plan; other relevant
           documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; system developer; organizational personnel
-          installing, configuring, and/or maintaining the system; organizational
-          personnel authorizing, installing, configuring, and/or maintaining internal
-          and external wireless links
+          System/network administrators; organizational personnel
+          with information security responsibilities; system
+          developer; organizational personnel installing,
+          configuring, and/or maintaining the system; organizational
+          personnel authorizing, installing, configuring, and/or
+          maintaining internal and external wireless links
       - method: test
-        statement: Mechanisms supporting and/or implementing the protection of wireless links
-    statement: "internal {{ sc_40_odp_03 }} are protected from {{ sc_40_odp_04 }}."
+        statement: >-
+          Mechanisms supporting and/or implementing the protection
+          of wireless links
+    statement: >-
+      internal {{ sc_40_odp_03 }} are protected from
+      {{ sc_40_odp_04 }}.
 parameters:
   sc_40_odp_01:
     label: wireless links
   sc_40_odp_02:
-    label: types of signal parameter attacks or references to sources for such attacks
+    label: >-
+      types of signal parameter attacks or references to sources for
+      such attacks
   sc_40_odp_03:
     label: wireless links
   sc_40_odp_04:
-    label: types of signal parameter attacks or references to sources for such attacks
+    label: >-
+      types of signal parameter attacks or references to sources for
+      such attacks
   sc_40_prm_1:
     label: organization-defined wireless links
   sc_40_prm_2:
     label: >
-      organization-defined types of signal parameter attacks or references to
-      sources for such attacks
+      organization-defined types of signal parameter attacks or
+      references to sources for such attacks
 statement: >
-  Protect external and internal {{ sc_40_prm_1 }} from the following signal
-  parameter attacks: {{ sc_40_prm_2 }}.
+  Protect external and internal {{ sc_40_prm_1 }} from the following
+  signal parameter attacks: {{ sc_40_prm_2 }}.

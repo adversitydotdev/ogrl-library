@@ -8,5 +8,7 @@ rationale: functional
 relationship: equivalent-to
 review_status: reviewed
 source_ref: control--ogrl-ac-03
-summary: Least-privilege role enforcement directly satisfies SP 800-171 03.01.05.
+summary: >-
+  Least-privilege role enforcement directly satisfies SP 800-171
+  03.01.05.
 target_ref: requirement--nist-sp-800-171-r3-03-01-05

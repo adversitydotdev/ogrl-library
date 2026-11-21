@@ -17,136 +17,170 @@ objectives:
     methods:
       - method: examine
         statement: >
-          maintenance policy and procedures; procedures for system maintenance tools;
-          system maintenance tools; maintenance tool inspection records; equipment
-          sanitization records; media sanitization records; system security plan;
-          other relevant documents or records
+          maintenance policy and procedures; procedures for system
+          maintenance tools; system maintenance tools; maintenance
+          tool inspection records; equipment sanitization records;
+          media sanitization records; system security plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          personnel with system maintenance responsibilities; personnel responsible
-          for media sanitization; personnel with information security responsibilities
+          personnel with system maintenance responsibilities;
+          personnel responsible for media sanitization; personnel
+          with information security responsibilities
       - method: test
         statement: >
-          processes for approving, controlling, and monitoring maintenance tools;
-          mechanisms for supporting or implementing the approval, control, or
-          monitoring of maintenance tools; processes for preventing the unauthorized
-          removal of information; processes for inspecting media for malicious code;
-          mechanisms for supporting media sanitization or the destruction of
-          equipment; mechanisms for supporting the verification of media sanitization;
-          processes for inspecting maintenance tools; mechanisms for supporting or
-          implementing the inspection of maintenance tools; mechanisms for supporting
-          or implementing the inspection of media used for maintenance
+          processes for approving, controlling, and monitoring
+          maintenance tools; mechanisms for supporting or
+          implementing the approval, control, or monitoring of
+          maintenance tools; processes for preventing the
+          unauthorized removal of information; processes for
+          inspecting media for malicious code; mechanisms for
+          supporting media sanitization or the destruction of
+          equipment; mechanisms for supporting the verification of
+          media sanitization; processes for inspecting maintenance
+          tools; mechanisms for supporting or implementing the
+          inspection of maintenance tools; mechanisms for supporting
+          or implementing the inspection of media used for
+          maintenance
     statement: the use of system maintenance tools is approved.
   - id: a.02
     methods:
       - method: examine
         statement: >
-          maintenance policy and procedures; procedures for system maintenance tools;
-          system maintenance tools; maintenance tool inspection records; equipment
-          sanitization records; media sanitization records; system security plan;
-          other relevant documents or records
+          maintenance policy and procedures; procedures for system
+          maintenance tools; system maintenance tools; maintenance
+          tool inspection records; equipment sanitization records;
+          media sanitization records; system security plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          personnel with system maintenance responsibilities; personnel responsible
-          for media sanitization; personnel with information security responsibilities
+          personnel with system maintenance responsibilities;
+          personnel responsible for media sanitization; personnel
+          with information security responsibilities
       - method: test
         statement: >
-          processes for approving, controlling, and monitoring maintenance tools;
-          mechanisms for supporting or implementing the approval, control, or
-          monitoring of maintenance tools; processes for preventing the unauthorized
-          removal of information; processes for inspecting media for malicious code;
-          mechanisms for supporting media sanitization or the destruction of
-          equipment; mechanisms for supporting the verification of media sanitization;
-          processes for inspecting maintenance tools; mechanisms for supporting or
-          implementing the inspection of maintenance tools; mechanisms for supporting
-          or implementing the inspection of media used for maintenance
+          processes for approving, controlling, and monitoring
+          maintenance tools; mechanisms for supporting or
+          implementing the approval, control, or monitoring of
+          maintenance tools; processes for preventing the
+          unauthorized removal of information; processes for
+          inspecting media for malicious code; mechanisms for
+          supporting media sanitization or the destruction of
+          equipment; mechanisms for supporting the verification of
+          media sanitization; processes for inspecting maintenance
+          tools; mechanisms for supporting or implementing the
+          inspection of maintenance tools; mechanisms for supporting
+          or implementing the inspection of media used for
+          maintenance
     statement: the use of system maintenance tools is controlled.
   - id: a.03
     methods:
       - method: examine
         statement: >
-          maintenance policy and procedures; procedures for system maintenance tools;
-          system maintenance tools; maintenance tool inspection records; equipment
-          sanitization records; media sanitization records; system security plan;
-          other relevant documents or records
+          maintenance policy and procedures; procedures for system
+          maintenance tools; system maintenance tools; maintenance
+          tool inspection records; equipment sanitization records;
+          media sanitization records; system security plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          personnel with system maintenance responsibilities; personnel responsible
-          for media sanitization; personnel with information security responsibilities
+          personnel with system maintenance responsibilities;
+          personnel responsible for media sanitization; personnel
+          with information security responsibilities
       - method: test
         statement: >
-          processes for approving, controlling, and monitoring maintenance tools;
-          mechanisms for supporting or implementing the approval, control, or
-          monitoring of maintenance tools; processes for preventing the unauthorized
-          removal of information; processes for inspecting media for malicious code;
-          mechanisms for supporting media sanitization or the destruction of
-          equipment; mechanisms for supporting the verification of media sanitization;
-          processes for inspecting maintenance tools; mechanisms for supporting or
-          implementing the inspection of maintenance tools; mechanisms for supporting
-          or implementing the inspection of media used for maintenance
+          processes for approving, controlling, and monitoring
+          maintenance tools; mechanisms for supporting or
+          implementing the approval, control, or monitoring of
+          maintenance tools; processes for preventing the
+          unauthorized removal of information; processes for
+          inspecting media for malicious code; mechanisms for
+          supporting media sanitization or the destruction of
+          equipment; mechanisms for supporting the verification of
+          media sanitization; processes for inspecting maintenance
+          tools; mechanisms for supporting or implementing the
+          inspection of maintenance tools; mechanisms for supporting
+          or implementing the inspection of media used for
+          maintenance
     statement: the use of system maintenance tools is monitored.
   - id: b
     methods:
       - method: examine
         statement: >
-          maintenance policy and procedures; procedures for system maintenance tools;
-          system maintenance tools; maintenance tool inspection records; equipment
-          sanitization records; media sanitization records; system security plan;
-          other relevant documents or records
+          maintenance policy and procedures; procedures for system
+          maintenance tools; system maintenance tools; maintenance
+          tool inspection records; equipment sanitization records;
+          media sanitization records; system security plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          personnel with system maintenance responsibilities; personnel responsible
-          for media sanitization; personnel with information security responsibilities
+          personnel with system maintenance responsibilities;
+          personnel responsible for media sanitization; personnel
+          with information security responsibilities
       - method: test
         statement: >
-          processes for approving, controlling, and monitoring maintenance tools;
-          mechanisms for supporting or implementing the approval, control, or
-          monitoring of maintenance tools; processes for preventing the unauthorized
-          removal of information; processes for inspecting media for malicious code;
-          mechanisms for supporting media sanitization or the destruction of
-          equipment; mechanisms for supporting the verification of media sanitization;
-          processes for inspecting maintenance tools; mechanisms for supporting or
-          implementing the inspection of maintenance tools; mechanisms for supporting
-          or implementing the inspection of media used for maintenance
+          processes for approving, controlling, and monitoring
+          maintenance tools; mechanisms for supporting or
+          implementing the approval, control, or monitoring of
+          maintenance tools; processes for preventing the
+          unauthorized removal of information; processes for
+          inspecting media for malicious code; mechanisms for
+          supporting media sanitization or the destruction of
+          equipment; mechanisms for supporting the verification of
+          media sanitization; processes for inspecting maintenance
+          tools; mechanisms for supporting or implementing the
+          inspection of maintenance tools; mechanisms for supporting
+          or implementing the inspection of media used for
+          maintenance
     statement: >
-      media with diagnostic and test programs are checked for malicious code
-      before the media are used in the system.
+      media with diagnostic and test programs are checked for
+      malicious code before the media are used in the system.
   - id: c
     methods:
       - method: examine
         statement: >
-          maintenance policy and procedures; procedures for system maintenance tools;
-          system maintenance tools; maintenance tool inspection records; equipment
-          sanitization records; media sanitization records; system security plan;
-          other relevant documents or records
+          maintenance policy and procedures; procedures for system
+          maintenance tools; system maintenance tools; maintenance
+          tool inspection records; equipment sanitization records;
+          media sanitization records; system security plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          personnel with system maintenance responsibilities; personnel responsible
-          for media sanitization; personnel with information security responsibilities
+          personnel with system maintenance responsibilities;
+          personnel responsible for media sanitization; personnel
+          with information security responsibilities
       - method: test
         statement: >
-          processes for approving, controlling, and monitoring maintenance tools;
-          mechanisms for supporting or implementing the approval, control, or
-          monitoring of maintenance tools; processes for preventing the unauthorized
-          removal of information; processes for inspecting media for malicious code;
-          mechanisms for supporting media sanitization or the destruction of
-          equipment; mechanisms for supporting the verification of media sanitization;
-          processes for inspecting maintenance tools; mechanisms for supporting or
-          implementing the inspection of maintenance tools; mechanisms for supporting
-          or implementing the inspection of media used for maintenance
+          processes for approving, controlling, and monitoring
+          maintenance tools; mechanisms for supporting or
+          implementing the approval, control, or monitoring of
+          maintenance tools; processes for preventing the
+          unauthorized removal of information; processes for
+          inspecting media for malicious code; mechanisms for
+          supporting media sanitization or the destruction of
+          equipment; mechanisms for supporting the verification of
+          media sanitization; processes for inspecting maintenance
+          tools; mechanisms for supporting or implementing the
+          inspection of maintenance tools; mechanisms for supporting
+          or implementing the inspection of media used for
+          maintenance
     statement: >
-      the removal of system maintenance equipment containing CUI is prevented by
-      verifying that there is no CUI on the equipment, sanitizing or destroying
-      the equipment, or retaining the equipment within the facility.
+      the removal of system maintenance equipment containing CUI is
+      prevented by verifying that there is no CUI on the equipment,
+      sanitizing or destroying the equipment, or retaining the
+      equipment within the facility.
 parts:
   - id: a
-    statement: "Approve, control, and monitor the use of system maintenance tools."
+    statement: >-
+      Approve, control, and monitor the use of system maintenance
+      tools.
   - id: b
     statement: >
-      Check media with diagnostic and test programs for malicious code before it
-      is used in the system.
+      Check media with diagnostic and test programs for malicious
+      code before it is used in the system.
   - id: c
     statement: >
-      Prevent the removal of system maintenance equipment containing CUI by
-      verifying that there is no CUI on the equipment, sanitizing or destroying
-      the equipment, or retaining the equipment within the facility.
+      Prevent the removal of system maintenance equipment containing
+      CUI by verifying that there is no CUI on the equipment,
+      sanitizing or destroying the equipment, or retaining the
+      equipment within the facility.

@@ -23,155 +23,184 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and services acquisition policy; system and services acquisition
-          procedures; enterprise architecture policy; enterprise architecture
-          documentation; procedures addressing developer security and privacy
-          architecture and design specifications for the system; solicitation
-          documentation; acquisition documentation; service level agreements;
-          acquisition contracts for the system, system component, or system service;
-          system design documentation; information system configuration settings and
-          associated documentation; system security plan; privacy plan; other relevant
-          documents or records
+          System and services acquisition policy; system and
+          services acquisition procedures; enterprise architecture
+          policy; enterprise architecture documentation; procedures
+          addressing developer security and privacy architecture and
+          design specifications for the system; solicitation
+          documentation; acquisition documentation; service level
+          agreements; acquisition contracts for the system, system
+          component, or system service; system design documentation;
+          information system configuration settings and associated
+          documentation; system security plan; privacy plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with acquisition responsibilities; organizational
-          personnel with information security and privacy responsibilities; system
+          Organizational personnel with acquisition
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities; system
           developer
     statement: >
-      the developer of the system, system component, or system service is required
-      to produce a design specification and security architecture that are
-      consistent with the organization’s security architecture, which is an
-      integral part the organization’s enterprise architecture;
+      the developer of the system, system component, or system
+      service is required to produce a design specification and
+      security architecture that are consistent with the
+      organization’s security architecture, which is an integral
+      part the organization’s enterprise architecture;
   - id: a-2
     methods:
       - method: examine
         statement: >
-          System and services acquisition policy; system and services acquisition
-          procedures; enterprise architecture policy; enterprise architecture
-          documentation; procedures addressing developer security and privacy
-          architecture and design specifications for the system; solicitation
-          documentation; acquisition documentation; service level agreements;
-          acquisition contracts for the system, system component, or system service;
-          system design documentation; information system configuration settings and
-          associated documentation; system security plan; privacy plan; other relevant
-          documents or records
+          System and services acquisition policy; system and
+          services acquisition procedures; enterprise architecture
+          policy; enterprise architecture documentation; procedures
+          addressing developer security and privacy architecture and
+          design specifications for the system; solicitation
+          documentation; acquisition documentation; service level
+          agreements; acquisition contracts for the system, system
+          component, or system service; system design documentation;
+          information system configuration settings and associated
+          documentation; system security plan; privacy plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with acquisition responsibilities; organizational
-          personnel with information security and privacy responsibilities; system
+          Organizational personnel with acquisition
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities; system
           developer
     statement: >
-      the developer of the system, system component, or system service is required
-      to produce a design specification and privacy architecture that are
-      consistent with the organization’s privacy architecture, which is an
-      integral part the organization’s enterprise architecture;
+      the developer of the system, system component, or system
+      service is required to produce a design specification and
+      privacy architecture that are consistent with the
+      organization’s privacy architecture, which is an integral
+      part the organization’s enterprise architecture;
   - id: b-1
     methods:
       - method: examine
         statement: >
-          System and services acquisition policy; system and services acquisition
-          procedures; enterprise architecture policy; enterprise architecture
-          documentation; procedures addressing developer security and privacy
-          architecture and design specifications for the system; solicitation
-          documentation; acquisition documentation; service level agreements;
-          acquisition contracts for the system, system component, or system service;
-          system design documentation; information system configuration settings and
-          associated documentation; system security plan; privacy plan; other relevant
-          documents or records
+          System and services acquisition policy; system and
+          services acquisition procedures; enterprise architecture
+          policy; enterprise architecture documentation; procedures
+          addressing developer security and privacy architecture and
+          design specifications for the system; solicitation
+          documentation; acquisition documentation; service level
+          agreements; acquisition contracts for the system, system
+          component, or system service; system design documentation;
+          information system configuration settings and associated
+          documentation; system security plan; privacy plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with acquisition responsibilities; organizational
-          personnel with information security and privacy responsibilities; system
+          Organizational personnel with acquisition
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities; system
           developer
     statement: >
-      the developer of the system, system component, or system service is required
-      to produce a design specification and security architecture that accurately
-      and completely describe the required security functionality and the
-      allocation of controls among physical and logical components;
+      the developer of the system, system component, or system
+      service is required to produce a design specification and
+      security architecture that accurately and completely describe
+      the required security functionality and the allocation of
+      controls among physical and logical components;
   - id: b-2
     methods:
       - method: examine
         statement: >
-          System and services acquisition policy; system and services acquisition
-          procedures; enterprise architecture policy; enterprise architecture
-          documentation; procedures addressing developer security and privacy
-          architecture and design specifications for the system; solicitation
-          documentation; acquisition documentation; service level agreements;
-          acquisition contracts for the system, system component, or system service;
-          system design documentation; information system configuration settings and
-          associated documentation; system security plan; privacy plan; other relevant
-          documents or records
+          System and services acquisition policy; system and
+          services acquisition procedures; enterprise architecture
+          policy; enterprise architecture documentation; procedures
+          addressing developer security and privacy architecture and
+          design specifications for the system; solicitation
+          documentation; acquisition documentation; service level
+          agreements; acquisition contracts for the system, system
+          component, or system service; system design documentation;
+          information system configuration settings and associated
+          documentation; system security plan; privacy plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with acquisition responsibilities; organizational
-          personnel with information security and privacy responsibilities; system
+          Organizational personnel with acquisition
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities; system
           developer
     statement: >
-      the developer of the system, system component, or system service is required
-      to produce a design specification and privacy architecture that accurately
-      and completely describe the required privacy functionality and the
-      allocation of controls among physical and logical components;
+      the developer of the system, system component, or system
+      service is required to produce a design specification and
+      privacy architecture that accurately and completely describe
+      the required privacy functionality and the allocation of
+      controls among physical and logical components;
   - id: c-1
     methods:
       - method: examine
         statement: >
-          System and services acquisition policy; system and services acquisition
-          procedures; enterprise architecture policy; enterprise architecture
-          documentation; procedures addressing developer security and privacy
-          architecture and design specifications for the system; solicitation
-          documentation; acquisition documentation; service level agreements;
-          acquisition contracts for the system, system component, or system service;
-          system design documentation; information system configuration settings and
-          associated documentation; system security plan; privacy plan; other relevant
-          documents or records
+          System and services acquisition policy; system and
+          services acquisition procedures; enterprise architecture
+          policy; enterprise architecture documentation; procedures
+          addressing developer security and privacy architecture and
+          design specifications for the system; solicitation
+          documentation; acquisition documentation; service level
+          agreements; acquisition contracts for the system, system
+          component, or system service; system design documentation;
+          information system configuration settings and associated
+          documentation; system security plan; privacy plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with acquisition responsibilities; organizational
-          personnel with information security and privacy responsibilities; system
+          Organizational personnel with acquisition
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities; system
           developer
     statement: >
-      the developer of the system, system component, or system service is required
-      to produce a design specification and security architecture that express how
-      individual security functions, mechanisms, and services work together to
-      provide required security capabilities and a unified approach to protection;
+      the developer of the system, system component, or system
+      service is required to produce a design specification and
+      security architecture that express how individual security
+      functions, mechanisms, and services work together to provide
+      required security capabilities and a unified approach to
+      protection;
   - id: c-2
     methods:
       - method: examine
         statement: >
-          System and services acquisition policy; system and services acquisition
-          procedures; enterprise architecture policy; enterprise architecture
-          documentation; procedures addressing developer security and privacy
-          architecture and design specifications for the system; solicitation
-          documentation; acquisition documentation; service level agreements;
-          acquisition contracts for the system, system component, or system service;
-          system design documentation; information system configuration settings and
-          associated documentation; system security plan; privacy plan; other relevant
-          documents or records
+          System and services acquisition policy; system and
+          services acquisition procedures; enterprise architecture
+          policy; enterprise architecture documentation; procedures
+          addressing developer security and privacy architecture and
+          design specifications for the system; solicitation
+          documentation; acquisition documentation; service level
+          agreements; acquisition contracts for the system, system
+          component, or system service; system design documentation;
+          information system configuration settings and associated
+          documentation; system security plan; privacy plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with acquisition responsibilities; organizational
-          personnel with information security and privacy responsibilities; system
+          Organizational personnel with acquisition
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities; system
           developer
     statement: >
-      the developer of the system, system component, or system service is required
-      to produce a design specification and privacy architecture that express how
-      individual privacy functions, mechanisms, and services work together to
-      provide required privacy capabilities and a unified approach to protection.
+      the developer of the system, system component, or system
+      service is required to produce a design specification and
+      privacy architecture that express how individual privacy
+      functions, mechanisms, and services work together to provide
+      required privacy capabilities and a unified approach to
+      protection.
 parts:
   - id: a
     statement: >
-      Is consistent with the organization’s security and privacy architecture
-      that is an integral part the organization’s enterprise architecture;
+      Is consistent with the organization’s security and privacy
+      architecture that is an integral part the organization’s
+      enterprise architecture;
   - id: b
     statement: >
-      Accurately and completely describes the required security and privacy
-      functionality, and the allocation of controls among physical and logical
-      components; and
+      Accurately and completely describes the required security and
+      privacy functionality, and the allocation of controls among
+      physical and logical components; and
   - id: c
     statement: >
-      Expresses how individual security and privacy functions, mechanisms, and
-      services work together to provide required security and privacy capabilities
-      and a unified approach to protection.
+      Expresses how individual security and privacy functions,
+      mechanisms, and services work together to provide required
+      security and privacy capabilities and a unified approach to
+      protection.
 statement: >
-  Require the developer of the system, system component, or system service to
-  produce a design specification and security and privacy architecture that:
+  Require the developer of the system, system component, or system
+  service to produce a design specification and security and privacy
+  architecture that:

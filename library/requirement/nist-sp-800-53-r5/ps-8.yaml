@@ -13,49 +13,59 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Personnel security policy; personnel security procedures; procedures
-          addressing personnel sanctions; access agreements (including non-disclosure
-          agreements, acceptable use agreements, rules of behavior, and
-          conflict-of-interest agreements); list of personnel or roles to be notified
-          of formal employee sanctions; records or notifications of formal employee
-          sanctions; system security plan; privacy plan; personally identifiable
-          information processing policy; other relevant documents or records
+          Personnel security policy; personnel security procedures;
+          procedures addressing personnel sanctions; access
+          agreements (including non-disclosure agreements,
+          acceptable use agreements, rules of behavior, and
+          conflict-of-interest agreements); list of personnel or
+          roles to be notified of formal employee sanctions; records
+          or notifications of formal employee sanctions; system
+          security plan; privacy plan; personally identifiable
+          information processing policy; other relevant documents or
+          records
       - method: interview
         statement: >
-          Organizational personnel with personnel security responsibilities; legal
-          counsel; organizational personnel with information security and privacy
-          responsibilities
+          Organizational personnel with personnel security
+          responsibilities; legal counsel; organizational personnel
+          with information security and privacy responsibilities
       - method: test
         statement: >
-          Organizational processes for managing formal employee sanctions; mechanisms
-          supporting and/or implementing formal employee sanctions notifications
+          Organizational processes for managing formal employee
+          sanctions; mechanisms supporting and/or implementing
+          formal employee sanctions notifications
     statement: >
-      a formal sanctions process is employed for individuals failing to comply
-      with established information security and privacy policies and procedures;
+      a formal sanctions process is employed for individuals failing
+      to comply with established information security and privacy
+      policies and procedures;
   - id: b
     methods:
       - method: examine
         statement: >
-          Personnel security policy; personnel security procedures; procedures
-          addressing personnel sanctions; access agreements (including non-disclosure
-          agreements, acceptable use agreements, rules of behavior, and
-          conflict-of-interest agreements); list of personnel or roles to be notified
-          of formal employee sanctions; records or notifications of formal employee
-          sanctions; system security plan; privacy plan; personally identifiable
-          information processing policy; other relevant documents or records
+          Personnel security policy; personnel security procedures;
+          procedures addressing personnel sanctions; access
+          agreements (including non-disclosure agreements,
+          acceptable use agreements, rules of behavior, and
+          conflict-of-interest agreements); list of personnel or
+          roles to be notified of formal employee sanctions; records
+          or notifications of formal employee sanctions; system
+          security plan; privacy plan; personally identifiable
+          information processing policy; other relevant documents or
+          records
       - method: interview
         statement: >
-          Organizational personnel with personnel security responsibilities; legal
-          counsel; organizational personnel with information security and privacy
-          responsibilities
+          Organizational personnel with personnel security
+          responsibilities; legal counsel; organizational personnel
+          with information security and privacy responsibilities
       - method: test
         statement: >
-          Organizational processes for managing formal employee sanctions; mechanisms
-          supporting and/or implementing formal employee sanctions notifications
+          Organizational processes for managing formal employee
+          sanctions; mechanisms supporting and/or implementing
+          formal employee sanctions notifications
     statement: >
-      {{ ps_08_odp_01 }} is/are notified within {{ ps_08_odp_02 }} when a formal
-      employee sanctions process is initiated, identifying the individual
-      sanctioned and the reason for the sanction.
+      {{ ps_08_odp_01 }} is/are notified within {{ ps_08_odp_02 }}
+      when a formal employee sanctions process is initiated,
+      identifying the individual sanctioned and the reason for the
+      sanction.
 parameters:
   ps_08_odp_01:
     label: personnel or roles
@@ -64,10 +74,11 @@ parameters:
 parts:
   - id: a
     statement: >
-      Employ a formal sanctions process for individuals failing to comply with
-      established information security and privacy policies and procedures; and
+      Employ a formal sanctions process for individuals failing to
+      comply with established information security and privacy
+      policies and procedures; and
   - id: b
     statement: >
-      Notify {{ ps_08_odp_01 }} within {{ ps_08_odp_02 }} when a formal employee
-      sanctions process is initiated, identifying the individual sanctioned and
-      the reason for the sanction.
+      Notify {{ ps_08_odp_01 }} within {{ ps_08_odp_02 }} when a
+      formal employee sanctions process is initiated, identifying
+      the individual sanctioned and the reason for the sanction.

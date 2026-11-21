@@ -13,54 +13,64 @@ objectives:
     methods:
       - method: examine
         statement: >
-          system and services acquisition policy and procedures; procedures for the
-          replacement or continued use of unsupported system components; documented
-          evidence of replacing unsupported system components; documented approvals
-          (including justification) for the continued use of unsupported system
-          components; SCRM plan; system security plan; other relevant documents or
-          records
+          system and services acquisition policy and procedures;
+          procedures for the replacement or continued use of
+          unsupported system components; documented evidence of
+          replacing unsupported system components; documented
+          approvals (including justification) for the continued use
+          of unsupported system components; SCRM plan; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          personnel with system and service acquisition responsibilities; personnel
-          responsible for component replacement; personnel with system development
-          life cycle responsibilities; personnel with information security
+          personnel with system and service acquisition
+          responsibilities; personnel responsible for component
+          replacement; personnel with system development life cycle
+          responsibilities; personnel with information security
           responsibilities
       - method: test
         statement: >
-          processes for replacing unsupported system components; mechanisms for
-          supporting or implementing the replacement of unsupported system components
+          processes for replacing unsupported system components;
+          mechanisms for supporting or implementing the replacement
+          of unsupported system components
     statement: >
-      options for risk mitigation or alternative sources for continued support for
-      unsupported components that cannot be replaced are provided.
+      options for risk mitigation or alternative sources for
+      continued support for unsupported components that cannot be
+      replaced are provided.
   - id: a
     methods:
       - method: examine
         statement: >
-          system and services acquisition policy and procedures; procedures for the
-          replacement or continued use of unsupported system components; documented
-          evidence of replacing unsupported system components; documented approvals
-          (including justification) for the continued use of unsupported system
-          components; SCRM plan; system security plan; other relevant documents or
-          records
+          system and services acquisition policy and procedures;
+          procedures for the replacement or continued use of
+          unsupported system components; documented evidence of
+          replacing unsupported system components; documented
+          approvals (including justification) for the continued use
+          of unsupported system components; SCRM plan; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          personnel with system and service acquisition responsibilities; personnel
-          responsible for component replacement; personnel with system development
-          life cycle responsibilities; personnel with information security
+          personnel with system and service acquisition
+          responsibilities; personnel responsible for component
+          replacement; personnel with system development life cycle
+          responsibilities; personnel with information security
           responsibilities
       - method: test
         statement: >
-          processes for replacing unsupported system components; mechanisms for
-          supporting or implementing the replacement of unsupported system components
+          processes for replacing unsupported system components;
+          mechanisms for supporting or implementing the replacement
+          of unsupported system components
     statement: >
-      system components are replaced when support for the components is no longer
-      available from the developer, vendor, or manufacturer.
+      system components are replaced when support for the components
+      is no longer available from the developer, vendor, or
+      manufacturer.
 parts:
   - id: a
     statement: >
-      Replace system components when support for the components is no longer
-      available from the developer, vendor, or manufacturer.
+      Replace system components when support for the components is
+      no longer available from the developer, vendor, or
+      manufacturer.
   - id: b
     statement: >
-      Provide options for risk mitigation or alternative sources for continued
-      support for unsupported components that cannot be replaced.
+      Provide options for risk mitigation or alternative sources for
+      continued support for unsupported components that cannot be
+      replaced.

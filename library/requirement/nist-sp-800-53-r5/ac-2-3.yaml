@@ -13,78 +13,94 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures for addressing account management; system
-          security plan; system design documentation; system configuration settings
-          and associated documentation; system-generated list of accounts removed;
-          system-generated list of emergency accounts disabled; system audit records;
-          system security plan; other relevant documents or records
+          Access control policy; procedures for addressing account
+          management; system security plan; system design
+          documentation; system configuration settings and
+          associated documentation; system-generated list of
+          accounts removed; system-generated list of emergency
+          accounts disabled; system audit records; system security
+          plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with account management responsibilities;
-          system/network administrators; organizational personnel with information
-          security responsibilities; system developers
+          Organizational personnel with account management
+          responsibilities; system/network administrators;
+          organizational personnel with information security
+          responsibilities; system developers
       - method: test
-        statement: Mechanisms for implementing account management functions
+        statement: >-
+          Mechanisms for implementing account management functions
     statement: >
-      accounts are disabled within {{ ac_02_03_odp_01 }} when the accounts have
-      expired;
+      accounts are disabled within {{ ac_02_03_odp_01 }} when the
+      accounts have expired;
   - id: b
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures for addressing account management; system
-          security plan; system design documentation; system configuration settings
-          and associated documentation; system-generated list of accounts removed;
-          system-generated list of emergency accounts disabled; system audit records;
-          system security plan; other relevant documents or records
+          Access control policy; procedures for addressing account
+          management; system security plan; system design
+          documentation; system configuration settings and
+          associated documentation; system-generated list of
+          accounts removed; system-generated list of emergency
+          accounts disabled; system audit records; system security
+          plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with account management responsibilities;
-          system/network administrators; organizational personnel with information
-          security responsibilities; system developers
+          Organizational personnel with account management
+          responsibilities; system/network administrators;
+          organizational personnel with information security
+          responsibilities; system developers
       - method: test
-        statement: Mechanisms for implementing account management functions
+        statement: >-
+          Mechanisms for implementing account management functions
     statement: >
-      accounts are disabled within {{ ac_02_03_odp_01 }} when the accounts are no
-      longer associated with a user or individual;
+      accounts are disabled within {{ ac_02_03_odp_01 }} when the
+      accounts are no longer associated with a user or individual;
   - id: c
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures for addressing account management; system
-          security plan; system design documentation; system configuration settings
-          and associated documentation; system-generated list of accounts removed;
-          system-generated list of emergency accounts disabled; system audit records;
-          system security plan; other relevant documents or records
+          Access control policy; procedures for addressing account
+          management; system security plan; system design
+          documentation; system configuration settings and
+          associated documentation; system-generated list of
+          accounts removed; system-generated list of emergency
+          accounts disabled; system audit records; system security
+          plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with account management responsibilities;
-          system/network administrators; organizational personnel with information
-          security responsibilities; system developers
+          Organizational personnel with account management
+          responsibilities; system/network administrators;
+          organizational personnel with information security
+          responsibilities; system developers
       - method: test
-        statement: Mechanisms for implementing account management functions
+        statement: >-
+          Mechanisms for implementing account management functions
     statement: >
-      accounts are disabled within {{ ac_02_03_odp_01 }} when the accounts are in
-      violation of organizational policy;
+      accounts are disabled within {{ ac_02_03_odp_01 }} when the
+      accounts are in violation of organizational policy;
   - id: d
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures for addressing account management; system
-          security plan; system design documentation; system configuration settings
-          and associated documentation; system-generated list of accounts removed;
-          system-generated list of emergency accounts disabled; system audit records;
-          system security plan; other relevant documents or records
+          Access control policy; procedures for addressing account
+          management; system security plan; system design
+          documentation; system configuration settings and
+          associated documentation; system-generated list of
+          accounts removed; system-generated list of emergency
+          accounts disabled; system audit records; system security
+          plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with account management responsibilities;
-          system/network administrators; organizational personnel with information
-          security responsibilities; system developers
+          Organizational personnel with account management
+          responsibilities; system/network administrators;
+          organizational personnel with information security
+          responsibilities; system developers
       - method: test
-        statement: Mechanisms for implementing account management functions
+        statement: >-
+          Mechanisms for implementing account management functions
     statement: >
-      accounts are disabled within {{ ac_02_03_odp_01 }} when the accounts have
-      been inactive for {{ ac_02_03_odp_02 }}.
+      accounts are disabled within {{ ac_02_03_odp_01 }} when the
+      accounts have been inactive for {{ ac_02_03_odp_02 }}.
 parameters:
   ac_02_03_odp_01:
     label: time period
@@ -99,4 +115,5 @@ parts:
     statement: Are in violation of organizational policy; or
   - id: d
     statement: "Have been inactive for {{ ac_02_03_odp_02 }}."
-statement: "Disable accounts within {{ ac_02_03_odp_01 }} when the accounts:"
+statement: >-
+  Disable accounts within {{ ac_02_03_odp_01 }} when the accounts:

@@ -13,32 +13,41 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Incident response policy; procedures addressing incident response;
-          procedures addressing incident handling; incident response plan; system
-          security plan; other relevant documents or records
+          Incident response policy; procedures addressing incident
+          response; procedures addressing incident handling;
+          incident response plan; system security plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with incident handling responsibilities;
-          organizational personnel with information security responsibilities;
-          organizational personnel with communications or public relations
+          Organizational personnel with incident handling
+          responsibilities; organizational personnel with
+          information security responsibilities; organizational
+          personnel with communications or public relations
           responsibilities
-    statement: public relations associated with an incident are managed;
+    statement: >-
+      public relations associated with an incident are managed;
   - id: b
     methods:
       - method: examine
         statement: >
-          Incident response policy; procedures addressing incident response;
-          procedures addressing incident handling; incident response plan; system
-          security plan; other relevant documents or records
+          Incident response policy; procedures addressing incident
+          response; procedures addressing incident handling;
+          incident response plan; system security plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with incident handling responsibilities;
-          organizational personnel with information security responsibilities;
-          organizational personnel with communications or public relations
+          Organizational personnel with incident handling
+          responsibilities; organizational personnel with
+          information security responsibilities; organizational
+          personnel with communications or public relations
           responsibilities
-    statement: measures are employed to repair the reputation of the organization.
+    statement: >-
+      measures are employed to repair the reputation of the
+      organization.
 parts:
   - id: a
-    statement: Manage public relations associated with an incident; and
+    statement: >-
+      Manage public relations associated with an incident; and
   - id: b
-    statement: Employ measures to repair the reputation of the organization.
+    statement: >-
+      Employ measures to repair the reputation of the organization.

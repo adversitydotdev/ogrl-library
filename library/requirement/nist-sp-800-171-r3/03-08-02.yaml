@@ -17,17 +17,23 @@ objectives:
     methods:
       - method: examine
         statement: >
-          physical protection policy and procedures; media protection policy and
-          procedures; procedures for media access restrictions; access control policy
-          and procedures; media storage facilities; access control records; system
+          physical protection policy and procedures; media
+          protection policy and procedures; procedures for media
+          access restrictions; access control policy and procedures;
+          media storage facilities; access control records; system
           security plan; other relevant documents or records
       - method: interview
         statement: >
-          personnel with system media protection responsibilities; personnel with
-          information security responsibilities; system administrators
+          personnel with system media protection responsibilities;
+          personnel with information security responsibilities;
+          system administrators
       - method: test
         statement: >
-          processes for restricting information on media; mechanisms for supporting or
-          implementing media access restrictions
-    statement: access to CUI on system media is restricted to authorized personnel or roles.
-statement: Restrict access to CUI on system media to authorized personnel or roles.
+          processes for restricting information on media; mechanisms
+          for supporting or implementing media access restrictions
+    statement: >-
+      access to CUI on system media is restricted to authorized
+      personnel or roles.
+statement: >-
+  Restrict access to CUI on system media to authorized personnel or
+  roles.

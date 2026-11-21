@@ -26,25 +26,27 @@ objectives:
     methods:
       - method: examine
         statement: >
-          security assessment and monitoring policy and procedures; procedures for
-          security assessment planning; security assessment plan; security assessment
-          report; system security plan; other relevant documents or records
+          security assessment and monitoring policy and procedures;
+          procedures for security assessment planning; security
+          assessment plan; security assessment report; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          personnel with security assessment responsibilities; personnel with
-          information security responsibilities
+          personnel with security assessment responsibilities;
+          personnel with information security responsibilities
       - method: test
         statement: >
-          mechanisms for supporting security assessments, processes for security
-          assessment plan development, or security assessment reporting
+          mechanisms for supporting security assessments, processes
+          for security assessment plan development, or security
+          assessment reporting
     statement: >
-      the security requirements for the system and its environment of operation
-      are assessed {{ a_03_12_01_odp_01 }} to determine if the requirements have
-      been satisfied.
+      the security requirements for the system and its environment
+      of operation are assessed {{ a_03_12_01_odp_01 }} to determine
+      if the requirements have been satisfied.
 parameters:
   a_03_12_01_odp_01:
     label: frequency
 statement: >
-  Assess the security requirements for the system and its environment of
-  operation {{ a_03_12_01_odp_01 }} to determine if the requirements have been
-  satisfied.
+  Assess the security requirements for the system and its
+  environment of operation {{ a_03_12_01_odp_01 }} to determine if
+  the requirements have been satisfied.

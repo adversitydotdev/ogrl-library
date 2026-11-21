@@ -13,51 +13,65 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Configuration management policy; procedures addressing access restrictions
-          for changes to the system; configuration management plan; system design
-          documentation; system architecture and configuration documentation; system
-          configuration settings and associated documentation; change control records;
-          system audit records; system component inventory; system information types
-          information; system security plan; other relevant documents or records
+          Configuration management policy; procedures addressing
+          access restrictions for changes to the system;
+          configuration management plan; system design
+          documentation; system architecture and configuration
+          documentation; system configuration settings and
+          associated documentation; change control records; system
+          audit records; system component inventory; system
+          information types information; system security plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with dual authorization enforcement
-          responsibilities for implementing system changes; organizational personnel
-          with information security responsibilities; system/network administrators
+          Organizational personnel with dual authorization
+          enforcement responsibilities for implementing system
+          changes; organizational personnel with information
+          security responsibilities; system/network administrators
       - method: test
         statement: >
-          Organizational processes for managing access restrictions to change;
-          mechanisms implementing dual authorization enforcement
+          Organizational processes for managing access restrictions
+          to change; mechanisms implementing dual authorization
+          enforcement
     statement: >
-      dual authorization for implementing changes to {{ cm_05_04_odp_01 }} is
-      enforced;
+      dual authorization for implementing changes to
+      {{ cm_05_04_odp_01 }} is enforced;
   - id: "cm-05(04).cm-05(04)[02]"
     methods:
       - method: examine
         statement: >
-          Configuration management policy; procedures addressing access restrictions
-          for changes to the system; configuration management plan; system design
-          documentation; system architecture and configuration documentation; system
-          configuration settings and associated documentation; change control records;
-          system audit records; system component inventory; system information types
-          information; system security plan; other relevant documents or records
+          Configuration management policy; procedures addressing
+          access restrictions for changes to the system;
+          configuration management plan; system design
+          documentation; system architecture and configuration
+          documentation; system configuration settings and
+          associated documentation; change control records; system
+          audit records; system component inventory; system
+          information types information; system security plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with dual authorization enforcement
-          responsibilities for implementing system changes; organizational personnel
-          with information security responsibilities; system/network administrators
+          Organizational personnel with dual authorization
+          enforcement responsibilities for implementing system
+          changes; organizational personnel with information
+          security responsibilities; system/network administrators
       - method: test
         statement: >
-          Organizational processes for managing access restrictions to change;
-          mechanisms implementing dual authorization enforcement
+          Organizational processes for managing access restrictions
+          to change; mechanisms implementing dual authorization
+          enforcement
     statement: >
-      dual authorization for implementing changes to {{ cm_05_04_odp_02 }} is
-      enforced.
+      dual authorization for implementing changes to
+      {{ cm_05_04_odp_02 }} is enforced.
 parameters:
   cm_05_04_odp_01:
     label: system components
   cm_05_04_odp_02:
     label: system-level information
   cm_5_4_prm_1:
-    label: organization-defined system components and system-level information
-statement: "Enforce dual authorization for implementing changes to {{ cm_5_4_prm_1 }}."
+    label: >-
+      organization-defined system components and system-level
+      information
+statement: >-
+  Enforce dual authorization for implementing changes to
+  {{ cm_5_4_prm_1 }}.

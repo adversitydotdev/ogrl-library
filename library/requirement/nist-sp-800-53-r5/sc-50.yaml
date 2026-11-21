@@ -17,25 +17,27 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; procedures addressing
-          cross-domain policy enforcement; system design documentation; system
-          configuration settings and associated documentation; system audit records;
-          system security plan; other relevant documents or records
+          System and communications protection policy; procedures
+          addressing cross-domain policy enforcement; system design
+          documentation; system configuration settings and
+          associated documentation; system audit records; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; organizational personnel installing, configuring,
-          and/or maintaining the system
+          System/network administrators; organizational personnel
+          with information security responsibilities; organizational
+          personnel installing, configuring, and/or maintaining the
+          system
       - method: test
         statement: >
-          Mechanisms supporting and/or implementing software-enforced separation and
-          policy enforcement
+          Mechanisms supporting and/or implementing
+          software-enforced separation and policy enforcement
     statement: >
-      software-enforced separation and policy enforcement mechanisms are
-      implemented between {{ sc_50_odp }}.
+      software-enforced separation and policy enforcement mechanisms
+      are implemented between {{ sc_50_odp }}.
 parameters:
   sc_50_odp:
     label: security domains
 statement: >
-  Implement software-enforced separation and policy enforcement mechanisms
-  between {{ sc_50_odp }}.
+  Implement software-enforced separation and policy enforcement
+  mechanisms between {{ sc_50_odp }}.

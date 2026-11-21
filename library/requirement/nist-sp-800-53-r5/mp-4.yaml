@@ -38,95 +38,110 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System media protection policy; procedures addressing media storage;
-          physical and environmental protection policy and procedures; access control
-          policy and procedures; system media; designated controlled areas; system
-          security plan; other relevant documents or records
+          System media protection policy; procedures addressing
+          media storage; physical and environmental protection
+          policy and procedures; access control policy and
+          procedures; system media; designated controlled areas;
+          system security plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with system media protection and storage
-          responsibilities; organizational personnel with information security
-          responsibilities
+          Organizational personnel with system media protection and
+          storage responsibilities; organizational personnel with
+          information security responsibilities
       - method: test
         statement: >
-          Organizational processes for storing information media; mechanisms
-          supporting and/or implementing secure media storage/media protection
+          Organizational processes for storing information media;
+          mechanisms supporting and/or implementing secure media
+          storage/media protection
     statement: "{{ mp_04_odp_01 }} are physically controlled;"
   - id: a-2
     methods:
       - method: examine
         statement: >
-          System media protection policy; procedures addressing media storage;
-          physical and environmental protection policy and procedures; access control
-          policy and procedures; system media; designated controlled areas; system
-          security plan; other relevant documents or records
+          System media protection policy; procedures addressing
+          media storage; physical and environmental protection
+          policy and procedures; access control policy and
+          procedures; system media; designated controlled areas;
+          system security plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with system media protection and storage
-          responsibilities; organizational personnel with information security
-          responsibilities
+          Organizational personnel with system media protection and
+          storage responsibilities; organizational personnel with
+          information security responsibilities
       - method: test
         statement: >
-          Organizational processes for storing information media; mechanisms
-          supporting and/or implementing secure media storage/media protection
+          Organizational processes for storing information media;
+          mechanisms supporting and/or implementing secure media
+          storage/media protection
     statement: "{{ mp_04_odp_02 }} are physically controlled;"
   - id: a-3
     methods:
       - method: examine
         statement: >
-          System media protection policy; procedures addressing media storage;
-          physical and environmental protection policy and procedures; access control
-          policy and procedures; system media; designated controlled areas; system
-          security plan; other relevant documents or records
+          System media protection policy; procedures addressing
+          media storage; physical and environmental protection
+          policy and procedures; access control policy and
+          procedures; system media; designated controlled areas;
+          system security plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with system media protection and storage
-          responsibilities; organizational personnel with information security
-          responsibilities
+          Organizational personnel with system media protection and
+          storage responsibilities; organizational personnel with
+          information security responsibilities
       - method: test
         statement: >
-          Organizational processes for storing information media; mechanisms
-          supporting and/or implementing secure media storage/media protection
-    statement: "{{ mp_04_odp_03 }} are securely stored within {{ mp_04_odp_05 }};"
+          Organizational processes for storing information media;
+          mechanisms supporting and/or implementing secure media
+          storage/media protection
+    statement: >-
+      {{ mp_04_odp_03 }} are securely stored within
+      {{ mp_04_odp_05 }};
   - id: a-4
     methods:
       - method: examine
         statement: >
-          System media protection policy; procedures addressing media storage;
-          physical and environmental protection policy and procedures; access control
-          policy and procedures; system media; designated controlled areas; system
-          security plan; other relevant documents or records
+          System media protection policy; procedures addressing
+          media storage; physical and environmental protection
+          policy and procedures; access control policy and
+          procedures; system media; designated controlled areas;
+          system security plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with system media protection and storage
-          responsibilities; organizational personnel with information security
-          responsibilities
+          Organizational personnel with system media protection and
+          storage responsibilities; organizational personnel with
+          information security responsibilities
       - method: test
         statement: >
-          Organizational processes for storing information media; mechanisms
-          supporting and/or implementing secure media storage/media protection
-    statement: "{{ mp_04_odp_04 }} are securely stored within {{ mp_04_odp_06 }};"
+          Organizational processes for storing information media;
+          mechanisms supporting and/or implementing secure media
+          storage/media protection
+    statement: >-
+      {{ mp_04_odp_04 }} are securely stored within
+      {{ mp_04_odp_06 }};
   - id: b
     methods:
       - method: examine
         statement: >
-          System media protection policy; procedures addressing media storage;
-          physical and environmental protection policy and procedures; access control
-          policy and procedures; system media; designated controlled areas; system
-          security plan; other relevant documents or records
+          System media protection policy; procedures addressing
+          media storage; physical and environmental protection
+          policy and procedures; access control policy and
+          procedures; system media; designated controlled areas;
+          system security plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with system media protection and storage
-          responsibilities; organizational personnel with information security
-          responsibilities
+          Organizational personnel with system media protection and
+          storage responsibilities; organizational personnel with
+          information security responsibilities
       - method: test
         statement: >
-          Organizational processes for storing information media; mechanisms
-          supporting and/or implementing secure media storage/media protection
+          Organizational processes for storing information media;
+          mechanisms supporting and/or implementing secure media
+          storage/media protection
     statement: >
-      system media types (defined in MP-04_ODP[01], MP-04_ODP[02], MP-04_ODP[03],
-      MP-04_ODP[04]) are protected until the media are destroyed or sanitized
-      using approved equipment, techniques, and procedures.
+      system media types (defined in MP-04_ODP[01], MP-04_ODP[02],
+      MP-04_ODP[03], MP-04_ODP[04]) are protected until the media
+      are destroyed or sanitized using approved equipment,
+      techniques, and procedures.
 parameters:
   mp_04_odp_01:
     label: types of digital media
@@ -141,7 +156,8 @@ parameters:
   mp_04_odp_06:
     label: controlled areas
   mp_4_prm_1:
-    label: organization-defined types of digital and/or non-digital media
+    label: >-
+      organization-defined types of digital and/or non-digital media
   mp_4_prm_2:
     label: organization-defined controlled areas
 parts:
@@ -151,5 +167,6 @@ parts:
       {{ mp_4_prm_2 }} ; and
   - id: b
     statement: >
-      Protect system media types defined in MP-4a until the media are destroyed or
-      sanitized using approved equipment, techniques, and procedures.
+      Protect system media types defined in MP-4a until the media
+      are destroyed or sanitized using approved equipment,
+      techniques, and procedures.

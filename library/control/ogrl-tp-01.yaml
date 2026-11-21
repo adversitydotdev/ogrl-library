@@ -9,14 +9,14 @@ control_type: preventive
 family: tp
 frequency: annual
 guidance: >
-  Seed the inventory from finance and expense data, SSO application catalogs,
-  and infrastructure-as-code provider lists to catch shadow vendors. Flag
-  subservice organizations that will be carved out of the SOC 2 report. The
-  risk tier drives due diligence depth (OGRL-TP-02) and monitoring cadence
-  (OGRL-TP-04).
+  Seed the inventory from finance and expense data, SSO application
+  catalogs, and infrastructure-as-code provider lists to catch
+  shadow vendors. Flag subservice organizations that will be carved
+  out of the SOC 2 report. The risk tier drives due diligence depth
+  (OGRL-TP-02) and monitoring cadence (OGRL-TP-04).
 objective: >
-  Know which third parties the service depends on and how much risk each one
-  carries, so oversight effort can be proportionate.
+  Know which third parties the service depends on and how much risk
+  each one carries, so oversight effort can be proportionate.
 origin: standard
 parameters:
   inventory_review_frequency:
@@ -25,18 +25,18 @@ parameters:
   tiering_criteria:
     label: Risk tiering criteria
     value: >
-      the sensitivity of data shared, level of system access, and operational
-      criticality of the service
+      the sensitivity of data shared, level of system access, and
+      operational criticality of the service
 statement: >
-  Maintain an inventory of every third party that stores, processes, or
-  accesses customer data or supports in-scope systems, recording for each its
-  internal owner, services provided, data shared, and a risk tier assigned
-  using {{ tiering_criteria }}; add each vendor to the inventory before
-  production use or data sharing, and review the full inventory
-  {{ inventory_review_frequency }}.
+  Maintain an inventory of every third party that stores, processes,
+  or accesses customer data or supports in-scope systems, recording
+  for each its internal owner, services provided, data shared, and a
+  risk tier assigned using {{ tiering_criteria }}; add each vendor
+  to the inventory before production use or data sharing, and review
+  the full inventory {{ inventory_review_frequency }}.
 summary: >
-  Keep an inventory of vendors that touch in-scope systems or data, each with
-  an owner and a risk tier.
+  Keep an inventory of vendors that touch in-scope systems or data,
+  each with an owner and a risk tier.
 tags:
   - vendor-management
   - inventory

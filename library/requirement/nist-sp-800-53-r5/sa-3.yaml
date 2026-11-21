@@ -32,255 +32,310 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and services acquisition policy; system and services acquisition
-          procedures; procedures addressing the integration of information security
-          and privacy and supply chain risk management into the system development
-          life cycle process; system development life cycle documentation;
-          organizational risk management strategy; information security and privacy
-          risk management strategy documentation; system security plan; privacy plan;
-          privacy program plan; enterprise architecture documentation; role-based
-          security and privacy training program documentation; data mapping
-          documentation; other relevant documents or records
+          System and services acquisition policy; system and
+          services acquisition procedures; procedures addressing the
+          integration of information security and privacy and supply
+          chain risk management into the system development life
+          cycle process; system development life cycle
+          documentation; organizational risk management strategy;
+          information security and privacy risk management strategy
+          documentation; system security plan; privacy plan; privacy
+          program plan; enterprise architecture documentation;
+          role-based security and privacy training program
+          documentation; data mapping documentation; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with information security and privacy
-          responsibilities; organizational personnel with system life cycle
-          development responsibilities; organizational personnel with supply chain
-          risk management responsibilities
+          Organizational personnel with information security and
+          privacy responsibilities; organizational personnel with
+          system life cycle development responsibilities;
+          organizational personnel with supply chain risk management
+          responsibilities
       - method: test
         statement: >
-          Organizational processes for defining and documenting the system development
-          life cycle; organizational processes for identifying system development life
-          cycle roles and responsibilities; organizational processes for integrating
-          information security and privacy and supply chain risk management into the
-          system development life cycle; mechanisms supporting and/or implementing the
-          system development life cycle
+          Organizational processes for defining and documenting the
+          system development life cycle; organizational processes
+          for identifying system development life cycle roles and
+          responsibilities; organizational processes for integrating
+          information security and privacy and supply chain risk
+          management into the system development life cycle;
+          mechanisms supporting and/or implementing the system
+          development life cycle
     statement: >
-      the system is acquired, developed, and managed using {{ sa_03_odp }} that
-      incorporates information security considerations;
+      the system is acquired, developed, and managed using
+      {{ sa_03_odp }} that incorporates information security
+      considerations;
   - id: a-2
     methods:
       - method: examine
         statement: >
-          System and services acquisition policy; system and services acquisition
-          procedures; procedures addressing the integration of information security
-          and privacy and supply chain risk management into the system development
-          life cycle process; system development life cycle documentation;
-          organizational risk management strategy; information security and privacy
-          risk management strategy documentation; system security plan; privacy plan;
-          privacy program plan; enterprise architecture documentation; role-based
-          security and privacy training program documentation; data mapping
-          documentation; other relevant documents or records
+          System and services acquisition policy; system and
+          services acquisition procedures; procedures addressing the
+          integration of information security and privacy and supply
+          chain risk management into the system development life
+          cycle process; system development life cycle
+          documentation; organizational risk management strategy;
+          information security and privacy risk management strategy
+          documentation; system security plan; privacy plan; privacy
+          program plan; enterprise architecture documentation;
+          role-based security and privacy training program
+          documentation; data mapping documentation; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with information security and privacy
-          responsibilities; organizational personnel with system life cycle
-          development responsibilities; organizational personnel with supply chain
-          risk management responsibilities
+          Organizational personnel with information security and
+          privacy responsibilities; organizational personnel with
+          system life cycle development responsibilities;
+          organizational personnel with supply chain risk management
+          responsibilities
       - method: test
         statement: >
-          Organizational processes for defining and documenting the system development
-          life cycle; organizational processes for identifying system development life
-          cycle roles and responsibilities; organizational processes for integrating
-          information security and privacy and supply chain risk management into the
-          system development life cycle; mechanisms supporting and/or implementing the
-          system development life cycle
+          Organizational processes for defining and documenting the
+          system development life cycle; organizational processes
+          for identifying system development life cycle roles and
+          responsibilities; organizational processes for integrating
+          information security and privacy and supply chain risk
+          management into the system development life cycle;
+          mechanisms supporting and/or implementing the system
+          development life cycle
     statement: >
-      the system is acquired, developed, and managed using {{ sa_03_odp }} that
-      incorporates privacy considerations;
+      the system is acquired, developed, and managed using
+      {{ sa_03_odp }} that incorporates privacy considerations;
   - id: b-1
     methods:
       - method: examine
         statement: >
-          System and services acquisition policy; system and services acquisition
-          procedures; procedures addressing the integration of information security
-          and privacy and supply chain risk management into the system development
-          life cycle process; system development life cycle documentation;
-          organizational risk management strategy; information security and privacy
-          risk management strategy documentation; system security plan; privacy plan;
-          privacy program plan; enterprise architecture documentation; role-based
-          security and privacy training program documentation; data mapping
-          documentation; other relevant documents or records
+          System and services acquisition policy; system and
+          services acquisition procedures; procedures addressing the
+          integration of information security and privacy and supply
+          chain risk management into the system development life
+          cycle process; system development life cycle
+          documentation; organizational risk management strategy;
+          information security and privacy risk management strategy
+          documentation; system security plan; privacy plan; privacy
+          program plan; enterprise architecture documentation;
+          role-based security and privacy training program
+          documentation; data mapping documentation; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with information security and privacy
-          responsibilities; organizational personnel with system life cycle
-          development responsibilities; organizational personnel with supply chain
-          risk management responsibilities
+          Organizational personnel with information security and
+          privacy responsibilities; organizational personnel with
+          system life cycle development responsibilities;
+          organizational personnel with supply chain risk management
+          responsibilities
       - method: test
         statement: >
-          Organizational processes for defining and documenting the system development
-          life cycle; organizational processes for identifying system development life
-          cycle roles and responsibilities; organizational processes for integrating
-          information security and privacy and supply chain risk management into the
-          system development life cycle; mechanisms supporting and/or implementing the
-          system development life cycle
+          Organizational processes for defining and documenting the
+          system development life cycle; organizational processes
+          for identifying system development life cycle roles and
+          responsibilities; organizational processes for integrating
+          information security and privacy and supply chain risk
+          management into the system development life cycle;
+          mechanisms supporting and/or implementing the system
+          development life cycle
     statement: >
-      information security roles and responsibilities are defined and documented
-      throughout the system development life cycle;
+      information security roles and responsibilities are defined
+      and documented throughout the system development life cycle;
   - id: b-2
     methods:
       - method: examine
         statement: >
-          System and services acquisition policy; system and services acquisition
-          procedures; procedures addressing the integration of information security
-          and privacy and supply chain risk management into the system development
-          life cycle process; system development life cycle documentation;
-          organizational risk management strategy; information security and privacy
-          risk management strategy documentation; system security plan; privacy plan;
-          privacy program plan; enterprise architecture documentation; role-based
-          security and privacy training program documentation; data mapping
-          documentation; other relevant documents or records
+          System and services acquisition policy; system and
+          services acquisition procedures; procedures addressing the
+          integration of information security and privacy and supply
+          chain risk management into the system development life
+          cycle process; system development life cycle
+          documentation; organizational risk management strategy;
+          information security and privacy risk management strategy
+          documentation; system security plan; privacy plan; privacy
+          program plan; enterprise architecture documentation;
+          role-based security and privacy training program
+          documentation; data mapping documentation; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with information security and privacy
-          responsibilities; organizational personnel with system life cycle
-          development responsibilities; organizational personnel with supply chain
-          risk management responsibilities
+          Organizational personnel with information security and
+          privacy responsibilities; organizational personnel with
+          system life cycle development responsibilities;
+          organizational personnel with supply chain risk management
+          responsibilities
       - method: test
         statement: >
-          Organizational processes for defining and documenting the system development
-          life cycle; organizational processes for identifying system development life
-          cycle roles and responsibilities; organizational processes for integrating
-          information security and privacy and supply chain risk management into the
-          system development life cycle; mechanisms supporting and/or implementing the
-          system development life cycle
+          Organizational processes for defining and documenting the
+          system development life cycle; organizational processes
+          for identifying system development life cycle roles and
+          responsibilities; organizational processes for integrating
+          information security and privacy and supply chain risk
+          management into the system development life cycle;
+          mechanisms supporting and/or implementing the system
+          development life cycle
     statement: >
-      privacy roles and responsibilities are defined and documented throughout the
-      system development life cycle;
+      privacy roles and responsibilities are defined and documented
+      throughout the system development life cycle;
   - id: c-1
     methods:
       - method: examine
         statement: >
-          System and services acquisition policy; system and services acquisition
-          procedures; procedures addressing the integration of information security
-          and privacy and supply chain risk management into the system development
-          life cycle process; system development life cycle documentation;
-          organizational risk management strategy; information security and privacy
-          risk management strategy documentation; system security plan; privacy plan;
-          privacy program plan; enterprise architecture documentation; role-based
-          security and privacy training program documentation; data mapping
-          documentation; other relevant documents or records
+          System and services acquisition policy; system and
+          services acquisition procedures; procedures addressing the
+          integration of information security and privacy and supply
+          chain risk management into the system development life
+          cycle process; system development life cycle
+          documentation; organizational risk management strategy;
+          information security and privacy risk management strategy
+          documentation; system security plan; privacy plan; privacy
+          program plan; enterprise architecture documentation;
+          role-based security and privacy training program
+          documentation; data mapping documentation; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with information security and privacy
-          responsibilities; organizational personnel with system life cycle
-          development responsibilities; organizational personnel with supply chain
-          risk management responsibilities
+          Organizational personnel with information security and
+          privacy responsibilities; organizational personnel with
+          system life cycle development responsibilities;
+          organizational personnel with supply chain risk management
+          responsibilities
       - method: test
         statement: >
-          Organizational processes for defining and documenting the system development
-          life cycle; organizational processes for identifying system development life
-          cycle roles and responsibilities; organizational processes for integrating
-          information security and privacy and supply chain risk management into the
-          system development life cycle; mechanisms supporting and/or implementing the
-          system development life cycle
-    statement: individuals with information security roles and responsibilities are identified;
+          Organizational processes for defining and documenting the
+          system development life cycle; organizational processes
+          for identifying system development life cycle roles and
+          responsibilities; organizational processes for integrating
+          information security and privacy and supply chain risk
+          management into the system development life cycle;
+          mechanisms supporting and/or implementing the system
+          development life cycle
+    statement: >-
+      individuals with information security roles and
+      responsibilities are identified;
   - id: c-2
     methods:
       - method: examine
         statement: >
-          System and services acquisition policy; system and services acquisition
-          procedures; procedures addressing the integration of information security
-          and privacy and supply chain risk management into the system development
-          life cycle process; system development life cycle documentation;
-          organizational risk management strategy; information security and privacy
-          risk management strategy documentation; system security plan; privacy plan;
-          privacy program plan; enterprise architecture documentation; role-based
-          security and privacy training program documentation; data mapping
-          documentation; other relevant documents or records
+          System and services acquisition policy; system and
+          services acquisition procedures; procedures addressing the
+          integration of information security and privacy and supply
+          chain risk management into the system development life
+          cycle process; system development life cycle
+          documentation; organizational risk management strategy;
+          information security and privacy risk management strategy
+          documentation; system security plan; privacy plan; privacy
+          program plan; enterprise architecture documentation;
+          role-based security and privacy training program
+          documentation; data mapping documentation; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with information security and privacy
-          responsibilities; organizational personnel with system life cycle
-          development responsibilities; organizational personnel with supply chain
-          risk management responsibilities
+          Organizational personnel with information security and
+          privacy responsibilities; organizational personnel with
+          system life cycle development responsibilities;
+          organizational personnel with supply chain risk management
+          responsibilities
       - method: test
         statement: >
-          Organizational processes for defining and documenting the system development
-          life cycle; organizational processes for identifying system development life
-          cycle roles and responsibilities; organizational processes for integrating
-          information security and privacy and supply chain risk management into the
-          system development life cycle; mechanisms supporting and/or implementing the
-          system development life cycle
-    statement: individuals with privacy roles and responsibilities are identified;
+          Organizational processes for defining and documenting the
+          system development life cycle; organizational processes
+          for identifying system development life cycle roles and
+          responsibilities; organizational processes for integrating
+          information security and privacy and supply chain risk
+          management into the system development life cycle;
+          mechanisms supporting and/or implementing the system
+          development life cycle
+    statement: >-
+      individuals with privacy roles and responsibilities are
+      identified;
   - id: d-1
     methods:
       - method: examine
         statement: >
-          System and services acquisition policy; system and services acquisition
-          procedures; procedures addressing the integration of information security
-          and privacy and supply chain risk management into the system development
-          life cycle process; system development life cycle documentation;
-          organizational risk management strategy; information security and privacy
-          risk management strategy documentation; system security plan; privacy plan;
-          privacy program plan; enterprise architecture documentation; role-based
-          security and privacy training program documentation; data mapping
-          documentation; other relevant documents or records
+          System and services acquisition policy; system and
+          services acquisition procedures; procedures addressing the
+          integration of information security and privacy and supply
+          chain risk management into the system development life
+          cycle process; system development life cycle
+          documentation; organizational risk management strategy;
+          information security and privacy risk management strategy
+          documentation; system security plan; privacy plan; privacy
+          program plan; enterprise architecture documentation;
+          role-based security and privacy training program
+          documentation; data mapping documentation; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with information security and privacy
-          responsibilities; organizational personnel with system life cycle
-          development responsibilities; organizational personnel with supply chain
-          risk management responsibilities
+          Organizational personnel with information security and
+          privacy responsibilities; organizational personnel with
+          system life cycle development responsibilities;
+          organizational personnel with supply chain risk management
+          responsibilities
       - method: test
         statement: >
-          Organizational processes for defining and documenting the system development
-          life cycle; organizational processes for identifying system development life
-          cycle roles and responsibilities; organizational processes for integrating
-          information security and privacy and supply chain risk management into the
-          system development life cycle; mechanisms supporting and/or implementing the
-          system development life cycle
+          Organizational processes for defining and documenting the
+          system development life cycle; organizational processes
+          for identifying system development life cycle roles and
+          responsibilities; organizational processes for integrating
+          information security and privacy and supply chain risk
+          management into the system development life cycle;
+          mechanisms supporting and/or implementing the system
+          development life cycle
     statement: >
-      organizational information security risk management processes are integrated
-      into system development life cycle activities;
+      organizational information security risk management processes
+      are integrated into system development life cycle activities;
   - id: d-2
     methods:
       - method: examine
         statement: >
-          System and services acquisition policy; system and services acquisition
-          procedures; procedures addressing the integration of information security
-          and privacy and supply chain risk management into the system development
-          life cycle process; system development life cycle documentation;
-          organizational risk management strategy; information security and privacy
-          risk management strategy documentation; system security plan; privacy plan;
-          privacy program plan; enterprise architecture documentation; role-based
-          security and privacy training program documentation; data mapping
-          documentation; other relevant documents or records
+          System and services acquisition policy; system and
+          services acquisition procedures; procedures addressing the
+          integration of information security and privacy and supply
+          chain risk management into the system development life
+          cycle process; system development life cycle
+          documentation; organizational risk management strategy;
+          information security and privacy risk management strategy
+          documentation; system security plan; privacy plan; privacy
+          program plan; enterprise architecture documentation;
+          role-based security and privacy training program
+          documentation; data mapping documentation; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with information security and privacy
-          responsibilities; organizational personnel with system life cycle
-          development responsibilities; organizational personnel with supply chain
-          risk management responsibilities
+          Organizational personnel with information security and
+          privacy responsibilities; organizational personnel with
+          system life cycle development responsibilities;
+          organizational personnel with supply chain risk management
+          responsibilities
       - method: test
         statement: >
-          Organizational processes for defining and documenting the system development
-          life cycle; organizational processes for identifying system development life
-          cycle roles and responsibilities; organizational processes for integrating
-          information security and privacy and supply chain risk management into the
-          system development life cycle; mechanisms supporting and/or implementing the
-          system development life cycle
+          Organizational processes for defining and documenting the
+          system development life cycle; organizational processes
+          for identifying system development life cycle roles and
+          responsibilities; organizational processes for integrating
+          information security and privacy and supply chain risk
+          management into the system development life cycle;
+          mechanisms supporting and/or implementing the system
+          development life cycle
     statement: >
-      organizational privacy risk management processes are integrated into system
-      development life cycle activities.
+      organizational privacy risk management processes are
+      integrated into system development life cycle activities.
 parameters:
   sa_03_odp:
     label: system-development life cycle
 parts:
   - id: a
     statement: >
-      Acquire, develop, and manage the system using {{ sa_03_odp }} that
-      incorporates information security and privacy considerations;
+      Acquire, develop, and manage the system using {{ sa_03_odp }}
+      that incorporates information security and privacy
+      considerations;
   - id: b
     statement: >
       Define and document information security and privacy roles and
       responsibilities throughout the system development life cycle;
   - id: c
     statement: >
-      Identify individuals having information security and privacy roles and
-      responsibilities; and
+      Identify individuals having information security and privacy
+      roles and responsibilities; and
   - id: d
     statement: >
-      Integrate the organizational information security and privacy risk
-      management process into system development life cycle activities.
+      Integrate the organizational information security and privacy
+      risk management process into system development life cycle
+      activities.

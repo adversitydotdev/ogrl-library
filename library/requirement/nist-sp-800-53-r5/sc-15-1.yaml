@@ -13,26 +13,28 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; procedures addressing
-          collaborative computing; access control policy and procedures; system design
-          documentation; system configuration settings and associated documentation;
-          system audit records; system security plan; other relevant documents or
-          records
+          System and communications protection policy; procedures
+          addressing collaborative computing; access control policy
+          and procedures; system design documentation; system
+          configuration settings and associated documentation;
+          system audit records; system security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; system developer; organizational personnel with
-          responsibilities for managing collaborative computing devices
+          System/network administrators; organizational personnel
+          with information security responsibilities; system
+          developer; organizational personnel with responsibilities
+          for managing collaborative computing devices
       - method: test
         statement: >
-          Mechanisms supporting and/or implementing the physical disconnect of
-          collaborative computing devices
+          Mechanisms supporting and/or implementing the physical
+          disconnect of collaborative computing devices
     statement: >
-      the {{ sc_15_01_odp }} disconnect of collaborative computing devices is/are
-      provided in a manner that supports ease of use.
+      the {{ sc_15_01_odp }} disconnect of collaborative computing
+      devices is/are provided in a manner that supports ease of use.
 parameters:
   sc_15_01_odp:
     label: sc-15.01_odp
 statement: >
-  Provide {{ sc_15_01_odp }} disconnect of collaborative computing devices in
-  a manner that supports ease of use.
+  Provide {{ sc_15_01_odp }} disconnect of collaborative computing
+  devices in a manner that supports ease of use.

@@ -9,25 +9,26 @@ control_type: corrective
 family: ir
 frequency: event-driven
 guidance: >
-  Maintain a jurisdiction matrix of breach notification rules (for example
-  GDPR 72-hour supervisory-authority notice, US state breach laws, HIPAA, and
-  customer DPAs) and involve privacy counsel in every assessment. Consider
-  data sensitivity, encryption status, and likelihood of misuse when assessing
-  harm, and offer mitigations such as forced credential resets or credit
-  monitoring where appropriate. Record decisions not to notify with their
+  Maintain a jurisdiction matrix of breach notification rules (for
+  example GDPR 72-hour supervisory-authority notice, US state breach
+  laws, HIPAA, and customer DPAs) and involve privacy counsel in
+  every assessment. Consider data sensitivity, encryption status,
+  and likelihood of misuse when assessing harm, and offer
+  mitigations such as forced credential resets or credit monitoring
+  where appropriate. Record decisions not to notify with their
   rationale. Where the organization acts as a processor, notify the
   controlling customer rather than individuals directly.
 objective: >
-  Ensure breaches of personal information are evaluated for harm, mitigated,
-  and reported to affected individuals and authorities as legally and
-  contractually required.
+  Ensure breaches of personal information are evaluated for harm,
+  mitigated, and reported to affected individuals and authorities as
+  legally and contractually required.
 origin: standard
 parameters:
   applicable_privacy_requirements:
     label: Applicable privacy and breach notification requirements
     value: >
-      applicable privacy and breach notification laws, regulations, and customer
-      contracts
+      applicable privacy and breach notification laws, regulations,
+      and customer contracts
   breach_notification_deadline:
     label: Breach notification deadline
     value: the shortest applicable legal or contractual deadline
@@ -35,17 +36,18 @@ parameters:
     label: Breach record location
     value: the privacy breach register
 statement: >
-  For each incident involving personal information, follow the breach-response
-  procedure in the incident response plan to assess the data and individuals
-  affected, the likely harm to them, and available mitigations; determine
-  notification obligations under {{ applicable_privacy_requirements }}; notify
-  affected individuals and regulators within
-  {{ breach_notification_deadline }} when required; and record the breach,
-  harm assessment, and notification decision in {{ breach_register }}.
+  For each incident involving personal information, follow the
+  breach-response procedure in the incident response plan to assess
+  the data and individuals affected, the likely harm to them, and
+  available mitigations; determine notification obligations under
+  {{ applicable_privacy_requirements }}; notify affected individuals
+  and regulators within {{ breach_notification_deadline }} when
+  required; and record the breach, harm assessment, and notification
+  decision in {{ breach_register }}.
 summary: >
-  Assess incidents involving personal information for harm and notification
-  obligations, notify affected individuals and regulators on time, and record
-  each breach.
+  Assess incidents involving personal information for harm and
+  notification obligations, notify affected individuals and
+  regulators on time, and record each breach.
 tags:
   - privacy
   - breach-notification

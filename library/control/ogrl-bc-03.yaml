@@ -9,17 +9,18 @@ control_type: corrective
 family: bc
 frequency: daily
 guidance: >
-  Use managed snapshots and point-in-time recovery for databases and a central
-  backup service with vault lock or object lock for immutability. Copy backups
-  to a separate cloud account to isolate them from a compromised production
-  account. Infrastructure as code and application source held in a hosted
-  version control system count as system-level backups if the provider retains
-  history. Periodically compare the backup inventory against the data store
-  inventory to catch unprotected stores, and consider backups of critical SaaS
-  data such as the document workspace.
+  Use managed snapshots and point-in-time recovery for databases and
+  a central backup service with vault lock or object lock for
+  immutability. Copy backups to a separate cloud account to isolate
+  them from a compromised production account. Infrastructure as code
+  and application source held in a hosted version control system
+  count as system-level backups if the provider retains history.
+  Periodically compare the backup inventory against the data store
+  inventory to catch unprotected stores, and consider backups of
+  critical SaaS data such as the document workspace.
 objective: >
-  Ensure data and system state can be recovered after accidental deletion,
-  corruption, ransomware, or infrastructure loss.
+  Ensure data and system state can be recovered after accidental
+  deletion, corruption, ransomware, or infrastructure loss.
 origin: standard
 parameters:
   backup_alert_recipients:
@@ -34,20 +35,20 @@ parameters:
   backup_scope:
     label: Data and system state to back up
     value: >
-      production databases, object storage, and system configuration not
-      reproducible from version control
+      production databases, object storage, and system configuration
+      not reproducible from version control
   backup_storage_location:
     label: Isolated backup location
     value: a separate cloud account or region
 statement: >
-  Back up {{ backup_scope }} {{ backup_frequency }} using automated backup
-  jobs, encrypt backups, keep at least one copy in
-  {{ backup_storage_location }} that production credentials cannot modify or
-  delete, retain backups for {{ backup_retention }}, and alert
-  {{ backup_alert_recipients }} when a backup job fails.
+  Back up {{ backup_scope }} {{ backup_frequency }} using automated
+  backup jobs, encrypt backups, keep at least one copy in
+  {{ backup_storage_location }} that production credentials cannot
+  modify or delete, retain backups for {{ backup_retention }}, and
+  alert {{ backup_alert_recipients }} when a backup job fails.
 summary: >
-  Back up production data and system state automatically, protect backups from
-  tampering and loss, and alert on failures.
+  Back up production data and system state automatically, protect
+  backups from tampering and loss, and alert on failures.
 tags:
   - backup
   - data-protection

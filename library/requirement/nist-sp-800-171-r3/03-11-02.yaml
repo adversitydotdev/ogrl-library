@@ -29,155 +29,184 @@ objectives:
     methods:
       - method: examine
         statement: >
-          risk assessment policy and procedures; procedures for vulnerability
-          scanning; patch and vulnerability management records; vulnerability scanning
-          tools and configuration documentation; vulnerability scanning results; risk
-          assessment; risk assessment report; system security plan; other relevant
-          documents or records
+          risk assessment policy and procedures; procedures for
+          vulnerability scanning; patch and vulnerability management
+          records; vulnerability scanning tools and configuration
+          documentation; vulnerability scanning results; risk
+          assessment; risk assessment report; system security plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          personnel with risk assessment and vulnerability scanning responsibilities;
-          personnel with vulnerability scan analysis responsibilities; personnel with
-          vulnerability remediation responsibilities; personnel with information
+          personnel with risk assessment and vulnerability scanning
+          responsibilities; personnel with vulnerability scan
+          analysis responsibilities; personnel with vulnerability
+          remediation responsibilities; personnel with information
           security responsibilities; system administrators
       - method: test
         statement: >
-          processes for vulnerability monitoring, scanning, analysis, and remediation;
-          mechanisms for supporting or implementing vulnerability monitoring,
-          scanning, analysis, and remediation
-    statement: "the system is monitored for vulnerabilities {{ a_03_11_02_odp_01 }}."
+          processes for vulnerability monitoring, scanning,
+          analysis, and remediation; mechanisms for supporting or
+          implementing vulnerability monitoring, scanning, analysis,
+          and remediation
+    statement: >-
+      the system is monitored for vulnerabilities
+      {{ a_03_11_02_odp_01 }}.
   - id: a.02
     methods:
       - method: examine
         statement: >
-          risk assessment policy and procedures; procedures for vulnerability
-          scanning; patch and vulnerability management records; vulnerability scanning
-          tools and configuration documentation; vulnerability scanning results; risk
-          assessment; risk assessment report; system security plan; other relevant
-          documents or records
+          risk assessment policy and procedures; procedures for
+          vulnerability scanning; patch and vulnerability management
+          records; vulnerability scanning tools and configuration
+          documentation; vulnerability scanning results; risk
+          assessment; risk assessment report; system security plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          personnel with risk assessment and vulnerability scanning responsibilities;
-          personnel with vulnerability scan analysis responsibilities; personnel with
-          vulnerability remediation responsibilities; personnel with information
+          personnel with risk assessment and vulnerability scanning
+          responsibilities; personnel with vulnerability scan
+          analysis responsibilities; personnel with vulnerability
+          remediation responsibilities; personnel with information
           security responsibilities; system administrators
       - method: test
         statement: >
-          processes for vulnerability monitoring, scanning, analysis, and remediation;
-          mechanisms for supporting or implementing vulnerability monitoring,
-          scanning, analysis, and remediation
-    statement: "the system is scanned for vulnerabilities {{ a_03_11_02_odp_02 }}."
+          processes for vulnerability monitoring, scanning,
+          analysis, and remediation; mechanisms for supporting or
+          implementing vulnerability monitoring, scanning, analysis,
+          and remediation
+    statement: >-
+      the system is scanned for vulnerabilities
+      {{ a_03_11_02_odp_02 }}.
   - id: b
     methods:
       - method: examine
         statement: >
-          risk assessment policy and procedures; procedures for vulnerability
-          scanning; patch and vulnerability management records; vulnerability scanning
-          tools and configuration documentation; vulnerability scanning results; risk
-          assessment; risk assessment report; system security plan; other relevant
-          documents or records
+          risk assessment policy and procedures; procedures for
+          vulnerability scanning; patch and vulnerability management
+          records; vulnerability scanning tools and configuration
+          documentation; vulnerability scanning results; risk
+          assessment; risk assessment report; system security plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          personnel with risk assessment and vulnerability scanning responsibilities;
-          personnel with vulnerability scan analysis responsibilities; personnel with
-          vulnerability remediation responsibilities; personnel with information
+          personnel with risk assessment and vulnerability scanning
+          responsibilities; personnel with vulnerability scan
+          analysis responsibilities; personnel with vulnerability
+          remediation responsibilities; personnel with information
           security responsibilities; system administrators
       - method: test
         statement: >
-          processes for vulnerability monitoring, scanning, analysis, and remediation;
-          mechanisms for supporting or implementing vulnerability monitoring,
-          scanning, analysis, and remediation
-    statement: "system vulnerabilities are remediated within {{ a_03_11_02_odp_03 }}."
+          processes for vulnerability monitoring, scanning,
+          analysis, and remediation; mechanisms for supporting or
+          implementing vulnerability monitoring, scanning, analysis,
+          and remediation
+    statement: >-
+      system vulnerabilities are remediated within
+      {{ a_03_11_02_odp_03 }}.
   - id: a.03
     methods:
       - method: examine
         statement: >
-          risk assessment policy and procedures; procedures for vulnerability
-          scanning; patch and vulnerability management records; vulnerability scanning
-          tools and configuration documentation; vulnerability scanning results; risk
-          assessment; risk assessment report; system security plan; other relevant
-          documents or records
+          risk assessment policy and procedures; procedures for
+          vulnerability scanning; patch and vulnerability management
+          records; vulnerability scanning tools and configuration
+          documentation; vulnerability scanning results; risk
+          assessment; risk assessment report; system security plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          personnel with risk assessment and vulnerability scanning responsibilities;
-          personnel with vulnerability scan analysis responsibilities; personnel with
-          vulnerability remediation responsibilities; personnel with information
+          personnel with risk assessment and vulnerability scanning
+          responsibilities; personnel with vulnerability scan
+          analysis responsibilities; personnel with vulnerability
+          remediation responsibilities; personnel with information
           security responsibilities; system administrators
       - method: test
         statement: >
-          processes for vulnerability monitoring, scanning, analysis, and remediation;
-          mechanisms for supporting or implementing vulnerability monitoring,
-          scanning, analysis, and remediation
+          processes for vulnerability monitoring, scanning,
+          analysis, and remediation; mechanisms for supporting or
+          implementing vulnerability monitoring, scanning, analysis,
+          and remediation
     statement: >
-      the system is monitored for vulnerabilities when new vulnerabilities that
-      affect the system are identified.
+      the system is monitored for vulnerabilities when new
+      vulnerabilities that affect the system are identified.
   - id: a.04
     methods:
       - method: examine
         statement: >
-          risk assessment policy and procedures; procedures for vulnerability
-          scanning; patch and vulnerability management records; vulnerability scanning
-          tools and configuration documentation; vulnerability scanning results; risk
-          assessment; risk assessment report; system security plan; other relevant
-          documents or records
+          risk assessment policy and procedures; procedures for
+          vulnerability scanning; patch and vulnerability management
+          records; vulnerability scanning tools and configuration
+          documentation; vulnerability scanning results; risk
+          assessment; risk assessment report; system security plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          personnel with risk assessment and vulnerability scanning responsibilities;
-          personnel with vulnerability scan analysis responsibilities; personnel with
-          vulnerability remediation responsibilities; personnel with information
+          personnel with risk assessment and vulnerability scanning
+          responsibilities; personnel with vulnerability scan
+          analysis responsibilities; personnel with vulnerability
+          remediation responsibilities; personnel with information
           security responsibilities; system administrators
       - method: test
         statement: >
-          processes for vulnerability monitoring, scanning, analysis, and remediation;
-          mechanisms for supporting or implementing vulnerability monitoring,
-          scanning, analysis, and remediation
+          processes for vulnerability monitoring, scanning,
+          analysis, and remediation; mechanisms for supporting or
+          implementing vulnerability monitoring, scanning, analysis,
+          and remediation
     statement: >
-      the system is scanned for vulnerabilities when new vulnerabilities that
-      affect the system are identified.
+      the system is scanned for vulnerabilities when new
+      vulnerabilities that affect the system are identified.
   - id: c.01
     methods:
       - method: examine
         statement: >
-          risk assessment policy and procedures; procedures for vulnerability
-          scanning; patch and vulnerability management records; vulnerability scanning
-          tools and configuration documentation; vulnerability scanning results; risk
-          assessment; risk assessment report; system security plan; other relevant
-          documents or records
+          risk assessment policy and procedures; procedures for
+          vulnerability scanning; patch and vulnerability management
+          records; vulnerability scanning tools and configuration
+          documentation; vulnerability scanning results; risk
+          assessment; risk assessment report; system security plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          personnel with risk assessment and vulnerability scanning responsibilities;
-          personnel with vulnerability scan analysis responsibilities; personnel with
-          vulnerability remediation responsibilities; personnel with information
+          personnel with risk assessment and vulnerability scanning
+          responsibilities; personnel with vulnerability scan
+          analysis responsibilities; personnel with vulnerability
+          remediation responsibilities; personnel with information
           security responsibilities; system administrators
       - method: test
         statement: >
-          processes for vulnerability monitoring, scanning, analysis, and remediation;
-          mechanisms for supporting or implementing vulnerability monitoring,
-          scanning, analysis, and remediation
-    statement: "system vulnerabilities to be scanned are updated {{ a_03_11_02_odp_04 }}."
+          processes for vulnerability monitoring, scanning,
+          analysis, and remediation; mechanisms for supporting or
+          implementing vulnerability monitoring, scanning, analysis,
+          and remediation
+    statement: >-
+      system vulnerabilities to be scanned are updated
+      {{ a_03_11_02_odp_04 }}.
   - id: c.02
     methods:
       - method: examine
         statement: >
-          risk assessment policy and procedures; procedures for vulnerability
-          scanning; patch and vulnerability management records; vulnerability scanning
-          tools and configuration documentation; vulnerability scanning results; risk
-          assessment; risk assessment report; system security plan; other relevant
-          documents or records
+          risk assessment policy and procedures; procedures for
+          vulnerability scanning; patch and vulnerability management
+          records; vulnerability scanning tools and configuration
+          documentation; vulnerability scanning results; risk
+          assessment; risk assessment report; system security plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          personnel with risk assessment and vulnerability scanning responsibilities;
-          personnel with vulnerability scan analysis responsibilities; personnel with
-          vulnerability remediation responsibilities; personnel with information
+          personnel with risk assessment and vulnerability scanning
+          responsibilities; personnel with vulnerability scan
+          analysis responsibilities; personnel with vulnerability
+          remediation responsibilities; personnel with information
           security responsibilities; system administrators
       - method: test
         statement: >
-          processes for vulnerability monitoring, scanning, analysis, and remediation;
-          mechanisms for supporting or implementing vulnerability monitoring,
-          scanning, analysis, and remediation
+          processes for vulnerability monitoring, scanning,
+          analysis, and remediation; mechanisms for supporting or
+          implementing vulnerability monitoring, scanning, analysis,
+          and remediation
     statement: >
-      system vulnerabilities to be scanned are updated when new vulnerabilities
-      are identified and reported.
+      system vulnerabilities to be scanned are updated when new
+      vulnerabilities are identified and reported.
 parameters:
   a_03_11_02_odp_01:
     label: frequency
@@ -190,11 +219,15 @@ parameters:
 parts:
   - id: a
     statement: >
-      Monitor and scan the system for vulnerabilities {{ a_03_11_02_odp_01 }} and
-      when new vulnerabilities affecting the system are identified.
+      Monitor and scan the system for vulnerabilities
+      {{ a_03_11_02_odp_01 }} and when new vulnerabilities affecting
+      the system are identified.
   - id: b
-    statement: "Remediate system vulnerabilities within {{ a_03_11_02_odp_03 }}."
+    statement: >-
+      Remediate system vulnerabilities within
+      {{ a_03_11_02_odp_03 }}.
   - id: c
     statement: >
-      Update system vulnerabilities to be scanned {{ a_03_11_02_odp_04 }} and when
-      new vulnerabilities are identified and reported.
+      Update system vulnerabilities to be scanned
+      {{ a_03_11_02_odp_04 }} and when new vulnerabilities are
+      identified and reported.

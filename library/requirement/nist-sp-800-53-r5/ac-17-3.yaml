@@ -13,21 +13,23 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing remote access to the system;
-          system design documentation; list of all managed network access control
-          points; system configuration settings and associated documentation; system
-          audit records; system security plan; other relevant documents or records
+          Access control policy; procedures addressing remote access
+          to the system; system design documentation; list of all
+          managed network access control points; system
+          configuration settings and associated documentation;
+          system audit records; system security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities
+          System/network administrators; organizational personnel
+          with information security responsibilities
       - method: test
         statement: >
-          Mechanisms routing all remote accesses through managed network access
-          control points
+          Mechanisms routing all remote accesses through managed
+          network access control points
     statement: >
-      remote accesses are routed through authorized and managed network access
-      control points.
+      remote accesses are routed through authorized and managed
+      network access control points.
 statement: >
-  Route remote accesses through authorized and managed network access control
-  points.
+  Route remote accesses through authorized and managed network
+  access control points.

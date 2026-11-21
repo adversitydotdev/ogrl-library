@@ -9,15 +9,16 @@ control_type: detective
 family: ps
 frequency: monthly
 guidance: >
-  Configure badge-system alerts for forced or held-open doors and after-hours
-  entry, and keep camera footage long enough to support investigations. Record
-  each review (date, reviewer, exceptions) as evidence. Where production runs
-  on a cloud provider, data-center physical controls are inherited from the
-  provider and validated by reviewing its SOC 2 report; offices and any
-  organization-operated server, network, or storage rooms remain in scope.
+  Configure badge-system alerts for forced or held-open doors and
+  after-hours entry, and keep camera footage long enough to support
+  investigations. Record each review (date, reviewer, exceptions) as
+  evidence. Where production runs on a cloud provider, data-center
+  physical controls are inherited from the provider and validated by
+  reviewing its SOC 2 report; offices and any organization-operated
+  server, network, or storage rooms remain in scope.
 objective: >
-  Detect unauthorized or suspicious physical access in time to respond and
-  feed findings into incident response.
+  Detect unauthorized or suspicious physical access in time to
+  respond and feed findings into incident response.
 origin: standard
 parameters:
   access_log_review_cadence:
@@ -25,22 +26,26 @@ parameters:
     value: monthly
   access_log_review_triggers:
     label: Events triggering an ad hoc log review
-    value: "door alarms, forced-entry alerts, or reported physical security incidents"
+    value: >-
+      door alarms, forced-entry alerts, or reported physical
+      security incidents
   controlled_facilities:
     label: Controlled facilities
-    value: "company offices and any organization-operated server, network, or storage rooms"
+    value: >-
+      company offices and any organization-operated server, network,
+      or storage rooms
   physical_monitoring_mechanisms:
     label: Physical monitoring mechanisms
     value: video surveillance and door alarms or badge-system alerts
 statement: >
   Monitor entry points of {{ controlled_facilities }} using
   {{ physical_monitoring_mechanisms }}, review physical access logs
-  {{ access_log_review_cadence }} and upon {{ access_log_review_triggers }},
-  and escalate suspected physical security incidents to the incident response
-  process.
+  {{ access_log_review_cadence }} and upon
+  {{ access_log_review_triggers }}, and escalate suspected physical
+  security incidents to the incident response process.
 summary: >
-  Monitor facility entry points and review physical access logs to detect and
-  escalate physical security incidents.
+  Monitor facility entry points and review physical access logs to
+  detect and escalate physical security incidents.
 tags:
   - physical-security
   - monitoring

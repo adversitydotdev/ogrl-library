@@ -13,19 +13,25 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing session termination; system
-          design documentation; system configuration settings and associated
-          documentation; list of conditions or trigger events requiring session
-          disconnect; system audit records; system security plan; other relevant
-          documents or records
+          Access control policy; procedures addressing session
+          termination; system design documentation; system
+          configuration settings and associated documentation; list
+          of conditions or trigger events requiring session
+          disconnect; system audit records; system security plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; system developers
+          System/network administrators; organizational personnel
+          with information security responsibilities; system
+          developers
       - method: test
-        statement: Automated mechanisms implementing user session termination
-    statement: "a user session is automatically terminated after {{ ac_12_odp }}."
+        statement: >-
+          Automated mechanisms implementing user session termination
+    statement: >-
+      a user session is automatically terminated after
+      {{ ac_12_odp }}.
 parameters:
   ac_12_odp:
     label: conditions or trigger events
-statement: "Automatically terminate a user session after {{ ac_12_odp }}."
+statement: >-
+  Automatically terminate a user session after {{ ac_12_odp }}.

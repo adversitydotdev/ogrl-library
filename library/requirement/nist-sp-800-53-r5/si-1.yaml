@@ -23,27 +23,29 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; system security plan; privacy plan; other relevant documents or
-          records
+          System and information integrity policy; system and
+          information integrity procedures; system security plan;
+          privacy plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with system and information integrity
-          responsibilities; organizational personnel with information security and
-          privacy responsibilities
-    statement: a system and information integrity policy is developed and documented;
+          Organizational personnel with system and information
+          integrity responsibilities; organizational personnel with
+          information security and privacy responsibilities
+    statement: >-
+      a system and information integrity policy is developed and
+      documented;
   - id: a-2
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; system security plan; privacy plan; other relevant documents or
-          records
+          System and information integrity policy; system and
+          information integrity procedures; system security plan;
+          privacy plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with system and information integrity
-          responsibilities; organizational personnel with information security and
-          privacy responsibilities
+          Organizational personnel with system and information
+          integrity responsibilities; organizational personnel with
+          information security and privacy responsibilities
     statement: >
       the system and information integrity policy is disseminated to
       {{ si_01_odp_01 }};
@@ -51,226 +53,231 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; system security plan; privacy plan; other relevant documents or
-          records
+          System and information integrity policy; system and
+          information integrity procedures; system security plan;
+          privacy plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with system and information integrity
-          responsibilities; organizational personnel with information security and
-          privacy responsibilities
+          Organizational personnel with system and information
+          integrity responsibilities; organizational personnel with
+          information security and privacy responsibilities
     statement: >
-      system and information integrity procedures to facilitate the implementation
-      of the system and information integrity policy and associated system and
-      information integrity controls are developed and documented;
+      system and information integrity procedures to facilitate the
+      implementation of the system and information integrity policy
+      and associated system and information integrity controls are
+      developed and documented;
   - id: a-4
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; system security plan; privacy plan; other relevant documents or
-          records
+          System and information integrity policy; system and
+          information integrity procedures; system security plan;
+          privacy plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with system and information integrity
-          responsibilities; organizational personnel with information security and
-          privacy responsibilities
+          Organizational personnel with system and information
+          integrity responsibilities; organizational personnel with
+          information security and privacy responsibilities
     statement: >
-      the system and information integrity procedures are disseminated to
-      {{ si_01_odp_02 }};
+      the system and information integrity procedures are
+      disseminated to {{ si_01_odp_02 }};
   - id: a.1.a-1
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; system security plan; privacy plan; other relevant documents or
-          records
+          System and information integrity policy; system and
+          information integrity procedures; system security plan;
+          privacy plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with system and information integrity
-          responsibilities; organizational personnel with information security and
-          privacy responsibilities
+          Organizational personnel with system and information
+          integrity responsibilities; organizational personnel with
+          information security and privacy responsibilities
     statement: >
-      the {{ si_01_odp_03 }} system and information integrity policy addresses
-      purpose;
+      the {{ si_01_odp_03 }} system and information integrity policy
+      addresses purpose;
   - id: a.1.a-2
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; system security plan; privacy plan; other relevant documents or
-          records
+          System and information integrity policy; system and
+          information integrity procedures; system security plan;
+          privacy plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with system and information integrity
-          responsibilities; organizational personnel with information security and
-          privacy responsibilities
-    statement: "the {{ si_01_odp_03 }} system and information integrity policy addresses scope;"
+          Organizational personnel with system and information
+          integrity responsibilities; organizational personnel with
+          information security and privacy responsibilities
+    statement: >-
+      the {{ si_01_odp_03 }} system and information integrity policy
+      addresses scope;
   - id: a.1.a-3
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; system security plan; privacy plan; other relevant documents or
-          records
+          System and information integrity policy; system and
+          information integrity procedures; system security plan;
+          privacy plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with system and information integrity
-          responsibilities; organizational personnel with information security and
-          privacy responsibilities
-    statement: "the {{ si_01_odp_03 }} system and information integrity policy addresses roles;"
+          Organizational personnel with system and information
+          integrity responsibilities; organizational personnel with
+          information security and privacy responsibilities
+    statement: >-
+      the {{ si_01_odp_03 }} system and information integrity policy
+      addresses roles;
   - id: a.1.a-4
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; system security plan; privacy plan; other relevant documents or
-          records
+          System and information integrity policy; system and
+          information integrity procedures; system security plan;
+          privacy plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with system and information integrity
-          responsibilities; organizational personnel with information security and
-          privacy responsibilities
+          Organizational personnel with system and information
+          integrity responsibilities; organizational personnel with
+          information security and privacy responsibilities
     statement: >
-      the {{ si_01_odp_03 }} system and information integrity policy addresses
-      responsibilities;
+      the {{ si_01_odp_03 }} system and information integrity policy
+      addresses responsibilities;
   - id: a.1.a-5
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; system security plan; privacy plan; other relevant documents or
-          records
+          System and information integrity policy; system and
+          information integrity procedures; system security plan;
+          privacy plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with system and information integrity
-          responsibilities; organizational personnel with information security and
-          privacy responsibilities
+          Organizational personnel with system and information
+          integrity responsibilities; organizational personnel with
+          information security and privacy responsibilities
     statement: >
-      the {{ si_01_odp_03 }} system and information integrity policy addresses
-      management commitment;
+      the {{ si_01_odp_03 }} system and information integrity policy
+      addresses management commitment;
   - id: a.1.a-6
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; system security plan; privacy plan; other relevant documents or
-          records
+          System and information integrity policy; system and
+          information integrity procedures; system security plan;
+          privacy plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with system and information integrity
-          responsibilities; organizational personnel with information security and
-          privacy responsibilities
+          Organizational personnel with system and information
+          integrity responsibilities; organizational personnel with
+          information security and privacy responsibilities
     statement: >
-      the {{ si_01_odp_03 }} system and information integrity policy addresses
-      coordination among organizational entities;
+      the {{ si_01_odp_03 }} system and information integrity policy
+      addresses coordination among organizational entities;
   - id: a.1.a-7
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; system security plan; privacy plan; other relevant documents or
-          records
+          System and information integrity policy; system and
+          information integrity procedures; system security plan;
+          privacy plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with system and information integrity
-          responsibilities; organizational personnel with information security and
-          privacy responsibilities
+          Organizational personnel with system and information
+          integrity responsibilities; organizational personnel with
+          information security and privacy responsibilities
     statement: >
-      the {{ si_01_odp_03 }} system and information integrity policy addresses
-      compliance;
+      the {{ si_01_odp_03 }} system and information integrity policy
+      addresses compliance;
   - id: a.1.b
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; system security plan; privacy plan; other relevant documents or
-          records
+          System and information integrity policy; system and
+          information integrity procedures; system security plan;
+          privacy plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with system and information integrity
-          responsibilities; organizational personnel with information security and
-          privacy responsibilities
+          Organizational personnel with system and information
+          integrity responsibilities; organizational personnel with
+          information security and privacy responsibilities
     statement: >
-      the {{ si_01_odp_03 }} system and information integrity policy is consistent
-      with applicable laws, Executive Orders, directives, regulations, policies,
-      standards, and guidelines;
+      the {{ si_01_odp_03 }} system and information integrity policy
+      is consistent with applicable laws, Executive Orders,
+      directives, regulations, policies, standards, and guidelines;
   - id: b
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; system security plan; privacy plan; other relevant documents or
-          records
+          System and information integrity policy; system and
+          information integrity procedures; system security plan;
+          privacy plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with system and information integrity
-          responsibilities; organizational personnel with information security and
-          privacy responsibilities
+          Organizational personnel with system and information
+          integrity responsibilities; organizational personnel with
+          information security and privacy responsibilities
     statement: >
-      the {{ si_01_odp_04 }} is designated to manage the development,
-      documentation, and dissemination of the system and information integrity
-      policy and procedures;
+      the {{ si_01_odp_04 }} is designated to manage the
+      development, documentation, and dissemination of the system
+      and information integrity policy and procedures;
   - id: c.1-1
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; system security plan; privacy plan; other relevant documents or
-          records
+          System and information integrity policy; system and
+          information integrity procedures; system security plan;
+          privacy plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with system and information integrity
-          responsibilities; organizational personnel with information security and
-          privacy responsibilities
+          Organizational personnel with system and information
+          integrity responsibilities; organizational personnel with
+          information security and privacy responsibilities
     statement: >
-      the current system and information integrity policy is reviewed and updated
-      {{ si_01_odp_05 }};
+      the current system and information integrity policy is
+      reviewed and updated {{ si_01_odp_05 }};
   - id: c.1-2
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; system security plan; privacy plan; other relevant documents or
-          records
+          System and information integrity policy; system and
+          information integrity procedures; system security plan;
+          privacy plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with system and information integrity
-          responsibilities; organizational personnel with information security and
-          privacy responsibilities
+          Organizational personnel with system and information
+          integrity responsibilities; organizational personnel with
+          information security and privacy responsibilities
     statement: >
-      the current system and information integrity policy is reviewed and updated
-      following {{ si_01_odp_06 }};
+      the current system and information integrity policy is
+      reviewed and updated following {{ si_01_odp_06 }};
   - id: c.2-1
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; system security plan; privacy plan; other relevant documents or
-          records
+          System and information integrity policy; system and
+          information integrity procedures; system security plan;
+          privacy plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with system and information integrity
-          responsibilities; organizational personnel with information security and
-          privacy responsibilities
+          Organizational personnel with system and information
+          integrity responsibilities; organizational personnel with
+          information security and privacy responsibilities
     statement: >
-      the current system and information integrity procedures are reviewed and
-      updated {{ si_01_odp_07 }};
+      the current system and information integrity procedures are
+      reviewed and updated {{ si_01_odp_07 }};
   - id: c.2-2
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; system security plan; privacy plan; other relevant documents or
-          records
+          System and information integrity policy; system and
+          information integrity procedures; system security plan;
+          privacy plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with system and information integrity
-          responsibilities; organizational personnel with information security and
-          privacy responsibilities
+          Organizational personnel with system and information
+          integrity responsibilities; organizational personnel with
+          information security and privacy responsibilities
     statement: >
-      the current system and information integrity procedures are reviewed and
-      updated following {{ si_01_odp_08 }}.
+      the current system and information integrity procedures are
+      reviewed and updated following {{ si_01_odp_08 }}.
 parameters:
   si_01_odp_01:
     label: personnel or roles
@@ -292,30 +299,41 @@ parameters:
     label: organization-defined personnel or roles
 parts:
   - id: a
-    statement: "Develop, document, and disseminate to {{ si_1_prm_1 }}:"
+    statement: >-
+      Develop, document, and disseminate to {{ si_1_prm_1 }}:
   - id: a.1
-    statement: "{{ si_01_odp_03 }} system and information integrity policy that:"
+    statement: >-
+      {{ si_01_odp_03 }} system and information integrity policy
+      that:
   - id: a.1.a
     statement: >
-      Addresses purpose, scope, roles, responsibilities, management commitment,
-      coordination among organizational entities, and compliance; and
+      Addresses purpose, scope, roles, responsibilities, management
+      commitment, coordination among organizational entities, and
+      compliance; and
   - id: a.1.b
     statement: >
-      Is consistent with applicable laws, executive orders, directives,
-      regulations, policies, standards, and guidelines; and
+      Is consistent with applicable laws, executive orders,
+      directives, regulations, policies, standards, and guidelines;
+      and
   - id: a.2
     statement: >
-      Procedures to facilitate the implementation of the system and information
-      integrity policy and the associated system and information integrity
-      controls;
+      Procedures to facilitate the implementation of the system and
+      information integrity policy and the associated system and
+      information integrity controls;
   - id: b
     statement: >
-      Designate an {{ si_01_odp_04 }} to manage the development, documentation,
-      and dissemination of the system and information integrity policy and
-      procedures; and
+      Designate an {{ si_01_odp_04 }} to manage the development,
+      documentation, and dissemination of the system and information
+      integrity policy and procedures; and
   - id: c
-    statement: "Review and update the current system and information integrity:"
+    statement: >-
+      Review and update the current system and information
+      integrity:
   - id: c.1
-    statement: "Policy {{ si_01_odp_05 }} and following {{ si_01_odp_06 }} ; and"
+    statement: >-
+      Policy {{ si_01_odp_05 }} and following {{ si_01_odp_06 }} ;
+      and
   - id: c.2
-    statement: "Procedures {{ si_01_odp_07 }} and following {{ si_01_odp_08 }}."
+    statement: >-
+      Procedures {{ si_01_odp_07 }} and following
+      {{ si_01_odp_08 }}.

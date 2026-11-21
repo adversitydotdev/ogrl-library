@@ -13,22 +13,28 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing account management; system
-          design documentation; system configuration settings and associated
-          documentation; system-generated list of system accounts and associated
-          assignments of usage circumstances and/or usage conditions; system audit
-          records; system security plan; other relevant documents or records
+          Access control policy; procedures addressing account
+          management; system design documentation; system
+          configuration settings and associated documentation;
+          system-generated list of system accounts and associated
+          assignments of usage circumstances and/or usage
+          conditions; system audit records; system security plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with account management responsibilities;
-          system/network administrators; organizational personnel with information
-          security responsibilities; system developers
+          Organizational personnel with account management
+          responsibilities; system/network administrators;
+          organizational personnel with information security
+          responsibilities; system developers
       - method: test
-        statement: Mechanisms implementing account management functions
-    statement: "{{ ac_02_11_odp_01 }} for {{ ac_02_11_odp_02 }} are enforced."
+        statement: >-
+          Mechanisms implementing account management functions
+    statement: >-
+      {{ ac_02_11_odp_01 }} for {{ ac_02_11_odp_02 }} are enforced.
 parameters:
   ac_02_11_odp_01:
     label: circumstances and/or usage conditions
   ac_02_11_odp_02:
     label: system accounts
-statement: "Enforce {{ ac_02_11_odp_01 }} for {{ ac_02_11_odp_02 }}."
+statement: >-
+  Enforce {{ ac_02_11_odp_01 }} for {{ ac_02_11_odp_02 }}.

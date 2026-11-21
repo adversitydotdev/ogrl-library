@@ -9,21 +9,22 @@ control_type: corrective
 family: ir
 frequency: event-driven
 guidance: >
-  Route monitoring alerts and employee or customer reports into a single
-  on-call intake such as a paging tool or dedicated incident channel. Define a
-  severity matrix (for example SEV1-SEV4) keyed on data exposure, customer
-  impact, and blast radius. Keep runbooks for common cloud SaaS scenarios such
-  as compromised credentials, leaked secrets, malicious dependencies, and
-  cloud account takeover: revoke sessions and keys, isolate workloads with
-  security groups or by scaling to zero, and snapshot volumes and preserve
-  logs for forensics before rebuilding. Coordinate with the disaster recovery
-  plan when recovery requires restoration from backup. Evidence is the
-  incident ticket showing triage time, severity, commander, and response
-  actions.
+  Route monitoring alerts and employee or customer reports into a
+  single on-call intake such as a paging tool or dedicated incident
+  channel. Define a severity matrix (for example SEV1-SEV4) keyed on
+  data exposure, customer impact, and blast radius. Keep runbooks
+  for common cloud SaaS scenarios such as compromised credentials,
+  leaked secrets, malicious dependencies, and cloud account
+  takeover: revoke sessions and keys, isolate workloads with
+  security groups or by scaling to zero, and snapshot volumes and
+  preserve logs for forensics before rebuilding. Coordinate with the
+  disaster recovery plan when recovery requires restoration from
+  backup. Evidence is the incident ticket showing triage time,
+  severity, commander, and response actions.
 objective: >
-  Ensure suspected incidents are evaluated quickly and consistently and that
-  confirmed incidents are contained and resolved before they cause further
-  harm.
+  Ensure suspected incidents are evaluated quickly and consistently
+  and that confirmed incidents are contained and resolved before
+  they cause further harm.
 origin: standard
 parameters:
   escalation_contacts:
@@ -36,15 +37,16 @@ parameters:
     label: Incident triage time limit
     value: "1 hour"
 statement: >
-  Triage each suspected security incident within {{ triage_sla }} of it being
-  reported or detected, classify it using {{ severity_scale }}, assign an
-  incident commander, and handle confirmed incidents through containment,
-  eradication, and recovery as defined in the incident response plan,
-  escalating high-severity incidents to {{ escalation_contacts }}.
+  Triage each suspected security incident within {{ triage_sla }} of
+  it being reported or detected, classify it using
+  {{ severity_scale }}, assign an incident commander, and handle
+  confirmed incidents through containment, eradication, and recovery
+  as defined in the incident response plan, escalating high-severity
+  incidents to {{ escalation_contacts }}.
 summary: >
-  Triage suspected security incidents promptly against a defined severity
-  scale and drive confirmed incidents through containment, eradication, and
-  recovery.
+  Triage suspected security incidents promptly against a defined
+  severity scale and drive confirmed incidents through containment,
+  eradication, and recovery.
 tags:
   - incident-response
   - triage

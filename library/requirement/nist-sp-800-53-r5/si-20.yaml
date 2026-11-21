@@ -20,31 +20,35 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; personally identifiable information processing policy;
-          procedures addressing software and information integrity; system design
-          documentation; system configuration settings and associated documentation;
-          policy and procedures addressing the systems security engineering technique
-          of deception; system security plan; privacy plan; other relevant documents
-          or records
+          System and information integrity policy; system and
+          information integrity procedures; personally identifiable
+          information processing policy; procedures addressing
+          software and information integrity; system design
+          documentation; system configuration settings and
+          associated documentation; policy and procedures addressing
+          the systems security engineering technique of deception;
+          system security plan; privacy plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel responsible for detecting tainted data;
-          organizational personnel with systems security engineering responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities
+          Organizational personnel responsible for detecting tainted
+          data; organizational personnel with systems security
+          engineering responsibilities; organizational personnel
+          with information security and privacy responsibilities
       - method: test
         statement: >
-          Automated mechanisms for post-breach detection; decoys, traps, lures, and
-          methods for deceiving adversaries; detection and notification mechanisms
+          Automated mechanisms for post-breach detection; decoys,
+          traps, lures, and methods for deceiving adversaries;
+          detection and notification mechanisms
     statement: >
-      data or capabilities are embedded in {{ si_20_odp }} to determine if
-      organizational data has been exfiltrated or improperly removed from the
-      organization.
+      data or capabilities are embedded in {{ si_20_odp }} to
+      determine if organizational data has been exfiltrated or
+      improperly removed from the organization.
 parameters:
   si_20_odp:
     label: systems or system components
 statement: >
-  Embed data or capabilities in the following systems or system components to
-  determine if organizational data has been exfiltrated or improperly removed
-  from the organization: {{ si_20_odp }}.
+  Embed data or capabilities in the following systems or system
+  components to determine if organizational data has been
+  exfiltrated or improperly removed from the organization:
+  {{ si_20_odp }}.

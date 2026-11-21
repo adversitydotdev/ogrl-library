@@ -13,51 +13,66 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Configuration management policy; procedures addressing access restrictions
-          for changes to the system; system design documentation; system architecture
-          and configuration documentation; system configuration settings and
-          associated documentation; change control records; system audit records;
-          system security plan; other relevant documents or records
+          Configuration management policy; procedures addressing
+          access restrictions for changes to the system; system
+          design documentation; system architecture and
+          configuration documentation; system configuration settings
+          and associated documentation; change control records;
+          system audit records; system security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with logical access control responsibilities;
-          organizational personnel with physical access control responsibilities;
-          organizational personnel with information security responsibilities;
-          system/network administrators
+          Organizational personnel with logical access control
+          responsibilities; organizational personnel with physical
+          access control responsibilities; organizational personnel
+          with information security responsibilities; system/network
+          administrators
       - method: test
         statement: >
-          Organizational processes for managing access restrictions to change;
-          automated mechanisms implementing the enforcement of access restrictions for
-          changes to the system; automated mechanisms supporting auditing of
+          Organizational processes for managing access restrictions
+          to change; automated mechanisms implementing the
+          enforcement of access restrictions for changes to the
+          system; automated mechanisms supporting auditing of
           enforcement actions
-    statement: "access restrictions for change are enforced using {{ cm_05_01_odp }};"
+    statement: >-
+      access restrictions for change are enforced using
+      {{ cm_05_01_odp }};
   - id: b
     methods:
       - method: examine
         statement: >
-          Configuration management policy; procedures addressing access restrictions
-          for changes to the system; system design documentation; system architecture
-          and configuration documentation; system configuration settings and
-          associated documentation; change control records; system audit records;
-          system security plan; other relevant documents or records
+          Configuration management policy; procedures addressing
+          access restrictions for changes to the system; system
+          design documentation; system architecture and
+          configuration documentation; system configuration settings
+          and associated documentation; change control records;
+          system audit records; system security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with logical access control responsibilities;
-          organizational personnel with physical access control responsibilities;
-          organizational personnel with information security responsibilities;
-          system/network administrators
+          Organizational personnel with logical access control
+          responsibilities; organizational personnel with physical
+          access control responsibilities; organizational personnel
+          with information security responsibilities; system/network
+          administrators
       - method: test
         statement: >
-          Organizational processes for managing access restrictions to change;
-          automated mechanisms implementing the enforcement of access restrictions for
-          changes to the system; automated mechanisms supporting auditing of
+          Organizational processes for managing access restrictions
+          to change; automated mechanisms implementing the
+          enforcement of access restrictions for changes to the
+          system; automated mechanisms supporting auditing of
           enforcement actions
-    statement: audit records of enforcement actions are automatically generated.
+    statement: >-
+      audit records of enforcement actions are automatically
+      generated.
 parameters:
   cm_05_01_odp:
     label: automated mechanisms
 parts:
   - id: a
-    statement: "Enforce access restrictions using {{ cm_05_01_odp }} ; and"
+    statement: >-
+      Enforce access restrictions using {{ cm_05_01_odp }} ; and
   - id: b
-    statement: Automatically generate audit records of the enforcement actions.
+    statement: >-
+      Automatically generate audit records of the enforcement
+      actions.

@@ -17,38 +17,48 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; procedures addressing
-          cryptographic protection; system design documentation; system configuration
-          settings and associated documentation; cryptographic module validation
-          certificates; list of FIPS-validated cryptographic modules; system audit
-          records; system security plan; other relevant documents or records
+          System and communications protection policy; procedures
+          addressing cryptographic protection; system design
+          documentation; system configuration settings and
+          associated documentation; cryptographic module validation
+          certificates; list of FIPS-validated cryptographic
+          modules; system audit records; system security plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; system developer; organizational personnel with
-          responsibilities for cryptographic protection
+          System/network administrators; organizational personnel
+          with information security responsibilities; system
+          developer; organizational personnel with responsibilities
+          for cryptographic protection
       - method: test
-        statement: Mechanisms supporting and/or implementing cryptographic protection
+        statement: >-
+          Mechanisms supporting and/or implementing cryptographic
+          protection
     statement: "{{ sc_13_odp_01 }} are identified;"
   - id: b
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; procedures addressing
-          cryptographic protection; system design documentation; system configuration
-          settings and associated documentation; cryptographic module validation
-          certificates; list of FIPS-validated cryptographic modules; system audit
-          records; system security plan; other relevant documents or records
+          System and communications protection policy; procedures
+          addressing cryptographic protection; system design
+          documentation; system configuration settings and
+          associated documentation; cryptographic module validation
+          certificates; list of FIPS-validated cryptographic
+          modules; system audit records; system security plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; system developer; organizational personnel with
-          responsibilities for cryptographic protection
+          System/network administrators; organizational personnel
+          with information security responsibilities; system
+          developer; organizational personnel with responsibilities
+          for cryptographic protection
       - method: test
-        statement: Mechanisms supporting and/or implementing cryptographic protection
+        statement: >-
+          Mechanisms supporting and/or implementing cryptographic
+          protection
     statement: >
-      {{ sc_13_odp_02 }} for each specified cryptographic use (defined in
-      SC-13_ODP[01]) are implemented.
+      {{ sc_13_odp_02 }} for each specified cryptographic use
+      (defined in SC-13_ODP[01]) are implemented.
 parameters:
   sc_13_odp_01:
     label: cryptographic uses
@@ -59,5 +69,5 @@ parts:
     statement: "Determine the {{ sc_13_odp_01 }} ; and"
   - id: b
     statement: >
-      Implement the following types of cryptography required for each specified
-      cryptographic use: {{ sc_13_odp_02 }}.
+      Implement the following types of cryptography required for
+      each specified cryptographic use: {{ sc_13_odp_02 }}.

@@ -11,6 +11,6 @@ relationship: equivalent-to
 review_status: draft
 source_ref: control--ogrl-cm-02
 summary: >
-  Baselines derived from a named hardening benchmark establish restrictive
-  configuration settings per CM-6(a).
+  Baselines derived from a named hardening benchmark establish
+  restrictive configuration settings per CM-6(a).
 target_ref: "requirement--nist-sp-800-53-r5-cm-6#a"

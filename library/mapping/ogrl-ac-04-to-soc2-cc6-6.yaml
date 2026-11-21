@@ -8,5 +8,7 @@ rationale: functional
 relationship: equivalent-to
 review_status: reviewed
 source_ref: control--ogrl-ac-04
-summary: Default-deny network boundaries and restricted admin paths satisfy SOC 2 CC6.6.
+summary: >-
+  Default-deny network boundaries and restricted admin paths satisfy
+  SOC 2 CC6.6.
 target_ref: requirement--soc2-tsc-2017-cc6-6

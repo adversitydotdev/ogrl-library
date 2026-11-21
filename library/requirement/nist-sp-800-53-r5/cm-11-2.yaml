@@ -13,22 +13,29 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Configuration management policy; procedures addressing user-installed
-          software; configuration management plan; system security plan; system design
-          documentation; system configuration settings and associated documentation;
-          alerts/notifications of unauthorized software installations; system audit
-          records; continuous monitoring strategy; system security plan; other
-          relevant documents or records
+          Configuration management policy; procedures addressing
+          user-installed software; configuration management plan;
+          system security plan; system design documentation; system
+          configuration settings and associated documentation;
+          alerts/notifications of unauthorized software
+          installations; system audit records; continuous monitoring
+          strategy; system security plan; other relevant documents
+          or records
       - method: interview
         statement: >
-          Organizational personnel with responsibilities for governing user-installed
-          software; organizational personnel operating, using, and/or maintaining the
-          system; organizational personnel with information security responsibilities;
-          system/network administrators
+          Organizational personnel with responsibilities for
+          governing user-installed software; organizational
+          personnel operating, using, and/or maintaining the system;
+          organizational personnel with information security
+          responsibilities; system/network administrators
       - method: test
         statement: >
-          Organizational processes governing user-installed software on the system;
-          mechanisms for prohibiting installation of software without privileged
-          status (e.g., access controls)
-    statement: user installation of software is allowed only with explicit privileged status.
-statement: Allow user installation of software only with explicit privileged status.
+          Organizational processes governing user-installed software
+          on the system; mechanisms for prohibiting installation of
+          software without privileged status (e.g., access controls)
+    statement: >-
+      user installation of software is allowed only with explicit
+      privileged status.
+statement: >-
+  Allow user installation of software only with explicit privileged
+  status.

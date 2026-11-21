@@ -13,24 +13,29 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Risk assessment policy; procedures addressing vulnerability scanning; risk
-          assessment; vulnerability scanning tools and techniques documentation;
-          vulnerability scanning results; vulnerability management records; audit
-          records; event/vulnerability correlation logs; system security plan; other
-          relevant documents or records
+          Risk assessment policy; procedures addressing
+          vulnerability scanning; risk assessment; vulnerability
+          scanning tools and techniques documentation; vulnerability
+          scanning results; vulnerability management records; audit
+          records; event/vulnerability correlation logs; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with vulnerability scanning responsibilities;
-          organizational personnel with vulnerability scan analysis responsibilities;
+          Organizational personnel with vulnerability scanning
+          responsibilities; organizational personnel with
+          vulnerability scan analysis responsibilities;
           organizational personnel with security responsibilities
       - method: test
         statement: >
-          Organizational processes for vulnerability scanning; mechanisms/tools
-          supporting and/or implementing vulnerability scanning; mechanisms
-          implementing the correlation of vulnerability scan results
+          Organizational processes for vulnerability scanning;
+          mechanisms/tools supporting and/or implementing
+          vulnerability scanning; mechanisms implementing the
+          correlation of vulnerability scan results
     statement: >
-      the output from vulnerability scanning tools is correlated to determine the
-      presence of multi-vulnerability and multi-hop attack vectors.
+      the output from vulnerability scanning tools is correlated to
+      determine the presence of multi-vulnerability and multi-hop
+      attack vectors.
 statement: >
-  Correlate the output from vulnerability scanning tools to determine the
-  presence of multi-vulnerability and multi-hop attack vectors.
+  Correlate the output from vulnerability scanning tools to
+  determine the presence of multi-vulnerability and multi-hop attack
+  vectors.

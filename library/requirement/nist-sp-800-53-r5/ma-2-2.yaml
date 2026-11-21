@@ -13,128 +13,149 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Maintenance policy; procedures addressing controlled system maintenance;
-          automated mechanisms supporting system maintenance activities; system
-          configuration settings and associated documentation; maintenance records;
-          system security plan; other relevant documents or records
+          Maintenance policy; procedures addressing controlled
+          system maintenance; automated mechanisms supporting system
+          maintenance activities; system configuration settings and
+          associated documentation; maintenance records; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with system maintenance responsibilities;
-          organizational personnel with information security responsibilities;
-          system/network administrators
+          Organizational personnel with system maintenance
+          responsibilities; organizational personnel with
+          information security responsibilities; system/network
+          administrators
       - method: test
         statement: >
-          Automated mechanisms supporting and/or implementing controlled maintenance;
-          automated mechanisms supporting and/or implementing the production of
-          records of maintenance and repair actions
+          Automated mechanisms supporting and/or implementing
+          controlled maintenance; automated mechanisms supporting
+          and/or implementing the production of records of
+          maintenance and repair actions
     statement: >
-      {{ ma_02_02_odp_01 }} are used to schedule maintenance, repair, and
-      replacement actions for the system;
+      {{ ma_02_02_odp_01 }} are used to schedule maintenance,
+      repair, and replacement actions for the system;
   - id: a-2
     methods:
       - method: examine
         statement: >
-          Maintenance policy; procedures addressing controlled system maintenance;
-          automated mechanisms supporting system maintenance activities; system
-          configuration settings and associated documentation; maintenance records;
-          system security plan; other relevant documents or records
+          Maintenance policy; procedures addressing controlled
+          system maintenance; automated mechanisms supporting system
+          maintenance activities; system configuration settings and
+          associated documentation; maintenance records; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with system maintenance responsibilities;
-          organizational personnel with information security responsibilities;
-          system/network administrators
+          Organizational personnel with system maintenance
+          responsibilities; organizational personnel with
+          information security responsibilities; system/network
+          administrators
       - method: test
         statement: >
-          Automated mechanisms supporting and/or implementing controlled maintenance;
-          automated mechanisms supporting and/or implementing the production of
-          records of maintenance and repair actions
+          Automated mechanisms supporting and/or implementing
+          controlled maintenance; automated mechanisms supporting
+          and/or implementing the production of records of
+          maintenance and repair actions
     statement: >
-      {{ ma_02_02_odp_02 }} are used to conduct maintenance, repair, and
-      replacement actions for the system;
+      {{ ma_02_02_odp_02 }} are used to conduct maintenance, repair,
+      and replacement actions for the system;
   - id: a-3
     methods:
       - method: examine
         statement: >
-          Maintenance policy; procedures addressing controlled system maintenance;
-          automated mechanisms supporting system maintenance activities; system
-          configuration settings and associated documentation; maintenance records;
-          system security plan; other relevant documents or records
+          Maintenance policy; procedures addressing controlled
+          system maintenance; automated mechanisms supporting system
+          maintenance activities; system configuration settings and
+          associated documentation; maintenance records; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with system maintenance responsibilities;
-          organizational personnel with information security responsibilities;
-          system/network administrators
+          Organizational personnel with system maintenance
+          responsibilities; organizational personnel with
+          information security responsibilities; system/network
+          administrators
       - method: test
         statement: >
-          Automated mechanisms supporting and/or implementing controlled maintenance;
-          automated mechanisms supporting and/or implementing the production of
-          records of maintenance and repair actions
+          Automated mechanisms supporting and/or implementing
+          controlled maintenance; automated mechanisms supporting
+          and/or implementing the production of records of
+          maintenance and repair actions
     statement: >
-      {{ ma_02_02_odp_03 }} are used to document maintenance, repair, and
-      replacement actions for the system;
+      {{ ma_02_02_odp_03 }} are used to document maintenance,
+      repair, and replacement actions for the system;
   - id: b-1
     methods:
       - method: examine
         statement: >
-          Maintenance policy; procedures addressing controlled system maintenance;
-          automated mechanisms supporting system maintenance activities; system
-          configuration settings and associated documentation; maintenance records;
-          system security plan; other relevant documents or records
+          Maintenance policy; procedures addressing controlled
+          system maintenance; automated mechanisms supporting system
+          maintenance activities; system configuration settings and
+          associated documentation; maintenance records; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with system maintenance responsibilities;
-          organizational personnel with information security responsibilities;
-          system/network administrators
+          Organizational personnel with system maintenance
+          responsibilities; organizational personnel with
+          information security responsibilities; system/network
+          administrators
       - method: test
         statement: >
-          Automated mechanisms supporting and/or implementing controlled maintenance;
-          automated mechanisms supporting and/or implementing the production of
-          records of maintenance and repair actions
+          Automated mechanisms supporting and/or implementing
+          controlled maintenance; automated mechanisms supporting
+          and/or implementing the production of records of
+          maintenance and repair actions
     statement: >
-      up-to date, accurate, and complete records of all maintenance actions
-      requested, scheduled, in process, and completed are produced.
+      up-to date, accurate, and complete records of all maintenance
+      actions requested, scheduled, in process, and completed are
+      produced.
   - id: b-2
     methods:
       - method: examine
         statement: >
-          Maintenance policy; procedures addressing controlled system maintenance;
-          automated mechanisms supporting system maintenance activities; system
-          configuration settings and associated documentation; maintenance records;
-          system security plan; other relevant documents or records
+          Maintenance policy; procedures addressing controlled
+          system maintenance; automated mechanisms supporting system
+          maintenance activities; system configuration settings and
+          associated documentation; maintenance records; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with system maintenance responsibilities;
-          organizational personnel with information security responsibilities;
-          system/network administrators
+          Organizational personnel with system maintenance
+          responsibilities; organizational personnel with
+          information security responsibilities; system/network
+          administrators
       - method: test
         statement: >
-          Automated mechanisms supporting and/or implementing controlled maintenance;
-          automated mechanisms supporting and/or implementing the production of
-          records of maintenance and repair actions
+          Automated mechanisms supporting and/or implementing
+          controlled maintenance; automated mechanisms supporting
+          and/or implementing the production of records of
+          maintenance and repair actions
     statement: >
-      up-to date, accurate, and complete records of all repair actions requested,
-      scheduled, in process, and completed are produced.
+      up-to date, accurate, and complete records of all repair
+      actions requested, scheduled, in process, and completed are
+      produced.
   - id: b-3
     methods:
       - method: examine
         statement: >
-          Maintenance policy; procedures addressing controlled system maintenance;
-          automated mechanisms supporting system maintenance activities; system
-          configuration settings and associated documentation; maintenance records;
-          system security plan; other relevant documents or records
+          Maintenance policy; procedures addressing controlled
+          system maintenance; automated mechanisms supporting system
+          maintenance activities; system configuration settings and
+          associated documentation; maintenance records; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with system maintenance responsibilities;
-          organizational personnel with information security responsibilities;
-          system/network administrators
+          Organizational personnel with system maintenance
+          responsibilities; organizational personnel with
+          information security responsibilities; system/network
+          administrators
       - method: test
         statement: >
-          Automated mechanisms supporting and/or implementing controlled maintenance;
-          automated mechanisms supporting and/or implementing the production of
-          records of maintenance and repair actions
+          Automated mechanisms supporting and/or implementing
+          controlled maintenance; automated mechanisms supporting
+          and/or implementing the production of records of
+          maintenance and repair actions
     statement: >
-      up-to date, accurate, and complete records of all replacement actions
-      requested, scheduled, in process, and completed are produced.
+      up-to date, accurate, and complete records of all replacement
+      actions requested, scheduled, in process, and completed are
+      produced.
 parameters:
   ma_02_02_odp_01:
     label: automated mechanisms
@@ -147,10 +168,11 @@ parameters:
 parts:
   - id: a
     statement: >
-      Schedule, conduct, and document maintenance, repair, and replacement actions
-      for the system using {{ ma_2_2_prm_1 }} ; and
+      Schedule, conduct, and document maintenance, repair, and
+      replacement actions for the system using {{ ma_2_2_prm_1 }} ;
+      and
   - id: b
     statement: >
-      Produce up-to date, accurate, and complete records of all maintenance,
-      repair, and replacement actions requested, scheduled, in process, and
-      completed.
+      Produce up-to date, accurate, and complete records of all
+      maintenance, repair, and replacement actions requested,
+      scheduled, in process, and completed.

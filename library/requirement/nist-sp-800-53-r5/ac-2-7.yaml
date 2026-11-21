@@ -13,103 +13,116 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing account management; system
-          design documentation; system configuration settings and associated
-          documentation; system-generated list of privileged user accounts and
-          associated roles; records of actions taken when privileged role assignments
-          are no longer appropriate; system audit records; audit tracking and
-          monitoring reports; system monitoring records; system security plan; other
-          relevant documents or records
+          Access control policy; procedures addressing account
+          management; system design documentation; system
+          configuration settings and associated documentation;
+          system-generated list of privileged user accounts and
+          associated roles; records of actions taken when privileged
+          role assignments are no longer appropriate; system audit
+          records; audit tracking and monitoring reports; system
+          monitoring records; system security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with account management responsibilities;
-          system/network administrators; organizational personnel with information
-          security responsibilities
+          Organizational personnel with account management
+          responsibilities; system/network administrators;
+          organizational personnel with information security
+          responsibilities
       - method: test
         statement: >
-          Mechanisms implementing account management functions; mechanisms monitoring
-          privileged role assignments
+          Mechanisms implementing account management functions;
+          mechanisms monitoring privileged role assignments
     statement: >
-      privileged user accounts are established and administered in accordance with
-      {{ ac_02_07_odp }};
+      privileged user accounts are established and administered in
+      accordance with {{ ac_02_07_odp }};
   - id: b
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing account management; system
-          design documentation; system configuration settings and associated
-          documentation; system-generated list of privileged user accounts and
-          associated roles; records of actions taken when privileged role assignments
-          are no longer appropriate; system audit records; audit tracking and
-          monitoring reports; system monitoring records; system security plan; other
-          relevant documents or records
+          Access control policy; procedures addressing account
+          management; system design documentation; system
+          configuration settings and associated documentation;
+          system-generated list of privileged user accounts and
+          associated roles; records of actions taken when privileged
+          role assignments are no longer appropriate; system audit
+          records; audit tracking and monitoring reports; system
+          monitoring records; system security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with account management responsibilities;
-          system/network administrators; organizational personnel with information
-          security responsibilities
+          Organizational personnel with account management
+          responsibilities; system/network administrators;
+          organizational personnel with information security
+          responsibilities
       - method: test
         statement: >
-          Mechanisms implementing account management functions; mechanisms monitoring
-          privileged role assignments
-    statement: privileged role or attribute assignments are monitored;
+          Mechanisms implementing account management functions;
+          mechanisms monitoring privileged role assignments
+    statement: >-
+      privileged role or attribute assignments are monitored;
   - id: c
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing account management; system
-          design documentation; system configuration settings and associated
-          documentation; system-generated list of privileged user accounts and
-          associated roles; records of actions taken when privileged role assignments
-          are no longer appropriate; system audit records; audit tracking and
-          monitoring reports; system monitoring records; system security plan; other
-          relevant documents or records
+          Access control policy; procedures addressing account
+          management; system design documentation; system
+          configuration settings and associated documentation;
+          system-generated list of privileged user accounts and
+          associated roles; records of actions taken when privileged
+          role assignments are no longer appropriate; system audit
+          records; audit tracking and monitoring reports; system
+          monitoring records; system security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with account management responsibilities;
-          system/network administrators; organizational personnel with information
-          security responsibilities
+          Organizational personnel with account management
+          responsibilities; system/network administrators;
+          organizational personnel with information security
+          responsibilities
       - method: test
         statement: >
-          Mechanisms implementing account management functions; mechanisms monitoring
-          privileged role assignments
+          Mechanisms implementing account management functions;
+          mechanisms monitoring privileged role assignments
     statement: changes to roles or attributes are monitored;
   - id: d
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing account management; system
-          design documentation; system configuration settings and associated
-          documentation; system-generated list of privileged user accounts and
-          associated roles; records of actions taken when privileged role assignments
-          are no longer appropriate; system audit records; audit tracking and
-          monitoring reports; system monitoring records; system security plan; other
-          relevant documents or records
+          Access control policy; procedures addressing account
+          management; system design documentation; system
+          configuration settings and associated documentation;
+          system-generated list of privileged user accounts and
+          associated roles; records of actions taken when privileged
+          role assignments are no longer appropriate; system audit
+          records; audit tracking and monitoring reports; system
+          monitoring records; system security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with account management responsibilities;
-          system/network administrators; organizational personnel with information
-          security responsibilities
+          Organizational personnel with account management
+          responsibilities; system/network administrators;
+          organizational personnel with information security
+          responsibilities
       - method: test
         statement: >
-          Mechanisms implementing account management functions; mechanisms monitoring
-          privileged role assignments
+          Mechanisms implementing account management functions;
+          mechanisms monitoring privileged role assignments
     statement: >
-      access is revoked when privileged role or attribute assignments are no
-      longer appropriate.
+      access is revoked when privileged role or attribute
+      assignments are no longer appropriate.
 parameters:
   ac_02_07_odp:
     label: ac-02.07_odp
 parts:
   - id: a
     statement: >
-      Establish and administer privileged user accounts in accordance with
-      {{ ac_02_07_odp }};
+      Establish and administer privileged user accounts in
+      accordance with {{ ac_02_07_odp }};
   - id: b
     statement: Monitor privileged role or attribute assignments;
   - id: c
     statement: Monitor changes to roles or attributes; and
   - id: d
     statement: >
-      Revoke access when privileged role or attribute assignments are no longer
-      appropriate.
+      Revoke access when privileged role or attribute assignments
+      are no longer appropriate.

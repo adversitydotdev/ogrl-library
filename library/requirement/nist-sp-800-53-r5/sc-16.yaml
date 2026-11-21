@@ -17,82 +17,94 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; procedures addressing the
-          transmission of security and privacy attributes; access control policy and
-          procedures; information flow control policy; system design documentation;
-          system configuration settings and associated documentation; system audit
-          records; system security plan; privacy plan; other relevant documents or
+          System and communications protection policy; procedures
+          addressing the transmission of security and privacy
+          attributes; access control policy and procedures;
+          information flow control policy; system design
+          documentation; system configuration settings and
+          associated documentation; system audit records; system
+          security plan; privacy plan; other relevant documents or
           records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security and privacy responsibilities
+          System/network administrators; organizational personnel
+          with information security and privacy responsibilities
       - method: test
         statement: >
-          Mechanisms supporting and/or implementing the transmission of security and
-          privacy attributes between systems
-    statement: "{{ sc_16_odp_01 }} are associated with information exchanged between systems;"
+          Mechanisms supporting and/or implementing the transmission
+          of security and privacy attributes between systems
+    statement: >-
+      {{ sc_16_odp_01 }} are associated with information exchanged
+      between systems;
   - id: _obj-2
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; procedures addressing the
-          transmission of security and privacy attributes; access control policy and
-          procedures; information flow control policy; system design documentation;
-          system configuration settings and associated documentation; system audit
-          records; system security plan; privacy plan; other relevant documents or
+          System and communications protection policy; procedures
+          addressing the transmission of security and privacy
+          attributes; access control policy and procedures;
+          information flow control policy; system design
+          documentation; system configuration settings and
+          associated documentation; system audit records; system
+          security plan; privacy plan; other relevant documents or
           records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security and privacy responsibilities
+          System/network administrators; organizational personnel
+          with information security and privacy responsibilities
       - method: test
         statement: >
-          Mechanisms supporting and/or implementing the transmission of security and
-          privacy attributes between systems
+          Mechanisms supporting and/or implementing the transmission
+          of security and privacy attributes between systems
     statement: >
-      {{ sc_16_odp_01 }} are associated with information exchanged between system
-      components;
+      {{ sc_16_odp_01 }} are associated with information exchanged
+      between system components;
   - id: _obj-3
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; procedures addressing the
-          transmission of security and privacy attributes; access control policy and
-          procedures; information flow control policy; system design documentation;
-          system configuration settings and associated documentation; system audit
-          records; system security plan; privacy plan; other relevant documents or
+          System and communications protection policy; procedures
+          addressing the transmission of security and privacy
+          attributes; access control policy and procedures;
+          information flow control policy; system design
+          documentation; system configuration settings and
+          associated documentation; system audit records; system
+          security plan; privacy plan; other relevant documents or
           records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security and privacy responsibilities
+          System/network administrators; organizational personnel
+          with information security and privacy responsibilities
       - method: test
         statement: >
-          Mechanisms supporting and/or implementing the transmission of security and
-          privacy attributes between systems
-    statement: "{{ sc_16_odp_02 }} are associated with information exchanged between systems;"
+          Mechanisms supporting and/or implementing the transmission
+          of security and privacy attributes between systems
+    statement: >-
+      {{ sc_16_odp_02 }} are associated with information exchanged
+      between systems;
   - id: _obj-4
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; procedures addressing the
-          transmission of security and privacy attributes; access control policy and
-          procedures; information flow control policy; system design documentation;
-          system configuration settings and associated documentation; system audit
-          records; system security plan; privacy plan; other relevant documents or
+          System and communications protection policy; procedures
+          addressing the transmission of security and privacy
+          attributes; access control policy and procedures;
+          information flow control policy; system design
+          documentation; system configuration settings and
+          associated documentation; system audit records; system
+          security plan; privacy plan; other relevant documents or
           records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security and privacy responsibilities
+          System/network administrators; organizational personnel
+          with information security and privacy responsibilities
       - method: test
         statement: >
-          Mechanisms supporting and/or implementing the transmission of security and
-          privacy attributes between systems
+          Mechanisms supporting and/or implementing the transmission
+          of security and privacy attributes between systems
     statement: >
-      {{ sc_16_odp_02 }} are associated with information exchanged between system
-      components.
+      {{ sc_16_odp_02 }} are associated with information exchanged
+      between system components.
 parameters:
   sc_16_odp_01:
     label: security attributes
@@ -101,5 +113,5 @@ parameters:
   sc_16_prm_1:
     label: organization-defined security and privacy attributes
 statement: >
-  Associate {{ sc_16_prm_1 }} with information exchanged between systems and
-  between system components.
+  Associate {{ sc_16_prm_1 }} with information exchanged between
+  systems and between system components.

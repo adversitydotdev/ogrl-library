@@ -13,28 +13,31 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; procedures addressing
-          non-modifiable executable programs; system design documentation; system
-          configuration settings and associated documentation; system architecture;
-          list of system components to be employed without writeable storage
-          capabilities; system audit records; system security plan; other relevant
-          documents or records
+          System and communications protection policy; procedures
+          addressing non-modifiable executable programs; system
+          design documentation; system configuration settings and
+          associated documentation; system architecture; list of
+          system components to be employed without writeable storage
+          capabilities; system audit records; system security plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; organizational personnel installing, configuring,
-          and/or maintaining the system; system developers/integrators
+          System/network administrators; organizational personnel
+          with information security responsibilities; organizational
+          personnel installing, configuring, and/or maintaining the
+          system; system developers/integrators
       - method: test
         statement: >
-          Mechanisms supporting and/or implementing the employment of components with
-          no writeable storage; mechanisms supporting and/or implementing persistent
-          non-writeable storage across component restart and power on/off
+          Mechanisms supporting and/or implementing the employment
+          of components with no writeable storage; mechanisms
+          supporting and/or implementing persistent non-writeable
+          storage across component restart and power on/off
     statement: >
-      {{ sc_34_01_odp }} are employed with no writeable storage that is persistent
-      across component restart or power on/off.
+      {{ sc_34_01_odp }} are employed with no writeable storage that
+      is persistent across component restart or power on/off.
 parameters:
   sc_34_01_odp:
     label: system components
 statement: >
-  Employ {{ sc_34_01_odp }} with no writeable storage that is persistent
-  across component restart or power on/off.
+  Employ {{ sc_34_01_odp }} with no writeable storage that is
+  persistent across component restart or power on/off.

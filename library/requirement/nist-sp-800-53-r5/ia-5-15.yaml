@@ -13,24 +13,28 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Identification and authentication policy; procedures addressing identifier
-          management; system security plan; system design documentation; mechanisms
-          providing dynamic binding of identifiers and authenticators; system
-          configuration settings and associated documentation; system audit records;
-          other relevant documents or records
+          Identification and authentication policy; procedures
+          addressing identifier management; system security plan;
+          system design documentation; mechanisms providing dynamic
+          binding of identifiers and authenticators; system
+          configuration settings and associated documentation;
+          system audit records; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with identification and authentication management
-          responsibilities; organizational personnel with information security
-          responsibilities; system/network administrators
+          Organizational personnel with identification and
+          authentication management responsibilities; organizational
+          personnel with information security responsibilities;
+          system/network administrators
       - method: test
         statement: >
-          Mechanisms supporting and/or implementing account management capability;
-          mechanisms supporting and/or implementing identification and authentication
-          management capabilities for the system
+          Mechanisms supporting and/or implementing account
+          management capability; mechanisms supporting and/or
+          implementing identification and authentication management
+          capabilities for the system
     statement: >
-      only General Services Administration-approved products and services are used
-      for identity, credential, and access management.
+      only General Services Administration-approved products and
+      services are used for identity, credential, and access
+      management.
 statement: >
-  Use only General Services Administration-approved products and services for
-  identity, credential, and access management.
+  Use only General Services Administration-approved products and
+  services for identity, credential, and access management.

@@ -13,19 +13,23 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; procedures addressing
-          application partitioning; system design documentation; system configuration
-          settings and associated documentation; system audit records; system security
-          plan; other relevant documents or records
+          System and communications protection policy; procedures
+          addressing application partitioning; system design
+          documentation; system configuration settings and
+          associated documentation; system audit records; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; system developer
+          System/network administrators; organizational personnel
+          with information security responsibilities; system
+          developer
       - method: test
-        statement: Separation of user functionality from system management functionality
+        statement: >-
+          Separation of user functionality from system management
+          functionality
     statement: >
-      user functionality, including user interface services, is separated from
-      system management functionality.
+      user functionality, including user interface services, is
+      separated from system management functionality.
 statement: >
-  Separate user functionality, including user interface services, from system
-  management functionality.
+  Separate user functionality, including user interface services,
+  from system management functionality.

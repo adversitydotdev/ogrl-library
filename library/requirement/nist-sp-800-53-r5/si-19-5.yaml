@@ -13,69 +13,75 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; personally identifiable information processing policy;
-          de-identification procedures; system configuration; de-identified datasets;
-          statistical analysis report; tools for the control of statistical
-          disclosure; system security plan; privacy plan; privacy impact assessment;
-          privacy risk assessment documentation; other relevant documents or records
+          System and information integrity policy; system and
+          information integrity procedures; personally identifiable
+          information processing policy; de-identification
+          procedures; system configuration; de-identified datasets;
+          statistical analysis report; tools for the control of
+          statistical disclosure; system security plan; privacy
+          plan; privacy impact assessment; privacy risk assessment
+          documentation; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel responsible for de-identifying the dataset;
-          organizational personnel with information security and privacy
-          responsibilities
+          Organizational personnel responsible for de-identifying
+          the dataset; organizational personnel with information
+          security and privacy responsibilities
       - method: test
         statement: >
-          Automated mechanisms supporting and/or implementing the control of
-          statistical disclosure
+          Automated mechanisms supporting and/or implementing the
+          control of statistical disclosure
     statement: >
-      numerical data is manipulated so that no individual or organization is
-      identifiable in the results of the analysis;
+      numerical data is manipulated so that no individual or
+      organization is identifiable in the results of the analysis;
   - id: "si-19(05).si-19(05)[02]"
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; personally identifiable information processing policy;
-          de-identification procedures; system configuration; de-identified datasets;
-          statistical analysis report; tools for the control of statistical
-          disclosure; system security plan; privacy plan; privacy impact assessment;
-          privacy risk assessment documentation; other relevant documents or records
+          System and information integrity policy; system and
+          information integrity procedures; personally identifiable
+          information processing policy; de-identification
+          procedures; system configuration; de-identified datasets;
+          statistical analysis report; tools for the control of
+          statistical disclosure; system security plan; privacy
+          plan; privacy impact assessment; privacy risk assessment
+          documentation; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel responsible for de-identifying the dataset;
-          organizational personnel with information security and privacy
-          responsibilities
+          Organizational personnel responsible for de-identifying
+          the dataset; organizational personnel with information
+          security and privacy responsibilities
       - method: test
         statement: >
-          Automated mechanisms supporting and/or implementing the control of
-          statistical disclosure
+          Automated mechanisms supporting and/or implementing the
+          control of statistical disclosure
     statement: >
-      contingency tables are manipulated so that no individual or organization is
-      identifiable in the results of the analysis;
+      contingency tables are manipulated so that no individual or
+      organization is identifiable in the results of the analysis;
   - id: "si-19(05).si-19(05)[03]"
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; personally identifiable information processing policy;
-          de-identification procedures; system configuration; de-identified datasets;
-          statistical analysis report; tools for the control of statistical
-          disclosure; system security plan; privacy plan; privacy impact assessment;
-          privacy risk assessment documentation; other relevant documents or records
+          System and information integrity policy; system and
+          information integrity procedures; personally identifiable
+          information processing policy; de-identification
+          procedures; system configuration; de-identified datasets;
+          statistical analysis report; tools for the control of
+          statistical disclosure; system security plan; privacy
+          plan; privacy impact assessment; privacy risk assessment
+          documentation; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel responsible for de-identifying the dataset;
-          organizational personnel with information security and privacy
-          responsibilities
+          Organizational personnel responsible for de-identifying
+          the dataset; organizational personnel with information
+          security and privacy responsibilities
       - method: test
         statement: >
-          Automated mechanisms supporting and/or implementing the control of
-          statistical disclosure
+          Automated mechanisms supporting and/or implementing the
+          control of statistical disclosure
     statement: >
-      statistical findings are manipulated so that no individual or organization
-      is identifiable in the results of the analysis.
+      statistical findings are manipulated so that no individual or
+      organization is identifiable in the results of the analysis.
 statement: >
-  Manipulate numerical data, contingency tables, and statistical findings so
-  that no individual or organization is identifiable in the results of the
-  analysis.
+  Manipulate numerical data, contingency tables, and statistical
+  findings so that no individual or organization is identifiable in
+  the results of the analysis.

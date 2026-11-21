@@ -13,63 +13,75 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and services acquisition policy; procedures addressing system
-          developer security testing; solicitation documentation; acquisition
-          documentation; service level agreements; acquisition contracts for the
-          system, system component, or system service; system developer security
-          testing and evaluation plans; system developer security testing and
-          evaluation results; system security plan; other relevant documents or
-          records
+          System and services acquisition policy; procedures
+          addressing system developer security testing; solicitation
+          documentation; acquisition documentation; service level
+          agreements; acquisition contracts for the system, system
+          component, or system service; system developer security
+          testing and evaluation plans; system developer security
+          testing and evaluation results; system security plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with system and service acquisition
-          responsibilities; organizational personnel with information security
-          responsibilities; organizational personnel with developer security testing
-          responsibilities; system developers; independent verification agent
+          Organizational personnel with system and service
+          acquisition responsibilities; organizational personnel
+          with information security responsibilities; organizational
+          personnel with developer security testing
+          responsibilities; system developers; independent
+          verification agent
       - method: test
         statement: >
-          Organizational processes for monitoring developer security testing and
-          evaluation; mechanisms supporting and/or implementing the monitoring of
-          developer security testing and evaluation
+          Organizational processes for monitoring developer security
+          testing and evaluation; mechanisms supporting and/or
+          implementing the monitoring of developer security testing
+          and evaluation
     statement: >
-      the developer of the system, system component, or system service is required
-      to verify that the scope of testing and evaluation provides complete
-      coverage of the required controls at {{ sa_11_07_odp_01 }};
+      the developer of the system, system component, or system
+      service is required to verify that the scope of testing and
+      evaluation provides complete coverage of the required controls
+      at {{ sa_11_07_odp_01 }};
   - id: "sa-11(07).sa-11(07)[02]"
     methods:
       - method: examine
         statement: >
-          System and services acquisition policy; procedures addressing system
-          developer security testing; solicitation documentation; acquisition
-          documentation; service level agreements; acquisition contracts for the
-          system, system component, or system service; system developer security
-          testing and evaluation plans; system developer security testing and
-          evaluation results; system security plan; other relevant documents or
-          records
+          System and services acquisition policy; procedures
+          addressing system developer security testing; solicitation
+          documentation; acquisition documentation; service level
+          agreements; acquisition contracts for the system, system
+          component, or system service; system developer security
+          testing and evaluation plans; system developer security
+          testing and evaluation results; system security plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with system and service acquisition
-          responsibilities; organizational personnel with information security
-          responsibilities; organizational personnel with developer security testing
-          responsibilities; system developers; independent verification agent
+          Organizational personnel with system and service
+          acquisition responsibilities; organizational personnel
+          with information security responsibilities; organizational
+          personnel with developer security testing
+          responsibilities; system developers; independent
+          verification agent
       - method: test
         statement: >
-          Organizational processes for monitoring developer security testing and
-          evaluation; mechanisms supporting and/or implementing the monitoring of
-          developer security testing and evaluation
+          Organizational processes for monitoring developer security
+          testing and evaluation; mechanisms supporting and/or
+          implementing the monitoring of developer security testing
+          and evaluation
     statement: >
-      the developer of the system, system component, or system service is required
-      to verify that the scope of testing and evaluation provides complete
-      coverage of the required controls at {{ sa_11_07_odp_02 }}.
+      the developer of the system, system component, or system
+      service is required to verify that the scope of testing and
+      evaluation provides complete coverage of the required controls
+      at {{ sa_11_07_odp_02 }}.
 parameters:
   sa_11_07_odp_01:
     label: breadth
   sa_11_07_odp_02:
     label: depth
   sa_11_7_prm_1:
-    label: organization-defined breadth and depth of testing and evaluation
+    label: >-
+      organization-defined breadth and depth of testing and
+      evaluation
 statement: >
-  Require the developer of the system, system component, or system service to
-  verify that the scope of testing and evaluation provides complete coverage
-  of the required controls at the following level of rigor:
-  {{ sa_11_7_prm_1 }}.
+  Require the developer of the system, system component, or system
+  service to verify that the scope of testing and evaluation
+  provides complete coverage of the required controls at the
+  following level of rigor: {{ sa_11_7_prm_1 }}.

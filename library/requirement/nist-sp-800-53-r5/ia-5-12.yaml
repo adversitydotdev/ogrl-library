@@ -13,26 +13,29 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Identification and authentication policy; procedures addressing
-          authenticator management; system security plan; system design documentation;
-          mechanisms employing biometric-based authentication for the system; list of
-          biometric quality requirements; system configuration settings and associated
-          documentation; system audit records; other relevant documents or records
+          Identification and authentication policy; procedures
+          addressing authenticator management; system security plan;
+          system design documentation; mechanisms employing
+          biometric-based authentication for the system; list of
+          biometric quality requirements; system configuration
+          settings and associated documentation; system audit
+          records; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with authenticator management responsibilities;
-          organizational personnel with information security responsibilities;
-          system/network administrators; system developers
+          Organizational personnel with authenticator management
+          responsibilities; organizational personnel with
+          information security responsibilities; system/network
+          administrators; system developers
       - method: test
         statement: >
-          Mechanisms supporting and/or implementing biometric-based authenticator
-          management capability
+          Mechanisms supporting and/or implementing biometric-based
+          authenticator management capability
     statement: >
-      mechanisms that satisfy {{ ia_05_12_odp }} are employed for biometric-based
-      authentication.
+      mechanisms that satisfy {{ ia_05_12_odp }} are employed for
+      biometric-based authentication.
 parameters:
   ia_05_12_odp:
     label: biometric quality requirements
 statement: >
-  For biometric-based authentication, employ mechanisms that satisfy the
-  following biometric quality requirements {{ ia_05_12_odp }}.
+  For biometric-based authentication, employ mechanisms that satisfy
+  the following biometric quality requirements {{ ia_05_12_odp }}.

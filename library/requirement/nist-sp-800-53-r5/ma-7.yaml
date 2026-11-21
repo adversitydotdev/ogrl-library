@@ -13,24 +13,28 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Maintenance policy; procedures addressing field maintenance; system design
-          documentation; system configuration settings and associated documentation;
-          maintenance records; diagnostic records; system security plan; other
-          relevant documents or records.
+          Maintenance policy; procedures addressing field
+          maintenance; system design documentation; system
+          configuration settings and associated documentation;
+          maintenance records; diagnostic records; system security
+          plan; other relevant documents or records.
       - method: interview
         statement: >
-          Organizational personnel with system maintenance responsibilities;
-          organizational personnel with information security responsibilities;
-          system/network administrators
+          Organizational personnel with system maintenance
+          responsibilities; organizational personnel with
+          information security responsibilities; system/network
+          administrators
       - method: test
         statement: >
-          Organizational processes for managing field maintenance; mechanisms
-          implementing, supporting, and/or managing field maintenance; mechanisms for
-          strong authentication of field maintenance diagnostic sessions; mechanisms
-          for terminating field maintenance sessions and network connections
+          Organizational processes for managing field maintenance;
+          mechanisms implementing, supporting, and/or managing field
+          maintenance; mechanisms for strong authentication of field
+          maintenance diagnostic sessions; mechanisms for
+          terminating field maintenance sessions and network
+          connections
     statement: >
-      field maintenance on {{ ma_07_odp_01 }} are restricted or prohibited to
-      {{ ma_07_odp_02 }}.
+      field maintenance on {{ ma_07_odp_01 }} are restricted or
+      prohibited to {{ ma_07_odp_02 }}.
 parameters:
   ma_07_odp_01:
     label: systems or system components

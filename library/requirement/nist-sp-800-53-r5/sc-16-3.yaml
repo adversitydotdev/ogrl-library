@@ -13,23 +13,26 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; procedures addressing the
-          transmission of security and privacy attributes; access control policy and
-          procedures; system design documentation; system configuration settings and
-          associated documentation; system audit records; system security plan; other
-          relevant documents or records
+          System and communications protection policy; procedures
+          addressing the transmission of security and privacy
+          attributes; access control policy and procedures; system
+          design documentation; system configuration settings and
+          associated documentation; system audit records; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities
+          System/network administrators; organizational personnel
+          with information security responsibilities
       - method: test
-        statement: Mechanisms supporting and/or implementing anti-spoofing mechanisms
+        statement: >-
+          Mechanisms supporting and/or implementing anti-spoofing
+          mechanisms
     statement: >
-      {{ sc_16_03_odp }} are implemented to bind security and privacy attributes
-      to transmitted information.
+      {{ sc_16_03_odp }} are implemented to bind security and
+      privacy attributes to transmitted information.
 parameters:
   sc_16_03_odp:
     label: mechanisms or techniques
 statement: >
-  Implement {{ sc_16_03_odp }} to bind security and privacy attributes to
-  transmitted information.
+  Implement {{ sc_16_03_odp }} to bind security and privacy
+  attributes to transmitted information.

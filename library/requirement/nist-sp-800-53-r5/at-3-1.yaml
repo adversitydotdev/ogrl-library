@@ -13,24 +13,28 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Security and privacy awareness and training policy; procedures addressing
-          security and privacy training implementation; security and privacy training
-          curriculum; security and privacy training materials; system security plan;
-          privacy plan; training records; other relevant documents or records
+          Security and privacy awareness and training policy;
+          procedures addressing security and privacy training
+          implementation; security and privacy training curriculum;
+          security and privacy training materials; system security
+          plan; privacy plan; training records; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with responsibilities for role-based security and
-          privacy training; organizational personnel with responsibilities for
-          employing and operating environmental controls
+          Organizational personnel with responsibilities for
+          role-based security and privacy training; organizational
+          personnel with responsibilities for employing and
+          operating environmental controls
     statement: >
-      {{ at_03_01_odp_01 }} are provided with initial and refresher training
-      {{ at_03_01_odp_02 }} in the employment and operation of environmental
-      controls.
+      {{ at_03_01_odp_01 }} are provided with initial and refresher
+      training {{ at_03_01_odp_02 }} in the employment and operation
+      of environmental controls.
 parameters:
   at_03_01_odp_01:
     label: personnel or roles
   at_03_01_odp_02:
     label: frequency
 statement: >
-  Provide {{ at_03_01_odp_01 }} with initial and {{ at_03_01_odp_02 }}
-  training in the employment and operation of environmental controls.
+  Provide {{ at_03_01_odp_01 }} with initial and
+  {{ at_03_01_odp_02 }} training in the employment and operation of
+  environmental controls.

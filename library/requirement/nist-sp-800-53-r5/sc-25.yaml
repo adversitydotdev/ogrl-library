@@ -13,35 +13,41 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; procedures addressing use of
-          thin nodes; system design documentation; system configuration settings and
-          associated documentation; system audit records; system security plan; other
-          relevant documents or records
+          System and communications protection policy; procedures
+          addressing use of thin nodes; system design documentation;
+          system configuration settings and associated
+          documentation; system audit records; system security plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities
+          System/network administrators; organizational personnel
+          with information security responsibilities
       - method: test
-        statement: Mechanisms supporting and/or implementing thin nodes
-    statement: "minimal functionality for {{ sc_25_odp }} is employed;"
+        statement: >-
+          Mechanisms supporting and/or implementing thin nodes
+    statement: >-
+      minimal functionality for {{ sc_25_odp }} is employed;
   - id: _obj-2
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; procedures addressing use of
-          thin nodes; system design documentation; system configuration settings and
-          associated documentation; system audit records; system security plan; other
-          relevant documents or records
+          System and communications protection policy; procedures
+          addressing use of thin nodes; system design documentation;
+          system configuration settings and associated
+          documentation; system audit records; system security plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities
+          System/network administrators; organizational personnel
+          with information security responsibilities
       - method: test
-        statement: Mechanisms supporting and/or implementing thin nodes
-    statement: "minimal information storage on {{ sc_25_odp }} is allocated."
+        statement: >-
+          Mechanisms supporting and/or implementing thin nodes
+    statement: >-
+      minimal information storage on {{ sc_25_odp }} is allocated.
 parameters:
   sc_25_odp:
     label: system components
 statement: >
-  Employ minimal functionality and information storage on the following system
-  components: {{ sc_25_odp }}.
+  Employ minimal functionality and information storage on the
+  following system components: {{ sc_25_odp }}.

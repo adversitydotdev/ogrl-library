@@ -13,26 +13,29 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Configuration management policy; procedures addressing system component
-          inventory; configuration management plan; system security plan; system
-          component inventory; system security plan; other relevant documents or
-          records
+          Configuration management policy; procedures addressing
+          system component inventory; configuration management plan;
+          system security plan; system component inventory; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with component inventory management
-          responsibilities; organizational personnel with information security
-          responsibilities; system/network administrators
+          Organizational personnel with component inventory
+          management responsibilities; organizational personnel with
+          information security responsibilities; system/network
+          administrators
       - method: test
         statement: >
-          Organizational processes for managing the system component inventory;
-          mechanisms supporting and/or implementing the system component inventory
+          Organizational processes for managing the system component
+          inventory; mechanisms supporting and/or implementing the
+          system component inventory
     statement: >
-      individuals responsible and accountable for administering system components
-      are identified by {{ cm_08_04_odp }} in the system component inventory.
+      individuals responsible and accountable for administering
+      system components are identified by {{ cm_08_04_odp }} in the
+      system component inventory.
 parameters:
   cm_08_04_odp:
     label: cm-08.04_odp
 statement: >
   Include in the system component inventory information, a means for
-  identifying by {{ cm_08_04_odp }} , individuals responsible and accountable
-  for administering those components.
+  identifying by {{ cm_08_04_odp }} , individuals responsible and
+  accountable for administering those components.

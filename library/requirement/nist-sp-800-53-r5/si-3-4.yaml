@@ -13,23 +13,28 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; procedures addressing malicious code protection; list of
-          privileged users on system; system design documentation; malicious code
-          protection mechanisms; records of malicious code protection updates; system
-          configuration settings and associated documentation; system audit records;
-          system security plan; other relevant documents or records
+          System and information integrity policy; system and
+          information integrity procedures; procedures addressing
+          malicious code protection; list of privileged users on
+          system; system design documentation; malicious code
+          protection mechanisms; records of malicious code
+          protection updates; system configuration settings and
+          associated documentation; system audit records; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; system developers; organizational personnel
-          installing, configuring, and/or maintaining the system; organizational
+          System/network administrators; organizational personnel
+          with information security responsibilities; system
+          developers; organizational personnel installing,
+          configuring, and/or maintaining the system; organizational
           personnel responsible for malicious code protection
       - method: test
-        statement: Mechanisms supporting and/or implementing malicious code protection capabilities
+        statement: >-
+          Mechanisms supporting and/or implementing malicious code
+          protection capabilities
     statement: >
-      malicious code protection mechanisms are updated only when directed by a
-      privileged user.
+      malicious code protection mechanisms are updated only when
+      directed by a privileged user.
 statement: >
-  Update malicious code protection mechanisms only when directed by a
-  privileged user.
+  Update malicious code protection mechanisms only when directed by
+  a privileged user.

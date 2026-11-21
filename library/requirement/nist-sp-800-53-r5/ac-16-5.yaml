@@ -13,52 +13,56 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing display of security and privacy
-          attributes in human-readable form; special dissemination, handling, or
-          distribution instructions; types of human-readable, standard naming
-          conventions; system design documentation; system configuration settings and
-          associated documentation; system audit records; system security plan;
-          privacy plan; other relevant documents or records
+          Access control policy; procedures addressing display of
+          security and privacy attributes in human-readable form;
+          special dissemination, handling, or distribution
+          instructions; types of human-readable, standard naming
+          conventions; system design documentation; system
+          configuration settings and associated documentation;
+          system audit records; system security plan; privacy plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with information security and privacy
-          responsibilities; system developers
+          Organizational personnel with information security and
+          privacy responsibilities; system developers
       - method: test
         statement: >
-          System output devices displaying security and privacy attributes in
-          human-readable form on each object
+          System output devices displaying security and privacy
+          attributes in human-readable form on each object
     statement: >
-      security attributes are displayed in human-readable form on each object that
-      the system transmits to output devices to identify {{ ac_16_05_odp_01 }}
-      using {{ ac_16_05_odp_02 }};
+      security attributes are displayed in human-readable form on
+      each object that the system transmits to output devices to
+      identify {{ ac_16_05_odp_01 }} using {{ ac_16_05_odp_02 }};
   - id: "ac-16(05).ac-16(05)[02]"
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing display of security and privacy
-          attributes in human-readable form; special dissemination, handling, or
-          distribution instructions; types of human-readable, standard naming
-          conventions; system design documentation; system configuration settings and
-          associated documentation; system audit records; system security plan;
-          privacy plan; other relevant documents or records
+          Access control policy; procedures addressing display of
+          security and privacy attributes in human-readable form;
+          special dissemination, handling, or distribution
+          instructions; types of human-readable, standard naming
+          conventions; system design documentation; system
+          configuration settings and associated documentation;
+          system audit records; system security plan; privacy plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with information security and privacy
-          responsibilities; system developers
+          Organizational personnel with information security and
+          privacy responsibilities; system developers
       - method: test
         statement: >
-          System output devices displaying security and privacy attributes in
-          human-readable form on each object
+          System output devices displaying security and privacy
+          attributes in human-readable form on each object
     statement: >
-      privacy attributes are displayed in human-readable form on each object that
-      the system transmits to output devices to identify {{ ac_16_05_odp_01 }}
-      using {{ ac_16_05_odp_02 }}.
+      privacy attributes are displayed in human-readable form on
+      each object that the system transmits to output devices to
+      identify {{ ac_16_05_odp_01 }} using {{ ac_16_05_odp_02 }}.
 parameters:
   ac_16_05_odp_01:
     label: instructions
   ac_16_05_odp_02:
     label: naming conventions
 statement: >
-  Display security and privacy attributes in human-readable form on each
-  object that the system transmits to output devices to identify
-  {{ ac_16_05_odp_01 }} using {{ ac_16_05_odp_02 }}.
+  Display security and privacy attributes in human-readable form on
+  each object that the system transmits to output devices to
+  identify {{ ac_16_05_odp_01 }} using {{ ac_16_05_odp_02 }}.

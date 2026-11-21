@@ -13,24 +13,29 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Identification and authentication policy; procedures addressing identity
-          proofing; system security plan; other relevant documents or records
+          Identification and authentication policy; procedures
+          addressing identity proofing; system security plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with system operations responsibilities;
-          organizational personnel with information security responsibilities;
-          system/network administrators; system developers; organizational personnel
-          with identification and authentication responsibilities
+          Organizational personnel with system operations
+          responsibilities; organizational personnel with
+          information security responsibilities; system/network
+          administrators; system developers; organizational
+          personnel with identification and authentication
+          responsibilities
       - method: test
         statement: >
-          Mechanisms supporting and/or implementing identification and authentication
-          capabilities
+          Mechanisms supporting and/or implementing identification
+          and authentication capabilities
     statement: >
-      a {{ ia_12_05_odp }} is delivered through an out-of-band channel to verify
-      the user’s address (physical or digital) of record.
+      a {{ ia_12_05_odp }} is delivered through an out-of-band
+      channel to verify the user’s address (physical or digital)
+      of record.
 parameters:
   ia_12_05_odp:
     label: ia-12.05_odp
 statement: >
-  Require that a {{ ia_12_05_odp }} be delivered through an out-of-band
-  channel to verify the users address (physical or digital) of record.
+  Require that a {{ ia_12_05_odp }} be delivered through an
+  out-of-band channel to verify the users address (physical or
+  digital) of record.

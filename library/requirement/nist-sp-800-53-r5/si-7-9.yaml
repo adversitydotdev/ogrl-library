@@ -13,26 +13,31 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; procedures addressing software, firmware, and information
-          integrity; system design documentation; system configuration settings and
-          associated documentation; integrity verification tools and associated
-          documentation; documentation; records of integrity verification scans;
-          system audit records; system security plan; other relevant documents or
-          records
+          System and information integrity policy; system and
+          information integrity procedures; procedures addressing
+          software, firmware, and information integrity; system
+          design documentation; system configuration settings and
+          associated documentation; integrity verification tools and
+          associated documentation; documentation; records of
+          integrity verification scans; system audit records; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel responsible for software, firmware, and/or
-          information integrity; organizational personnel with information security
-          responsibilities; system developer
+          Organizational personnel responsible for software,
+          firmware, and/or information integrity; organizational
+          personnel with information security responsibilities;
+          system developer
       - method: test
         statement: >
-          Software, firmware, and information integrity verification tools; mechanisms
-          supporting and/or implementing integrity verification of the boot process
-    statement: "the integrity of the boot process of {{ si_07_09_odp }} is verified."
+          Software, firmware, and information integrity verification
+          tools; mechanisms supporting and/or implementing integrity
+          verification of the boot process
+    statement: >-
+      the integrity of the boot process of {{ si_07_09_odp }} is
+      verified.
 parameters:
   si_07_09_odp:
     label: system components
 statement: >
-  Verify the integrity of the boot process of the following system components:
-  {{ si_07_09_odp }}.
+  Verify the integrity of the boot process of the following system
+  components: {{ si_07_09_odp }}.

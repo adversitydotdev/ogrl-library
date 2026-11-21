@@ -13,27 +13,30 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; procedures addressing information output filtering; system
-          design documentation; system configuration settings and associated
-          documentation; system audit records; system security plan; other relevant
-          documents or records
+          System and information integrity policy; system and
+          information integrity procedures; procedures addressing
+          information output filtering; system design documentation;
+          system configuration settings and associated
+          documentation; system audit records; system security plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel responsible for validating information output;
-          organizational personnel with information security responsibilities;
-          system/network administrators; system developer
+          Organizational personnel responsible for validating
+          information output; organizational personnel with
+          information security responsibilities; system/network
+          administrators; system developer
       - method: test
         statement: >
-          Organizational processes for validating information output; automated
-          mechanisms supporting and/or implementing information output validation
+          Organizational processes for validating information
+          output; automated mechanisms supporting and/or
+          implementing information output validation
     statement: >
-      information output from {{ si_15_odp }} is validated to ensure that the
-      information is consistent with the expected content.
+      information output from {{ si_15_odp }} is validated to ensure
+      that the information is consistent with the expected content.
 parameters:
   si_15_odp:
     label: software programs and/or applications
 statement: >
-  Validate information output from the following software programs and/or
-  applications to ensure that the information is consistent with the expected
-  content: {{ si_15_odp }}.
+  Validate information output from the following software programs
+  and/or applications to ensure that the information is consistent
+  with the expected content: {{ si_15_odp }}.

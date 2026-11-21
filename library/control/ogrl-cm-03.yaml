@@ -9,14 +9,16 @@ control_type: detective
 family: cm
 frequency: continuous
 guidance: >
-  Run scheduled infrastructure-as-code plan or drift checks (for example
-  terraform plan in CI, AWS Config, or Azure Policy compliance) and a CSPM
-  tool against production accounts. Route findings to the owning team's queue
-  with the SLA as a due date. Evidence is the drift tool configuration plus a
-  sample of alerts showing revert or approval within SLA.
+  Run scheduled infrastructure-as-code plan or drift checks (for
+  example terraform plan in CI, AWS Config, or Azure Policy
+  compliance) and a CSPM tool against production accounts. Route
+  findings to the owning team's queue with the SLA as a due date.
+  Evidence is the drift tool configuration plus a sample of alerts
+  showing revert or approval within SLA.
 objective: >
   Detect unauthorized or accidental configuration changes quickly so
-  production does not silently diverge from its approved secure state.
+  production does not silently diverge from its approved secure
+  state.
 origin: standard
 parameters:
   drift_alert_recipients:
@@ -25,22 +27,27 @@ parameters:
   drift_detection_tooling:
     label: Drift detection mechanisms
     value: >
-      automated infrastructure-as-code drift checks and cloud security posture
-      management (CSPM) rules
+      automated infrastructure-as-code drift checks and cloud
+      security posture management (CSPM) rules
   drift_remediation_sla:
     label: Drift resolution SLA
-    value: "7 days for security-relevant settings and 30 days for all other settings"
+    value: >-
+      7 days for security-relevant settings and 30 days for all
+      other settings
   drift_scope:
     label: Components monitored for drift
-    value: production cloud resources and infrastructure-as-code managed components
+    value: >-
+      production cloud resources and infrastructure-as-code managed
+      components
 statement: >
-  Continuously compare the running configuration of {{ drift_scope }} against
-  its approved baseline using {{ drift_detection_tooling }}, alert
-  {{ drift_alert_recipients }} on unapproved deviations, and revert or
-  formally approve each detected drift within {{ drift_remediation_sla }}.
+  Continuously compare the running configuration of
+  {{ drift_scope }} against its approved baseline using
+  {{ drift_detection_tooling }}, alert {{ drift_alert_recipients }}
+  on unapproved deviations, and revert or formally approve each
+  detected drift within {{ drift_remediation_sla }}.
 summary: >
-  Automatically detect production configuration that diverges from the
-  approved baseline and resolve each drift.
+  Automatically detect production configuration that diverges from
+  the approved baseline and resolve each drift.
 tags:
   - configuration-management
   - drift-detection

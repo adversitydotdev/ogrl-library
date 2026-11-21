@@ -38,223 +38,242 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Incident response policy and procedures; system security plan; privacy plan;
-          other relevant documents or records
+          Incident response policy and procedures; system security
+          plan; privacy plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with incident response responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities
-    statement: an incident response policy is developed and documented;
+          Organizational personnel with incident response
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities
+    statement: >-
+      an incident response policy is developed and documented;
   - id: a-2
     methods:
       - method: examine
         statement: >
-          Incident response policy and procedures; system security plan; privacy plan;
-          other relevant documents or records
+          Incident response policy and procedures; system security
+          plan; privacy plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with incident response responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities
-    statement: "the incident response policy is disseminated to {{ ir_01_odp_01 }};"
+          Organizational personnel with incident response
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities
+    statement: >-
+      the incident response policy is disseminated to
+      {{ ir_01_odp_01 }};
   - id: a-3
     methods:
       - method: examine
         statement: >
-          Incident response policy and procedures; system security plan; privacy plan;
-          other relevant documents or records
+          Incident response policy and procedures; system security
+          plan; privacy plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with incident response responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities
+          Organizational personnel with incident response
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities
     statement: >
-      incident response procedures to facilitate the implementation of the
-      incident response policy and associated incident response controls are
-      developed and documented;
+      incident response procedures to facilitate the implementation
+      of the incident response policy and associated incident
+      response controls are developed and documented;
   - id: a-4
     methods:
       - method: examine
         statement: >
-          Incident response policy and procedures; system security plan; privacy plan;
-          other relevant documents or records
+          Incident response policy and procedures; system security
+          plan; privacy plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with incident response responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities
-    statement: "the incident response procedures are disseminated to {{ ir_01_odp_02 }};"
+          Organizational personnel with incident response
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities
+    statement: >-
+      the incident response procedures are disseminated to
+      {{ ir_01_odp_02 }};
   - id: a.1.a-1
     methods:
       - method: examine
         statement: >
-          Incident response policy and procedures; system security plan; privacy plan;
-          other relevant documents or records
+          Incident response policy and procedures; system security
+          plan; privacy plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with incident response responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities
-    statement: "the {{ ir_01_odp_03 }} incident response policy addresses purpose;"
+          Organizational personnel with incident response
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities
+    statement: >-
+      the {{ ir_01_odp_03 }} incident response policy addresses
+      purpose;
   - id: a.1.a-2
     methods:
       - method: examine
         statement: >
-          Incident response policy and procedures; system security plan; privacy plan;
-          other relevant documents or records
+          Incident response policy and procedures; system security
+          plan; privacy plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with incident response responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities
-    statement: "the {{ ir_01_odp_03 }} incident response policy addresses scope;"
+          Organizational personnel with incident response
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities
+    statement: >-
+      the {{ ir_01_odp_03 }} incident response policy addresses
+      scope;
   - id: a.1.a-3
     methods:
       - method: examine
         statement: >
-          Incident response policy and procedures; system security plan; privacy plan;
-          other relevant documents or records
+          Incident response policy and procedures; system security
+          plan; privacy plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with incident response responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities
-    statement: "the {{ ir_01_odp_03 }} incident response policy addresses roles;"
+          Organizational personnel with incident response
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities
+    statement: >-
+      the {{ ir_01_odp_03 }} incident response policy addresses
+      roles;
   - id: a.1.a-4
     methods:
       - method: examine
         statement: >
-          Incident response policy and procedures; system security plan; privacy plan;
-          other relevant documents or records
+          Incident response policy and procedures; system security
+          plan; privacy plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with incident response responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities
-    statement: "the {{ ir_01_odp_03 }} incident response policy addresses responsibilities;"
+          Organizational personnel with incident response
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities
+    statement: >-
+      the {{ ir_01_odp_03 }} incident response policy addresses
+      responsibilities;
   - id: a.1.a-5
     methods:
       - method: examine
         statement: >
-          Incident response policy and procedures; system security plan; privacy plan;
-          other relevant documents or records
+          Incident response policy and procedures; system security
+          plan; privacy plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with incident response responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities
-    statement: "the {{ ir_01_odp_03 }} incident response policy addresses management commitment;"
+          Organizational personnel with incident response
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities
+    statement: >-
+      the {{ ir_01_odp_03 }} incident response policy addresses
+      management commitment;
   - id: a.1.a-6
     methods:
       - method: examine
         statement: >
-          Incident response policy and procedures; system security plan; privacy plan;
-          other relevant documents or records
+          Incident response policy and procedures; system security
+          plan; privacy plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with incident response responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities
+          Organizational personnel with incident response
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities
     statement: >
-      the {{ ir_01_odp_03 }} incident response policy addresses coordination among
-      organizational entities;
+      the {{ ir_01_odp_03 }} incident response policy addresses
+      coordination among organizational entities;
   - id: a.1.a-7
     methods:
       - method: examine
         statement: >
-          Incident response policy and procedures; system security plan; privacy plan;
-          other relevant documents or records
+          Incident response policy and procedures; system security
+          plan; privacy plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with incident response responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities
-    statement: "the {{ ir_01_odp_03 }} incident response policy addresses compliance;"
+          Organizational personnel with incident response
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities
+    statement: >-
+      the {{ ir_01_odp_03 }} incident response policy addresses
+      compliance;
   - id: a.1.b
     methods:
       - method: examine
         statement: >
-          Incident response policy and procedures; system security plan; privacy plan;
-          other relevant documents or records
+          Incident response policy and procedures; system security
+          plan; privacy plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with incident response responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities
+          Organizational personnel with incident response
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities
     statement: >
-      the {{ ir_01_odp_03 }} incident response policy is consistent with
-      applicable laws, Executive Orders, directives, regulations, policies,
-      standards, and guidelines;
+      the {{ ir_01_odp_03 }} incident response policy is consistent
+      with applicable laws, Executive Orders, directives,
+      regulations, policies, standards, and guidelines;
   - id: b
     methods:
       - method: examine
         statement: >
-          Incident response policy and procedures; system security plan; privacy plan;
-          other relevant documents or records
+          Incident response policy and procedures; system security
+          plan; privacy plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with incident response responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities
+          Organizational personnel with incident response
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities
     statement: >
-      the {{ ir_01_odp_04 }} is designated to manage the development,
-      documentation, and dissemination of the incident response policy and
-      procedures;
+      the {{ ir_01_odp_04 }} is designated to manage the
+      development, documentation, and dissemination of the incident
+      response policy and procedures;
   - id: c.1-1
     methods:
       - method: examine
         statement: >
-          Incident response policy and procedures; system security plan; privacy plan;
-          other relevant documents or records
+          Incident response policy and procedures; system security
+          plan; privacy plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with incident response responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities
-    statement: "the current incident response policy is reviewed and updated {{ ir_01_odp_05 }};"
+          Organizational personnel with incident response
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities
+    statement: >-
+      the current incident response policy is reviewed and updated
+      {{ ir_01_odp_05 }};
   - id: c.1-2
     methods:
       - method: examine
         statement: >
-          Incident response policy and procedures; system security plan; privacy plan;
-          other relevant documents or records
+          Incident response policy and procedures; system security
+          plan; privacy plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with incident response responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities
+          Organizational personnel with incident response
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities
     statement: >
-      the current incident response policy is reviewed and updated following
-      {{ ir_01_odp_06 }};
+      the current incident response policy is reviewed and updated
+      following {{ ir_01_odp_06 }};
   - id: c.2-1
     methods:
       - method: examine
         statement: >
-          Incident response policy and procedures; system security plan; privacy plan;
-          other relevant documents or records
+          Incident response policy and procedures; system security
+          plan; privacy plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with incident response responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities
+          Organizational personnel with incident response
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities
     statement: >
-      the current incident response procedures are reviewed and updated
-      {{ ir_01_odp_07 }};
+      the current incident response procedures are reviewed and
+      updated {{ ir_01_odp_07 }};
   - id: c.2-2
     methods:
       - method: examine
         statement: >
-          Incident response policy and procedures; system security plan; privacy plan;
-          other relevant documents or records
+          Incident response policy and procedures; system security
+          plan; privacy plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with incident response responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities
+          Organizational personnel with incident response
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities
     statement: >
-      the current incident response procedures are reviewed and updated following
-      {{ ir_01_odp_08 }}.
+      the current incident response procedures are reviewed and
+      updated following {{ ir_01_odp_08 }}.
 parameters:
   ir_01_odp_01:
     label: personnel or roles
@@ -276,28 +295,36 @@ parameters:
     label: organization-defined personnel or roles
 parts:
   - id: a
-    statement: "Develop, document, and disseminate to {{ ir_1_prm_1 }}:"
+    statement: >-
+      Develop, document, and disseminate to {{ ir_1_prm_1 }}:
   - id: a.1
     statement: "{{ ir_01_odp_03 }} incident response policy that:"
   - id: a.1.a
     statement: >
-      Addresses purpose, scope, roles, responsibilities, management commitment,
-      coordination among organizational entities, and compliance; and
+      Addresses purpose, scope, roles, responsibilities, management
+      commitment, coordination among organizational entities, and
+      compliance; and
   - id: a.1.b
     statement: >
-      Is consistent with applicable laws, executive orders, directives,
-      regulations, policies, standards, and guidelines; and
+      Is consistent with applicable laws, executive orders,
+      directives, regulations, policies, standards, and guidelines;
+      and
   - id: a.2
     statement: >
-      Procedures to facilitate the implementation of the incident response policy
-      and the associated incident response controls;
+      Procedures to facilitate the implementation of the incident
+      response policy and the associated incident response controls;
   - id: b
     statement: >
-      Designate an {{ ir_01_odp_04 }} to manage the development, documentation,
-      and dissemination of the incident response policy and procedures; and
+      Designate an {{ ir_01_odp_04 }} to manage the development,
+      documentation, and dissemination of the incident response
+      policy and procedures; and
   - id: c
     statement: "Review and update the current incident response:"
   - id: c.1
-    statement: "Policy {{ ir_01_odp_05 }} and following {{ ir_01_odp_06 }} ; and"
+    statement: >-
+      Policy {{ ir_01_odp_05 }} and following {{ ir_01_odp_06 }} ;
+      and
   - id: c.2
-    statement: "Procedures {{ ir_01_odp_07 }} and following {{ ir_01_odp_08 }}."
+    statement: >-
+      Procedures {{ ir_01_odp_07 }} and following
+      {{ ir_01_odp_08 }}.

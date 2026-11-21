@@ -13,38 +13,47 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Audit and accountability policy; system security plan; privacy plan;
-          procedures addressing user session auditing; system design documentation;
-          system configuration settings and associated documentation; system audit
-          records; other relevant documents or records
+          Audit and accountability policy; system security plan;
+          privacy plan; procedures addressing user session auditing;
+          system design documentation; system configuration settings
+          and associated documentation; system audit records; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with information security and privacy
-          responsibilities; system/network administrators; system developers; legal
-          counsel; personnel with civil liberties responsibilities
+          Organizational personnel with information security and
+          privacy responsibilities; system/network administrators;
+          system developers; legal counsel; personnel with civil
+          liberties responsibilities
       - method: test
-        statement: Mechanisms implementing user session auditing capability
+        statement: >-
+          Mechanisms implementing user session auditing capability
     statement: >
-      the capability for authorized users to remotely view and hear content
-      related to an established user session in real time is provided;
+      the capability for authorized users to remotely view and hear
+      content related to an established user session in real time is
+      provided;
   - id: "au-14(03).au-14(03)[02]"
     methods:
       - method: examine
         statement: >
-          Audit and accountability policy; system security plan; privacy plan;
-          procedures addressing user session auditing; system design documentation;
-          system configuration settings and associated documentation; system audit
-          records; other relevant documents or records
+          Audit and accountability policy; system security plan;
+          privacy plan; procedures addressing user session auditing;
+          system design documentation; system configuration settings
+          and associated documentation; system audit records; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with information security and privacy
-          responsibilities; system/network administrators; system developers; legal
-          counsel; personnel with civil liberties responsibilities
+          Organizational personnel with information security and
+          privacy responsibilities; system/network administrators;
+          system developers; legal counsel; personnel with civil
+          liberties responsibilities
       - method: test
-        statement: Mechanisms implementing user session auditing capability
+        statement: >-
+          Mechanisms implementing user session auditing capability
     statement: >
-      the capability for authorized users to remotely view and hear content
-      related to an established user session in real time is implemented.
+      the capability for authorized users to remotely view and hear
+      content related to an established user session in real time is
+      implemented.
 statement: >
-  Provide and implement the capability for authorized users to remotely view
-  and hear content related to an established user session in real time.
+  Provide and implement the capability for authorized users to
+  remotely view and hear content related to an established user
+  session in real time.

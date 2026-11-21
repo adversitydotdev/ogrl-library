@@ -8,5 +8,7 @@ rationale: functional
 relationship: equivalent-to
 review_status: draft
 source_ref: control--ogrl-sd-01
-summary: "The SDLC assigns security responsibilities to named roles, addressing SA-3(b)."
+summary: >-
+  The SDLC assigns security responsibilities to named roles,
+  addressing SA-3(b).
 target_ref: "requirement--nist-sp-800-53-r5-sa-3#b"

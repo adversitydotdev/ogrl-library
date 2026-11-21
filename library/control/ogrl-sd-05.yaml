@@ -9,20 +9,23 @@ control_type: preventive
 family: sd
 frequency: event-driven
 guidance: >
-  Machine-readable specifications work best: OpenAPI or GraphQL schemas, JSON
-  Schema or protobuf data contracts, and database schema migrations,
-  supplemented by short design notes for business rules. Generate
-  customer-facing API documentation from the same source. Input validation
-  (OGRL-SD-06) and output validation (OGRL-SD-08) should enforce these
-  definitions.
+  Machine-readable specifications work best: OpenAPI or GraphQL
+  schemas, JSON Schema or protobuf data contracts, and database
+  schema migrations, supplemented by short design notes for business
+  rules. Generate customer-facing API documentation from the same
+  source. Input validation (OGRL-SD-06) and output validation
+  (OGRL-SD-08) should enforce these definitions.
 objective: >
-  Provide a single accurate reference for how each system is expected to
-  process data, so processing can be built, tested, and verified against it.
+  Provide a single accurate reference for how each system is
+  expected to process data, so processing can be built, tested, and
+  verified against it.
 origin: standard
 parameters:
   spec_audience:
     label: Specification audience
-    value: "engineering, support, and customers through published API documentation"
+    value: >-
+      engineering, support, and customers through published API
+      documentation
   spec_owner:
     label: Specification owner
     value: the product or engineering owner of each system
@@ -30,14 +33,15 @@ parameters:
     label: Specification review frequency
     value: annually
 statement: >
-  Document, for each in-scope processing system, the input data definitions,
-  accepted formats and value ranges, processing rules, and expected outputs in
-  version-controlled specifications, update them with every change that alters
-  processing behavior, have them reviewed by {{ spec_owner }}
-  {{ spec_review_frequency }}, and make them available to {{ spec_audience }}.
+  Document, for each in-scope processing system, the input data
+  definitions, accepted formats and value ranges, processing rules,
+  and expected outputs in version-controlled specifications, update
+  them with every change that alters processing behavior, have them
+  reviewed by {{ spec_owner }} {{ spec_review_frequency }}, and make
+  them available to {{ spec_audience }}.
 summary: >
-  Document and maintain versioned specifications of inputs, processing rules,
-  and outputs for in-scope systems.
+  Document and maintain versioned specifications of inputs,
+  processing rules, and outputs for in-scope systems.
 tags:
   - processing-integrity
   - documentation

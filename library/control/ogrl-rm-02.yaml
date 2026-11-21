@@ -9,19 +9,21 @@ control_type: detective
 family: rm
 frequency: annual
 guidance: >
-  Run a structured workshop with engineering, product, and operations; seed it
-  with incidents, vulnerability trends, vendor reviews, and audit findings
-  from the period. Each register entry needs a description, affected assets,
-  inherent rating, existing controls, residual rating, and owner. Evidence:
-  the dated register snapshot and its sign-off.
+  Run a structured workshop with engineering, product, and
+  operations; seed it with incidents, vulnerability trends, vendor
+  reviews, and audit findings from the period. Each register entry
+  needs a description, affected assets, inherent rating, existing
+  controls, residual rating, and owner. Evidence: the dated register
+  snapshot and its sign-off.
 objective: >
-  Leadership has a current, rated view of the risks to in-scope systems and
-  the data they handle.
+  Leadership has a current, rated view of the risks to in-scope
+  systems and the data they handle.
 origin: standard
 parameters:
   results_audience:
     label: Recipients of risk assessment results
-    value: executive leadership and the board or its designated committee
+    value: >-
+      executive leadership and the board or its designated committee
   risk_assessment_frequency:
     label: Risk assessment frequency
     value: at least annually
@@ -30,14 +32,15 @@ parameters:
     value: the risk register
 statement: >
   Perform a risk assessment of in-scope systems
-  {{ risk_assessment_frequency }} that identifies threats and vulnerabilities,
-  including those arising from vendors and subservice organizations, and rates
-  the likelihood and impact of each risk using the approved methodology.
-  Record results in {{ risk_register }} and communicate them to
+  {{ risk_assessment_frequency }} that identifies threats and
+  vulnerabilities, including those arising from vendors and
+  subservice organizations, and rates the likelihood and impact of
+  each risk using the approved methodology. Record results in
+  {{ risk_register }} and communicate them to
   {{ results_audience }}.
 summary: >
-  Identify and rate threats and vulnerabilities to in-scope systems on a fixed
-  cadence and record the results in the risk register.
+  Identify and rate threats and vulnerabilities to in-scope systems
+  on a fixed cadence and record the results in the risk register.
 tags:
   - risk-management
   - risk-assessment

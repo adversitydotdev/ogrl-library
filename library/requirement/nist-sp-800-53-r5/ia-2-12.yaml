@@ -13,24 +13,27 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Identification and authentication policy; system security plan; procedures
-          addressing user identification and authentication; system design
-          documentation; system configuration settings and associated documentation;
-          system audit records; PIV verification records; evidence of PIV credentials;
-          PIV credential authorizations; other relevant documents or records
+          Identification and authentication policy; system security
+          plan; procedures addressing user identification and
+          authentication; system design documentation; system
+          configuration settings and associated documentation;
+          system audit records; PIV verification records; evidence
+          of PIV credentials; PIV credential authorizations; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with system operations responsibilities;
-          organizational personnel with account management responsibilities;
-          organizational personnel with information security responsibilities;
-          system/network administrators; system developers
+          Organizational personnel with system operations
+          responsibilities; organizational personnel with account
+          management responsibilities; organizational personnel with
+          information security responsibilities; system/network
+          administrators; system developers
       - method: test
         statement: >
-          Mechanisms supporting and/or implementing acceptance and verification of PIV
-          credentials
+          Mechanisms supporting and/or implementing acceptance and
+          verification of PIV credentials
     statement: >
-      Personal Identity Verification-compliant credentials are accepted and
-      electronically verified.
+      Personal Identity Verification-compliant credentials are
+      accepted and electronically verified.
 statement: >
-  Accept and electronically verify Personal Identity Verification-compliant
-  credentials.
+  Accept and electronically verify Personal Identity
+  Verification-compliant credentials.

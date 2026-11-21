@@ -35,169 +35,191 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Risk assessment policy; risk assessment procedures; security and privacy
-          planning policy and procedures; procedures addressing organizational
-          assessments of risk; risk assessment; risk assessment results; risk
-          assessment reviews; risk assessment updates; system security plan; privacy
-          plan; other relevant documents or records
+          Risk assessment policy; risk assessment procedures;
+          security and privacy planning policy and procedures;
+          procedures addressing organizational assessments of risk;
+          risk assessment; risk assessment results; risk assessment
+          reviews; risk assessment updates; system security plan;
+          privacy plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with risk assessment responsibilities;
-          organizational personnel with security and privacy responsibilities
+          Organizational personnel with risk assessment
+          responsibilities; organizational personnel with security
+          and privacy responsibilities
       - method: test
         statement: >
-          Organizational processes for risk assessment; mechanisms supporting and/or
-          conducting, documenting, reviewing, disseminating, and updating the risk
-          assessment
+          Organizational processes for risk assessment; mechanisms
+          supporting and/or conducting, documenting, reviewing,
+          disseminating, and updating the risk assessment
     statement: >
-      a risk assessment is conducted to identify threats to and vulnerabilities in
-      the system;
+      a risk assessment is conducted to identify threats to and
+      vulnerabilities in the system;
   - id: a.2
     methods:
       - method: examine
         statement: >
-          Risk assessment policy; risk assessment procedures; security and privacy
-          planning policy and procedures; procedures addressing organizational
-          assessments of risk; risk assessment; risk assessment results; risk
-          assessment reviews; risk assessment updates; system security plan; privacy
-          plan; other relevant documents or records
+          Risk assessment policy; risk assessment procedures;
+          security and privacy planning policy and procedures;
+          procedures addressing organizational assessments of risk;
+          risk assessment; risk assessment results; risk assessment
+          reviews; risk assessment updates; system security plan;
+          privacy plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with risk assessment responsibilities;
-          organizational personnel with security and privacy responsibilities
+          Organizational personnel with risk assessment
+          responsibilities; organizational personnel with security
+          and privacy responsibilities
       - method: test
         statement: >
-          Organizational processes for risk assessment; mechanisms supporting and/or
-          conducting, documenting, reviewing, disseminating, and updating the risk
-          assessment
+          Organizational processes for risk assessment; mechanisms
+          supporting and/or conducting, documenting, reviewing,
+          disseminating, and updating the risk assessment
     statement: >
-      a risk assessment is conducted to determine the likelihood and magnitude of
-      harm from unauthorized access, use, disclosure, disruption, modification, or
-      destruction of the system; the information it processes, stores, or
-      transmits; and any related information;
+      a risk assessment is conducted to determine the likelihood and
+      magnitude of harm from unauthorized access, use, disclosure,
+      disruption, modification, or destruction of the system; the
+      information it processes, stores, or transmits; and any
+      related information;
   - id: a.3
     methods:
       - method: examine
         statement: >
-          Risk assessment policy; risk assessment procedures; security and privacy
-          planning policy and procedures; procedures addressing organizational
-          assessments of risk; risk assessment; risk assessment results; risk
-          assessment reviews; risk assessment updates; system security plan; privacy
-          plan; other relevant documents or records
+          Risk assessment policy; risk assessment procedures;
+          security and privacy planning policy and procedures;
+          procedures addressing organizational assessments of risk;
+          risk assessment; risk assessment results; risk assessment
+          reviews; risk assessment updates; system security plan;
+          privacy plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with risk assessment responsibilities;
-          organizational personnel with security and privacy responsibilities
+          Organizational personnel with risk assessment
+          responsibilities; organizational personnel with security
+          and privacy responsibilities
       - method: test
         statement: >
-          Organizational processes for risk assessment; mechanisms supporting and/or
-          conducting, documenting, reviewing, disseminating, and updating the risk
-          assessment
+          Organizational processes for risk assessment; mechanisms
+          supporting and/or conducting, documenting, reviewing,
+          disseminating, and updating the risk assessment
     statement: >
-      a risk assessment is conducted to determine the likelihood and impact of
-      adverse effects on individuals arising from the processing of personally
-      identifiable information;
+      a risk assessment is conducted to determine the likelihood and
+      impact of adverse effects on individuals arising from the
+      processing of personally identifiable information;
   - id: b
     methods:
       - method: examine
         statement: >
-          Risk assessment policy; risk assessment procedures; security and privacy
-          planning policy and procedures; procedures addressing organizational
-          assessments of risk; risk assessment; risk assessment results; risk
-          assessment reviews; risk assessment updates; system security plan; privacy
-          plan; other relevant documents or records
+          Risk assessment policy; risk assessment procedures;
+          security and privacy planning policy and procedures;
+          procedures addressing organizational assessments of risk;
+          risk assessment; risk assessment results; risk assessment
+          reviews; risk assessment updates; system security plan;
+          privacy plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with risk assessment responsibilities;
-          organizational personnel with security and privacy responsibilities
+          Organizational personnel with risk assessment
+          responsibilities; organizational personnel with security
+          and privacy responsibilities
       - method: test
         statement: >
-          Organizational processes for risk assessment; mechanisms supporting and/or
-          conducting, documenting, reviewing, disseminating, and updating the risk
-          assessment
+          Organizational processes for risk assessment; mechanisms
+          supporting and/or conducting, documenting, reviewing,
+          disseminating, and updating the risk assessment
     statement: >
-      risk assessment results and risk management decisions from the organization
-      and mission or business process perspectives are integrated with
-      system-level risk assessments;
+      risk assessment results and risk management decisions from the
+      organization and mission or business process perspectives are
+      integrated with system-level risk assessments;
   - id: c
     methods:
       - method: examine
         statement: >
-          Risk assessment policy; risk assessment procedures; security and privacy
-          planning policy and procedures; procedures addressing organizational
-          assessments of risk; risk assessment; risk assessment results; risk
-          assessment reviews; risk assessment updates; system security plan; privacy
-          plan; other relevant documents or records
+          Risk assessment policy; risk assessment procedures;
+          security and privacy planning policy and procedures;
+          procedures addressing organizational assessments of risk;
+          risk assessment; risk assessment results; risk assessment
+          reviews; risk assessment updates; system security plan;
+          privacy plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with risk assessment responsibilities;
-          organizational personnel with security and privacy responsibilities
+          Organizational personnel with risk assessment
+          responsibilities; organizational personnel with security
+          and privacy responsibilities
       - method: test
         statement: >
-          Organizational processes for risk assessment; mechanisms supporting and/or
-          conducting, documenting, reviewing, disseminating, and updating the risk
-          assessment
-    statement: "risk assessment results are documented in {{ ra_03_odp_01 }};"
+          Organizational processes for risk assessment; mechanisms
+          supporting and/or conducting, documenting, reviewing,
+          disseminating, and updating the risk assessment
+    statement: >-
+      risk assessment results are documented in {{ ra_03_odp_01 }};
   - id: d
     methods:
       - method: examine
         statement: >
-          Risk assessment policy; risk assessment procedures; security and privacy
-          planning policy and procedures; procedures addressing organizational
-          assessments of risk; risk assessment; risk assessment results; risk
-          assessment reviews; risk assessment updates; system security plan; privacy
-          plan; other relevant documents or records
+          Risk assessment policy; risk assessment procedures;
+          security and privacy planning policy and procedures;
+          procedures addressing organizational assessments of risk;
+          risk assessment; risk assessment results; risk assessment
+          reviews; risk assessment updates; system security plan;
+          privacy plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with risk assessment responsibilities;
-          organizational personnel with security and privacy responsibilities
+          Organizational personnel with risk assessment
+          responsibilities; organizational personnel with security
+          and privacy responsibilities
       - method: test
         statement: >
-          Organizational processes for risk assessment; mechanisms supporting and/or
-          conducting, documenting, reviewing, disseminating, and updating the risk
-          assessment
-    statement: "risk assessment results are reviewed {{ ra_03_odp_03 }};"
+          Organizational processes for risk assessment; mechanisms
+          supporting and/or conducting, documenting, reviewing,
+          disseminating, and updating the risk assessment
+    statement: >-
+      risk assessment results are reviewed {{ ra_03_odp_03 }};
   - id: e
     methods:
       - method: examine
         statement: >
-          Risk assessment policy; risk assessment procedures; security and privacy
-          planning policy and procedures; procedures addressing organizational
-          assessments of risk; risk assessment; risk assessment results; risk
-          assessment reviews; risk assessment updates; system security plan; privacy
-          plan; other relevant documents or records
+          Risk assessment policy; risk assessment procedures;
+          security and privacy planning policy and procedures;
+          procedures addressing organizational assessments of risk;
+          risk assessment; risk assessment results; risk assessment
+          reviews; risk assessment updates; system security plan;
+          privacy plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with risk assessment responsibilities;
-          organizational personnel with security and privacy responsibilities
+          Organizational personnel with risk assessment
+          responsibilities; organizational personnel with security
+          and privacy responsibilities
       - method: test
         statement: >
-          Organizational processes for risk assessment; mechanisms supporting and/or
-          conducting, documenting, reviewing, disseminating, and updating the risk
-          assessment
-    statement: "risk assessment results are disseminated to {{ ra_03_odp_04 }};"
+          Organizational processes for risk assessment; mechanisms
+          supporting and/or conducting, documenting, reviewing,
+          disseminating, and updating the risk assessment
+    statement: >-
+      risk assessment results are disseminated to
+      {{ ra_03_odp_04 }};
   - id: f
     methods:
       - method: examine
         statement: >
-          Risk assessment policy; risk assessment procedures; security and privacy
-          planning policy and procedures; procedures addressing organizational
-          assessments of risk; risk assessment; risk assessment results; risk
-          assessment reviews; risk assessment updates; system security plan; privacy
-          plan; other relevant documents or records
+          Risk assessment policy; risk assessment procedures;
+          security and privacy planning policy and procedures;
+          procedures addressing organizational assessments of risk;
+          risk assessment; risk assessment results; risk assessment
+          reviews; risk assessment updates; system security plan;
+          privacy plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with risk assessment responsibilities;
-          organizational personnel with security and privacy responsibilities
+          Organizational personnel with risk assessment
+          responsibilities; organizational personnel with security
+          and privacy responsibilities
       - method: test
         statement: >
-          Organizational processes for risk assessment; mechanisms supporting and/or
-          conducting, documenting, reviewing, disseminating, and updating the risk
-          assessment
+          Organizational processes for risk assessment; mechanisms
+          supporting and/or conducting, documenting, reviewing,
+          disseminating, and updating the risk assessment
     statement: >
-      the risk assessment is updated {{ ra_03_odp_05 }} or when there are
-      significant changes to the system, its environment of operation, or other
-      conditions that may impact the security or privacy state of the system.
+      the risk assessment is updated {{ ra_03_odp_05 }} or when
+      there are significant changes to the system, its environment
+      of operation, or other conditions that may impact the security
+      or privacy state of the system.
 parameters:
   ra_03_odp_01:
     label: ra-03_odp.01
@@ -213,30 +235,37 @@ parts:
   - id: a
     statement: "Conduct a risk assessment, including:"
   - id: a.1
-    statement: Identifying threats to and vulnerabilities in the system;
+    statement: >-
+      Identifying threats to and vulnerabilities in the system;
   - id: a.2
     statement: >
-      Determining the likelihood and magnitude of harm from unauthorized access,
-      use, disclosure, disruption, modification, or destruction of the system, the
-      information it processes, stores, or transmits, and any related information;
+      Determining the likelihood and magnitude of harm from
+      unauthorized access, use, disclosure, disruption,
+      modification, or destruction of the system, the information it
+      processes, stores, or transmits, and any related information;
       and
   - id: a.3
     statement: >
-      Determining the likelihood and impact of adverse effects on individuals
-      arising from the processing of personally identifiable information;
+      Determining the likelihood and impact of adverse effects on
+      individuals arising from the processing of personally
+      identifiable information;
   - id: b
     statement: >
-      Integrate risk assessment results and risk management decisions from the
-      organization and mission or business process perspectives with system-level
-      risk assessments;
+      Integrate risk assessment results and risk management
+      decisions from the organization and mission or business
+      process perspectives with system-level risk assessments;
   - id: c
-    statement: "Document risk assessment results in {{ ra_03_odp_01 }};"
+    statement: >-
+      Document risk assessment results in {{ ra_03_odp_01 }};
   - id: d
     statement: "Review risk assessment results {{ ra_03_odp_03 }};"
   - id: e
-    statement: "Disseminate risk assessment results to {{ ra_03_odp_04 }} ; and"
+    statement: >-
+      Disseminate risk assessment results to {{ ra_03_odp_04 }} ;
+      and
   - id: f
     statement: >
-      Update the risk assessment {{ ra_03_odp_05 }} or when there are significant
-      changes to the system, its environment of operation, or other conditions
-      that may impact the security or privacy state of the system.
+      Update the risk assessment {{ ra_03_odp_05 }} or when there
+      are significant changes to the system, its environment of
+      operation, or other conditions that may impact the security or
+      privacy state of the system.

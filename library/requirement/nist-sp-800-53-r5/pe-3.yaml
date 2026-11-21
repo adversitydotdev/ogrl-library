@@ -29,254 +29,319 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Physical and environmental protection policy; procedures addressing physical
-          access control; physical access control logs or records; inventory records
-          of physical access control devices; system entry and exit points; records of
-          key and lock combination changes; storage locations for physical access
-          control devices; physical access control devices; list of security
-          safeguards controlling access to designated publicly accessible areas within
-          facility; system security plan; other relevant documents or records
+          Physical and environmental protection policy; procedures
+          addressing physical access control; physical access
+          control logs or records; inventory records of physical
+          access control devices; system entry and exit points;
+          records of key and lock combination changes; storage
+          locations for physical access control devices; physical
+          access control devices; list of security safeguards
+          controlling access to designated publicly accessible areas
+          within facility; system security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with physical access control responsibilities;
-          organizational personnel with information security responsibilities
+          Organizational personnel with physical access control
+          responsibilities; organizational personnel with
+          information security responsibilities
       - method: test
         statement: >
-          Organizational processes for physical access control; mechanisms supporting
-          and/or implementing physical access control; physical access control devices
+          Organizational processes for physical access control;
+          mechanisms supporting and/or implementing physical access
+          control; physical access control devices
     statement: >
-      physical access authorizations are enforced at {{ pe_03_odp_01 }} by
-      verifying individual access authorizations before granting access to the
-      facility;
+      physical access authorizations are enforced at
+      {{ pe_03_odp_01 }} by verifying individual access
+      authorizations before granting access to the facility;
   - id: a.2
     methods:
       - method: examine
         statement: >
-          Physical and environmental protection policy; procedures addressing physical
-          access control; physical access control logs or records; inventory records
-          of physical access control devices; system entry and exit points; records of
-          key and lock combination changes; storage locations for physical access
-          control devices; physical access control devices; list of security
-          safeguards controlling access to designated publicly accessible areas within
-          facility; system security plan; other relevant documents or records
+          Physical and environmental protection policy; procedures
+          addressing physical access control; physical access
+          control logs or records; inventory records of physical
+          access control devices; system entry and exit points;
+          records of key and lock combination changes; storage
+          locations for physical access control devices; physical
+          access control devices; list of security safeguards
+          controlling access to designated publicly accessible areas
+          within facility; system security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with physical access control responsibilities;
-          organizational personnel with information security responsibilities
+          Organizational personnel with physical access control
+          responsibilities; organizational personnel with
+          information security responsibilities
       - method: test
         statement: >
-          Organizational processes for physical access control; mechanisms supporting
-          and/or implementing physical access control; physical access control devices
+          Organizational processes for physical access control;
+          mechanisms supporting and/or implementing physical access
+          control; physical access control devices
     statement: >
-      physical access authorizations are enforced at {{ pe_03_odp_01 }} by
-      controlling ingress and egress to the facility using {{ pe_03_odp_02 }};
+      physical access authorizations are enforced at
+      {{ pe_03_odp_01 }} by controlling ingress and egress to the
+      facility using {{ pe_03_odp_02 }};
   - id: b
     methods:
       - method: examine
         statement: >
-          Physical and environmental protection policy; procedures addressing physical
-          access control; physical access control logs or records; inventory records
-          of physical access control devices; system entry and exit points; records of
-          key and lock combination changes; storage locations for physical access
-          control devices; physical access control devices; list of security
-          safeguards controlling access to designated publicly accessible areas within
-          facility; system security plan; other relevant documents or records
+          Physical and environmental protection policy; procedures
+          addressing physical access control; physical access
+          control logs or records; inventory records of physical
+          access control devices; system entry and exit points;
+          records of key and lock combination changes; storage
+          locations for physical access control devices; physical
+          access control devices; list of security safeguards
+          controlling access to designated publicly accessible areas
+          within facility; system security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with physical access control responsibilities;
-          organizational personnel with information security responsibilities
+          Organizational personnel with physical access control
+          responsibilities; organizational personnel with
+          information security responsibilities
       - method: test
         statement: >
-          Organizational processes for physical access control; mechanisms supporting
-          and/or implementing physical access control; physical access control devices
-    statement: "physical access audit logs are maintained for {{ pe_03_odp_04 }};"
+          Organizational processes for physical access control;
+          mechanisms supporting and/or implementing physical access
+          control; physical access control devices
+    statement: >-
+      physical access audit logs are maintained for
+      {{ pe_03_odp_04 }};
   - id: c
     methods:
       - method: examine
         statement: >
-          Physical and environmental protection policy; procedures addressing physical
-          access control; physical access control logs or records; inventory records
-          of physical access control devices; system entry and exit points; records of
-          key and lock combination changes; storage locations for physical access
-          control devices; physical access control devices; list of security
-          safeguards controlling access to designated publicly accessible areas within
-          facility; system security plan; other relevant documents or records
+          Physical and environmental protection policy; procedures
+          addressing physical access control; physical access
+          control logs or records; inventory records of physical
+          access control devices; system entry and exit points;
+          records of key and lock combination changes; storage
+          locations for physical access control devices; physical
+          access control devices; list of security safeguards
+          controlling access to designated publicly accessible areas
+          within facility; system security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with physical access control responsibilities;
-          organizational personnel with information security responsibilities
+          Organizational personnel with physical access control
+          responsibilities; organizational personnel with
+          information security responsibilities
       - method: test
         statement: >
-          Organizational processes for physical access control; mechanisms supporting
-          and/or implementing physical access control; physical access control devices
+          Organizational processes for physical access control;
+          mechanisms supporting and/or implementing physical access
+          control; physical access control devices
     statement: >
-      access to areas within the facility designated as publicly accessible are
-      maintained by implementing {{ pe_03_odp_05 }};
+      access to areas within the facility designated as publicly
+      accessible are maintained by implementing {{ pe_03_odp_05 }};
   - id: d-1
     methods:
       - method: examine
         statement: >
-          Physical and environmental protection policy; procedures addressing physical
-          access control; physical access control logs or records; inventory records
-          of physical access control devices; system entry and exit points; records of
-          key and lock combination changes; storage locations for physical access
-          control devices; physical access control devices; list of security
-          safeguards controlling access to designated publicly accessible areas within
-          facility; system security plan; other relevant documents or records
+          Physical and environmental protection policy; procedures
+          addressing physical access control; physical access
+          control logs or records; inventory records of physical
+          access control devices; system entry and exit points;
+          records of key and lock combination changes; storage
+          locations for physical access control devices; physical
+          access control devices; list of security safeguards
+          controlling access to designated publicly accessible areas
+          within facility; system security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with physical access control responsibilities;
-          organizational personnel with information security responsibilities
+          Organizational personnel with physical access control
+          responsibilities; organizational personnel with
+          information security responsibilities
       - method: test
         statement: >
-          Organizational processes for physical access control; mechanisms supporting
-          and/or implementing physical access control; physical access control devices
+          Organizational processes for physical access control;
+          mechanisms supporting and/or implementing physical access
+          control; physical access control devices
     statement: visitors are escorted;
   - id: d-2
     methods:
       - method: examine
         statement: >
-          Physical and environmental protection policy; procedures addressing physical
-          access control; physical access control logs or records; inventory records
-          of physical access control devices; system entry and exit points; records of
-          key and lock combination changes; storage locations for physical access
-          control devices; physical access control devices; list of security
-          safeguards controlling access to designated publicly accessible areas within
-          facility; system security plan; other relevant documents or records
+          Physical and environmental protection policy; procedures
+          addressing physical access control; physical access
+          control logs or records; inventory records of physical
+          access control devices; system entry and exit points;
+          records of key and lock combination changes; storage
+          locations for physical access control devices; physical
+          access control devices; list of security safeguards
+          controlling access to designated publicly accessible areas
+          within facility; system security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with physical access control responsibilities;
-          organizational personnel with information security responsibilities
+          Organizational personnel with physical access control
+          responsibilities; organizational personnel with
+          information security responsibilities
       - method: test
         statement: >
-          Organizational processes for physical access control; mechanisms supporting
-          and/or implementing physical access control; physical access control devices
+          Organizational processes for physical access control;
+          mechanisms supporting and/or implementing physical access
+          control; physical access control devices
     statement: "visitor activity is controlled {{ pe_03_odp_06 }};"
   - id: e-1
     methods:
       - method: examine
         statement: >
-          Physical and environmental protection policy; procedures addressing physical
-          access control; physical access control logs or records; inventory records
-          of physical access control devices; system entry and exit points; records of
-          key and lock combination changes; storage locations for physical access
-          control devices; physical access control devices; list of security
-          safeguards controlling access to designated publicly accessible areas within
-          facility; system security plan; other relevant documents or records
+          Physical and environmental protection policy; procedures
+          addressing physical access control; physical access
+          control logs or records; inventory records of physical
+          access control devices; system entry and exit points;
+          records of key and lock combination changes; storage
+          locations for physical access control devices; physical
+          access control devices; list of security safeguards
+          controlling access to designated publicly accessible areas
+          within facility; system security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with physical access control responsibilities;
-          organizational personnel with information security responsibilities
+          Organizational personnel with physical access control
+          responsibilities; organizational personnel with
+          information security responsibilities
       - method: test
         statement: >
-          Organizational processes for physical access control; mechanisms supporting
-          and/or implementing physical access control; physical access control devices
+          Organizational processes for physical access control;
+          mechanisms supporting and/or implementing physical access
+          control; physical access control devices
     statement: keys are secured;
   - id: e-2
     methods:
       - method: examine
         statement: >
-          Physical and environmental protection policy; procedures addressing physical
-          access control; physical access control logs or records; inventory records
-          of physical access control devices; system entry and exit points; records of
-          key and lock combination changes; storage locations for physical access
-          control devices; physical access control devices; list of security
-          safeguards controlling access to designated publicly accessible areas within
-          facility; system security plan; other relevant documents or records
+          Physical and environmental protection policy; procedures
+          addressing physical access control; physical access
+          control logs or records; inventory records of physical
+          access control devices; system entry and exit points;
+          records of key and lock combination changes; storage
+          locations for physical access control devices; physical
+          access control devices; list of security safeguards
+          controlling access to designated publicly accessible areas
+          within facility; system security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with physical access control responsibilities;
-          organizational personnel with information security responsibilities
+          Organizational personnel with physical access control
+          responsibilities; organizational personnel with
+          information security responsibilities
       - method: test
         statement: >
-          Organizational processes for physical access control; mechanisms supporting
-          and/or implementing physical access control; physical access control devices
+          Organizational processes for physical access control;
+          mechanisms supporting and/or implementing physical access
+          control; physical access control devices
     statement: combinations are secured;
   - id: e-3
     methods:
       - method: examine
         statement: >
-          Physical and environmental protection policy; procedures addressing physical
-          access control; physical access control logs or records; inventory records
-          of physical access control devices; system entry and exit points; records of
-          key and lock combination changes; storage locations for physical access
-          control devices; physical access control devices; list of security
-          safeguards controlling access to designated publicly accessible areas within
-          facility; system security plan; other relevant documents or records
+          Physical and environmental protection policy; procedures
+          addressing physical access control; physical access
+          control logs or records; inventory records of physical
+          access control devices; system entry and exit points;
+          records of key and lock combination changes; storage
+          locations for physical access control devices; physical
+          access control devices; list of security safeguards
+          controlling access to designated publicly accessible areas
+          within facility; system security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with physical access control responsibilities;
-          organizational personnel with information security responsibilities
+          Organizational personnel with physical access control
+          responsibilities; organizational personnel with
+          information security responsibilities
       - method: test
         statement: >
-          Organizational processes for physical access control; mechanisms supporting
-          and/or implementing physical access control; physical access control devices
+          Organizational processes for physical access control;
+          mechanisms supporting and/or implementing physical access
+          control; physical access control devices
     statement: other physical access devices are secured;
   - id: f
     methods:
       - method: examine
         statement: >
-          Physical and environmental protection policy; procedures addressing physical
-          access control; physical access control logs or records; inventory records
-          of physical access control devices; system entry and exit points; records of
-          key and lock combination changes; storage locations for physical access
-          control devices; physical access control devices; list of security
-          safeguards controlling access to designated publicly accessible areas within
-          facility; system security plan; other relevant documents or records
+          Physical and environmental protection policy; procedures
+          addressing physical access control; physical access
+          control logs or records; inventory records of physical
+          access control devices; system entry and exit points;
+          records of key and lock combination changes; storage
+          locations for physical access control devices; physical
+          access control devices; list of security safeguards
+          controlling access to designated publicly accessible areas
+          within facility; system security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with physical access control responsibilities;
-          organizational personnel with information security responsibilities
+          Organizational personnel with physical access control
+          responsibilities; organizational personnel with
+          information security responsibilities
       - method: test
         statement: >
-          Organizational processes for physical access control; mechanisms supporting
-          and/or implementing physical access control; physical access control devices
-    statement: "{{ pe_03_odp_07 }} are inventoried {{ pe_03_odp_08 }};"
+          Organizational processes for physical access control;
+          mechanisms supporting and/or implementing physical access
+          control; physical access control devices
+    statement: >-
+      {{ pe_03_odp_07 }} are inventoried {{ pe_03_odp_08 }};
   - id: g-1
     methods:
       - method: examine
         statement: >
-          Physical and environmental protection policy; procedures addressing physical
-          access control; physical access control logs or records; inventory records
-          of physical access control devices; system entry and exit points; records of
-          key and lock combination changes; storage locations for physical access
-          control devices; physical access control devices; list of security
-          safeguards controlling access to designated publicly accessible areas within
-          facility; system security plan; other relevant documents or records
+          Physical and environmental protection policy; procedures
+          addressing physical access control; physical access
+          control logs or records; inventory records of physical
+          access control devices; system entry and exit points;
+          records of key and lock combination changes; storage
+          locations for physical access control devices; physical
+          access control devices; list of security safeguards
+          controlling access to designated publicly accessible areas
+          within facility; system security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with physical access control responsibilities;
-          organizational personnel with information security responsibilities
+          Organizational personnel with physical access control
+          responsibilities; organizational personnel with
+          information security responsibilities
       - method: test
         statement: >
-          Organizational processes for physical access control; mechanisms supporting
-          and/or implementing physical access control; physical access control devices
+          Organizational processes for physical access control;
+          mechanisms supporting and/or implementing physical access
+          control; physical access control devices
     statement: >
-      combinations are changed {{ pe_03_odp_09 }} , when combinations are
-      compromised, or when individuals possessing the combinations are transferred
-      or terminated;
+      combinations are changed {{ pe_03_odp_09 }} , when
+      combinations are compromised, or when individuals possessing
+      the combinations are transferred or terminated;
   - id: g-2
     methods:
       - method: examine
         statement: >
-          Physical and environmental protection policy; procedures addressing physical
-          access control; physical access control logs or records; inventory records
-          of physical access control devices; system entry and exit points; records of
-          key and lock combination changes; storage locations for physical access
-          control devices; physical access control devices; list of security
-          safeguards controlling access to designated publicly accessible areas within
-          facility; system security plan; other relevant documents or records
+          Physical and environmental protection policy; procedures
+          addressing physical access control; physical access
+          control logs or records; inventory records of physical
+          access control devices; system entry and exit points;
+          records of key and lock combination changes; storage
+          locations for physical access control devices; physical
+          access control devices; list of security safeguards
+          controlling access to designated publicly accessible areas
+          within facility; system security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with physical access control responsibilities;
-          organizational personnel with information security responsibilities
+          Organizational personnel with physical access control
+          responsibilities; organizational personnel with
+          information security responsibilities
       - method: test
         statement: >
-          Organizational processes for physical access control; mechanisms supporting
-          and/or implementing physical access control; physical access control devices
+          Organizational processes for physical access control;
+          mechanisms supporting and/or implementing physical access
+          control; physical access control devices
     statement: >
-      keys are changed {{ pe_03_odp_10 }} , when keys are lost, or when
-      individuals possessing the keys are transferred or terminated.
+      keys are changed {{ pe_03_odp_10 }} , when keys are lost, or
+      when individuals possessing the keys are transferred or
+      terminated.
 parameters:
   pe_03_odp_01:
     label: entry and exit points
@@ -302,27 +367,38 @@ parameters:
     label: organization-defined frequency
 parts:
   - id: a
-    statement: "Enforce physical access authorizations at {{ pe_03_odp_01 }} by:"
+    statement: >-
+      Enforce physical access authorizations at {{ pe_03_odp_01 }}
+      by:
   - id: a.1
     statement: >
-      Verifying individual access authorizations before granting access to the
-      facility; and
+      Verifying individual access authorizations before granting
+      access to the facility; and
   - id: a.2
-    statement: "Controlling ingress and egress to the facility using {{ pe_03_odp_02 }};"
+    statement: >-
+      Controlling ingress and egress to the facility using
+      {{ pe_03_odp_02 }};
   - id: b
-    statement: "Maintain physical access audit logs for {{ pe_03_odp_04 }};"
+    statement: >-
+      Maintain physical access audit logs for {{ pe_03_odp_04 }};
   - id: c
     statement: >
-      Control access to areas within the facility designated as publicly
-      accessible by implementing the following controls: {{ pe_03_odp_05 }};
+      Control access to areas within the facility designated as
+      publicly accessible by implementing the following controls:
+      {{ pe_03_odp_05 }};
   - id: d
-    statement: "Escort visitors and control visitor activity {{ pe_03_odp_06 }};"
+    statement: >-
+      Escort visitors and control visitor activity
+      {{ pe_03_odp_06 }};
   - id: e
-    statement: "Secure keys, combinations, and other physical access devices;"
+    statement: >-
+      Secure keys, combinations, and other physical access devices;
   - id: f
-    statement: "Inventory {{ pe_03_odp_07 }} every {{ pe_03_odp_08 }} ; and"
+    statement: >-
+      Inventory {{ pe_03_odp_07 }} every {{ pe_03_odp_08 }} ; and
   - id: g
     statement: >
-      Change combinations and keys {{ pe_3_prm_9 }} and/or when keys are lost,
-      combinations are compromised, or when individuals possessing the keys or
-      combinations are transferred or terminated.
+      Change combinations and keys {{ pe_3_prm_9 }} and/or when keys
+      are lost, combinations are compromised, or when individuals
+      possessing the keys or combinations are transferred or
+      terminated.

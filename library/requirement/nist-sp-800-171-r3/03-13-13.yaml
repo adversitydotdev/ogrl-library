@@ -17,99 +17,116 @@ objectives:
     methods:
       - method: examine
         statement: >
-          system and communications protection policy and procedures; procedures for
-          mobile code; mobile code implementation policy and procedures; list of
-          acceptable mobile code and mobile code technologies; authorization records;
-          system monitoring records; system audit records; system security plan; other
-          relevant documents or records
+          system and communications protection policy and
+          procedures; procedures for mobile code; mobile code
+          implementation policy and procedures; list of acceptable
+          mobile code and mobile code technologies; authorization
+          records; system monitoring records; system audit records;
+          system security plan; other relevant documents or records
       - method: interview
         statement: >
-          personnel with responsibilities for managing mobile code; personnel with
-          information security responsibilities; system administrators
+          personnel with responsibilities for managing mobile code;
+          personnel with information security responsibilities;
+          system administrators
       - method: test
         statement: >
-          processes for authorizing, monitoring, and controlling mobile code;
-          mechanisms for supporting or implementing the management of mobile code;
-          mechanisms for supporting or implementing mobile code monitoring
+          processes for authorizing, monitoring, and controlling
+          mobile code; mechanisms for supporting or implementing the
+          management of mobile code; mechanisms for supporting or
+          implementing mobile code monitoring
     statement: the use of mobile code is authorized.
   - id: b.02
     methods:
       - method: examine
         statement: >
-          system and communications protection policy and procedures; procedures for
-          mobile code; mobile code implementation policy and procedures; list of
-          acceptable mobile code and mobile code technologies; authorization records;
-          system monitoring records; system audit records; system security plan; other
-          relevant documents or records
+          system and communications protection policy and
+          procedures; procedures for mobile code; mobile code
+          implementation policy and procedures; list of acceptable
+          mobile code and mobile code technologies; authorization
+          records; system monitoring records; system audit records;
+          system security plan; other relevant documents or records
       - method: interview
         statement: >
-          personnel with responsibilities for managing mobile code; personnel with
-          information security responsibilities; system administrators
+          personnel with responsibilities for managing mobile code;
+          personnel with information security responsibilities;
+          system administrators
       - method: test
         statement: >
-          processes for authorizing, monitoring, and controlling mobile code;
-          mechanisms for supporting or implementing the management of mobile code;
-          mechanisms for supporting or implementing mobile code monitoring
+          processes for authorizing, monitoring, and controlling
+          mobile code; mechanisms for supporting or implementing the
+          management of mobile code; mechanisms for supporting or
+          implementing mobile code monitoring
     statement: the use of mobile code is monitored.
   - id: b.03
     methods:
       - method: examine
         statement: >
-          system and communications protection policy and procedures; procedures for
-          mobile code; mobile code implementation policy and procedures; list of
-          acceptable mobile code and mobile code technologies; authorization records;
-          system monitoring records; system audit records; system security plan; other
-          relevant documents or records
+          system and communications protection policy and
+          procedures; procedures for mobile code; mobile code
+          implementation policy and procedures; list of acceptable
+          mobile code and mobile code technologies; authorization
+          records; system monitoring records; system audit records;
+          system security plan; other relevant documents or records
       - method: interview
         statement: >
-          personnel with responsibilities for managing mobile code; personnel with
-          information security responsibilities; system administrators
+          personnel with responsibilities for managing mobile code;
+          personnel with information security responsibilities;
+          system administrators
       - method: test
         statement: >
-          processes for authorizing, monitoring, and controlling mobile code;
-          mechanisms for supporting or implementing the management of mobile code;
-          mechanisms for supporting or implementing mobile code monitoring
+          processes for authorizing, monitoring, and controlling
+          mobile code; mechanisms for supporting or implementing the
+          management of mobile code; mechanisms for supporting or
+          implementing mobile code monitoring
     statement: the use of mobile code is controlled.
   - id: a.01
     methods:
       - method: examine
         statement: >
-          system and communications protection policy and procedures; procedures for
-          mobile code; mobile code implementation policy and procedures; list of
-          acceptable mobile code and mobile code technologies; authorization records;
-          system monitoring records; system audit records; system security plan; other
-          relevant documents or records
+          system and communications protection policy and
+          procedures; procedures for mobile code; mobile code
+          implementation policy and procedures; list of acceptable
+          mobile code and mobile code technologies; authorization
+          records; system monitoring records; system audit records;
+          system security plan; other relevant documents or records
       - method: interview
         statement: >
-          personnel with responsibilities for managing mobile code; personnel with
-          information security responsibilities; system administrators
+          personnel with responsibilities for managing mobile code;
+          personnel with information security responsibilities;
+          system administrators
       - method: test
         statement: >
-          processes for authorizing, monitoring, and controlling mobile code;
-          mechanisms for supporting or implementing the management of mobile code;
-          mechanisms for supporting or implementing mobile code monitoring
+          processes for authorizing, monitoring, and controlling
+          mobile code; mechanisms for supporting or implementing the
+          management of mobile code; mechanisms for supporting or
+          implementing mobile code monitoring
     statement: acceptable mobile code is defined.
   - id: a.02
     methods:
       - method: examine
         statement: >
-          system and communications protection policy and procedures; procedures for
-          mobile code; mobile code implementation policy and procedures; list of
-          acceptable mobile code and mobile code technologies; authorization records;
-          system monitoring records; system audit records; system security plan; other
-          relevant documents or records
+          system and communications protection policy and
+          procedures; procedures for mobile code; mobile code
+          implementation policy and procedures; list of acceptable
+          mobile code and mobile code technologies; authorization
+          records; system monitoring records; system audit records;
+          system security plan; other relevant documents or records
       - method: interview
         statement: >
-          personnel with responsibilities for managing mobile code; personnel with
-          information security responsibilities; system administrators
+          personnel with responsibilities for managing mobile code;
+          personnel with information security responsibilities;
+          system administrators
       - method: test
         statement: >
-          processes for authorizing, monitoring, and controlling mobile code;
-          mechanisms for supporting or implementing the management of mobile code;
-          mechanisms for supporting or implementing mobile code monitoring
+          processes for authorizing, monitoring, and controlling
+          mobile code; mechanisms for supporting or implementing the
+          management of mobile code; mechanisms for supporting or
+          implementing mobile code monitoring
     statement: acceptable mobile code technologies are defined.
 parts:
   - id: a
-    statement: Define acceptable mobile code and mobile code technologies.
+    statement: >-
+      Define acceptable mobile code and mobile code technologies.
   - id: b
-    statement: "Authorize, monitor, and control the use of mobile code."
+    statement: >-
+      Authorize, monitor, and control the use of mobile code.

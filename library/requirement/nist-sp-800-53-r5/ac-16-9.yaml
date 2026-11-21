@@ -13,42 +13,52 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing reassignment of security
-          attributes to information; system design documentation; system configuration
-          settings and associated documentation; system audit records; system security
-          plan; privacy plan; other relevant documents or records
+          Access control policy; procedures addressing reassignment
+          of security attributes to information; system design
+          documentation; system configuration settings and
+          associated documentation; system audit records; system
+          security plan; privacy plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          Organizational personnel with responsibilities for reassigning association
-          of security and privacy attributes to information; organizational personnel
-          with information security and privacy responsibilities; system developers
+          Organizational personnel with responsibilities for
+          reassigning association of security and privacy attributes
+          to information; organizational personnel with information
+          security and privacy responsibilities; system developers
       - method: test
         statement: >
-          Mechanisms implementing techniques or procedures for reassigning association
-          of security and privacy attributes to information
+          Mechanisms implementing techniques or procedures for
+          reassigning association of security and privacy attributes
+          to information
     statement: >
-      security attributes associated with information are changed only via
-      regrading mechanisms validated using {{ ac_16_09_odp_01 }};
+      security attributes associated with information are changed
+      only via regrading mechanisms validated using
+      {{ ac_16_09_odp_01 }};
   - id: "ac-16(09).ac-16(09)[02]"
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing reassignment of security
-          attributes to information; system design documentation; system configuration
-          settings and associated documentation; system audit records; system security
-          plan; privacy plan; other relevant documents or records
+          Access control policy; procedures addressing reassignment
+          of security attributes to information; system design
+          documentation; system configuration settings and
+          associated documentation; system audit records; system
+          security plan; privacy plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          Organizational personnel with responsibilities for reassigning association
-          of security and privacy attributes to information; organizational personnel
-          with information security and privacy responsibilities; system developers
+          Organizational personnel with responsibilities for
+          reassigning association of security and privacy attributes
+          to information; organizational personnel with information
+          security and privacy responsibilities; system developers
       - method: test
         statement: >
-          Mechanisms implementing techniques or procedures for reassigning association
-          of security and privacy attributes to information
+          Mechanisms implementing techniques or procedures for
+          reassigning association of security and privacy attributes
+          to information
     statement: >
-      privacy attributes associated with information are changed only via
-      regrading mechanisms validated using {{ ac_16_09_odp_02 }}.
+      privacy attributes associated with information are changed
+      only via regrading mechanisms validated using
+      {{ ac_16_09_odp_02 }}.
 parameters:
   ac_16_09_odp_01:
     label: techniques or procedures
@@ -57,5 +67,5 @@ parameters:
   ac_16_9_prm_1:
     label: organization-defined techniques or procedures
 statement: >
-  Change security and privacy attributes associated with information only via
-  regrading mechanisms validated using {{ ac_16_9_prm_1 }}.
+  Change security and privacy attributes associated with information
+  only via regrading mechanisms validated using {{ ac_16_9_prm_1 }}.

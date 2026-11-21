@@ -9,6 +9,6 @@ relationship: equivalent-to
 review_status: draft
 source_ref: control--ogrl-gv-01
 summary: >
-  Restricting policy modification to owners in a controlled repository
-  protects the plan from unauthorized change.
+  Restricting policy modification to owners in a controlled
+  repository protects the plan from unauthorized change.
 target_ref: "requirement--nist-sp-800-53-r5-pm-1#c"

@@ -17,92 +17,107 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Physical and environmental protection policy; procedures addressing
-          alternate work sites for organizational personnel; list of security controls
-          required for alternate work sites; assessments of security controls at
-          alternate work sites; system security plan; privacy plan; other relevant
-          documents or records
+          Physical and environmental protection policy; procedures
+          addressing alternate work sites for organizational
+          personnel; list of security controls required for
+          alternate work sites; assessments of security controls at
+          alternate work sites; system security plan; privacy plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel approving the use of alternate work sites;
-          organizational personnel using alternate work sites; organizational
-          personnel assessing controls at alternate work sites; organizational
-          personnel with information security and privacy responsibilities
+          Organizational personnel approving the use of alternate
+          work sites; organizational personnel using alternate work
+          sites; organizational personnel assessing controls at
+          alternate work sites; organizational personnel with
+          information security and privacy responsibilities
       - method: test
         statement: >
-          Organizational processes for security and privacy at alternate work sites;
-          mechanisms supporting alternate work sites; security and privacy controls
-          employed at alternate work sites; means of communication between personnel
-          at alternate work sites and security and privacy personnel
+          Organizational processes for security and privacy at
+          alternate work sites; mechanisms supporting alternate work
+          sites; security and privacy controls employed at alternate
+          work sites; means of communication between personnel at
+          alternate work sites and security and privacy personnel
     statement: "{{ pe_17_odp_01 }} are determined and documented;"
   - id: b
     methods:
       - method: examine
         statement: >
-          Physical and environmental protection policy; procedures addressing
-          alternate work sites for organizational personnel; list of security controls
-          required for alternate work sites; assessments of security controls at
-          alternate work sites; system security plan; privacy plan; other relevant
-          documents or records
+          Physical and environmental protection policy; procedures
+          addressing alternate work sites for organizational
+          personnel; list of security controls required for
+          alternate work sites; assessments of security controls at
+          alternate work sites; system security plan; privacy plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel approving the use of alternate work sites;
-          organizational personnel using alternate work sites; organizational
-          personnel assessing controls at alternate work sites; organizational
-          personnel with information security and privacy responsibilities
+          Organizational personnel approving the use of alternate
+          work sites; organizational personnel using alternate work
+          sites; organizational personnel assessing controls at
+          alternate work sites; organizational personnel with
+          information security and privacy responsibilities
       - method: test
         statement: >
-          Organizational processes for security and privacy at alternate work sites;
-          mechanisms supporting alternate work sites; security and privacy controls
-          employed at alternate work sites; means of communication between personnel
-          at alternate work sites and security and privacy personnel
-    statement: "{{ pe_17_odp_02 }} are employed at alternate work sites;"
+          Organizational processes for security and privacy at
+          alternate work sites; mechanisms supporting alternate work
+          sites; security and privacy controls employed at alternate
+          work sites; means of communication between personnel at
+          alternate work sites and security and privacy personnel
+    statement: >-
+      {{ pe_17_odp_02 }} are employed at alternate work sites;
   - id: c
     methods:
       - method: examine
         statement: >
-          Physical and environmental protection policy; procedures addressing
-          alternate work sites for organizational personnel; list of security controls
-          required for alternate work sites; assessments of security controls at
-          alternate work sites; system security plan; privacy plan; other relevant
-          documents or records
+          Physical and environmental protection policy; procedures
+          addressing alternate work sites for organizational
+          personnel; list of security controls required for
+          alternate work sites; assessments of security controls at
+          alternate work sites; system security plan; privacy plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel approving the use of alternate work sites;
-          organizational personnel using alternate work sites; organizational
-          personnel assessing controls at alternate work sites; organizational
-          personnel with information security and privacy responsibilities
+          Organizational personnel approving the use of alternate
+          work sites; organizational personnel using alternate work
+          sites; organizational personnel assessing controls at
+          alternate work sites; organizational personnel with
+          information security and privacy responsibilities
       - method: test
         statement: >
-          Organizational processes for security and privacy at alternate work sites;
-          mechanisms supporting alternate work sites; security and privacy controls
-          employed at alternate work sites; means of communication between personnel
-          at alternate work sites and security and privacy personnel
-    statement: the effectiveness of controls at alternate work sites is assessed;
+          Organizational processes for security and privacy at
+          alternate work sites; mechanisms supporting alternate work
+          sites; security and privacy controls employed at alternate
+          work sites; means of communication between personnel at
+          alternate work sites and security and privacy personnel
+    statement: >-
+      the effectiveness of controls at alternate work sites is
+      assessed;
   - id: d
     methods:
       - method: examine
         statement: >
-          Physical and environmental protection policy; procedures addressing
-          alternate work sites for organizational personnel; list of security controls
-          required for alternate work sites; assessments of security controls at
-          alternate work sites; system security plan; privacy plan; other relevant
-          documents or records
+          Physical and environmental protection policy; procedures
+          addressing alternate work sites for organizational
+          personnel; list of security controls required for
+          alternate work sites; assessments of security controls at
+          alternate work sites; system security plan; privacy plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel approving the use of alternate work sites;
-          organizational personnel using alternate work sites; organizational
-          personnel assessing controls at alternate work sites; organizational
-          personnel with information security and privacy responsibilities
+          Organizational personnel approving the use of alternate
+          work sites; organizational personnel using alternate work
+          sites; organizational personnel assessing controls at
+          alternate work sites; organizational personnel with
+          information security and privacy responsibilities
       - method: test
         statement: >
-          Organizational processes for security and privacy at alternate work sites;
-          mechanisms supporting alternate work sites; security and privacy controls
-          employed at alternate work sites; means of communication between personnel
-          at alternate work sites and security and privacy personnel
+          Organizational processes for security and privacy at
+          alternate work sites; mechanisms supporting alternate work
+          sites; security and privacy controls employed at alternate
+          work sites; means of communication between personnel at
+          alternate work sites and security and privacy personnel
     statement: >
-      a means for employees to communicate with information security and privacy
-      personnel in case of incidents is provided.
+      a means for employees to communicate with information security
+      and privacy personnel in case of incidents is provided.
 parameters:
   pe_17_odp_01:
     label: alternate work sites
@@ -110,12 +125,18 @@ parameters:
     label: controls
 parts:
   - id: a
-    statement: "Determine and document the {{ pe_17_odp_01 }} allowed for use by employees;"
+    statement: >-
+      Determine and document the {{ pe_17_odp_01 }} allowed for use
+      by employees;
   - id: b
-    statement: "Employ the following controls at alternate work sites: {{ pe_17_odp_02 }};"
+    statement: >-
+      Employ the following controls at alternate work sites:
+      {{ pe_17_odp_02 }};
   - id: c
-    statement: Assess the effectiveness of controls at alternate work sites; and
+    statement: >-
+      Assess the effectiveness of controls at alternate work sites;
+      and
   - id: d
     statement: >
-      Provide a means for employees to communicate with information security and
-      privacy personnel in case of incidents.
+      Provide a means for employees to communicate with information
+      security and privacy personnel in case of incidents.

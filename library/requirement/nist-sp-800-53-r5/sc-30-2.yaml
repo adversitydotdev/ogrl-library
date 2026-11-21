@@ -13,27 +13,30 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; procedures addressing
-          concealment and misdirection techniques for the system; system design
-          documentation; system configuration settings and associated documentation;
-          system architecture; list of techniques to be employed to introduce
-          randomness into organizational operations and assets; system audit records;
-          system security plan; other relevant documents or records
+          System and communications protection policy; procedures
+          addressing concealment and misdirection techniques for the
+          system; system design documentation; system configuration
+          settings and associated documentation; system
+          architecture; list of techniques to be employed to
+          introduce randomness into organizational operations and
+          assets; system audit records; system security plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; organizational personnel with the responsibility
-          to implement concealment and misdirection techniques for systems
+          System/network administrators; organizational personnel
+          with information security responsibilities; organizational
+          personnel with the responsibility to implement concealment
+          and misdirection techniques for systems
       - method: test
         statement: >
-          Mechanisms supporting and/or implementing randomness as a concealment and
-          misdirection technique
+          Mechanisms supporting and/or implementing randomness as a
+          concealment and misdirection technique
     statement: >
-      {{ sc_30_02_odp }} are employed to introduce randomness into organizational
-      operations and assets.
+      {{ sc_30_02_odp }} are employed to introduce randomness into
+      organizational operations and assets.
 parameters:
   sc_30_02_odp:
     label: techniques
 statement: >
-  Employ {{ sc_30_02_odp }} to introduce randomness into organizational
-  operations and assets.
+  Employ {{ sc_30_02_odp }} to introduce randomness into
+  organizational operations and assets.

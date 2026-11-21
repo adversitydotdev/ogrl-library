@@ -13,16 +13,23 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing least privilege; list of
-          system-generated privileged accounts; list of non-organizational users;
-          system configuration settings and associated documentation; audit records;
+          Access control policy; procedures addressing least
+          privilege; list of system-generated privileged accounts;
+          list of non-organizational users; system configuration
+          settings and associated documentation; audit records;
           system security plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with responsibilities for defining least privileges
-          necessary to accomplish specified tasks; organizational personnel with
-          information security responsibilities; system/network administrators
+          Organizational personnel with responsibilities for
+          defining least privileges necessary to accomplish
+          specified tasks; organizational personnel with information
+          security responsibilities; system/network administrators
       - method: test
-        statement: Mechanisms prohibiting privileged access to the system
-    statement: privileged access to the system by non-organizational users is prohibited.
-statement: Prohibit privileged access to the system by non-organizational users.
+        statement: >-
+          Mechanisms prohibiting privileged access to the system
+    statement: >-
+      privileged access to the system by non-organizational users is
+      prohibited.
+statement: >-
+  Prohibit privileged access to the system by non-organizational
+  users.

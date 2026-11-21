@@ -13,53 +13,61 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Incident response policy; procedures addressing incident monitoring;
-          incident response records and documentation; system security plan; incident
-          response plan; other relevant documents or records
+          Incident response policy; procedures addressing incident
+          monitoring; incident response records and documentation;
+          system security plan; incident response plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with incident monitoring responsibilities;
-          organizational personnel with information security responsibilities
+          Organizational personnel with incident monitoring
+          responsibilities; organizational personnel with
+          information security responsibilities
       - method: test
         statement: >
-          Incident monitoring capability for the organization; automated mechanisms
-          supporting and/or implementing the tracking and documenting of system
-          security incidents
+          Incident monitoring capability for the organization;
+          automated mechanisms supporting and/or implementing the
+          tracking and documenting of system security incidents
     statement: "incidents are tracked using {{ ir_05_01_odp_01 }};"
   - id: "ir-05(01).ir-05(01)[02]"
     methods:
       - method: examine
         statement: >
-          Incident response policy; procedures addressing incident monitoring;
-          incident response records and documentation; system security plan; incident
-          response plan; other relevant documents or records
+          Incident response policy; procedures addressing incident
+          monitoring; incident response records and documentation;
+          system security plan; incident response plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with incident monitoring responsibilities;
-          organizational personnel with information security responsibilities
+          Organizational personnel with incident monitoring
+          responsibilities; organizational personnel with
+          information security responsibilities
       - method: test
         statement: >
-          Incident monitoring capability for the organization; automated mechanisms
-          supporting and/or implementing the tracking and documenting of system
-          security incidents
-    statement: "incident information is collected using {{ ir_05_01_odp_02 }};"
+          Incident monitoring capability for the organization;
+          automated mechanisms supporting and/or implementing the
+          tracking and documenting of system security incidents
+    statement: >-
+      incident information is collected using {{ ir_05_01_odp_02 }};
   - id: "ir-05(01).ir-05(01)[03]"
     methods:
       - method: examine
         statement: >
-          Incident response policy; procedures addressing incident monitoring;
-          incident response records and documentation; system security plan; incident
-          response plan; other relevant documents or records
+          Incident response policy; procedures addressing incident
+          monitoring; incident response records and documentation;
+          system security plan; incident response plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with incident monitoring responsibilities;
-          organizational personnel with information security responsibilities
+          Organizational personnel with incident monitoring
+          responsibilities; organizational personnel with
+          information security responsibilities
       - method: test
         statement: >
-          Incident monitoring capability for the organization; automated mechanisms
-          supporting and/or implementing the tracking and documenting of system
-          security incidents
-    statement: "incident information is analyzed using {{ ir_05_01_odp_03 }}."
+          Incident monitoring capability for the organization;
+          automated mechanisms supporting and/or implementing the
+          tracking and documenting of system security incidents
+    statement: >-
+      incident information is analyzed using {{ ir_05_01_odp_03 }}.
 parameters:
   ir_05_01_odp_01:
     label: automated mechanisms

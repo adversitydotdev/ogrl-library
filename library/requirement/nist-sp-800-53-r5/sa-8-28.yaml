@@ -13,32 +13,36 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and services acquisition policy; system and services acquisition
-          procedures; procedures addressing the security design principle of
-          acceptable security used in the specification, design, development,
-          implementation, and modification of the system; system design documentation;
-          security and privacy requirements and specifications for the system; system
-          security and privacy architecture; personally identifiable information
-          processing policy; privacy notifications provided to users; system security
-          plan; privacy plan; privacy impact assessment; privacy risk assessment
-          documentation; other relevant documents or records
+          System and services acquisition policy; system and
+          services acquisition procedures; procedures addressing the
+          security design principle of acceptable security used in
+          the specification, design, development, implementation,
+          and modification of the system; system design
+          documentation; security and privacy requirements and
+          specifications for the system; system security and privacy
+          architecture; personally identifiable information
+          processing policy; privacy notifications provided to
+          users; system security plan; privacy plan; privacy impact
+          assessment; privacy risk assessment documentation; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with information security and privacy
-          responsibilities; organizational personnel with system specification,
-          design, development, implementation, and modification responsibilities;
-          system developers
+          Organizational personnel with information security and
+          privacy responsibilities; organizational personnel with
+          system specification, design, development, implementation,
+          and modification responsibilities; system developers
       - method: test
         statement: >
-          Organizational processes for applying the security design principle of
-          acceptable security in system specification, design, development,
-          implementation, and modification; mechanisms supporting the application of
-          the security design principle of acceptable security in system
-          specification, design, development, implementation, and modification;
-          mechanisms that enforce security policies
+          Organizational processes for applying the security design
+          principle of acceptable security in system specification,
+          design, development, implementation, and modification;
+          mechanisms supporting the application of the security
+          design principle of acceptable security in system
+          specification, design, development, implementation, and
+          modification; mechanisms that enforce security policies
     statement: >
-      {{ sa_08_28_odp }} implement the security design principle of acceptable
-      security.
+      {{ sa_08_28_odp }} implement the security design principle of
+      acceptable security.
 parameters:
   sa_08_28_odp:
     label: systems or system components

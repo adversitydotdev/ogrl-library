@@ -17,25 +17,30 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; procedures addressing software, firmware, and information
-          integrity; system design documentation; system configuration settings and
-          associated documentation; integrity verification records; system audit
-          records; system security plan; other relevant documents or records
+          System and information integrity policy; system and
+          information integrity procedures; procedures addressing
+          software, firmware, and information integrity; system
+          design documentation; system configuration settings and
+          associated documentation; integrity verification records;
+          system audit records; system security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel responsible for software, firmware, and/or
-          information integrity; organizational personnel with information security
-          responsibilities
+          Organizational personnel responsible for software,
+          firmware, and/or information integrity; organizational
+          personnel with information security responsibilities
       - method: test
         statement: >
-          Software, firmware, and information integrity verification tools; mechanisms
-          supporting and/or implementing verification of the integrity of
-          user-installed software prior to execution
-    statement: "the integrity of {{ si_07_12_odp }} is verified prior to execution."
+          Software, firmware, and information integrity verification
+          tools; mechanisms supporting and/or implementing
+          verification of the integrity of user-installed software
+          prior to execution
+    statement: >-
+      the integrity of {{ si_07_12_odp }} is verified prior to
+      execution.
 parameters:
   si_07_12_odp:
     label: user-installed software
 statement: >
-  Require that the integrity of the following user-installed software be
-  verified prior to execution: {{ si_07_12_odp }}.
+  Require that the integrity of the following user-installed
+  software be verified prior to execution: {{ si_07_12_odp }}.

@@ -20,30 +20,34 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; personally identifiable information processing policy;
-          procedures addressing software and information integrity; system design
-          documentation; system configuration settings and associated documentation;
-          information refresh procedures; list of information to be refreshed; system
-          security plan; privacy plan; other relevant documents or records
+          System and information integrity policy; system and
+          information integrity procedures; personally identifiable
+          information processing policy; procedures addressing
+          software and information integrity; system design
+          documentation; system configuration settings and
+          associated documentation; information refresh procedures;
+          list of information to be refreshed; system security plan;
+          privacy plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel responsible for refreshing information;
-          organizational personnel with information security and privacy
-          responsibilities; organizational personnel with systems security engineering
+          Organizational personnel responsible for refreshing
+          information; organizational personnel with information
+          security and privacy responsibilities; organizational
+          personnel with systems security engineering
           responsibilities; system developers
       - method: test
         statement: >
-          Mechanisms for information refresh; organizational processes for information
-          refresh
+          Mechanisms for information refresh; organizational
+          processes for information refresh
     statement: >
-      the {{ si_21_odp_01 }} is refreshed {{ si_21_odp_02 }} or is generated on
-      demand and deleted when no longer needed.
+      the {{ si_21_odp_01 }} is refreshed {{ si_21_odp_02 }} or is
+      generated on demand and deleted when no longer needed.
 parameters:
   si_21_odp_01:
     label: information
   si_21_odp_02:
     label: frequencies
 statement: >
-  Refresh {{ si_21_odp_01 }} at {{ si_21_odp_02 }} or generate the information
-  on demand and delete the information when no longer needed.
+  Refresh {{ si_21_odp_01 }} at {{ si_21_odp_02 }} or generate the
+  information on demand and delete the information when no longer
+  needed.

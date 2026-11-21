@@ -9,6 +9,6 @@ relationship: equivalent-to
 review_status: draft
 source_ref: control--ogrl-lm-03
 summary: >
-  Immutable storage and restricted access protect audit information from
-  unauthorized access, modification, and deletion per AU-9(a).
+  Immutable storage and restricted access protect audit information
+  from unauthorized access, modification, and deletion per AU-9(a).
 target_ref: "requirement--nist-sp-800-53-r5-au-9#a"

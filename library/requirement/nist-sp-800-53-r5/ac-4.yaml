@@ -26,27 +26,33 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Access control policy; information flow control policies; procedures
-          addressing information flow enforcement; security architecture
-          documentation; privacy architecture documentation; system design
-          documentation; system configuration settings and associated documentation;
-          system baseline configuration; list of information flow authorizations;
-          system audit records; system security plan; privacy plan; other relevant
-          documents or records
+          Access control policy; information flow control policies;
+          procedures addressing information flow enforcement;
+          security architecture documentation; privacy architecture
+          documentation; system design documentation; system
+          configuration settings and associated documentation;
+          system baseline configuration; list of information flow
+          authorizations; system audit records; system security
+          plan; privacy plan; other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security and privacy architecture development responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities; system developers
+          System/network administrators; organizational personnel
+          with information security and privacy architecture
+          development responsibilities; organizational personnel
+          with information security and privacy responsibilities;
+          system developers
       - method: test
-        statement: Mechanisms implementing information flow enforcement policy
+        statement: >-
+          Mechanisms implementing information flow enforcement
+          policy
     statement: >
-      approved authorizations are enforced for controlling the flow of information
-      within the system and between connected systems based on {{ ac_04_odp }}.
+      approved authorizations are enforced for controlling the flow
+      of information within the system and between connected systems
+      based on {{ ac_04_odp }}.
 parameters:
   ac_04_odp:
     label: information flow control policies
 statement: >
-  Enforce approved authorizations for controlling the flow of information
-  within the system and between connected systems based on {{ ac_04_odp }}.
+  Enforce approved authorizations for controlling the flow of
+  information within the system and between connected systems based
+  on {{ ac_04_odp }}.

@@ -13,44 +13,50 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Contingency planning policy; procedures addressing system backup;
-          contingency plan; system backup logs or records; evidence of system backup
-          information transferred to alternate storage site; alternate storage site
-          agreements; system security plan; other relevant documents or records
+          Contingency planning policy; procedures addressing system
+          backup; contingency plan; system backup logs or records;
+          evidence of system backup information transferred to
+          alternate storage site; alternate storage site agreements;
+          system security plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with system backup responsibilities; organizational
-          personnel with information security responsibilities
+          Organizational personnel with system backup
+          responsibilities; organizational personnel with
+          information security responsibilities
       - method: test
         statement: >
-          Organizational processes for transferring system backups to the alternate
-          storage site; mechanisms supporting and/or implementing system backups;
-          mechanisms supporting and/or implementing information transfer to the
-          alternate storage site
+          Organizational processes for transferring system backups
+          to the alternate storage site; mechanisms supporting
+          and/or implementing system backups; mechanisms supporting
+          and/or implementing information transfer to the alternate
+          storage site
     statement: >
-      system backup information is transferred to the alternate storage site for
-      {{ cp_09_05_odp_01 }};
+      system backup information is transferred to the alternate
+      storage site for {{ cp_09_05_odp_01 }};
   - id: "cp-09(05).cp-09(05)[02]"
     methods:
       - method: examine
         statement: >
-          Contingency planning policy; procedures addressing system backup;
-          contingency plan; system backup logs or records; evidence of system backup
-          information transferred to alternate storage site; alternate storage site
-          agreements; system security plan; other relevant documents or records
+          Contingency planning policy; procedures addressing system
+          backup; contingency plan; system backup logs or records;
+          evidence of system backup information transferred to
+          alternate storage site; alternate storage site agreements;
+          system security plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with system backup responsibilities; organizational
-          personnel with information security responsibilities
+          Organizational personnel with system backup
+          responsibilities; organizational personnel with
+          information security responsibilities
       - method: test
         statement: >
-          Organizational processes for transferring system backups to the alternate
-          storage site; mechanisms supporting and/or implementing system backups;
-          mechanisms supporting and/or implementing information transfer to the
-          alternate storage site
+          Organizational processes for transferring system backups
+          to the alternate storage site; mechanisms supporting
+          and/or implementing system backups; mechanisms supporting
+          and/or implementing information transfer to the alternate
+          storage site
     statement: >
-      system backup information is transferred to the alternate storage site
-      {{ cp_09_05_odp_02 }}.
+      system backup information is transferred to the alternate
+      storage site {{ cp_09_05_odp_02 }}.
 parameters:
   cp_09_05_odp_01:
     label: time period
@@ -58,8 +64,8 @@ parameters:
     label: transfer rate
   cp_9_5_prm_1:
     label: >
-      organization-defined time period and transfer rate consistent with the
-      recovery time and recovery point objectives
+      organization-defined time period and transfer rate consistent
+      with the recovery time and recovery point objectives
 statement: >
   Transfer system backup information to the alternate storage site
   {{ cp_9_5_prm_1 }}.

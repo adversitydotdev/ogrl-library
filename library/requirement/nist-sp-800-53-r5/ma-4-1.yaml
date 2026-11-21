@@ -13,90 +13,102 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Maintenance policy; procedures addressing nonlocal system maintenance; list
-          of audit events; system configuration settings and associated documentation;
-          maintenance records; diagnostic records; audit records; reviews of
-          maintenance and diagnostic session records; system security plan; other
-          relevant documents or records
+          Maintenance policy; procedures addressing nonlocal system
+          maintenance; list of audit events; system configuration
+          settings and associated documentation; maintenance
+          records; diagnostic records; audit records; reviews of
+          maintenance and diagnostic session records; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with system maintenance responsibilities;
-          organizational personnel with information security responsibilities;
-          organizational personnel with audit and review responsibilities;
+          Organizational personnel with system maintenance
+          responsibilities; organizational personnel with
+          information security responsibilities; organizational
+          personnel with audit and review responsibilities;
           system/network administrators
       - method: test
         statement: >
-          Organizational processes for audit and review of nonlocal maintenance;
-          mechanisms supporting and/or implementing audit and review of nonlocal
-          maintenance
-    statement: "{{ ma_04_01_odp_01 }} are logged for nonlocal maintenance sessions;"
+          Organizational processes for audit and review of nonlocal
+          maintenance; mechanisms supporting and/or implementing
+          audit and review of nonlocal maintenance
+    statement: >-
+      {{ ma_04_01_odp_01 }} are logged for nonlocal maintenance
+      sessions;
   - id: a-2
     methods:
       - method: examine
         statement: >
-          Maintenance policy; procedures addressing nonlocal system maintenance; list
-          of audit events; system configuration settings and associated documentation;
-          maintenance records; diagnostic records; audit records; reviews of
-          maintenance and diagnostic session records; system security plan; other
-          relevant documents or records
+          Maintenance policy; procedures addressing nonlocal system
+          maintenance; list of audit events; system configuration
+          settings and associated documentation; maintenance
+          records; diagnostic records; audit records; reviews of
+          maintenance and diagnostic session records; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with system maintenance responsibilities;
-          organizational personnel with information security responsibilities;
-          organizational personnel with audit and review responsibilities;
+          Organizational personnel with system maintenance
+          responsibilities; organizational personnel with
+          information security responsibilities; organizational
+          personnel with audit and review responsibilities;
           system/network administrators
       - method: test
         statement: >
-          Organizational processes for audit and review of nonlocal maintenance;
-          mechanisms supporting and/or implementing audit and review of nonlocal
-          maintenance
-    statement: "{{ ma_04_01_odp_02 }} are logged for nonlocal diagnostic sessions;"
+          Organizational processes for audit and review of nonlocal
+          maintenance; mechanisms supporting and/or implementing
+          audit and review of nonlocal maintenance
+    statement: >-
+      {{ ma_04_01_odp_02 }} are logged for nonlocal diagnostic
+      sessions;
   - id: b-1
     methods:
       - method: examine
         statement: >
-          Maintenance policy; procedures addressing nonlocal system maintenance; list
-          of audit events; system configuration settings and associated documentation;
-          maintenance records; diagnostic records; audit records; reviews of
-          maintenance and diagnostic session records; system security plan; other
-          relevant documents or records
+          Maintenance policy; procedures addressing nonlocal system
+          maintenance; list of audit events; system configuration
+          settings and associated documentation; maintenance
+          records; diagnostic records; audit records; reviews of
+          maintenance and diagnostic session records; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with system maintenance responsibilities;
-          organizational personnel with information security responsibilities;
-          organizational personnel with audit and review responsibilities;
+          Organizational personnel with system maintenance
+          responsibilities; organizational personnel with
+          information security responsibilities; organizational
+          personnel with audit and review responsibilities;
           system/network administrators
       - method: test
         statement: >
-          Organizational processes for audit and review of nonlocal maintenance;
-          mechanisms supporting and/or implementing audit and review of nonlocal
-          maintenance
+          Organizational processes for audit and review of nonlocal
+          maintenance; mechanisms supporting and/or implementing
+          audit and review of nonlocal maintenance
     statement: >
-      the audit records of the maintenance sessions are reviewed to detect
-      anomalous behavior;
+      the audit records of the maintenance sessions are reviewed to
+      detect anomalous behavior;
   - id: b-2
     methods:
       - method: examine
         statement: >
-          Maintenance policy; procedures addressing nonlocal system maintenance; list
-          of audit events; system configuration settings and associated documentation;
-          maintenance records; diagnostic records; audit records; reviews of
-          maintenance and diagnostic session records; system security plan; other
-          relevant documents or records
+          Maintenance policy; procedures addressing nonlocal system
+          maintenance; list of audit events; system configuration
+          settings and associated documentation; maintenance
+          records; diagnostic records; audit records; reviews of
+          maintenance and diagnostic session records; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with system maintenance responsibilities;
-          organizational personnel with information security responsibilities;
-          organizational personnel with audit and review responsibilities;
+          Organizational personnel with system maintenance
+          responsibilities; organizational personnel with
+          information security responsibilities; organizational
+          personnel with audit and review responsibilities;
           system/network administrators
       - method: test
         statement: >
-          Organizational processes for audit and review of nonlocal maintenance;
-          mechanisms supporting and/or implementing audit and review of nonlocal
-          maintenance
+          Organizational processes for audit and review of nonlocal
+          maintenance; mechanisms supporting and/or implementing
+          audit and review of nonlocal maintenance
     statement: >
-      the audit records of the diagnostic sessions are reviewed to detect
-      anomalous behavior.
+      the audit records of the diagnostic sessions are reviewed to
+      detect anomalous behavior.
 parameters:
   ma_04_01_odp_01:
     label: audit events
@@ -106,8 +118,10 @@ parameters:
     label: organization-defined audit events
 parts:
   - id: a
-    statement: "Log {{ ma_4_1_prm_1 }} for nonlocal maintenance and diagnostic sessions; and"
+    statement: >-
+      Log {{ ma_4_1_prm_1 }} for nonlocal maintenance and diagnostic
+      sessions; and
   - id: b
     statement: >
-      Review the audit records of the maintenance and diagnostic sessions to
-      detect anomalous behavior.
+      Review the audit records of the maintenance and diagnostic
+      sessions to detect anomalous behavior.

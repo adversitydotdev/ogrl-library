@@ -13,19 +13,27 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; personally identifiable information processing policy; system
-          configuration documentation; system audit records; user interface where
-          personally identifiable information is collected; system security plan;
-          privacy plan; privacy impact assessment; privacy risk assessment
-          documentation; other relevant documents or records
+          System and information integrity policy; system and
+          information integrity procedures; personally identifiable
+          information processing policy; system configuration
+          documentation; system audit records; user interface where
+          personally identifiable information is collected; system
+          security plan; privacy plan; privacy impact assessment;
+          privacy risk assessment documentation; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel responsible for data collection; organizational
-          personnel with information security and privacy responsibilities
+          Organizational personnel responsible for data collection;
+          organizational personnel with information security and
+          privacy responsibilities
       - method: test
         statement: >
-          Data collection mechanisms; automated mechanisms supporting and/or
-          validating collection directly from the individual
-    statement: personally identifiable information is collected directly from the individual.
-statement: Collect personally identifiable information directly from the individual.
+          Data collection mechanisms; automated mechanisms
+          supporting and/or validating collection directly from the
+          individual
+    statement: >-
+      personally identifiable information is collected directly from
+      the individual.
+statement: >-
+  Collect personally identifiable information directly from the
+  individual.

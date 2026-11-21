@@ -8,5 +8,7 @@ rationale: functional
 relationship: intersects-with
 review_status: draft
 source_ref: control--ogrl-ac-10
-summary: "Session lock and termination is one logical access safeguard within CC6.1.\n"
+summary: >
+  Session lock and termination is one logical access safeguard
+  within CC6.1.
 target_ref: requirement--soc2-tsc-2017-cc6-1

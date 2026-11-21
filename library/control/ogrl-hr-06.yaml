@@ -9,13 +9,14 @@ control_type: preventive
 family: hr
 frequency: annual
 guidance: >
-  Add a standard security-responsibilities clause to all job descriptions and
-  role-specific clauses for engineering, operations, and leadership roles.
-  Store current descriptions in the HRIS or a controlled document repository
-  and record review dates.
+  Add a standard security-responsibilities clause to all job
+  descriptions and role-specific clauses for engineering,
+  operations, and leadership roles. Store current descriptions in
+  the HRIS or a controlled document repository and record review
+  dates.
 objective: >
-  Make each individual's security and privacy obligations explicit so they can
-  be communicated, trained, and enforced.
+  Make each individual's security and privacy obligations explicit
+  so they can be communicated, trained, and enforced.
 origin: standard
 parameters:
   description_review_frequency:
@@ -23,15 +24,17 @@ parameters:
     value: annually
   elevated_roles:
     label: Roles requiring role-specific security duties
-    value: "engineers, administrators, and security and privacy personnel"
+    value: >-
+      engineers, administrators, and security and privacy personnel
 statement: >
-  Include security and privacy responsibilities in the documented description
-  of every position, with role-specific duties for {{ elevated_roles }}, and
-  review position descriptions {{ description_review_frequency }} and when
-  roles materially change.
+  Include security and privacy responsibilities in the documented
+  description of every position, with role-specific duties for
+  {{ elevated_roles }}, and review position descriptions
+  {{ description_review_frequency }} and when roles materially
+  change.
 summary: >
-  Document security and privacy responsibilities in every job description and
-  keep them current.
+  Document security and privacy responsibilities in every job
+  description and keep them current.
 tags:
   - personnel-security
   - roles-and-responsibilities

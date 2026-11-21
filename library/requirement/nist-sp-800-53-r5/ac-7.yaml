@@ -20,36 +20,44 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing unsuccessful logon attempts;
-          system design documentation; system configuration settings and associated
-          documentation; system audit records; system security plan; other relevant
+          Access control policy; procedures addressing unsuccessful
+          logon attempts; system design documentation; system
+          configuration settings and associated documentation;
+          system audit records; system security plan; other relevant
           documents or records
       - method: interview
         statement: >
-          Organizational personnel with information security responsibilities; system
-          developers; system/network administrators
+          Organizational personnel with information security
+          responsibilities; system developers; system/network
+          administrators
       - method: test
-        statement: Mechanisms implementing access control policy for unsuccessful logon attempts
+        statement: >-
+          Mechanisms implementing access control policy for
+          unsuccessful logon attempts
     statement: >
-      a limit of {{ ac_07_odp_01 }} consecutive invalid logon attempts by a user
-      during {{ ac_07_odp_02 }} is enforced;
+      a limit of {{ ac_07_odp_01 }} consecutive invalid logon
+      attempts by a user during {{ ac_07_odp_02 }} is enforced;
   - id: b
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing unsuccessful logon attempts;
-          system design documentation; system configuration settings and associated
-          documentation; system audit records; system security plan; other relevant
+          Access control policy; procedures addressing unsuccessful
+          logon attempts; system design documentation; system
+          configuration settings and associated documentation;
+          system audit records; system security plan; other relevant
           documents or records
       - method: interview
         statement: >
-          Organizational personnel with information security responsibilities; system
-          developers; system/network administrators
+          Organizational personnel with information security
+          responsibilities; system developers; system/network
+          administrators
       - method: test
-        statement: Mechanisms implementing access control policy for unsuccessful logon attempts
+        statement: >-
+          Mechanisms implementing access control policy for
+          unsuccessful logon attempts
     statement: >
-      automatically {{ ac_07_odp_03 }} when the maximum number of unsuccessful
-      attempts is exceeded.
+      automatically {{ ac_07_odp_03 }} when the maximum number of
+      unsuccessful attempts is exceeded.
 parameters:
   ac_07_odp_01:
     label: number
@@ -66,9 +74,9 @@ parameters:
 parts:
   - id: a
     statement: >
-      Enforce a limit of {{ ac_07_odp_01 }} consecutive invalid logon attempts by
-      a user during a {{ ac_07_odp_02 }} ; and
+      Enforce a limit of {{ ac_07_odp_01 }} consecutive invalid
+      logon attempts by a user during a {{ ac_07_odp_02 }} ; and
   - id: b
     statement: >
-      Automatically {{ ac_07_odp_03 }} when the maximum number of unsuccessful
-      attempts is exceeded.
+      Automatically {{ ac_07_odp_03 }} when the maximum number of
+      unsuccessful attempts is exceeded.

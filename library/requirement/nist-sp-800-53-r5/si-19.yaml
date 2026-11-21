@@ -20,44 +20,52 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; personally identifiable information processing policy;
-          de-identification procedures; system configuration; datasets with personally
-          identifiable information removed; system security plan; privacy plan;
-          privacy impact assessment; privacy risk assessment documentation; other
-          relevant documents or records
+          System and information integrity policy; system and
+          information integrity procedures; personally identifiable
+          information processing policy; de-identification
+          procedures; system configuration; datasets with personally
+          identifiable information removed; system security plan;
+          privacy plan; privacy impact assessment; privacy risk
+          assessment documentation; other relevant documents or
+          records
       - method: interview
         statement: >
-          Organizational personnel responsible for identifying unnecessary
-          identifiers; organizational personnel responsible for removing personally
-          identifiable information from datasets; organizational personnel with
+          Organizational personnel responsible for identifying
+          unnecessary identifiers; organizational personnel
+          responsible for removing personally identifiable
+          information from datasets; organizational personnel with
           information security and privacy responsibilities
       - method: test
         statement: >
-          Automated mechanisms supporting and/or implementing the removal of
-          personally identifiable information elements
+          Automated mechanisms supporting and/or implementing the
+          removal of personally identifiable information elements
     statement: "{{ si_19_odp_01 }} are removed from datasets;"
   - id: b
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; personally identifiable information processing policy;
-          de-identification procedures; system configuration; datasets with personally
-          identifiable information removed; system security plan; privacy plan;
-          privacy impact assessment; privacy risk assessment documentation; other
-          relevant documents or records
+          System and information integrity policy; system and
+          information integrity procedures; personally identifiable
+          information processing policy; de-identification
+          procedures; system configuration; datasets with personally
+          identifiable information removed; system security plan;
+          privacy plan; privacy impact assessment; privacy risk
+          assessment documentation; other relevant documents or
+          records
       - method: interview
         statement: >
-          Organizational personnel responsible for identifying unnecessary
-          identifiers; organizational personnel responsible for removing personally
-          identifiable information from datasets; organizational personnel with
+          Organizational personnel responsible for identifying
+          unnecessary identifiers; organizational personnel
+          responsible for removing personally identifiable
+          information from datasets; organizational personnel with
           information security and privacy responsibilities
       - method: test
         statement: >
-          Automated mechanisms supporting and/or implementing the removal of
-          personally identifiable information elements
-    statement: "the effectiveness of de-identification is evaluated {{ si_19_odp_02 }}."
+          Automated mechanisms supporting and/or implementing the
+          removal of personally identifiable information elements
+    statement: >-
+      the effectiveness of de-identification is evaluated
+      {{ si_19_odp_02 }}.
 parameters:
   si_19_odp_01:
     label: elements
@@ -66,7 +74,9 @@ parameters:
 parts:
   - id: a
     statement: >
-      Remove the following elements of personally identifiable information from
-      datasets: {{ si_19_odp_01 }} ; and
+      Remove the following elements of personally identifiable
+      information from datasets: {{ si_19_odp_01 }} ; and
   - id: b
-    statement: "Evaluate {{ si_19_odp_02 }} for effectiveness of de-identification."
+    statement: >-
+      Evaluate {{ si_19_odp_02 }} for effectiveness of
+      de-identification.

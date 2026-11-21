@@ -9,14 +9,15 @@ control_type: preventive
 family: gv
 frequency: annual
 guidance: >
-  Collect acknowledgments through the HRIS or compliance platform during
-  onboarding and annual policy attestations, and keep the signed record per
-  person. Reference the whistleblower channel (OGRL-GV-05) in the code.
-  Auditors typically sample new hires and existing staff for timely
-  acknowledgment.
+  Collect acknowledgments through the HRIS or compliance platform
+  during onboarding and annual policy attestations, and keep the
+  signed record per person. Reference the whistleblower channel
+  (OGRL-GV-05) in the code. Auditors typically sample new hires and
+  existing staff for timely acknowledgment.
 objective: >
-  Every workforce member has been informed of, and has agreed to, the
-  organization's standards of conduct and the consequences of violating them.
+  Every workforce member has been informed of, and has agreed to,
+  the organization's standards of conduct and the consequences of
+  violating them.
 origin: standard
 parameters:
   acknowledgment_window:
@@ -29,15 +30,16 @@ parameters:
     label: Re-acknowledgment frequency
     value: annually
 statement: >
-  Maintain a code of conduct, approved by {{ conduct_approver }}, that sets
-  expectations for integrity, ethical behavior, conflicts of interest, and
-  protection of company and customer information, and states disciplinary
-  consequences for violations. Require every employee and contractor to
-  acknowledge the code within {{ acknowledgment_window }} of starting and
+  Maintain a code of conduct, approved by {{ conduct_approver }},
+  that sets expectations for integrity, ethical behavior, conflicts
+  of interest, and protection of company and customer information,
+  and states disciplinary consequences for violations. Require every
+  employee and contractor to acknowledge the code within
+  {{ acknowledgment_window }} of starting and
   {{ reacknowledgment_frequency }} thereafter.
 summary: >
-  Maintain an approved code of conduct and obtain workforce acknowledgment at
-  hire and periodically thereafter.
+  Maintain an approved code of conduct and obtain workforce
+  acknowledgment at hire and periodically thereafter.
 tags:
   - governance
   - ethics

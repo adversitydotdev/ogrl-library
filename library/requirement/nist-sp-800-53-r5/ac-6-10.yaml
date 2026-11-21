@@ -4,7 +4,8 @@ id: requirement--nist-sp-800-53-r5-ac-6-10
 spec_version: "0.1.0"
 created: "2026-10-22T11:30:00Z"
 modified: "2026-10-22T11:30:00Z"
-name: Prohibit Non-privileged Users from Executing Privileged Functions
+name: >-
+  Prohibit Non-privileged Users from Executing Privileged Functions
 display_id: "AC-6(10)"
 class: enhancement
 framework_ref: framework--nist-sp-800-53-r5
@@ -13,16 +14,24 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing least privilege; system design
-          documentation; system configuration settings and associated documentation;
-          list of privileged functions and associated user account assignments; system
-          audit records; system security plan; other relevant documents or records
+          Access control policy; procedures addressing least
+          privilege; system design documentation; system
+          configuration settings and associated documentation; list
+          of privileged functions and associated user account
+          assignments; system audit records; system security plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with responsibilities for defining least privileges
-          necessary to accomplish specified tasks; organizational personnel with
-          information security responsibilities; system developers
+          Organizational personnel with responsibilities for
+          defining least privileges necessary to accomplish
+          specified tasks; organizational personnel with information
+          security responsibilities; system developers
       - method: test
-        statement: Mechanisms implementing least privilege functions for non-privileged users
-    statement: non-privileged users are prevented from executing privileged functions.
-statement: Prevent non-privileged users from executing privileged functions.
+        statement: >-
+          Mechanisms implementing least privilege functions for
+          non-privileged users
+    statement: >-
+      non-privileged users are prevented from executing privileged
+      functions.
+statement: >-
+  Prevent non-privileged users from executing privileged functions.

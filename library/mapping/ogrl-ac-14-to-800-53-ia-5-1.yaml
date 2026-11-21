@@ -12,7 +12,7 @@ relationship: subset-of
 review_status: draft
 source_ref: control--ogrl-ac-14
 summary: >
-  Covers blocklist maintenance and checking, protected transmission and
-  storage, reset on recovery, long passphrases, and composition rules;
-  automated strength-assistance tooling is not required.
+  Covers blocklist maintenance and checking, protected transmission
+  and storage, reset on recovery, long passphrases, and composition
+  rules; automated strength-assistance tooling is not required.
 target_ref: requirement--nist-sp-800-53-r5-ia-5-1

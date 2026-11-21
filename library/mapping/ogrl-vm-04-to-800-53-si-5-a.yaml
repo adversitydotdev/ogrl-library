@@ -10,5 +10,6 @@ rationale: functional
 relationship: equivalent-to
 review_status: draft
 source_ref: control--ogrl-vm-04
-summary: "Ongoing subscriptions to named advisory sources satisfy SI-5(a)."
+summary: >-
+  Ongoing subscriptions to named advisory sources satisfy SI-5(a).
 target_ref: "requirement--nist-sp-800-53-r5-si-5#a"

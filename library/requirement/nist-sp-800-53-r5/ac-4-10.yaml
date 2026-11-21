@@ -13,52 +13,58 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Access control policy; information flow information policies; procedures
-          addressing information flow enforcement; system design documentation; system
-          configuration settings and associated documentation; list of security policy
-          filters enabled/disabled by privileged administrators; list of privacy
-          policy filters enabled/disabled by privileged administrators; list of
-          approved data types for enabling/disabling by privileged administrators;
-          system audit records; system security plan; privacy plan; other relevant
-          documents or records
+          Access control policy; information flow information
+          policies; procedures addressing information flow
+          enforcement; system design documentation; system
+          configuration settings and associated documentation; list
+          of security policy filters enabled/disabled by privileged
+          administrators; list of privacy policy filters
+          enabled/disabled by privileged administrators; list of
+          approved data types for enabling/disabling by privileged
+          administrators; system audit records; system security
+          plan; privacy plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with responsibilities for enabling/disabling
-          security and privacy policy filters; system/network administrators;
-          organizational personnel with information security and privacy
-          responsibilities; system developers
+          Organizational personnel with responsibilities for
+          enabling/disabling security and privacy policy filters;
+          system/network administrators; organizational personnel
+          with information security and privacy responsibilities;
+          system developers
       - method: test
         statement: >
-          Mechanisms implementing information flow enforcement policy; security and
-          privacy policy filters
+          Mechanisms implementing information flow enforcement
+          policy; security and privacy policy filters
     statement: >
-      capability is provided for privileged administrators to enable and disable
-      {{ ac_04_10_odp_01 }} under {{ ac_04_10_odp_03 }};
+      capability is provided for privileged administrators to enable
+      and disable {{ ac_04_10_odp_01 }} under {{ ac_04_10_odp_03 }};
   - id: "ac-04(10).ac-04(10)[02]"
     methods:
       - method: examine
         statement: >
-          Access control policy; information flow information policies; procedures
-          addressing information flow enforcement; system design documentation; system
-          configuration settings and associated documentation; list of security policy
-          filters enabled/disabled by privileged administrators; list of privacy
-          policy filters enabled/disabled by privileged administrators; list of
-          approved data types for enabling/disabling by privileged administrators;
-          system audit records; system security plan; privacy plan; other relevant
-          documents or records
+          Access control policy; information flow information
+          policies; procedures addressing information flow
+          enforcement; system design documentation; system
+          configuration settings and associated documentation; list
+          of security policy filters enabled/disabled by privileged
+          administrators; list of privacy policy filters
+          enabled/disabled by privileged administrators; list of
+          approved data types for enabling/disabling by privileged
+          administrators; system audit records; system security
+          plan; privacy plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with responsibilities for enabling/disabling
-          security and privacy policy filters; system/network administrators;
-          organizational personnel with information security and privacy
-          responsibilities; system developers
+          Organizational personnel with responsibilities for
+          enabling/disabling security and privacy policy filters;
+          system/network administrators; organizational personnel
+          with information security and privacy responsibilities;
+          system developers
       - method: test
         statement: >
-          Mechanisms implementing information flow enforcement policy; security and
-          privacy policy filters
+          Mechanisms implementing information flow enforcement
+          policy; security and privacy policy filters
     statement: >
-      capability is provided for privileged administrators to enable and disable
-      {{ ac_04_10_odp_02 }} under {{ ac_04_10_odp_04 }}.
+      capability is provided for privileged administrators to enable
+      and disable {{ ac_04_10_odp_02 }} under {{ ac_04_10_odp_04 }}.
 parameters:
   ac_04_10_odp_01:
     label: security filters
@@ -73,5 +79,6 @@ parameters:
   ac_4_10_prm_2:
     label: organization-defined conditions
 statement: >
-  Provide the capability for privileged administrators to enable and disable
-  {{ ac_4_10_prm_1 }} under the following conditions: {{ ac_4_10_prm_2 }}.
+  Provide the capability for privileged administrators to enable and
+  disable {{ ac_4_10_prm_1 }} under the following conditions:
+  {{ ac_4_10_prm_2 }}.

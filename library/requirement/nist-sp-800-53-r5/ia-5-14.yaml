@@ -13,27 +13,32 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Identification and authentication policy; procedures addressing
-          authenticator management; system security plan; organizational methodology
-          for managing content of PKI trust stores across installed all platforms;
-          system design documentation; system configuration settings and associated
-          documentation; enterprise security architecture documentation; enterprise
-          architecture documentation; other relevant documents or records
+          Identification and authentication policy; procedures
+          addressing authenticator management; system security plan;
+          organizational methodology for managing content of PKI
+          trust stores across installed all platforms; system design
+          documentation; system configuration settings and
+          associated documentation; enterprise security architecture
+          documentation; enterprise architecture documentation;
+          other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with authenticator management responsibilities;
-          organizational personnel with information security responsibilities;
-          system/network administrators; system developers
+          Organizational personnel with authenticator management
+          responsibilities; organizational personnel with
+          information security responsibilities; system/network
+          administrators; system developers
       - method: test
         statement: >
-          Mechanisms supporting and/or implementing PKI-based authenticator management
-          capability; mechanisms supporting and/or implementing the PKI trust store
-          capability
+          Mechanisms supporting and/or implementing PKI-based
+          authenticator management capability; mechanisms supporting
+          and/or implementing the PKI trust store capability
     statement: >
-      an organization-wide methodology for managing the content of PKI trust
-      stores is employed across all platforms, including networks, operating
-      systems, browsers, and applications for PKI-based authentication.
+      an organization-wide methodology for managing the content of
+      PKI trust stores is employed across all platforms, including
+      networks, operating systems, browsers, and applications for
+      PKI-based authentication.
 statement: >
-  For PKI-based authentication, employ an organization-wide methodology for
-  managing the content of PKI trust stores installed across all platforms,
-  including networks, operating systems, browsers, and applications.
+  For PKI-based authentication, employ an organization-wide
+  methodology for managing the content of PKI trust stores installed
+  across all platforms, including networks, operating systems,
+  browsers, and applications.

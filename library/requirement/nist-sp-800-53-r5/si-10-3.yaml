@@ -13,40 +13,48 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; procedures addressing information input validation; system
-          design documentation; system configuration settings and associated
-          documentation; system audit records; system security plan; other relevant
-          documents or records
+          System and information integrity policy; system and
+          information integrity procedures; procedures addressing
+          information input validation; system design documentation;
+          system configuration settings and associated
+          documentation; system audit records; system security plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel responsible for information input validation;
-          organizational personnel with information security responsibilities;
-          system/network administrators; system developer
+          Organizational personnel responsible for information input
+          validation; organizational personnel with information
+          security responsibilities; system/network administrators;
+          system developer
       - method: test
         statement: >
-          Automated mechanisms supporting and/or implementing predictable behavior
-          when invalid inputs are received
-    statement: the system behaves in a predictable manner when invalid inputs are received;
+          Automated mechanisms supporting and/or implementing
+          predictable behavior when invalid inputs are received
+    statement: >-
+      the system behaves in a predictable manner when invalid inputs
+      are received;
   - id: "si-10(03).si-10(03)[02]"
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; procedures addressing information input validation; system
-          design documentation; system configuration settings and associated
-          documentation; system audit records; system security plan; other relevant
-          documents or records
+          System and information integrity policy; system and
+          information integrity procedures; procedures addressing
+          information input validation; system design documentation;
+          system configuration settings and associated
+          documentation; system audit records; system security plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel responsible for information input validation;
-          organizational personnel with information security responsibilities;
-          system/network administrators; system developer
+          Organizational personnel responsible for information input
+          validation; organizational personnel with information
+          security responsibilities; system/network administrators;
+          system developer
       - method: test
         statement: >
-          Automated mechanisms supporting and/or implementing predictable behavior
-          when invalid inputs are received
-    statement: the system behaves in a documented manner when invalid inputs are received.
+          Automated mechanisms supporting and/or implementing
+          predictable behavior when invalid inputs are received
+    statement: >-
+      the system behaves in a documented manner when invalid inputs
+      are received.
 statement: >
-  Verify that the system behaves in a predictable and documented manner when
-  invalid inputs are received.
+  Verify that the system behaves in a predictable and documented
+  manner when invalid inputs are received.

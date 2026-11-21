@@ -9,13 +9,15 @@ control_type: preventive
 family: pr
 frequency: event-driven
 guidance: >
-  Embed the privacy check in vendor onboarding and in data-sharing requests;
-  maintain the approved recipient list as the public subprocessor list where
-  applicable. A data processing agreement with standard privacy terms meets
-  the written-agreement requirement.
+  Embed the privacy check in vendor onboarding and in data-sharing
+  requests; maintain the approved recipient list as the public
+  subprocessor list where applicable. A data processing agreement
+  with standard privacy terms meets the written-agreement
+  requirement.
 objective: >
-  Ensure personal information is shared only with recipients and for uses that
-  individuals were informed of and that contracts restrict.
+  Ensure personal information is shared only with recipients and for
+  uses that individuals were informed of and that contracts
+  restrict.
 origin: standard
 parameters:
   disclosure_approver:
@@ -23,16 +25,19 @@ parameters:
     value: the privacy lead
   disclosure_circumstances:
     label: Disclosure circumstances requiring authorization
-    value: any sharing of personal information with a party outside the organization
+    value: >-
+      any sharing of personal information with a party outside the
+      organization
 statement: >
-  Before disclosing personal information to a new third party or for a new
-  purpose in {{ disclosure_circumstances }}, require {{ disclosure_approver }}
-  to confirm that the disclosure is consistent with the privacy notice and any
-  consent obtained and that a written agreement binds the recipient to
-  equivalent privacy and confidentiality obligations.
+  Before disclosing personal information to a new third party or for
+  a new purpose in {{ disclosure_circumstances }}, require
+  {{ disclosure_approver }} to confirm that the disclosure is
+  consistent with the privacy notice and any consent obtained and
+  that a written agreement binds the recipient to equivalent privacy
+  and confidentiality obligations.
 summary: >
-  Approve each new third-party recipient of personal information against the
-  permitted uses of that information.
+  Approve each new third-party recipient of personal information
+  against the permitted uses of that information.
 tags:
   - privacy
   - third-party

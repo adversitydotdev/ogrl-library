@@ -13,58 +13,66 @@ objectives:
     methods:
       - method: examine
         statement: >
-          audit and accountability policy and procedures; procedures for timestamp
-          generation; system design documentation; system configuration settings;
-          system audit records; system security plan; other relevant documents or
-          records
+          audit and accountability policy and procedures; procedures
+          for timestamp generation; system design documentation;
+          system configuration settings; system audit records;
+          system security plan; other relevant documents or records
       - method: interview
         statement: >
-          personnel with information security responsibilities; system developers;
-          system administrators
+          personnel with information security responsibilities;
+          system developers; system administrators
       - method: test
         statement: mechanisms for implementing timestamp generation
-    statement: internal system clocks are used to generate time stamps for audit records.
+    statement: >-
+      internal system clocks are used to generate time stamps for
+      audit records.
   - id: b.02
     methods:
       - method: examine
         statement: >
-          audit and accountability policy and procedures; procedures for timestamp
-          generation; system design documentation; system configuration settings;
-          system audit records; system security plan; other relevant documents or
-          records
+          audit and accountability policy and procedures; procedures
+          for timestamp generation; system design documentation;
+          system configuration settings; system audit records;
+          system security plan; other relevant documents or records
       - method: interview
         statement: >
-          personnel with information security responsibilities; system developers;
-          system administrators
+          personnel with information security responsibilities;
+          system developers; system administrators
       - method: test
         statement: mechanisms for implementing timestamp generation
     statement: >
-      time stamps are recorded for audit records that use Coordinated Universal
-      Time (UTC), have a fixed local time offset from UTC, or include the local
-      time offset as part of the time stamp.
+      time stamps are recorded for audit records that use
+      Coordinated Universal Time (UTC), have a fixed local time
+      offset from UTC, or include the local time offset as part of
+      the time stamp.
   - id: b.01
     methods:
       - method: examine
         statement: >
-          audit and accountability policy and procedures; procedures for timestamp
-          generation; system design documentation; system configuration settings;
-          system audit records; system security plan; other relevant documents or
-          records
+          audit and accountability policy and procedures; procedures
+          for timestamp generation; system design documentation;
+          system configuration settings; system audit records;
+          system security plan; other relevant documents or records
       - method: interview
         statement: >
-          personnel with information security responsibilities; system developers;
-          system administrators
+          personnel with information security responsibilities;
+          system developers; system administrators
       - method: test
         statement: mechanisms for implementing timestamp generation
-    statement: "time stamps are recorded for audit records that meet {{ a_03_03_07_odp_01 }}."
+    statement: >-
+      time stamps are recorded for audit records that meet
+      {{ a_03_03_07_odp_01 }}.
 parameters:
   a_03_03_07_odp_01:
     label: granularity of time measurement
 parts:
   - id: a
-    statement: Use internal system clocks to generate time stamps for audit records.
+    statement: >-
+      Use internal system clocks to generate time stamps for audit
+      records.
   - id: b
     statement: >
-      Record time stamps for audit records that meet {{ a_03_03_07_odp_01 }} and
-      that use Coordinated Universal Time (UTC), have a fixed local time offset
-      from UTC, or include the local time offset as part of the time stamp.
+      Record time stamps for audit records that meet
+      {{ a_03_03_07_odp_01 }} and that use Coordinated Universal
+      Time (UTC), have a fixed local time offset from UTC, or
+      include the local time offset as part of the time stamp.

@@ -13,115 +13,137 @@ objectives:
     methods:
       - method: examine
         statement: >
-          access control policy and procedures; procedures for least privilege; list
-          of assigned access authorizations (i.e., privileges); system configuration
-          settings; system audit records; list of security functions (implemented in
-          hardware, software, and firmware); security-relevant information for which
-          access must be explicitly authorized; list of system-generated roles or
-          classes of users and assigned privileges; validation reviews of privileges
-          assigned to roles or classes of users; records of privilege removals or
-          reassignments for roles or classes of users; system security plan; system
-          design documentation; other relevant documents or records
+          access control policy and procedures; procedures for least
+          privilege; list of assigned access authorizations (i.e.,
+          privileges); system configuration settings; system audit
+          records; list of security functions (implemented in
+          hardware, software, and firmware); security-relevant
+          information for which access must be explicitly
+          authorized; list of system-generated roles or classes of
+          users and assigned privileges; validation reviews of
+          privileges assigned to roles or classes of users; records
+          of privilege removals or reassignments for roles or
+          classes of users; system security plan; system design
+          documentation; other relevant documents or records
       - method: interview
         statement: >
-          personnel with responsibilities for defining least privileges; personnel
-          with information security responsibilities; system administrators
+          personnel with responsibilities for defining least
+          privileges; personnel with information security
+          responsibilities; system administrators
       - method: test
         statement: >
-          mechanisms for implementing least privilege functions; mechanisms for
-          implementing reviews of user privileges
+          mechanisms for implementing least privilege functions;
+          mechanisms for implementing reviews of user privileges
     statement: >
-      system access for users (or processes acting on behalf of users) is
-      authorized only when necessary to accomplish assigned organizational tasks.
+      system access for users (or processes acting on behalf of
+      users) is authorized only when necessary to accomplish
+      assigned organizational tasks.
   - id: b.01
     methods:
       - method: examine
         statement: >
-          access control policy and procedures; procedures for least privilege; list
-          of assigned access authorizations (i.e., privileges); system configuration
-          settings; system audit records; list of security functions (implemented in
-          hardware, software, and firmware); security-relevant information for which
-          access must be explicitly authorized; list of system-generated roles or
-          classes of users and assigned privileges; validation reviews of privileges
-          assigned to roles or classes of users; records of privilege removals or
-          reassignments for roles or classes of users; system security plan; system
-          design documentation; other relevant documents or records
+          access control policy and procedures; procedures for least
+          privilege; list of assigned access authorizations (i.e.,
+          privileges); system configuration settings; system audit
+          records; list of security functions (implemented in
+          hardware, software, and firmware); security-relevant
+          information for which access must be explicitly
+          authorized; list of system-generated roles or classes of
+          users and assigned privileges; validation reviews of
+          privileges assigned to roles or classes of users; records
+          of privilege removals or reassignments for roles or
+          classes of users; system security plan; system design
+          documentation; other relevant documents or records
       - method: interview
         statement: >
-          personnel with responsibilities for defining least privileges; personnel
-          with information security responsibilities; system administrators
+          personnel with responsibilities for defining least
+          privileges; personnel with information security
+          responsibilities; system administrators
       - method: test
         statement: >
-          mechanisms for implementing least privilege functions; mechanisms for
-          implementing reviews of user privileges
+          mechanisms for implementing least privilege functions;
+          mechanisms for implementing reviews of user privileges
     statement: "access to {{ a_03_01_05_odp_01 }} is authorized."
   - id: b.02
     methods:
       - method: examine
         statement: >
-          access control policy and procedures; procedures for least privilege; list
-          of assigned access authorizations (i.e., privileges); system configuration
-          settings; system audit records; list of security functions (implemented in
-          hardware, software, and firmware); security-relevant information for which
-          access must be explicitly authorized; list of system-generated roles or
-          classes of users and assigned privileges; validation reviews of privileges
-          assigned to roles or classes of users; records of privilege removals or
-          reassignments for roles or classes of users; system security plan; system
-          design documentation; other relevant documents or records
+          access control policy and procedures; procedures for least
+          privilege; list of assigned access authorizations (i.e.,
+          privileges); system configuration settings; system audit
+          records; list of security functions (implemented in
+          hardware, software, and firmware); security-relevant
+          information for which access must be explicitly
+          authorized; list of system-generated roles or classes of
+          users and assigned privileges; validation reviews of
+          privileges assigned to roles or classes of users; records
+          of privilege removals or reassignments for roles or
+          classes of users; system security plan; system design
+          documentation; other relevant documents or records
       - method: interview
         statement: >
-          personnel with responsibilities for defining least privileges; personnel
-          with information security responsibilities; system administrators
+          personnel with responsibilities for defining least
+          privileges; personnel with information security
+          responsibilities; system administrators
       - method: test
         statement: >
-          mechanisms for implementing least privilege functions; mechanisms for
-          implementing reviews of user privileges
+          mechanisms for implementing least privilege functions;
+          mechanisms for implementing reviews of user privileges
     statement: "access to {{ a_03_01_05_odp_02 }} is authorized."
   - id: c
     methods:
       - method: examine
         statement: >
-          access control policy and procedures; procedures for least privilege; list
-          of assigned access authorizations (i.e., privileges); system configuration
-          settings; system audit records; list of security functions (implemented in
-          hardware, software, and firmware); security-relevant information for which
-          access must be explicitly authorized; list of system-generated roles or
-          classes of users and assigned privileges; validation reviews of privileges
-          assigned to roles or classes of users; records of privilege removals or
-          reassignments for roles or classes of users; system security plan; system
-          design documentation; other relevant documents or records
+          access control policy and procedures; procedures for least
+          privilege; list of assigned access authorizations (i.e.,
+          privileges); system configuration settings; system audit
+          records; list of security functions (implemented in
+          hardware, software, and firmware); security-relevant
+          information for which access must be explicitly
+          authorized; list of system-generated roles or classes of
+          users and assigned privileges; validation reviews of
+          privileges assigned to roles or classes of users; records
+          of privilege removals or reassignments for roles or
+          classes of users; system security plan; system design
+          documentation; other relevant documents or records
       - method: interview
         statement: >
-          personnel with responsibilities for defining least privileges; personnel
-          with information security responsibilities; system administrators
+          personnel with responsibilities for defining least
+          privileges; personnel with information security
+          responsibilities; system administrators
       - method: test
         statement: >
-          mechanisms for implementing least privilege functions; mechanisms for
-          implementing reviews of user privileges
+          mechanisms for implementing least privilege functions;
+          mechanisms for implementing reviews of user privileges
     statement: >
-      the privileges assigned to roles or classes of users are reviewed
-      {{ a_03_01_05_odp_03 }} to validate the need for such privileges.
+      the privileges assigned to roles or classes of users are
+      reviewed {{ a_03_01_05_odp_03 }} to validate the need for such
+      privileges.
   - id: d
     methods:
       - method: examine
         statement: >
-          access control policy and procedures; procedures for least privilege; list
-          of assigned access authorizations (i.e., privileges); system configuration
-          settings; system audit records; list of security functions (implemented in
-          hardware, software, and firmware); security-relevant information for which
-          access must be explicitly authorized; list of system-generated roles or
-          classes of users and assigned privileges; validation reviews of privileges
-          assigned to roles or classes of users; records of privilege removals or
-          reassignments for roles or classes of users; system security plan; system
-          design documentation; other relevant documents or records
+          access control policy and procedures; procedures for least
+          privilege; list of assigned access authorizations (i.e.,
+          privileges); system configuration settings; system audit
+          records; list of security functions (implemented in
+          hardware, software, and firmware); security-relevant
+          information for which access must be explicitly
+          authorized; list of system-generated roles or classes of
+          users and assigned privileges; validation reviews of
+          privileges assigned to roles or classes of users; records
+          of privilege removals or reassignments for roles or
+          classes of users; system security plan; system design
+          documentation; other relevant documents or records
       - method: interview
         statement: >
-          personnel with responsibilities for defining least privileges; personnel
-          with information security responsibilities; system administrators
+          personnel with responsibilities for defining least
+          privileges; personnel with information security
+          responsibilities; system administrators
       - method: test
         statement: >
-          mechanisms for implementing least privilege functions; mechanisms for
-          implementing reviews of user privileges
+          mechanisms for implementing least privilege functions;
+          mechanisms for implementing reviews of user privileges
     statement: "privileges are reassigned or removed, as necessary."
 parameters:
   a_03_01_05_odp_01:
@@ -133,13 +155,17 @@ parameters:
 parts:
   - id: a
     statement: >
-      Allow only authorized system access for users (or processes acting on behalf
-      of users) that is necessary to accomplish assigned organizational tasks.
+      Allow only authorized system access for users (or processes
+      acting on behalf of users) that is necessary to accomplish
+      assigned organizational tasks.
   - id: b
-    statement: "Authorize access to {{ a_03_01_05_odp_01 }} and {{ a_03_01_05_odp_02 }}."
+    statement: >-
+      Authorize access to {{ a_03_01_05_odp_01 }} and
+      {{ a_03_01_05_odp_02 }}.
   - id: c
     statement: >
       Review the privileges assigned to roles or classes of users
-      {{ a_03_01_05_odp_03 }} to validate the need for such privileges.
+      {{ a_03_01_05_odp_03 }} to validate the need for such
+      privileges.
   - id: d
     statement: "Reassign or remove privileges, as necessary."

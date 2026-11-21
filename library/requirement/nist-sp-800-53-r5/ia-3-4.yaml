@@ -13,29 +13,31 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Identification and authentication policy; system security plan; procedures
-          addressing device identification and authentication; procedures addressing
-          device configuration management; system design documentation; system
-          configuration settings and associated documentation; configuration
-          management records; change control records; system audit records; other
-          relevant documents or records
+          Identification and authentication policy; system security
+          plan; procedures addressing device identification and
+          authentication; procedures addressing device configuration
+          management; system design documentation; system
+          configuration settings and associated documentation;
+          configuration management records; change control records;
+          system audit records; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with operational responsibilities for device
-          identification and authentication; organizational personnel with information
-          security responsibilities; system/network administrators
+          Organizational personnel with operational responsibilities
+          for device identification and authentication;
+          organizational personnel with information security
+          responsibilities; system/network administrators
       - method: test
         statement: >
-          Mechanisms supporting and/or implementing device identification and
-          authentication capabilities; mechanisms supporting and/or implementing
-          configuration management; cryptographic mechanisms supporting device
-          attestation
+          Mechanisms supporting and/or implementing device
+          identification and authentication capabilities; mechanisms
+          supporting and/or implementing configuration management;
+          cryptographic mechanisms supporting device attestation
     statement: >
-      device identification and authentication are handled based on attestation by
-      {{ ia_03_04_odp }}.
+      device identification and authentication are handled based on
+      attestation by {{ ia_03_04_odp }}.
 parameters:
   ia_03_04_odp:
     label: configuration management process
 statement: >
-  Handle device identification and authentication based on attestation by
-  {{ ia_03_04_odp }}.
+  Handle device identification and authentication based on
+  attestation by {{ ia_03_04_odp }}.

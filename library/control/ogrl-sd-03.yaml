@@ -9,13 +9,14 @@ control_type: detective
 family: sd
 frequency: event-driven
 guidance: >
-  Use CI-integrated tools such as CodeQL or Semgrep, GitHub secret scanning
-  with push protection, and Dependabot or Snyk, configured as required status
-  checks. Track approved exceptions with an expiry date. Ongoing scanning of
-  deployed images and dependencies is covered by OGRL-VM-01.
+  Use CI-integrated tools such as CodeQL or Semgrep, GitHub secret
+  scanning with push protection, and Dependabot or Snyk, configured
+  as required status checks. Track approved exceptions with an
+  expiry date. Ongoing scanning of deployed images and dependencies
+  is covered by OGRL-VM-01.
 objective: >
-  Prevent common code flaws, leaked secrets, and known-vulnerable dependencies
-  from being merged.
+  Prevent common code flaws, leaked secrets, and known-vulnerable
+  dependencies from being merged.
 origin: standard
 parameters:
   blocking_severity:
@@ -26,16 +27,19 @@ parameters:
     value: the security lead
   scanned_repositories:
     label: Repositories subject to scanning
-    value: all repositories that build or deploy production code or infrastructure
+    value: >-
+      all repositories that build or deploy production code or
+      infrastructure
 statement: >
-  Run static application security testing, secret scanning, and software
-  composition analysis on every pull request to {{ scanned_repositories }},
-  block merge on unresolved findings rated {{ blocking_severity }} or above
-  unless an exception is approved by {{ scan_exception_approver }}, and retain
-  scan results with the change record.
+  Run static application security testing, secret scanning, and
+  software composition analysis on every pull request to
+  {{ scanned_repositories }}, block merge on unresolved findings
+  rated {{ blocking_severity }} or above unless an exception is
+  approved by {{ scan_exception_approver }}, and retain scan results
+  with the change record.
 summary: >
-  Run SAST, secret scanning, and dependency analysis on every pull request and
-  block merges on serious findings.
+  Run SAST, secret scanning, and dependency analysis on every pull
+  request and block merges on serious findings.
 tags:
   - sast
   - dependency-scanning

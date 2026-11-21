@@ -13,24 +13,29 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Access control policy; information flow control policies; procedures
-          addressing information flow enforcement; procedures addressing source and
-          destination domain identification and authentication; system design
-          documentation; system configuration settings and associated documentation;
-          system audit records; list of system labels; system security plan; privacy
-          plan; other relevant documents or records
+          Access control policy; information flow control policies;
+          procedures addressing information flow enforcement;
+          procedures addressing source and destination domain
+          identification and authentication; system design
+          documentation; system configuration settings and
+          associated documentation; system audit records; list of
+          system labels; system security plan; privacy plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security and privacy responsibilities; system developers
+          System/network administrators; organizational personnel
+          with information security and privacy responsibilities;
+          system developers
       - method: test
-        statement: Mechanisms implementing information flow enforcement policy
+        statement: >-
+          Mechanisms implementing information flow enforcement
+          policy
     statement: >
-      source and destination points are uniquely identified and authenticated by
-      {{ ac_04_17_odp }} for information transfer.
+      source and destination points are uniquely identified and
+      authenticated by {{ ac_04_17_odp }} for information transfer.
 parameters:
   ac_04_17_odp:
     label: ac-04.17_odp
 statement: >
-  Uniquely identify and authenticate source and destination points by
-  {{ ac_04_17_odp }} for information transfer.
+  Uniquely identify and authenticate source and destination points
+  by {{ ac_04_17_odp }} for information transfer.

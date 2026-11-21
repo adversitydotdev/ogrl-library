@@ -13,27 +13,33 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and services acquisition policy; procedures addressing external
-          system services; acquisition contracts for the system, system component, or
-          system service; solicitation documentation; acquisition documentation;
-          service level agreements; procedures addressing organization-controlled
-          integrity checking; information/data and/or system services; organizational
-          security requirements or conditions for external providers; system security
-          plan; supply chain risk management plan; other relevant documents or records
+          System and services acquisition policy; procedures
+          addressing external system services; acquisition contracts
+          for the system, system component, or system service;
+          solicitation documentation; acquisition documentation;
+          service level agreements; procedures addressing
+          organization-controlled integrity checking;
+          information/data and/or system services; organizational
+          security requirements or conditions for external
+          providers; system security plan; supply chain risk
+          management plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with system and service acquisition
-          responsibilities; organizational personnel with information security
-          responsibilities; organization personnel with integrity checking
-          responsibilities; external providers of system services; organizational
-          personnel with supply chain risk management responsibilities
+          Organizational personnel with system and service
+          acquisition responsibilities; organizational personnel
+          with information security responsibilities; organization
+          personnel with integrity checking responsibilities;
+          external providers of system services; organizational
+          personnel with supply chain risk management
+          responsibilities
       - method: test
         statement: >
-          Organizational processes for integrity checking; mechanisms for supporting
-          and implementing integrity checking of information in external systems
+          Organizational processes for integrity checking;
+          mechanisms for supporting and implementing integrity
+          checking of information in external systems
     statement: >
-      the capability is provided to check the integrity of information while it
-      resides in the external system.
+      the capability is provided to check the integrity of
+      information while it resides in the external system.
 statement: >
-  Provide the capability to check the integrity of information while it
-  resides in the external system.
+  Provide the capability to check the integrity of information while
+  it resides in the external system.

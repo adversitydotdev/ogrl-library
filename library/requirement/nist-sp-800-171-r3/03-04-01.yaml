@@ -26,126 +26,155 @@ objectives:
     methods:
       - method: examine
         statement: >
-          configuration management policy and procedures; procedures for the baseline
-          system configuration; configuration management plan; enterprise
-          architecture; system design documentation; system architecture; system
-          configuration settings; system component inventory; change control records;
-          system security plan; other relevant documents or records
+          configuration management policy and procedures; procedures
+          for the baseline system configuration; configuration
+          management plan; enterprise architecture; system design
+          documentation; system architecture; system configuration
+          settings; system component inventory; change control
+          records; system security plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          personnel with configuration management responsibilities; personnel with
-          information security responsibilities; system administrators
+          personnel with configuration management responsibilities;
+          personnel with information security responsibilities;
+          system administrators
       - method: test
         statement: >
-          processes for managing baseline configurations; mechanisms for supporting
-          configuration control of the baseline configuration
-    statement: a current baseline configuration of the system is developed.
+          processes for managing baseline configurations; mechanisms
+          for supporting configuration control of the baseline
+          configuration
+    statement: >-
+      a current baseline configuration of the system is developed.
   - id: a.02
     methods:
       - method: examine
         statement: >
-          configuration management policy and procedures; procedures for the baseline
-          system configuration; configuration management plan; enterprise
-          architecture; system design documentation; system architecture; system
-          configuration settings; system component inventory; change control records;
-          system security plan; other relevant documents or records
+          configuration management policy and procedures; procedures
+          for the baseline system configuration; configuration
+          management plan; enterprise architecture; system design
+          documentation; system architecture; system configuration
+          settings; system component inventory; change control
+          records; system security plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          personnel with configuration management responsibilities; personnel with
-          information security responsibilities; system administrators
+          personnel with configuration management responsibilities;
+          personnel with information security responsibilities;
+          system administrators
       - method: test
         statement: >
-          processes for managing baseline configurations; mechanisms for supporting
-          configuration control of the baseline configuration
+          processes for managing baseline configurations; mechanisms
+          for supporting configuration control of the baseline
+          configuration
     statement: >
-      a current baseline configuration of the system is maintained under
-      configuration control.
+      a current baseline configuration of the system is maintained
+      under configuration control.
   - id: b.02
     methods:
       - method: examine
         statement: >
-          configuration management policy and procedures; procedures for the baseline
-          system configuration; configuration management plan; enterprise
-          architecture; system design documentation; system architecture; system
-          configuration settings; system component inventory; change control records;
-          system security plan; other relevant documents or records
+          configuration management policy and procedures; procedures
+          for the baseline system configuration; configuration
+          management plan; enterprise architecture; system design
+          documentation; system architecture; system configuration
+          settings; system component inventory; change control
+          records; system security plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          personnel with configuration management responsibilities; personnel with
-          information security responsibilities; system administrators
+          personnel with configuration management responsibilities;
+          personnel with information security responsibilities;
+          system administrators
       - method: test
         statement: >
-          processes for managing baseline configurations; mechanisms for supporting
-          configuration control of the baseline configuration
-    statement: "the baseline configuration of the system is updated {{ a_03_04_01_odp_01 }}."
+          processes for managing baseline configurations; mechanisms
+          for supporting configuration control of the baseline
+          configuration
+    statement: >-
+      the baseline configuration of the system is updated
+      {{ a_03_04_01_odp_01 }}.
   - id: b.03
     methods:
       - method: examine
         statement: >
-          configuration management policy and procedures; procedures for the baseline
-          system configuration; configuration management plan; enterprise
-          architecture; system design documentation; system architecture; system
-          configuration settings; system component inventory; change control records;
-          system security plan; other relevant documents or records
+          configuration management policy and procedures; procedures
+          for the baseline system configuration; configuration
+          management plan; enterprise architecture; system design
+          documentation; system architecture; system configuration
+          settings; system component inventory; change control
+          records; system security plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          personnel with configuration management responsibilities; personnel with
-          information security responsibilities; system administrators
+          personnel with configuration management responsibilities;
+          personnel with information security responsibilities;
+          system administrators
       - method: test
         statement: >
-          processes for managing baseline configurations; mechanisms for supporting
-          configuration control of the baseline configuration
+          processes for managing baseline configurations; mechanisms
+          for supporting configuration control of the baseline
+          configuration
     statement: >
-      the baseline configuration of the system is reviewed when system components
-      are installed or modified.
+      the baseline configuration of the system is reviewed when
+      system components are installed or modified.
   - id: b.04
     methods:
       - method: examine
         statement: >
-          configuration management policy and procedures; procedures for the baseline
-          system configuration; configuration management plan; enterprise
-          architecture; system design documentation; system architecture; system
-          configuration settings; system component inventory; change control records;
-          system security plan; other relevant documents or records
+          configuration management policy and procedures; procedures
+          for the baseline system configuration; configuration
+          management plan; enterprise architecture; system design
+          documentation; system architecture; system configuration
+          settings; system component inventory; change control
+          records; system security plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          personnel with configuration management responsibilities; personnel with
-          information security responsibilities; system administrators
+          personnel with configuration management responsibilities;
+          personnel with information security responsibilities;
+          system administrators
       - method: test
         statement: >
-          processes for managing baseline configurations; mechanisms for supporting
-          configuration control of the baseline configuration
+          processes for managing baseline configurations; mechanisms
+          for supporting configuration control of the baseline
+          configuration
     statement: >
-      the baseline configuration of the system is updated when system components
-      are installed or modified.
+      the baseline configuration of the system is updated when
+      system components are installed or modified.
   - id: b.01
     methods:
       - method: examine
         statement: >
-          configuration management policy and procedures; procedures for the baseline
-          system configuration; configuration management plan; enterprise
-          architecture; system design documentation; system architecture; system
-          configuration settings; system component inventory; change control records;
-          system security plan; other relevant documents or records
+          configuration management policy and procedures; procedures
+          for the baseline system configuration; configuration
+          management plan; enterprise architecture; system design
+          documentation; system architecture; system configuration
+          settings; system component inventory; change control
+          records; system security plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          personnel with configuration management responsibilities; personnel with
-          information security responsibilities; system administrators
+          personnel with configuration management responsibilities;
+          personnel with information security responsibilities;
+          system administrators
       - method: test
         statement: >
-          processes for managing baseline configurations; mechanisms for supporting
-          configuration control of the baseline configuration
-    statement: "the baseline configuration of the system is reviewed {{ a_03_04_01_odp_01 }}."
+          processes for managing baseline configurations; mechanisms
+          for supporting configuration control of the baseline
+          configuration
+    statement: >-
+      the baseline configuration of the system is reviewed
+      {{ a_03_04_01_odp_01 }}.
 parameters:
   a_03_04_01_odp_01:
     label: frequency
 parts:
   - id: a
     statement: >
-      Develop and maintain under configuration control, a current baseline
-      configuration of the system.
+      Develop and maintain under configuration control, a current
+      baseline configuration of the system.
   - id: b
     statement: >
       Review and update the baseline configuration of the system
-      {{ a_03_04_01_odp_01 }} and when system components are installed or
-      modified.
+      {{ a_03_04_01_odp_01 }} and when system components are
+      installed or modified.

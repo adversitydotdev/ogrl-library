@@ -13,21 +13,27 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Contingency planning policy; procedures addressing system recovery and
-          reconstitution; contingency plan; system design documentation; system
-          configuration settings and associated documentation; logical access
-          credentials; physical access credentials; logical access authorization
-          records; physical access authorization records; system security plan; other
-          relevant documents or records
+          Contingency planning policy; procedures addressing system
+          recovery and reconstitution; contingency plan; system
+          design documentation; system configuration settings and
+          associated documentation; logical access credentials;
+          physical access credentials; logical access authorization
+          records; physical access authorization records; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with system recovery and reconstitution
-          responsibilities; organizational personnel with information security
-          responsibilities
+          Organizational personnel with system recovery and
+          reconstitution responsibilities; organizational personnel
+          with information security responsibilities
       - method: test
         statement: >
-          Organizational processes for protecting backup and restoration of hardware,
-          firmware, and software; mechanisms supporting and/or implementing protection
-          of backups and restoration of hardware, firmware, and software
-    statement: system components used for recovery and reconstitution are protected.
-statement: Protect system components used for recovery and reconstitution.
+          Organizational processes for protecting backup and
+          restoration of hardware, firmware, and software;
+          mechanisms supporting and/or implementing protection of
+          backups and restoration of hardware, firmware, and
+          software
+    statement: >-
+      system components used for recovery and reconstitution are
+      protected.
+statement: >-
+  Protect system components used for recovery and reconstitution.

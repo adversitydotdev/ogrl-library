@@ -13,19 +13,27 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures for addressing account management; system
-          design documentation; system configuration settings and associated
-          documentation; system audit records; system security plan; other relevant
+          Access control policy; procedures for addressing account
+          management; system design documentation; system
+          configuration settings and associated documentation;
+          system audit records; system security plan; other relevant
           documents or records
       - method: interview
         statement: >
-          Organizational personnel with account management responsibilities;
-          system/network administrators; organizational personnel with information
-          security with information security responsibilities; system developers
+          Organizational personnel with account management
+          responsibilities; system/network administrators;
+          organizational personnel with information security with
+          information security responsibilities; system developers
       - method: test
-        statement: Automated mechanisms for implementing account management functions
-    statement: "the management of system accounts is supported using {{ ac_02_01_odp }}."
+        statement: >-
+          Automated mechanisms for implementing account management
+          functions
+    statement: >-
+      the management of system accounts is supported using
+      {{ ac_02_01_odp }}.
 parameters:
   ac_02_01_odp:
     label: automated mechanisms
-statement: "Support the management of system accounts using {{ ac_02_01_odp }}."
+statement: >-
+  Support the management of system accounts using
+  {{ ac_02_01_odp }}.

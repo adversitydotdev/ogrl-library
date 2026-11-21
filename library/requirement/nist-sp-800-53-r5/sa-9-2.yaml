@@ -13,27 +13,30 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and services acquisition policy; supply chain risk management policy
-          and procedures; procedures addressing external system services; acquisition
-          contracts for the system, system component, or system service; acquisition
-          documentation; solicitation documentation; service level agreements;
-          organizational security requirements and security specifications for
-          external service providers; list of required functions, ports, protocols,
-          and other services; system security plan; other relevant documents or
-          records
+          System and services acquisition policy; supply chain risk
+          management policy and procedures; procedures addressing
+          external system services; acquisition contracts for the
+          system, system component, or system service; acquisition
+          documentation; solicitation documentation; service level
+          agreements; organizational security requirements and
+          security specifications for external service providers;
+          list of required functions, ports, protocols, and other
+          services; system security plan; other relevant documents
+          or records
       - method: interview
         statement: >
-          Organizational personnel with system and service acquisition
-          responsibilities; organizational personnel with information security
-          responsibilities; system/network administrators; external providers of
-          system services
+          Organizational personnel with system and service
+          acquisition responsibilities; organizational personnel
+          with information security responsibilities; system/network
+          administrators; external providers of system services
     statement: >
-      providers of {{ sa_09_02_odp }} are required to identify the functions,
-      ports, protocols, and other services required for the use of such services.
+      providers of {{ sa_09_02_odp }} are required to identify the
+      functions, ports, protocols, and other services required for
+      the use of such services.
 parameters:
   sa_09_02_odp:
     label: external system services
 statement: >
-  Require providers of the following external system services to identify the
-  functions, ports, protocols, and other services required for the use of such
-  services: {{ sa_09_02_odp }}.
+  Require providers of the following external system services to
+  identify the functions, ports, protocols, and other services
+  required for the use of such services: {{ sa_09_02_odp }}.

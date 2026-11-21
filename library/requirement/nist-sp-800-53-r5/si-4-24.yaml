@@ -13,81 +13,97 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; procedures addressing system monitoring; system design
-          documentation; system monitoring tools and techniques documentation; system
-          configuration settings and associated documentation; system monitoring logs
-          or records; system audit records; system security plan; other relevant
-          documents or records
+          System and information integrity policy; system and
+          information integrity procedures; procedures addressing
+          system monitoring; system design documentation; system
+          monitoring tools and techniques documentation; system
+          configuration settings and associated documentation;
+          system monitoring logs or records; system audit records;
+          system security plan; other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; system developer; organizational personnel
-          installing, configuring, and/or maintaining the system; organizational
+          System/network administrators; organizational personnel
+          with information security responsibilities; system
+          developer; organizational personnel installing,
+          configuring, and/or maintaining the system; organizational
           personnel responsible for monitoring system hosts
       - method: test
         statement: >
-          Organizational processes for system monitoring; organizational processes for
-          the discovery, collection, distribution, and use of indicators of
-          compromise; mechanisms supporting and/or implementing a system monitoring
-          capability; mechanisms supporting and/or implementing the discovery,
-          collection, distribution, and use of indicators of compromise
-    statement: "indicators of compromise provided by {{ si_04_24_odp_01 }} are discovered;"
+          Organizational processes for system monitoring;
+          organizational processes for the discovery, collection,
+          distribution, and use of indicators of compromise;
+          mechanisms supporting and/or implementing a system
+          monitoring capability; mechanisms supporting and/or
+          implementing the discovery, collection, distribution, and
+          use of indicators of compromise
+    statement: >-
+      indicators of compromise provided by {{ si_04_24_odp_01 }} are
+      discovered;
   - id: "si-04(24).si-04(24)[02]"
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; procedures addressing system monitoring; system design
-          documentation; system monitoring tools and techniques documentation; system
-          configuration settings and associated documentation; system monitoring logs
-          or records; system audit records; system security plan; other relevant
-          documents or records
+          System and information integrity policy; system and
+          information integrity procedures; procedures addressing
+          system monitoring; system design documentation; system
+          monitoring tools and techniques documentation; system
+          configuration settings and associated documentation;
+          system monitoring logs or records; system audit records;
+          system security plan; other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; system developer; organizational personnel
-          installing, configuring, and/or maintaining the system; organizational
+          System/network administrators; organizational personnel
+          with information security responsibilities; system
+          developer; organizational personnel installing,
+          configuring, and/or maintaining the system; organizational
           personnel responsible for monitoring system hosts
       - method: test
         statement: >
-          Organizational processes for system monitoring; organizational processes for
-          the discovery, collection, distribution, and use of indicators of
-          compromise; mechanisms supporting and/or implementing a system monitoring
-          capability; mechanisms supporting and/or implementing the discovery,
-          collection, distribution, and use of indicators of compromise
-    statement: "indicators of compromise provided by {{ si_04_24_odp_01 }} are collected;"
+          Organizational processes for system monitoring;
+          organizational processes for the discovery, collection,
+          distribution, and use of indicators of compromise;
+          mechanisms supporting and/or implementing a system
+          monitoring capability; mechanisms supporting and/or
+          implementing the discovery, collection, distribution, and
+          use of indicators of compromise
+    statement: >-
+      indicators of compromise provided by {{ si_04_24_odp_01 }} are
+      collected;
   - id: "si-04(24).si-04(24)[03]"
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; procedures addressing system monitoring; system design
-          documentation; system monitoring tools and techniques documentation; system
-          configuration settings and associated documentation; system monitoring logs
-          or records; system audit records; system security plan; other relevant
-          documents or records
+          System and information integrity policy; system and
+          information integrity procedures; procedures addressing
+          system monitoring; system design documentation; system
+          monitoring tools and techniques documentation; system
+          configuration settings and associated documentation;
+          system monitoring logs or records; system audit records;
+          system security plan; other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; system developer; organizational personnel
-          installing, configuring, and/or maintaining the system; organizational
+          System/network administrators; organizational personnel
+          with information security responsibilities; system
+          developer; organizational personnel installing,
+          configuring, and/or maintaining the system; organizational
           personnel responsible for monitoring system hosts
       - method: test
         statement: >
-          Organizational processes for system monitoring; organizational processes for
-          the discovery, collection, distribution, and use of indicators of
-          compromise; mechanisms supporting and/or implementing a system monitoring
-          capability; mechanisms supporting and/or implementing the discovery,
-          collection, distribution, and use of indicators of compromise
+          Organizational processes for system monitoring;
+          organizational processes for the discovery, collection,
+          distribution, and use of indicators of compromise;
+          mechanisms supporting and/or implementing a system
+          monitoring capability; mechanisms supporting and/or
+          implementing the discovery, collection, distribution, and
+          use of indicators of compromise
     statement: >
-      indicators of compromise provided by {{ si_04_24_odp_01 }} are distributed
-      to {{ si_04_24_odp_02 }}.
+      indicators of compromise provided by {{ si_04_24_odp_01 }} are
+      distributed to {{ si_04_24_odp_02 }}.
 parameters:
   si_04_24_odp_01:
     label: sources
   si_04_24_odp_02:
     label: personnel or roles
 statement: >
-  Discover, collect, and distribute to {{ si_04_24_odp_02 }} , indicators of
-  compromise provided by {{ si_04_24_odp_01 }}.
+  Discover, collect, and distribute to {{ si_04_24_odp_02 }} ,
+  indicators of compromise provided by {{ si_04_24_odp_01 }}.

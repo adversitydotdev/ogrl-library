@@ -13,36 +13,42 @@ objectives:
     methods:
       - method: examine
         statement: >
-          system and communications protection policy and procedures; procedures for
-          information protection in shared system resources; system configuration
-          settings; system audit records; system design documentation; system security
-          plan; other relevant documents or records
+          system and communications protection policy and
+          procedures; procedures for information protection in
+          shared system resources; system configuration settings;
+          system audit records; system design documentation; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          personnel with information security responsibilities; system developers;
-          system administrators
+          personnel with information security responsibilities;
+          system developers; system administrators
       - method: test
         statement: >
-          mechanisms for preventing the unauthorized and unintended transfer of
-          information via shared system resources
-    statement: unauthorized information transfer via shared system resources is prevented.
+          mechanisms for preventing the unauthorized and unintended
+          transfer of information via shared system resources
+    statement: >-
+      unauthorized information transfer via shared system resources
+      is prevented.
   - id: "02"
     methods:
       - method: examine
         statement: >
-          system and communications protection policy and procedures; procedures for
-          information protection in shared system resources; system configuration
-          settings; system audit records; system design documentation; system security
-          plan; other relevant documents or records
+          system and communications protection policy and
+          procedures; procedures for information protection in
+          shared system resources; system configuration settings;
+          system audit records; system design documentation; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          personnel with information security responsibilities; system developers;
-          system administrators
+          personnel with information security responsibilities;
+          system developers; system administrators
       - method: test
         statement: >
-          mechanisms for preventing the unauthorized and unintended transfer of
-          information via shared system resources
-    statement: unintended information transfer via shared system resources is prevented.
+          mechanisms for preventing the unauthorized and unintended
+          transfer of information via shared system resources
+    statement: >-
+      unintended information transfer via shared system resources is
+      prevented.
 statement: >
-  Prevent unauthorized and unintended information transfer via shared system
-  resources.
+  Prevent unauthorized and unintended information transfer via
+  shared system resources.

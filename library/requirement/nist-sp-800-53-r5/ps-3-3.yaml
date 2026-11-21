@@ -13,51 +13,61 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Personnel security policy; access control policy, procedures addressing
-          personnel screening; records of screened personnel; screening criteria;
-          records of access authorizations; system security plan; other relevant
+          Personnel security policy; access control policy,
+          procedures addressing personnel screening; records of
+          screened personnel; screening criteria; records of access
+          authorizations; system security plan; other relevant
           documents or records
       - method: interview
         statement: >
-          Organizational personnel with personnel security responsibilities;
-          organizational personnel with information security responsibilities
+          Organizational personnel with personnel security
+          responsibilities; organizational personnel with
+          information security responsibilities
       - method: test
         statement: >
-          Organizational processes for ensuring valid access authorizations for
-          information requiring special protection; organizational process for
-          additional personnel screening for information requiring special protection
+          Organizational processes for ensuring valid access
+          authorizations for information requiring special
+          protection; organizational process for additional
+          personnel screening for information requiring special
+          protection
     statement: >
-      individuals accessing a system processing, storing, or transmitting
-      information requiring special protection have valid access authorizations
-      that are demonstrated by assigned official government duties;
+      individuals accessing a system processing, storing, or
+      transmitting information requiring special protection have
+      valid access authorizations that are demonstrated by assigned
+      official government duties;
   - id: b
     methods:
       - method: examine
         statement: >
-          Personnel security policy; access control policy, procedures addressing
-          personnel screening; records of screened personnel; screening criteria;
-          records of access authorizations; system security plan; other relevant
+          Personnel security policy; access control policy,
+          procedures addressing personnel screening; records of
+          screened personnel; screening criteria; records of access
+          authorizations; system security plan; other relevant
           documents or records
       - method: interview
         statement: >
-          Organizational personnel with personnel security responsibilities;
-          organizational personnel with information security responsibilities
+          Organizational personnel with personnel security
+          responsibilities; organizational personnel with
+          information security responsibilities
       - method: test
         statement: >
-          Organizational processes for ensuring valid access authorizations for
-          information requiring special protection; organizational process for
-          additional personnel screening for information requiring special protection
+          Organizational processes for ensuring valid access
+          authorizations for information requiring special
+          protection; organizational process for additional
+          personnel screening for information requiring special
+          protection
     statement: >
-      individuals accessing a system processing, storing, or transmitting
-      information requiring special protection satisfy {{ ps_03_03_odp }}.
+      individuals accessing a system processing, storing, or
+      transmitting information requiring special protection satisfy
+      {{ ps_03_03_odp }}.
 parameters:
   ps_03_03_odp:
     label: additional personnel screening criteria
 parts:
   - id: a
     statement: >
-      Have valid access authorizations that are demonstrated by assigned official
-      government duties; and
+      Have valid access authorizations that are demonstrated by
+      assigned official government duties; and
   - id: b
     statement: "Satisfy {{ ps_03_03_odp }}."
 statement: >

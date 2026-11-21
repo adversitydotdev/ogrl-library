@@ -20,111 +20,133 @@ objectives:
     methods:
       - method: examine
         statement: >
-          incident response policy and procedures; procedures for incident monitoring;
-          procedures for incident response assistance; incident response records and
-          documentation; incident response plan; system security plan; other relevant
-          documents or records
+          incident response policy and procedures; procedures for
+          incident monitoring; procedures for incident response
+          assistance; incident response records and documentation;
+          incident response plan; system security plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          personnel with incident monitoring responsibilities; personnel with incident
-          response assistance and support responsibilities; personnel with information
-          security responsibilities
+          personnel with incident monitoring responsibilities;
+          personnel with incident response assistance and support
+          responsibilities; personnel with information security
+          responsibilities
       - method: test
         statement: >
-          processes for incident reporting; incident monitoring capability; mechanisms
-          for supporting or implementing the tracking and documenting of system
-          security incidents; mechanisms for supporting or implementing incident
-          reporting; mechanisms for supporting or implementing incident response
-          assistance; processes for incident response assistance
+          processes for incident reporting; incident monitoring
+          capability; mechanisms for supporting or implementing the
+          tracking and documenting of system security incidents;
+          mechanisms for supporting or implementing incident
+          reporting; mechanisms for supporting or implementing
+          incident response assistance; processes for incident
+          response assistance
     statement: system security incidents are tracked.
   - id: a.02
     methods:
       - method: examine
         statement: >
-          incident response policy and procedures; procedures for incident monitoring;
-          procedures for incident response assistance; incident response records and
-          documentation; incident response plan; system security plan; other relevant
-          documents or records
+          incident response policy and procedures; procedures for
+          incident monitoring; procedures for incident response
+          assistance; incident response records and documentation;
+          incident response plan; system security plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          personnel with incident monitoring responsibilities; personnel with incident
-          response assistance and support responsibilities; personnel with information
-          security responsibilities
+          personnel with incident monitoring responsibilities;
+          personnel with incident response assistance and support
+          responsibilities; personnel with information security
+          responsibilities
       - method: test
         statement: >
-          processes for incident reporting; incident monitoring capability; mechanisms
-          for supporting or implementing the tracking and documenting of system
-          security incidents; mechanisms for supporting or implementing incident
-          reporting; mechanisms for supporting or implementing incident response
-          assistance; processes for incident response assistance
+          processes for incident reporting; incident monitoring
+          capability; mechanisms for supporting or implementing the
+          tracking and documenting of system security incidents;
+          mechanisms for supporting or implementing incident
+          reporting; mechanisms for supporting or implementing
+          incident response assistance; processes for incident
+          response assistance
     statement: system security incidents are documented.
   - id: b
     methods:
       - method: examine
         statement: >
-          incident response policy and procedures; procedures for incident monitoring;
-          procedures for incident response assistance; incident response records and
-          documentation; incident response plan; system security plan; other relevant
-          documents or records
+          incident response policy and procedures; procedures for
+          incident monitoring; procedures for incident response
+          assistance; incident response records and documentation;
+          incident response plan; system security plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          personnel with incident monitoring responsibilities; personnel with incident
-          response assistance and support responsibilities; personnel with information
-          security responsibilities
+          personnel with incident monitoring responsibilities;
+          personnel with incident response assistance and support
+          responsibilities; personnel with information security
+          responsibilities
       - method: test
         statement: >
-          processes for incident reporting; incident monitoring capability; mechanisms
-          for supporting or implementing the tracking and documenting of system
-          security incidents; mechanisms for supporting or implementing incident
-          reporting; mechanisms for supporting or implementing incident response
-          assistance; processes for incident response assistance
+          processes for incident reporting; incident monitoring
+          capability; mechanisms for supporting or implementing the
+          tracking and documenting of system security incidents;
+          mechanisms for supporting or implementing incident
+          reporting; mechanisms for supporting or implementing
+          incident response assistance; processes for incident
+          response assistance
     statement: >
-      suspected incidents are reported to the organizational incident response
-      capability within {{ a_03_06_02_odp_01 }}.
+      suspected incidents are reported to the organizational
+      incident response capability within {{ a_03_06_02_odp_01 }}.
   - id: c
     methods:
       - method: examine
         statement: >
-          incident response policy and procedures; procedures for incident monitoring;
-          procedures for incident response assistance; incident response records and
-          documentation; incident response plan; system security plan; other relevant
-          documents or records
+          incident response policy and procedures; procedures for
+          incident monitoring; procedures for incident response
+          assistance; incident response records and documentation;
+          incident response plan; system security plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          personnel with incident monitoring responsibilities; personnel with incident
-          response assistance and support responsibilities; personnel with information
-          security responsibilities
+          personnel with incident monitoring responsibilities;
+          personnel with incident response assistance and support
+          responsibilities; personnel with information security
+          responsibilities
       - method: test
         statement: >
-          processes for incident reporting; incident monitoring capability; mechanisms
-          for supporting or implementing the tracking and documenting of system
-          security incidents; mechanisms for supporting or implementing incident
-          reporting; mechanisms for supporting or implementing incident response
-          assistance; processes for incident response assistance
-    statement: "incident information is reported to {{ a_03_06_02_odp_02 }}."
+          processes for incident reporting; incident monitoring
+          capability; mechanisms for supporting or implementing the
+          tracking and documenting of system security incidents;
+          mechanisms for supporting or implementing incident
+          reporting; mechanisms for supporting or implementing
+          incident response assistance; processes for incident
+          response assistance
+    statement: >-
+      incident information is reported to {{ a_03_06_02_odp_02 }}.
   - id: d
     methods:
       - method: examine
         statement: >
-          incident response policy and procedures; procedures for incident monitoring;
-          procedures for incident response assistance; incident response records and
-          documentation; incident response plan; system security plan; other relevant
-          documents or records
+          incident response policy and procedures; procedures for
+          incident monitoring; procedures for incident response
+          assistance; incident response records and documentation;
+          incident response plan; system security plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          personnel with incident monitoring responsibilities; personnel with incident
-          response assistance and support responsibilities; personnel with information
-          security responsibilities
+          personnel with incident monitoring responsibilities;
+          personnel with incident response assistance and support
+          responsibilities; personnel with information security
+          responsibilities
       - method: test
         statement: >
-          processes for incident reporting; incident monitoring capability; mechanisms
-          for supporting or implementing the tracking and documenting of system
-          security incidents; mechanisms for supporting or implementing incident
-          reporting; mechanisms for supporting or implementing incident response
-          assistance; processes for incident response assistance
+          processes for incident reporting; incident monitoring
+          capability; mechanisms for supporting or implementing the
+          tracking and documenting of system security incidents;
+          mechanisms for supporting or implementing incident
+          reporting; mechanisms for supporting or implementing
+          incident response assistance; processes for incident
+          response assistance
     statement: >
-      an incident response support resource that offers advice and assistance to
-      system users on handling and reporting incidents is provided.
+      an incident response support resource that offers advice and
+      assistance to system users on handling and reporting incidents
+      is provided.
 parameters:
   a_03_06_02_odp_01:
     label: time period
@@ -135,11 +157,13 @@ parts:
     statement: Track and document system security incidents.
   - id: b
     statement: >
-      Report suspected incidents to the organizational incident response
-      capability within {{ a_03_06_02_odp_01 }}.
+      Report suspected incidents to the organizational incident
+      response capability within {{ a_03_06_02_odp_01 }}.
   - id: c
-    statement: "Report incident information to {{ a_03_06_02_odp_02 }}."
+    statement: >-
+      Report incident information to {{ a_03_06_02_odp_02 }}.
   - id: d
     statement: >
-      Provide an incident response support resource that offers advice and
-      assistance to system users on handling and reporting incidents.
+      Provide an incident response support resource that offers
+      advice and assistance to system users on handling and
+      reporting incidents.

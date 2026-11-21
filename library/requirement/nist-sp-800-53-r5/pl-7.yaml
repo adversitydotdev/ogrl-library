@@ -17,44 +17,52 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Security and privacy planning policy; procedures addressing security and
-          privacy CONOPS development; procedures addressing security and privacy
-          CONOPS reviews and updates; security and privacy CONOPS for the system;
-          system security plan; privacy plan; records of security and privacy CONOPS
-          reviews and updates; other relevant documents or records
+          Security and privacy planning policy; procedures
+          addressing security and privacy CONOPS development;
+          procedures addressing security and privacy CONOPS reviews
+          and updates; security and privacy CONOPS for the system;
+          system security plan; privacy plan; records of security
+          and privacy CONOPS reviews and updates; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with security and privacy planning and plan
-          implementation responsibilities; organizational personnel with information
-          security and privacy responsibilities
+          Organizational personnel with security and privacy
+          planning and plan implementation responsibilities;
+          organizational personnel with information security and
+          privacy responsibilities
       - method: test
         statement: >
-          Organizational processes for developing, reviewing, and updating the
-          security CONOPS; mechanisms supporting and/or implementing the development,
-          review, and update of the security CONOPS
+          Organizational processes for developing, reviewing, and
+          updating the security CONOPS; mechanisms supporting and/or
+          implementing the development, review, and update of the
+          security CONOPS
     statement: >
-      a CONOPS for the system describing how the organization intends to operate
-      the system from the perspective of information security and privacy is
-      developed;
+      a CONOPS for the system describing how the organization
+      intends to operate the system from the perspective of
+      information security and privacy is developed;
   - id: b
     methods:
       - method: examine
         statement: >
-          Security and privacy planning policy; procedures addressing security and
-          privacy CONOPS development; procedures addressing security and privacy
-          CONOPS reviews and updates; security and privacy CONOPS for the system;
-          system security plan; privacy plan; records of security and privacy CONOPS
-          reviews and updates; other relevant documents or records
+          Security and privacy planning policy; procedures
+          addressing security and privacy CONOPS development;
+          procedures addressing security and privacy CONOPS reviews
+          and updates; security and privacy CONOPS for the system;
+          system security plan; privacy plan; records of security
+          and privacy CONOPS reviews and updates; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with security and privacy planning and plan
-          implementation responsibilities; organizational personnel with information
-          security and privacy responsibilities
+          Organizational personnel with security and privacy
+          planning and plan implementation responsibilities;
+          organizational personnel with information security and
+          privacy responsibilities
       - method: test
         statement: >
-          Organizational processes for developing, reviewing, and updating the
-          security CONOPS; mechanisms supporting and/or implementing the development,
-          review, and update of the security CONOPS
+          Organizational processes for developing, reviewing, and
+          updating the security CONOPS; mechanisms supporting and/or
+          implementing the development, review, and update of the
+          security CONOPS
     statement: "the CONOPS is reviewed and updated {{ pl_07_odp }}."
 parameters:
   pl_07_odp:
@@ -62,8 +70,8 @@ parameters:
 parts:
   - id: a
     statement: >
-      Develop a Concept of Operations (CONOPS) for the system describing how the
-      organization intends to operate the system from the perspective of
-      information security and privacy; and
+      Develop a Concept of Operations (CONOPS) for the system
+      describing how the organization intends to operate the system
+      from the perspective of information security and privacy; and
   - id: b
     statement: "Review and update the CONOPS {{ pl_07_odp }}."

@@ -13,68 +13,83 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; procedures addressing
-          cryptographic key establishment and management; system design documentation;
-          system configuration settings and associated documentation; system audit
-          records; list of NSA-approved cryptographic products; list of approved PKI
-          Class 3 and Class 4 certificates; system security plan; other relevant
-          documents or records
+          System and communications protection policy; procedures
+          addressing cryptographic key establishment and management;
+          system design documentation; system configuration settings
+          and associated documentation; system audit records; list
+          of NSA-approved cryptographic products; list of approved
+          PKI Class 3 and Class 4 certificates; system security
+          plan; other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; system developer; organizational personnel with
-          responsibilities for cryptographic key establishment or management;
-          organizational personnel with responsibilities for PKI certificates
+          System/network administrators; organizational personnel
+          with information security responsibilities; system
+          developer; organizational personnel with responsibilities
+          for cryptographic key establishment or management;
+          organizational personnel with responsibilities for PKI
+          certificates
       - method: test
         statement: >
-          Mechanisms supporting and/or implementing asymmetric cryptographic key
-          establishment and management
-    statement: "asymmetric cryptographic keys are produced using {{ sc_12_03_odp }};"
+          Mechanisms supporting and/or implementing asymmetric
+          cryptographic key establishment and management
+    statement: >-
+      asymmetric cryptographic keys are produced using
+      {{ sc_12_03_odp }};
   - id: "sc-12(03).sc-12(03)[02]"
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; procedures addressing
-          cryptographic key establishment and management; system design documentation;
-          system configuration settings and associated documentation; system audit
-          records; list of NSA-approved cryptographic products; list of approved PKI
-          Class 3 and Class 4 certificates; system security plan; other relevant
-          documents or records
+          System and communications protection policy; procedures
+          addressing cryptographic key establishment and management;
+          system design documentation; system configuration settings
+          and associated documentation; system audit records; list
+          of NSA-approved cryptographic products; list of approved
+          PKI Class 3 and Class 4 certificates; system security
+          plan; other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; system developer; organizational personnel with
-          responsibilities for cryptographic key establishment or management;
-          organizational personnel with responsibilities for PKI certificates
+          System/network administrators; organizational personnel
+          with information security responsibilities; system
+          developer; organizational personnel with responsibilities
+          for cryptographic key establishment or management;
+          organizational personnel with responsibilities for PKI
+          certificates
       - method: test
         statement: >
-          Mechanisms supporting and/or implementing asymmetric cryptographic key
-          establishment and management
-    statement: "asymmetric cryptographic keys are controlled using {{ sc_12_03_odp }};"
+          Mechanisms supporting and/or implementing asymmetric
+          cryptographic key establishment and management
+    statement: >-
+      asymmetric cryptographic keys are controlled using
+      {{ sc_12_03_odp }};
   - id: "sc-12(03).sc-12(03)[03]"
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; procedures addressing
-          cryptographic key establishment and management; system design documentation;
-          system configuration settings and associated documentation; system audit
-          records; list of NSA-approved cryptographic products; list of approved PKI
-          Class 3 and Class 4 certificates; system security plan; other relevant
-          documents or records
+          System and communications protection policy; procedures
+          addressing cryptographic key establishment and management;
+          system design documentation; system configuration settings
+          and associated documentation; system audit records; list
+          of NSA-approved cryptographic products; list of approved
+          PKI Class 3 and Class 4 certificates; system security
+          plan; other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; system developer; organizational personnel with
-          responsibilities for cryptographic key establishment or management;
-          organizational personnel with responsibilities for PKI certificates
+          System/network administrators; organizational personnel
+          with information security responsibilities; system
+          developer; organizational personnel with responsibilities
+          for cryptographic key establishment or management;
+          organizational personnel with responsibilities for PKI
+          certificates
       - method: test
         statement: >
-          Mechanisms supporting and/or implementing asymmetric cryptographic key
-          establishment and management
-    statement: "asymmetric cryptographic keys are distributed using {{ sc_12_03_odp }}."
+          Mechanisms supporting and/or implementing asymmetric
+          cryptographic key establishment and management
+    statement: >-
+      asymmetric cryptographic keys are distributed using
+      {{ sc_12_03_odp }}.
 parameters:
   sc_12_03_odp:
     label: sc-12.03_odp
 statement: >
-  Produce, control, and distribute asymmetric cryptographic keys using
-  {{ sc_12_03_odp }}.
+  Produce, control, and distribute asymmetric cryptographic keys
+  using {{ sc_12_03_odp }}.

@@ -20,120 +20,135 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; configuration management policies and procedures (CM-01);
-          procedures addressing spam protection; spam protection mechanisms; records
-          of spam protection updates; system design documentation; system
-          configuration settings and associated documentation; system audit records;
-          system security plan; other relevant documents or records
+          System and information integrity policy; system and
+          information integrity procedures; configuration management
+          policies and procedures (CM-01); procedures addressing
+          spam protection; spam protection mechanisms; records of
+          spam protection updates; system design documentation;
+          system configuration settings and associated
+          documentation; system audit records; system security plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel responsible for spam protection; organizational
-          personnel with information security responsibilities; system/network
-          administrators; system developer
+          Organizational personnel responsible for spam protection;
+          organizational personnel with information security
+          responsibilities; system/network administrators; system
+          developer
       - method: test
         statement: >
-          Organizational processes for implementing spam protection; mechanisms
-          supporting and/or implementing spam protection
+          Organizational processes for implementing spam protection;
+          mechanisms supporting and/or implementing spam protection
     statement: >
-      spam protection mechanisms are employed at system entry points to detect
-      unsolicited messages;
+      spam protection mechanisms are employed at system entry points
+      to detect unsolicited messages;
   - id: a-2
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; configuration management policies and procedures (CM-01);
-          procedures addressing spam protection; spam protection mechanisms; records
-          of spam protection updates; system design documentation; system
-          configuration settings and associated documentation; system audit records;
-          system security plan; other relevant documents or records
+          System and information integrity policy; system and
+          information integrity procedures; configuration management
+          policies and procedures (CM-01); procedures addressing
+          spam protection; spam protection mechanisms; records of
+          spam protection updates; system design documentation;
+          system configuration settings and associated
+          documentation; system audit records; system security plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel responsible for spam protection; organizational
-          personnel with information security responsibilities; system/network
-          administrators; system developer
+          Organizational personnel responsible for spam protection;
+          organizational personnel with information security
+          responsibilities; system/network administrators; system
+          developer
       - method: test
         statement: >
-          Organizational processes for implementing spam protection; mechanisms
-          supporting and/or implementing spam protection
+          Organizational processes for implementing spam protection;
+          mechanisms supporting and/or implementing spam protection
     statement: >
-      spam protection mechanisms are employed at system exit points to detect
-      unsolicited messages;
+      spam protection mechanisms are employed at system exit points
+      to detect unsolicited messages;
   - id: a-3
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; configuration management policies and procedures (CM-01);
-          procedures addressing spam protection; spam protection mechanisms; records
-          of spam protection updates; system design documentation; system
-          configuration settings and associated documentation; system audit records;
-          system security plan; other relevant documents or records
+          System and information integrity policy; system and
+          information integrity procedures; configuration management
+          policies and procedures (CM-01); procedures addressing
+          spam protection; spam protection mechanisms; records of
+          spam protection updates; system design documentation;
+          system configuration settings and associated
+          documentation; system audit records; system security plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel responsible for spam protection; organizational
-          personnel with information security responsibilities; system/network
-          administrators; system developer
+          Organizational personnel responsible for spam protection;
+          organizational personnel with information security
+          responsibilities; system/network administrators; system
+          developer
       - method: test
         statement: >
-          Organizational processes for implementing spam protection; mechanisms
-          supporting and/or implementing spam protection
+          Organizational processes for implementing spam protection;
+          mechanisms supporting and/or implementing spam protection
     statement: >
-      spam protection mechanisms are employed at system entry points to act on
-      unsolicited messages;
+      spam protection mechanisms are employed at system entry points
+      to act on unsolicited messages;
   - id: a-4
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; configuration management policies and procedures (CM-01);
-          procedures addressing spam protection; spam protection mechanisms; records
-          of spam protection updates; system design documentation; system
-          configuration settings and associated documentation; system audit records;
-          system security plan; other relevant documents or records
+          System and information integrity policy; system and
+          information integrity procedures; configuration management
+          policies and procedures (CM-01); procedures addressing
+          spam protection; spam protection mechanisms; records of
+          spam protection updates; system design documentation;
+          system configuration settings and associated
+          documentation; system audit records; system security plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel responsible for spam protection; organizational
-          personnel with information security responsibilities; system/network
-          administrators; system developer
+          Organizational personnel responsible for spam protection;
+          organizational personnel with information security
+          responsibilities; system/network administrators; system
+          developer
       - method: test
         statement: >
-          Organizational processes for implementing spam protection; mechanisms
-          supporting and/or implementing spam protection
+          Organizational processes for implementing spam protection;
+          mechanisms supporting and/or implementing spam protection
     statement: >
-      spam protection mechanisms are employed at system exit points to act on
-      unsolicited messages;
+      spam protection mechanisms are employed at system exit points
+      to act on unsolicited messages;
   - id: b
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; configuration management policies and procedures (CM-01);
-          procedures addressing spam protection; spam protection mechanisms; records
-          of spam protection updates; system design documentation; system
-          configuration settings and associated documentation; system audit records;
-          system security plan; other relevant documents or records
+          System and information integrity policy; system and
+          information integrity procedures; configuration management
+          policies and procedures (CM-01); procedures addressing
+          spam protection; spam protection mechanisms; records of
+          spam protection updates; system design documentation;
+          system configuration settings and associated
+          documentation; system audit records; system security plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel responsible for spam protection; organizational
-          personnel with information security responsibilities; system/network
-          administrators; system developer
+          Organizational personnel responsible for spam protection;
+          organizational personnel with information security
+          responsibilities; system/network administrators; system
+          developer
       - method: test
         statement: >
-          Organizational processes for implementing spam protection; mechanisms
-          supporting and/or implementing spam protection
+          Organizational processes for implementing spam protection;
+          mechanisms supporting and/or implementing spam protection
     statement: >
-      spam protection mechanisms are updated when new releases are available in
-      accordance with organizational configuration management policies and
-      procedures.
+      spam protection mechanisms are updated when new releases are
+      available in accordance with organizational configuration
+      management policies and procedures.
 parts:
   - id: a
     statement: >
-      Employ spam protection mechanisms at system entry and exit points to detect
-      and act on unsolicited messages; and
+      Employ spam protection mechanisms at system entry and exit
+      points to detect and act on unsolicited messages; and
   - id: b
     statement: >
-      Update spam protection mechanisms when new releases are available in
-      accordance with organizational configuration management policy and
-      procedures.
+      Update spam protection mechanisms when new releases are
+      available in accordance with organizational configuration
+      management policy and procedures.

@@ -13,22 +13,27 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Identification and authentication policy; procedures addressing user and
-          device re-authentication; system security plan; system design documentation;
-          system configuration settings and associated documentation; list of
-          circumstances or situations requiring re-authentication; system audit
-          records; other relevant documents or records
+          Identification and authentication policy; procedures
+          addressing user and device re-authentication; system
+          security plan; system design documentation; system
+          configuration settings and associated documentation; list
+          of circumstances or situations requiring
+          re-authentication; system audit records; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with system operations responsibilities;
-          organizational personnel with information security responsibilities;
-          system/network administrators; system developers; organizational personnel
-          with identification and authentication responsibilities
+          Organizational personnel with system operations
+          responsibilities; organizational personnel with
+          information security responsibilities; system/network
+          administrators; system developers; organizational
+          personnel with identification and authentication
+          responsibilities
       - method: test
         statement: >
-          Mechanisms supporting and/or implementing identification and authentication
-          capabilities
-    statement: "users are required to re-authenticate when {{ ia_11_odp }}."
+          Mechanisms supporting and/or implementing identification
+          and authentication capabilities
+    statement: >-
+      users are required to re-authenticate when {{ ia_11_odp }}.
 parameters:
   ia_11_odp:
     label: circumstances or situations

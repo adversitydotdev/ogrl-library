@@ -9,17 +9,18 @@ control_type: preventive
 family: ac
 frequency: continuous
 guidance: >
-  Define privileged roles in the identity provider and cloud IAM and treat
-  cloud root, organization admin, IdP super-admin, database superuser, and
-  security tooling admin as in scope. Use separate admin identities or
-  just-in-time role elevation (see OGRL-AC-03) instead of permanently
-  privileged daily accounts. Stream IAM and IdP role-change events to the SIEM
-  for alerting, and export privileged group membership for the reconciliation.
-  Break-glass accounts belong on the roster with sealed credentials and
-  alerting on use.
+  Define privileged roles in the identity provider and cloud IAM and
+  treat cloud root, organization admin, IdP super-admin, database
+  superuser, and security tooling admin as in scope. Use separate
+  admin identities or just-in-time role elevation (see OGRL-AC-03)
+  instead of permanently privileged daily accounts. Stream IAM and
+  IdP role-change events to the SIEM for alerting, and export
+  privileged group membership for the reconciliation. Break-glass
+  accounts belong on the roster with sealed credentials and alerting
+  on use.
 objective: >
-  Keep the set of people who can alter security configurations, production
-  systems, or audit data small, known, and monitored.
+  Keep the set of people who can alter security configurations,
+  production systems, or audit data small, known, and monitored.
 origin: standard
 parameters:
   privileged_alert_recipient:
@@ -34,20 +35,23 @@ parameters:
   privileged_scope:
     label: Systems and functions treated as privileged
     value: >
-      cloud provider organizations, identity provider administration, production
-      databases, and security tooling
+      cloud provider organizations, identity provider
+      administration, production databases, and security tooling
 statement: >
-  Maintain an approved roster of individuals authorized to hold administrative
-  access to {{ privileged_scope }}, limited to {{ privileged_roles }}; require
-  those individuals to use dedicated privileged accounts or elevated roles
-  that are not used for email, browsing, or other routine work; alert
-  {{ privileged_alert_recipient }} on every grant of a privileged role and
-  every change to a privileged role definition; and reconcile actual
-  privileged assignments against the roster {{ privileged_review_frequency }},
-  removing any that are not approved.
+  Maintain an approved roster of individuals authorized to hold
+  administrative access to {{ privileged_scope }}, limited to
+  {{ privileged_roles }}; require those individuals to use dedicated
+  privileged accounts or elevated roles that are not used for email,
+  browsing, or other routine work; alert
+  {{ privileged_alert_recipient }} on every grant of a privileged
+  role and every change to a privileged role definition; and
+  reconcile actual privileged assignments against the roster
+  {{ privileged_review_frequency }}, removing any that are not
+  approved.
 summary: >
-  Limit administrative access to an approved roster, separate it from everyday
-  accounts, alert on changes, and reconcile it regularly.
+  Limit administrative access to an approved roster, separate it
+  from everyday accounts, alert on changes, and reconcile it
+  regularly.
 tags:
   - privileged-access
   - least-privilege

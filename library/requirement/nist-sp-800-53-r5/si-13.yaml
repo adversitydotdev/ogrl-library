@@ -13,42 +13,49 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; procedures addressing predictable failure prevention; system
-          design documentation; system configuration settings and associated
-          documentation; list of MTTF substitution criteria; system audit records;
-          system security plan; other relevant documents or records
+          System and information integrity policy; system and
+          information integrity procedures; procedures addressing
+          predictable failure prevention; system design
+          documentation; system configuration settings and
+          associated documentation; list of MTTF substitution
+          criteria; system audit records; system security plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel responsible for MTTF determinations and activities;
-          organizational personnel with information security responsibilities;
-          system/network administrators; organizational personnel with contingency
+          Organizational personnel responsible for MTTF
+          determinations and activities; organizational personnel
+          with information security responsibilities; system/network
+          administrators; organizational personnel with contingency
           planning responsibilities
       - method: test
         statement: Organizational processes for managing MTTF
     statement: >
-      mean time to failure (MTTF) is determined for {{ si_13_odp_01 }} in specific
-      environments of operation;
+      mean time to failure (MTTF) is determined for
+      {{ si_13_odp_01 }} in specific environments of operation;
   - id: b
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; procedures addressing predictable failure prevention; system
-          design documentation; system configuration settings and associated
-          documentation; list of MTTF substitution criteria; system audit records;
-          system security plan; other relevant documents or records
+          System and information integrity policy; system and
+          information integrity procedures; procedures addressing
+          predictable failure prevention; system design
+          documentation; system configuration settings and
+          associated documentation; list of MTTF substitution
+          criteria; system audit records; system security plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel responsible for MTTF determinations and activities;
-          organizational personnel with information security responsibilities;
-          system/network administrators; organizational personnel with contingency
+          Organizational personnel responsible for MTTF
+          determinations and activities; organizational personnel
+          with information security responsibilities; system/network
+          administrators; organizational personnel with contingency
           planning responsibilities
       - method: test
         statement: Organizational processes for managing MTTF
     statement: >
-      substitute system components and a means to exchange active and standby
-      components are provided in accordance with {{ si_13_odp_02 }}.
+      substitute system components and a means to exchange active
+      and standby components are provided in accordance with
+      {{ si_13_odp_02 }}.
 parameters:
   si_13_odp_01:
     label: system components
@@ -57,10 +64,11 @@ parameters:
 parts:
   - id: a
     statement: >
-      Determine mean time to failure (MTTF) for the following system components in
-      specific environments of operation: {{ si_13_odp_01 }} ; and
+      Determine mean time to failure (MTTF) for the following system
+      components in specific environments of operation:
+      {{ si_13_odp_01 }} ; and
   - id: b
     statement: >
-      Provide substitute system components and a means to exchange active and
-      standby components in accordance with the following criteria:
-      {{ si_13_odp_02 }}.
+      Provide substitute system components and a means to exchange
+      active and standby components in accordance with the following
+      criteria: {{ si_13_odp_02 }}.

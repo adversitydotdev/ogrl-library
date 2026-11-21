@@ -13,58 +13,74 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Access control policy; information flow control policies; procedures
-          addressing information flow enforcement; system design documentation; system
-          configuration settings and associated documentation; list of unsanctioned
-          information types and associated information; system audit records; system
-          security plan; privacy plan; other relevant documents or records
+          Access control policy; information flow control policies;
+          procedures addressing information flow enforcement; system
+          design documentation; system configuration settings and
+          associated documentation; list of unsanctioned information
+          types and associated information; system audit records;
+          system security plan; privacy plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with information security responsibilities;
-          organizational personnel with privacy responsibilities; system developers
+          Organizational personnel with information security
+          responsibilities; organizational personnel with privacy
+          responsibilities; system developers
       - method: test
-        statement: Mechanisms implementing information flow enforcement policy
+        statement: >-
+          Mechanisms implementing information flow enforcement
+          policy
     statement: >
-      when transferring information between different security domains,
-      information is examined for the presence of {{ ac_04_15_odp_01 }};
+      when transferring information between different security
+      domains, information is examined for the presence of
+      {{ ac_04_15_odp_01 }};
   - id: "ac-04(15).ac-04(15)[02]"
     methods:
       - method: examine
         statement: >
-          Access control policy; information flow control policies; procedures
-          addressing information flow enforcement; system design documentation; system
-          configuration settings and associated documentation; list of unsanctioned
-          information types and associated information; system audit records; system
-          security plan; privacy plan; other relevant documents or records
+          Access control policy; information flow control policies;
+          procedures addressing information flow enforcement; system
+          design documentation; system configuration settings and
+          associated documentation; list of unsanctioned information
+          types and associated information; system audit records;
+          system security plan; privacy plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with information security responsibilities;
-          organizational personnel with privacy responsibilities; system developers
+          Organizational personnel with information security
+          responsibilities; organizational personnel with privacy
+          responsibilities; system developers
       - method: test
-        statement: Mechanisms implementing information flow enforcement policy
+        statement: >-
+          Mechanisms implementing information flow enforcement
+          policy
     statement: >
-      when transferring information between different security domains, transfer
-      of {{ ac_04_15_odp_01 }} is prohibited in accordance with the
-      {{ ac_04_15_odp_02 }};
+      when transferring information between different security
+      domains, transfer of {{ ac_04_15_odp_01 }} is prohibited in
+      accordance with the {{ ac_04_15_odp_02 }};
   - id: "ac-04(15).ac-04(15)[03]"
     methods:
       - method: examine
         statement: >
-          Access control policy; information flow control policies; procedures
-          addressing information flow enforcement; system design documentation; system
-          configuration settings and associated documentation; list of unsanctioned
-          information types and associated information; system audit records; system
-          security plan; privacy plan; other relevant documents or records
+          Access control policy; information flow control policies;
+          procedures addressing information flow enforcement; system
+          design documentation; system configuration settings and
+          associated documentation; list of unsanctioned information
+          types and associated information; system audit records;
+          system security plan; privacy plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with information security responsibilities;
-          organizational personnel with privacy responsibilities; system developers
+          Organizational personnel with information security
+          responsibilities; organizational personnel with privacy
+          responsibilities; system developers
       - method: test
-        statement: Mechanisms implementing information flow enforcement policy
+        statement: >-
+          Mechanisms implementing information flow enforcement
+          policy
     statement: >
-      when transferring information between different security domains, transfer
-      of {{ ac_04_15_odp_01 }} is prohibited in accordance with the
-      {{ ac_04_15_odp_03 }}.
+      when transferring information between different security
+      domains, transfer of {{ ac_04_15_odp_01 }} is prohibited in
+      accordance with the {{ ac_04_15_odp_03 }}.
 parameters:
   ac_04_15_odp_01:
     label: unsanctioned information
@@ -75,6 +91,7 @@ parameters:
   ac_4_15_prm_2:
     label: organization-defined security or privacy policy
 statement: >
-  When transferring information between different security domains, examine
-  the information for the presence of {{ ac_04_15_odp_01 }} and prohibit the
-  transfer of such information in accordance with the {{ ac_4_15_prm_2 }}.
+  When transferring information between different security domains,
+  examine the information for the presence of {{ ac_04_15_odp_01 }}
+  and prohibit the transfer of such information in accordance with
+  the {{ ac_4_15_prm_2 }}.

@@ -26,86 +26,107 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Contingency planning policy; procedures addressing contingency plan testing;
-          contingency plan; contingency plan test documentation; contingency plan test
-          results; system security plan; other relevant documents or records
+          Contingency planning policy; procedures addressing
+          contingency plan testing; contingency plan; contingency
+          plan test documentation; contingency plan test results;
+          system security plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with responsibilities for contingency plan testing,
-          reviewing, or responding to contingency plan tests; organizational personnel
-          with information security responsibilities
+          Organizational personnel with responsibilities for
+          contingency plan testing, reviewing, or responding to
+          contingency plan tests; organizational personnel with
+          information security responsibilities
       - method: test
         statement: >
-          Organizational processes for contingency plan testing; mechanisms supporting
-          the contingency plan and/or contingency plan testing
-    statement: "the contingency plan for the system is tested {{ cp_04_odp_01 }};"
+          Organizational processes for contingency plan testing;
+          mechanisms supporting the contingency plan and/or
+          contingency plan testing
+    statement: >-
+      the contingency plan for the system is tested
+      {{ cp_04_odp_01 }};
   - id: a-2
     methods:
       - method: examine
         statement: >
-          Contingency planning policy; procedures addressing contingency plan testing;
-          contingency plan; contingency plan test documentation; contingency plan test
-          results; system security plan; other relevant documents or records
+          Contingency planning policy; procedures addressing
+          contingency plan testing; contingency plan; contingency
+          plan test documentation; contingency plan test results;
+          system security plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with responsibilities for contingency plan testing,
-          reviewing, or responding to contingency plan tests; organizational personnel
-          with information security responsibilities
+          Organizational personnel with responsibilities for
+          contingency plan testing, reviewing, or responding to
+          contingency plan tests; organizational personnel with
+          information security responsibilities
       - method: test
         statement: >
-          Organizational processes for contingency plan testing; mechanisms supporting
-          the contingency plan and/or contingency plan testing
-    statement: "{{ cp_04_odp_02 }} are used to determine the effectiveness of the plan;"
+          Organizational processes for contingency plan testing;
+          mechanisms supporting the contingency plan and/or
+          contingency plan testing
+    statement: >-
+      {{ cp_04_odp_02 }} are used to determine the effectiveness of
+      the plan;
   - id: a-3
     methods:
       - method: examine
         statement: >
-          Contingency planning policy; procedures addressing contingency plan testing;
-          contingency plan; contingency plan test documentation; contingency plan test
-          results; system security plan; other relevant documents or records
+          Contingency planning policy; procedures addressing
+          contingency plan testing; contingency plan; contingency
+          plan test documentation; contingency plan test results;
+          system security plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with responsibilities for contingency plan testing,
-          reviewing, or responding to contingency plan tests; organizational personnel
-          with information security responsibilities
+          Organizational personnel with responsibilities for
+          contingency plan testing, reviewing, or responding to
+          contingency plan tests; organizational personnel with
+          information security responsibilities
       - method: test
         statement: >
-          Organizational processes for contingency plan testing; mechanisms supporting
-          the contingency plan and/or contingency plan testing
-    statement: "{{ cp_04_odp_03 }} are used to determine the readiness to execute the plan;"
+          Organizational processes for contingency plan testing;
+          mechanisms supporting the contingency plan and/or
+          contingency plan testing
+    statement: >-
+      {{ cp_04_odp_03 }} are used to determine the readiness to
+      execute the plan;
   - id: b
     methods:
       - method: examine
         statement: >
-          Contingency planning policy; procedures addressing contingency plan testing;
-          contingency plan; contingency plan test documentation; contingency plan test
-          results; system security plan; other relevant documents or records
+          Contingency planning policy; procedures addressing
+          contingency plan testing; contingency plan; contingency
+          plan test documentation; contingency plan test results;
+          system security plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with responsibilities for contingency plan testing,
-          reviewing, or responding to contingency plan tests; organizational personnel
-          with information security responsibilities
+          Organizational personnel with responsibilities for
+          contingency plan testing, reviewing, or responding to
+          contingency plan tests; organizational personnel with
+          information security responsibilities
       - method: test
         statement: >
-          Organizational processes for contingency plan testing; mechanisms supporting
-          the contingency plan and/or contingency plan testing
+          Organizational processes for contingency plan testing;
+          mechanisms supporting the contingency plan and/or
+          contingency plan testing
     statement: the contingency plan test results are reviewed;
   - id: c
     methods:
       - method: examine
         statement: >
-          Contingency planning policy; procedures addressing contingency plan testing;
-          contingency plan; contingency plan test documentation; contingency plan test
-          results; system security plan; other relevant documents or records
+          Contingency planning policy; procedures addressing
+          contingency plan testing; contingency plan; contingency
+          plan test documentation; contingency plan test results;
+          system security plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with responsibilities for contingency plan testing,
-          reviewing, or responding to contingency plan tests; organizational personnel
-          with information security responsibilities
+          Organizational personnel with responsibilities for
+          contingency plan testing, reviewing, or responding to
+          contingency plan tests; organizational personnel with
+          information security responsibilities
       - method: test
         statement: >
-          Organizational processes for contingency plan testing; mechanisms supporting
-          the contingency plan and/or contingency plan testing
+          Organizational processes for contingency plan testing;
+          mechanisms supporting the contingency plan and/or
+          contingency plan testing
     statement: "corrective actions are initiated, if needed."
 parameters:
   cp_04_odp_01:
@@ -119,9 +140,10 @@ parameters:
 parts:
   - id: a
     statement: >
-      Test the contingency plan for the system {{ cp_04_odp_01 }} using the
-      following tests to determine the effectiveness of the plan and the readiness
-      to execute the plan: {{ cp_4_prm_2 }}.
+      Test the contingency plan for the system {{ cp_04_odp_01 }}
+      using the following tests to determine the effectiveness of
+      the plan and the readiness to execute the plan:
+      {{ cp_4_prm_2 }}.
   - id: b
     statement: Review the contingency plan test results; and
   - id: c

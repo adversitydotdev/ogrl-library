@@ -13,139 +13,159 @@ objectives:
     methods:
       - method: examine
         statement: >
-          access control policy and procedures; procedures for the use of external
-          systems; terms and conditions for the use of external systems; external
-          systems security requirements; list of types of applications accessible from
-          external systems; system configuration settings; system security plan; other
-          relevant documents or records
+          access control policy and procedures; procedures for the
+          use of external systems; terms and conditions for the use
+          of external systems; external systems security
+          requirements; list of types of applications accessible
+          from external systems; system configuration settings;
+          system security plan; other relevant documents or records
       - method: interview
         statement: >
-          personnel with responsibilities for defining terms, conditions, and security
-          requirements for the use of external systems; personnel with information
-          security responsibilities; system administrators
+          personnel with responsibilities for defining terms,
+          conditions, and security requirements for the use of
+          external systems; personnel with information security
+          responsibilities; system administrators
       - method: test
         statement: >
-          mechanisms for implementing or enforcing terms, conditions, and security
-          requirements for the use of external systems
+          mechanisms for implementing or enforcing terms,
+          conditions, and security requirements for the use of
+          external systems
     statement: >
-      the following security requirements to be satisfied on external systems
-      prior to allowing the use of or access to those systems by authorized
-      individuals are established: {{ a_03_01_20_odp_01 }}.
+      the following security requirements to be satisfied on
+      external systems prior to allowing the use of or access to
+      those systems by authorized individuals are established:
+      {{ a_03_01_20_odp_01 }}.
   - id: a
     methods:
       - method: examine
         statement: >
-          access control policy and procedures; procedures for the use of external
-          systems; terms and conditions for the use of external systems; external
-          systems security requirements; list of types of applications accessible from
-          external systems; system configuration settings; system security plan; other
-          relevant documents or records
+          access control policy and procedures; procedures for the
+          use of external systems; terms and conditions for the use
+          of external systems; external systems security
+          requirements; list of types of applications accessible
+          from external systems; system configuration settings;
+          system security plan; other relevant documents or records
       - method: interview
         statement: >
-          personnel with responsibilities for defining terms, conditions, and security
-          requirements for the use of external systems; personnel with information
-          security responsibilities; system administrators
+          personnel with responsibilities for defining terms,
+          conditions, and security requirements for the use of
+          external systems; personnel with information security
+          responsibilities; system administrators
       - method: test
         statement: >
-          mechanisms for implementing or enforcing terms, conditions, and security
-          requirements for the use of external systems
+          mechanisms for implementing or enforcing terms,
+          conditions, and security requirements for the use of
+          external systems
     statement: >
-      the use of external systems is prohibited unless the systems are
-      specifically authorized.
+      the use of external systems is prohibited unless the systems
+      are specifically authorized.
   - id: c.01
     methods:
       - method: examine
         statement: >
-          access control policy and procedures; procedures for the use of external
-          systems; terms and conditions for the use of external systems; external
-          systems security requirements; list of types of applications accessible from
-          external systems; system configuration settings; system security plan; other
-          relevant documents or records
+          access control policy and procedures; procedures for the
+          use of external systems; terms and conditions for the use
+          of external systems; external systems security
+          requirements; list of types of applications accessible
+          from external systems; system configuration settings;
+          system security plan; other relevant documents or records
       - method: interview
         statement: >
-          personnel with responsibilities for defining terms, conditions, and security
-          requirements for the use of external systems; personnel with information
-          security responsibilities; system administrators
+          personnel with responsibilities for defining terms,
+          conditions, and security requirements for the use of
+          external systems; personnel with information security
+          responsibilities; system administrators
       - method: test
         statement: >
-          mechanisms for implementing or enforcing terms, conditions, and security
-          requirements for the use of external systems
+          mechanisms for implementing or enforcing terms,
+          conditions, and security requirements for the use of
+          external systems
     statement: >
-      authorized individuals are permitted to use external systems to access the
-      organizational system or to process, store, or transmit CUI only after
-      verifying that the security requirements on the external systems as
-      specified in the organization’s system security plans have been satisfied.
+      authorized individuals are permitted to use external systems
+      to access the organizational system or to process, store, or
+      transmit CUI only after verifying that the security
+      requirements on the external systems as specified in the
+      organization’s system security plans have been satisfied.
   - id: d
     methods:
       - method: examine
         statement: >
-          access control policy and procedures; procedures for the use of external
-          systems; terms and conditions for the use of external systems; external
-          systems security requirements; list of types of applications accessible from
-          external systems; system configuration settings; system security plan; other
-          relevant documents or records
+          access control policy and procedures; procedures for the
+          use of external systems; terms and conditions for the use
+          of external systems; external systems security
+          requirements; list of types of applications accessible
+          from external systems; system configuration settings;
+          system security plan; other relevant documents or records
       - method: interview
         statement: >
-          personnel with responsibilities for defining terms, conditions, and security
-          requirements for the use of external systems; personnel with information
-          security responsibilities; system administrators
+          personnel with responsibilities for defining terms,
+          conditions, and security requirements for the use of
+          external systems; personnel with information security
+          responsibilities; system administrators
       - method: test
         statement: >
-          mechanisms for implementing or enforcing terms, conditions, and security
-          requirements for the use of external systems
+          mechanisms for implementing or enforcing terms,
+          conditions, and security requirements for the use of
+          external systems
     statement: >
-      the use of organization-controlled portable storage devices by authorized
-      individuals on external systems is restricted.
+      the use of organization-controlled portable storage devices by
+      authorized individuals on external systems is restricted.
   - id: c.02
     methods:
       - method: examine
         statement: >
-          access control policy and procedures; procedures for the use of external
-          systems; terms and conditions for the use of external systems; external
-          systems security requirements; list of types of applications accessible from
-          external systems; system configuration settings; system security plan; other
-          relevant documents or records
+          access control policy and procedures; procedures for the
+          use of external systems; terms and conditions for the use
+          of external systems; external systems security
+          requirements; list of types of applications accessible
+          from external systems; system configuration settings;
+          system security plan; other relevant documents or records
       - method: interview
         statement: >
-          personnel with responsibilities for defining terms, conditions, and security
-          requirements for the use of external systems; personnel with information
-          security responsibilities; system administrators
+          personnel with responsibilities for defining terms,
+          conditions, and security requirements for the use of
+          external systems; personnel with information security
+          responsibilities; system administrators
       - method: test
         statement: >
-          mechanisms for implementing or enforcing terms, conditions, and security
-          requirements for the use of external systems
+          mechanisms for implementing or enforcing terms,
+          conditions, and security requirements for the use of
+          external systems
     statement: >
-      authorized individuals are permitted to use external systems to access the
-      organizational system or to process, store, or transmit CUI only after
-      retaining approved system connection or processing agreements with the
-      organizational entity hosting the external systems.
+      authorized individuals are permitted to use external systems
+      to access the organizational system or to process, store, or
+      transmit CUI only after retaining approved system connection
+      or processing agreements with the organizational entity
+      hosting the external systems.
 parameters:
   a_03_01_20_odp_01:
     label: security requirements
 parts:
   - id: a
     statement: >
-      Prohibit the use of external systems unless the systems are specifically
-      authorized.
+      Prohibit the use of external systems unless the systems are
+      specifically authorized.
   - id: b
     statement: >
-      Establish the following security requirements to be satisfied on external
-      systems prior to allowing use of or access to those systems by authorized
-      individuals: {{ a_03_01_20_odp_01 }}.
+      Establish the following security requirements to be satisfied
+      on external systems prior to allowing use of or access to
+      those systems by authorized individuals:
+      {{ a_03_01_20_odp_01 }}.
   - id: c
     statement: >
-      Permit authorized individuals to use external systems to access the
-      organizational system or to process, store, or transmit CUI only after:
+      Permit authorized individuals to use external systems to
+      access the organizational system or to process, store, or
+      transmit CUI only after:
   - id: c.01
     statement: >
-      Verifying that the security requirements on the external systems as
-      specified in the organization’s system security plans have been satisfied
-      and
+      Verifying that the security requirements on the external
+      systems as specified in the organization’s system security
+      plans have been satisfied and
   - id: c.02
     statement: >
-      Retaining approved system connection or processing agreements with the
-      organizational entities hosting the external systems.
+      Retaining approved system connection or processing agreements
+      with the organizational entities hosting the external systems.
   - id: d
     statement: >
-      Restrict the use of organization-controlled portable storage devices by
-      authorized individuals on external systems.
+      Restrict the use of organization-controlled portable storage
+      devices by authorized individuals on external systems.

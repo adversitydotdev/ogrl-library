@@ -13,28 +13,32 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Identification and authentication policy; system security plan; procedures
-          addressing device identification and authentication; system design
-          documentation; list of devices requiring unique identification and
-          authentication; device connection reports; system configuration settings and
-          associated documentation; other relevant documents or records
+          Identification and authentication policy; system security
+          plan; procedures addressing device identification and
+          authentication; system design documentation; list of
+          devices requiring unique identification and
+          authentication; device connection reports; system
+          configuration settings and associated documentation; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with operational responsibilities for device
-          identification and authentication; organizational personnel with information
-          security responsibilities; system/network administrators; system developers
+          Organizational personnel with operational responsibilities
+          for device identification and authentication;
+          organizational personnel with information security
+          responsibilities; system/network administrators; system
+          developers
       - method: test
         statement: >
-          Mechanisms supporting and/or implementing device identification and
-          authentication capabilities
+          Mechanisms supporting and/or implementing device
+          identification and authentication capabilities
     statement: >
-      {{ ia_03_odp_01 }} are uniquely identified and authenticated before
-      establishing a {{ ia_03_odp_02 }} connection.
+      {{ ia_03_odp_01 }} are uniquely identified and authenticated
+      before establishing a {{ ia_03_odp_02 }} connection.
 parameters:
   ia_03_odp_01:
     label: devices and/or types of devices
   ia_03_odp_02:
     label: ia-03_odp.02
 statement: >
-  Uniquely identify and authenticate {{ ia_03_odp_01 }} before establishing a
-  {{ ia_03_odp_02 }} connection.
+  Uniquely identify and authenticate {{ ia_03_odp_01 }} before
+  establishing a {{ ia_03_odp_02 }} connection.

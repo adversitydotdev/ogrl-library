@@ -9,6 +9,6 @@ relationship: equivalent-to
 review_status: draft
 source_ref: control--ogrl-sd-07
 summary: >
-  User-facing errors that aid correction without revealing exploitable details
-  satisfy SI-11(a).
+  User-facing errors that aid correction without revealing
+  exploitable details satisfy SI-11(a).
 target_ref: "requirement--nist-sp-800-53-r5-si-11#a"

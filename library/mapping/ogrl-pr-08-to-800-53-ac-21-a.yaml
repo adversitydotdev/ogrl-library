@@ -12,6 +12,6 @@ review_status: draft
 source_ref: control--ogrl-pr-08
 summary: >
   Approval of PII recipients against permitted uses overlaps the
-  sharing-partner check in AC-21(a); automated aids in AC-21(b) are not
-  covered.
+  sharing-partner check in AC-21(a); automated aids in AC-21(b) are
+  not covered.
 target_ref: "requirement--nist-sp-800-53-r5-ac-21#a"

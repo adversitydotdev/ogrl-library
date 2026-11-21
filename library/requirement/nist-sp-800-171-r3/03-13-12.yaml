@@ -13,53 +13,61 @@ objectives:
     methods:
       - method: examine
         statement: >
-          system and communications protection policy and procedures; procedures for
-          collaborative computing; access control policy and procedures; system
-          configuration settings; system design documentation; system audit records;
-          system security plan; other relevant documents or records
+          system and communications protection policy and
+          procedures; procedures for collaborative computing; access
+          control policy and procedures; system configuration
+          settings; system design documentation; system audit
+          records; system security plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          personnel with responsibilities for managing collaborative computing
-          devices; personnel with information security responsibilities; system
-          developers; system administrators
+          personnel with responsibilities for managing collaborative
+          computing devices; personnel with information security
+          responsibilities; system developers; system administrators
       - method: test
         statement: >
-          mechanisms for supporting or implementing the management of remote
-          activation of collaborative computing devices; mechanisms for providing an
-          indication of use of collaborative computing devices
+          mechanisms for supporting or implementing the management
+          of remote activation of collaborative computing devices;
+          mechanisms for providing an indication of use of
+          collaborative computing devices
     statement: >
-      the remote activation of collaborative computing devices and applications is
-      prohibited with the following exceptions: {{ a_03_13_12_odp_01 }}.
+      the remote activation of collaborative computing devices and
+      applications is prohibited with the following exceptions:
+      {{ a_03_13_12_odp_01 }}.
   - id: b
     methods:
       - method: examine
         statement: >
-          system and communications protection policy and procedures; procedures for
-          collaborative computing; access control policy and procedures; system
-          configuration settings; system design documentation; system audit records;
-          system security plan; other relevant documents or records
+          system and communications protection policy and
+          procedures; procedures for collaborative computing; access
+          control policy and procedures; system configuration
+          settings; system design documentation; system audit
+          records; system security plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          personnel with responsibilities for managing collaborative computing
-          devices; personnel with information security responsibilities; system
-          developers; system administrators
+          personnel with responsibilities for managing collaborative
+          computing devices; personnel with information security
+          responsibilities; system developers; system administrators
       - method: test
         statement: >
-          mechanisms for supporting or implementing the management of remote
-          activation of collaborative computing devices; mechanisms for providing an
-          indication of use of collaborative computing devices
+          mechanisms for supporting or implementing the management
+          of remote activation of collaborative computing devices;
+          mechanisms for providing an indication of use of
+          collaborative computing devices
     statement: >
-      an explicit indication of use is provided to users who are physically
-      present at the devices.
+      an explicit indication of use is provided to users who are
+      physically present at the devices.
 parameters:
   a_03_13_12_odp_01:
     label: exceptions
 parts:
   - id: a
     statement: >
-      Prohibit the remote activation of collaborative computing devices and
-      applications with the following exceptions: {{ a_03_13_12_odp_01 }}.
+      Prohibit the remote activation of collaborative computing
+      devices and applications with the following exceptions:
+      {{ a_03_13_12_odp_01 }}.
   - id: b
     statement: >
-      Provide an explicit indication of use to users physically present at the
-      devices.
+      Provide an explicit indication of use to users physically
+      present at the devices.

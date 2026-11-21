@@ -9,6 +9,7 @@ relationship: equivalent-to
 review_status: draft
 source_ref: control--ogrl-bc-03
 summary: >
-  Encryption, immutable isolated copies, and failure alerting protect the
-  confidentiality, integrity, and availability of backups per CP-9(d).
+  Encryption, immutable isolated copies, and failure alerting
+  protect the confidentiality, integrity, and availability of
+  backups per CP-9(d).
 target_ref: "requirement--nist-sp-800-53-r5-cp-9#d"

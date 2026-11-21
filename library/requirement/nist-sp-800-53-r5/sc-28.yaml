@@ -41,26 +41,30 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; procedures addressing the
-          protection of information at rest; system design documentation; system
-          configuration settings and associated documentation; cryptographic
-          mechanisms and associated configuration documentation; list of information
-          at rest requiring confidentiality and integrity protections; system security
-          plan; other relevant documents or records
+          System and communications protection policy; procedures
+          addressing the protection of information at rest; system
+          design documentation; system configuration settings and
+          associated documentation; cryptographic mechanisms and
+          associated configuration documentation; list of
+          information at rest requiring confidentiality and
+          integrity protections; system security plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; system developer
+          System/network administrators; organizational personnel
+          with information security responsibilities; system
+          developer
       - method: test
         statement: >
-          Mechanisms supporting and/or implementing confidentiality and integrity
-          protections for information at rest
-    statement: "the {{ sc_28_odp_01 }} of {{ sc_28_odp_02 }} is/are protected."
+          Mechanisms supporting and/or implementing confidentiality
+          and integrity protections for information at rest
+    statement: >-
+      the {{ sc_28_odp_01 }} of {{ sc_28_odp_02 }} is/are protected.
 parameters:
   sc_28_odp_01:
     label: sc-28_odp.01
   sc_28_odp_02:
     label: information at rest
 statement: >
-  Protect the {{ sc_28_odp_01 }} of the following information at rest:
-  {{ sc_28_odp_02 }}.
+  Protect the {{ sc_28_odp_01 }} of the following information at
+  rest: {{ sc_28_odp_02 }}.

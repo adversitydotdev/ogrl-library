@@ -13,36 +13,43 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Assessment, authorization, and monitoring policy; procedures addressing
-          authorization; system security plan; privacy plan; assessment report; plan
-          of action and milestones; authorization statement; other relevant documents
-          or records
+          Assessment, authorization, and monitoring policy;
+          procedures addressing authorization; system security plan;
+          privacy plan; assessment report; plan of action and
+          milestones; authorization statement; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with authorization responsibilities; organizational
-          personnel with information security and privacy responsibilities
+          Organizational personnel with authorization
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities
       - method: test
-        statement: Mechanisms that facilitate authorizations and updates
-    statement: a joint authorization process is employed for the system;
+        statement: >-
+          Mechanisms that facilitate authorizations and updates
+    statement: >-
+      a joint authorization process is employed for the system;
   - id: "ca-06(01).ca-06(01)[02]"
     methods:
       - method: examine
         statement: >
-          Assessment, authorization, and monitoring policy; procedures addressing
-          authorization; system security plan; privacy plan; assessment report; plan
-          of action and milestones; authorization statement; other relevant documents
-          or records
+          Assessment, authorization, and monitoring policy;
+          procedures addressing authorization; system security plan;
+          privacy plan; assessment report; plan of action and
+          milestones; authorization statement; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with authorization responsibilities; organizational
-          personnel with information security and privacy responsibilities
+          Organizational personnel with authorization
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities
       - method: test
-        statement: Mechanisms that facilitate authorizations and updates
+        statement: >-
+          Mechanisms that facilitate authorizations and updates
     statement: >
-      the joint authorization process employed for the system includes multiple
-      authorizing officials from the same organization conducting the
-      authorization.
+      the joint authorization process employed for the system
+      includes multiple authorizing officials from the same
+      organization conducting the authorization.
 statement: >
-  Employ a joint authorization process for the system that includes multiple
-  authorizing officials from the same organization conducting the
-  authorization.
+  Employ a joint authorization process for the system that includes
+  multiple authorizing officials from the same organization
+  conducting the authorization.

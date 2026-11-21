@@ -13,30 +13,36 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; procedures addressing software, firmware, and information
-          integrity; system design documentation; system configuration settings and
-          associated documentation; integrity verification tools and associated
-          documentation; records of integrity scans; records of integrity checks and
-          responses to integrity violations; audit records; system security plan;
-          other relevant documents or records
+          System and information integrity policy; system and
+          information integrity procedures; procedures addressing
+          software, firmware, and information integrity; system
+          design documentation; system configuration settings and
+          associated documentation; integrity verification tools and
+          associated documentation; records of integrity scans;
+          records of integrity checks and responses to integrity
+          violations; audit records; system security plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel responsible for software, firmware, and/or
-          information integrity; organizational personnel with information security
-          responsibilities; system/network administrators; system developer
+          Organizational personnel responsible for software,
+          firmware, and/or information integrity; organizational
+          personnel with information security responsibilities;
+          system/network administrators; system developer
       - method: test
         statement: >
-          Software, firmware, and information integrity verification tools; mechanisms
-          providing an automated response to integrity violations; mechanisms
-          supporting and/or implementing security safeguards to be implemented when
+          Software, firmware, and information integrity verification
+          tools; mechanisms providing an automated response to
+          integrity violations; mechanisms supporting and/or
+          implementing security safeguards to be implemented when
           integrity violations are discovered
     statement: >
-      {{ si_07_05_odp_01 }} are automatically performed when integrity violations
-      are discovered.
+      {{ si_07_05_odp_01 }} are automatically performed when
+      integrity violations are discovered.
 parameters:
   si_07_05_odp_01:
     label: si-07.05_odp.01
   si_07_05_odp_02:
     label: controls
-statement: "Automatically {{ si_07_05_odp_01 }} when integrity violations are discovered."
+statement: >-
+  Automatically {{ si_07_05_odp_01 }} when integrity violations are
+  discovered.

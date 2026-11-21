@@ -13,50 +13,61 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; procedures addressing predictable failure prevention; system
-          design documentation; system configuration settings and associated
-          documentation; list of actions to be taken once system component failure is
-          detected; system audit records; system security plan; other relevant
-          documents or records
+          System and information integrity policy; system and
+          information integrity procedures; procedures addressing
+          predictable failure prevention; system design
+          documentation; system configuration settings and
+          associated documentation; list of actions to be taken once
+          system component failure is detected; system audit
+          records; system security plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          Organizational personnel responsible for MTTF activities; organizational
-          personnel with information security responsibilities; system/network
-          administrators; organizational personnel with contingency planning
+          Organizational personnel responsible for MTTF activities;
+          organizational personnel with information security
+          responsibilities; system/network administrators;
+          organizational personnel with contingency planning
           responsibilities
       - method: test
         statement: >
-          Organizational processes for managing MTTF; automated mechanisms supporting
-          and/or implementing the transparent installation of standby components;
-          automated mechanisms supporting and/or implementing alarms or system
-          shutdown if component failures are detected
+          Organizational processes for managing MTTF; automated
+          mechanisms supporting and/or implementing the transparent
+          installation of standby components; automated mechanisms
+          supporting and/or implementing alarms or system shutdown
+          if component failures are detected
     statement: >
-      the standby components are successfully and transparently installed within
-      {{ si_13_04_odp_01 }} if system component failures are detected;
+      the standby components are successfully and transparently
+      installed within {{ si_13_04_odp_01 }} if system component
+      failures are detected;
   - id: b
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; procedures addressing predictable failure prevention; system
-          design documentation; system configuration settings and associated
-          documentation; list of actions to be taken once system component failure is
-          detected; system audit records; system security plan; other relevant
-          documents or records
+          System and information integrity policy; system and
+          information integrity procedures; procedures addressing
+          predictable failure prevention; system design
+          documentation; system configuration settings and
+          associated documentation; list of actions to be taken once
+          system component failure is detected; system audit
+          records; system security plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          Organizational personnel responsible for MTTF activities; organizational
-          personnel with information security responsibilities; system/network
-          administrators; organizational personnel with contingency planning
+          Organizational personnel responsible for MTTF activities;
+          organizational personnel with information security
+          responsibilities; system/network administrators;
+          organizational personnel with contingency planning
           responsibilities
       - method: test
         statement: >
-          Organizational processes for managing MTTF; automated mechanisms supporting
-          and/or implementing the transparent installation of standby components;
-          automated mechanisms supporting and/or implementing alarms or system
-          shutdown if component failures are detected
-    statement: "{{ si_13_04_odp_02 }} are performed if system component failures are detected."
+          Organizational processes for managing MTTF; automated
+          mechanisms supporting and/or implementing the transparent
+          installation of standby components; automated mechanisms
+          supporting and/or implementing alarms or system shutdown
+          if component failures are detected
+    statement: >-
+      {{ si_13_04_odp_02 }} are performed if system component
+      failures are detected.
 parameters:
   si_13_04_odp_01:
     label: time period
@@ -69,8 +80,8 @@ parameters:
 parts:
   - id: a
     statement: >
-      Ensure that the standby components are successfully and transparently
-      installed within {{ si_13_04_odp_01 }} ; and
+      Ensure that the standby components are successfully and
+      transparently installed within {{ si_13_04_odp_01 }} ; and
   - id: b
     statement: "{{ si_13_04_odp_02 }}."
 statement: "If system component failures are detected:"

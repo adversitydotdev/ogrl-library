@@ -13,34 +13,42 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System security plan; privacy plan; literacy training and awareness policy;
-          procedures addressing literacy training and awareness training
-          implementation; literacy training and awareness curriculum; literacy
-          training and awareness materials; other relevant documents or records
+          System security plan; privacy plan; literacy training and
+          awareness policy; procedures addressing literacy training
+          and awareness training implementation; literacy training
+          and awareness curriculum; literacy training and awareness
+          materials; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel who receive literacy training and awareness;
-          organizational personnel with responsibilities for basic literacy training
-          and awareness; organizational personnel with information security and
-          privacy responsibilities
-    statement: literacy training on the cyber threat environment is provided;
+          Organizational personnel who receive literacy training and
+          awareness; organizational personnel with responsibilities
+          for basic literacy training and awareness; organizational
+          personnel with information security and privacy
+          responsibilities
+    statement: >-
+      literacy training on the cyber threat environment is provided;
   - id: b
     methods:
       - method: examine
         statement: >
-          System security plan; privacy plan; literacy training and awareness policy;
-          procedures addressing literacy training and awareness training
-          implementation; literacy training and awareness curriculum; literacy
-          training and awareness materials; other relevant documents or records
+          System security plan; privacy plan; literacy training and
+          awareness policy; procedures addressing literacy training
+          and awareness training implementation; literacy training
+          and awareness curriculum; literacy training and awareness
+          materials; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel who receive literacy training and awareness;
-          organizational personnel with responsibilities for basic literacy training
-          and awareness; organizational personnel with information security and
-          privacy responsibilities
-    statement: system operations reflects current cyber threat information.
+          Organizational personnel who receive literacy training and
+          awareness; organizational personnel with responsibilities
+          for basic literacy training and awareness; organizational
+          personnel with information security and privacy
+          responsibilities
+    statement: >-
+      system operations reflects current cyber threat information.
 parts:
   - id: a
-    statement: Provide literacy training on the cyber threat environment; and
+    statement: >-
+      Provide literacy training on the cyber threat environment; and
   - id: b
-    statement: Reflect current cyber threat information in system operations.
+    statement: >-
+      Reflect current cyber threat information in system operations.

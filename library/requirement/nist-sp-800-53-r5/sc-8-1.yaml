@@ -13,24 +13,29 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; procedures addressing
-          transmission confidentiality and integrity; system design documentation;
-          system configuration settings and associated documentation; system audit
-          records; system security plan; other relevant documents or records
+          System and communications protection policy; procedures
+          addressing transmission confidentiality and integrity;
+          system design documentation; system configuration settings
+          and associated documentation; system audit records; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; system developer
+          System/network administrators; organizational personnel
+          with information security responsibilities; system
+          developer
       - method: test
         statement: >
-          Cryptographic mechanisms supporting and/or implementing transmission
-          confidentiality and/or integrity; mechanisms supporting and/or implementing
-          alternative physical safeguards; organizational processes for defining and
+          Cryptographic mechanisms supporting and/or implementing
+          transmission confidentiality and/or integrity; mechanisms
+          supporting and/or implementing alternative physical
+          safeguards; organizational processes for defining and
           implementing alternative physical safeguards
     statement: >
-      cryptographic mechanisms are implemented to {{ sc_08_01_odp }} during
-      transmission.
+      cryptographic mechanisms are implemented to {{ sc_08_01_odp }}
+      during transmission.
 parameters:
   sc_08_01_odp:
     label: sc-08.01_odp
-statement: "Implement cryptographic mechanisms to {{ sc_08_01_odp }} during transmission."
+statement: >-
+  Implement cryptographic mechanisms to {{ sc_08_01_odp }} during
+  transmission.

@@ -13,42 +13,48 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Risk assessment policy; security planning policy and procedures; procedures
-          addressing organizational assessments of risk; risk assessment; risk
-          assessment results; risk assessment reviews; risk assessment updates; risk
-          reports; system security plan; other relevant documents or records
+          Risk assessment policy; security planning policy and
+          procedures; procedures addressing organizational
+          assessments of risk; risk assessment; risk assessment
+          results; risk assessment reviews; risk assessment updates;
+          risk reports; system security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with risk assessment responsibilities;
-          organizational personnel with security responsibilities
+          Organizational personnel with risk assessment
+          responsibilities; organizational personnel with security
+          responsibilities
       - method: test
         statement: >
-          Organizational processes for risk assessment; mechanisms supporting and/or
-          conducting, documenting, reviewing, disseminating, and updating the risk
-          assessment
+          Organizational processes for risk assessment; mechanisms
+          supporting and/or conducting, documenting, reviewing,
+          disseminating, and updating the risk assessment
     statement: >
-      {{ ra_03_04_odp_01 }} are employed to predict and identify risks to
-      {{ ra_03_04_odp_02 }};
+      {{ ra_03_04_odp_01 }} are employed to predict and identify
+      risks to {{ ra_03_04_odp_02 }};
   - id: "ra-03(04).ra-03(04)[02]"
     methods:
       - method: examine
         statement: >
-          Risk assessment policy; security planning policy and procedures; procedures
-          addressing organizational assessments of risk; risk assessment; risk
-          assessment results; risk assessment reviews; risk assessment updates; risk
-          reports; system security plan; other relevant documents or records
+          Risk assessment policy; security planning policy and
+          procedures; procedures addressing organizational
+          assessments of risk; risk assessment; risk assessment
+          results; risk assessment reviews; risk assessment updates;
+          risk reports; system security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with risk assessment responsibilities;
-          organizational personnel with security responsibilities
+          Organizational personnel with risk assessment
+          responsibilities; organizational personnel with security
+          responsibilities
       - method: test
         statement: >
-          Organizational processes for risk assessment; mechanisms supporting and/or
-          conducting, documenting, reviewing, disseminating, and updating the risk
-          assessment
+          Organizational processes for risk assessment; mechanisms
+          supporting and/or conducting, documenting, reviewing,
+          disseminating, and updating the risk assessment
     statement: >
-      {{ ra_03_04_odp_03 }} are employed to predict and identify risks to
-      {{ ra_03_04_odp_02 }}.
+      {{ ra_03_04_odp_03 }} are employed to predict and identify
+      risks to {{ ra_03_04_odp_02 }}.
 parameters:
   ra_03_04_odp_01:
     label: advanced automation capabilities
@@ -57,7 +63,10 @@ parameters:
   ra_03_04_odp_03:
     label: advanced analytics capabilities
   ra_3_4_prm_2:
-    label: organization-defined advanced automation and analytics capabilities
+    label: >-
+      organization-defined advanced automation and analytics
+      capabilities
 statement: >
-  Employ the following advanced automation and analytics capabilities to
-  predict and identify risks to {{ ra_03_04_odp_02 }}: {{ ra_3_4_prm_2 }}.
+  Employ the following advanced automation and analytics
+  capabilities to predict and identify risks to
+  {{ ra_03_04_odp_02 }}: {{ ra_3_4_prm_2 }}.

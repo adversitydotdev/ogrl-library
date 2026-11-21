@@ -13,26 +13,30 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; procedures addressing boundary
-          protection; system design documentation; system hardware and software;
-          system architecture; system configuration settings and associated
-          documentation; system audit records; system security plan; other relevant
-          documents or records
+          System and communications protection policy; procedures
+          addressing boundary protection; system design
+          documentation; system hardware and software; system
+          architecture; system configuration settings and associated
+          documentation; system audit records; system security plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; system developer; organizational personnel with
-          boundary protection responsibilities
+          System/network administrators; organizational personnel
+          with information security responsibilities; system
+          developer; organizational personnel with boundary
+          protection responsibilities
       - method: test
         statement: >
-          Mechanisms prohibiting the direct connection of classified national security
-          systems to an external network
+          Mechanisms prohibiting the direct connection of classified
+          national security systems to an external network
     statement: >
-      the direct connection of classified national security system to an external
-      network without the use of a {{ sc_07_26_odp }} is prohibited.
+      the direct connection of classified national security system
+      to an external network without the use of a {{ sc_07_26_odp }}
+      is prohibited.
 parameters:
   sc_07_26_odp:
     label: boundary protection device
 statement: >
-  Prohibit the direct connection of a classified national security system to
-  an external network without the use of {{ sc_07_26_odp }}.
+  Prohibit the direct connection of a classified national security
+  system to an external network without the use of
+  {{ sc_07_26_odp }}.

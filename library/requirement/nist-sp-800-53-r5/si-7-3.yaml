@@ -13,20 +13,22 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; procedures addressing software, firmware, and information
-          integrity; system design documentation; system configuration settings and
-          associated documentation; integrity verification tools and associated
-          documentation; records of integrity scans; system security plan; other
-          relevant documents or records
+          System and information integrity policy; system and
+          information integrity procedures; procedures addressing
+          software, firmware, and information integrity; system
+          design documentation; system configuration settings and
+          associated documentation; integrity verification tools and
+          associated documentation; records of integrity scans;
+          system security plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel responsible for the central management of integrity
-          verification tools; organizational personnel with information security
-          responsibilities
+          Organizational personnel responsible for the central
+          management of integrity verification tools; organizational
+          personnel with information security responsibilities
       - method: test
         statement: >
-          Mechanisms supporting and/or implementing the central management of
-          integrity verification tools
-    statement: centrally managed integrity verification tools are employed.
+          Mechanisms supporting and/or implementing the central
+          management of integrity verification tools
+    statement: >-
+      centrally managed integrity verification tools are employed.
 statement: Employ centrally managed integrity verification tools.

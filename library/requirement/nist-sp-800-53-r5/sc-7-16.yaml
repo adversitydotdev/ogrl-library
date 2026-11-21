@@ -13,23 +13,25 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; procedures addressing boundary
-          protection; system design documentation; system hardware and software;
-          system architecture; system configuration settings and associated
-          documentation; system audit records; system security plan; other relevant
-          documents or records
+          System and communications protection policy; procedures
+          addressing boundary protection; system design
+          documentation; system hardware and software; system
+          architecture; system configuration settings and associated
+          documentation; system audit records; system security plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; system developer; organizational personnel with
-          boundary protection responsibilities
+          System/network administrators; organizational personnel
+          with information security responsibilities; system
+          developer; organizational personnel with boundary
+          protection responsibilities
       - method: test
         statement: >
-          Mechanisms supporting and/or implementing the prevention of discovery of
-          system components at managed interfaces
+          Mechanisms supporting and/or implementing the prevention
+          of discovery of system components at managed interfaces
     statement: >
-      the discovery of specific system components that represent a managed
-      interface is prevented.
+      the discovery of specific system components that represent a
+      managed interface is prevented.
 statement: >
-  Prevent the discovery of specific system components that represent a managed
-  interface.
+  Prevent the discovery of specific system components that represent
+  a managed interface.

@@ -13,16 +13,21 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Physical and environmental protection policy; procedures addressing physical
-          access control; list of access control vestibules and locations; system
-          security plan; other relevant documents or records
+          Physical and environmental protection policy; procedures
+          addressing physical access control; list of access control
+          vestibules and locations; system security plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with physical access control responsibilities;
-          organizational personnel with information security responsibilities
+          Organizational personnel with physical access control
+          responsibilities; organizational personnel with
+          information security responsibilities
       - method: test
-        statement: Organizational processes for vestibules to prevent unauthorized access.
-    statement: "access control vestibules are employed at {{ pe_03_08_odp }}."
+        statement: >-
+          Organizational processes for vestibules to prevent
+          unauthorized access.
+    statement: >-
+      access control vestibules are employed at {{ pe_03_08_odp }}.
 parameters:
   pe_03_08_odp:
     label: locations

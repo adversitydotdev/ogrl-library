@@ -11,6 +11,6 @@ relationship: subset-of
 review_status: draft
 source_ref: control--ogrl-cm-09
 summary: >
-  Integrity verification covers software and critical configuration; firmware
-  and general information are out of scope for SI-7(a).
+  Integrity verification covers software and critical configuration;
+  firmware and general information are out of scope for SI-7(a).
 target_ref: "requirement--nist-sp-800-53-r5-si-7#a"

@@ -13,20 +13,23 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Maintenance policy; procedures addressing system maintenance tools; system
-          maintenance tools and associated documentation; maintenance records; system
-          security plan; other relevant documents or records
+          Maintenance policy; procedures addressing system
+          maintenance tools; system maintenance tools and associated
+          documentation; maintenance records; system security plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with system maintenance responsibilities;
-          organizational personnel with information security responsibilities
+          Organizational personnel with system maintenance
+          responsibilities; organizational personnel with
+          information security responsibilities
       - method: test
         statement: >
-          Organizational process for inspecting media for malicious code; mechanisms
-          supporting and/or implementing the inspection of media used for maintenance
+          Organizational process for inspecting media for malicious
+          code; mechanisms supporting and/or implementing the
+          inspection of media used for maintenance
     statement: >
-      media containing diagnostic and test programs are checked for malicious code
-      before the media are used in the system.
+      media containing diagnostic and test programs are checked for
+      malicious code before the media are used in the system.
 statement: >
-  Check media containing diagnostic and test programs for malicious code
-  before the media are used in the system.
+  Check media containing diagnostic and test programs for malicious
+  code before the media are used in the system.

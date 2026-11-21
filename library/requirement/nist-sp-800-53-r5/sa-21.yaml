@@ -13,50 +13,57 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and services acquisition policy; personnel security policy and
-          procedures; procedures addressing personnel screening; system design
-          documentation; acquisition documentation; service level agreements;
-          acquisition contracts for developer services; system configuration settings
-          and associated documentation; list of appropriate access authorizations
-          required by the developers of the system; personnel screening criteria and
-          associated documentation; system security plan; supply chain risk management
-          plan; other relevant documents or records
+          System and services acquisition policy; personnel security
+          policy and procedures; procedures addressing personnel
+          screening; system design documentation; acquisition
+          documentation; service level agreements; acquisition
+          contracts for developer services; system configuration
+          settings and associated documentation; list of appropriate
+          access authorizations required by the developers of the
+          system; personnel screening criteria and associated
+          documentation; system security plan; supply chain risk
+          management plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with system and service acquisition
-          responsibilities; organizational personnel with information security
-          responsibilities; organizational personnel responsible for developer
-          screening
+          Organizational personnel with system and service
+          acquisition responsibilities; organizational personnel
+          with information security responsibilities; organizational
+          personnel responsible for developer screening
       - method: test
         statement: >
-          Organizational processes for developer screening; mechanisms supporting
-          developer screening
+          Organizational processes for developer screening;
+          mechanisms supporting developer screening
     statement: >
-      the developer of {{ sa_21_odp_01 }} is required to have appropriate access
-      authorizations as determined by assigned {{ sa_21_odp_02 }};
+      the developer of {{ sa_21_odp_01 }} is required to have
+      appropriate access authorizations as determined by assigned
+      {{ sa_21_odp_02 }};
   - id: b
     methods:
       - method: examine
         statement: >
-          System and services acquisition policy; personnel security policy and
-          procedures; procedures addressing personnel screening; system design
-          documentation; acquisition documentation; service level agreements;
-          acquisition contracts for developer services; system configuration settings
-          and associated documentation; list of appropriate access authorizations
-          required by the developers of the system; personnel screening criteria and
-          associated documentation; system security plan; supply chain risk management
-          plan; other relevant documents or records
+          System and services acquisition policy; personnel security
+          policy and procedures; procedures addressing personnel
+          screening; system design documentation; acquisition
+          documentation; service level agreements; acquisition
+          contracts for developer services; system configuration
+          settings and associated documentation; list of appropriate
+          access authorizations required by the developers of the
+          system; personnel screening criteria and associated
+          documentation; system security plan; supply chain risk
+          management plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with system and service acquisition
-          responsibilities; organizational personnel with information security
-          responsibilities; organizational personnel responsible for developer
-          screening
+          Organizational personnel with system and service
+          acquisition responsibilities; organizational personnel
+          with information security responsibilities; organizational
+          personnel responsible for developer screening
       - method: test
         statement: >
-          Organizational processes for developer screening; mechanisms supporting
-          developer screening
-    statement: "the developer of {{ sa_21_odp_01 }} is required to satisfy {{ sa_21_odp_03 }}."
+          Organizational processes for developer screening;
+          mechanisms supporting developer screening
+    statement: >-
+      the developer of {{ sa_21_odp_01 }} is required to satisfy
+      {{ sa_21_odp_03 }}.
 parameters:
   sa_21_odp_01:
     label: "system, systems component, or system service"
@@ -67,10 +74,10 @@ parameters:
 parts:
   - id: a
     statement: >
-      Has appropriate access authorizations as determined by assigned
-      {{ sa_21_odp_02 }} ; and
+      Has appropriate access authorizations as determined by
+      assigned {{ sa_21_odp_02 }} ; and
   - id: b
     statement: >
-      Satisfies the following additional personnel screening criteria:
-      {{ sa_21_odp_03 }}.
+      Satisfies the following additional personnel screening
+      criteria: {{ sa_21_odp_03 }}.
 statement: "Require that the developer of {{ sa_21_odp_01 }}:"

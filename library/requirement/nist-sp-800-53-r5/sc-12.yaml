@@ -44,48 +44,52 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; procedures addressing
-          cryptographic key establishment and management; system design documentation;
-          cryptographic mechanisms; system configuration settings and associated
-          documentation; system audit records; system security plan; other relevant
-          documents or records
+          System and communications protection policy; procedures
+          addressing cryptographic key establishment and management;
+          system design documentation; cryptographic mechanisms;
+          system configuration settings and associated
+          documentation; system audit records; system security plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; organizational personnel with responsibilities
-          for cryptographic key establishment and/or management
+          System/network administrators; organizational personnel
+          with information security responsibilities; organizational
+          personnel with responsibilities for cryptographic key
+          establishment and/or management
       - method: test
         statement: >
-          Mechanisms supporting and/or implementing cryptographic key establishment
-          and management
+          Mechanisms supporting and/or implementing cryptographic
+          key establishment and management
     statement: >
-      cryptographic keys are established when cryptography is employed within the
-      system in accordance with {{ sc_12_odp }};
+      cryptographic keys are established when cryptography is
+      employed within the system in accordance with {{ sc_12_odp }};
   - id: _obj-2
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; procedures addressing
-          cryptographic key establishment and management; system design documentation;
-          cryptographic mechanisms; system configuration settings and associated
-          documentation; system audit records; system security plan; other relevant
-          documents or records
+          System and communications protection policy; procedures
+          addressing cryptographic key establishment and management;
+          system design documentation; cryptographic mechanisms;
+          system configuration settings and associated
+          documentation; system audit records; system security plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; organizational personnel with responsibilities
-          for cryptographic key establishment and/or management
+          System/network administrators; organizational personnel
+          with information security responsibilities; organizational
+          personnel with responsibilities for cryptographic key
+          establishment and/or management
       - method: test
         statement: >
-          Mechanisms supporting and/or implementing cryptographic key establishment
-          and management
+          Mechanisms supporting and/or implementing cryptographic
+          key establishment and management
     statement: >
-      cryptographic keys are managed when cryptography is employed within the
-      system in accordance with {{ sc_12_odp }}.
+      cryptographic keys are managed when cryptography is employed
+      within the system in accordance with {{ sc_12_odp }}.
 parameters:
   sc_12_odp:
     label: requirements
 statement: >
-  Establish and manage cryptographic keys when cryptography is employed within
-  the system in accordance with the following key management requirements:
-  {{ sc_12_odp }}.
+  Establish and manage cryptographic keys when cryptography is
+  employed within the system in accordance with the following key
+  management requirements: {{ sc_12_odp }}.

@@ -17,22 +17,27 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Risk assessment policy; assessment reports; criticality analysis/finalized
-          criticality for each component/subcomponent; audit records/event logs;
-          analysis reports; system security plan; other relevant documents or records
+          Risk assessment policy; assessment reports; criticality
+          analysis/finalized criticality for each
+          component/subcomponent; audit records/event logs; analysis
+          reports; system security plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          Organizational personnel with assessment and auditing responsibilities;
-          organizational personnel with criticality analysis responsibilities;
-          system/network administrators; organizational personnel with security
+          Organizational personnel with assessment and auditing
+          responsibilities; organizational personnel with
+          criticality analysis responsibilities; system/network
+          administrators; organizational personnel with security
           responsibilities
       - method: test
         statement: >
-          Organizational processes for assessments and audits; mechanisms/tools
-          supporting and/or implementing assessments and auditing
+          Organizational processes for assessments and audits;
+          mechanisms/tools supporting and/or implementing
+          assessments and auditing
     statement: >
-      critical system components and functions are identified by performing a
-      criticality analysis for {{ ra_09_odp_01 }} at {{ ra_09_odp_02 }}.
+      critical system components and functions are identified by
+      performing a criticality analysis for {{ ra_09_odp_01 }} at
+      {{ ra_09_odp_02 }}.
 parameters:
   ra_09_odp_01:
     label: "systems, system components, or system services"

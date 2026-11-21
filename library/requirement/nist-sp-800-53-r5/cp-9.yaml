@@ -29,103 +29,117 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Contingency planning policy; procedures addressing system backup;
-          contingency plan; backup storage location(s); system backup logs or records;
-          system security plan; privacy plan; other relevant documents or records
+          Contingency planning policy; procedures addressing system
+          backup; contingency plan; backup storage location(s);
+          system backup logs or records; system security plan;
+          privacy plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with system backup responsibilities; organizational
-          personnel with information security and privacy responsibilities
+          Organizational personnel with system backup
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities
       - method: test
         statement: >
-          Organizational processes for conducting system backups; mechanisms
-          supporting and/or implementing system backups
+          Organizational processes for conducting system backups;
+          mechanisms supporting and/or implementing system backups
     statement: >
-      backups of user-level information contained in {{ cp_09_odp_01 }} are
-      conducted {{ cp_09_odp_02 }};
+      backups of user-level information contained in
+      {{ cp_09_odp_01 }} are conducted {{ cp_09_odp_02 }};
   - id: b
     methods:
       - method: examine
         statement: >
-          Contingency planning policy; procedures addressing system backup;
-          contingency plan; backup storage location(s); system backup logs or records;
-          system security plan; privacy plan; other relevant documents or records
+          Contingency planning policy; procedures addressing system
+          backup; contingency plan; backup storage location(s);
+          system backup logs or records; system security plan;
+          privacy plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with system backup responsibilities; organizational
-          personnel with information security and privacy responsibilities
+          Organizational personnel with system backup
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities
       - method: test
         statement: >
-          Organizational processes for conducting system backups; mechanisms
-          supporting and/or implementing system backups
+          Organizational processes for conducting system backups;
+          mechanisms supporting and/or implementing system backups
     statement: >
-      backups of system-level information contained in the system are conducted
-      {{ cp_09_odp_03 }};
+      backups of system-level information contained in the system
+      are conducted {{ cp_09_odp_03 }};
   - id: c
     methods:
       - method: examine
         statement: >
-          Contingency planning policy; procedures addressing system backup;
-          contingency plan; backup storage location(s); system backup logs or records;
-          system security plan; privacy plan; other relevant documents or records
+          Contingency planning policy; procedures addressing system
+          backup; contingency plan; backup storage location(s);
+          system backup logs or records; system security plan;
+          privacy plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with system backup responsibilities; organizational
-          personnel with information security and privacy responsibilities
+          Organizational personnel with system backup
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities
       - method: test
         statement: >
-          Organizational processes for conducting system backups; mechanisms
-          supporting and/or implementing system backups
+          Organizational processes for conducting system backups;
+          mechanisms supporting and/or implementing system backups
     statement: >
-      backups of system documentation, including security- and privacy-related
-      documentation are conducted {{ cp_09_odp_04 }};
+      backups of system documentation, including security- and
+      privacy-related documentation are conducted
+      {{ cp_09_odp_04 }};
   - id: d-1
     methods:
       - method: examine
         statement: >
-          Contingency planning policy; procedures addressing system backup;
-          contingency plan; backup storage location(s); system backup logs or records;
-          system security plan; privacy plan; other relevant documents or records
+          Contingency planning policy; procedures addressing system
+          backup; contingency plan; backup storage location(s);
+          system backup logs or records; system security plan;
+          privacy plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with system backup responsibilities; organizational
-          personnel with information security and privacy responsibilities
+          Organizational personnel with system backup
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities
       - method: test
         statement: >
-          Organizational processes for conducting system backups; mechanisms
-          supporting and/or implementing system backups
-    statement: the confidentiality of backup information is protected;
+          Organizational processes for conducting system backups;
+          mechanisms supporting and/or implementing system backups
+    statement: >-
+      the confidentiality of backup information is protected;
   - id: d-2
     methods:
       - method: examine
         statement: >
-          Contingency planning policy; procedures addressing system backup;
-          contingency plan; backup storage location(s); system backup logs or records;
-          system security plan; privacy plan; other relevant documents or records
+          Contingency planning policy; procedures addressing system
+          backup; contingency plan; backup storage location(s);
+          system backup logs or records; system security plan;
+          privacy plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with system backup responsibilities; organizational
-          personnel with information security and privacy responsibilities
+          Organizational personnel with system backup
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities
       - method: test
         statement: >
-          Organizational processes for conducting system backups; mechanisms
-          supporting and/or implementing system backups
+          Organizational processes for conducting system backups;
+          mechanisms supporting and/or implementing system backups
     statement: the integrity of backup information is protected;
   - id: d-3
     methods:
       - method: examine
         statement: >
-          Contingency planning policy; procedures addressing system backup;
-          contingency plan; backup storage location(s); system backup logs or records;
-          system security plan; privacy plan; other relevant documents or records
+          Contingency planning policy; procedures addressing system
+          backup; contingency plan; backup storage location(s);
+          system backup logs or records; system security plan;
+          privacy plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with system backup responsibilities; organizational
-          personnel with information security and privacy responsibilities
+          Organizational personnel with system backup
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities
       - method: test
         statement: >
-          Organizational processes for conducting system backups; mechanisms
-          supporting and/or implementing system backups
+          Organizational processes for conducting system backups;
+          mechanisms supporting and/or implementing system backups
     statement: the availability of backup information is protected.
 parameters:
   cp_09_odp_01:
@@ -139,15 +153,17 @@ parameters:
 parts:
   - id: a
     statement: >
-      Conduct backups of user-level information contained in {{ cp_09_odp_01 }}
-      {{ cp_09_odp_02 }};
+      Conduct backups of user-level information contained in
+      {{ cp_09_odp_01 }} {{ cp_09_odp_02 }};
   - id: b
     statement: >
-      Conduct backups of system-level information contained in the system
-      {{ cp_09_odp_03 }};
+      Conduct backups of system-level information contained in the
+      system {{ cp_09_odp_03 }};
   - id: c
     statement: >
-      Conduct backups of system documentation, including security- and
-      privacy-related documentation {{ cp_09_odp_04 }} ; and
+      Conduct backups of system documentation, including security-
+      and privacy-related documentation {{ cp_09_odp_04 }} ; and
   - id: d
-    statement: "Protect the confidentiality, integrity, and availability of backup information."
+    statement: >-
+      Protect the confidentiality, integrity, and availability of
+      backup information.

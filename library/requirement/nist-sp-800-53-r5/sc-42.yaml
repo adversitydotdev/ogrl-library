@@ -20,44 +20,52 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; procedures addressing sensor
-          capabilities and data collection; access control policy and procedures;
-          system design documentation; system configuration settings and associated
-          documentation; system audit records; system security plan; privacy plan;
-          other relevant documents or records
+          System and communications protection policy; procedures
+          addressing sensor capabilities and data collection; access
+          control policy and procedures; system design
+          documentation; system configuration settings and
+          associated documentation; system audit records; system
+          security plan; privacy plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security and privacy responsibilities; system developer; organizational
-          personnel installing, configuring, and/or maintaining the system;
-          organizational personnel responsible for sensor capabilities
+          System/network administrators; organizational personnel
+          with information security and privacy responsibilities;
+          system developer; organizational personnel installing,
+          configuring, and/or maintaining the system; organizational
+          personnel responsible for sensor capabilities
       - method: test
         statement: >
-          Mechanisms implementing access controls for the remote activation of system
-          sensor capabilities; mechanisms implementing the capability to indicate
-          sensor use
+          Mechanisms implementing access controls for the remote
+          activation of system sensor capabilities; mechanisms
+          implementing the capability to indicate sensor use
     statement: "{{ sc_42_odp_01 }} is/are prohibited;"
   - id: b
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; procedures addressing sensor
-          capabilities and data collection; access control policy and procedures;
-          system design documentation; system configuration settings and associated
-          documentation; system audit records; system security plan; privacy plan;
-          other relevant documents or records
+          System and communications protection policy; procedures
+          addressing sensor capabilities and data collection; access
+          control policy and procedures; system design
+          documentation; system configuration settings and
+          associated documentation; system audit records; system
+          security plan; privacy plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security and privacy responsibilities; system developer; organizational
-          personnel installing, configuring, and/or maintaining the system;
-          organizational personnel responsible for sensor capabilities
+          System/network administrators; organizational personnel
+          with information security and privacy responsibilities;
+          system developer; organizational personnel installing,
+          configuring, and/or maintaining the system; organizational
+          personnel responsible for sensor capabilities
       - method: test
         statement: >
-          Mechanisms implementing access controls for the remote activation of system
-          sensor capabilities; mechanisms implementing the capability to indicate
-          sensor use
-    statement: "an explicit indication of sensor use is provided to {{ sc_42_odp_05 }}."
+          Mechanisms implementing access controls for the remote
+          activation of system sensor capabilities; mechanisms
+          implementing the capability to indicate sensor use
+    statement: >-
+      an explicit indication of sensor use is provided to
+      {{ sc_42_odp_05 }}.
 parameters:
   sc_42_odp_01:
     label: sc-42_odp.01
@@ -73,4 +81,6 @@ parts:
   - id: a
     statement: "Prohibit {{ sc_42_odp_01 }} ; and"
   - id: b
-    statement: "Provide an explicit indication of sensor use to {{ sc_42_odp_05 }}."
+    statement: >-
+      Provide an explicit indication of sensor use to
+      {{ sc_42_odp_05 }}.

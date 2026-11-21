@@ -13,22 +13,28 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Incident response policy; contingency planning policy; procedures addressing
-          incident response testing; procedures addressing contingency plan testing;
-          incident response testing documentation; incident response test results;
-          incident response test plan; incident response plan; contingency plan;
-          system security plan; automated mechanisms supporting incident response
-          tests; other relevant documents or records
+          Incident response policy; contingency planning policy;
+          procedures addressing incident response testing;
+          procedures addressing contingency plan testing; incident
+          response testing documentation; incident response test
+          results; incident response test plan; incident response
+          plan; contingency plan; system security plan; automated
+          mechanisms supporting incident response tests; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with incident response testing responsibilities;
-          organizational personnel with information security responsibilities
+          Organizational personnel with incident response testing
+          responsibilities; organizational personnel with
+          information security responsibilities
       - method: test
         statement: >
-          Automated mechanisms that more thoroughly and effectively test the incident
-          response capability
-    statement: "the incident response capability is tested using {{ ir_03_01_odp }}."
+          Automated mechanisms that more thoroughly and effectively
+          test the incident response capability
+    statement: >-
+      the incident response capability is tested using
+      {{ ir_03_01_odp }}.
 parameters:
   ir_03_01_odp:
     label: automated mechanisms
-statement: "Test the incident response capability using {{ ir_03_01_odp }}."
+statement: >-
+  Test the incident response capability using {{ ir_03_01_odp }}.

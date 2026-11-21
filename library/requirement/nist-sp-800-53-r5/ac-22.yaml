@@ -17,117 +17,148 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing publicly accessible content;
-          list of users authorized to post publicly accessible content on
-          organizational systems; training materials and/or records; records of
-          publicly accessible information reviews; records of response to non-public
-          information on public websites; system audit logs; security awareness
-          training records; system security plan; other relevant documents or records
+          Access control policy; procedures addressing publicly
+          accessible content; list of users authorized to post
+          publicly accessible content on organizational systems;
+          training materials and/or records; records of publicly
+          accessible information reviews; records of response to
+          non-public information on public websites; system audit
+          logs; security awareness training records; system security
+          plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with responsibilities for managing publicly
-          accessible information posted on organizational systems; organizational
-          personnel with information security responsibilities
+          Organizational personnel with responsibilities for
+          managing publicly accessible information posted on
+          organizational systems; organizational personnel with
+          information security responsibilities
       - method: test
-        statement: Mechanisms implementing management of publicly accessible content
-    statement: designated individuals are authorized to make information publicly accessible;
+        statement: >-
+          Mechanisms implementing management of publicly accessible
+          content
+    statement: >-
+      designated individuals are authorized to make information
+      publicly accessible;
   - id: b
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing publicly accessible content;
-          list of users authorized to post publicly accessible content on
-          organizational systems; training materials and/or records; records of
-          publicly accessible information reviews; records of response to non-public
-          information on public websites; system audit logs; security awareness
-          training records; system security plan; other relevant documents or records
+          Access control policy; procedures addressing publicly
+          accessible content; list of users authorized to post
+          publicly accessible content on organizational systems;
+          training materials and/or records; records of publicly
+          accessible information reviews; records of response to
+          non-public information on public websites; system audit
+          logs; security awareness training records; system security
+          plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with responsibilities for managing publicly
-          accessible information posted on organizational systems; organizational
-          personnel with information security responsibilities
+          Organizational personnel with responsibilities for
+          managing publicly accessible information posted on
+          organizational systems; organizational personnel with
+          information security responsibilities
       - method: test
-        statement: Mechanisms implementing management of publicly accessible content
+        statement: >-
+          Mechanisms implementing management of publicly accessible
+          content
     statement: >
-      authorized individuals are trained to ensure that publicly accessible
-      information does not contain non-public information;
+      authorized individuals are trained to ensure that publicly
+      accessible information does not contain non-public
+      information;
   - id: c
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing publicly accessible content;
-          list of users authorized to post publicly accessible content on
-          organizational systems; training materials and/or records; records of
-          publicly accessible information reviews; records of response to non-public
-          information on public websites; system audit logs; security awareness
-          training records; system security plan; other relevant documents or records
+          Access control policy; procedures addressing publicly
+          accessible content; list of users authorized to post
+          publicly accessible content on organizational systems;
+          training materials and/or records; records of publicly
+          accessible information reviews; records of response to
+          non-public information on public websites; system audit
+          logs; security awareness training records; system security
+          plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with responsibilities for managing publicly
-          accessible information posted on organizational systems; organizational
-          personnel with information security responsibilities
+          Organizational personnel with responsibilities for
+          managing publicly accessible information posted on
+          organizational systems; organizational personnel with
+          information security responsibilities
       - method: test
-        statement: Mechanisms implementing management of publicly accessible content
+        statement: >-
+          Mechanisms implementing management of publicly accessible
+          content
     statement: >
-      the proposed content of information is reviewed prior to posting onto the
-      publicly accessible system to ensure that non-public information is not
-      included;
+      the proposed content of information is reviewed prior to
+      posting onto the publicly accessible system to ensure that
+      non-public information is not included;
   - id: d-1
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing publicly accessible content;
-          list of users authorized to post publicly accessible content on
-          organizational systems; training materials and/or records; records of
-          publicly accessible information reviews; records of response to non-public
-          information on public websites; system audit logs; security awareness
-          training records; system security plan; other relevant documents or records
+          Access control policy; procedures addressing publicly
+          accessible content; list of users authorized to post
+          publicly accessible content on organizational systems;
+          training materials and/or records; records of publicly
+          accessible information reviews; records of response to
+          non-public information on public websites; system audit
+          logs; security awareness training records; system security
+          plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with responsibilities for managing publicly
-          accessible information posted on organizational systems; organizational
-          personnel with information security responsibilities
+          Organizational personnel with responsibilities for
+          managing publicly accessible information posted on
+          organizational systems; organizational personnel with
+          information security responsibilities
       - method: test
-        statement: Mechanisms implementing management of publicly accessible content
+        statement: >-
+          Mechanisms implementing management of publicly accessible
+          content
     statement: >
-      the content on the publicly accessible system is reviewed for non-public
-      information {{ ac_22_odp }};
+      the content on the publicly accessible system is reviewed for
+      non-public information {{ ac_22_odp }};
   - id: d-2
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing publicly accessible content;
-          list of users authorized to post publicly accessible content on
-          organizational systems; training materials and/or records; records of
-          publicly accessible information reviews; records of response to non-public
-          information on public websites; system audit logs; security awareness
-          training records; system security plan; other relevant documents or records
+          Access control policy; procedures addressing publicly
+          accessible content; list of users authorized to post
+          publicly accessible content on organizational systems;
+          training materials and/or records; records of publicly
+          accessible information reviews; records of response to
+          non-public information on public websites; system audit
+          logs; security awareness training records; system security
+          plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with responsibilities for managing publicly
-          accessible information posted on organizational systems; organizational
-          personnel with information security responsibilities
+          Organizational personnel with responsibilities for
+          managing publicly accessible information posted on
+          organizational systems; organizational personnel with
+          information security responsibilities
       - method: test
-        statement: Mechanisms implementing management of publicly accessible content
+        statement: >-
+          Mechanisms implementing management of publicly accessible
+          content
     statement: >
-      non-public information is removed from the publicly accessible system, if
-      discovered.
+      non-public information is removed from the publicly accessible
+      system, if discovered.
 parameters:
   ac_22_odp:
     label: frequency
 parts:
   - id: a
-    statement: Designate individuals authorized to make information publicly accessible;
+    statement: >-
+      Designate individuals authorized to make information publicly
+      accessible;
   - id: b
     statement: >
-      Train authorized individuals to ensure that publicly accessible information
-      does not contain nonpublic information;
+      Train authorized individuals to ensure that publicly
+      accessible information does not contain nonpublic information;
   - id: c
     statement: >
-      Review the proposed content of information prior to posting onto the
-      publicly accessible system to ensure that nonpublic information is not
-      included; and
+      Review the proposed content of information prior to posting
+      onto the publicly accessible system to ensure that nonpublic
+      information is not included; and
   - id: d
     statement: >
-      Review the content on the publicly accessible system for nonpublic
-      information {{ ac_22_odp }} and remove such information, if discovered.
+      Review the content on the publicly accessible system for
+      nonpublic information {{ ac_22_odp }} and remove such
+      information, if discovered.

@@ -32,213 +32,256 @@ objectives:
     methods:
       - method: examine
         statement: >
-          access control policy and procedures; procedures for remote system access;
-          remote system access configuration and connection requirements;
-          configuration management plan; system configuration settings; remote access
-          authorizations; system audit records; system design documentation;
-          procedures for remote access to the system; system monitoring records; list
-          of managed network access control points; system security plan; other
-          relevant documents or records
+          access control policy and procedures; procedures for
+          remote system access; remote system access configuration
+          and connection requirements; configuration management
+          plan; system configuration settings; remote access
+          authorizations; system audit records; system design
+          documentation; procedures for remote access to the system;
+          system monitoring records; list of managed network access
+          control points; system security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          personnel with responsibilities for managing remote access connections;
-          personnel with information security responsibilities; system administrators
+          personnel with responsibilities for managing remote access
+          connections; personnel with information security
+          responsibilities; system administrators
       - method: test
         statement: >
-          mechanisms for monitoring and controlling remote access methods; mechanisms
-          for routing remote accesses through managed access control points; remote
-          access management capability for the system
+          mechanisms for monitoring and controlling remote access
+          methods; mechanisms for routing remote accesses through
+          managed access control points; remote access management
+          capability for the system
     statement: types of allowable remote system access are defined.
   - id: a.02
     methods:
       - method: examine
         statement: >
-          access control policy and procedures; procedures for remote system access;
-          remote system access configuration and connection requirements;
-          configuration management plan; system configuration settings; remote access
-          authorizations; system audit records; system design documentation;
-          procedures for remote access to the system; system monitoring records; list
-          of managed network access control points; system security plan; other
-          relevant documents or records
+          access control policy and procedures; procedures for
+          remote system access; remote system access configuration
+          and connection requirements; configuration management
+          plan; system configuration settings; remote access
+          authorizations; system audit records; system design
+          documentation; procedures for remote access to the system;
+          system monitoring records; list of managed network access
+          control points; system security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          personnel with responsibilities for managing remote access connections;
-          personnel with information security responsibilities; system administrators
+          personnel with responsibilities for managing remote access
+          connections; personnel with information security
+          responsibilities; system administrators
       - method: test
         statement: >
-          mechanisms for monitoring and controlling remote access methods; mechanisms
-          for routing remote accesses through managed access control points; remote
-          access management capability for the system
+          mechanisms for monitoring and controlling remote access
+          methods; mechanisms for routing remote accesses through
+          managed access control points; remote access management
+          capability for the system
     statement: >
-      usage restrictions are established for each type of allowable remote system
-      access.
+      usage restrictions are established for each type of allowable
+      remote system access.
   - id: a.03
     methods:
       - method: examine
         statement: >
-          access control policy and procedures; procedures for remote system access;
-          remote system access configuration and connection requirements;
-          configuration management plan; system configuration settings; remote access
-          authorizations; system audit records; system design documentation;
-          procedures for remote access to the system; system monitoring records; list
-          of managed network access control points; system security plan; other
-          relevant documents or records
+          access control policy and procedures; procedures for
+          remote system access; remote system access configuration
+          and connection requirements; configuration management
+          plan; system configuration settings; remote access
+          authorizations; system audit records; system design
+          documentation; procedures for remote access to the system;
+          system monitoring records; list of managed network access
+          control points; system security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          personnel with responsibilities for managing remote access connections;
-          personnel with information security responsibilities; system administrators
+          personnel with responsibilities for managing remote access
+          connections; personnel with information security
+          responsibilities; system administrators
       - method: test
         statement: >
-          mechanisms for monitoring and controlling remote access methods; mechanisms
-          for routing remote accesses through managed access control points; remote
-          access management capability for the system
+          mechanisms for monitoring and controlling remote access
+          methods; mechanisms for routing remote accesses through
+          managed access control points; remote access management
+          capability for the system
     statement: >
-      configuration requirements are established for each type of allowable remote
-      system access.
+      configuration requirements are established for each type of
+      allowable remote system access.
   - id: a.04
     methods:
       - method: examine
         statement: >
-          access control policy and procedures; procedures for remote system access;
-          remote system access configuration and connection requirements;
-          configuration management plan; system configuration settings; remote access
-          authorizations; system audit records; system design documentation;
-          procedures for remote access to the system; system monitoring records; list
-          of managed network access control points; system security plan; other
-          relevant documents or records
+          access control policy and procedures; procedures for
+          remote system access; remote system access configuration
+          and connection requirements; configuration management
+          plan; system configuration settings; remote access
+          authorizations; system audit records; system design
+          documentation; procedures for remote access to the system;
+          system monitoring records; list of managed network access
+          control points; system security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          personnel with responsibilities for managing remote access connections;
-          personnel with information security responsibilities; system administrators
+          personnel with responsibilities for managing remote access
+          connections; personnel with information security
+          responsibilities; system administrators
       - method: test
         statement: >
-          mechanisms for monitoring and controlling remote access methods; mechanisms
-          for routing remote accesses through managed access control points; remote
-          access management capability for the system
+          mechanisms for monitoring and controlling remote access
+          methods; mechanisms for routing remote accesses through
+          managed access control points; remote access management
+          capability for the system
     statement: >
-      connection requirements are established for each type of allowable remote
-      system access.
+      connection requirements are established for each type of
+      allowable remote system access.
   - id: b
     methods:
       - method: examine
         statement: >
-          access control policy and procedures; procedures for remote system access;
-          remote system access configuration and connection requirements;
-          configuration management plan; system configuration settings; remote access
-          authorizations; system audit records; system design documentation;
-          procedures for remote access to the system; system monitoring records; list
-          of managed network access control points; system security plan; other
-          relevant documents or records
+          access control policy and procedures; procedures for
+          remote system access; remote system access configuration
+          and connection requirements; configuration management
+          plan; system configuration settings; remote access
+          authorizations; system audit records; system design
+          documentation; procedures for remote access to the system;
+          system monitoring records; list of managed network access
+          control points; system security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          personnel with responsibilities for managing remote access connections;
-          personnel with information security responsibilities; system administrators
+          personnel with responsibilities for managing remote access
+          connections; personnel with information security
+          responsibilities; system administrators
       - method: test
         statement: >
-          mechanisms for monitoring and controlling remote access methods; mechanisms
-          for routing remote accesses through managed access control points; remote
-          access management capability for the system
+          mechanisms for monitoring and controlling remote access
+          methods; mechanisms for routing remote accesses through
+          managed access control points; remote access management
+          capability for the system
     statement: >
-      each type of remote system access is authorized prior to establishing such
-      connections.
+      each type of remote system access is authorized prior to
+      establishing such connections.
   - id: c.01
     methods:
       - method: examine
         statement: >
-          access control policy and procedures; procedures for remote system access;
-          remote system access configuration and connection requirements;
-          configuration management plan; system configuration settings; remote access
-          authorizations; system audit records; system design documentation;
-          procedures for remote access to the system; system monitoring records; list
-          of managed network access control points; system security plan; other
-          relevant documents or records
+          access control policy and procedures; procedures for
+          remote system access; remote system access configuration
+          and connection requirements; configuration management
+          plan; system configuration settings; remote access
+          authorizations; system audit records; system design
+          documentation; procedures for remote access to the system;
+          system monitoring records; list of managed network access
+          control points; system security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          personnel with responsibilities for managing remote access connections;
-          personnel with information security responsibilities; system administrators
+          personnel with responsibilities for managing remote access
+          connections; personnel with information security
+          responsibilities; system administrators
       - method: test
         statement: >
-          mechanisms for monitoring and controlling remote access methods; mechanisms
-          for routing remote accesses through managed access control points; remote
-          access management capability for the system
-    statement: remote access to the system is routed through authorized access control points.
+          mechanisms for monitoring and controlling remote access
+          methods; mechanisms for routing remote accesses through
+          managed access control points; remote access management
+          capability for the system
+    statement: >-
+      remote access to the system is routed through authorized
+      access control points.
   - id: c.02
     methods:
       - method: examine
         statement: >
-          access control policy and procedures; procedures for remote system access;
-          remote system access configuration and connection requirements;
-          configuration management plan; system configuration settings; remote access
-          authorizations; system audit records; system design documentation;
-          procedures for remote access to the system; system monitoring records; list
-          of managed network access control points; system security plan; other
-          relevant documents or records
+          access control policy and procedures; procedures for
+          remote system access; remote system access configuration
+          and connection requirements; configuration management
+          plan; system configuration settings; remote access
+          authorizations; system audit records; system design
+          documentation; procedures for remote access to the system;
+          system monitoring records; list of managed network access
+          control points; system security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          personnel with responsibilities for managing remote access connections;
-          personnel with information security responsibilities; system administrators
+          personnel with responsibilities for managing remote access
+          connections; personnel with information security
+          responsibilities; system administrators
       - method: test
         statement: >
-          mechanisms for monitoring and controlling remote access methods; mechanisms
-          for routing remote accesses through managed access control points; remote
-          access management capability for the system
-    statement: remote access to the system is routed through managed access control points.
+          mechanisms for monitoring and controlling remote access
+          methods; mechanisms for routing remote accesses through
+          managed access control points; remote access management
+          capability for the system
+    statement: >-
+      remote access to the system is routed through managed access
+      control points.
   - id: d.1
     methods:
       - method: examine
         statement: >
-          access control policy and procedures; procedures for remote system access;
-          remote system access configuration and connection requirements;
-          configuration management plan; system configuration settings; remote access
-          authorizations; system audit records; system design documentation;
-          procedures for remote access to the system; system monitoring records; list
-          of managed network access control points; system security plan; other
-          relevant documents or records
+          access control policy and procedures; procedures for
+          remote system access; remote system access configuration
+          and connection requirements; configuration management
+          plan; system configuration settings; remote access
+          authorizations; system audit records; system design
+          documentation; procedures for remote access to the system;
+          system monitoring records; list of managed network access
+          control points; system security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          personnel with responsibilities for managing remote access connections;
-          personnel with information security responsibilities; system administrators
+          personnel with responsibilities for managing remote access
+          connections; personnel with information security
+          responsibilities; system administrators
       - method: test
         statement: >
-          mechanisms for monitoring and controlling remote access methods; mechanisms
-          for routing remote accesses through managed access control points; remote
-          access management capability for the system
-    statement: remote execution of privileged commands is authorized.
+          mechanisms for monitoring and controlling remote access
+          methods; mechanisms for routing remote accesses through
+          managed access control points; remote access management
+          capability for the system
+    statement: >-
+      remote execution of privileged commands is authorized.
   - id: d.2
     methods:
       - method: examine
         statement: >
-          access control policy and procedures; procedures for remote system access;
-          remote system access configuration and connection requirements;
-          configuration management plan; system configuration settings; remote access
-          authorizations; system audit records; system design documentation;
-          procedures for remote access to the system; system monitoring records; list
-          of managed network access control points; system security plan; other
-          relevant documents or records
+          access control policy and procedures; procedures for
+          remote system access; remote system access configuration
+          and connection requirements; configuration management
+          plan; system configuration settings; remote access
+          authorizations; system audit records; system design
+          documentation; procedures for remote access to the system;
+          system monitoring records; list of managed network access
+          control points; system security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          personnel with responsibilities for managing remote access connections;
-          personnel with information security responsibilities; system administrators
+          personnel with responsibilities for managing remote access
+          connections; personnel with information security
+          responsibilities; system administrators
       - method: test
         statement: >
-          mechanisms for monitoring and controlling remote access methods; mechanisms
-          for routing remote accesses through managed access control points; remote
-          access management capability for the system
-    statement: remote access to security-relevant information is authorized.
+          mechanisms for monitoring and controlling remote access
+          methods; mechanisms for routing remote accesses through
+          managed access control points; remote access management
+          capability for the system
+    statement: >-
+      remote access to security-relevant information is authorized.
 parts:
   - id: a
     statement: >
-      Establish usage restrictions, configuration requirements, and connection
-      requirements for each type of allowable remote system access.
+      Establish usage restrictions, configuration requirements, and
+      connection requirements for each type of allowable remote
+      system access.
   - id: b
     statement: >
-      Authorize each type of remote system access prior to establishing such
-      connections.
+      Authorize each type of remote system access prior to
+      establishing such connections.
   - id: c
     statement: >
-      Route remote access to the system through authorized and managed access
-      control points.
+      Route remote access to the system through authorized and
+      managed access control points.
   - id: d
     statement: >
-      Authorize the remote execution of privileged commands and remote access to
-      security-relevant information.
+      Authorize the remote execution of privileged commands and
+      remote access to security-relevant information.

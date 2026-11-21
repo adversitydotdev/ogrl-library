@@ -13,22 +13,27 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; documentation addressing fail-safe procedures for the system;
-          system design documentation; system configuration settings and associated
-          documentation; list of security safeguards protecting the system memory from
-          unauthorized code execution; system audit records; system security plan;
+          System and information integrity policy; system and
+          information integrity procedures; documentation addressing
+          fail-safe procedures for the system; system design
+          documentation; system configuration settings and
+          associated documentation; list of security safeguards
+          protecting the system memory from unauthorized code
+          execution; system audit records; system security plan;
           other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel responsible for fail-safe procedures;
-          organizational personnel with information security responsibilities;
-          system/network administrators; system developer
+          Organizational personnel responsible for fail-safe
+          procedures; organizational personnel with information
+          security responsibilities; system/network administrators;
+          system developer
       - method: test
         statement: >
-          Organizational fail-safe procedures; automated mechanisms supporting and/or
-          implementing fail-safe procedures
-    statement: "{{ si_17_odp_01 }} are implemented when {{ si_17_odp_02 }} occur."
+          Organizational fail-safe procedures; automated mechanisms
+          supporting and/or implementing fail-safe procedures
+    statement: >-
+      {{ si_17_odp_01 }} are implemented when {{ si_17_odp_02 }}
+      occur.
 parameters:
   si_17_odp_01:
     label: fail-safe procedures
@@ -36,8 +41,8 @@ parameters:
     label: list of failure conditions
   si_17_prm_1:
     label: >
-      organization-defined list of failure conditions and associated fail-safe
-      procedures
+      organization-defined list of failure conditions and associated
+      fail-safe procedures
 statement: >
-  Implement the indicated fail-safe procedures when the indicated failures
-  occur: {{ si_17_prm_1 }}.
+  Implement the indicated fail-safe procedures when the indicated
+  failures occur: {{ si_17_prm_1 }}.

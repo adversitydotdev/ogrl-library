@@ -13,19 +13,27 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Access control policy; information flow control policies; procedures
-          addressing information flow enforcement; system design documentation; system
-          configuration settings and associated documentation; types of metadata used
-          to enforce information flow control decisions; system audit records; system
-          security plan; other relevant documents or records
+          Access control policy; information flow control policies;
+          procedures addressing information flow enforcement; system
+          design documentation; system configuration settings and
+          associated documentation; types of metadata used to
+          enforce information flow control decisions; system audit
+          records; system security plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; system developers
+          System/network administrators; organizational personnel
+          with information security responsibilities; system
+          developers
       - method: test
-        statement: Mechanisms implementing information flow enforcement policy
-    statement: "information flow control enforcement is based on {{ ac_04_06_odp }}."
+        statement: >-
+          Mechanisms implementing information flow enforcement
+          policy
+    statement: >-
+      information flow control enforcement is based on
+      {{ ac_04_06_odp }}.
 parameters:
   ac_04_06_odp:
     label: metadata
-statement: "Enforce information flow control based on {{ ac_04_06_odp }}."
+statement: >-
+  Enforce information flow control based on {{ ac_04_06_odp }}.

@@ -6,8 +6,9 @@ modified: "2026-11-20T00:00:00Z"
 name: Verify TLS in Transit and Storage Encryption at Rest
 control_ref: control--ogrl-cr-01
 description: >
-  Verify public endpoints enforce TLS 1.2+ and all production databases,
-  object buckets, and volumes have encryption at rest enabled.
+  Verify public endpoints enforce TLS 1.2+ and all production
+  databases, object buckets, and volumes have encryption at rest
+  enabled.
 interval: daily
 method: automated
 required: true

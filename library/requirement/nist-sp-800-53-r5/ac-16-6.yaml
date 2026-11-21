@@ -13,85 +13,97 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing association of security and
-          privacy attributes with subjects and objects; system security plan; privacy
-          plan; other relevant documents or records
+          Access control policy; procedures addressing association
+          of security and privacy attributes with subjects and
+          objects; system security plan; privacy plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with responsibilities for associating and
-          maintaining association of security and privacy attributes with subjects and
-          objects; organizational personnel with information security and privacy
-          responsibilities; system developers
+          Organizational personnel with responsibilities for
+          associating and maintaining association of security and
+          privacy attributes with subjects and objects;
+          organizational personnel with information security and
+          privacy responsibilities; system developers
       - method: test
         statement: >
-          Mechanisms supporting associations of security and privacy attributes to
-          subjects and objects
+          Mechanisms supporting associations of security and privacy
+          attributes to subjects and objects
     statement: >
-      personnel are required to associate and maintain the association of
-      {{ ac_16_06_odp_01 }} with {{ ac_16_06_odp_05 }} in accordance with
+      personnel are required to associate and maintain the
+      association of {{ ac_16_06_odp_01 }} with
+      {{ ac_16_06_odp_05 }} in accordance with
       {{ ac_16_06_odp_09 }};
   - id: "ac-16(06).ac-16(06)[02]"
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing association of security and
-          privacy attributes with subjects and objects; system security plan; privacy
-          plan; other relevant documents or records
+          Access control policy; procedures addressing association
+          of security and privacy attributes with subjects and
+          objects; system security plan; privacy plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with responsibilities for associating and
-          maintaining association of security and privacy attributes with subjects and
-          objects; organizational personnel with information security and privacy
-          responsibilities; system developers
+          Organizational personnel with responsibilities for
+          associating and maintaining association of security and
+          privacy attributes with subjects and objects;
+          organizational personnel with information security and
+          privacy responsibilities; system developers
       - method: test
         statement: >
-          Mechanisms supporting associations of security and privacy attributes to
-          subjects and objects
+          Mechanisms supporting associations of security and privacy
+          attributes to subjects and objects
     statement: >
-      personnel are required to associate and maintain the association of
-      {{ ac_16_06_odp_02 }} with {{ ac_16_06_odp_06 }} in accordance with
+      personnel are required to associate and maintain the
+      association of {{ ac_16_06_odp_02 }} with
+      {{ ac_16_06_odp_06 }} in accordance with
       {{ ac_16_06_odp_09 }};
   - id: "ac-16(06).ac-16(06)[03]"
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing association of security and
-          privacy attributes with subjects and objects; system security plan; privacy
-          plan; other relevant documents or records
+          Access control policy; procedures addressing association
+          of security and privacy attributes with subjects and
+          objects; system security plan; privacy plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with responsibilities for associating and
-          maintaining association of security and privacy attributes with subjects and
-          objects; organizational personnel with information security and privacy
-          responsibilities; system developers
+          Organizational personnel with responsibilities for
+          associating and maintaining association of security and
+          privacy attributes with subjects and objects;
+          organizational personnel with information security and
+          privacy responsibilities; system developers
       - method: test
         statement: >
-          Mechanisms supporting associations of security and privacy attributes to
-          subjects and objects
+          Mechanisms supporting associations of security and privacy
+          attributes to subjects and objects
     statement: >
-      personnel are required to associate and maintain the association of
-      {{ ac_16_06_odp_03 }} with {{ ac_16_06_odp_07 }} in accordance with
+      personnel are required to associate and maintain the
+      association of {{ ac_16_06_odp_03 }} with
+      {{ ac_16_06_odp_07 }} in accordance with
       {{ ac_16_06_odp_10 }};
   - id: "ac-16(06).ac-16(06)[04]"
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing association of security and
-          privacy attributes with subjects and objects; system security plan; privacy
-          plan; other relevant documents or records
+          Access control policy; procedures addressing association
+          of security and privacy attributes with subjects and
+          objects; system security plan; privacy plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with responsibilities for associating and
-          maintaining association of security and privacy attributes with subjects and
-          objects; organizational personnel with information security and privacy
-          responsibilities; system developers
+          Organizational personnel with responsibilities for
+          associating and maintaining association of security and
+          privacy attributes with subjects and objects;
+          organizational personnel with information security and
+          privacy responsibilities; system developers
       - method: test
         statement: >
-          Mechanisms supporting associations of security and privacy attributes to
-          subjects and objects
+          Mechanisms supporting associations of security and privacy
+          attributes to subjects and objects
     statement: >
-      personnel are required to associate and maintain the association of
-      {{ ac_16_06_odp_04 }} with {{ ac_16_06_odp_08 }} in accordance with
+      personnel are required to associate and maintain the
+      association of {{ ac_16_06_odp_04 }} with
+      {{ ac_16_06_odp_08 }} in accordance with
       {{ ac_16_06_odp_10 }}.
 parameters:
   ac_16_06_odp_01:

@@ -13,29 +13,33 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System security plan; configuration management policy; procedures addressing
-          system configuration change control; configuration management plan; system
-          design documentation; system architecture and configuration documentation;
-          system configuration settings and associated documentation;
-          alerts/notifications of unauthorized baseline configuration changes; system
-          audit records; other relevant documents or records
+          System security plan; configuration management policy;
+          procedures addressing system configuration change control;
+          configuration management plan; system design
+          documentation; system architecture and configuration
+          documentation; system configuration settings and
+          associated documentation; alerts/notifications of
+          unauthorized baseline configuration changes; system audit
+          records; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with configuration change control responsibilities;
-          organizational personnel with information security responsibilities;
-          system/network administrators; system developers; members of change control
-          board or similar
+          Organizational personnel with configuration change control
+          responsibilities; organizational personnel with
+          information security responsibilities; system/network
+          administrators; system developers; members of change
+          control board or similar
       - method: test
         statement: >
-          Organizational processes for configuration change control; automated
-          mechanisms implementing security responses to unauthorized changes to the
-          baseline configurations
+          Organizational processes for configuration change control;
+          automated mechanisms implementing security responses to
+          unauthorized changes to the baseline configurations
     statement: >
-      {{ cm_03_05_odp }} are automatically implemented if baseline configurations
-      are changed in an unauthorized manner.
+      {{ cm_03_05_odp }} are automatically implemented if baseline
+      configurations are changed in an unauthorized manner.
 parameters:
   cm_03_05_odp:
     label: security responses
 statement: >
-  Implement the following security responses automatically if baseline
-  configurations are changed in an unauthorized manner: {{ cm_03_05_odp }}.
+  Implement the following security responses automatically if
+  baseline configurations are changed in an unauthorized manner:
+  {{ cm_03_05_odp }}.

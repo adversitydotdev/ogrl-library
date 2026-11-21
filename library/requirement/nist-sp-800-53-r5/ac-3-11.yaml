@@ -13,20 +13,27 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing access enforcement; system
-          design documentation; system configuration settings and associated
-          documentation; system audit records; system security plan; other relevant
+          Access control policy; procedures addressing access
+          enforcement; system design documentation; system
+          configuration settings and associated documentation;
+          system audit records; system security plan; other relevant
           documents or records
       - method: interview
         statement: >
-          Organizational personnel with access enforcement responsibilities;
-          organizational personnel with responsibilities for data repositories;
-          system/network administrators; organizational personnel with information
+          Organizational personnel with access enforcement
+          responsibilities; organizational personnel with
+          responsibilities for data repositories; system/network
+          administrators; organizational personnel with information
           security responsibilities
       - method: test
-        statement: Mechanisms implementing access enforcement functions
-    statement: "access to data repositories containing {{ ac_03_11_odp }} is restricted."
+        statement: >-
+          Mechanisms implementing access enforcement functions
+    statement: >-
+      access to data repositories containing {{ ac_03_11_odp }} is
+      restricted.
 parameters:
   ac_03_11_odp:
     label: information types
-statement: "Restrict access to data repositories containing {{ ac_03_11_odp }}."
+statement: >-
+  Restrict access to data repositories containing
+  {{ ac_03_11_odp }}.

@@ -13,67 +13,78 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and services acquisition policy; system and services acquisition
-          procedures; procedures addressing the integration of information security
-          and privacy requirements, descriptions, and criteria into the acquisition
-          process; procedures addressing the disposition of personally identifiable
-          information; solicitation documentation; acquisition documentation;
-          acquisition contracts for the system or system service; personally
-          identifiable information processing policy; service level agreements;
-          information sharing agreements; memoranda of understanding; system security
-          plan; privacy plan; privacy impact assessment; privacy risk assessment
-          documentation; other relevant documents or records
+          System and services acquisition policy; system and
+          services acquisition procedures; procedures addressing the
+          integration of information security and privacy
+          requirements, descriptions, and criteria into the
+          acquisition process; procedures addressing the disposition
+          of personally identifiable information; solicitation
+          documentation; acquisition documentation; acquisition
+          contracts for the system or system service; personally
+          identifiable information processing policy; service level
+          agreements; information sharing agreements; memoranda of
+          understanding; system security plan; privacy plan; privacy
+          impact assessment; privacy risk assessment documentation;
+          other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with acquisition/contracting responsibilities;
-          organizational personnel with the responsibility for data management and
-          processing requirements; organizational personnel with information security
-          and privacy responsibilities
+          Organizational personnel with acquisition/contracting
+          responsibilities; organizational personnel with the
+          responsibility for data management and processing
+          requirements; organizational personnel with information
+          security and privacy responsibilities
       - method: test
         statement: >
-          Contract management processes to verify that data is removed as required;
-          vendor processes for removing data in required timeframe; mechanisms
-          verifying the removal and return of data
+          Contract management processes to verify that data is
+          removed as required; vendor processes for removing data in
+          required timeframe; mechanisms verifying the removal and
+          return of data
     statement: >
-      organizational data ownership requirements are included in the acquisition
-      contract;
+      organizational data ownership requirements are included in the
+      acquisition contract;
   - id: b
     methods:
       - method: examine
         statement: >
-          System and services acquisition policy; system and services acquisition
-          procedures; procedures addressing the integration of information security
-          and privacy requirements, descriptions, and criteria into the acquisition
-          process; procedures addressing the disposition of personally identifiable
-          information; solicitation documentation; acquisition documentation;
-          acquisition contracts for the system or system service; personally
-          identifiable information processing policy; service level agreements;
-          information sharing agreements; memoranda of understanding; system security
-          plan; privacy plan; privacy impact assessment; privacy risk assessment
-          documentation; other relevant documents or records
+          System and services acquisition policy; system and
+          services acquisition procedures; procedures addressing the
+          integration of information security and privacy
+          requirements, descriptions, and criteria into the
+          acquisition process; procedures addressing the disposition
+          of personally identifiable information; solicitation
+          documentation; acquisition documentation; acquisition
+          contracts for the system or system service; personally
+          identifiable information processing policy; service level
+          agreements; information sharing agreements; memoranda of
+          understanding; system security plan; privacy plan; privacy
+          impact assessment; privacy risk assessment documentation;
+          other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with acquisition/contracting responsibilities;
-          organizational personnel with the responsibility for data management and
-          processing requirements; organizational personnel with information security
-          and privacy responsibilities
+          Organizational personnel with acquisition/contracting
+          responsibilities; organizational personnel with the
+          responsibility for data management and processing
+          requirements; organizational personnel with information
+          security and privacy responsibilities
       - method: test
         statement: >
-          Contract management processes to verify that data is removed as required;
-          vendor processes for removing data in required timeframe; mechanisms
-          verifying the removal and return of data
+          Contract management processes to verify that data is
+          removed as required; vendor processes for removing data in
+          required timeframe; mechanisms verifying the removal and
+          return of data
     statement: >
-      all data to be removed from the contractor’s system and returned to the
-      organization is required within {{ sa_04_12_odp }}.
+      all data to be removed from the contractor’s system and
+      returned to the organization is required within
+      {{ sa_04_12_odp }}.
 parameters:
   sa_04_12_odp:
     label: time frame
 parts:
   - id: a
     statement: >
-      Include organizational data ownership requirements in the acquisition
-      contract; and
+      Include organizational data ownership requirements in the
+      acquisition contract; and
   - id: b
     statement: >
-      Require all data to be removed from the contractor’s system and returned
-      to the organization within {{ sa_04_12_odp }}.
+      Require all data to be removed from the contractor’s system
+      and returned to the organization within {{ sa_04_12_odp }}.

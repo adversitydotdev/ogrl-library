@@ -13,34 +13,40 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and services acquisition policy; procedures addressing the security
-          design principle of human factored security used in the specification,
-          design, development, implementation, and modification of the system; system
-          design documentation; security and privacy requirements and specifications
-          for the system; system security and privacy architecture; usability
-          analysis; system security plan; other relevant documents or records
+          System and services acquisition policy; procedures
+          addressing the security design principle of human factored
+          security used in the specification, design, development,
+          implementation, and modification of the system; system
+          design documentation; security and privacy requirements
+          and specifications for the system; system security and
+          privacy architecture; usability analysis; system security
+          plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with the responsibility for determining system
-          security and privacy requirements; organizational personnel with human
-          factored security responsibilities; organizational personnel with system
-          specification, design, development, implementation, and modification
-          responsibilities; system developers; organizational personnel with
-          information security responsibilities
+          Organizational personnel with the responsibility for
+          determining system security and privacy requirements;
+          organizational personnel with human factored security
+          responsibilities; organizational personnel with system
+          specification, design, development, implementation, and
+          modification responsibilities; system developers;
+          organizational personnel with information security
+          responsibilities
       - method: test
         statement: >
-          Organizational processes for applying the security design principle of human
-          factored security in system specification, design, development,
-          implementation, and modification; mechanisms supporting the application of
-          the security design principle of human factored security in system
-          specification, design, development, implementation, and modification;
-          mechanisms that enforce security policies
+          Organizational processes for applying the security design
+          principle of human factored security in system
+          specification, design, development, implementation, and
+          modification; mechanisms supporting the application of the
+          security design principle of human factored security in
+          system specification, design, development, implementation,
+          and modification; mechanisms that enforce security
+          policies
     statement: >
-      {{ sa_08_27_odp }} implement the security design principle of human factored
-      security.
+      {{ sa_08_27_odp }} implement the security design principle of
+      human factored security.
 parameters:
   sa_08_27_odp:
     label: systems or system components
 statement: >
-  Implement the security design principle of human factored security in
-  {{ sa_08_27_odp }}.
+  Implement the security design principle of human factored security
+  in {{ sa_08_27_odp }}.

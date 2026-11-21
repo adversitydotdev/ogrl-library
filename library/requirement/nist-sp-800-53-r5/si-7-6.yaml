@@ -13,74 +13,83 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; procedures addressing software, firmware, and information
-          integrity; system design documentation; system configuration settings and
-          associated documentation; cryptographic mechanisms and associated
-          documentation; records of detected unauthorized changes to software,
-          firmware, and information; system audit records; system security plan; other
-          relevant documents or records
+          System and information integrity policy; system and
+          information integrity procedures; procedures addressing
+          software, firmware, and information integrity; system
+          design documentation; system configuration settings and
+          associated documentation; cryptographic mechanisms and
+          associated documentation; records of detected unauthorized
+          changes to software, firmware, and information; system
+          audit records; system security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel responsible for software, firmware, and/or
-          information integrity; organizational personnel with information security
-          responsibilities; system/network administrators; system developer
+          Organizational personnel responsible for software,
+          firmware, and/or information integrity; organizational
+          personnel with information security responsibilities;
+          system/network administrators; system developer
       - method: test
         statement: >
-          Software, firmware, and information integrity verification tools;
-          cryptographic mechanisms implementing software, firmware, and information
-          integrity
+          Software, firmware, and information integrity verification
+          tools; cryptographic mechanisms implementing software,
+          firmware, and information integrity
     statement: >
-      cryptographic mechanisms are implemented to detect unauthorized changes to
-      software;
+      cryptographic mechanisms are implemented to detect
+      unauthorized changes to software;
   - id: "si-07(06).si-07(06)[02]"
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; procedures addressing software, firmware, and information
-          integrity; system design documentation; system configuration settings and
-          associated documentation; cryptographic mechanisms and associated
-          documentation; records of detected unauthorized changes to software,
-          firmware, and information; system audit records; system security plan; other
-          relevant documents or records
+          System and information integrity policy; system and
+          information integrity procedures; procedures addressing
+          software, firmware, and information integrity; system
+          design documentation; system configuration settings and
+          associated documentation; cryptographic mechanisms and
+          associated documentation; records of detected unauthorized
+          changes to software, firmware, and information; system
+          audit records; system security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel responsible for software, firmware, and/or
-          information integrity; organizational personnel with information security
-          responsibilities; system/network administrators; system developer
+          Organizational personnel responsible for software,
+          firmware, and/or information integrity; organizational
+          personnel with information security responsibilities;
+          system/network administrators; system developer
       - method: test
         statement: >
-          Software, firmware, and information integrity verification tools;
-          cryptographic mechanisms implementing software, firmware, and information
-          integrity
+          Software, firmware, and information integrity verification
+          tools; cryptographic mechanisms implementing software,
+          firmware, and information integrity
     statement: >
-      cryptographic mechanisms are implemented to detect unauthorized changes to
-      firmware;
+      cryptographic mechanisms are implemented to detect
+      unauthorized changes to firmware;
   - id: "si-07(06).si-07(06)[03]"
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; procedures addressing software, firmware, and information
-          integrity; system design documentation; system configuration settings and
-          associated documentation; cryptographic mechanisms and associated
-          documentation; records of detected unauthorized changes to software,
-          firmware, and information; system audit records; system security plan; other
-          relevant documents or records
+          System and information integrity policy; system and
+          information integrity procedures; procedures addressing
+          software, firmware, and information integrity; system
+          design documentation; system configuration settings and
+          associated documentation; cryptographic mechanisms and
+          associated documentation; records of detected unauthorized
+          changes to software, firmware, and information; system
+          audit records; system security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel responsible for software, firmware, and/or
-          information integrity; organizational personnel with information security
-          responsibilities; system/network administrators; system developer
+          Organizational personnel responsible for software,
+          firmware, and/or information integrity; organizational
+          personnel with information security responsibilities;
+          system/network administrators; system developer
       - method: test
         statement: >
-          Software, firmware, and information integrity verification tools;
-          cryptographic mechanisms implementing software, firmware, and information
-          integrity
+          Software, firmware, and information integrity verification
+          tools; cryptographic mechanisms implementing software,
+          firmware, and information integrity
     statement: >
-      cryptographic mechanisms are implemented to detect unauthorized changes to
-      information.
+      cryptographic mechanisms are implemented to detect
+      unauthorized changes to information.
 statement: >
-  Implement cryptographic mechanisms to detect unauthorized changes to
-  software, firmware, and information.
+  Implement cryptographic mechanisms to detect unauthorized changes
+  to software, firmware, and information.

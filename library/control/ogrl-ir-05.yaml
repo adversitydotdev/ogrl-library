@@ -9,16 +9,17 @@ control_type: corrective
 family: ir
 frequency: event-driven
 guidance: >
-  Use a blameless postmortem template covering timeline, impact, root cause,
-  detection gaps, and what went well. File corrective actions in the
-  engineering backlog with owners and due dates and review open items in a
-  recurring security meeting. Feed real incident scenarios into the next
-  tabletop exercise (OGRL-IR-01) and update runbooks and detection rules.
-  Evidence is the completed review linked to the incident record and the
-  closed corrective-action tickets.
+  Use a blameless postmortem template covering timeline, impact,
+  root cause, detection gaps, and what went well. File corrective
+  actions in the engineering backlog with owners and due dates and
+  review open items in a recurring security meeting. Feed real
+  incident scenarios into the next tabletop exercise (OGRL-IR-01)
+  and update runbooks and detection rules. Evidence is the completed
+  review linked to the incident record and the closed
+  corrective-action tickets.
 objective: >
-  Prevent recurrence of incidents and continuously improve detection,
-  response, and recovery capability.
+  Prevent recurrence of incidents and continuously improve
+  detection, response, and recovery capability.
 origin: standard
 parameters:
   review_deadline:
@@ -28,14 +29,15 @@ parameters:
     label: Severity requiring a post-incident review
     value: high or critical severity
 statement: >
-  Complete a documented post-incident review within {{ review_deadline }} of
-  resolving each incident rated {{ review_severity_threshold }}, identifying
-  root cause and contributing factors, and track the resulting corrective
-  actions to closure, including updates to incident response procedures,
+  Complete a documented post-incident review within
+  {{ review_deadline }} of resolving each incident rated
+  {{ review_severity_threshold }}, identifying root cause and
+  contributing factors, and track the resulting corrective actions
+  to closure, including updates to incident response procedures,
   training, and testing.
 summary: >
-  Conduct a documented post-incident review for significant incidents and
-  track the resulting improvements to closure.
+  Conduct a documented post-incident review for significant
+  incidents and track the resulting improvements to closure.
 tags:
   - incident-response
   - lessons-learned

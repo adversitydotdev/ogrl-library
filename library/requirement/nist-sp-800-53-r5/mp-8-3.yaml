@@ -13,40 +13,46 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System media protection policy; access authorization policy; procedures
-          addressing downgrading of media containing CUI; applicable federal and
-          organizational standards and policies regarding protection of CUI; media
-          downgrading records; system security plan; other relevant documents or
-          records
+          System media protection policy; access authorization
+          policy; procedures addressing downgrading of media
+          containing CUI; applicable federal and organizational
+          standards and policies regarding protection of CUI; media
+          downgrading records; system security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with system media downgrading responsibilities;
-          organizational personnel with information security responsibilities
+          Organizational personnel with system media downgrading
+          responsibilities; organizational personnel with
+          information security responsibilities
       - method: test
         statement: >
-          Organizational processes for media downgrading; mechanisms supporting and/or
-          implementing media downgrading
-    statement: system media containing controlled unclassified information is identified;
+          Organizational processes for media downgrading; mechanisms
+          supporting and/or implementing media downgrading
+    statement: >-
+      system media containing controlled unclassified information is
+      identified;
   - id: "mp-08(03).mp-08(03)[02]"
     methods:
       - method: examine
         statement: >
-          System media protection policy; access authorization policy; procedures
-          addressing downgrading of media containing CUI; applicable federal and
-          organizational standards and policies regarding protection of CUI; media
-          downgrading records; system security plan; other relevant documents or
-          records
+          System media protection policy; access authorization
+          policy; procedures addressing downgrading of media
+          containing CUI; applicable federal and organizational
+          standards and policies regarding protection of CUI; media
+          downgrading records; system security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with system media downgrading responsibilities;
-          organizational personnel with information security responsibilities
+          Organizational personnel with system media downgrading
+          responsibilities; organizational personnel with
+          information security responsibilities
       - method: test
         statement: >
-          Organizational processes for media downgrading; mechanisms supporting and/or
-          implementing media downgrading
+          Organizational processes for media downgrading; mechanisms
+          supporting and/or implementing media downgrading
     statement: >
-      system media containing controlled unclassified information is downgraded
-      prior to public release.
+      system media containing controlled unclassified information is
+      downgraded prior to public release.
 statement: >
-  Downgrade system media containing controlled unclassified information prior
-  to public release.
+  Downgrade system media containing controlled unclassified
+  information prior to public release.

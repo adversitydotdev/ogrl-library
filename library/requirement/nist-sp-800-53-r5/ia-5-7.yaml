@@ -13,23 +13,26 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Identification and authentication policy; system security plan; procedures
-          addressing authenticator management; system design documentation; system
-          configuration settings and associated documentation; logical access scripts;
-          application code reviews for detecting unencrypted static authenticators;
-          other relevant documents or records
+          Identification and authentication policy; system security
+          plan; procedures addressing authenticator management;
+          system design documentation; system configuration settings
+          and associated documentation; logical access scripts;
+          application code reviews for detecting unencrypted static
+          authenticators; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with authenticator management responsibilities;
-          organizational personnel with information security responsibilities;
-          system/network administrators; system developers
+          Organizational personnel with authenticator management
+          responsibilities; organizational personnel with
+          information security responsibilities; system/network
+          administrators; system developers
       - method: test
         statement: >
-          Mechanisms supporting and/or implementing authenticator management
-          capability; mechanisms implementing authentication in applications
+          Mechanisms supporting and/or implementing authenticator
+          management capability; mechanisms implementing
+          authentication in applications
     statement: >
-      unencrypted static authenticators are not embedded in applications or other
-      forms of static storage.
+      unencrypted static authenticators are not embedded in
+      applications or other forms of static storage.
 statement: >
   Ensure that unencrypted static authenticators are not embedded in
   applications or other forms of static storage.

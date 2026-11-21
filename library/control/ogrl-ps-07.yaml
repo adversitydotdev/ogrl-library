@@ -9,15 +9,16 @@ control_type: preventive
 family: ps
 frequency: quarterly
 guidance: >
-  Supporting infrastructure includes UPS units, HVAC, fire suppression,
-  generators, and on-premises network or server hardware. Keep vendor service
-  reports with the maintenance record. For cloud-hosted production,
-  data-center maintenance is inherited from the provider and validated through
-  its SOC 2 report; this control then covers only office or
-  organization-operated equipment rooms.
+  Supporting infrastructure includes UPS units, HVAC, fire
+  suppression, generators, and on-premises network or server
+  hardware. Keep vendor service reports with the maintenance record.
+  For cloud-hosted production, data-center maintenance is inherited
+  from the provider and validated through its SOC 2 report; this
+  control then covers only office or organization-operated equipment
+  rooms.
 objective: >
-  Keep supporting infrastructure reliable and ensure maintenance does not
-  introduce unauthorized changes or degrade safeguards.
+  Keep supporting infrastructure reliable and ensure maintenance
+  does not introduce unauthorized changes or degrade safeguards.
 origin: standard
 parameters:
   maintenance_approver:
@@ -25,16 +26,19 @@ parameters:
     value: the facilities or IT owner
   maintenance_record_contents:
     label: Required maintenance record contents
-    value: "date, component, maintenance performed, performer, and approver"
+    value: >-
+      date, component, maintenance performed, performer, and
+      approver
   maintenance_review_cadence:
     label: Maintenance record review frequency
     value: quarterly
 statement: >
-  Schedule maintenance of in-scope system components and supporting facility
-  infrastructure in organization-operated facilities according to manufacturer
-  or vendor specifications, require approval by {{ maintenance_approver }} for
-  maintenance activities and for removing components off-site for service,
-  verify affected safeguards function after maintenance, record
+  Schedule maintenance of in-scope system components and supporting
+  facility infrastructure in organization-operated facilities
+  according to manufacturer or vendor specifications, require
+  approval by {{ maintenance_approver }} for maintenance activities
+  and for removing components off-site for service, verify affected
+  safeguards function after maintenance, record
   {{ maintenance_record_contents }}, and review maintenance records
   {{ maintenance_review_cadence }}.
 summary: >

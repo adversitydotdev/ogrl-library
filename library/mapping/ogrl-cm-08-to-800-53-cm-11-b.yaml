@@ -10,5 +10,7 @@ rationale: functional
 relationship: equivalent-to
 review_status: draft
 source_ref: control--ogrl-cm-08
-summary: "Named enforcement methods for software installation satisfy CM-11(b)."
+summary: >-
+  Named enforcement methods for software installation satisfy
+  CM-11(b).
 target_ref: "requirement--nist-sp-800-53-r5-cm-11#b"

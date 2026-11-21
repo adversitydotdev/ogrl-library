@@ -9,12 +9,12 @@ control_type: detective
 family: ac
 frequency: quarterly
 guidance: >
-  Generate account rosters directly from authoritative identity providers and
-  production systems, require reviewer sign-off from managers or system
-  owners, and retain ticketed removal evidence.
+  Generate account rosters directly from authoritative identity
+  providers and production systems, require reviewer sign-off from
+  managers or system owners, and retain ticketed removal evidence.
 objective: >
-  Detect and remove privilege creep, orphaned accounts, and stale entitlements
-  before misuse.
+  Detect and remove privilege creep, orphaned accounts, and stale
+  entitlements before misuse.
 origin: standard
 parameters:
   remediation_window:
@@ -24,12 +24,12 @@ parameters:
     label: Access review cadence
     value: at least quarterly
 statement: >
-  Review all active user accounts, privileged roles, and service accounts
-  {{ review_cadence }} and remediate unauthorized or unneeded entitlements
-  within {{ remediation_window }}.
+  Review all active user accounts, privileged roles, and service
+  accounts {{ review_cadence }} and remediate unauthorized or
+  unneeded entitlements within {{ remediation_window }}.
 summary: >
-  Review active user accounts and privileged group memberships on a defined
-  cadence and revoke unapproved access.
+  Review active user accounts and privileged group memberships on a
+  defined cadence and revoke unapproved access.
 tags:
   - access-review
   - governance

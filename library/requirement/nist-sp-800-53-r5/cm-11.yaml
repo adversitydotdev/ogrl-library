@@ -13,73 +13,92 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Configuration management policy; procedures addressing user-installed
-          software; configuration management plan; system security plan; system design
-          documentation; system configuration settings and associated documentation;
-          list of rules governing user installed software; system monitoring records;
-          system audit records; continuous monitoring strategy; system security plan;
-          other relevant documents or records
+          Configuration management policy; procedures addressing
+          user-installed software; configuration management plan;
+          system security plan; system design documentation; system
+          configuration settings and associated documentation; list
+          of rules governing user installed software; system
+          monitoring records; system audit records; continuous
+          monitoring strategy; system security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with responsibilities for governing user-installed
-          software; organizational personnel operating, using, and/or maintaining the
-          system; organizational personnel monitoring compliance with user-installed
-          software policy; organizational personnel with information security
-          responsibilities; system/network administrators
+          Organizational personnel with responsibilities for
+          governing user-installed software; organizational
+          personnel operating, using, and/or maintaining the system;
+          organizational personnel monitoring compliance with
+          user-installed software policy; organizational personnel
+          with information security responsibilities; system/network
+          administrators
       - method: test
         statement: >
-          Organizational processes governing user-installed software on the system;
-          mechanisms enforcing policies and methods for governing the installation of
-          software by users; mechanisms monitoring policy compliance
+          Organizational processes governing user-installed software
+          on the system; mechanisms enforcing policies and methods
+          for governing the installation of software by users;
+          mechanisms monitoring policy compliance
     statement: >
-      {{ cm_11_odp_01 }} governing the installation of software by users are
-      established;
+      {{ cm_11_odp_01 }} governing the installation of software by
+      users are established;
   - id: b
     methods:
       - method: examine
         statement: >
-          Configuration management policy; procedures addressing user-installed
-          software; configuration management plan; system security plan; system design
-          documentation; system configuration settings and associated documentation;
-          list of rules governing user installed software; system monitoring records;
-          system audit records; continuous monitoring strategy; system security plan;
-          other relevant documents or records
+          Configuration management policy; procedures addressing
+          user-installed software; configuration management plan;
+          system security plan; system design documentation; system
+          configuration settings and associated documentation; list
+          of rules governing user installed software; system
+          monitoring records; system audit records; continuous
+          monitoring strategy; system security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with responsibilities for governing user-installed
-          software; organizational personnel operating, using, and/or maintaining the
-          system; organizational personnel monitoring compliance with user-installed
-          software policy; organizational personnel with information security
-          responsibilities; system/network administrators
+          Organizational personnel with responsibilities for
+          governing user-installed software; organizational
+          personnel operating, using, and/or maintaining the system;
+          organizational personnel monitoring compliance with
+          user-installed software policy; organizational personnel
+          with information security responsibilities; system/network
+          administrators
       - method: test
         statement: >
-          Organizational processes governing user-installed software on the system;
-          mechanisms enforcing policies and methods for governing the installation of
-          software by users; mechanisms monitoring policy compliance
-    statement: "software installation policies are enforced through {{ cm_11_odp_02 }};"
+          Organizational processes governing user-installed software
+          on the system; mechanisms enforcing policies and methods
+          for governing the installation of software by users;
+          mechanisms monitoring policy compliance
+    statement: >-
+      software installation policies are enforced through
+      {{ cm_11_odp_02 }};
   - id: c
     methods:
       - method: examine
         statement: >
-          Configuration management policy; procedures addressing user-installed
-          software; configuration management plan; system security plan; system design
-          documentation; system configuration settings and associated documentation;
-          list of rules governing user installed software; system monitoring records;
-          system audit records; continuous monitoring strategy; system security plan;
-          other relevant documents or records
+          Configuration management policy; procedures addressing
+          user-installed software; configuration management plan;
+          system security plan; system design documentation; system
+          configuration settings and associated documentation; list
+          of rules governing user installed software; system
+          monitoring records; system audit records; continuous
+          monitoring strategy; system security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with responsibilities for governing user-installed
-          software; organizational personnel operating, using, and/or maintaining the
-          system; organizational personnel monitoring compliance with user-installed
-          software policy; organizational personnel with information security
-          responsibilities; system/network administrators
+          Organizational personnel with responsibilities for
+          governing user-installed software; organizational
+          personnel operating, using, and/or maintaining the system;
+          organizational personnel monitoring compliance with
+          user-installed software policy; organizational personnel
+          with information security responsibilities; system/network
+          administrators
       - method: test
         statement: >
-          Organizational processes governing user-installed software on the system;
-          mechanisms enforcing policies and methods for governing the installation of
-          software by users; mechanisms monitoring policy compliance
-    statement: "compliance with {{ cm_11_odp_01 }} is monitored {{ cm_11_odp_03 }}."
+          Organizational processes governing user-installed software
+          on the system; mechanisms enforcing policies and methods
+          for governing the installation of software by users;
+          mechanisms monitoring policy compliance
+    statement: >-
+      compliance with {{ cm_11_odp_01 }} is monitored
+      {{ cm_11_odp_03 }}.
 parameters:
   cm_11_odp_01:
     label: policies
@@ -89,10 +108,12 @@ parameters:
     label: frequency
 parts:
   - id: a
-    statement: "Establish {{ cm_11_odp_01 }} governing the installation of software by users;"
+    statement: >-
+      Establish {{ cm_11_odp_01 }} governing the installation of
+      software by users;
   - id: b
     statement: >
-      Enforce software installation policies through the following methods:
-      {{ cm_11_odp_02 }} ; and
+      Enforce software installation policies through the following
+      methods: {{ cm_11_odp_02 }} ; and
   - id: c
     statement: "Monitor policy compliance {{ cm_11_odp_03 }}."

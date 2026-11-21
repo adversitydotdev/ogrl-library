@@ -23,24 +23,26 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; procedures addressing
-          communication paths; system design documentation; system configuration
-          settings and associated documentation; system audit records; system security
-          plan; other relevant documents or records
+          System and communications protection policy; procedures
+          addressing communication paths; system design
+          documentation; system configuration settings and
+          associated documentation; system audit records; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; system developers
+          System/network administrators; organizational personnel
+          with information security responsibilities; system
+          developers
       - method: test
         statement: >
-          Mechanisms supporting and/or implementing alternate communication paths for
-          system operations
+          Mechanisms supporting and/or implementing alternate
+          communication paths for system operations
     statement: >
-      {{ sc_47_odp }} are established for system operations and operational
-      command and control.
+      {{ sc_47_odp }} are established for system operations and
+      operational command and control.
 parameters:
   sc_47_odp:
     label: alternate communication paths
 statement: >
-  Establish {{ sc_47_odp }} for system operations organizational command and
-  control.
+  Establish {{ sc_47_odp }} for system operations organizational
+  command and control.

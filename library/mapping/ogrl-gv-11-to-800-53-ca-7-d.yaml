@@ -8,5 +8,7 @@ rationale: functional
 relationship: equivalent-to
 review_status: draft
 source_ref: control--ogrl-gv-11
-summary: Automated checks provide ongoing monitoring of the defined metrics.
+summary: >-
+  Automated checks provide ongoing monitoring of the defined
+  metrics.
 target_ref: "requirement--nist-sp-800-53-r5-ca-7#d"

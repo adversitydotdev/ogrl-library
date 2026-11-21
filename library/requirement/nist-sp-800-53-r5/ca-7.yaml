@@ -38,265 +38,317 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Assessment, authorization, and monitoring policy; organizational continuous
-          monitoring strategy; system-level continuous monitoring strategy; procedures
-          addressing continuous monitoring of system controls; procedures addressing
-          configuration management; control assessment report; plan of action and
-          milestones; system monitoring records; configuration management records;
-          impact analyses; status reports; system security plan; privacy plan; other
-          relevant documents or records
+          Assessment, authorization, and monitoring policy;
+          organizational continuous monitoring strategy;
+          system-level continuous monitoring strategy; procedures
+          addressing continuous monitoring of system controls;
+          procedures addressing configuration management; control
+          assessment report; plan of action and milestones; system
+          monitoring records; configuration management records;
+          impact analyses; status reports; system security plan;
+          privacy plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with continuous monitoring responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities; system/network administrators
+          Organizational personnel with continuous monitoring
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities;
+          system/network administrators
       - method: test
         statement: >
-          Mechanisms implementing continuous monitoring; mechanisms supporting
-          response actions to address assessment and monitoring results; mechanisms
-          supporting security and privacy status reporting
-    statement: a system-level continuous monitoring strategy is developed;
+          Mechanisms implementing continuous monitoring; mechanisms
+          supporting response actions to address assessment and
+          monitoring results; mechanisms supporting security and
+          privacy status reporting
+    statement: >-
+      a system-level continuous monitoring strategy is developed;
   - id: "[02]"
     methods:
       - method: examine
         statement: >
-          Assessment, authorization, and monitoring policy; organizational continuous
-          monitoring strategy; system-level continuous monitoring strategy; procedures
-          addressing continuous monitoring of system controls; procedures addressing
-          configuration management; control assessment report; plan of action and
-          milestones; system monitoring records; configuration management records;
-          impact analyses; status reports; system security plan; privacy plan; other
-          relevant documents or records
+          Assessment, authorization, and monitoring policy;
+          organizational continuous monitoring strategy;
+          system-level continuous monitoring strategy; procedures
+          addressing continuous monitoring of system controls;
+          procedures addressing configuration management; control
+          assessment report; plan of action and milestones; system
+          monitoring records; configuration management records;
+          impact analyses; status reports; system security plan;
+          privacy plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with continuous monitoring responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities; system/network administrators
+          Organizational personnel with continuous monitoring
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities;
+          system/network administrators
       - method: test
         statement: >
-          Mechanisms implementing continuous monitoring; mechanisms supporting
-          response actions to address assessment and monitoring results; mechanisms
-          supporting security and privacy status reporting
+          Mechanisms implementing continuous monitoring; mechanisms
+          supporting response actions to address assessment and
+          monitoring results; mechanisms supporting security and
+          privacy status reporting
     statement: >
-      system-level continuous monitoring is implemented in accordance with the
-      organization-level continuous monitoring strategy;
+      system-level continuous monitoring is implemented in
+      accordance with the organization-level continuous monitoring
+      strategy;
   - id: a
     methods:
       - method: examine
         statement: >
-          Assessment, authorization, and monitoring policy; organizational continuous
-          monitoring strategy; system-level continuous monitoring strategy; procedures
-          addressing continuous monitoring of system controls; procedures addressing
-          configuration management; control assessment report; plan of action and
-          milestones; system monitoring records; configuration management records;
-          impact analyses; status reports; system security plan; privacy plan; other
-          relevant documents or records
+          Assessment, authorization, and monitoring policy;
+          organizational continuous monitoring strategy;
+          system-level continuous monitoring strategy; procedures
+          addressing continuous monitoring of system controls;
+          procedures addressing configuration management; control
+          assessment report; plan of action and milestones; system
+          monitoring records; configuration management records;
+          impact analyses; status reports; system security plan;
+          privacy plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with continuous monitoring responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities; system/network administrators
+          Organizational personnel with continuous monitoring
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities;
+          system/network administrators
       - method: test
         statement: >
-          Mechanisms implementing continuous monitoring; mechanisms supporting
-          response actions to address assessment and monitoring results; mechanisms
-          supporting security and privacy status reporting
+          Mechanisms implementing continuous monitoring; mechanisms
+          supporting response actions to address assessment and
+          monitoring results; mechanisms supporting security and
+          privacy status reporting
     statement: >
-      system-level continuous monitoring includes establishment of the following
-      system-level metrics to be monitored: {{ ca_07_odp_01 }};
+      system-level continuous monitoring includes establishment of
+      the following system-level metrics to be monitored:
+      {{ ca_07_odp_01 }};
   - id: b-1
     methods:
       - method: examine
         statement: >
-          Assessment, authorization, and monitoring policy; organizational continuous
-          monitoring strategy; system-level continuous monitoring strategy; procedures
-          addressing continuous monitoring of system controls; procedures addressing
-          configuration management; control assessment report; plan of action and
-          milestones; system monitoring records; configuration management records;
-          impact analyses; status reports; system security plan; privacy plan; other
-          relevant documents or records
+          Assessment, authorization, and monitoring policy;
+          organizational continuous monitoring strategy;
+          system-level continuous monitoring strategy; procedures
+          addressing continuous monitoring of system controls;
+          procedures addressing configuration management; control
+          assessment report; plan of action and milestones; system
+          monitoring records; configuration management records;
+          impact analyses; status reports; system security plan;
+          privacy plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with continuous monitoring responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities; system/network administrators
+          Organizational personnel with continuous monitoring
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities;
+          system/network administrators
       - method: test
         statement: >
-          Mechanisms implementing continuous monitoring; mechanisms supporting
-          response actions to address assessment and monitoring results; mechanisms
-          supporting security and privacy status reporting
+          Mechanisms implementing continuous monitoring; mechanisms
+          supporting response actions to address assessment and
+          monitoring results; mechanisms supporting security and
+          privacy status reporting
     statement: >
-      system-level continuous monitoring includes established {{ ca_07_odp_02 }}
-      for monitoring;
+      system-level continuous monitoring includes established
+      {{ ca_07_odp_02 }} for monitoring;
   - id: b-2
     methods:
       - method: examine
         statement: >
-          Assessment, authorization, and monitoring policy; organizational continuous
-          monitoring strategy; system-level continuous monitoring strategy; procedures
-          addressing continuous monitoring of system controls; procedures addressing
-          configuration management; control assessment report; plan of action and
-          milestones; system monitoring records; configuration management records;
-          impact analyses; status reports; system security plan; privacy plan; other
-          relevant documents or records
+          Assessment, authorization, and monitoring policy;
+          organizational continuous monitoring strategy;
+          system-level continuous monitoring strategy; procedures
+          addressing continuous monitoring of system controls;
+          procedures addressing configuration management; control
+          assessment report; plan of action and milestones; system
+          monitoring records; configuration management records;
+          impact analyses; status reports; system security plan;
+          privacy plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with continuous monitoring responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities; system/network administrators
+          Organizational personnel with continuous monitoring
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities;
+          system/network administrators
       - method: test
         statement: >
-          Mechanisms implementing continuous monitoring; mechanisms supporting
-          response actions to address assessment and monitoring results; mechanisms
-          supporting security and privacy status reporting
+          Mechanisms implementing continuous monitoring; mechanisms
+          supporting response actions to address assessment and
+          monitoring results; mechanisms supporting security and
+          privacy status reporting
     statement: >
-      system-level continuous monitoring includes established {{ ca_07_odp_03 }}
-      for assessment of control effectiveness;
+      system-level continuous monitoring includes established
+      {{ ca_07_odp_03 }} for assessment of control effectiveness;
   - id: c
     methods:
       - method: examine
         statement: >
-          Assessment, authorization, and monitoring policy; organizational continuous
-          monitoring strategy; system-level continuous monitoring strategy; procedures
-          addressing continuous monitoring of system controls; procedures addressing
-          configuration management; control assessment report; plan of action and
-          milestones; system monitoring records; configuration management records;
-          impact analyses; status reports; system security plan; privacy plan; other
-          relevant documents or records
+          Assessment, authorization, and monitoring policy;
+          organizational continuous monitoring strategy;
+          system-level continuous monitoring strategy; procedures
+          addressing continuous monitoring of system controls;
+          procedures addressing configuration management; control
+          assessment report; plan of action and milestones; system
+          monitoring records; configuration management records;
+          impact analyses; status reports; system security plan;
+          privacy plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with continuous monitoring responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities; system/network administrators
+          Organizational personnel with continuous monitoring
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities;
+          system/network administrators
       - method: test
         statement: >
-          Mechanisms implementing continuous monitoring; mechanisms supporting
-          response actions to address assessment and monitoring results; mechanisms
-          supporting security and privacy status reporting
+          Mechanisms implementing continuous monitoring; mechanisms
+          supporting response actions to address assessment and
+          monitoring results; mechanisms supporting security and
+          privacy status reporting
     statement: >
-      system-level continuous monitoring includes ongoing control assessments in
-      accordance with the continuous monitoring strategy;
+      system-level continuous monitoring includes ongoing control
+      assessments in accordance with the continuous monitoring
+      strategy;
   - id: d
     methods:
       - method: examine
         statement: >
-          Assessment, authorization, and monitoring policy; organizational continuous
-          monitoring strategy; system-level continuous monitoring strategy; procedures
-          addressing continuous monitoring of system controls; procedures addressing
-          configuration management; control assessment report; plan of action and
-          milestones; system monitoring records; configuration management records;
-          impact analyses; status reports; system security plan; privacy plan; other
-          relevant documents or records
+          Assessment, authorization, and monitoring policy;
+          organizational continuous monitoring strategy;
+          system-level continuous monitoring strategy; procedures
+          addressing continuous monitoring of system controls;
+          procedures addressing configuration management; control
+          assessment report; plan of action and milestones; system
+          monitoring records; configuration management records;
+          impact analyses; status reports; system security plan;
+          privacy plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with continuous monitoring responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities; system/network administrators
+          Organizational personnel with continuous monitoring
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities;
+          system/network administrators
       - method: test
         statement: >
-          Mechanisms implementing continuous monitoring; mechanisms supporting
-          response actions to address assessment and monitoring results; mechanisms
-          supporting security and privacy status reporting
+          Mechanisms implementing continuous monitoring; mechanisms
+          supporting response actions to address assessment and
+          monitoring results; mechanisms supporting security and
+          privacy status reporting
     statement: >
-      system-level continuous monitoring includes ongoing monitoring of system and
-      organization-defined metrics in accordance with the continuous monitoring
-      strategy;
+      system-level continuous monitoring includes ongoing monitoring
+      of system and organization-defined metrics in accordance with
+      the continuous monitoring strategy;
   - id: e
     methods:
       - method: examine
         statement: >
-          Assessment, authorization, and monitoring policy; organizational continuous
-          monitoring strategy; system-level continuous monitoring strategy; procedures
-          addressing continuous monitoring of system controls; procedures addressing
-          configuration management; control assessment report; plan of action and
-          milestones; system monitoring records; configuration management records;
-          impact analyses; status reports; system security plan; privacy plan; other
-          relevant documents or records
+          Assessment, authorization, and monitoring policy;
+          organizational continuous monitoring strategy;
+          system-level continuous monitoring strategy; procedures
+          addressing continuous monitoring of system controls;
+          procedures addressing configuration management; control
+          assessment report; plan of action and milestones; system
+          monitoring records; configuration management records;
+          impact analyses; status reports; system security plan;
+          privacy plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with continuous monitoring responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities; system/network administrators
+          Organizational personnel with continuous monitoring
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities;
+          system/network administrators
       - method: test
         statement: >
-          Mechanisms implementing continuous monitoring; mechanisms supporting
-          response actions to address assessment and monitoring results; mechanisms
-          supporting security and privacy status reporting
+          Mechanisms implementing continuous monitoring; mechanisms
+          supporting response actions to address assessment and
+          monitoring results; mechanisms supporting security and
+          privacy status reporting
     statement: >
-      system-level continuous monitoring includes correlation and analysis of
-      information generated by control assessments and monitoring;
+      system-level continuous monitoring includes correlation and
+      analysis of information generated by control assessments and
+      monitoring;
   - id: f
     methods:
       - method: examine
         statement: >
-          Assessment, authorization, and monitoring policy; organizational continuous
-          monitoring strategy; system-level continuous monitoring strategy; procedures
-          addressing continuous monitoring of system controls; procedures addressing
-          configuration management; control assessment report; plan of action and
-          milestones; system monitoring records; configuration management records;
-          impact analyses; status reports; system security plan; privacy plan; other
-          relevant documents or records
+          Assessment, authorization, and monitoring policy;
+          organizational continuous monitoring strategy;
+          system-level continuous monitoring strategy; procedures
+          addressing continuous monitoring of system controls;
+          procedures addressing configuration management; control
+          assessment report; plan of action and milestones; system
+          monitoring records; configuration management records;
+          impact analyses; status reports; system security plan;
+          privacy plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with continuous monitoring responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities; system/network administrators
+          Organizational personnel with continuous monitoring
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities;
+          system/network administrators
       - method: test
         statement: >
-          Mechanisms implementing continuous monitoring; mechanisms supporting
-          response actions to address assessment and monitoring results; mechanisms
-          supporting security and privacy status reporting
+          Mechanisms implementing continuous monitoring; mechanisms
+          supporting response actions to address assessment and
+          monitoring results; mechanisms supporting security and
+          privacy status reporting
     statement: >
-      system-level continuous monitoring includes response actions to address the
-      results of the analysis of control assessment and monitoring information;
+      system-level continuous monitoring includes response actions
+      to address the results of the analysis of control assessment
+      and monitoring information;
   - id: g-1
     methods:
       - method: examine
         statement: >
-          Assessment, authorization, and monitoring policy; organizational continuous
-          monitoring strategy; system-level continuous monitoring strategy; procedures
-          addressing continuous monitoring of system controls; procedures addressing
-          configuration management; control assessment report; plan of action and
-          milestones; system monitoring records; configuration management records;
-          impact analyses; status reports; system security plan; privacy plan; other
-          relevant documents or records
+          Assessment, authorization, and monitoring policy;
+          organizational continuous monitoring strategy;
+          system-level continuous monitoring strategy; procedures
+          addressing continuous monitoring of system controls;
+          procedures addressing configuration management; control
+          assessment report; plan of action and milestones; system
+          monitoring records; configuration management records;
+          impact analyses; status reports; system security plan;
+          privacy plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with continuous monitoring responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities; system/network administrators
+          Organizational personnel with continuous monitoring
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities;
+          system/network administrators
       - method: test
         statement: >
-          Mechanisms implementing continuous monitoring; mechanisms supporting
-          response actions to address assessment and monitoring results; mechanisms
-          supporting security and privacy status reporting
+          Mechanisms implementing continuous monitoring; mechanisms
+          supporting response actions to address assessment and
+          monitoring results; mechanisms supporting security and
+          privacy status reporting
     statement: >
-      system-level continuous monitoring includes reporting the security status of
-      the system to {{ ca_07_odp_04 }} {{ ca_07_odp_05 }};
+      system-level continuous monitoring includes reporting the
+      security status of the system to {{ ca_07_odp_04 }}
+      {{ ca_07_odp_05 }};
   - id: g-2
     methods:
       - method: examine
         statement: >
-          Assessment, authorization, and monitoring policy; organizational continuous
-          monitoring strategy; system-level continuous monitoring strategy; procedures
-          addressing continuous monitoring of system controls; procedures addressing
-          configuration management; control assessment report; plan of action and
-          milestones; system monitoring records; configuration management records;
-          impact analyses; status reports; system security plan; privacy plan; other
-          relevant documents or records
+          Assessment, authorization, and monitoring policy;
+          organizational continuous monitoring strategy;
+          system-level continuous monitoring strategy; procedures
+          addressing continuous monitoring of system controls;
+          procedures addressing configuration management; control
+          assessment report; plan of action and milestones; system
+          monitoring records; configuration management records;
+          impact analyses; status reports; system security plan;
+          privacy plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with continuous monitoring responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities; system/network administrators
+          Organizational personnel with continuous monitoring
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities;
+          system/network administrators
       - method: test
         statement: >
-          Mechanisms implementing continuous monitoring; mechanisms supporting
-          response actions to address assessment and monitoring results; mechanisms
-          supporting security and privacy status reporting
+          Mechanisms implementing continuous monitoring; mechanisms
+          supporting response actions to address assessment and
+          monitoring results; mechanisms supporting security and
+          privacy status reporting
     statement: >
-      system-level continuous monitoring includes reporting the privacy status of
-      the system to {{ ca_07_odp_06 }} {{ ca_07_odp_07 }}.
+      system-level continuous monitoring includes reporting the
+      privacy status of the system to {{ ca_07_odp_06 }}
+      {{ ca_07_odp_07 }}.
 parameters:
   ca_07_odp_01:
     label: system-level metrics
@@ -319,33 +371,33 @@ parameters:
 parts:
   - id: a
     statement: >
-      Establishing the following system-level metrics to be monitored:
-      {{ ca_07_odp_01 }};
+      Establishing the following system-level metrics to be
+      monitored: {{ ca_07_odp_01 }};
   - id: b
     statement: >
-      Establishing {{ ca_07_odp_02 }} for monitoring and {{ ca_07_odp_03 }} for
-      assessment of control effectiveness;
+      Establishing {{ ca_07_odp_02 }} for monitoring and
+      {{ ca_07_odp_03 }} for assessment of control effectiveness;
   - id: c
     statement: >
-      Ongoing control assessments in accordance with the continuous monitoring
-      strategy;
+      Ongoing control assessments in accordance with the continuous
+      monitoring strategy;
   - id: d
     statement: >
-      Ongoing monitoring of system and organization-defined metrics in accordance
-      with the continuous monitoring strategy;
+      Ongoing monitoring of system and organization-defined metrics
+      in accordance with the continuous monitoring strategy;
   - id: e
     statement: >
-      Correlation and analysis of information generated by control assessments and
-      monitoring;
+      Correlation and analysis of information generated by control
+      assessments and monitoring;
   - id: f
     statement: >
-      Response actions to address results of the analysis of control assessment
-      and monitoring information; and
+      Response actions to address results of the analysis of control
+      assessment and monitoring information; and
   - id: g
     statement: >
-      Reporting the security and privacy status of the system to {{ ca_7_prm_4 }}
-      {{ ca_7_prm_5 }}.
+      Reporting the security and privacy status of the system to
+      {{ ca_7_prm_4 }} {{ ca_7_prm_5 }}.
 statement: >
-  Develop a system-level continuous monitoring strategy and implement
-  continuous monitoring in accordance with the organization-level continuous
-  monitoring strategy that includes:
+  Develop a system-level continuous monitoring strategy and
+  implement continuous monitoring in accordance with the
+  organization-level continuous monitoring strategy that includes:

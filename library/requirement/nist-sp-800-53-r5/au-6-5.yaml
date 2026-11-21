@@ -13,31 +13,34 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Audit and accountability policy; system security plan; privacy plan;
-          procedures addressing audit review, analysis, and reporting; system design
-          documentation; system configuration settings and associated documentation;
-          integrated analysis of audit records, vulnerability scanning information,
-          performance data, network monitoring information, and associated
+          Audit and accountability policy; system security plan;
+          privacy plan; procedures addressing audit review,
+          analysis, and reporting; system design documentation;
+          system configuration settings and associated
+          documentation; integrated analysis of audit records,
+          vulnerability scanning information, performance data,
+          network monitoring information, and associated
           documentation; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with audit review, analysis, and reporting
-          responsibilities; organizational personnel with information security and
-          privacy responsibilities
+          Organizational personnel with audit review, analysis, and
+          reporting responsibilities; organizational personnel with
+          information security and privacy responsibilities
       - method: test
         statement: >
-          Mechanisms implementing the capability to integrate analysis of audit
-          records with analysis of data/information sources
+          Mechanisms implementing the capability to integrate
+          analysis of audit records with analysis of
+          data/information sources
     statement: >
       analysis of audit records is integrated with analysis of
-      {{ au_06_05_odp_01 }} to further enhance the ability to identify
-      inappropriate or unusual activity.
+      {{ au_06_05_odp_01 }} to further enhance the ability to
+      identify inappropriate or unusual activity.
 parameters:
   au_06_05_odp_01:
     label: au-06.05_odp.01
   au_06_05_odp_02:
     label: data/information collected from other sources
 statement: >
-  Integrate analysis of audit records with analysis of {{ au_06_05_odp_01 }}
-  to further enhance the ability to identify inappropriate or unusual
-  activity.
+  Integrate analysis of audit records with analysis of
+  {{ au_06_05_odp_01 }} to further enhance the ability to identify
+  inappropriate or unusual activity.

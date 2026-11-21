@@ -13,78 +13,98 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and services acquisition policy; system and communications protection
-          policy; contingency planning policy; procedures addressing information
-          system recovery and reconstitution; procedures addressing the security
-          design principle of secure failure and recovery used in the specification,
-          design, development, implementation, and modification of the system;
-          contingency plan; procedures addressing system backup; contingency plan test
-          documentation; contingency plan test results; system design documentation;
-          security and privacy requirements and specifications for the system; system
-          security and privacy architecture; system security plan; other relevant
+          System and services acquisition policy; system and
+          communications protection policy; contingency planning
+          policy; procedures addressing information system recovery
+          and reconstitution; procedures addressing the security
+          design principle of secure failure and recovery used in
+          the specification, design, development, implementation,
+          and modification of the system; contingency plan;
+          procedures addressing system backup; contingency plan test
+          documentation; contingency plan test results; system
+          design documentation; security and privacy requirements
+          and specifications for the system; system security and
+          privacy architecture; system security plan; other relevant
           documents or records
       - method: interview
         statement: >
-          Organizational personnel with the responsibility for determining system
-          security and privacy requirements; organizational personnel with system
-          specification, design, development, implementation, and modification
-          responsibilities; organizational personnel with contingency plan testing
-          responsibilities; organizational personnel with system recovery and
-          reconstitution responsibilities; system developers; organizational personnel
-          with information security responsibilities; organizational personnel with
-          information system backup responsibilities
+          Organizational personnel with the responsibility for
+          determining system security and privacy requirements;
+          organizational personnel with system specification,
+          design, development, implementation, and modification
+          responsibilities; organizational personnel with
+          contingency plan testing responsibilities; organizational
+          personnel with system recovery and reconstitution
+          responsibilities; system developers; organizational
+          personnel with information security responsibilities;
+          organizational personnel with information system backup
+          responsibilities
       - method: test
         statement: >
-          Organizational processes for applying the security design principle of
-          secure failure and recovery in system specification, design, development,
-          implementation, and modification; mechanisms supporting the application of
-          the security design principle of secure failure and recovery in system
-          specification, design, development, implementation, and modification;
-          mechanisms supporting and/or implementing secure failure; organizational
-          processes for contingency plan testing; mechanisms supporting contingency
-          plan testing; mechanisms supporting recovery and reconstitution of the
-          system; organizational processes for conducting system backups; mechanisms
+          Organizational processes for applying the security design
+          principle of secure failure and recovery in system
+          specification, design, development, implementation, and
+          modification; mechanisms supporting the application of the
+          security design principle of secure failure and recovery
+          in system specification, design, development,
+          implementation, and modification; mechanisms supporting
+          and/or implementing secure failure; organizational
+          processes for contingency plan testing; mechanisms
+          supporting contingency plan testing; mechanisms supporting
+          recovery and reconstitution of the system; organizational
+          processes for conducting system backups; mechanisms
           supporting and/or implementing system backups
-    statement: "{{ sa_08_24_odp_01 }} implement the security design principle of secure failure;"
+    statement: >-
+      {{ sa_08_24_odp_01 }} implement the security design principle
+      of secure failure;
   - id: "sa-08(24).sa-08(24)[02]"
     methods:
       - method: examine
         statement: >
-          System and services acquisition policy; system and communications protection
-          policy; contingency planning policy; procedures addressing information
-          system recovery and reconstitution; procedures addressing the security
-          design principle of secure failure and recovery used in the specification,
-          design, development, implementation, and modification of the system;
-          contingency plan; procedures addressing system backup; contingency plan test
-          documentation; contingency plan test results; system design documentation;
-          security and privacy requirements and specifications for the system; system
-          security and privacy architecture; system security plan; other relevant
+          System and services acquisition policy; system and
+          communications protection policy; contingency planning
+          policy; procedures addressing information system recovery
+          and reconstitution; procedures addressing the security
+          design principle of secure failure and recovery used in
+          the specification, design, development, implementation,
+          and modification of the system; contingency plan;
+          procedures addressing system backup; contingency plan test
+          documentation; contingency plan test results; system
+          design documentation; security and privacy requirements
+          and specifications for the system; system security and
+          privacy architecture; system security plan; other relevant
           documents or records
       - method: interview
         statement: >
-          Organizational personnel with the responsibility for determining system
-          security and privacy requirements; organizational personnel with system
-          specification, design, development, implementation, and modification
-          responsibilities; organizational personnel with contingency plan testing
-          responsibilities; organizational personnel with system recovery and
-          reconstitution responsibilities; system developers; organizational personnel
-          with information security responsibilities; organizational personnel with
-          information system backup responsibilities
+          Organizational personnel with the responsibility for
+          determining system security and privacy requirements;
+          organizational personnel with system specification,
+          design, development, implementation, and modification
+          responsibilities; organizational personnel with
+          contingency plan testing responsibilities; organizational
+          personnel with system recovery and reconstitution
+          responsibilities; system developers; organizational
+          personnel with information security responsibilities;
+          organizational personnel with information system backup
+          responsibilities
       - method: test
         statement: >
-          Organizational processes for applying the security design principle of
-          secure failure and recovery in system specification, design, development,
-          implementation, and modification; mechanisms supporting the application of
-          the security design principle of secure failure and recovery in system
-          specification, design, development, implementation, and modification;
-          mechanisms supporting and/or implementing secure failure; organizational
-          processes for contingency plan testing; mechanisms supporting contingency
-          plan testing; mechanisms supporting recovery and reconstitution of the
-          system; organizational processes for conducting system backups; mechanisms
+          Organizational processes for applying the security design
+          principle of secure failure and recovery in system
+          specification, design, development, implementation, and
+          modification; mechanisms supporting the application of the
+          security design principle of secure failure and recovery
+          in system specification, design, development,
+          implementation, and modification; mechanisms supporting
+          and/or implementing secure failure; organizational
+          processes for contingency plan testing; mechanisms
+          supporting contingency plan testing; mechanisms supporting
+          recovery and reconstitution of the system; organizational
+          processes for conducting system backups; mechanisms
           supporting and/or implementing system backups
     statement: >
-      {{ sa_08_24_odp_02 }} implement the security design principle of secure
-      recovery.
+      {{ sa_08_24_odp_02 }} implement the security design principle
+      of secure recovery.
 parameters:
   sa_08_24_odp_01:
     label: systems or system components
@@ -93,5 +113,5 @@ parameters:
   sa_8_24_prm_1:
     label: organization-defined systems or system components
 statement: >
-  Implement the security design principle of secure failure and recovery in
-  {{ sa_8_24_prm_1 }}.
+  Implement the security design principle of secure failure and
+  recovery in {{ sa_8_24_prm_1 }}.

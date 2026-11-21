@@ -6,9 +6,9 @@ modified: "2026-11-20T00:00:00Z"
 name: Verify Annual Incident Response Tabletop Exercise
 control_ref: control--ogrl-ir-01
 description: >
-  Examine the current incident response plan, after-action report from the
-  most recent tabletop exercise, and closure evidence for identified follow-up
-  tasks.
+  Examine the current incident response plan, after-action report
+  from the most recent tabletop exercise, and closure evidence for
+  identified follow-up tasks.
 interval: annual
 method: manual
 required: true

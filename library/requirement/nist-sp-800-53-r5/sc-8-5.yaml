@@ -13,25 +13,30 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; procedures addressing
-          transmission confidentiality and integrity; system design documentation;
-          system configuration settings and associated documentation; system audit
-          records; system security plan; other relevant documents or records
+          System and communications protection policy; procedures
+          addressing transmission confidentiality and integrity;
+          system design documentation; system configuration settings
+          and associated documentation; system audit records; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; system developer
+          System/network administrators; organizational personnel
+          with information security responsibilities; system
+          developer
       - method: test
         statement: >
-          Cryptographic mechanisms supporting and/or implementing concealment or
-          randomization of communication patterns; mechanisms supporting and/or
-          implementing protected distribution systems
+          Cryptographic mechanisms supporting and/or implementing
+          concealment or randomization of communication patterns;
+          mechanisms supporting and/or implementing protected
+          distribution systems
     statement: >
-      the {{ sc_08_05_odp_01 }} is implemented to {{ sc_08_05_odp_02 }} during
-      transmission.
+      the {{ sc_08_05_odp_01 }} is implemented to
+      {{ sc_08_05_odp_02 }} during transmission.
 parameters:
   sc_08_05_odp_01:
     label: protected distribution system
   sc_08_05_odp_02:
     label: sc-08.05_odp.02
-statement: "Implement {{ sc_08_05_odp_01 }} to {{ sc_08_05_odp_02 }} during transmission."
+statement: >-
+  Implement {{ sc_08_05_odp_01 }} to {{ sc_08_05_odp_02 }} during
+  transmission.

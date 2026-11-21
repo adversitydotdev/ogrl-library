@@ -13,22 +13,26 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Audit and accountability policy; procedures addressing content of audit
-          records; system security plan; privacy plan; system design documentation;
-          system configuration settings and associated documentation; list of
-          organization-defined auditable events; system audit records; other relevant
-          documents or records
+          Audit and accountability policy; procedures addressing
+          content of audit records; system security plan; privacy
+          plan; system design documentation; system configuration
+          settings and associated documentation; list of
+          organization-defined auditable events; system audit
+          records; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with audit and accountability responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities; system/network administrators; system developers
+          Organizational personnel with audit and accountability
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities;
+          system/network administrators; system developers
       - method: test
         statement: system audit capability
-    statement: "generated audit records contain the following {{ au_03_01_odp }}."
+    statement: >-
+      generated audit records contain the following
+      {{ au_03_01_odp }}.
 parameters:
   au_03_01_odp:
     label: additional information
 statement: >
-  Generate audit records containing the following additional information:
-  {{ au_03_01_odp }}.
+  Generate audit records containing the following additional
+  information: {{ au_03_01_odp }}.

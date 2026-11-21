@@ -4,7 +4,8 @@ id: requirement--nist-sp-800-53-r5-sc-22
 spec_version: "0.1.0"
 created: "2026-10-22T11:30:00Z"
 modified: "2026-10-22T11:30:00Z"
-name: Architecture and Provisioning for Name/Address Resolution Service
+name: >-
+  Architecture and Provisioning for Name/Address Resolution Service
 display_id: SC-22
 class: control
 external_references:
@@ -17,69 +18,80 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; procedures addressing
-          architecture and provisioning for name/address resolution services; access
-          control policy and procedures; system design documentation; assessment
-          results from independent testing organizations; system configuration
-          settings and associated documentation; system audit records; system security
-          plan; other relevant documents or records
+          System and communications protection policy; procedures
+          addressing architecture and provisioning for name/address
+          resolution services; access control policy and procedures;
+          system design documentation; assessment results from
+          independent testing organizations; system configuration
+          settings and associated documentation; system audit
+          records; system security plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; organizational personnel with responsibilities
-          for managing DNS
+          System/network administrators; organizational personnel
+          with information security responsibilities; organizational
+          personnel with responsibilities for managing DNS
       - method: test
         statement: >
-          Mechanisms supporting and/or implementing name/address resolution services
-          for fault tolerance and role separation
+          Mechanisms supporting and/or implementing name/address
+          resolution services for fault tolerance and role
+          separation
     statement: >
-      the systems that collectively provide name/address resolution services for
-      an organization are fault-tolerant;
+      the systems that collectively provide name/address resolution
+      services for an organization are fault-tolerant;
   - id: _obj-2
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; procedures addressing
-          architecture and provisioning for name/address resolution services; access
-          control policy and procedures; system design documentation; assessment
-          results from independent testing organizations; system configuration
-          settings and associated documentation; system audit records; system security
-          plan; other relevant documents or records
+          System and communications protection policy; procedures
+          addressing architecture and provisioning for name/address
+          resolution services; access control policy and procedures;
+          system design documentation; assessment results from
+          independent testing organizations; system configuration
+          settings and associated documentation; system audit
+          records; system security plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; organizational personnel with responsibilities
-          for managing DNS
+          System/network administrators; organizational personnel
+          with information security responsibilities; organizational
+          personnel with responsibilities for managing DNS
       - method: test
         statement: >
-          Mechanisms supporting and/or implementing name/address resolution services
-          for fault tolerance and role separation
+          Mechanisms supporting and/or implementing name/address
+          resolution services for fault tolerance and role
+          separation
     statement: >
-      the systems that collectively provide name/address resolution services for
-      an organization implement internal role separation;
+      the systems that collectively provide name/address resolution
+      services for an organization implement internal role
+      separation;
   - id: _obj-3
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; procedures addressing
-          architecture and provisioning for name/address resolution services; access
-          control policy and procedures; system design documentation; assessment
-          results from independent testing organizations; system configuration
-          settings and associated documentation; system audit records; system security
-          plan; other relevant documents or records
+          System and communications protection policy; procedures
+          addressing architecture and provisioning for name/address
+          resolution services; access control policy and procedures;
+          system design documentation; assessment results from
+          independent testing organizations; system configuration
+          settings and associated documentation; system audit
+          records; system security plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; organizational personnel with responsibilities
-          for managing DNS
+          System/network administrators; organizational personnel
+          with information security responsibilities; organizational
+          personnel with responsibilities for managing DNS
       - method: test
         statement: >
-          Mechanisms supporting and/or implementing name/address resolution services
-          for fault tolerance and role separation
+          Mechanisms supporting and/or implementing name/address
+          resolution services for fault tolerance and role
+          separation
     statement: >
-      the systems that collectively provide name/address resolution services for
-      an organization implement external role separation.
+      the systems that collectively provide name/address resolution
+      services for an organization implement external role
+      separation.
 statement: >
-  Ensure the systems that collectively provide name/address resolution service
-  for an organization are fault-tolerant and implement internal and external
-  role separation.
+  Ensure the systems that collectively provide name/address
+  resolution service for an organization are fault-tolerant and
+  implement internal and external role separation.

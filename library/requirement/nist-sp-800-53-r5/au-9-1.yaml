@@ -13,17 +13,23 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Audit and accountability policy; system security plan; privacy plan; access
-          control policy and procedures; procedures addressing protection of audit
-          information; system design documentation; system hardware settings; system
-          configuration settings and associated documentation; system storage media;
-          system audit records; other relevant documents or records
+          Audit and accountability policy; system security plan;
+          privacy plan; access control policy and procedures;
+          procedures addressing protection of audit information;
+          system design documentation; system hardware settings;
+          system configuration settings and associated
+          documentation; system storage media; system audit records;
+          other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with audit and accountability responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities; system/network administrators; system developers
+          Organizational personnel with audit and accountability
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities;
+          system/network administrators; system developers
       - method: test
         statement: System media storing audit trails
-    statement: "audit trails are written to hardware-enforced, write-once media."
-statement: "Write audit trails to hardware-enforced, write-once media."
+    statement: >-
+      audit trails are written to hardware-enforced, write-once
+      media.
+statement: >-
+  Write audit trails to hardware-enforced, write-once media.

@@ -9,12 +9,14 @@ control_type: detective
 family: vm
 frequency: continuous
 guidance: >
-  Use MDM to deploy and lock the EDR agent on laptops, and runtime protection
-  or EDR on general-purpose production hosts. Immutable containers rely on
-  image scanning and least functionality (OGRL-CM-08) rather than agents. Scan
-  customer-uploaded files before processing where the product accepts uploads.
-  Compare the EDR agent list with the device inventory monthly.
-objective: "Detect and contain malicious code on systems that can execute it.\n"
+  Use MDM to deploy and lock the EDR agent on laptops, and runtime
+  protection or EDR on general-purpose production hosts. Immutable
+  containers rely on image scanning and least functionality
+  (OGRL-CM-08) rather than agents. Scan customer-uploaded files
+  before processing where the product accepts uploads. Compare the
+  EDR agent list with the device inventory monthly.
+objective: >
+  Detect and contain malicious code on systems that can execute it.
 origin: standard
 parameters:
   malware_alert_recipients:
@@ -26,8 +28,8 @@ parameters:
   malware_protected_assets:
     label: Assets requiring malware protection
     value: >
-      workforce endpoints and production hosts running general-purpose operating
-      systems
+      workforce endpoints and production hosts running
+      general-purpose operating systems
   malware_response_action:
     label: Automatic response to detections
     value: block and quarantine
@@ -35,16 +37,17 @@ parameters:
     label: Full malware scan frequency
     value: weekly
 statement: >
-  Deploy centrally managed anti-malware or endpoint detection and response on
-  {{ malware_protected_assets }}, keep engines and signatures automatically
-  updated, scan files in real time on download, open, or execution and perform
-  full scans {{ malware_scan_frequency }}, automatically
+  Deploy centrally managed anti-malware or endpoint detection and
+  response on {{ malware_protected_assets }}, keep engines and
+  signatures automatically updated, scan files in real time on
+  download, open, or execution and perform full scans
+  {{ malware_scan_frequency }}, automatically
   {{ malware_response_action }} detected malicious code and alert
   {{ malware_alert_recipients }}, and verify agent coverage
   {{ malware_coverage_review_frequency }}.
 summary: >
-  Run centrally managed, auto-updating anti-malware or EDR on endpoints and
-  hosts and act on detections.
+  Run centrally managed, auto-updating anti-malware or EDR on
+  endpoints and hosts and act on detections.
 tags:
   - malware
   - endpoint-security

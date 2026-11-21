@@ -13,25 +13,27 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Audit and accountability policy; procedures addressing audit review,
-          analysis, and reporting; system design documentation; system configuration
-          settings and associated documentation; text analysis tools and techniques;
-          text analysis documentation of audited privileged commands; system security
-          plan; privacy plan; other relevant documents or records
+          Audit and accountability policy; procedures addressing
+          audit review, analysis, and reporting; system design
+          documentation; system configuration settings and
+          associated documentation; text analysis tools and
+          techniques; text analysis documentation of audited
+          privileged commands; system security plan; privacy plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with audit review, analysis, and reporting
-          responsibilities; organizational personnel with information security and
-          privacy responsibilities
+          Organizational personnel with audit review, analysis, and
+          reporting responsibilities; organizational personnel with
+          information security and privacy responsibilities
       - method: test
         statement: >
-          Mechanisms implementing the capability to perform a full text analysis of
-          audited privilege commands
+          Mechanisms implementing the capability to perform a full
+          text analysis of audited privilege commands
     statement: >
-      a full text analysis of logged privileged commands in a physically distinct
-      component or subsystem of the system or other system that is dedicated to
-      that analysis is performed.
+      a full text analysis of logged privileged commands in a
+      physically distinct component or subsystem of the system or
+      other system that is dedicated to that analysis is performed.
 statement: >
-  Perform a full text analysis of logged privileged commands in a physically
-  distinct component or subsystem of the system, or other system that is
-  dedicated to that analysis.
+  Perform a full text analysis of logged privileged commands in a
+  physically distinct component or subsystem of the system, or other
+  system that is dedicated to that analysis.

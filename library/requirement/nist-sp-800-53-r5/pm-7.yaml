@@ -29,133 +29,162 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Information security program plan; privacy program plan; enterprise
-          architecture documentation; procedures addressing enterprise architecture
-          development; results of risk assessments of enterprise architecture; other
+          Information security program plan; privacy program plan;
+          enterprise architecture documentation; procedures
+          addressing enterprise architecture development; results of
+          risk assessments of enterprise architecture; other
           relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with information security and privacy program
-          planning and plan implementation responsibilities; organizational personnel
-          responsible for developing enterprise architecture; organizational personnel
-          responsible for risk assessments of enterprise architecture; organizational
-          personnel with information security and privacy responsibilities
+          Organizational personnel with information security and
+          privacy program planning and plan implementation
+          responsibilities; organizational personnel responsible for
+          developing enterprise architecture; organizational
+          personnel responsible for risk assessments of enterprise
+          architecture; organizational personnel with information
+          security and privacy responsibilities
       - method: test
         statement: >
-          Organizational processes for enterprise architecture development; mechanisms
-          supporting the enterprise architecture and its development
+          Organizational processes for enterprise architecture
+          development; mechanisms supporting the enterprise
+          architecture and its development
     statement: >
-      an enterprise architecture is developed with consideration for information
-      security;
+      an enterprise architecture is developed with consideration for
+      information security;
   - id: "[02]"
     methods:
       - method: examine
         statement: >
-          Information security program plan; privacy program plan; enterprise
-          architecture documentation; procedures addressing enterprise architecture
-          development; results of risk assessments of enterprise architecture; other
+          Information security program plan; privacy program plan;
+          enterprise architecture documentation; procedures
+          addressing enterprise architecture development; results of
+          risk assessments of enterprise architecture; other
           relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with information security and privacy program
-          planning and plan implementation responsibilities; organizational personnel
-          responsible for developing enterprise architecture; organizational personnel
-          responsible for risk assessments of enterprise architecture; organizational
-          personnel with information security and privacy responsibilities
+          Organizational personnel with information security and
+          privacy program planning and plan implementation
+          responsibilities; organizational personnel responsible for
+          developing enterprise architecture; organizational
+          personnel responsible for risk assessments of enterprise
+          architecture; organizational personnel with information
+          security and privacy responsibilities
       - method: test
         statement: >
-          Organizational processes for enterprise architecture development; mechanisms
-          supporting the enterprise architecture and its development
+          Organizational processes for enterprise architecture
+          development; mechanisms supporting the enterprise
+          architecture and its development
     statement: >
-      an enterprise architecture is maintained with consideration for information
-      security;
+      an enterprise architecture is maintained with consideration
+      for information security;
   - id: "[03]"
     methods:
       - method: examine
         statement: >
-          Information security program plan; privacy program plan; enterprise
-          architecture documentation; procedures addressing enterprise architecture
-          development; results of risk assessments of enterprise architecture; other
+          Information security program plan; privacy program plan;
+          enterprise architecture documentation; procedures
+          addressing enterprise architecture development; results of
+          risk assessments of enterprise architecture; other
           relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with information security and privacy program
-          planning and plan implementation responsibilities; organizational personnel
-          responsible for developing enterprise architecture; organizational personnel
-          responsible for risk assessments of enterprise architecture; organizational
-          personnel with information security and privacy responsibilities
+          Organizational personnel with information security and
+          privacy program planning and plan implementation
+          responsibilities; organizational personnel responsible for
+          developing enterprise architecture; organizational
+          personnel responsible for risk assessments of enterprise
+          architecture; organizational personnel with information
+          security and privacy responsibilities
       - method: test
         statement: >
-          Organizational processes for enterprise architecture development; mechanisms
-          supporting the enterprise architecture and its development
-    statement: an enterprise architecture is developed with consideration for privacy;
+          Organizational processes for enterprise architecture
+          development; mechanisms supporting the enterprise
+          architecture and its development
+    statement: >-
+      an enterprise architecture is developed with consideration for
+      privacy;
   - id: "[04]"
     methods:
       - method: examine
         statement: >
-          Information security program plan; privacy program plan; enterprise
-          architecture documentation; procedures addressing enterprise architecture
-          development; results of risk assessments of enterprise architecture; other
+          Information security program plan; privacy program plan;
+          enterprise architecture documentation; procedures
+          addressing enterprise architecture development; results of
+          risk assessments of enterprise architecture; other
           relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with information security and privacy program
-          planning and plan implementation responsibilities; organizational personnel
-          responsible for developing enterprise architecture; organizational personnel
-          responsible for risk assessments of enterprise architecture; organizational
-          personnel with information security and privacy responsibilities
+          Organizational personnel with information security and
+          privacy program planning and plan implementation
+          responsibilities; organizational personnel responsible for
+          developing enterprise architecture; organizational
+          personnel responsible for risk assessments of enterprise
+          architecture; organizational personnel with information
+          security and privacy responsibilities
       - method: test
         statement: >
-          Organizational processes for enterprise architecture development; mechanisms
-          supporting the enterprise architecture and its development
-    statement: an enterprise architecture is maintained with consideration for privacy;
+          Organizational processes for enterprise architecture
+          development; mechanisms supporting the enterprise
+          architecture and its development
+    statement: >-
+      an enterprise architecture is maintained with consideration
+      for privacy;
   - id: "[05]"
     methods:
       - method: examine
         statement: >
-          Information security program plan; privacy program plan; enterprise
-          architecture documentation; procedures addressing enterprise architecture
-          development; results of risk assessments of enterprise architecture; other
+          Information security program plan; privacy program plan;
+          enterprise architecture documentation; procedures
+          addressing enterprise architecture development; results of
+          risk assessments of enterprise architecture; other
           relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with information security and privacy program
-          planning and plan implementation responsibilities; organizational personnel
-          responsible for developing enterprise architecture; organizational personnel
-          responsible for risk assessments of enterprise architecture; organizational
-          personnel with information security and privacy responsibilities
+          Organizational personnel with information security and
+          privacy program planning and plan implementation
+          responsibilities; organizational personnel responsible for
+          developing enterprise architecture; organizational
+          personnel responsible for risk assessments of enterprise
+          architecture; organizational personnel with information
+          security and privacy responsibilities
       - method: test
         statement: >
-          Organizational processes for enterprise architecture development; mechanisms
-          supporting the enterprise architecture and its development
+          Organizational processes for enterprise architecture
+          development; mechanisms supporting the enterprise
+          architecture and its development
     statement: >
-      an enterprise architecture is developed with consideration for the resulting
-      risk to organizational operations and assets, individuals, other
-      organizations, and the Nation;
+      an enterprise architecture is developed with consideration for
+      the resulting risk to organizational operations and assets,
+      individuals, other organizations, and the Nation;
   - id: "[06]"
     methods:
       - method: examine
         statement: >
-          Information security program plan; privacy program plan; enterprise
-          architecture documentation; procedures addressing enterprise architecture
-          development; results of risk assessments of enterprise architecture; other
+          Information security program plan; privacy program plan;
+          enterprise architecture documentation; procedures
+          addressing enterprise architecture development; results of
+          risk assessments of enterprise architecture; other
           relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with information security and privacy program
-          planning and plan implementation responsibilities; organizational personnel
-          responsible for developing enterprise architecture; organizational personnel
-          responsible for risk assessments of enterprise architecture; organizational
-          personnel with information security and privacy responsibilities
+          Organizational personnel with information security and
+          privacy program planning and plan implementation
+          responsibilities; organizational personnel responsible for
+          developing enterprise architecture; organizational
+          personnel responsible for risk assessments of enterprise
+          architecture; organizational personnel with information
+          security and privacy responsibilities
       - method: test
         statement: >
-          Organizational processes for enterprise architecture development; mechanisms
-          supporting the enterprise architecture and its development
+          Organizational processes for enterprise architecture
+          development; mechanisms supporting the enterprise
+          architecture and its development
     statement: >
-      an enterprise architecture is maintained with consideration for the
-      resulting risk to organizational operations and assets, individuals, other
-      organizations, and the Nation.
+      an enterprise architecture is maintained with consideration
+      for the resulting risk to organizational operations and
+      assets, individuals, other organizations, and the Nation.
 statement: >
-  Develop and maintain an enterprise architecture with consideration for
-  information security, privacy, and the resulting risk to organizational
-  operations and assets, individuals, other organizations, and the Nation.
+  Develop and maintain an enterprise architecture with consideration
+  for information security, privacy, and the resulting risk to
+  organizational operations and assets, individuals, other
+  organizations, and the Nation.

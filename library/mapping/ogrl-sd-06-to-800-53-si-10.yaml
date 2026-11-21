@@ -10,5 +10,7 @@ rationale: functional
 relationship: equivalent-to
 review_status: draft
 source_ref: control--ogrl-sd-06
-summary: Schema-based validity checks on named input channels satisfy SI-10.
+summary: >-
+  Schema-based validity checks on named input channels satisfy
+  SI-10.
 target_ref: requirement--nist-sp-800-53-r5-si-10

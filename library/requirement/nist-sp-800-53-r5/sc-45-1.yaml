@@ -13,38 +13,47 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; procedures addressing time
-          synchronization; system design documentation; system configuration settings
-          and associated documentation; system audit records; system security plan;
-          other relevant documents or records
+          System and communications protection policy; procedures
+          addressing time synchronization; system design
+          documentation; system configuration settings and
+          associated documentation; system audit records; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; organizational personnel installing, configuring,
-          and/or maintaining the system
+          System/network administrators; organizational personnel
+          with information security responsibilities; organizational
+          personnel installing, configuring, and/or maintaining the
+          system
       - method: test
-        statement: Mechanisms supporting and/or implementing system time synchronization
+        statement: >-
+          Mechanisms supporting and/or implementing system time
+          synchronization
     statement: >
-      the internal system clocks are compared {{ sc_45_01_odp_01 }} with
-      {{ sc_45_01_odp_02 }};
+      the internal system clocks are compared {{ sc_45_01_odp_01 }}
+      with {{ sc_45_01_odp_02 }};
   - id: b
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; procedures addressing time
-          synchronization; system design documentation; system configuration settings
-          and associated documentation; system audit records; system security plan;
-          other relevant documents or records
+          System and communications protection policy; procedures
+          addressing time synchronization; system design
+          documentation; system configuration settings and
+          associated documentation; system audit records; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; organizational personnel installing, configuring,
-          and/or maintaining the system
+          System/network administrators; organizational personnel
+          with information security responsibilities; organizational
+          personnel installing, configuring, and/or maintaining the
+          system
       - method: test
-        statement: Mechanisms supporting and/or implementing system time synchronization
+        statement: >-
+          Mechanisms supporting and/or implementing system time
+          synchronization
     statement: >
-      the internal system clocks are synchronized with the authoritative time
-      source when the time difference is greater than {{ sc_45_01_odp_03 }}.
+      the internal system clocks are synchronized with the
+      authoritative time source when the time difference is greater
+      than {{ sc_45_01_odp_03 }}.
 parameters:
   sc_45_01_odp_01:
     label: frequency
@@ -59,5 +68,6 @@ parts:
       {{ sc_45_01_odp_02 }} ; and
   - id: b
     statement: >
-      Synchronize the internal system clocks to the authoritative time source when
-      the time difference is greater than {{ sc_45_01_odp_03 }}.
+      Synchronize the internal system clocks to the authoritative
+      time source when the time difference is greater than
+      {{ sc_45_01_odp_03 }}.

@@ -10,5 +10,7 @@ rationale: functional
 relationship: equivalent-to
 review_status: draft
 source_ref: control--ogrl-ps-02
-summary: "Badge or lock enforcement at every entry and exit point satisfies PE-3(a)."
+summary: >-
+  Badge or lock enforcement at every entry and exit point satisfies
+  PE-3(a).
 target_ref: "requirement--nist-sp-800-53-r5-pe-3#a"

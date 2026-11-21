@@ -13,42 +13,47 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; procedures addressing security
-          function isolation; system design documentation; system configuration
-          settings and associated documentation; system audit records; system security
-          plan; other relevant documents or records
+          System and communications protection policy; procedures
+          addressing security function isolation; system design
+          documentation; system configuration settings and
+          associated documentation; system audit records; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities
+          System/network administrators; organizational personnel
+          with information security responsibilities
       - method: test
         statement: >
-          Organizational processes for maximizing internal cohesiveness within modules
-          and minimizing coupling between modules; mechanisms supporting and/or
-          implementing security functions as independent modules
+          Organizational processes for maximizing internal
+          cohesiveness within modules and minimizing coupling
+          between modules; mechanisms supporting and/or implementing
+          security functions as independent modules
     statement: >
-      security functions are implemented as largely independent modules that
-      maximize internal cohesiveness within modules;
+      security functions are implemented as largely independent
+      modules that maximize internal cohesiveness within modules;
   - id: "sc-03(04).sc-03(04)[02]"
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; procedures addressing security
-          function isolation; system design documentation; system configuration
-          settings and associated documentation; system audit records; system security
-          plan; other relevant documents or records
+          System and communications protection policy; procedures
+          addressing security function isolation; system design
+          documentation; system configuration settings and
+          associated documentation; system audit records; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities
+          System/network administrators; organizational personnel
+          with information security responsibilities
       - method: test
         statement: >
-          Organizational processes for maximizing internal cohesiveness within modules
-          and minimizing coupling between modules; mechanisms supporting and/or
-          implementing security functions as independent modules
+          Organizational processes for maximizing internal
+          cohesiveness within modules and minimizing coupling
+          between modules; mechanisms supporting and/or implementing
+          security functions as independent modules
     statement: >
-      security functions are implemented as largely independent modules that
-      minimize coupling between modules.
+      security functions are implemented as largely independent
+      modules that minimize coupling between modules.
 statement: >
-  Implement security functions as largely independent modules that maximize
-  internal cohesiveness within modules and minimize coupling between modules.
+  Implement security functions as largely independent modules that
+  maximize internal cohesiveness within modules and minimize
+  coupling between modules.

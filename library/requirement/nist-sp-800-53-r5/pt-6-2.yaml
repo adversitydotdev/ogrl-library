@@ -13,60 +13,74 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Personally identifiable information processing and transparency policy and
-          procedures; privacy notice; Privacy Act system of records; Privacy Act
-          exemptions; privacy plan; other relevant documents or records
+          Personally identifiable information processing and
+          transparency policy and procedures; privacy notice;
+          Privacy Act system of records; Privacy Act exemptions;
+          privacy plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with personally identifiable information processing
-          and transparency responsibilities; organizational personnel with information
-          security and privacy responsibilities
+          Organizational personnel with personally identifiable
+          information processing and transparency responsibilities;
+          organizational personnel with information security and
+          privacy responsibilities
       - method: test
-        statement: Organizational processes for Privacy Act system of records maintenance
+        statement: >-
+          Organizational processes for Privacy Act system of records
+          maintenance
     statement: >
-      all Privacy Act exemptions claimed for the system of records are reviewed
-      {{ pt_06_02_odp }} to ensure that they remain appropriate and necessary in
-      accordance with law;
+      all Privacy Act exemptions claimed for the system of records
+      are reviewed {{ pt_06_02_odp }} to ensure that they remain
+      appropriate and necessary in accordance with law;
   - id: "pt-06(02).pt-06(02)[02]"
     methods:
       - method: examine
         statement: >
-          Personally identifiable information processing and transparency policy and
-          procedures; privacy notice; Privacy Act system of records; Privacy Act
-          exemptions; privacy plan; other relevant documents or records
+          Personally identifiable information processing and
+          transparency policy and procedures; privacy notice;
+          Privacy Act system of records; Privacy Act exemptions;
+          privacy plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with personally identifiable information processing
-          and transparency responsibilities; organizational personnel with information
-          security and privacy responsibilities
+          Organizational personnel with personally identifiable
+          information processing and transparency responsibilities;
+          organizational personnel with information security and
+          privacy responsibilities
       - method: test
-        statement: Organizational processes for Privacy Act system of records maintenance
+        statement: >-
+          Organizational processes for Privacy Act system of records
+          maintenance
     statement: >
-      all Privacy Act exemptions claimed for the system of records are reviewed
-      {{ pt_06_02_odp }} to ensure that they have been promulgated as regulations;
+      all Privacy Act exemptions claimed for the system of records
+      are reviewed {{ pt_06_02_odp }} to ensure that they have been
+      promulgated as regulations;
   - id: "pt-06(02).pt-06(02)[03]"
     methods:
       - method: examine
         statement: >
-          Personally identifiable information processing and transparency policy and
-          procedures; privacy notice; Privacy Act system of records; Privacy Act
-          exemptions; privacy plan; other relevant documents or records
+          Personally identifiable information processing and
+          transparency policy and procedures; privacy notice;
+          Privacy Act system of records; Privacy Act exemptions;
+          privacy plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with personally identifiable information processing
-          and transparency responsibilities; organizational personnel with information
-          security and privacy responsibilities
+          Organizational personnel with personally identifiable
+          information processing and transparency responsibilities;
+          organizational personnel with information security and
+          privacy responsibilities
       - method: test
-        statement: Organizational processes for Privacy Act system of records maintenance
+        statement: >-
+          Organizational processes for Privacy Act system of records
+          maintenance
     statement: >
-      all Privacy Act exemptions claimed for the system of records are reviewed
-      {{ pt_06_02_odp }} to ensure that they are accurately described in the
-      system of records notice.
+      all Privacy Act exemptions claimed for the system of records
+      are reviewed {{ pt_06_02_odp }} to ensure that they are
+      accurately described in the system of records notice.
 parameters:
   pt_06_02_odp:
     label: frequency
 statement: >
-  Review all Privacy Act exemptions claimed for the system of records at
-  {{ pt_06_02_odp }} to ensure they remain appropriate and necessary in
-  accordance with law, that they have been promulgated as regulations, and
-  that they are accurately described in the system of records notice.
+  Review all Privacy Act exemptions claimed for the system of
+  records at {{ pt_06_02_odp }} to ensure they remain appropriate
+  and necessary in accordance with law, that they have been
+  promulgated as regulations, and that they are accurately described
+  in the system of records notice.

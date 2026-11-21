@@ -13,15 +13,19 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Audit and accountability policy; system security plan; privacy plan;
-          procedures addressing user session auditing; system design documentation;
-          system configuration settings and associated documentation; system audit
-          records; other relevant documents or records
+          Audit and accountability policy; system security plan;
+          privacy plan; procedures addressing user session auditing;
+          system design documentation; system configuration settings
+          and associated documentation; system audit records; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with information security and privacy
-          responsibilities; system/network administrators; system developers
+          Organizational personnel with information security and
+          privacy responsibilities; system/network administrators;
+          system developers
       - method: test
-        statement: Mechanisms implementing user session auditing capability
-    statement: session audits are initiated automatically at system start-up.
+        statement: >-
+          Mechanisms implementing user session auditing capability
+    statement: >-
+      session audits are initiated automatically at system start-up.
 statement: Initiate session audits automatically at system start-up.

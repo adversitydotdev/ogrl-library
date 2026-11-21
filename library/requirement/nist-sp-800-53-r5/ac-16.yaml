@@ -29,204 +29,241 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing the association of security and
-          privacy attributes to information in storage, in process, and in
-          transmission; system design documentation; system configuration settings and
-          associated documentation; system audit records; system security plan;
-          privacy plan; other relevant documents or records
+          Access control policy; procedures addressing the
+          association of security and privacy attributes to
+          information in storage, in process, and in transmission;
+          system design documentation; system configuration settings
+          and associated documentation; system audit records; system
+          security plan; privacy plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security and privacy responsibilities; system developers
+          System/network administrators; organizational personnel
+          with information security and privacy responsibilities;
+          system developers
       - method: test
         statement: >
-          Organizational capability supporting and maintaining the association of
-          security and privacy attributes to information in storage, in process, and
-          in transmission
+          Organizational capability supporting and maintaining the
+          association of security and privacy attributes to
+          information in storage, in process, and in transmission
     statement: >
-      the means to associate {{ ac_16_odp_01 }} with {{ ac_16_odp_03 }} for
-      information in storage, in process, and/or in transmission are provided;
+      the means to associate {{ ac_16_odp_01 }} with
+      {{ ac_16_odp_03 }} for information in storage, in process,
+      and/or in transmission are provided;
   - id: a-2
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing the association of security and
-          privacy attributes to information in storage, in process, and in
-          transmission; system design documentation; system configuration settings and
-          associated documentation; system audit records; system security plan;
-          privacy plan; other relevant documents or records
+          Access control policy; procedures addressing the
+          association of security and privacy attributes to
+          information in storage, in process, and in transmission;
+          system design documentation; system configuration settings
+          and associated documentation; system audit records; system
+          security plan; privacy plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security and privacy responsibilities; system developers
+          System/network administrators; organizational personnel
+          with information security and privacy responsibilities;
+          system developers
       - method: test
         statement: >
-          Organizational capability supporting and maintaining the association of
-          security and privacy attributes to information in storage, in process, and
-          in transmission
+          Organizational capability supporting and maintaining the
+          association of security and privacy attributes to
+          information in storage, in process, and in transmission
     statement: >
-      the means to associate {{ ac_16_odp_02 }} with {{ ac_16_odp_04 }} for
-      information in storage, in process, and/or in transmission are provided;
+      the means to associate {{ ac_16_odp_02 }} with
+      {{ ac_16_odp_04 }} for information in storage, in process,
+      and/or in transmission are provided;
   - id: b-1
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing the association of security and
-          privacy attributes to information in storage, in process, and in
-          transmission; system design documentation; system configuration settings and
-          associated documentation; system audit records; system security plan;
-          privacy plan; other relevant documents or records
+          Access control policy; procedures addressing the
+          association of security and privacy attributes to
+          information in storage, in process, and in transmission;
+          system design documentation; system configuration settings
+          and associated documentation; system audit records; system
+          security plan; privacy plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security and privacy responsibilities; system developers
+          System/network administrators; organizational personnel
+          with information security and privacy responsibilities;
+          system developers
       - method: test
         statement: >
-          Organizational capability supporting and maintaining the association of
-          security and privacy attributes to information in storage, in process, and
-          in transmission
+          Organizational capability supporting and maintaining the
+          association of security and privacy attributes to
+          information in storage, in process, and in transmission
     statement: attribute associations are made;
   - id: b-2
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing the association of security and
-          privacy attributes to information in storage, in process, and in
-          transmission; system design documentation; system configuration settings and
-          associated documentation; system audit records; system security plan;
-          privacy plan; other relevant documents or records
+          Access control policy; procedures addressing the
+          association of security and privacy attributes to
+          information in storage, in process, and in transmission;
+          system design documentation; system configuration settings
+          and associated documentation; system audit records; system
+          security plan; privacy plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security and privacy responsibilities; system developers
+          System/network administrators; organizational personnel
+          with information security and privacy responsibilities;
+          system developers
       - method: test
         statement: >
-          Organizational capability supporting and maintaining the association of
-          security and privacy attributes to information in storage, in process, and
-          in transmission
-    statement: attribute associations are retained with the information;
+          Organizational capability supporting and maintaining the
+          association of security and privacy attributes to
+          information in storage, in process, and in transmission
+    statement: >-
+      attribute associations are retained with the information;
   - id: c-1
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing the association of security and
-          privacy attributes to information in storage, in process, and in
-          transmission; system design documentation; system configuration settings and
-          associated documentation; system audit records; system security plan;
-          privacy plan; other relevant documents or records
+          Access control policy; procedures addressing the
+          association of security and privacy attributes to
+          information in storage, in process, and in transmission;
+          system design documentation; system configuration settings
+          and associated documentation; system audit records; system
+          security plan; privacy plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security and privacy responsibilities; system developers
+          System/network administrators; organizational personnel
+          with information security and privacy responsibilities;
+          system developers
       - method: test
         statement: >
-          Organizational capability supporting and maintaining the association of
-          security and privacy attributes to information in storage, in process, and
-          in transmission
+          Organizational capability supporting and maintaining the
+          association of security and privacy attributes to
+          information in storage, in process, and in transmission
     statement: >
-      the following permitted security attributes are established from the
-      attributes defined in AC-16_ODP[01] for {{ ac_16_odp_05 }}:
-      {{ ac_16_odp_07 }};
+      the following permitted security attributes are established
+      from the attributes defined in AC-16_ODP[01] for
+      {{ ac_16_odp_05 }}: {{ ac_16_odp_07 }};
   - id: c-2
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing the association of security and
-          privacy attributes to information in storage, in process, and in
-          transmission; system design documentation; system configuration settings and
-          associated documentation; system audit records; system security plan;
-          privacy plan; other relevant documents or records
+          Access control policy; procedures addressing the
+          association of security and privacy attributes to
+          information in storage, in process, and in transmission;
+          system design documentation; system configuration settings
+          and associated documentation; system audit records; system
+          security plan; privacy plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security and privacy responsibilities; system developers
+          System/network administrators; organizational personnel
+          with information security and privacy responsibilities;
+          system developers
       - method: test
         statement: >
-          Organizational capability supporting and maintaining the association of
-          security and privacy attributes to information in storage, in process, and
-          in transmission
+          Organizational capability supporting and maintaining the
+          association of security and privacy attributes to
+          information in storage, in process, and in transmission
     statement: >
-      the following permitted privacy attributes are established from the
-      attributes defined in AC-16_ODP[02] for {{ ac_16_odp_06 }}:
-      {{ ac_16_odp_08 }};
+      the following permitted privacy attributes are established
+      from the attributes defined in AC-16_ODP[02] for
+      {{ ac_16_odp_06 }}: {{ ac_16_odp_08 }};
   - id: d
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing the association of security and
-          privacy attributes to information in storage, in process, and in
-          transmission; system design documentation; system configuration settings and
-          associated documentation; system audit records; system security plan;
-          privacy plan; other relevant documents or records
+          Access control policy; procedures addressing the
+          association of security and privacy attributes to
+          information in storage, in process, and in transmission;
+          system design documentation; system configuration settings
+          and associated documentation; system audit records; system
+          security plan; privacy plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security and privacy responsibilities; system developers
+          System/network administrators; organizational personnel
+          with information security and privacy responsibilities;
+          system developers
       - method: test
         statement: >
-          Organizational capability supporting and maintaining the association of
-          security and privacy attributes to information in storage, in process, and
-          in transmission
+          Organizational capability supporting and maintaining the
+          association of security and privacy attributes to
+          information in storage, in process, and in transmission
     statement: >
-      the following permitted attribute values or ranges for each of the
-      established attributes are determined: {{ ac_16_odp_09 }};
+      the following permitted attribute values or ranges for each of
+      the established attributes are determined: {{ ac_16_odp_09 }};
   - id: e
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing the association of security and
-          privacy attributes to information in storage, in process, and in
-          transmission; system design documentation; system configuration settings and
-          associated documentation; system audit records; system security plan;
-          privacy plan; other relevant documents or records
+          Access control policy; procedures addressing the
+          association of security and privacy attributes to
+          information in storage, in process, and in transmission;
+          system design documentation; system configuration settings
+          and associated documentation; system audit records; system
+          security plan; privacy plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security and privacy responsibilities; system developers
+          System/network administrators; organizational personnel
+          with information security and privacy responsibilities;
+          system developers
       - method: test
         statement: >
-          Organizational capability supporting and maintaining the association of
-          security and privacy attributes to information in storage, in process, and
-          in transmission
+          Organizational capability supporting and maintaining the
+          association of security and privacy attributes to
+          information in storage, in process, and in transmission
     statement: changes to attributes are audited;
   - id: f-1
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing the association of security and
-          privacy attributes to information in storage, in process, and in
-          transmission; system design documentation; system configuration settings and
-          associated documentation; system audit records; system security plan;
-          privacy plan; other relevant documents or records
+          Access control policy; procedures addressing the
+          association of security and privacy attributes to
+          information in storage, in process, and in transmission;
+          system design documentation; system configuration settings
+          and associated documentation; system audit records; system
+          security plan; privacy plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security and privacy responsibilities; system developers
+          System/network administrators; organizational personnel
+          with information security and privacy responsibilities;
+          system developers
       - method: test
         statement: >
-          Organizational capability supporting and maintaining the association of
-          security and privacy attributes to information in storage, in process, and
-          in transmission
-    statement: "{{ ac_16_odp_07 }} are reviewed for applicability {{ ac_16_odp_10 }};"
+          Organizational capability supporting and maintaining the
+          association of security and privacy attributes to
+          information in storage, in process, and in transmission
+    statement: >-
+      {{ ac_16_odp_07 }} are reviewed for applicability
+      {{ ac_16_odp_10 }};
   - id: f-2
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing the association of security and
-          privacy attributes to information in storage, in process, and in
-          transmission; system design documentation; system configuration settings and
-          associated documentation; system audit records; system security plan;
-          privacy plan; other relevant documents or records
+          Access control policy; procedures addressing the
+          association of security and privacy attributes to
+          information in storage, in process, and in transmission;
+          system design documentation; system configuration settings
+          and associated documentation; system audit records; system
+          security plan; privacy plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security and privacy responsibilities; system developers
+          System/network administrators; organizational personnel
+          with information security and privacy responsibilities;
+          system developers
       - method: test
         statement: >
-          Organizational capability supporting and maintaining the association of
-          security and privacy attributes to information in storage, in process, and
-          in transmission
-    statement: "{{ ac_16_odp_08 }} are reviewed for applicability {{ ac_16_odp_11 }}."
+          Organizational capability supporting and maintaining the
+          association of security and privacy attributes to
+          information in storage, in process, and in transmission
+    statement: >-
+      {{ ac_16_odp_08 }} are reviewed for applicability
+      {{ ac_16_odp_11 }}.
 parameters:
   ac_16_odp_01:
     label: types of security attributes
@@ -251,9 +288,11 @@ parameters:
   ac_16_odp_11:
     label: frequency
   ac_16_prm_1:
-    label: organization-defined types of security and privacy attributes
+    label: >-
+      organization-defined types of security and privacy attributes
   ac_16_prm_2:
-    label: organization-defined security and privacy attribute values
+    label: >-
+      organization-defined security and privacy attribute values
   ac_16_prm_3:
     label: organization-defined systems
   ac_16_prm_4:
@@ -265,22 +304,25 @@ parameters:
 parts:
   - id: a
     statement: >
-      Provide the means to associate {{ ac_16_prm_1 }} with {{ ac_16_prm_2 }} for
-      information in storage, in process, and/or in transmission;
+      Provide the means to associate {{ ac_16_prm_1 }} with
+      {{ ac_16_prm_2 }} for information in storage, in process,
+      and/or in transmission;
   - id: b
     statement: >
-      Ensure that the attribute associations are made and retained with the
-      information;
+      Ensure that the attribute associations are made and retained
+      with the information;
   - id: c
     statement: >
-      Establish the following permitted security and privacy attributes from the
-      attributes defined in [AC-16a](#ac-16_smt.a) for {{ ac_16_prm_3 }}:
+      Establish the following permitted security and privacy
+      attributes from the attributes defined in
+      [AC-16a](#ac-16_smt.a) for {{ ac_16_prm_3 }}:
       {{ ac_16_prm_4 }};
   - id: d
     statement: >
-      Determine the following permitted attribute values or ranges for each of the
-      established attributes: {{ ac_16_odp_09 }};
+      Determine the following permitted attribute values or ranges
+      for each of the established attributes: {{ ac_16_odp_09 }};
   - id: e
     statement: Audit changes to attributes; and
   - id: f
-    statement: "Review {{ ac_16_prm_6 }} for applicability {{ ac_16_prm_7 }}."
+    statement: >-
+      Review {{ ac_16_prm_6 }} for applicability {{ ac_16_prm_7 }}.

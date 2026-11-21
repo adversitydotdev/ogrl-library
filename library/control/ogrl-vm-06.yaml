@@ -9,37 +9,41 @@ control_type: preventive
 family: vm
 frequency: continuous
 guidance: >
-  Combine MDM (for example Jamf, Intune, or Kandji) with identity-provider
-  device trust or conditional access so only compliant devices receive SSO
-  sessions. Use app protection policies or work profiles for personal mobile
-  devices. Evidence is the device compliance policy, the IdP
-  conditional-access rule, and a compliance report.
+  Combine MDM (for example Jamf, Intune, or Kandji) with
+  identity-provider device trust or conditional access so only
+  compliant devices receive SSO sessions. Use app protection
+  policies or work profiles for personal mobile devices. Evidence is
+  the device compliance policy, the IdP conditional-access rule, and
+  a compliance report.
 objective: >
-  Ensure company data is only accessed from devices that can protect it,
-  including outside the office.
+  Ensure company data is only accessed from devices that can protect
+  it, including outside the office.
 origin: standard
 parameters:
   device_management_platform:
     label: Device management platform
-    value: "the organization's mobile device management (MDM) platform"
+    value: >-
+      the organization's mobile device management (MDM) platform
   device_revocation_sla:
     label: Lost device revocation SLA
     value: "24 hours"
   device_security_requirements:
     label: Device security requirements
     value: >
-      full-disk encryption, screen lock after 15 minutes or less, a supported OS
-      with automatic updates, and remote-wipe capability
+      full-disk encryption, screen lock after 15 minutes or less, a
+      supported OS with automatic updates, and remote-wipe
+      capability
 statement: >
-  Permit access to organizational systems and data only from laptops and
-  mobile devices enrolled in {{ device_management_platform }} that meet
-  {{ device_security_requirements }}, enforce compliance with device-posture
-  checks at sign-on, and block access from non-compliant devices and revoke
-  access and remotely wipe company data on lost or stolen devices within
-  {{ device_revocation_sla }} of report.
+  Permit access to organizational systems and data only from laptops
+  and mobile devices enrolled in {{ device_management_platform }}
+  that meet {{ device_security_requirements }}, enforce compliance
+  with device-posture checks at sign-on, and block access from
+  non-compliant devices and revoke access and remotely wipe company
+  data on lost or stolen devices within {{ device_revocation_sla }}
+  of report.
 summary: >
-  Allow access to company systems only from managed devices that meet defined
-  security requirements.
+  Allow access to company systems only from managed devices that
+  meet defined security requirements.
 tags:
   - endpoint-security
   - mobile-devices

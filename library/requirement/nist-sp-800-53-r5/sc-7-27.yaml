@@ -13,28 +13,32 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; procedures addressing boundary
-          protection; system design documentation; system hardware and software;
-          system architecture; system configuration settings and associated
-          documentation; system audit records; system security plan; other relevant
-          documents or records
+          System and communications protection policy; procedures
+          addressing boundary protection; system design
+          documentation; system hardware and software; system
+          architecture; system configuration settings and associated
+          documentation; system audit records; system security plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; system developer; organizational personnel with
-          boundary protection responsibilities
+          System/network administrators; organizational personnel
+          with information security responsibilities; system
+          developer; organizational personnel with boundary
+          protection responsibilities
       - method: test
         statement: >
-          Mechanisms prohibiting the direct connection of unclassified, non-national
-          security systems to an external network
+          Mechanisms prohibiting the direct connection of
+          unclassified, non-national security systems to an external
+          network
     statement: >
-      the direct connection of {{ sc_07_27_odp_01 }} to an external network
-      without the use of a {{ sc_07_27_odp_02 }} is prohibited.
+      the direct connection of {{ sc_07_27_odp_01 }} to an external
+      network without the use of a {{ sc_07_27_odp_02 }} is
+      prohibited.
 parameters:
   sc_07_27_odp_01:
     label: "unclassified, non-national security system"
   sc_07_27_odp_02:
     label: boundary protection device
 statement: >
-  Prohibit the direct connection of {{ sc_07_27_odp_01 }} to an external
-  network without the use of {{ sc_07_27_odp_02 }}.
+  Prohibit the direct connection of {{ sc_07_27_odp_01 }} to an
+  external network without the use of {{ sc_07_27_odp_02 }}.

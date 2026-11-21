@@ -29,124 +29,156 @@ objectives:
     methods:
       - method: examine
         statement: >
-          system and communications protection policy and procedures; procedures for
-          boundary protection; list of key internal boundaries within the system;
-          boundary protection hardware and software; system configuration settings;
-          security architecture; system audit records; system design documentation;
-          system security plan; other relevant documents or records
+          system and communications protection policy and
+          procedures; procedures for boundary protection; list of
+          key internal boundaries within the system; boundary
+          protection hardware and software; system configuration
+          settings; security architecture; system audit records;
+          system design documentation; system security plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          personnel with boundary protection responsibilities; personnel with
-          information security responsibilities; system developers; system
-          administrators
+          personnel with boundary protection responsibilities;
+          personnel with information security responsibilities;
+          system developers; system administrators
       - method: test
-        statement: mechanisms for implementing boundary protection capabilities
-    statement: communications at external managed interfaces to the system are monitored.
+        statement: >-
+          mechanisms for implementing boundary protection
+          capabilities
+    statement: >-
+      communications at external managed interfaces to the system
+      are monitored.
   - id: a.02
     methods:
       - method: examine
         statement: >
-          system and communications protection policy and procedures; procedures for
-          boundary protection; list of key internal boundaries within the system;
-          boundary protection hardware and software; system configuration settings;
-          security architecture; system audit records; system design documentation;
-          system security plan; other relevant documents or records
+          system and communications protection policy and
+          procedures; procedures for boundary protection; list of
+          key internal boundaries within the system; boundary
+          protection hardware and software; system configuration
+          settings; security architecture; system audit records;
+          system design documentation; system security plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          personnel with boundary protection responsibilities; personnel with
-          information security responsibilities; system developers; system
-          administrators
+          personnel with boundary protection responsibilities;
+          personnel with information security responsibilities;
+          system developers; system administrators
       - method: test
-        statement: mechanisms for implementing boundary protection capabilities
-    statement: communications at external managed interfaces to the system are controlled.
+        statement: >-
+          mechanisms for implementing boundary protection
+          capabilities
+    statement: >-
+      communications at external managed interfaces to the system
+      are controlled.
   - id: a.03
     methods:
       - method: examine
         statement: >
-          system and communications protection policy and procedures; procedures for
-          boundary protection; list of key internal boundaries within the system;
-          boundary protection hardware and software; system configuration settings;
-          security architecture; system audit records; system design documentation;
-          system security plan; other relevant documents or records
+          system and communications protection policy and
+          procedures; procedures for boundary protection; list of
+          key internal boundaries within the system; boundary
+          protection hardware and software; system configuration
+          settings; security architecture; system audit records;
+          system design documentation; system security plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          personnel with boundary protection responsibilities; personnel with
-          information security responsibilities; system developers; system
-          administrators
+          personnel with boundary protection responsibilities;
+          personnel with information security responsibilities;
+          system developers; system administrators
       - method: test
-        statement: mechanisms for implementing boundary protection capabilities
+        statement: >-
+          mechanisms for implementing boundary protection
+          capabilities
     statement: >
-      communications at key internal managed interfaces within the system are
-      monitored.
+      communications at key internal managed interfaces within the
+      system are monitored.
   - id: a.04
     methods:
       - method: examine
         statement: >
-          system and communications protection policy and procedures; procedures for
-          boundary protection; list of key internal boundaries within the system;
-          boundary protection hardware and software; system configuration settings;
-          security architecture; system audit records; system design documentation;
-          system security plan; other relevant documents or records
+          system and communications protection policy and
+          procedures; procedures for boundary protection; list of
+          key internal boundaries within the system; boundary
+          protection hardware and software; system configuration
+          settings; security architecture; system audit records;
+          system design documentation; system security plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          personnel with boundary protection responsibilities; personnel with
-          information security responsibilities; system developers; system
-          administrators
+          personnel with boundary protection responsibilities;
+          personnel with information security responsibilities;
+          system developers; system administrators
       - method: test
-        statement: mechanisms for implementing boundary protection capabilities
+        statement: >-
+          mechanisms for implementing boundary protection
+          capabilities
     statement: >
-      communications at key internal managed interfaces within the system are
-      controlled.
+      communications at key internal managed interfaces within the
+      system are controlled.
   - id: b
     methods:
       - method: examine
         statement: >
-          system and communications protection policy and procedures; procedures for
-          boundary protection; list of key internal boundaries within the system;
-          boundary protection hardware and software; system configuration settings;
-          security architecture; system audit records; system design documentation;
-          system security plan; other relevant documents or records
+          system and communications protection policy and
+          procedures; procedures for boundary protection; list of
+          key internal boundaries within the system; boundary
+          protection hardware and software; system configuration
+          settings; security architecture; system audit records;
+          system design documentation; system security plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          personnel with boundary protection responsibilities; personnel with
-          information security responsibilities; system developers; system
-          administrators
+          personnel with boundary protection responsibilities;
+          personnel with information security responsibilities;
+          system developers; system administrators
       - method: test
-        statement: mechanisms for implementing boundary protection capabilities
+        statement: >-
+          mechanisms for implementing boundary protection
+          capabilities
     statement: >
-      subnetworks are implemented for publicly accessible system components that
-      are physically or logically separated from internal networks.
+      subnetworks are implemented for publicly accessible system
+      components that are physically or logically separated from
+      internal networks.
   - id: c
     methods:
       - method: examine
         statement: >
-          system and communications protection policy and procedures; procedures for
-          boundary protection; list of key internal boundaries within the system;
-          boundary protection hardware and software; system configuration settings;
-          security architecture; system audit records; system design documentation;
-          system security plan; other relevant documents or records
+          system and communications protection policy and
+          procedures; procedures for boundary protection; list of
+          key internal boundaries within the system; boundary
+          protection hardware and software; system configuration
+          settings; security architecture; system audit records;
+          system design documentation; system security plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          personnel with boundary protection responsibilities; personnel with
-          information security responsibilities; system developers; system
-          administrators
+          personnel with boundary protection responsibilities;
+          personnel with information security responsibilities;
+          system developers; system administrators
       - method: test
-        statement: mechanisms for implementing boundary protection capabilities
+        statement: >-
+          mechanisms for implementing boundary protection
+          capabilities
     statement: >
-      external system connections are only made through managed interfaces that
-      consist of boundary protection devices arranged in accordance with an
-      organizational security architecture.
+      external system connections are only made through managed
+      interfaces that consist of boundary protection devices
+      arranged in accordance with an organizational security
+      architecture.
 parts:
   - id: a
     statement: >
-      Monitor and control communications at external managed interfaces to the
-      system and key internal managed interfaces within the system.
+      Monitor and control communications at external managed
+      interfaces to the system and key internal managed interfaces
+      within the system.
   - id: b
     statement: >
-      Implement subnetworks for publicly accessible system components that are
-      physically or logically separated from internal networks.
+      Implement subnetworks for publicly accessible system
+      components that are physically or logically separated from
+      internal networks.
   - id: c
     statement: >
-      Connect to external systems only through managed interfaces that consist of
-      boundary protection devices arranged in accordance with an organizational
-      security architecture.
+      Connect to external systems only through managed interfaces
+      that consist of boundary protection devices arranged in
+      accordance with an organizational security architecture.

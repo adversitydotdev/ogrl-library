@@ -6,8 +6,9 @@ modified: "2026-11-20T00:00:00Z"
 name: Verify Branch Protection and Peer-Reviewed Deployments
 control_ref: control--ogrl-cm-01
 description: >
-  Confirm production repositories enforce required independent pull-request
-  reviews and passing CI status checks with no bypassed merges.
+  Confirm production repositories enforce required independent
+  pull-request reviews and passing CI status checks with no bypassed
+  merges.
 interval: daily
 method: automated
 objective_refs:

@@ -13,25 +13,30 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Risk assessment policy; procedures addressing vulnerability scanning; system
-          design documentation; vulnerability scanning tools and techniques
-          documentation; vulnerability scanning results; system security plan; other
-          relevant documents or records
+          Risk assessment policy; procedures addressing
+          vulnerability scanning; system design documentation;
+          vulnerability scanning tools and techniques documentation;
+          vulnerability scanning results; system security plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with vulnerability scanning responsibilities;
-          organizational personnel with vulnerability scan analysis responsibilities;
+          Organizational personnel with vulnerability scanning
+          responsibilities; organizational personnel with
+          vulnerability scan analysis responsibilities;
           organizational personnel with security responsibilities
       - method: test
         statement: >
-          Organizational processes for vulnerability scanning; automated
-          mechanisms/tools supporting and/or implementing vulnerability scanning;
-          automated mechanisms supporting and/or implementing trend analysis of
-          vulnerability scan results
+          Organizational processes for vulnerability scanning;
+          automated mechanisms/tools supporting and/or implementing
+          vulnerability scanning; automated mechanisms supporting
+          and/or implementing trend analysis of vulnerability scan
+          results
     statement: >
       the results of multiple vulnerability scans are compared using
       {{ ra_05_06_odp }}.
 parameters:
   ra_05_06_odp:
     label: automated mechanisms
-statement: "Compare the results of multiple vulnerability scans using {{ ra_05_06_odp }}."
+statement: >-
+  Compare the results of multiple vulnerability scans using
+  {{ ra_05_06_odp }}.

@@ -13,46 +13,54 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Configuration management policy; procedures addressing system component
-          inventory; configuration management plan; system security plan; system
-          design documentation; system component inventory; change control records;
-          acknowledgements of system component assignments; system security plan;
-          other relevant documents or records
+          Configuration management policy; procedures addressing
+          system component inventory; configuration management plan;
+          system security plan; system design documentation; system
+          component inventory; change control records;
+          acknowledgements of system component assignments; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with component inventory management
-          responsibilities; system owner; organizational personnel with information
-          security responsibilities; system/network administrators
+          Organizational personnel with component inventory
+          management responsibilities; system owner; organizational
+          personnel with information security responsibilities;
+          system/network administrators
       - method: test
         statement: >
-          Organizational processes for assigning components to systems; organizational
-          processes for acknowledging assignment of components to systems; mechanisms
-          implementing assignment of components to the system; mechanisms implementing
-          acknowledgment of assignment of components to the system
+          Organizational processes for assigning components to
+          systems; organizational processes for acknowledging
+          assignment of components to systems; mechanisms
+          implementing assignment of components to the system;
+          mechanisms implementing acknowledgment of assignment of
+          components to the system
     statement: system components are assigned to a system;
   - id: b
     methods:
       - method: examine
         statement: >
-          Configuration management policy; procedures addressing system component
-          inventory; configuration management plan; system security plan; system
-          design documentation; system component inventory; change control records;
-          acknowledgements of system component assignments; system security plan;
-          other relevant documents or records
+          Configuration management policy; procedures addressing
+          system component inventory; configuration management plan;
+          system security plan; system design documentation; system
+          component inventory; change control records;
+          acknowledgements of system component assignments; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with component inventory management
-          responsibilities; system owner; organizational personnel with information
-          security responsibilities; system/network administrators
+          Organizational personnel with component inventory
+          management responsibilities; system owner; organizational
+          personnel with information security responsibilities;
+          system/network administrators
       - method: test
         statement: >
-          Organizational processes for assigning components to systems; organizational
-          processes for acknowledging assignment of components to systems; mechanisms
-          implementing assignment of components to the system; mechanisms implementing
-          acknowledgment of assignment of components to the system
+          Organizational processes for assigning components to
+          systems; organizational processes for acknowledging
+          assignment of components to systems; mechanisms
+          implementing assignment of components to the system;
+          mechanisms implementing acknowledgment of assignment of
+          components to the system
     statement: >
-      an acknowledgement of the component assignment is received from
-      {{ cm_08_09_odp }}.
+      an acknowledgement of the component assignment is received
+      from {{ cm_08_09_odp }}.
 parameters:
   cm_08_09_odp:
     label: personnel or roles
@@ -60,4 +68,6 @@ parts:
   - id: a
     statement: Assign system components to a system; and
   - id: b
-    statement: "Receive an acknowledgement from {{ cm_08_09_odp }} of this assignment."
+    statement: >-
+      Receive an acknowledgement from {{ cm_08_09_odp }} of this
+      assignment.

@@ -13,22 +13,24 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; procedures addressing session
-          authenticity; system design documentation; system configuration settings and
-          associated documentation; list of certificate authorities allowed for
-          verification of the establishment of protected sessions; system audit
-          records; system security plan; other relevant documents or records
+          System and communications protection policy; procedures
+          addressing session authenticity; system design
+          documentation; system configuration settings and
+          associated documentation; list of certificate authorities
+          allowed for verification of the establishment of protected
+          sessions; system audit records; system security plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities
+          System/network administrators; organizational personnel
+          with information security responsibilities
       - method: test
         statement: >
-          Mechanisms supporting and/or implementing the management of certificate
-          authorities
+          Mechanisms supporting and/or implementing the management
+          of certificate authorities
     statement: >
-      only the use of {{ sc_23_05_odp }} for verification of the establishment of
-      protected sessions is allowed.
+      only the use of {{ sc_23_05_odp }} for verification of the
+      establishment of protected sessions is allowed.
 parameters:
   sc_23_05_odp:
     label: certificated authorities

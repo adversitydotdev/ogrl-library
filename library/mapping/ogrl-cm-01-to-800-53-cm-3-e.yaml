@@ -11,6 +11,6 @@ relationship: equivalent-to
 review_status: reviewed
 source_ref: control--ogrl-cm-01
 summary: >
-  Retaining pull-request review and deployment audit trails satisfies NIST
-  CM-3(e).
+  Retaining pull-request review and deployment audit trails
+  satisfies NIST CM-3(e).
 target_ref: "requirement--nist-sp-800-53-r5-cm-3#e"

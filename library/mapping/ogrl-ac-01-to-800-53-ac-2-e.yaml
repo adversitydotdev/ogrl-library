@@ -10,5 +10,6 @@ rationale: functional
 relationship: equivalent-to
 review_status: reviewed
 source_ref: control--ogrl-ac-01
-summary: "Pre-provisioning account approval directly satisfies NIST AC-2(e)."
+summary: >-
+  Pre-provisioning account approval directly satisfies NIST AC-2(e).
 target_ref: "requirement--nist-sp-800-53-r5-ac-2#e"

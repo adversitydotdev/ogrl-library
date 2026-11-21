@@ -13,41 +13,49 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; procedures addressing non-persistence for system components;
-          system design documentation; system configuration settings and associated
-          documentation; system audit records; system security plan; other relevant
-          documents or records
+          System and information integrity policy; system and
+          information integrity procedures; procedures addressing
+          non-persistence for system components; system design
+          documentation; system configuration settings and
+          associated documentation; system audit records; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel responsible for limiting persistent connections;
-          organizational personnel with information security responsibilities
+          Organizational personnel responsible for limiting
+          persistent connections; organizational personnel with
+          information security responsibilities
       - method: test
         statement: >
-          Organizational processes for limiting persistent connections; automated
-          mechanisms supporting and/or implementing non-persistent connectivity
+          Organizational processes for limiting persistent
+          connections; automated mechanisms supporting and/or
+          implementing non-persistent connectivity
     statement: connections to the system are established on demand;
   - id: "si-14(03).si-14(03)[02]"
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; procedures addressing non-persistence for system components;
-          system design documentation; system configuration settings and associated
-          documentation; system audit records; system security plan; other relevant
-          documents or records
+          System and information integrity policy; system and
+          information integrity procedures; procedures addressing
+          non-persistence for system components; system design
+          documentation; system configuration settings and
+          associated documentation; system audit records; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel responsible for limiting persistent connections;
-          organizational personnel with information security responsibilities
+          Organizational personnel responsible for limiting
+          persistent connections; organizational personnel with
+          information security responsibilities
       - method: test
         statement: >
-          Organizational processes for limiting persistent connections; automated
-          mechanisms supporting and/or implementing non-persistent connectivity
-    statement: "connections to the system are terminated after {{ si_14_03_odp }}."
+          Organizational processes for limiting persistent
+          connections; automated mechanisms supporting and/or
+          implementing non-persistent connectivity
+    statement: >-
+      connections to the system are terminated after
+      {{ si_14_03_odp }}.
 parameters:
   si_14_03_odp:
     label: si-14.03_odp
 statement: >
-  Establish connections to the system on demand and terminate connections
-  after {{ si_14_03_odp }}.
+  Establish connections to the system on demand and terminate
+  connections after {{ si_14_03_odp }}.

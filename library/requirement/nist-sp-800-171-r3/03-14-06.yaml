@@ -32,150 +32,189 @@ objectives:
     methods:
       - method: examine
         statement: >
-          system and information integrity policy and procedures; procedures for
-          system monitoring tools and techniques; continuous monitoring strategy;
-          facility diagram or layout; system design documentation; locations within
-          the system where monitoring devices are deployed; system configuration
-          settings; system protocols; system audit records; system security plan;
-          other relevant documents or records
+          system and information integrity policy and procedures;
+          procedures for system monitoring tools and techniques;
+          continuous monitoring strategy; facility diagram or
+          layout; system design documentation; locations within the
+          system where monitoring devices are deployed; system
+          configuration settings; system protocols; system audit
+          records; system security plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          personnel with responsibilities for installing, configuring, or maintaining
-          the system; personnel with system monitoring responsibilities; personnel
-          with intrusion detection responsibilities; personnel with information
-          security responsibilities; system administrators
+          personnel with responsibilities for installing,
+          configuring, or maintaining the system; personnel with
+          system monitoring responsibilities; personnel with
+          intrusion detection responsibilities; personnel with
+          information security responsibilities; system
+          administrators
       - method: test
         statement: >
-          processes for intrusion detection and system monitoring; mechanisms for
-          supporting or implementing system monitoring capabilities; mechanisms for
-          supporting or implementing intrusion detection and system monitoring
-          capabilities; mechanisms for supporting or implementing the monitoring of
-          inbound and outbound communications traffic
+          processes for intrusion detection and system monitoring;
+          mechanisms for supporting or implementing system
+          monitoring capabilities; mechanisms for supporting or
+          implementing intrusion detection and system monitoring
+          capabilities; mechanisms for supporting or implementing
+          the monitoring of inbound and outbound communications
+          traffic
     statement: the system is monitored to detect attacks.
   - id: a.01.02
     methods:
       - method: examine
         statement: >
-          system and information integrity policy and procedures; procedures for
-          system monitoring tools and techniques; continuous monitoring strategy;
-          facility diagram or layout; system design documentation; locations within
-          the system where monitoring devices are deployed; system configuration
-          settings; system protocols; system audit records; system security plan;
-          other relevant documents or records
+          system and information integrity policy and procedures;
+          procedures for system monitoring tools and techniques;
+          continuous monitoring strategy; facility diagram or
+          layout; system design documentation; locations within the
+          system where monitoring devices are deployed; system
+          configuration settings; system protocols; system audit
+          records; system security plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          personnel with responsibilities for installing, configuring, or maintaining
-          the system; personnel with system monitoring responsibilities; personnel
-          with intrusion detection responsibilities; personnel with information
-          security responsibilities; system administrators
+          personnel with responsibilities for installing,
+          configuring, or maintaining the system; personnel with
+          system monitoring responsibilities; personnel with
+          intrusion detection responsibilities; personnel with
+          information security responsibilities; system
+          administrators
       - method: test
         statement: >
-          processes for intrusion detection and system monitoring; mechanisms for
-          supporting or implementing system monitoring capabilities; mechanisms for
-          supporting or implementing intrusion detection and system monitoring
-          capabilities; mechanisms for supporting or implementing the monitoring of
-          inbound and outbound communications traffic
-    statement: the system is monitored to detect indicators of potential attacks.
+          processes for intrusion detection and system monitoring;
+          mechanisms for supporting or implementing system
+          monitoring capabilities; mechanisms for supporting or
+          implementing intrusion detection and system monitoring
+          capabilities; mechanisms for supporting or implementing
+          the monitoring of inbound and outbound communications
+          traffic
+    statement: >-
+      the system is monitored to detect indicators of potential
+      attacks.
   - id: a.02
     methods:
       - method: examine
         statement: >
-          system and information integrity policy and procedures; procedures for
-          system monitoring tools and techniques; continuous monitoring strategy;
-          facility diagram or layout; system design documentation; locations within
-          the system where monitoring devices are deployed; system configuration
-          settings; system protocols; system audit records; system security plan;
-          other relevant documents or records
+          system and information integrity policy and procedures;
+          procedures for system monitoring tools and techniques;
+          continuous monitoring strategy; facility diagram or
+          layout; system design documentation; locations within the
+          system where monitoring devices are deployed; system
+          configuration settings; system protocols; system audit
+          records; system security plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          personnel with responsibilities for installing, configuring, or maintaining
-          the system; personnel with system monitoring responsibilities; personnel
-          with intrusion detection responsibilities; personnel with information
-          security responsibilities; system administrators
+          personnel with responsibilities for installing,
+          configuring, or maintaining the system; personnel with
+          system monitoring responsibilities; personnel with
+          intrusion detection responsibilities; personnel with
+          information security responsibilities; system
+          administrators
       - method: test
         statement: >
-          processes for intrusion detection and system monitoring; mechanisms for
-          supporting or implementing system monitoring capabilities; mechanisms for
-          supporting or implementing intrusion detection and system monitoring
-          capabilities; mechanisms for supporting or implementing the monitoring of
-          inbound and outbound communications traffic
-    statement: the system is monitored to detect unauthorized connections.
+          processes for intrusion detection and system monitoring;
+          mechanisms for supporting or implementing system
+          monitoring capabilities; mechanisms for supporting or
+          implementing intrusion detection and system monitoring
+          capabilities; mechanisms for supporting or implementing
+          the monitoring of inbound and outbound communications
+          traffic
+    statement: >-
+      the system is monitored to detect unauthorized connections.
   - id: b
     methods:
       - method: examine
         statement: >
-          system and information integrity policy and procedures; procedures for
-          system monitoring tools and techniques; continuous monitoring strategy;
-          facility diagram or layout; system design documentation; locations within
-          the system where monitoring devices are deployed; system configuration
-          settings; system protocols; system audit records; system security plan;
-          other relevant documents or records
+          system and information integrity policy and procedures;
+          procedures for system monitoring tools and techniques;
+          continuous monitoring strategy; facility diagram or
+          layout; system design documentation; locations within the
+          system where monitoring devices are deployed; system
+          configuration settings; system protocols; system audit
+          records; system security plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          personnel with responsibilities for installing, configuring, or maintaining
-          the system; personnel with system monitoring responsibilities; personnel
-          with intrusion detection responsibilities; personnel with information
-          security responsibilities; system administrators
+          personnel with responsibilities for installing,
+          configuring, or maintaining the system; personnel with
+          system monitoring responsibilities; personnel with
+          intrusion detection responsibilities; personnel with
+          information security responsibilities; system
+          administrators
       - method: test
         statement: >
-          processes for intrusion detection and system monitoring; mechanisms for
-          supporting or implementing system monitoring capabilities; mechanisms for
-          supporting or implementing intrusion detection and system monitoring
-          capabilities; mechanisms for supporting or implementing the monitoring of
-          inbound and outbound communications traffic
+          processes for intrusion detection and system monitoring;
+          mechanisms for supporting or implementing system
+          monitoring capabilities; mechanisms for supporting or
+          implementing intrusion detection and system monitoring
+          capabilities; mechanisms for supporting or implementing
+          the monitoring of inbound and outbound communications
+          traffic
     statement: unauthorized use of the system is identified.
   - id: c.01
     methods:
       - method: examine
         statement: >
-          system and information integrity policy and procedures; procedures for
-          system monitoring tools and techniques; continuous monitoring strategy;
-          facility diagram or layout; system design documentation; locations within
-          the system where monitoring devices are deployed; system configuration
-          settings; system protocols; system audit records; system security plan;
-          other relevant documents or records
+          system and information integrity policy and procedures;
+          procedures for system monitoring tools and techniques;
+          continuous monitoring strategy; facility diagram or
+          layout; system design documentation; locations within the
+          system where monitoring devices are deployed; system
+          configuration settings; system protocols; system audit
+          records; system security plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          personnel with responsibilities for installing, configuring, or maintaining
-          the system; personnel with system monitoring responsibilities; personnel
-          with intrusion detection responsibilities; personnel with information
-          security responsibilities; system administrators
+          personnel with responsibilities for installing,
+          configuring, or maintaining the system; personnel with
+          system monitoring responsibilities; personnel with
+          intrusion detection responsibilities; personnel with
+          information security responsibilities; system
+          administrators
       - method: test
         statement: >
-          processes for intrusion detection and system monitoring; mechanisms for
-          supporting or implementing system monitoring capabilities; mechanisms for
-          supporting or implementing intrusion detection and system monitoring
-          capabilities; mechanisms for supporting or implementing the monitoring of
-          inbound and outbound communications traffic
+          processes for intrusion detection and system monitoring;
+          mechanisms for supporting or implementing system
+          monitoring capabilities; mechanisms for supporting or
+          implementing intrusion detection and system monitoring
+          capabilities; mechanisms for supporting or implementing
+          the monitoring of inbound and outbound communications
+          traffic
     statement: >
-      inbound communications traffic is monitored to detect unusual or
-      unauthorized activities or conditions.
+      inbound communications traffic is monitored to detect unusual
+      or unauthorized activities or conditions.
   - id: c.02
     methods:
       - method: examine
         statement: >
-          system and information integrity policy and procedures; procedures for
-          system monitoring tools and techniques; continuous monitoring strategy;
-          facility diagram or layout; system design documentation; locations within
-          the system where monitoring devices are deployed; system configuration
-          settings; system protocols; system audit records; system security plan;
-          other relevant documents or records
+          system and information integrity policy and procedures;
+          procedures for system monitoring tools and techniques;
+          continuous monitoring strategy; facility diagram or
+          layout; system design documentation; locations within the
+          system where monitoring devices are deployed; system
+          configuration settings; system protocols; system audit
+          records; system security plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          personnel with responsibilities for installing, configuring, or maintaining
-          the system; personnel with system monitoring responsibilities; personnel
-          with intrusion detection responsibilities; personnel with information
-          security responsibilities; system administrators
+          personnel with responsibilities for installing,
+          configuring, or maintaining the system; personnel with
+          system monitoring responsibilities; personnel with
+          intrusion detection responsibilities; personnel with
+          information security responsibilities; system
+          administrators
       - method: test
         statement: >
-          processes for intrusion detection and system monitoring; mechanisms for
-          supporting or implementing system monitoring capabilities; mechanisms for
-          supporting or implementing intrusion detection and system monitoring
-          capabilities; mechanisms for supporting or implementing the monitoring of
-          inbound and outbound communications traffic
+          processes for intrusion detection and system monitoring;
+          mechanisms for supporting or implementing system
+          monitoring capabilities; mechanisms for supporting or
+          implementing intrusion detection and system monitoring
+          capabilities; mechanisms for supporting or implementing
+          the monitoring of inbound and outbound communications
+          traffic
     statement: >
-      outbound communications traffic is monitored to detect unusual or
-      unauthorized activities or conditions.
+      outbound communications traffic is monitored to detect unusual
+      or unauthorized activities or conditions.
 parts:
   - id: a
     statement: "Monitor the system to detect:"
@@ -187,5 +226,5 @@ parts:
     statement: Identify unauthorized use of the system.
   - id: c
     statement: >
-      Monitor inbound and outbound communications traffic to detect unusual or
-      unauthorized activities or conditions.
+      Monitor inbound and outbound communications traffic to detect
+      unusual or unauthorized activities or conditions.

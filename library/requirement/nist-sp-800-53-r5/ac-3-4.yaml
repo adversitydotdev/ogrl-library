@@ -13,149 +13,189 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Access control policy; discretionary access control policies; procedures
-          addressing access enforcement; system design documentation; system
-          configuration settings and associated documentation; list of subjects and
-          objects (i.e., users and resources) requiring enforcement of discretionary
-          access control policies; system audit records; system security plan; other
-          relevant documents or records
+          Access control policy; discretionary access control
+          policies; procedures addressing access enforcement; system
+          design documentation; system configuration settings and
+          associated documentation; list of subjects and objects
+          (i.e., users and resources) requiring enforcement of
+          discretionary access control policies; system audit
+          records; system security plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          Organizational personnel with access enforcement responsibilities;
-          system/network administrators; organizational personnel with information
-          security responsibilities; system developers
+          Organizational personnel with access enforcement
+          responsibilities; system/network administrators;
+          organizational personnel with information security
+          responsibilities; system developers
       - method: test
-        statement: Mechanisms implementing discretionary access control policy
+        statement: >-
+          Mechanisms implementing discretionary access control
+          policy
     statement: >
-      {{ ac_03_04_odp_01 }} is enforced over the set of covered subjects specified
-      in the policy;
+      {{ ac_03_04_odp_01 }} is enforced over the set of covered
+      subjects specified in the policy;
   - id: "ac-03(04).ac-03(04)[02]"
     methods:
       - method: examine
         statement: >
-          Access control policy; discretionary access control policies; procedures
-          addressing access enforcement; system design documentation; system
-          configuration settings and associated documentation; list of subjects and
-          objects (i.e., users and resources) requiring enforcement of discretionary
-          access control policies; system audit records; system security plan; other
-          relevant documents or records
+          Access control policy; discretionary access control
+          policies; procedures addressing access enforcement; system
+          design documentation; system configuration settings and
+          associated documentation; list of subjects and objects
+          (i.e., users and resources) requiring enforcement of
+          discretionary access control policies; system audit
+          records; system security plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          Organizational personnel with access enforcement responsibilities;
-          system/network administrators; organizational personnel with information
-          security responsibilities; system developers
+          Organizational personnel with access enforcement
+          responsibilities; system/network administrators;
+          organizational personnel with information security
+          responsibilities; system developers
       - method: test
-        statement: Mechanisms implementing discretionary access control policy
+        statement: >-
+          Mechanisms implementing discretionary access control
+          policy
     statement: >
-      {{ ac_03_04_odp_02 }} is enforced over the set of covered objects specified
-      in the policy;
+      {{ ac_03_04_odp_02 }} is enforced over the set of covered
+      objects specified in the policy;
   - id: a
     methods:
       - method: examine
         statement: >
-          Access control policy; discretionary access control policies; procedures
-          addressing access enforcement; system design documentation; system
-          configuration settings and associated documentation; list of subjects and
-          objects (i.e., users and resources) requiring enforcement of discretionary
-          access control policies; system audit records; system security plan; other
-          relevant documents or records
+          Access control policy; discretionary access control
+          policies; procedures addressing access enforcement; system
+          design documentation; system configuration settings and
+          associated documentation; list of subjects and objects
+          (i.e., users and resources) requiring enforcement of
+          discretionary access control policies; system audit
+          records; system security plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          Organizational personnel with access enforcement responsibilities;
-          system/network administrators; organizational personnel with information
-          security responsibilities; system developers
+          Organizational personnel with access enforcement
+          responsibilities; system/network administrators;
+          organizational personnel with information security
+          responsibilities; system developers
       - method: test
-        statement: Mechanisms implementing discretionary access control policy
+        statement: >-
+          Mechanisms implementing discretionary access control
+          policy
     statement: >
-      {{ ac_03_04_odp_01 }} and {{ ac_03_04_odp_02 }} are enforced where the
-      policy specifies that a subject that has been granted access to information
-      can pass the information to any other subjects or objects;
+      {{ ac_03_04_odp_01 }} and {{ ac_03_04_odp_02 }} are enforced
+      where the policy specifies that a subject that has been
+      granted access to information can pass the information to any
+      other subjects or objects;
   - id: b
     methods:
       - method: examine
         statement: >
-          Access control policy; discretionary access control policies; procedures
-          addressing access enforcement; system design documentation; system
-          configuration settings and associated documentation; list of subjects and
-          objects (i.e., users and resources) requiring enforcement of discretionary
-          access control policies; system audit records; system security plan; other
-          relevant documents or records
+          Access control policy; discretionary access control
+          policies; procedures addressing access enforcement; system
+          design documentation; system configuration settings and
+          associated documentation; list of subjects and objects
+          (i.e., users and resources) requiring enforcement of
+          discretionary access control policies; system audit
+          records; system security plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          Organizational personnel with access enforcement responsibilities;
-          system/network administrators; organizational personnel with information
-          security responsibilities; system developers
+          Organizational personnel with access enforcement
+          responsibilities; system/network administrators;
+          organizational personnel with information security
+          responsibilities; system developers
       - method: test
-        statement: Mechanisms implementing discretionary access control policy
+        statement: >-
+          Mechanisms implementing discretionary access control
+          policy
     statement: >
-      {{ ac_03_04_odp_01 }} and {{ ac_03_04_odp_02 }} are enforced where the
-      policy specifies that a subject that has been granted access to information
-      can grant its privileges to other subjects;
+      {{ ac_03_04_odp_01 }} and {{ ac_03_04_odp_02 }} are enforced
+      where the policy specifies that a subject that has been
+      granted access to information can grant its privileges to
+      other subjects;
   - id: c
     methods:
       - method: examine
         statement: >
-          Access control policy; discretionary access control policies; procedures
-          addressing access enforcement; system design documentation; system
-          configuration settings and associated documentation; list of subjects and
-          objects (i.e., users and resources) requiring enforcement of discretionary
-          access control policies; system audit records; system security plan; other
-          relevant documents or records
+          Access control policy; discretionary access control
+          policies; procedures addressing access enforcement; system
+          design documentation; system configuration settings and
+          associated documentation; list of subjects and objects
+          (i.e., users and resources) requiring enforcement of
+          discretionary access control policies; system audit
+          records; system security plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          Organizational personnel with access enforcement responsibilities;
-          system/network administrators; organizational personnel with information
-          security responsibilities; system developers
+          Organizational personnel with access enforcement
+          responsibilities; system/network administrators;
+          organizational personnel with information security
+          responsibilities; system developers
       - method: test
-        statement: Mechanisms implementing discretionary access control policy
+        statement: >-
+          Mechanisms implementing discretionary access control
+          policy
     statement: >
-      {{ ac_03_04_odp_01 }} and {{ ac_03_04_odp_02 }} are enforced where the
-      policy specifies that a subject that has been granted access to information
-      can change security attributes on subjects, objects, the system, or the
-      system’s components;
+      {{ ac_03_04_odp_01 }} and {{ ac_03_04_odp_02 }} are enforced
+      where the policy specifies that a subject that has been
+      granted access to information can change security attributes
+      on subjects, objects, the system, or the system’s
+      components;
   - id: d
     methods:
       - method: examine
         statement: >
-          Access control policy; discretionary access control policies; procedures
-          addressing access enforcement; system design documentation; system
-          configuration settings and associated documentation; list of subjects and
-          objects (i.e., users and resources) requiring enforcement of discretionary
-          access control policies; system audit records; system security plan; other
-          relevant documents or records
+          Access control policy; discretionary access control
+          policies; procedures addressing access enforcement; system
+          design documentation; system configuration settings and
+          associated documentation; list of subjects and objects
+          (i.e., users and resources) requiring enforcement of
+          discretionary access control policies; system audit
+          records; system security plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          Organizational personnel with access enforcement responsibilities;
-          system/network administrators; organizational personnel with information
-          security responsibilities; system developers
+          Organizational personnel with access enforcement
+          responsibilities; system/network administrators;
+          organizational personnel with information security
+          responsibilities; system developers
       - method: test
-        statement: Mechanisms implementing discretionary access control policy
+        statement: >-
+          Mechanisms implementing discretionary access control
+          policy
     statement: >
-      {{ ac_03_04_odp_01 }} and {{ ac_03_04_odp_02 }} are enforced where the
-      policy specifies that a subject that has been granted access to information
-      can choose the security attributes to be associated with newly created or
-      revised objects;
+      {{ ac_03_04_odp_01 }} and {{ ac_03_04_odp_02 }} are enforced
+      where the policy specifies that a subject that has been
+      granted access to information can choose the security
+      attributes to be associated with newly created or revised
+      objects;
   - id: e
     methods:
       - method: examine
         statement: >
-          Access control policy; discretionary access control policies; procedures
-          addressing access enforcement; system design documentation; system
-          configuration settings and associated documentation; list of subjects and
-          objects (i.e., users and resources) requiring enforcement of discretionary
-          access control policies; system audit records; system security plan; other
-          relevant documents or records
+          Access control policy; discretionary access control
+          policies; procedures addressing access enforcement; system
+          design documentation; system configuration settings and
+          associated documentation; list of subjects and objects
+          (i.e., users and resources) requiring enforcement of
+          discretionary access control policies; system audit
+          records; system security plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          Organizational personnel with access enforcement responsibilities;
-          system/network administrators; organizational personnel with information
-          security responsibilities; system developers
+          Organizational personnel with access enforcement
+          responsibilities; system/network administrators;
+          organizational personnel with information security
+          responsibilities; system developers
       - method: test
-        statement: Mechanisms implementing discretionary access control policy
+        statement: >-
+          Mechanisms implementing discretionary access control
+          policy
     statement: >
-      {{ ac_03_04_odp_01 }} and {{ ac_03_04_odp_02 }} are enforced where the
-      policy specifies that a subject that has been granted access to information
-      can change the rules governing access control.
+      {{ ac_03_04_odp_01 }} and {{ ac_03_04_odp_02 }} are enforced
+      where the policy specifies that a subject that has been
+      granted access to information can change the rules governing
+      access control.
 parameters:
   ac_03_04_odp_01:
     label: discretionary access control policy
@@ -165,20 +205,22 @@ parameters:
     label: organization-defined discretionary access control policy
 parts:
   - id: a
-    statement: Pass the information to any other subjects or objects;
+    statement: >-
+      Pass the information to any other subjects or objects;
   - id: b
     statement: Grant its privileges to other subjects;
   - id: c
     statement: >
-      Change security attributes on subjects, objects, the system, or the
-      system’s components;
+      Change security attributes on subjects, objects, the system,
+      or the system’s components;
   - id: d
     statement: >
-      Choose the security attributes to be associated with newly created or
-      revised objects; or
+      Choose the security attributes to be associated with newly
+      created or revised objects; or
   - id: e
     statement: Change the rules governing access control.
 statement: >
-  Enforce {{ ac_3_4_prm_1 }} over the set of covered subjects and objects
-  specified in the policy, and where the policy specifies that a subject that
-  has been granted access to information can do one or more of the following:
+  Enforce {{ ac_3_4_prm_1 }} over the set of covered subjects and
+  objects specified in the policy, and where the policy specifies
+  that a subject that has been granted access to information can do
+  one or more of the following:

@@ -9,12 +9,12 @@ control_type: preventive
 family: ac
 frequency: event-driven
 guidance: >
-  Integrate the identity provider with HR lifecycle events so terminations
-  automatically trigger session revocation and account suspension within the
-  defined SLA.
+  Integrate the identity provider with HR lifecycle events so
+  terminations automatically trigger session revocation and account
+  suspension within the defined SLA.
 objective: >
-  Ensure only authorized personnel and services hold active accounts on
-  in-scope systems.
+  Ensure only authorized personnel and services hold active accounts
+  on in-scope systems.
 origin: standard
 parameters:
   approver_role:
@@ -24,12 +24,13 @@ parameters:
     label: Termination deprovisioning SLA
     value: "24 hours"
 statement: >
-  Approve every user and service account request through {{ approver_role }}
-  prior to provisioning, and revoke or disable accounts within
-  {{ deprovision_sla }} of personnel termination or role change.
+  Approve every user and service account request through
+  {{ approver_role }} prior to provisioning, and revoke or disable
+  accounts within {{ deprovision_sla }} of personnel termination or
+  role change.
 summary: >
-  Require documented approval before provisioning user or service accounts and
-  disable accounts promptly upon departure.
+  Require documented approval before provisioning user or service
+  accounts and disable accounts promptly upon departure.
 tags:
   - identity
   - lifecycle

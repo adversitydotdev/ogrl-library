@@ -13,52 +13,59 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and services acquisition policy; procedures addressing the
-          replacement or continued use of unsupported system components; documented
-          evidence of replacing unsupported system components; documented approvals
-          (including justification) for the continued use of unsupported system
-          components; system security plan; supply chain risk management plan; other
-          relevant documents or records
+          System and services acquisition policy; procedures
+          addressing the replacement or continued use of unsupported
+          system components; documented evidence of replacing
+          unsupported system components; documented approvals
+          (including justification) for the continued use of
+          unsupported system components; system security plan;
+          supply chain risk management plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with system and service acquisition
-          responsibilities; organizational personnel with information security
-          responsibilities; organizational personnel with the responsibility for the
-          system development life cycle; organizational personnel responsible for
-          component replacement
+          Organizational personnel with system and service
+          acquisition responsibilities; organizational personnel
+          with information security responsibilities; organizational
+          personnel with the responsibility for the system
+          development life cycle; organizational personnel
+          responsible for component replacement
       - method: test
         statement: >
-          Organizational processes for replacing unsupported system components;
-          mechanisms supporting and/or implementing the replacement of unsupported
-          system components
+          Organizational processes for replacing unsupported system
+          components; mechanisms supporting and/or implementing the
+          replacement of unsupported system components
     statement: >
-      system components are replaced when support for the components is no longer
-      available from the developer, vendor, or manufacturer;
+      system components are replaced when support for the components
+      is no longer available from the developer, vendor, or
+      manufacturer;
   - id: b
     methods:
       - method: examine
         statement: >
-          System and services acquisition policy; procedures addressing the
-          replacement or continued use of unsupported system components; documented
-          evidence of replacing unsupported system components; documented approvals
-          (including justification) for the continued use of unsupported system
-          components; system security plan; supply chain risk management plan; other
-          relevant documents or records
+          System and services acquisition policy; procedures
+          addressing the replacement or continued use of unsupported
+          system components; documented evidence of replacing
+          unsupported system components; documented approvals
+          (including justification) for the continued use of
+          unsupported system components; system security plan;
+          supply chain risk management plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with system and service acquisition
-          responsibilities; organizational personnel with information security
-          responsibilities; organizational personnel with the responsibility for the
-          system development life cycle; organizational personnel responsible for
-          component replacement
+          Organizational personnel with system and service
+          acquisition responsibilities; organizational personnel
+          with information security responsibilities; organizational
+          personnel with the responsibility for the system
+          development life cycle; organizational personnel
+          responsible for component replacement
       - method: test
         statement: >
-          Organizational processes for replacing unsupported system components;
-          mechanisms supporting and/or implementing the replacement of unsupported
-          system components
+          Organizational processes for replacing unsupported system
+          components; mechanisms supporting and/or implementing the
+          replacement of unsupported system components
     statement: >
-      {{ sa_22_odp_01 }} provide options for alternative sources for continued
-      support for unsupported components.
+      {{ sa_22_odp_01 }} provide options for alternative sources for
+      continued support for unsupported components.
 parameters:
   sa_22_odp_01:
     label: sa-22_odp.01
@@ -67,9 +74,11 @@ parameters:
 parts:
   - id: a
     statement: >
-      Replace system components when support for the components is no longer
-      available from the developer, vendor, or manufacturer; or
+      Replace system components when support for the components is
+      no longer available from the developer, vendor, or
+      manufacturer; or
   - id: b
     statement: >
-      Provide the following options for alternative sources for continued support
-      for unsupported components {{ sa_22_odp_01 }}.
+      Provide the following options for alternative sources for
+      continued support for unsupported components
+      {{ sa_22_odp_01 }}.

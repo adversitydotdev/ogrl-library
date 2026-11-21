@@ -9,6 +9,6 @@ relationship: intersects-with
 review_status: draft
 source_ref: control--ogrl-cr-05
 summary: >
-  Storage-level integrity verification covers the information portion of
-  SI-7(a) but not software or firmware.
+  Storage-level integrity verification covers the information
+  portion of SI-7(a) but not software or firmware.
 target_ref: "requirement--nist-sp-800-53-r5-si-7#a"

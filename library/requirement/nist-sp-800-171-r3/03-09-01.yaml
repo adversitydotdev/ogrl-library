@@ -17,37 +17,44 @@ objectives:
     methods:
       - method: examine
         statement: >
-          personnel security policy and procedures; procedures for personnel screening
-          and rescreening; records of screened personnel; system security plan; other
-          relevant documents or records
+          personnel security policy and procedures; procedures for
+          personnel screening and rescreening; records of screened
+          personnel; system security plan; other relevant documents
+          or records
       - method: interview
         statement: >
-          personnel with personnel security responsibilities; personnel with
-          information security responsibilities
+          personnel with personnel security responsibilities;
+          personnel with information security responsibilities
       - method: test
         statement: processes for personnel screening and rescreening
-    statement: individuals are screened prior to authorizing access to the system.
+    statement: >-
+      individuals are screened prior to authorizing access to the
+      system.
   - id: b
     methods:
       - method: examine
         statement: >
-          personnel security policy and procedures; procedures for personnel screening
-          and rescreening; records of screened personnel; system security plan; other
-          relevant documents or records
+          personnel security policy and procedures; procedures for
+          personnel screening and rescreening; records of screened
+          personnel; system security plan; other relevant documents
+          or records
       - method: interview
         statement: >
-          personnel with personnel security responsibilities; personnel with
-          information security responsibilities
+          personnel with personnel security responsibilities;
+          personnel with information security responsibilities
       - method: test
         statement: processes for personnel screening and rescreening
     statement: >
-      individuals are rescreened in accordance with the following conditions:
-      {{ a_03_09_01_odp_01 }}.
+      individuals are rescreened in accordance with the following
+      conditions: {{ a_03_09_01_odp_01 }}.
 parameters:
   a_03_09_01_odp_01:
     label: conditions
 parts:
   - id: a
-    statement: Screen individuals prior to authorizing access to the system.
+    statement: >-
+      Screen individuals prior to authorizing access to the system.
   - id: b
-    statement: "Rescreen individuals in accordance with {{ a_03_09_01_odp_01 }}."
+    statement: >-
+      Rescreen individuals in accordance with
+      {{ a_03_09_01_odp_01 }}.

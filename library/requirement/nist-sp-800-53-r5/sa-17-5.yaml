@@ -13,57 +13,69 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and services acquisition policy; enterprise architecture policy;
-          procedures addressing developer security architecture and design
-          specifications for the system; solicitation documentation; acquisition
-          documentation; service level agreements; acquisition contracts for the
-          system, system component, or system service; system design documentation;
-          system security architecture documentation; system configuration settings
-          and associated documentation; developer documentation describing the design
-          and structure of security-relevant hardware, software, and firmware
-          components; system security plan; other relevant documents or records
+          System and services acquisition policy; enterprise
+          architecture policy; procedures addressing developer
+          security architecture and design specifications for the
+          system; solicitation documentation; acquisition
+          documentation; service level agreements; acquisition
+          contracts for the system, system component, or system
+          service; system design documentation; system security
+          architecture documentation; system configuration settings
+          and associated documentation; developer documentation
+          describing the design and structure of security-relevant
+          hardware, software, and firmware components; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with system and service acquisition
-          responsibilities; organizational personnel with information security
-          responsibilities; system developer; organizational personnel with
-          information security architecture and design responsibilities
+          Organizational personnel with system and service
+          acquisition responsibilities; organizational personnel
+          with information security responsibilities; system
+          developer; organizational personnel with information
+          security architecture and design responsibilities
     statement: >
-      the developer of the system, system component, or system service is required
-      to design and structure the security-relevant hardware, software, and
-      firmware to use a complete, conceptually simple protection mechanism with
+      the developer of the system, system component, or system
+      service is required to design and structure the
+      security-relevant hardware, software, and firmware to use a
+      complete, conceptually simple protection mechanism with
       precisely defined semantics;
   - id: b
     methods:
       - method: examine
         statement: >
-          System and services acquisition policy; enterprise architecture policy;
-          procedures addressing developer security architecture and design
-          specifications for the system; solicitation documentation; acquisition
-          documentation; service level agreements; acquisition contracts for the
-          system, system component, or system service; system design documentation;
-          system security architecture documentation; system configuration settings
-          and associated documentation; developer documentation describing the design
-          and structure of security-relevant hardware, software, and firmware
-          components; system security plan; other relevant documents or records
+          System and services acquisition policy; enterprise
+          architecture policy; procedures addressing developer
+          security architecture and design specifications for the
+          system; solicitation documentation; acquisition
+          documentation; service level agreements; acquisition
+          contracts for the system, system component, or system
+          service; system design documentation; system security
+          architecture documentation; system configuration settings
+          and associated documentation; developer documentation
+          describing the design and structure of security-relevant
+          hardware, software, and firmware components; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with system and service acquisition
-          responsibilities; organizational personnel with information security
-          responsibilities; system developer; organizational personnel with
-          information security architecture and design responsibilities
+          Organizational personnel with system and service
+          acquisition responsibilities; organizational personnel
+          with information security responsibilities; system
+          developer; organizational personnel with information
+          security architecture and design responsibilities
     statement: >
-      the developer of the system, system component, or system service is required
-      to internally structure the security-relevant hardware, software, and
-      firmware with specific regard for this mechanism.
+      the developer of the system, system component, or system
+      service is required to internally structure the
+      security-relevant hardware, software, and firmware with
+      specific regard for this mechanism.
 parts:
   - id: a
     statement: >
-      Design and structure the security-relevant hardware, software, and firmware
-      to use a complete, conceptually simple protection mechanism with precisely
-      defined semantics; and
+      Design and structure the security-relevant hardware, software,
+      and firmware to use a complete, conceptually simple protection
+      mechanism with precisely defined semantics; and
   - id: b
     statement: >
-      Internally structure the security-relevant hardware, software, and firmware
-      with specific regard for this mechanism.
-statement: "Require the developer of the system, system component, or system service to:"
+      Internally structure the security-relevant hardware, software,
+      and firmware with specific regard for this mechanism.
+statement: >-
+  Require the developer of the system, system component, or system
+  service to:

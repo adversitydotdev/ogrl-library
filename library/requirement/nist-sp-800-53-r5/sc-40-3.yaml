@@ -13,27 +13,31 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; access control policy and
-          procedures; procedures addressing system design documentation; wireless
-          network diagrams; system configuration settings and associated
-          documentation; system architecture; system communications hardware and
-          software; system audit records; system security plan; other relevant
-          documents or records
+          System and communications protection policy; access
+          control policy and procedures; procedures addressing
+          system design documentation; wireless network diagrams;
+          system configuration settings and associated
+          documentation; system architecture; system communications
+          hardware and software; system audit records; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; system developer; organizational personnel
-          installing, configuring, and/or maintaining the system; organizational
-          personnel authorizing, installing, configuring, and/or maintaining internal
-          and external wireless links
+          System/network administrators; organizational personnel
+          with information security responsibilities; system
+          developer; organizational personnel installing,
+          configuring, and/or maintaining the system; organizational
+          personnel authorizing, installing, configuring, and/or
+          maintaining internal and external wireless links
       - method: test
         statement: >
-          Cryptographic mechanisms enforcing wireless link protections against
-          imitative or manipulative communications deception
+          Cryptographic mechanisms enforcing wireless link
+          protections against imitative or manipulative
+          communications deception
     statement: >
-      cryptographic mechanisms are implemented to identify and reject wireless
-      transmissions that are deliberate attempts to achieve imitative or
-      manipulative communications deception based on signal parameters.
+      cryptographic mechanisms are implemented to identify and
+      reject wireless transmissions that are deliberate attempts to
+      achieve imitative or manipulative communications deception
+      based on signal parameters.
 statement: >
   Implement cryptographic mechanisms to identify and reject wireless
   transmissions that are deliberate attempts to achieve imitative or

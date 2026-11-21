@@ -13,22 +13,26 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing session termination; time until
-          end of session messages; system design documentation; system configuration
-          settings and associated documentation; system audit records; system security
-          plan; other relevant documents or records
+          Access control policy; procedures addressing session
+          termination; time until end of session messages; system
+          design documentation; system configuration settings and
+          associated documentation; system audit records; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; system developers
+          System/network administrators; organizational personnel
+          with information security responsibilities; system
+          developers
       - method: test
-        statement: System session termination mechanisms; display of end of session time
+        statement: >-
+          System session termination mechanisms; display of end of
+          session time
     statement: >
-      an explicit message to users is displayed indicating that the session will
-      end in {{ ac_12_03_odp }}.
+      an explicit message to users is displayed indicating that the
+      session will end in {{ ac_12_03_odp }}.
 parameters:
   ac_12_03_odp:
     label: time
 statement: >
-  Display an explicit message to users indicating that the session will end in
-  {{ ac_12_03_odp }}.
+  Display an explicit message to users indicating that the session
+  will end in {{ ac_12_03_odp }}.

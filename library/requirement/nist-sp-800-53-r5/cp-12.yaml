@@ -13,27 +13,30 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Contingency planning policy; procedures addressing safe mode of operation
-          for the system; contingency plan; system design documentation; system
-          configuration settings and associated documentation; system administration
-          manuals; system operation manuals; system installation manuals; contingency
-          plan test records; incident handling records; system audit records; system
-          security plan; other relevant documents or records
+          Contingency planning policy; procedures addressing safe
+          mode of operation for the system; contingency plan; system
+          design documentation; system configuration settings and
+          associated documentation; system administration manuals;
+          system operation manuals; system installation manuals;
+          contingency plan test records; incident handling records;
+          system audit records; system security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with system operation responsibilities;
-          organizational personnel with information security responsibilities;
-          system/network administrators; system developers
+          Organizational personnel with system operation
+          responsibilities; organizational personnel with
+          information security responsibilities; system/network
+          administrators; system developers
       - method: test
         statement: Mechanisms implementing safe mode of operation
     statement: >
-      a safe mode of operation is entered with {{ cp_12_odp_01 }} when
-      {{ cp_12_odp_02 }} are detected.
+      a safe mode of operation is entered with {{ cp_12_odp_01 }}
+      when {{ cp_12_odp_02 }} are detected.
 parameters:
   cp_12_odp_01:
     label: restrictions
   cp_12_odp_02:
     label: conditions
 statement: >
-  When {{ cp_12_odp_02 }} are detected, enter a safe mode of operation with
-  {{ cp_12_odp_01 }}.
+  When {{ cp_12_odp_02 }} are detected, enter a safe mode of
+  operation with {{ cp_12_odp_01 }}.

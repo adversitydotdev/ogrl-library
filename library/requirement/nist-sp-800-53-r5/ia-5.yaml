@@ -53,195 +53,253 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Identification and authentication policy; system security plan; addressing
-          authenticator management; system design documentation; system configuration
-          settings and associated documentation; list of system authenticator types;
-          change control records associated with managing system authenticators;
-          system audit records; other relevant documents or records
+          Identification and authentication policy; system security
+          plan; addressing authenticator management; system design
+          documentation; system configuration settings and
+          associated documentation; list of system authenticator
+          types; change control records associated with managing
+          system authenticators; system audit records; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with authenticator management responsibilities;
-          organizational personnel with information security responsibilities;
-          system/network administrators
+          Organizational personnel with authenticator management
+          responsibilities; organizational personnel with
+          information security responsibilities; system/network
+          administrators
       - method: test
-        statement: Mechanisms supporting and/or implementing authenticator management capability
+        statement: >-
+          Mechanisms supporting and/or implementing authenticator
+          management capability
     statement: >
-      system authenticators are managed through the verification of the identity
-      of the individual, group, role, service, or device receiving the
-      authenticator as part of the initial authenticator distribution;
+      system authenticators are managed through the verification of
+      the identity of the individual, group, role, service, or
+      device receiving the authenticator as part of the initial
+      authenticator distribution;
   - id: b
     methods:
       - method: examine
         statement: >
-          Identification and authentication policy; system security plan; addressing
-          authenticator management; system design documentation; system configuration
-          settings and associated documentation; list of system authenticator types;
-          change control records associated with managing system authenticators;
-          system audit records; other relevant documents or records
+          Identification and authentication policy; system security
+          plan; addressing authenticator management; system design
+          documentation; system configuration settings and
+          associated documentation; list of system authenticator
+          types; change control records associated with managing
+          system authenticators; system audit records; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with authenticator management responsibilities;
-          organizational personnel with information security responsibilities;
-          system/network administrators
+          Organizational personnel with authenticator management
+          responsibilities; organizational personnel with
+          information security responsibilities; system/network
+          administrators
       - method: test
-        statement: Mechanisms supporting and/or implementing authenticator management capability
+        statement: >-
+          Mechanisms supporting and/or implementing authenticator
+          management capability
     statement: >
-      system authenticators are managed through the establishment of initial
-      authenticator content for any authenticators issued by the organization;
+      system authenticators are managed through the establishment of
+      initial authenticator content for any authenticators issued by
+      the organization;
   - id: c
     methods:
       - method: examine
         statement: >
-          Identification and authentication policy; system security plan; addressing
-          authenticator management; system design documentation; system configuration
-          settings and associated documentation; list of system authenticator types;
-          change control records associated with managing system authenticators;
-          system audit records; other relevant documents or records
+          Identification and authentication policy; system security
+          plan; addressing authenticator management; system design
+          documentation; system configuration settings and
+          associated documentation; list of system authenticator
+          types; change control records associated with managing
+          system authenticators; system audit records; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with authenticator management responsibilities;
-          organizational personnel with information security responsibilities;
-          system/network administrators
+          Organizational personnel with authenticator management
+          responsibilities; organizational personnel with
+          information security responsibilities; system/network
+          administrators
       - method: test
-        statement: Mechanisms supporting and/or implementing authenticator management capability
+        statement: >-
+          Mechanisms supporting and/or implementing authenticator
+          management capability
     statement: >
-      system authenticators are managed to ensure that authenticators have
-      sufficient strength of mechanism for their intended use;
+      system authenticators are managed to ensure that
+      authenticators have sufficient strength of mechanism for their
+      intended use;
   - id: d
     methods:
       - method: examine
         statement: >
-          Identification and authentication policy; system security plan; addressing
-          authenticator management; system design documentation; system configuration
-          settings and associated documentation; list of system authenticator types;
-          change control records associated with managing system authenticators;
-          system audit records; other relevant documents or records
+          Identification and authentication policy; system security
+          plan; addressing authenticator management; system design
+          documentation; system configuration settings and
+          associated documentation; list of system authenticator
+          types; change control records associated with managing
+          system authenticators; system audit records; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with authenticator management responsibilities;
-          organizational personnel with information security responsibilities;
-          system/network administrators
+          Organizational personnel with authenticator management
+          responsibilities; organizational personnel with
+          information security responsibilities; system/network
+          administrators
       - method: test
-        statement: Mechanisms supporting and/or implementing authenticator management capability
+        statement: >-
+          Mechanisms supporting and/or implementing authenticator
+          management capability
     statement: >
-      system authenticators are managed through the establishment and
-      implementation of administrative procedures for initial authenticator
-      distribution; lost, compromised, or damaged authenticators; and the
-      revocation of authenticators;
+      system authenticators are managed through the establishment
+      and implementation of administrative procedures for initial
+      authenticator distribution; lost, compromised, or damaged
+      authenticators; and the revocation of authenticators;
   - id: e
     methods:
       - method: examine
         statement: >
-          Identification and authentication policy; system security plan; addressing
-          authenticator management; system design documentation; system configuration
-          settings and associated documentation; list of system authenticator types;
-          change control records associated with managing system authenticators;
-          system audit records; other relevant documents or records
+          Identification and authentication policy; system security
+          plan; addressing authenticator management; system design
+          documentation; system configuration settings and
+          associated documentation; list of system authenticator
+          types; change control records associated with managing
+          system authenticators; system audit records; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with authenticator management responsibilities;
-          organizational personnel with information security responsibilities;
-          system/network administrators
+          Organizational personnel with authenticator management
+          responsibilities; organizational personnel with
+          information security responsibilities; system/network
+          administrators
       - method: test
-        statement: Mechanisms supporting and/or implementing authenticator management capability
+        statement: >-
+          Mechanisms supporting and/or implementing authenticator
+          management capability
     statement: >
-      system authenticators are managed through the change of default
-      authenticators prior to first use;
+      system authenticators are managed through the change of
+      default authenticators prior to first use;
   - id: f
     methods:
       - method: examine
         statement: >
-          Identification and authentication policy; system security plan; addressing
-          authenticator management; system design documentation; system configuration
-          settings and associated documentation; list of system authenticator types;
-          change control records associated with managing system authenticators;
-          system audit records; other relevant documents or records
+          Identification and authentication policy; system security
+          plan; addressing authenticator management; system design
+          documentation; system configuration settings and
+          associated documentation; list of system authenticator
+          types; change control records associated with managing
+          system authenticators; system audit records; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with authenticator management responsibilities;
-          organizational personnel with information security responsibilities;
-          system/network administrators
+          Organizational personnel with authenticator management
+          responsibilities; organizational personnel with
+          information security responsibilities; system/network
+          administrators
       - method: test
-        statement: Mechanisms supporting and/or implementing authenticator management capability
+        statement: >-
+          Mechanisms supporting and/or implementing authenticator
+          management capability
     statement: >
-      system authenticators are managed through the change or refreshment of
-      authenticators {{ ia_05_odp_01 }} or when {{ ia_05_odp_02 }} occur;
+      system authenticators are managed through the change or
+      refreshment of authenticators {{ ia_05_odp_01 }} or when
+      {{ ia_05_odp_02 }} occur;
   - id: g
     methods:
       - method: examine
         statement: >
-          Identification and authentication policy; system security plan; addressing
-          authenticator management; system design documentation; system configuration
-          settings and associated documentation; list of system authenticator types;
-          change control records associated with managing system authenticators;
-          system audit records; other relevant documents or records
+          Identification and authentication policy; system security
+          plan; addressing authenticator management; system design
+          documentation; system configuration settings and
+          associated documentation; list of system authenticator
+          types; change control records associated with managing
+          system authenticators; system audit records; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with authenticator management responsibilities;
-          organizational personnel with information security responsibilities;
-          system/network administrators
+          Organizational personnel with authenticator management
+          responsibilities; organizational personnel with
+          information security responsibilities; system/network
+          administrators
       - method: test
-        statement: Mechanisms supporting and/or implementing authenticator management capability
+        statement: >-
+          Mechanisms supporting and/or implementing authenticator
+          management capability
     statement: >
-      system authenticators are managed through the protection of authenticator
-      content from unauthorized disclosure and modification;
+      system authenticators are managed through the protection of
+      authenticator content from unauthorized disclosure and
+      modification;
   - id: h-1
     methods:
       - method: examine
         statement: >
-          Identification and authentication policy; system security plan; addressing
-          authenticator management; system design documentation; system configuration
-          settings and associated documentation; list of system authenticator types;
-          change control records associated with managing system authenticators;
-          system audit records; other relevant documents or records
+          Identification and authentication policy; system security
+          plan; addressing authenticator management; system design
+          documentation; system configuration settings and
+          associated documentation; list of system authenticator
+          types; change control records associated with managing
+          system authenticators; system audit records; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with authenticator management responsibilities;
-          organizational personnel with information security responsibilities;
-          system/network administrators
+          Organizational personnel with authenticator management
+          responsibilities; organizational personnel with
+          information security responsibilities; system/network
+          administrators
       - method: test
-        statement: Mechanisms supporting and/or implementing authenticator management capability
+        statement: >-
+          Mechanisms supporting and/or implementing authenticator
+          management capability
     statement: >
-      system authenticators are managed through the requirement for individuals to
-      take specific controls to protect authenticators;
+      system authenticators are managed through the requirement for
+      individuals to take specific controls to protect
+      authenticators;
   - id: h-2
     methods:
       - method: examine
         statement: >
-          Identification and authentication policy; system security plan; addressing
-          authenticator management; system design documentation; system configuration
-          settings and associated documentation; list of system authenticator types;
-          change control records associated with managing system authenticators;
-          system audit records; other relevant documents or records
+          Identification and authentication policy; system security
+          plan; addressing authenticator management; system design
+          documentation; system configuration settings and
+          associated documentation; list of system authenticator
+          types; change control records associated with managing
+          system authenticators; system audit records; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with authenticator management responsibilities;
-          organizational personnel with information security responsibilities;
-          system/network administrators
+          Organizational personnel with authenticator management
+          responsibilities; organizational personnel with
+          information security responsibilities; system/network
+          administrators
       - method: test
-        statement: Mechanisms supporting and/or implementing authenticator management capability
+        statement: >-
+          Mechanisms supporting and/or implementing authenticator
+          management capability
     statement: >
-      system authenticators are managed through the requirement for devices to
-      implement specific controls to protect authenticators;
+      system authenticators are managed through the requirement for
+      devices to implement specific controls to protect
+      authenticators;
   - id: i
     methods:
       - method: examine
         statement: >
-          Identification and authentication policy; system security plan; addressing
-          authenticator management; system design documentation; system configuration
-          settings and associated documentation; list of system authenticator types;
-          change control records associated with managing system authenticators;
-          system audit records; other relevant documents or records
+          Identification and authentication policy; system security
+          plan; addressing authenticator management; system design
+          documentation; system configuration settings and
+          associated documentation; list of system authenticator
+          types; change control records associated with managing
+          system authenticators; system audit records; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with authenticator management responsibilities;
-          organizational personnel with information security responsibilities;
-          system/network administrators
+          Organizational personnel with authenticator management
+          responsibilities; organizational personnel with
+          information security responsibilities; system/network
+          administrators
       - method: test
-        statement: Mechanisms supporting and/or implementing authenticator management capability
+        statement: >-
+          Mechanisms supporting and/or implementing authenticator
+          management capability
     statement: >
-      system authenticators are managed through the change of authenticators for
-      group or role accounts when membership to those accounts changes.
+      system authenticators are managed through the change of
+      authenticators for group or role accounts when membership to
+      those accounts changes.
 parameters:
   ia_05_odp_01:
     label: time period by authenticator type
@@ -250,36 +308,38 @@ parameters:
 parts:
   - id: a
     statement: >
-      Verifying, as part of the initial authenticator distribution, the identity
-      of the individual, group, role, service, or device receiving the
-      authenticator;
+      Verifying, as part of the initial authenticator distribution,
+      the identity of the individual, group, role, service, or
+      device receiving the authenticator;
   - id: b
     statement: >
-      Establishing initial authenticator content for any authenticators issued by
-      the organization;
+      Establishing initial authenticator content for any
+      authenticators issued by the organization;
   - id: c
     statement: >
-      Ensuring that authenticators have sufficient strength of mechanism for their
-      intended use;
+      Ensuring that authenticators have sufficient strength of
+      mechanism for their intended use;
   - id: d
     statement: >
-      Establishing and implementing administrative procedures for initial
-      authenticator distribution, for lost or compromised or damaged
-      authenticators, and for revoking authenticators;
+      Establishing and implementing administrative procedures for
+      initial authenticator distribution, for lost or compromised or
+      damaged authenticators, and for revoking authenticators;
   - id: e
     statement: Changing default authenticators prior to first use;
   - id: f
     statement: >
-      Changing or refreshing authenticators {{ ia_05_odp_01 }} or when
-      {{ ia_05_odp_02 }} occur;
+      Changing or refreshing authenticators {{ ia_05_odp_01 }} or
+      when {{ ia_05_odp_02 }} occur;
   - id: g
-    statement: Protecting authenticator content from unauthorized disclosure and modification;
+    statement: >-
+      Protecting authenticator content from unauthorized disclosure
+      and modification;
   - id: h
     statement: >
-      Requiring individuals to take, and having devices implement, specific
-      controls to protect authenticators; and
+      Requiring individuals to take, and having devices implement,
+      specific controls to protect authenticators; and
   - id: i
     statement: >
-      Changing authenticators for group or role accounts when membership to those
-      accounts changes.
+      Changing authenticators for group or role accounts when
+      membership to those accounts changes.
 statement: "Manage system authenticators by:"

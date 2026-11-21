@@ -13,24 +13,26 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; procedures addressing system
-          failure to known state; system design documentation; system configuration
-          settings and associated documentation; list of failures requiring system to
-          fail in a known state; state information to be preserved in system failure;
-          system audit records; system security plan; other relevant documents or
-          records
+          System and communications protection policy; procedures
+          addressing system failure to known state; system design
+          documentation; system configuration settings and
+          associated documentation; list of failures requiring
+          system to fail in a known state; state information to be
+          preserved in system failure; system audit records; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; system developer
+          System/network administrators; organizational personnel
+          with information security responsibilities; system
+          developer
       - method: test
         statement: >
-          Mechanisms supporting and/or implementing the fail in known state
-          capability; mechanisms preserving system state information in the event of a
-          system failure
+          Mechanisms supporting and/or implementing the fail in
+          known state capability; mechanisms preserving system state
+          information in the event of a system failure
     statement: >
-      {{ sc_24_odp_01 }} fail to a {{ sc_24_odp_02 }} while preserving
-      {{ sc_24_odp_03 }} in failure.
+      {{ sc_24_odp_01 }} fail to a {{ sc_24_odp_02 }} while
+      preserving {{ sc_24_odp_03 }} in failure.
 parameters:
   sc_24_odp_01:
     label: types of system failures on system components
@@ -39,6 +41,6 @@ parameters:
   sc_24_odp_03:
     label: system state information
 statement: >
-  Fail to a {{ sc_24_odp_02 }} for the following failures on the indicated
-  components while preserving {{ sc_24_odp_03 }} in failure:
-  {{ sc_24_odp_01 }}.
+  Fail to a {{ sc_24_odp_02 }} for the following failures on the
+  indicated components while preserving {{ sc_24_odp_03 }} in
+  failure: {{ sc_24_odp_01 }}.

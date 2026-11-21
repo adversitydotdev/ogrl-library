@@ -13,30 +13,44 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing remote access to the system;
-          system design documentation; system configuration settings and associated
-          documentation; system audit records; system monitoring records; system
+          Access control policy; procedures addressing remote access
+          to the system; system design documentation; system
+          configuration settings and associated documentation;
+          system audit records; system monitoring records; system
           security plan; other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; system developers
+          System/network administrators; organizational personnel
+          with information security responsibilities; system
+          developers
       - method: test
-        statement: Automated mechanisms monitoring and controlling remote access methods
-    statement: automated mechanisms are employed to monitor remote access methods;
+        statement: >-
+          Automated mechanisms monitoring and controlling remote
+          access methods
+    statement: >-
+      automated mechanisms are employed to monitor remote access
+      methods;
   - id: "ac-17(01).ac-17(01)[02]"
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing remote access to the system;
-          system design documentation; system configuration settings and associated
-          documentation; system audit records; system monitoring records; system
+          Access control policy; procedures addressing remote access
+          to the system; system design documentation; system
+          configuration settings and associated documentation;
+          system audit records; system monitoring records; system
           security plan; other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; system developers
+          System/network administrators; organizational personnel
+          with information security responsibilities; system
+          developers
       - method: test
-        statement: Automated mechanisms monitoring and controlling remote access methods
-    statement: automated mechanisms are employed to control remote access methods.
-statement: Employ automated mechanisms to monitor and control remote access methods.
+        statement: >-
+          Automated mechanisms monitoring and controlling remote
+          access methods
+    statement: >-
+      automated mechanisms are employed to control remote access
+      methods.
+statement: >-
+  Employ automated mechanisms to monitor and control remote access
+  methods.

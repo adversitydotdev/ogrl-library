@@ -13,26 +13,29 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Identification and authentication policy; procedures addressing
-          authenticator management; system security plan; list of individuals having
-          accounts on multiple systems; list of security safeguards intended to manage
-          risk of compromise due to individuals having accounts on multiple systems;
-          other relevant documents or records
+          Identification and authentication policy; procedures
+          addressing authenticator management; system security plan;
+          list of individuals having accounts on multiple systems;
+          list of security safeguards intended to manage risk of
+          compromise due to individuals having accounts on multiple
+          systems; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with authenticator management responsibilities;
-          organizational personnel with information security responsibilities;
-          system/network administrators
+          Organizational personnel with authenticator management
+          responsibilities; organizational personnel with
+          information security responsibilities; system/network
+          administrators
       - method: test
         statement: >
-          Mechanisms supporting and/or implementing safeguards for authenticator
-          management
+          Mechanisms supporting and/or implementing safeguards for
+          authenticator management
     statement: >
-      {{ ia_05_08_odp }} are implemented to manage the risk of compromise due to
-      individuals having accounts on multiple systems.
+      {{ ia_05_08_odp }} are implemented to manage the risk of
+      compromise due to individuals having accounts on multiple
+      systems.
 parameters:
   ia_05_08_odp:
     label: security controls
 statement: >
-  Implement {{ ia_05_08_odp }} to manage the risk of compromise due to
-  individuals having accounts on multiple systems.
+  Implement {{ ia_05_08_odp }} to manage the risk of compromise due
+  to individuals having accounts on multiple systems.

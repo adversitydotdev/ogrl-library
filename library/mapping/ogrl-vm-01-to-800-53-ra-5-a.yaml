@@ -11,6 +11,6 @@ relationship: equivalent-to
 review_status: reviewed
 source_ref: control--ogrl-vm-01
 summary: >
-  Scheduled infrastructure and release vulnerability scanning satisfies NIST
-  RA-5(a).
+  Scheduled infrastructure and release vulnerability scanning
+  satisfies NIST RA-5(a).
 target_ref: "requirement--nist-sp-800-53-r5-ra-5#a"

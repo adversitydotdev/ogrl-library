@@ -17,19 +17,26 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; procedures addressing
-          detonation chambers; system design documentation; system configuration
-          settings and associated documentation; system audit records; system security
-          plan; other relevant documents or records
+          System and communications protection policy; procedures
+          addressing detonation chambers; system design
+          documentation; system configuration settings and
+          associated documentation; system audit records; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; organizational personnel installing, configuring,
-          and/or maintaining the system
+          System/network administrators; organizational personnel
+          with information security responsibilities; organizational
+          personnel installing, configuring, and/or maintaining the
+          system
       - method: test
-        statement: Mechanisms supporting and/or implementing the detonation chamber capability
-    statement: "a detonation chamber capability is employed within the {{ sc_44_odp }}."
+        statement: >-
+          Mechanisms supporting and/or implementing the detonation
+          chamber capability
+    statement: >-
+      a detonation chamber capability is employed within the
+      {{ sc_44_odp }}.
 parameters:
   sc_44_odp:
     label: "system, system component, or location"
-statement: "Employ a detonation chamber capability within {{ sc_44_odp }}."
+statement: >-
+  Employ a detonation chamber capability within {{ sc_44_odp }}.

@@ -13,28 +13,32 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and services acquisition policy; system and services acquisition
-          procedures; procedures addressing the integration of security and privacy
-          requirements, descriptions, and criteria into the acquisition process;
-          solicitation documents; acquisition documentation; acquisition contracts for
-          the system, system component, or system services; system security plan;
-          privacy plan; other relevant documents or records
+          System and services acquisition policy; system and
+          services acquisition procedures; procedures addressing the
+          integration of security and privacy requirements,
+          descriptions, and criteria into the acquisition process;
+          solicitation documents; acquisition documentation;
+          acquisition contracts for the system, system component, or
+          system services; system security plan; privacy plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with acquisition/contracting responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities; system developers
+          Organizational personnel with acquisition/contracting
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities; system
+          developers
       - method: test
         statement: >
-          Organizational processes for determining system security functional
-          requirements; organizational processes for developing acquisition contracts;
-          mechanisms supporting and/or implementing acquisitions and the inclusion of
+          Organizational processes for determining system security
+          functional requirements; organizational processes for
+          developing acquisition contracts; mechanisms supporting
+          and/or implementing acquisitions and the inclusion of
           security and privacy requirements in contracts
     statement: >
-      the developer of the system, system component, or system service is required
-      to provide a description of the functional properties of the controls to be
-      implemented.
+      the developer of the system, system component, or system
+      service is required to provide a description of the functional
+      properties of the controls to be implemented.
 statement: >
-  Require the developer of the system, system component, or system service to
-  provide a description of the functional properties of the controls to be
-  implemented.
+  Require the developer of the system, system component, or system
+  service to provide a description of the functional properties of
+  the controls to be implemented.

@@ -17,25 +17,29 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Contingency planning policy; procedures addressing alternate
-          telecommunications services; contingency plan; primary and alternate
-          telecommunications service agreements; system security plan; other relevant
-          documents or records
+          Contingency planning policy; procedures addressing
+          alternate telecommunications services; contingency plan;
+          primary and alternate telecommunications service
+          agreements; system security plan; other relevant documents
+          or records
       - method: interview
         statement: >
-          Organizational personnel with contingency plan telecommunications
-          responsibilities; organizational personnel with system recovery
-          responsibilities; organizational personnel with knowledge of requirements
-          for mission and business functions; organizational personnel with
-          information security responsibilities; organizational personnel with
-          responsibility for acquisitions/contractual agreements
+          Organizational personnel with contingency plan
+          telecommunications responsibilities; organizational
+          personnel with system recovery responsibilities;
+          organizational personnel with knowledge of requirements
+          for mission and business functions; organizational
+          personnel with information security responsibilities;
+          organizational personnel with responsibility for
+          acquisitions/contractual agreements
       - method: test
         statement: Mechanisms supporting telecommunications
     statement: >
-      alternate telecommunications services, including necessary agreements to
-      permit the resumption of {{ cp_08_odp_01 }} , are established for essential
-      mission and business functions within {{ cp_08_odp_02 }} when the primary
-      telecommunications capabilities are unavailable at either the primary or
+      alternate telecommunications services, including necessary
+      agreements to permit the resumption of {{ cp_08_odp_01 }} ,
+      are established for essential mission and business functions
+      within {{ cp_08_odp_02 }} when the primary telecommunications
+      capabilities are unavailable at either the primary or
       alternate processing or storage sites.
 parameters:
   cp_08_odp_01:
@@ -43,8 +47,9 @@ parameters:
   cp_08_odp_02:
     label: time period
 statement: >
-  Establish alternate telecommunications services, including necessary
-  agreements to permit the resumption of {{ cp_08_odp_01 }} for essential
-  mission and business functions within {{ cp_08_odp_02 }} when the primary
-  telecommunications capabilities are unavailable at either the primary or
-  alternate processing or storage sites.
+  Establish alternate telecommunications services, including
+  necessary agreements to permit the resumption of
+  {{ cp_08_odp_01 }} for essential mission and business functions
+  within {{ cp_08_odp_02 }} when the primary telecommunications
+  capabilities are unavailable at either the primary or alternate
+  processing or storage sites.

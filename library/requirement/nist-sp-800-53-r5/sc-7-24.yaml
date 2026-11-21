@@ -13,148 +13,177 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; procedures addressing boundary
-          protection; personally identifiable information processing policies; list of
-          key internal boundaries of the system; system design documentation; system
-          configuration settings and associated documentation; enterprise security and
-          privacy architecture documentation; system audit records; system security
-          plan; privacy plan; personally identifiable information inventory
-          documentation; data mapping documentation; other relevant documents or
-          records
+          System and communications protection policy; procedures
+          addressing boundary protection; personally identifiable
+          information processing policies; list of key internal
+          boundaries of the system; system design documentation;
+          system configuration settings and associated
+          documentation; enterprise security and privacy
+          architecture documentation; system audit records; system
+          security plan; privacy plan; personally identifiable
+          information inventory documentation; data mapping
+          documentation; other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security and privacy responsibilities; system developer; organizational
-          personnel with boundary protection responsibilities
+          System/network administrators; organizational personnel
+          with information security and privacy responsibilities;
+          system developer; organizational personnel with boundary
+          protection responsibilities
       - method: test
-        statement: Mechanisms implementing boundary protection capabilities
+        statement: >-
+          Mechanisms implementing boundary protection capabilities
     statement: >
-      {{ sc_07_24_odp }} are applied to data elements of personally identifiable
-      information on systems that process personally identifiable information;
+      {{ sc_07_24_odp }} are applied to data elements of personally
+      identifiable information on systems that process personally
+      identifiable information;
   - id: b-1
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; procedures addressing boundary
-          protection; personally identifiable information processing policies; list of
-          key internal boundaries of the system; system design documentation; system
-          configuration settings and associated documentation; enterprise security and
-          privacy architecture documentation; system audit records; system security
-          plan; privacy plan; personally identifiable information inventory
-          documentation; data mapping documentation; other relevant documents or
-          records
+          System and communications protection policy; procedures
+          addressing boundary protection; personally identifiable
+          information processing policies; list of key internal
+          boundaries of the system; system design documentation;
+          system configuration settings and associated
+          documentation; enterprise security and privacy
+          architecture documentation; system audit records; system
+          security plan; privacy plan; personally identifiable
+          information inventory documentation; data mapping
+          documentation; other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security and privacy responsibilities; system developer; organizational
-          personnel with boundary protection responsibilities
+          System/network administrators; organizational personnel
+          with information security and privacy responsibilities;
+          system developer; organizational personnel with boundary
+          protection responsibilities
       - method: test
-        statement: Mechanisms implementing boundary protection capabilities
+        statement: >-
+          Mechanisms implementing boundary protection capabilities
     statement: >
-      permitted processing is monitored at the external interfaces to the systems
-      that process personally identifiable information;
+      permitted processing is monitored at the external interfaces
+      to the systems that process personally identifiable
+      information;
   - id: b-2
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; procedures addressing boundary
-          protection; personally identifiable information processing policies; list of
-          key internal boundaries of the system; system design documentation; system
-          configuration settings and associated documentation; enterprise security and
-          privacy architecture documentation; system audit records; system security
-          plan; privacy plan; personally identifiable information inventory
-          documentation; data mapping documentation; other relevant documents or
-          records
+          System and communications protection policy; procedures
+          addressing boundary protection; personally identifiable
+          information processing policies; list of key internal
+          boundaries of the system; system design documentation;
+          system configuration settings and associated
+          documentation; enterprise security and privacy
+          architecture documentation; system audit records; system
+          security plan; privacy plan; personally identifiable
+          information inventory documentation; data mapping
+          documentation; other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security and privacy responsibilities; system developer; organizational
-          personnel with boundary protection responsibilities
+          System/network administrators; organizational personnel
+          with information security and privacy responsibilities;
+          system developer; organizational personnel with boundary
+          protection responsibilities
       - method: test
-        statement: Mechanisms implementing boundary protection capabilities
+        statement: >-
+          Mechanisms implementing boundary protection capabilities
     statement: >
-      permitted processing is monitored at key internal boundaries within the
-      systems that process personally identifiable information;
+      permitted processing is monitored at key internal boundaries
+      within the systems that process personally identifiable
+      information;
   - id: c
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; procedures addressing boundary
-          protection; personally identifiable information processing policies; list of
-          key internal boundaries of the system; system design documentation; system
-          configuration settings and associated documentation; enterprise security and
-          privacy architecture documentation; system audit records; system security
-          plan; privacy plan; personally identifiable information inventory
-          documentation; data mapping documentation; other relevant documents or
-          records
+          System and communications protection policy; procedures
+          addressing boundary protection; personally identifiable
+          information processing policies; list of key internal
+          boundaries of the system; system design documentation;
+          system configuration settings and associated
+          documentation; enterprise security and privacy
+          architecture documentation; system audit records; system
+          security plan; privacy plan; personally identifiable
+          information inventory documentation; data mapping
+          documentation; other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security and privacy responsibilities; system developer; organizational
-          personnel with boundary protection responsibilities
+          System/network administrators; organizational personnel
+          with information security and privacy responsibilities;
+          system developer; organizational personnel with boundary
+          protection responsibilities
       - method: test
-        statement: Mechanisms implementing boundary protection capabilities
+        statement: >-
+          Mechanisms implementing boundary protection capabilities
     statement: >
-      each processing exception is documented for systems that process personally
-      identifiable information;
+      each processing exception is documented for systems that
+      process personally identifiable information;
   - id: d-1
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; procedures addressing boundary
-          protection; personally identifiable information processing policies; list of
-          key internal boundaries of the system; system design documentation; system
-          configuration settings and associated documentation; enterprise security and
-          privacy architecture documentation; system audit records; system security
-          plan; privacy plan; personally identifiable information inventory
-          documentation; data mapping documentation; other relevant documents or
-          records
+          System and communications protection policy; procedures
+          addressing boundary protection; personally identifiable
+          information processing policies; list of key internal
+          boundaries of the system; system design documentation;
+          system configuration settings and associated
+          documentation; enterprise security and privacy
+          architecture documentation; system audit records; system
+          security plan; privacy plan; personally identifiable
+          information inventory documentation; data mapping
+          documentation; other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security and privacy responsibilities; system developer; organizational
-          personnel with boundary protection responsibilities
+          System/network administrators; organizational personnel
+          with information security and privacy responsibilities;
+          system developer; organizational personnel with boundary
+          protection responsibilities
       - method: test
-        statement: Mechanisms implementing boundary protection capabilities
+        statement: >-
+          Mechanisms implementing boundary protection capabilities
     statement: >
-      exceptions for systems that process personally identifiable information are
-      reviewed;
+      exceptions for systems that process personally identifiable
+      information are reviewed;
   - id: d-2
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; procedures addressing boundary
-          protection; personally identifiable information processing policies; list of
-          key internal boundaries of the system; system design documentation; system
-          configuration settings and associated documentation; enterprise security and
-          privacy architecture documentation; system audit records; system security
-          plan; privacy plan; personally identifiable information inventory
-          documentation; data mapping documentation; other relevant documents or
-          records
+          System and communications protection policy; procedures
+          addressing boundary protection; personally identifiable
+          information processing policies; list of key internal
+          boundaries of the system; system design documentation;
+          system configuration settings and associated
+          documentation; enterprise security and privacy
+          architecture documentation; system audit records; system
+          security plan; privacy plan; personally identifiable
+          information inventory documentation; data mapping
+          documentation; other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security and privacy responsibilities; system developer; organizational
-          personnel with boundary protection responsibilities
+          System/network administrators; organizational personnel
+          with information security and privacy responsibilities;
+          system developer; organizational personnel with boundary
+          protection responsibilities
       - method: test
-        statement: Mechanisms implementing boundary protection capabilities
+        statement: >-
+          Mechanisms implementing boundary protection capabilities
     statement: >
-      exceptions for systems that process personally identifiable information that
-      are no longer supported are removed.
+      exceptions for systems that process personally identifiable
+      information that are no longer supported are removed.
 parameters:
   sc_07_24_odp:
     label: processing rules
 parts:
   - id: a
     statement: >
-      Apply the following processing rules to data elements of personally
-      identifiable information: {{ sc_07_24_odp }};
+      Apply the following processing rules to data elements of
+      personally identifiable information: {{ sc_07_24_odp }};
   - id: b
     statement: >
-      Monitor for permitted processing at the external interfaces to the system
-      and at key internal boundaries within the system;
+      Monitor for permitted processing at the external interfaces to
+      the system and at key internal boundaries within the system;
   - id: c
     statement: Document each processing exception; and
   - id: d
-    statement: Review and remove exceptions that are no longer supported.
-statement: "For systems that process personally identifiable information:"
+    statement: >-
+      Review and remove exceptions that are no longer supported.
+statement: >-
+  For systems that process personally identifiable information:

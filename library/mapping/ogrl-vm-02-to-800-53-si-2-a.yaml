@@ -9,6 +9,6 @@ relationship: subset-of
 review_status: draft
 source_ref: control--ogrl-vm-02
 summary: >
-  Applying security updates corrects system flaws; identification and
-  reporting are handled by vulnerability scanning.
+  Applying security updates corrects system flaws; identification
+  and reporting are handled by vulnerability scanning.
 target_ref: "requirement--nist-sp-800-53-r5-si-2#a"

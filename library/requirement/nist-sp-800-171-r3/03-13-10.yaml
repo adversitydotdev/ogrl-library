@@ -38,45 +38,52 @@ objectives:
     methods:
       - method: examine
         statement: >
-          system and communications protection policy and procedures; procedures for
-          cryptographic key establishment and management; system design documentation;
-          system configuration settings; cryptographic mechanisms; system audit
-          records; system security plan; other relevant documents or records
+          system and communications protection policy and
+          procedures; procedures for cryptographic key establishment
+          and management; system design documentation; system
+          configuration settings; cryptographic mechanisms; system
+          audit records; system security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          personnel with responsibilities for cryptographic key establishment or
-          management; personnel with information security responsibilities; system
-          administrators
+          personnel with responsibilities for cryptographic key
+          establishment or management; personnel with information
+          security responsibilities; system administrators
       - method: test
         statement: >
-          mechanisms for supporting or implementing cryptographic key establishment
-          and management
+          mechanisms for supporting or implementing cryptographic
+          key establishment and management
     statement: >
-      cryptographic keys are established in the system in accordance with the
-      following key management requirements: {{ a_03_13_10_odp_01 }}.
+      cryptographic keys are established in the system in accordance
+      with the following key management requirements:
+      {{ a_03_13_10_odp_01 }}.
   - id: "02"
     methods:
       - method: examine
         statement: >
-          system and communications protection policy and procedures; procedures for
-          cryptographic key establishment and management; system design documentation;
-          system configuration settings; cryptographic mechanisms; system audit
-          records; system security plan; other relevant documents or records
+          system and communications protection policy and
+          procedures; procedures for cryptographic key establishment
+          and management; system design documentation; system
+          configuration settings; cryptographic mechanisms; system
+          audit records; system security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          personnel with responsibilities for cryptographic key establishment or
-          management; personnel with information security responsibilities; system
-          administrators
+          personnel with responsibilities for cryptographic key
+          establishment or management; personnel with information
+          security responsibilities; system administrators
       - method: test
         statement: >
-          mechanisms for supporting or implementing cryptographic key establishment
-          and management
+          mechanisms for supporting or implementing cryptographic
+          key establishment and management
     statement: >
-      cryptographic keys are managed in the system in accordance with the
-      following key management requirements: {{ a_03_13_10_odp_01 }}.
+      cryptographic keys are managed in the system in accordance
+      with the following key management requirements:
+      {{ a_03_13_10_odp_01 }}.
 parameters:
   a_03_13_10_odp_01:
     label: requirements
 statement: >
-  Establish and manage cryptographic keys in the system in accordance with the
-  following key management requirements: {{ a_03_13_10_odp_01 }}.
+  Establish and manage cryptographic keys in the system in
+  accordance with the following key management requirements:
+  {{ a_03_13_10_odp_01 }}.

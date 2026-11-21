@@ -9,6 +9,7 @@ relationship: equivalent-to
 review_status: draft
 source_ref: control--ogrl-gv-08
 summary: >
-  Restricting modification to owners protects the plan from unauthorized
-  change; disclosure protection relies on repository access controls.
+  Restricting modification to owners protects the plan from
+  unauthorized change; disclosure protection relies on repository
+  access controls.
 target_ref: "requirement--nist-sp-800-53-r5-pl-2#e"

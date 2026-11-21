@@ -17,23 +17,26 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Physical and environmental protection policy; procedures addressing
-          information leakage due to electromagnetic signal emanations; mechanisms
-          protecting the system against electronic signal emanations; facility housing
-          the system; records from electromagnetic signal emanation tests; system
-          security plan; other relevant documents or records
+          Physical and environmental protection policy; procedures
+          addressing information leakage due to electromagnetic
+          signal emanations; mechanisms protecting the system
+          against electronic signal emanations; facility housing the
+          system; records from electromagnetic signal emanation
+          tests; system security plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          Organizational personnel with responsibilities for system environmental
-          controls; organizational personnel with information security
-          responsibilities
+          Organizational personnel with responsibilities for system
+          environmental controls; organizational personnel with
+          information security responsibilities
       - method: test
         statement: >
-          Mechanisms supporting and/or implementing protection from information
-          leakage due to electromagnetic signal emanations
+          Mechanisms supporting and/or implementing protection from
+          information leakage due to electromagnetic signal
+          emanations
     statement: >
-      the system is protected from information leakage due to electromagnetic
-      signal emanations.
+      the system is protected from information leakage due to
+      electromagnetic signal emanations.
 statement: >
-  Protect the system from information leakage due to electromagnetic signals
-  emanations.
+  Protect the system from information leakage due to electromagnetic
+  signals emanations.

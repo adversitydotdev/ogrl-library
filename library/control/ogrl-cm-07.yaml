@@ -10,12 +10,12 @@ family: cm
 frequency: event-driven
 guidance: >
   Run staging in a separate cloud account or project with distinct
-  credentials. Configure required status checks in branch protection so merges
-  are blocked on failing tests, and keep CI run links on the pull request. Use
-  synthetic or masked data sets for testing.
+  credentials. Configure required status checks in branch protection
+  so merges are blocked on failing tests, and keep CI run links on
+  the pull request. Use synthetic or masked data sets for testing.
 objective: >
-  Catch defects and unintended effects before they reach production without
-  exposing customer data in lower environments.
+  Catch defects and unintended effects before they reach production
+  without exposing customer data in lower environments.
 origin: standard
 parameters:
   prod_data_exception_approver:
@@ -23,16 +23,18 @@ parameters:
     value: the security lead
   test_environment:
     label: Pre-production test environment
-    value: a staging environment in a separate cloud account or project
+    value: >-
+      a staging environment in a separate cloud account or project
 statement: >
-  Test and validate each change in {{ test_environment }} that is logically
-  separated from production before deployment, require automated test suites
-  to pass as a merge or deployment gate, retain test results with the change
-  record, and prohibit unmasked production customer data in non-production
-  environments unless approved by {{ prod_data_exception_approver }}.
+  Test and validate each change in {{ test_environment }} that is
+  logically separated from production before deployment, require
+  automated test suites to pass as a merge or deployment gate,
+  retain test results with the change record, and prohibit unmasked
+  production customer data in non-production environments unless
+  approved by {{ prod_data_exception_approver }}.
 summary: >
-  Test changes in separated non-production environments with automated gates
-  before production deployment.
+  Test changes in separated non-production environments with
+  automated gates before production deployment.
 tags:
   - change-management
   - testing

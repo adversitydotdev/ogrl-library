@@ -10,5 +10,6 @@ rationale: functional
 relationship: equivalent-to
 review_status: draft
 source_ref: control--ogrl-cm-09
-summary: "Defined response actions on integrity failure satisfy SI-7(b)."
+summary: >-
+  Defined response actions on integrity failure satisfy SI-7(b).
 target_ref: "requirement--nist-sp-800-53-r5-si-7#b"

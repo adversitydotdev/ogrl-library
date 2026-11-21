@@ -13,21 +13,27 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Assessment, authorization, and monitoring policy; procedures addressing
-          penetration testing; assessment plan; penetration test report; assessment
-          report; assessment evidence; system security plan; privacy plan; other
-          relevant documents or records
+          Assessment, authorization, and monitoring policy;
+          procedures addressing penetration testing; assessment
+          plan; penetration test report; assessment report;
+          assessment evidence; system security plan; privacy plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with control assessment responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities; system/network administrators
+          Organizational personnel with control assessment
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities;
+          system/network administrators
       - method: test
         statement: Mechanisms supporting penetration testing
-    statement: "penetration testing is conducted {{ ca_08_odp_01 }} on {{ ca_08_odp_02 }}."
+    statement: >-
+      penetration testing is conducted {{ ca_08_odp_01 }} on
+      {{ ca_08_odp_02 }}.
 parameters:
   ca_08_odp_01:
     label: frequency
   ca_08_odp_02:
     label: "system(s) or system components"
-statement: "Conduct penetration testing {{ ca_08_odp_01 }} on {{ ca_08_odp_02 }}."
+statement: >-
+  Conduct penetration testing {{ ca_08_odp_01 }} on
+  {{ ca_08_odp_02 }}.

@@ -13,25 +13,31 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Identification and authentication policy; system security plan; procedures
-          addressing user identification and authentication; system design
-          documentation; system configuration settings and associated documentation;
-          system audit records; system-generated list of out-of-band authentication
-          paths; other relevant documents or records
+          Identification and authentication policy; system security
+          plan; procedures addressing user identification and
+          authentication; system design documentation; system
+          configuration settings and associated documentation;
+          system audit records; system-generated list of out-of-band
+          authentication paths; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with system operations responsibilities;
-          organizational personnel with account management responsibilities;
-          organizational personnel with information security responsibilities;
-          system/network administrators; system developers
+          Organizational personnel with system operations
+          responsibilities; organizational personnel with account
+          management responsibilities; organizational personnel with
+          information security responsibilities; system/network
+          administrators; system developers
       - method: test
-        statement: Mechanisms supporting and/or implementing out-of-band authentication capability
-    statement: "{{ ia_02_13_odp_01 }} mechanisms are implemented under {{ ia_02_13_odp_02 }}."
+        statement: >-
+          Mechanisms supporting and/or implementing out-of-band
+          authentication capability
+    statement: >-
+      {{ ia_02_13_odp_01 }} mechanisms are implemented under
+      {{ ia_02_13_odp_02 }}.
 parameters:
   ia_02_13_odp_01:
     label: out-of-band authentication
   ia_02_13_odp_02:
     label: conditions
 statement: >
-  Implement the following out-of-band authentication mechanisms under
-  {{ ia_02_13_odp_02 }}: {{ ia_02_13_odp_01 }}.
+  Implement the following out-of-band authentication mechanisms
+  under {{ ia_02_13_odp_02 }}: {{ ia_02_13_odp_01 }}.

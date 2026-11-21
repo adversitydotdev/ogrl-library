@@ -10,5 +10,7 @@ rationale: functional
 relationship: equivalent-to
 review_status: reviewed
 source_ref: control--ogrl-vm-01
-summary: "Risk-based vulnerability remediation SLAs directly satisfy NIST RA-5(d)."
+summary: >-
+  Risk-based vulnerability remediation SLAs directly satisfy NIST
+  RA-5(d).
 target_ref: "requirement--nist-sp-800-53-r5-ra-5#d"

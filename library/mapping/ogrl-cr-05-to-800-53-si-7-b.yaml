@@ -9,6 +9,6 @@ relationship: intersects-with
 review_status: draft
 source_ref: control--ogrl-cr-05
 summary: >
-  Alerting on detected data integrity errors is a response action for
-  information integrity under SI-7(b).
+  Alerting on detected data integrity errors is a response action
+  for information integrity under SI-7(b).
 target_ref: "requirement--nist-sp-800-53-r5-si-7#b"

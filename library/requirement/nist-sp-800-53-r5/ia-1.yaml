@@ -47,272 +47,312 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Identification and authentication policy and procedures; system security
-          plan; privacy plan; risk management strategy documentation; list of events
-          requiring identification and authentication procedures to be reviewed and
-          updated (e.g., audit findings); other relevant documents or records
+          Identification and authentication policy and procedures;
+          system security plan; privacy plan; risk management
+          strategy documentation; list of events requiring
+          identification and authentication procedures to be
+          reviewed and updated (e.g., audit findings); other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with identification and authentication
-          responsibilities; organizational personnel with information security and
-          privacy responsibilities
-    statement: an identification and authentication policy is developed and documented;
+          Organizational personnel with identification and
+          authentication responsibilities; organizational personnel
+          with information security and privacy responsibilities
+    statement: >-
+      an identification and authentication policy is developed and
+      documented;
   - id: a-2
     methods:
       - method: examine
         statement: >
-          Identification and authentication policy and procedures; system security
-          plan; privacy plan; risk management strategy documentation; list of events
-          requiring identification and authentication procedures to be reviewed and
-          updated (e.g., audit findings); other relevant documents or records
+          Identification and authentication policy and procedures;
+          system security plan; privacy plan; risk management
+          strategy documentation; list of events requiring
+          identification and authentication procedures to be
+          reviewed and updated (e.g., audit findings); other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with identification and authentication
-          responsibilities; organizational personnel with information security and
-          privacy responsibilities
+          Organizational personnel with identification and
+          authentication responsibilities; organizational personnel
+          with information security and privacy responsibilities
     statement: >
-      the identification and authentication policy is disseminated to
-      {{ ia_01_odp_01 }};
+      the identification and authentication policy is disseminated
+      to {{ ia_01_odp_01 }};
   - id: a-3
     methods:
       - method: examine
         statement: >
-          Identification and authentication policy and procedures; system security
-          plan; privacy plan; risk management strategy documentation; list of events
-          requiring identification and authentication procedures to be reviewed and
-          updated (e.g., audit findings); other relevant documents or records
+          Identification and authentication policy and procedures;
+          system security plan; privacy plan; risk management
+          strategy documentation; list of events requiring
+          identification and authentication procedures to be
+          reviewed and updated (e.g., audit findings); other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with identification and authentication
-          responsibilities; organizational personnel with information security and
-          privacy responsibilities
+          Organizational personnel with identification and
+          authentication responsibilities; organizational personnel
+          with information security and privacy responsibilities
     statement: >
       identification and authentication procedures to facilitate the
-      implementation of the identification and authentication policy and
-      associated identification and authentication controls are developed and
-      documented;
+      implementation of the identification and authentication policy
+      and associated identification and authentication controls are
+      developed and documented;
   - id: a-4
     methods:
       - method: examine
         statement: >
-          Identification and authentication policy and procedures; system security
-          plan; privacy plan; risk management strategy documentation; list of events
-          requiring identification and authentication procedures to be reviewed and
-          updated (e.g., audit findings); other relevant documents or records
+          Identification and authentication policy and procedures;
+          system security plan; privacy plan; risk management
+          strategy documentation; list of events requiring
+          identification and authentication procedures to be
+          reviewed and updated (e.g., audit findings); other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with identification and authentication
-          responsibilities; organizational personnel with information security and
-          privacy responsibilities
+          Organizational personnel with identification and
+          authentication responsibilities; organizational personnel
+          with information security and privacy responsibilities
     statement: >
-      the identification and authentication procedures are disseminated to
-      {{ ia_01_odp_02 }};
+      the identification and authentication procedures are
+      disseminated to {{ ia_01_odp_02 }};
   - id: a.1.a-1
     methods:
       - method: examine
         statement: >
-          Identification and authentication policy and procedures; system security
-          plan; privacy plan; risk management strategy documentation; list of events
-          requiring identification and authentication procedures to be reviewed and
-          updated (e.g., audit findings); other relevant documents or records
+          Identification and authentication policy and procedures;
+          system security plan; privacy plan; risk management
+          strategy documentation; list of events requiring
+          identification and authentication procedures to be
+          reviewed and updated (e.g., audit findings); other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with identification and authentication
-          responsibilities; organizational personnel with information security and
-          privacy responsibilities
+          Organizational personnel with identification and
+          authentication responsibilities; organizational personnel
+          with information security and privacy responsibilities
     statement: >
-      the {{ ia_01_odp_03 }} identification and authentication policy addresses
-      purpose;
+      the {{ ia_01_odp_03 }} identification and authentication
+      policy addresses purpose;
   - id: a.1.a-2
     methods:
       - method: examine
         statement: >
-          Identification and authentication policy and procedures; system security
-          plan; privacy plan; risk management strategy documentation; list of events
-          requiring identification and authentication procedures to be reviewed and
-          updated (e.g., audit findings); other relevant documents or records
+          Identification and authentication policy and procedures;
+          system security plan; privacy plan; risk management
+          strategy documentation; list of events requiring
+          identification and authentication procedures to be
+          reviewed and updated (e.g., audit findings); other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with identification and authentication
-          responsibilities; organizational personnel with information security and
-          privacy responsibilities
-    statement: "the {{ ia_01_odp_03 }} identification and authentication policy addresses scope;"
+          Organizational personnel with identification and
+          authentication responsibilities; organizational personnel
+          with information security and privacy responsibilities
+    statement: >-
+      the {{ ia_01_odp_03 }} identification and authentication
+      policy addresses scope;
   - id: a.1.a-3
     methods:
       - method: examine
         statement: >
-          Identification and authentication policy and procedures; system security
-          plan; privacy plan; risk management strategy documentation; list of events
-          requiring identification and authentication procedures to be reviewed and
-          updated (e.g., audit findings); other relevant documents or records
+          Identification and authentication policy and procedures;
+          system security plan; privacy plan; risk management
+          strategy documentation; list of events requiring
+          identification and authentication procedures to be
+          reviewed and updated (e.g., audit findings); other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with identification and authentication
-          responsibilities; organizational personnel with information security and
-          privacy responsibilities
-    statement: "the {{ ia_01_odp_03 }} identification and authentication policy addresses roles;"
+          Organizational personnel with identification and
+          authentication responsibilities; organizational personnel
+          with information security and privacy responsibilities
+    statement: >-
+      the {{ ia_01_odp_03 }} identification and authentication
+      policy addresses roles;
   - id: a.1.a-4
     methods:
       - method: examine
         statement: >
-          Identification and authentication policy and procedures; system security
-          plan; privacy plan; risk management strategy documentation; list of events
-          requiring identification and authentication procedures to be reviewed and
-          updated (e.g., audit findings); other relevant documents or records
+          Identification and authentication policy and procedures;
+          system security plan; privacy plan; risk management
+          strategy documentation; list of events requiring
+          identification and authentication procedures to be
+          reviewed and updated (e.g., audit findings); other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with identification and authentication
-          responsibilities; organizational personnel with information security and
-          privacy responsibilities
+          Organizational personnel with identification and
+          authentication responsibilities; organizational personnel
+          with information security and privacy responsibilities
     statement: >
-      the {{ ia_01_odp_03 }} identification and authentication policy addresses
-      responsibilities;
+      the {{ ia_01_odp_03 }} identification and authentication
+      policy addresses responsibilities;
   - id: a.1.a-5
     methods:
       - method: examine
         statement: >
-          Identification and authentication policy and procedures; system security
-          plan; privacy plan; risk management strategy documentation; list of events
-          requiring identification and authentication procedures to be reviewed and
-          updated (e.g., audit findings); other relevant documents or records
+          Identification and authentication policy and procedures;
+          system security plan; privacy plan; risk management
+          strategy documentation; list of events requiring
+          identification and authentication procedures to be
+          reviewed and updated (e.g., audit findings); other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with identification and authentication
-          responsibilities; organizational personnel with information security and
-          privacy responsibilities
+          Organizational personnel with identification and
+          authentication responsibilities; organizational personnel
+          with information security and privacy responsibilities
     statement: >
-      the {{ ia_01_odp_03 }} identification and authentication policy addresses
-      management commitment;
+      the {{ ia_01_odp_03 }} identification and authentication
+      policy addresses management commitment;
   - id: a.1.a-6
     methods:
       - method: examine
         statement: >
-          Identification and authentication policy and procedures; system security
-          plan; privacy plan; risk management strategy documentation; list of events
-          requiring identification and authentication procedures to be reviewed and
-          updated (e.g., audit findings); other relevant documents or records
+          Identification and authentication policy and procedures;
+          system security plan; privacy plan; risk management
+          strategy documentation; list of events requiring
+          identification and authentication procedures to be
+          reviewed and updated (e.g., audit findings); other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with identification and authentication
-          responsibilities; organizational personnel with information security and
-          privacy responsibilities
+          Organizational personnel with identification and
+          authentication responsibilities; organizational personnel
+          with information security and privacy responsibilities
     statement: >
-      the {{ ia_01_odp_03 }} identification and authentication policy addresses
-      coordination among organizational entities;
+      the {{ ia_01_odp_03 }} identification and authentication
+      policy addresses coordination among organizational entities;
   - id: a.1.a-7
     methods:
       - method: examine
         statement: >
-          Identification and authentication policy and procedures; system security
-          plan; privacy plan; risk management strategy documentation; list of events
-          requiring identification and authentication procedures to be reviewed and
-          updated (e.g., audit findings); other relevant documents or records
+          Identification and authentication policy and procedures;
+          system security plan; privacy plan; risk management
+          strategy documentation; list of events requiring
+          identification and authentication procedures to be
+          reviewed and updated (e.g., audit findings); other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with identification and authentication
-          responsibilities; organizational personnel with information security and
-          privacy responsibilities
+          Organizational personnel with identification and
+          authentication responsibilities; organizational personnel
+          with information security and privacy responsibilities
     statement: >
-      the {{ ia_01_odp_03 }} identification and authentication policy addresses
-      compliance;
+      the {{ ia_01_odp_03 }} identification and authentication
+      policy addresses compliance;
   - id: a.1.b
     methods:
       - method: examine
         statement: >
-          Identification and authentication policy and procedures; system security
-          plan; privacy plan; risk management strategy documentation; list of events
-          requiring identification and authentication procedures to be reviewed and
-          updated (e.g., audit findings); other relevant documents or records
+          Identification and authentication policy and procedures;
+          system security plan; privacy plan; risk management
+          strategy documentation; list of events requiring
+          identification and authentication procedures to be
+          reviewed and updated (e.g., audit findings); other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with identification and authentication
-          responsibilities; organizational personnel with information security and
-          privacy responsibilities
+          Organizational personnel with identification and
+          authentication responsibilities; organizational personnel
+          with information security and privacy responsibilities
     statement: >
-      the {{ ia_01_odp_03 }} identification and authentication policy is
-      consistent with applicable laws, executive orders, directives, regulations,
-      policies, standards, and guidelines;
+      the {{ ia_01_odp_03 }} identification and authentication
+      policy is consistent with applicable laws, executive orders,
+      directives, regulations, policies, standards, and guidelines;
   - id: b
     methods:
       - method: examine
         statement: >
-          Identification and authentication policy and procedures; system security
-          plan; privacy plan; risk management strategy documentation; list of events
-          requiring identification and authentication procedures to be reviewed and
-          updated (e.g., audit findings); other relevant documents or records
+          Identification and authentication policy and procedures;
+          system security plan; privacy plan; risk management
+          strategy documentation; list of events requiring
+          identification and authentication procedures to be
+          reviewed and updated (e.g., audit findings); other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with identification and authentication
-          responsibilities; organizational personnel with information security and
-          privacy responsibilities
+          Organizational personnel with identification and
+          authentication responsibilities; organizational personnel
+          with information security and privacy responsibilities
     statement: >
-      the {{ ia_01_odp_04 }} is designated to manage the development,
-      documentation, and dissemination of the identification and authentication
-      policy and procedures;
+      the {{ ia_01_odp_04 }} is designated to manage the
+      development, documentation, and dissemination of the
+      identification and authentication policy and procedures;
   - id: c.1-1
     methods:
       - method: examine
         statement: >
-          Identification and authentication policy and procedures; system security
-          plan; privacy plan; risk management strategy documentation; list of events
-          requiring identification and authentication procedures to be reviewed and
-          updated (e.g., audit findings); other relevant documents or records
+          Identification and authentication policy and procedures;
+          system security plan; privacy plan; risk management
+          strategy documentation; list of events requiring
+          identification and authentication procedures to be
+          reviewed and updated (e.g., audit findings); other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with identification and authentication
-          responsibilities; organizational personnel with information security and
-          privacy responsibilities
+          Organizational personnel with identification and
+          authentication responsibilities; organizational personnel
+          with information security and privacy responsibilities
     statement: >
-      the current identification and authentication policy is reviewed and updated
-      {{ ia_01_odp_05 }};
+      the current identification and authentication policy is
+      reviewed and updated {{ ia_01_odp_05 }};
   - id: c.1-2
     methods:
       - method: examine
         statement: >
-          Identification and authentication policy and procedures; system security
-          plan; privacy plan; risk management strategy documentation; list of events
-          requiring identification and authentication procedures to be reviewed and
-          updated (e.g., audit findings); other relevant documents or records
+          Identification and authentication policy and procedures;
+          system security plan; privacy plan; risk management
+          strategy documentation; list of events requiring
+          identification and authentication procedures to be
+          reviewed and updated (e.g., audit findings); other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with identification and authentication
-          responsibilities; organizational personnel with information security and
-          privacy responsibilities
+          Organizational personnel with identification and
+          authentication responsibilities; organizational personnel
+          with information security and privacy responsibilities
     statement: >
-      the current identification and authentication policy is reviewed and updated
-      following {{ ia_01_odp_06 }};
+      the current identification and authentication policy is
+      reviewed and updated following {{ ia_01_odp_06 }};
   - id: c.2-1
     methods:
       - method: examine
         statement: >
-          Identification and authentication policy and procedures; system security
-          plan; privacy plan; risk management strategy documentation; list of events
-          requiring identification and authentication procedures to be reviewed and
-          updated (e.g., audit findings); other relevant documents or records
+          Identification and authentication policy and procedures;
+          system security plan; privacy plan; risk management
+          strategy documentation; list of events requiring
+          identification and authentication procedures to be
+          reviewed and updated (e.g., audit findings); other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with identification and authentication
-          responsibilities; organizational personnel with information security and
-          privacy responsibilities
+          Organizational personnel with identification and
+          authentication responsibilities; organizational personnel
+          with information security and privacy responsibilities
     statement: >
-      the current identification and authentication procedures are reviewed and
-      updated {{ ia_01_odp_07 }};
+      the current identification and authentication procedures are
+      reviewed and updated {{ ia_01_odp_07 }};
   - id: c.2-2
     methods:
       - method: examine
         statement: >
-          Identification and authentication policy and procedures; system security
-          plan; privacy plan; risk management strategy documentation; list of events
-          requiring identification and authentication procedures to be reviewed and
-          updated (e.g., audit findings); other relevant documents or records
+          Identification and authentication policy and procedures;
+          system security plan; privacy plan; risk management
+          strategy documentation; list of events requiring
+          identification and authentication procedures to be
+          reviewed and updated (e.g., audit findings); other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with identification and authentication
-          responsibilities; organizational personnel with information security and
-          privacy responsibilities
+          Organizational personnel with identification and
+          authentication responsibilities; organizational personnel
+          with information security and privacy responsibilities
     statement: >
-      the current identification and authentication procedures are reviewed and
-      updated following {{ ia_01_odp_08 }}.
+      the current identification and authentication procedures are
+      reviewed and updated following {{ ia_01_odp_08 }}.
 parameters:
   ia_01_odp_01:
     label: personnel or roles
@@ -334,30 +374,41 @@ parameters:
     label: organization-defined personnel or roles
 parts:
   - id: a
-    statement: "Develop, document, and disseminate to {{ ia_1_prm_1 }}:"
+    statement: >-
+      Develop, document, and disseminate to {{ ia_1_prm_1 }}:
   - id: a.1
-    statement: "{{ ia_01_odp_03 }} identification and authentication policy that:"
+    statement: >-
+      {{ ia_01_odp_03 }} identification and authentication policy
+      that:
   - id: a.1.a
     statement: >
-      Addresses purpose, scope, roles, responsibilities, management commitment,
-      coordination among organizational entities, and compliance; and
+      Addresses purpose, scope, roles, responsibilities, management
+      commitment, coordination among organizational entities, and
+      compliance; and
   - id: a.1.b
     statement: >
-      Is consistent with applicable laws, executive orders, directives,
-      regulations, policies, standards, and guidelines; and
+      Is consistent with applicable laws, executive orders,
+      directives, regulations, policies, standards, and guidelines;
+      and
   - id: a.2
     statement: >
-      Procedures to facilitate the implementation of the identification and
-      authentication policy and the associated identification and authentication
-      controls;
+      Procedures to facilitate the implementation of the
+      identification and authentication policy and the associated
+      identification and authentication controls;
   - id: b
     statement: >
-      Designate an {{ ia_01_odp_04 }} to manage the development, documentation,
-      and dissemination of the identification and authentication policy and
-      procedures; and
+      Designate an {{ ia_01_odp_04 }} to manage the development,
+      documentation, and dissemination of the identification and
+      authentication policy and procedures; and
   - id: c
-    statement: "Review and update the current identification and authentication:"
+    statement: >-
+      Review and update the current identification and
+      authentication:
   - id: c.1
-    statement: "Policy {{ ia_01_odp_05 }} and following {{ ia_01_odp_06 }} ; and"
+    statement: >-
+      Policy {{ ia_01_odp_05 }} and following {{ ia_01_odp_06 }} ;
+      and
   - id: c.2
-    statement: "Procedures {{ ia_01_odp_07 }} and following {{ ia_01_odp_08 }}."
+    statement: >-
+      Procedures {{ ia_01_odp_07 }} and following
+      {{ ia_01_odp_08 }}.

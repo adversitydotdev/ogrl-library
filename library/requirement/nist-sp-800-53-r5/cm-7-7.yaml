@@ -13,65 +13,78 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Configuration management policy; procedures addressing least functionality
-          in the system; configuration management plan; system design documentation;
-          system configuration settings and associated documentation; list or record
-          of binary or machine-executable code; system component inventory; common
-          secure configuration checklists; system audit records; system security plan;
+          Configuration management policy; procedures addressing
+          least functionality in the system; configuration
+          management plan; system design documentation; system
+          configuration settings and associated documentation; list
+          or record of binary or machine-executable code; system
+          component inventory; common secure configuration
+          checklists; system audit records; system security plan;
           other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with responsibilities for approving execution of
-          binary or machine-executable code; organizational personnel with information
-          security responsibilities; organizational personnel with software management
-          responsibilities; system/network administrators; system developers
+          Organizational personnel with responsibilities for
+          approving execution of binary or machine-executable code;
+          organizational personnel with information security
+          responsibilities; organizational personnel with software
+          management responsibilities; system/network
+          administrators; system developers
       - method: test
         statement: >
-          Organizational process for approving execution of binary or
-          machine-executable code; organizational process for confining binary or
-          machine-executable code to physical or virtual machine environments;
-          mechanisms supporting and/or implementing the confinement of binary or
-          machine-executable code to physical or virtual machine environments
+          Organizational process for approving execution of binary
+          or machine-executable code; organizational process for
+          confining binary or machine-executable code to physical or
+          virtual machine environments; mechanisms supporting and/or
+          implementing the confinement of binary or
+          machine-executable code to physical or virtual machine
+          environments
     statement: >
-      the execution of binary or machine-executable code obtained from sources
-      with limited or no warranty is only allowed with the explicit approval of
-      {{ cm_07_07_odp }};
+      the execution of binary or machine-executable code obtained
+      from sources with limited or no warranty is only allowed with
+      the explicit approval of {{ cm_07_07_odp }};
   - id: b
     methods:
       - method: examine
         statement: >
-          Configuration management policy; procedures addressing least functionality
-          in the system; configuration management plan; system design documentation;
-          system configuration settings and associated documentation; list or record
-          of binary or machine-executable code; system component inventory; common
-          secure configuration checklists; system audit records; system security plan;
+          Configuration management policy; procedures addressing
+          least functionality in the system; configuration
+          management plan; system design documentation; system
+          configuration settings and associated documentation; list
+          or record of binary or machine-executable code; system
+          component inventory; common secure configuration
+          checklists; system audit records; system security plan;
           other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with responsibilities for approving execution of
-          binary or machine-executable code; organizational personnel with information
-          security responsibilities; organizational personnel with software management
-          responsibilities; system/network administrators; system developers
+          Organizational personnel with responsibilities for
+          approving execution of binary or machine-executable code;
+          organizational personnel with information security
+          responsibilities; organizational personnel with software
+          management responsibilities; system/network
+          administrators; system developers
       - method: test
         statement: >
-          Organizational process for approving execution of binary or
-          machine-executable code; organizational process for confining binary or
-          machine-executable code to physical or virtual machine environments;
-          mechanisms supporting and/or implementing the confinement of binary or
-          machine-executable code to physical or virtual machine environments
+          Organizational process for approving execution of binary
+          or machine-executable code; organizational process for
+          confining binary or machine-executable code to physical or
+          virtual machine environments; mechanisms supporting and/or
+          implementing the confinement of binary or
+          machine-executable code to physical or virtual machine
+          environments
     statement: >
-      the execution of binary or machine-executable code without the provision of
-      source code is only allowed with the explicit approval of
-      {{ cm_07_07_odp }}.
+      the execution of binary or machine-executable code without the
+      provision of source code is only allowed with the explicit
+      approval of {{ cm_07_07_odp }}.
 parameters:
   cm_07_07_odp:
     label: personnel or roles
 parts:
   - id: a
-    statement: Obtained from sources with limited or no warranty; and/or
+    statement: >-
+      Obtained from sources with limited or no warranty; and/or
   - id: b
     statement: Without the provision of source code.
 statement: >
-  Allow execution of binary or machine-executable code only in confined
-  physical or virtual machine environments and with the explicit approval of
-  {{ cm_07_07_odp }} when such code is:
+  Allow execution of binary or machine-executable code only in
+  confined physical or virtual machine environments and with the
+  explicit approval of {{ cm_07_07_odp }} when such code is:

@@ -13,26 +13,30 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Audit and accountability policy; system security plan; privacy plan; privacy
-          risk assessment; privacy risk assessment results; procedures addressing
-          content of audit records; system design documentation; system configuration
-          settings and associated documentation; list of organization-defined
-          auditable events; system audit records; third party contracts; other
-          relevant documents or records
+          Audit and accountability policy; system security plan;
+          privacy plan; privacy risk assessment; privacy risk
+          assessment results; procedures addressing content of audit
+          records; system design documentation; system configuration
+          settings and associated documentation; list of
+          organization-defined auditable events; system audit
+          records; third party contracts; other relevant documents
+          or records
       - method: interview
         statement: >
-          Organizational personnel with audit and accountability responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities; system/network administrators; system developers
+          Organizational personnel with audit and accountability
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities;
+          system/network administrators; system developers
       - method: test
         statement: system audit capability
     statement: >
-      personally identifiable information contained in audit records is limited to
-      {{ au_03_03_odp }} identified in the privacy risk assessment.
+      personally identifiable information contained in audit records
+      is limited to {{ au_03_03_odp }} identified in the privacy
+      risk assessment.
 parameters:
   au_03_03_odp:
     label: elements
 statement: >
-  Limit personally identifiable information contained in audit records to the
-  following elements identified in the privacy risk assessment:
-  {{ au_03_03_odp }}.
+  Limit personally identifiable information contained in audit
+  records to the following elements identified in the privacy risk
+  assessment: {{ au_03_03_odp }}.

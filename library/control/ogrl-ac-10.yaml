@@ -9,14 +9,14 @@ control_type: preventive
 family: ac
 frequency: continuous
 guidance: >
-  Enforce screen lock through MDM configuration profiles and session lifetimes
-  through identity provider and cloud console session policies. Apply shorter
-  timeouts to production and administrative access than to collaboration
-  tools. Evidence is typically the MDM profile, IdP session policy, and cloud
-  console session settings.
+  Enforce screen lock through MDM configuration profiles and session
+  lifetimes through identity provider and cloud console session
+  policies. Apply shorter timeouts to production and administrative
+  access than to collaboration tools. Evidence is typically the MDM
+  profile, IdP session policy, and cloud console session settings.
 objective: >
-  Prevent unattended or hijacked sessions from being used to access systems
-  and data.
+  Prevent unattended or hijacked sessions from being used to access
+  systems and data.
 origin: standard
 parameters:
   device_lock_timeout:
@@ -24,16 +24,17 @@ parameters:
     value: "15 minutes"
   session_termination_conditions:
     label: Session termination conditions
-    value: "30 minutes of inactivity or 12 hours of total session duration"
+    value: >-
+      30 minutes of inactivity or 12 hours of total session duration
 statement: >
   Configure workforce endpoints to lock the screen after
-  {{ device_lock_timeout }} of inactivity, requiring re-authentication to
-  unlock, and configure in-scope applications, administrative consoles, and
-  remote access sessions to terminate after
-  {{ session_termination_conditions }}.
+  {{ device_lock_timeout }} of inactivity, requiring
+  re-authentication to unlock, and configure in-scope applications,
+  administrative consoles, and remote access sessions to terminate
+  after {{ session_termination_conditions }}.
 summary: >
-  Lock idle workstations and terminate idle or long-lived sessions to in-scope
-  systems.
+  Lock idle workstations and terminate idle or long-lived sessions
+  to in-scope systems.
 tags:
   - session-management
   - endpoint

@@ -23,121 +23,150 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Assessment, authorization, and monitoring policy; procedures addressing
-          authorization; system security plan, privacy plan, assessment report, plan
-          of action and milestones; authorization statement; other relevant documents
-          or records
+          Assessment, authorization, and monitoring policy;
+          procedures addressing authorization; system security plan,
+          privacy plan, assessment report, plan of action and
+          milestones; authorization statement; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with authorization responsibilities; organizational
-          personnel with information security and privacy responsibilities
+          Organizational personnel with authorization
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities
       - method: test
-        statement: Mechanisms that facilitate authorizations and updates
-    statement: a senior official is assigned as the authorizing official for the system;
+        statement: >-
+          Mechanisms that facilitate authorizations and updates
+    statement: >-
+      a senior official is assigned as the authorizing official for
+      the system;
   - id: b
     methods:
       - method: examine
         statement: >
-          Assessment, authorization, and monitoring policy; procedures addressing
-          authorization; system security plan, privacy plan, assessment report, plan
-          of action and milestones; authorization statement; other relevant documents
-          or records
+          Assessment, authorization, and monitoring policy;
+          procedures addressing authorization; system security plan,
+          privacy plan, assessment report, plan of action and
+          milestones; authorization statement; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with authorization responsibilities; organizational
-          personnel with information security and privacy responsibilities
+          Organizational personnel with authorization
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities
       - method: test
-        statement: Mechanisms that facilitate authorizations and updates
+        statement: >-
+          Mechanisms that facilitate authorizations and updates
     statement: >
-      a senior official is assigned as the authorizing official for common
-      controls available for inheritance by organizational systems;
+      a senior official is assigned as the authorizing official for
+      common controls available for inheritance by organizational
+      systems;
   - id: c.1
     methods:
       - method: examine
         statement: >
-          Assessment, authorization, and monitoring policy; procedures addressing
-          authorization; system security plan, privacy plan, assessment report, plan
-          of action and milestones; authorization statement; other relevant documents
-          or records
+          Assessment, authorization, and monitoring policy;
+          procedures addressing authorization; system security plan,
+          privacy plan, assessment report, plan of action and
+          milestones; authorization statement; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with authorization responsibilities; organizational
-          personnel with information security and privacy responsibilities
+          Organizational personnel with authorization
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities
       - method: test
-        statement: Mechanisms that facilitate authorizations and updates
+        statement: >-
+          Mechanisms that facilitate authorizations and updates
     statement: >
-      before commencing operations, the authorizing official for the system
-      accepts the use of common controls inherited by the system;
+      before commencing operations, the authorizing official for the
+      system accepts the use of common controls inherited by the
+      system;
   - id: c.2
     methods:
       - method: examine
         statement: >
-          Assessment, authorization, and monitoring policy; procedures addressing
-          authorization; system security plan, privacy plan, assessment report, plan
-          of action and milestones; authorization statement; other relevant documents
-          or records
+          Assessment, authorization, and monitoring policy;
+          procedures addressing authorization; system security plan,
+          privacy plan, assessment report, plan of action and
+          milestones; authorization statement; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with authorization responsibilities; organizational
-          personnel with information security and privacy responsibilities
+          Organizational personnel with authorization
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities
       - method: test
-        statement: Mechanisms that facilitate authorizations and updates
+        statement: >-
+          Mechanisms that facilitate authorizations and updates
     statement: >
-      before commencing operations, the authorizing official for the system
-      authorizes the system to operate;
+      before commencing operations, the authorizing official for the
+      system authorizes the system to operate;
   - id: d
     methods:
       - method: examine
         statement: >
-          Assessment, authorization, and monitoring policy; procedures addressing
-          authorization; system security plan, privacy plan, assessment report, plan
-          of action and milestones; authorization statement; other relevant documents
-          or records
+          Assessment, authorization, and monitoring policy;
+          procedures addressing authorization; system security plan,
+          privacy plan, assessment report, plan of action and
+          milestones; authorization statement; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with authorization responsibilities; organizational
-          personnel with information security and privacy responsibilities
+          Organizational personnel with authorization
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities
       - method: test
-        statement: Mechanisms that facilitate authorizations and updates
+        statement: >-
+          Mechanisms that facilitate authorizations and updates
     statement: >
-      the authorizing official for common controls authorizes the use of those
-      controls for inheritance by organizational systems;
+      the authorizing official for common controls authorizes the
+      use of those controls for inheritance by organizational
+      systems;
   - id: e
     methods:
       - method: examine
         statement: >
-          Assessment, authorization, and monitoring policy; procedures addressing
-          authorization; system security plan, privacy plan, assessment report, plan
-          of action and milestones; authorization statement; other relevant documents
-          or records
+          Assessment, authorization, and monitoring policy;
+          procedures addressing authorization; system security plan,
+          privacy plan, assessment report, plan of action and
+          milestones; authorization statement; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with authorization responsibilities; organizational
-          personnel with information security and privacy responsibilities
+          Organizational personnel with authorization
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities
       - method: test
-        statement: Mechanisms that facilitate authorizations and updates
+        statement: >-
+          Mechanisms that facilitate authorizations and updates
     statement: "the authorizations are updated {{ ca_06_odp }}."
 parameters:
   ca_06_odp:
     label: frequency
 parts:
   - id: a
-    statement: Assign a senior official as the authorizing official for the system;
+    statement: >-
+      Assign a senior official as the authorizing official for the
+      system;
   - id: b
     statement: >
-      Assign a senior official as the authorizing official for common controls
-      available for inheritance by organizational systems;
+      Assign a senior official as the authorizing official for
+      common controls available for inheritance by organizational
+      systems;
   - id: c
     statement: >
-      Ensure that the authorizing official for the system, before commencing
-      operations:
+      Ensure that the authorizing official for the system, before
+      commencing operations:
   - id: c.1
-    statement: Accepts the use of common controls inherited by the system; and
+    statement: >-
+      Accepts the use of common controls inherited by the system;
+      and
   - id: c.2
     statement: Authorizes the system to operate;
   - id: d
     statement: >
-      Ensure that the authorizing official for common controls authorizes the use
-      of those controls for inheritance by organizational systems;
+      Ensure that the authorizing official for common controls
+      authorizes the use of those controls for inheritance by
+      organizational systems;
   - id: e
     statement: "Update the authorizations {{ ca_06_odp }}."

@@ -10,5 +10,6 @@ rationale: functional
 relationship: equivalent-to
 review_status: draft
 source_ref: control--ogrl-pr-04
-summary: "Limiting processing to approved PII elements satisfies SI-12(1)."
+summary: >-
+  Limiting processing to approved PII elements satisfies SI-12(1).
 target_ref: requirement--nist-sp-800-53-r5-si-12-1

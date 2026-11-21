@@ -13,99 +13,117 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Personnel security policy; personnel security procedures; procedures
-          addressing access agreements for organizational information and systems;
-          access control policy; access control procedures; access agreements
-          (including non-disclosure agreements, acceptable use agreements, rules of
-          behavior, and conflict-of-interest agreements); documentation of access
-          agreement reviews, updates, and re-signing; system security plan; privacy
-          plan; other relevant documents or records
+          Personnel security policy; personnel security procedures;
+          procedures addressing access agreements for organizational
+          information and systems; access control policy; access
+          control procedures; access agreements (including
+          non-disclosure agreements, acceptable use agreements,
+          rules of behavior, and conflict-of-interest agreements);
+          documentation of access agreement reviews, updates, and
+          re-signing; system security plan; privacy plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with personnel security responsibilities;
-          organizational personnel who have signed/resigned access agreements;
-          organizational personnel with information security and privacy
+          Organizational personnel with personnel security
+          responsibilities; organizational personnel who have
+          signed/resigned access agreements; organizational
+          personnel with information security and privacy
           responsibilities
       - method: test
         statement: >
-          Organizational processes for reviewing, updating, and re-signing access
-          agreements; mechanisms supporting the reviewing, updating, and re-signing of
-          access agreements
-    statement: access agreements are developed and documented for organizational systems;
+          Organizational processes for reviewing, updating, and
+          re-signing access agreements; mechanisms supporting the
+          reviewing, updating, and re-signing of access agreements
+    statement: >-
+      access agreements are developed and documented for
+      organizational systems;
   - id: b
     methods:
       - method: examine
         statement: >
-          Personnel security policy; personnel security procedures; procedures
-          addressing access agreements for organizational information and systems;
-          access control policy; access control procedures; access agreements
-          (including non-disclosure agreements, acceptable use agreements, rules of
-          behavior, and conflict-of-interest agreements); documentation of access
-          agreement reviews, updates, and re-signing; system security plan; privacy
-          plan; other relevant documents or records
+          Personnel security policy; personnel security procedures;
+          procedures addressing access agreements for organizational
+          information and systems; access control policy; access
+          control procedures; access agreements (including
+          non-disclosure agreements, acceptable use agreements,
+          rules of behavior, and conflict-of-interest agreements);
+          documentation of access agreement reviews, updates, and
+          re-signing; system security plan; privacy plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with personnel security responsibilities;
-          organizational personnel who have signed/resigned access agreements;
-          organizational personnel with information security and privacy
+          Organizational personnel with personnel security
+          responsibilities; organizational personnel who have
+          signed/resigned access agreements; organizational
+          personnel with information security and privacy
           responsibilities
       - method: test
         statement: >
-          Organizational processes for reviewing, updating, and re-signing access
-          agreements; mechanisms supporting the reviewing, updating, and re-signing of
-          access agreements
-    statement: "the access agreements are reviewed and updated {{ ps_06_odp_01 }};"
+          Organizational processes for reviewing, updating, and
+          re-signing access agreements; mechanisms supporting the
+          reviewing, updating, and re-signing of access agreements
+    statement: >-
+      the access agreements are reviewed and updated
+      {{ ps_06_odp_01 }};
   - id: c.1
     methods:
       - method: examine
         statement: >
-          Personnel security policy; personnel security procedures; procedures
-          addressing access agreements for organizational information and systems;
-          access control policy; access control procedures; access agreements
-          (including non-disclosure agreements, acceptable use agreements, rules of
-          behavior, and conflict-of-interest agreements); documentation of access
-          agreement reviews, updates, and re-signing; system security plan; privacy
-          plan; other relevant documents or records
+          Personnel security policy; personnel security procedures;
+          procedures addressing access agreements for organizational
+          information and systems; access control policy; access
+          control procedures; access agreements (including
+          non-disclosure agreements, acceptable use agreements,
+          rules of behavior, and conflict-of-interest agreements);
+          documentation of access agreement reviews, updates, and
+          re-signing; system security plan; privacy plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with personnel security responsibilities;
-          organizational personnel who have signed/resigned access agreements;
-          organizational personnel with information security and privacy
+          Organizational personnel with personnel security
+          responsibilities; organizational personnel who have
+          signed/resigned access agreements; organizational
+          personnel with information security and privacy
           responsibilities
       - method: test
         statement: >
-          Organizational processes for reviewing, updating, and re-signing access
-          agreements; mechanisms supporting the reviewing, updating, and re-signing of
-          access agreements
+          Organizational processes for reviewing, updating, and
+          re-signing access agreements; mechanisms supporting the
+          reviewing, updating, and re-signing of access agreements
     statement: >
-      individuals requiring access to organizational information and systems sign
-      appropriate access agreements prior to being granted access;
+      individuals requiring access to organizational information and
+      systems sign appropriate access agreements prior to being
+      granted access;
   - id: c.2
     methods:
       - method: examine
         statement: >
-          Personnel security policy; personnel security procedures; procedures
-          addressing access agreements for organizational information and systems;
-          access control policy; access control procedures; access agreements
-          (including non-disclosure agreements, acceptable use agreements, rules of
-          behavior, and conflict-of-interest agreements); documentation of access
-          agreement reviews, updates, and re-signing; system security plan; privacy
-          plan; other relevant documents or records
+          Personnel security policy; personnel security procedures;
+          procedures addressing access agreements for organizational
+          information and systems; access control policy; access
+          control procedures; access agreements (including
+          non-disclosure agreements, acceptable use agreements,
+          rules of behavior, and conflict-of-interest agreements);
+          documentation of access agreement reviews, updates, and
+          re-signing; system security plan; privacy plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with personnel security responsibilities;
-          organizational personnel who have signed/resigned access agreements;
-          organizational personnel with information security and privacy
+          Organizational personnel with personnel security
+          responsibilities; organizational personnel who have
+          signed/resigned access agreements; organizational
+          personnel with information security and privacy
           responsibilities
       - method: test
         statement: >
-          Organizational processes for reviewing, updating, and re-signing access
-          agreements; mechanisms supporting the reviewing, updating, and re-signing of
-          access agreements
+          Organizational processes for reviewing, updating, and
+          re-signing access agreements; mechanisms supporting the
+          reviewing, updating, and re-signing of access agreements
     statement: >
-      individuals requiring access to organizational information and systems
-      re-sign access agreements to maintain access to organizational systems when
-      access agreements have been updated or {{ ps_06_odp_02 }}.
+      individuals requiring access to organizational information and
+      systems re-sign access agreements to maintain access to
+      organizational systems when access agreements have been
+      updated or {{ ps_06_odp_02 }}.
 parameters:
   ps_06_odp_01:
     label: frequency
@@ -113,16 +131,23 @@ parameters:
     label: frequency
 parts:
   - id: a
-    statement: Develop and document access agreements for organizational systems;
+    statement: >-
+      Develop and document access agreements for organizational
+      systems;
   - id: b
-    statement: "Review and update the access agreements {{ ps_06_odp_01 }} ; and"
+    statement: >-
+      Review and update the access agreements {{ ps_06_odp_01 }} ;
+      and
   - id: c
     statement: >
-      Verify that individuals requiring access to organizational information and
-      systems:
+      Verify that individuals requiring access to organizational
+      information and systems:
   - id: c.1
-    statement: Sign appropriate access agreements prior to being granted access; and
+    statement: >-
+      Sign appropriate access agreements prior to being granted
+      access; and
   - id: c.2
     statement: >
-      Re-sign access agreements to maintain access to organizational systems when
-      access agreements have been updated or {{ ps_06_odp_02 }}.
+      Re-sign access agreements to maintain access to organizational
+      systems when access agreements have been updated or
+      {{ ps_06_odp_02 }}.

@@ -13,21 +13,24 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Incident response policy; procedures addressing incident handling; automated
-          mechanisms supporting dynamic response capabilities; system design
-          documentation; system configuration settings and associated documentation;
-          incident response plan; system security plan; audit records; other relevant
-          documents or records
+          Incident response policy; procedures addressing incident
+          handling; automated mechanisms supporting dynamic response
+          capabilities; system design documentation; system
+          configuration settings and associated documentation;
+          incident response plan; system security plan; audit
+          records; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with incident handling responsibilities;
-          organizational personnel with information security responsibilities
+          Organizational personnel with incident handling
+          responsibilities; organizational personnel with
+          information security responsibilities
       - method: test
         statement: >
-          Organizational processes for dynamic response capability; automated
-          mechanisms supporting and/or implementing the dynamic response capability
-          for the organization
-    statement: "{{ ir_04_09_odp }} are employed to respond to incidents."
+          Organizational processes for dynamic response capability;
+          automated mechanisms supporting and/or implementing the
+          dynamic response capability for the organization
+    statement: >-
+      {{ ir_04_09_odp }} are employed to respond to incidents.
 parameters:
   ir_04_09_odp:
     label: dynamic response capabilities

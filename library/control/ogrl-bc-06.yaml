@@ -9,16 +9,18 @@ control_type: corrective
 family: bc
 frequency: event-driven
 guidance: >
-  Rebuild from infrastructure as code and trusted images rather than patching
-  compromised hosts in place. Restore data from the most recent clean backup,
-  which may predate the latest backup after ransomware or corruption. Use a
-  recovery checklist that confirms logging, encryption, access policies, and
-  monitoring are active before reopening traffic. Tighten the default
-  objectives per service based on the business impact analysis (OGRL-BC-07).
-  Evidence is the recovery record showing timing and the completed checklist.
+  Rebuild from infrastructure as code and trusted images rather than
+  patching compromised hosts in place. Restore data from the most
+  recent clean backup, which may predate the latest backup after
+  ransomware or corruption. Use a recovery checklist that confirms
+  logging, encryption, access policies, and monitoring are active
+  before reopening traffic. Tighten the default objectives per
+  service based on the business impact analysis (OGRL-BC-07).
+  Evidence is the recovery record showing timing and the completed
+  checklist.
 objective: >
-  Return systems to normal, secure operation within committed timeframes and
-  without degrading the controls that protect them.
+  Return systems to normal, secure operation within committed
+  timeframes and without degrading the controls that protect them.
 origin: standard
 parameters:
   recovery_point_objective:
@@ -28,15 +30,16 @@ parameters:
     label: Recovery time objective
     value: "24 hours"
 statement: >
-  After a disruption, compromise, or failure, recover affected systems to a
-  known-good state within {{ recovery_time_objective }} and with data loss no
-  greater than {{ recovery_point_objective }} using documented recovery
-  runbooks and infrastructure as code, and verify that security configurations
-  and controls are restored and functioning before returning systems to
-  service.
+  After a disruption, compromise, or failure, recover affected
+  systems to a known-good state within {{ recovery_time_objective }}
+  and with data loss no greater than {{ recovery_point_objective }}
+  using documented recovery runbooks and infrastructure as code, and
+  verify that security configurations and controls are restored and
+  functioning before returning systems to service.
 summary: >
-  Restore affected systems to a known-good, secure state within defined
-  recovery time and recovery point objectives after a disruption.
+  Restore affected systems to a known-good, secure state within
+  defined recovery time and recovery point objectives after a
+  disruption.
 tags:
   - disaster-recovery
   - reconstitution

@@ -13,31 +13,36 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; procedures addressing software, firmware, and information
-          integrity; procedures addressing incident response; system design
-          documentation; system configuration settings and associated documentation;
-          incident response records; audit records; system security plan; other
-          relevant documents or records
+          System and information integrity policy; system and
+          information integrity procedures; procedures addressing
+          software, firmware, and information integrity; procedures
+          addressing incident response; system design documentation;
+          system configuration settings and associated
+          documentation; incident response records; audit records;
+          system security plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel responsible for software, firmware, and/or
-          information integrity; organizational personnel with information security
-          responsibilities; organizational personnel with incident response
+          Organizational personnel responsible for software,
+          firmware, and/or information integrity; organizational
+          personnel with information security responsibilities;
+          organizational personnel with incident response
           responsibilities
       - method: test
         statement: >
-          Organizational processes for incorporating the detection of unauthorized
-          security-relevant changes into the incident response capability; software,
-          firmware, and information integrity verification tools; mechanisms
-          supporting and/or implementing the incorporation of detection of
-          unauthorized security-relevant changes into the incident response capability
+          Organizational processes for incorporating the detection
+          of unauthorized security-relevant changes into the
+          incident response capability; software, firmware, and
+          information integrity verification tools; mechanisms
+          supporting and/or implementing the incorporation of
+          detection of unauthorized security-relevant changes into
+          the incident response capability
     statement: >
-      the detection of {{ si_07_07_odp }} are incorporated into the organizational
-      incident response capability.
+      the detection of {{ si_07_07_odp }} are incorporated into the
+      organizational incident response capability.
 parameters:
   si_07_07_odp:
     label: changes
 statement: >
-  Incorporate the detection of the following unauthorized changes into the
-  organizational incident response capability: {{ si_07_07_odp }}.
+  Incorporate the detection of the following unauthorized changes
+  into the organizational incident response capability:
+  {{ si_07_07_odp }}.

@@ -13,46 +13,51 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Audit and accountability policy; system security plan; privacy plan;
-          procedures addressing audit reduction and report generation; system design
-          documentation; system configuration settings and associated documentation;
-          audit reduction, review, analysis, and reporting tools; audit record
-          criteria (fields) establishing events of interest; system audit records;
-          other relevant documents or records
+          Audit and accountability policy; system security plan;
+          privacy plan; procedures addressing audit reduction and
+          report generation; system design documentation; system
+          configuration settings and associated documentation; audit
+          reduction, review, analysis, and reporting tools; audit
+          record criteria (fields) establishing events of interest;
+          system audit records; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with audit reduction and report generation
-          responsibilities; organizational personnel with information security and
-          privacy responsibilities; system developers
+          Organizational personnel with audit reduction and report
+          generation responsibilities; organizational personnel with
+          information security and privacy responsibilities; system
+          developers
       - method: test
         statement: Audit reduction and report generation capability
     statement: >
-      the capability to process, sort, and search audit records for events of
-      interest based on {{ au_07_01_odp }} are provided;
+      the capability to process, sort, and search audit records for
+      events of interest based on {{ au_07_01_odp }} are provided;
   - id: "au-07(01).au-07(01)[02]"
     methods:
       - method: examine
         statement: >
-          Audit and accountability policy; system security plan; privacy plan;
-          procedures addressing audit reduction and report generation; system design
-          documentation; system configuration settings and associated documentation;
-          audit reduction, review, analysis, and reporting tools; audit record
-          criteria (fields) establishing events of interest; system audit records;
-          other relevant documents or records
+          Audit and accountability policy; system security plan;
+          privacy plan; procedures addressing audit reduction and
+          report generation; system design documentation; system
+          configuration settings and associated documentation; audit
+          reduction, review, analysis, and reporting tools; audit
+          record criteria (fields) establishing events of interest;
+          system audit records; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with audit reduction and report generation
-          responsibilities; organizational personnel with information security and
-          privacy responsibilities; system developers
+          Organizational personnel with audit reduction and report
+          generation responsibilities; organizational personnel with
+          information security and privacy responsibilities; system
+          developers
       - method: test
         statement: Audit reduction and report generation capability
     statement: >
-      the capability to process, sort, and search audit records for events of
-      interest based on {{ au_07_01_odp }} are implemented.
+      the capability to process, sort, and search audit records for
+      events of interest based on {{ au_07_01_odp }} are
+      implemented.
 parameters:
   au_07_01_odp:
     label: fields within audit records
 statement: >
-  Provide and implement the capability to process, sort, and search audit
-  records for events of interest based on the following content:
-  {{ au_07_01_odp }}.
+  Provide and implement the capability to process, sort, and search
+  audit records for events of interest based on the following
+  content: {{ au_07_01_odp }}.

@@ -13,33 +13,40 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and services acquisition policy; procedures addressing system
-          developer configuration management; solicitation documentation; acquisition
-          documentation; service level agreements; acquisition contracts for the
-          system, system component, or system service; system developer configuration
-          management plan; change control records; configuration management records;
-          version control change/update records; integrity verification records
-          between master copies of security-relevant hardware, software, and firmware
-          (including designs and source code); system security plan; other relevant
-          documents or records
+          System and services acquisition policy; procedures
+          addressing system developer configuration management;
+          solicitation documentation; acquisition documentation;
+          service level agreements; acquisition contracts for the
+          system, system component, or system service; system
+          developer configuration management plan; change control
+          records; configuration management records; version control
+          change/update records; integrity verification records
+          between master copies of security-relevant hardware,
+          software, and firmware (including designs and source
+          code); system security plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          Organizational personnel with system and service acquisition
-          responsibilities; organizational personnel with information security
-          responsibilities; organizational personnel with configuration management
-          responsibilities; system developers
+          Organizational personnel with system and service
+          acquisition responsibilities; organizational personnel
+          with information security responsibilities; organizational
+          personnel with configuration management responsibilities;
+          system developers
       - method: test
         statement: >
-          Organizational processes for monitoring developer configuration management;
-          mechanisms supporting and/or implementing the monitoring of developer
-          configuration management
+          Organizational processes for monitoring developer
+          configuration management; mechanisms supporting and/or
+          implementing the monitoring of developer configuration
+          management
     statement: >
-      the developer of the system, system component, or system service is required
-      to maintain the integrity of the mapping between the master build data
-      describing the current version of security-relevant hardware, software, and
-      firmware and the on-site master copy of the data for the current version.
+      the developer of the system, system component, or system
+      service is required to maintain the integrity of the mapping
+      between the master build data describing the current version
+      of security-relevant hardware, software, and firmware and the
+      on-site master copy of the data for the current version.
 statement: >
-  Require the developer of the system, system component, or system service to
-  maintain the integrity of the mapping between the master build data
-  describing the current version of security-relevant hardware, software, and
-  firmware and the on-site master copy of the data for the current version.
+  Require the developer of the system, system component, or system
+  service to maintain the integrity of the mapping between the
+  master build data describing the current version of
+  security-relevant hardware, software, and firmware and the on-site
+  master copy of the data for the current version.

@@ -13,23 +13,27 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing access enforcement; system
-          design documentation; system configuration settings and associated
-          documentation; system audit records; system security plan; other relevant
+          Access control policy; procedures addressing access
+          enforcement; system design documentation; system
+          configuration settings and associated documentation;
+          system audit records; system security plan; other relevant
           documents or records
       - method: interview
         statement: >
-          Organizational personnel with access enforcement responsibilities;
-          system/network administrators; organizational personnel with information
-          security responsibilities; system developers
+          Organizational personnel with access enforcement
+          responsibilities; system/network administrators;
+          organizational personnel with information security
+          responsibilities; system developers
       - method: test
-        statement: Mechanisms preventing access to security-relevant information within the system
+        statement: >-
+          Mechanisms preventing access to security-relevant
+          information within the system
     statement: >
-      access to {{ ac_03_05_odp }} is prevented except during secure, non-operable
-      system states.
+      access to {{ ac_03_05_odp }} is prevented except during
+      secure, non-operable system states.
 parameters:
   ac_03_05_odp:
     label: security-relevant information
 statement: >
-  Prevent access to {{ ac_03_05_odp }} except during secure, non-operable
-  system states.
+  Prevent access to {{ ac_03_05_odp }} except during secure,
+  non-operable system states.

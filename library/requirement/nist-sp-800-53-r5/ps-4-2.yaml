@@ -13,20 +13,24 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Personnel security policy; procedures addressing personnel termination;
-          system design documentation; system configuration settings and associated
-          documentation; records of personnel termination actions; automated
-          notifications of employee terminations; system security plan; other relevant
-          documents or records
+          Personnel security policy; procedures addressing personnel
+          termination; system design documentation; system
+          configuration settings and associated documentation;
+          records of personnel termination actions; automated
+          notifications of employee terminations; system security
+          plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with personnel security responsibilities;
-          organizational personnel with information security responsibilities
+          Organizational personnel with personnel security
+          responsibilities; organizational personnel with
+          information security responsibilities
       - method: test
         statement: >
-          Organizational processes for personnel termination; automated mechanisms
-          supporting and/or implementing personnel termination notifications
-    statement: "{{ ps_04_02_odp_01 }} are used to {{ ps_04_02_odp_02 }}."
+          Organizational processes for personnel termination;
+          automated mechanisms supporting and/or implementing
+          personnel termination notifications
+    statement: >-
+      {{ ps_04_02_odp_01 }} are used to {{ ps_04_02_odp_02 }}.
 parameters:
   ps_04_02_odp_01:
     label: automated mechanisms

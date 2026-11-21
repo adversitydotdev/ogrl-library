@@ -23,235 +23,272 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Configuration management policy; procedures addressing system configuration
-          change control; configuration management plan; system architecture and
-          configuration documentation; change control records; system audit records;
-          change control audit and review reports; agenda/minutes/documentation from
-          configuration change control oversight meetings; system security plan;
-          privacy plan; privacy impact assessments; system of records notices; other
-          relevant documents or records
+          Configuration management policy; procedures addressing
+          system configuration change control; configuration
+          management plan; system architecture and configuration
+          documentation; change control records; system audit
+          records; change control audit and review reports;
+          agenda/minutes/documentation from configuration change
+          control oversight meetings; system security plan; privacy
+          plan; privacy impact assessments; system of records
+          notices; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with configuration change control responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities; system/network administrators; members of change control
+          Organizational personnel with configuration change control
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities;
+          system/network administrators; members of change control
           board or similar
       - method: test
         statement: >
-          Organizational processes for configuration change control; mechanisms that
-          implement configuration change control
+          Organizational processes for configuration change control;
+          mechanisms that implement configuration change control
     statement: >
-      the types of changes to the system that are configuration-controlled are
-      determined and documented;
+      the types of changes to the system that are
+      configuration-controlled are determined and documented;
   - id: b-1
     methods:
       - method: examine
         statement: >
-          Configuration management policy; procedures addressing system configuration
-          change control; configuration management plan; system architecture and
-          configuration documentation; change control records; system audit records;
-          change control audit and review reports; agenda/minutes/documentation from
-          configuration change control oversight meetings; system security plan;
-          privacy plan; privacy impact assessments; system of records notices; other
-          relevant documents or records
+          Configuration management policy; procedures addressing
+          system configuration change control; configuration
+          management plan; system architecture and configuration
+          documentation; change control records; system audit
+          records; change control audit and review reports;
+          agenda/minutes/documentation from configuration change
+          control oversight meetings; system security plan; privacy
+          plan; privacy impact assessments; system of records
+          notices; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with configuration change control responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities; system/network administrators; members of change control
+          Organizational personnel with configuration change control
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities;
+          system/network administrators; members of change control
           board or similar
       - method: test
         statement: >
-          Organizational processes for configuration change control; mechanisms that
-          implement configuration change control
-    statement: proposed configuration-controlled changes to the system are reviewed;
+          Organizational processes for configuration change control;
+          mechanisms that implement configuration change control
+    statement: >-
+      proposed configuration-controlled changes to the system are
+      reviewed;
   - id: b-2
     methods:
       - method: examine
         statement: >
-          Configuration management policy; procedures addressing system configuration
-          change control; configuration management plan; system architecture and
-          configuration documentation; change control records; system audit records;
-          change control audit and review reports; agenda/minutes/documentation from
-          configuration change control oversight meetings; system security plan;
-          privacy plan; privacy impact assessments; system of records notices; other
-          relevant documents or records
+          Configuration management policy; procedures addressing
+          system configuration change control; configuration
+          management plan; system architecture and configuration
+          documentation; change control records; system audit
+          records; change control audit and review reports;
+          agenda/minutes/documentation from configuration change
+          control oversight meetings; system security plan; privacy
+          plan; privacy impact assessments; system of records
+          notices; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with configuration change control responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities; system/network administrators; members of change control
+          Organizational personnel with configuration change control
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities;
+          system/network administrators; members of change control
           board or similar
       - method: test
         statement: >
-          Organizational processes for configuration change control; mechanisms that
-          implement configuration change control
+          Organizational processes for configuration change control;
+          mechanisms that implement configuration change control
     statement: >
-      proposed configuration-controlled changes to the system are approved or
-      disapproved with explicit consideration for security and privacy impact
-      analyses;
+      proposed configuration-controlled changes to the system are
+      approved or disapproved with explicit consideration for
+      security and privacy impact analyses;
   - id: c
     methods:
       - method: examine
         statement: >
-          Configuration management policy; procedures addressing system configuration
-          change control; configuration management plan; system architecture and
-          configuration documentation; change control records; system audit records;
-          change control audit and review reports; agenda/minutes/documentation from
-          configuration change control oversight meetings; system security plan;
-          privacy plan; privacy impact assessments; system of records notices; other
-          relevant documents or records
+          Configuration management policy; procedures addressing
+          system configuration change control; configuration
+          management plan; system architecture and configuration
+          documentation; change control records; system audit
+          records; change control audit and review reports;
+          agenda/minutes/documentation from configuration change
+          control oversight meetings; system security plan; privacy
+          plan; privacy impact assessments; system of records
+          notices; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with configuration change control responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities; system/network administrators; members of change control
+          Organizational personnel with configuration change control
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities;
+          system/network administrators; members of change control
           board or similar
       - method: test
         statement: >
-          Organizational processes for configuration change control; mechanisms that
-          implement configuration change control
-    statement: configuration change decisions associated with the system are documented;
+          Organizational processes for configuration change control;
+          mechanisms that implement configuration change control
+    statement: >-
+      configuration change decisions associated with the system are
+      documented;
   - id: d
     methods:
       - method: examine
         statement: >
-          Configuration management policy; procedures addressing system configuration
-          change control; configuration management plan; system architecture and
-          configuration documentation; change control records; system audit records;
-          change control audit and review reports; agenda/minutes/documentation from
-          configuration change control oversight meetings; system security plan;
-          privacy plan; privacy impact assessments; system of records notices; other
-          relevant documents or records
+          Configuration management policy; procedures addressing
+          system configuration change control; configuration
+          management plan; system architecture and configuration
+          documentation; change control records; system audit
+          records; change control audit and review reports;
+          agenda/minutes/documentation from configuration change
+          control oversight meetings; system security plan; privacy
+          plan; privacy impact assessments; system of records
+          notices; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with configuration change control responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities; system/network administrators; members of change control
+          Organizational personnel with configuration change control
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities;
+          system/network administrators; members of change control
           board or similar
       - method: test
         statement: >
-          Organizational processes for configuration change control; mechanisms that
-          implement configuration change control
-    statement: approved configuration-controlled changes to the system are implemented;
+          Organizational processes for configuration change control;
+          mechanisms that implement configuration change control
+    statement: >-
+      approved configuration-controlled changes to the system are
+      implemented;
   - id: e
     methods:
       - method: examine
         statement: >
-          Configuration management policy; procedures addressing system configuration
-          change control; configuration management plan; system architecture and
-          configuration documentation; change control records; system audit records;
-          change control audit and review reports; agenda/minutes/documentation from
-          configuration change control oversight meetings; system security plan;
-          privacy plan; privacy impact assessments; system of records notices; other
-          relevant documents or records
+          Configuration management policy; procedures addressing
+          system configuration change control; configuration
+          management plan; system architecture and configuration
+          documentation; change control records; system audit
+          records; change control audit and review reports;
+          agenda/minutes/documentation from configuration change
+          control oversight meetings; system security plan; privacy
+          plan; privacy impact assessments; system of records
+          notices; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with configuration change control responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities; system/network administrators; members of change control
+          Organizational personnel with configuration change control
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities;
+          system/network administrators; members of change control
           board or similar
       - method: test
         statement: >
-          Organizational processes for configuration change control; mechanisms that
-          implement configuration change control
+          Organizational processes for configuration change control;
+          mechanisms that implement configuration change control
     statement: >
-      records of configuration-controlled changes to the system are retained for
-      {{ cm_03_odp_01 }};
+      records of configuration-controlled changes to the system are
+      retained for {{ cm_03_odp_01 }};
   - id: f-1
     methods:
       - method: examine
         statement: >
-          Configuration management policy; procedures addressing system configuration
-          change control; configuration management plan; system architecture and
-          configuration documentation; change control records; system audit records;
-          change control audit and review reports; agenda/minutes/documentation from
-          configuration change control oversight meetings; system security plan;
-          privacy plan; privacy impact assessments; system of records notices; other
-          relevant documents or records
+          Configuration management policy; procedures addressing
+          system configuration change control; configuration
+          management plan; system architecture and configuration
+          documentation; change control records; system audit
+          records; change control audit and review reports;
+          agenda/minutes/documentation from configuration change
+          control oversight meetings; system security plan; privacy
+          plan; privacy impact assessments; system of records
+          notices; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with configuration change control responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities; system/network administrators; members of change control
+          Organizational personnel with configuration change control
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities;
+          system/network administrators; members of change control
           board or similar
       - method: test
         statement: >
-          Organizational processes for configuration change control; mechanisms that
-          implement configuration change control
+          Organizational processes for configuration change control;
+          mechanisms that implement configuration change control
     statement: >
-      activities associated with configuration-controlled changes to the system
-      are monitored;
+      activities associated with configuration-controlled changes to
+      the system are monitored;
   - id: f-2
     methods:
       - method: examine
         statement: >
-          Configuration management policy; procedures addressing system configuration
-          change control; configuration management plan; system architecture and
-          configuration documentation; change control records; system audit records;
-          change control audit and review reports; agenda/minutes/documentation from
-          configuration change control oversight meetings; system security plan;
-          privacy plan; privacy impact assessments; system of records notices; other
-          relevant documents or records
+          Configuration management policy; procedures addressing
+          system configuration change control; configuration
+          management plan; system architecture and configuration
+          documentation; change control records; system audit
+          records; change control audit and review reports;
+          agenda/minutes/documentation from configuration change
+          control oversight meetings; system security plan; privacy
+          plan; privacy impact assessments; system of records
+          notices; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with configuration change control responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities; system/network administrators; members of change control
+          Organizational personnel with configuration change control
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities;
+          system/network administrators; members of change control
           board or similar
       - method: test
         statement: >
-          Organizational processes for configuration change control; mechanisms that
-          implement configuration change control
+          Organizational processes for configuration change control;
+          mechanisms that implement configuration change control
     statement: >
-      activities associated with configuration-controlled changes to the system
-      are reviewed;
+      activities associated with configuration-controlled changes to
+      the system are reviewed;
   - id: g-1
     methods:
       - method: examine
         statement: >
-          Configuration management policy; procedures addressing system configuration
-          change control; configuration management plan; system architecture and
-          configuration documentation; change control records; system audit records;
-          change control audit and review reports; agenda/minutes/documentation from
-          configuration change control oversight meetings; system security plan;
-          privacy plan; privacy impact assessments; system of records notices; other
-          relevant documents or records
+          Configuration management policy; procedures addressing
+          system configuration change control; configuration
+          management plan; system architecture and configuration
+          documentation; change control records; system audit
+          records; change control audit and review reports;
+          agenda/minutes/documentation from configuration change
+          control oversight meetings; system security plan; privacy
+          plan; privacy impact assessments; system of records
+          notices; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with configuration change control responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities; system/network administrators; members of change control
+          Organizational personnel with configuration change control
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities;
+          system/network administrators; members of change control
           board or similar
       - method: test
         statement: >
-          Organizational processes for configuration change control; mechanisms that
-          implement configuration change control
+          Organizational processes for configuration change control;
+          mechanisms that implement configuration change control
     statement: >
-      configuration change control activities are coordinated and overseen by
-      {{ cm_03_odp_02 }};
+      configuration change control activities are coordinated and
+      overseen by {{ cm_03_odp_02 }};
   - id: g-2
     methods:
       - method: examine
         statement: >
-          Configuration management policy; procedures addressing system configuration
-          change control; configuration management plan; system architecture and
-          configuration documentation; change control records; system audit records;
-          change control audit and review reports; agenda/minutes/documentation from
-          configuration change control oversight meetings; system security plan;
-          privacy plan; privacy impact assessments; system of records notices; other
-          relevant documents or records
+          Configuration management policy; procedures addressing
+          system configuration change control; configuration
+          management plan; system architecture and configuration
+          documentation; change control records; system audit
+          records; change control audit and review reports;
+          agenda/minutes/documentation from configuration change
+          control oversight meetings; system security plan; privacy
+          plan; privacy impact assessments; system of records
+          notices; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with configuration change control responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities; system/network administrators; members of change control
+          Organizational personnel with configuration change control
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities;
+          system/network administrators; members of change control
           board or similar
       - method: test
         statement: >
-          Organizational processes for configuration change control; mechanisms that
-          implement configuration change control
-    statement: "the configuration control element convenes {{ cm_03_odp_03 }}."
+          Organizational processes for configuration change control;
+          mechanisms that implement configuration change control
+    statement: >-
+      the configuration control element convenes {{ cm_03_odp_03 }}.
 parameters:
   cm_03_odp_01:
     label: time period
@@ -266,26 +303,31 @@ parameters:
 parts:
   - id: a
     statement: >
-      Determine and document the types of changes to the system that are
-      configuration-controlled;
+      Determine and document the types of changes to the system that
+      are configuration-controlled;
   - id: b
     statement: >
-      Review proposed configuration-controlled changes to the system and approve
-      or disapprove such changes with explicit consideration for security and
-      privacy impact analyses;
+      Review proposed configuration-controlled changes to the system
+      and approve or disapprove such changes with explicit
+      consideration for security and privacy impact analyses;
   - id: c
-    statement: Document configuration change decisions associated with the system;
+    statement: >-
+      Document configuration change decisions associated with the
+      system;
   - id: d
-    statement: Implement approved configuration-controlled changes to the system;
+    statement: >-
+      Implement approved configuration-controlled changes to the
+      system;
   - id: e
     statement: >
-      Retain records of configuration-controlled changes to the system for
-      {{ cm_03_odp_01 }};
+      Retain records of configuration-controlled changes to the
+      system for {{ cm_03_odp_01 }};
   - id: f
     statement: >
-      Monitor and review activities associated with configuration-controlled
-      changes to the system; and
+      Monitor and review activities associated with
+      configuration-controlled changes to the system; and
   - id: g
     statement: >
-      Coordinate and provide oversight for configuration change control activities
-      through {{ cm_03_odp_02 }} that convenes {{ cm_03_odp_03 }}.
+      Coordinate and provide oversight for configuration change
+      control activities through {{ cm_03_odp_02 }} that convenes
+      {{ cm_03_odp_03 }}.

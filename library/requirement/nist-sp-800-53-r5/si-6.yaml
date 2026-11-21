@@ -17,170 +17,199 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; procedures addressing security and privacy function
-          verification; system design documentation; system configuration settings and
-          associated documentation; alerts/notifications of failed security
-          verification tests; list of system transition states requiring security
-          functionality verification; system audit records; system security plan;
-          privacy plan; other relevant documents or records
+          System and information integrity policy; system and
+          information integrity procedures; procedures addressing
+          security and privacy function verification; system design
+          documentation; system configuration settings and
+          associated documentation; alerts/notifications of failed
+          security verification tests; list of system transition
+          states requiring security functionality verification;
+          system audit records; system security plan; privacy plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with security and privacy function verification
-          responsibilities; organizational personnel implementing, operating, and
-          maintaining the system; system/network administrators; organizational
-          personnel with information security and privacy responsibilities; system
-          developer
+          Organizational personnel with security and privacy
+          function verification responsibilities; organizational
+          personnel implementing, operating, and maintaining the
+          system; system/network administrators; organizational
+          personnel with information security and privacy
+          responsibilities; system developer
       - method: test
         statement: >
-          Organizational processes for security and privacy function verification;
-          mechanisms supporting and/or implementing the security and privacy function
-          verification capability
-    statement: "{{ si_06_odp_01 }} are verified to be operating correctly;"
+          Organizational processes for security and privacy function
+          verification; mechanisms supporting and/or implementing
+          the security and privacy function verification capability
+    statement: >-
+      {{ si_06_odp_01 }} are verified to be operating correctly;
   - id: a-2
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; procedures addressing security and privacy function
-          verification; system design documentation; system configuration settings and
-          associated documentation; alerts/notifications of failed security
-          verification tests; list of system transition states requiring security
-          functionality verification; system audit records; system security plan;
-          privacy plan; other relevant documents or records
+          System and information integrity policy; system and
+          information integrity procedures; procedures addressing
+          security and privacy function verification; system design
+          documentation; system configuration settings and
+          associated documentation; alerts/notifications of failed
+          security verification tests; list of system transition
+          states requiring security functionality verification;
+          system audit records; system security plan; privacy plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with security and privacy function verification
-          responsibilities; organizational personnel implementing, operating, and
-          maintaining the system; system/network administrators; organizational
-          personnel with information security and privacy responsibilities; system
-          developer
+          Organizational personnel with security and privacy
+          function verification responsibilities; organizational
+          personnel implementing, operating, and maintaining the
+          system; system/network administrators; organizational
+          personnel with information security and privacy
+          responsibilities; system developer
       - method: test
         statement: >
-          Organizational processes for security and privacy function verification;
-          mechanisms supporting and/or implementing the security and privacy function
-          verification capability
-    statement: "{{ si_06_odp_02 }} are verified to be operating correctly;"
+          Organizational processes for security and privacy function
+          verification; mechanisms supporting and/or implementing
+          the security and privacy function verification capability
+    statement: >-
+      {{ si_06_odp_02 }} are verified to be operating correctly;
   - id: b-1
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; procedures addressing security and privacy function
-          verification; system design documentation; system configuration settings and
-          associated documentation; alerts/notifications of failed security
-          verification tests; list of system transition states requiring security
-          functionality verification; system audit records; system security plan;
-          privacy plan; other relevant documents or records
+          System and information integrity policy; system and
+          information integrity procedures; procedures addressing
+          security and privacy function verification; system design
+          documentation; system configuration settings and
+          associated documentation; alerts/notifications of failed
+          security verification tests; list of system transition
+          states requiring security functionality verification;
+          system audit records; system security plan; privacy plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with security and privacy function verification
-          responsibilities; organizational personnel implementing, operating, and
-          maintaining the system; system/network administrators; organizational
-          personnel with information security and privacy responsibilities; system
-          developer
+          Organizational personnel with security and privacy
+          function verification responsibilities; organizational
+          personnel implementing, operating, and maintaining the
+          system; system/network administrators; organizational
+          personnel with information security and privacy
+          responsibilities; system developer
       - method: test
         statement: >
-          Organizational processes for security and privacy function verification;
-          mechanisms supporting and/or implementing the security and privacy function
-          verification capability
+          Organizational processes for security and privacy function
+          verification; mechanisms supporting and/or implementing
+          the security and privacy function verification capability
     statement: "{{ si_06_odp_01 }} are verified {{ si_06_odp_03 }};"
   - id: b-2
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; procedures addressing security and privacy function
-          verification; system design documentation; system configuration settings and
-          associated documentation; alerts/notifications of failed security
-          verification tests; list of system transition states requiring security
-          functionality verification; system audit records; system security plan;
-          privacy plan; other relevant documents or records
+          System and information integrity policy; system and
+          information integrity procedures; procedures addressing
+          security and privacy function verification; system design
+          documentation; system configuration settings and
+          associated documentation; alerts/notifications of failed
+          security verification tests; list of system transition
+          states requiring security functionality verification;
+          system audit records; system security plan; privacy plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with security and privacy function verification
-          responsibilities; organizational personnel implementing, operating, and
-          maintaining the system; system/network administrators; organizational
-          personnel with information security and privacy responsibilities; system
-          developer
+          Organizational personnel with security and privacy
+          function verification responsibilities; organizational
+          personnel implementing, operating, and maintaining the
+          system; system/network administrators; organizational
+          personnel with information security and privacy
+          responsibilities; system developer
       - method: test
         statement: >
-          Organizational processes for security and privacy function verification;
-          mechanisms supporting and/or implementing the security and privacy function
-          verification capability
+          Organizational processes for security and privacy function
+          verification; mechanisms supporting and/or implementing
+          the security and privacy function verification capability
     statement: "{{ si_06_odp_02 }} are verified {{ si_06_odp_03 }};"
   - id: c-1
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; procedures addressing security and privacy function
-          verification; system design documentation; system configuration settings and
-          associated documentation; alerts/notifications of failed security
-          verification tests; list of system transition states requiring security
-          functionality verification; system audit records; system security plan;
-          privacy plan; other relevant documents or records
+          System and information integrity policy; system and
+          information integrity procedures; procedures addressing
+          security and privacy function verification; system design
+          documentation; system configuration settings and
+          associated documentation; alerts/notifications of failed
+          security verification tests; list of system transition
+          states requiring security functionality verification;
+          system audit records; system security plan; privacy plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with security and privacy function verification
-          responsibilities; organizational personnel implementing, operating, and
-          maintaining the system; system/network administrators; organizational
-          personnel with information security and privacy responsibilities; system
-          developer
+          Organizational personnel with security and privacy
+          function verification responsibilities; organizational
+          personnel implementing, operating, and maintaining the
+          system; system/network administrators; organizational
+          personnel with information security and privacy
+          responsibilities; system developer
       - method: test
         statement: >
-          Organizational processes for security and privacy function verification;
-          mechanisms supporting and/or implementing the security and privacy function
-          verification capability
-    statement: "{{ si_06_odp_06 }} is/are alerted to failed security verification tests;"
+          Organizational processes for security and privacy function
+          verification; mechanisms supporting and/or implementing
+          the security and privacy function verification capability
+    statement: >-
+      {{ si_06_odp_06 }} is/are alerted to failed security
+      verification tests;
   - id: c-2
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; procedures addressing security and privacy function
-          verification; system design documentation; system configuration settings and
-          associated documentation; alerts/notifications of failed security
-          verification tests; list of system transition states requiring security
-          functionality verification; system audit records; system security plan;
-          privacy plan; other relevant documents or records
+          System and information integrity policy; system and
+          information integrity procedures; procedures addressing
+          security and privacy function verification; system design
+          documentation; system configuration settings and
+          associated documentation; alerts/notifications of failed
+          security verification tests; list of system transition
+          states requiring security functionality verification;
+          system audit records; system security plan; privacy plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with security and privacy function verification
-          responsibilities; organizational personnel implementing, operating, and
-          maintaining the system; system/network administrators; organizational
-          personnel with information security and privacy responsibilities; system
-          developer
+          Organizational personnel with security and privacy
+          function verification responsibilities; organizational
+          personnel implementing, operating, and maintaining the
+          system; system/network administrators; organizational
+          personnel with information security and privacy
+          responsibilities; system developer
       - method: test
         statement: >
-          Organizational processes for security and privacy function verification;
-          mechanisms supporting and/or implementing the security and privacy function
-          verification capability
-    statement: "{{ si_06_odp_06 }} is/are alerted to failed privacy verification tests;"
+          Organizational processes for security and privacy function
+          verification; mechanisms supporting and/or implementing
+          the security and privacy function verification capability
+    statement: >-
+      {{ si_06_odp_06 }} is/are alerted to failed privacy
+      verification tests;
   - id: d
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; procedures addressing security and privacy function
-          verification; system design documentation; system configuration settings and
-          associated documentation; alerts/notifications of failed security
-          verification tests; list of system transition states requiring security
-          functionality verification; system audit records; system security plan;
-          privacy plan; other relevant documents or records
+          System and information integrity policy; system and
+          information integrity procedures; procedures addressing
+          security and privacy function verification; system design
+          documentation; system configuration settings and
+          associated documentation; alerts/notifications of failed
+          security verification tests; list of system transition
+          states requiring security functionality verification;
+          system audit records; system security plan; privacy plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with security and privacy function verification
-          responsibilities; organizational personnel implementing, operating, and
-          maintaining the system; system/network administrators; organizational
-          personnel with information security and privacy responsibilities; system
-          developer
+          Organizational personnel with security and privacy
+          function verification responsibilities; organizational
+          personnel implementing, operating, and maintaining the
+          system; system/network administrators; organizational
+          personnel with information security and privacy
+          responsibilities; system developer
       - method: test
         statement: >
-          Organizational processes for security and privacy function verification;
-          mechanisms supporting and/or implementing the security and privacy function
-          verification capability
-    statement: "{{ si_06_odp_07 }} is/are initiated when anomalies are discovered."
+          Organizational processes for security and privacy function
+          verification; mechanisms supporting and/or implementing
+          the security and privacy function verification capability
+    statement: >-
+      {{ si_06_odp_07 }} is/are initiated when anomalies are
+      discovered.
 parameters:
   si_06_odp_01:
     label: security functions
@@ -204,8 +233,12 @@ parts:
   - id: a
     statement: "Verify the correct operation of {{ si_6_prm_1 }};"
   - id: b
-    statement: "Perform the verification of the functions specified in SI-6a {{ si_06_odp_03 }};"
+    statement: >-
+      Perform the verification of the functions specified in SI-6a
+      {{ si_06_odp_03 }};
   - id: c
-    statement: "Alert {{ si_06_odp_06 }} to failed security and privacy verification tests; and"
+    statement: >-
+      Alert {{ si_06_odp_06 }} to failed security and privacy
+      verification tests; and
   - id: d
     statement: "{{ si_06_odp_07 }} when anomalies are discovered."

@@ -17,28 +17,34 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Supply chain risk management plan; system and services acquisition policy;
-          procedures addressing the customized development of critical system
-          components; system design documentation; system configuration settings and
-          associated documentation; system development life cycle documentation
-          addressing the custom development of critical system components;
-          configuration management records; system audit records; system security
-          plan; other relevant documents or records
+          Supply chain risk management plan; system and services
+          acquisition policy; procedures addressing the customized
+          development of critical system components; system design
+          documentation; system configuration settings and
+          associated documentation; system development life cycle
+          documentation addressing the custom development of
+          critical system components; configuration management
+          records; system audit records; system security plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with system and service acquisition
-          responsibilities; organizational personnel with information security
-          responsibilities; organizational personnel with responsibility for the
-          reimplementation or customized development of critical system components
+          Organizational personnel with system and service
+          acquisition responsibilities; organizational personnel
+          with information security responsibilities; organizational
+          personnel with responsibility for the reimplementation or
+          customized development of critical system components
       - method: test
         statement: >
-          Organizational processes for the reimplementation or customized development
-          of critical system components; mechanisms supporting and/or implementing the
-          reimplementation or customized development of critical system components
-    statement: "{{ sa_20_odp }} are reimplemented or custom-developed."
+          Organizational processes for the reimplementation or
+          customized development of critical system components;
+          mechanisms supporting and/or implementing the
+          reimplementation or customized development of critical
+          system components
+    statement: >-
+      {{ sa_20_odp }} are reimplemented or custom-developed.
 parameters:
   sa_20_odp:
     label: critical system
 statement: >
-  Reimplement or custom develop the following critical system components:
-  {{ sa_20_odp }}.
+  Reimplement or custom develop the following critical system
+  components: {{ sa_20_odp }}.

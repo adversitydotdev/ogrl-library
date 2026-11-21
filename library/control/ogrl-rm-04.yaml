@@ -9,13 +9,14 @@ control_type: corrective
 family: rm
 frequency: quarterly
 guidance: >
-  Track treatment in the risk register or link register entries to tickets.
-  Mitigation plans should reference the controls being added or strengthened;
-  transfer should reference the contract or insurance policy. Evidence:
-  register entries with decisions, approvals, and review dates.
+  Track treatment in the risk register or link register entries to
+  tickets. Mitigation plans should reference the controls being
+  added or strengthened; transfer should reference the contract or
+  insurance policy. Evidence: register entries with decisions,
+  approvals, and review dates.
 objective: >
-  Every risk outside tolerance has an accountable, tracked response consistent
-  with leadership's risk appetite.
+  Every risk outside tolerance has an accountable, tracked response
+  consistent with leadership's risk appetite.
 origin: standard
 parameters:
   acceptance_duration:
@@ -31,14 +32,15 @@ parameters:
     label: Treatment review frequency
     value: quarterly
 statement: >
-  For each risk rated above {{ risk_tolerance_threshold }}, record a treatment
-  decision (mitigate, transfer, avoid, or accept), an owner, and a target
-  date. Risk acceptances require documented approval by
-  {{ risk_acceptance_authority }} and expire after {{ acceptance_duration }}.
-  Review treatment progress and acceptances {{ treatment_review_frequency }}.
+  For each risk rated above {{ risk_tolerance_threshold }}, record a
+  treatment decision (mitigate, transfer, avoid, or accept), an
+  owner, and a target date. Risk acceptances require documented
+  approval by {{ risk_acceptance_authority }} and expire after
+  {{ acceptance_duration }}. Review treatment progress and
+  acceptances {{ treatment_review_frequency }}.
 summary: >
-  Record a treatment decision, owner, and target date for each risk above
-  tolerance, with approved and time-bound risk acceptances.
+  Record a treatment decision, owner, and target date for each risk
+  above tolerance, with approved and time-bound risk acceptances.
 tags:
   - risk-management
   - risk-treatment

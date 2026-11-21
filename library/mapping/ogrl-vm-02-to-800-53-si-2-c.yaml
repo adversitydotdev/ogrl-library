@@ -10,5 +10,7 @@ rationale: functional
 relationship: equivalent-to
 review_status: draft
 source_ref: control--ogrl-vm-02
-summary: "A defined installation timeframe for security updates satisfies SI-2(c)."
+summary: >-
+  A defined installation timeframe for security updates satisfies
+  SI-2(c).
 target_ref: "requirement--nist-sp-800-53-r5-si-2#c"

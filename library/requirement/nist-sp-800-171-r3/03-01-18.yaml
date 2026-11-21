@@ -23,117 +23,137 @@ objectives:
     methods:
       - method: examine
         statement: >
-          access control policy and procedures; procedures for mobile device access
-          control; system design documentation; configuration management plan; system
-          configuration settings; authorizations for mobile device connections to
-          organizational systems; system audit records; encryption mechanisms and
-          associated configuration documentation; system security plan; other relevant
-          documents or records
+          access control policy and procedures; procedures for
+          mobile device access control; system design documentation;
+          configuration management plan; system configuration
+          settings; authorizations for mobile device connections to
+          organizational systems; system audit records; encryption
+          mechanisms and associated configuration documentation;
+          system security plan; other relevant documents or records
       - method: interview
         statement: >
-          personnel with access control responsibilities for mobile devices; personnel
-          using mobile devices to access organizational systems; personnel with
-          information security responsibilities; system administrators
+          personnel with access control responsibilities for mobile
+          devices; personnel using mobile devices to access
+          organizational systems; personnel with information
+          security responsibilities; system administrators
       - method: test
         statement: >
-          access control capability for mobile device connections to organizational
-          systems; encryption mechanisms for protecting the confidentiality of CUI on
-          mobile devices; configurations of mobile devices
-    statement: usage restrictions are established for mobile devices.
+          access control capability for mobile device connections to
+          organizational systems; encryption mechanisms for
+          protecting the confidentiality of CUI on mobile devices;
+          configurations of mobile devices
+    statement: >-
+      usage restrictions are established for mobile devices.
   - id: a.02
     methods:
       - method: examine
         statement: >
-          access control policy and procedures; procedures for mobile device access
-          control; system design documentation; configuration management plan; system
-          configuration settings; authorizations for mobile device connections to
-          organizational systems; system audit records; encryption mechanisms and
-          associated configuration documentation; system security plan; other relevant
-          documents or records
+          access control policy and procedures; procedures for
+          mobile device access control; system design documentation;
+          configuration management plan; system configuration
+          settings; authorizations for mobile device connections to
+          organizational systems; system audit records; encryption
+          mechanisms and associated configuration documentation;
+          system security plan; other relevant documents or records
       - method: interview
         statement: >
-          personnel with access control responsibilities for mobile devices; personnel
-          using mobile devices to access organizational systems; personnel with
-          information security responsibilities; system administrators
+          personnel with access control responsibilities for mobile
+          devices; personnel using mobile devices to access
+          organizational systems; personnel with information
+          security responsibilities; system administrators
       - method: test
         statement: >
-          access control capability for mobile device connections to organizational
-          systems; encryption mechanisms for protecting the confidentiality of CUI on
-          mobile devices; configurations of mobile devices
-    statement: configuration requirements are established for mobile devices.
+          access control capability for mobile device connections to
+          organizational systems; encryption mechanisms for
+          protecting the confidentiality of CUI on mobile devices;
+          configurations of mobile devices
+    statement: >-
+      configuration requirements are established for mobile devices.
   - id: a.03
     methods:
       - method: examine
         statement: >
-          access control policy and procedures; procedures for mobile device access
-          control; system design documentation; configuration management plan; system
-          configuration settings; authorizations for mobile device connections to
-          organizational systems; system audit records; encryption mechanisms and
-          associated configuration documentation; system security plan; other relevant
-          documents or records
+          access control policy and procedures; procedures for
+          mobile device access control; system design documentation;
+          configuration management plan; system configuration
+          settings; authorizations for mobile device connections to
+          organizational systems; system audit records; encryption
+          mechanisms and associated configuration documentation;
+          system security plan; other relevant documents or records
       - method: interview
         statement: >
-          personnel with access control responsibilities for mobile devices; personnel
-          using mobile devices to access organizational systems; personnel with
-          information security responsibilities; system administrators
+          personnel with access control responsibilities for mobile
+          devices; personnel using mobile devices to access
+          organizational systems; personnel with information
+          security responsibilities; system administrators
       - method: test
         statement: >
-          access control capability for mobile device connections to organizational
-          systems; encryption mechanisms for protecting the confidentiality of CUI on
-          mobile devices; configurations of mobile devices
-    statement: connection requirements are established for mobile devices.
+          access control capability for mobile device connections to
+          organizational systems; encryption mechanisms for
+          protecting the confidentiality of CUI on mobile devices;
+          configurations of mobile devices
+    statement: >-
+      connection requirements are established for mobile devices.
   - id: b
     methods:
       - method: examine
         statement: >
-          access control policy and procedures; procedures for mobile device access
-          control; system design documentation; configuration management plan; system
-          configuration settings; authorizations for mobile device connections to
-          organizational systems; system audit records; encryption mechanisms and
-          associated configuration documentation; system security plan; other relevant
-          documents or records
+          access control policy and procedures; procedures for
+          mobile device access control; system design documentation;
+          configuration management plan; system configuration
+          settings; authorizations for mobile device connections to
+          organizational systems; system audit records; encryption
+          mechanisms and associated configuration documentation;
+          system security plan; other relevant documents or records
       - method: interview
         statement: >
-          personnel with access control responsibilities for mobile devices; personnel
-          using mobile devices to access organizational systems; personnel with
-          information security responsibilities; system administrators
+          personnel with access control responsibilities for mobile
+          devices; personnel using mobile devices to access
+          organizational systems; personnel with information
+          security responsibilities; system administrators
       - method: test
         statement: >
-          access control capability for mobile device connections to organizational
-          systems; encryption mechanisms for protecting the confidentiality of CUI on
-          mobile devices; configurations of mobile devices
-    statement: the connection of mobile devices to the system is authorized.
+          access control capability for mobile device connections to
+          organizational systems; encryption mechanisms for
+          protecting the confidentiality of CUI on mobile devices;
+          configurations of mobile devices
+    statement: >-
+      the connection of mobile devices to the system is authorized.
   - id: c
     methods:
       - method: examine
         statement: >
-          access control policy and procedures; procedures for mobile device access
-          control; system design documentation; configuration management plan; system
-          configuration settings; authorizations for mobile device connections to
-          organizational systems; system audit records; encryption mechanisms and
-          associated configuration documentation; system security plan; other relevant
-          documents or records
+          access control policy and procedures; procedures for
+          mobile device access control; system design documentation;
+          configuration management plan; system configuration
+          settings; authorizations for mobile device connections to
+          organizational systems; system audit records; encryption
+          mechanisms and associated configuration documentation;
+          system security plan; other relevant documents or records
       - method: interview
         statement: >
-          personnel with access control responsibilities for mobile devices; personnel
-          using mobile devices to access organizational systems; personnel with
-          information security responsibilities; system administrators
+          personnel with access control responsibilities for mobile
+          devices; personnel using mobile devices to access
+          organizational systems; personnel with information
+          security responsibilities; system administrators
       - method: test
         statement: >
-          access control capability for mobile device connections to organizational
-          systems; encryption mechanisms for protecting the confidentiality of CUI on
-          mobile devices; configurations of mobile devices
+          access control capability for mobile device connections to
+          organizational systems; encryption mechanisms for
+          protecting the confidentiality of CUI on mobile devices;
+          configurations of mobile devices
     statement: >
-      full-device or container-based encryption is implemented to protect the
-      confidentiality of CUI on mobile devices.
+      full-device or container-based encryption is implemented to
+      protect the confidentiality of CUI on mobile devices.
 parts:
   - id: a
     statement: >
-      Establish usage restrictions, configuration requirements, and connection
-      requirements for mobile devices.
+      Establish usage restrictions, configuration requirements, and
+      connection requirements for mobile devices.
   - id: b
-    statement: Authorize the connection of mobile devices to the system.
+    statement: >-
+      Authorize the connection of mobile devices to the system.
   - id: c
     statement: >
-      Implement full-device or container-based encryption to protect the
-      confidentiality of CUI on mobile devices.
+      Implement full-device or container-based encryption to protect
+      the confidentiality of CUI on mobile devices.

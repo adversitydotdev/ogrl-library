@@ -13,42 +13,53 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; procedures addressing
-          non-modifiable executable programs; system design documentation; system
-          configuration settings and associated documentation; system architecture;
-          system audit records; system security plan; other relevant documents or
-          records
+          System and communications protection policy; procedures
+          addressing non-modifiable executable programs; system
+          design documentation; system configuration settings and
+          associated documentation; system architecture; system
+          audit records; system security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; organizational personnel installing, configuring,
-          and/or maintaining the system; system developers/integrators
+          System/network administrators; organizational personnel
+          with information security responsibilities; organizational
+          personnel installing, configuring, and/or maintaining the
+          system; system developers/integrators
       - method: test
         statement: >
-          Mechanisms supporting and/or implementing the capability to protect
-          information integrity on read-only media prior to storage and after
-          information has been recorded onto the media
-    statement: the integrity of information is protected prior to storage on read-only media;
+          Mechanisms supporting and/or implementing the capability
+          to protect information integrity on read-only media prior
+          to storage and after information has been recorded onto
+          the media
+    statement: >-
+      the integrity of information is protected prior to storage on
+      read-only media;
   - id: "sc-34(02).sc-34(02)[02]"
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; procedures addressing
-          non-modifiable executable programs; system design documentation; system
-          configuration settings and associated documentation; system architecture;
-          system audit records; system security plan; other relevant documents or
-          records
+          System and communications protection policy; procedures
+          addressing non-modifiable executable programs; system
+          design documentation; system configuration settings and
+          associated documentation; system architecture; system
+          audit records; system security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; organizational personnel installing, configuring,
-          and/or maintaining the system; system developers/integrators
+          System/network administrators; organizational personnel
+          with information security responsibilities; organizational
+          personnel installing, configuring, and/or maintaining the
+          system; system developers/integrators
       - method: test
         statement: >
-          Mechanisms supporting and/or implementing the capability to protect
-          information integrity on read-only media prior to storage and after
-          information has been recorded onto the media
-    statement: the media is controlled after such information has been recorded onto the media;
+          Mechanisms supporting and/or implementing the capability
+          to protect information integrity on read-only media prior
+          to storage and after information has been recorded onto
+          the media
+    statement: >-
+      the media is controlled after such information has been
+      recorded onto the media;
 statement: >
-  Protect the integrity of information prior to storage on read-only media and
-  control the media after such information has been recorded onto the media.
+  Protect the integrity of information prior to storage on read-only
+  media and control the media after such information has been
+  recorded onto the media.

@@ -13,37 +13,44 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Supply chain risk management policy and procedures; supply chain risk
-          management plan; system and services acquisition policy; configuration
-          management policy; procedures addressing supply chain protection; procedures
-          addressing the integration of information security requirements into the
-          acquisition process; procedures addressing the baseline configuration of the
-          system; configuration management plan; system design documentation; system
-          architecture and associated configuration documentation; solicitation
-          documentation; acquisition documentation; acquisition contracts for the
-          system, system component, or system service; threat assessments;
-          vulnerability assessments; list of security safeguards to be taken to
-          protect the organizational supply chain against potential supply chain
-          threats; system security plan; other relevant documents or records
+          Supply chain risk management policy and procedures; supply
+          chain risk management plan; system and services
+          acquisition policy; configuration management policy;
+          procedures addressing supply chain protection; procedures
+          addressing the integration of information security
+          requirements into the acquisition process; procedures
+          addressing the baseline configuration of the system;
+          configuration management plan; system design
+          documentation; system architecture and associated
+          configuration documentation; solicitation documentation;
+          acquisition documentation; acquisition contracts for the
+          system, system component, or system service; threat
+          assessments; vulnerability assessments; list of security
+          safeguards to be taken to protect the organizational
+          supply chain against potential supply chain threats;
+          system security plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with system and services acquisition
-          responsibilities; organizational personnel with information security
-          responsibilities; organizational personnel with supply chain risk management
+          Organizational personnel with system and services
+          acquisition responsibilities; organizational personnel
+          with information security responsibilities; organizational
+          personnel with supply chain risk management
           responsibilities
       - method: test
         statement: >
-          Organizational processes for defining and employing safeguards to limit harm
-          from adversaries of the organizational supply chain; mechanisms supporting
-          and/or implementing the definition and employment of safeguards to protect
-          the organizational supply chain
+          Organizational processes for defining and employing
+          safeguards to limit harm from adversaries of the
+          organizational supply chain; mechanisms supporting and/or
+          implementing the definition and employment of safeguards
+          to protect the organizational supply chain
     statement: >
-      {{ sr_03_02_odp }} are employed to limit harm from potential adversaries
-      identifying and targeting the organizational supply chain.
+      {{ sr_03_02_odp }} are employed to limit harm from potential
+      adversaries identifying and targeting the organizational
+      supply chain.
 parameters:
   sr_03_02_odp:
     label: controls
 statement: >
-  Employ the following controls to limit harm from potential adversaries
-  identifying and targeting the organizational supply chain:
-  {{ sr_03_02_odp }}.
+  Employ the following controls to limit harm from potential
+  adversaries identifying and targeting the organizational supply
+  chain: {{ sr_03_02_odp }}.

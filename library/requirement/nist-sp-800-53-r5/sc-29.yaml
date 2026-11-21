@@ -13,26 +13,29 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; system design documentation;
-          system configuration settings and associated documentation; list of
-          technologies deployed in the system; acquisition documentation; acquisition
-          contracts for system components or services; system security plan; other
-          relevant documents or records
+          System and communications protection policy; system design
+          documentation; system configuration settings and
+          associated documentation; list of technologies deployed in
+          the system; acquisition documentation; acquisition
+          contracts for system components or services; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; organizational personnel with system acquisition,
-          development, and implementation responsibilities
+          System/network administrators; organizational personnel
+          with information security responsibilities; organizational
+          personnel with system acquisition, development, and
+          implementation responsibilities
       - method: test
         statement: >
-          Mechanisms supporting and/or implementing the employment of a diverse set of
-          information technologies
+          Mechanisms supporting and/or implementing the employment
+          of a diverse set of information technologies
     statement: >
-      a diverse set of information technologies is employed for {{ sc_29_odp }} in
-      the implementation of the system.
+      a diverse set of information technologies is employed for
+      {{ sc_29_odp }} in the implementation of the system.
 parameters:
   sc_29_odp:
     label: system components
 statement: >
-  Employ a diverse set of information technologies for the following system
-  components in the implementation of the system: {{ sc_29_odp }}.
+  Employ a diverse set of information technologies for the following
+  system components in the implementation of the system:
+  {{ sc_29_odp }}.

@@ -20,44 +20,51 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Incident response policy; procedures addressing incident response
-          assistance; incident response plan; system security plan; privacy plan;
-          other relevant documents or records
+          Incident response policy; procedures addressing incident
+          response assistance; incident response plan; system
+          security plan; privacy plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          Organizational personnel with incident response assistance and support
-          responsibilities; organizational personnel with access to incident response
-          support and assistance capability; organizational personnel with information
+          Organizational personnel with incident response assistance
+          and support responsibilities; organizational personnel
+          with access to incident response support and assistance
+          capability; organizational personnel with information
           security and privacy responsibilities
       - method: test
         statement: >
-          Organizational processes for incident response assistance; mechanisms
-          supporting and/or implementing incident response assistance
+          Organizational processes for incident response assistance;
+          mechanisms supporting and/or implementing incident
+          response assistance
     statement: >
-      an incident response support resource, integral to the organizational
-      incident response capability, is provided;
+      an incident response support resource, integral to the
+      organizational incident response capability, is provided;
   - id: "[02]"
     methods:
       - method: examine
         statement: >
-          Incident response policy; procedures addressing incident response
-          assistance; incident response plan; system security plan; privacy plan;
-          other relevant documents or records
+          Incident response policy; procedures addressing incident
+          response assistance; incident response plan; system
+          security plan; privacy plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          Organizational personnel with incident response assistance and support
-          responsibilities; organizational personnel with access to incident response
-          support and assistance capability; organizational personnel with information
+          Organizational personnel with incident response assistance
+          and support responsibilities; organizational personnel
+          with access to incident response support and assistance
+          capability; organizational personnel with information
           security and privacy responsibilities
       - method: test
         statement: >
-          Organizational processes for incident response assistance; mechanisms
-          supporting and/or implementing incident response assistance
+          Organizational processes for incident response assistance;
+          mechanisms supporting and/or implementing incident
+          response assistance
     statement: >
-      the incident response support resource offers advice and assistance to users
-      of the system for the response and reporting of incidents.
+      the incident response support resource offers advice and
+      assistance to users of the system for the response and
+      reporting of incidents.
 statement: >
   Provide an incident response support resource, integral to the
-  organizational incident response capability, that offers advice and
-  assistance to users of the system for the handling and reporting of
-  incidents.
+  organizational incident response capability, that offers advice
+  and assistance to users of the system for the handling and
+  reporting of incidents.

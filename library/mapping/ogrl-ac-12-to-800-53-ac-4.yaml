@@ -9,6 +9,7 @@ relationship: subset-of
 review_status: draft
 source_ref: control--ogrl-ac-12
 summary: >
-  Tenant isolation enforces one information flow policy within the system;
-  network and inter-system flow controls are outside this control.
+  Tenant isolation enforces one information flow policy within the
+  system; network and inter-system flow controls are outside this
+  control.
 target_ref: requirement--nist-sp-800-53-r5-ac-4

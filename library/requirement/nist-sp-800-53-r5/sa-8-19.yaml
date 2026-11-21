@@ -13,38 +13,46 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and services acquisition policy; access control policy; system and
-          communications protection policy; procedures addressing boundary protection;
-          procedures addressing the security design principle of continuous protection
-          used in the specification, design, development, implementation, and
-          modification of the system; system configuration settings and associated
-          documentation; system design documentation; security and privacy
-          requirements and specifications for the system; system security and privacy
-          architecture; system security plan; other relevant documents or records
+          System and services acquisition policy; access control
+          policy; system and communications protection policy;
+          procedures addressing boundary protection; procedures
+          addressing the security design principle of continuous
+          protection used in the specification, design, development,
+          implementation, and modification of the system; system
+          configuration settings and associated documentation;
+          system design documentation; security and privacy
+          requirements and specifications for the system; system
+          security and privacy architecture; system security plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with the responsibility for determining system
-          security and privacy requirements; organizational personnel with system
-          specification, design, development, implementation, and modification
-          responsibilities; organizational personnel with access enforcement
-          responsibilities; system/network administrators; system developers;
-          organizational personnel with information security responsibilities;
-          organizational personnel with boundary protection responsibilities
+          Organizational personnel with the responsibility for
+          determining system security and privacy requirements;
+          organizational personnel with system specification,
+          design, development, implementation, and modification
+          responsibilities; organizational personnel with access
+          enforcement responsibilities; system/network
+          administrators; system developers; organizational
+          personnel with information security responsibilities;
+          organizational personnel with boundary protection
+          responsibilities
       - method: test
         statement: >
-          Organizational processes for applying the security design principle of
-          continuous protection in system specification, design, development,
-          implementation, and modification; mechanisms implementing access enforcement
-          functions; mechanisms supporting the application of the security design
-          principle of continuous protection in system specification, design,
-          development, implementation, and modification; mechanisms supporting and/or
+          Organizational processes for applying the security design
+          principle of continuous protection in system
+          specification, design, development, implementation, and
+          modification; mechanisms implementing access enforcement
+          functions; mechanisms supporting the application of the
+          security design principle of continuous protection in
+          system specification, design, development, implementation,
+          and modification; mechanisms supporting and/or
           implementing secure failure
     statement: >
-      {{ sa_08_19_odp }} implement the security design principle of continuous
-      protection.
+      {{ sa_08_19_odp }} implement the security design principle of
+      continuous protection.
 parameters:
   sa_08_19_odp:
     label: systems or system components
 statement: >
-  Implement the security design principle of continuous protection in
-  {{ sa_08_19_odp }}.
+  Implement the security design principle of continuous protection
+  in {{ sa_08_19_odp }}.

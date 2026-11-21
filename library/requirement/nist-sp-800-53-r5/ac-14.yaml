@@ -13,61 +13,69 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing permitted actions without
-          identification or authentication; system configuration settings and
-          associated documentation; security plan; list of user actions that can be
-          performed without identification or authentication; system audit records;
-          system security plan; other relevant documents or records
+          Access control policy; procedures addressing permitted
+          actions without identification or authentication; system
+          configuration settings and associated documentation;
+          security plan; list of user actions that can be performed
+          without identification or authentication; system audit
+          records; system security plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities
+          System/network administrators; organizational personnel
+          with information security responsibilities
     statement: >
-      {{ ac_14_odp }} that can be performed on the system without identification
-      or authentication consistent with organizational mission and business
-      functions are identified;
+      {{ ac_14_odp }} that can be performed on the system without
+      identification or authentication consistent with
+      organizational mission and business functions are identified;
   - id: b-1
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing permitted actions without
-          identification or authentication; system configuration settings and
-          associated documentation; security plan; list of user actions that can be
-          performed without identification or authentication; system audit records;
-          system security plan; other relevant documents or records
+          Access control policy; procedures addressing permitted
+          actions without identification or authentication; system
+          configuration settings and associated documentation;
+          security plan; list of user actions that can be performed
+          without identification or authentication; system audit
+          records; system security plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities
+          System/network administrators; organizational personnel
+          with information security responsibilities
     statement: >
-      user actions not requiring identification or authentication are documented
-      in the security plan for the system;
+      user actions not requiring identification or authentication
+      are documented in the security plan for the system;
   - id: b-2
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing permitted actions without
-          identification or authentication; system configuration settings and
-          associated documentation; security plan; list of user actions that can be
-          performed without identification or authentication; system audit records;
-          system security plan; other relevant documents or records
+          Access control policy; procedures addressing permitted
+          actions without identification or authentication; system
+          configuration settings and associated documentation;
+          security plan; list of user actions that can be performed
+          without identification or authentication; system audit
+          records; system security plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities
+          System/network administrators; organizational personnel
+          with information security responsibilities
     statement: >
-      a rationale for user actions not requiring identification or authentication
-      is provided in the security plan for the system.
+      a rationale for user actions not requiring identification or
+      authentication is provided in the security plan for the
+      system.
 parameters:
   ac_14_odp:
     label: user actions
 parts:
   - id: a
     statement: >
-      Identify {{ ac_14_odp }} that can be performed on the system without
-      identification or authentication consistent with organizational mission and
-      business functions; and
+      Identify {{ ac_14_odp }} that can be performed on the system
+      without identification or authentication consistent with
+      organizational mission and business functions; and
   - id: b
     statement: >
-      Document and provide supporting rationale in the security plan for the
-      system, user actions not requiring identification or authentication.
+      Document and provide supporting rationale in the security plan
+      for the system, user actions not requiring identification or
+      authentication.

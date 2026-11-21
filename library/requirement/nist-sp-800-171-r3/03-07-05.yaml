@@ -20,134 +20,167 @@ objectives:
     methods:
       - method: examine
         statement: >
-          maintenance policy and procedures; remote access policy and procedures;
-          procedures for nonlocal system maintenance; records of remote access;
-          maintenance records; diagnostic records; system design documentation; system
-          configuration settings; system security plan; other relevant documents or
-          records
+          maintenance policy and procedures; remote access policy
+          and procedures; procedures for nonlocal system
+          maintenance; records of remote access; maintenance
+          records; diagnostic records; system design documentation;
+          system configuration settings; system security plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          personnel with system maintenance responsibilities; personnel with
-          information security responsibilities; system administrators
+          personnel with system maintenance responsibilities;
+          personnel with information security responsibilities;
+          system administrators
       - method: test
         statement: >
-          processes for managing nonlocal maintenance; mechanisms for implementing,
-          supporting, or managing nonlocal maintenance; mechanisms for implementing
-          multi-factor authentication and replay resistance; mechanisms for
-          terminating nonlocal maintenance sessions and network connections
-    statement: nonlocal maintenance and diagnostic activities are approved.
+          processes for managing nonlocal maintenance; mechanisms
+          for implementing, supporting, or managing nonlocal
+          maintenance; mechanisms for implementing multi-factor
+          authentication and replay resistance; mechanisms for
+          terminating nonlocal maintenance sessions and network
+          connections
+    statement: >-
+      nonlocal maintenance and diagnostic activities are approved.
   - id: a.02
     methods:
       - method: examine
         statement: >
-          maintenance policy and procedures; remote access policy and procedures;
-          procedures for nonlocal system maintenance; records of remote access;
-          maintenance records; diagnostic records; system design documentation; system
-          configuration settings; system security plan; other relevant documents or
-          records
+          maintenance policy and procedures; remote access policy
+          and procedures; procedures for nonlocal system
+          maintenance; records of remote access; maintenance
+          records; diagnostic records; system design documentation;
+          system configuration settings; system security plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          personnel with system maintenance responsibilities; personnel with
-          information security responsibilities; system administrators
+          personnel with system maintenance responsibilities;
+          personnel with information security responsibilities;
+          system administrators
       - method: test
         statement: >
-          processes for managing nonlocal maintenance; mechanisms for implementing,
-          supporting, or managing nonlocal maintenance; mechanisms for implementing
-          multi-factor authentication and replay resistance; mechanisms for
-          terminating nonlocal maintenance sessions and network connections
-    statement: nonlocal maintenance and diagnostic activities are monitored.
+          processes for managing nonlocal maintenance; mechanisms
+          for implementing, supporting, or managing nonlocal
+          maintenance; mechanisms for implementing multi-factor
+          authentication and replay resistance; mechanisms for
+          terminating nonlocal maintenance sessions and network
+          connections
+    statement: >-
+      nonlocal maintenance and diagnostic activities are monitored.
   - id: c.01
     methods:
       - method: examine
         statement: >
-          maintenance policy and procedures; remote access policy and procedures;
-          procedures for nonlocal system maintenance; records of remote access;
-          maintenance records; diagnostic records; system design documentation; system
-          configuration settings; system security plan; other relevant documents or
-          records
+          maintenance policy and procedures; remote access policy
+          and procedures; procedures for nonlocal system
+          maintenance; records of remote access; maintenance
+          records; diagnostic records; system design documentation;
+          system configuration settings; system security plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          personnel with system maintenance responsibilities; personnel with
-          information security responsibilities; system administrators
+          personnel with system maintenance responsibilities;
+          personnel with information security responsibilities;
+          system administrators
       - method: test
         statement: >
-          processes for managing nonlocal maintenance; mechanisms for implementing,
-          supporting, or managing nonlocal maintenance; mechanisms for implementing
-          multi-factor authentication and replay resistance; mechanisms for
-          terminating nonlocal maintenance sessions and network connections
-    statement: session connections are terminated when nonlocal maintenance is completed.
+          processes for managing nonlocal maintenance; mechanisms
+          for implementing, supporting, or managing nonlocal
+          maintenance; mechanisms for implementing multi-factor
+          authentication and replay resistance; mechanisms for
+          terminating nonlocal maintenance sessions and network
+          connections
+    statement: >-
+      session connections are terminated when nonlocal maintenance
+      is completed.
   - id: c.02
     methods:
       - method: examine
         statement: >
-          maintenance policy and procedures; remote access policy and procedures;
-          procedures for nonlocal system maintenance; records of remote access;
-          maintenance records; diagnostic records; system design documentation; system
-          configuration settings; system security plan; other relevant documents or
-          records
+          maintenance policy and procedures; remote access policy
+          and procedures; procedures for nonlocal system
+          maintenance; records of remote access; maintenance
+          records; diagnostic records; system design documentation;
+          system configuration settings; system security plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          personnel with system maintenance responsibilities; personnel with
-          information security responsibilities; system administrators
+          personnel with system maintenance responsibilities;
+          personnel with information security responsibilities;
+          system administrators
       - method: test
         statement: >
-          processes for managing nonlocal maintenance; mechanisms for implementing,
-          supporting, or managing nonlocal maintenance; mechanisms for implementing
-          multi-factor authentication and replay resistance; mechanisms for
-          terminating nonlocal maintenance sessions and network connections
-    statement: network connections are terminated when nonlocal maintenance is completed.
+          processes for managing nonlocal maintenance; mechanisms
+          for implementing, supporting, or managing nonlocal
+          maintenance; mechanisms for implementing multi-factor
+          authentication and replay resistance; mechanisms for
+          terminating nonlocal maintenance sessions and network
+          connections
+    statement: >-
+      network connections are terminated when nonlocal maintenance
+      is completed.
   - id: b.01
     methods:
       - method: examine
         statement: >
-          maintenance policy and procedures; remote access policy and procedures;
-          procedures for nonlocal system maintenance; records of remote access;
-          maintenance records; diagnostic records; system design documentation; system
-          configuration settings; system security plan; other relevant documents or
-          records
+          maintenance policy and procedures; remote access policy
+          and procedures; procedures for nonlocal system
+          maintenance; records of remote access; maintenance
+          records; diagnostic records; system design documentation;
+          system configuration settings; system security plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          personnel with system maintenance responsibilities; personnel with
-          information security responsibilities; system administrators
+          personnel with system maintenance responsibilities;
+          personnel with information security responsibilities;
+          system administrators
       - method: test
         statement: >
-          processes for managing nonlocal maintenance; mechanisms for implementing,
-          supporting, or managing nonlocal maintenance; mechanisms for implementing
-          multi-factor authentication and replay resistance; mechanisms for
-          terminating nonlocal maintenance sessions and network connections
+          processes for managing nonlocal maintenance; mechanisms
+          for implementing, supporting, or managing nonlocal
+          maintenance; mechanisms for implementing multi-factor
+          authentication and replay resistance; mechanisms for
+          terminating nonlocal maintenance sessions and network
+          connections
     statement: >
-      multi-factor authentication is implemented in the establishment of nonlocal
-      maintenance and diagnostic sessions.
+      multi-factor authentication is implemented in the
+      establishment of nonlocal maintenance and diagnostic sessions.
   - id: b.02
     methods:
       - method: examine
         statement: >
-          maintenance policy and procedures; remote access policy and procedures;
-          procedures for nonlocal system maintenance; records of remote access;
-          maintenance records; diagnostic records; system design documentation; system
-          configuration settings; system security plan; other relevant documents or
-          records
+          maintenance policy and procedures; remote access policy
+          and procedures; procedures for nonlocal system
+          maintenance; records of remote access; maintenance
+          records; diagnostic records; system design documentation;
+          system configuration settings; system security plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          personnel with system maintenance responsibilities; personnel with
-          information security responsibilities; system administrators
+          personnel with system maintenance responsibilities;
+          personnel with information security responsibilities;
+          system administrators
       - method: test
         statement: >
-          processes for managing nonlocal maintenance; mechanisms for implementing,
-          supporting, or managing nonlocal maintenance; mechanisms for implementing
-          multi-factor authentication and replay resistance; mechanisms for
-          terminating nonlocal maintenance sessions and network connections
+          processes for managing nonlocal maintenance; mechanisms
+          for implementing, supporting, or managing nonlocal
+          maintenance; mechanisms for implementing multi-factor
+          authentication and replay resistance; mechanisms for
+          terminating nonlocal maintenance sessions and network
+          connections
     statement: >
-      replay resistance is implemented in the establishment of nonlocal
-      maintenance and diagnostic sessions.
+      replay resistance is implemented in the establishment of
+      nonlocal maintenance and diagnostic sessions.
 parts:
   - id: a
-    statement: Approve and monitor nonlocal maintenance and diagnostic activities.
+    statement: >-
+      Approve and monitor nonlocal maintenance and diagnostic
+      activities.
   - id: b
     statement: >
-      Implement multi-factor authentication and replay resistance in the
-      establishment of nonlocal maintenance and diagnostic sessions.
+      Implement multi-factor authentication and replay resistance in
+      the establishment of nonlocal maintenance and diagnostic
+      sessions.
   - id: c
     statement: >
-      Terminate session and network connections when nonlocal maintenance is
-      completed.
+      Terminate session and network connections when nonlocal
+      maintenance is completed.

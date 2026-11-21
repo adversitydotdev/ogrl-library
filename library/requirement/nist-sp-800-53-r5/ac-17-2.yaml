@@ -13,22 +13,24 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing remote access to the system;
-          system design documentation; system configuration settings and associated
-          documentation; cryptographic mechanisms and associated configuration
-          documentation; system audit records; system security plan; other relevant
-          documents or records
+          Access control policy; procedures addressing remote access
+          to the system; system design documentation; system
+          configuration settings and associated documentation;
+          cryptographic mechanisms and associated configuration
+          documentation; system audit records; system security plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; system developers
+          System/network administrators; organizational personnel
+          with information security responsibilities; system
+          developers
       - method: test
         statement: >
-          Cryptographic mechanisms protecting confidentiality and integrity of remote
-          access sessions
+          Cryptographic mechanisms protecting confidentiality and
+          integrity of remote access sessions
     statement: >
-      cryptographic mechanisms are implemented to protect the confidentiality and
-      integrity of remote access sessions.
+      cryptographic mechanisms are implemented to protect the
+      confidentiality and integrity of remote access sessions.
 statement: >
-  Implement cryptographic mechanisms to protect the confidentiality and
-  integrity of remote access sessions.
+  Implement cryptographic mechanisms to protect the confidentiality
+  and integrity of remote access sessions.

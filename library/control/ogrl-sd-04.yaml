@@ -9,14 +9,15 @@ control_type: preventive
 family: sd
 frequency: continuous
 guidance: >
-  Apply organization-level rulesets so new repositories inherit protection,
-  disallow administrator bypass, and require SSO for platform access. Script a
-  quarterly export of branch protection settings across repositories (for
-  example via the GitHub API) as evidence. Review content requirements are
-  covered by OGRL-CM-01 and OGRL-SD-02.
+  Apply organization-level rulesets so new repositories inherit
+  protection, disallow administrator bypass, and require SSO for
+  platform access. Script a quarterly export of branch protection
+  settings across repositories (for example via the GitHub API) as
+  evidence. Review content requirements are covered by OGRL-CM-01
+  and OGRL-SD-02.
 objective: >
-  Ensure every production change is versioned, attributable, and can only
-  enter protected branches through the approved workflow.
+  Ensure every production change is versioned, attributable, and can
+  only enter protected branches through the approved workflow.
 origin: standard
 parameters:
   branch_protection_review_frequency:
@@ -31,17 +32,18 @@ parameters:
   versioned_assets:
     label: Assets kept under source control
     value: >
-      application source code, infrastructure-as-code, CI/CD pipeline definitions,
-      and deployment configuration
+      application source code, infrastructure-as-code, CI/CD
+      pipeline definitions, and deployment configuration
 statement: >
-  Maintain {{ versioned_assets }} in {{ source_control_platform }}, enforce
-  branch protection on {{ protected_branches }} that blocks direct pushes,
-  force-pushes, and deletion and requires an approved pull request with
-  passing checks to merge, and verify protection settings on all production
-  repositories {{ branch_protection_review_frequency }}.
+  Maintain {{ versioned_assets }} in {{ source_control_platform }},
+  enforce branch protection on {{ protected_branches }} that blocks
+  direct pushes, force-pushes, and deletion and requires an approved
+  pull request with passing checks to merge, and verify protection
+  settings on all production repositories
+  {{ branch_protection_review_frequency }}.
 summary: >
-  Keep all production code and configuration in managed source control with
-  enforced branch protection.
+  Keep all production code and configuration in managed source
+  control with enforced branch protection.
 tags:
   - source-control
   - branch-protection

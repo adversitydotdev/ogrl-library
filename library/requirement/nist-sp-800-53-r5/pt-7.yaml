@@ -26,26 +26,30 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Personally identifiable information processing and transparency policy and
-          procedures; privacy notice; Privacy Act system of records; computer matching
-          agreements and notices; contracts; privacy information sharing agreements;
-          memoranda of understanding; governing requirements; privacy plan; other
-          relevant documents or records
+          Personally identifiable information processing and
+          transparency policy and procedures; privacy notice;
+          Privacy Act system of records; computer matching
+          agreements and notices; contracts; privacy information
+          sharing agreements; memoranda of understanding; governing
+          requirements; privacy plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          Organizational personnel with personally identifiable information processing
-          and transparency responsibilities; organizational personnel with information
-          security and privacy responsibilities
+          Organizational personnel with personally identifiable
+          information processing and transparency responsibilities;
+          organizational personnel with information security and
+          privacy responsibilities
       - method: test
         statement: >
-          Organizational processes for supporting and/or implementing personally
-          identifiable information processing
+          Organizational processes for supporting and/or
+          implementing personally identifiable information
+          processing
     statement: >
-      {{ pt_07_odp }} are applied for specific categories of personally
-      identifiable information.
+      {{ pt_07_odp }} are applied for specific categories of
+      personally identifiable information.
 parameters:
   pt_07_odp:
     label: processing conditions
 statement: >
-  Apply {{ pt_07_odp }} for specific categories of personally identifiable
-  information.
+  Apply {{ pt_07_odp }} for specific categories of personally
+  identifiable information.

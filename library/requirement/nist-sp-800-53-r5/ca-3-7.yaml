@@ -13,52 +13,68 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing system connections; system and
-          communications protection policy; system interconnection agreements;
-          information exchange security agreements; memoranda of understanding or
-          agreements; service level agreements; non-disclosure agreements; system
-          design documentation; system configuration settings and associated
-          documentation; control assessment report; system audit records; system
-          security plan; privacy plan; other relevant documents or records
+          Access control policy; procedures addressing system
+          connections; system and communications protection policy;
+          system interconnection agreements; information exchange
+          security agreements; memoranda of understanding or
+          agreements; service level agreements; non-disclosure
+          agreements; system design documentation; system
+          configuration settings and associated documentation;
+          control assessment report; system audit records; system
+          security plan; privacy plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          Organizational personnel with responsibilities for managing connections to
-          external systems; network administrators; organizational personnel with
-          information security and privacy responsibilities
+          Organizational personnel with responsibilities for
+          managing connections to external systems; network
+          administrators; organizational personnel with information
+          security and privacy responsibilities
       - method: test
-        statement: Mechanisms implementing restrictions on external system connections
+        statement: >-
+          Mechanisms implementing restrictions on external system
+          connections
     statement: >
-      transitive (downstream) information exchanges with other systems through the
-      systems identified in CA-03a are identified;
+      transitive (downstream) information exchanges with other
+      systems through the systems identified in CA-03a are
+      identified;
   - id: b
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing system connections; system and
-          communications protection policy; system interconnection agreements;
-          information exchange security agreements; memoranda of understanding or
-          agreements; service level agreements; non-disclosure agreements; system
-          design documentation; system configuration settings and associated
-          documentation; control assessment report; system audit records; system
-          security plan; privacy plan; other relevant documents or records
+          Access control policy; procedures addressing system
+          connections; system and communications protection policy;
+          system interconnection agreements; information exchange
+          security agreements; memoranda of understanding or
+          agreements; service level agreements; non-disclosure
+          agreements; system design documentation; system
+          configuration settings and associated documentation;
+          control assessment report; system audit records; system
+          security plan; privacy plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          Organizational personnel with responsibilities for managing connections to
-          external systems; network administrators; organizational personnel with
-          information security and privacy responsibilities
+          Organizational personnel with responsibilities for
+          managing connections to external systems; network
+          administrators; organizational personnel with information
+          security and privacy responsibilities
       - method: test
-        statement: Mechanisms implementing restrictions on external system connections
+        statement: >-
+          Mechanisms implementing restrictions on external system
+          connections
     statement: >
-      measures are taken to ensure that transitive (downstream) information
-      exchanges cease when the controls on identified transitive (downstream)
-      systems cannot be verified or validated.
+      measures are taken to ensure that transitive (downstream)
+      information exchanges cease when the controls on identified
+      transitive (downstream) systems cannot be verified or
+      validated.
 parts:
   - id: a
     statement: >
-      Identify transitive (downstream) information exchanges with other systems
-      through the systems identified in [CA-3a](#ca-3_smt.a) ; and
+      Identify transitive (downstream) information exchanges with
+      other systems through the systems identified in
+      [CA-3a](#ca-3_smt.a) ; and
   - id: b
     statement: >
-      Take measures to ensure that transitive (downstream) information exchanges
-      cease when the controls on identified transitive (downstream) systems cannot
-      be verified or validated.
+      Take measures to ensure that transitive (downstream)
+      information exchanges cease when the controls on identified
+      transitive (downstream) systems cannot be verified or
+      validated.

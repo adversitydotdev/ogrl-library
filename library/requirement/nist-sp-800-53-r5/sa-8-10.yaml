@@ -13,29 +13,34 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and services acquisition policy; procedures addressing the security
-          design principle of hierarchical trust used in the specification, design,
-          development, implementation, and modification of the system; system design
-          documentation; security and privacy requirements and specifications for the
-          system; system security and privacy architecture; system security plan;
-          other relevant documents or records
+          System and services acquisition policy; procedures
+          addressing the security design principle of hierarchical
+          trust used in the specification, design, development,
+          implementation, and modification of the system; system
+          design documentation; security and privacy requirements
+          and specifications for the system; system security and
+          privacy architecture; system security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with the responsibility for determining system
-          security and privacy requirements; organizational personnel with system
-          specification, design, development, implementation, and modification
-          responsibilities; system developers; organizational personnel with
-          information security responsibilities
+          Organizational personnel with the responsibility for
+          determining system security and privacy requirements;
+          organizational personnel with system specification,
+          design, development, implementation, and modification
+          responsibilities; system developers; organizational
+          personnel with information security responsibilities
       - method: test
         statement: >
-          Organizational processes for applying the security design principle of
-          hierarchical trust in system specification, design, development,
-          implementation, and modification; mechanisms supporting the application of
-          the security design principle of hierarchical trust in system specification,
-          design, development, implementation, and modification
+          Organizational processes for applying the security design
+          principle of hierarchical trust in system specification,
+          design, development, implementation, and modification;
+          mechanisms supporting the application of the security
+          design principle of hierarchical trust in system
+          specification, design, development, implementation, and
+          modification
     statement: >
-      {{ sa_08_10_odp }} implement the security design principle of hierarchical
-      trust.
+      {{ sa_08_10_odp }} implement the security design principle of
+      hierarchical trust.
 parameters:
   sa_08_10_odp:
     label: systems or system components

@@ -13,26 +13,29 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Assessment, authorization, and monitoring policy; procedures addressing
-          penetration testing; procedures addressing red team exercises; assessment
-          plan; results of red team exercises; penetration test report; assessment
-          report; rules of engagement; assessment evidence; system security plan;
-          privacy plan; other relevant documents or records
+          Assessment, authorization, and monitoring policy;
+          procedures addressing penetration testing; procedures
+          addressing red team exercises; assessment plan; results of
+          red team exercises; penetration test report; assessment
+          report; rules of engagement; assessment evidence; system
+          security plan; privacy plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          Organizational personnel with assessment responsibilities; organizational
-          personnel with information security and privacy responsibilities;
-          system/network administrators
+          Organizational personnel with assessment responsibilities;
+          organizational personnel with information security and
+          privacy responsibilities; system/network administrators
       - method: test
-        statement: Mechanisms supporting the employment of red team exercises
+        statement: >-
+          Mechanisms supporting the employment of red team exercises
     statement: >
-      {{ ca_08_02_odp }} are employed to simulate attempts by adversaries to
-      compromise organizational systems in accordance with applicable rules of
-      engagement.
+      {{ ca_08_02_odp }} are employed to simulate attempts by
+      adversaries to compromise organizational systems in accordance
+      with applicable rules of engagement.
 parameters:
   ca_08_02_odp:
     label: red team exercises
 statement: >
-  Employ the following red-team exercises to simulate attempts by adversaries
-  to compromise organizational systems in accordance with applicable rules of
-  engagement: {{ ca_08_02_odp }}.
+  Employ the following red-team exercises to simulate attempts by
+  adversaries to compromise organizational systems in accordance
+  with applicable rules of engagement: {{ ca_08_02_odp }}.

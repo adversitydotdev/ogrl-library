@@ -13,96 +13,114 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Physical and environmental protection policy; procedures addressing fire
-          protection; fire suppression and detection devices/systems documentation;
-          facility housing the system; alarm service-level agreements; test records of
-          fire suppression and detection devices/systems; system security plan; other
-          relevant documents or records
+          Physical and environmental protection policy; procedures
+          addressing fire protection; fire suppression and detection
+          devices/systems documentation; facility housing the
+          system; alarm service-level agreements; test records of
+          fire suppression and detection devices/systems; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with responsibilities for fire detection and
-          suppression devices/systems; organizational personnel with responsibilities
-          for providing automatic notifications of any activation of fire suppression
-          devices/systems to appropriate personnel, roles, and emergency responders;
-          organizational personnel with information security responsibilities
+          Organizational personnel with responsibilities for fire
+          detection and suppression devices/systems; organizational
+          personnel with responsibilities for providing automatic
+          notifications of any activation of fire suppression
+          devices/systems to appropriate personnel, roles, and
+          emergency responders; organizational personnel with
+          information security responsibilities
       - method: test
         statement: >
-          Automated mechanisms supporting and/or implementing fire suppression
-          devices/systems; activation of fire suppression devices/systems (simulated);
-          automated notifications
-    statement: fire suppression systems that activate automatically are employed;
+          Automated mechanisms supporting and/or implementing fire
+          suppression devices/systems; activation of fire
+          suppression devices/systems (simulated); automated
+          notifications
+    statement: >-
+      fire suppression systems that activate automatically are
+      employed;
   - id: a-2
     methods:
       - method: examine
         statement: >
-          Physical and environmental protection policy; procedures addressing fire
-          protection; fire suppression and detection devices/systems documentation;
-          facility housing the system; alarm service-level agreements; test records of
-          fire suppression and detection devices/systems; system security plan; other
-          relevant documents or records
+          Physical and environmental protection policy; procedures
+          addressing fire protection; fire suppression and detection
+          devices/systems documentation; facility housing the
+          system; alarm service-level agreements; test records of
+          fire suppression and detection devices/systems; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with responsibilities for fire detection and
-          suppression devices/systems; organizational personnel with responsibilities
-          for providing automatic notifications of any activation of fire suppression
-          devices/systems to appropriate personnel, roles, and emergency responders;
-          organizational personnel with information security responsibilities
+          Organizational personnel with responsibilities for fire
+          detection and suppression devices/systems; organizational
+          personnel with responsibilities for providing automatic
+          notifications of any activation of fire suppression
+          devices/systems to appropriate personnel, roles, and
+          emergency responders; organizational personnel with
+          information security responsibilities
       - method: test
         statement: >
-          Automated mechanisms supporting and/or implementing fire suppression
-          devices/systems; activation of fire suppression devices/systems (simulated);
-          automated notifications
+          Automated mechanisms supporting and/or implementing fire
+          suppression devices/systems; activation of fire
+          suppression devices/systems (simulated); automated
+          notifications
     statement: >
-      fire suppression systems that notify {{ pe_13_02_odp_01 }} automatically are
-      employed;
+      fire suppression systems that notify {{ pe_13_02_odp_01 }}
+      automatically are employed;
   - id: a-3
     methods:
       - method: examine
         statement: >
-          Physical and environmental protection policy; procedures addressing fire
-          protection; fire suppression and detection devices/systems documentation;
-          facility housing the system; alarm service-level agreements; test records of
-          fire suppression and detection devices/systems; system security plan; other
-          relevant documents or records
+          Physical and environmental protection policy; procedures
+          addressing fire protection; fire suppression and detection
+          devices/systems documentation; facility housing the
+          system; alarm service-level agreements; test records of
+          fire suppression and detection devices/systems; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with responsibilities for fire detection and
-          suppression devices/systems; organizational personnel with responsibilities
-          for providing automatic notifications of any activation of fire suppression
-          devices/systems to appropriate personnel, roles, and emergency responders;
-          organizational personnel with information security responsibilities
+          Organizational personnel with responsibilities for fire
+          detection and suppression devices/systems; organizational
+          personnel with responsibilities for providing automatic
+          notifications of any activation of fire suppression
+          devices/systems to appropriate personnel, roles, and
+          emergency responders; organizational personnel with
+          information security responsibilities
       - method: test
         statement: >
-          Automated mechanisms supporting and/or implementing fire suppression
-          devices/systems; activation of fire suppression devices/systems (simulated);
-          automated notifications
+          Automated mechanisms supporting and/or implementing fire
+          suppression devices/systems; activation of fire
+          suppression devices/systems (simulated); automated
+          notifications
     statement: >
-      fire suppression systems that notify {{ pe_13_02_odp_02 }} automatically are
-      employed;
+      fire suppression systems that notify {{ pe_13_02_odp_02 }}
+      automatically are employed;
   - id: b
     methods:
       - method: examine
         statement: >
-          Physical and environmental protection policy; procedures addressing fire
-          protection; fire suppression and detection devices/systems documentation;
-          facility housing the system; alarm service-level agreements; test records of
-          fire suppression and detection devices/systems; system security plan; other
-          relevant documents or records
+          Physical and environmental protection policy; procedures
+          addressing fire protection; fire suppression and detection
+          devices/systems documentation; facility housing the
+          system; alarm service-level agreements; test records of
+          fire suppression and detection devices/systems; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with responsibilities for fire detection and
-          suppression devices/systems; organizational personnel with responsibilities
-          for providing automatic notifications of any activation of fire suppression
-          devices/systems to appropriate personnel, roles, and emergency responders;
-          organizational personnel with information security responsibilities
+          Organizational personnel with responsibilities for fire
+          detection and suppression devices/systems; organizational
+          personnel with responsibilities for providing automatic
+          notifications of any activation of fire suppression
+          devices/systems to appropriate personnel, roles, and
+          emergency responders; organizational personnel with
+          information security responsibilities
       - method: test
         statement: >
-          Automated mechanisms supporting and/or implementing fire suppression
-          devices/systems; activation of fire suppression devices/systems (simulated);
-          automated notifications
+          Automated mechanisms supporting and/or implementing fire
+          suppression devices/systems; activation of fire
+          suppression devices/systems (simulated); automated
+          notifications
     statement: >
-      an automatic fire suppression capability is employed when the facility is
-      not staffed on a continuous basis.
+      an automatic fire suppression capability is employed when the
+      facility is not staffed on a continuous basis.
 parameters:
   pe_13_02_odp_01:
     label: personnel or roles
@@ -111,9 +129,10 @@ parameters:
 parts:
   - id: a
     statement: >
-      Employ fire suppression systems that activate automatically and notify
-      {{ pe_13_02_odp_01 }} and {{ pe_13_02_odp_02 }} ; and
+      Employ fire suppression systems that activate automatically
+      and notify {{ pe_13_02_odp_01 }} and {{ pe_13_02_odp_02 }} ;
+      and
   - id: b
     statement: >
-      Employ an automatic fire suppression capability when the facility is not
-      staffed on a continuous basis.
+      Employ an automatic fire suppression capability when the
+      facility is not staffed on a continuous basis.

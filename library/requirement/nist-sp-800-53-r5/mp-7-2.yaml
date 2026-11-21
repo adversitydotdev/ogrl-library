@@ -13,36 +13,44 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System media protection policy; system use policy; procedures addressing
-          media usage restrictions; rules of behavior; system configuration settings
-          and associated documentation; system security plan; other relevant documents
-          or records
+          System media protection policy; system use policy;
+          procedures addressing media usage restrictions; rules of
+          behavior; system configuration settings and associated
+          documentation; system security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with system media use responsibilities;
-          organizational personnel with information security responsibilities;
-          system/network administrators
+          Organizational personnel with system media use
+          responsibilities; organizational personnel with
+          information security responsibilities; system/network
+          administrators
       - method: test
         statement: >
-          Organizational processes for media use; mechanisms prohibiting use of media
-          on systems or system components
+          Organizational processes for media use; mechanisms
+          prohibiting use of media on systems or system components
     statement: sanitization-resistant media is identified;
   - id: "mp-07(02).mp-07(02)[02]"
     methods:
       - method: examine
         statement: >
-          System media protection policy; system use policy; procedures addressing
-          media usage restrictions; rules of behavior; system configuration settings
-          and associated documentation; system security plan; other relevant documents
-          or records
+          System media protection policy; system use policy;
+          procedures addressing media usage restrictions; rules of
+          behavior; system configuration settings and associated
+          documentation; system security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with system media use responsibilities;
-          organizational personnel with information security responsibilities;
-          system/network administrators
+          Organizational personnel with system media use
+          responsibilities; organizational personnel with
+          information security responsibilities; system/network
+          administrators
       - method: test
         statement: >
-          Organizational processes for media use; mechanisms prohibiting use of media
-          on systems or system components
-    statement: the use of sanitization-resistant media in organizational systems is prohibited.
-statement: Prohibit the use of sanitization-resistant media in organizational systems.
+          Organizational processes for media use; mechanisms
+          prohibiting use of media on systems or system components
+    statement: >-
+      the use of sanitization-resistant media in organizational
+      systems is prohibited.
+statement: >-
+  Prohibit the use of sanitization-resistant media in organizational
+  systems.

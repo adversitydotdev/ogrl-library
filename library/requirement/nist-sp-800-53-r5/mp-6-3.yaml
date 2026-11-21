@@ -13,27 +13,30 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System media protection policy; procedures addressing media sanitization and
-          disposal; information on portable storage devices for the system; list of
-          circumstances requiring sanitization of portable storage devices; media
-          sanitization records; audit records; system security plan; other relevant
-          documents or records
+          System media protection policy; procedures addressing
+          media sanitization and disposal; information on portable
+          storage devices for the system; list of circumstances
+          requiring sanitization of portable storage devices; media
+          sanitization records; audit records; system security plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with system media sanitization responsibilities;
-          organizational personnel with information security responsibilities
+          Organizational personnel with system media sanitization
+          responsibilities; organizational personnel with
+          information security responsibilities
       - method: test
         statement: >
-          Organizational processes for media sanitization of portable storage devices;
-          mechanisms supporting and/or implementing media sanitization
+          Organizational processes for media sanitization of
+          portable storage devices; mechanisms supporting and/or
+          implementing media sanitization
     statement: >
-      non-destructive sanitization techniques are applied to portable storage
-      devices prior to connecting such devices to the system under
-      {{ mp_06_03_odp }}.
+      non-destructive sanitization techniques are applied to
+      portable storage devices prior to connecting such devices to
+      the system under {{ mp_06_03_odp }}.
 parameters:
   mp_06_03_odp:
     label: circumstances
 statement: >
-  Apply nondestructive sanitization techniques to portable storage devices
-  prior to connecting such devices to the system under the following
-  circumstances: {{ mp_06_03_odp }}.
+  Apply nondestructive sanitization techniques to portable storage
+  devices prior to connecting such devices to the system under the
+  following circumstances: {{ mp_06_03_odp }}.

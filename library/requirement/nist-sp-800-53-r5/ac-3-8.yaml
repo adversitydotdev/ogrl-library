@@ -13,41 +13,52 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing access enforcement; system
-          design documentation; system configuration settings and associated
-          documentation; rules governing revocation of access authorizations, system
-          audit records; system security plan; other relevant documents or records
+          Access control policy; procedures addressing access
+          enforcement; system design documentation; system
+          configuration settings and associated documentation; rules
+          governing revocation of access authorizations, system
+          audit records; system security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with access enforcement responsibilities;
-          system/network administrators; organizational personnel with information
-          security responsibilities; system developers
+          Organizational personnel with access enforcement
+          responsibilities; system/network administrators;
+          organizational personnel with information security
+          responsibilities; system developers
       - method: test
-        statement: Mechanisms implementing access enforcement functions
+        statement: >-
+          Mechanisms implementing access enforcement functions
     statement: >
-      revocation of access authorizations is enforced, resulting from changes to
-      the security attributes of subjects based on {{ ac_03_08_odp }};
+      revocation of access authorizations is enforced, resulting
+      from changes to the security attributes of subjects based on
+      {{ ac_03_08_odp }};
   - id: "ac-03(08).ac-03(08)[02]"
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing access enforcement; system
-          design documentation; system configuration settings and associated
-          documentation; rules governing revocation of access authorizations, system
-          audit records; system security plan; other relevant documents or records
+          Access control policy; procedures addressing access
+          enforcement; system design documentation; system
+          configuration settings and associated documentation; rules
+          governing revocation of access authorizations, system
+          audit records; system security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with access enforcement responsibilities;
-          system/network administrators; organizational personnel with information
-          security responsibilities; system developers
+          Organizational personnel with access enforcement
+          responsibilities; system/network administrators;
+          organizational personnel with information security
+          responsibilities; system developers
       - method: test
-        statement: Mechanisms implementing access enforcement functions
+        statement: >-
+          Mechanisms implementing access enforcement functions
     statement: >
-      revocation of access authorizations is enforced resulting from changes to
-      the security attributes of objects based on {{ ac_03_08_odp }}.
+      revocation of access authorizations is enforced resulting from
+      changes to the security attributes of objects based on
+      {{ ac_03_08_odp }}.
 parameters:
   ac_03_08_odp:
     label: rules
 statement: >
-  Enforce the revocation of access authorizations resulting from changes to
-  the security attributes of subjects and objects based on {{ ac_03_08_odp }}.
+  Enforce the revocation of access authorizations resulting from
+  changes to the security attributes of subjects and objects based
+  on {{ ac_03_08_odp }}.

@@ -13,21 +13,26 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; procedures addressing
-          platform-independent applications; system design documentation; system
-          configuration settings and associated documentation; list of
-          platform-independent applications; system audit records; system security
-          plan; other relevant documents or records
+          System and communications protection policy; procedures
+          addressing platform-independent applications; system
+          design documentation; system configuration settings and
+          associated documentation; list of platform-independent
+          applications; system audit records; system security plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; system developer
+          System/network administrators; organizational personnel
+          with information security responsibilities; system
+          developer
       - method: test
-        statement: Mechanisms supporting and/or implementing platform-independent applications
-    statement: "{{ sc_27_odp }} are included within organizational systems."
+        statement: >-
+          Mechanisms supporting and/or implementing
+          platform-independent applications
+    statement: >-
+      {{ sc_27_odp }} are included within organizational systems.
 parameters:
   sc_27_odp:
     label: platform-independent applications
 statement: >
-  Include within organizational systems the following platform independent
-  applications: {{ sc_27_odp }}.
+  Include within organizational systems the following platform
+  independent applications: {{ sc_27_odp }}.

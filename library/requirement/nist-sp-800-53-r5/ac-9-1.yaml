@@ -13,19 +13,23 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing previous logon notification;
-          system design documentation; system configuration settings and associated
-          documentation; system audit records; system security plan; other relevant
+          Access control policy; procedures addressing previous
+          logon notification; system design documentation; system
+          configuration settings and associated documentation;
+          system audit records; system security plan; other relevant
           documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; system developers
+          System/network administrators; organizational personnel
+          with information security responsibilities; system
+          developers
       - method: test
-        statement: Mechanisms implementing access control policy for previous logon notification
+        statement: >-
+          Mechanisms implementing access control policy for previous
+          logon notification
     statement: >
-      the user is notified, upon successful logon, of the number of unsuccessful
-      logon attempts since the last successful logon.
+      the user is notified, upon successful logon, of the number of
+      unsuccessful logon attempts since the last successful logon.
 statement: >
-  Notify the user, upon successful logon, of the number of unsuccessful logon
-  attempts since the last successful logon.
+  Notify the user, upon successful logon, of the number of
+  unsuccessful logon attempts since the last successful logon.

@@ -13,28 +13,33 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Physical and environmental protection policy; procedures addressing physical
-          access authorizations; list of acceptable forms of identification for
-          visitor access to the facility where the system resides; access
-          authorization forms; access credentials; physical access control logs or
-          records; system security plan; other relevant documents or records
+          Physical and environmental protection policy; procedures
+          addressing physical access authorizations; list of
+          acceptable forms of identification for visitor access to
+          the facility where the system resides; access
+          authorization forms; access credentials; physical access
+          control logs or records; system security plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with physical access authorization
-          responsibilities; organizational personnel with physical access to the
-          system facility; organizational personnel with information security
+          Organizational personnel with physical access
+          authorization responsibilities; organizational personnel
+          with physical access to the system facility;
+          organizational personnel with information security
           responsibilities
       - method: test
         statement: >
-          Organizational processes for physical access authorizations; mechanisms
-          supporting and/or implementing physical access authorizations
+          Organizational processes for physical access
+          authorizations; mechanisms supporting and/or implementing
+          physical access authorizations
     statement: >
-      two forms of identification are required from {{ pe_02_02_odp }} for visitor
-      access to the facility where the system resides.
+      two forms of identification are required from
+      {{ pe_02_02_odp }} for visitor access to the facility where
+      the system resides.
 parameters:
   pe_02_02_odp:
     label: list of acceptable forms of identification
 statement: >
   Require two forms of identification from the following forms of
-  identification for visitor access to the facility where the system resides:
-  {{ pe_02_02_odp }}.
+  identification for visitor access to the facility where the system
+  resides: {{ pe_02_02_odp }}.

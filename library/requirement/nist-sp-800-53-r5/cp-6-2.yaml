@@ -13,42 +13,49 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Contingency planning policy; procedures addressing alternate storage sites;
-          contingency plan; alternate storage site; alternate storage site agreements;
-          alternate storage site configurations; system security plan; other relevant
-          documents or records
+          Contingency planning policy; procedures addressing
+          alternate storage sites; contingency plan; alternate
+          storage site; alternate storage site agreements; alternate
+          storage site configurations; system security plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with contingency plan testing responsibilities;
-          organizational personnel with responsibilities for testing related plans;
-          organizational personnel with information security responsibilities
+          Organizational personnel with contingency plan testing
+          responsibilities; organizational personnel with
+          responsibilities for testing related plans; organizational
+          personnel with information security responsibilities
       - method: test
         statement: >
-          Organizational processes for contingency plan testing; mechanisms supporting
-          recovery time and point objectives
+          Organizational processes for contingency plan testing;
+          mechanisms supporting recovery time and point objectives
     statement: >
-      the alternate storage site is configured to facilitate recovery operations
-      in accordance with recovery time objectives;
+      the alternate storage site is configured to facilitate
+      recovery operations in accordance with recovery time
+      objectives;
   - id: "cp-06(02).cp-06(02)[02]"
     methods:
       - method: examine
         statement: >
-          Contingency planning policy; procedures addressing alternate storage sites;
-          contingency plan; alternate storage site; alternate storage site agreements;
-          alternate storage site configurations; system security plan; other relevant
-          documents or records
+          Contingency planning policy; procedures addressing
+          alternate storage sites; contingency plan; alternate
+          storage site; alternate storage site agreements; alternate
+          storage site configurations; system security plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with contingency plan testing responsibilities;
-          organizational personnel with responsibilities for testing related plans;
-          organizational personnel with information security responsibilities
+          Organizational personnel with contingency plan testing
+          responsibilities; organizational personnel with
+          responsibilities for testing related plans; organizational
+          personnel with information security responsibilities
       - method: test
         statement: >
-          Organizational processes for contingency plan testing; mechanisms supporting
-          recovery time and point objectives
+          Organizational processes for contingency plan testing;
+          mechanisms supporting recovery time and point objectives
     statement: >
-      the alternate storage site is configured to facilitate recovery operations
-      in accordance with recovery point objectives.
+      the alternate storage site is configured to facilitate
+      recovery operations in accordance with recovery point
+      objectives.
 statement: >
-  Configure the alternate storage site to facilitate recovery operations in
-  accordance with recovery time and recovery point objectives.
+  Configure the alternate storage site to facilitate recovery
+  operations in accordance with recovery time and recovery point
+  objectives.

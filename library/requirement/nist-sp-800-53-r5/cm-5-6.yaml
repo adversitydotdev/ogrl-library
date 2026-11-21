@@ -13,19 +13,26 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Configuration management policy; procedures addressing access restrictions
-          for changes to the system; configuration management plan; system design
-          documentation; system architecture and configuration documentation; system
-          configuration settings and associated documentation; system component
-          inventory; change control records; system audit records; system security
-          plan; other relevant documents or records
+          Configuration management policy; procedures addressing
+          access restrictions for changes to the system;
+          configuration management plan; system design
+          documentation; system architecture and configuration
+          documentation; system configuration settings and
+          associated documentation; system component inventory;
+          change control records; system audit records; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with information security responsibilities;
-          system/network administrators
+          Organizational personnel with information security
+          responsibilities; system/network administrators
       - method: test
         statement: >
-          Organizational processes for managing access restrictions to change;
-          mechanisms supporting and/or implementing access restrictions for change
-    statement: privileges to change software resident within software libraries are limited.
-statement: Limit privileges to change software resident within software libraries.
+          Organizational processes for managing access restrictions
+          to change; mechanisms supporting and/or implementing
+          access restrictions for change
+    statement: >-
+      privileges to change software resident within software
+      libraries are limited.
+statement: >-
+  Limit privileges to change software resident within software
+  libraries.

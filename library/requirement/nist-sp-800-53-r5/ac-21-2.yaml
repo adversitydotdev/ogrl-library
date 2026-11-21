@@ -13,22 +13,28 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing user-based collaboration and
-          information sharing (including restrictions); system design documentation;
-          system configuration settings and associated documentation; system-generated
-          list of access restrictions regarding information to be shared; information
-          search and retrieval records; system audit records; system security plan;
-          other relevant documents or records
+          Access control policy; procedures addressing user-based
+          collaboration and information sharing (including
+          restrictions); system design documentation; system
+          configuration settings and associated documentation;
+          system-generated list of access restrictions regarding
+          information to be shared; information search and retrieval
+          records; system audit records; system security plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with access enforcement responsibilities for system
-          search and retrieval services; system/network administrators; organizational
-          personnel with information security responsibilities; system developers
+          Organizational personnel with access enforcement
+          responsibilities for system search and retrieval services;
+          system/network administrators; organizational personnel
+          with information security responsibilities; system
+          developers
       - method: test
-        statement: System search and retrieval services enforcing information-sharing restrictions
+        statement: >-
+          System search and retrieval services enforcing
+          information-sharing restrictions
     statement: >
-      information search and retrieval services that enforce {{ ac_21_02_odp }}
-      are implemented.
+      information search and retrieval services that enforce
+      {{ ac_21_02_odp }} are implemented.
 parameters:
   ac_21_02_odp:
     label: information-sharing restrictions

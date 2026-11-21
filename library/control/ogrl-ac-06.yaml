@@ -9,28 +9,30 @@ control_type: preventive
 family: ac
 frequency: quarterly
 guidance: >
-  Prefer short-lived workload identities (OIDC/IAM roles) over static API
-  keys, run secret scanning on source repositories, and replace default
-  credentials prior to deployment.
+  Prefer short-lived workload identities (OIDC/IAM roles) over
+  static API keys, run secret scanning on source repositories, and
+  replace default credentials prior to deployment.
 objective: >
-  Protect authenticators from unauthorized disclosure and limit exposure
-  windows if leaked.
+  Protect authenticators from unauthorized disclosure and limit
+  exposure windows if leaked.
 origin: standard
 parameters:
   revocation_triggers:
     label: Immediate revocation events
-    value: "suspected exposure, personnel departure, or system decommission"
+    value: >-
+      suspected exposure, personnel departure, or system
+      decommission
   rotation_period:
     label: Maximum static credential lifetime
     value: "90 days"
 statement: >
-  Manage passwords, API keys, and cryptographic credentials in an approved
-  secrets vault, rotate non-ephemeral credentials at least every
-  {{ rotation_period }}, and revoke immediately upon
+  Manage passwords, API keys, and cryptographic credentials in an
+  approved secrets vault, rotate non-ephemeral credentials at least
+  every {{ rotation_period }}, and revoke immediately upon
   {{ revocation_triggers }}.
 summary: >
-  Store secrets in managed vaults, prohibit hardcoded credentials, and rotate
-  keys on a defined cadence or upon compromise.
+  Store secrets in managed vaults, prohibit hardcoded credentials,
+  and rotate keys on a defined cadence or upon compromise.
 tags:
   - secrets
   - credentials

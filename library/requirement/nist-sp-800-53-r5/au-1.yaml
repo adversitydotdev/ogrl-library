@@ -26,231 +26,261 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Audit and accountability policy and procedures; system security plan;
-          privacy plan; other relevant documents or records
+          Audit and accountability policy and procedures; system
+          security plan; privacy plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          Organizational personnel with audit and accountability responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities
-    statement: an audit and accountability policy is developed and documented;
+          Organizational personnel with audit and accountability
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities
+    statement: >-
+      an audit and accountability policy is developed and
+      documented;
   - id: a-2
     methods:
       - method: examine
         statement: >
-          Audit and accountability policy and procedures; system security plan;
-          privacy plan; other relevant documents or records
+          Audit and accountability policy and procedures; system
+          security plan; privacy plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          Organizational personnel with audit and accountability responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities
-    statement: "the audit and accountability policy is disseminated to {{ au_01_odp_01 }};"
+          Organizational personnel with audit and accountability
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities
+    statement: >-
+      the audit and accountability policy is disseminated to
+      {{ au_01_odp_01 }};
   - id: a-3
     methods:
       - method: examine
         statement: >
-          Audit and accountability policy and procedures; system security plan;
-          privacy plan; other relevant documents or records
+          Audit and accountability policy and procedures; system
+          security plan; privacy plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          Organizational personnel with audit and accountability responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities
+          Organizational personnel with audit and accountability
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities
     statement: >
-      audit and accountability procedures to facilitate the implementation of the
-      audit and accountability policy and associated audit and accountability
-      controls are developed and documented;
+      audit and accountability procedures to facilitate the
+      implementation of the audit and accountability policy and
+      associated audit and accountability controls are developed and
+      documented;
   - id: a-4
     methods:
       - method: examine
         statement: >
-          Audit and accountability policy and procedures; system security plan;
-          privacy plan; other relevant documents or records
+          Audit and accountability policy and procedures; system
+          security plan; privacy plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          Organizational personnel with audit and accountability responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities
-    statement: "the audit and accountability procedures are disseminated to {{ au_01_odp_02 }};"
+          Organizational personnel with audit and accountability
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities
+    statement: >-
+      the audit and accountability procedures are disseminated to
+      {{ au_01_odp_02 }};
   - id: a.1.a-1
     methods:
       - method: examine
         statement: >
-          Audit and accountability policy and procedures; system security plan;
-          privacy plan; other relevant documents or records
+          Audit and accountability policy and procedures; system
+          security plan; privacy plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          Organizational personnel with audit and accountability responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities
-    statement: "the {{ au_01_odp_03 }} of the audit and accountability policy addresses purpose;"
+          Organizational personnel with audit and accountability
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities
+    statement: >-
+      the {{ au_01_odp_03 }} of the audit and accountability policy
+      addresses purpose;
   - id: a.1.a-2
     methods:
       - method: examine
         statement: >
-          Audit and accountability policy and procedures; system security plan;
-          privacy plan; other relevant documents or records
+          Audit and accountability policy and procedures; system
+          security plan; privacy plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          Organizational personnel with audit and accountability responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities
-    statement: "the {{ au_01_odp_03 }} of the audit and accountability policy addresses scope;"
+          Organizational personnel with audit and accountability
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities
+    statement: >-
+      the {{ au_01_odp_03 }} of the audit and accountability policy
+      addresses scope;
   - id: a.1.a-3
     methods:
       - method: examine
         statement: >
-          Audit and accountability policy and procedures; system security plan;
-          privacy plan; other relevant documents or records
+          Audit and accountability policy and procedures; system
+          security plan; privacy plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          Organizational personnel with audit and accountability responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities
-    statement: "the {{ au_01_odp_03 }} of the audit and accountability policy addresses roles;"
+          Organizational personnel with audit and accountability
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities
+    statement: >-
+      the {{ au_01_odp_03 }} of the audit and accountability policy
+      addresses roles;
   - id: a.1.a-4
     methods:
       - method: examine
         statement: >
-          Audit and accountability policy and procedures; system security plan;
-          privacy plan; other relevant documents or records
+          Audit and accountability policy and procedures; system
+          security plan; privacy plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          Organizational personnel with audit and accountability responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities
+          Organizational personnel with audit and accountability
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities
     statement: >
-      the {{ au_01_odp_03 }} of the audit and accountability policy addresses
-      responsibilities;
+      the {{ au_01_odp_03 }} of the audit and accountability policy
+      addresses responsibilities;
   - id: a.1.a-5
     methods:
       - method: examine
         statement: >
-          Audit and accountability policy and procedures; system security plan;
-          privacy plan; other relevant documents or records
+          Audit and accountability policy and procedures; system
+          security plan; privacy plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          Organizational personnel with audit and accountability responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities
+          Organizational personnel with audit and accountability
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities
     statement: >
-      the {{ au_01_odp_03 }} of the audit and accountability policy addresses
-      management commitment;
+      the {{ au_01_odp_03 }} of the audit and accountability policy
+      addresses management commitment;
   - id: a.1.a-6
     methods:
       - method: examine
         statement: >
-          Audit and accountability policy and procedures; system security plan;
-          privacy plan; other relevant documents or records
+          Audit and accountability policy and procedures; system
+          security plan; privacy plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          Organizational personnel with audit and accountability responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities
+          Organizational personnel with audit and accountability
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities
     statement: >
-      the {{ au_01_odp_03 }} of the audit and accountability policy addresses
-      coordination among organizational entities;
+      the {{ au_01_odp_03 }} of the audit and accountability policy
+      addresses coordination among organizational entities;
   - id: a.1.a-7
     methods:
       - method: examine
         statement: >
-          Audit and accountability policy and procedures; system security plan;
-          privacy plan; other relevant documents or records
+          Audit and accountability policy and procedures; system
+          security plan; privacy plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          Organizational personnel with audit and accountability responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities
+          Organizational personnel with audit and accountability
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities
     statement: >
-      the {{ au_01_odp_03 }} of the audit and accountability policy addresses
-      compliance;
+      the {{ au_01_odp_03 }} of the audit and accountability policy
+      addresses compliance;
   - id: a.1.b
     methods:
       - method: examine
         statement: >
-          Audit and accountability policy and procedures; system security plan;
-          privacy plan; other relevant documents or records
+          Audit and accountability policy and procedures; system
+          security plan; privacy plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          Organizational personnel with audit and accountability responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities
+          Organizational personnel with audit and accountability
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities
     statement: >
-      the {{ au_01_odp_03 }} of the audit and accountability policy is consistent
-      with applicable laws, executive orders, directives, regulations, policies,
-      standards, and guidelines;
+      the {{ au_01_odp_03 }} of the audit and accountability policy
+      is consistent with applicable laws, executive orders,
+      directives, regulations, policies, standards, and guidelines;
   - id: b
     methods:
       - method: examine
         statement: >
-          Audit and accountability policy and procedures; system security plan;
-          privacy plan; other relevant documents or records
+          Audit and accountability policy and procedures; system
+          security plan; privacy plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          Organizational personnel with audit and accountability responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities
+          Organizational personnel with audit and accountability
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities
     statement: >
-      the {{ au_01_odp_04 }} is designated to manage the development,
-      documentation, and dissemination of the audit and accountability policy and
-      procedures;
+      the {{ au_01_odp_04 }} is designated to manage the
+      development, documentation, and dissemination of the audit and
+      accountability policy and procedures;
   - id: c.1-1
     methods:
       - method: examine
         statement: >
-          Audit and accountability policy and procedures; system security plan;
-          privacy plan; other relevant documents or records
+          Audit and accountability policy and procedures; system
+          security plan; privacy plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          Organizational personnel with audit and accountability responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities
+          Organizational personnel with audit and accountability
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities
     statement: >
-      the current audit and accountability policy is reviewed and updated
-      {{ au_01_odp_05 }};
+      the current audit and accountability policy is reviewed and
+      updated {{ au_01_odp_05 }};
   - id: c.1-2
     methods:
       - method: examine
         statement: >
-          Audit and accountability policy and procedures; system security plan;
-          privacy plan; other relevant documents or records
+          Audit and accountability policy and procedures; system
+          security plan; privacy plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          Organizational personnel with audit and accountability responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities
+          Organizational personnel with audit and accountability
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities
     statement: >
-      the current audit and accountability policy is reviewed and updated
-      following {{ au_01_odp_06 }};
+      the current audit and accountability policy is reviewed and
+      updated following {{ au_01_odp_06 }};
   - id: c.2-1
     methods:
       - method: examine
         statement: >
-          Audit and accountability policy and procedures; system security plan;
-          privacy plan; other relevant documents or records
+          Audit and accountability policy and procedures; system
+          security plan; privacy plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          Organizational personnel with audit and accountability responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities
+          Organizational personnel with audit and accountability
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities
     statement: >
-      the current audit and accountability procedures are reviewed and updated
-      {{ au_01_odp_07 }};
+      the current audit and accountability procedures are reviewed
+      and updated {{ au_01_odp_07 }};
   - id: c.2-2
     methods:
       - method: examine
         statement: >
-          Audit and accountability policy and procedures; system security plan;
-          privacy plan; other relevant documents or records
+          Audit and accountability policy and procedures; system
+          security plan; privacy plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          Organizational personnel with audit and accountability responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities
+          Organizational personnel with audit and accountability
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities
     statement: >
-      the current audit and accountability procedures are reviewed and updated
-      following {{ au_01_odp_08 }}.
+      the current audit and accountability procedures are reviewed
+      and updated following {{ au_01_odp_08 }}.
 parameters:
   au_01_odp_01:
     label: personnel or roles
@@ -272,28 +302,39 @@ parameters:
     label: organization-defined personnel or roles
 parts:
   - id: a
-    statement: "Develop, document, and disseminate to {{ au_1_prm_1 }}:"
+    statement: >-
+      Develop, document, and disseminate to {{ au_1_prm_1 }}:
   - id: a.1
-    statement: "{{ au_01_odp_03 }} audit and accountability policy that:"
+    statement: >-
+      {{ au_01_odp_03 }} audit and accountability policy that:
   - id: a.1.a
     statement: >
-      Addresses purpose, scope, roles, responsibilities, management commitment,
-      coordination among organizational entities, and compliance; and
+      Addresses purpose, scope, roles, responsibilities, management
+      commitment, coordination among organizational entities, and
+      compliance; and
   - id: a.1.b
     statement: >
-      Is consistent with applicable laws, executive orders, directives,
-      regulations, policies, standards, and guidelines; and
+      Is consistent with applicable laws, executive orders,
+      directives, regulations, policies, standards, and guidelines;
+      and
   - id: a.2
     statement: >
-      Procedures to facilitate the implementation of the audit and accountability
-      policy and the associated audit and accountability controls;
+      Procedures to facilitate the implementation of the audit and
+      accountability policy and the associated audit and
+      accountability controls;
   - id: b
     statement: >
-      Designate an {{ au_01_odp_04 }} to manage the development, documentation,
-      and dissemination of the audit and accountability policy and procedures; and
+      Designate an {{ au_01_odp_04 }} to manage the development,
+      documentation, and dissemination of the audit and
+      accountability policy and procedures; and
   - id: c
-    statement: "Review and update the current audit and accountability:"
+    statement: >-
+      Review and update the current audit and accountability:
   - id: c.1
-    statement: "Policy {{ au_01_odp_05 }} and following {{ au_01_odp_06 }} ; and"
+    statement: >-
+      Policy {{ au_01_odp_05 }} and following {{ au_01_odp_06 }} ;
+      and
   - id: c.2
-    statement: "Procedures {{ au_01_odp_07 }} and following {{ au_01_odp_08 }}."
+    statement: >-
+      Procedures {{ au_01_odp_07 }} and following
+      {{ au_01_odp_08 }}.

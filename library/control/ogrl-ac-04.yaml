@@ -9,23 +9,23 @@ control_type: preventive
 family: ac
 frequency: continuous
 guidance: >
-  Manage security groups, firewall rules, and private network peering via
-  infrastructure-as-code with automated drift detection.
+  Manage security groups, firewall rules, and private network
+  peering via infrastructure-as-code with automated drift detection.
 objective: >
-  Prevent unauthorized network traffic and direct internet exposure of
-  internal or administrative services.
+  Prevent unauthorized network traffic and direct internet exposure
+  of internal or administrative services.
 origin: standard
 parameters:
   admin_access_path:
     label: Authorized administrative network path
     value: authenticated VPN or zero-trust bastion endpoints
 statement: >
-  Enforce default-deny network ingress policies at system boundaries, allowing
-  only explicitly documented service ports and restricting administrative
-  access to {{ admin_access_path }}.
+  Enforce default-deny network ingress policies at system
+  boundaries, allowing only explicitly documented service ports and
+  restricting administrative access to {{ admin_access_path }}.
 summary: >
-  Segment network boundaries with default-deny ingress controls and restrict
-  administrative ports from the public internet.
+  Segment network boundaries with default-deny ingress controls and
+  restrict administrative ports from the public internet.
 tags:
   - network
   - segmentation

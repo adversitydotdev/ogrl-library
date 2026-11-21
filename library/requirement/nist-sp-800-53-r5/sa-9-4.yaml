@@ -13,30 +13,34 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and services acquisition policy; procedures addressing external
-          system services; acquisition contracts for the system, system component, or
-          system service; solicitation documentation; acquisition documentation;
-          service level agreements; organizational security requirements/safeguards
-          for external service providers; personnel security policies for external
-          service providers; assessments performed on external service providers;
-          system security plan; supply chain risk management plan; other relevant
-          documents or records
+          System and services acquisition policy; procedures
+          addressing external system services; acquisition contracts
+          for the system, system component, or system service;
+          solicitation documentation; acquisition documentation;
+          service level agreements; organizational security
+          requirements/safeguards for external service providers;
+          personnel security policies for external service
+          providers; assessments performed on external service
+          providers; system security plan; supply chain risk
+          management plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with system and service acquisition
-          responsibilities; organizational personnel with information security
-          responsibilities; external providers of system services; organizational
-          personnel with supply chain risk management responsibilities
+          Organizational personnel with system and service
+          acquisition responsibilities; organizational personnel
+          with information security responsibilities; external
+          providers of system services; organizational personnel
+          with supply chain risk management responsibilities
       - method: test
         statement: >
-          Organizational processes for defining and employing safeguards to ensure
-          consistent interests with external service providers; mechanisms supporting
-          and/or implementing safeguards to ensure consistent interests with external
-          service providers
+          Organizational processes for defining and employing
+          safeguards to ensure consistent interests with external
+          service providers; mechanisms supporting and/or
+          implementing safeguards to ensure consistent interests
+          with external service providers
     statement: >
-      {{ sa_09_04_odp_02 }} are taken to verify that the interests of
-      {{ sa_09_04_odp_01 }} are consistent with and reflect organizational
-      interests.
+      {{ sa_09_04_odp_02 }} are taken to verify that the interests
+      of {{ sa_09_04_odp_01 }} are consistent with and reflect
+      organizational interests.
 parameters:
   sa_09_04_odp_01:
     label: external service providers
@@ -44,5 +48,5 @@ parameters:
     label: actions
 statement: >
   Take the following actions to verify that the interests of
-  {{ sa_09_04_odp_01 }} are consistent with and reflect organizational
-  interests: {{ sa_09_04_odp_02 }}.
+  {{ sa_09_04_odp_01 }} are consistent with and reflect
+  organizational interests: {{ sa_09_04_odp_02 }}.

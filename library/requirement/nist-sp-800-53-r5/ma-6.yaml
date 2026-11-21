@@ -13,25 +13,28 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Maintenance policy; procedures addressing system maintenance; service
-          provider contracts; service-level agreements; inventory and availability of
-          spare parts; system security plan; other relevant documents or records
+          Maintenance policy; procedures addressing system
+          maintenance; service provider contracts; service-level
+          agreements; inventory and availability of spare parts;
+          system security plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with system maintenance responsibilities;
-          organizational personnel with acquisition responsibilities; organizational
-          personnel with information security responsibilities; system/network
+          Organizational personnel with system maintenance
+          responsibilities; organizational personnel with
+          acquisition responsibilities; organizational personnel
+          with information security responsibilities; system/network
           administrators
       - method: test
-        statement: Organizational processes for ensuring timely maintenance
+        statement: >-
+          Organizational processes for ensuring timely maintenance
     statement: >
-      maintenance support and/or spare parts are obtained for {{ ma_06_odp_01 }}
-      within {{ ma_06_odp_02 }} of failure.
+      maintenance support and/or spare parts are obtained for
+      {{ ma_06_odp_01 }} within {{ ma_06_odp_02 }} of failure.
 parameters:
   ma_06_odp_01:
     label: system components
   ma_06_odp_02:
     label: time period
 statement: >
-  Obtain maintenance support and/or spare parts for {{ ma_06_odp_01 }} within
-  {{ ma_06_odp_02 }} of failure.
+  Obtain maintenance support and/or spare parts for
+  {{ ma_06_odp_01 }} within {{ ma_06_odp_02 }} of failure.

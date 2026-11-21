@@ -6,8 +6,8 @@ modified: "2026-11-20T00:00:00Z"
 name: Verify Quarterly Access Review Completion
 control_ref: control--ogrl-ac-02
 description: >
-  Examine completed quarterly user access review records to confirm reviewer
-  sign-off and timely removal of revoked entitlements.
+  Examine completed quarterly user access review records to confirm
+  reviewer sign-off and timely removal of revoked entitlements.
 interval: quarterly
 method: manual
 objective_refs:

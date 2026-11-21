@@ -13,28 +13,33 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Assessment, authorization, and monitoring policy; procedures addressing
-          penetration testing; procedures addressing red team exercises; assessment
-          plan; results of red team exercises; penetration test report; assessment
-          report; rules of engagement; assessment evidence; system security plan;
-          privacy plan; other relevant documents or records
+          Assessment, authorization, and monitoring policy;
+          procedures addressing penetration testing; procedures
+          addressing red team exercises; assessment plan; results of
+          red team exercises; penetration test report; assessment
+          report; rules of engagement; assessment evidence; system
+          security plan; privacy plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          Organizational personnel with assessment responsibilities; organizational
-          personnel with information security and privacy responsibilities;
-          system/network administrators
+          Organizational personnel with assessment responsibilities;
+          organizational personnel with information security and
+          privacy responsibilities; system/network administrators
       - method: test
-        statement: Automated mechanisms supporting the employment of red team exercises
+        statement: >-
+          Automated mechanisms supporting the employment of red team
+          exercises
     statement: >
       the penetration testing process includes {{ ca_08_03_odp_01 }}
-      {{ ca_08_03_odp_02 }} attempts to bypass or circumvent controls associated
-      with physical access points to facility.
+      {{ ca_08_03_odp_02 }} attempts to bypass or circumvent
+      controls associated with physical access points to facility.
 parameters:
   ca_08_03_odp_01:
     label: frequency
   ca_08_03_odp_02:
     label: ca-08.03_odp.02
 statement: >
-  Employ a penetration testing process that includes {{ ca_08_03_odp_01 }}
-  {{ ca_08_03_odp_02 }} attempts to bypass or circumvent controls associated
-  with physical access points to the facility.
+  Employ a penetration testing process that includes
+  {{ ca_08_03_odp_01 }} {{ ca_08_03_odp_02 }} attempts to bypass or
+  circumvent controls associated with physical access points to the
+  facility.

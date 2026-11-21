@@ -9,7 +9,7 @@ relationship: intersects-with
 review_status: draft
 source_ref: control--ogrl-cr-04
 summary: >
-  Using purge or destroy techniques aligned to SP 800-88 supports sanitization
-  strength commensurate with data sensitivity, without formal
-  categorization-based selection.
+  Using purge or destroy techniques aligned to SP 800-88 supports
+  sanitization strength commensurate with data sensitivity, without
+  formal categorization-based selection.
 target_ref: "requirement--nist-sp-800-53-r5-mp-6#b"

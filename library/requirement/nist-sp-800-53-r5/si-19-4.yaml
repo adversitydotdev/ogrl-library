@@ -4,7 +4,9 @@ id: requirement--nist-sp-800-53-r5-si-19-4
 spec_version: "0.1.0"
 created: "2026-10-22T11:30:00Z"
 modified: "2026-10-22T11:30:00Z"
-name: "Removal, Masking, Encryption, Hashing, or Replacement of Direct Identifiers"
+name: >-
+  Removal, Masking, Encryption, Hashing, or Replacement of Direct
+  Identifiers
 display_id: "SI-19(4)"
 class: enhancement
 framework_ref: framework--nist-sp-800-53-r5
@@ -13,23 +15,28 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; personally identifiable information processing policy;
-          de-identification procedures; system configuration; documentation of
-          de-identified datasets; tools for the removal, masking, encryption, hashing
-          or replacement of direct identifiers; system security plan; privacy plan;
-          privacy impact assessment; privacy risk assessment documentation; other
+          System and information integrity policy; system and
+          information integrity procedures; personally identifiable
+          information processing policy; de-identification
+          procedures; system configuration; documentation of
+          de-identified datasets; tools for the removal, masking,
+          encryption, hashing or replacement of direct identifiers;
+          system security plan; privacy plan; privacy impact
+          assessment; privacy risk assessment documentation; other
           relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel responsible for de-identifying the dataset;
-          organizational personnel with information security and privacy
-          responsibilities
+          Organizational personnel responsible for de-identifying
+          the dataset; organizational personnel with information
+          security and privacy responsibilities
       - method: test
         statement: >
-          Automated mechanisms supporting and/or implementing the removal, masking,
-          encryption, hashing or replacement of direct identifiers
+          Automated mechanisms supporting and/or implementing the
+          removal, masking, encryption, hashing or replacement of
+          direct identifiers
     statement: >
-      direct identifiers in a dataset are removed, masked, encrypted, hashed, or
-      replaced.
-statement: "Remove, mask, encrypt, hash, or replace direct identifiers in a dataset."
+      direct identifiers in a dataset are removed, masked,
+      encrypted, hashed, or replaced.
+statement: >-
+  Remove, mask, encrypt, hash, or replace direct identifiers in a
+  dataset.

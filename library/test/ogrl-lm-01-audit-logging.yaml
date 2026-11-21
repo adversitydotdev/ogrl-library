@@ -6,9 +6,9 @@ modified: "2026-11-20T00:00:00Z"
 name: Verify Centralized Audit Logging Ingestion and Retention
 control_ref: control--ogrl-lm-01
 description: >
-  Confirm audit logging is enabled across all production accounts, logs flow
-  into the central store, and bucket retention policies meet or exceed the
-  configured minimum.
+  Confirm audit logging is enabled across all production accounts,
+  logs flow into the central store, and bucket retention policies
+  meet or exceed the configured minimum.
 interval: daily
 method: automated
 objective_refs:

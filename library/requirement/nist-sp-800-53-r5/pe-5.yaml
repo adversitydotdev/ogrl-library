@@ -17,23 +17,27 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Physical and environmental protection policy; procedures addressing access
-          control for display medium; facility layout of system components; actual
-          displays from system components; list of output devices and associated
-          outputs requiring physical access controls; physical access control logs or
-          records for areas containing output devices and related outputs; system
-          security plan; other relevant documents or records
+          Physical and environmental protection policy; procedures
+          addressing access control for display medium; facility
+          layout of system components; actual displays from system
+          components; list of output devices and associated outputs
+          requiring physical access controls; physical access
+          control logs or records for areas containing output
+          devices and related outputs; system security plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with physical access control responsibilities;
-          organizational personnel with information security responsibilities
+          Organizational personnel with physical access control
+          responsibilities; organizational personnel with
+          information security responsibilities
       - method: test
         statement: >
-          Organizational processes for access control to output devices; mechanisms
-          supporting and/or implementing access control to output devices
+          Organizational processes for access control to output
+          devices; mechanisms supporting and/or implementing access
+          control to output devices
     statement: >
-      physical access to output from {{ pe_05_odp }} is controlled to prevent
-      unauthorized individuals from obtaining the output.
+      physical access to output from {{ pe_05_odp }} is controlled
+      to prevent unauthorized individuals from obtaining the output.
 parameters:
   pe_05_odp:
     label: output devices

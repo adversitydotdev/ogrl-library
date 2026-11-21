@@ -44,25 +44,32 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Security and privacy planning policy; procedures addressing system security
-          and privacy plan development and implementation; system design
-          documentation; system categorization decision; information types stored,
-          transmitted, and processed by the system; system element/component
-          information; stakeholder needs analysis; list of security and privacy
-          requirements allocated to the system, system elements, and environment of
-          operation; list of contractual requirements allocated to external providers
-          of the system or system element; business impact analysis or criticality
-          analysis; risk assessments; risk management strategy; organizational
-          security and privacy policy; federal or organization-approved or mandated
-          baselines or overlays; baseline tailoring rationale; system security plan;
-          privacy plan; records of system security and privacy plan reviews and
-          updates; other relevant documents or records
+          Security and privacy planning policy; procedures
+          addressing system security and privacy plan development
+          and implementation; system design documentation; system
+          categorization decision; information types stored,
+          transmitted, and processed by the system; system
+          element/component information; stakeholder needs analysis;
+          list of security and privacy requirements allocated to the
+          system, system elements, and environment of operation;
+          list of contractual requirements allocated to external
+          providers of the system or system element; business impact
+          analysis or criticality analysis; risk assessments; risk
+          management strategy; organizational security and privacy
+          policy; federal or organization-approved or mandated
+          baselines or overlays; baseline tailoring rationale;
+          system security plan; privacy plan; records of system
+          security and privacy plan reviews and updates; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with security and privacy planning and plan
-          implementation responsibilities; organizational personnel with information
-          security and privacy responsibilities
+          Organizational personnel with security and privacy
+          planning and plan implementation responsibilities;
+          organizational personnel with information security and
+          privacy responsibilities
     statement: >
-      the selected control baseline is tailored by applying specified tailoring
-      actions.
-statement: Tailor the selected control baseline by applying specified tailoring actions.
+      the selected control baseline is tailored by applying
+      specified tailoring actions.
+statement: >-
+  Tailor the selected control baseline by applying specified
+  tailoring actions.

@@ -13,21 +13,28 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Identification and authentication policy; system security plan; procedures
-          addressing identifier management; procedures addressing account management;
-          system design documentation; system configuration settings and associated
-          documentation; system audit records; other relevant documents or records
+          Identification and authentication policy; system security
+          plan; procedures addressing identifier management;
+          procedures addressing account management; system design
+          documentation; system configuration settings and
+          associated documentation; system audit records; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with identifier management responsibilities;
-          organizational personnel with information security responsibilities;
-          system/network administrators; system developers
+          Organizational personnel with identifier management
+          responsibilities; organizational personnel with
+          information security responsibilities; system/network
+          administrators; system developers
       - method: test
-        statement: Mechanisms supporting and/or implementing dynamic identifier management
+        statement: >-
+          Mechanisms supporting and/or implementing dynamic
+          identifier management
     statement: >
-      individual identifiers are dynamically managed in accordance with
-      {{ ia_04_05_odp }}.
+      individual identifiers are dynamically managed in accordance
+      with {{ ia_04_05_odp }}.
 parameters:
   ia_04_05_odp:
     label: dynamic identifier policy
-statement: "Manage individual identifiers dynamically in accordance with {{ ia_04_05_odp }}."
+statement: >-
+  Manage individual identifiers dynamically in accordance with
+  {{ ia_04_05_odp }}.

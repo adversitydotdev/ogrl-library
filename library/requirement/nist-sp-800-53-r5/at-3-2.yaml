@@ -13,24 +13,28 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Security and privacy awareness and training policy; procedures addressing
-          security and privacy training implementation; security and privacy training
-          curriculum; security and privacy training materials; system security plan;
-          privacy plan; training records; other relevant documents or records
+          Security and privacy awareness and training policy;
+          procedures addressing security and privacy training
+          implementation; security and privacy training curriculum;
+          security and privacy training materials; system security
+          plan; privacy plan; training records; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with responsibilities for role-based security and
-          privacy training; organizational personnel with responsibilities for
-          employing and operating physical security controls
+          Organizational personnel with responsibilities for
+          role-based security and privacy training; organizational
+          personnel with responsibilities for employing and
+          operating physical security controls
     statement: >
-      {{ at_03_02_odp_01 }} is/are provided with initial and refresher training
-      {{ at_03_02_odp_02 }} in the employment and operation of physical security
-      controls.
+      {{ at_03_02_odp_01 }} is/are provided with initial and
+      refresher training {{ at_03_02_odp_02 }} in the employment and
+      operation of physical security controls.
 parameters:
   at_03_02_odp_01:
     label: personnel or roles
   at_03_02_odp_02:
     label: frequency
 statement: >
-  Provide {{ at_03_02_odp_01 }} with initial and {{ at_03_02_odp_02 }}
-  training in the employment and operation of physical security controls.
+  Provide {{ at_03_02_odp_01 }} with initial and
+  {{ at_03_02_odp_02 }} training in the employment and operation of
+  physical security controls.

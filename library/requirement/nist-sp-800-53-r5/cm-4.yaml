@@ -17,54 +17,62 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Configuration management policy; procedures addressing security impact
-          analyses for changes to the system; procedures addressing privacy impact
-          analyses for changes to the system; configuration management plan; security
-          impact analysis documentation; privacy impact analysis documentation;
-          privacy impact assessment; privacy risk assessment documentation, system
-          design documentation; analysis tools and associated outputs; change control
-          records; system audit records; system security plan; privacy plan; other
-          relevant documents or records
+          Configuration management policy; procedures addressing
+          security impact analyses for changes to the system;
+          procedures addressing privacy impact analyses for changes
+          to the system; configuration management plan; security
+          impact analysis documentation; privacy impact analysis
+          documentation; privacy impact assessment; privacy risk
+          assessment documentation, system design documentation;
+          analysis tools and associated outputs; change control
+          records; system audit records; system security plan;
+          privacy plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with responsibility for conducting security impact
-          analyses; organizational personnel with responsibility for conducting
-          privacy impact analyses; organizational personnel with information security
-          and privacy responsibilities; system developer; system/network
-          administrators; members of change control board or similar
+          Organizational personnel with responsibility for
+          conducting security impact analyses; organizational
+          personnel with responsibility for conducting privacy
+          impact analyses; organizational personnel with information
+          security and privacy responsibilities; system developer;
+          system/network administrators; members of change control
+          board or similar
       - method: test
         statement: >
-          Organizational processes for security impact analyses; organizational
-          processes for privacy impact analyses
+          Organizational processes for security impact analyses;
+          organizational processes for privacy impact analyses
     statement: >
-      changes to the system are analyzed to determine potential security impacts
-      prior to change implementation;
+      changes to the system are analyzed to determine potential
+      security impacts prior to change implementation;
   - id: "[02]"
     methods:
       - method: examine
         statement: >
-          Configuration management policy; procedures addressing security impact
-          analyses for changes to the system; procedures addressing privacy impact
-          analyses for changes to the system; configuration management plan; security
-          impact analysis documentation; privacy impact analysis documentation;
-          privacy impact assessment; privacy risk assessment documentation, system
-          design documentation; analysis tools and associated outputs; change control
-          records; system audit records; system security plan; privacy plan; other
-          relevant documents or records
+          Configuration management policy; procedures addressing
+          security impact analyses for changes to the system;
+          procedures addressing privacy impact analyses for changes
+          to the system; configuration management plan; security
+          impact analysis documentation; privacy impact analysis
+          documentation; privacy impact assessment; privacy risk
+          assessment documentation, system design documentation;
+          analysis tools and associated outputs; change control
+          records; system audit records; system security plan;
+          privacy plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with responsibility for conducting security impact
-          analyses; organizational personnel with responsibility for conducting
-          privacy impact analyses; organizational personnel with information security
-          and privacy responsibilities; system developer; system/network
-          administrators; members of change control board or similar
+          Organizational personnel with responsibility for
+          conducting security impact analyses; organizational
+          personnel with responsibility for conducting privacy
+          impact analyses; organizational personnel with information
+          security and privacy responsibilities; system developer;
+          system/network administrators; members of change control
+          board or similar
       - method: test
         statement: >
-          Organizational processes for security impact analyses; organizational
-          processes for privacy impact analyses
+          Organizational processes for security impact analyses;
+          organizational processes for privacy impact analyses
     statement: >
-      changes to the system are analyzed to determine potential privacy impacts
-      prior to change implementation.
+      changes to the system are analyzed to determine potential
+      privacy impacts prior to change implementation.
 statement: >
-  Analyze changes to the system to determine potential security and privacy
-  impacts prior to change implementation.
+  Analyze changes to the system to determine potential security and
+  privacy impacts prior to change implementation.

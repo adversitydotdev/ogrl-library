@@ -13,27 +13,32 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; access control policy and
-          procedures; procedures addressing system design documentation; wireless
-          network diagrams; system configuration settings and associated
-          documentation; system architecture; system communications hardware and
-          software; system audit records; system security plan; other relevant
-          documents or records
+          System and communications protection policy; access
+          control policy and procedures; procedures addressing
+          system design documentation; wireless network diagrams;
+          system configuration settings and associated
+          documentation; system architecture; system communications
+          hardware and software; system audit records; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; system developer; organizational personnel
-          installing, configuring, and/or maintaining the system; organizational
-          personnel authorizing, installing, configuring, and/or maintaining internal
-          and external wireless links
+          System/network administrators; organizational personnel
+          with information security responsibilities; system
+          developer; organizational personnel installing,
+          configuring, and/or maintaining the system; organizational
+          personnel authorizing, installing, configuring, and/or
+          maintaining internal and external wireless links
       - method: test
-        statement: Cryptographic mechanisms preventing the identification of wireless transmitters
+        statement: >-
+          Cryptographic mechanisms preventing the identification of
+          wireless transmitters
     statement: >
-      cryptographic mechanisms are implemented to prevent the identification of
-      {{ sc_40_04_odp }} by using the transmitter signal parameters.
+      cryptographic mechanisms are implemented to prevent the
+      identification of {{ sc_40_04_odp }} by using the transmitter
+      signal parameters.
 parameters:
   sc_40_04_odp:
     label: wireless transmitters
 statement: >
-  Implement cryptographic mechanisms to prevent the identification of
-  {{ sc_40_04_odp }} by using the transmitter signal parameters.
+  Implement cryptographic mechanisms to prevent the identification
+  of {{ sc_40_04_odp }} by using the transmitter signal parameters.

@@ -13,22 +13,27 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and services acquisition policy; procedures addressing development
-          process, standards, and tools; solicitation documentation; acquisition
-          documentation; service level agreements; acquisition contracts for the
-          system or system component; evidence of archived system or component; system
-          security plan; privacy plan; other relevant documents or records
+          System and services acquisition policy; procedures
+          addressing development process, standards, and tools;
+          solicitation documentation; acquisition documentation;
+          service level agreements; acquisition contracts for the
+          system or system component; evidence of archived system or
+          component; system security plan; privacy plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with system and service acquisition
-          responsibilities; organizational personnel with information security
-          responsibilities; system developer; organizational personnel with privacy
+          Organizational personnel with system and service
+          acquisition responsibilities; organizational personnel
+          with information security responsibilities; system
+          developer; organizational personnel with privacy
           responsibilities
     statement: >
-      the developer of the system or system component is required to archive the
-      system or component to be released or delivered together with the
-      corresponding evidence supporting the final security and privacy review.
+      the developer of the system or system component is required to
+      archive the system or component to be released or delivered
+      together with the corresponding evidence supporting the final
+      security and privacy review.
 statement: >
-  Require the developer of the system or system component to archive the
-  system or component to be released or delivered together with the
-  corresponding evidence supporting the final security and privacy review.
+  Require the developer of the system or system component to archive
+  the system or component to be released or delivered together with
+  the corresponding evidence supporting the final security and
+  privacy review.

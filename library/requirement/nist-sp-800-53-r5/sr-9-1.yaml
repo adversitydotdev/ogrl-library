@@ -13,29 +13,36 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Supply chain risk management policy and procedures; supply chain risk
-          management plan; system and services acquisition policy; procedures
-          addressing tamper resistance and detection; tamper protection program
-          documentation; tamper protection tools and techniques documentation; tamper
-          resistance and detection tools (technologies) and techniques documentation;
-          system development life cycle documentation; procedures addressing supply
-          chain protection; system development life cycle procedures; acquisition
-          documentation; service level agreements; acquisition contracts for the
-          system, system component, or system service; inter-organizational agreements
-          and procedures; system security plan; other relevant documents or records
+          Supply chain risk management policy and procedures; supply
+          chain risk management plan; system and services
+          acquisition policy; procedures addressing tamper
+          resistance and detection; tamper protection program
+          documentation; tamper protection tools and techniques
+          documentation; tamper resistance and detection tools
+          (technologies) and techniques documentation; system
+          development life cycle documentation; procedures
+          addressing supply chain protection; system development
+          life cycle procedures; acquisition documentation; service
+          level agreements; acquisition contracts for the system,
+          system component, or system service; inter-organizational
+          agreements and procedures; system security plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with system and services acquisition
-          responsibilities; organizational personnel with information security
-          responsibilities; organizational personnel with supply chain risk management
-          responsibilities; organizational personnel with SDLC responsibilities
+          Organizational personnel with system and services
+          acquisition responsibilities; organizational personnel
+          with information security responsibilities; organizational
+          personnel with supply chain risk management
+          responsibilities; organizational personnel with SDLC
+          responsibilities
       - method: test
         statement: >
-          Organizational processes for employing anti-tamper technologies; mechanisms
-          supporting and/or implementing anti-tamper technologies
+          Organizational processes for employing anti-tamper
+          technologies; mechanisms supporting and/or implementing
+          anti-tamper technologies
     statement: >
-      anti-tamper technologies, tools, and techniques are employed throughout the
-      system development life cycle.
+      anti-tamper technologies, tools, and techniques are employed
+      throughout the system development life cycle.
 statement: >
-  Employ anti-tamper technologies, tools, and techniques throughout the system
-  development life cycle.
+  Employ anti-tamper technologies, tools, and techniques throughout
+  the system development life cycle.

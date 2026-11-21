@@ -9,6 +9,6 @@ relationship: equivalent-to
 review_status: draft
 source_ref: control--ogrl-vm-02
 summary: >
-  Patches flow through the standard change process, incorporating flaw
-  remediation into configuration management per SI-2(d).
+  Patches flow through the standard change process, incorporating
+  flaw remediation into configuration management per SI-2(d).
 target_ref: "requirement--nist-sp-800-53-r5-si-2#d"

@@ -13,25 +13,28 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Identification and authentication policy; system security plan; procedures
-          addressing user identification and authentication; system design
-          documentation; system configuration settings and associated documentation;
-          system audit records; list of privileged system accounts; other relevant
-          documents or records
+          Identification and authentication policy; system security
+          plan; procedures addressing user identification and
+          authentication; system design documentation; system
+          configuration settings and associated documentation;
+          system audit records; list of privileged system accounts;
+          other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with system operations responsibilities;
-          organizational personnel with account management responsibilities;
-          organizational personnel with information security responsibilities;
-          system/network administrators; system developers
+          Organizational personnel with system operations
+          responsibilities; organizational personnel with account
+          management responsibilities; organizational personnel with
+          information security responsibilities; system/network
+          administrators; system developers
       - method: test
         statement: >
-          Mechanisms supporting and/or implementing identification and authentication
-          capabilities; Mechanisms supporting and/or implementing replay-resistant
-          authentication mechanisms
+          Mechanisms supporting and/or implementing identification
+          and authentication capabilities; Mechanisms supporting
+          and/or implementing replay-resistant authentication
+          mechanisms
     statement: >
-      replay-resistant authentication mechanisms for access to {{ ia_02_08_odp }}
-      are implemented.
+      replay-resistant authentication mechanisms for access to
+      {{ ia_02_08_odp }} are implemented.
 parameters:
   ia_02_08_odp:
     label: ia-02.08_odp

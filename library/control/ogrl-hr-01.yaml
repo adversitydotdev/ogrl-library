@@ -9,15 +9,16 @@ control_type: preventive
 family: hr
 frequency: event-driven
 guidance: >
-  Use a background-check provider integrated with the HRIS or applicant
-  tracking system so the check status gates the access-provisioning ticket.
-  Calibrate check depth to the role and jurisdiction, document local-law
-  exceptions, and retain completion records (not report contents) as audit
-  evidence. Contractors supplied through an agency may be covered by the
-  agency's screening if the contract requires it.
+  Use a background-check provider integrated with the HRIS or
+  applicant tracking system so the check status gates the
+  access-provisioning ticket. Calibrate check depth to the role and
+  jurisdiction, document local-law exceptions, and retain completion
+  records (not report contents) as audit evidence. Contractors
+  supplied through an agency may be covered by the agency's
+  screening if the contract requires it.
 objective: >
-  Reduce insider risk by confirming that individuals entrusted with systems
-  and data have been vetted before access is granted.
+  Reduce insider risk by confirming that individuals entrusted with
+  systems and data have been vetted before access is granted.
 origin: standard
 parameters:
   rescreening_conditions:
@@ -25,15 +26,18 @@ parameters:
     value: upon transfer into a privileged or high-risk role
   screening_scope:
     label: Required screening checks
-    value: "identity verification, criminal history, and employment history checks"
+    value: >-
+      identity verification, criminal history, and employment
+      history checks
 statement: >
-  Complete {{ screening_scope }} for every employee and contractor, to the
-  extent permitted by applicable law, before granting access to production
-  systems or customer data, and rescreen personnel
+  Complete {{ screening_scope }} for every employee and contractor,
+  to the extent permitted by applicable law, before granting access
+  to production systems or customer data, and rescreen personnel
   {{ rescreening_conditions }}.
 summary: >
-  Screen employees and contractors before they receive access to production
-  systems or customer data, and rescreen when risk changes.
+  Screen employees and contractors before they receive access to
+  production systems or customer data, and rescreen when risk
+  changes.
 tags:
   - personnel-security
   - screening

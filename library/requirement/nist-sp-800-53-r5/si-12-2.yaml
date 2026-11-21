@@ -4,7 +4,9 @@ id: requirement--nist-sp-800-53-r5-si-12-2
 spec_version: "0.1.0"
 created: "2026-10-22T11:30:00Z"
 modified: "2026-10-22T11:30:00Z"
-name: "Minimize Personally Identifiable Information in Testing, Training, and Research"
+name: >-
+  Minimize Personally Identifiable Information in Testing, Training,
+  and Research
 display_id: "SI-12(2)"
 class: enhancement
 framework_ref: framework--nist-sp-800-53-r5
@@ -13,98 +15,122 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; personally identifiable information processing policy;
-          personally identifiable information processing procedures; federal laws,
-          Executive Orders, directives, policies, regulations, standards, and
-          operational requirements applicable to minimizing the use of personally
-          identifiable information in testing, training, and research; policy for the
-          minimization of personally identifiable information used in testing,
-          training, and research; procedures for the minimization of personally
-          identifiable information used in testing, training, and research;
-          documentation supporting minimization policy implementation (e.g., templates
-          for testing, training, and research); data sets used for testing, training,
-          and research; system security plan; privacy plan; privacy impact assessment;
-          privacy risk assessment documentation; other relevant documents or records
+          System and information integrity policy; system and
+          information integrity procedures; personally identifiable
+          information processing policy; personally identifiable
+          information processing procedures; federal laws, Executive
+          Orders, directives, policies, regulations, standards, and
+          operational requirements applicable to minimizing the use
+          of personally identifiable information in testing,
+          training, and research; policy for the minimization of
+          personally identifiable information used in testing,
+          training, and research; procedures for the minimization of
+          personally identifiable information used in testing,
+          training, and research; documentation supporting
+          minimization policy implementation (e.g., templates for
+          testing, training, and research); data sets used for
+          testing, training, and research; system security plan;
+          privacy plan; privacy impact assessment; privacy risk
+          assessment documentation; other relevant documents or
+          records
       - method: interview
         statement: >
-          Organizational personnel with information and records management, retention,
-          and disposition responsibilities; organizational personnel with information
-          security and privacy responsibilities; network administrators; system
+          Organizational personnel with information and records
+          management, retention, and disposition responsibilities;
+          organizational personnel with information security and
+          privacy responsibilities; network administrators; system
           developers; personnel with IRB responsibilities
       - method: test
         statement: >
-          Organizational processes for the minimization of personally identifiable
-          information used in testing, training, and research; automated mechanisms
-          supporting and/or implementing the minimization of personally identifiable
-          information used in testing, training, and research
+          Organizational processes for the minimization of
+          personally identifiable information used in testing,
+          training, and research; automated mechanisms supporting
+          and/or implementing the minimization of personally
+          identifiable information used in testing, training, and
+          research
     statement: >
-      {{ si_12_02_odp_01 }} are used to minimize the use of personally
-      identifiable information for research;
+      {{ si_12_02_odp_01 }} are used to minimize the use of
+      personally identifiable information for research;
   - id: "si-12(02).si-12(02)[02]"
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; personally identifiable information processing policy;
-          personally identifiable information processing procedures; federal laws,
-          Executive Orders, directives, policies, regulations, standards, and
-          operational requirements applicable to minimizing the use of personally
-          identifiable information in testing, training, and research; policy for the
-          minimization of personally identifiable information used in testing,
-          training, and research; procedures for the minimization of personally
-          identifiable information used in testing, training, and research;
-          documentation supporting minimization policy implementation (e.g., templates
-          for testing, training, and research); data sets used for testing, training,
-          and research; system security plan; privacy plan; privacy impact assessment;
-          privacy risk assessment documentation; other relevant documents or records
+          System and information integrity policy; system and
+          information integrity procedures; personally identifiable
+          information processing policy; personally identifiable
+          information processing procedures; federal laws, Executive
+          Orders, directives, policies, regulations, standards, and
+          operational requirements applicable to minimizing the use
+          of personally identifiable information in testing,
+          training, and research; policy for the minimization of
+          personally identifiable information used in testing,
+          training, and research; procedures for the minimization of
+          personally identifiable information used in testing,
+          training, and research; documentation supporting
+          minimization policy implementation (e.g., templates for
+          testing, training, and research); data sets used for
+          testing, training, and research; system security plan;
+          privacy plan; privacy impact assessment; privacy risk
+          assessment documentation; other relevant documents or
+          records
       - method: interview
         statement: >
-          Organizational personnel with information and records management, retention,
-          and disposition responsibilities; organizational personnel with information
-          security and privacy responsibilities; network administrators; system
+          Organizational personnel with information and records
+          management, retention, and disposition responsibilities;
+          organizational personnel with information security and
+          privacy responsibilities; network administrators; system
           developers; personnel with IRB responsibilities
       - method: test
         statement: >
-          Organizational processes for the minimization of personally identifiable
-          information used in testing, training, and research; automated mechanisms
-          supporting and/or implementing the minimization of personally identifiable
-          information used in testing, training, and research
+          Organizational processes for the minimization of
+          personally identifiable information used in testing,
+          training, and research; automated mechanisms supporting
+          and/or implementing the minimization of personally
+          identifiable information used in testing, training, and
+          research
     statement: >
-      {{ si_12_02_odp_02 }} are used to minimize the use of personally
-      identifiable information for testing;
+      {{ si_12_02_odp_02 }} are used to minimize the use of
+      personally identifiable information for testing;
   - id: "si-12(02).si-12(02)[03]"
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; personally identifiable information processing policy;
-          personally identifiable information processing procedures; federal laws,
-          Executive Orders, directives, policies, regulations, standards, and
-          operational requirements applicable to minimizing the use of personally
-          identifiable information in testing, training, and research; policy for the
-          minimization of personally identifiable information used in testing,
-          training, and research; procedures for the minimization of personally
-          identifiable information used in testing, training, and research;
-          documentation supporting minimization policy implementation (e.g., templates
-          for testing, training, and research); data sets used for testing, training,
-          and research; system security plan; privacy plan; privacy impact assessment;
-          privacy risk assessment documentation; other relevant documents or records
+          System and information integrity policy; system and
+          information integrity procedures; personally identifiable
+          information processing policy; personally identifiable
+          information processing procedures; federal laws, Executive
+          Orders, directives, policies, regulations, standards, and
+          operational requirements applicable to minimizing the use
+          of personally identifiable information in testing,
+          training, and research; policy for the minimization of
+          personally identifiable information used in testing,
+          training, and research; procedures for the minimization of
+          personally identifiable information used in testing,
+          training, and research; documentation supporting
+          minimization policy implementation (e.g., templates for
+          testing, training, and research); data sets used for
+          testing, training, and research; system security plan;
+          privacy plan; privacy impact assessment; privacy risk
+          assessment documentation; other relevant documents or
+          records
       - method: interview
         statement: >
-          Organizational personnel with information and records management, retention,
-          and disposition responsibilities; organizational personnel with information
-          security and privacy responsibilities; network administrators; system
+          Organizational personnel with information and records
+          management, retention, and disposition responsibilities;
+          organizational personnel with information security and
+          privacy responsibilities; network administrators; system
           developers; personnel with IRB responsibilities
       - method: test
         statement: >
-          Organizational processes for the minimization of personally identifiable
-          information used in testing, training, and research; automated mechanisms
-          supporting and/or implementing the minimization of personally identifiable
-          information used in testing, training, and research
+          Organizational processes for the minimization of
+          personally identifiable information used in testing,
+          training, and research; automated mechanisms supporting
+          and/or implementing the minimization of personally
+          identifiable information used in testing, training, and
+          research
     statement: >
-      {{ si_12_02_odp_03 }} are used to minimize the use of personally
-      identifiable information for training.
+      {{ si_12_02_odp_03 }} are used to minimize the use of
+      personally identifiable information for training.
 parameters:
   si_12_02_odp_01:
     label: techniques
@@ -115,5 +141,6 @@ parameters:
   si_12_2_prm_1:
     label: organization-defined techniques
 statement: >
-  Use the following techniques to minimize the use of personally identifiable
-  information for research, testing, or training: {{ si_12_2_prm_1 }}.
+  Use the following techniques to minimize the use of personally
+  identifiable information for research, testing, or training:
+  {{ si_12_2_prm_1 }}.

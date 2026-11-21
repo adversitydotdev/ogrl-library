@@ -13,20 +13,27 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing authentication of remote
-          commands; system design documentation; system configuration settings and
-          associated documentation; system audit records; system security plan; other
-          relevant documents or records
+          Access control policy; procedures addressing
+          authentication of remote commands; system design
+          documentation; system configuration settings and
+          associated documentation; system audit records; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; system developers
+          System/network administrators; organizational personnel
+          with information security responsibilities; system
+          developers
       - method: test
-        statement: Mechanisms implementing authentication of remote commands
-    statement: "{{ ac_17_10_odp_01 }} are implemented to authenticate {{ ac_17_10_odp_02 }}."
+        statement: >-
+          Mechanisms implementing authentication of remote commands
+    statement: >-
+      {{ ac_17_10_odp_01 }} are implemented to authenticate
+      {{ ac_17_10_odp_02 }}.
 parameters:
   ac_17_10_odp_01:
     label: mechanisms
   ac_17_10_odp_02:
     label: remote commands
-statement: "Implement {{ ac_17_10_odp_01 }} to authenticate {{ ac_17_10_odp_02 }}."
+statement: >-
+  Implement {{ ac_17_10_odp_01 }} to authenticate
+  {{ ac_17_10_odp_02 }}.

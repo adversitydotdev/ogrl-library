@@ -13,35 +13,43 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; procedures addressing trusted
-          communication paths; security plan; system design documentation; system
-          configuration settings and associated documentation; assessment results from
-          independent, testing organizations; system audit records; system security
-          plan; other relevant documents or records
+          System and communications protection policy; procedures
+          addressing trusted communication paths; security plan;
+          system design documentation; system configuration settings
+          and associated documentation; assessment results from
+          independent, testing organizations; system audit records;
+          system security plan; other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; system developer
+          System/network administrators; organizational personnel
+          with information security responsibilities; system
+          developer
       - method: test
-        statement: Mechanisms supporting and/or implementing trusted communication paths
+        statement: >-
+          Mechanisms supporting and/or implementing trusted
+          communication paths
     statement: >
-      a trusted communication path that is irrefutably distinguishable from other
-      communication paths is provided;
+      a trusted communication path that is irrefutably
+      distinguishable from other communication paths is provided;
   - id: b
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; procedures addressing trusted
-          communication paths; security plan; system design documentation; system
-          configuration settings and associated documentation; assessment results from
-          independent, testing organizations; system audit records; system security
-          plan; other relevant documents or records
+          System and communications protection policy; procedures
+          addressing trusted communication paths; security plan;
+          system design documentation; system configuration settings
+          and associated documentation; assessment results from
+          independent, testing organizations; system audit records;
+          system security plan; other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; system developer
+          System/network administrators; organizational personnel
+          with information security responsibilities; system
+          developer
       - method: test
-        statement: Mechanisms supporting and/or implementing trusted communication paths
+        statement: >-
+          Mechanisms supporting and/or implementing trusted
+          communication paths
     statement: >
       the trusted communication path for communications between the
       {{ sc_11_01_odp }} of the system and the user is initiated.
@@ -51,9 +59,9 @@ parameters:
 parts:
   - id: a
     statement: >
-      Provide a trusted communications path that is irrefutably distinguishable
-      from other communications paths; and
+      Provide a trusted communications path that is irrefutably
+      distinguishable from other communications paths; and
   - id: b
     statement: >
-      Initiate the trusted communications path for communications between the
-      {{ sc_11_01_odp }} of the system and the user.
+      Initiate the trusted communications path for communications
+      between the {{ sc_11_01_odp }} of the system and the user.

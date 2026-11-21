@@ -13,68 +13,82 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; access control policy and procedures; separation of duties
-          policy and procedures; procedures addressing information input validation;
-          system design documentation; system configuration settings and associated
-          documentation; system audit records; system security plan; other relevant
+          System and information integrity policy; system and
+          information integrity procedures; access control policy
+          and procedures; separation of duties policy and
+          procedures; procedures addressing information input
+          validation; system design documentation; system
+          configuration settings and associated documentation;
+          system audit records; system security plan; other relevant
           documents or records
       - method: interview
         statement: >
-          Organizational personnel responsible for information input validation;
-          organizational personnel with information security responsibilities;
-          system/network administrators; system developer
+          Organizational personnel responsible for information input
+          validation; organizational personnel with information
+          security responsibilities; system/network administrators;
+          system developer
       - method: test
         statement: >
-          Organizational processes for the use of a manual override capability;
-          mechanisms supporting and/or implementing a manual override capability for
-          input validation; mechanisms supporting and/or implementing auditing of the
+          Organizational processes for the use of a manual override
+          capability; mechanisms supporting and/or implementing a
+          manual override capability for input validation;
+          mechanisms supporting and/or implementing auditing of the
           use of a manual override capability
-    statement: "a manual override capability for the validation of {{ si_10_odp }} is provided;"
+    statement: >-
+      a manual override capability for the validation of
+      {{ si_10_odp }} is provided;
   - id: b
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; access control policy and procedures; separation of duties
-          policy and procedures; procedures addressing information input validation;
-          system design documentation; system configuration settings and associated
-          documentation; system audit records; system security plan; other relevant
+          System and information integrity policy; system and
+          information integrity procedures; access control policy
+          and procedures; separation of duties policy and
+          procedures; procedures addressing information input
+          validation; system design documentation; system
+          configuration settings and associated documentation;
+          system audit records; system security plan; other relevant
           documents or records
       - method: interview
         statement: >
-          Organizational personnel responsible for information input validation;
-          organizational personnel with information security responsibilities;
-          system/network administrators; system developer
+          Organizational personnel responsible for information input
+          validation; organizational personnel with information
+          security responsibilities; system/network administrators;
+          system developer
       - method: test
         statement: >
-          Organizational processes for the use of a manual override capability;
-          mechanisms supporting and/or implementing a manual override capability for
-          input validation; mechanisms supporting and/or implementing auditing of the
+          Organizational processes for the use of a manual override
+          capability; mechanisms supporting and/or implementing a
+          manual override capability for input validation;
+          mechanisms supporting and/or implementing auditing of the
           use of a manual override capability
     statement: >
-      the use of the manual override capability is restricted to only
-      {{ si_10_01_odp }};
+      the use of the manual override capability is restricted to
+      only {{ si_10_01_odp }};
   - id: c
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; access control policy and procedures; separation of duties
-          policy and procedures; procedures addressing information input validation;
-          system design documentation; system configuration settings and associated
-          documentation; system audit records; system security plan; other relevant
+          System and information integrity policy; system and
+          information integrity procedures; access control policy
+          and procedures; separation of duties policy and
+          procedures; procedures addressing information input
+          validation; system design documentation; system
+          configuration settings and associated documentation;
+          system audit records; system security plan; other relevant
           documents or records
       - method: interview
         statement: >
-          Organizational personnel responsible for information input validation;
-          organizational personnel with information security responsibilities;
-          system/network administrators; system developer
+          Organizational personnel responsible for information input
+          validation; organizational personnel with information
+          security responsibilities; system/network administrators;
+          system developer
       - method: test
         statement: >
-          Organizational processes for the use of a manual override capability;
-          mechanisms supporting and/or implementing a manual override capability for
-          input validation; mechanisms supporting and/or implementing auditing of the
+          Organizational processes for the use of a manual override
+          capability; mechanisms supporting and/or implementing a
+          manual override capability for input validation;
+          mechanisms supporting and/or implementing auditing of the
           use of a manual override capability
     statement: the use of the manual override capability is audited.
 parameters:
@@ -85,8 +99,8 @@ parameters:
 parts:
   - id: a
     statement: >
-      Provide a manual override capability for input validation of the following
-      information inputs: {{ si_10_odp }};
+      Provide a manual override capability for input validation of
+      the following information inputs: {{ si_10_odp }};
   - id: b
     statement: >
       Restrict the use of the manual override capability to only

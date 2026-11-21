@@ -11,6 +11,6 @@ relationship: equivalent-to
 review_status: reviewed
 source_ref: control--ogrl-lm-01
 summary: >
-  Centralized logging defines and captures auditable security event types per
-  AU-2(a).
+  Centralized logging defines and captures auditable security event
+  types per AU-2(a).
 target_ref: "requirement--nist-sp-800-53-r5-au-2#a"

@@ -13,40 +13,46 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System media protection policy; procedures addressing media downgrading;
-          procedures addressing testing of media downgrading equipment; results of
-          downgrading equipment and procedures testing; records of media downgrading;
-          audit records; system security plan; other relevant documents or records
+          System media protection policy; procedures addressing
+          media downgrading; procedures addressing testing of media
+          downgrading equipment; results of downgrading equipment
+          and procedures testing; records of media downgrading;
+          audit records; system security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with system media downgrading responsibilities;
-          organizational personnel with information security responsibilities
+          Organizational personnel with system media downgrading
+          responsibilities; organizational personnel with
+          information security responsibilities
       - method: test
         statement: >
-          Organizational processes for media downgrading; mechanisms supporting and/or
-          implementing media downgrading
+          Organizational processes for media downgrading; mechanisms
+          supporting and/or implementing media downgrading
     statement: >
-      downgrading equipment is tested {{ mp_08_02_odp_01 }} to ensure that
-      downgrading actions are being achieved;
+      downgrading equipment is tested {{ mp_08_02_odp_01 }} to
+      ensure that downgrading actions are being achieved;
   - id: "mp-08(02).mp-08(02)[02]"
     methods:
       - method: examine
         statement: >
-          System media protection policy; procedures addressing media downgrading;
-          procedures addressing testing of media downgrading equipment; results of
-          downgrading equipment and procedures testing; records of media downgrading;
-          audit records; system security plan; other relevant documents or records
+          System media protection policy; procedures addressing
+          media downgrading; procedures addressing testing of media
+          downgrading equipment; results of downgrading equipment
+          and procedures testing; records of media downgrading;
+          audit records; system security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with system media downgrading responsibilities;
-          organizational personnel with information security responsibilities
+          Organizational personnel with system media downgrading
+          responsibilities; organizational personnel with
+          information security responsibilities
       - method: test
         statement: >
-          Organizational processes for media downgrading; mechanisms supporting and/or
-          implementing media downgrading
+          Organizational processes for media downgrading; mechanisms
+          supporting and/or implementing media downgrading
     statement: >
-      downgrading procedures are tested {{ mp_08_02_odp_02 }} to ensure that
-      downgrading actions are being achieved.
+      downgrading procedures are tested {{ mp_08_02_odp_02 }} to
+      ensure that downgrading actions are being achieved.
 parameters:
   mp_08_02_odp_01:
     label: frequency
@@ -55,5 +61,5 @@ parameters:
   mp_8_2_prm_1:
     label: organization-defined frequency
 statement: >
-  Test downgrading equipment and procedures {{ mp_8_2_prm_1 }} to ensure that
-  downgrading actions are being achieved.
+  Test downgrading equipment and procedures {{ mp_8_2_prm_1 }} to
+  ensure that downgrading actions are being achieved.

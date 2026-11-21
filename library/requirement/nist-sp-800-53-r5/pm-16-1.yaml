@@ -13,29 +13,35 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Information security program plan; privacy program plan; threat awareness
-          program policy; threat awareness program procedures; risk assessment results
-          related to threat awareness; documentation about the cross-organization
-          information-sharing capability; other relevant documents or records
+          Information security program plan; privacy program plan;
+          threat awareness program policy; threat awareness program
+          procedures; risk assessment results related to threat
+          awareness; documentation about the cross-organization
+          information-sharing capability; other relevant documents
+          or records
       - method: interview
         statement: >
-          Organizational personnel with information security and privacy program
-          planning and plan implementation responsibilities; organizational personnel
-          responsible for the threat awareness program; organizational personnel
-          responsible for the cross-organization information-sharing capability;
-          organizational personnel with information security and privacy
-          responsibilities; external personnel with whom threat awareness information
-          is shared by the organization
+          Organizational personnel with information security and
+          privacy program planning and plan implementation
+          responsibilities; organizational personnel responsible for
+          the threat awareness program; organizational personnel
+          responsible for the cross-organization information-sharing
+          capability; organizational personnel with information
+          security and privacy responsibilities; external personnel
+          with whom threat awareness information is shared by the
+          organization
       - method: test
         statement: >
-          Organizational processes for implementing the threat awareness program;
-          organizational processes for implementing the cross-organization
-          information-sharing capability; automated mechanisms supporting and/or
-          implementing the threat awareness program; automated mechanisms supporting
-          and/or implementing the cross-organization information-sharing capability
+          Organizational processes for implementing the threat
+          awareness program; organizational processes for
+          implementing the cross-organization information-sharing
+          capability; automated mechanisms supporting and/or
+          implementing the threat awareness program; automated
+          mechanisms supporting and/or implementing the
+          cross-organization information-sharing capability
     statement: >
-      automated mechanisms are employed to maximize the effectiveness of sharing
-      threat intelligence information.
+      automated mechanisms are employed to maximize the
+      effectiveness of sharing threat intelligence information.
 statement: >
-  Employ automated mechanisms to maximize the effectiveness of sharing threat
-  intelligence information.
+  Employ automated mechanisms to maximize the effectiveness of
+  sharing threat intelligence information.

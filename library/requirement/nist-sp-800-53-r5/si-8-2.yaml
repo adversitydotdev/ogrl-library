@@ -13,22 +13,30 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; procedures addressing spam protection; spam protection
-          mechanisms; records of spam protection updates; system design documentation;
-          system configuration settings and associated documentation; system audit
-          records; system security plan; other relevant documents or records
+          System and information integrity policy; system and
+          information integrity procedures; procedures addressing
+          spam protection; spam protection mechanisms; records of
+          spam protection updates; system design documentation;
+          system configuration settings and associated
+          documentation; system audit records; system security plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel responsible for spam protection; organizational
-          personnel with information security responsibilities; system/network
-          administrators; system developer
+          Organizational personnel responsible for spam protection;
+          organizational personnel with information security
+          responsibilities; system/network administrators; system
+          developer
       - method: test
         statement: >
-          Organizational processes for spam protection; mechanisms supporting and/or
-          implementing automatic updates to spam protection mechanisms
-    statement: "spam protection mechanisms are automatically updated {{ si_08_02_odp }}."
+          Organizational processes for spam protection; mechanisms
+          supporting and/or implementing automatic updates to spam
+          protection mechanisms
+    statement: >-
+      spam protection mechanisms are automatically updated
+      {{ si_08_02_odp }}.
 parameters:
   si_08_02_odp:
     label: frequency
-statement: "Automatically update spam protection mechanisms {{ si_08_02_odp }}."
+statement: >-
+  Automatically update spam protection mechanisms
+  {{ si_08_02_odp }}.

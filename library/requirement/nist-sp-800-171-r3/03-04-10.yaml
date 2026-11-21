@@ -26,137 +26,169 @@ objectives:
     methods:
       - method: examine
         statement: >
-          configuration management policy and procedures; procedures for system
-          component inventory; configuration management plan; system design
-          documentation; system component inventory; inventory reviews and update
-          records; component installation records; change control records; component
-          removal records; system change records; system security plan; other relevant
-          documents or records
+          configuration management policy and procedures; procedures
+          for system component inventory; configuration management
+          plan; system design documentation; system component
+          inventory; inventory reviews and update records; component
+          installation records; change control records; component
+          removal records; system change records; system security
+          plan; other relevant documents or records
       - method: interview
         statement: >
-          personnel with component inventory management responsibilities; personnel
-          with information security responsibilities; system administrators
+          personnel with component inventory management
+          responsibilities; personnel with information security
+          responsibilities; system administrators
       - method: test
         statement: >
-          processes for managing the system component inventory; mechanisms for
-          supporting or implementing the system component inventory; processes for
-          updating the system component inventory; mechanisms for supporting or
+          processes for managing the system component inventory;
+          mechanisms for supporting or implementing the system
+          component inventory; processes for updating the system
+          component inventory; mechanisms for supporting or
           implementing the system component inventory updates
-    statement: an inventory of system components is developed and documented.
+    statement: >-
+      an inventory of system components is developed and documented.
   - id: b.01
     methods:
       - method: examine
         statement: >
-          configuration management policy and procedures; procedures for system
-          component inventory; configuration management plan; system design
-          documentation; system component inventory; inventory reviews and update
-          records; component installation records; change control records; component
-          removal records; system change records; system security plan; other relevant
-          documents or records
+          configuration management policy and procedures; procedures
+          for system component inventory; configuration management
+          plan; system design documentation; system component
+          inventory; inventory reviews and update records; component
+          installation records; change control records; component
+          removal records; system change records; system security
+          plan; other relevant documents or records
       - method: interview
         statement: >
-          personnel with component inventory management responsibilities; personnel
-          with information security responsibilities; system administrators
+          personnel with component inventory management
+          responsibilities; personnel with information security
+          responsibilities; system administrators
       - method: test
         statement: >
-          processes for managing the system component inventory; mechanisms for
-          supporting or implementing the system component inventory; processes for
-          updating the system component inventory; mechanisms for supporting or
+          processes for managing the system component inventory;
+          mechanisms for supporting or implementing the system
+          component inventory; processes for updating the system
+          component inventory; mechanisms for supporting or
           implementing the system component inventory updates
-    statement: "the system component inventory is reviewed {{ a_03_04_10_odp_01 }}."
+    statement: >-
+      the system component inventory is reviewed
+      {{ a_03_04_10_odp_01 }}.
   - id: b.02
     methods:
       - method: examine
         statement: >
-          configuration management policy and procedures; procedures for system
-          component inventory; configuration management plan; system design
-          documentation; system component inventory; inventory reviews and update
-          records; component installation records; change control records; component
-          removal records; system change records; system security plan; other relevant
-          documents or records
+          configuration management policy and procedures; procedures
+          for system component inventory; configuration management
+          plan; system design documentation; system component
+          inventory; inventory reviews and update records; component
+          installation records; change control records; component
+          removal records; system change records; system security
+          plan; other relevant documents or records
       - method: interview
         statement: >
-          personnel with component inventory management responsibilities; personnel
-          with information security responsibilities; system administrators
+          personnel with component inventory management
+          responsibilities; personnel with information security
+          responsibilities; system administrators
       - method: test
         statement: >
-          processes for managing the system component inventory; mechanisms for
-          supporting or implementing the system component inventory; processes for
-          updating the system component inventory; mechanisms for supporting or
+          processes for managing the system component inventory;
+          mechanisms for supporting or implementing the system
+          component inventory; processes for updating the system
+          component inventory; mechanisms for supporting or
           implementing the system component inventory updates
-    statement: "the system component inventory is updated {{ a_03_04_10_odp_01 }}."
+    statement: >-
+      the system component inventory is updated
+      {{ a_03_04_10_odp_01 }}.
   - id: c.01
     methods:
       - method: examine
         statement: >
-          configuration management policy and procedures; procedures for system
-          component inventory; configuration management plan; system design
-          documentation; system component inventory; inventory reviews and update
-          records; component installation records; change control records; component
-          removal records; system change records; system security plan; other relevant
-          documents or records
+          configuration management policy and procedures; procedures
+          for system component inventory; configuration management
+          plan; system design documentation; system component
+          inventory; inventory reviews and update records; component
+          installation records; change control records; component
+          removal records; system change records; system security
+          plan; other relevant documents or records
       - method: interview
         statement: >
-          personnel with component inventory management responsibilities; personnel
-          with information security responsibilities; system administrators
+          personnel with component inventory management
+          responsibilities; personnel with information security
+          responsibilities; system administrators
       - method: test
         statement: >
-          processes for managing the system component inventory; mechanisms for
-          supporting or implementing the system component inventory; processes for
-          updating the system component inventory; mechanisms for supporting or
+          processes for managing the system component inventory;
+          mechanisms for supporting or implementing the system
+          component inventory; processes for updating the system
+          component inventory; mechanisms for supporting or
           implementing the system component inventory updates
-    statement: the system component inventory is updated as part of component installations.
+    statement: >-
+      the system component inventory is updated as part of component
+      installations.
   - id: c.02
     methods:
       - method: examine
         statement: >
-          configuration management policy and procedures; procedures for system
-          component inventory; configuration management plan; system design
-          documentation; system component inventory; inventory reviews and update
-          records; component installation records; change control records; component
-          removal records; system change records; system security plan; other relevant
-          documents or records
+          configuration management policy and procedures; procedures
+          for system component inventory; configuration management
+          plan; system design documentation; system component
+          inventory; inventory reviews and update records; component
+          installation records; change control records; component
+          removal records; system change records; system security
+          plan; other relevant documents or records
       - method: interview
         statement: >
-          personnel with component inventory management responsibilities; personnel
-          with information security responsibilities; system administrators
+          personnel with component inventory management
+          responsibilities; personnel with information security
+          responsibilities; system administrators
       - method: test
         statement: >
-          processes for managing the system component inventory; mechanisms for
-          supporting or implementing the system component inventory; processes for
-          updating the system component inventory; mechanisms for supporting or
+          processes for managing the system component inventory;
+          mechanisms for supporting or implementing the system
+          component inventory; processes for updating the system
+          component inventory; mechanisms for supporting or
           implementing the system component inventory updates
-    statement: the system component inventory is updated as part of component removals.
+    statement: >-
+      the system component inventory is updated as part of component
+      removals.
   - id: c.03
     methods:
       - method: examine
         statement: >
-          configuration management policy and procedures; procedures for system
-          component inventory; configuration management plan; system design
-          documentation; system component inventory; inventory reviews and update
-          records; component installation records; change control records; component
-          removal records; system change records; system security plan; other relevant
-          documents or records
+          configuration management policy and procedures; procedures
+          for system component inventory; configuration management
+          plan; system design documentation; system component
+          inventory; inventory reviews and update records; component
+          installation records; change control records; component
+          removal records; system change records; system security
+          plan; other relevant documents or records
       - method: interview
         statement: >
-          personnel with component inventory management responsibilities; personnel
-          with information security responsibilities; system administrators
+          personnel with component inventory management
+          responsibilities; personnel with information security
+          responsibilities; system administrators
       - method: test
         statement: >
-          processes for managing the system component inventory; mechanisms for
-          supporting or implementing the system component inventory; processes for
-          updating the system component inventory; mechanisms for supporting or
+          processes for managing the system component inventory;
+          mechanisms for supporting or implementing the system
+          component inventory; processes for updating the system
+          component inventory; mechanisms for supporting or
           implementing the system component inventory updates
-    statement: the system component inventory is updated as part of system updates.
+    statement: >-
+      the system component inventory is updated as part of system
+      updates.
 parameters:
   a_03_04_10_odp_01:
     label: frequency
 parts:
   - id: a
-    statement: Develop and document an inventory of system components.
+    statement: >-
+      Develop and document an inventory of system components.
   - id: b
-    statement: "Review and update the system component inventory {{ a_03_04_10_odp_01 }}."
+    statement: >-
+      Review and update the system component inventory
+      {{ a_03_04_10_odp_01 }}.
   - id: c
     statement: >
-      Update the system component inventory as part of installations, removals,
-      and system updates.
+      Update the system component inventory as part of
+      installations, removals, and system updates.

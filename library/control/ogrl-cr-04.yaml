@@ -9,37 +9,39 @@ control_type: preventive
 family: cr
 frequency: event-driven
 guidance: >
-  For laptops, rely on full-disk encryption plus an MDM-initiated wipe or
-  cryptographic erase before reassignment, and use a certified IT asset
-  disposition vendor that issues certificates of destruction for retired
-  hardware. Data center media is usually sanitized by the cloud provider;
-  treat it as a subservice organization responsibility and confirm it in their
-  SOC 2 report. For cloud volumes and tenant data, deleting the encryption key
-  renders data unrecoverable. Reconcile disposal records against the asset
-  inventory (OGRL-AM-01).
+  For laptops, rely on full-disk encryption plus an MDM-initiated
+  wipe or cryptographic erase before reassignment, and use a
+  certified IT asset disposition vendor that issues certificates of
+  destruction for retired hardware. Data center media is usually
+  sanitized by the cloud provider; treat it as a subservice
+  organization responsibility and confirm it in their SOC 2 report.
+  For cloud volumes and tenant data, deleting the encryption key
+  renders data unrecoverable. Reconcile disposal records against the
+  asset inventory (OGRL-AM-01).
 objective: >
-  Prevent recovery of confidential and personal information from retired,
-  reassigned, or returned storage media.
+  Prevent recovery of confidential and personal information from
+  retired, reassigned, or returned storage media.
 origin: standard
 parameters:
   media_scope:
     label: Media requiring sanitization
     value: >
-      laptops, workstations, removable media, and other devices that store
-      organizational data
+      laptops, workstations, removable media, and other devices that
+      store organizational data
   sanitization_methods:
     label: Sanitization techniques
     value: >
-      NIST SP 800-88 purge or destroy techniques, including cryptographic erase of
-      encrypted devices
+      NIST SP 800-88 purge or destroy techniques, including
+      cryptographic erase of encrypted devices
 statement: >
-  Sanitize {{ media_scope }} prior to disposal, reuse, or release outside
-  organizational control using {{ sanitization_methods }}, and retain a record
-  of each sanitized asset including its identifier, method used, date, and the
-  person or vendor performing the sanitization.
+  Sanitize {{ media_scope }} prior to disposal, reuse, or release
+  outside organizational control using {{ sanitization_methods }},
+  and retain a record of each sanitized asset including its
+  identifier, method used, date, and the person or vendor performing
+  the sanitization.
 summary: >
-  Sanitize storage media before disposal or reuse and keep a record of each
-  sanitized asset.
+  Sanitize storage media before disposal or reuse and keep a record
+  of each sanitized asset.
 tags:
   - media-sanitization
   - data-disposal

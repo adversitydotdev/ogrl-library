@@ -13,29 +13,33 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; procedures addressing
-          operations security; security plan; list of operations security safeguards;
-          security control assessments; risk assessments; threat and vulnerability
-          assessments; plans of action and milestones; system development life cycle
-          documentation; system security plan; other relevant documents or records
+          System and communications protection policy; procedures
+          addressing operations security; security plan; list of
+          operations security safeguards; security control
+          assessments; risk assessments; threat and vulnerability
+          assessments; plans of action and milestones; system
+          development life cycle documentation; system security
+          plan; other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; organizational personnel installing, configuring,
-          and/or maintaining the system; system developers/integrators
+          System/network administrators; organizational personnel
+          with information security responsibilities; organizational
+          personnel installing, configuring, and/or maintaining the
+          system; system developers/integrators
       - method: test
         statement: >
-          Organizational processes for protecting organizational information
-          throughout the system development life cycle; mechanisms supporting and/or
-          implementing safeguards to protect organizational information throughout the
-          system development life cycle
+          Organizational processes for protecting organizational
+          information throughout the system development life cycle;
+          mechanisms supporting and/or implementing safeguards to
+          protect organizational information throughout the system
+          development life cycle
     statement: >
-      {{ sc_38_odp }} are employed to protect key organizational information
-      throughout the system development life cycle.
+      {{ sc_38_odp }} are employed to protect key organizational
+      information throughout the system development life cycle.
 parameters:
   sc_38_odp:
     label: operations security controls
 statement: >
   Employ the following operations security controls to protect key
-  organizational information throughout the system development life cycle:
-  {{ sc_38_odp }}.
+  organizational information throughout the system development life
+  cycle: {{ sc_38_odp }}.

@@ -13,42 +13,48 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing association of security and
-          privacy attributes to information; system design documentation; system
-          configuration settings and associated documentation; system audit records;
-          system security plan; privacy plan; other relevant documents or records
+          Access control policy; procedures addressing association
+          of security and privacy attributes to information; system
+          design documentation; system configuration settings and
+          associated documentation; system audit records; system
+          security plan; privacy plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          Organizational personnel with responsibilities for associating security and
-          privacy attributes to information; organizational personnel with information
+          Organizational personnel with responsibilities for
+          associating security and privacy attributes to
+          information; organizational personnel with information
           security and privacy responsibilities; system developers
       - method: test
         statement: >
-          Mechanisms implementing techniques or technologies associating security and
-          privacy attributes to information
+          Mechanisms implementing techniques or technologies
+          associating security and privacy attributes to information
     statement: >
-      {{ ac_16_08_odp_01 }} are implemented in associating security attributes to
-      information;
+      {{ ac_16_08_odp_01 }} are implemented in associating security
+      attributes to information;
   - id: "ac-16(08).ac-16(08)[02]"
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing association of security and
-          privacy attributes to information; system design documentation; system
-          configuration settings and associated documentation; system audit records;
-          system security plan; privacy plan; other relevant documents or records
+          Access control policy; procedures addressing association
+          of security and privacy attributes to information; system
+          design documentation; system configuration settings and
+          associated documentation; system audit records; system
+          security plan; privacy plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          Organizational personnel with responsibilities for associating security and
-          privacy attributes to information; organizational personnel with information
+          Organizational personnel with responsibilities for
+          associating security and privacy attributes to
+          information; organizational personnel with information
           security and privacy responsibilities; system developers
       - method: test
         statement: >
-          Mechanisms implementing techniques or technologies associating security and
-          privacy attributes to information
+          Mechanisms implementing techniques or technologies
+          associating security and privacy attributes to information
     statement: >
-      {{ ac_16_08_odp_02 }} are implemented in associating privacy attributes to
-      information.
+      {{ ac_16_08_odp_02 }} are implemented in associating privacy
+      attributes to information.
 parameters:
   ac_16_08_odp_01:
     label: techniques and technologies
@@ -57,5 +63,5 @@ parameters:
   ac_16_8_prm_1:
     label: organization-defined techniques and technologies
 statement: >
-  Implement {{ ac_16_8_prm_1 }} in associating security and privacy attributes
-  to information.
+  Implement {{ ac_16_8_prm_1 }} in associating security and privacy
+  attributes to information.

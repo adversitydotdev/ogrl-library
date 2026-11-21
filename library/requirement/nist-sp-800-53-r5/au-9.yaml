@@ -23,49 +23,55 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Audit and accountability policy; system security plan; privacy plan; access
-          control policy and procedures; procedures addressing protection of audit
-          information; system design documentation; system configuration settings and
-          associated documentation; system audit records; audit tools; other relevant
-          documents or records
+          Audit and accountability policy; system security plan;
+          privacy plan; access control policy and procedures;
+          procedures addressing protection of audit information;
+          system design documentation; system configuration settings
+          and associated documentation; system audit records; audit
+          tools; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with audit and accountability responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities; system/network administrators; system developers
+          Organizational personnel with audit and accountability
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities;
+          system/network administrators; system developers
       - method: test
-        statement: Mechanisms implementing audit information protection
+        statement: >-
+          Mechanisms implementing audit information protection
     statement: >
-      audit information and audit logging tools are protected from unauthorized
-      access, modification, and deletion;
+      audit information and audit logging tools are protected from
+      unauthorized access, modification, and deletion;
   - id: b
     methods:
       - method: examine
         statement: >
-          Audit and accountability policy; system security plan; privacy plan; access
-          control policy and procedures; procedures addressing protection of audit
-          information; system design documentation; system configuration settings and
-          associated documentation; system audit records; audit tools; other relevant
-          documents or records
+          Audit and accountability policy; system security plan;
+          privacy plan; access control policy and procedures;
+          procedures addressing protection of audit information;
+          system design documentation; system configuration settings
+          and associated documentation; system audit records; audit
+          tools; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with audit and accountability responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities; system/network administrators; system developers
+          Organizational personnel with audit and accountability
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities;
+          system/network administrators; system developers
       - method: test
-        statement: Mechanisms implementing audit information protection
+        statement: >-
+          Mechanisms implementing audit information protection
     statement: >
-      {{ au_09_odp }} are alerted upon detection of unauthorized access,
-      modification, or deletion of audit information.
+      {{ au_09_odp }} are alerted upon detection of unauthorized
+      access, modification, or deletion of audit information.
 parameters:
   au_09_odp:
     label: personnel or roles
 parts:
   - id: a
     statement: >
-      Protect audit information and audit logging tools from unauthorized access,
-      modification, and deletion; and
+      Protect audit information and audit logging tools from
+      unauthorized access, modification, and deletion; and
   - id: b
     statement: >
-      Alert {{ au_09_odp }} upon detection of unauthorized access, modification,
-      or deletion of audit information.
+      Alert {{ au_09_odp }} upon detection of unauthorized access,
+      modification, or deletion of audit information.

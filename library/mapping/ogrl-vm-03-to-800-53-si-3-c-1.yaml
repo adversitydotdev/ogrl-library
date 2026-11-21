@@ -10,5 +10,6 @@ rationale: functional
 relationship: equivalent-to
 review_status: draft
 source_ref: control--ogrl-vm-03
-summary: "Real-time scanning plus scheduled full scans meet SI-3(c)(1)."
+summary: >-
+  Real-time scanning plus scheduled full scans meet SI-3(c)(1).
 target_ref: "requirement--nist-sp-800-53-r5-si-3#c.1"

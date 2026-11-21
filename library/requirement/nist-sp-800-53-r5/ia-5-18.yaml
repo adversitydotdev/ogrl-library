@@ -13,42 +13,51 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Identification and authentication policy; procedures addressing identifier
-          management; system security plan; system design documentation; mechanisms
-          providing dynamic binding of identifiers and authenticators; system
-          configuration settings and associated documentation; system audit records;
-          other relevant documents or records
+          Identification and authentication policy; procedures
+          addressing identifier management; system security plan;
+          system design documentation; mechanisms providing dynamic
+          binding of identifiers and authenticators; system
+          configuration settings and associated documentation;
+          system audit records; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with identification and authentication management
-          responsibilities; organizational personnel with information security
-          responsibilities; system/network administrators
+          Organizational personnel with identification and
+          authentication management responsibilities; organizational
+          personnel with information security responsibilities;
+          system/network administrators
       - method: test
         statement: >
-          Mechanisms supporting and/or implementing account management capability;
-          mechanisms supporting and/or implementing identification and authentication
-          management capabilities for the system
-    statement: "{{ ia_05_18_odp_01 }} are employed to generate and manage passwords;"
+          Mechanisms supporting and/or implementing account
+          management capability; mechanisms supporting and/or
+          implementing identification and authentication management
+          capabilities for the system
+    statement: >-
+      {{ ia_05_18_odp_01 }} are employed to generate and manage
+      passwords;
   - id: b
     methods:
       - method: examine
         statement: >
-          Identification and authentication policy; procedures addressing identifier
-          management; system security plan; system design documentation; mechanisms
-          providing dynamic binding of identifiers and authenticators; system
-          configuration settings and associated documentation; system audit records;
-          other relevant documents or records
+          Identification and authentication policy; procedures
+          addressing identifier management; system security plan;
+          system design documentation; mechanisms providing dynamic
+          binding of identifiers and authenticators; system
+          configuration settings and associated documentation;
+          system audit records; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with identification and authentication management
-          responsibilities; organizational personnel with information security
-          responsibilities; system/network administrators
+          Organizational personnel with identification and
+          authentication management responsibilities; organizational
+          personnel with information security responsibilities;
+          system/network administrators
       - method: test
         statement: >
-          Mechanisms supporting and/or implementing account management capability;
-          mechanisms supporting and/or implementing identification and authentication
-          management capabilities for the system
-    statement: "the passwords are protected using {{ ia_05_18_odp_02 }}."
+          Mechanisms supporting and/or implementing account
+          management capability; mechanisms supporting and/or
+          implementing identification and authentication management
+          capabilities for the system
+    statement: >-
+      the passwords are protected using {{ ia_05_18_odp_02 }}.
 parameters:
   ia_05_18_odp_01:
     label: password managers
@@ -56,6 +65,8 @@ parameters:
     label: controls
 parts:
   - id: a
-    statement: "Employ {{ ia_05_18_odp_01 }} to generate and manage passwords; and"
+    statement: >-
+      Employ {{ ia_05_18_odp_01 }} to generate and manage passwords;
+      and
   - id: b
     statement: "Protect the passwords using {{ ia_05_18_odp_02 }}."

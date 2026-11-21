@@ -8,5 +8,7 @@ rationale: functional
 relationship: equivalent-to
 review_status: reviewed
 source_ref: control--ogrl-ac-02
-summary: "Periodic user access reviews and revocation satisfy ISO/IEC 27001:2022 A.5.18."
+summary: >-
+  Periodic user access reviews and revocation satisfy ISO/IEC
+  27001:2022 A.5.18.
 target_ref: requirement--iso-iec-27001-2022-a-5-18

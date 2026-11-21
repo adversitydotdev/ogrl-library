@@ -4,7 +4,9 @@ id: requirement--nist-sp-800-53-r5-sc-21
 spec_version: "0.1.0"
 created: "2026-10-22T11:30:00Z"
 modified: "2026-10-22T11:30:00Z"
-name: "Secure Name/Address Resolution Service (Recursive or Caching Resolver)"
+name: >-
+  Secure Name/Address Resolution Service (Recursive or Caching
+  Resolver)
 display_id: SC-21
 class: control
 external_references:
@@ -17,87 +19,99 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; procedures addressing secure
-          name/address resolution services (recursive or caching resolver); system
-          design documentation; system configuration settings and associated
-          documentation; system audit records; system security plan; other relevant
-          documents or records
+          System and communications protection policy; procedures
+          addressing secure name/address resolution services
+          (recursive or caching resolver); system design
+          documentation; system configuration settings and
+          associated documentation; system audit records; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; organizational personnel with responsibilities
-          for managing DNS
+          System/network administrators; organizational personnel
+          with information security responsibilities; organizational
+          personnel with responsibilities for managing DNS
       - method: test
         statement: >
-          Mechanisms supporting and/or implementing data origin authentication and
-          data integrity verification for name/address resolution services
+          Mechanisms supporting and/or implementing data origin
+          authentication and data integrity verification for
+          name/address resolution services
     statement: >
-      data origin authentication is requested for the name/address resolution
-      responses that the system receives from authoritative sources;
+      data origin authentication is requested for the name/address
+      resolution responses that the system receives from
+      authoritative sources;
   - id: _obj-2
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; procedures addressing secure
-          name/address resolution services (recursive or caching resolver); system
-          design documentation; system configuration settings and associated
-          documentation; system audit records; system security plan; other relevant
-          documents or records
+          System and communications protection policy; procedures
+          addressing secure name/address resolution services
+          (recursive or caching resolver); system design
+          documentation; system configuration settings and
+          associated documentation; system audit records; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; organizational personnel with responsibilities
-          for managing DNS
+          System/network administrators; organizational personnel
+          with information security responsibilities; organizational
+          personnel with responsibilities for managing DNS
       - method: test
         statement: >
-          Mechanisms supporting and/or implementing data origin authentication and
-          data integrity verification for name/address resolution services
+          Mechanisms supporting and/or implementing data origin
+          authentication and data integrity verification for
+          name/address resolution services
     statement: >
-      data origin authentication is performed on the name/address resolution
-      responses that the system receives from authoritative sources;
+      data origin authentication is performed on the name/address
+      resolution responses that the system receives from
+      authoritative sources;
   - id: _obj-3
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; procedures addressing secure
-          name/address resolution services (recursive or caching resolver); system
-          design documentation; system configuration settings and associated
-          documentation; system audit records; system security plan; other relevant
-          documents or records
+          System and communications protection policy; procedures
+          addressing secure name/address resolution services
+          (recursive or caching resolver); system design
+          documentation; system configuration settings and
+          associated documentation; system audit records; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; organizational personnel with responsibilities
-          for managing DNS
+          System/network administrators; organizational personnel
+          with information security responsibilities; organizational
+          personnel with responsibilities for managing DNS
       - method: test
         statement: >
-          Mechanisms supporting and/or implementing data origin authentication and
-          data integrity verification for name/address resolution services
+          Mechanisms supporting and/or implementing data origin
+          authentication and data integrity verification for
+          name/address resolution services
     statement: >
-      data integrity verification is requested for the name/address resolution
-      responses that the system receives from authoritative sources;
+      data integrity verification is requested for the name/address
+      resolution responses that the system receives from
+      authoritative sources;
   - id: _obj-4
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; procedures addressing secure
-          name/address resolution services (recursive or caching resolver); system
-          design documentation; system configuration settings and associated
-          documentation; system audit records; system security plan; other relevant
-          documents or records
+          System and communications protection policy; procedures
+          addressing secure name/address resolution services
+          (recursive or caching resolver); system design
+          documentation; system configuration settings and
+          associated documentation; system audit records; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; organizational personnel with responsibilities
-          for managing DNS
+          System/network administrators; organizational personnel
+          with information security responsibilities; organizational
+          personnel with responsibilities for managing DNS
       - method: test
         statement: >
-          Mechanisms supporting and/or implementing data origin authentication and
-          data integrity verification for name/address resolution services
+          Mechanisms supporting and/or implementing data origin
+          authentication and data integrity verification for
+          name/address resolution services
     statement: >
-      data integrity verification is performed on the name/address resolution
-      responses that the system receives from authoritative sources.
+      data integrity verification is performed on the name/address
+      resolution responses that the system receives from
+      authoritative sources.
 statement: >
   Request and perform data origin authentication and data integrity
-  verification on the name/address resolution responses the system receives
-  from authoritative sources.
+  verification on the name/address resolution responses the system
+  receives from authoritative sources.

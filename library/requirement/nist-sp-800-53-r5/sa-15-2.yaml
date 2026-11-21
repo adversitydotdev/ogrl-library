@@ -13,51 +13,59 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and services acquisition policy; system and services acquisition
-          procedures; procedures addressing development process, standards, and tools;
-          procedures addressing the integration of security and privacy requirements
-          into the acquisition process; solicitation documentation; acquisition
-          documentation; service level agreements; acquisition contracts for the
-          system, system component, or system service; documentation of the selection
-          of security and privacy tracking tools; evidence of employing security and
-          privacy tracking tools; system security plan; privacy plan; privacy impact
-          assessment; privacy risk assessment documentation; other relevant documents
-          or records
+          System and services acquisition policy; system and
+          services acquisition procedures; procedures addressing
+          development process, standards, and tools; procedures
+          addressing the integration of security and privacy
+          requirements into the acquisition process; solicitation
+          documentation; acquisition documentation; service level
+          agreements; acquisition contracts for the system, system
+          component, or system service; documentation of the
+          selection of security and privacy tracking tools; evidence
+          of employing security and privacy tracking tools; system
+          security plan; privacy plan; privacy impact assessment;
+          privacy risk assessment documentation; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with system and service acquisition
-          responsibilities; organizational personnel with information security
-          responsibilities; system developer; organizational personnel with privacy
+          Organizational personnel with system and service
+          acquisition responsibilities; organizational personnel
+          with information security responsibilities; system
+          developer; organizational personnel with privacy
           responsibilities
     statement: >
-      the developer of the system, system component, or system service is required
-      to select and employ security tracking tools for use during the development
-      process;
+      the developer of the system, system component, or system
+      service is required to select and employ security tracking
+      tools for use during the development process;
   - id: "sa-15(02).sa-15(02)[02]"
     methods:
       - method: examine
         statement: >
-          System and services acquisition policy; system and services acquisition
-          procedures; procedures addressing development process, standards, and tools;
-          procedures addressing the integration of security and privacy requirements
-          into the acquisition process; solicitation documentation; acquisition
-          documentation; service level agreements; acquisition contracts for the
-          system, system component, or system service; documentation of the selection
-          of security and privacy tracking tools; evidence of employing security and
-          privacy tracking tools; system security plan; privacy plan; privacy impact
-          assessment; privacy risk assessment documentation; other relevant documents
-          or records
+          System and services acquisition policy; system and
+          services acquisition procedures; procedures addressing
+          development process, standards, and tools; procedures
+          addressing the integration of security and privacy
+          requirements into the acquisition process; solicitation
+          documentation; acquisition documentation; service level
+          agreements; acquisition contracts for the system, system
+          component, or system service; documentation of the
+          selection of security and privacy tracking tools; evidence
+          of employing security and privacy tracking tools; system
+          security plan; privacy plan; privacy impact assessment;
+          privacy risk assessment documentation; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with system and service acquisition
-          responsibilities; organizational personnel with information security
-          responsibilities; system developer; organizational personnel with privacy
+          Organizational personnel with system and service
+          acquisition responsibilities; organizational personnel
+          with information security responsibilities; system
+          developer; organizational personnel with privacy
           responsibilities
     statement: >
-      the developer of the system, system component, or system service is required
-      to select and employ privacy tracking tools for use during the development
-      process.
+      the developer of the system, system component, or system
+      service is required to select and employ privacy tracking
+      tools for use during the development process.
 statement: >
-  Require the developer of the system, system component, or system service to
-  select and employ security and privacy tracking tools for use during the
-  development process.
+  Require the developer of the system, system component, or system
+  service to select and employ security and privacy tracking tools
+  for use during the development process.

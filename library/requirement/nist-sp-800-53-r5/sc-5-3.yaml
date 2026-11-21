@@ -13,40 +13,47 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; procedures addressing
-          denial-of-service protection; system design documentation; system monitoring
-          tools and techniques documentation; system configuration settings and
-          associated documentation; system audit records; system security plan; other
-          relevant documents or records
+          System and communications protection policy; procedures
+          addressing denial-of-service protection; system design
+          documentation; system monitoring tools and techniques
+          documentation; system configuration settings and
+          associated documentation; system audit records; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; organizational personnel with detection and
-          monitoring responsibilities
+          System/network administrators; organizational personnel
+          with information security responsibilities; organizational
+          personnel with detection and monitoring responsibilities
       - method: test
-        statement: Mechanisms/tools implementing system monitoring for denial-of-service attacks
+        statement: >-
+          Mechanisms/tools implementing system monitoring for
+          denial-of-service attacks
     statement: >
-      {{ sc_05_03_odp_01 }} are employed to detect indicators of denial-of-service
-      attacks against or launched from the system;
+      {{ sc_05_03_odp_01 }} are employed to detect indicators of
+      denial-of-service attacks against or launched from the system;
   - id: b
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; procedures addressing
-          denial-of-service protection; system design documentation; system monitoring
-          tools and techniques documentation; system configuration settings and
-          associated documentation; system audit records; system security plan; other
-          relevant documents or records
+          System and communications protection policy; procedures
+          addressing denial-of-service protection; system design
+          documentation; system monitoring tools and techniques
+          documentation; system configuration settings and
+          associated documentation; system audit records; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; organizational personnel with detection and
-          monitoring responsibilities
+          System/network administrators; organizational personnel
+          with information security responsibilities; organizational
+          personnel with detection and monitoring responsibilities
       - method: test
-        statement: Mechanisms/tools implementing system monitoring for denial-of-service attacks
+        statement: >-
+          Mechanisms/tools implementing system monitoring for
+          denial-of-service attacks
     statement: >
-      {{ sc_05_03_odp_02 }} are monitored to determine if sufficient resources
-      exist to prevent effective denial-of-service attacks.
+      {{ sc_05_03_odp_02 }} are monitored to determine if sufficient
+      resources exist to prevent effective denial-of-service
+      attacks.
 parameters:
   sc_05_03_odp_01:
     label: monitoring tools
@@ -56,9 +63,10 @@ parts:
   - id: a
     statement: >
       Employ the following monitoring tools to detect indicators of
-      denial-of-service attacks against, or launched from, the system:
-      {{ sc_05_03_odp_01 }} ; and
+      denial-of-service attacks against, or launched from, the
+      system: {{ sc_05_03_odp_01 }} ; and
   - id: b
     statement: >
-      Monitor the following system resources to determine if sufficient resources
-      exist to prevent effective denial-of-service attacks: {{ sc_05_03_odp_02 }}.
+      Monitor the following system resources to determine if
+      sufficient resources exist to prevent effective
+      denial-of-service attacks: {{ sc_05_03_odp_02 }}.

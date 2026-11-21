@@ -13,40 +13,49 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Audit and accountability policy; system security plan; privacy plan;
-          procedures addressing audit record generation; query event records; system
-          design documentation; system configuration settings and associated
-          documentation; map of system data actions; system audit records; other
-          relevant documents or records
+          Audit and accountability policy; system security plan;
+          privacy plan; procedures addressing audit record
+          generation; query event records; system design
+          documentation; system configuration settings and
+          associated documentation; map of system data actions;
+          system audit records; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with audit record generation responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities; system/network administrators; system developers
+          Organizational personnel with audit record generation
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities;
+          system/network administrators; system developers
       - method: test
-        statement: Mechanisms implementing audit record generation capability
+        statement: >-
+          Mechanisms implementing audit record generation capability
     statement: >
-      the capability to audit the parameters of user query events for data sets
-      containing personally identifiable information is provided;
+      the capability to audit the parameters of user query events
+      for data sets containing personally identifiable information
+      is provided;
   - id: "au-12(04).au-12(04)[02]"
     methods:
       - method: examine
         statement: >
-          Audit and accountability policy; system security plan; privacy plan;
-          procedures addressing audit record generation; query event records; system
-          design documentation; system configuration settings and associated
-          documentation; map of system data actions; system audit records; other
-          relevant documents or records
+          Audit and accountability policy; system security plan;
+          privacy plan; procedures addressing audit record
+          generation; query event records; system design
+          documentation; system configuration settings and
+          associated documentation; map of system data actions;
+          system audit records; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with audit record generation responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities; system/network administrators; system developers
+          Organizational personnel with audit record generation
+          responsibilities; organizational personnel with
+          information security and privacy responsibilities;
+          system/network administrators; system developers
       - method: test
-        statement: Mechanisms implementing audit record generation capability
+        statement: >-
+          Mechanisms implementing audit record generation capability
     statement: >
-      the capability to audit the parameters of user query events for data sets
-      containing personally identifiable information is implemented.
+      the capability to audit the parameters of user query events
+      for data sets containing personally identifiable information
+      is implemented.
 statement: >
-  Provide and implement the capability for auditing the parameters of user
-  query events for data sets containing personally identifiable information.
+  Provide and implement the capability for auditing the parameters
+  of user query events for data sets containing personally
+  identifiable information.

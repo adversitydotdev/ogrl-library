@@ -20,38 +20,52 @@ objectives:
     methods:
       - method: examine
         statement: >
-          access control policy and procedures; procedures for the separation of
-          duties and the division of responsibilities; system configuration settings;
-          system audit records; system access authorizations; list of divisions of
-          responsibility and separation of duties; system security plan; other
-          relevant documents or records
+          access control policy and procedures; procedures for the
+          separation of duties and the division of responsibilities;
+          system configuration settings; system audit records;
+          system access authorizations; list of divisions of
+          responsibility and separation of duties; system security
+          plan; other relevant documents or records
       - method: interview
         statement: >
-          personnel with responsibilities for defining the separation of duties and
-          the division of responsibilities; personnel with information security
-          responsibilities; system administrators
+          personnel with responsibilities for defining the
+          separation of duties and the division of responsibilities;
+          personnel with information security responsibilities;
+          system administrators
       - method: test
-        statement: mechanisms for implementing the separation of duties policy
-    statement: duties of individuals requiring separation are identified.
+        statement: >-
+          mechanisms for implementing the separation of duties
+          policy
+    statement: >-
+      duties of individuals requiring separation are identified.
   - id: b
     methods:
       - method: examine
         statement: >
-          access control policy and procedures; procedures for the separation of
-          duties and the division of responsibilities; system configuration settings;
-          system audit records; system access authorizations; list of divisions of
-          responsibility and separation of duties; system security plan; other
-          relevant documents or records
+          access control policy and procedures; procedures for the
+          separation of duties and the division of responsibilities;
+          system configuration settings; system audit records;
+          system access authorizations; list of divisions of
+          responsibility and separation of duties; system security
+          plan; other relevant documents or records
       - method: interview
         statement: >
-          personnel with responsibilities for defining the separation of duties and
-          the division of responsibilities; personnel with information security
-          responsibilities; system administrators
+          personnel with responsibilities for defining the
+          separation of duties and the division of responsibilities;
+          personnel with information security responsibilities;
+          system administrators
       - method: test
-        statement: mechanisms for implementing the separation of duties policy
-    statement: system access authorizations to support separation of duties are defined.
+        statement: >-
+          mechanisms for implementing the separation of duties
+          policy
+    statement: >-
+      system access authorizations to support separation of duties
+      are defined.
 parts:
   - id: a
-    statement: Identify the duties of individuals requiring separation.
+    statement: >-
+      Identify the duties of individuals requiring separation.
   - id: b
-    statement: Define system access authorizations to support separation of duties.
+    statement: >-
+      Define system access authorizations to support separation of
+      duties.

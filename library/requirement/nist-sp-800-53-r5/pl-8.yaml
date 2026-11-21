@@ -23,373 +23,445 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Security and privacy planning policy; procedures addressing information
-          security and privacy architecture development; procedures addressing
-          information security and privacy architecture reviews and updates;
-          enterprise architecture documentation; information security and privacy
-          architecture documentation; system security plan; privacy plan; security and
-          privacy CONOPS for the system; records of information security and privacy
-          architecture reviews and updates; other relevant documents or records
+          Security and privacy planning policy; procedures
+          addressing information security and privacy architecture
+          development; procedures addressing information security
+          and privacy architecture reviews and updates; enterprise
+          architecture documentation; information security and
+          privacy architecture documentation; system security plan;
+          privacy plan; security and privacy CONOPS for the system;
+          records of information security and privacy architecture
+          reviews and updates; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with security and privacy planning and plan
-          implementation responsibilities; organizational personnel with information
-          security and privacy architecture development responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities
+          Organizational personnel with security and privacy
+          planning and plan implementation responsibilities;
+          organizational personnel with information security and
+          privacy architecture development responsibilities;
+          organizational personnel with information security and
+          privacy responsibilities
       - method: test
         statement: >
-          Organizational processes for developing, reviewing, and updating the
-          information security and privacy architecture; mechanisms supporting and/or
-          implementing the development, review, and update of the information security
-          and privacy architecture
+          Organizational processes for developing, reviewing, and
+          updating the information security and privacy
+          architecture; mechanisms supporting and/or implementing
+          the development, review, and update of the information
+          security and privacy architecture
     statement: >
-      a security architecture for the system describes the requirements and
-      approach to be taken for protecting the confidentiality, integrity, and
-      availability of organizational information;
+      a security architecture for the system describes the
+      requirements and approach to be taken for protecting the
+      confidentiality, integrity, and availability of organizational
+      information;
   - id: a.2
     methods:
       - method: examine
         statement: >
-          Security and privacy planning policy; procedures addressing information
-          security and privacy architecture development; procedures addressing
-          information security and privacy architecture reviews and updates;
-          enterprise architecture documentation; information security and privacy
-          architecture documentation; system security plan; privacy plan; security and
-          privacy CONOPS for the system; records of information security and privacy
-          architecture reviews and updates; other relevant documents or records
+          Security and privacy planning policy; procedures
+          addressing information security and privacy architecture
+          development; procedures addressing information security
+          and privacy architecture reviews and updates; enterprise
+          architecture documentation; information security and
+          privacy architecture documentation; system security plan;
+          privacy plan; security and privacy CONOPS for the system;
+          records of information security and privacy architecture
+          reviews and updates; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with security and privacy planning and plan
-          implementation responsibilities; organizational personnel with information
-          security and privacy architecture development responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities
+          Organizational personnel with security and privacy
+          planning and plan implementation responsibilities;
+          organizational personnel with information security and
+          privacy architecture development responsibilities;
+          organizational personnel with information security and
+          privacy responsibilities
       - method: test
         statement: >
-          Organizational processes for developing, reviewing, and updating the
-          information security and privacy architecture; mechanisms supporting and/or
-          implementing the development, review, and update of the information security
-          and privacy architecture
+          Organizational processes for developing, reviewing, and
+          updating the information security and privacy
+          architecture; mechanisms supporting and/or implementing
+          the development, review, and update of the information
+          security and privacy architecture
     statement: >
-      a privacy architecture describes the requirements and approach to be taken
-      for processing personally identifiable information to minimize privacy risk
-      to individuals;
+      a privacy architecture describes the requirements and approach
+      to be taken for processing personally identifiable information
+      to minimize privacy risk to individuals;
   - id: a.3-1
     methods:
       - method: examine
         statement: >
-          Security and privacy planning policy; procedures addressing information
-          security and privacy architecture development; procedures addressing
-          information security and privacy architecture reviews and updates;
-          enterprise architecture documentation; information security and privacy
-          architecture documentation; system security plan; privacy plan; security and
-          privacy CONOPS for the system; records of information security and privacy
-          architecture reviews and updates; other relevant documents or records
+          Security and privacy planning policy; procedures
+          addressing information security and privacy architecture
+          development; procedures addressing information security
+          and privacy architecture reviews and updates; enterprise
+          architecture documentation; information security and
+          privacy architecture documentation; system security plan;
+          privacy plan; security and privacy CONOPS for the system;
+          records of information security and privacy architecture
+          reviews and updates; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with security and privacy planning and plan
-          implementation responsibilities; organizational personnel with information
-          security and privacy architecture development responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities
+          Organizational personnel with security and privacy
+          planning and plan implementation responsibilities;
+          organizational personnel with information security and
+          privacy architecture development responsibilities;
+          organizational personnel with information security and
+          privacy responsibilities
       - method: test
         statement: >
-          Organizational processes for developing, reviewing, and updating the
-          information security and privacy architecture; mechanisms supporting and/or
-          implementing the development, review, and update of the information security
-          and privacy architecture
+          Organizational processes for developing, reviewing, and
+          updating the information security and privacy
+          architecture; mechanisms supporting and/or implementing
+          the development, review, and update of the information
+          security and privacy architecture
     statement: >
-      a security architecture for the system describes how the architecture is
-      integrated into and supports the enterprise architecture;
+      a security architecture for the system describes how the
+      architecture is integrated into and supports the enterprise
+      architecture;
   - id: a.3-2
     methods:
       - method: examine
         statement: >
-          Security and privacy planning policy; procedures addressing information
-          security and privacy architecture development; procedures addressing
-          information security and privacy architecture reviews and updates;
-          enterprise architecture documentation; information security and privacy
-          architecture documentation; system security plan; privacy plan; security and
-          privacy CONOPS for the system; records of information security and privacy
-          architecture reviews and updates; other relevant documents or records
+          Security and privacy planning policy; procedures
+          addressing information security and privacy architecture
+          development; procedures addressing information security
+          and privacy architecture reviews and updates; enterprise
+          architecture documentation; information security and
+          privacy architecture documentation; system security plan;
+          privacy plan; security and privacy CONOPS for the system;
+          records of information security and privacy architecture
+          reviews and updates; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with security and privacy planning and plan
-          implementation responsibilities; organizational personnel with information
-          security and privacy architecture development responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities
+          Organizational personnel with security and privacy
+          planning and plan implementation responsibilities;
+          organizational personnel with information security and
+          privacy architecture development responsibilities;
+          organizational personnel with information security and
+          privacy responsibilities
       - method: test
         statement: >
-          Organizational processes for developing, reviewing, and updating the
-          information security and privacy architecture; mechanisms supporting and/or
-          implementing the development, review, and update of the information security
-          and privacy architecture
+          Organizational processes for developing, reviewing, and
+          updating the information security and privacy
+          architecture; mechanisms supporting and/or implementing
+          the development, review, and update of the information
+          security and privacy architecture
     statement: >
-      a privacy architecture for the system describes how the architecture is
-      integrated into and supports the enterprise architecture;
+      a privacy architecture for the system describes how the
+      architecture is integrated into and supports the enterprise
+      architecture;
   - id: a.4-1
     methods:
       - method: examine
         statement: >
-          Security and privacy planning policy; procedures addressing information
-          security and privacy architecture development; procedures addressing
-          information security and privacy architecture reviews and updates;
-          enterprise architecture documentation; information security and privacy
-          architecture documentation; system security plan; privacy plan; security and
-          privacy CONOPS for the system; records of information security and privacy
-          architecture reviews and updates; other relevant documents or records
+          Security and privacy planning policy; procedures
+          addressing information security and privacy architecture
+          development; procedures addressing information security
+          and privacy architecture reviews and updates; enterprise
+          architecture documentation; information security and
+          privacy architecture documentation; system security plan;
+          privacy plan; security and privacy CONOPS for the system;
+          records of information security and privacy architecture
+          reviews and updates; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with security and privacy planning and plan
-          implementation responsibilities; organizational personnel with information
-          security and privacy architecture development responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities
+          Organizational personnel with security and privacy
+          planning and plan implementation responsibilities;
+          organizational personnel with information security and
+          privacy architecture development responsibilities;
+          organizational personnel with information security and
+          privacy responsibilities
       - method: test
         statement: >
-          Organizational processes for developing, reviewing, and updating the
-          information security and privacy architecture; mechanisms supporting and/or
-          implementing the development, review, and update of the information security
-          and privacy architecture
+          Organizational processes for developing, reviewing, and
+          updating the information security and privacy
+          architecture; mechanisms supporting and/or implementing
+          the development, review, and update of the information
+          security and privacy architecture
     statement: >
-      a security architecture for the system describes any assumptions about and
-      dependencies on external systems and services;
+      a security architecture for the system describes any
+      assumptions about and dependencies on external systems and
+      services;
   - id: a.4-2
     methods:
       - method: examine
         statement: >
-          Security and privacy planning policy; procedures addressing information
-          security and privacy architecture development; procedures addressing
-          information security and privacy architecture reviews and updates;
-          enterprise architecture documentation; information security and privacy
-          architecture documentation; system security plan; privacy plan; security and
-          privacy CONOPS for the system; records of information security and privacy
-          architecture reviews and updates; other relevant documents or records
+          Security and privacy planning policy; procedures
+          addressing information security and privacy architecture
+          development; procedures addressing information security
+          and privacy architecture reviews and updates; enterprise
+          architecture documentation; information security and
+          privacy architecture documentation; system security plan;
+          privacy plan; security and privacy CONOPS for the system;
+          records of information security and privacy architecture
+          reviews and updates; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with security and privacy planning and plan
-          implementation responsibilities; organizational personnel with information
-          security and privacy architecture development responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities
+          Organizational personnel with security and privacy
+          planning and plan implementation responsibilities;
+          organizational personnel with information security and
+          privacy architecture development responsibilities;
+          organizational personnel with information security and
+          privacy responsibilities
       - method: test
         statement: >
-          Organizational processes for developing, reviewing, and updating the
-          information security and privacy architecture; mechanisms supporting and/or
-          implementing the development, review, and update of the information security
-          and privacy architecture
+          Organizational processes for developing, reviewing, and
+          updating the information security and privacy
+          architecture; mechanisms supporting and/or implementing
+          the development, review, and update of the information
+          security and privacy architecture
     statement: >
-      a privacy architecture for the system describes any assumptions about and
-      dependencies on external systems and services;
+      a privacy architecture for the system describes any
+      assumptions about and dependencies on external systems and
+      services;
   - id: b
     methods:
       - method: examine
         statement: >
-          Security and privacy planning policy; procedures addressing information
-          security and privacy architecture development; procedures addressing
-          information security and privacy architecture reviews and updates;
-          enterprise architecture documentation; information security and privacy
-          architecture documentation; system security plan; privacy plan; security and
-          privacy CONOPS for the system; records of information security and privacy
-          architecture reviews and updates; other relevant documents or records
+          Security and privacy planning policy; procedures
+          addressing information security and privacy architecture
+          development; procedures addressing information security
+          and privacy architecture reviews and updates; enterprise
+          architecture documentation; information security and
+          privacy architecture documentation; system security plan;
+          privacy plan; security and privacy CONOPS for the system;
+          records of information security and privacy architecture
+          reviews and updates; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with security and privacy planning and plan
-          implementation responsibilities; organizational personnel with information
-          security and privacy architecture development responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities
+          Organizational personnel with security and privacy
+          planning and plan implementation responsibilities;
+          organizational personnel with information security and
+          privacy architecture development responsibilities;
+          organizational personnel with information security and
+          privacy responsibilities
       - method: test
         statement: >
-          Organizational processes for developing, reviewing, and updating the
-          information security and privacy architecture; mechanisms supporting and/or
-          implementing the development, review, and update of the information security
-          and privacy architecture
+          Organizational processes for developing, reviewing, and
+          updating the information security and privacy
+          architecture; mechanisms supporting and/or implementing
+          the development, review, and update of the information
+          security and privacy architecture
     statement: >
-      changes in the enterprise architecture are reviewed and updated
-      {{ pl_08_odp }} to reflect changes in the enterprise architecture;
+      changes in the enterprise architecture are reviewed and
+      updated {{ pl_08_odp }} to reflect changes in the enterprise
+      architecture;
   - id: c-1
     methods:
       - method: examine
         statement: >
-          Security and privacy planning policy; procedures addressing information
-          security and privacy architecture development; procedures addressing
-          information security and privacy architecture reviews and updates;
-          enterprise architecture documentation; information security and privacy
-          architecture documentation; system security plan; privacy plan; security and
-          privacy CONOPS for the system; records of information security and privacy
-          architecture reviews and updates; other relevant documents or records
+          Security and privacy planning policy; procedures
+          addressing information security and privacy architecture
+          development; procedures addressing information security
+          and privacy architecture reviews and updates; enterprise
+          architecture documentation; information security and
+          privacy architecture documentation; system security plan;
+          privacy plan; security and privacy CONOPS for the system;
+          records of information security and privacy architecture
+          reviews and updates; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with security and privacy planning and plan
-          implementation responsibilities; organizational personnel with information
-          security and privacy architecture development responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities
+          Organizational personnel with security and privacy
+          planning and plan implementation responsibilities;
+          organizational personnel with information security and
+          privacy architecture development responsibilities;
+          organizational personnel with information security and
+          privacy responsibilities
       - method: test
         statement: >
-          Organizational processes for developing, reviewing, and updating the
-          information security and privacy architecture; mechanisms supporting and/or
-          implementing the development, review, and update of the information security
-          and privacy architecture
-    statement: planned architecture changes are reflected in the security plan;
+          Organizational processes for developing, reviewing, and
+          updating the information security and privacy
+          architecture; mechanisms supporting and/or implementing
+          the development, review, and update of the information
+          security and privacy architecture
+    statement: >-
+      planned architecture changes are reflected in the security
+      plan;
   - id: c-2
     methods:
       - method: examine
         statement: >
-          Security and privacy planning policy; procedures addressing information
-          security and privacy architecture development; procedures addressing
-          information security and privacy architecture reviews and updates;
-          enterprise architecture documentation; information security and privacy
-          architecture documentation; system security plan; privacy plan; security and
-          privacy CONOPS for the system; records of information security and privacy
-          architecture reviews and updates; other relevant documents or records
+          Security and privacy planning policy; procedures
+          addressing information security and privacy architecture
+          development; procedures addressing information security
+          and privacy architecture reviews and updates; enterprise
+          architecture documentation; information security and
+          privacy architecture documentation; system security plan;
+          privacy plan; security and privacy CONOPS for the system;
+          records of information security and privacy architecture
+          reviews and updates; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with security and privacy planning and plan
-          implementation responsibilities; organizational personnel with information
-          security and privacy architecture development responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities
+          Organizational personnel with security and privacy
+          planning and plan implementation responsibilities;
+          organizational personnel with information security and
+          privacy architecture development responsibilities;
+          organizational personnel with information security and
+          privacy responsibilities
       - method: test
         statement: >
-          Organizational processes for developing, reviewing, and updating the
-          information security and privacy architecture; mechanisms supporting and/or
-          implementing the development, review, and update of the information security
-          and privacy architecture
-    statement: planned architecture changes are reflected in the privacy plan;
+          Organizational processes for developing, reviewing, and
+          updating the information security and privacy
+          architecture; mechanisms supporting and/or implementing
+          the development, review, and update of the information
+          security and privacy architecture
+    statement: >-
+      planned architecture changes are reflected in the privacy
+      plan;
   - id: c-3
     methods:
       - method: examine
         statement: >
-          Security and privacy planning policy; procedures addressing information
-          security and privacy architecture development; procedures addressing
-          information security and privacy architecture reviews and updates;
-          enterprise architecture documentation; information security and privacy
-          architecture documentation; system security plan; privacy plan; security and
-          privacy CONOPS for the system; records of information security and privacy
-          architecture reviews and updates; other relevant documents or records
+          Security and privacy planning policy; procedures
+          addressing information security and privacy architecture
+          development; procedures addressing information security
+          and privacy architecture reviews and updates; enterprise
+          architecture documentation; information security and
+          privacy architecture documentation; system security plan;
+          privacy plan; security and privacy CONOPS for the system;
+          records of information security and privacy architecture
+          reviews and updates; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with security and privacy planning and plan
-          implementation responsibilities; organizational personnel with information
-          security and privacy architecture development responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities
+          Organizational personnel with security and privacy
+          planning and plan implementation responsibilities;
+          organizational personnel with information security and
+          privacy architecture development responsibilities;
+          organizational personnel with information security and
+          privacy responsibilities
       - method: test
         statement: >
-          Organizational processes for developing, reviewing, and updating the
-          information security and privacy architecture; mechanisms supporting and/or
-          implementing the development, review, and update of the information security
-          and privacy architecture
+          Organizational processes for developing, reviewing, and
+          updating the information security and privacy
+          architecture; mechanisms supporting and/or implementing
+          the development, review, and update of the information
+          security and privacy architecture
     statement: >
-      planned architecture changes are reflected in the Concept of Operations
-      (CONOPS);
+      planned architecture changes are reflected in the Concept of
+      Operations (CONOPS);
   - id: c-4
     methods:
       - method: examine
         statement: >
-          Security and privacy planning policy; procedures addressing information
-          security and privacy architecture development; procedures addressing
-          information security and privacy architecture reviews and updates;
-          enterprise architecture documentation; information security and privacy
-          architecture documentation; system security plan; privacy plan; security and
-          privacy CONOPS for the system; records of information security and privacy
-          architecture reviews and updates; other relevant documents or records
+          Security and privacy planning policy; procedures
+          addressing information security and privacy architecture
+          development; procedures addressing information security
+          and privacy architecture reviews and updates; enterprise
+          architecture documentation; information security and
+          privacy architecture documentation; system security plan;
+          privacy plan; security and privacy CONOPS for the system;
+          records of information security and privacy architecture
+          reviews and updates; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with security and privacy planning and plan
-          implementation responsibilities; organizational personnel with information
-          security and privacy architecture development responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities
+          Organizational personnel with security and privacy
+          planning and plan implementation responsibilities;
+          organizational personnel with information security and
+          privacy architecture development responsibilities;
+          organizational personnel with information security and
+          privacy responsibilities
       - method: test
         statement: >
-          Organizational processes for developing, reviewing, and updating the
-          information security and privacy architecture; mechanisms supporting and/or
-          implementing the development, review, and update of the information security
-          and privacy architecture
-    statement: planned architecture changes are reflected in criticality analysis;
+          Organizational processes for developing, reviewing, and
+          updating the information security and privacy
+          architecture; mechanisms supporting and/or implementing
+          the development, review, and update of the information
+          security and privacy architecture
+    statement: >-
+      planned architecture changes are reflected in criticality
+      analysis;
   - id: c-5
     methods:
       - method: examine
         statement: >
-          Security and privacy planning policy; procedures addressing information
-          security and privacy architecture development; procedures addressing
-          information security and privacy architecture reviews and updates;
-          enterprise architecture documentation; information security and privacy
-          architecture documentation; system security plan; privacy plan; security and
-          privacy CONOPS for the system; records of information security and privacy
-          architecture reviews and updates; other relevant documents or records
+          Security and privacy planning policy; procedures
+          addressing information security and privacy architecture
+          development; procedures addressing information security
+          and privacy architecture reviews and updates; enterprise
+          architecture documentation; information security and
+          privacy architecture documentation; system security plan;
+          privacy plan; security and privacy CONOPS for the system;
+          records of information security and privacy architecture
+          reviews and updates; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with security and privacy planning and plan
-          implementation responsibilities; organizational personnel with information
-          security and privacy architecture development responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities
+          Organizational personnel with security and privacy
+          planning and plan implementation responsibilities;
+          organizational personnel with information security and
+          privacy architecture development responsibilities;
+          organizational personnel with information security and
+          privacy responsibilities
       - method: test
         statement: >
-          Organizational processes for developing, reviewing, and updating the
-          information security and privacy architecture; mechanisms supporting and/or
-          implementing the development, review, and update of the information security
-          and privacy architecture
-    statement: planned architecture changes are reflected in organizational procedures;
+          Organizational processes for developing, reviewing, and
+          updating the information security and privacy
+          architecture; mechanisms supporting and/or implementing
+          the development, review, and update of the information
+          security and privacy architecture
+    statement: >-
+      planned architecture changes are reflected in organizational
+      procedures;
   - id: c-6
     methods:
       - method: examine
         statement: >
-          Security and privacy planning policy; procedures addressing information
-          security and privacy architecture development; procedures addressing
-          information security and privacy architecture reviews and updates;
-          enterprise architecture documentation; information security and privacy
-          architecture documentation; system security plan; privacy plan; security and
-          privacy CONOPS for the system; records of information security and privacy
-          architecture reviews and updates; other relevant documents or records
+          Security and privacy planning policy; procedures
+          addressing information security and privacy architecture
+          development; procedures addressing information security
+          and privacy architecture reviews and updates; enterprise
+          architecture documentation; information security and
+          privacy architecture documentation; system security plan;
+          privacy plan; security and privacy CONOPS for the system;
+          records of information security and privacy architecture
+          reviews and updates; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with security and privacy planning and plan
-          implementation responsibilities; organizational personnel with information
-          security and privacy architecture development responsibilities;
-          organizational personnel with information security and privacy
-          responsibilities
+          Organizational personnel with security and privacy
+          planning and plan implementation responsibilities;
+          organizational personnel with information security and
+          privacy architecture development responsibilities;
+          organizational personnel with information security and
+          privacy responsibilities
       - method: test
         statement: >
-          Organizational processes for developing, reviewing, and updating the
-          information security and privacy architecture; mechanisms supporting and/or
-          implementing the development, review, and update of the information security
-          and privacy architecture
-    statement: planned architecture changes are reflected in procurements and acquisitions.
+          Organizational processes for developing, reviewing, and
+          updating the information security and privacy
+          architecture; mechanisms supporting and/or implementing
+          the development, review, and update of the information
+          security and privacy architecture
+    statement: >-
+      planned architecture changes are reflected in procurements and
+      acquisitions.
 parameters:
   pl_08_odp:
     label: frequency
 parts:
   - id: a
-    statement: "Develop security and privacy architectures for the system that:"
+    statement: >-
+      Develop security and privacy architectures for the system
+      that:
   - id: a.1
     statement: >
-      Describe the requirements and approach to be taken for protecting the
-      confidentiality, integrity, and availability of organizational information;
+      Describe the requirements and approach to be taken for
+      protecting the confidentiality, integrity, and availability of
+      organizational information;
   - id: a.2
     statement: >
-      Describe the requirements and approach to be taken for processing personally
-      identifiable information to minimize privacy risk to individuals;
+      Describe the requirements and approach to be taken for
+      processing personally identifiable information to minimize
+      privacy risk to individuals;
   - id: a.3
     statement: >
-      Describe how the architectures are integrated into and support the
-      enterprise architecture; and
+      Describe how the architectures are integrated into and support
+      the enterprise architecture; and
   - id: a.4
     statement: >
-      Describe any assumptions about, and dependencies on, external systems and
-      services;
+      Describe any assumptions about, and dependencies on, external
+      systems and services;
   - id: b
     statement: >
-      Review and update the architectures {{ pl_08_odp }} to reflect changes in
-      the enterprise architecture; and
+      Review and update the architectures {{ pl_08_odp }} to reflect
+      changes in the enterprise architecture; and
   - id: c
     statement: >
-      Reflect planned architecture changes in security and privacy plans, Concept
-      of Operations (CONOPS), criticality analysis, organizational procedures, and
-      procurements and acquisitions.
+      Reflect planned architecture changes in security and privacy
+      plans, Concept of Operations (CONOPS), criticality analysis,
+      organizational procedures, and procurements and acquisitions.

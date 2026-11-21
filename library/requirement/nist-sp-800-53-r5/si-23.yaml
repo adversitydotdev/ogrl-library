@@ -17,54 +17,65 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; personally identifiable information processing policy;
-          procedures addressing software and information integrity; system design
-          documentation; system configuration settings and associated documentation;
-          procedures to identify information for fragmentation and distribution across
-          systems/system components; list of distributed and fragmented information;
-          list of circumstances requiring information fragmentation; enterprise
-          architecture; system security architecture; system security plan; privacy
-          plan; other relevant documents or records
+          System and information integrity policy; system and
+          information integrity procedures; personally identifiable
+          information processing policy; procedures addressing
+          software and information integrity; system design
+          documentation; system configuration settings and
+          associated documentation; procedures to identify
+          information for fragmentation and distribution across
+          systems/system components; list of distributed and
+          fragmented information; list of circumstances requiring
+          information fragmentation; enterprise architecture; system
+          security architecture; system security plan; privacy plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with information security and privacy
-          responsibilities; organizational personnel with systems security engineering
-          responsibilities; system developers; security architects
+          Organizational personnel with information security and
+          privacy responsibilities; organizational personnel with
+          systems security engineering responsibilities; system
+          developers; security architects
       - method: test
         statement: >
-          Organizational processes to identify information for fragmentation and
-          distribution across systems/system components; automated mechanisms
-          supporting and/or implementing information fragmentation and distribution
+          Organizational processes to identify information for
+          fragmentation and distribution across systems/system
+          components; automated mechanisms supporting and/or
+          implementing information fragmentation and distribution
           across systems/system components
-    statement: "under {{ si_23_odp_01 }}, {{ si_23_odp_02 }} is fragmented;"
+    statement: >-
+      under {{ si_23_odp_01 }}, {{ si_23_odp_02 }} is fragmented;
   - id: b
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; personally identifiable information processing policy;
-          procedures addressing software and information integrity; system design
-          documentation; system configuration settings and associated documentation;
-          procedures to identify information for fragmentation and distribution across
-          systems/system components; list of distributed and fragmented information;
-          list of circumstances requiring information fragmentation; enterprise
-          architecture; system security architecture; system security plan; privacy
-          plan; other relevant documents or records
+          System and information integrity policy; system and
+          information integrity procedures; personally identifiable
+          information processing policy; procedures addressing
+          software and information integrity; system design
+          documentation; system configuration settings and
+          associated documentation; procedures to identify
+          information for fragmentation and distribution across
+          systems/system components; list of distributed and
+          fragmented information; list of circumstances requiring
+          information fragmentation; enterprise architecture; system
+          security architecture; system security plan; privacy plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with information security and privacy
-          responsibilities; organizational personnel with systems security engineering
-          responsibilities; system developers; security architects
+          Organizational personnel with information security and
+          privacy responsibilities; organizational personnel with
+          systems security engineering responsibilities; system
+          developers; security architects
       - method: test
         statement: >
-          Organizational processes to identify information for fragmentation and
-          distribution across systems/system components; automated mechanisms
-          supporting and/or implementing information fragmentation and distribution
+          Organizational processes to identify information for
+          fragmentation and distribution across systems/system
+          components; automated mechanisms supporting and/or
+          implementing information fragmentation and distribution
           across systems/system components
     statement: >
-      under {{ si_23_odp_01 }} , the fragmented information is distributed across
-      {{ si_23_odp_03 }}.
+      under {{ si_23_odp_01 }} , the fragmented information is
+      distributed across {{ si_23_odp_03 }}.
 parameters:
   si_23_odp_01:
     label: circumstances
@@ -74,9 +85,10 @@ parameters:
     label: systems or system components
 parts:
   - id: a
-    statement: "Fragment the following information: {{ si_23_odp_02 }} ; and"
+    statement: >-
+      Fragment the following information: {{ si_23_odp_02 }} ; and
   - id: b
     statement: >
-      Distribute the fragmented information across the following systems or system
-      components: {{ si_23_odp_03 }}.
+      Distribute the fragmented information across the following
+      systems or system components: {{ si_23_odp_03 }}.
 statement: "Based on {{ si_23_odp_01 }}:"

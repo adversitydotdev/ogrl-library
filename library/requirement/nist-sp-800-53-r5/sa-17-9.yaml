@@ -13,26 +13,31 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and services acquisition policy; enterprise architecture policy;
-          procedures addressing developer security architecture and design diversity
-          for the system; solicitation documentation; acquisition documentation;
-          service level agreements; acquisition contracts for the system, system
-          component, or system service; system design documentation; system security
-          architecture documentation; system configuration settings and associated
-          documentation; developer documentation describing design diversity; system
-          security plan; other relevant documents or records
+          System and services acquisition policy; enterprise
+          architecture policy; procedures addressing developer
+          security architecture and design diversity for the system;
+          solicitation documentation; acquisition documentation;
+          service level agreements; acquisition contracts for the
+          system, system component, or system service; system design
+          documentation; system security architecture documentation;
+          system configuration settings and associated
+          documentation; developer documentation describing design
+          diversity; system security plan; other relevant documents
+          or records
       - method: interview
         statement: >
-          Organizational personnel with system and service acquisition
-          responsibilities; organizational personnel with information security
-          responsibilities; system developer; organizational personnel with
-          information security architecture responsibilities
+          Organizational personnel with system and service
+          acquisition responsibilities; organizational personnel
+          with information security responsibilities; system
+          developer; organizational personnel with information
+          security architecture responsibilities
     statement: >
-      different designs are used for {{ sa_17_09_odp }} to satisfy a common set of
-      requirements or to provide equivalent functionality.
+      different designs are used for {{ sa_17_09_odp }} to satisfy a
+      common set of requirements or to provide equivalent
+      functionality.
 parameters:
   sa_17_09_odp:
     label: critical systems
 statement: >
-  Use different designs for {{ sa_17_09_odp }} to satisfy a common set of
-  requirements or to provide equivalent functionality.
+  Use different designs for {{ sa_17_09_odp }} to satisfy a common
+  set of requirements or to provide equivalent functionality.

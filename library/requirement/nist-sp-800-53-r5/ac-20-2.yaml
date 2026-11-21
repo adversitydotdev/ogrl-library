@@ -13,24 +13,30 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing the use of external systems;
-          system configuration settings and associated documentation; system
-          connection or processing agreements; account management documents; system
-          security plan; other relevant documents or records
+          Access control policy; procedures addressing the use of
+          external systems; system configuration settings and
+          associated documentation; system connection or processing
+          agreements; account management documents; system security
+          plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with responsibilities for restricting or
-          prohibiting the use of organization-controlled storage devices on external
-          systems; system/network administrators; organizational personnel with
-          information security responsibilities
+          Organizational personnel with responsibilities for
+          restricting or prohibiting the use of
+          organization-controlled storage devices on external
+          systems; system/network administrators; organizational
+          personnel with information security responsibilities
       - method: test
-        statement: Mechanisms implementing restrictions on the use of portable storage devices
+        statement: >-
+          Mechanisms implementing restrictions on the use of
+          portable storage devices
     statement: >
-      the use of organization-controlled portable storage devices by authorized
-      individuals is restricted on external systems using {{ ac_20_02_odp }}.
+      the use of organization-controlled portable storage devices by
+      authorized individuals is restricted on external systems using
+      {{ ac_20_02_odp }}.
 parameters:
   ac_20_02_odp:
     label: restrictions
 statement: >
-  Restrict the use of organization-controlled portable storage devices by
-  authorized individuals on external systems using {{ ac_20_02_odp }}.
+  Restrict the use of organization-controlled portable storage
+  devices by authorized individuals on external systems using
+  {{ ac_20_02_odp }}.

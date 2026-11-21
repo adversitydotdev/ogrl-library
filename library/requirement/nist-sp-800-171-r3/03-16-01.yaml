@@ -23,24 +23,28 @@ objectives:
     methods:
       - method: examine
         statement: >
-          system and services acquisition policy; system and services acquisition
-          procedures; procedures addressing security engineering principles used in
-          the development and modification of the system; system design documentation;
-          security requirements and specifications for the system; system security
-          plan; other relevant documents or records
+          system and services acquisition policy; system and
+          services acquisition procedures; procedures addressing
+          security engineering principles used in the development
+          and modification of the system; system design
+          documentation; security requirements and specifications
+          for the system; system security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          personnel with acquisition/contracting responsibilities; personnel with
-          information security responsibilities; personnel with system development and
-          modification responsibilities; system developers
+          personnel with acquisition/contracting responsibilities;
+          personnel with information security responsibilities;
+          personnel with system development and modification
+          responsibilities; system developers
       - method: test
         statement: >
-          processes for applying security engineering principles in system development
-          and modification; mechanisms supporting the application of security
-          engineering principles in system development and modification
+          processes for applying security engineering principles in
+          system development and modification; mechanisms supporting
+          the application of security engineering principles in
+          system development and modification
     statement: >
-      {{ a_03_16_01_odp_01 }} are applied to the development or modification of
-      the system and system components.
+      {{ a_03_16_01_odp_01 }} are applied to the development or
+      modification of the system and system components.
 parameters:
   a_03_16_01_odp_01:
     label: systems security engineering principles

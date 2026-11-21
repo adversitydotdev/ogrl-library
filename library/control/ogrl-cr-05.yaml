@@ -9,17 +9,19 @@ control_type: detective
 family: cr
 frequency: continuous
 guidance: >
-  Prefer managed data stores with built-in checksumming and synchronous
-  replication (for example multi-AZ relational databases and object storage
-  with checksums and versioning), enable page checksums where the engine
-  supports them, and alert on replica lag and storage error metrics.
-  Replication propagates logical corruption and accidental deletes, so it
-  complements rather than replaces backups (OGRL-BC-03). Run periodic
-  consistency checks or reconciliations on critical tables. Software and
-  artifact integrity verification is covered by OGRL-CM-09.
+  Prefer managed data stores with built-in checksumming and
+  synchronous replication (for example multi-AZ relational databases
+  and object storage with checksums and versioning), enable page
+  checksums where the engine supports them, and alert on replica lag
+  and storage error metrics. Replication propagates logical
+  corruption and accidental deletes, so it complements rather than
+  replaces backups (OGRL-BC-03). Run periodic consistency checks or
+  reconciliations on critical tables. Software and artifact
+  integrity verification is covered by OGRL-CM-09.
 objective: >
-  Ensure stored data remains complete and accurate and survives the loss of a
-  single storage component or zone without corruption or loss.
+  Ensure stored data remains complete and accurate and survives the
+  loss of a single storage component or zone without corruption or
+  loss.
 origin: standard
 parameters:
   integrity_alert_recipients:
@@ -35,15 +37,16 @@ parameters:
     label: Replication lag alert threshold
     value: "5 minutes"
 statement: >
-  Configure production data stores holding {{ integrity_scope }} with
-  storage-level integrity verification and replication across at least
-  {{ replica_zone_count }} availability zones, and alert
-  {{ integrity_alert_recipients }} when integrity errors, replication
-  failures, or replication lag exceeding {{ replication_lag_threshold }} are
-  detected.
+  Configure production data stores holding {{ integrity_scope }}
+  with storage-level integrity verification and replication across
+  at least {{ replica_zone_count }} availability zones, and alert
+  {{ integrity_alert_recipients }} when integrity errors,
+  replication failures, or replication lag exceeding
+  {{ replication_lag_threshold }} are detected.
 summary: >
-  Protect production data stores with storage-level integrity checks and
-  multi-zone replication, and alert on integrity or replication failures.
+  Protect production data stores with storage-level integrity checks
+  and multi-zone replication, and alert on integrity or replication
+  failures.
 tags:
   - data-integrity
   - replication

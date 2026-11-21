@@ -13,17 +13,20 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Assessment, authorization, and monitoring policy; procedures addressing
-          penetration testing; assessment plan; penetration test report; assessment
-          report; security assessment evidence; system security plan; privacy plan;
+          Assessment, authorization, and monitoring policy;
+          procedures addressing penetration testing; assessment
+          plan; penetration test report; assessment report; security
+          assessment evidence; system security plan; privacy plan;
           other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with assessment responsibilities; organizational
-          personnel with information security and privacy responsibilities
+          Organizational personnel with assessment responsibilities;
+          organizational personnel with information security and
+          privacy responsibilities
     statement: >
-      an independent penetration testing agent or team is employed to perform
-      penetration testing on the system or system components.
+      an independent penetration testing agent or team is employed
+      to perform penetration testing on the system or system
+      components.
 statement: >
   Employ an independent penetration testing agent or team to perform
   penetration testing on the system or system components.

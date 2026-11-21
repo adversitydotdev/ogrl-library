@@ -13,27 +13,29 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and information integrity policy; system and information integrity
-          procedures; procedures addressing software and information integrity; system
-          design documentation; system configuration settings and associated
-          documentation; system audit records; system security plan; other relevant
-          documents or records
+          System and information integrity policy; system and
+          information integrity procedures; procedures addressing
+          software and information integrity; system design
+          documentation; system configuration settings and
+          associated documentation; system audit records; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel responsible for software, firmware, and/or
-          information integrity; organizational personnel with information security
-          responsibilities; system/network administrators; system developer
+          Organizational personnel responsible for software,
+          firmware, and/or information integrity; organizational
+          personnel with information security responsibilities;
+          system/network administrators; system developer
       - method: test
         statement: >
-          Software, firmware, and information integrity verification tools; mechanisms
-          supporting and/or implementing time limits on process execution without
-          supervision
+          Software, firmware, and information integrity verification
+          tools; mechanisms supporting and/or implementing time
+          limits on process execution without supervision
     statement: >
-      processes are prohibited from executing without supervision for more than
-      {{ si_07_16_odp }}.
+      processes are prohibited from executing without supervision
+      for more than {{ si_07_16_odp }}.
 parameters:
   si_07_16_odp:
     label: time period
 statement: >
-  Prohibit processes from executing without supervision for more than
-  {{ si_07_16_odp }}.
+  Prohibit processes from executing without supervision for more
+  than {{ si_07_16_odp }}.

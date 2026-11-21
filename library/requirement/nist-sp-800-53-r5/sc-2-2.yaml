@@ -13,15 +13,22 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and communications protection policy; procedures addressing
-          application and software partitioning; system design documentation; system
-          configuration settings and associated documentation; system audit records;
-          system security plan; privacy plan; other relevant documents or records
+          System and communications protection policy; procedures
+          addressing application and software partitioning; system
+          design documentation; system configuration settings and
+          associated documentation; system audit records; system
+          security plan; privacy plan; other relevant documents or
+          records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security and privacy responsibilities; system developer
+          System/network administrators; organizational personnel
+          with information security and privacy responsibilities;
+          system developer
       - method: test
-        statement: Separation of application state information from software
-    statement: state information is stored separately from applications and software.
-statement: Store state information from applications and software separately.
+        statement: >-
+          Separation of application state information from software
+    statement: >-
+      state information is stored separately from applications and
+      software.
+statement: >-
+  Store state information from applications and software separately.

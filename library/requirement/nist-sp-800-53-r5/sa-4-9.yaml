@@ -13,99 +13,119 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System and services acquisition policy; procedures addressing the
-          integration of security requirements, descriptions, and criteria into the
-          acquisition process; system design documentation; system documentation,
-          including functions, ports, protocols, and services intended for
-          organizational use; acquisition contracts for systems or services;
-          acquisition documentation; solicitation documentation; service level
-          agreements; organizational security requirements, descriptions, and criteria
-          for developers of systems, system components, and system services; system
-          security plan; other relevant documents or records
+          System and services acquisition policy; procedures
+          addressing the integration of security requirements,
+          descriptions, and criteria into the acquisition process;
+          system design documentation; system documentation,
+          including functions, ports, protocols, and services
+          intended for organizational use; acquisition contracts for
+          systems or services; acquisition documentation;
+          solicitation documentation; service level agreements;
+          organizational security requirements, descriptions, and
+          criteria for developers of systems, system components, and
+          system services; system security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with acquisition/contracting responsibilities;
-          organizational personnel with the responsibility for determining system
-          security requirements; system/network administrators; organizational
-          personnel operating, using, and/or maintaining the system; system
-          developers; organizational personnel with information security
-          responsibilities
+          Organizational personnel with acquisition/contracting
+          responsibilities; organizational personnel with the
+          responsibility for determining system security
+          requirements; system/network administrators;
+          organizational personnel operating, using, and/or
+          maintaining the system; system developers; organizational
+          personnel with information security responsibilities
     statement: >
-      the developer of the system, system component, or system service is required
-      to identify the functions intended for organizational use;
+      the developer of the system, system component, or system
+      service is required to identify the functions intended for
+      organizational use;
   - id: "sa-04(09).sa-04(09)[02]"
     methods:
       - method: examine
         statement: >
-          System and services acquisition policy; procedures addressing the
-          integration of security requirements, descriptions, and criteria into the
-          acquisition process; system design documentation; system documentation,
-          including functions, ports, protocols, and services intended for
-          organizational use; acquisition contracts for systems or services;
-          acquisition documentation; solicitation documentation; service level
-          agreements; organizational security requirements, descriptions, and criteria
-          for developers of systems, system components, and system services; system
-          security plan; other relevant documents or records
+          System and services acquisition policy; procedures
+          addressing the integration of security requirements,
+          descriptions, and criteria into the acquisition process;
+          system design documentation; system documentation,
+          including functions, ports, protocols, and services
+          intended for organizational use; acquisition contracts for
+          systems or services; acquisition documentation;
+          solicitation documentation; service level agreements;
+          organizational security requirements, descriptions, and
+          criteria for developers of systems, system components, and
+          system services; system security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with acquisition/contracting responsibilities;
-          organizational personnel with the responsibility for determining system
-          security requirements; system/network administrators; organizational
-          personnel operating, using, and/or maintaining the system; system
-          developers; organizational personnel with information security
-          responsibilities
+          Organizational personnel with acquisition/contracting
+          responsibilities; organizational personnel with the
+          responsibility for determining system security
+          requirements; system/network administrators;
+          organizational personnel operating, using, and/or
+          maintaining the system; system developers; organizational
+          personnel with information security responsibilities
     statement: >
-      the developer of the system, system component, or system service is required
-      to identify the ports intended for organizational use;
+      the developer of the system, system component, or system
+      service is required to identify the ports intended for
+      organizational use;
   - id: "sa-04(09).sa-04(09)[03]"
     methods:
       - method: examine
         statement: >
-          System and services acquisition policy; procedures addressing the
-          integration of security requirements, descriptions, and criteria into the
-          acquisition process; system design documentation; system documentation,
-          including functions, ports, protocols, and services intended for
-          organizational use; acquisition contracts for systems or services;
-          acquisition documentation; solicitation documentation; service level
-          agreements; organizational security requirements, descriptions, and criteria
-          for developers of systems, system components, and system services; system
-          security plan; other relevant documents or records
+          System and services acquisition policy; procedures
+          addressing the integration of security requirements,
+          descriptions, and criteria into the acquisition process;
+          system design documentation; system documentation,
+          including functions, ports, protocols, and services
+          intended for organizational use; acquisition contracts for
+          systems or services; acquisition documentation;
+          solicitation documentation; service level agreements;
+          organizational security requirements, descriptions, and
+          criteria for developers of systems, system components, and
+          system services; system security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with acquisition/contracting responsibilities;
-          organizational personnel with the responsibility for determining system
-          security requirements; system/network administrators; organizational
-          personnel operating, using, and/or maintaining the system; system
-          developers; organizational personnel with information security
-          responsibilities
+          Organizational personnel with acquisition/contracting
+          responsibilities; organizational personnel with the
+          responsibility for determining system security
+          requirements; system/network administrators;
+          organizational personnel operating, using, and/or
+          maintaining the system; system developers; organizational
+          personnel with information security responsibilities
     statement: >
-      the developer of the system, system component, or system service is required
-      to identify the protocols intended for organizational use;
+      the developer of the system, system component, or system
+      service is required to identify the protocols intended for
+      organizational use;
   - id: "sa-04(09).sa-04(09)[04]"
     methods:
       - method: examine
         statement: >
-          System and services acquisition policy; procedures addressing the
-          integration of security requirements, descriptions, and criteria into the
-          acquisition process; system design documentation; system documentation,
-          including functions, ports, protocols, and services intended for
-          organizational use; acquisition contracts for systems or services;
-          acquisition documentation; solicitation documentation; service level
-          agreements; organizational security requirements, descriptions, and criteria
-          for developers of systems, system components, and system services; system
-          security plan; other relevant documents or records
+          System and services acquisition policy; procedures
+          addressing the integration of security requirements,
+          descriptions, and criteria into the acquisition process;
+          system design documentation; system documentation,
+          including functions, ports, protocols, and services
+          intended for organizational use; acquisition contracts for
+          systems or services; acquisition documentation;
+          solicitation documentation; service level agreements;
+          organizational security requirements, descriptions, and
+          criteria for developers of systems, system components, and
+          system services; system security plan; other relevant
+          documents or records
       - method: interview
         statement: >
-          Organizational personnel with acquisition/contracting responsibilities;
-          organizational personnel with the responsibility for determining system
-          security requirements; system/network administrators; organizational
-          personnel operating, using, and/or maintaining the system; system
-          developers; organizational personnel with information security
-          responsibilities
+          Organizational personnel with acquisition/contracting
+          responsibilities; organizational personnel with the
+          responsibility for determining system security
+          requirements; system/network administrators;
+          organizational personnel operating, using, and/or
+          maintaining the system; system developers; organizational
+          personnel with information security responsibilities
     statement: >
-      the developer of the system, system component, or system service is required
-      to identify the services intended for organizational use.
+      the developer of the system, system component, or system
+      service is required to identify the services intended for
+      organizational use.
 statement: >
-  Require the developer of the system, system component, or system service to
-  identify the functions, ports, protocols, and services intended for
-  organizational use.
+  Require the developer of the system, system component, or system
+  service to identify the functions, ports, protocols, and services
+  intended for organizational use.

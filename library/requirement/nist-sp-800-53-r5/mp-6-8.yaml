@@ -13,22 +13,26 @@ objectives:
     methods:
       - method: examine
         statement: >
-          System media protection policy; procedures addressing media sanitization and
-          disposal; system design documentation; system configuration settings and
-          associated documentation; authorization records; media sanitization records;
-          audit records; system security plan; other relevant documents or records
+          System media protection policy; procedures addressing
+          media sanitization and disposal; system design
+          documentation; system configuration settings and
+          associated documentation; authorization records; media
+          sanitization records; audit records; system security plan;
+          other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with system media sanitization responsibilities;
-          organizational personnel with information security responsibilities;
-          system/network administrators
+          Organizational personnel with system media sanitization
+          responsibilities; organizational personnel with
+          information security responsibilities; system/network
+          administrators
       - method: test
         statement: >
-          Organizational processes for purging/wiping media; mechanisms supporting
-          and/or implementing purge/wipe capabilities
+          Organizational processes for purging/wiping media;
+          mechanisms supporting and/or implementing purge/wipe
+          capabilities
     statement: >
-      the capability to purge or wipe information from {{ mp_06_08_odp_01 }}
-      {{ mp_06_08_odp_02 }} is provided.
+      the capability to purge or wipe information from
+      {{ mp_06_08_odp_01 }} {{ mp_06_08_odp_02 }} is provided.
 parameters:
   mp_06_08_odp_01:
     label: systems or system components

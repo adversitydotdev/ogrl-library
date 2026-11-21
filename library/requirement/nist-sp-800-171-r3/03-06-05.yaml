@@ -20,185 +20,222 @@ objectives:
     methods:
       - method: examine
         statement: >
-          incident response policy; procedures addressing incident response planning;
-          incident response plan; system security plan; records of incident response
-          plan reviews and approvals; other relevant documents or records
+          incident response policy; procedures addressing incident
+          response planning; incident response plan; system security
+          plan; records of incident response plan reviews and
+          approvals; other relevant documents or records
       - method: interview
         statement: >
-          personnel with incident response planning responsibilities; personnel with
-          information security responsibilities
+          personnel with incident response planning
+          responsibilities; personnel with information security
+          responsibilities
       - method: test
         statement: incident response plan and related processes
     statement: >
-      an incident response plan is developed that provides the organization with a
-      roadmap for implementing its incident response capability.
+      an incident response plan is developed that provides the
+      organization with a roadmap for implementing its incident
+      response capability.
   - id: a.02
     methods:
       - method: examine
         statement: >
-          incident response policy; procedures addressing incident response planning;
-          incident response plan; system security plan; records of incident response
-          plan reviews and approvals; other relevant documents or records
+          incident response policy; procedures addressing incident
+          response planning; incident response plan; system security
+          plan; records of incident response plan reviews and
+          approvals; other relevant documents or records
       - method: interview
         statement: >
-          personnel with incident response planning responsibilities; personnel with
-          information security responsibilities
+          personnel with incident response planning
+          responsibilities; personnel with information security
+          responsibilities
       - method: test
         statement: incident response plan and related processes
     statement: >
-      an incident response plan is developed that describes the structure and
-      organization of the incident response capability.
+      an incident response plan is developed that describes the
+      structure and organization of the incident response
+      capability.
   - id: a.03
     methods:
       - method: examine
         statement: >
-          incident response policy; procedures addressing incident response planning;
-          incident response plan; system security plan; records of incident response
-          plan reviews and approvals; other relevant documents or records
+          incident response policy; procedures addressing incident
+          response planning; incident response plan; system security
+          plan; records of incident response plan reviews and
+          approvals; other relevant documents or records
       - method: interview
         statement: >
-          personnel with incident response planning responsibilities; personnel with
-          information security responsibilities
+          personnel with incident response planning
+          responsibilities; personnel with information security
+          responsibilities
       - method: test
         statement: incident response plan and related processes
     statement: >
-      an incident response plan is developed that provides a high-level approach
-      for how the incident response capability fits into the overall organization.
+      an incident response plan is developed that provides a
+      high-level approach for how the incident response capability
+      fits into the overall organization.
   - id: a.04
     methods:
       - method: examine
         statement: >
-          incident response policy; procedures addressing incident response planning;
-          incident response plan; system security plan; records of incident response
-          plan reviews and approvals; other relevant documents or records
+          incident response policy; procedures addressing incident
+          response planning; incident response plan; system security
+          plan; records of incident response plan reviews and
+          approvals; other relevant documents or records
       - method: interview
         statement: >
-          personnel with incident response planning responsibilities; personnel with
-          information security responsibilities
+          personnel with incident response planning
+          responsibilities; personnel with information security
+          responsibilities
       - method: test
         statement: incident response plan and related processes
-    statement: an incident response plan is developed that defines reportable incidents.
+    statement: >-
+      an incident response plan is developed that defines reportable
+      incidents.
   - id: a.05
     methods:
       - method: examine
         statement: >
-          incident response policy; procedures addressing incident response planning;
-          incident response plan; system security plan; records of incident response
-          plan reviews and approvals; other relevant documents or records
+          incident response policy; procedures addressing incident
+          response planning; incident response plan; system security
+          plan; records of incident response plan reviews and
+          approvals; other relevant documents or records
       - method: interview
         statement: >
-          personnel with incident response planning responsibilities; personnel with
-          information security responsibilities
+          personnel with incident response planning
+          responsibilities; personnel with information security
+          responsibilities
       - method: test
         statement: incident response plan and related processes
     statement: >
-      an incident response plan is developed that addresses the sharing of
-      incident information.
+      an incident response plan is developed that addresses the
+      sharing of incident information.
   - id: a.06
     methods:
       - method: examine
         statement: >
-          incident response policy; procedures addressing incident response planning;
-          incident response plan; system security plan; records of incident response
-          plan reviews and approvals; other relevant documents or records
+          incident response policy; procedures addressing incident
+          response planning; incident response plan; system security
+          plan; records of incident response plan reviews and
+          approvals; other relevant documents or records
       - method: interview
         statement: >
-          personnel with incident response planning responsibilities; personnel with
-          information security responsibilities
+          personnel with incident response planning
+          responsibilities; personnel with information security
+          responsibilities
       - method: test
         statement: incident response plan and related processes
     statement: >
-      an incident response plan is developed that designates responsibilities to
-      organizational entities, personnel, or roles.
+      an incident response plan is developed that designates
+      responsibilities to organizational entities, personnel, or
+      roles.
   - id: b.01
     methods:
       - method: examine
         statement: >
-          incident response policy; procedures addressing incident response planning;
-          incident response plan; system security plan; records of incident response
-          plan reviews and approvals; other relevant documents or records
+          incident response policy; procedures addressing incident
+          response planning; incident response plan; system security
+          plan; records of incident response plan reviews and
+          approvals; other relevant documents or records
       - method: interview
         statement: >
-          personnel with incident response planning responsibilities; personnel with
-          information security responsibilities
+          personnel with incident response planning
+          responsibilities; personnel with information security
+          responsibilities
       - method: test
         statement: incident response plan and related processes
     statement: >
-      copies of the incident response plan are distributed to designated incident
-      response personnel (identified by name or by role).
+      copies of the incident response plan are distributed to
+      designated incident response personnel (identified by name or
+      by role).
   - id: b.02
     methods:
       - method: examine
         statement: >
-          incident response policy; procedures addressing incident response planning;
-          incident response plan; system security plan; records of incident response
-          plan reviews and approvals; other relevant documents or records
+          incident response policy; procedures addressing incident
+          response planning; incident response plan; system security
+          plan; records of incident response plan reviews and
+          approvals; other relevant documents or records
       - method: interview
         statement: >
-          personnel with incident response planning responsibilities; personnel with
-          information security responsibilities
+          personnel with incident response planning
+          responsibilities; personnel with information security
+          responsibilities
       - method: test
         statement: incident response plan and related processes
-    statement: copies of the incident response plan are distributed to organizational elements.
+    statement: >-
+      copies of the incident response plan are distributed to
+      organizational elements.
   - id: d
     methods:
       - method: examine
         statement: >
-          incident response policy; procedures addressing incident response planning;
-          incident response plan; system security plan; records of incident response
-          plan reviews and approvals; other relevant documents or records
+          incident response policy; procedures addressing incident
+          response planning; incident response plan; system security
+          plan; records of incident response plan reviews and
+          approvals; other relevant documents or records
       - method: interview
         statement: >
-          personnel with incident response planning responsibilities; personnel with
-          information security responsibilities
+          personnel with incident response planning
+          responsibilities; personnel with information security
+          responsibilities
       - method: test
         statement: incident response plan and related processes
-    statement: the incident response plan is protected from unauthorized disclosure.
+    statement: >-
+      the incident response plan is protected from unauthorized
+      disclosure.
   - id: c
     methods:
       - method: examine
         statement: >
-          incident response policy; procedures addressing incident response planning;
-          incident response plan; system security plan; records of incident response
-          plan reviews and approvals; other relevant documents or records
+          incident response policy; procedures addressing incident
+          response planning; incident response plan; system security
+          plan; records of incident response plan reviews and
+          approvals; other relevant documents or records
       - method: interview
         statement: >
-          personnel with incident response planning responsibilities; personnel with
-          information security responsibilities
+          personnel with incident response planning
+          responsibilities; personnel with information security
+          responsibilities
       - method: test
         statement: incident response plan and related processes
     statement: >
-      the incident response plan is updated to address system and organizational
-      changes or problems encountered during plan implementation, execution, or
-      testing.
+      the incident response plan is updated to address system and
+      organizational changes or problems encountered during plan
+      implementation, execution, or testing.
 parts:
   - id: a
     statement: "Develop an incident response plan that:"
   - id: a.01
     statement: >
-      Provides the organization with a roadmap for implementing its incident
-      response capability,
+      Provides the organization with a roadmap for implementing its
+      incident response capability,
   - id: a.02
-    statement: "Describes the structure and organization of the incident response capability,"
+    statement: >-
+      Describes the structure and organization of the incident
+      response capability,
   - id: a.03
     statement: >
-      Provides a high-level approach for how the incident response capability fits
-      into the overall organization,
+      Provides a high-level approach for how the incident response
+      capability fits into the overall organization,
   - id: a.04
     statement: "Defines reportable incidents,"
   - id: a.05
     statement: "Addresses the sharing of incident information, and"
   - id: a.06
-    statement: "Designates responsibilities to organizational entities, personnel, or roles."
+    statement: >-
+      Designates responsibilities to organizational entities,
+      personnel, or roles.
   - id: b
     statement: >
-      Distribute copies of the incident response plan to designated incident
-      response personnel (identified by name and/or by role) and organizational
-      elements.
+      Distribute copies of the incident response plan to designated
+      incident response personnel (identified by name and/or by
+      role) and organizational elements.
   - id: c
     statement: >
-      Update the incident response plan to address system and organizational
-      changes or problems encountered during plan implementation, execution, or
-      testing.
+      Update the incident response plan to address system and
+      organizational changes or problems encountered during plan
+      implementation, execution, or testing.
   - id: d
-    statement: Protect the incident response plan from unauthorized disclosure.
+    statement: >-
+      Protect the incident response plan from unauthorized
+      disclosure.

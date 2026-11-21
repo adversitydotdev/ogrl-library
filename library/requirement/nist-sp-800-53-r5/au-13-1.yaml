@@ -13,22 +13,28 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Audit and accountability policy; system security plan; privacy plan;
-          procedures addressing information disclosure monitoring; system design
-          documentation; system configuration settings and associated documentation;
-          automated monitoring tools; system audit records; other relevant documents
-          or records
+          Audit and accountability policy; system security plan;
+          privacy plan; procedures addressing information disclosure
+          monitoring; system design documentation; system
+          configuration settings and associated documentation;
+          automated monitoring tools; system audit records; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with responsibilities for monitoring information
-          disclosures; organizational personnel with information security and privacy
+          Organizational personnel with responsibilities for
+          monitoring information disclosures; organizational
+          personnel with information security and privacy
           responsibilities
       - method: test
-        statement: Automated mechanisms implementing monitoring for information disclosure
+        statement: >-
+          Automated mechanisms implementing monitoring for
+          information disclosure
     statement: >
-      open-source information and information sites are monitored using
-      {{ au_13_01_odp }}.
+      open-source information and information sites are monitored
+      using {{ au_13_01_odp }}.
 parameters:
   au_13_01_odp:
     label: automated mechanisms
-statement: "Monitor open-source information and information sites using {{ au_13_01_odp }}."
+statement: >-
+  Monitor open-source information and information sites using
+  {{ au_13_01_odp }}.

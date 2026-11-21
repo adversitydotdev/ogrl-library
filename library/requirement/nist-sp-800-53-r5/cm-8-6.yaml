@@ -13,46 +13,53 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Configuration management policy; procedures addressing system component
-          inventory; configuration management plan; system security plan; system
-          design documentation; system component inventory; system configuration
-          settings and associated documentation; change control records; system
+          Configuration management policy; procedures addressing
+          system component inventory; configuration management plan;
+          system security plan; system design documentation; system
+          component inventory; system configuration settings and
+          associated documentation; change control records; system
           security plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with component inventory management
-          responsibilities; organizational personnel with assessment responsibilities;
-          organizational personnel with information security responsibilities;
-          system/network administrators
+          Organizational personnel with component inventory
+          management responsibilities; organizational personnel with
+          assessment responsibilities; organizational personnel with
+          information security responsibilities; system/network
+          administrators
       - method: test
         statement: >
-          Organizational processes for managing the system component inventory;
-          mechanisms supporting and/or implementing system component inventory
+          Organizational processes for managing the system component
+          inventory; mechanisms supporting and/or implementing
+          system component inventory
     statement: >
-      assessed component configurations are included in the system component
-      inventory;
+      assessed component configurations are included in the system
+      component inventory;
   - id: "cm-08(06).cm-08(06)[02]"
     methods:
       - method: examine
         statement: >
-          Configuration management policy; procedures addressing system component
-          inventory; configuration management plan; system security plan; system
-          design documentation; system component inventory; system configuration
-          settings and associated documentation; change control records; system
+          Configuration management policy; procedures addressing
+          system component inventory; configuration management plan;
+          system security plan; system design documentation; system
+          component inventory; system configuration settings and
+          associated documentation; change control records; system
           security plan; other relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with component inventory management
-          responsibilities; organizational personnel with assessment responsibilities;
-          organizational personnel with information security responsibilities;
-          system/network administrators
+          Organizational personnel with component inventory
+          management responsibilities; organizational personnel with
+          assessment responsibilities; organizational personnel with
+          information security responsibilities; system/network
+          administrators
       - method: test
         statement: >
-          Organizational processes for managing the system component inventory;
-          mechanisms supporting and/or implementing system component inventory
+          Organizational processes for managing the system component
+          inventory; mechanisms supporting and/or implementing
+          system component inventory
     statement: >
-      any approved deviations to current deployed configurations are included in
-      the system component inventory.
+      any approved deviations to current deployed configurations are
+      included in the system component inventory.
 statement: >
-  Include assessed component configurations and any approved deviations to
-  current deployed configurations in the system component inventory.
+  Include assessed component configurations and any approved
+  deviations to current deployed configurations in the system
+  component inventory.

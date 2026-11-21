@@ -13,19 +13,23 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Access control policy; procedures addressing session termination; user
-          logout messages; system design documentation; system configuration settings
-          and associated documentation; system audit records; system security plan;
-          other relevant documents or records
+          Access control policy; procedures addressing session
+          termination; user logout messages; system design
+          documentation; system configuration settings and
+          associated documentation; system audit records; system
+          security plan; other relevant documents or records
       - method: interview
         statement: >
-          System/network administrators; organizational personnel with information
-          security responsibilities; system developers
+          System/network administrators; organizational personnel
+          with information security responsibilities; system
+          developers
       - method: test
-        statement: System session termination mechanisms; display of logout messages
+        statement: >-
+          System session termination mechanisms; display of logout
+          messages
     statement: >
-      an explicit logout message is displayed to users indicating the termination
-      of authenticated communication sessions.
+      an explicit logout message is displayed to users indicating
+      the termination of authenticated communication sessions.
 statement: >
-  Display an explicit logout message to users indicating the termination of
-  authenticated communications sessions.
+  Display an explicit logout message to users indicating the
+  termination of authenticated communications sessions.

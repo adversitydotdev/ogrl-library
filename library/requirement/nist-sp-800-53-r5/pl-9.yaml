@@ -20,21 +20,24 @@ objectives:
     methods:
       - method: examine
         statement: >
-          Security and privacy planning policy; procedures addressing security and
-          privacy plan development and implementation; system security plan; privacy
-          plan; other relevant documents or records
+          Security and privacy planning policy; procedures
+          addressing security and privacy plan development and
+          implementation; system security plan; privacy plan; other
+          relevant documents or records
       - method: interview
         statement: >
-          Organizational personnel with security and privacy planning and plan
-          implementation responsibilities; organizational personnel with
-          responsibilities for planning/implementing central management of controls
-          and related processes; organizational personnel with information security
-          and privacy responsibilities
+          Organizational personnel with security and privacy
+          planning and plan implementation responsibilities;
+          organizational personnel with responsibilities for
+          planning/implementing central management of controls and
+          related processes; organizational personnel with
+          information security and privacy responsibilities
       - method: test
         statement: >
-          Organizational processes for the central management of controls and related
-          processes; mechanisms supporting and/or implementing central management of
-          controls and related processes
+          Organizational processes for the central management of
+          controls and related processes; mechanisms supporting
+          and/or implementing central management of controls and
+          related processes
     statement: "{{ pl_09_odp }} are centrally managed."
 parameters:
   pl_09_odp:
