@@ -1,0 +1,15 @@
+type: mapping
+id: mapping--ogrl-tp-03-to-800-53-sa-4
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: medium
+rationale: functional
+relationship: intersects-with
+review_status: draft
+source_ref: control--ogrl-tp-03
+summary: >
+  Contractual security, privacy, and responsibility-allocation terms overlap
+  SA-4 acquisition requirements, which also address system development and
+  assurance criteria not covered here.
+target_ref: requirement--nist-sp-800-53-r5-sa-4

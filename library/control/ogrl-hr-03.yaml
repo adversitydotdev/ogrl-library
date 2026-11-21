@@ -1,0 +1,40 @@
+type: control
+id: control--ogrl-hr-03
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+name: Confidentiality and Access Agreements
+display_id: OGRL-HR-03
+control_type: preventive
+family: hr
+frequency: event-driven
+guidance: >
+  Collect signatures through the HRIS or e-signature tool during onboarding
+  and gate access provisioning on completion. Track annual re-acknowledgement
+  alongside awareness training to reduce friction. Legal should own the
+  templates; security should own the policy content they reference.
+objective: >
+  Establish enforceable, documented obligations for protecting organizational
+  and customer information before anyone is given access to it.
+origin: standard
+parameters:
+  agreement_review_frequency:
+    label: Agreement template review frequency
+    value: annually
+  reacknowledgement_frequency:
+    label: Re-acknowledgement frequency
+    value: annually
+statement: >
+  Require every employee and contractor to sign a confidentiality agreement
+  and acknowledge the acceptable use and information security policies before
+  receiving access to systems or confidential information; review the
+  agreement templates {{ agreement_review_frequency }} and obtain renewed
+  acknowledgement {{ reacknowledgement_frequency }} and whenever the
+  agreements materially change.
+summary: >
+  Require signed confidentiality and acceptable-use agreements before access,
+  and refresh acknowledgements periodically.
+tags:
+  - personnel-security
+  - confidentiality
+  - onboarding

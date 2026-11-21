@@ -1,0 +1,49 @@
+type: control
+id: control--ogrl-hr-08
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+name: Role-Based Security Training
+display_id: OGRL-HR-08
+control_type: preventive
+family: hr
+frequency: annual
+guidance: >
+  Typical modules include secure coding and OWASP topics for engineers, cloud
+  and IAM hygiene for infrastructure administrators, incident handling for
+  on-call responders, and privacy obligations for staff handling personal
+  data. Track completion per role in the training platform and gate production
+  access requests on completion.
+objective: >
+  Ensure personnel with elevated access or security duties have the specific
+  knowledge needed to perform them securely.
+origin: standard
+parameters:
+  role_content_review_frequency:
+    label: Role-based content review frequency
+    value: annually
+  role_content_update_events:
+    label: Events that trigger role-based content updates
+    value: significant security incidents or major technology changes
+  role_training_frequency:
+    label: Recurring role-based training frequency
+    value: annually
+  trained_roles:
+    label: Roles requiring role-based training
+    value: >
+      engineers with production or source code access, on-call incident
+      responders, and administrators of in-scope systems
+statement: >
+  Provide role-specific security training to {{ trained_roles }} before they
+  are granted access to perform those duties, {{ role_training_frequency }}
+  thereafter, and when significant system changes alter their
+  responsibilities; update the content {{ role_content_review_frequency }} and
+  after {{ role_content_update_events }}, incorporating lessons learned from
+  security incidents.
+summary: >
+  Provide additional security training tailored to roles with elevated access
+  or security-relevant duties.
+tags:
+  - training
+  - secure-development
+  - roles-and-responsibilities

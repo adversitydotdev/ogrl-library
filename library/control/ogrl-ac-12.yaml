@@ -1,0 +1,41 @@
+type: control
+id: control--ogrl-ac-12
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+name: Information Flow Enforcement and Tenant Data Segregation
+display_id: OGRL-AC-12
+control_type: preventive
+family: ac
+frequency: continuous
+guidance: >
+  Enforce tenancy in a shared layer rather than in each handler: row-level
+  security, tenant-scoped repository or ORM helpers, per-tenant encryption
+  keys, or per-tenant databases. Derive the tenant from the authenticated
+  session, never from client-supplied parameters alone. Include cross-tenant
+  negative tests in CI and in periodic penetration tests.
+objective: >
+  Prevent one customer's data from flowing to, or being accessed by, another
+  customer.
+origin: standard
+parameters:
+  isolation_enforcement_layer:
+    label: Layer where tenant isolation is enforced
+    value: >
+      the data access layer through row-level security or mandatory tenant-scoped
+      queries
+  isolation_test_trigger:
+    label: When cross-tenant isolation tests run
+    value: on every release to production
+statement: >
+  Enforce tenant isolation in every data path of the service so that each
+  request, query, background job, and export is constrained to the
+  authenticated customer's tenant at {{ isolation_enforcement_layer }}, and
+  run automated cross-tenant access tests {{ isolation_test_trigger }}.
+summary: >
+  Scope every data path to the requesting customer's tenant and test isolation
+  on each release.
+tags:
+  - multi-tenancy
+  - data-segregation
+  - access-control

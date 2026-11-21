@@ -1,0 +1,45 @@
+type: control
+id: control--ogrl-tp-02
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+name: Vendor Security Due Diligence
+display_id: OGRL-TP-02
+control_type: preventive
+family: tp
+frequency: event-driven
+guidance: >
+  Scale the assessment to the tier: an independent assurance report review for
+  critical vendors, a standard questionnaire for moderate ones, and a
+  lightweight checklist for low-risk tools. Route approvals through
+  procurement so contracts cannot be signed without security sign-off.
+  Periodic reassessment after onboarding is covered by OGRL-TP-04.
+objective: >
+  Avoid taking on vendors whose security posture is inconsistent with the
+  organization's commitments to customers.
+origin: standard
+parameters:
+  assessment_evidence:
+    label: Due diligence evidence
+    value: >
+      a current SOC 2 Type II report, ISO/IEC 27001 certificate, or completed
+      security questionnaire
+  diligence_tiers:
+    label: Vendor tiers requiring due diligence
+    value: high or moderate risk
+  vendor_risk_approver:
+    label: Vendor risk approval authority
+    value: the security team
+statement: >
+  Before onboarding any vendor rated {{ diligence_tiers }}, and again when the
+  services or data shared materially change, assess its security and privacy
+  posture using {{ assessment_evidence }}, document findings and any accepted
+  risks, and obtain approval from {{ vendor_risk_approver }} before contract
+  signature or data sharing.
+summary: >
+  Assess the security and privacy posture of higher-risk vendors and approve
+  the risk before signing or sharing data.
+tags:
+  - vendor-management
+  - due-diligence
+  - risk-assessment

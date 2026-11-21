@@ -1,0 +1,40 @@
+type: control
+id: control--ogrl-ac-10
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+name: Session Lock and Termination
+display_id: OGRL-AC-10
+control_type: preventive
+family: ac
+frequency: continuous
+guidance: >
+  Enforce screen lock through MDM configuration profiles and session lifetimes
+  through identity provider and cloud console session policies. Apply shorter
+  timeouts to production and administrative access than to collaboration
+  tools. Evidence is typically the MDM profile, IdP session policy, and cloud
+  console session settings.
+objective: >
+  Prevent unattended or hijacked sessions from being used to access systems
+  and data.
+origin: standard
+parameters:
+  device_lock_timeout:
+    label: Endpoint inactivity lock timeout
+    value: "15 minutes"
+  session_termination_conditions:
+    label: Session termination conditions
+    value: "30 minutes of inactivity or 12 hours of total session duration"
+statement: >
+  Configure workforce endpoints to lock the screen after
+  {{ device_lock_timeout }} of inactivity, requiring re-authentication to
+  unlock, and configure in-scope applications, administrative consoles, and
+  remote access sessions to terminate after
+  {{ session_termination_conditions }}.
+summary: >
+  Lock idle workstations and terminate idle or long-lived sessions to in-scope
+  systems.
+tags:
+  - session-management
+  - endpoint
+  - access-control

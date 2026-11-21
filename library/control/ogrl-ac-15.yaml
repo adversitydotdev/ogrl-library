@@ -1,0 +1,41 @@
+type: control
+id: control--ogrl-ac-15
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+name: Customer Authentication
+display_id: OGRL-AC-15
+control_type: preventive
+family: ac
+frequency: continuous
+guidance: >
+  Use a mature authentication library or customer identity platform rather
+  than custom code. Allow customer administrators to enforce MFA or SSO for
+  their organization. Issue short-lived, server-revocable session tokens. API
+  keys issued to customers should be scoped, revocable, and attributable to a
+  customer account.
+objective: >
+  Ensure only the intended customer users can access customer accounts and
+  data in the service.
+origin: standard
+parameters:
+  customer_mfa_options:
+    label: MFA options offered to customers
+    value: TOTP authenticator apps and WebAuthn passkeys
+  sso_eligible_customers:
+    label: Customers offered SSO
+    value: all business-tier customers
+statement: >
+  Require every customer user of the service to authenticate with an
+  individual account, offer {{ customer_mfa_options }} to all customer users
+  and SAML or OIDC single sign-on to {{ sso_eligible_customers }}, verify the
+  requester through a previously registered channel before completing account
+  recovery, and invalidate active sessions on logout, password change, and
+  account recovery.
+summary: >
+  Authenticate every customer user uniquely and offer strong authentication
+  options in the product.
+tags:
+  - authentication
+  - customer-identity
+  - mfa

@@ -1,0 +1,51 @@
+type: control
+id: control--ogrl-hr-07
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+name: Security and Privacy Awareness Training
+display_id: OGRL-HR-07
+control_type: preventive
+family: hr
+frequency: annual
+guidance: >
+  Use a training platform integrated with the HRIS so new hires are enrolled
+  automatically and completion is tracked; escalate overdue training to
+  managers and consider suspending access after a grace period. Cover
+  phishing, credential hygiene, data handling, incident reporting, and privacy
+  basics. Feed internal incidents and phishing simulation results into content
+  updates.
+objective: >
+  Equip all personnel to recognize and report threats and to handle
+  information in line with security and privacy policies.
+origin: standard
+parameters:
+  content_review_frequency:
+    label: Training content review frequency
+    value: annually
+  content_update_events:
+    label: Events that trigger content updates
+    value: "significant security incidents, policy changes, or emerging threats"
+  onboarding_training_window:
+    label: Deadline for initial training after start date
+    value: "30 days"
+  phishing_simulation_frequency:
+    label: Phishing simulation frequency
+    value: at least quarterly
+  training_frequency:
+    label: Recurring training frequency
+    value: annually
+statement: >
+  Require every employee and contractor to complete security and privacy
+  awareness training within {{ onboarding_training_window }} of starting and
+  {{ training_frequency }} thereafter; conduct simulated phishing exercises
+  {{ phishing_simulation_frequency }}; and update training content
+  {{ content_review_frequency }} and after {{ content_update_events }},
+  incorporating lessons learned from security incidents.
+summary: >
+  Train all personnel in security and privacy awareness at onboarding and on a
+  recurring cadence, reinforced by phishing simulations.
+tags:
+  - training
+  - awareness
+  - phishing

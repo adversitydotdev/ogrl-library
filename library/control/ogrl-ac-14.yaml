@@ -1,0 +1,51 @@
+type: control
+id: control--ogrl-ac-14
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+name: Authenticator Strength and Lockout
+display_id: OGRL-AC-14
+control_type: preventive
+family: ac
+frequency: continuous
+guidance: >
+  Follow NIST SP 800-63B: favor length and breached-password screening over
+  composition rules and periodic forced rotation. Use a breached-password
+  service (for example k-anonymity range queries) at creation and change. Use
+  bcrypt, scrypt, or Argon2id for storage. Apply lockout or rate limiting per
+  account and per source to blunt credential stuffing without enabling easy
+  denial of service.
+objective: >
+  Resist credential guessing, stuffing, and offline cracking attacks against
+  password-based authentication.
+origin: standard
+parameters:
+  blocklist_update_frequency:
+    label: Breached-password list update frequency
+    value: at least monthly
+  failed_attempt_window:
+    label: Failed-attempt counting window
+    value: "15 minutes"
+  max_failed_attempts:
+    label: Consecutive failed attempts before lockout
+    value: "10"
+  password_composition_rules:
+    label: Password composition rules
+    value: a minimum length of 12 characters without arbitrary character-class requirements
+statement: >
+  Configure every in-scope system that accepts passwords, including the
+  identity provider and customer-facing sign-in, to enforce
+  {{ password_composition_rules }}, permit passphrases of at least 64
+  characters, reject passwords found on a list of breached or commonly used
+  values that is updated {{ blocklist_update_frequency }}, transmit passwords
+  only over encrypted channels, store them only with a salted adaptive key
+  derivation function, require a new password after account recovery, and lock
+  the account or impose increasing delays after {{ max_failed_attempts }}
+  consecutive failed attempts within {{ failed_attempt_window }}.
+summary: >
+  Enforce modern password requirements and lock out repeated failed sign-in
+  attempts on every system that accepts passwords.
+tags:
+  - authentication
+  - passwords
+  - brute-force

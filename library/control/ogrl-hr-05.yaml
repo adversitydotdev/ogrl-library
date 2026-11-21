@@ -1,0 +1,39 @@
+type: control
+id: control--ogrl-hr-05
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+name: Personnel Sanctions
+display_id: OGRL-HR-05
+control_type: corrective
+family: hr
+frequency: event-driven
+guidance: >
+  Reference the sanctions process in the code of conduct and acceptable use
+  policy. HR owns case records; security receives notification so it can
+  review the individual's access. Keep a log of cases (even if empty for the
+  period) to evidence operation.
+objective: >
+  Hold personnel accountable for policy violations consistently and ensure
+  security leadership is aware of sanctioned individuals.
+origin: standard
+parameters:
+  sanction_notification_recipient:
+    label: Roles notified when a sanction is initiated
+    value: "the security lead and the individual's manager"
+  sanction_notification_window:
+    label: Sanction notification deadline
+    value: "2 business days"
+statement: >
+  Apply the documented disciplinary process to any employee or contractor who
+  violates information security or privacy policies, record each case and its
+  outcome, and notify {{ sanction_notification_recipient }} within
+  {{ sanction_notification_window }} when a formal sanction is initiated,
+  identifying the individual and the reason.
+summary: >
+  Apply a documented disciplinary process to security and privacy policy
+  violations and notify designated roles when it is invoked.
+tags:
+  - personnel-security
+  - accountability
+  - discipline

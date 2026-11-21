@@ -1,0 +1,16 @@
+type: mapping
+id: mapping--ogrl-ac-10-to-800-53-ac-12
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: high
+parameter_map:
+  ac_12_odp: session_termination_conditions
+rationale: functional
+relationship: equivalent-to
+review_status: draft
+source_ref: control--ogrl-ac-10
+summary: >
+  Sessions to in-scope systems are automatically terminated under defined
+  conditions.
+target_ref: requirement--nist-sp-800-53-r5-ac-12

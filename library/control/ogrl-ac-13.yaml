@@ -1,0 +1,40 @@
+type: control
+id: control--ogrl-ac-13
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+name: Unique Identification and Centralized SSO
+display_id: OGRL-AC-13
+control_type: preventive
+family: ac
+frequency: continuous
+guidance: >
+  Connect SaaS and cloud consoles to the IdP via SAML or OIDC and provision
+  via SCIM where available. Maintain an inventory of in-scope systems that
+  cannot use SSO, with compensating local account management. Do not recycle
+  email addresses or usernames of departed personnel. MFA requirements are in
+  OGRL-AC-05; account approval is in OGRL-AC-01.
+objective: >
+  Make every action on in-scope systems attributable to one individual and
+  manageable from one place.
+origin: standard
+parameters:
+  identifier_reuse_period:
+    label: Minimum period before an identifier may be reused
+    value: at least two years
+  identity_provider:
+    label: Central workforce identity provider
+    value: "the organization's designated workforce identity provider"
+statement: >
+  Assign each workforce member a unique identifier in {{ identity_provider }},
+  authenticate access to in-scope systems through single sign-on from that
+  provider wherever the system supports it, prohibit shared or generic user
+  identifiers other than inventoried service and break-glass accounts, and do
+  not reassign a retired identifier for {{ identifier_reuse_period }}.
+summary: >
+  Give every workforce member one unique identity in a central identity
+  provider and use it to sign in to in-scope systems.
+tags:
+  - identity
+  - sso
+  - authentication

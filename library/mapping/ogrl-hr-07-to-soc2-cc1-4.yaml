@@ -1,0 +1,12 @@
+type: mapping
+id: mapping--ogrl-hr-07-to-soc2-cc1-4
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: high
+rationale: functional
+relationship: intersects-with
+review_status: draft
+source_ref: control--ogrl-hr-07
+summary: "Recurring security training develops personnel competence, one element of CC1.4.\n"
+target_ref: requirement--soc2-tsc-2017-cc1-4

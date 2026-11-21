@@ -1,0 +1,15 @@
+type: mapping
+id: mapping--ogrl-hr-07-to-800-53-at-2-c
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: high
+parameter_map:
+  at_02_odp_06: content_review_frequency
+  at_02_odp_07: content_update_events
+rationale: functional
+relationship: equivalent-to
+review_status: draft
+source_ref: control--ogrl-hr-07
+summary: "Content is updated on a defined cadence and after defined events.\n"
+target_ref: "requirement--nist-sp-800-53-r5-at-2#c"

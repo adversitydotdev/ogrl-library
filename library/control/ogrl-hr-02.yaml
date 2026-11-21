@@ -1,0 +1,48 @@
+type: control
+id: control--ogrl-hr-02
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+name: Personnel Offboarding
+display_id: OGRL-HR-02
+control_type: preventive
+family: hr
+frequency: event-driven
+guidance: >
+  Trigger the checklist automatically from the HRIS termination or job-change
+  event into the ticketing system. Use the identity provider to suspend SSO
+  and revoke sessions, then sweep systems outside SSO (cloud root or
+  break-glass credentials, SSH keys, personal access tokens, API keys). Track
+  device return through the MDM inventory and remote-wipe unreturned devices.
+  Account disablement itself is also governed by OGRL-AC-01; this control
+  evidences the full offboarding workflow.
+objective: >
+  Ensure departing and transferring personnel retain no access, credentials,
+  or company assets beyond what their current status requires.
+origin: standard
+parameters:
+  access_disable_sla:
+    label: Maximum time to disable access after separation
+    value: "24 hours"
+  exit_briefing_topics:
+    label: Topics covered in the exit briefing
+    value: continuing confidentiality obligations and return of company property
+  transfer_review_sla:
+    label: Time to review access after an internal transfer
+    value: "5 business days"
+statement: >
+  For every departing employee or contractor, complete a documented
+  offboarding checklist that disables system access within
+  {{ access_disable_sla }} of separation, revokes associated credentials,
+  keys, and tokens, recovers company-issued devices and sanitizes them before
+  reassignment, briefs the individual on {{ exit_briefing_topics }}, and
+  transfers ownership of the individual's data and systems to a designated
+  owner; when an individual transfers roles, review and adjust existing access
+  to match the new role within {{ transfer_review_sla }}.
+summary: >
+  Run a documented offboarding checklist for every departure and an access
+  review for every internal transfer.
+tags:
+  - personnel-security
+  - offboarding
+  - access-revocation

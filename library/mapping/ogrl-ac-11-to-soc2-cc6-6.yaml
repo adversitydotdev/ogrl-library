@@ -1,0 +1,14 @@
+type: mapping
+id: mapping--ogrl-ac-11-to-soc2-cc6-6
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: high
+rationale: functional
+relationship: intersects-with
+review_status: draft
+source_ref: control--ogrl-ac-11
+summary: >
+  Controlling remote access paths into production protects against threats
+  from outside system boundaries under CC6.6.
+target_ref: requirement--soc2-tsc-2017-cc6-6

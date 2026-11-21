@@ -1,0 +1,45 @@
+type: control
+id: control--ogrl-tp-04
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+name: Ongoing Vendor Monitoring and SOC Report Review
+display_id: OGRL-TP-04
+control_type: detective
+family: tp
+frequency: annual
+guidance: >
+  Track report periods and request bridge letters when coverage lapses. Map
+  each relevant complementary user entity control to an internal control or
+  owner. Subservice organizations carved out of the organization's own SOC 2
+  report need this review as evidence of monitoring. Also monitor public
+  breach disclosures for critical vendors.
+objective: >
+  Detect deterioration in vendor security posture and confirm the organization
+  performs its share of vendor-dependent controls.
+origin: standard
+parameters:
+  assurance_evidence:
+    label: Vendor assurance evidence reviewed
+    value: >
+      the vendor's most recent SOC 2 Type II report, ISO/IEC 27001 certificate, or
+      equivalent independent assessment
+  monitored_tiers:
+    label: Vendor tiers subject to periodic monitoring
+    value: high risk
+  monitoring_frequency:
+    label: Vendor monitoring frequency
+    value: annually
+statement: >
+  For each vendor rated {{ monitored_tiers }}, obtain and review
+  {{ assurance_evidence }} {{ monitoring_frequency }}; evaluate reported
+  exceptions, coverage gaps, and complementary user entity controls the
+  organization must operate; track remediation of identified issues; and
+  record the review outcome and any risk acceptance.
+summary: >
+  Periodically review assurance reports for critical vendors and act on
+  exceptions and complementary controls.
+tags:
+  - vendor-management
+  - monitoring
+  - assurance-reports

@@ -1,0 +1,14 @@
+type: mapping
+id: mapping--ogrl-hr-02-to-soc2-cc6-5
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: medium
+rationale: functional
+relationship: intersects-with
+review_status: draft
+source_ref: control--ogrl-hr-02
+summary: >
+  Recovering and sanitizing devices from departing personnel contributes to
+  CC6.5 but does not cover general asset disposal.
+target_ref: requirement--soc2-tsc-2017-cc6-5

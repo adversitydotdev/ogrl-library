@@ -1,0 +1,39 @@
+type: control
+id: control--ogrl-ac-08
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+name: Separation of Duties
+display_id: OGRL-AC-08
+control_type: preventive
+family: ac
+frequency: continuous
+guidance: >
+  Enforce separation technically where possible: branch protection requiring a
+  reviewer other than the author, access-request workflows that block
+  self-approval, and audit log storage that system administrators cannot
+  modify. Small teams that cannot fully separate duties should document
+  compensating detective controls such as after-the-fact review of
+  administrator activity.
+objective: >
+  Prevent a single individual from introducing and concealing unauthorized or
+  erroneous changes.
+origin: standard
+parameters:
+  separated_duties:
+    label: Duties that must be separated
+    value: >
+      authoring and approving production code changes, requesting and approving
+      access grants, and administering systems and reviewing their audit logs
+statement: >
+  Document the duties that must be separated, including at minimum
+  {{ separated_duties }}, configure system access so that no single individual
+  can perform both duties in a conflicting pair without independent approval,
+  and record any approved exception together with its compensating control.
+summary: >
+  Document conflicting duties and configure access so no single person can
+  complete a conflicting pair alone.
+tags:
+  - separation-of-duties
+  - access-control
+  - governance

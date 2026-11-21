@@ -1,0 +1,14 @@
+type: mapping
+id: mapping--ogrl-hr-05-to-soc2-cc1-1
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: medium
+rationale: functional
+relationship: intersects-with
+review_status: draft
+source_ref: control--ogrl-hr-05
+summary: >
+  Consistently addressing deviations from expected conduct supports the
+  integrity commitments of CC1.1.
+target_ref: requirement--soc2-tsc-2017-cc1-1

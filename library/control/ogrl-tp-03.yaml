@@ -1,0 +1,42 @@
+type: control
+id: control--ogrl-tp-03
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+name: Vendor Contract Security and Privacy Requirements
+display_id: OGRL-TP-03
+control_type: preventive
+family: tp
+frequency: event-driven
+guidance: >
+  Maintain a standard security addendum and data processing agreement; legal
+  tracks deviations and security approves them. Align the vendor notification
+  window with the organization's own customer notification commitments. Record
+  contract status in the vendor inventory so missing agreements are visible.
+objective: >
+  Make vendors contractually accountable for protecting the organization's and
+  its customers' data.
+origin: standard
+parameters:
+  assurance_rights:
+    label: Assurance rights required from vendors
+    value: independent audit reports or security questionnaire responses at least annually
+  breach_notification_window:
+    label: Vendor breach notification deadline
+    value: "72 hours"
+statement: >
+  Execute a written agreement with every vendor that will store, process, or
+  access confidential or personal data before sharing that data, including
+  security and confidentiality obligations, data protection terms that
+  restrict use to the contracted purpose, notification of security incidents
+  or unauthorized disclosures affecting organizational data within
+  {{ breach_notification_window }}, disclosure of subprocessors, return or
+  deletion of data at termination, and the right to obtain
+  {{ assurance_rights }}.
+summary: >
+  Put security, confidentiality, privacy, and breach notification obligations
+  in writing before sharing sensitive data with a vendor.
+tags:
+  - vendor-management
+  - contracts
+  - privacy
