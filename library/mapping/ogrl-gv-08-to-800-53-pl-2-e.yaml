@@ -1,0 +1,14 @@
+type: mapping
+id: mapping--ogrl-gv-08-to-800-53-pl-2-e
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: medium
+rationale: functional
+relationship: equivalent-to
+review_status: draft
+source_ref: control--ogrl-gv-08
+summary: >
+  Restricting modification to owners protects the plan from unauthorized
+  change; disclosure protection relies on repository access controls.
+target_ref: "requirement--nist-sp-800-53-r5-pl-2#e"

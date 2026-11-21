@@ -1,0 +1,14 @@
+type: mapping
+id: mapping--ogrl-rm-05-to-800-53-ra-3-f
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: high
+rationale: functional
+relationship: subset-of
+review_status: draft
+source_ref: control--ogrl-rm-05
+summary: >
+  Covers the change-driven update of the risk assessment; periodic updates are
+  covered by periodic risk assessment.
+target_ref: "requirement--nist-sp-800-53-r5-ra-3#f"

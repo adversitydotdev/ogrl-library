@@ -1,0 +1,52 @@
+type: control
+id: control--ogrl-gv-11
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+name: Continuous Control Monitoring
+display_id: OGRL-GV-11
+control_type: detective
+family: gv
+frequency: continuous
+guidance: >
+  Compliance automation platforms and cloud security posture tools provide
+  most checks out of the box (MFA enforcement, encryption at rest, logging
+  enabled, offboarding completed, background checks on file). Tune checks to
+  the controls in scope, route failures to the owning team's queue, and retain
+  the dashboard history. Persistent failures become deficiencies under
+  OGRL-GV-12.
+objective: >
+  Control failures between periodic assessments are detected quickly,
+  assigned, and resolved, and leadership sees current control health.
+origin: standard
+parameters:
+  monitored_metrics:
+    label: Monitored control metrics
+    value: >
+      pass or fail status of automated control tests and open failures by age and
+      severity
+  monitoring_frequency:
+    label: Automated check frequency
+    value: at least daily
+  status_audience:
+    label: Control health report audience
+    value: the security leader and executive leadership
+  status_reporting_frequency:
+    label: Control health reporting frequency
+    value: monthly
+  triage_sla:
+    label: Failing check triage deadline
+    value: "2 business days"
+statement: >
+  Continuously monitor in-scope controls using automated checks that track
+  {{ monitored_metrics }}, executed {{ monitoring_frequency }}. Assign an
+  owner and a remediation ticket to each failing check within
+  {{ triage_sla }}, and report control health and trends to
+  {{ status_audience }} {{ status_reporting_frequency }}.
+summary: >
+  Automatically test in-scope controls on an ongoing basis, act on failures,
+  and report control health to leadership.
+tags:
+  - governance
+  - continuous-monitoring
+  - automation

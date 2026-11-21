@@ -1,0 +1,44 @@
+type: control
+id: control--ogrl-am-01
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+name: System Component Inventory
+display_id: OGRL-AM-01
+control_type: detective
+family: am
+frequency: continuous
+guidance: >
+  Use cloud provider resource inventories, infrastructure-as-code state, MDM
+  enrollment, and the SaaS management or SSO catalog as sources. Required tags
+  (owner, environment, data classification) enforced by policy keep the
+  inventory accurate. Reconciliation means investigating untagged or unknown
+  resources and unenrolled devices. Evidence: an inventory export and
+  reconciliation records.
+objective: >
+  Every component in scope is known, owned, and accounted for once, so that it
+  can be secured, monitored, and assessed.
+origin: standard
+parameters:
+  inventory_attributes:
+    label: Inventory attributes
+    value: >
+      unique identifier, type, owner, environment, location or region, and data
+      classification
+  inventory_review_frequency:
+    label: Inventory reconciliation frequency
+    value: at least quarterly
+statement: >
+  Maintain an inventory of in-scope system components, including cloud
+  accounts, compute, data stores, network entry points, workforce endpoints,
+  and production SaaS services, that records {{ inventory_attributes }} for
+  each component and assigns each component to exactly one system and
+  environment. Populate the inventory from provider APIs and device management
+  where available, and reconcile it against those sources
+  {{ inventory_review_frequency }}.
+summary: >
+  Maintain an accurate, owner-assigned inventory of in-scope system
+  components, generated automatically where possible.
+tags:
+  - asset-management
+  - inventory

@@ -1,0 +1,41 @@
+type: control
+id: control--ogrl-gv-09
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+name: Acceptable Use and Rules of Behavior
+display_id: OGRL-GV-09
+control_type: preventive
+family: gv
+frequency: annual
+guidance: >
+  Cover device security, approved software and SaaS, handling of customer
+  data, use of AI tools, personal use, and reporting of suspected incidents.
+  Gate account provisioning (OGRL-AC-01) on a recorded acknowledgment in the
+  HRIS or compliance platform. Evidence: the policy, its review history, and
+  per-person acknowledgment timestamps compared with access grant dates.
+objective: >
+  Everyone with system access has agreed to defined rules for using systems
+  and data before receiving access, and the rules stay current.
+origin: standard
+parameters:
+  aup_review_frequency:
+    label: Acceptable use policy review frequency
+    value: at least annually
+  reacknowledgment_frequency:
+    label: Re-acknowledgment frequency
+    value: annually
+statement: >
+  Maintain an acceptable use policy that sets out workforce responsibilities
+  and expected behavior when using company systems, devices, and data. Require
+  each workforce member to acknowledge the policy before access to company
+  systems is granted, and to re-acknowledge it
+  {{ reacknowledgment_frequency }} and after material revisions. Review and
+  update the policy {{ aup_review_frequency }}.
+summary: >
+  Publish an acceptable use policy and obtain acknowledgment before access is
+  granted and periodically thereafter.
+tags:
+  - governance
+  - acceptable-use
+  - workforce

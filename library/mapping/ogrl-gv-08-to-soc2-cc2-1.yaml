@@ -1,0 +1,14 @@
+type: mapping
+id: mapping--ogrl-gv-08-to-soc2-cc2-1
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: medium
+rationale: functional
+relationship: intersects-with
+review_status: draft
+source_ref: control--ogrl-gv-08
+summary: >
+  A maintained system description is a key source of relevant, quality
+  information about system scope and controls.
+target_ref: requirement--soc2-tsc-2017-cc2-1

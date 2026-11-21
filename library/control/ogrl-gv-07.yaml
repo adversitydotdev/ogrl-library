@@ -1,0 +1,45 @@
+type: control
+id: control--ogrl-gv-07
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+name: External Commitments and Customer Communication
+display_id: OGRL-GV-07
+control_type: preventive
+family: gv
+frequency: annual
+guidance: >
+  Legal or the commercial owner usually maintains the register; security
+  confirms each commitment is backed by a control. A public trust center or
+  security page with a security contact (for example security.txt) covers the
+  publication channel. Evidence: the register, the published page, and notices
+  sent for changes.
+objective: >
+  Customers know what the organization has committed to and how to raise
+  security concerns, and commitments do not change without notice.
+origin: standard
+parameters:
+  change_notice_period:
+    label: Advance notice for material commitment changes
+    value: "30 days"
+  commitment_review_frequency:
+    label: Commitment register review frequency
+    value: at least annually
+  customer_channel:
+    label: Customer communication channel
+    value: the public trust center and customer contracts
+statement: >
+  Maintain a register of the security, availability, and confidentiality
+  commitments made to customers and users (for example in terms of service,
+  data processing agreements, SLAs, and the trust center). Make current
+  commitments and instructions for reporting security issues available through
+  {{ customer_channel }}, notify affected customers at least
+  {{ change_notice_period }} before a material reduction in commitments takes
+  effect, and review the register {{ commitment_review_frequency }}.
+summary: >
+  Document security, availability, and confidentiality commitments made to
+  customers, publish them, and give advance notice of material changes.
+tags:
+  - governance
+  - customer-commitments
+  - communication

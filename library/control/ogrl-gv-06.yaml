@@ -1,0 +1,46 @@
+type: control
+id: control--ogrl-gv-06
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+name: Security Objectives and Performance Measures
+display_id: OGRL-GV-06
+control_type: detective
+family: gv
+frequency: quarterly
+guidance: >
+  Pick a small set of metrics tied to commitments: vulnerability SLA
+  adherence, access review completion, training completion, MFA coverage, mean
+  time to detect and resolve incidents, availability against SLA. Most can be
+  pulled automatically from the compliance platform, ticketing, and
+  monitoring. Evidence: the objectives document and dated metric reports.
+objective: >
+  Security objectives are specific enough to assess risk and performance
+  against, and leadership sees measured results over time.
+origin: standard
+parameters:
+  metrics_audience:
+    label: Metric report audience
+    value: executive leadership
+  metrics_collection_frequency:
+    label: Metric collection frequency
+    value: monthly
+  metrics_owner:
+    label: Approver of objectives and metrics
+    value: the security leader
+  metrics_reporting_frequency:
+    label: Metric reporting frequency
+    value: quarterly
+statement: >
+  Define security objectives for in-scope systems, each with at least one
+  measurable performance metric and target, approved by {{ metrics_owner }}.
+  Collect the metrics {{ metrics_collection_frequency }} and report results,
+  trends, and missed targets to {{ metrics_audience }}
+  {{ metrics_reporting_frequency }}.
+summary: >
+  Define measurable security objectives and report performance against them to
+  leadership on a fixed cadence.
+tags:
+  - governance
+  - metrics
+  - objectives

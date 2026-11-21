@@ -1,0 +1,14 @@
+type: mapping
+id: mapping--ogrl-gv-04-to-soc2-cc1-1
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: high
+rationale: functional
+relationship: subset-of
+review_status: draft
+source_ref: control--ogrl-gv-04
+summary: >
+  An acknowledged code of conduct establishes standards of integrity and
+  ethics; tone from leadership and evaluation of adherence go further.
+target_ref: requirement--soc2-tsc-2017-cc1-1

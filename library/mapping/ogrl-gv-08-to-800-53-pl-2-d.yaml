@@ -1,0 +1,14 @@
+type: mapping
+id: mapping--ogrl-gv-08-to-800-53-pl-2-d
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: high
+rationale: functional
+relationship: equivalent-to
+review_status: draft
+source_ref: control--ogrl-gv-08
+summary: >
+  Updating on significant change or assessment findings meets the plan update
+  requirement.
+target_ref: "requirement--nist-sp-800-53-r5-pl-2#d"

@@ -1,0 +1,44 @@
+type: control
+id: control--ogrl-rm-01
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+name: Risk Management Strategy
+display_id: OGRL-RM-01
+control_type: preventive
+family: rm
+frequency: annual
+guidance: >
+  A two-page method is enough for a startup: a 5x5 likelihood and impact
+  matrix with defined levels, a tolerance line above which risks must be
+  treated, and named acceptance authority by risk level. The risk assessment
+  (OGRL-RM-02) and treatment tracking (OGRL-RM-04) apply this method.
+objective: >
+  Risks are identified, rated, and treated consistently against criteria that
+  leadership has approved.
+origin: standard
+parameters:
+  risk_acceptance_authority:
+    label: Risk acceptance authority
+    value: the CEO for high risks and the security leader for others
+  strategy_approver:
+    label: Methodology approver
+    value: executive leadership
+  strategy_review_frequency:
+    label: Methodology review frequency
+    value: at least annually
+statement: >
+  Maintain a documented risk management methodology that defines risk appetite
+  and tolerance thresholds, likelihood and impact scoring criteria, the
+  treatment options available, and that risk acceptance requires approval by
+  {{ risk_acceptance_authority }}. The methodology is approved by
+  {{ strategy_approver }} and reviewed and updated
+  {{ strategy_review_frequency }} or when significant organizational changes
+  occur.
+summary: >
+  Maintain an approved risk management methodology that defines risk appetite,
+  scoring, acceptance authority, and treatment options.
+tags:
+  - risk-management
+  - governance
+  - methodology

@@ -1,0 +1,45 @@
+type: control
+id: control--ogrl-gv-05
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+name: Whistleblower and Anonymous Reporting Channel
+display_id: OGRL-GV-05
+control_type: detective
+family: gv
+frequency: event-driven
+guidance: >
+  A third-party hotline or a web form that does not record identity satisfies
+  the anonymous option; a shared inbox read only by the CEO does not provide
+  independence if the CEO is the subject. Publish the channel in the code of
+  conduct and employee handbook. Keep a case log (date, category, owner,
+  outcome) as evidence; an empty log is acceptable if the channel's existence
+  and communication are shown.
+objective: >
+  Concerns about misconduct or security can be raised safely and reach someone
+  with authority to act, and every report is resolved.
+origin: standard
+parameters:
+  external_reporters:
+    label: External parties who may report
+    value: "contractors, customers, and vendors"
+  report_recipient:
+    label: Report recipient
+    value: a designated board member or the head of legal or people operations
+  triage_sla:
+    label: Report triage deadline
+    value: "5 business days"
+statement: >
+  Provide a confidential reporting channel, with an anonymous option, through
+  which workforce members and {{ external_reporters }} can report suspected
+  misconduct, fraud, or security concerns. Route reports to
+  {{ report_recipient }}, independent of the party reported on, triage each
+  report within {{ triage_sla }}, record its disposition, and prohibit
+  retaliation against good-faith reporters.
+summary: >
+  Provide a confidential, optionally anonymous channel for reporting ethics,
+  fraud, and security concerns, and triage every report.
+tags:
+  - governance
+  - ethics
+  - whistleblower

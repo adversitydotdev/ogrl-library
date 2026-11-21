@@ -1,0 +1,46 @@
+type: control
+id: control--ogrl-gv-10
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+name: Periodic Control Assessment
+display_id: OGRL-GV-10
+control_type: detective
+family: gv
+frequency: annual
+guidance: >
+  An external SOC 2 audit can serve as the assessment for the controls it
+  covers; a readiness assessment or internal audit fills gaps in years without
+  one. Retain the approved plan, workpapers or sample lists, and the final
+  report. Findings flow to deficiency tracking (OGRL-GV-12).
+objective: >
+  Leadership has periodic, independent evidence of whether controls are
+  implemented correctly and achieving their intended outcome.
+origin: standard
+parameters:
+  assessment_frequency:
+    label: Control assessment frequency
+    value: at least annually
+  assessor:
+    label: Assessor
+    value: an internal audit function or a qualified third-party assessor
+  plan_approver:
+    label: Assessment plan approver
+    value: the security leader
+  results_recipients:
+    label: Recipients of assessment results
+    value: executive leadership and the board or its designated committee
+statement: >
+  Assess the design and operating effectiveness of in-scope controls
+  {{ assessment_frequency }} using {{ assessor }} independent of the people
+  who operate the controls. Each assessment follows a written plan defining
+  scope, controls, test procedures, and roles that {{ plan_approver }}
+  approves before testing begins, produces a written report, and delivers
+  results to {{ results_recipients }}.
+summary: >
+  Independently assess whether in-scope controls are designed and operating
+  effectively on a fixed cadence, and report the results.
+tags:
+  - governance
+  - control-assessment
+  - audit

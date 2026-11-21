@@ -1,0 +1,42 @@
+type: control
+id: control--ogrl-gv-02
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+name: Security Leadership and Organizational Structure
+display_id: OGRL-GV-02
+control_type: preventive
+family: gv
+frequency: annual
+guidance: >
+  In small companies the role is often held by the CTO or a head of security
+  as a part-time responsibility; that is acceptable if the designation is
+  written and the person has the authority to act. Keep the org chart in the
+  HRIS so it stays current, and keep a RACI for security activities (policy
+  ownership, access reviews, incident command, vendor reviews). Evidence: the
+  designation memo or board resolution, the dated org chart, and the reviewed
+  RACI.
+objective: >
+  Accountability for security is assigned to a named individual, and reporting
+  lines and responsibilities are clear and current.
+origin: standard
+parameters:
+  org_review_frequency:
+    label: Org chart and responsibilities review frequency
+    value: at least annually
+  security_leader_role:
+    label: Accountable security leader role
+    value: "security officer (for example CISO, head of security, or CTO)"
+statement: >
+  Designate in writing a {{ security_leader_role }} who is accountable for the
+  information security program and has the authority and resources to run it.
+  Maintain an organizational chart showing reporting lines and a document of
+  security roles and responsibilities, and review both
+  {{ org_review_frequency }} and when leadership or structure changes.
+summary: >
+  Formally designate an accountable security leader and document security
+  roles, reporting lines, and responsibilities.
+tags:
+  - governance
+  - roles-and-responsibilities
+  - leadership

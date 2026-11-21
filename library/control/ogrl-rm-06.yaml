@@ -1,0 +1,41 @@
+type: control
+id: control--ogrl-rm-06
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+name: Cyber Insurance
+display_id: OGRL-RM-06
+control_type: corrective
+family: rm
+frequency: annual
+guidance: >
+  Many enterprise customer contracts specify minimum cyber coverage; record
+  those in the commitments register (OGRL-GV-07). Note insurer requirements
+  such as MFA or EDR that become implicit control commitments, and include the
+  carrier's breach hotline in the incident response plan. Evidence: the
+  current certificate of insurance and the renewal review record.
+objective: >
+  The financial impact of a significant security incident is partially
+  transferred, consistent with risk treatment decisions and customer
+  commitments.
+origin: standard
+parameters:
+  coverage_minimum:
+    label: Minimum aggregate coverage limit
+    value: "USD 2,000,000 or the highest amount required by customer contracts"
+  insurance_review_frequency:
+    label: Coverage review frequency
+    value: at least annually at renewal
+statement: >
+  Maintain cyber liability insurance with limits of at least
+  {{ coverage_minimum }} that covers incident response costs, business
+  interruption, and third-party liability arising from security incidents.
+  Review coverage adequacy against the risk register and customer contractual
+  requirements {{ insurance_review_frequency }}.
+summary: >
+  Maintain cyber insurance sized to the organization's risk and review its
+  adequacy at each renewal.
+tags:
+  - risk-management
+  - insurance
+  - risk-transfer

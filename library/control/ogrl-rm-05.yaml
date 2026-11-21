@@ -1,0 +1,42 @@
+type: control
+id: control--ogrl-rm-05
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+name: Significant Change Risk Evaluation
+display_id: OGRL-RM-05
+control_type: detective
+family: rm
+frequency: event-driven
+guidance: >
+  Trigger the evaluation from the architecture review or design-doc template,
+  vendor onboarding, and leadership or legal change processes. A short
+  structured note (what changed, new risks, affected controls, decision)
+  linked to the register entry is sufficient. Routine code changes are covered
+  by change management, not this control.
+objective: >
+  Risk and control impacts of significant changes are understood and addressed
+  before the changes take effect.
+origin: standard
+parameters:
+  change_risk_approver:
+    label: Change risk approver
+    value: the security leader
+  significant_changes:
+    label: Changes requiring risk evaluation
+    value: >
+      new products or major features, architecture or hosting changes, new
+      critical vendors, acquisitions, leadership changes, and new regulatory
+      obligations
+statement: >
+  Before a significant change takes effect, including
+  {{ significant_changes }}, evaluate its effect on security risk and on
+  existing controls, document the evaluation, update the risk register, and
+  obtain approval from {{ change_risk_approver }}.
+summary: >
+  Evaluate security risk before significant changes take effect and update the
+  risk register accordingly.
+tags:
+  - risk-management
+  - change-management
+  - risk-assessment

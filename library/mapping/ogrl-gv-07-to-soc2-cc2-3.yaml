@@ -1,0 +1,15 @@
+type: mapping
+id: mapping--ogrl-gv-07-to-soc2-cc2-3
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: high
+rationale: functional
+relationship: subset-of
+review_status: draft
+source_ref: control--ogrl-gv-07
+summary: >
+  Publishing commitments and a security contact covers communication with
+  customers; communication with other external parties is outside this
+  control.
+target_ref: requirement--soc2-tsc-2017-cc2-3

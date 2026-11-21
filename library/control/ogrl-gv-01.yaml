@@ -1,0 +1,46 @@
+type: control
+id: control--ogrl-gv-01
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+name: Information Security Program and Policy Framework
+display_id: OGRL-GV-01
+control_type: preventive
+family: gv
+frequency: annual
+guidance: >
+  A startup can start with a top-level information security policy plus topic
+  policies (access control, change management, incident response, vendor
+  management, data handling) kept in a wiki or Git repository with change
+  history. Record each review and approval with a dated sign-off or merge
+  approval; auditors typically sample the approval record, the publication
+  location, and the version history. Map each policy to the controls that
+  implement it so gaps are visible.
+objective: >
+  Security expectations are formally defined, approved by accountable
+  leadership, available to everyone they apply to, and kept current.
+origin: standard
+parameters:
+  policy_approver:
+    label: Policy approval authority
+    value: "executive leadership (CEO or designated executive)"
+  policy_review_frequency:
+    label: Policy review frequency
+    value: at least annually
+  policy_review_triggers:
+    label: Events triggering out-of-cycle policy review
+    value: "significant organizational, regulatory, contractual, or system changes"
+statement: >
+  Maintain a documented information security policy set that defines the
+  security program's scope, policy owners, and roles and responsibilities. The
+  policy set is approved by {{ policy_approver }}, published to all workforce
+  members, stored in a repository where only policy owners can modify it, and
+  reviewed and updated {{ policy_review_frequency }} and following
+  {{ policy_review_triggers }}.
+summary: >
+  Maintain an approved, published set of information security policies that is
+  reviewed on a fixed cadence and after significant change.
+tags:
+  - governance
+  - policy
+  - security-program
