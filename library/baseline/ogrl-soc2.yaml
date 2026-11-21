@@ -2,33 +2,186 @@ type: baseline
 id: baseline--ogrl-soc2
 spec_version: "0.1.0"
 created: "2026-11-20T00:00:00Z"
-modified: "2026-11-20T00:00:00Z"
-name: OGRL SOC 2 Security Starter Baseline
+modified: "2026-11-21T00:00:00Z"
+name: OGRL SOC 2 Baseline
 control_refs:
   - control--ogrl-ac-01
   - control--ogrl-ac-02
   - control--ogrl-ac-03
   - control--ogrl-ac-04
   - control--ogrl-ac-05
+  - control--ogrl-ac-06
+  - control--ogrl-ac-07
+  - control--ogrl-ac-08
+  - control--ogrl-ac-09
+  - control--ogrl-ac-10
+  - control--ogrl-ac-11
+  - control--ogrl-ac-12
+  - control--ogrl-ac-13
+  - control--ogrl-ac-14
+  - control--ogrl-ac-15
+  - control--ogrl-am-01
+  - control--ogrl-am-02
+  - control--ogrl-bc-01
+  - control--ogrl-bc-02
+  - control--ogrl-bc-03
+  - control--ogrl-bc-04
+  - control--ogrl-bc-05
+  - control--ogrl-bc-06
+  - control--ogrl-bc-07
+  - control--ogrl-bc-08
+  - control--ogrl-bc-09
+  - control--ogrl-cm-01
+  - control--ogrl-cm-02
+  - control--ogrl-cm-03
+  - control--ogrl-cm-04
+  - control--ogrl-cm-05
+  - control--ogrl-cm-06
+  - control--ogrl-cm-07
+  - control--ogrl-cm-08
+  - control--ogrl-cm-09
+  - control--ogrl-cr-01
+  - control--ogrl-cr-02
+  - control--ogrl-cr-03
+  - control--ogrl-cr-04
+  - control--ogrl-cr-05
+  - control--ogrl-gv-01
+  - control--ogrl-gv-02
+  - control--ogrl-gv-03
+  - control--ogrl-gv-04
+  - control--ogrl-gv-05
+  - control--ogrl-gv-06
+  - control--ogrl-gv-07
+  - control--ogrl-gv-08
+  - control--ogrl-gv-09
+  - control--ogrl-gv-10
+  - control--ogrl-gv-11
+  - control--ogrl-gv-12
+  - control--ogrl-hr-01
+  - control--ogrl-hr-02
+  - control--ogrl-hr-03
+  - control--ogrl-hr-04
+  - control--ogrl-hr-05
+  - control--ogrl-hr-06
+  - control--ogrl-hr-07
+  - control--ogrl-hr-08
+  - control--ogrl-ir-01
+  - control--ogrl-ir-02
+  - control--ogrl-ir-03
+  - control--ogrl-ir-04
+  - control--ogrl-ir-05
+  - control--ogrl-ir-06
   - control--ogrl-lm-01
   - control--ogrl-lm-02
-  - control--ogrl-cm-01
-  - control--ogrl-cr-01
-  - control--ogrl-ir-01
+  - control--ogrl-lm-03
+  - control--ogrl-lm-04
+  - control--ogrl-lm-05
+  - control--ogrl-pr-01
+  - control--ogrl-pr-02
+  - control--ogrl-pr-03
+  - control--ogrl-pr-04
+  - control--ogrl-pr-05
+  - control--ogrl-pr-06
+  - control--ogrl-pr-07
+  - control--ogrl-pr-08
+  - control--ogrl-pr-09
+  - control--ogrl-pr-10
+  - control--ogrl-pr-11
+  - control--ogrl-ps-01
+  - control--ogrl-ps-02
+  - control--ogrl-ps-03
+  - control--ogrl-ps-04
+  - control--ogrl-ps-05
+  - control--ogrl-ps-06
+  - control--ogrl-ps-07
+  - control--ogrl-rm-01
+  - control--ogrl-rm-02
+  - control--ogrl-rm-03
+  - control--ogrl-rm-04
+  - control--ogrl-rm-05
+  - control--ogrl-rm-06
+  - control--ogrl-sd-01
+  - control--ogrl-sd-02
+  - control--ogrl-sd-03
+  - control--ogrl-sd-04
+  - control--ogrl-sd-05
+  - control--ogrl-sd-06
+  - control--ogrl-sd-07
+  - control--ogrl-sd-08
+  - control--ogrl-tp-01
+  - control--ogrl-tp-02
+  - control--ogrl-tp-03
+  - control--ogrl-tp-04
   - control--ogrl-vm-01
+  - control--ogrl-vm-02
+  - control--ogrl-vm-03
+  - control--ogrl-vm-04
+  - control--ogrl-vm-05
+  - control--ogrl-vm-06
 framework_refs:
   - framework--soc2-tsc-2017
 requirement_refs:
+  - requirement--soc2-tsc-2017-cc1-1
+  - requirement--soc2-tsc-2017-cc1-2
+  - requirement--soc2-tsc-2017-cc1-3
+  - requirement--soc2-tsc-2017-cc1-4
+  - requirement--soc2-tsc-2017-cc1-5
+  - requirement--soc2-tsc-2017-cc2-1
+  - requirement--soc2-tsc-2017-cc2-2
+  - requirement--soc2-tsc-2017-cc2-3
+  - requirement--soc2-tsc-2017-cc3-1
   - requirement--soc2-tsc-2017-cc3-2
+  - requirement--soc2-tsc-2017-cc3-3
+  - requirement--soc2-tsc-2017-cc3-4
+  - requirement--soc2-tsc-2017-cc4-1
+  - requirement--soc2-tsc-2017-cc4-2
+  - requirement--soc2-tsc-2017-cc5-1
+  - requirement--soc2-tsc-2017-cc5-2
+  - requirement--soc2-tsc-2017-cc5-3
   - requirement--soc2-tsc-2017-cc6-1
   - requirement--soc2-tsc-2017-cc6-2
   - requirement--soc2-tsc-2017-cc6-3
+  - requirement--soc2-tsc-2017-cc6-4
+  - requirement--soc2-tsc-2017-cc6-5
   - requirement--soc2-tsc-2017-cc6-6
   - requirement--soc2-tsc-2017-cc6-7
+  - requirement--soc2-tsc-2017-cc6-8
   - requirement--soc2-tsc-2017-cc7-1
   - requirement--soc2-tsc-2017-cc7-2
   - requirement--soc2-tsc-2017-cc7-3
+  - requirement--soc2-tsc-2017-cc7-4
+  - requirement--soc2-tsc-2017-cc7-5
   - requirement--soc2-tsc-2017-cc8-1
+  - requirement--soc2-tsc-2017-cc9-1
+  - requirement--soc2-tsc-2017-cc9-2
+  - requirement--soc2-tsc-2017-a1-1
+  - requirement--soc2-tsc-2017-a1-2
+  - requirement--soc2-tsc-2017-a1-3
+  - requirement--soc2-tsc-2017-c1-1
+  - requirement--soc2-tsc-2017-c1-2
+  - requirement--soc2-tsc-2017-pi1-1
+  - requirement--soc2-tsc-2017-pi1-2
+  - requirement--soc2-tsc-2017-pi1-3
+  - requirement--soc2-tsc-2017-pi1-4
+  - requirement--soc2-tsc-2017-pi1-5
+  - requirement--soc2-tsc-2017-p1-1
+  - requirement--soc2-tsc-2017-p2-1
+  - requirement--soc2-tsc-2017-p3-1
+  - requirement--soc2-tsc-2017-p3-2
+  - requirement--soc2-tsc-2017-p4-1
+  - requirement--soc2-tsc-2017-p4-2
+  - requirement--soc2-tsc-2017-p4-3
+  - requirement--soc2-tsc-2017-p5-1
+  - requirement--soc2-tsc-2017-p5-2
+  - requirement--soc2-tsc-2017-p6-1
+  - requirement--soc2-tsc-2017-p6-2
+  - requirement--soc2-tsc-2017-p6-3
+  - requirement--soc2-tsc-2017-p6-4
+  - requirement--soc2-tsc-2017-p6-5
+  - requirement--soc2-tsc-2017-p6-6
+  - requirement--soc2-tsc-2017-p6-7
+  - requirement--soc2-tsc-2017-p7-1
+  - requirement--soc2-tsc-2017-p8-1
 tags:
   - soc2
-  - starter
+  - trust-services-criteria
