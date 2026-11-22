@@ -1,0 +1,73 @@
+type: control
+id: control--ogrl-cm-13
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+name: Nonlocal Maintenance Session Controls
+display_id: OGRL-CM-13
+control_type: preventive
+family: cm
+frequency: event-driven
+guidance: >
+  Nonlocal maintenance is any maintenance or diagnostics performed
+  by someone communicating over an external network: an MSP
+  technician using an RMM agent, a vendor support engineer on a
+  remote-control session (for example BeyondTrust, TeamViewer, or a
+  screen-share with remote control), and administrators maintaining
+  cloud workloads or SaaS tenants from the internet. Keep vendor
+  accounts and unattended remote agents disabled by default and
+  enable them just in time for an approved session. Enforce
+  multifactor authentication on the session itself, through the
+  identity provider (OGRL-AC-05) or the remote support tool's own
+  MFA bound to the organization's tenant; a technician's MFA to
+  their employer's portal plus a user clicking "allow" is weak
+  evidence. Session logs from the tool, VPN, or cloud session
+  manager can serve as the maintenance record; set idle and maximum
+  session timeouts in the tool. General remote access is OGRL-AC-11;
+  supervising unauthorized technicians is OGRL-CM-14.
+objective: >
+  Ensure remote maintenance sessions are authorized, strongly
+  authenticated, observable, and closed as soon as the work is done.
+origin: standard
+parameters:
+  approved_nonlocal_maintenance_tools:
+    label: Approved nonlocal maintenance and diagnostic tools
+    value: >-
+      the organization's managed remote access VPN or zero-trust
+      access service, cloud provider session management services,
+      and an approved remote support tool that records sessions
+  nonlocal_maintenance_scope:
+    label: Systems in scope for nonlocal maintenance controls
+    value: >-
+      systems that process, store, or transmit CUI or provide
+      security protection for them, including cloud and SaaS
+      administrative consoles, servers, network appliances, and
+      workforce endpoints
+  nonlocal_session_approver:
+    label: Approver for sessions by external maintenance personnel
+    value: the system owner or IT lead
+  nonlocal_session_idle_timeout:
+    label: Inactivity period after which sessions are terminated
+    value: "30 minutes"
+statement: >
+  Allow nonlocal maintenance and diagnostic sessions to
+  {{ nonlocal_maintenance_scope }} only through
+  {{ approved_nonlocal_maintenance_tools }} documented in the system
+  security plan; approve nonlocal maintenance by granting it only to
+  roles authorized for maintenance and requiring approval by
+  {{ nonlocal_session_approver }} before each session initiated by
+  external maintenance personnel; require multifactor authentication
+  to establish every nonlocal maintenance session via an external
+  network connection; log and monitor each session, recording the
+  person, target system, purpose, and start and end times; and
+  terminate the session and its network connections, and disable any
+  access enabled for the session, when the maintenance is complete,
+  with sessions automatically terminated after
+  {{ nonlocal_session_idle_timeout }} of inactivity.
+summary: >
+  Run remote maintenance only through approved, MFA-protected,
+  logged tools and close each session when the work is done.
+tags:
+  - maintenance
+  - remote-access
+  - multi-factor-authentication

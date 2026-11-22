@@ -1,0 +1,93 @@
+type: control
+id: control--ogrl-cm-10
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+name: System Maintenance and Maintenance Tool Control
+display_id: OGRL-CM-10
+control_type: preventive
+family: cm
+frequency: event-driven
+guidance: >
+  For cloud and SaaS services, physical maintenance of provider
+  hardware is inherited from the provider (for CUI, a FedRAMP
+  Moderate or equivalent offering); record the inheritance in the
+  system security plan and customer responsibility matrix. This
+  control then covers organization-managed workforce endpoints,
+  network and security appliances, on-premises servers, and the
+  organization's own maintenance of cloud workloads such as OS patch
+  windows and managed database maintenance windows. Routine work
+  such as the monthly patch window or MDM-driven updates can be
+  approved once as a standard maintenance procedure and evidenced by
+  tickets or RMM and MDM logs; break-fix work, vendor visits, and
+  remote vendor support need individual approval. The maintenance
+  tool register lists hardware diagnostic utilities, firmware update
+  tools, remote support and RMM agents (including those operated by
+  a managed service provider), and administrative consoles or
+  scripts used for maintenance; it can live alongside the software
+  inventory. Patching is covered by OGRL-VM-02, off-site
+  sanitization by OGRL-CM-11, diagnostic media by OGRL-CM-12, remote
+  maintenance sessions by OGRL-CM-13, maintenance personnel
+  supervision by OGRL-CM-14, and facility infrastructure maintenance
+  by OGRL-PS-07.
+objective: >
+  Keep in-scope systems in a serviceable, supported condition
+  through maintenance that is planned, authorized, and traceable,
+  and prevent maintenance tools, techniques, and personnel from
+  becoming an uncontrolled path into the system.
+origin: standard
+parameters:
+  authorized_maintenance_personnel:
+    label: Personnel permitted to perform maintenance
+    value: >-
+      workforce members assigned maintenance responsibilities and
+      vendor personnel on the authorized maintenance list, with any
+      other personnel escorted and supervised
+  maintenance_approver:
+    label: Maintenance approval authority
+    value: the system owner or IT lead
+  maintenance_record_contents:
+    label: Required maintenance record contents
+    value: >-
+      date and time, component, maintenance performed, tools used,
+      personnel performing the work, approver, and any components
+      removed or replaced
+  maintenance_record_review_frequency:
+    label: Maintenance record review frequency
+    value: quarterly
+  maintenance_scope:
+    label: Components subject to controlled maintenance
+    value: >-
+      system components that process, store, or transmit CUI or
+      provide security protection for them, including workforce
+      endpoints, network and security appliances, and
+      organization-managed servers and cloud workloads
+  maintenance_tool_review_frequency:
+    label: Maintenance tool register review frequency
+    value: annually
+statement: >
+  Perform maintenance, repair, and replacement of
+  {{ maintenance_scope }} on a documented schedule based on
+  manufacturer or vendor specifications and organizational
+  requirements; approve and monitor all maintenance, requiring
+  approval by {{ maintenance_approver }} before any maintenance
+  activity not covered by a pre-approved standard maintenance
+  procedure, whether performed on site, remotely, or with components
+  removed off site; allow maintenance to be performed only by
+  {{ authorized_maintenance_personnel }} using the techniques set
+  out in documented maintenance procedures; permit only the
+  maintenance tools and mechanisms listed in an approved maintenance
+  tool register, restrict access to those tools to authorized
+  maintenance personnel, and monitor their use through maintenance
+  records and tool logs; record {{ maintenance_record_contents }}
+  for each maintenance activity and review the records
+  {{ maintenance_record_review_frequency }}; and review the
+  maintenance tool register {{ maintenance_tool_review_frequency }},
+  removing tools that are no longer needed or supported.
+summary: >
+  Perform scheduled, approved, and recorded maintenance on in-scope
+  components using only approved tools, techniques, and personnel.
+tags:
+  - maintenance
+  - maintenance-tools
+  - cui

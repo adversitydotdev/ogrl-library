@@ -1,0 +1,73 @@
+type: control
+id: control--ogrl-cm-11
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+name: Off-Site Maintenance Equipment Sanitization
+display_id: OGRL-CM-11
+control_type: preventive
+family: cm
+frequency: event-driven
+guidance: >
+  The common cases for a small contractor are a laptop shipped to
+  the manufacturer's depot for warranty repair, a phone swapped by a
+  carrier, and a multifunction printer or network appliance
+  collected by a vendor. Where devices use FIPS-validated full-disk
+  encryption (OGRL-CR-06), an MDM remote wipe that performs a
+  cryptographic erase is usually the quickest acceptable method;
+  verify the result in the MDM console and record it. If a failed
+  device cannot be wiped, remove and keep the drive, buy the
+  manufacturer's keep-your-drive option, arrange on-site repair
+  under supervision (OGRL-CM-14), or retire the device through
+  OGRL-CR-04 instead of shipping it. Reimage returned equipment from
+  the approved baseline (OGRL-CM-02) before reconnecting it.
+  Approval to send equipment off site is part of OGRL-CM-10, and
+  end-of-life disposal is OGRL-CR-04. Hardware maintenance inside a
+  cloud provider's data centers is inherited from the provider's
+  FedRAMP or equivalent authorization.
+objective: >
+  Ensure no CUI leaves organizational control on equipment sent out
+  for maintenance, repair, or replacement.
+origin: standard
+parameters:
+  offsite_equipment_types:
+    label: >-
+      Equipment subject to sanitization before off-site maintenance
+    value: >-
+      workforce laptops and desktops, mobile devices, removable
+      storage, printers and multifunction devices with internal
+      storage, and servers, storage arrays, or network appliances
+      that have processed, stored, or transmitted CUI
+  offsite_sanitization_information:
+    label: >-
+      Information removed before equipment leaves for maintenance
+    value: >-
+      all CUI and other organizational information, including
+      credentials, keys, configuration files, and cached
+      authentication material
+  offsite_sanitization_method:
+    label: Sanitization method for equipment sent off site
+    value: >-
+      NIST SP 800-88 clear or purge techniques appropriate to the
+      media, such as a cryptographic erase of FIPS-validated
+      full-disk-encrypted storage, a vendor secure-erase command, or
+      overwriting, followed by verification
+statement: >
+  Before {{ offsite_equipment_types }} leave organizational control
+  for off-site maintenance, repair, warranty replacement, or vendor
+  depot service, sanitize all associated storage media of
+  {{ offsite_sanitization_information }} using
+  {{ offsite_sanitization_method }}, or remove the storage media and
+  retain it under organizational control; keep equipment that can be
+  neither sanitized nor separated from its storage media in
+  organizational custody; and, before release, record the asset
+  identifier, sanitization method or media removal, performer,
+  verification result, and receiving party in the maintenance
+  record.
+summary: >
+  Sanitize or remove storage media of any equipment before it leaves
+  for off-site maintenance and record the result.
+tags:
+  - maintenance
+  - media-sanitization
+  - cui

@@ -1,0 +1,69 @@
+type: control
+id: control--ogrl-cm-14
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+name: Maintenance Personnel Supervision
+display_id: OGRL-CM-14
+control_type: preventive
+family: cm
+frequency: event-driven
+guidance: >
+  Typical cases are a copier technician, a manufacturer field
+  engineer replacing a server part, an ISP installing network
+  equipment, and an MSP or software vendor engineer on a remote
+  session. Access authorization for CUI usually means a workforce
+  member, or a vendor bound by contract (OGRL-HR-04), who has been
+  screened (OGRL-HR-01) and signed access agreements (OGRL-HR-03).
+  For on-site work by anyone else, the escort stays with them for
+  the whole visit, CUI is removed, covered, or locked away and
+  screens are locked where feasible, and the visit is logged
+  (OGRL-PS-03). For remote work, the supervisor watches the full
+  screen-share and is able to end it (OGRL-CM-13). The supervisor
+  needs enough technical competence to recognize and stop actions
+  outside the agreed scope. A short table in the maintenance
+  procedure is enough for the authorized list.
+objective: >
+  Ensure no one without the required access authorization performs
+  maintenance on CUI systems unobserved.
+origin: standard
+parameters:
+  authorized_maintenance_list_review_frequency:
+    label: Authorized maintenance list review frequency
+    value: annually
+  maintenance_personnel_approver:
+    label: >-
+      Approver of authorized maintenance organizations and personnel
+    value: the IT lead or security lead
+  maintenance_personnel_scope:
+    label: Systems covered by maintenance personnel authorization
+    value: >-
+      systems that process, store, or transmit CUI or provide
+      security protection for them
+  maintenance_supervisor:
+    label: Supervisor of maintenance by unauthorized personnel
+    value: >-
+      a designated workforce member who holds the required access
+      authorizations and has the technical competence to understand
+      and stop the maintenance being performed
+statement: >
+  Maintain a list of maintenance organizations and personnel
+  authorized to perform maintenance on
+  {{ maintenance_personnel_scope }}, approved by
+  {{ maintenance_personnel_approver }} and reviewed
+  {{ authorized_maintenance_list_review_frequency }}; before
+  maintenance begins, verify that any personnel who will work
+  unescorted are on the list and hold the access authorizations
+  required for the systems and CUI involved; and ensure that
+  maintenance by personnel without those authorizations is escorted
+  and supervised for its full duration, on site or through an
+  observed remote session, by {{ maintenance_supervisor }},
+  recording the supervisor in the maintenance record.
+summary: >
+  Keep an authorized maintenance personnel list and escort and
+  supervise anyone without CUI access authorization during
+  maintenance.
+tags:
+  - maintenance
+  - personnel-security
+  - supervision

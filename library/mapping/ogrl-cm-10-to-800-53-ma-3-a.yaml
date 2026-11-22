@@ -1,0 +1,14 @@
+type: mapping
+id: mapping--ogrl-cm-10-to-800-53-ma-3-a
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: high
+rationale: functional
+relationship: equivalent-to
+review_status: reviewed
+source_ref: control--ogrl-cm-10
+summary: >-
+  Only tools in an approved register may be used, access to them is
+  restricted, and their use is monitored, meeting MA-3(a).
+target_ref: "requirement--nist-sp-800-53-r5-ma-3#a"

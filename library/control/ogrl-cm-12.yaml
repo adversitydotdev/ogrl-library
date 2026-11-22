@@ -1,0 +1,57 @@
+type: control
+id: control--ogrl-cm-12
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+name: Diagnostic Media Malware Inspection
+display_id: OGRL-CM-12
+control_type: preventive
+family: cm
+frequency: event-driven
+guidance: >
+  Typical triggers are a field engineer arriving with a USB drive of
+  diagnostics, firmware update media for a firewall or switch, and
+  manufacturer diagnostic utilities or boot images downloaded for a
+  failing laptop. A small contractor can keep one designated
+  scanning workstation (a managed machine outside the CUI enclave,
+  with current anti-malware definitions) and require all such media
+  to pass through it; scan the technician's media before the visit
+  starts. For downloaded tools, check the publisher's signature or
+  published hash, and prefer distributing them through the managed
+  software catalog so endpoint protection inspects them. If
+  removable media is blocked on CUI systems (OGRL-PS-08) and
+  diagnostic tools come only from vendor repositories through
+  managed distribution, document that as the inspection mechanism.
+  Malware protection itself is OGRL-VM-03.
+objective: >
+  Prevent media brought in for diagnostics or testing from
+  introducing malicious code into systems that handle CUI.
+origin: standard
+parameters:
+  diagnostic_media_types:
+    label: Media subject to inspection before use
+    value: >-
+      media containing diagnostic, test, or firmware update
+      programs, including vendor- or technician-supplied USB drives
+      and optical discs, bootable diagnostic media, and downloaded
+      diagnostic utilities and images
+  media_scanning_mechanism:
+    label: Mechanism used to inspect diagnostic media
+    value: >-
+      the organization's managed anti-malware engine on a designated
+      scanning workstation that is not connected to CUI systems
+statement: >
+  Before {{ diagnostic_media_types }} are used on systems that
+  process, store, or transmit CUI, scan the media and its contents
+  for malicious code using {{ media_scanning_mechanism }} with
+  current detection signatures, verify the publisher's digital
+  signature or published checksum where one is available, prohibit
+  use of media that fails inspection or cannot be inspected, and
+  record the inspection result in the maintenance record.
+summary: >
+  Scan diagnostic and test media for malware before it is used on
+  systems that handle CUI.
+tags:
+  - maintenance
+  - malware-protection
+  - removable-media

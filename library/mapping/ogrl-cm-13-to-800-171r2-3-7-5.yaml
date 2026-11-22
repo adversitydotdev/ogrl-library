@@ -1,0 +1,15 @@
+type: mapping
+id: mapping--ogrl-cm-13-to-800-171r2-3-7-5
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: high
+rationale: functional
+relationship: superset-of
+review_status: reviewed
+source_ref: control--ogrl-cm-13
+summary: >-
+  Requires MFA to establish and termination to end nonlocal
+  maintenance sessions, and additionally restricts tools, approves
+  sessions, and logs them.
+target_ref: requirement--nist-sp-800-171-r2-3-7-5
