@@ -1,0 +1,17 @@
+type: mapping
+id: mapping--ogrl-ps-02-to-800-171r2-3-10-1
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+combined_with_refs:
+  - mapping--ogrl-ps-01-to-800-171r2-3-10-1
+confidence: high
+rationale: functional
+relationship: intersects-with
+review_status: reviewed
+source_ref: control--ogrl-ps-02
+summary: >
+  Enforces physical access authorizations at every facility entry
+  point; together with the authorized-individual list in OGRL-PS-01
+  this limits physical access to authorized individuals.
+target_ref: requirement--nist-sp-800-171-r2-3-10-1

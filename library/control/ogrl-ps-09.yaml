@@ -1,0 +1,73 @@
+type: control
+id: control--ogrl-ps-09
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+name: Physical Media Storage and Access
+display_id: OGRL-PS-09
+control_type: preventive
+family: ps
+frequency: continuous
+guidance: >
+  Most small contractors hold little physical CUI media; inventory
+  what exists (printouts, drawings, approved USB drives, backup
+  drives) and minimize it. A lockable cabinet or safe in a room with
+  controlled entry (OGRL-PS-02) is usually sufficient; record who
+  holds keys or combinations and treat that list as the access list
+  for this control. Apply a clean-desk rule so CUI media is never
+  left unattended outside storage, including printer output trays.
+  Remote workers who are approved to hold CUI media at home
+  (OGRL-PS-12) need a locking drawer or container. Laptops and
+  phones that store CUI are digital media too: keep them in the
+  holder's custody or locked away, and rely on FIPS-validated
+  full-disk encryption (OGRL-CR-06) as the logical safeguard.
+  Cloud-hosted CUI is protected through logical access controls and
+  the provider's inherited physical controls; this control covers
+  media the organization physically holds.
+objective: >
+  Ensure paper and digital media containing CUI is always either in
+  the custody of an authorized user or locked in secure storage, so
+  that only authorized individuals can access the CUI it holds.
+origin: standard
+parameters:
+  cui_media_types:
+    label: >-
+      Types of paper and digital media containing CUI to protect
+    value: >-
+      paper documents and printouts, removable and portable digital
+      media, external drives, backup media, and portable computing
+      devices that store CUI
+  media_access_review_cadence:
+    label: Frequency of reviewing who can access CUI media storage
+    value: quarterly
+  media_authorized_roles:
+    label: Personnel authorized to access CUI media
+    value: >-
+      workforce members authorized for the CUI contained on the
+      media and designated media custodians
+  media_controlled_areas:
+    label: Controlled areas in which CUI media is stored
+    value: >-
+      organization-controlled offices and equipment rooms with
+      enforced entry control, and alternate work sites approved for
+      CUI handling
+  secure_storage_containers:
+    label: Secure storage for CUI media not in use
+    value: "locked cabinets, drawers, safes, or locked rooms"
+statement: >
+  Physically control {{ cui_media_types }} so that it remains in the
+  direct custody of an authorized user while in use and is stored in
+  {{ secure_storage_containers }} within
+  {{ media_controlled_areas }} whenever it is not in use; restrict
+  access to that media and to the keys or combinations for its
+  storage to {{ media_authorized_roles }}; maintain these
+  protections until the media is sanitized or destroyed; and review
+  the record of individuals with access to CUI media storage
+  {{ media_access_review_cadence }}.
+summary: >
+  Keep CUI media in an authorized person's custody or locked storage
+  and restrict access to it to authorized users.
+tags:
+  - media-protection
+  - cui
+  - physical-security

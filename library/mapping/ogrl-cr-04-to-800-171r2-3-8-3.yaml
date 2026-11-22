@@ -1,0 +1,15 @@
+type: mapping
+id: mapping--ogrl-cr-04-to-800-171r2-3-8-3
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: medium
+rationale: functional
+relationship: equivalent-to
+review_status: reviewed
+source_ref: control--ogrl-cr-04
+summary: >
+  Media is sanitized or destroyed with SP 800-88 techniques before
+  disposal, reuse, or release, provided the media scope includes
+  paper CUI.
+target_ref: requirement--nist-sp-800-171-r2-3-8-3

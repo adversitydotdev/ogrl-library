@@ -1,0 +1,15 @@
+type: mapping
+id: mapping--ogrl-ps-05-to-800-171r2-3-10-2
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: medium
+rationale: functional
+relationship: subset-of
+review_status: reviewed
+source_ref: control--ogrl-ps-05
+summary: >
+  Protects and monitors environmental and power support
+  infrastructure in organization-operated facilities, but not
+  facility entry protection or monitoring.
+target_ref: requirement--nist-sp-800-171-r2-3-10-2

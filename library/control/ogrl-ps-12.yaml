@@ -1,0 +1,77 @@
+type: control
+id: control--ogrl-ps-12
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+name: Alternate Work Site Safeguards
+display_id: OGRL-PS-12
+control_type: preventive
+family: ps
+frequency: continuous
+guidance: >
+  Publish a short remote-work or telework security standard that
+  lists approved site types and the required safeguards, and have
+  each remote worker acknowledge it in the HR or training system
+  before CUI access is granted. Enforce the technical safeguards
+  through MDM compliance policies and conditional access so that
+  only compliant, managed devices reach CUI systems (pair with
+  OGRL-CR-06 for FIPS-validated encryption and the remote-access
+  controls in the AC family). For physical safeguards that cannot be
+  enforced technically, an annual self-assessment questionnaire with
+  photos of the workspace and locking storage, plus spot checks,
+  gives the assessor evidence of enforcement. Coworking spaces,
+  hotels, and customer sites are alternate work sites too; decide
+  explicitly whether they are approved for CUI and say so in the
+  standard.
+objective: >
+  Ensure CUI handled outside organization-controlled facilities
+  receives defined safeguards that are actually followed.
+origin: standard
+parameters:
+  alternate_site_assessment_cadence:
+    label: Frequency of assessing safeguards at alternate work sites
+    value: annually
+  alternate_site_assessment_method:
+    label: Method for assessing alternate work site safeguards
+    value: >-
+      remote worker self-assessment attestations, review of endpoint
+      compliance reports, and follow-up of any exceptions
+  alternate_site_safeguards:
+    label: Safeguards required at alternate work sites
+    value: >-
+      access CUI only from organization-managed, encrypted devices
+      through the organization's approved remote access service;
+      lock screens and secure devices and any CUI media in a locked
+      room or container when unattended; position screens and hold
+      conversations so household members and the public cannot see
+      or hear CUI; and print CUI only when authorized, storing and
+      destroying printouts per media protection controls
+  approved_alternate_work_sites:
+    label: Alternate work sites approved for handling CUI
+    value: >-
+      employees' private home offices and other sites approved in
+      writing by the security owner; public spaces such as cafes,
+      airports, and coworking common areas are not approved
+  incident_reporting_channel:
+    label: Means for remote workers to report security incidents
+    value: >-
+      the security team's documented incident reporting channel,
+      available by phone and email
+statement: >
+  Permit CUI to be accessed or handled outside
+  organization-controlled facilities only at
+  {{ approved_alternate_work_sites }}, as documented in the
+  alternate work site standard; require at those sites that users
+  {{ alternate_site_safeguards }}; require each user to acknowledge
+  the safeguards before alternate-site CUI access is granted;
+  provide {{ incident_reporting_channel }} for reporting suspected
+  incidents; and assess compliance with the safeguards
+  {{ alternate_site_assessment_cadence }} using
+  {{ alternate_site_assessment_method }}.
+summary: >
+  Define where remote work with CUI is allowed and which safeguards
+  apply there, and verify that remote workers follow them.
+tags:
+  - remote-work
+  - cui
+  - physical-security

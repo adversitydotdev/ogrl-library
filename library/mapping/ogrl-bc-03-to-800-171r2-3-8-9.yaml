@@ -1,0 +1,15 @@
+type: mapping
+id: mapping--ogrl-bc-03-to-800-171r2-3-8-9
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: medium
+rationale: functional
+relationship: superset-of
+review_status: reviewed
+source_ref: control--ogrl-bc-03
+summary: >
+  Encrypting backups and isolating a copy from production
+  credentials protects backup confidentiality at storage locations,
+  alongside availability goals beyond 3.8.9.
+target_ref: requirement--nist-sp-800-171-r2-3-8-9

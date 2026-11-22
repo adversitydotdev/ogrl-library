@@ -1,0 +1,17 @@
+type: mapping
+id: mapping--ogrl-ps-09-to-800-53-mp-2
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: high
+parameter_map:
+  mp_2_prm_1: cui_media_types
+  mp_2_prm_2: media_authorized_roles
+rationale: functional
+relationship: equivalent-to
+review_status: reviewed
+source_ref: control--ogrl-ps-09
+summary: >
+  Access to defined CUI media types and their storage is restricted
+  to defined authorized personnel, as MP-2 requires.
+target_ref: requirement--nist-sp-800-53-r5-mp-2

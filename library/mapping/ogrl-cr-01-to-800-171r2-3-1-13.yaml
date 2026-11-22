@@ -1,0 +1,16 @@
+type: mapping
+id: mapping--ogrl-cr-01-to-800-171r2-3-1-13
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: medium
+rationale: functional
+relationship: intersects-with
+review_status: reviewed
+source_ref: control--ogrl-cr-01
+summary: >
+  TLS for protected data in transit encrypts most remote access
+  traffic, but the control neither identifies remote access
+  mechanisms nor explicitly requires every remote access session to
+  be encrypted.
+target_ref: requirement--nist-sp-800-171-r2-3-1-13

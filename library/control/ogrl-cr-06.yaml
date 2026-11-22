@@ -1,0 +1,73 @@
+type: control
+id: control--ogrl-cr-06
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+name: FIPS-Validated Cryptography for CUI
+display_id: OGRL-CR-06
+control_type: preventive
+family: cr
+frequency: continuous
+guidance: >
+  Validation belongs to the cryptographic module, not the algorithm:
+  "AES-256" alone is not evidence. For each use, record the product,
+  module name, version, and CMVP certificate number, and keep a
+  screenshot or export showing FIPS mode is on. Common sources:
+  Windows with the FIPS policy enabled and BitLocker, macOS
+  FileVault (Apple corecrypto modules), FIPS-enabled Linux
+  distributions, GovCloud or FIPS endpoints of cloud providers and
+  their KMS HSMs, Microsoft 365 GCC High, FIPS-certified VPN
+  appliances, and hardware-encrypted USB drives with their own
+  certificates. SaaS that stores or transmits CUI must document its
+  FIPS-validated modules (often via a FedRAMP Moderate package).
+  Prefer modules with an active certificate; treat modules on the
+  CMVP historical list as a documented risk decision and plan their
+  replacement. Remote workers inherit this control through managed
+  device and VPN configuration. Re-check the inventory when products
+  are upgraded, because a new version may not be covered by the
+  certificate.
+objective: >
+  Ensure the cryptography relied on to keep CUI confidential has
+  been independently validated and is operating as validated.
+origin: standard
+parameters:
+  approved_algorithms:
+    label: Permitted algorithms and protocol configurations
+    value: >-
+      FIPS-approved algorithms and key lengths, such as AES-128 or
+      AES-256, and TLS 1.2 or higher restricted to FIPS-approved
+      cipher suites
+  crypto_inventory_review_cadence:
+    label: >-
+      Frequency of reviewing the CUI cryptography inventory against
+      the CMVP
+    value: annually
+  cui_crypto_uses:
+    label: Cryptographic uses that protect CUI confidentiality
+    value: >-
+      encryption of CUI in transit, including remote access, VPN,
+      TLS, and email; encryption of CUI at rest on endpoints, mobile
+      devices, servers, cloud storage, backups, and removable media;
+      and any other cryptography used to protect CUI confidentiality
+  fips_validation_standard:
+    label: Required cryptographic module validation
+    value: >-
+      a FIPS 140-2 or FIPS 140-3 validation certificate listed by
+      the NIST Cryptographic Module Validation Program (CMVP)
+statement: >
+  Maintain an inventory of {{ cui_crypto_uses }}, recording for each
+  use the cryptographic module, its CMVP certificate number, and the
+  algorithms in use; protect the confidentiality of CUI in each of
+  those uses only with cryptographic modules holding
+  {{ fips_validation_standard }}, configured to operate in the
+  module's validated approved mode and limited to
+  {{ approved_algorithms }}; and review the inventory against the
+  CMVP listing {{ crypto_inventory_review_cadence }} and whenever a
+  cryptographic use is added or a module is changed.
+summary: >
+  Inventory where cryptography protects CUI and use only
+  FIPS-validated modules running in approved mode for those uses.
+tags:
+  - cryptography
+  - fips-140
+  - cui

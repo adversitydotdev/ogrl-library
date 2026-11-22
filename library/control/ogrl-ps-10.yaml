@@ -1,0 +1,71 @@
+type: control
+id: control--ogrl-ps-10
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+name: CUI Media Marking
+display_id: OGRL-PS-10
+control_type: preventive
+family: ps
+frequency: event-driven
+guidance: >
+  Follow the DoD CUI Registry and DoDI 5200.48 marking guide: a
+  "CUI" or "CONTROLLED" banner at the top and bottom of each page, a
+  CUI designation indicator block on the first page, portion marking
+  where used, and any limited dissemination control (for example
+  NOFORN or FEDCON) or DoD distribution statement (B through F for
+  controlled technical information) carried over from the source
+  material or contract (DD Form 254 or contract clauses). Label
+  removable media and its case with the CUI banner and distribution
+  limitation; where a label cannot fit, mark the container or
+  envelope. Provide document templates and email or DLP labels with
+  pre-filled CUI banners so remote workers mark consistently, and
+  include marking in CUI handling training. Sample recently created
+  CUI documents and media during each review and correct any that
+  are unmarked or mismarked.
+objective: >
+  Ensure every recipient of media containing CUI can recognize that
+  it holds CUI and knows the dissemination limits that apply.
+origin: standard
+parameters:
+  cui_marking_authority:
+    label: Authoritative CUI marking requirements
+    value: >-
+      32 CFR Part 2002, the DoD CUI Registry, and DoDI 5200.48
+      banner, designation indicator, and portion marking
+      requirements
+  cui_marking_media_types:
+    label: Media that must carry CUI markings
+    value: >-
+      paper documents and printouts, removable and portable digital
+      media and their containers, and electronic documents
+      containing CUI
+  marking_exempt_areas:
+    label: >-
+      Controlled areas within which exempt media may remain unmarked
+    value: organization-controlled areas with enforced entry control
+  marking_exempt_media:
+    label: Media types exempt from marking while in controlled areas
+    value: >-
+      non-removable internal storage drives of organization-managed
+      system components
+  marking_review_cadence:
+    label: Frequency of sampling CUI media for marking compliance
+    value: annually
+statement: >
+  Mark {{ cui_marking_media_types }} with the CUI banner marking,
+  the applicable CUI category or designation indicator, and any
+  limited dissemination control or distribution statement specified
+  by the contract or originating agency, in accordance with
+  {{ cui_marking_authority }}; exempt only
+  {{ marking_exempt_media }} from marking, and only while it remains
+  within {{ marking_exempt_areas }}; and sample CUI media for
+  correct marking {{ marking_review_cadence }}, correcting
+  deficiencies found.
+summary: >
+  Mark CUI media with CUI banners and distribution limitations per
+  DoD CUI rules and spot-check that marking is applied.
+tags:
+  - media-protection
+  - cui
+  - marking

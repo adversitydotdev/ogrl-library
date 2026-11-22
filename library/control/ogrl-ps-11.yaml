@@ -1,0 +1,86 @@
+type: control
+id: control--ogrl-ps-11
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+name: Media Transport Protection
+display_id: OGRL-PS-11
+control_type: preventive
+family: ps
+frequency: event-driven
+guidance: >
+  The simplest compliant approach is to avoid physical transport and
+  move CUI through an approved encrypted file transfer service; keep
+  this control for the cases that remain (shipping drives to a
+  customer, carrying drawings to a site visit, couriering backup
+  media). Use hardware-encrypted USB drives with a FIPS 140-2 or
+  140-3 certificate, or FIPS-validated encrypted archives, and send
+  the passphrase or key through a separate channel. A shared
+  spreadsheet or ticket queue works as the transport log; reconcile
+  entries without a confirmed receipt and treat missing media as a
+  security incident. Laptops carried by travelling or remote workers
+  are media in transport: FIPS-validated full-disk encryption
+  (OGRL-CR-06) satisfies the cryptographic requirement, and routine
+  carriage by the assigned owner does not need a log entry. Paper
+  CUI relies on the physical safeguards and logging alone.
+objective: >
+  Keep CUI on media protected from disclosure and accounted for from
+  the moment it leaves a controlled area until it is received or
+  returned.
+origin: standard
+parameters:
+  alternative_physical_safeguards:
+    label: >-
+      Alternative physical safeguards used when digital media cannot
+      be encrypted
+    value: >-
+      a locked container kept in the continuous personal custody of
+      an authorized courier, with the exception approved in advance
+      by the security owner
+  authorized_couriers:
+    label: Personnel and carriers authorized to transport CUI media
+    value: >-
+      workforce members authorized for the CUI being transported, or
+      commercial carriers providing tracking and signature
+      confirmation
+  transport_encryption_mechanism:
+    label: >-
+      Cryptographic protection for CUI on digital media in transport
+    value: >-
+      FIPS 140-2 or FIPS 140-3 validated encryption of the device or
+      files, with keys or passphrases delivered separately from the
+      media
+  transport_log_reconciliation_cadence:
+    label: Frequency of reconciling open media transport log entries
+    value: monthly
+  transport_media_types:
+    label: Types of media containing CUI controlled during transport
+    value: >-
+      paper documents and removable or portable digital media
+      containing CUI
+  transport_protection_controls:
+    label: Controls protecting media during transport
+    value: >-
+      sealed, opaque, tamper-evident packaging addressed to a named
+      recipient, with the media kept in the courier's custody or
+      tracked carrier chain of custody until delivery
+statement: >
+  Transport {{ transport_media_types }} outside of controlled areas
+  only by {{ authorized_couriers }} and protect it using
+  {{ transport_protection_controls }}; protect the confidentiality
+  of CUI on digital media during transport using
+  {{ transport_encryption_mechanism }}, or, where encryption is not
+  feasible, using {{ alternative_physical_safeguards }}; record each
+  transport in a media transport log with the media identifier,
+  sender, recipient, courier, protection applied, and dates of
+  dispatch and confirmed receipt; and reconcile open log entries
+  {{ transport_log_reconciliation_cadence }}, investigating any
+  media not confirmed as received.
+summary: >
+  Encrypt or physically safeguard CUI media leaving controlled
+  areas, limit who carries it, and log each shipment through to
+  receipt.
+tags:
+  - media-protection
+  - cui
+  - encryption

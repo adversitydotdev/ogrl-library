@@ -1,0 +1,88 @@
+type: control
+id: control--ogrl-ps-08
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+name: Removable Media and Portable Storage Control
+display_id: OGRL-PS-08
+control_type: preventive
+family: ps
+frequency: continuous
+guidance: >
+  Use the MDM or EDR device-control feature (for example Microsoft
+  Intune device control, Defender for Endpoint, Jamf, or CrowdStrike
+  USB device control) to block mass-storage devices by default and
+  allow only approved devices by serial number or hardware ID, so
+  the allow-list doubles as the owner record. Record each issued
+  device in the asset inventory with its owner; found, gifted, or
+  conference-giveaway devices have no identifiable owner and stay
+  blocked. External systems include customer, prime-contractor, and
+  government systems, personal devices, and hotel or kiosk
+  computers; most small contractors can simply prohibit CUI on
+  portable storage outside the organization and exchange files
+  through an approved CUI-capable file transfer service instead.
+  Remote workers are covered because the policy is enforced on the
+  managed endpoint rather than the network. Retain the
+  device-control policy export, the allow-list, and blocked-device
+  events as evidence.
+objective: >
+  Prevent CUI from leaving, or malicious content from entering,
+  organizational systems through uncontrolled removable media and
+  portable storage devices.
+origin: standard
+parameters:
+  external_system_media_restrictions:
+    label: >-
+      Restrictions on organization-controlled portable storage used
+      on external systems
+    value: >-
+      prior written approval by the security owner recording the
+      device, the CUI involved, the external system, and the
+      business purpose; FIPS-validated encryption of the device; and
+      connection only to the external system named in the approval
+  in_scope_endpoints:
+    label: >-
+      Systems and system components on which removable media use is
+      controlled
+    value: >-
+      all organization-managed workstations, laptops, and servers
+      that process, store, or transmit CUI
+  media_enforcement_mechanism:
+    label: >-
+      Technical mechanism enforcing removable media restrictions
+    value: >-
+      centrally managed endpoint device-control policies (MDM or
+      EDR) that block read and write access to unapproved
+      mass-storage devices
+  media_exception_review_cadence:
+    label: Removable media allow-list and exception review frequency
+    value: quarterly
+  removable_media_types:
+    label: >-
+      Types of removable media and portable storage devices
+      controlled
+    value: >-
+      USB flash drives, external hard and solid-state drives, memory
+      cards, writable optical discs, and mobile devices operating in
+      mass-storage mode
+statement: >
+  Block the use of {{ removable_media_types }} on
+  {{ in_scope_endpoints }} by default using
+  {{ media_enforcement_mechanism }}, allowing only
+  organization-issued devices that are recorded in the asset
+  inventory with an identifiable owner and approved on a documented
+  allow-list; prohibit the use of any portable storage device that
+  has no identifiable owner; permit organization-controlled portable
+  storage devices containing CUI to be used on external systems only
+  for documented, approved uses that meet
+  {{ external_system_media_restrictions }}; and review the
+  allow-list and approved external-system uses
+  {{ media_exception_review_cadence }}.
+summary: >
+  Block removable media by default, allow only owned and approved
+  organization devices, and tightly limit their use on external
+  systems.
+tags:
+  - removable-media
+  - endpoint-security
+  - cui

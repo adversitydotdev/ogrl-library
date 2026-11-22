@@ -1,0 +1,17 @@
+type: mapping
+id: mapping--ogrl-ps-09-to-800-53-mp-4-a
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: high
+parameter_map:
+  mp_4_prm_1: cui_media_types
+  mp_4_prm_2: media_controlled_areas
+rationale: functional
+relationship: equivalent-to
+review_status: reviewed
+source_ref: control--ogrl-ps-09
+summary: >
+  Defined CUI media is kept in authorized custody or locked storage
+  within defined controlled areas, meeting MP-4(a).
+target_ref: "requirement--nist-sp-800-53-r5-mp-4#a"

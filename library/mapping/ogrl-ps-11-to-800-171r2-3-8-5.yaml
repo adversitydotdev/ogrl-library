@@ -1,0 +1,15 @@
+type: mapping
+id: mapping--ogrl-ps-11-to-800-171r2-3-8-5
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: high
+rationale: functional
+relationship: equivalent-to
+review_status: reviewed
+source_ref: control--ogrl-ps-11
+summary: >
+  Restricting couriers, sealing packaging, and logging each shipment
+  to receipt control access to and maintain accountability for CUI
+  media in transport.
+target_ref: requirement--nist-sp-800-171-r2-3-8-5
