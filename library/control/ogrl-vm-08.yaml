@@ -1,0 +1,64 @@
+type: control
+id: control--ogrl-vm-08
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+name: Mobile Code Control
+display_id: OGRL-VM-08
+control_type: preventive
+family: vm
+frequency: continuous
+guidance: >
+  Mobile code is software obtained from remote systems and run
+  locally without explicit installation, such as JavaScript,
+  VBScript, Office macros, PDF scripts, browser extensions, Java
+  applets, and ActiveX. Record which of these are acceptable and
+  which are prohibited in the endpoint configuration standard. Use
+  MDM or group policy to block macros in files from the internet,
+  allow only signed or trusted-location macros, manage browser
+  extensions by allowlist, and disable legacy plug-ins. Use EDR and
+  secure web gateway or DNS filtering logs to monitor script
+  execution and blocked downloads, and send block events to the
+  logging platform. For web applications the organization operates,
+  a Content Security Policy limits which scripts browsers will run.
+objective: >
+  Only mobile code and mobile code technologies the organization has
+  defined as acceptable run on in-scope systems, and their use is
+  monitored.
+origin: standard
+parameters:
+  mobile_code_exception_approver:
+    label: Approver for mobile code exceptions
+    value: the security leader
+  mobile_code_monitoring_sources:
+    label: Sources used to monitor mobile code use
+    value: >-
+      endpoint detection and response telemetry, browser management
+      reports, and web filtering or secure web gateway logs
+  mobile_code_restrictions:
+    label: >-
+      Technical restrictions enforcing the mobile code definitions
+    value: >-
+      block Office macros in files from the internet and unsigned
+      macros, allow browser extensions only from an approved list,
+      disable Java applets, ActiveX, and other legacy plug-ins, and
+      disable JavaScript in PDF readers
+  mobile_code_review_frequency:
+    label: Mobile code definitions and settings review frequency
+    value: annually
+statement: >
+  Define and document acceptable and unacceptable mobile code and
+  mobile code technologies; enforce the definitions on workforce
+  endpoints and in-scope systems through centrally managed settings
+  that {{ mobile_code_restrictions }}; permit exceptions only with
+  documented approval from {{ mobile_code_exception_approver }};
+  monitor mobile code use and blocked execution through
+  {{ mobile_code_monitoring_sources }}; and review the definitions
+  and settings {{ mobile_code_review_frequency }}.
+summary: >
+  Define which mobile code may run, block the rest through managed
+  settings, and monitor its use.
+tags:
+  - mobile-code
+  - endpoint-security
+  - hardening

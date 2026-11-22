@@ -1,0 +1,57 @@
+type: control
+id: control--ogrl-vm-09
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+name: VoIP Control and Monitoring
+display_id: OGRL-VM-09
+control_type: preventive
+family: vm
+frequency: continuous
+guidance: >
+  Most small contractors use a cloud calling or unified
+  communications service rather than on-premises PBX equipment.
+  Choose a service approved for the data it will carry; if calls,
+  chat, or recordings may contain CUI, the service is in assessment
+  scope. Manage desk phones and softphone clients through the
+  service's admin console and MDM, and block consumer calling apps
+  on managed endpoints where practical. Turn on admin audit logs and
+  call detail records, forward them to the logging platform, and
+  look for unusual international calling, toll fraud, new external
+  federation, or sign-ins from unexpected locations.
+objective: >
+  Voice over IP use is limited to approved, securely configured
+  services, and their use is logged and reviewed.
+origin: standard
+parameters:
+  approved_voip_services:
+    label: Approved VoIP services and devices
+    value: >-
+      the organization's approved unified communications or cloud
+      calling service and the desk phones and softphone clients it
+      manages
+  voip_review_frequency:
+    label: VoIP usage and configuration review frequency
+    value: at least quarterly
+  voip_security_settings:
+    label: Required VoIP security settings
+    value: >-
+      single sign-on with multi-factor authentication for users and
+      administrators, encrypted signaling and media, external
+      federation and international calling restricted to approved
+      uses, and administrative audit logging enabled
+statement: >
+  Permit only {{ approved_voip_services }} for Voice over Internet
+  Protocol calling on organizational systems; configure them with
+  {{ voip_security_settings }}; restrict unapproved VoIP
+  applications on managed endpoints; collect administrative audit
+  logs and call detail records from approved services in the central
+  logging platform; and review VoIP usage and configuration for
+  anomalies {{ voip_review_frequency }}.
+summary: >
+  Restrict VoIP to approved, securely configured services and log
+  and review their use.
+tags:
+  - voip
+  - unified-communications
+  - monitoring

@@ -1,0 +1,58 @@
+type: control
+id: control--ogrl-vm-07
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+name: Collaborative Computing Device Controls
+display_id: OGRL-VM-07
+control_type: preventive
+family: vm
+frequency: continuous
+guidance: >
+  Collaborative computing devices include built-in and USB webcams,
+  microphones, conference-room video systems, and interactive
+  whiteboards. Use MDM privacy profiles (for example macOS PPPC or
+  Windows privacy policies) so only approved conferencing apps can
+  use the camera and microphone and remote-support or management
+  tools cannot turn them on. Rely on hardware-wired camera lights
+  and operating system in-use indicators, and do not disable them.
+  In conferencing tenants, turn off far-end camera control and any
+  feature that lets remote parties start a device without a local
+  user acting. Room systems that only start when a participant
+  places or accepts a call fall within the default exception. Keep
+  the device list in the asset inventory and spot-check settings
+  through MDM compliance reports.
+objective: >
+  Collaborative computing devices are known, cannot be switched on
+  remotely outside approved exceptions, and always show users nearby
+  when they are in use.
+origin: standard
+parameters:
+  collab_config_review_frequency:
+    label: Collaborative device configuration verification frequency
+    value: quarterly
+  collaborative_devices:
+    label: Collaborative computing devices in scope
+    value: >-
+      cameras and microphones on workforce endpoints,
+      conference-room video systems, and networked interactive
+      whiteboards
+  remote_activation_exceptions:
+    label: Permitted exceptions to the remote activation prohibition
+    value: >-
+      dedicated video conferencing systems that activate only when a
+      participant in the room places or accepts a call
+statement: >
+  Identify {{ collaborative_devices }} on in-scope systems in the
+  asset inventory, configure them so they cannot be activated
+  remotely except for {{ remote_activation_exceptions }}, ensure
+  each provides an explicit indication of use, such as an indicator
+  light or on-screen notice, to users physically present at the
+  device whenever it is active, and verify these settings
+  {{ collab_config_review_frequency }}.
+summary: >
+  Prevent remote activation of cameras, microphones, and other
+  collaborative devices and show users when they are in use.
+tags:
+  - collaborative-computing
+  - endpoint-security

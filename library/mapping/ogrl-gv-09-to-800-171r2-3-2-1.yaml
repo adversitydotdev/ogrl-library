@@ -1,0 +1,14 @@
+type: mapping
+id: mapping--ogrl-gv-09-to-800-171r2-3-2-1
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: high
+rationale: functional
+relationship: subset-of
+review_status: reviewed
+source_ref: control--ogrl-gv-09
+summary: >
+  Acknowledging the acceptable use policy makes users aware of
+  applicable security policies, one part of 3.2.1.
+target_ref: requirement--nist-sp-800-171-r2-3-2-1

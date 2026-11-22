@@ -1,0 +1,14 @@
+type: mapping
+id: mapping--ogrl-rm-02-to-800-171r2-3-11-1
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: high
+rationale: functional
+relationship: equivalent-to
+review_status: reviewed
+source_ref: control--ogrl-rm-02
+summary: >
+  A risk assessment at a defined frequency that rates likelihood and
+  impact meets 3.11.1.
+target_ref: requirement--nist-sp-800-171-r2-3-11-1

@@ -1,0 +1,69 @@
+type: control
+id: control--ogrl-gv-13
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+name: >-
+  CMMC Self-Assessment, SPRS Submission, and Annual Affirmation
+display_id: OGRL-GV-13
+control_type: detective
+family: gv
+frequency: annual
+guidance: >
+  Under 32 CFR part 170, Level 1 self-assessments repeat annually
+  and must be fully met with no POA&M. Level 2 self-assessments and
+  Level 2 C3PAO certification assessments repeat every three years.
+  A Level 2 POA&M is permitted only within the limits of 32 CFR
+  170.21, and the resulting Conditional status expires if closeout
+  is not achieved within 180 days. Self-assessment results are
+  entered in SPRS through PIEE by a user with the appropriate SPRS
+  role; C3PAO results are uploaded by the C3PAO and appear in SPRS.
+  The Affirming Official is the senior representative responsible
+  for the organization's CMMC compliance and needs their own SPRS
+  access. Before each annual affirmation, review the system security
+  plan, recent control assessments, and open deficiencies rather
+  than signing on trust. Keep the scope, CAGE codes, and status
+  dates on the compliance calendar, and check contract clauses such
+  as DFARS 252.204-7021 for any other notification obligations.
+objective: >
+  The organization holds a current CMMC status in SPRS for each
+  assessed scope, closes any POA&M on time, and a senior official
+  affirms continuing compliance at every required point.
+origin: standard
+parameters:
+  affirming_official:
+    label: Affirming Official
+    value: >-
+      the senior official designated as the Affirming Official for
+      the organization's CMMC compliance
+  cmmc_assessment_frequency:
+    label: CMMC assessment cadence
+    value: >-
+      annually for Level 1 self-assessments and at least every three
+      years for Level 2 self-assessments or certification
+      assessments
+  cmmc_assessment_type:
+    label: Required CMMC level and assessment type
+    value: >-
+      the CMMC level and assessment type (Level 1 self-assessment,
+      Level 2 self-assessment, or Level 2 C3PAO certification
+      assessment) required by the organization's DoD contracts
+statement: >
+  Complete {{ cmmc_assessment_type }} for the documented CMMC
+  assessment scope before award of any contract that requires it and
+  {{ cmmc_assessment_frequency }} thereafter; ensure the results are
+  recorded in SPRS, including the CMMC level, status date,
+  assessment scope, the CAGE codes associated with the assessed
+  systems, and, for Level 2, the overall score and any POA&M; close
+  every POA&M item and complete a POA&M closeout assessment within
+  180 days of the Conditional CMMC status date; and have
+  {{ affirming_official }} submit an affirmation of continuing
+  compliance in SPRS after each assessment, after each POA&M
+  closeout, and annually thereafter.
+summary: >
+  Perform the required CMMC assessment, record results in SPRS,
+  close POA&Ms within 180 days, and affirm compliance annually.
+tags:
+  - cmmc
+  - sprs
+  - compliance-calendar

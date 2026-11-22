@@ -1,0 +1,15 @@
+type: mapping
+id: mapping--ogrl-vm-01-to-800-171r2-3-11-3
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: medium
+rationale: functional
+relationship: intersects-with
+review_status: reviewed
+source_ref: control--ogrl-vm-01
+summary: >
+  Scanning identifies vulnerabilities and severity-based SLAs drive
+  risk-ranked remediation, though lower severities lack a defined
+  treatment.
+target_ref: requirement--nist-sp-800-171-r2-3-11-3

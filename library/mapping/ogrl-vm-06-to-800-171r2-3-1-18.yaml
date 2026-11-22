@@ -1,0 +1,14 @@
+type: mapping
+id: mapping--ogrl-vm-06-to-800-171r2-3-1-18
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: medium
+rationale: functional
+relationship: intersects-with
+review_status: reviewed
+source_ref: control--ogrl-vm-06
+summary: >
+  MDM enrollment and posture-gated access identify and authorize
+  mobile device connections, but connection logging is not explicit.
+target_ref: requirement--nist-sp-800-171-r2-3-1-18

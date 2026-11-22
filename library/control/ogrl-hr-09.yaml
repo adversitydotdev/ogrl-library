@@ -1,0 +1,60 @@
+type: control
+id: control--ogrl-hr-09
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+name: Insider Threat Awareness Training
+display_id: OGRL-HR-09
+control_type: preventive
+family: hr
+frequency: annual
+guidance: >
+  Deliver this as a module in the annual security awareness course
+  (OGRL-HR-07) and track completion on the same platform. Give
+  managers extra material on spotting behavioral changes and on
+  escalating concerns to HR and security without investigating on
+  their own. Keep the reporting channel simple and offer a
+  confidential or anonymous option. Work with HR and legal so the
+  indicators focus on behavior, not protected characteristics.
+  Cleared contractors subject to 32 CFR part 117 have separate, more
+  extensive insider threat program requirements.
+objective: >
+  Managers and employees can recognize potential indicators of
+  insider threat and know how to report them.
+origin: standard
+parameters:
+  insider_threat_indicators:
+    label: Documented potential indicators of insider threat
+    value: >-
+      long-term job dissatisfaction, attempts to access information
+      not required for job duties, unexplained access to financial
+      resources, bullying or harassment of coworkers, workplace
+      violence, and other serious violations of organizational
+      policies
+  insider_threat_reporting_channel:
+    label: Channel for reporting potential insider threat indicators
+    value: >-
+      the security team's reporting address or a confidential ethics
+      hotline
+  insider_threat_training_frequency:
+    label: Insider threat refresher training frequency
+    value: annually
+  insider_threat_training_window:
+    label: Deadline for initial insider threat training after start
+    value: "30 days"
+statement: >
+  Document the potential indicators of insider threat relevant to
+  the organization, including {{ insider_threat_indicators }}; train
+  every manager, employee, and contractor to recognize these
+  indicators and to report them through
+  {{ insider_threat_reporting_channel }} within
+  {{ insider_threat_training_window }} of starting and
+  {{ insider_threat_training_frequency }} thereafter; and keep
+  records of training completion.
+summary: >
+  Train managers and employees to recognize and report potential
+  indicators of insider threat.
+tags:
+  - insider-threat
+  - security-awareness
+  - training

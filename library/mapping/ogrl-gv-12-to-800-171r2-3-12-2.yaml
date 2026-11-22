@@ -1,0 +1,14 @@
+type: mapping
+id: mapping--ogrl-gv-12-to-800-171r2-3-12-2
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: medium
+rationale: functional
+relationship: equivalent-to
+review_status: reviewed
+source_ref: control--ogrl-gv-12
+summary: >
+  A deficiency register with owners, plans, and due dates, worked to
+  closure, serves as the plan of action for 3.12.2.
+target_ref: requirement--nist-sp-800-171-r2-3-12-2
