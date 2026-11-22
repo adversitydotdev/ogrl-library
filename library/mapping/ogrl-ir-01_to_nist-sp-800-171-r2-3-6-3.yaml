@@ -1,0 +1,14 @@
+type: mapping
+id: mapping--ogrl-ir-01_to_nist-sp-800-171-r2-3-6-3
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: high
+rationale: functional
+relationship: superset-of
+review_status: reviewed
+source_ref: control--ogrl-ir-01
+summary: >
+  Testing the incident response plan on a defined cadence fully
+  meets 3.6.3, and the control also requires the plan itself.
+target_ref: requirement--nist-sp-800-171-r2-3-6-3

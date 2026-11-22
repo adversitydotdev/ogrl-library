@@ -1,0 +1,15 @@
+type: mapping
+id: mapping--ogrl-ac-01_to_nist-sp-800-171-r2-3-9-2
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: high
+rationale: functional
+relationship: intersects-with
+review_status: reviewed
+source_ref: control--ogrl-ac-01
+summary: >-
+  Revokes access within a defined SLA on termination or role change;
+  return of physical credentials and other transfer protections are
+  not covered.
+target_ref: requirement--nist-sp-800-171-r2-3-9-2

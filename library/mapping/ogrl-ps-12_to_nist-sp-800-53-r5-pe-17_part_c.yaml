@@ -1,0 +1,14 @@
+type: mapping
+id: mapping--ogrl-ps-12_to_nist-sp-800-53-r5-pe-17_part_c
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: high
+rationale: functional
+relationship: equivalent-to
+review_status: reviewed
+source_ref: control--ogrl-ps-12
+summary: >
+  Compliance with alternate work site safeguards is assessed on a
+  defined cadence using a defined method.
+target_ref: "requirement--nist-sp-800-53-r5-pe-17#c"

@@ -1,0 +1,17 @@
+type: mapping
+id: mapping--ogrl-cr-04_to_nist-sp-800-53-r5-mp-6_part_a
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: high
+parameter_map:
+  mp_6_prm_1: media_scope
+  mp_6_prm_2: sanitization_methods
+rationale: functional
+relationship: equivalent-to
+review_status: reviewed
+source_ref: control--ogrl-cr-04
+summary: >
+  Sanitizing defined media with defined techniques before disposal,
+  reuse, or release satisfies MP-6(a).
+target_ref: "requirement--nist-sp-800-53-r5-mp-6#a"

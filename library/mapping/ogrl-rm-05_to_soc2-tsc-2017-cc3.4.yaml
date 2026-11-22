@@ -1,0 +1,14 @@
+type: mapping
+id: mapping--ogrl-rm-05_to_soc2-tsc-2017-cc3.4
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: high
+rationale: functional
+relationship: intersects-with
+review_status: reviewed
+source_ref: control--ogrl-rm-05
+summary: >-
+  Evaluates internal and external changes for their effect on risk
+  and controls.
+target_ref: requirement--soc2-tsc-2017-cc3.4

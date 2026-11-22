@@ -1,0 +1,14 @@
+type: mapping
+id: mapping--ogrl-ac-05_to_nist-sp-800-171-r2-3-5-2
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: high
+rationale: functional
+relationship: subset-of
+review_status: reviewed
+source_ref: control--ogrl-ac-05
+summary: >-
+  MFA authenticates interactive users; authentication of processes
+  and devices is not covered.
+target_ref: requirement--nist-sp-800-171-r2-3-5-2

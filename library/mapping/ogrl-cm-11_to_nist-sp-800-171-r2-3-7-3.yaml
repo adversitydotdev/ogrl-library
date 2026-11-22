@@ -1,0 +1,14 @@
+type: mapping
+id: mapping--ogrl-cm-11_to_nist-sp-800-171-r2-3-7-3
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: high
+rationale: functional
+relationship: equivalent-to
+review_status: reviewed
+source_ref: control--ogrl-cm-11
+summary: >-
+  Equipment leaving for off-site maintenance is sanitized of CUI or
+  has its storage media removed, as 3.7.3 requires.
+target_ref: requirement--nist-sp-800-171-r2-3-7-3

@@ -1,0 +1,16 @@
+type: mapping
+id: mapping--ogrl-cm-08_to_nist-sp-800-53-r5-cm-11_part_b
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: high
+parameter_map:
+  cm_11_odp_02: software_enforcement_methods
+rationale: functional
+relationship: equivalent-to
+review_status: reviewed
+source_ref: control--ogrl-cm-08
+summary: >-
+  Named enforcement methods for software installation satisfy
+  CM-11(b).
+target_ref: "requirement--nist-sp-800-53-r5-cm-11#b"

@@ -1,0 +1,16 @@
+type: mapping
+id: mapping--ogrl-cr-01_to_nist-sp-800-53-r5-sc-28
+spec_version: "0.1.0"
+created: "2026-11-20T00:00:00Z"
+modified: "2026-11-20T00:00:00Z"
+confidence: high
+parameter_map:
+  sc_28_odp_02: protected_data_scope
+rationale: functional
+relationship: equivalent-to
+review_status: reviewed
+source_ref: control--ogrl-cr-01
+summary: >
+  Enforcing AES-256 encryption at rest with managed keys protects
+  stored data per SC-28.
+target_ref: requirement--nist-sp-800-53-r5-sc-28

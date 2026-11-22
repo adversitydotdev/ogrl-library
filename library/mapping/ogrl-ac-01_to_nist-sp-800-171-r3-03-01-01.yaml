@@ -1,0 +1,17 @@
+type: mapping
+id: mapping--ogrl-ac-01_to_nist-sp-800-171-r3-03-01-01
+spec_version: "0.1.0"
+created: "2026-11-20T00:00:00Z"
+modified: "2026-11-20T00:00:00Z"
+confidence: high
+parameter_map:
+  a_03_01_01_odp_01: approver_role
+  a_03_01_01_odp_04: deprovision_sla
+rationale: functional
+relationship: subset-of
+review_status: reviewed
+source_ref: control--ogrl-ac-01
+summary: >
+  Account provisioning approval and termination revocation
+  contribute to SP 800-171 03.01.01 account management.
+target_ref: requirement--nist-sp-800-171-r3-03-01-01

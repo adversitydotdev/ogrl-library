@@ -1,0 +1,15 @@
+type: mapping
+id: mapping--ogrl-cm-04_to_nist-sp-800-171-r2-3-4-4
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: medium
+rationale: functional
+relationship: equivalent-to
+review_status: reviewed
+source_ref: control--ogrl-cm-04
+summary: >-
+  Documented security impact analysis with sign-off before
+  deployment meets 3.4.4 when the defined change types include all
+  changes to CUI systems.
+target_ref: requirement--nist-sp-800-171-r2-3-4-4

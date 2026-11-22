@@ -1,0 +1,14 @@
+type: mapping
+id: mapping--ogrl-ir-03_to_soc2-tsc-2017-cc7.4
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: medium
+rationale: functional
+relationship: intersects-with
+review_status: reviewed
+source_ref: control--ogrl-ir-03
+summary: >
+  Incident records capture the response actions taken, supporting a
+  defined and evidenced response process.
+target_ref: requirement--soc2-tsc-2017-cc7.4

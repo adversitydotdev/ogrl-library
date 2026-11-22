@@ -1,0 +1,15 @@
+type: mapping
+id: mapping--ogrl-gv-06_to_nist-sp-800-53-r5-pm-6
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: high
+rationale: functional
+relationship: subset-of
+review_status: reviewed
+source_ref: control--ogrl-gv-06
+summary: >
+  Developing, monitoring, and reporting security metrics meets the
+  security half of this requirement; privacy measures are not
+  covered.
+target_ref: requirement--nist-sp-800-53-r5-pm-6

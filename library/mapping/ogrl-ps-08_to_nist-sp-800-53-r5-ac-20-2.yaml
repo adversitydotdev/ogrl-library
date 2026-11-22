@@ -1,0 +1,17 @@
+type: mapping
+id: mapping--ogrl-ps-08_to_nist-sp-800-53-r5-ac-20-2
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: high
+parameter_map:
+  ac_20_02_odp: external_system_media_restrictions
+rationale: functional
+relationship: equivalent-to
+review_status: reviewed
+source_ref: control--ogrl-ps-08
+summary: >
+  Organization-controlled portable storage may be used on external
+  systems only for approved uses meeting defined restrictions, which
+  is AC-20(2).
+target_ref: requirement--nist-sp-800-53-r5-ac-20-2

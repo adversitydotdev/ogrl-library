@@ -1,0 +1,15 @@
+type: mapping
+id: mapping--ogrl-ac-14_to_nist-sp-800-171-r2-3-5-8
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: low
+rationale: functional
+relationship: intersects-with
+review_status: reviewed
+source_ref: control--ogrl-ac-14
+summary: >-
+  Enforces password rules but does not itself prohibit reuse;
+  coverage depends on password composition rules that include a
+  password history.
+target_ref: requirement--nist-sp-800-171-r2-3-5-8

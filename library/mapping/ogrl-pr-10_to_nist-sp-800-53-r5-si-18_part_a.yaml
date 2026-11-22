@@ -1,0 +1,16 @@
+type: mapping
+id: mapping--ogrl-pr-10_to_nist-sp-800-53-r5-si-18_part_a
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: high
+parameter_map:
+  si_18_prm_1: pii_quality_check_cadence
+rationale: functional
+relationship: equivalent-to
+review_status: reviewed
+source_ref: control--ogrl-pr-10
+summary: >
+  Periodic accuracy, completeness, relevance, and timeliness checks
+  satisfy SI-18(a).
+target_ref: "requirement--nist-sp-800-53-r5-si-18#a"

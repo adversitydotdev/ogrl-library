@@ -1,0 +1,14 @@
+type: mapping
+id: mapping--ogrl-cm-13_to_nist-sp-800-53-r5-ma-4_part_d
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: high
+rationale: functional
+relationship: equivalent-to
+review_status: reviewed
+source_ref: control--ogrl-cm-13
+summary: >-
+  Each nonlocal maintenance session is logged with person, target,
+  purpose, and timing, meeting MA-4(d).
+target_ref: "requirement--nist-sp-800-53-r5-ma-4#d"

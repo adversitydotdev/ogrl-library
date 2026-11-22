@@ -1,0 +1,15 @@
+type: mapping
+id: mapping--ogrl-bc-07_to_nist-sp-800-53-r5-ra-9
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: medium
+rationale: functional
+relationship: intersects-with
+review_status: reviewed
+source_ref: control--ogrl-bc-07
+summary: >
+  Rating the criticality of supporting systems and dependencies
+  overlaps criticality analysis, though not performed at system
+  development decision points.
+target_ref: requirement--nist-sp-800-53-r5-ra-9

@@ -1,0 +1,17 @@
+type: mapping
+id: mapping--ogrl-ps-04_to_nist-sp-800-53-r5-pe-6
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: high
+parameter_map:
+  pe_06_odp_01: access_log_review_cadence
+  pe_06_odp_02: access_log_review_triggers
+rationale: functional
+relationship: equivalent-to
+review_status: reviewed
+source_ref: control--ogrl-ps-04
+summary: >
+  Entry-point monitoring, scheduled and triggered log reviews, and
+  incident escalation cover PE-6.
+target_ref: requirement--nist-sp-800-53-r5-pe-6

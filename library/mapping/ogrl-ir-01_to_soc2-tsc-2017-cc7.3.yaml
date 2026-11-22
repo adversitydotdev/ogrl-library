@@ -1,0 +1,14 @@
+type: mapping
+id: mapping--ogrl-ir-01_to_soc2-tsc-2017-cc7.3
+spec_version: "0.1.0"
+created: "2026-11-20T00:00:00Z"
+modified: "2026-11-20T00:00:00Z"
+confidence: high
+rationale: functional
+relationship: equivalent-to
+review_status: reviewed
+source_ref: control--ogrl-ir-01
+summary: >
+  Incident response playbooks and exercises support event evaluation
+  and response under SOC 2 CC7.3.
+target_ref: requirement--soc2-tsc-2017-cc7.3

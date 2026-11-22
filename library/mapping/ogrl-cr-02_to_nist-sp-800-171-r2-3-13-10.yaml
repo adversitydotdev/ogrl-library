@@ -1,0 +1,15 @@
+type: mapping
+id: mapping--ogrl-cr-02_to_nist-sp-800-171-r2-3-13-10
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: medium
+rationale: functional
+relationship: equivalent-to
+review_status: reviewed
+source_ref: control--ogrl-cr-02
+summary: >
+  Keys are generated, stored, used, rotated, and access-restricted
+  in a managed key service, establishing and managing keys for the
+  cryptography in scope.
+target_ref: requirement--nist-sp-800-171-r2-3-13-10

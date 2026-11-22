@@ -1,0 +1,18 @@
+type: mapping
+id: mapping--ogrl-ps-05_to_nist-sp-800-53-r5-pe-14
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: high
+parameter_map:
+  pe_14_odp_01: environmental_factors
+  pe_14_odp_03: environmental_ranges
+  pe_14_odp_04: environmental_monitoring_cadence
+rationale: functional
+relationship: equivalent-to
+review_status: reviewed
+source_ref: control--ogrl-ps-05
+summary: >
+  Maintaining and monitoring environmental conditions within defined
+  ranges satisfies PE-14.
+target_ref: requirement--nist-sp-800-53-r5-pe-14

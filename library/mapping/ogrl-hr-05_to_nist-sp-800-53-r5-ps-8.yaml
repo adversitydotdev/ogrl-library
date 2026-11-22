@@ -1,0 +1,17 @@
+type: mapping
+id: mapping--ogrl-hr-05_to_nist-sp-800-53-r5-ps-8
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: high
+parameter_map:
+  ps_08_odp_01: sanction_notification_recipient
+  ps_08_odp_02: sanction_notification_window
+rationale: functional
+relationship: equivalent-to
+review_status: reviewed
+source_ref: control--ogrl-hr-05
+summary: >
+  A formal sanctions process with timely notification of designated
+  roles satisfies both parts of PS-8.
+target_ref: requirement--nist-sp-800-53-r5-ps-8

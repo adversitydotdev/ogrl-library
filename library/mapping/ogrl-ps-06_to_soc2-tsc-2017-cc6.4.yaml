@@ -1,0 +1,14 @@
+type: mapping
+id: mapping--ogrl-ps-06_to_soc2-tsc-2017-cc6.4
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: medium
+rationale: functional
+relationship: subset-of
+review_status: reviewed
+source_ref: control--ogrl-ps-06
+summary: >
+  Controlling equipment entering and leaving facilities contributes
+  to physical protection under CC6.4.
+target_ref: requirement--soc2-tsc-2017-cc6.4

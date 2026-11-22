@@ -1,0 +1,14 @@
+type: mapping
+id: mapping--ogrl-ir-04_to_nist-sp-800-171-r2-3-6-2
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: high
+rationale: functional
+relationship: subset-of
+review_status: reviewed
+source_ref: control--ogrl-ir-04
+summary: >
+  Identifies internal and external report recipients and requires
+  them to be notified, covering the reporting objectives of 3.6.2.
+target_ref: requirement--nist-sp-800-171-r2-3-6-2

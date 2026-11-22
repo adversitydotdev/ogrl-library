@@ -1,0 +1,14 @@
+type: mapping
+id: mapping--ogrl-vm-02_to_soc2-tsc-2017-cc8.1
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: medium
+rationale: functional
+relationship: intersects-with
+review_status: reviewed
+source_ref: control--ogrl-vm-02
+summary: >-
+  Patches are tested and deployed as controlled changes,
+  contributing to CC8.1.
+target_ref: requirement--soc2-tsc-2017-cc8.1

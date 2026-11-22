@@ -1,0 +1,14 @@
+type: mapping
+id: mapping--ogrl-cm-02_to_nist-sp-800-53-r5-cm-2_part_b-3
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: high
+rationale: functional
+relationship: equivalent-to
+review_status: reviewed
+source_ref: control--ogrl-cm-02
+summary: >
+  Baselines are reviewed and updated whenever covered components are
+  introduced or upgraded, as CM-2(b)(3) requires.
+target_ref: "requirement--nist-sp-800-53-r5-cm-2#b.3"

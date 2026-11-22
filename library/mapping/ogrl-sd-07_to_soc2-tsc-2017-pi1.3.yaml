@@ -1,0 +1,14 @@
+type: mapping
+id: mapping--ogrl-sd-07_to_soc2-tsc-2017-pi1.3
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: medium
+rationale: functional
+relationship: intersects-with
+review_status: reviewed
+source_ref: control--ogrl-sd-07
+summary: >
+  Rolling back or queuing failed transactions for correction
+  supports complete and accurate processing under PI1.3.
+target_ref: requirement--soc2-tsc-2017-pi1.3

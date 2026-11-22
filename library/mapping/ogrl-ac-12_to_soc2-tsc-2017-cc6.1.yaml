@@ -1,0 +1,14 @@
+type: mapping
+id: mapping--ogrl-ac-12_to_soc2-tsc-2017-cc6.1
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: high
+rationale: functional
+relationship: intersects-with
+review_status: reviewed
+source_ref: control--ogrl-ac-12
+summary: >
+  Segregating customer data at the application layer is a logical
+  access protection within CC6.1.
+target_ref: requirement--soc2-tsc-2017-cc6.1

@@ -1,0 +1,14 @@
+type: mapping
+id: mapping--ogrl-cm-12_to_nist-sp-800-171-r2-3-7-4
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: high
+rationale: functional
+relationship: equivalent-to
+review_status: reviewed
+source_ref: control--ogrl-cm-12
+summary: >-
+  Media with diagnostic and test programs is scanned for malicious
+  code before use on CUI systems, as 3.7.4 requires.
+target_ref: requirement--nist-sp-800-171-r2-3-7-4

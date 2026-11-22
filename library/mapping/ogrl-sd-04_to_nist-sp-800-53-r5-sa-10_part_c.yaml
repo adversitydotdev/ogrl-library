@@ -1,0 +1,14 @@
+type: mapping
+id: mapping--ogrl-sd-04_to_nist-sp-800-53-r5-sa-10_part_c
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: medium
+rationale: functional
+relationship: subset-of
+review_status: reviewed
+source_ref: control--ogrl-sd-04
+summary: >
+  Branch protection ensures only approved pull requests enter
+  release branches, partly enforcing SA-10(c).
+target_ref: "requirement--nist-sp-800-53-r5-sa-10#c"

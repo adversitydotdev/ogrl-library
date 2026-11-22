@@ -1,0 +1,15 @@
+type: mapping
+id: mapping--ogrl-gv-01_to_nist-sp-800-53-r5-pm-1_part_a
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: medium
+rationale: functional
+relationship: subset-of
+review_status: reviewed
+source_ref: control--ogrl-gv-01
+summary: >
+  The approved policy set serves as the program plan and assigns
+  roles, but does not itself describe every program management and
+  common control.
+target_ref: "requirement--nist-sp-800-53-r5-pm-1#a"

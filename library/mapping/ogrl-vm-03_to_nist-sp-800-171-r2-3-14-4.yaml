@@ -1,0 +1,14 @@
+type: mapping
+id: mapping--ogrl-vm-03_to_nist-sp-800-171-r2-3-14-4
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: high
+rationale: functional
+relationship: superset-of
+review_status: reviewed
+source_ref: control--ogrl-vm-03
+summary: >
+  Automatic engine and signature updates meet 3.14.4 within a
+  broader anti-malware control.
+target_ref: requirement--nist-sp-800-171-r2-3-14-4

@@ -1,0 +1,15 @@
+type: mapping
+id: mapping--ogrl-lm-06_to_nist-sp-800-171-r2-3-3-4
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: high
+rationale: functional
+relationship: equivalent-to
+review_status: reviewed
+source_ref: control--ogrl-lm-06
+summary: >
+  Defines the logging failure types and alert recipients and
+  automatically alerts them on failure, meeting every 3.3.4
+  objective.
+target_ref: requirement--nist-sp-800-171-r2-3-3-4

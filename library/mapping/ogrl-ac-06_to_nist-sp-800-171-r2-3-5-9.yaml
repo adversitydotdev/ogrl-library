@@ -1,0 +1,14 @@
+type: mapping
+id: mapping--ogrl-ac-06_to_nist-sp-800-171-r2-3-5-9
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: low
+rationale: functional
+relationship: intersects-with
+review_status: reviewed
+source_ref: control--ogrl-ac-06
+summary: >-
+  Manages password lifecycle and rotation; immediate change of
+  temporary passwords at first logon is not covered.
+target_ref: requirement--nist-sp-800-171-r2-3-5-9

@@ -1,0 +1,16 @@
+type: mapping
+id: mapping--ogrl-sd-08_to_nist-sp-800-53-r5-si-15
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: medium
+parameter_map:
+  si_15_odp: validated_output_sources
+rationale: functional
+relationship: superset-of
+review_status: reviewed
+source_ref: control--ogrl-sd-08
+summary: >
+  Validating outputs against expected content meets SI-15, with
+  authorized distribution added.
+target_ref: requirement--nist-sp-800-53-r5-si-15

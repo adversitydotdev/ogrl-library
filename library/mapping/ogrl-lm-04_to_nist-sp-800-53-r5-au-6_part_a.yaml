@@ -1,0 +1,17 @@
+type: mapping
+id: mapping--ogrl-lm-04_to_nist-sp-800-53-r5-au-6_part_a
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: high
+parameter_map:
+  au_06_odp_01: log_review_frequency
+  au_06_odp_02: reviewed_activity
+rationale: functional
+relationship: equivalent-to
+review_status: reviewed
+source_ref: control--ogrl-lm-04
+summary: >
+  Scheduled analysis of audit records for defined unusual activity
+  satisfies AU-6(a).
+target_ref: "requirement--nist-sp-800-53-r5-au-6#a"

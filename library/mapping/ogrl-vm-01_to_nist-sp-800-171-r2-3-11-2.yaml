@@ -1,0 +1,15 @@
+type: mapping
+id: mapping--ogrl-vm-01_to_nist-sp-800-171-r2-3-11-2
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: medium
+rationale: functional
+relationship: intersects-with
+review_status: reviewed
+source_ref: control--ogrl-vm-01
+summary: >
+  Scheduled and per-release scanning meets the periodic scan
+  objectives; scanning when new vulnerabilities emerge depends on
+  the cadence value.
+target_ref: requirement--nist-sp-800-171-r2-3-11-2

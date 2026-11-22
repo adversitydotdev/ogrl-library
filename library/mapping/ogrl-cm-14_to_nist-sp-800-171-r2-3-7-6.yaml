@@ -1,0 +1,15 @@
+type: mapping
+id: mapping--ogrl-cm-14_to_nist-sp-800-171-r2-3-7-6
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: high
+rationale: functional
+relationship: superset-of
+review_status: reviewed
+source_ref: control--ogrl-cm-14
+summary: >-
+  Escorts and supervises maintenance by personnel lacking access
+  authorization, and additionally maintains the authorized
+  maintenance list and verifies unescorted personnel.
+target_ref: requirement--nist-sp-800-171-r2-3-7-6

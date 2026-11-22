@@ -1,0 +1,17 @@
+type: mapping
+id: mapping--ogrl-hr-07_to_nist-sp-800-53-r5-at-2_part_a-1
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: high
+parameter_map:
+  at_02_odp_01: training_frequency
+  at_02_odp_02: training_frequency
+rationale: functional
+relationship: equivalent-to
+review_status: reviewed
+source_ref: control--ogrl-hr-07
+summary: >
+  Training at onboarding and on a recurring cadence covers initial
+  and periodic literacy training.
+target_ref: "requirement--nist-sp-800-53-r5-at-2#a.1"

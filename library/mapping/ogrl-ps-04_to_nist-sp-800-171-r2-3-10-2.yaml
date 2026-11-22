@@ -1,0 +1,15 @@
+type: mapping
+id: mapping--ogrl-ps-04_to_nist-sp-800-171-r2-3-10-2
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: medium
+rationale: functional
+relationship: subset-of
+review_status: reviewed
+source_ref: control--ogrl-ps-04
+summary: >
+  Monitors facility entry points and escalates incidents, covering
+  facility monitoring but not protection of the facility or its
+  support infrastructure.
+target_ref: requirement--nist-sp-800-171-r2-3-10-2

@@ -1,0 +1,16 @@
+type: mapping
+id: mapping--ogrl-sd-06_to_nist-sp-800-53-r5-si-10
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: high
+parameter_map:
+  si_10_odp: validated_input_channels
+rationale: functional
+relationship: equivalent-to
+review_status: reviewed
+source_ref: control--ogrl-sd-06
+summary: >-
+  Schema-based validity checks on named input channels satisfy
+  SI-10.
+target_ref: requirement--nist-sp-800-53-r5-si-10

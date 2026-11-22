@@ -1,0 +1,14 @@
+type: mapping
+id: mapping--ogrl-rm-02_to_nist-sp-800-53-r5-ra-3_part_e
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: high
+parameter_map:
+  ra_03_odp_04: results_audience
+rationale: functional
+relationship: equivalent-to
+review_status: reviewed
+source_ref: control--ogrl-rm-02
+summary: Results are communicated to named recipients.
+target_ref: "requirement--nist-sp-800-53-r5-ra-3#e"

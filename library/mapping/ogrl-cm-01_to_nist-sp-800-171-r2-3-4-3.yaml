@@ -1,0 +1,15 @@
+type: mapping
+id: mapping--ogrl-cm-01_to_nist-sp-800-171-r2-3-4-3
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: medium
+rationale: functional
+relationship: subset-of
+review_status: reviewed
+source_ref: control--ogrl-cm-01
+summary: >-
+  Production changes are tracked, peer reviewed, approved, and
+  retained as records; changes made outside the code and deployment
+  pipeline, such as endpoint or SaaS settings, are not covered.
+target_ref: requirement--nist-sp-800-171-r2-3-4-3

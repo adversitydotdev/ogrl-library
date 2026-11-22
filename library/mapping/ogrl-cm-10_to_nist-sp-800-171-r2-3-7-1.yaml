@@ -1,0 +1,15 @@
+type: mapping
+id: mapping--ogrl-cm-10_to_nist-sp-800-171-r2-3-7-1
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: high
+rationale: functional
+relationship: superset-of
+review_status: reviewed
+source_ref: control--ogrl-cm-10
+summary: >-
+  Scheduled, approved, and recorded maintenance of in-scope
+  components performs system maintenance, and the control adds tool
+  and personnel restrictions beyond 3.7.1.
+target_ref: requirement--nist-sp-800-171-r2-3-7-1

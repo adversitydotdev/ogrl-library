@@ -1,0 +1,14 @@
+type: mapping
+id: mapping--ogrl-tp-02_to_soc2-tsc-2017-cc9.2
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: high
+rationale: functional
+relationship: intersects-with
+review_status: reviewed
+source_ref: control--ogrl-tp-02
+summary: >
+  Assessing vendor security before engagement is a key vendor risk
+  management activity under CC9.2.
+target_ref: requirement--soc2-tsc-2017-cc9.2

@@ -1,0 +1,15 @@
+type: mapping
+id: mapping--ogrl-tp-01_to_nist-sp-800-53-r5-sa-9_part_b
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: medium
+rationale: functional
+relationship: subset-of
+review_status: reviewed
+source_ref: control--ogrl-tp-01
+summary: >
+  Assigning an internal owner to each external service documents
+  oversight responsibility; broader user roles and responsibilities
+  are not addressed.
+target_ref: "requirement--nist-sp-800-53-r5-sa-9#b"

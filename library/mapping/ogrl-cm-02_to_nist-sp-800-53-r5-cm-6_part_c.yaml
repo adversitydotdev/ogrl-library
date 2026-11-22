@@ -1,0 +1,16 @@
+type: mapping
+id: mapping--ogrl-cm-02_to_nist-sp-800-53-r5-cm-6_part_c
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: medium
+parameter_map:
+  cm_06_odp_02: baseline_scope
+rationale: functional
+relationship: equivalent-to
+review_status: reviewed
+source_ref: control--ogrl-cm-02
+summary: >
+  Documented, approved baseline deviations for in-scope components
+  address CM-6(c).
+target_ref: "requirement--nist-sp-800-53-r5-cm-6#c"

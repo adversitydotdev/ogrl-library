@@ -1,0 +1,15 @@
+type: mapping
+id: mapping--ogrl-ac-15_to_nist-sp-800-53-r5-ia-8
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: high
+rationale: functional
+relationship: superset-of
+review_status: reviewed
+source_ref: control--ogrl-ac-15
+summary: >
+  Individual customer accounts uniquely identify and authenticate
+  non-organizational users, with added MFA, SSO, and recovery
+  safeguards.
+target_ref: requirement--nist-sp-800-53-r5-ia-8

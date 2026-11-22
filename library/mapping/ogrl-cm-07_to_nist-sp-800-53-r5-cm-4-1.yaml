@@ -1,0 +1,15 @@
+type: mapping
+id: mapping--ogrl-cm-07_to_nist-sp-800-53-r5-cm-4-1
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: medium
+rationale: functional
+relationship: intersects-with
+review_status: reviewed
+source_ref: control--ogrl-cm-07
+summary: >
+  Changes are exercised in a separate test environment, though
+  analysis is not necessarily focused on security and privacy impact
+  as CM-4(1) expects.
+target_ref: requirement--nist-sp-800-53-r5-cm-4-1

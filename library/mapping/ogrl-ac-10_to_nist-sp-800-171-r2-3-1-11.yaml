@@ -1,0 +1,14 @@
+type: mapping
+id: mapping--ogrl-ac-10_to_nist-sp-800-171-r2-3-1-11
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: medium
+rationale: functional
+relationship: superset-of
+review_status: reviewed
+source_ref: control--ogrl-ac-10
+summary: >-
+  Automatically terminates application, console, and remote sessions
+  after defined inactivity or duration conditions.
+target_ref: requirement--nist-sp-800-171-r2-3-1-11

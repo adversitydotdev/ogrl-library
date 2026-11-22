@@ -1,0 +1,14 @@
+type: requirement
+id: requirement--soc2-tsc-2017-cc1.1
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+name: Integrity and Ethical Values
+display_id: CC1.1
+citation: AICPA TSC CC1.1
+class: criterion
+external_references:
+  - source: AICPA
+    description: AICPA TSC CC1.1
+    url: "https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022"
+framework_ref: framework--soc2-tsc-2017

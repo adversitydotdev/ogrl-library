@@ -1,0 +1,15 @@
+type: mapping
+id: mapping--ogrl-lm-03_to_nist-sp-800-171-r2-3-3-9
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: medium
+rationale: functional
+relationship: intersects-with
+review_status: reviewed
+source_ref: control--ogrl-lm-03
+summary: >
+  Blocks logged-system administrators from altering logs and alerts
+  on logging configuration changes, but does not name the privileged
+  subset allowed to manage logging.
+target_ref: requirement--nist-sp-800-171-r2-3-3-9

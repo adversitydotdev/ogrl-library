@@ -1,0 +1,15 @@
+type: mapping
+id: mapping--ogrl-ac-20_to_nist-sp-800-171-r2-3-5-4
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: high
+rationale: functional
+relationship: equivalent-to
+review_status: reviewed
+source_ref: control--ogrl-ac-20
+summary: >-
+  Requires replay-resistant mechanisms for network access to
+  privileged and non-privileged accounts and disables replayable
+  protocols.
+target_ref: requirement--nist-sp-800-171-r2-3-5-4

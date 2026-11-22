@@ -1,0 +1,14 @@
+type: mapping
+id: mapping--ogrl-ps-03_to_nist-sp-800-171-r2-3-10-4
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: high
+rationale: functional
+relationship: intersects-with
+review_status: reviewed
+source_ref: control--ogrl-ps-03
+summary: >
+  Visitor records with arrival and departure times form the visitor
+  portion of the physical access audit log.
+target_ref: requirement--nist-sp-800-171-r2-3-10-4

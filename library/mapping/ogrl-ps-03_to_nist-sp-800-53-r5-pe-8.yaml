@@ -1,0 +1,18 @@
+type: mapping
+id: mapping--ogrl-ps-03_to_nist-sp-800-53-r5-pe-8
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: high
+parameter_map:
+  pe_08_odp_01: visitor_record_retention
+  pe_08_odp_02: visitor_review_cadence
+  pe_08_odp_03: visitor_anomaly_recipient
+rationale: functional
+relationship: equivalent-to
+review_status: reviewed
+source_ref: control--ogrl-ps-03
+summary: >-
+  Visitor logging, retention, periodic review, and anomaly reporting
+  cover PE-8.
+target_ref: requirement--nist-sp-800-53-r5-pe-8

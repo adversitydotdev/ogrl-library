@@ -1,0 +1,14 @@
+type: mapping
+id: mapping--ogrl-gv-01_to_soc2-tsc-2017-cc2.2
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: medium
+rationale: functional
+relationship: intersects-with
+review_status: reviewed
+source_ref: control--ogrl-gv-01
+summary: >
+  Publishing policies to all workforce members is one form of
+  internal communication of security responsibilities.
+target_ref: requirement--soc2-tsc-2017-cc2.2

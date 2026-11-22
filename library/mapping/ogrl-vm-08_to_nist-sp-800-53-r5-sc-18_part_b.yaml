@@ -1,0 +1,14 @@
+type: mapping
+id: mapping--ogrl-vm-08_to_nist-sp-800-53-r5-sc-18_part_b
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: high
+rationale: functional
+relationship: equivalent-to
+review_status: reviewed
+source_ref: control--ogrl-vm-08
+summary: >
+  Approving exceptions, enforcing restrictions, and monitoring
+  mobile code use meets SC-18(b).
+target_ref: "requirement--nist-sp-800-53-r5-sc-18#b"

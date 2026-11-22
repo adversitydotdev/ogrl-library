@@ -1,0 +1,14 @@
+type: mapping
+id: mapping--ogrl-hr-05_to_soc2-tsc-2017-cc1.5
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: high
+rationale: functional
+relationship: intersects-with
+review_status: reviewed
+source_ref: control--ogrl-hr-05
+summary: >
+  Disciplinary action for security violations is a mechanism for
+  holding individuals accountable under CC1.5.
+target_ref: requirement--soc2-tsc-2017-cc1.5

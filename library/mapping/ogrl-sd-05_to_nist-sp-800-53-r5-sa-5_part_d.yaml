@@ -1,0 +1,16 @@
+type: mapping
+id: mapping--ogrl-sd-05_to_nist-sp-800-53-r5-sa-5_part_d
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: medium
+parameter_map:
+  sa_05_odp_02: spec_audience
+rationale: functional
+relationship: intersects-with
+review_status: reviewed
+source_ref: control--ogrl-sd-05
+summary: >
+  Processing specifications are distributed to defined audiences,
+  overlapping SA-5(d) distribution of system documentation.
+target_ref: "requirement--nist-sp-800-53-r5-sa-5#d"

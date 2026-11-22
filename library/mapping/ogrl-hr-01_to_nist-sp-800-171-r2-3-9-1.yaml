@@ -1,0 +1,14 @@
+type: mapping
+id: mapping--ogrl-hr-01_to_nist-sp-800-171-r2-3-9-1
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: medium
+rationale: functional
+relationship: intersects-with
+review_status: reviewed
+source_ref: control--ogrl-hr-01
+summary: >
+  Pre-access screening meets 3.9.1 when the screened access includes
+  all systems containing CUI, not only production or customer data.
+target_ref: requirement--nist-sp-800-171-r2-3-9-1

@@ -1,0 +1,14 @@
+type: mapping
+id: mapping--ogrl-gv-05_to_soc2-tsc-2017-cc2.2
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: high
+rationale: functional
+relationship: intersects-with
+review_status: reviewed
+source_ref: control--ogrl-gv-05
+summary: >
+  A confidential reporting channel provides a separate internal
+  communication path for raising concerns.
+target_ref: requirement--soc2-tsc-2017-cc2.2

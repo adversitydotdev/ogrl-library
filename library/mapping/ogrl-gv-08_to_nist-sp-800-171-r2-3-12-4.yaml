@@ -1,0 +1,15 @@
+type: mapping
+id: mapping--ogrl-gv-08_to_nist-sp-800-171-r2-3-12-4
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: medium
+rationale: functional
+relationship: intersects-with
+review_status: reviewed
+source_ref: control--ogrl-gv-08
+summary: >
+  The system description covers boundary, environment, connections,
+  and periodic updates but not approved non-applicable requirements
+  or per-requirement implementation detail.
+target_ref: requirement--nist-sp-800-171-r2-3-12-4
