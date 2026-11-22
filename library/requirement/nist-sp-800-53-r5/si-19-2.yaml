@@ -12,7 +12,7 @@ objectives:
   - id: "si-19(02)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; personally identifiable
           information processing policy; de-identification
@@ -21,20 +21,20 @@ objectives:
           privacy impact assessment; privacy risk assessment
           documentation; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel responsible for de-identifying
           the dataset; organizational personnel with dataset
           archival responsibilities; organizational personnel with
           information security and privacy responsibilities
       - method: test
-        statement: >
+        statement: >-
           Automated mechanisms prohibiting the archival of
           personally identifiable information elements
-    statement: >
+    statement: >-
       the archiving of personally identifiable information elements
       is prohibited if those elements in a dataset will not be
       needed after the dataset is archived.
-statement: >
+statement: >-
   Prohibit archiving of personally identifiable information elements
   if those elements in a dataset will not be needed after the
   dataset is archived.

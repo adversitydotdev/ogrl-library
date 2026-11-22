@@ -12,39 +12,39 @@ objectives:
   - id: "sc-23(03).sc-23(03)[01]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing session authenticity; system design
           documentation; system configuration settings and
           associated documentation; system audit records; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Mechanisms supporting, implementing, generating, and
           monitoring unique session identifiers; mechanisms
           supporting and/or implementing randomness requirements
-    statement: >
+    statement: >-
       a unique session identifier is generated for each session with
       {{ sc_23_03_odp }};
   - id: "sc-23(03).sc-23(03)[02]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing session authenticity; system design
           documentation; system configuration settings and
           associated documentation; system audit records; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Mechanisms supporting, implementing, generating, and
           monitoring unique session identifiers; mechanisms
           supporting and/or implementing randomness requirements
@@ -53,7 +53,7 @@ objectives:
 parameters:
   sc_23_03_odp:
     label: randomness requirements
-statement: >
+statement: >-
   Generate a unique session identifier for each session with
   {{ sc_23_03_odp }} and recognize only session identifiers that are
   system-generated.

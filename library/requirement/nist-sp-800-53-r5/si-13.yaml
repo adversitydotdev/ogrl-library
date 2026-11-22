@@ -12,7 +12,7 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; procedures addressing
           predictable failure prevention; system design
@@ -21,7 +21,7 @@ objectives:
           criteria; system audit records; system security plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel responsible for MTTF
           determinations and activities; organizational personnel
           with information security responsibilities; system/network
@@ -29,13 +29,13 @@ objectives:
           planning responsibilities
       - method: test
         statement: Organizational processes for managing MTTF
-    statement: >
+    statement: >-
       mean time to failure (MTTF) is determined for
       {{ si_13_odp_01 }} in specific environments of operation;
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; procedures addressing
           predictable failure prevention; system design
@@ -44,7 +44,7 @@ objectives:
           criteria; system audit records; system security plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel responsible for MTTF
           determinations and activities; organizational personnel
           with information security responsibilities; system/network
@@ -52,7 +52,7 @@ objectives:
           planning responsibilities
       - method: test
         statement: Organizational processes for managing MTTF
-    statement: >
+    statement: >-
       substitute system components and a means to exchange active
       and standby components are provided in accordance with
       {{ si_13_odp_02 }}.
@@ -63,12 +63,12 @@ parameters:
     label: "mean time to failure (MTTF) substitution criteria"
 parts:
   - id: a
-    statement: >
+    statement: >-
       Determine mean time to failure (MTTF) for the following system
       components in specific environments of operation:
       {{ si_13_odp_01 }} ; and
   - id: b
-    statement: >
+    statement: >-
       Provide substitute system components and a means to exchange
       active and standby components in accordance with the following
       criteria: {{ si_13_odp_02 }}.

@@ -25,13 +25,13 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Incident response policy; procedures addressing incident
           reporting; incident reporting records and documentation;
           incident response plan; system security plan; privacy
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with incident reporting
           responsibilities; organizational personnel with
           information security and privacy responsibilities;
@@ -39,24 +39,24 @@ objectives:
           personnel (authorities) to whom incident information is to
           be reported; system users
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for incident reporting;
           mechanisms supporting and/or implementing incident
           reporting
-    statement: >
+    statement: >-
       personnel is/are required to report suspected incidents to the
       organizational incident response capability within
       {{ ir_06_odp_01 }};
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Incident response policy; procedures addressing incident
           reporting; incident reporting records and documentation;
           incident response plan; system security plan; privacy
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with incident reporting
           responsibilities; organizational personnel with
           information security and privacy responsibilities;
@@ -64,7 +64,7 @@ objectives:
           personnel (authorities) to whom incident information is to
           be reported; system users
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for incident reporting;
           mechanisms supporting and/or implementing incident
           reporting
@@ -77,7 +77,7 @@ parameters:
     label: authorities
 parts:
   - id: a
-    statement: >
+    statement: >-
       Require personnel to report suspected incidents to the
       organizational incident response capability within
       {{ ir_06_odp_01 }} ; and

@@ -22,46 +22,46 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Personally identifiable information processing and
           transparency policy and procedures; privacy plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with personally identifiable
           information processing and transparency responsibilities;
           organizational personnel with information security and
           privacy responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for authorizing the processing of
           personally identifiable information; mechanisms supporting
           and/or implementing the restriction of personally
           identifiable information processing
-    statement: >
+    statement: >-
       the {{ pt_02_odp_01 }} that permits the {{ pt_02_odp_02 }} of
       personally identifiable information is determined and
       documented;
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Personally identifiable information processing and
           transparency policy and procedures; privacy plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with personally identifiable
           information processing and transparency responsibilities;
           organizational personnel with information security and
           privacy responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for authorizing the processing of
           personally identifiable information; mechanisms supporting
           and/or implementing the restriction of personally
           identifiable information processing
-    statement: >
+    statement: >-
       the {{ pt_02_odp_03 }} of personally identifiable information
       is restricted to only that which is authorized.
 parameters:
@@ -73,10 +73,10 @@ parameters:
     label: processing
 parts:
   - id: a
-    statement: >
+    statement: >-
       Determine and document the {{ pt_02_odp_01 }} that permits the
       {{ pt_02_odp_02 }} of personally identifiable information; and
   - id: b
-    statement: >
+    statement: >-
       Restrict the {{ pt_02_odp_03 }} of personally identifiable
       information to only that which is authorized.

@@ -28,7 +28,7 @@ objectives:
   - id: "01"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           security assessment and monitoring policy and procedures;
           organizational continuous monitoring strategy;
           system-level continuous monitoring strategy; procedures
@@ -39,12 +39,12 @@ objectives:
           reports; system security plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           personnel with continuous monitoring responsibilities;
           personnel with information security responsibilities;
           system administrators
       - method: test
-        statement: >
+        statement: >-
           mechanisms for implementing continuous monitoring;
           mechanisms for supporting response actions for assessment
           and monitoring results; mechanisms for supporting security
@@ -54,7 +54,7 @@ objectives:
   - id: "02"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           security assessment and monitoring policy and procedures;
           organizational continuous monitoring strategy;
           system-level continuous monitoring strategy; procedures
@@ -65,12 +65,12 @@ objectives:
           reports; system security plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           personnel with continuous monitoring responsibilities;
           personnel with information security responsibilities;
           system administrators
       - method: test
-        statement: >
+        statement: >-
           mechanisms for implementing continuous monitoring;
           mechanisms for supporting response actions for assessment
           and monitoring results; mechanisms for supporting security
@@ -80,7 +80,7 @@ objectives:
   - id: "03"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           security assessment and monitoring policy and procedures;
           organizational continuous monitoring strategy;
           system-level continuous monitoring strategy; procedures
@@ -91,12 +91,12 @@ objectives:
           reports; system security plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           personnel with continuous monitoring responsibilities;
           personnel with information security responsibilities;
           system administrators
       - method: test
-        statement: >
+        statement: >-
           mechanisms for implementing continuous monitoring;
           mechanisms for supporting response actions for assessment
           and monitoring results; mechanisms for supporting security
@@ -107,7 +107,7 @@ objectives:
   - id: "04"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           security assessment and monitoring policy and procedures;
           organizational continuous monitoring strategy;
           system-level continuous monitoring strategy; procedures
@@ -118,12 +118,12 @@ objectives:
           reports; system security plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           personnel with continuous monitoring responsibilities;
           personnel with information security responsibilities;
           system administrators
       - method: test
-        statement: >
+        statement: >-
           mechanisms for implementing continuous monitoring;
           mechanisms for supporting response actions for assessment
           and monitoring results; mechanisms for supporting security
@@ -131,7 +131,7 @@ objectives:
     statement: >-
       security assessments are included in the continuous monitoring
       strategy.
-statement: >
+statement: >-
   Develop and implement a system-level continuous monitoring
   strategy that includes ongoing monitoring and security
   assessments.

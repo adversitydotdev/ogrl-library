@@ -12,96 +12,96 @@ objectives:
   - id: "ia-13(02).ia-13(02)[01]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Identification and authentication policy;; system security
           plan; system design documentation;; system configuration
           settings and associated documentation;; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system operations
           responsibilities;; organizational personnel with
           information security responsibilities;; system/ network
           administrators;; organizational personnel with account
           management responsibilities;; system developers
       - method: test
-        statement: >
+        statement: >-
           Identity provider mechanisms supporting and/or
           implementing identification and authentication
           capabilities and access rights
-    statement: >
+    statement: >-
       the source of identity assertions is verified before granting
       access to system and information resources;
   - id: "ia-13(02).ia-13(02)[02]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Identification and authentication policy;; system security
           plan; system design documentation;; system configuration
           settings and associated documentation;; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system operations
           responsibilities;; organizational personnel with
           information security responsibilities;; system/ network
           administrators;; organizational personnel with account
           management responsibilities;; system developers
       - method: test
-        statement: >
+        statement: >-
           Identity provider mechanisms supporting and/or
           implementing identification and authentication
           capabilities and access rights
-    statement: >
+    statement: >-
       the source of access tokens is verified before granting access
       to system and information resources;
   - id: "ia-13(02).ia-13(02)[03]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Identification and authentication policy;; system security
           plan; system design documentation;; system configuration
           settings and associated documentation;; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system operations
           responsibilities;; organizational personnel with
           information security responsibilities;; system/ network
           administrators;; organizational personnel with account
           management responsibilities;; system developers
       - method: test
-        statement: >
+        statement: >-
           Identity provider mechanisms supporting and/or
           implementing identification and authentication
           capabilities and access rights
-    statement: >
+    statement: >-
       the integrity of identity assertions is verified before
       granting access to system and information resources;
   - id: "ia-13(02).ia-13(02)[04]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Identification and authentication policy;; system security
           plan; system design documentation;; system configuration
           settings and associated documentation;; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system operations
           responsibilities;; organizational personnel with
           information security responsibilities;; system/ network
           administrators;; organizational personnel with account
           management responsibilities;; system developers
       - method: test
-        statement: >
+        statement: >-
           Identity provider mechanisms supporting and/or
           implementing identification and authentication
           capabilities and access rights
-    statement: >
+    statement: >-
       the integrity of access tokens is verified before granting
       access to system and information resources
-statement: >
+statement: >-
   The source and integrity of identity assertions and access tokens
   are verified before granting access to system and information
   resources.

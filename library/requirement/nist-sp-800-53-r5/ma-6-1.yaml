@@ -12,24 +12,24 @@ objectives:
   - id: "ma-06(01)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Maintenance policy; procedures addressing system
           maintenance; service provider contracts; service-level
           agreements; maintenance records; list of system components
           requiring preventive maintenance; system security plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system maintenance
           responsibilities; organizational personnel with
           information security responsibilities; system/network
           administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for preventive maintenance;
           mechanisms supporting and/or implementing preventive
           maintenance
-    statement: >
+    statement: >-
       preventive maintenance is performed on {{ ma_06_01_odp_01 }}
       at {{ ma_06_01_odp_02 }}.
 parameters:
@@ -37,6 +37,6 @@ parameters:
     label: system components
   ma_06_01_odp_02:
     label: time intervals
-statement: >
+statement: >-
   Perform preventive maintenance on {{ ma_06_01_odp_01 }} at
   {{ ma_06_01_odp_02 }}.

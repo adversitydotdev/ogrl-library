@@ -34,137 +34,137 @@ objectives:
   - id: a.1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           system component inventory; configuration management plan;
           system security plan; system design documentation; system
           component inventory; inventory reviews and update records;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with component inventory
           management responsibilities; organizational personnel with
           information security responsibilities; system/network
           administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for managing the system component
           inventory; mechanisms supporting and/or implementing
           system component inventory
-    statement: >
+    statement: >-
       an inventory of system components that accurately reflects the
       system is developed and documented;
   - id: a.2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           system component inventory; configuration management plan;
           system security plan; system design documentation; system
           component inventory; inventory reviews and update records;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with component inventory
           management responsibilities; organizational personnel with
           information security responsibilities; system/network
           administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for managing the system component
           inventory; mechanisms supporting and/or implementing
           system component inventory
-    statement: >
+    statement: >-
       an inventory of system components that includes all components
       within the system is developed and documented;
   - id: a.3
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           system component inventory; configuration management plan;
           system security plan; system design documentation; system
           component inventory; inventory reviews and update records;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with component inventory
           management responsibilities; organizational personnel with
           information security responsibilities; system/network
           administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for managing the system component
           inventory; mechanisms supporting and/or implementing
           system component inventory
-    statement: >
+    statement: >-
       an inventory of system components that does not include
       duplicate accounting of components or components assigned to
       any other system is developed and documented;
   - id: a.4
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           system component inventory; configuration management plan;
           system security plan; system design documentation; system
           component inventory; inventory reviews and update records;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with component inventory
           management responsibilities; organizational personnel with
           information security responsibilities; system/network
           administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for managing the system component
           inventory; mechanisms supporting and/or implementing
           system component inventory
-    statement: >
+    statement: >-
       an inventory of system components that is at the level of
       granularity deemed necessary for tracking and reporting is
       developed and documented;
   - id: a.5
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           system component inventory; configuration management plan;
           system security plan; system design documentation; system
           component inventory; inventory reviews and update records;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with component inventory
           management responsibilities; organizational personnel with
           information security responsibilities; system/network
           administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for managing the system component
           inventory; mechanisms supporting and/or implementing
           system component inventory
-    statement: >
+    statement: >-
       an inventory of system components that includes
       {{ cm_08_odp_01 }} is developed and documented;
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           system component inventory; configuration management plan;
           system security plan; system design documentation; system
           component inventory; inventory reviews and update records;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with component inventory
           management responsibilities; organizational personnel with
           information security responsibilities; system/network
           administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for managing the system component
           inventory; mechanisms supporting and/or implementing
           system component inventory
@@ -185,7 +185,7 @@ parts:
   - id: a.2
     statement: Includes all components within the system;
   - id: a.3
-    statement: >
+    statement: >-
       Does not include duplicate accounting of components or
       components assigned to any other system;
   - id: a.4
@@ -193,7 +193,7 @@ parts:
       Is at the level of granularity deemed necessary for tracking
       and reporting; and
   - id: a.5
-    statement: >
+    statement: >-
       Includes the following information to achieve system component
       accountability: {{ cm_08_odp_01 }} ; and
   - id: b

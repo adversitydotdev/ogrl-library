@@ -43,61 +43,61 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Risk assessment policy; security planning policy and
           procedures; procedures addressing security categorization
           of organizational information and systems; security
           categorization documentation; system security plan;
           privacy plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with security categorization and
           risk assessment responsibilities; organizational personnel
           with security and privacy responsibilities
       - method: test
         statement: >-
           Organizational processes for security categorization
-    statement: >
+    statement: >-
       the system and the information it processes, stores, and
       transmits are categorized;
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Risk assessment policy; security planning policy and
           procedures; procedures addressing security categorization
           of organizational information and systems; security
           categorization documentation; system security plan;
           privacy plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with security categorization and
           risk assessment responsibilities; organizational personnel
           with security and privacy responsibilities
       - method: test
         statement: >-
           Organizational processes for security categorization
-    statement: >
+    statement: >-
       the security categorization results, including supporting
       rationale, are documented in the security plan for the system;
   - id: c
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Risk assessment policy; security planning policy and
           procedures; procedures addressing security categorization
           of organizational information and systems; security
           categorization documentation; system security plan;
           privacy plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with security categorization and
           risk assessment responsibilities; organizational personnel
           with security and privacy responsibilities
       - method: test
         statement: >-
           Organizational processes for security categorization
-    statement: >
+    statement: >-
       the authorizing official or authorizing official designated
       representative reviews and approves the security
       categorization decision.
@@ -107,11 +107,11 @@ parts:
       Categorize the system and information it processes, stores,
       and transmits;
   - id: b
-    statement: >
+    statement: >-
       Document the security categorization results, including
       supporting rationale, in the security plan for the system; and
   - id: c
-    statement: >
+    statement: >-
       Verify that the authorizing official or authorizing official
       designated representative reviews and approves the security
       categorization decision.

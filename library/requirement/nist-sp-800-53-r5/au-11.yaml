@@ -16,19 +16,19 @@ objectives:
   - id: _obj
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Audit and accountability policy; system security plan;
           privacy plan; audit record retention policy and
           procedures; security plan; organization-defined retention
           period for audit records; audit record archives; audit
           logs; audit records; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with audit record retention
           responsibilities; organizational personnel with
           information security and privacy responsibilities;
           system/network administrators
-    statement: >
+    statement: >-
       audit records are retained for {{ au_11_odp }} to provide
       support for after-the-fact investigations of incidents and to
       meet regulatory and organizational information retention
@@ -36,7 +36,7 @@ objectives:
 parameters:
   au_11_odp:
     label: time period
-statement: >
+statement: >-
   Retain audit records for {{ au_11_odp }} to provide support for
   after-the-fact investigations of incidents and to meet regulatory
   and organizational information retention requirements.

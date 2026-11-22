@@ -12,7 +12,7 @@ objectives:
   - id: "si-07(17)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; procedures addressing
           software and information integrity; system design
@@ -21,13 +21,13 @@ objectives:
           addressed by runtime instrumentation; system security
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel responsible for software,
           firmware, and/or information integrity; organizational
           personnel with information security responsibilities;
           system/network administrators; system developer
       - method: test
-        statement: >
+        statement: >-
           Software, firmware, and information integrity verification
           tools; mechanisms supporting and/or implementing runtime
           application self-protection

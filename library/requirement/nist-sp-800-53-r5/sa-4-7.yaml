@@ -12,7 +12,7 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Supply chain risk management plan; system and services
           acquisition policy; procedures addressing the integration
           of security requirements, descriptions, and criteria into
@@ -24,7 +24,7 @@ objectives:
           functionality; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with acquisition/contracting
           responsibilities; organizational personnel with the
           responsibility for determining system security
@@ -35,11 +35,11 @@ objectives:
           functionality are FIPS-validated; organizational personnel
           with information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for selecting and employing
           products/services evaluated against a NIAP-approved
           protection profile or FIPS-validated products
-    statement: >
+    statement: >-
       the use of commercially provided information assurance and
       information assurance-enabled information technology products
       is limited to those products that have been successfully
@@ -49,7 +49,7 @@ objectives:
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Supply chain risk management plan; system and services
           acquisition policy; procedures addressing the integration
           of security requirements, descriptions, and criteria into
@@ -61,7 +61,7 @@ objectives:
           functionality; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with acquisition/contracting
           responsibilities; organizational personnel with the
           responsibility for determining system security
@@ -72,11 +72,11 @@ objectives:
           functionality are FIPS-validated; organizational personnel
           with information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for selecting and employing
           products/services evaluated against a NIAP-approved
           protection profile or FIPS-validated products
-    statement: >
+    statement: >-
       if no NIAP-approved Protection Profile exists for a specific
       technology type but a commercially provided information
       technology product relies on cryptographic functionality to
@@ -84,7 +84,7 @@ objectives:
       required to be FIPS-validated or NSA-approved.
 parts:
   - id: a
-    statement: >
+    statement: >-
       Limit the use of commercially provided information assurance
       and information assurance-enabled information technology
       products to those products that have been successfully
@@ -92,7 +92,7 @@ parts:
       (NIAP)-approved Protection Profile for a specific technology
       type, if such a profile exists; and
   - id: b
-    statement: >
+    statement: >-
       Require, if no NIAP-approved Protection Profile exists for a
       specific technology type but a commercially provided
       information technology product relies on cryptographic

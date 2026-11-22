@@ -12,7 +12,7 @@ objectives:
   - id: _obj
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing platform-independent applications; system
           design documentation; system configuration settings and
@@ -20,7 +20,7 @@ objectives:
           applications; system audit records; system security plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; system
           developer
@@ -33,6 +33,6 @@ objectives:
 parameters:
   sc_27_odp:
     label: platform-independent applications
-statement: >
+statement: >-
   Include within organizational systems the following platform
   independent applications: {{ sc_27_odp }}.

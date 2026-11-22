@@ -12,7 +12,7 @@ objectives:
   - id: "cm-03(02).cm-03(02)[01]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; configuration management
           plan; procedures addressing system configuration change
           control; system design documentation; system architecture
@@ -22,24 +22,24 @@ objectives:
           records; system security plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with configuration change control
           responsibilities; organizational personnel with
           information security responsibilities; system/network
           administrators; system developers; members of change
           control board or similar
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for configuration change control;
           mechanisms supporting and/or implementing, testing,
           validating, and documenting system changes
-    statement: >
+    statement: >-
       changes to the system are tested before finalizing the
       implementation of the changes;
   - id: "cm-03(02).cm-03(02)[02]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; configuration management
           plan; procedures addressing system configuration change
           control; system design documentation; system architecture
@@ -49,24 +49,24 @@ objectives:
           records; system security plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with configuration change control
           responsibilities; organizational personnel with
           information security responsibilities; system/network
           administrators; system developers; members of change
           control board or similar
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for configuration change control;
           mechanisms supporting and/or implementing, testing,
           validating, and documenting system changes
-    statement: >
+    statement: >-
       changes to the system are validated before finalizing the
       implementation of the changes;
   - id: "cm-03(02).cm-03(02)[03]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; configuration management
           plan; procedures addressing system configuration change
           control; system design documentation; system architecture
@@ -76,20 +76,20 @@ objectives:
           records; system security plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with configuration change control
           responsibilities; organizational personnel with
           information security responsibilities; system/network
           administrators; system developers; members of change
           control board or similar
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for configuration change control;
           mechanisms supporting and/or implementing, testing,
           validating, and documenting system changes
-    statement: >
+    statement: >-
       changes to the system are documented before finalizing the
       implementation of the changes.
-statement: >
+statement: >-
   Test, validate, and document changes to the system before
   finalizing the implementation of the changes.

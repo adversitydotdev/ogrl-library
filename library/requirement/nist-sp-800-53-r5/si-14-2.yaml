@@ -12,7 +12,7 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; procedures addressing
           non-persistence for system components; system design
@@ -20,12 +20,12 @@ objectives:
           associated documentation; system audit records; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel responsible for ensuring that
           information is and remains non-persistent; organizational
           personnel with information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for ensuring that information is
           and remains non-persistent; automated mechanisms
           supporting and/or implementing component and service
@@ -34,7 +34,7 @@ objectives:
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; procedures addressing
           non-persistence for system components; system design
@@ -42,12 +42,12 @@ objectives:
           associated documentation; system audit records; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel responsible for ensuring that
           information is and remains non-persistent; organizational
           personnel with information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for ensuring that information is
           and remains non-persistent; automated mechanisms
           supporting and/or implementing component and service

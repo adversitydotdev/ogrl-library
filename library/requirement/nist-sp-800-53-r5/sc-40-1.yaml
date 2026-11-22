@@ -12,7 +12,7 @@ objectives:
   - id: "sc-40(01)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; access
           control policy and procedures; procedures addressing
           wireless link protection; system design documentation;
@@ -22,7 +22,7 @@ objectives:
           categorization results; system audit records; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; system
           developer; organizational personnel installing,
@@ -30,16 +30,16 @@ objectives:
           personnel authorizing, installing, configuring, and/or
           maintaining internal and external wireless links
       - method: test
-        statement: >
+        statement: >-
           Cryptographic mechanisms enforcing protections against
           effects of intentional electromagnetic interference
-    statement: >
+    statement: >-
       cryptographic mechanisms that achieve {{ sc_40_01_odp }}
       against the effects of intentional electromagnetic
       interference are implemented.
 parameters:
   sc_40_01_odp:
     label: level of protection
-statement: >
+statement: >-
   Implement cryptographic mechanisms that achieve {{ sc_40_01_odp }}
   against the effects of intentional electromagnetic interference.

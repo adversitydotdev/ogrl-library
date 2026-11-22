@@ -16,14 +16,14 @@ objectives:
   - id: "[01]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           configuration management planning; configuration
           management plan; system design documentation; system
           security plan; privacy plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for
           developing the configuration management plan;
           organizational personnel with responsibilities for
@@ -34,7 +34,7 @@ objectives:
           security and privacy responsibilities; system/network
           administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for developing and documenting
           the configuration management plan; organizational
           processes for identifying and managing configuration
@@ -49,14 +49,14 @@ objectives:
   - id: "[02]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           configuration management planning; configuration
           management plan; system design documentation; system
           security plan; privacy plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for
           developing the configuration management plan;
           organizational personnel with responsibilities for
@@ -67,7 +67,7 @@ objectives:
           security and privacy responsibilities; system/network
           administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for developing and documenting
           the configuration management plan; organizational
           processes for identifying and managing configuration
@@ -81,14 +81,14 @@ objectives:
   - id: a-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           configuration management planning; configuration
           management plan; system design documentation; system
           security plan; privacy plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for
           developing the configuration management plan;
           organizational personnel with responsibilities for
@@ -99,7 +99,7 @@ objectives:
           security and privacy responsibilities; system/network
           administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for developing and documenting
           the configuration management plan; organizational
           processes for identifying and managing configuration
@@ -112,14 +112,14 @@ objectives:
   - id: a-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           configuration management planning; configuration
           management plan; system design documentation; system
           security plan; privacy plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for
           developing the configuration management plan;
           organizational personnel with responsibilities for
@@ -130,7 +130,7 @@ objectives:
           security and privacy responsibilities; system/network
           administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for developing and documenting
           the configuration management plan; organizational
           processes for identifying and managing configuration
@@ -144,14 +144,14 @@ objectives:
   - id: a-3
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           configuration management planning; configuration
           management plan; system design documentation; system
           security plan; privacy plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for
           developing the configuration management plan;
           organizational personnel with responsibilities for
@@ -162,7 +162,7 @@ objectives:
           security and privacy responsibilities; system/network
           administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for developing and documenting
           the configuration management plan; organizational
           processes for identifying and managing configuration
@@ -171,20 +171,20 @@ objectives:
           configuration management plan; mechanisms for managing
           configuration items; mechanisms for protecting the
           configuration management plan
-    statement: >
+    statement: >-
       the configuration management plan addresses configuration
       management processes and procedures;
   - id: b-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           configuration management planning; configuration
           management plan; system design documentation; system
           security plan; privacy plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for
           developing the configuration management plan;
           organizational personnel with responsibilities for
@@ -195,7 +195,7 @@ objectives:
           security and privacy responsibilities; system/network
           administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for developing and documenting
           the configuration management plan; organizational
           processes for identifying and managing configuration
@@ -204,21 +204,21 @@ objectives:
           configuration management plan; mechanisms for managing
           configuration items; mechanisms for protecting the
           configuration management plan
-    statement: >
+    statement: >-
       the configuration management plan establishes a process for
       identifying configuration items throughout the system
       development life cycle;
   - id: b-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           configuration management planning; configuration
           management plan; system design documentation; system
           security plan; privacy plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for
           developing the configuration management plan;
           organizational personnel with responsibilities for
@@ -229,7 +229,7 @@ objectives:
           security and privacy responsibilities; system/network
           administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for developing and documenting
           the configuration management plan; organizational
           processes for identifying and managing configuration
@@ -238,20 +238,20 @@ objectives:
           configuration management plan; mechanisms for managing
           configuration items; mechanisms for protecting the
           configuration management plan
-    statement: >
+    statement: >-
       the configuration management plan establishes a process for
       managing the configuration of the configuration items;
   - id: c-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           configuration management planning; configuration
           management plan; system design documentation; system
           security plan; privacy plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for
           developing the configuration management plan;
           organizational personnel with responsibilities for
@@ -262,7 +262,7 @@ objectives:
           security and privacy responsibilities; system/network
           administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for developing and documenting
           the configuration management plan; organizational
           processes for identifying and managing configuration
@@ -271,20 +271,20 @@ objectives:
           configuration management plan; mechanisms for managing
           configuration items; mechanisms for protecting the
           configuration management plan
-    statement: >
+    statement: >-
       the configuration management plan defines the configuration
       items for the system;
   - id: c-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           configuration management planning; configuration
           management plan; system design documentation; system
           security plan; privacy plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for
           developing the configuration management plan;
           organizational personnel with responsibilities for
@@ -295,7 +295,7 @@ objectives:
           security and privacy responsibilities; system/network
           administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for developing and documenting
           the configuration management plan; organizational
           processes for identifying and managing configuration
@@ -304,20 +304,20 @@ objectives:
           configuration management plan; mechanisms for managing
           configuration items; mechanisms for protecting the
           configuration management plan
-    statement: >
+    statement: >-
       the configuration management plan places the configuration
       items under configuration management;
   - id: d
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           configuration management planning; configuration
           management plan; system design documentation; system
           security plan; privacy plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for
           developing the configuration management plan;
           organizational personnel with responsibilities for
@@ -328,7 +328,7 @@ objectives:
           security and privacy responsibilities; system/network
           administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for developing and documenting
           the configuration management plan; organizational
           processes for identifying and managing configuration
@@ -343,14 +343,14 @@ objectives:
   - id: e-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           configuration management planning; configuration
           management plan; system design documentation; system
           security plan; privacy plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for
           developing the configuration management plan;
           organizational personnel with responsibilities for
@@ -361,7 +361,7 @@ objectives:
           security and privacy responsibilities; system/network
           administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for developing and documenting
           the configuration management plan; organizational
           processes for identifying and managing configuration
@@ -376,14 +376,14 @@ objectives:
   - id: e-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           configuration management planning; configuration
           management plan; system design documentation; system
           security plan; privacy plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for
           developing the configuration management plan;
           organizational personnel with responsibilities for
@@ -394,7 +394,7 @@ objectives:
           security and privacy responsibilities; system/network
           administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for developing and documenting
           the configuration management plan; organizational
           processes for identifying and managing configuration
@@ -411,24 +411,24 @@ parameters:
     label: personnel or roles
 parts:
   - id: a
-    statement: >
+    statement: >-
       Addresses roles, responsibilities, and configuration
       management processes and procedures;
   - id: b
-    statement: >
+    statement: >-
       Establishes a process for identifying configuration items
       throughout the system development life cycle and for managing
       the configuration of the configuration items;
   - id: c
-    statement: >
+    statement: >-
       Defines the configuration items for the system and places the
       configuration items under configuration management;
   - id: d
     statement: "Is reviewed and approved by {{ cm_09_odp }} ; and"
   - id: e
-    statement: >
+    statement: >-
       Protects the configuration management plan from unauthorized
       disclosure and modification.
-statement: >
+statement: >-
   Develop, document, and implement a configuration management plan
   for the system that:

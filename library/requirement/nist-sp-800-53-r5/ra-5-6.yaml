@@ -12,26 +12,26 @@ objectives:
   - id: "ra-05(06)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Risk assessment policy; procedures addressing
           vulnerability scanning; system design documentation;
           vulnerability scanning tools and techniques documentation;
           vulnerability scanning results; system security plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with vulnerability scanning
           responsibilities; organizational personnel with
           vulnerability scan analysis responsibilities;
           organizational personnel with security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for vulnerability scanning;
           automated mechanisms/tools supporting and/or implementing
           vulnerability scanning; automated mechanisms supporting
           and/or implementing trend analysis of vulnerability scan
           results
-    statement: >
+    statement: >-
       the results of multiple vulnerability scans are compared using
       {{ ra_05_06_odp }}.
 parameters:

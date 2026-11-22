@@ -12,7 +12,7 @@ objectives:
   - id: "sc-16(03)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing the transmission of security and privacy
           attributes; access control policy and procedures; system
@@ -20,19 +20,19 @@ objectives:
           associated documentation; system audit records; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities
       - method: test
         statement: >-
           Mechanisms supporting and/or implementing anti-spoofing
           mechanisms
-    statement: >
+    statement: >-
       {{ sc_16_03_odp }} are implemented to bind security and
       privacy attributes to transmitted information.
 parameters:
   sc_16_03_odp:
     label: mechanisms or techniques
-statement: >
+statement: >-
   Implement {{ sc_16_03_odp }} to bind security and privacy
   attributes to transmitted information.

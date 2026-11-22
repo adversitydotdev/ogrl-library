@@ -12,7 +12,7 @@ objectives:
   - id: "si-18(05)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; personally identifiable
           information processing policy; system configuration;
@@ -22,22 +22,22 @@ objectives:
           impact assessment; privacy risk assessment documentation;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel responsible for sending
           correction or deletion notices; organizational personnel
           with information security and privacy responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for notifications of correction
           or deletion; automated mechanisms supporting and/or
           implementing notifications of correction or deletion
-    statement: >
+    statement: >-
       {{ si_18_05_odp }} and individuals are notified when the
       personally identifiable information has been corrected or
       deleted.
 parameters:
   si_18_05_odp:
     label: recipients
-statement: >
+statement: >-
   Notify {{ si_18_05_odp }} and individuals that the personally
   identifiable information has been corrected or deleted.

@@ -12,7 +12,7 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Assessment, authorization, and monitoring policy;
           organizational continuous monitoring strategy;
           system-level continuous monitoring strategy; procedures
@@ -22,7 +22,7 @@ objectives:
           system security plan; privacy plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with continuous monitoring
           responsibilities; organizational personnel with
           information security and privacy responsibilities
@@ -33,7 +33,7 @@ objectives:
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Assessment, authorization, and monitoring policy;
           organizational continuous monitoring strategy;
           system-level continuous monitoring strategy; procedures
@@ -43,7 +43,7 @@ objectives:
           system security plan; privacy plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with continuous monitoring
           responsibilities; organizational personnel with
           information security and privacy responsibilities
@@ -53,7 +53,7 @@ objectives:
   - id: c
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Assessment, authorization, and monitoring policy;
           organizational continuous monitoring strategy;
           system-level continuous monitoring strategy; procedures
@@ -63,7 +63,7 @@ objectives:
           system security plan; privacy plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with continuous monitoring
           responsibilities; organizational personnel with
           information security and privacy responsibilities
@@ -77,6 +77,6 @@ parts:
     statement: Compliance monitoring; and
   - id: c
     statement: Change monitoring.
-statement: >
+statement: >-
   Ensure risk monitoring is an integral part of the continuous
   monitoring strategy that includes the following:

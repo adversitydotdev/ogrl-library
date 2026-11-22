@@ -12,7 +12,7 @@ objectives:
   - id: "au-12(01)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Audit and accountability policy; system security plan;
           privacy plan; procedures addressing audit record
           generation; system design documentation; system
@@ -20,7 +20,7 @@ objectives:
           system-wide audit trail (logical or physical); system
           audit records; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with audit record generation
           responsibilities; organizational personnel with
           information security and privacy responsibilities;
@@ -28,7 +28,7 @@ objectives:
       - method: test
         statement: >-
           Mechanisms implementing audit record generation capability
-    statement: >
+    statement: >-
       audit records from {{ au_12_01_odp_01 }} are compiled into a
       system-wide (logical or physical) audit trail that is
       time-correlated to within {{ au_12_01_odp_02 }}.
@@ -37,7 +37,7 @@ parameters:
     label: system components
   au_12_01_odp_02:
     label: level of tolerance
-statement: >
+statement: >-
   Compile audit records from {{ au_12_01_odp_01 }} into a
   system-wide (logical or physical) audit trail that is
   time-correlated to within {{ au_12_01_odp_02 }}.

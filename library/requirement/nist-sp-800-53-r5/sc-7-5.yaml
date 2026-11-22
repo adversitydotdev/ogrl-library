@@ -12,14 +12,14 @@ objectives:
   - id: "sc-07(05).sc-07(05)[01]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing boundary protection; system design
           documentation; system configuration settings and
           associated documentation; system audit records; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; system
           developer; organizational personnel with boundary
@@ -34,14 +34,14 @@ objectives:
   - id: "sc-07(05).sc-07(05)[02]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing boundary protection; system design
           documentation; system configuration settings and
           associated documentation; system audit records; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; system
           developer; organizational personnel with boundary
@@ -58,6 +58,6 @@ parameters:
     label: sc-07.05_odp.01
   sc_07_05_odp_02:
     label: systems
-statement: >
+statement: >-
   Deny network communications traffic by default and allow network
   communications traffic by exception {{ sc_07_05_odp_01 }}.

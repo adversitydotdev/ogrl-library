@@ -16,7 +16,7 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           media protection policy and procedures; procedures for
           media sanitization and disposal; applicable standards and
           policies that address media sanitization policy; system
@@ -26,18 +26,18 @@ objectives:
           disposition procedures; system security plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with media sanitization responsibilities;
           personnel with records retention and disposition
           responsibilities; personnel with information security
           responsibilities; system administrators
       - method: test
-        statement: >
+        statement: >-
           processes for media sanitization; mechanisms for
           supporting or implementing media sanitization
-    statement: >
+    statement: >-
       system media that contain CUI are sanitized prior to disposal,
       release out of organizational control, or release for reuse.
-statement: >
+statement: >-
   Sanitize system media that contain CUI prior to disposal, release
   out of organizational control, or release for reuse.

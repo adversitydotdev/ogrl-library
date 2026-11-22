@@ -17,7 +17,7 @@ objectives:
   - id: _obj-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing architecture and provisioning for name/address
           resolution services; access control policy and procedures;
@@ -27,22 +27,22 @@ objectives:
           records; system security plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; organizational
           personnel with responsibilities for managing DNS
       - method: test
-        statement: >
+        statement: >-
           Mechanisms supporting and/or implementing name/address
           resolution services for fault tolerance and role
           separation
-    statement: >
+    statement: >-
       the systems that collectively provide name/address resolution
       services for an organization are fault-tolerant;
   - id: _obj-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing architecture and provisioning for name/address
           resolution services; access control policy and procedures;
@@ -52,23 +52,23 @@ objectives:
           records; system security plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; organizational
           personnel with responsibilities for managing DNS
       - method: test
-        statement: >
+        statement: >-
           Mechanisms supporting and/or implementing name/address
           resolution services for fault tolerance and role
           separation
-    statement: >
+    statement: >-
       the systems that collectively provide name/address resolution
       services for an organization implement internal role
       separation;
   - id: _obj-3
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing architecture and provisioning for name/address
           resolution services; access control policy and procedures;
@@ -78,20 +78,20 @@ objectives:
           records; system security plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; organizational
           personnel with responsibilities for managing DNS
       - method: test
-        statement: >
+        statement: >-
           Mechanisms supporting and/or implementing name/address
           resolution services for fault tolerance and role
           separation
-    statement: >
+    statement: >-
       the systems that collectively provide name/address resolution
       services for an organization implement external role
       separation.
-statement: >
+statement: >-
   Ensure the systems that collectively provide name/address
   resolution service for an organization are fault-tolerant and
   implement internal and external role separation.

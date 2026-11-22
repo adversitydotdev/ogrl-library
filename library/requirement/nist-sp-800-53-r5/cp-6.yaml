@@ -16,19 +16,19 @@ objectives:
   - id: a-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Contingency planning policy; procedures addressing
           alternate storage sites; contingency plan; alternate
           storage site agreements; primary storage site agreements;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with contingency plan alternate
           storage site responsibilities; organizational personnel
           with system recovery responsibilities; organizational
           personnel with information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for storing and retrieving system
           backup information at the alternate storage site;
           mechanisms supporting and/or implementing the storage and
@@ -38,59 +38,59 @@ objectives:
   - id: a-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Contingency planning policy; procedures addressing
           alternate storage sites; contingency plan; alternate
           storage site agreements; primary storage site agreements;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with contingency plan alternate
           storage site responsibilities; organizational personnel
           with system recovery responsibilities; organizational
           personnel with information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for storing and retrieving system
           backup information at the alternate storage site;
           mechanisms supporting and/or implementing the storage and
           retrieval of system backup information at the alternate
           storage site
-    statement: >
+    statement: >-
       establishment of the alternate storage site includes necessary
       agreements to permit the storage and retrieval of system
       backup information;
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Contingency planning policy; procedures addressing
           alternate storage sites; contingency plan; alternate
           storage site agreements; primary storage site agreements;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with contingency plan alternate
           storage site responsibilities; organizational personnel
           with system recovery responsibilities; organizational
           personnel with information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for storing and retrieving system
           backup information at the alternate storage site;
           mechanisms supporting and/or implementing the storage and
           retrieval of system backup information at the alternate
           storage site
-    statement: >
+    statement: >-
       the alternate storage site provides controls equivalent to
       that of the primary site.
 parts:
   - id: a
-    statement: >
+    statement: >-
       Establish an alternate storage site, including necessary
       agreements to permit the storage and retrieval of system
       backup information; and
   - id: b
-    statement: >
+    statement: >-
       Ensure that the alternate storage site provides controls
       equivalent to that of the primary site.

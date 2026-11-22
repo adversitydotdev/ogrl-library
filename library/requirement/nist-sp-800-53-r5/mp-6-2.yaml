@@ -12,7 +12,7 @@ objectives:
   - id: "mp-06(02).mp-06(02)[01]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System media protection policy; procedures addressing
           media sanitization and disposal; procedures addressing
           testing of media sanitization equipment; results of media
@@ -22,26 +22,26 @@ objectives:
           security plan; privacy plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system media sanitization
           responsibilities; organizational personnel with records
           retention and disposition responsibilities; organizational
           personnel with information security and privacy
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for media sanitization; automated
           mechanisms supporting and/or implementing media
           sanitization; automated mechanisms supporting and/or
           implementing media sanitization procedures; sanitization
           equipment
-    statement: >
+    statement: >-
       sanitization equipment is tested {{ mp_06_02_odp_01 }} to
       ensure that the intended sanitization is being achieved;
   - id: "mp-06(02).mp-06(02)[02]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System media protection policy; procedures addressing
           media sanitization and disposal; procedures addressing
           testing of media sanitization equipment; results of media
@@ -51,20 +51,20 @@ objectives:
           security plan; privacy plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system media sanitization
           responsibilities; organizational personnel with records
           retention and disposition responsibilities; organizational
           personnel with information security and privacy
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for media sanitization; automated
           mechanisms supporting and/or implementing media
           sanitization; automated mechanisms supporting and/or
           implementing media sanitization procedures; sanitization
           equipment
-    statement: >
+    statement: >-
       sanitization procedures are tested {{ mp_06_02_odp_02 }} to
       ensure that the intended sanitization is being achieved.
 parameters:
@@ -74,6 +74,6 @@ parameters:
     label: frequency
   mp_6_2_prm_1:
     label: organization-defined frequency
-statement: >
+statement: >-
   Test sanitization equipment and procedures {{ mp_6_2_prm_1 }} to
   ensure that the intended sanitization is being achieved.

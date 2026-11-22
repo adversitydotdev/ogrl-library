@@ -12,7 +12,7 @@ objectives:
   - id: "au-13(03)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Audit and accountability policy; system security plan;
           privacy plan; procedures addressing information disclosure
           monitoring; procedures addressing information replication;
@@ -22,7 +22,7 @@ objectives:
           use of organizational information; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for
           monitoring unauthorized replication of information;
           organizational personnel with information security and
@@ -31,11 +31,11 @@ objectives:
         statement: >-
           Discovery tools for identifying unauthorized information
           replication
-    statement: >
+    statement: >-
       discovery techniques, processes, and tools are employed to
       determine if external entities are replicating organizational
       information in an unauthorized manner.
-statement: >
+statement: >-
   Employ discovery techniques, processes, and tools to determine if
   external entities are replicating organizational information in an
   unauthorized manner.

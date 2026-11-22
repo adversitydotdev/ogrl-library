@@ -12,7 +12,7 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           system component inventory; configuration management plan;
           system security plan; system design documentation; system
@@ -20,13 +20,13 @@ objectives:
           acknowledgements of system component assignments; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with component inventory
           management responsibilities; system owner; organizational
           personnel with information security responsibilities;
           system/network administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for assigning components to
           systems; organizational processes for acknowledging
           assignment of components to systems; mechanisms
@@ -37,7 +37,7 @@ objectives:
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           system component inventory; configuration management plan;
           system security plan; system design documentation; system
@@ -45,20 +45,20 @@ objectives:
           acknowledgements of system component assignments; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with component inventory
           management responsibilities; system owner; organizational
           personnel with information security responsibilities;
           system/network administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for assigning components to
           systems; organizational processes for acknowledging
           assignment of components to systems; mechanisms
           implementing assignment of components to the system;
           mechanisms implementing acknowledgment of assignment of
           components to the system
-    statement: >
+    statement: >-
       an acknowledgement of the component assignment is received
       from {{ cm_08_09_odp }}.
 parameters:

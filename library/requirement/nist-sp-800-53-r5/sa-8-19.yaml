@@ -12,7 +12,7 @@ objectives:
   - id: "sa-08(19)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; access control
           policy; system and communications protection policy;
           procedures addressing boundary protection; procedures
@@ -25,7 +25,7 @@ objectives:
           security and privacy architecture; system security plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with the responsibility for
           determining system security and privacy requirements;
           organizational personnel with system specification,
@@ -37,7 +37,7 @@ objectives:
           organizational personnel with boundary protection
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for applying the security design
           principle of continuous protection in system
           specification, design, development, implementation, and
@@ -47,12 +47,12 @@ objectives:
           system specification, design, development, implementation,
           and modification; mechanisms supporting and/or
           implementing secure failure
-    statement: >
+    statement: >-
       {{ sa_08_19_odp }} implement the security design principle of
       continuous protection.
 parameters:
   sa_08_19_odp:
     label: systems or system components
-statement: >
+statement: >-
   Implement the security design principle of continuous protection
   in {{ sa_08_19_odp }}.

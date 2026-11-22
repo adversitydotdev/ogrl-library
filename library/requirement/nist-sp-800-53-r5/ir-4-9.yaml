@@ -12,7 +12,7 @@ objectives:
   - id: "ir-04(09)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Incident response policy; procedures addressing incident
           handling; automated mechanisms supporting dynamic response
           capabilities; system design documentation; system
@@ -20,12 +20,12 @@ objectives:
           incident response plan; system security plan; audit
           records; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with incident handling
           responsibilities; organizational personnel with
           information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for dynamic response capability;
           automated mechanisms supporting and/or implementing the
           dynamic response capability for the organization

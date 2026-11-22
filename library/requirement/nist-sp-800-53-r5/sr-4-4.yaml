@@ -12,7 +12,7 @@ objectives:
   - id: "sr-04(04).sr-04(04)[01]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Supply chain risk management policy and procedures; supply
           chain risk management plan; system and services
           acquisition policy; procedures addressing supply chain
@@ -24,14 +24,14 @@ objectives:
           are tightly bound to the hardware itself; system security
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and services
           acquisition responsibilities; organizational personnel
           with information security responsibilities; organizational
           personnel with supply chain risk management
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for identifying pedigree
           information; organizational processes to determine and
           validate the integrity of the internal composition of
@@ -39,13 +39,13 @@ objectives:
           mechanisms to determine and validate the integrity of the
           internal composition of critical systems and critical
           system components
-    statement: >
+    statement: >-
       {{ sr_04_04_odp_01 }} are employed to ensure the integrity of
       the system and system components;
   - id: "sr-04(04).sr-04(04)[02]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Supply chain risk management policy and procedures; supply
           chain risk management plan; system and services
           acquisition policy; procedures addressing supply chain
@@ -57,14 +57,14 @@ objectives:
           are tightly bound to the hardware itself; system security
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and services
           acquisition responsibilities; organizational personnel
           with information security responsibilities; organizational
           personnel with supply chain risk management
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for identifying pedigree
           information; organizational processes to determine and
           validate the integrity of the internal composition of
@@ -72,7 +72,7 @@ objectives:
           mechanisms to determine and validate the integrity of the
           internal composition of critical systems and critical
           system components
-    statement: >
+    statement: >-
       {{ sr_04_04_odp_02 }} is conducted to ensure the integrity of
       the system and system components.
 parameters:
@@ -80,7 +80,7 @@ parameters:
     label: controls
   sr_04_04_odp_02:
     label: analysis method
-statement: >
+statement: >-
   Employ {{ sr_04_04_odp_01 }} and conduct {{ sr_04_04_odp_02 }} to
   ensure the integrity of the system and system components by
   validating the internal composition and provenance of critical or

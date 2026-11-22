@@ -40,7 +40,7 @@ objectives:
   - id: "[01]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Supply chain risk management policy; supply chain risk
           management procedures; supply chain risk management plan;
           system and services acquisition policy; system and
@@ -56,14 +56,14 @@ objectives:
           security plan; privacy plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with acquisition
           responsibilities; organizational personnel with
           information security and privacy responsibilities;
           organizational personnel with supply chain risk management
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for defining and employing
           tailored acquisition strategies, contract tools, and
           procurement methods; mechanisms supporting and/or
@@ -76,7 +76,7 @@ objectives:
   - id: "[02]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Supply chain risk management policy; supply chain risk
           management procedures; supply chain risk management plan;
           system and services acquisition policy; system and
@@ -92,14 +92,14 @@ objectives:
           security plan; privacy plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with acquisition
           responsibilities; organizational personnel with
           information security and privacy responsibilities;
           organizational personnel with supply chain risk management
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for defining and employing
           tailored acquisition strategies, contract tools, and
           procurement methods; mechanisms supporting and/or
@@ -111,7 +111,7 @@ objectives:
   - id: "[03]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Supply chain risk management policy; supply chain risk
           management procedures; supply chain risk management plan;
           system and services acquisition policy; system and
@@ -127,14 +127,14 @@ objectives:
           security plan; privacy plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with acquisition
           responsibilities; organizational personnel with
           information security and privacy responsibilities;
           organizational personnel with supply chain risk management
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for defining and employing
           tailored acquisition strategies, contract tools, and
           procurement methods; mechanisms supporting and/or
@@ -146,7 +146,7 @@ objectives:
 parameters:
   sr_05_odp:
     label: "strategies, tools, and methods"
-statement: >
+statement: >-
   Employ the following acquisition strategies, contract tools, and
   procurement methods to protect against, identify, and mitigate
   supply chain risks: {{ sr_05_odp }}.

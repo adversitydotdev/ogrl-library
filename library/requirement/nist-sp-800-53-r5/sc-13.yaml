@@ -16,7 +16,7 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing cryptographic protection; system design
           documentation; system configuration settings and
@@ -25,7 +25,7 @@ objectives:
           modules; system audit records; system security plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; system
           developer; organizational personnel with responsibilities
@@ -38,7 +38,7 @@ objectives:
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing cryptographic protection; system design
           documentation; system configuration settings and
@@ -47,7 +47,7 @@ objectives:
           modules; system audit records; system security plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; system
           developer; organizational personnel with responsibilities
@@ -56,7 +56,7 @@ objectives:
         statement: >-
           Mechanisms supporting and/or implementing cryptographic
           protection
-    statement: >
+    statement: >-
       {{ sc_13_odp_02 }} for each specified cryptographic use
       (defined in SC-13_ODP[01]) are implemented.
 parameters:
@@ -68,6 +68,6 @@ parts:
   - id: a
     statement: "Determine the {{ sc_13_odp_01 }} ; and"
   - id: b
-    statement: >
+    statement: >-
       Implement the following types of cryptography required for
       each specified cryptographic use: {{ sc_13_odp_02 }}.

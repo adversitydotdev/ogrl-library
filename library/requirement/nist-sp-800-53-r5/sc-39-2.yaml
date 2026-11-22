@@ -12,7 +12,7 @@ objectives:
   - id: "sc-39(02)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; system design
           documentation; system configuration settings and
           associated documentation; system architecture; list of
@@ -23,14 +23,14 @@ objectives:
           validation documentation; system security plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; system
           developer; organizational personnel installing,
           configuring, and/or maintaining the system; system
           developers/integrators
       - method: test
-        statement: >
+        statement: >-
           System capability implementing a separate execution domain
           for each thread in multi-threaded processing
     statement: >-

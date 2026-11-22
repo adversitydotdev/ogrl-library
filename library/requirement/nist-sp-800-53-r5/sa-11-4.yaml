@@ -12,7 +12,7 @@ objectives:
   - id: "sa-11(04)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; procedures
           addressing system developer security testing; processes,
           procedures, and/or techniques for performing manual code
@@ -25,7 +25,7 @@ objectives:
           manual code reviews; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and service
           acquisition responsibilities; organizational personnel
           with information security responsibilities; organizational
@@ -33,12 +33,12 @@ objectives:
           responsibilities; system developers; independent
           verification agent
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for monitoring developer security
           testing and evaluation; mechanisms supporting and/or
           implementing the monitoring of developer testing and
           evaluation
-    statement: >
+    statement: >-
       the developer of the system, system component, or system
       service is required to perform a manual code review of
       {{ sa_11_04_odp_01 }} using {{ sa_11_04_odp_02 }}.
@@ -47,7 +47,7 @@ parameters:
     label: specific code
   sa_11_04_odp_02:
     label: "processes, procedures, and/or techniques"
-statement: >
+statement: >-
   Require the developer of the system, system component, or system
   service to perform a manual code review of {{ sa_11_04_odp_01 }}
   using the following processes, procedures, and/or techniques:

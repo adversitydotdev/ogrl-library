@@ -12,7 +12,7 @@ objectives:
   - id: "cm-04(02).cm-04(02)[01]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           security impact analyses for changes to the system;
           procedures addressing privacy impact analyses for changes
@@ -24,25 +24,25 @@ objectives:
           system component inventory; system security plan; privacy
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibility for
           conducting security and privacy impact analyses;
           organizational personnel with information security and
           privacy responsibilities; system/network administrators;
           security and privacy assessors
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for security and privacy impact
           analyses; mechanisms supporting and/or implementing
           security and privacy impact analyses of changes
-    statement: >
+    statement: >-
       the impacted controls are implemented correctly with regard to
       meeting the security requirements for the system after system
       changes;
   - id: "cm-04(02).cm-04(02)[02]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           security impact analyses for changes to the system;
           procedures addressing privacy impact analyses for changes
@@ -54,25 +54,25 @@ objectives:
           system component inventory; system security plan; privacy
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibility for
           conducting security and privacy impact analyses;
           organizational personnel with information security and
           privacy responsibilities; system/network administrators;
           security and privacy assessors
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for security and privacy impact
           analyses; mechanisms supporting and/or implementing
           security and privacy impact analyses of changes
-    statement: >
+    statement: >-
       the impacted controls are implemented correctly with regard to
       meeting the privacy requirements for the system after system
       changes;
   - id: "cm-04(02).cm-04(02)[03]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           security impact analyses for changes to the system;
           procedures addressing privacy impact analyses for changes
@@ -84,25 +84,25 @@ objectives:
           system component inventory; system security plan; privacy
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibility for
           conducting security and privacy impact analyses;
           organizational personnel with information security and
           privacy responsibilities; system/network administrators;
           security and privacy assessors
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for security and privacy impact
           analyses; mechanisms supporting and/or implementing
           security and privacy impact analyses of changes
-    statement: >
+    statement: >-
       the impacted controls are operating as intended with regard to
       meeting the security requirements for the system after system
       changes;
   - id: "cm-04(02).cm-04(02)[04]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           security impact analyses for changes to the system;
           procedures addressing privacy impact analyses for changes
@@ -114,25 +114,25 @@ objectives:
           system component inventory; system security plan; privacy
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibility for
           conducting security and privacy impact analyses;
           organizational personnel with information security and
           privacy responsibilities; system/network administrators;
           security and privacy assessors
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for security and privacy impact
           analyses; mechanisms supporting and/or implementing
           security and privacy impact analyses of changes
-    statement: >
+    statement: >-
       the impacted controls are operating as intended with regard to
       meeting the privacy requirements for the system after system
       changes;
   - id: "cm-04(02).cm-04(02)[05]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           security impact analyses for changes to the system;
           procedures addressing privacy impact analyses for changes
@@ -144,25 +144,25 @@ objectives:
           system component inventory; system security plan; privacy
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibility for
           conducting security and privacy impact analyses;
           organizational personnel with information security and
           privacy responsibilities; system/network administrators;
           security and privacy assessors
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for security and privacy impact
           analyses; mechanisms supporting and/or implementing
           security and privacy impact analyses of changes
-    statement: >
+    statement: >-
       the impacted controls are producing the desired outcome with
       regard to meeting the security requirements for the system
       after system changes;
   - id: "cm-04(02).cm-04(02)[06]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           security impact analyses for changes to the system;
           procedures addressing privacy impact analyses for changes
@@ -174,22 +174,22 @@ objectives:
           system component inventory; system security plan; privacy
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibility for
           conducting security and privacy impact analyses;
           organizational personnel with information security and
           privacy responsibilities; system/network administrators;
           security and privacy assessors
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for security and privacy impact
           analyses; mechanisms supporting and/or implementing
           security and privacy impact analyses of changes
-    statement: >
+    statement: >-
       the impacted controls are producing the desired outcome with
       regard to meeting the privacy requirements for the system
       after system changes.
-statement: >
+statement: >-
   After system changes, verify that the impacted controls are
   implemented correctly, operating as intended, and producing the
   desired outcome with regard to meeting the security and privacy

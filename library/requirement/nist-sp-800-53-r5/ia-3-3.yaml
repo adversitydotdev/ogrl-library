@@ -12,7 +12,7 @@ objectives:
   - id: a-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Identification and authentication policy; system security
           plan; procedures addressing device identification and
           authentication; system design documentation; system
@@ -21,27 +21,27 @@ objectives:
           to devices; device connection reports; system audit
           records; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with operational responsibilities
           for device identification and authentication;
           organizational personnel with information security
           responsibilities; system/network administrators; system
           developers
       - method: test
-        statement: >
+        statement: >-
           Mechanisms supporting and/or implementing device
           identification and authentication capabilities; mechanisms
           supporting and/or implementing dynamic address allocation;
           mechanisms supporting and/or implanting auditing of lease
           information
-    statement: >
+    statement: >-
       dynamic address allocation lease information assigned to
       devices where addresses are allocated dynamically are
       standardized in accordance with {{ ia_03_03_odp_01 }};
   - id: a-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Identification and authentication policy; system security
           plan; procedures addressing device identification and
           authentication; system design documentation; system
@@ -50,27 +50,27 @@ objectives:
           to devices; device connection reports; system audit
           records; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with operational responsibilities
           for device identification and authentication;
           organizational personnel with information security
           responsibilities; system/network administrators; system
           developers
       - method: test
-        statement: >
+        statement: >-
           Mechanisms supporting and/or implementing device
           identification and authentication capabilities; mechanisms
           supporting and/or implementing dynamic address allocation;
           mechanisms supporting and/or implanting auditing of lease
           information
-    statement: >
+    statement: >-
       dynamic address allocation lease duration assigned to devices
       where addresses are allocated dynamically are standardized in
       accordance with {{ ia_03_03_odp_02 }};
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Identification and authentication policy; system security
           plan; procedures addressing device identification and
           authentication; system design documentation; system
@@ -79,14 +79,14 @@ objectives:
           to devices; device connection reports; system audit
           records; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with operational responsibilities
           for device identification and authentication;
           organizational personnel with information security
           responsibilities; system/network administrators; system
           developers
       - method: test
-        statement: >
+        statement: >-
           Mechanisms supporting and/or implementing device
           identification and authentication capabilities; mechanisms
           supporting and/or implementing dynamic address allocation;
@@ -103,7 +103,7 @@ parameters:
     label: organization-defined lease information and lease duration
 parts:
   - id: a
-    statement: >
+    statement: >-
       Where addresses are allocated dynamically, standardize dynamic
       address allocation lease information and the lease duration
       assigned to devices in accordance with {{ ia_3_3_prm_1 }} ;

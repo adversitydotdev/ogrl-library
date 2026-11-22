@@ -12,7 +12,7 @@ objectives:
   - id: "ia-02(10)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Identification and authentication policy; system security
           plan; procedures addressing single sign-on capability for
           system accounts and services; procedures addressing
@@ -22,14 +22,14 @@ objectives:
           system accounts and services requiring single sign-on
           capability; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system operations
           responsibilities; organizational personnel with account
           management responsibilities; organizational personnel with
           information security responsibilities; system/network
           administrators; system developers
       - method: test
-        statement: >
+        statement: >-
           Mechanisms supporting and/or implementing identification
           and authentication capabilities; mechanisms supporting
           and/or implementing single sign-on capability for system

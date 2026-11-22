@@ -12,7 +12,7 @@ objectives:
   - id: "sa-15(06)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; system and
           services acquisition procedures; procedures addressing
           development process, standards, and tools; solicitation
@@ -26,16 +26,16 @@ objectives:
           plan; privacy impact assessment; privacy risk assessment
           documentation; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and service
           acquisition responsibilities; organizational personnel
           with information security and privacy responsibilities;
           system developer
-    statement: >
+    statement: >-
       the developer of the system, system component, or system
       service is required to implement an explicit process to
       continuously improve the development process.
-statement: >
+statement: >-
   Require the developer of the system, system component, or system
   service to implement an explicit process to continuously improve
   the development process.

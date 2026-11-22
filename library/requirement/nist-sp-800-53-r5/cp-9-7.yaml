@@ -12,7 +12,7 @@ objectives:
   - id: "cp-09(07)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Contingency planning policy; procedures addressing system
           backup; contingency plan; system design documentation;
           system configuration settings and associated
@@ -21,21 +21,21 @@ objectives:
           destruction of backup information; system security plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system backup
           responsibilities; organizational personnel with
           information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Mechanisms supporting and/or implementing dual
           authorization; mechanisms supporting and/or implementing
           the deletion/destruction of backup information
-    statement: >
+    statement: >-
       dual authorization for the deletion or destruction of
       {{ cp_09_07_odp }} is enforced.
 parameters:
   cp_09_07_odp:
     label: backup information
-statement: >
+statement: >-
   Enforce dual authorization for the deletion or destruction of
   {{ cp_09_07_odp }}.

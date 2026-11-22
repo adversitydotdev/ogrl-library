@@ -12,7 +12,7 @@ objectives:
   - id: "sc-07(20)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing boundary protection; system design
           documentation; system hardware and software; system
@@ -22,21 +22,21 @@ objectives:
           system audit records; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; system
           developer; organizational personnel with boundary
           protection responsibilities
       - method: test
-        statement: >
+        statement: >-
           Mechanisms supporting and/or implementing the capability
           to dynamically isolate/segregate system components
-    statement: >
+    statement: >-
       the capability to dynamically isolate {{ sc_07_20_odp }} from
       other system components is provided.
 parameters:
   sc_07_20_odp:
     label: system components
-statement: >
+statement: >-
   Provide the capability to dynamically isolate {{ sc_07_20_odp }}
   from other system components.

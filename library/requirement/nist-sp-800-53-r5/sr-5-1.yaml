@@ -12,7 +12,7 @@ objectives:
   - id: "sr-05(01)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Supply chain risk management policy and procedures; supply
           chain risk management strategy; supply chain risk
           management plan; contingency planning documents; inventory
@@ -30,21 +30,21 @@ objectives:
           system service from suppliers; system security plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and services
           acquisition responsibilities; organizational personnel
           with information security responsibilities; organizational
           personnel with supply chain risk management
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for defining and employing
           tailored acquisition strategies, contract tools, and
           procurement methods; mechanisms supporting and/or
           implementing the definition and employment of tailored
           acquisition strategies, contract tools, and procurement
           methods
-    statement: >
+    statement: >-
       {{ sr_05_01_odp_01 }} are employed to ensure an adequate
       supply of {{ sr_05_01_odp_02 }}.
 parameters:
@@ -52,6 +52,6 @@ parameters:
     label: controls
   sr_05_01_odp_02:
     label: critical system components
-statement: >
+statement: >-
   Employ the following controls to ensure an adequate supply of
   {{ sr_05_01_odp_02 }}: {{ sr_05_01_odp_01 }}.

@@ -12,7 +12,7 @@ objectives:
   - id: "ps-04(02)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Personnel security policy; procedures addressing personnel
           termination; system design documentation; system
           configuration settings and associated documentation;
@@ -20,12 +20,12 @@ objectives:
           notifications of employee terminations; system security
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with personnel security
           responsibilities; organizational personnel with
           information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for personnel termination;
           automated mechanisms supporting and/or implementing
           personnel termination notifications

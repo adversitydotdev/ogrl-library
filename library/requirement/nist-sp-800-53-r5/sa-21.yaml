@@ -12,7 +12,7 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; personnel security
           policy and procedures; procedures addressing personnel
           screening; system design documentation; acquisition
@@ -24,23 +24,23 @@ objectives:
           documentation; system security plan; supply chain risk
           management plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and service
           acquisition responsibilities; organizational personnel
           with information security responsibilities; organizational
           personnel responsible for developer screening
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for developer screening;
           mechanisms supporting developer screening
-    statement: >
+    statement: >-
       the developer of {{ sa_21_odp_01 }} is required to have
       appropriate access authorizations as determined by assigned
       {{ sa_21_odp_02 }};
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; personnel security
           policy and procedures; procedures addressing personnel
           screening; system design documentation; acquisition
@@ -52,13 +52,13 @@ objectives:
           documentation; system security plan; supply chain risk
           management plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and service
           acquisition responsibilities; organizational personnel
           with information security responsibilities; organizational
           personnel responsible for developer screening
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for developer screening;
           mechanisms supporting developer screening
     statement: >-
@@ -73,11 +73,11 @@ parameters:
     label: additional personnel screening criteria
 parts:
   - id: a
-    statement: >
+    statement: >-
       Has appropriate access authorizations as determined by
       assigned {{ sa_21_odp_02 }} ; and
   - id: b
-    statement: >
+    statement: >-
       Satisfies the following additional personnel screening
       criteria: {{ sa_21_odp_03 }}.
 statement: "Require that the developer of {{ sa_21_odp_01 }}:"

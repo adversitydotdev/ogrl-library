@@ -12,13 +12,13 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           audit and accountability policy and procedures; procedures
           for timestamp generation; system design documentation;
           system configuration settings; system audit records;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with information security responsibilities;
           system developers; system administrators
       - method: test
@@ -29,18 +29,18 @@ objectives:
   - id: b.02
     methods:
       - method: examine
-        statement: >
+        statement: >-
           audit and accountability policy and procedures; procedures
           for timestamp generation; system design documentation;
           system configuration settings; system audit records;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with information security responsibilities;
           system developers; system administrators
       - method: test
         statement: mechanisms for implementing timestamp generation
-    statement: >
+    statement: >-
       time stamps are recorded for audit records that use
       Coordinated Universal Time (UTC), have a fixed local time
       offset from UTC, or include the local time offset as part of
@@ -48,13 +48,13 @@ objectives:
   - id: b.01
     methods:
       - method: examine
-        statement: >
+        statement: >-
           audit and accountability policy and procedures; procedures
           for timestamp generation; system design documentation;
           system configuration settings; system audit records;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with information security responsibilities;
           system developers; system administrators
       - method: test
@@ -71,7 +71,7 @@ parts:
       Use internal system clocks to generate time stamps for audit
       records.
   - id: b
-    statement: >
+    statement: >-
       Record time stamps for audit records that meet
       {{ a_03_03_07_odp_01 }} and that use Coordinated Universal
       Time (UTC), have a fixed local time offset from UTC, or

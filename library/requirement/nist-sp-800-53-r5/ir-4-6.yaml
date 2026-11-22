@@ -12,7 +12,7 @@ objectives:
   - id: "ir-04(06)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Incident response policy; procedures addressing incident
           handling; mechanisms supporting incident handling; system
           design documentation; system configuration settings and
@@ -20,15 +20,15 @@ objectives:
           security plan; audit records; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with incident handling
           responsibilities; organizational personnel with
           information security responsibilities
       - method: test
         statement: Incident handling capability for the organization
-    statement: >
+    statement: >-
       an incident handling capability is implemented for incidents
       involving insider threats.
-statement: >
+statement: >-
   Implement an incident handling capability for incidents involving
   insider threats.

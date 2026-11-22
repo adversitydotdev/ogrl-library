@@ -12,7 +12,7 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; procedures addressing
           malicious code protection; procedures addressing incident
@@ -25,7 +25,7 @@ objectives:
           audit records; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; organizational
           personnel installing, configuring, and/or maintaining the
@@ -34,19 +34,19 @@ objectives:
           flaw remediation; organizational personnel responsible for
           incident response/management
       - method: test
-        statement: >
+        statement: >-
           Organizational process for incident response;
           organizational process for flaw remediation; mechanisms
           supporting and/or implementing malicious code protection
           capabilities; tools and techniques for the analysis of
           malicious code characteristics and behavior
-    statement: >
+    statement: >-
       {{ si_03_10_odp }} are employed to analyze the characteristics
       and behavior of malicious code;
   - id: b-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; procedures addressing
           malicious code protection; procedures addressing incident
@@ -59,7 +59,7 @@ objectives:
           audit records; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; organizational
           personnel installing, configuring, and/or maintaining the
@@ -68,19 +68,19 @@ objectives:
           flaw remediation; organizational personnel responsible for
           incident response/management
       - method: test
-        statement: >
+        statement: >-
           Organizational process for incident response;
           organizational process for flaw remediation; mechanisms
           supporting and/or implementing malicious code protection
           capabilities; tools and techniques for the analysis of
           malicious code characteristics and behavior
-    statement: >
+    statement: >-
       the results from malicious code analysis are incorporated into
       organizational incident response processes;
   - id: b-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; procedures addressing
           malicious code protection; procedures addressing incident
@@ -93,7 +93,7 @@ objectives:
           audit records; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; organizational
           personnel installing, configuring, and/or maintaining the
@@ -102,13 +102,13 @@ objectives:
           flaw remediation; organizational personnel responsible for
           incident response/management
       - method: test
-        statement: >
+        statement: >-
           Organizational process for incident response;
           organizational process for flaw remediation; mechanisms
           supporting and/or implementing malicious code protection
           capabilities; tools and techniques for the analysis of
           malicious code characteristics and behavior
-    statement: >
+    statement: >-
       the results from malicious code analysis are incorporated into
       organizational flaw remediation processes.
 parameters:
@@ -116,12 +116,12 @@ parameters:
     label: tools and techniques
 parts:
   - id: a
-    statement: >
+    statement: >-
       Employ the following tools and techniques to analyze the
       characteristics and behavior of malicious code:
       {{ si_03_10_odp }} ; and
   - id: b
-    statement: >
+    statement: >-
       Incorporate the results from malicious code analysis into
       organizational incident response and flaw remediation
       processes.

@@ -12,7 +12,7 @@ objectives:
   - id: a.1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Identification and authentication policy; procedures
           addressing authenticator management; system security plan;
           system design documentation; system configuration settings
@@ -20,22 +20,22 @@ objectives:
           records; PKI certification revocation lists; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with PKI-based, authenticator
           management responsibilities; organizational personnel with
           information security responsibilities; system/network
           administrators; system developers
       - method: test
-        statement: >
+        statement: >-
           Mechanisms supporting and/or implementing PKI-based,
           authenticator management capability
-    statement: >
+    statement: >-
       authorized access to the corresponding private key is enforced
       for public key-based authentication;
   - id: a.2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Identification and authentication policy; procedures
           addressing authenticator management; system security plan;
           system design documentation; system configuration settings
@@ -43,22 +43,22 @@ objectives:
           records; PKI certification revocation lists; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with PKI-based, authenticator
           management responsibilities; organizational personnel with
           information security responsibilities; system/network
           administrators; system developers
       - method: test
-        statement: >
+        statement: >-
           Mechanisms supporting and/or implementing PKI-based,
           authenticator management capability
-    statement: >
+    statement: >-
       the authenticated identity is mapped to the account of the
       individual or group for public key-based authentication;
   - id: b.1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Identification and authentication policy; procedures
           addressing authenticator management; system security plan;
           system design documentation; system configuration settings
@@ -66,16 +66,16 @@ objectives:
           records; PKI certification revocation lists; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with PKI-based, authenticator
           management responsibilities; organizational personnel with
           information security responsibilities; system/network
           administrators; system developers
       - method: test
-        statement: >
+        statement: >-
           Mechanisms supporting and/or implementing PKI-based,
           authenticator management capability
-    statement: >
+    statement: >-
       when public key infrastructure (PKI) is used, certificates are
       validated by constructing and verifying a certification path
       to an accepted trust anchor, including checking certificate
@@ -83,7 +83,7 @@ objectives:
   - id: b.2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Identification and authentication policy; procedures
           addressing authenticator management; system security plan;
           system design documentation; system configuration settings
@@ -91,16 +91,16 @@ objectives:
           records; PKI certification revocation lists; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with PKI-based, authenticator
           management responsibilities; organizational personnel with
           information security responsibilities; system/network
           administrators; system developers
       - method: test
-        statement: >
+        statement: >-
           Mechanisms supporting and/or implementing PKI-based,
           authenticator management capability
-    statement: >
+    statement: >-
       when public key infrastructure (PKI) is used, a local cache of
       revocation data is implemented to support path discovery and
       validation.
@@ -118,11 +118,11 @@ parts:
   - id: b
     statement: "When public key infrastructure (PKI) is used:"
   - id: b.1
-    statement: >
+    statement: >-
       Validate certificates by constructing and verifying a
       certification path to an accepted trust anchor, including
       checking certificate status information; and
   - id: b.2
-    statement: >
+    statement: >-
       Implement a local cache of revocation data to support path
       discovery and validation.

@@ -12,14 +12,14 @@ objectives:
   - id: "ac-04(13)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; information flow control policies;
           procedures addressing information flow enforcement; system
           design documentation; system configuration settings and
           associated documentation; system audit records; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; system
           developers
@@ -27,14 +27,14 @@ objectives:
         statement: >-
           Mechanisms implementing information flow enforcement
           policy
-    statement: >
+    statement: >-
       when transferring information between different security
       domains, information is decomposed into {{ ac_04_13_odp }} for
       submission to policy enforcement mechanisms.
 parameters:
   ac_04_13_odp:
     label: policy-relevant subcomponents
-statement: >
+statement: >-
   When transferring information between different security domains,
   decompose information into {{ ac_04_13_odp }} for submission to
   policy enforcement mechanisms.

@@ -12,7 +12,7 @@ objectives:
   - id: _obj
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures for
           identification and documentation of information location;
           procedures for mapping data actions; configuration
@@ -21,7 +21,7 @@ objectives:
           data mapping documentation; change control records; system
           component inventory; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for
           managing information location; organizational personnel
           responsible for data action mapping; organizational
@@ -29,7 +29,7 @@ objectives:
           responsibilities; system/network administrators; system
           developers
       - method: test
-        statement: >
+        statement: >-
           Organizational processes governing information location;
           mechanisms supporting or implementing data action mapping
     statement: >-

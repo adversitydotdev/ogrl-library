@@ -12,7 +12,7 @@ objectives:
   - id: "ac-17(03)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; procedures addressing remote access
           to the system; system design documentation; list of all
           managed network access control points; system
@@ -20,16 +20,16 @@ objectives:
           system audit records; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Mechanisms routing all remote accesses through managed
           network access control points
-    statement: >
+    statement: >-
       remote accesses are routed through authorized and managed
       network access control points.
-statement: >
+statement: >-
   Route remote accesses through authorized and managed network
   access control points.

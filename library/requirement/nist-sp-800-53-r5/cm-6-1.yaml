@@ -12,7 +12,7 @@ objectives:
   - id: "cm-06(01).cm-06(01)[01]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           configuration settings for the system; configuration
           management plan; system design documentation; system
@@ -22,23 +22,23 @@ objectives:
           system security plan; privacy plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with security configuration
           management responsibilities; organizational personnel with
           information security and privacy responsibilities;
           system/network administrators; system developers
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for managing configuration
           settings; automated mechanisms implemented to manage,
           apply, and verify system configuration settings
-    statement: >
+    statement: >-
       configuration settings for {{ cm_06_01_odp_01 }} are managed
       using {{ cm_06_01_odp_02 }};
   - id: "cm-06(01).cm-06(01)[02]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           configuration settings for the system; configuration
           management plan; system design documentation; system
@@ -48,23 +48,23 @@ objectives:
           system security plan; privacy plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with security configuration
           management responsibilities; organizational personnel with
           information security and privacy responsibilities;
           system/network administrators; system developers
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for managing configuration
           settings; automated mechanisms implemented to manage,
           apply, and verify system configuration settings
-    statement: >
+    statement: >-
       configuration settings for {{ cm_06_01_odp_01 }} are applied
       using {{ cm_06_01_odp_03 }};
   - id: "cm-06(01).cm-06(01)[03]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           configuration settings for the system; configuration
           management plan; system design documentation; system
@@ -74,17 +74,17 @@ objectives:
           system security plan; privacy plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with security configuration
           management responsibilities; organizational personnel with
           information security and privacy responsibilities;
           system/network administrators; system developers
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for managing configuration
           settings; automated mechanisms implemented to manage,
           apply, and verify system configuration settings
-    statement: >
+    statement: >-
       configuration settings for {{ cm_06_01_odp_01 }} are verified
       using {{ cm_06_01_odp_04 }}.
 parameters:
@@ -98,6 +98,6 @@ parameters:
     label: automated mechanisms
   cm_6_1_prm_2:
     label: organization-defined automated mechanisms
-statement: >
+statement: >-
   Manage, apply, and verify configuration settings for
   {{ cm_06_01_odp_01 }} using {{ cm_6_1_prm_2 }}.

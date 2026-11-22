@@ -12,7 +12,7 @@ objectives:
   - id: _obj
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Contingency planning policy; procedures addressing
           alternate security mechanisms; contingency plan;
           continuity of operations plan; system design
@@ -21,7 +21,7 @@ objectives:
           contingency plan test results; system security plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system operation
           responsibilities; organizational personnel with
           information security responsibilities
@@ -29,7 +29,7 @@ objectives:
         statement: >-
           system capability implementing alternative security
           mechanisms
-    statement: >
+    statement: >-
       {{ cp_13_odp_01 }} are employed for satisfying
       {{ cp_13_odp_02 }} when the primary means of implementing the
       security function is unavailable or compromised.
@@ -38,7 +38,7 @@ parameters:
     label: alternative or supplemental security mechanisms
   cp_13_odp_02:
     label: security functions
-statement: >
+statement: >-
   Employ {{ cp_13_odp_01 }} for satisfying {{ cp_13_odp_02 }} when
   the primary means of implementing the security function is
   unavailable or compromised.

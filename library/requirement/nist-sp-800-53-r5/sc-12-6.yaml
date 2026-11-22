@@ -12,7 +12,7 @@ objectives:
   - id: "sc-12(06)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing cryptographic key establishment, management,
           and recovery; system design documentation; system
@@ -20,18 +20,18 @@ objectives:
           system audit records; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; organizational
           personnel with responsibilities for cryptographic key
           establishment or management
       - method: test
-        statement: >
+        statement: >-
           Mechanisms supporting and/or implementing cryptographic
           key establishment and management
-    statement: >
+    statement: >-
       physical control of cryptographic keys is maintained when
       stored information is encrypted by external service providers.
-statement: >
+statement: >-
   Maintain physical control of cryptographic keys when stored
   information is encrypted by external service providers.

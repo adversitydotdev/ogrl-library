@@ -13,7 +13,7 @@ objectives:
   - id: "ac-06(10)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; procedures addressing least
           privilege; system design documentation; system
           configuration settings and associated documentation; list
@@ -21,7 +21,7 @@ objectives:
           assignments; system audit records; system security plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for
           defining least privileges necessary to accomplish
           specified tasks; organizational personnel with information

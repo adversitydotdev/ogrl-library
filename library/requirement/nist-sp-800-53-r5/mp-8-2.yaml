@@ -12,7 +12,7 @@ objectives:
   - id: "mp-08(02).mp-08(02)[01]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System media protection policy; procedures addressing
           media downgrading; procedures addressing testing of media
           downgrading equipment; results of downgrading equipment
@@ -20,21 +20,21 @@ objectives:
           audit records; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system media downgrading
           responsibilities; organizational personnel with
           information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for media downgrading; mechanisms
           supporting and/or implementing media downgrading
-    statement: >
+    statement: >-
       downgrading equipment is tested {{ mp_08_02_odp_01 }} to
       ensure that downgrading actions are being achieved;
   - id: "mp-08(02).mp-08(02)[02]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System media protection policy; procedures addressing
           media downgrading; procedures addressing testing of media
           downgrading equipment; results of downgrading equipment
@@ -42,15 +42,15 @@ objectives:
           audit records; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system media downgrading
           responsibilities; organizational personnel with
           information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for media downgrading; mechanisms
           supporting and/or implementing media downgrading
-    statement: >
+    statement: >-
       downgrading procedures are tested {{ mp_08_02_odp_02 }} to
       ensure that downgrading actions are being achieved.
 parameters:
@@ -60,6 +60,6 @@ parameters:
     label: frequency
   mp_8_2_prm_1:
     label: organization-defined frequency
-statement: >
+statement: >-
   Test downgrading equipment and procedures {{ mp_8_2_prm_1 }} to
   ensure that downgrading actions are being achieved.

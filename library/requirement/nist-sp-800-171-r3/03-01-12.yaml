@@ -31,7 +31,7 @@ objectives:
   - id: a.01
     methods:
       - method: examine
-        statement: >
+        statement: >-
           access control policy and procedures; procedures for
           remote system access; remote system access configuration
           and connection requirements; configuration management
@@ -42,12 +42,12 @@ objectives:
           control points; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with responsibilities for managing remote access
           connections; personnel with information security
           responsibilities; system administrators
       - method: test
-        statement: >
+        statement: >-
           mechanisms for monitoring and controlling remote access
           methods; mechanisms for routing remote accesses through
           managed access control points; remote access management
@@ -56,7 +56,7 @@ objectives:
   - id: a.02
     methods:
       - method: examine
-        statement: >
+        statement: >-
           access control policy and procedures; procedures for
           remote system access; remote system access configuration
           and connection requirements; configuration management
@@ -67,23 +67,23 @@ objectives:
           control points; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with responsibilities for managing remote access
           connections; personnel with information security
           responsibilities; system administrators
       - method: test
-        statement: >
+        statement: >-
           mechanisms for monitoring and controlling remote access
           methods; mechanisms for routing remote accesses through
           managed access control points; remote access management
           capability for the system
-    statement: >
+    statement: >-
       usage restrictions are established for each type of allowable
       remote system access.
   - id: a.03
     methods:
       - method: examine
-        statement: >
+        statement: >-
           access control policy and procedures; procedures for
           remote system access; remote system access configuration
           and connection requirements; configuration management
@@ -94,23 +94,23 @@ objectives:
           control points; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with responsibilities for managing remote access
           connections; personnel with information security
           responsibilities; system administrators
       - method: test
-        statement: >
+        statement: >-
           mechanisms for monitoring and controlling remote access
           methods; mechanisms for routing remote accesses through
           managed access control points; remote access management
           capability for the system
-    statement: >
+    statement: >-
       configuration requirements are established for each type of
       allowable remote system access.
   - id: a.04
     methods:
       - method: examine
-        statement: >
+        statement: >-
           access control policy and procedures; procedures for
           remote system access; remote system access configuration
           and connection requirements; configuration management
@@ -121,23 +121,23 @@ objectives:
           control points; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with responsibilities for managing remote access
           connections; personnel with information security
           responsibilities; system administrators
       - method: test
-        statement: >
+        statement: >-
           mechanisms for monitoring and controlling remote access
           methods; mechanisms for routing remote accesses through
           managed access control points; remote access management
           capability for the system
-    statement: >
+    statement: >-
       connection requirements are established for each type of
       allowable remote system access.
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           access control policy and procedures; procedures for
           remote system access; remote system access configuration
           and connection requirements; configuration management
@@ -148,23 +148,23 @@ objectives:
           control points; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with responsibilities for managing remote access
           connections; personnel with information security
           responsibilities; system administrators
       - method: test
-        statement: >
+        statement: >-
           mechanisms for monitoring and controlling remote access
           methods; mechanisms for routing remote accesses through
           managed access control points; remote access management
           capability for the system
-    statement: >
+    statement: >-
       each type of remote system access is authorized prior to
       establishing such connections.
   - id: c.01
     methods:
       - method: examine
-        statement: >
+        statement: >-
           access control policy and procedures; procedures for
           remote system access; remote system access configuration
           and connection requirements; configuration management
@@ -175,12 +175,12 @@ objectives:
           control points; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with responsibilities for managing remote access
           connections; personnel with information security
           responsibilities; system administrators
       - method: test
-        statement: >
+        statement: >-
           mechanisms for monitoring and controlling remote access
           methods; mechanisms for routing remote accesses through
           managed access control points; remote access management
@@ -191,7 +191,7 @@ objectives:
   - id: c.02
     methods:
       - method: examine
-        statement: >
+        statement: >-
           access control policy and procedures; procedures for
           remote system access; remote system access configuration
           and connection requirements; configuration management
@@ -202,12 +202,12 @@ objectives:
           control points; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with responsibilities for managing remote access
           connections; personnel with information security
           responsibilities; system administrators
       - method: test
-        statement: >
+        statement: >-
           mechanisms for monitoring and controlling remote access
           methods; mechanisms for routing remote accesses through
           managed access control points; remote access management
@@ -218,7 +218,7 @@ objectives:
   - id: d.1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           access control policy and procedures; procedures for
           remote system access; remote system access configuration
           and connection requirements; configuration management
@@ -229,12 +229,12 @@ objectives:
           control points; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with responsibilities for managing remote access
           connections; personnel with information security
           responsibilities; system administrators
       - method: test
-        statement: >
+        statement: >-
           mechanisms for monitoring and controlling remote access
           methods; mechanisms for routing remote accesses through
           managed access control points; remote access management
@@ -244,7 +244,7 @@ objectives:
   - id: d.2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           access control policy and procedures; procedures for
           remote system access; remote system access configuration
           and connection requirements; configuration management
@@ -255,12 +255,12 @@ objectives:
           control points; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with responsibilities for managing remote access
           connections; personnel with information security
           responsibilities; system administrators
       - method: test
-        statement: >
+        statement: >-
           mechanisms for monitoring and controlling remote access
           methods; mechanisms for routing remote accesses through
           managed access control points; remote access management
@@ -269,19 +269,19 @@ objectives:
       remote access to security-relevant information is authorized.
 parts:
   - id: a
-    statement: >
+    statement: >-
       Establish usage restrictions, configuration requirements, and
       connection requirements for each type of allowable remote
       system access.
   - id: b
-    statement: >
+    statement: >-
       Authorize each type of remote system access prior to
       establishing such connections.
   - id: c
-    statement: >
+    statement: >-
       Route remote access to the system through authorized and
       managed access control points.
   - id: d
-    statement: >
+    statement: >-
       Authorize the remote execution of privileged commands and
       remote access to security-relevant information.

@@ -22,7 +22,7 @@ objectives:
   - id: a.01
     methods:
       - method: examine
-        statement: >
+        statement: >-
           configuration management policy and procedures; procedures
           for system configuration settings; configuration
           management plan; system design documentation; system
@@ -34,17 +34,17 @@ objectives:
           records; system security plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           personnel with security configuration management
           responsibilities; personnel with information security
           responsibilities; system administrators
       - method: test
-        statement: >
+        statement: >-
           processes for managing configuration settings; mechanisms
           that implement, monitor, or control system configuration
           settings; mechanisms that identify or document deviations
           from established configuration settings
-    statement: >
+    statement: >-
       the following configuration settings for the system that
       reflect the most restrictive mode consistent with operational
       requirements are established and documented:
@@ -52,7 +52,7 @@ objectives:
   - id: b.01
     methods:
       - method: examine
-        statement: >
+        statement: >-
           configuration management policy and procedures; procedures
           for system configuration settings; configuration
           management plan; system design documentation; system
@@ -64,23 +64,23 @@ objectives:
           records; system security plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           personnel with security configuration management
           responsibilities; personnel with information security
           responsibilities; system administrators
       - method: test
-        statement: >
+        statement: >-
           processes for managing configuration settings; mechanisms
           that implement, monitor, or control system configuration
           settings; mechanisms that identify or document deviations
           from established configuration settings
-    statement: >
+    statement: >-
       any deviations from established configuration settings are
       identified and documented.
   - id: b.02
     methods:
       - method: examine
-        statement: >
+        statement: >-
           configuration management policy and procedures; procedures
           for system configuration settings; configuration
           management plan; system design documentation; system
@@ -92,12 +92,12 @@ objectives:
           records; system security plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           personnel with security configuration management
           responsibilities; personnel with information security
           responsibilities; system administrators
       - method: test
-        statement: >
+        statement: >-
           processes for managing configuration settings; mechanisms
           that implement, monitor, or control system configuration
           settings; mechanisms that identify or document deviations
@@ -108,7 +108,7 @@ objectives:
   - id: a.02
     methods:
       - method: examine
-        statement: >
+        statement: >-
           configuration management policy and procedures; procedures
           for system configuration settings; configuration
           management plan; system design documentation; system
@@ -120,17 +120,17 @@ objectives:
           records; system security plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           personnel with security configuration management
           responsibilities; personnel with information security
           responsibilities; system administrators
       - method: test
-        statement: >
+        statement: >-
           processes for managing configuration settings; mechanisms
           that implement, monitor, or control system configuration
           settings; mechanisms that identify or document deviations
           from established configuration settings
-    statement: >
+    statement: >-
       the following configuration settings for the system are
       implemented: {{ a_03_04_02_odp_01 }}.
 parameters:
@@ -138,12 +138,12 @@ parameters:
     label: configuration settings
 parts:
   - id: a
-    statement: >
+    statement: >-
       Establish, document, and implement the following configuration
       settings for the system that reflect the most restrictive mode
       consistent with operational requirements:
       {{ a_03_04_02_odp_01 }} .
   - id: b
-    statement: >
+    statement: >-
       Identify, document, and approve any deviations from
       established configuration settings.

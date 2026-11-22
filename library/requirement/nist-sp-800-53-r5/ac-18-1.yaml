@@ -12,14 +12,14 @@ objectives:
   - id: "ac-18(01).ac-18(01)[01]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; procedures addressing wireless
           implementation and usage (including restrictions); system
           design documentation; system configuration settings and
           associated documentation; system audit records; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; system
           developers
@@ -27,20 +27,20 @@ objectives:
         statement: >-
           Mechanisms implementing wireless access protections to the
           system
-    statement: >
+    statement: >-
       wireless access to the system is protected using
       authentication of {{ ac_18_01_odp }};
   - id: "ac-18(01).ac-18(01)[02]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; procedures addressing wireless
           implementation and usage (including restrictions); system
           design documentation; system configuration settings and
           associated documentation; system audit records; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; system
           developers
@@ -53,6 +53,6 @@ objectives:
 parameters:
   ac_18_01_odp:
     label: ac-18.01_odp
-statement: >
+statement: >-
   Protect wireless access to the system using authentication of
   {{ ac_18_01_odp }} and encryption.

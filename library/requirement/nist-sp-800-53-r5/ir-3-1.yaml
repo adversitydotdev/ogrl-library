@@ -12,7 +12,7 @@ objectives:
   - id: "ir-03(01)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Incident response policy; contingency planning policy;
           procedures addressing incident response testing;
           procedures addressing contingency plan testing; incident
@@ -22,12 +22,12 @@ objectives:
           mechanisms supporting incident response tests; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with incident response testing
           responsibilities; organizational personnel with
           information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Automated mechanisms that more thoroughly and effectively
           test the incident response capability
     statement: >-

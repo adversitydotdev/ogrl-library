@@ -12,7 +12,7 @@ objectives:
   - id: "cp-02(05).cp-02(05)[01]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Contingency planning policy; procedures addressing
           contingency operations for the system; contingency plan;
           business impact assessment; primary processing site
@@ -22,7 +22,7 @@ objectives:
           contingency plan test results; system security plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with contingency planning and
           plan implementation responsibilities; organizational
           personnel with knowledge of requirements for mission and
@@ -32,14 +32,14 @@ objectives:
         statement: >-
           Organizational processes for continuing missions and
           business functions
-    statement: >
+    statement: >-
       the continuance of {{ cp_02_05_odp }} mission and business
       functions with minimal or no loss of operational continuity is
       planned for;
   - id: "cp-02(05).cp-02(05)[02]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Contingency planning policy; procedures addressing
           contingency operations for the system; contingency plan;
           business impact assessment; primary processing site
@@ -49,7 +49,7 @@ objectives:
           contingency plan test results; system security plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with contingency planning and
           plan implementation responsibilities; organizational
           personnel with knowledge of requirements for mission and
@@ -59,13 +59,13 @@ objectives:
         statement: >-
           Organizational processes for continuing missions and
           business functions
-    statement: >
+    statement: >-
       continuity is sustained until full system restoration at
       primary processing and/or storage sites.
 parameters:
   cp_02_05_odp:
     label: cp-02.05_odp
-statement: >
+statement: >-
   Plan for the continuance of {{ cp_02_05_odp }} mission and
   business functions with minimal or no loss of operational
   continuity and sustains that continuity until full system

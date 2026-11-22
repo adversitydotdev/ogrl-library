@@ -12,7 +12,7 @@ objectives:
   - id: "si-04(18).si-04(18)[01]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; procedures addressing
           system monitoring tools and techniques; system design
@@ -22,7 +22,7 @@ objectives:
           logs or records; system audit records; system security
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; organizational
           personnel installing, configuring, and/or maintaining the
@@ -30,20 +30,20 @@ objectives:
           monitoring the system; organizational personnel
           responsible for the intrusion detection system
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for intrusion detection and
           system monitoring; mechanisms supporting and/or
           implementing intrusion detection and system monitoring
           capabilities; mechanisms supporting and/or implementing an
           analysis of outbound communications traffic
-    statement: >
+    statement: >-
       outbound communications traffic is analyzed at interfaces
       external to the system to detect covert exfiltration of
       information;
   - id: "si-04(18).si-04(18)[02]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; procedures addressing
           system monitoring tools and techniques; system design
@@ -53,7 +53,7 @@ objectives:
           logs or records; system audit records; system security
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; organizational
           personnel installing, configuring, and/or maintaining the
@@ -61,20 +61,20 @@ objectives:
           monitoring the system; organizational personnel
           responsible for the intrusion detection system
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for intrusion detection and
           system monitoring; mechanisms supporting and/or
           implementing intrusion detection and system monitoring
           capabilities; mechanisms supporting and/or implementing an
           analysis of outbound communications traffic
-    statement: >
+    statement: >-
       outbound communications traffic is analyzed at
       {{ si_04_18_odp }} to detect covert exfiltration of
       information.
 parameters:
   si_04_18_odp:
     label: interior points
-statement: >
+statement: >-
   Analyze outbound communications traffic at external interfaces to
   the system and at the following interior points to detect covert
   exfiltration of information: {{ si_04_18_odp }}.

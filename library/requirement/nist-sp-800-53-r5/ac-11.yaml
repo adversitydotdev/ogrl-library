@@ -12,14 +12,14 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; procedures addressing session lock;
           procedures addressing identification and authentication;
           system design documentation; system configuration settings
           and associated documentation; security plan; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; system
           developers
@@ -33,14 +33,14 @@ objectives:
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; procedures addressing session lock;
           procedures addressing identification and authentication;
           system design documentation; system configuration settings
           and associated documentation; security plan; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; system
           developers
@@ -48,7 +48,7 @@ objectives:
         statement: >-
           Mechanisms implementing access control policy for session
           lock
-    statement: >
+    statement: >-
       device lock is retained until the user re-establishes access
       using established identification and authentication
       procedures.
@@ -63,7 +63,7 @@ parts:
       Prevent further access to the system by {{ ac_11_odp_01 }} ;
       and
   - id: b
-    statement: >
+    statement: >-
       Retain the device lock until the user reestablishes access
       using established identification and authentication
       procedures.

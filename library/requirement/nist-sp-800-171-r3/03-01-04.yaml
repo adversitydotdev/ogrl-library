@@ -19,7 +19,7 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           access control policy and procedures; procedures for the
           separation of duties and the division of responsibilities;
           system configuration settings; system audit records;
@@ -27,7 +27,7 @@ objectives:
           responsibility and separation of duties; system security
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with responsibilities for defining the
           separation of duties and the division of responsibilities;
           personnel with information security responsibilities;
@@ -41,7 +41,7 @@ objectives:
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           access control policy and procedures; procedures for the
           separation of duties and the division of responsibilities;
           system configuration settings; system audit records;
@@ -49,7 +49,7 @@ objectives:
           responsibility and separation of duties; system security
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with responsibilities for defining the
           separation of duties and the division of responsibilities;
           personnel with information security responsibilities;

@@ -12,7 +12,7 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; enterprise
           architecture policy; procedures addressing developer
           security architecture and design specifications for the
@@ -26,13 +26,13 @@ objectives:
           hardware, software, and firmware components; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and service
           acquisition responsibilities; organizational personnel
           with information security responsibilities; system
           developer; organizational personnel with information
           security architecture and design responsibilities
-    statement: >
+    statement: >-
       the developer of the system, system component, or system
       service is required to design and structure the
       security-relevant hardware, software, and firmware to use a
@@ -41,7 +41,7 @@ objectives:
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; enterprise
           architecture policy; procedures addressing developer
           security architecture and design specifications for the
@@ -55,25 +55,25 @@ objectives:
           hardware, software, and firmware components; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and service
           acquisition responsibilities; organizational personnel
           with information security responsibilities; system
           developer; organizational personnel with information
           security architecture and design responsibilities
-    statement: >
+    statement: >-
       the developer of the system, system component, or system
       service is required to internally structure the
       security-relevant hardware, software, and firmware with
       specific regard for this mechanism.
 parts:
   - id: a
-    statement: >
+    statement: >-
       Design and structure the security-relevant hardware, software,
       and firmware to use a complete, conceptually simple protection
       mechanism with precisely defined semantics; and
   - id: b
-    statement: >
+    statement: >-
       Internally structure the security-relevant hardware, software,
       and firmware with specific regard for this mechanism.
 statement: >-

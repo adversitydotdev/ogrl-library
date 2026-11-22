@@ -19,7 +19,7 @@ objectives:
   - id: a.1-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; system and
           services acquisition procedures; procedures addressing
           development process, standards, and tools; procedures
@@ -39,19 +39,19 @@ objectives:
           plan; privacy impact assessment; privacy risk assessment
           documentation; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and service
           acquisition responsibilities; organizational personnel
           with information security and privacy responsibilities;
           system developer
-    statement: >
+    statement: >-
       the developer of the system, system component, or system
       service is required to follow a documented development process
       that explicitly addresses security requirements;
   - id: a.1-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; system and
           services acquisition procedures; procedures addressing
           development process, standards, and tools; procedures
@@ -71,19 +71,19 @@ objectives:
           plan; privacy impact assessment; privacy risk assessment
           documentation; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and service
           acquisition responsibilities; organizational personnel
           with information security and privacy responsibilities;
           system developer
-    statement: >
+    statement: >-
       the developer of the system, system component, or system
       service is required to follow a documented development process
       that explicitly addresses privacy requirements;
   - id: a.2-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; system and
           services acquisition procedures; procedures addressing
           development process, standards, and tools; procedures
@@ -103,19 +103,19 @@ objectives:
           plan; privacy impact assessment; privacy risk assessment
           documentation; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and service
           acquisition responsibilities; organizational personnel
           with information security and privacy responsibilities;
           system developer
-    statement: >
+    statement: >-
       the developer of the system, system component, or system
       service is required to follow a documented development process
       that identifies the standards used in the development process;
   - id: a.2-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; system and
           services acquisition procedures; procedures addressing
           development process, standards, and tools; procedures
@@ -135,19 +135,19 @@ objectives:
           plan; privacy impact assessment; privacy risk assessment
           documentation; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and service
           acquisition responsibilities; organizational personnel
           with information security and privacy responsibilities;
           system developer
-    statement: >
+    statement: >-
       the developer of the system, system component, or system
       service is required to follow a documented development process
       that identifies the tools used in the development process;
   - id: a.3-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; system and
           services acquisition procedures; procedures addressing
           development process, standards, and tools; procedures
@@ -167,12 +167,12 @@ objectives:
           plan; privacy impact assessment; privacy risk assessment
           documentation; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and service
           acquisition responsibilities; organizational personnel
           with information security and privacy responsibilities;
           system developer
-    statement: >
+    statement: >-
       the developer of the system, system component, or system
       service is required to follow a documented development process
       that documents the specific tool used in the development
@@ -180,7 +180,7 @@ objectives:
   - id: a.3-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; system and
           services acquisition procedures; procedures addressing
           development process, standards, and tools; procedures
@@ -200,12 +200,12 @@ objectives:
           plan; privacy impact assessment; privacy risk assessment
           documentation; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and service
           acquisition responsibilities; organizational personnel
           with information security and privacy responsibilities;
           system developer
-    statement: >
+    statement: >-
       the developer of the system, system component, or system
       service is required to follow a documented development process
       that documents the specific tool configurations used in the
@@ -213,7 +213,7 @@ objectives:
   - id: a.4
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; system and
           services acquisition procedures; procedures addressing
           development process, standards, and tools; procedures
@@ -233,12 +233,12 @@ objectives:
           plan; privacy impact assessment; privacy risk assessment
           documentation; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and service
           acquisition responsibilities; organizational personnel
           with information security and privacy responsibilities;
           system developer
-    statement: >
+    statement: >-
       the developer of the system, system component, or system
       service is required to follow a documented development process
       that documents, manages, and ensures the integrity of changes
@@ -246,7 +246,7 @@ objectives:
   - id: b-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; system and
           services acquisition procedures; procedures addressing
           development process, standards, and tools; procedures
@@ -266,12 +266,12 @@ objectives:
           plan; privacy impact assessment; privacy risk assessment
           documentation; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and service
           acquisition responsibilities; organizational personnel
           with information security and privacy responsibilities;
           system developer
-    statement: >
+    statement: >-
       the developer of the system, system component, or system
       service is required to follow a documented development process
       in which the development process, standards, tools, tool
@@ -282,7 +282,7 @@ objectives:
   - id: b-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; system and
           services acquisition procedures; procedures addressing
           development process, standards, and tools; procedures
@@ -302,12 +302,12 @@ objectives:
           plan; privacy impact assessment; privacy risk assessment
           documentation; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and service
           acquisition responsibilities; organizational personnel
           with information security and privacy responsibilities;
           system developer
-    statement: >
+    statement: >-
       the developer of the system, system component, or system
       service is required to follow a documented development process
       in which the development process, standards, tools, tool
@@ -326,7 +326,7 @@ parameters:
     label: organization-defined security and privacy requirements
 parts:
   - id: a
-    statement: >
+    statement: >-
       Require the developer of the system, system component, or
       system service to follow a documented development process
       that:
@@ -338,15 +338,15 @@ parts:
       Identifies the standards and tools used in the development
       process;
   - id: a.3
-    statement: >
+    statement: >-
       Documents the specific tool options and tool configurations
       used in the development process; and
   - id: a.4
-    statement: >
+    statement: >-
       Documents, manages, and ensures the integrity of changes to
       the process and/or tools used in development; and
   - id: b
-    statement: >
+    statement: >-
       Review the development process, standards, tools, tool
       options, and tool configurations {{ sa_15_odp_01 }} to
       determine if the process, standards, tools, tool options and

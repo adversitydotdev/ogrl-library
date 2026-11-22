@@ -12,7 +12,7 @@ objectives:
   - id: "sa-09(02)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; supply chain risk
           management policy and procedures; procedures addressing
           external system services; acquisition contracts for the
@@ -24,19 +24,19 @@ objectives:
           services; system security plan; other relevant documents
           or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and service
           acquisition responsibilities; organizational personnel
           with information security responsibilities; system/network
           administrators; external providers of system services
-    statement: >
+    statement: >-
       providers of {{ sa_09_02_odp }} are required to identify the
       functions, ports, protocols, and other services required for
       the use of such services.
 parameters:
   sa_09_02_odp:
     label: external system services
-statement: >
+statement: >-
   Require providers of the following external system services to
   identify the functions, ports, protocols, and other services
   required for the use of such services: {{ sa_09_02_odp }}.

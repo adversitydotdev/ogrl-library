@@ -12,7 +12,7 @@ objectives:
   - id: a-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           access restrictions for changes to the system;
           configuration management plan; system design
@@ -23,21 +23,21 @@ objectives:
           change control records; system audit records; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with information security
           responsibilities; system/network administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for managing access restrictions
           to change; mechanisms supporting and/or implementing
           access restrictions for change
-    statement: >
+    statement: >-
       privileges to change system components within a production or
       operational environment are limited;
   - id: a-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           access restrictions for changes to the system;
           configuration management plan; system design
@@ -48,21 +48,21 @@ objectives:
           change control records; system audit records; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with information security
           responsibilities; system/network administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for managing access restrictions
           to change; mechanisms supporting and/or implementing
           access restrictions for change
-    statement: >
+    statement: >-
       privileges to change system-related information within a
       production or operational environment are limited;
   - id: b-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           access restrictions for changes to the system;
           configuration management plan; system design
@@ -73,11 +73,11 @@ objectives:
           change control records; system audit records; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with information security
           responsibilities; system/network administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for managing access restrictions
           to change; mechanisms supporting and/or implementing
           access restrictions for change
@@ -85,7 +85,7 @@ objectives:
   - id: b-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           access restrictions for changes to the system;
           configuration management plan; system design
@@ -96,11 +96,11 @@ objectives:
           change control records; system audit records; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with information security
           responsibilities; system/network administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for managing access restrictions
           to change; mechanisms supporting and/or implementing
           access restrictions for change
@@ -114,7 +114,7 @@ parameters:
     label: organization-defined frequency
 parts:
   - id: a
-    statement: >
+    statement: >-
       Limit privileges to change system components and
       system-related information within a production or operational
       environment; and

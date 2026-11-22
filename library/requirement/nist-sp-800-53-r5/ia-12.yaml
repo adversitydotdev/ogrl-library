@@ -25,12 +25,12 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Identification and authentication policy; procedures
           addressing identity proofing; system security plan;
           privacy plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system operations
           responsibilities; organizational personnel with
           information security and privacy responsibilities; legal
@@ -38,10 +38,10 @@ objectives:
           organizational personnel with identification and
           authentication responsibilities
       - method: test
-        statement: >
+        statement: >-
           Mechanisms supporting and/or implementing identification
           and authentication capabilities
-    statement: >
+    statement: >-
       users who require accounts for logical access to systems based
       on appropriate identity assurance level requirements as
       specified in applicable standards and guidelines are identity
@@ -49,12 +49,12 @@ objectives:
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Identification and authentication policy; procedures
           addressing identity proofing; system security plan;
           privacy plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system operations
           responsibilities; organizational personnel with
           information security and privacy responsibilities; legal
@@ -62,19 +62,19 @@ objectives:
           organizational personnel with identification and
           authentication responsibilities
       - method: test
-        statement: >
+        statement: >-
           Mechanisms supporting and/or implementing identification
           and authentication capabilities
     statement: user identities are resolved to a unique individual;
   - id: c-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Identification and authentication policy; procedures
           addressing identity proofing; system security plan;
           privacy plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system operations
           responsibilities; organizational personnel with
           information security and privacy responsibilities; legal
@@ -82,19 +82,19 @@ objectives:
           organizational personnel with identification and
           authentication responsibilities
       - method: test
-        statement: >
+        statement: >-
           Mechanisms supporting and/or implementing identification
           and authentication capabilities
     statement: identity evidence is collected;
   - id: c-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Identification and authentication policy; procedures
           addressing identity proofing; system security plan;
           privacy plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system operations
           responsibilities; organizational personnel with
           information security and privacy responsibilities; legal
@@ -102,19 +102,19 @@ objectives:
           organizational personnel with identification and
           authentication responsibilities
       - method: test
-        statement: >
+        statement: >-
           Mechanisms supporting and/or implementing identification
           and authentication capabilities
     statement: identity evidence is validated;
   - id: c-3
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Identification and authentication policy; procedures
           addressing identity proofing; system security plan;
           privacy plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system operations
           responsibilities; organizational personnel with
           information security and privacy responsibilities; legal
@@ -122,13 +122,13 @@ objectives:
           organizational personnel with identification and
           authentication responsibilities
       - method: test
-        statement: >
+        statement: >-
           Mechanisms supporting and/or implementing identification
           and authentication capabilities
     statement: identity evidence is verified.
 parts:
   - id: a
-    statement: >
+    statement: >-
       Identity proof users that require accounts for logical access
       to systems based on appropriate identity assurance level
       requirements as specified in applicable standards and

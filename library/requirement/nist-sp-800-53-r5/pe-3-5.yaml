@@ -12,25 +12,25 @@ objectives:
   - id: "pe-03(05)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Physical and environmental protection policy; procedures
           addressing physical access control; list of security
           safeguards to detect/prevent physical tampering or
           alteration of system hardware components; system security
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with physical access control
           responsibilities; organizational personnel with
           information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes to detect/prevent physical
           tampering or alteration of system hardware components;
           mechanisms/security safeguards supporting and/or
           implementing the detection/prevention of physical
           tampering/alternation of system hardware components
-    statement: >
+    statement: >-
       {{ pe_03_05_odp_01 }} are employed to {{ pe_03_05_odp_02 }}
       physical tampering or alteration of {{ pe_03_05_odp_03 }}
       within the system.
@@ -41,7 +41,7 @@ parameters:
     label: pe-03.05_odp.02
   pe_03_05_odp_03:
     label: hardware components
-statement: >
+statement: >-
   Employ {{ pe_03_05_odp_01 }} to {{ pe_03_05_odp_02 }} physical
   tampering or alteration of {{ pe_03_05_odp_03 }} within the
   system.

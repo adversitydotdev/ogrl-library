@@ -31,7 +31,7 @@ objectives:
   - id: a-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; procedures addressing remote access
           implementation and usage (including restrictions);
           configuration management plan; system configuration
@@ -39,7 +39,7 @@ objectives:
           authorizations; system audit records; system security
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for
           managing remote access connections; system/network
           administrators; organizational personnel with information
@@ -47,13 +47,13 @@ objectives:
       - method: test
         statement: >-
           Remote access management capability for the system
-    statement: >
+    statement: >-
       usage restrictions are established and documented for each
       type of remote access allowed;
   - id: a-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; procedures addressing remote access
           implementation and usage (including restrictions);
           configuration management plan; system configuration
@@ -61,7 +61,7 @@ objectives:
           authorizations; system audit records; system security
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for
           managing remote access connections; system/network
           administrators; organizational personnel with information
@@ -69,13 +69,13 @@ objectives:
       - method: test
         statement: >-
           Remote access management capability for the system
-    statement: >
+    statement: >-
       configuration/connection requirements are established and
       documented for each type of remote access allowed;
   - id: a-3
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; procedures addressing remote access
           implementation and usage (including restrictions);
           configuration management plan; system configuration
@@ -83,7 +83,7 @@ objectives:
           authorizations; system audit records; system security
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for
           managing remote access connections; system/network
           administrators; organizational personnel with information
@@ -91,13 +91,13 @@ objectives:
       - method: test
         statement: >-
           Remote access management capability for the system
-    statement: >
+    statement: >-
       implementation guidance is established and documented for each
       type of remote access allowed;
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; procedures addressing remote access
           implementation and usage (including restrictions);
           configuration management plan; system configuration
@@ -105,7 +105,7 @@ objectives:
           authorizations; system audit records; system security
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for
           managing remote access connections; system/network
           administrators; organizational personnel with information
@@ -113,16 +113,16 @@ objectives:
       - method: test
         statement: >-
           Remote access management capability for the system
-    statement: >
+    statement: >-
       each type of remote access to the system is authorized prior
       to allowing such connections.
 parts:
   - id: a
-    statement: >
+    statement: >-
       Establish and document usage restrictions,
       configuration/connection requirements, and implementation
       guidance for each type of remote access allowed; and
   - id: b
-    statement: >
+    statement: >-
       Authorize each type of remote access to the system prior to
       allowing such connections.

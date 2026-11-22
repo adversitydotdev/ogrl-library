@@ -12,7 +12,7 @@ objectives:
   - id: "sc-12(03).sc-12(03)[01]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing cryptographic key establishment and management;
           system design documentation; system configuration settings
@@ -21,7 +21,7 @@ objectives:
           PKI Class 3 and Class 4 certificates; system security
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; system
           developer; organizational personnel with responsibilities
@@ -29,7 +29,7 @@ objectives:
           organizational personnel with responsibilities for PKI
           certificates
       - method: test
-        statement: >
+        statement: >-
           Mechanisms supporting and/or implementing asymmetric
           cryptographic key establishment and management
     statement: >-
@@ -38,7 +38,7 @@ objectives:
   - id: "sc-12(03).sc-12(03)[02]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing cryptographic key establishment and management;
           system design documentation; system configuration settings
@@ -47,7 +47,7 @@ objectives:
           PKI Class 3 and Class 4 certificates; system security
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; system
           developer; organizational personnel with responsibilities
@@ -55,7 +55,7 @@ objectives:
           organizational personnel with responsibilities for PKI
           certificates
       - method: test
-        statement: >
+        statement: >-
           Mechanisms supporting and/or implementing asymmetric
           cryptographic key establishment and management
     statement: >-
@@ -64,7 +64,7 @@ objectives:
   - id: "sc-12(03).sc-12(03)[03]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing cryptographic key establishment and management;
           system design documentation; system configuration settings
@@ -73,7 +73,7 @@ objectives:
           PKI Class 3 and Class 4 certificates; system security
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; system
           developer; organizational personnel with responsibilities
@@ -81,7 +81,7 @@ objectives:
           organizational personnel with responsibilities for PKI
           certificates
       - method: test
-        statement: >
+        statement: >-
           Mechanisms supporting and/or implementing asymmetric
           cryptographic key establishment and management
     statement: >-
@@ -90,6 +90,6 @@ objectives:
 parameters:
   sc_12_03_odp:
     label: sc-12.03_odp
-statement: >
+statement: >-
   Produce, control, and distribute asymmetric cryptographic keys
   using {{ sc_12_03_odp }}.

@@ -12,7 +12,7 @@ objectives:
   - id: "01"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           system and information integrity policy and procedures;
           laws, Executive Orders, directives, policies, regulations,
           standards, and operational requirements applicable to
@@ -22,24 +22,24 @@ objectives:
           procedures; audit findings; system security plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with information and records management,
           retention, and disposition responsibilities; personnel
           with information security responsibilities; system
           administrators
       - method: test
-        statement: >
+        statement: >-
           processes for information management, retention, and
           disposition; mechanisms for supporting or implementing
           information management, retention, and disposition
-    statement: >
+    statement: >-
       CUI within the system is managed in accordance with applicable
       laws, Executive Orders, directives, regulations, policies,
       standards, guidelines, and operational requirements.
   - id: "02"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           system and information integrity policy and procedures;
           laws, Executive Orders, directives, policies, regulations,
           standards, and operational requirements applicable to
@@ -49,24 +49,24 @@ objectives:
           procedures; audit findings; system security plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with information and records management,
           retention, and disposition responsibilities; personnel
           with information security responsibilities; system
           administrators
       - method: test
-        statement: >
+        statement: >-
           processes for information management, retention, and
           disposition; mechanisms for supporting or implementing
           information management, retention, and disposition
-    statement: >
+    statement: >-
       CUI within the system is retained in accordance with
       applicable laws, Executive Orders, directives, regulations,
       policies, standards, guidelines, and operational requirements.
   - id: "03"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           system and information integrity policy and procedures;
           laws, Executive Orders, directives, policies, regulations,
           standards, and operational requirements applicable to
@@ -76,24 +76,24 @@ objectives:
           procedures; audit findings; system security plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with information and records management,
           retention, and disposition responsibilities; personnel
           with information security responsibilities; system
           administrators
       - method: test
-        statement: >
+        statement: >-
           processes for information management, retention, and
           disposition; mechanisms for supporting or implementing
           information management, retention, and disposition
-    statement: >
+    statement: >-
       CUI output from the system is managed in accordance with
       applicable laws, Executive Orders, directives, regulations,
       policies, standards, guidelines, and operational requirements.
   - id: "04"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           system and information integrity policy and procedures;
           laws, Executive Orders, directives, policies, regulations,
           standards, and operational requirements applicable to
@@ -103,21 +103,21 @@ objectives:
           procedures; audit findings; system security plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with information and records management,
           retention, and disposition responsibilities; personnel
           with information security responsibilities; system
           administrators
       - method: test
-        statement: >
+        statement: >-
           processes for information management, retention, and
           disposition; mechanisms for supporting or implementing
           information management, retention, and disposition
-    statement: >
+    statement: >-
       CUI output from the system is retained in accordance with
       applicable laws, Executive Orders, directives, regulations,
       policies, standards, guidelines, and operational requirements.
-statement: >
+statement: >-
   Manage and retain CUI within the system and CUI output from the
   system in accordance with applicable laws, Executive Orders,
   directives, regulations, policies, standards, guidelines, and

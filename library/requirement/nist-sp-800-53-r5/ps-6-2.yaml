@@ -12,23 +12,23 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Personnel security policy; procedures addressing access
           agreements for organizational information and systems;
           access agreements; access authorizations; personnel
           security criteria; signed non-disclosure agreements;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with personnel security
           responsibilities; organizational personnel who have signed
           non-disclosure agreements; organizational personnel with
           information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for access to classified
           information requiring special protection
-    statement: >
+    statement: >-
       access to classified information requiring special protection
       is granted only to individuals who have a valid access
       authorization that is demonstrated by assigned official
@@ -36,52 +36,52 @@ objectives:
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Personnel security policy; procedures addressing access
           agreements for organizational information and systems;
           access agreements; access authorizations; personnel
           security criteria; signed non-disclosure agreements;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with personnel security
           responsibilities; organizational personnel who have signed
           non-disclosure agreements; organizational personnel with
           information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for access to classified
           information requiring special protection
-    statement: >
+    statement: >-
       access to classified information requiring special protection
       is granted only to individuals who satisfy associated
       personnel security criteria;
   - id: c
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Personnel security policy; procedures addressing access
           agreements for organizational information and systems;
           access agreements; access authorizations; personnel
           security criteria; signed non-disclosure agreements;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with personnel security
           responsibilities; organizational personnel who have signed
           non-disclosure agreements; organizational personnel with
           information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for access to classified
           information requiring special protection
-    statement: >
+    statement: >-
       access to classified information requiring special protection
       is granted only to individuals who have read, understood, and
       signed a non-disclosure agreement.
 parts:
   - id: a
-    statement: >
+    statement: >-
       Have a valid access authorization that is demonstrated by
       assigned official government duties;
   - id: b
@@ -89,6 +89,6 @@ parts:
   - id: c
     statement: >-
       Have read, understood, and signed a nondisclosure agreement.
-statement: >
+statement: >-
   Verify that access to classified information requiring special
   protection is granted only to individuals who:

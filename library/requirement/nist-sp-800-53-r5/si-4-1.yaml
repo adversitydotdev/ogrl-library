@@ -12,7 +12,7 @@ objectives:
   - id: "si-04(01).si-04(01)[01]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; procedures addressing
           system monitoring tools and techniques; system design
@@ -21,7 +21,7 @@ objectives:
           associated documentation; system audit records; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; organizational
           personnel installing, configuring, and/or maintaining the
@@ -29,17 +29,17 @@ objectives:
           monitoring the system; organizational personnel
           responsible for the intrusion detection system
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for intrusion detection and
           system monitoring; mechanisms supporting and/or
           implementing intrusion detection capabilities
-    statement: >
+    statement: >-
       individual intrusion detection tools are connected to a
       system-wide intrusion detection system;
   - id: "si-04(01).si-04(01)[02]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; procedures addressing
           system monitoring tools and techniques; system design
@@ -48,7 +48,7 @@ objectives:
           associated documentation; system audit records; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; organizational
           personnel installing, configuring, and/or maintaining the
@@ -56,13 +56,13 @@ objectives:
           monitoring the system; organizational personnel
           responsible for the intrusion detection system
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for intrusion detection and
           system monitoring; mechanisms supporting and/or
           implementing intrusion detection capabilities
-    statement: >
+    statement: >-
       individual intrusion detection tools are configured into a
       system-wide intrusion detection system.
-statement: >
+statement: >-
   Connect and configure individual intrusion detection tools into a
   system-wide intrusion detection system.

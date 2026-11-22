@@ -19,45 +19,45 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; usage
           restrictions; procedures addressing usage restrictions;
           implementation policy and procedures; authorization
           records; system monitoring records; system audit records;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; organizational
           personnel installing, configuring, and/or maintaining the
           system
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for authorizing, monitoring, and
           controlling the use of components with usage restrictions;
           mechanisms supporting and/or implementing, authorizing,
           monitoring, and controlling the use of components with
           usage restrictions
-    statement: >
+    statement: >-
       usage restrictions and implementation guidelines are
       established for {{ sc_43_odp }};
   - id: b-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; usage
           restrictions; procedures addressing usage restrictions;
           implementation policy and procedures; authorization
           records; system monitoring records; system audit records;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; organizational
           personnel installing, configuring, and/or maintaining the
           system
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for authorizing, monitoring, and
           controlling the use of components with usage restrictions;
           mechanisms supporting and/or implementing, authorizing,
@@ -68,20 +68,20 @@ objectives:
   - id: b-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; usage
           restrictions; procedures addressing usage restrictions;
           implementation policy and procedures; authorization
           records; system monitoring records; system audit records;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; organizational
           personnel installing, configuring, and/or maintaining the
           system
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for authorizing, monitoring, and
           controlling the use of components with usage restrictions;
           mechanisms supporting and/or implementing, authorizing,
@@ -92,20 +92,20 @@ objectives:
   - id: b-3
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; usage
           restrictions; procedures addressing usage restrictions;
           implementation policy and procedures; authorization
           records; system monitoring records; system audit records;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; organizational
           personnel installing, configuring, and/or maintaining the
           system
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for authorizing, monitoring, and
           controlling the use of components with usage restrictions;
           mechanisms supporting and/or implementing, authorizing,
@@ -118,7 +118,7 @@ parameters:
     label: components
 parts:
   - id: a
-    statement: >
+    statement: >-
       Establish usage restrictions and implementation guidelines for
       the following system components: {{ sc_43_odp }} ; and
   - id: b

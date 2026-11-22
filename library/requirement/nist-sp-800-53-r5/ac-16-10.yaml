@@ -12,7 +12,7 @@ objectives:
   - id: _obj-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; procedures addressing configuration
           of security and privacy attributes by authorized
           individuals; system design documentation; system
@@ -20,24 +20,24 @@ objectives:
           system audit records; system security plan; privacy plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for
           defining or changing security and privacy attributes
           associated with information; organizational personnel with
           information security and privacy responsibilities; system
           developers
       - method: test
-        statement: >
+        statement: >-
           Mechanisms implementing capability for defining or
           changing security and privacy attributes
-    statement: >
+    statement: >-
       authorized individuals are provided with the capability to
       define or change the type and value of security attributes
       available for association with subjects and objects;
   - id: _obj-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; procedures addressing configuration
           of security and privacy attributes by authorized
           individuals; system design documentation; system
@@ -45,21 +45,21 @@ objectives:
           system audit records; system security plan; privacy plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for
           defining or changing security and privacy attributes
           associated with information; organizational personnel with
           information security and privacy responsibilities; system
           developers
       - method: test
-        statement: >
+        statement: >-
           Mechanisms implementing capability for defining or
           changing security and privacy attributes
-    statement: >
+    statement: >-
       authorized individuals are provided with the capability to
       define or change the type and value of privacy attributes
       available for association with subjects and objects.
-statement: >
+statement: >-
   Provide authorized individuals the capability to define or change
   the type and value of security and privacy attributes available
   for association with subjects and objects.

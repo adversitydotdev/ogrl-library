@@ -16,7 +16,7 @@ objectives:
   - id: _obj-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing the transmission of security and privacy
           attributes; access control policy and procedures;
@@ -26,11 +26,11 @@ objectives:
           security plan; privacy plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security and privacy responsibilities
       - method: test
-        statement: >
+        statement: >-
           Mechanisms supporting and/or implementing the transmission
           of security and privacy attributes between systems
     statement: >-
@@ -39,7 +39,7 @@ objectives:
   - id: _obj-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing the transmission of security and privacy
           attributes; access control policy and procedures;
@@ -49,20 +49,20 @@ objectives:
           security plan; privacy plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security and privacy responsibilities
       - method: test
-        statement: >
+        statement: >-
           Mechanisms supporting and/or implementing the transmission
           of security and privacy attributes between systems
-    statement: >
+    statement: >-
       {{ sc_16_odp_01 }} are associated with information exchanged
       between system components;
   - id: _obj-3
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing the transmission of security and privacy
           attributes; access control policy and procedures;
@@ -72,11 +72,11 @@ objectives:
           security plan; privacy plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security and privacy responsibilities
       - method: test
-        statement: >
+        statement: >-
           Mechanisms supporting and/or implementing the transmission
           of security and privacy attributes between systems
     statement: >-
@@ -85,7 +85,7 @@ objectives:
   - id: _obj-4
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing the transmission of security and privacy
           attributes; access control policy and procedures;
@@ -95,14 +95,14 @@ objectives:
           security plan; privacy plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security and privacy responsibilities
       - method: test
-        statement: >
+        statement: >-
           Mechanisms supporting and/or implementing the transmission
           of security and privacy attributes between systems
-    statement: >
+    statement: >-
       {{ sc_16_odp_02 }} are associated with information exchanged
       between system components.
 parameters:
@@ -112,6 +112,6 @@ parameters:
     label: privacy attributes
   sc_16_prm_1:
     label: organization-defined security and privacy attributes
-statement: >
+statement: >-
   Associate {{ sc_16_prm_1 }} with information exchanged between
   systems and between system components.

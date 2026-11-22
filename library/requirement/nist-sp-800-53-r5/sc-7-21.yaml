@@ -12,7 +12,7 @@ objectives:
   - id: "sc-07(21)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing boundary protection; system design
           documentation; system hardware and software; enterprise
@@ -21,16 +21,16 @@ objectives:
           system audit records; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; organizational
           personnel with boundary protection responsibilities
       - method: test
-        statement: >
+        statement: >-
           Mechanisms supporting and/or implementing the capability
           to separate system components supporting organizational
           missions and/or business functions
-    statement: >
+    statement: >-
       boundary protection mechanisms are employed to isolate
       {{ sc_07_21_odp_01 }} supporting {{ sc_07_21_odp_02 }}.
 parameters:
@@ -38,6 +38,6 @@ parameters:
     label: system components
   sc_07_21_odp_02:
     label: missions and/or business functions
-statement: >
+statement: >-
   Employ boundary protection mechanisms to isolate
   {{ sc_07_21_odp_01 }} supporting {{ sc_07_21_odp_02 }}.

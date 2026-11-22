@@ -12,7 +12,7 @@ objectives:
   - id: "sa-04(08)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; procedures
           addressing developer continuous monitoring plans;
           procedures addressing the integration of security
@@ -24,23 +24,23 @@ objectives:
           service level agreements; system security plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with acquisition/contracting
           responsibilities; organizational personnel with the
           responsibility for determining system security
           requirements; system developers; organizational personnel
           with information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Vendor processes for continuous monitoring; mechanisms
           supporting and/or implementing developer continuous
           monitoring
-    statement: >
+    statement: >-
       the developer of the system, system component, or system
       service is required to produce a plan for the continuous
       monitoring of control effectiveness that is consistent with
       the continuous monitoring program of the organization.
-statement: >
+statement: >-
   Require the developer of the system, system component, or system
   service to produce a plan for continuous monitoring of control
   effectiveness that is consistent with the continuous monitoring

@@ -16,7 +16,7 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           incident response policy and procedures; contingency
           planning policy and procedures; procedures for incident
           response testing; procedures for contingency plan testing;
@@ -25,15 +25,15 @@ objectives:
           plan; contingency plan; system security plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with incident response testing responsibilities;
           personnel with information security responsibilities
-    statement: >
+    statement: >-
       the effectiveness of the incident response capability is
       tested {{ a_03_06_03_odp_01 }}.
 parameters:
   a_03_06_03_odp_01:
     label: frequency
-statement: >
+statement: >-
   Test the effectiveness of the incident response capability
   {{ a_03_06_03_odp_01 }}.

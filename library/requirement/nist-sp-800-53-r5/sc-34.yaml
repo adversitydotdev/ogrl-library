@@ -12,7 +12,7 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing non-modifiable executable programs; system
           design documentation; system configuration settings and
@@ -25,26 +25,26 @@ objectives:
           applications; system audit records; system security plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; system
           developer; organizational personnel installing,
           configuring, and/or maintaining the system; system
           developers/integrators
       - method: test
-        statement: >
+        statement: >-
           Mechanisms supporting and/or implementing, loading, and
           executing the operating environment from
           hardware-enforced, read-only media; mechanisms supporting
           and/or implementing, loading, and executing applications
           from hardware-enforced, read-only media
-    statement: >
+    statement: >-
       the operating environment for {{ sc_34_odp_01 }} is loaded and
       executed from hardware-enforced, read-only media;
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing non-modifiable executable programs; system
           design documentation; system configuration settings and
@@ -57,20 +57,20 @@ objectives:
           applications; system audit records; system security plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; system
           developer; organizational personnel installing,
           configuring, and/or maintaining the system; system
           developers/integrators
       - method: test
-        statement: >
+        statement: >-
           Mechanisms supporting and/or implementing, loading, and
           executing the operating environment from
           hardware-enforced, read-only media; mechanisms supporting
           and/or implementing, loading, and executing applications
           from hardware-enforced, read-only media
-    statement: >
+    statement: >-
       {{ sc_34_odp_02 }} for {{ sc_34_odp_01 }} are loaded and
       executed from hardware-enforced, read-only media.
 parameters:
@@ -84,7 +84,7 @@ parts:
       The operating environment from hardware-enforced, read-only
       media; and
   - id: b
-    statement: >
+    statement: >-
       The following applications from hardware-enforced, read-only
       media: {{ sc_34_odp_02 }}.
 statement: "For {{ sc_34_odp_01 }} , load and execute:"

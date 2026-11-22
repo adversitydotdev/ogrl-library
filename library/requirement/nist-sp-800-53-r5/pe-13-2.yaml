@@ -12,7 +12,7 @@ objectives:
   - id: a-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Physical and environmental protection policy; procedures
           addressing fire protection; fire suppression and detection
           devices/systems documentation; facility housing the
@@ -20,7 +20,7 @@ objectives:
           fire suppression and detection devices/systems; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for fire
           detection and suppression devices/systems; organizational
           personnel with responsibilities for providing automatic
@@ -29,7 +29,7 @@ objectives:
           emergency responders; organizational personnel with
           information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Automated mechanisms supporting and/or implementing fire
           suppression devices/systems; activation of fire
           suppression devices/systems (simulated); automated
@@ -40,7 +40,7 @@ objectives:
   - id: a-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Physical and environmental protection policy; procedures
           addressing fire protection; fire suppression and detection
           devices/systems documentation; facility housing the
@@ -48,7 +48,7 @@ objectives:
           fire suppression and detection devices/systems; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for fire
           detection and suppression devices/systems; organizational
           personnel with responsibilities for providing automatic
@@ -57,18 +57,18 @@ objectives:
           emergency responders; organizational personnel with
           information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Automated mechanisms supporting and/or implementing fire
           suppression devices/systems; activation of fire
           suppression devices/systems (simulated); automated
           notifications
-    statement: >
+    statement: >-
       fire suppression systems that notify {{ pe_13_02_odp_01 }}
       automatically are employed;
   - id: a-3
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Physical and environmental protection policy; procedures
           addressing fire protection; fire suppression and detection
           devices/systems documentation; facility housing the
@@ -76,7 +76,7 @@ objectives:
           fire suppression and detection devices/systems; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for fire
           detection and suppression devices/systems; organizational
           personnel with responsibilities for providing automatic
@@ -85,18 +85,18 @@ objectives:
           emergency responders; organizational personnel with
           information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Automated mechanisms supporting and/or implementing fire
           suppression devices/systems; activation of fire
           suppression devices/systems (simulated); automated
           notifications
-    statement: >
+    statement: >-
       fire suppression systems that notify {{ pe_13_02_odp_02 }}
       automatically are employed;
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Physical and environmental protection policy; procedures
           addressing fire protection; fire suppression and detection
           devices/systems documentation; facility housing the
@@ -104,7 +104,7 @@ objectives:
           fire suppression and detection devices/systems; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for fire
           detection and suppression devices/systems; organizational
           personnel with responsibilities for providing automatic
@@ -113,12 +113,12 @@ objectives:
           emergency responders; organizational personnel with
           information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Automated mechanisms supporting and/or implementing fire
           suppression devices/systems; activation of fire
           suppression devices/systems (simulated); automated
           notifications
-    statement: >
+    statement: >-
       an automatic fire suppression capability is employed when the
       facility is not staffed on a continuous basis.
 parameters:
@@ -128,11 +128,11 @@ parameters:
     label: emergency responders
 parts:
   - id: a
-    statement: >
+    statement: >-
       Employ fire suppression systems that activate automatically
       and notify {{ pe_13_02_odp_01 }} and {{ pe_13_02_odp_02 }} ;
       and
   - id: b
-    statement: >
+    statement: >-
       Employ an automatic fire suppression capability when the
       facility is not staffed on a continuous basis.

@@ -12,7 +12,7 @@ objectives:
   - id: "ac-06(05)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; procedures addressing least
           privilege; list of system-generated privileged accounts;
           list of system administration personnel; system
@@ -20,7 +20,7 @@ objectives:
           system audit records; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for
           defining least privileges necessary to accomplish
           specified tasks; organizational personnel with information

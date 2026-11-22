@@ -12,7 +12,7 @@ objectives:
   - id: "[01]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing information protection in shared system
           resources; system design documentation; system
@@ -20,12 +20,12 @@ objectives:
           system audit records; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; system
           developer
       - method: test
-        statement: >
+        statement: >-
           Mechanisms preventing the unauthorized and unintended
           transfer of information via shared system resources
     statement: >-
@@ -34,7 +34,7 @@ objectives:
   - id: "[02]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing information protection in shared system
           resources; system design documentation; system
@@ -42,17 +42,17 @@ objectives:
           system audit records; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; system
           developer
       - method: test
-        statement: >
+        statement: >-
           Mechanisms preventing the unauthorized and unintended
           transfer of information via shared system resources
     statement: >-
       unintended information transfer via shared system resources is
       prevented.
-statement: >
+statement: >-
   Prevent unauthorized and unintended information transfer via
   shared system resources.

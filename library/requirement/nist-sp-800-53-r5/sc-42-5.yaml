@@ -12,7 +12,7 @@ objectives:
   - id: "sc-42(05)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; access
           control policy and procedures; personally identifiable
           information processing policy; sensor capability and data
@@ -27,25 +27,25 @@ objectives:
           security plan; privacy plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security and privacy responsibilities;
           organizational personnel installing, configuring, and/or
           maintaining the system; organizational personnel
           responsible for sensor capabilities
       - method: test
-        statement: >
+        statement: >-
           Mechanisms supporting and/or implementing measures to
           facilitate the review of information that is being
           collected by sensors; sensor information collection
           capabilities for the system
-    statement: >
+    statement: >-
       the {{ sc_42_05_odp }} configured to minimize the collection
       of information about individuals that is not needed are
       employed.
 parameters:
   sc_42_05_odp:
     label: sensors
-statement: >
+statement: >-
   Employ {{ sc_42_05_odp }} that are configured to minimize the
   collection of information about individuals that is not needed.

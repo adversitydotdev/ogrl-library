@@ -12,7 +12,7 @@ objectives:
   - id: _obj
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing system failure to known state; system design
           documentation; system configuration settings and
@@ -21,16 +21,16 @@ objectives:
           preserved in system failure; system audit records; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; system
           developer
       - method: test
-        statement: >
+        statement: >-
           Mechanisms supporting and/or implementing the fail in
           known state capability; mechanisms preserving system state
           information in the event of a system failure
-    statement: >
+    statement: >-
       {{ sc_24_odp_01 }} fail to a {{ sc_24_odp_02 }} while
       preserving {{ sc_24_odp_03 }} in failure.
 parameters:
@@ -40,7 +40,7 @@ parameters:
     label: known system state
   sc_24_odp_03:
     label: system state information
-statement: >
+statement: >-
   Fail to a {{ sc_24_odp_02 }} for the following failures on the
   indicated components while preserving {{ sc_24_odp_03 }} in
   failure: {{ sc_24_odp_01 }}.

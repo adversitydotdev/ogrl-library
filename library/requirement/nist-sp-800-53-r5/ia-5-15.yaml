@@ -12,7 +12,7 @@ objectives:
   - id: "ia-05(15)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Identification and authentication policy; procedures
           addressing identifier management; system security plan;
           system design documentation; mechanisms providing dynamic
@@ -20,21 +20,21 @@ objectives:
           configuration settings and associated documentation;
           system audit records; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with identification and
           authentication management responsibilities; organizational
           personnel with information security responsibilities;
           system/network administrators
       - method: test
-        statement: >
+        statement: >-
           Mechanisms supporting and/or implementing account
           management capability; mechanisms supporting and/or
           implementing identification and authentication management
           capabilities for the system
-    statement: >
+    statement: >-
       only General Services Administration-approved products and
       services are used for identity, credential, and access
       management.
-statement: >
+statement: >-
   Use only General Services Administration-approved products and
   services for identity, credential, and access management.

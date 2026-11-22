@@ -12,7 +12,7 @@ objectives:
   - id: "sc-30(02)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing concealment and misdirection techniques for the
           system; system design documentation; system configuration
@@ -22,21 +22,21 @@ objectives:
           assets; system audit records; system security plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; organizational
           personnel with the responsibility to implement concealment
           and misdirection techniques for systems
       - method: test
-        statement: >
+        statement: >-
           Mechanisms supporting and/or implementing randomness as a
           concealment and misdirection technique
-    statement: >
+    statement: >-
       {{ sc_30_02_odp }} are employed to introduce randomness into
       organizational operations and assets.
 parameters:
   sc_30_02_odp:
     label: techniques
-statement: >
+statement: >-
   Employ {{ sc_30_02_odp }} to introduce randomness into
   organizational operations and assets.

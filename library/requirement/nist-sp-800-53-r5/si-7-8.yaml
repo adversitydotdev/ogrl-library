@@ -12,7 +12,7 @@ objectives:
   - id: "si-07(08).si-07(08)[01]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; procedures addressing
           software, firmware, and information integrity; system
@@ -25,25 +25,25 @@ objectives:
           detected; system audit records; system security plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel responsible for software,
           firmware, and/or information integrity; organizational
           personnel with information security responsibilities;
           system/network administrators; system developer
       - method: test
-        statement: >
+        statement: >-
           Software, firmware, and information integrity verification
           tools; mechanisms supporting and/or implementing the
           capability to audit potential integrity violations;
           mechanisms supporting and/or implementing alerts about
           potential integrity violations
-    statement: >
+    statement: >-
       the capability to audit an event upon the detection of a
       potential integrity violation is provided;
   - id: "si-07(08).si-07(08)[02]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; procedures addressing
           software, firmware, and information integrity; system
@@ -56,19 +56,19 @@ objectives:
           detected; system audit records; system security plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel responsible for software,
           firmware, and/or information integrity; organizational
           personnel with information security responsibilities;
           system/network administrators; system developer
       - method: test
-        statement: >
+        statement: >-
           Software, firmware, and information integrity verification
           tools; mechanisms supporting and/or implementing the
           capability to audit potential integrity violations;
           mechanisms supporting and/or implementing alerts about
           potential integrity violations
-    statement: >
+    statement: >-
       {{ si_07_08_odp_01 }} is/are initiated upon the detection of a
       potential integrity violation.
 parameters:
@@ -78,7 +78,7 @@ parameters:
     label: personnel or roles
   si_07_08_odp_03:
     label: other actions
-statement: >
+statement: >-
   Upon detection of a potential integrity violation, provide the
   capability to audit the event and initiate the following actions:
   {{ si_07_08_odp_01 }}.

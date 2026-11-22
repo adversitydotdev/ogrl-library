@@ -12,19 +12,19 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Physical and environmental protection policy; procedures
           addressing emergency power; alternate power supply;
           alternate power supply documentation; alternate power
           supply test records; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with the responsibility for
           emergency power and/or planning; organizational personnel
           with information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Mechanisms supporting and/or implementing an alternate
           power supply; the alternate power supply
     statement: >-
@@ -33,43 +33,43 @@ objectives:
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Physical and environmental protection policy; procedures
           addressing emergency power; alternate power supply;
           alternate power supply documentation; alternate power
           supply test records; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with the responsibility for
           emergency power and/or planning; organizational personnel
           with information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Mechanisms supporting and/or implementing an alternate
           power supply; the alternate power supply
-    statement: >
+    statement: >-
       the alternate power supply provided for the system is not
       reliant on external power generation;
   - id: c
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Physical and environmental protection policy; procedures
           addressing emergency power; alternate power supply;
           alternate power supply documentation; alternate power
           supply test records; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with the responsibility for
           emergency power and/or planning; organizational personnel
           with information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Mechanisms supporting and/or implementing an alternate
           power supply; the alternate power supply
-    statement: >
+    statement: >-
       the alternate power supply provided for the system is capable
       of maintaining {{ pe_11_02_odp_02 }} in the event of an
       extended loss of the primary power source.
@@ -84,9 +84,9 @@ parts:
   - id: b
     statement: Not reliant on external power generation; and
   - id: c
-    statement: >
+    statement: >-
       Capable of maintaining {{ pe_11_02_odp_02 }} in the event of
       an extended loss of the primary power source.
-statement: >
+statement: >-
   Provide an alternate power supply for the system that is activated
   {{ pe_11_02_odp_01 }} and that is:

@@ -12,7 +12,7 @@ objectives:
   - id: "ac-04(05)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; procedures addressing information
           flow enforcement; system design documentation; system
           configuration settings and associated documentation; list
@@ -20,7 +20,7 @@ objectives:
           within other data types; system audit records; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; system
           developers

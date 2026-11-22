@@ -12,7 +12,7 @@ objectives:
   - id: "si-07(16)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; procedures addressing
           software and information integrity; system design
@@ -20,22 +20,22 @@ objectives:
           associated documentation; system audit records; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel responsible for software,
           firmware, and/or information integrity; organizational
           personnel with information security responsibilities;
           system/network administrators; system developer
       - method: test
-        statement: >
+        statement: >-
           Software, firmware, and information integrity verification
           tools; mechanisms supporting and/or implementing time
           limits on process execution without supervision
-    statement: >
+    statement: >-
       processes are prohibited from executing without supervision
       for more than {{ si_07_16_odp }}.
 parameters:
   si_07_16_odp:
     label: time period
-statement: >
+statement: >-
   Prohibit processes from executing without supervision for more
   than {{ si_07_16_odp }}.

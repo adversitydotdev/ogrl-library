@@ -12,7 +12,7 @@ objectives:
   - id: "au-13(02)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Audit and accountability policy; system security plan;
           privacy plan; procedures addressing information disclosure
           monitoring; system design documentation; system
@@ -20,7 +20,7 @@ objectives:
           reviews for open-source information sites being monitored;
           system audit records; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for
           monitoring open-source information sites; organizational
           personnel with information security and privacy
@@ -29,12 +29,12 @@ objectives:
         statement: >-
           Mechanisms implementing monitoring for information
           disclosure
-    statement: >
+    statement: >-
       the list of open-source information sites being monitored is
       reviewed {{ au_13_02_odp }}.
 parameters:
   au_13_02_odp:
     label: frequency
-statement: >
+statement: >-
   Review the list of open-source information sites being monitored
   {{ au_13_02_odp }}.

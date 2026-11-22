@@ -12,7 +12,7 @@ objectives:
   - id: a.01
     methods:
       - method: examine
-        statement: >
+        statement: >-
           configuration management policy and procedures;
           configuration management plan; procedures for
           identification and documentation of information location;
@@ -22,14 +22,14 @@ objectives:
           inventory; system security plan; other relevant documents
           or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with responsibilities for managing information
           location and user access; personnel with responsibilities
           for operating, using, or maintaining the system; personnel
           with information security responsibilities; system
           developers; system administrators
       - method: test
-        statement: >
+        statement: >-
           processes governing information location; mechanisms for
           enforcing policies and methods for governing information
           location
@@ -37,7 +37,7 @@ objectives:
   - id: a.02
     methods:
       - method: examine
-        statement: >
+        statement: >-
           configuration management policy and procedures;
           configuration management plan; procedures for
           identification and documentation of information location;
@@ -47,14 +47,14 @@ objectives:
           inventory; system security plan; other relevant documents
           or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with responsibilities for managing information
           location and user access; personnel with responsibilities
           for operating, using, or maintaining the system; personnel
           with information security responsibilities; system
           developers; system administrators
       - method: test
-        statement: >
+        statement: >-
           processes governing information location; mechanisms for
           enforcing policies and methods for governing information
           location
@@ -64,7 +64,7 @@ objectives:
   - id: a.03
     methods:
       - method: examine
-        statement: >
+        statement: >-
           configuration management policy and procedures;
           configuration management plan; procedures for
           identification and documentation of information location;
@@ -74,14 +74,14 @@ objectives:
           inventory; system security plan; other relevant documents
           or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with responsibilities for managing information
           location and user access; personnel with responsibilities
           for operating, using, or maintaining the system; personnel
           with information security responsibilities; system
           developers; system administrators
       - method: test
-        statement: >
+        statement: >-
           processes governing information location; mechanisms for
           enforcing policies and methods for governing information
           location
@@ -91,7 +91,7 @@ objectives:
   - id: b.01
     methods:
       - method: examine
-        statement: >
+        statement: >-
           configuration management policy and procedures;
           configuration management plan; procedures for
           identification and documentation of information location;
@@ -101,24 +101,24 @@ objectives:
           inventory; system security plan; other relevant documents
           or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with responsibilities for managing information
           location and user access; personnel with responsibilities
           for operating, using, or maintaining the system; personnel
           with information security responsibilities; system
           developers; system administrators
       - method: test
-        statement: >
+        statement: >-
           processes governing information location; mechanisms for
           enforcing policies and methods for governing information
           location
-    statement: >
+    statement: >-
       changes to the system or system component location where CUI
       is processed are documented.
   - id: b.02
     methods:
       - method: examine
-        statement: >
+        statement: >-
           configuration management policy and procedures;
           configuration management plan; procedures for
           identification and documentation of information location;
@@ -128,26 +128,26 @@ objectives:
           inventory; system security plan; other relevant documents
           or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with responsibilities for managing information
           location and user access; personnel with responsibilities
           for operating, using, or maintaining the system; personnel
           with information security responsibilities; system
           developers; system administrators
       - method: test
-        statement: >
+        statement: >-
           processes governing information location; mechanisms for
           enforcing policies and methods for governing information
           location
-    statement: >
+    statement: >-
       changes to the system or system component location where CUI
       is stored are documented.
 parts:
   - id: a
-    statement: >
+    statement: >-
       Identify and document the location of CUI and the system
       components on which the information is processed and stored.
   - id: b
-    statement: >
+    statement: >-
       Document changes to the system or system component location
       where CUI is processed and stored.

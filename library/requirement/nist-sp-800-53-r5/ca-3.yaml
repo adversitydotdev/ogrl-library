@@ -22,7 +22,7 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; procedures addressing system
           connections; system and communications protection policy;
           system interconnection security agreements; information
@@ -33,20 +33,20 @@ objectives:
           settings and associated documentation; system security
           plan; privacy plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for
           developing, implementing, or approving system
           interconnection agreements; organizational personnel with
           information security and privacy responsibilities;
           personnel managing the system(s) to which the
           interconnection security agreement applies
-    statement: >
+    statement: >-
       the exchange of information between the system and other
       systems is approved and managed using {{ ca_03_odp_01 }};
   - id: b-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; procedures addressing system
           connections; system and communications protection policy;
           system interconnection security agreements; information
@@ -57,7 +57,7 @@ objectives:
           settings and associated documentation; system security
           plan; privacy plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for
           developing, implementing, or approving system
           interconnection agreements; organizational personnel with
@@ -70,7 +70,7 @@ objectives:
   - id: b-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; procedures addressing system
           connections; system and communications protection policy;
           system interconnection security agreements; information
@@ -81,7 +81,7 @@ objectives:
           settings and associated documentation; system security
           plan; privacy plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for
           developing, implementing, or approving system
           interconnection agreements; organizational personnel with
@@ -94,7 +94,7 @@ objectives:
   - id: b-3
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; procedures addressing system
           connections; system and communications protection policy;
           system interconnection security agreements; information
@@ -105,7 +105,7 @@ objectives:
           settings and associated documentation; system security
           plan; privacy plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for
           developing, implementing, or approving system
           interconnection agreements; organizational personnel with
@@ -118,7 +118,7 @@ objectives:
   - id: b-4
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; procedures addressing system
           connections; system and communications protection policy;
           system interconnection security agreements; information
@@ -129,7 +129,7 @@ objectives:
           settings and associated documentation; system security
           plan; privacy plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for
           developing, implementing, or approving system
           interconnection agreements; organizational personnel with
@@ -141,7 +141,7 @@ objectives:
   - id: b-5
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; procedures addressing system
           connections; system and communications protection policy;
           system interconnection security agreements; information
@@ -152,20 +152,20 @@ objectives:
           settings and associated documentation; system security
           plan; privacy plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for
           developing, implementing, or approving system
           interconnection agreements; organizational personnel with
           information security and privacy responsibilities;
           personnel managing the system(s) to which the
           interconnection security agreement applies
-    statement: >
+    statement: >-
       responsibilities for each system are documented as part of
       each exchange agreement;
   - id: b-6
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; procedures addressing system
           connections; system and communications protection policy;
           system interconnection security agreements; information
@@ -176,20 +176,20 @@ objectives:
           settings and associated documentation; system security
           plan; privacy plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for
           developing, implementing, or approving system
           interconnection agreements; organizational personnel with
           information security and privacy responsibilities;
           personnel managing the system(s) to which the
           interconnection security agreement applies
-    statement: >
+    statement: >-
       the impact level of the information communicated is documented
       as part of each exchange agreement;
   - id: c
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; procedures addressing system
           connections; system and communications protection policy;
           system interconnection security agreements; information
@@ -200,7 +200,7 @@ objectives:
           settings and associated documentation; system security
           plan; privacy plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for
           developing, implementing, or approving system
           interconnection agreements; organizational personnel with
@@ -218,11 +218,11 @@ parameters:
     label: frequency
 parts:
   - id: a
-    statement: >
+    statement: >-
       Approve and manage the exchange of information between the
       system and other systems using {{ ca_03_odp_01 }};
   - id: b
-    statement: >
+    statement: >-
       Document, as part of each exchange agreement, the interface
       characteristics, security and privacy requirements, controls,
       and responsibilities for each system, and the impact level of

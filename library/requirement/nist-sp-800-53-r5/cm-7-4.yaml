@@ -12,7 +12,7 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           least functionality in the system; configuration
           management plan; system design documentation; system
@@ -24,13 +24,13 @@ objectives:
           change control records; system audit records; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for
           identifying software not authorized to execute on the
           system; organizational personnel with information security
           responsibilities; system/network administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational process for identifying, reviewing, and
           updating programs not authorized to execute on the system;
           organizational process for implementing unauthorized
@@ -40,7 +40,7 @@ objectives:
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           least functionality in the system; configuration
           management plan; system design documentation; system
@@ -52,25 +52,25 @@ objectives:
           change control records; system audit records; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for
           identifying software not authorized to execute on the
           system; organizational personnel with information security
           responsibilities; system/network administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational process for identifying, reviewing, and
           updating programs not authorized to execute on the system;
           organizational process for implementing unauthorized
           software policy; mechanisms supporting and/or implementing
           unauthorized software policy
-    statement: >
+    statement: >-
       an allow-all, deny-by-exception policy is employed to prohibit
       the execution of unauthorized software programs on the system;
   - id: c
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           least functionality in the system; configuration
           management plan; system design documentation; system
@@ -82,19 +82,19 @@ objectives:
           change control records; system audit records; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for
           identifying software not authorized to execute on the
           system; organizational personnel with information security
           responsibilities; system/network administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational process for identifying, reviewing, and
           updating programs not authorized to execute on the system;
           organizational process for implementing unauthorized
           software policy; mechanisms supporting and/or implementing
           unauthorized software policy
-    statement: >
+    statement: >-
       the list of unauthorized software programs is reviewed and
       updated {{ cm_07_04_odp_02 }}.
 parameters:
@@ -106,10 +106,10 @@ parts:
   - id: a
     statement: "Identify {{ cm_07_04_odp_01 }};"
   - id: b
-    statement: >
+    statement: >-
       Employ an allow-all, deny-by-exception policy to prohibit the
       execution of unauthorized software programs on the system; and
   - id: c
-    statement: >
+    statement: >-
       Review and update the list of unauthorized software programs
       {{ cm_07_04_odp_02 }}.

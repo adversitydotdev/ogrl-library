@@ -12,7 +12,7 @@ objectives:
   - id: _obj
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing concealment and misdirection techniques for the
           system; system design documentation; system configuration
@@ -22,16 +22,16 @@ objectives:
           system audit records; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; organizational
           personnel with the responsibility to implement concealment
           and misdirection techniques for systems
       - method: test
-        statement: >
+        statement: >-
           Mechanisms supporting and/or implementing concealment and
           misdirection techniques
-    statement: >
+    statement: >-
       {{ sc_30_odp_01 }} are employed for {{ sc_30_odp_02 }} for
       {{ sc_30_odp_03 }} to confuse and mislead adversaries.
 parameters:
@@ -41,7 +41,7 @@ parameters:
     label: systems
   sc_30_odp_03:
     label: time periods
-statement: >
+statement: >-
   Employ the following concealment and misdirection techniques for
   {{ sc_30_odp_02 }} at {{ sc_30_odp_03 }} to confuse and mislead
   adversaries: {{ sc_30_odp_01 }}.

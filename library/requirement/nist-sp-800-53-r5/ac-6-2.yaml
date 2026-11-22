@@ -12,7 +12,7 @@ objectives:
   - id: "ac-06(02)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; procedures addressing least
           privilege; list of system-generated security functions or
           security-relevant information assigned to system accounts
@@ -20,21 +20,21 @@ objectives:
           documentation; system audit records; system security plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for
           defining least privileges necessary to accomplish
           specified tasks; organizational personnel with information
           security responsibilities; system/network administrators
       - method: test
         statement: Mechanisms implementing least privilege functions
-    statement: >
+    statement: >-
       users of system accounts (or roles) with access to
       {{ ac_06_02_odp }} are required to use non-privileged accounts
       or roles when accessing non-security functions.
 parameters:
   ac_06_02_odp:
     label: security functions or security-relevant information
-statement: >
+statement: >-
   Require that users of system accounts (or roles) with access to
   {{ ac_06_02_odp }} use non-privileged accounts or roles, when
   accessing nonsecurity functions.

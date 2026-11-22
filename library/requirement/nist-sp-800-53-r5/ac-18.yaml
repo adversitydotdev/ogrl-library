@@ -19,7 +19,7 @@ objectives:
   - id: a-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; procedures addressing wireless
           access implementation and usage (including restrictions);
           configuration management plan; system design
@@ -28,7 +28,7 @@ objectives:
           system audit records; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for
           managing wireless access connections; organizational
           personnel with information security responsibilities
@@ -41,7 +41,7 @@ objectives:
   - id: a-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; procedures addressing wireless
           access implementation and usage (including restrictions);
           configuration management plan; system design
@@ -50,7 +50,7 @@ objectives:
           system audit records; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for
           managing wireless access connections; organizational
           personnel with information security responsibilities
@@ -63,7 +63,7 @@ objectives:
   - id: a-3
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; procedures addressing wireless
           access implementation and usage (including restrictions);
           configuration management plan; system design
@@ -72,7 +72,7 @@ objectives:
           system audit records; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for
           managing wireless access connections; organizational
           personnel with information security responsibilities
@@ -85,7 +85,7 @@ objectives:
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; procedures addressing wireless
           access implementation and usage (including restrictions);
           configuration management plan; system design
@@ -94,23 +94,23 @@ objectives:
           system audit records; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for
           managing wireless access connections; organizational
           personnel with information security responsibilities
       - method: test
         statement: >-
           Wireless access management capability for the system
-    statement: >
+    statement: >-
       each type of wireless access to the system is authorized prior
       to allowing such connections.
 parts:
   - id: a
-    statement: >
+    statement: >-
       Establish configuration requirements, connection requirements,
       and implementation guidance for each type of wireless access;
       and
   - id: b
-    statement: >
+    statement: >-
       Authorize each type of wireless access to the system prior to
       allowing such connections.

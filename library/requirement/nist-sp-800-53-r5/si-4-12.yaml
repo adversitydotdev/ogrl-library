@@ -12,7 +12,7 @@ objectives:
   - id: "si-04(12)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; procedures addressing
           system monitoring tools and techniques; system design
@@ -26,7 +26,7 @@ objectives:
           security plan; privacy plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security and privacy responsibilities;
           system developers; organizational personnel installing,
@@ -35,13 +35,13 @@ objectives:
           organizational personnel responsible for the intrusion
           detection system
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for intrusion detection and
           system monitoring; automated mechanisms supporting and/or
           implementing intrusion detection and system monitoring
           capabilities; automated mechanisms supporting and/or
           implementing automated alerts to security personnel
-    statement: >
+    statement: >-
       {{ si_04_12_odp_01 }} is/are alerted using
       {{ si_04_12_odp_02 }} when {{ si_04_12_odp_03 }} indicate
       inappropriate or unusual activities with security or privacy
@@ -53,7 +53,7 @@ parameters:
     label: automated mechanisms
   si_04_12_odp_03:
     label: activities that trigger alerts
-statement: >
+statement: >-
   Alert {{ si_04_12_odp_01 }} using {{ si_04_12_odp_02 }} when the
   following indications of inappropriate or unusual activities with
   security or privacy implications occur: {{ si_04_12_odp_03 }}.

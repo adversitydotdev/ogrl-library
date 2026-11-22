@@ -12,7 +12,7 @@ objectives:
   - id: "sa-10(03)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; procedures
           addressing system developer configuration management;
           solicitation documentation; acquisition documentation;
@@ -23,7 +23,7 @@ objectives:
           supply chain risk management plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and service
           acquisition responsibilities; organizational personnel
           with information security responsibilities; organizational
@@ -31,15 +31,15 @@ objectives:
           system developers; organizational personnel with supply
           chain risk management responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for monitoring developer
           configuration management; mechanisms supporting and/or
           implementing the monitoring of developer configuration
           management
-    statement: >
+    statement: >-
       the developer of the system, system component, or system
       service is required to enable integrity verification of
       hardware components.
-statement: >
+statement: >-
   Require the developer of the system, system component, or system
   service to enable integrity verification of hardware components.

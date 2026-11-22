@@ -37,7 +37,7 @@ objectives:
   - id: "01"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           system and communications protection policy and
           procedures; procedures for cryptographic key establishment
           and management; system design documentation; system
@@ -45,22 +45,22 @@ objectives:
           audit records; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with responsibilities for cryptographic key
           establishment or management; personnel with information
           security responsibilities; system administrators
       - method: test
-        statement: >
+        statement: >-
           mechanisms for supporting or implementing cryptographic
           key establishment and management
-    statement: >
+    statement: >-
       cryptographic keys are established in the system in accordance
       with the following key management requirements:
       {{ a_03_13_10_odp_01 }}.
   - id: "02"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           system and communications protection policy and
           procedures; procedures for cryptographic key establishment
           and management; system design documentation; system
@@ -68,22 +68,22 @@ objectives:
           audit records; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with responsibilities for cryptographic key
           establishment or management; personnel with information
           security responsibilities; system administrators
       - method: test
-        statement: >
+        statement: >-
           mechanisms for supporting or implementing cryptographic
           key establishment and management
-    statement: >
+    statement: >-
       cryptographic keys are managed in the system in accordance
       with the following key management requirements:
       {{ a_03_13_10_odp_01 }}.
 parameters:
   a_03_13_10_odp_01:
     label: requirements
-statement: >
+statement: >-
   Establish and manage cryptographic keys in the system in
   accordance with the following key management requirements:
   {{ a_03_13_10_odp_01 }}.

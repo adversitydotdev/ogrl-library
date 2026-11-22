@@ -12,12 +12,12 @@ objectives:
   - id: "ia-12(05)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Identification and authentication policy; procedures
           addressing identity proofing; system security plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system operations
           responsibilities; organizational personnel with
           information security responsibilities; system/network
@@ -25,17 +25,17 @@ objectives:
           personnel with identification and authentication
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           Mechanisms supporting and/or implementing identification
           and authentication capabilities
-    statement: >
+    statement: >-
       a {{ ia_12_05_odp }} is delivered through an out-of-band
       channel to verify the user’s address (physical or digital)
       of record.
 parameters:
   ia_12_05_odp:
     label: ia-12.05_odp
-statement: >
+statement: >-
   Require that a {{ ia_12_05_odp }} be delivered through an
   out-of-band channel to verify the users address (physical or
   digital) of record.

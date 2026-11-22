@@ -12,7 +12,7 @@ objectives:
   - id: "au-06(01)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Audit and accountability policy; system security plan;
           privacy plan; procedures addressing audit review,
           analysis, and reporting; procedures addressing
@@ -21,7 +21,7 @@ objectives:
           and associated documentation; system audit records; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with audit review, analysis, and
           reporting responsibilities; organizational personnel with
           information security and privacy responsibilities
@@ -29,12 +29,12 @@ objectives:
         statement: >-
           Automated mechanisms integrating audit review, analysis,
           and reporting processes
-    statement: >
+    statement: >-
       audit record review, analysis, and reporting processes are
       integrated using {{ au_06_01_odp }}.
 parameters:
   au_06_01_odp:
     label: automated mechanisms
-statement: >
+statement: >-
   Integrate audit record review, analysis, and reporting processes
   using {{ au_06_01_odp }}.

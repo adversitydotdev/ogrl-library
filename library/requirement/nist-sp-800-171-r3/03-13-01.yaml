@@ -28,7 +28,7 @@ objectives:
   - id: a.01
     methods:
       - method: examine
-        statement: >
+        statement: >-
           system and communications protection policy and
           procedures; procedures for boundary protection; list of
           key internal boundaries within the system; boundary
@@ -37,7 +37,7 @@ objectives:
           system design documentation; system security plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with boundary protection responsibilities;
           personnel with information security responsibilities;
           system developers; system administrators
@@ -51,7 +51,7 @@ objectives:
   - id: a.02
     methods:
       - method: examine
-        statement: >
+        statement: >-
           system and communications protection policy and
           procedures; procedures for boundary protection; list of
           key internal boundaries within the system; boundary
@@ -60,7 +60,7 @@ objectives:
           system design documentation; system security plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with boundary protection responsibilities;
           personnel with information security responsibilities;
           system developers; system administrators
@@ -74,7 +74,7 @@ objectives:
   - id: a.03
     methods:
       - method: examine
-        statement: >
+        statement: >-
           system and communications protection policy and
           procedures; procedures for boundary protection; list of
           key internal boundaries within the system; boundary
@@ -83,7 +83,7 @@ objectives:
           system design documentation; system security plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with boundary protection responsibilities;
           personnel with information security responsibilities;
           system developers; system administrators
@@ -91,13 +91,13 @@ objectives:
         statement: >-
           mechanisms for implementing boundary protection
           capabilities
-    statement: >
+    statement: >-
       communications at key internal managed interfaces within the
       system are monitored.
   - id: a.04
     methods:
       - method: examine
-        statement: >
+        statement: >-
           system and communications protection policy and
           procedures; procedures for boundary protection; list of
           key internal boundaries within the system; boundary
@@ -106,7 +106,7 @@ objectives:
           system design documentation; system security plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with boundary protection responsibilities;
           personnel with information security responsibilities;
           system developers; system administrators
@@ -114,13 +114,13 @@ objectives:
         statement: >-
           mechanisms for implementing boundary protection
           capabilities
-    statement: >
+    statement: >-
       communications at key internal managed interfaces within the
       system are controlled.
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           system and communications protection policy and
           procedures; procedures for boundary protection; list of
           key internal boundaries within the system; boundary
@@ -129,7 +129,7 @@ objectives:
           system design documentation; system security plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with boundary protection responsibilities;
           personnel with information security responsibilities;
           system developers; system administrators
@@ -137,14 +137,14 @@ objectives:
         statement: >-
           mechanisms for implementing boundary protection
           capabilities
-    statement: >
+    statement: >-
       subnetworks are implemented for publicly accessible system
       components that are physically or logically separated from
       internal networks.
   - id: c
     methods:
       - method: examine
-        statement: >
+        statement: >-
           system and communications protection policy and
           procedures; procedures for boundary protection; list of
           key internal boundaries within the system; boundary
@@ -153,7 +153,7 @@ objectives:
           system design documentation; system security plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with boundary protection responsibilities;
           personnel with information security responsibilities;
           system developers; system administrators
@@ -161,24 +161,24 @@ objectives:
         statement: >-
           mechanisms for implementing boundary protection
           capabilities
-    statement: >
+    statement: >-
       external system connections are only made through managed
       interfaces that consist of boundary protection devices
       arranged in accordance with an organizational security
       architecture.
 parts:
   - id: a
-    statement: >
+    statement: >-
       Monitor and control communications at external managed
       interfaces to the system and key internal managed interfaces
       within the system.
   - id: b
-    statement: >
+    statement: >-
       Implement subnetworks for publicly accessible system
       components that are physically or logically separated from
       internal networks.
   - id: c
-    statement: >
+    statement: >-
       Connect to external systems only through managed interfaces
       that consist of boundary protection devices arranged in
       accordance with an organizational security architecture.

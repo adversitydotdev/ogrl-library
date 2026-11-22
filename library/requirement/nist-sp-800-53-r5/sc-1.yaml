@@ -22,14 +22,14 @@ objectives:
   - id: a-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; system and
           communications protection procedures; system security
           plan; privacy plan; risk management strategy
           documentation; audit findings; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and communications
           protection responsibilities; organizational personnel with
           information security and privacy responsibilities
@@ -39,35 +39,35 @@ objectives:
   - id: a-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; system and
           communications protection procedures; system security
           plan; privacy plan; risk management strategy
           documentation; audit findings; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and communications
           protection responsibilities; organizational personnel with
           information security and privacy responsibilities
-    statement: >
+    statement: >-
       the system and communications protection policy is
       disseminated to {{ sc_01_odp_01 }};
   - id: a-3
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; system and
           communications protection procedures; system security
           plan; privacy plan; risk management strategy
           documentation; audit findings; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and communications
           protection responsibilities; organizational personnel with
           information security and privacy responsibilities
-    statement: >
+    statement: >-
       system and communications protection procedures to facilitate
       the implementation of the system and communications protection
       policy and associated system and communications protection
@@ -75,241 +75,241 @@ objectives:
   - id: a-4
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; system and
           communications protection procedures; system security
           plan; privacy plan; risk management strategy
           documentation; audit findings; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and communications
           protection responsibilities; organizational personnel with
           information security and privacy responsibilities
-    statement: >
+    statement: >-
       the system and communications protection procedures are
       disseminated to {{ sc_01_odp_02 }};
   - id: a.1.a-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; system and
           communications protection procedures; system security
           plan; privacy plan; risk management strategy
           documentation; audit findings; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and communications
           protection responsibilities; organizational personnel with
           information security and privacy responsibilities
-    statement: >
+    statement: >-
       the {{ sc_01_odp_03 }} system and communications protection
       policy addresses purpose;
   - id: a.1.a-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; system and
           communications protection procedures; system security
           plan; privacy plan; risk management strategy
           documentation; audit findings; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and communications
           protection responsibilities; organizational personnel with
           information security and privacy responsibilities
-    statement: >
+    statement: >-
       the {{ sc_01_odp_03 }} system and communications protection
       policy addresses scope;
   - id: a.1.a-3
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; system and
           communications protection procedures; system security
           plan; privacy plan; risk management strategy
           documentation; audit findings; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and communications
           protection responsibilities; organizational personnel with
           information security and privacy responsibilities
-    statement: >
+    statement: >-
       the {{ sc_01_odp_03 }} system and communications protection
       policy addresses roles;
   - id: a.1.a-4
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; system and
           communications protection procedures; system security
           plan; privacy plan; risk management strategy
           documentation; audit findings; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and communications
           protection responsibilities; organizational personnel with
           information security and privacy responsibilities
-    statement: >
+    statement: >-
       the {{ sc_01_odp_03 }} system and communications protection
       policy addresses responsibilities;
   - id: a.1.a-5
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; system and
           communications protection procedures; system security
           plan; privacy plan; risk management strategy
           documentation; audit findings; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and communications
           protection responsibilities; organizational personnel with
           information security and privacy responsibilities
-    statement: >
+    statement: >-
       the {{ sc_01_odp_03 }} system and communications protection
       policy addresses management commitment;
   - id: a.1.a-6
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; system and
           communications protection procedures; system security
           plan; privacy plan; risk management strategy
           documentation; audit findings; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and communications
           protection responsibilities; organizational personnel with
           information security and privacy responsibilities
-    statement: >
+    statement: >-
       the {{ sc_01_odp_03 }} system and communications protection
       policy addresses coordination among organizational entities;
   - id: a.1.a-7
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; system and
           communications protection procedures; system security
           plan; privacy plan; risk management strategy
           documentation; audit findings; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and communications
           protection responsibilities; organizational personnel with
           information security and privacy responsibilities
-    statement: >
+    statement: >-
       the {{ sc_01_odp_03 }} system and communications protection
       policy addresses compliance;
   - id: a.1.b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; system and
           communications protection procedures; system security
           plan; privacy plan; risk management strategy
           documentation; audit findings; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and communications
           protection responsibilities; organizational personnel with
           information security and privacy responsibilities
-    statement: >
+    statement: >-
       the {{ sc_01_odp_03 }} system and communications protection
       policy is consistent with applicable laws, Executive Orders,
       directives, regulations, policies, standards, and guidelines;
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; system and
           communications protection procedures; system security
           plan; privacy plan; risk management strategy
           documentation; audit findings; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and communications
           protection responsibilities; organizational personnel with
           information security and privacy responsibilities
-    statement: >
+    statement: >-
       the {{ sc_01_odp_04 }} is designated to manage the
       development, documentation, and dissemination of the system
       and communications protection policy and procedures;
   - id: c.1-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; system and
           communications protection procedures; system security
           plan; privacy plan; risk management strategy
           documentation; audit findings; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and communications
           protection responsibilities; organizational personnel with
           information security and privacy responsibilities
-    statement: >
+    statement: >-
       the current system and communications protection policy is
       reviewed and updated {{ sc_01_odp_05 }};
   - id: c.1-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; system and
           communications protection procedures; system security
           plan; privacy plan; risk management strategy
           documentation; audit findings; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and communications
           protection responsibilities; organizational personnel with
           information security and privacy responsibilities
-    statement: >
+    statement: >-
       the current system and communications protection policy is
       reviewed and updated following {{ sc_01_odp_06 }};
   - id: c.2-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; system and
           communications protection procedures; system security
           plan; privacy plan; risk management strategy
           documentation; audit findings; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and communications
           protection responsibilities; organizational personnel with
           information security and privacy responsibilities
-    statement: >
+    statement: >-
       the current system and communications protection procedures
       are reviewed and updated {{ sc_01_odp_07 }};
   - id: c.2-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; system and
           communications protection procedures; system security
           plan; privacy plan; risk management strategy
           documentation; audit findings; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and communications
           protection responsibilities; organizational personnel with
           information security and privacy responsibilities
-    statement: >
+    statement: >-
       the current system and communications protection procedures
       are reviewed and updated following {{ sc_01_odp_08 }}.
 parameters:
@@ -340,22 +340,22 @@ parts:
       {{ sc_01_odp_03 }} system and communications protection policy
       that:
   - id: a.1.a
-    statement: >
+    statement: >-
       Addresses purpose, scope, roles, responsibilities, management
       commitment, coordination among organizational entities, and
       compliance; and
   - id: a.1.b
-    statement: >
+    statement: >-
       Is consistent with applicable laws, executive orders,
       directives, regulations, policies, standards, and guidelines;
       and
   - id: a.2
-    statement: >
+    statement: >-
       Procedures to facilitate the implementation of the system and
       communications protection policy and the associated system and
       communications protection controls;
   - id: b
-    statement: >
+    statement: >-
       Designate an {{ sc_01_odp_04 }} to manage the development,
       documentation, and dissemination of the system and
       communications protection policy and procedures; and

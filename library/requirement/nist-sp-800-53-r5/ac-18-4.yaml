@@ -12,43 +12,43 @@ objectives:
   - id: "ac-18(04).ac-18(04)[01]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; procedures addressing wireless
           implementation and usage (including restrictions); system
           design documentation; system configuration settings and
           associated documentation; system audit records; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Mechanisms authorizing independent user configuration of
           wireless networking capabilities
-    statement: >
+    statement: >-
       users allowed to independently configure wireless networking
       capabilities are identified;
   - id: "ac-18(04).ac-18(04)[02]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; procedures addressing wireless
           implementation and usage (including restrictions); system
           design documentation; system configuration settings and
           associated documentation; system audit records; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Mechanisms authorizing independent user configuration of
           wireless networking capabilities
-    statement: >
+    statement: >-
       users allowed to independently configure wireless networking
       capabilities are explicitly authorized.
-statement: >
+statement: >-
   Identify and explicitly authorize users allowed to independently
   configure wireless networking capabilities.

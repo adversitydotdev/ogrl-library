@@ -12,7 +12,7 @@ objectives:
   - id: "pe-14(02).pe-14(02)[01]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Physical and environmental protection policy; procedures
           addressing temperature and humidity monitoring; facility
           housing the system; logs or records of temperature and
@@ -20,7 +20,7 @@ objectives:
           humidity levels that generate alarms or notifications;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for system
           environmental controls; organizational personnel with
           information security responsibilities
@@ -32,7 +32,7 @@ objectives:
   - id: "pe-14(02).pe-14(02)[02]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Physical and environmental protection policy; procedures
           addressing temperature and humidity monitoring; facility
           housing the system; logs or records of temperature and
@@ -40,7 +40,7 @@ objectives:
           humidity levels that generate alarms or notifications;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for system
           environmental controls; organizational personnel with
           information security responsibilities
@@ -48,14 +48,14 @@ objectives:
         statement: >-
           Mechanisms supporting and/or implementing temperature and
           humidity monitoring
-    statement: >
+    statement: >-
       the environmental control monitoring capability provides an
       alarm or notification to {{ pe_14_02_odp }} when changes are
       potentially harmful to personnel or equipment.
 parameters:
   pe_14_02_odp:
     label: personnel or roles
-statement: >
+statement: >-
   Employ environmental control monitoring that provides an alarm or
   notification of changes potentially harmful to personnel or
   equipment to {{ pe_14_02_odp }}.

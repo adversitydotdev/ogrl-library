@@ -12,7 +12,7 @@ objectives:
   - id: "ia-13(01).ia-13(01)[01]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Identification and authentication policy;; procedures
           addressing cryptographic key establishment and
           management;; system design documentation;; cryptographic
@@ -20,13 +20,13 @@ objectives:
           documentation;; system security plan;; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators;; organizational personnel
           with information security responsibilities;;
           organizational personnel with responsibilities for
           cryptographic key establishment and/or management
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for cryptographic key
           management;; cryptographic modules generating, storing,
           and using cryptographic keys
@@ -35,7 +35,7 @@ objectives:
   - id: "ia-13(01).ia-13(01)[02]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Identification and authentication policy;; procedures
           addressing cryptographic key establishment and
           management;; system design documentation;; cryptographic
@@ -43,13 +43,13 @@ objectives:
           documentation;; system security plan;; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators;; organizational personnel
           with information security responsibilities;;
           organizational personnel with responsibilities for
           cryptographic key establishment and/or management
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for cryptographic key
           management;; cryptographic modules generating, storing,
           and using cryptographic keys
@@ -58,7 +58,7 @@ objectives:
   - id: "ia-13(01).ia-13(01)[03]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Identification and authentication policy;; procedures
           addressing cryptographic key establishment and
           management;; system design documentation;; cryptographic
@@ -66,13 +66,13 @@ objectives:
           documentation;; system security plan;; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators;; organizational personnel
           with information security responsibilities;;
           organizational personnel with responsibilities for
           cryptographic key establishment and/or management
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for cryptographic key
           management;; cryptographic modules generating, storing,
           and using cryptographic keys
@@ -82,7 +82,7 @@ objectives:
   - id: "ia-13(01).ia-13(01)[04]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Identification and authentication policy;; procedures
           addressing cryptographic key establishment and
           management;; system design documentation;; cryptographic
@@ -90,19 +90,19 @@ objectives:
           documentation;; system security plan;; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators;; organizational personnel
           with information security responsibilities;;
           organizational personnel with responsibilities for
           cryptographic key establishment and/or management
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for cryptographic key
           management;; cryptographic modules generating, storing,
           and using cryptographic keys
-    statement: >
+    statement: >-
       cryptographic keys that protect access tokens are protected
       from disclosure and misuse
-statement: >
+statement: >-
   Cryptographic keys that protect access tokens are generated,
   managed, and protected from disclosure and misuse.

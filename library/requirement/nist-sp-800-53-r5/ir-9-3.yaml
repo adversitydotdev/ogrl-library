@@ -12,20 +12,20 @@ objectives:
   - id: "ir-09(03)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Incident response policy; procedures addressing incident
           response; procedures addressing information spillage;
           incident response plan; system security plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with incident response
           responsibilities; organizational personnel with
           information security responsibilities
       - method: test
         statement: >-
           Organizational processes for post-spill operations
-    statement: >
+    statement: >-
       {{ ir_09_03_odp }} are implemented to ensure that
       organizational personnel impacted by information spills can
       continue to carry out assigned tasks while contaminated
@@ -33,7 +33,7 @@ objectives:
 parameters:
   ir_09_03_odp:
     label: procedures
-statement: >
+statement: >-
   Implement the following procedures to ensure that organizational
   personnel impacted by information spills can continue to carry out
   assigned tasks while contaminated systems are undergoing

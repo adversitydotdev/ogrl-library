@@ -14,7 +14,7 @@ objectives:
   - id: "sr-05(02).sr-05(02)[01]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System security plan; system and services acquisition
           policy; procedures addressing supply chain protection;
           procedures addressing the integration of information
@@ -24,13 +24,13 @@ objectives:
           organizational risk assessment results; system security
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and services
           acquisition responsibilities; organizational personnel
           with information security responsibilities; organizational
           personnel with supply chain protection responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for conducting assessments prior
           to selection, acceptance, or update; mechanisms supporting
           and/or implementing the conducting of assessments prior to
@@ -41,7 +41,7 @@ objectives:
   - id: "sr-05(02).sr-05(02)[02]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System security plan; system and services acquisition
           policy; procedures addressing supply chain protection;
           procedures addressing the integration of information
@@ -51,13 +51,13 @@ objectives:
           organizational risk assessment results; system security
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and services
           acquisition responsibilities; organizational personnel
           with information security responsibilities; organizational
           personnel with supply chain protection responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for conducting assessments prior
           to selection, acceptance, or update; mechanisms supporting
           and/or implementing the conducting of assessments prior to
@@ -68,7 +68,7 @@ objectives:
   - id: "sr-05(02).sr-05(02)[03]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System security plan; system and services acquisition
           policy; procedures addressing supply chain protection;
           procedures addressing the integration of information
@@ -78,24 +78,24 @@ objectives:
           organizational risk assessment results; system security
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and services
           acquisition responsibilities; organizational personnel
           with information security responsibilities; organizational
           personnel with supply chain protection responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for conducting assessments prior
           to selection, acceptance, or update; mechanisms supporting
           and/or implementing the conducting of assessments prior to
           selection, acceptance, or update
-    statement: >
+    statement: >-
       the system, system component, or system service is assessed
       prior to modification;
   - id: "sr-05(02).sr-05(02)[04]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System security plan; system and services acquisition
           policy; procedures addressing supply chain protection;
           procedures addressing the integration of information
@@ -105,13 +105,13 @@ objectives:
           organizational risk assessment results; system security
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and services
           acquisition responsibilities; organizational personnel
           with information security responsibilities; organizational
           personnel with supply chain protection responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for conducting assessments prior
           to selection, acceptance, or update; mechanisms supporting
           and/or implementing the conducting of assessments prior to
@@ -119,6 +119,6 @@ objectives:
     statement: >-
       the system, system component, or system service is assessed
       prior to update.
-statement: >
+statement: >-
   Assess the system, system component, or system service prior to
   selection, acceptance, modification, or update.

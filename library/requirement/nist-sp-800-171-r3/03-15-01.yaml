@@ -19,61 +19,61 @@ objectives:
   - id: a.01
     methods:
       - method: examine
-        statement: >
+        statement: >-
           security policies and procedures associated with the
           protection of CUI; audit findings; system security plan;
           other relevant documents or records
       - method: interview
         statement: >-
           personnel with information security responsibilities
-    statement: >
+    statement: >-
       policies needed to satisfy the security requirements for the
       protection of CUI are developed and documented.
   - id: a.02
     methods:
       - method: examine
-        statement: >
+        statement: >-
           security policies and procedures associated with the
           protection of CUI; audit findings; system security plan;
           other relevant documents or records
       - method: interview
         statement: >-
           personnel with information security responsibilities
-    statement: >
+    statement: >-
       policies needed to satisfy the security requirements for the
       protection of CUI are disseminated to organizational personnel
       or roles.
   - id: a.03
     methods:
       - method: examine
-        statement: >
+        statement: >-
           security policies and procedures associated with the
           protection of CUI; audit findings; system security plan;
           other relevant documents or records
       - method: interview
         statement: >-
           personnel with information security responsibilities
-    statement: >
+    statement: >-
       procedures needed to satisfy the security requirements for the
       protection of CUI are developed and documented.
   - id: a.04
     methods:
       - method: examine
-        statement: >
+        statement: >-
           security policies and procedures associated with the
           protection of CUI; audit findings; system security plan;
           other relevant documents or records
       - method: interview
         statement: >-
           personnel with information security responsibilities
-    statement: >
+    statement: >-
       procedures needed to satisfy the security requirements for the
       protection of CUI are disseminated to organizational personnel
       or roles.
   - id: b.01
     methods:
       - method: examine
-        statement: >
+        statement: >-
           security policies and procedures associated with the
           protection of CUI; audit findings; system security plan;
           other relevant documents or records
@@ -85,7 +85,7 @@ objectives:
   - id: b.02
     methods:
       - method: examine
-        statement: >
+        statement: >-
           security policies and procedures associated with the
           protection of CUI; audit findings; system security plan;
           other relevant documents or records
@@ -99,7 +99,7 @@ parameters:
     label: frequency
 parts:
   - id: a
-    statement: >
+    statement: >-
       Develop, document, and disseminate to organizational personnel
       or roles the policies and procedures needed to satisfy the
       security requirements for the protection of CUI.

@@ -12,7 +12,7 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Supply chain risk management plan; system and services
           acquisition policy; procedures addressing development
           process, standards, and tools; procedures addressing
@@ -25,7 +25,7 @@ objectives:
           development life cycle documentation; system security
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and service
           acquisition responsibilities; organizational personnel
           with information security responsibilities; organizational
@@ -33,18 +33,18 @@ objectives:
           system developer; organizational personnel with supply
           chain risk management responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for performing criticality
           analysis; mechanisms supporting and/or implementing
           criticality analysis
-    statement: >
+    statement: >-
       the developer of the system, system component, or system
       service is required to perform a criticality analysis at
       {{ sa_15_03_odp_01 }} in the system development life cycle;
   - id: b-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Supply chain risk management plan; system and services
           acquisition policy; procedures addressing development
           process, standards, and tools; procedures addressing
@@ -57,7 +57,7 @@ objectives:
           development life cycle documentation; system security
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and service
           acquisition responsibilities; organizational personnel
           with information security responsibilities; organizational
@@ -65,18 +65,18 @@ objectives:
           system developer; organizational personnel with supply
           chain risk management responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for performing criticality
           analysis; mechanisms supporting and/or implementing
           criticality analysis
-    statement: >
+    statement: >-
       the developer of the system, system component, or system
       service is required to perform a criticality analysis at the
       following rigor level: {{ sa_15_03_odp_02 }};
   - id: b-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Supply chain risk management plan; system and services
           acquisition policy; procedures addressing development
           process, standards, and tools; procedures addressing
@@ -89,7 +89,7 @@ objectives:
           development life cycle documentation; system security
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and service
           acquisition responsibilities; organizational personnel
           with information security responsibilities; organizational
@@ -97,11 +97,11 @@ objectives:
           system developer; organizational personnel with supply
           chain risk management responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for performing criticality
           analysis; mechanisms supporting and/or implementing
           criticality analysis
-    statement: >
+    statement: >-
       the developer of the system, system component, or system
       service is required to perform a criticality analysis at the
       following rigor level: {{ sa_15_03_odp_03 }} .
@@ -117,12 +117,12 @@ parameters:
       organization-defined breadth and depth of criticality analysis
 parts:
   - id: a
-    statement: >
+    statement: >-
       At the following decision points in the system development
       life cycle: {{ sa_15_03_odp_01 }} ; and
   - id: b
     statement: >-
       At the following level of rigor: {{ sa_15_3_prm_2 }}.
-statement: >
+statement: >-
   Require the developer of the system, system component, or system
   service to perform a criticality analysis:

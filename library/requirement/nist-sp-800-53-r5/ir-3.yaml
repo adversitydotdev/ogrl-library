@@ -22,7 +22,7 @@ objectives:
   - id: ir-03
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Incident response policy; contingency planning policy;
           procedures addressing incident response testing;
           procedures addressing contingency plan testing; incident
@@ -31,11 +31,11 @@ objectives:
           contingency plan; system security plan; privacy plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with incident response testing
           responsibilities; organizational personnel with
           information security and privacy responsibilities
-    statement: >
+    statement: >-
       the effectiveness of the incident response capability for the
       system is tested {{ ir_03_odp_01 }} using {{ ir_03_odp_02 }}.
 parameters:
@@ -43,7 +43,7 @@ parameters:
     label: frequency
   ir_03_odp_02:
     label: tests
-statement: >
+statement: >-
   Test the effectiveness of the incident response capability for the
   system {{ ir_03_odp_01 }} using the following tests:
   {{ ir_03_odp_02 }}.

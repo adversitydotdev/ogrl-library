@@ -12,7 +12,7 @@ objectives:
   - id: "ia-05(07)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Identification and authentication policy; system security
           plan; procedures addressing authenticator management;
           system design documentation; system configuration settings
@@ -20,19 +20,19 @@ objectives:
           application code reviews for detecting unencrypted static
           authenticators; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with authenticator management
           responsibilities; organizational personnel with
           information security responsibilities; system/network
           administrators; system developers
       - method: test
-        statement: >
+        statement: >-
           Mechanisms supporting and/or implementing authenticator
           management capability; mechanisms implementing
           authentication in applications
-    statement: >
+    statement: >-
       unencrypted static authenticators are not embedded in
       applications or other forms of static storage.
-statement: >
+statement: >-
   Ensure that unencrypted static authenticators are not embedded in
   applications or other forms of static storage.

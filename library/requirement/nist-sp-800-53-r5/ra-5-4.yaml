@@ -12,14 +12,14 @@ objectives:
   - id: "ra-05(04).ra-05(04)[01]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Procedures addressing vulnerability scanning; assessment
           report; penetration test results; vulnerability scanning
           results; risk assessment report; records of corrective
           actions taken; incident response records; audit records;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with vulnerability scanning
           and/or penetration testing responsibilities;
           organizational personnel with vulnerability scan analysis
@@ -28,7 +28,7 @@ objectives:
           incident management and response; organizational personnel
           with security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for vulnerability scanning;
           organizational processes for risk response; organizational
           processes for incident management and response;
@@ -40,14 +40,14 @@ objectives:
   - id: "ra-05(04).ra-05(04)[02]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Procedures addressing vulnerability scanning; assessment
           report; penetration test results; vulnerability scanning
           results; risk assessment report; records of corrective
           actions taken; incident response records; audit records;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with vulnerability scanning
           and/or penetration testing responsibilities;
           organizational personnel with vulnerability scan analysis
@@ -56,7 +56,7 @@ objectives:
           incident management and response; organizational personnel
           with security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for vulnerability scanning;
           organizational processes for risk response; organizational
           processes for incident management and response;
@@ -64,12 +64,12 @@ objectives:
           vulnerability scanning; mechanisms supporting and/or
           implementing risk response; mechanisms supporting and/or
           implementing incident management and response
-    statement: >
+    statement: >-
       {{ ra_05_04_odp }} are taken when information about the system
       is confirmed as discoverable.
 parameters:
   ra_05_04_odp:
     label: corrective actions
-statement: >
+statement: >-
   Determine information about the system that is discoverable and
   take {{ ra_05_04_odp }}.

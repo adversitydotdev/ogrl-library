@@ -12,7 +12,7 @@ objectives:
   - id: "ra-03(03)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Risk assessment policy; security planning policy and
           procedures; procedures addressing organizational
           assessments of risk; risk assessment; risk assessment
@@ -20,21 +20,21 @@ objectives:
           risk reports; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with risk assessment
           responsibilities; organizational personnel with security
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for risk assessment; mechanisms
           supporting and/or conducting, documenting, reviewing,
           disseminating, and updating the risk assessment
-    statement: >
+    statement: >-
       the current cyber threat environment is determined on an
       ongoing basis using {{ ra_03_03_odp }}.
 parameters:
   ra_03_03_odp:
     label: means
-statement: >
+statement: >-
   Determine the current cyber threat environment on an ongoing basis
   using {{ ra_03_03_odp }}.

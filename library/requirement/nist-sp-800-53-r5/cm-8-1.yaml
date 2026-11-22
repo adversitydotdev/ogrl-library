@@ -12,7 +12,7 @@ objectives:
   - id: "cm-08(01).cm-08(01)[01]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           system component inventory; configuration management plan;
           system security plan; system component inventory;
@@ -21,23 +21,23 @@ objectives:
           records; system security plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with component inventory updating
           responsibilities; organizational personnel with
           information security responsibilities; system/network
           administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for updating the system component
           inventory; mechanisms supporting and/or implementing
           system component inventory updates
-    statement: >
+    statement: >-
       the inventory of system components is updated as part of
       component installations;
   - id: "cm-08(01).cm-08(01)[02]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           system component inventory; configuration management plan;
           system security plan; system component inventory;
@@ -46,13 +46,13 @@ objectives:
           records; system security plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with component inventory updating
           responsibilities; organizational personnel with
           information security responsibilities; system/network
           administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for updating the system component
           inventory; mechanisms supporting and/or implementing
           system component inventory updates
@@ -62,7 +62,7 @@ objectives:
   - id: "cm-08(01).cm-08(01)[03]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           system component inventory; configuration management plan;
           system security plan; system component inventory;
@@ -71,19 +71,19 @@ objectives:
           records; system security plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with component inventory updating
           responsibilities; organizational personnel with
           information security responsibilities; system/network
           administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for updating the system component
           inventory; mechanisms supporting and/or implementing
           system component inventory updates
     statement: >-
       the inventory of system components is updated as part of
       system updates.
-statement: >
+statement: >-
   Update the inventory of system components as part of component
   installations, removals, and system updates.

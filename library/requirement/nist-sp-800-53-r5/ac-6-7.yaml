@@ -12,7 +12,7 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; procedures addressing least
           privilege; list of system-generated roles or classes of
           users and assigned privileges; system design
@@ -23,21 +23,21 @@ objectives:
           of users; system audit records; system security plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for
           reviewing least privileges necessary to accomplish
           specified tasks; organizational personnel with information
           security responsibilities; system/network administrators
       - method: test
         statement: Mechanisms implementing review of user privileges
-    statement: >
+    statement: >-
       privileges assigned to {{ ac_06_07_odp_02 }} are reviewed
       {{ ac_06_07_odp_01 }} to validate the need for such
       privileges;
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; procedures addressing least
           privilege; list of system-generated roles or classes of
           users and assigned privileges; system design
@@ -48,14 +48,14 @@ objectives:
           of users; system audit records; system security plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for
           reviewing least privileges necessary to accomplish
           specified tasks; organizational personnel with information
           security responsibilities; system/network administrators
       - method: test
         statement: Mechanisms implementing review of user privileges
-    statement: >
+    statement: >-
       privileges are reassigned or removed, if necessary, to
       correctly reflect organizational mission and business needs.
 parameters:
@@ -65,11 +65,11 @@ parameters:
     label: roles and classes
 parts:
   - id: a
-    statement: >
+    statement: >-
       Review {{ ac_06_07_odp_01 }} the privileges assigned to
       {{ ac_06_07_odp_02 }} to validate the need for such
       privileges; and
   - id: b
-    statement: >
+    statement: >-
       Reassign or remove privileges, if necessary, to correctly
       reflect organizational mission and business needs.

@@ -12,7 +12,7 @@ objectives:
   - id: "ia-04(09)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Identification and authentication policy; system security
           plan; procedures addressing identifier management;
           procedures addressing account management; system design
@@ -20,7 +20,7 @@ objectives:
           associated documentation; system audit records; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with identifier management
           responsibilities; organizational personnel with
           information security responsibilities
@@ -28,12 +28,12 @@ objectives:
         statement: >-
           Mechanisms supporting and/or implementing identifier
           management
-    statement: >
+    statement: >-
       the attributes for each uniquely identified individual,
       device, or service are maintained in {{ ia_04_09_odp }}.
 parameters:
   ia_04_09_odp:
     label: protected central storage
-statement: >
+statement: >-
   Maintain the attributes for each uniquely identified individual,
   device, or service in {{ ia_04_09_odp }}.

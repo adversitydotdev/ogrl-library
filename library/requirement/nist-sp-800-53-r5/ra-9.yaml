@@ -16,25 +16,25 @@ objectives:
   - id: ra-09
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Risk assessment policy; assessment reports; criticality
           analysis/finalized criticality for each
           component/subcomponent; audit records/event logs; analysis
           reports; system security plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with assessment and auditing
           responsibilities; organizational personnel with
           criticality analysis responsibilities; system/network
           administrators; organizational personnel with security
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for assessments and audits;
           mechanisms/tools supporting and/or implementing
           assessments and auditing
-    statement: >
+    statement: >-
       critical system components and functions are identified by
       performing a criticality analysis for {{ ra_09_odp_01 }} at
       {{ ra_09_odp_02 }}.
@@ -43,6 +43,6 @@ parameters:
     label: "systems, system components, or system services"
   ra_09_odp_02:
     label: decision points in the system development life cycle
-statement: >
+statement: >-
   Identify critical system components and functions by performing a
   criticality analysis for {{ ra_09_odp_01 }} at {{ ra_09_odp_02 }}.

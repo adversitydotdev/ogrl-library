@@ -19,7 +19,7 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           configuration management policy and procedures;
           configuration management plan; procedures for the baseline
           configuration of the system; procedures for system
@@ -30,20 +30,20 @@ objectives:
           settings; system architecture; change control records;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with configuration management responsibilities;
           personnel with information security responsibilities;
           system administrators
       - method: test
         statement: processes for managing baseline configurations
-    statement: >
+    statement: >-
       systems or system components with the following configurations
       are issued to individuals traveling to high-risk locations:
       {{ a_03_04_12_odp_01 }}.
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           configuration management policy and procedures;
           configuration management plan; procedures for the baseline
           configuration of the system; procedures for system
@@ -54,13 +54,13 @@ objectives:
           settings; system architecture; change control records;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with configuration management responsibilities;
           personnel with information security responsibilities;
           system administrators
       - method: test
         statement: processes for managing baseline configurations
-    statement: >
+    statement: >-
       the following security requirements are applied to the system
       or system components when the individuals return from travel:
       {{ a_03_04_12_odp_02 }}.
@@ -71,12 +71,12 @@ parameters:
     label: security requirements
 parts:
   - id: a
-    statement: >
+    statement: >-
       Issue systems or system components with the following
       configurations to individuals traveling to high-risk
       locations: {{ a_03_04_12_odp_01 }}.
   - id: b
-    statement: >
+    statement: >-
       Apply the following security requirements to the systems or
       components when the individuals return from travel:
       {{ a_03_04_12_odp_02 }}.

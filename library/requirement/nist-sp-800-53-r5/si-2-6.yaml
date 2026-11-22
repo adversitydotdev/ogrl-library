@@ -12,7 +12,7 @@ objectives:
   - id: "si-02(06)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; procedures addressing
           flaw remediation; mechanisms supporting flaw remediation;
@@ -22,22 +22,22 @@ objectives:
           installed; system audit records; system security plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; organizational
           personnel installing, configuring, and/or maintaining the
           system; organizational personnel responsible for flaw
           remediation
       - method: test
-        statement: >
+        statement: >-
           Mechanisms supporting and/or implementing the removal of
           previous versions of software/firmware
-    statement: >
+    statement: >-
       previous versions of {{ si_02_06_odp }} are removed after
       updated versions have been installed.
 parameters:
   si_02_06_odp:
     label: software and firmware components
-statement: >
+statement: >-
   Remove previous versions of {{ si_02_06_odp }} after updated
   versions have been installed.

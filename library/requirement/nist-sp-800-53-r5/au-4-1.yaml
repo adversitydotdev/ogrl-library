@@ -12,7 +12,7 @@ objectives:
   - id: "au-04(01)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Audit and accountability policy; system security plan;
           privacy plan; procedures addressing audit storage
           capacity; procedures addressing transfer of system audit
@@ -23,7 +23,7 @@ objectives:
           transferred to secondary or alternate systems; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with audit storage capacity
           planning responsibilities; organizational personnel with
           information security and privacy responsibilities;
@@ -32,14 +32,14 @@ objectives:
         statement: >-
           Mechanisms supporting the transfer of audit records onto a
           different system
-    statement: >
+    statement: >-
       audit logs are transferred {{ au_04_01_odp }} to a different
       system, system component, or media other than the system or
       system component conducting the logging.
 parameters:
   au_04_01_odp:
     label: frequency
-statement: >
+statement: >-
   Transfer audit logs {{ au_04_01_odp }} to a different system,
   system component, or media other than the system or system
   component conducting the logging.

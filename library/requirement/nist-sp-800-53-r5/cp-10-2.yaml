@@ -12,7 +12,7 @@ objectives:
   - id: "cp-10(02)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Contingency planning policy; procedures addressing system
           recovery and reconstitution; contingency plan; system
           design documentation; system configuration settings and
@@ -21,7 +21,7 @@ objectives:
           transaction recovery records; system audit records; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibility for
           transaction recovery; organizational personnel with
           information security responsibilities

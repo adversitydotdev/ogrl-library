@@ -12,7 +12,7 @@ objectives:
   - id: "si-19(08)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; personally identifiable
           information processing policy; de-identification
@@ -22,17 +22,17 @@ objectives:
           assessment documentation; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel responsible for de-identifying
           the dataset; organizational personnel with information
           security and privacy responsibilities
       - method: test
         statement: Motivated intruder test
-    statement: >
+    statement: >-
       a motivated intruder test is performed on the de-identified
       dataset to determine if the identified data remains or if the
       de-identified data can be re-identified.
-statement: >
+statement: >-
   Perform a motivated intruder test on the de-identified dataset to
   determine if the identified data remains or if the de-identified
   data can be re-identified.

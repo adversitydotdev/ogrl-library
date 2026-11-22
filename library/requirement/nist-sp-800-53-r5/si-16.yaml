@@ -12,7 +12,7 @@ objectives:
   - id: _obj
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; procedures addressing
           memory protection for the system; system design
@@ -22,22 +22,22 @@ objectives:
           system audit records; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel responsible for memory
           protection; organizational personnel with information
           security responsibilities; system/network administrators;
           system developer
       - method: test
-        statement: >
+        statement: >-
           Automated mechanisms supporting and/or implementing
           safeguards to protect the system memory from unauthorized
           code execution
-    statement: >
+    statement: >-
       {{ si_16_odp }} are implemented to protect the system memory
       from unauthorized code execution.
 parameters:
   si_16_odp:
     label: controls
-statement: >
+statement: >-
   Implement the following controls to protect the system memory from
   unauthorized code execution: {{ si_16_odp }}.

@@ -12,14 +12,14 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           access control policy and procedures; procedures for
           session termination; system design documentation; system
           configuration settings; list of conditions or trigger
           events requiring session disconnect; system audit records;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with information security responsibilities;
           system developers; system administrators
       - method: test

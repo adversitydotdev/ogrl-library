@@ -12,7 +12,7 @@ objectives:
   - id: "ca-02(03)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Assessment, authorization, and monitoring policy;
           procedures addressing control assessments; control
           assessment requirements; control assessment plan; control
@@ -20,13 +20,13 @@ objectives:
           action and milestones; system security plan; privacy plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with control assessment
           responsibilities; organizational personnel with
           information security and privacy responsibilities;
           personnel performing control assessments for the specified
           external organization
-    statement: >
+    statement: >-
       the results of control assessments performed by
       {{ ca_02_03_odp_01 }} on {{ ca_02_03_odp_02 }} are leveraged
       when the assessment meets {{ ca_02_03_odp_03 }}.
@@ -37,7 +37,7 @@ parameters:
     label: system
   ca_02_03_odp_03:
     label: requirements
-statement: >
+statement: >-
   Leverage the results of control assessments performed by
   {{ ca_02_03_odp_01 }} on {{ ca_02_03_odp_02 }} when the assessment
   meets {{ ca_02_03_odp_03 }}.

@@ -12,20 +12,20 @@ objectives:
   - id: "cp-09(03)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Contingency planning policy; procedures addressing system
           backup; contingency plan; backup storage location(s);
           system backup configurations and associated documentation;
           system backup logs or records; system security plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with contingency planning and
           plan implementation responsibilities; organizational
           personnel with system backup responsibilities;
           organizational personnel with information security
           responsibilities
-    statement: >
+    statement: >-
       backup copies of {{ cp_09_03_odp }} are stored in a separate
       facility or in a fire rated container that is not collocated
       with the operational system.
@@ -34,7 +34,7 @@ parameters:
     label: >-
       critical system software and other security-related
       information
-statement: >
+statement: >-
   Store backup copies of {{ cp_09_03_odp }} in a separate facility
   or in a fire rated container that is not collocated with the
   operational system.

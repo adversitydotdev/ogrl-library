@@ -16,7 +16,7 @@ objectives:
   - id: _obj-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           digitally signed certificates for software and firmware
           components; configuration management plan; system security
@@ -24,14 +24,14 @@ objectives:
           system component inventory; system security plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for
           verifying digitally signed certificates for software and
           firmware component installation; organizational personnel
           with information security responsibilities; system/network
           administrators; system developers
       - method: test
-        statement: >
+        statement: >-
           Organizational processes governing information location;
           mechanisms enforcing policies and methods for governing
           information location; automated tools supporting or
@@ -39,14 +39,14 @@ objectives:
           firmware components; automated tools supporting or
           implementing verification of digital signatures for
           software and firmware component installation
-    statement: >
+    statement: >-
       the installation of {{ cm_14_odp_01 }} is prevented unless it
       is verified that the software has been digitally signed using
       a certificate recognized and approved by the organization;
   - id: _obj-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           digitally signed certificates for software and firmware
           components; configuration management plan; system security
@@ -54,14 +54,14 @@ objectives:
           system component inventory; system security plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for
           verifying digitally signed certificates for software and
           firmware component installation; organizational personnel
           with information security responsibilities; system/network
           administrators; system developers
       - method: test
-        statement: >
+        statement: >-
           Organizational processes governing information location;
           mechanisms enforcing policies and methods for governing
           information location; automated tools supporting or
@@ -69,7 +69,7 @@ objectives:
           firmware components; automated tools supporting or
           implementing verification of digital signatures for
           software and firmware component installation
-    statement: >
+    statement: >-
       the installation of {{ cm_14_odp_02 }} is prevented unless it
       is verified that the firmware has been digitally signed using
       a certificate recognized and approved by the organization.
@@ -80,7 +80,7 @@ parameters:
     label: firmware components
   cm_14_prm_1:
     label: organization-defined software and firmware components
-statement: >
+statement: >-
   Prevent the installation of {{ cm_14_prm_1 }} without verification
   that the component has been digitally signed using a certificate
   that is recognized and approved by the organization.

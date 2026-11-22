@@ -12,7 +12,7 @@ objectives:
   - id: a.1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Maintenance policy; procedures addressing maintenance
           personnel; system media protection policy; physical and
           environmental protection policy; list of maintenance
@@ -20,7 +20,7 @@ objectives:
           records; access control records; system security plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system maintenance
           responsibilities; organizational personnel with personnel
           security responsibilities; organizational personnel with
@@ -29,13 +29,13 @@ objectives:
           organizational personnel responsible for media
           sanitization; system/network administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for managing maintenance
           personnel without appropriate access; mechanisms
           supporting and/or implementing alternative security
           safeguards; mechanisms supporting and/or implementing
           information storage component sanitization
-    statement: >
+    statement: >-
       procedures for the use of maintenance personnel who lack
       appropriate security clearances or are not U.S. citizens are
       implemented and include approved organizational personnel who
@@ -47,7 +47,7 @@ objectives:
   - id: a.2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Maintenance policy; procedures addressing maintenance
           personnel; system media protection policy; physical and
           environmental protection policy; list of maintenance
@@ -55,7 +55,7 @@ objectives:
           records; access control records; system security plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system maintenance
           responsibilities; organizational personnel with personnel
           security responsibilities; organizational personnel with
@@ -64,13 +64,13 @@ objectives:
           organizational personnel responsible for media
           sanitization; system/network administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for managing maintenance
           personnel without appropriate access; mechanisms
           supporting and/or implementing alternative security
           safeguards; mechanisms supporting and/or implementing
           information storage component sanitization
-    statement: >
+    statement: >-
       procedures for the use of maintenance personnel who lack
       appropriate security clearances or are not U.S. citizens are
       implemented and include all volatile information storage
@@ -81,7 +81,7 @@ objectives:
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Maintenance policy; procedures addressing maintenance
           personnel; system media protection policy; physical and
           environmental protection policy; list of maintenance
@@ -89,7 +89,7 @@ objectives:
           records; access control records; system security plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system maintenance
           responsibilities; organizational personnel with personnel
           security responsibilities; organizational personnel with
@@ -98,13 +98,13 @@ objectives:
           organizational personnel responsible for media
           sanitization; system/network administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for managing maintenance
           personnel without appropriate access; mechanisms
           supporting and/or implementing alternative security
           safeguards; mechanisms supporting and/or implementing
           information storage component sanitization
-    statement: >
+    statement: >-
       {{ ma_05_01_odp }} are developed and implemented in the event
       that a system cannot be sanitized, removed, or disconnected
       from the system.
@@ -113,12 +113,12 @@ parameters:
     label: alternate controls
 parts:
   - id: a
-    statement: >
+    statement: >-
       Implement procedures for the use of maintenance personnel that
       lack appropriate security clearances or are not U.S. citizens,
       that include the following requirements:
   - id: a.1
-    statement: >
+    statement: >-
       Maintenance personnel who do not have needed access
       authorizations, clearances, or formal access approvals are
       escorted and supervised during the performance of maintenance
@@ -127,7 +127,7 @@ parts:
       appropriate access authorizations, and are technically
       qualified; and
   - id: a.2
-    statement: >
+    statement: >-
       Prior to initiating maintenance or diagnostic activities by
       personnel who do not have needed access authorizations,
       clearances or formal access approvals, all volatile
@@ -135,7 +135,7 @@ parts:
       and all nonvolatile storage media are removed or physically
       disconnected from the system and secured; and
   - id: b
-    statement: >
+    statement: >-
       Develop and implement {{ ma_05_01_odp }} in the event a system
       component cannot be sanitized, removed, or disconnected from
       the system.

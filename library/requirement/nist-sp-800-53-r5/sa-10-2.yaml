@@ -12,7 +12,7 @@ objectives:
   - id: "sa-10(02)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; system and
           services acquisition procedures; configuration management
           policy; configuration management plan; solicitation
@@ -24,23 +24,23 @@ objectives:
           privacy risk assessment documentation; system security
           plan; privacy plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with acquisition
           responsibilities; organizational personnel with
           information security and privacy responsibilities;
           organizational personnel with configuration management
           responsibilities; system developers
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for monitoring developer
           configuration management; mechanisms supporting and/or
           implementing the monitoring of developer configuration
           management
-    statement: >
+    statement: >-
       an alternate configuration management process has been
       provided using organizational personnel in the absence of a
       dedicated developer configuration management team.
-statement: >
+statement: >-
   Provide an alternate configuration management process using
   organizational personnel in the absence of a dedicated developer
   configuration management team.

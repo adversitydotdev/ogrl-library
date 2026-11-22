@@ -25,7 +25,7 @@ objectives:
   - id: pt-07
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Personally identifiable information processing and
           transparency policy and procedures; privacy notice;
           Privacy Act system of records; computer matching
@@ -34,22 +34,22 @@ objectives:
           requirements; privacy plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with personally identifiable
           information processing and transparency responsibilities;
           organizational personnel with information security and
           privacy responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for supporting and/or
           implementing personally identifiable information
           processing
-    statement: >
+    statement: >-
       {{ pt_07_odp }} are applied for specific categories of
       personally identifiable information.
 parameters:
   pt_07_odp:
     label: processing conditions
-statement: >
+statement: >-
   Apply {{ pt_07_odp }} for specific categories of personally
   identifiable information.

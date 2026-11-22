@@ -12,7 +12,7 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           access control policy and procedures; privacy and security
           policies, procedures for system use notification;
           documented approval of system use notification messages;
@@ -21,17 +21,17 @@ objectives:
           configuration settings; system use notification messages;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with information security responsibilities;
           legal counsel; system developers; system administrators
       - method: test
         statement: >-
           mechanisms for implementing system use notifications
-    statement: >
+    statement: >-
       a system use notification message with privacy and security
       notices consistent with applicable CUI rules is displayed
       before granting access to the system.
-statement: >
+statement: >-
   Display a system use notification message with privacy and
   security notices consistent with applicable CUI rules before
   granting access to the system.

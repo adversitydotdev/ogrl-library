@@ -12,7 +12,7 @@ objectives:
   - id: a-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Contingency planning policy; procedures addressing primary
           and alternate telecommunications services; contingency
           plan; provider contingency plans; evidence of contingency
@@ -20,20 +20,20 @@ objectives:
           telecommunications service agreements; system security
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with contingency planning, plan
           implementation, and testing responsibilities; primary and
           alternate telecommunications service providers;
           organizational personnel with information security
           responsibilities; organizational personnel with
           responsibility for acquisitions/contractual agreements
-    statement: >
+    statement: >-
       primary telecommunications service providers are required to
       have contingency plans;
   - id: a-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Contingency planning policy; procedures addressing primary
           and alternate telecommunications services; contingency
           plan; provider contingency plans; evidence of contingency
@@ -41,20 +41,20 @@ objectives:
           telecommunications service agreements; system security
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with contingency planning, plan
           implementation, and testing responsibilities; primary and
           alternate telecommunications service providers;
           organizational personnel with information security
           responsibilities; organizational personnel with
           responsibility for acquisitions/contractual agreements
-    statement: >
+    statement: >-
       alternate telecommunications service providers are required to
       have contingency plans;
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Contingency planning policy; procedures addressing primary
           and alternate telecommunications services; contingency
           plan; provider contingency plans; evidence of contingency
@@ -62,20 +62,20 @@ objectives:
           telecommunications service agreements; system security
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with contingency planning, plan
           implementation, and testing responsibilities; primary and
           alternate telecommunications service providers;
           organizational personnel with information security
           responsibilities; organizational personnel with
           responsibility for acquisitions/contractual agreements
-    statement: >
+    statement: >-
       provider contingency plans are reviewed to ensure that the
       plans meet organizational contingency requirements;
   - id: c-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Contingency planning policy; procedures addressing primary
           and alternate telecommunications services; contingency
           plan; provider contingency plans; evidence of contingency
@@ -83,7 +83,7 @@ objectives:
           telecommunications service agreements; system security
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with contingency planning, plan
           implementation, and testing responsibilities; primary and
           alternate telecommunications service providers;
@@ -96,7 +96,7 @@ objectives:
   - id: c-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Contingency planning policy; procedures addressing primary
           and alternate telecommunications services; contingency
           plan; provider contingency plans; evidence of contingency
@@ -104,7 +104,7 @@ objectives:
           telecommunications service agreements; system security
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with contingency planning, plan
           implementation, and testing responsibilities; primary and
           alternate telecommunications service providers;
@@ -123,14 +123,14 @@ parameters:
     label: organization-defined frequency
 parts:
   - id: a
-    statement: >
+    statement: >-
       Require primary and alternate telecommunications service
       providers to have contingency plans;
   - id: b
-    statement: >
+    statement: >-
       Review provider contingency plans to ensure that the plans
       meet organizational contingency requirements; and
   - id: c
-    statement: >
+    statement: >-
       Obtain evidence of contingency testing and training by
       providers {{ cp_8_4_prm_1 }}.

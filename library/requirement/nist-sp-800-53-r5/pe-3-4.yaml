@@ -12,25 +12,25 @@ objectives:
   - id: "pe-03(04)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Physical and environmental protection policy; procedures
           addressing physical access control; list of system
           components requiring protection through lockable physical
           casings; lockable physical casings; system security plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with physical access control
           responsibilities; organizational personnel with
           information security responsibilities
       - method: test
         statement: Lockable physical casings
-    statement: >
+    statement: >-
       lockable physical casings are used to protect
       {{ pe_03_04_odp }} from unauthorized access.
 parameters:
   pe_03_04_odp:
     label: system components
-statement: >
+statement: >-
   Use lockable physical casings to protect {{ pe_03_04_odp }} from
   unauthorized physical access.

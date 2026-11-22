@@ -12,7 +12,7 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Identification and authentication policy; system security
           plan; procedures addressing user identification and
           authentication; system design documentation; system
@@ -20,7 +20,7 @@ objectives:
           system audit records; list of system accounts; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system operations
           responsibilities; organizational personnel with account
           management responsibilities; organizational personnel with
@@ -30,7 +30,7 @@ objectives:
         statement: >-
           Mechanisms supporting and/or implementing multi-factor
           authentication capability
-    statement: >
+    statement: >-
       multi-factor authentication is implemented for
       {{ ia_02_06_odp_01 }} access to {{ ia_02_06_odp_02 }} such
       that one of the factors is provided by a device separate from
@@ -38,7 +38,7 @@ objectives:
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Identification and authentication policy; system security
           plan; procedures addressing user identification and
           authentication; system design documentation; system
@@ -46,7 +46,7 @@ objectives:
           system audit records; list of system accounts; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system operations
           responsibilities; organizational personnel with account
           management responsibilities; organizational personnel with
@@ -56,7 +56,7 @@ objectives:
         statement: >-
           Mechanisms supporting and/or implementing multi-factor
           authentication capability
-    statement: >
+    statement: >-
       multi-factor authentication is implemented for
       {{ ia_02_06_odp_01 }} access to {{ ia_02_06_odp_02 }} such
       that the device meets {{ ia_02_06_odp_03 }}.
@@ -69,11 +69,11 @@ parameters:
     label: strength of mechanism requirements
 parts:
   - id: a
-    statement: >
+    statement: >-
       One of the factors is provided by a device separate from the
       system gaining access; and
   - id: b
     statement: "The device meets {{ ia_02_06_odp_03 }}."
-statement: >
+statement: >-
   Implement multi-factor authentication for {{ ia_02_06_odp_01 }}
   access to {{ ia_02_06_odp_02 }} such that:

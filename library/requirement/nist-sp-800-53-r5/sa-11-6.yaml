@@ -12,7 +12,7 @@ objectives:
   - id: "sa-11(06)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; procedures
           addressing system developer security testing; solicitation
           documentation; acquisition documentation; service level
@@ -23,7 +23,7 @@ objectives:
           reviews; system security plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and service
           acquisition responsibilities; organizational personnel
           with information security responsibilities; organizational
@@ -32,14 +32,14 @@ objectives:
           configuration management responsibilities; system
           developers
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for monitoring developer security
           testing and evaluation; mechanisms supporting and/or
           implementing the monitoring of developer security testing
           and evaluation
-    statement: >
+    statement: >-
       the developer of the system, system component, or system
       service is required to perform attack surface reviews.
-statement: >
+statement: >-
   Require the developer of the system, system component, or system
   service to perform attack surface reviews.

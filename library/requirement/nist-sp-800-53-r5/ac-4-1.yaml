@@ -12,7 +12,7 @@ objectives:
   - id: "ac-04(01).ac-04(01)[01]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; information flow control policies;
           procedures addressing information flow enforcement; system
           design documentation; system configuration settings and
@@ -21,7 +21,7 @@ objectives:
           system audit records; system security plan; privacy plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; organizational
           personnel with privacy responsibilities; system developers
@@ -29,7 +29,7 @@ objectives:
         statement: >-
           Mechanisms implementing information flow enforcement
           policy
-    statement: >
+    statement: >-
       {{ ac_04_01_odp_01 }} associated with {{ ac_04_01_odp_03 }},
       {{ ac_04_01_odp_05 }} , and {{ ac_04_01_odp_07 }} are used to
       enforce {{ ac_04_01_odp_09 }} as a basis for flow control
@@ -37,7 +37,7 @@ objectives:
   - id: "ac-04(01).ac-04(01)[02]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; information flow control policies;
           procedures addressing information flow enforcement; system
           design documentation; system configuration settings and
@@ -46,7 +46,7 @@ objectives:
           system audit records; system security plan; privacy plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; organizational
           personnel with privacy responsibilities; system developers
@@ -54,7 +54,7 @@ objectives:
         statement: >-
           Mechanisms implementing information flow enforcement
           policy
-    statement: >
+    statement: >-
       {{ ac_04_01_odp_02 }} associated with {{ ac_04_01_odp_04 }},
       {{ ac_04_01_odp_06 }} , and {{ ac_04_01_odp_08 }} are used to
       enforce {{ ac_04_01_odp_09 }} as a basis for flow control
@@ -84,7 +84,7 @@ parameters:
     label: >-
       organization-defined information, source, and destination
       objects
-statement: >
+statement: >-
   Use {{ ac_4_1_prm_1 }} associated with {{ ac_4_1_prm_2 }} to
   enforce {{ ac_04_01_odp_09 }} as a basis for flow control
   decisions.

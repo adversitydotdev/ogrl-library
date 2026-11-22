@@ -19,14 +19,14 @@ objectives:
   - id: _obj
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; procedures addressing access
           control decisions; system design documentation; system
           configuration settings and associated documentation;
           system audit records; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for
           establishing procedures regarding access control decisions
           to the system; organizational personnel with information
@@ -35,7 +35,7 @@ objectives:
         statement: >-
           Mechanisms applying established access control decisions
           and procedures
-    statement: >
+    statement: >-
       {{ ac_24_odp_01 }} are taken to ensure that {{ ac_24_odp_02 }}
       are applied to each access request prior to access
       enforcement.
@@ -44,6 +44,6 @@ parameters:
     label: ac-24_odp.01
   ac_24_odp_02:
     label: access control decisions
-statement: >
+statement: >-
   {{ ac_24_odp_01 }} to ensure {{ ac_24_odp_02 }} are applied to
   each access request prior to access enforcement.

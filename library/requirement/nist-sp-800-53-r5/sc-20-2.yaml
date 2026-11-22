@@ -12,7 +12,7 @@ objectives:
   - id: "sc-20(02).sc-20(02)[01]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing secure name/address resolution services
           (authoritative source); system design documentation;
@@ -20,12 +20,12 @@ objectives:
           documentation; system audit records; system security plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; organizational
           personnel with responsibilities for managing DNS
       - method: test
-        statement: >
+        statement: >-
           Mechanisms supporting and/or implementing data origin and
           integrity protection for internal name/address resolution
           service queries
@@ -35,7 +35,7 @@ objectives:
   - id: "sc-20(02).sc-20(02)[02]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing secure name/address resolution services
           (authoritative source); system design documentation;
@@ -43,18 +43,18 @@ objectives:
           documentation; system audit records; system security plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; organizational
           personnel with responsibilities for managing DNS
       - method: test
-        statement: >
+        statement: >-
           Mechanisms supporting and/or implementing data origin and
           integrity protection for internal name/address resolution
           service queries
-    statement: >
+    statement: >-
       integrity protection artifacts are provided for internal
       name/address resolution queries.
-statement: >
+statement: >-
   Provide data origin and integrity protection artifacts for
   internal name/address resolution queries.

@@ -12,7 +12,7 @@ objectives:
   - id: a-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Maintenance policy; procedures addressing nonlocal system
           maintenance; service provider contracts and/or
           service-level agreements; maintenance records; inspection
@@ -20,28 +20,28 @@ objectives:
           media sanitization records; system security plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system maintenance
           responsibilities; system maintenance provider;
           organizational personnel with information security
           responsibilities; organizational personnel responsible for
           media sanitization; system/network administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for comparable security and
           sanitization for nonlocal maintenance; organizational
           processes for the removal, sanitization, and inspection of
           components serviced via nonlocal maintenance; mechanisms
           supporting and/or implementing component sanitization and
           inspection
-    statement: >
+    statement: >-
       nonlocal maintenance services are required to be performed
       from a system that implements a security capability comparable
       to the capability implemented on the system being serviced;
   - id: a-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Maintenance policy; procedures addressing nonlocal system
           maintenance; service provider contracts and/or
           service-level agreements; maintenance records; inspection
@@ -49,28 +49,28 @@ objectives:
           media sanitization records; system security plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system maintenance
           responsibilities; system maintenance provider;
           organizational personnel with information security
           responsibilities; organizational personnel responsible for
           media sanitization; system/network administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for comparable security and
           sanitization for nonlocal maintenance; organizational
           processes for the removal, sanitization, and inspection of
           components serviced via nonlocal maintenance; mechanisms
           supporting and/or implementing component sanitization and
           inspection
-    statement: >
+    statement: >-
       nonlocal diagnostic services are required to be performed from
       a system that implements a security capability comparable to
       the capability implemented on the system being serviced; or
   - id: b-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Maintenance policy; procedures addressing nonlocal system
           maintenance; service provider contracts and/or
           service-level agreements; maintenance records; inspection
@@ -78,27 +78,27 @@ objectives:
           media sanitization records; system security plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system maintenance
           responsibilities; system maintenance provider;
           organizational personnel with information security
           responsibilities; organizational personnel responsible for
           media sanitization; system/network administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for comparable security and
           sanitization for nonlocal maintenance; organizational
           processes for the removal, sanitization, and inspection of
           components serviced via nonlocal maintenance; mechanisms
           supporting and/or implementing component sanitization and
           inspection
-    statement: >
+    statement: >-
       the component to be serviced is removed from the system prior
       to nonlocal maintenance or diagnostic services;
   - id: b-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Maintenance policy; procedures addressing nonlocal system
           maintenance; service provider contracts and/or
           service-level agreements; maintenance records; inspection
@@ -106,14 +106,14 @@ objectives:
           media sanitization records; system security plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system maintenance
           responsibilities; system maintenance provider;
           organizational personnel with information security
           responsibilities; organizational personnel responsible for
           media sanitization; system/network administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for comparable security and
           sanitization for nonlocal maintenance; organizational
           processes for the removal, sanitization, and inspection of
@@ -126,7 +126,7 @@ objectives:
   - id: b-3
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Maintenance policy; procedures addressing nonlocal system
           maintenance; service provider contracts and/or
           service-level agreements; maintenance records; inspection
@@ -134,33 +134,33 @@ objectives:
           media sanitization records; system security plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system maintenance
           responsibilities; system maintenance provider;
           organizational personnel with information security
           responsibilities; organizational personnel responsible for
           media sanitization; system/network administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for comparable security and
           sanitization for nonlocal maintenance; organizational
           processes for the removal, sanitization, and inspection of
           components serviced via nonlocal maintenance; mechanisms
           supporting and/or implementing component sanitization and
           inspection
-    statement: >
+    statement: >-
       the component is inspected and sanitized (for potentially
       malicious software) after the service is performed and before
       reconnecting the component to the system.
 parts:
   - id: a
-    statement: >
+    statement: >-
       Require that nonlocal maintenance and diagnostic services be
       performed from a system that implements a security capability
       comparable to the capability implemented on the system being
       serviced; or
   - id: b
-    statement: >
+    statement: >-
       Remove the component to be serviced from the system prior to
       nonlocal maintenance or diagnostic services; sanitize the
       component (for organizational information); and after the

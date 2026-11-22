@@ -12,7 +12,7 @@ objectives:
   - id: "sa-15(05)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; procedures
           addressing development process, standards, and tools;
           procedures addressing attack surface reduction;
@@ -26,7 +26,7 @@ objectives:
           and services; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and service
           acquisition responsibilities; organizational personnel
           with information security responsibilities; organizational
@@ -36,13 +36,13 @@ objectives:
         statement: >-
           Organizational processes for defining attack surface
           reduction thresholds
-    statement: >
+    statement: >-
       the developer of the system, system component, or system
       service is required to reduce attack surfaces to
       {{ sa_15_05_odp }}.
 parameters:
   sa_15_05_odp:
     label: thresholds
-statement: >
+statement: >-
   Require the developer of the system, system component, or system
   service to reduce attack surfaces to {{ sa_15_05_odp }}.

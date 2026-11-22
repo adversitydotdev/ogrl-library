@@ -12,43 +12,43 @@ objectives:
   - id: "au-05(03).au-05(03)[01]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Audit and accountability policy; procedures addressing
           response to audit processing failures; system design
           documentation; system security plan; privacy plan; system
           configuration settings and associated documentation;
           system audit records; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with audit and accountability
           responsibilities; organizational personnel with
           information security and privacy responsibilities;
           system/network administrators; system developers
-    statement: >
+    statement: >-
       configurable network communications traffic volume thresholds
       reflecting limits on audit log storage capacity are enforced;
   - id: "au-05(03).au-05(03)[02]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Audit and accountability policy; procedures addressing
           response to audit processing failures; system design
           documentation; system security plan; privacy plan; system
           configuration settings and associated documentation;
           system audit records; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with audit and accountability
           responsibilities; organizational personnel with
           information security and privacy responsibilities;
           system/network administrators; system developers
-    statement: >
+    statement: >-
       network traffic is {{ au_05_03_odp }} if network traffic
       volume is above configured thresholds.
 parameters:
   au_05_03_odp:
     label: au-05.03_odp
-statement: >
+statement: >-
   Enforce configurable network communications traffic volume
   thresholds reflecting limits on audit log storage capacity and
   {{ au_05_03_odp }} network traffic above those thresholds.

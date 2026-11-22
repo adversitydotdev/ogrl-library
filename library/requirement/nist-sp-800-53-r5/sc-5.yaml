@@ -16,7 +16,7 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing denial-of-service protection; system design
           documentation; list of denial-of-service attacks requiring
@@ -27,13 +27,13 @@ objectives:
           and associated documentation; system audit records; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; organizational
           personnel with incident response responsibilities; system
           developer
       - method: test
-        statement: >
+        statement: >-
           Mechanisms protecting against or limiting the effects of
           denial-of-service attacks
     statement: >-
@@ -41,7 +41,7 @@ objectives:
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing denial-of-service protection; system design
           documentation; list of denial-of-service attacks requiring
@@ -52,16 +52,16 @@ objectives:
           and associated documentation; system audit records; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; organizational
           personnel with incident response responsibilities; system
           developer
       - method: test
-        statement: >
+        statement: >-
           Mechanisms protecting against or limiting the effects of
           denial-of-service attacks
-    statement: >
+    statement: >-
       {{ sc_05_odp_03 }} are employed to achieve the
       denial-of-service protection objective.
 parameters:
@@ -73,10 +73,10 @@ parameters:
     label: controls by type of denial-of-service event
 parts:
   - id: a
-    statement: >
+    statement: >-
       {{ sc_05_odp_02 }} the effects of the following types of
       denial-of-service events: {{ sc_05_odp_01 }} ; and
   - id: b
-    statement: >
+    statement: >-
       Employ the following controls to achieve the denial-of-service
       objective: {{ sc_05_odp_03 }}.

@@ -12,7 +12,7 @@ objectives:
   - id: "sr-03(02)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Supply chain risk management policy and procedures; supply
           chain risk management plan; system and services
           acquisition policy; configuration management policy;
@@ -30,27 +30,27 @@ objectives:
           supply chain against potential supply chain threats;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and services
           acquisition responsibilities; organizational personnel
           with information security responsibilities; organizational
           personnel with supply chain risk management
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for defining and employing
           safeguards to limit harm from adversaries of the
           organizational supply chain; mechanisms supporting and/or
           implementing the definition and employment of safeguards
           to protect the organizational supply chain
-    statement: >
+    statement: >-
       {{ sr_03_02_odp }} are employed to limit harm from potential
       adversaries identifying and targeting the organizational
       supply chain.
 parameters:
   sr_03_02_odp:
     label: controls
-statement: >
+statement: >-
   Employ the following controls to limit harm from potential
   adversaries identifying and targeting the organizational supply
   chain: {{ sr_03_02_odp }}.

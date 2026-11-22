@@ -12,7 +12,7 @@ objectives:
   - id: _obj
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; documentation addressing
           fail-safe procedures for the system; system design
@@ -22,13 +22,13 @@ objectives:
           execution; system audit records; system security plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel responsible for fail-safe
           procedures; organizational personnel with information
           security responsibilities; system/network administrators;
           system developer
       - method: test
-        statement: >
+        statement: >-
           Organizational fail-safe procedures; automated mechanisms
           supporting and/or implementing fail-safe procedures
     statement: >-
@@ -40,9 +40,9 @@ parameters:
   si_17_odp_02:
     label: list of failure conditions
   si_17_prm_1:
-    label: >
+    label: >-
       organization-defined list of failure conditions and associated
       fail-safe procedures
-statement: >
+statement: >-
   Implement the indicated fail-safe procedures when the indicated
   failures occur: {{ si_17_prm_1 }}.

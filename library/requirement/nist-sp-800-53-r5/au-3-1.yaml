@@ -12,7 +12,7 @@ objectives:
   - id: "au-03(01)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Audit and accountability policy; procedures addressing
           content of audit records; system security plan; privacy
           plan; system design documentation; system configuration
@@ -20,7 +20,7 @@ objectives:
           organization-defined auditable events; system audit
           records; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with audit and accountability
           responsibilities; organizational personnel with
           information security and privacy responsibilities;
@@ -33,6 +33,6 @@ objectives:
 parameters:
   au_03_01_odp:
     label: additional information
-statement: >
+statement: >-
   Generate audit records containing the following additional
   information: {{ au_03_01_odp }}.

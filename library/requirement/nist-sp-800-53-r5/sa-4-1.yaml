@@ -12,7 +12,7 @@ objectives:
   - id: "sa-04(01)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; system and
           services acquisition procedures; procedures addressing the
           integration of security and privacy requirements,
@@ -22,23 +22,23 @@ objectives:
           system services; system security plan; privacy plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with acquisition/contracting
           responsibilities; organizational personnel with
           information security and privacy responsibilities; system
           developers
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for determining system security
           functional requirements; organizational processes for
           developing acquisition contracts; mechanisms supporting
           and/or implementing acquisitions and the inclusion of
           security and privacy requirements in contracts
-    statement: >
+    statement: >-
       the developer of the system, system component, or system
       service is required to provide a description of the functional
       properties of the controls to be implemented.
-statement: >
+statement: >-
   Require the developer of the system, system component, or system
   service to provide a description of the functional properties of
   the controls to be implemented.

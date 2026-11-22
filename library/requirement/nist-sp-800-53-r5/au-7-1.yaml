@@ -12,7 +12,7 @@ objectives:
   - id: "au-07(01).au-07(01)[01]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Audit and accountability policy; system security plan;
           privacy plan; procedures addressing audit reduction and
           report generation; system design documentation; system
@@ -21,20 +21,20 @@ objectives:
           record criteria (fields) establishing events of interest;
           system audit records; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with audit reduction and report
           generation responsibilities; organizational personnel with
           information security and privacy responsibilities; system
           developers
       - method: test
         statement: Audit reduction and report generation capability
-    statement: >
+    statement: >-
       the capability to process, sort, and search audit records for
       events of interest based on {{ au_07_01_odp }} are provided;
   - id: "au-07(01).au-07(01)[02]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Audit and accountability policy; system security plan;
           privacy plan; procedures addressing audit reduction and
           report generation; system design documentation; system
@@ -43,21 +43,21 @@ objectives:
           record criteria (fields) establishing events of interest;
           system audit records; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with audit reduction and report
           generation responsibilities; organizational personnel with
           information security and privacy responsibilities; system
           developers
       - method: test
         statement: Audit reduction and report generation capability
-    statement: >
+    statement: >-
       the capability to process, sort, and search audit records for
       events of interest based on {{ au_07_01_odp }} are
       implemented.
 parameters:
   au_07_01_odp:
     label: fields within audit records
-statement: >
+statement: >-
   Provide and implement the capability to process, sort, and search
   audit records for events of interest based on the following
   content: {{ au_07_01_odp }}.

@@ -12,89 +12,89 @@ objectives:
   - id: a.01
     methods:
       - method: examine
-        statement: >
+        statement: >-
           physical protection policy and procedures; procedures for
           physical access authorizations; authorized personnel
           access list; physical access list reviews; physical access
           termination records; authorization credentials; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with physical access authorization
           responsibilities; personnel with physical access to the
           facility where the system resides; personnel with
           information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           processes for physical access authorizations; mechanisms
           for supporting or implementing physical access
           authorizations
-    statement: >
+    statement: >-
       a list of individuals with authorized access to the facility
       where the system resides is developed.
   - id: a.02
     methods:
       - method: examine
-        statement: >
+        statement: >-
           physical protection policy and procedures; procedures for
           physical access authorizations; authorized personnel
           access list; physical access list reviews; physical access
           termination records; authorization credentials; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with physical access authorization
           responsibilities; personnel with physical access to the
           facility where the system resides; personnel with
           information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           processes for physical access authorizations; mechanisms
           for supporting or implementing physical access
           authorizations
-    statement: >
+    statement: >-
       a list of individuals with authorized access to the facility
       where the system resides is approved.
   - id: a.03
     methods:
       - method: examine
-        statement: >
+        statement: >-
           physical protection policy and procedures; procedures for
           physical access authorizations; authorized personnel
           access list; physical access list reviews; physical access
           termination records; authorization credentials; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with physical access authorization
           responsibilities; personnel with physical access to the
           facility where the system resides; personnel with
           information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           processes for physical access authorizations; mechanisms
           for supporting or implementing physical access
           authorizations
-    statement: >
+    statement: >-
       a list of individuals with authorized access to the facility
       where the system resides is maintained.
   - id: c
     methods:
       - method: examine
-        statement: >
+        statement: >-
           physical protection policy and procedures; procedures for
           physical access authorizations; authorized personnel
           access list; physical access list reviews; physical access
           termination records; authorization credentials; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with physical access authorization
           responsibilities; personnel with physical access to the
           facility where the system resides; personnel with
           information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           processes for physical access authorizations; mechanisms
           for supporting or implementing physical access
           authorizations
@@ -103,43 +103,43 @@ objectives:
   - id: d
     methods:
       - method: examine
-        statement: >
+        statement: >-
           physical protection policy and procedures; procedures for
           physical access authorizations; authorized personnel
           access list; physical access list reviews; physical access
           termination records; authorization credentials; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with physical access authorization
           responsibilities; personnel with physical access to the
           facility where the system resides; personnel with
           information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           processes for physical access authorizations; mechanisms
           for supporting or implementing physical access
           authorizations
-    statement: >
+    statement: >-
       individuals from the facility access list are removed when
       access is no longer required.
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           physical protection policy and procedures; procedures for
           physical access authorizations; authorized personnel
           access list; physical access list reviews; physical access
           termination records; authorization credentials; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with physical access authorization
           responsibilities; personnel with physical access to the
           facility where the system resides; personnel with
           information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           processes for physical access authorizations; mechanisms
           for supporting or implementing physical access
           authorizations
@@ -150,7 +150,7 @@ parameters:
     label: frequency
 parts:
   - id: a
-    statement: >
+    statement: >-
       Develop, approve, and maintain a list of individuals with
       authorized access to the facility where the system resides.
   - id: b
@@ -159,6 +159,6 @@ parts:
     statement: >-
       Review the facility access list {{ a_03_10_01_odp_01 }}.
   - id: d
-    statement: >
+    statement: >-
       Remove individuals from the facility access list when access
       is no longer required.

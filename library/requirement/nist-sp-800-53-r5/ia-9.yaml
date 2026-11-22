@@ -12,7 +12,7 @@ objectives:
   - id: ia-09
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Identification and authentication policy; procedures
           addressing service identification and authentication;
           system security plan; system design documentation;
@@ -21,7 +21,7 @@ objectives:
           associated documentation; system audit records; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system operations
           responsibilities; organizational personnel with
           information security responsibilities; system/network
@@ -29,17 +29,17 @@ objectives:
           personnel with identification and authentication
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           Security safeguards implementing service identification
           and authentication capabilities
-    statement: >
+    statement: >-
       {{ ia_09_odp }} are uniquely identified and authenticated
       before establishing communications with devices, users, or
       other services or applications.
 parameters:
   ia_09_odp:
     label: system services and applications
-statement: >
+statement: >-
   Uniquely identify and authenticate {{ ia_09_odp }} before
   establishing communications with devices, users, or other services
   or applications.

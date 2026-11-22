@@ -12,7 +12,7 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           access restrictions for changes to the system; system
           design documentation; system architecture and
@@ -21,14 +21,14 @@ objectives:
           system audit records; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with logical access control
           responsibilities; organizational personnel with physical
           access control responsibilities; organizational personnel
           with information security responsibilities; system/network
           administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for managing access restrictions
           to change; automated mechanisms implementing the
           enforcement of access restrictions for changes to the
@@ -40,7 +40,7 @@ objectives:
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           access restrictions for changes to the system; system
           design documentation; system architecture and
@@ -49,14 +49,14 @@ objectives:
           system audit records; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with logical access control
           responsibilities; organizational personnel with physical
           access control responsibilities; organizational personnel
           with information security responsibilities; system/network
           administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for managing access restrictions
           to change; automated mechanisms implementing the
           enforcement of access restrictions for changes to the

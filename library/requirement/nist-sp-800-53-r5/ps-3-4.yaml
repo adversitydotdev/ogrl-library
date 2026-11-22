@@ -12,24 +12,24 @@ objectives:
   - id: "ps-03(04)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Personnel security policy; access control policy,
           procedures addressing personnel screening; records of
           screened personnel; screening criteria; records of access
           authorizations; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with personnel security
           responsibilities; organizational personnel with
           information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for ensuring valid access
           authorizations for information requiring citizenship;
           organizational process for additional personnel screening
           for information requiring citizenship
-    statement: >
+    statement: >-
       individuals accessing a system processing, storing, or
       transmitting {{ ps_03_04_odp_01 }} meet {{ ps_03_04_odp_02 }}.
 parameters:
@@ -37,6 +37,6 @@ parameters:
     label: information types
   ps_03_04_odp_02:
     label: citizenship requirements
-statement: >
+statement: >-
   Verify that individuals accessing a system processing, storing, or
   transmitting {{ ps_03_04_odp_01 }} meet {{ ps_03_04_odp_02 }}.

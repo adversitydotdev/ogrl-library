@@ -12,7 +12,7 @@ objectives:
   - id: "sa-08(28)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; system and
           services acquisition procedures; procedures addressing the
           security design principle of acceptable security used in
@@ -26,13 +26,13 @@ objectives:
           assessment; privacy risk assessment documentation; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with information security and
           privacy responsibilities; organizational personnel with
           system specification, design, development, implementation,
           and modification responsibilities; system developers
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for applying the security design
           principle of acceptable security in system specification,
           design, development, implementation, and modification;
@@ -40,12 +40,12 @@ objectives:
           design principle of acceptable security in system
           specification, design, development, implementation, and
           modification; mechanisms that enforce security policies
-    statement: >
+    statement: >-
       {{ sa_08_28_odp }} implement the security design principle of
       acceptable security.
 parameters:
   sa_08_28_odp:
     label: systems or system components
-statement: >
+statement: >-
   Implement the security design principle of acceptable security in
   {{ sa_08_28_odp }}.

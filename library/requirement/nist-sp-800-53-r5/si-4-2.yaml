@@ -12,7 +12,7 @@ objectives:
   - id: "si-04(02)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; procedures addressing
           system monitoring tools and techniques; system design
@@ -23,7 +23,7 @@ objectives:
           impact assessment; privacy risk management documentation;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security and privacy responsibilities;
           organizational personnel installing, configuring, and/or
@@ -31,15 +31,15 @@ objectives:
           responsible for monitoring the system; organizational
           personnel responsible for incident response/management
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for the near real-time analysis
           of events; organizational processes for system monitoring;
           mechanisms supporting and/or implementing system
           monitoring; mechanisms/tools supporting and/or
           implementing an analysis of events
-    statement: >
+    statement: >-
       automated tools and mechanisms are employed to support a near
       real-time analysis of events.
-statement: >
+statement: >-
   Employ automated tools and mechanisms to support near real-time
   analysis of events.

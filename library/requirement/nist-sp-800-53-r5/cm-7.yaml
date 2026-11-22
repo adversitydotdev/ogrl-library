@@ -28,7 +28,7 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           least functionality in the system; configuration
           management plan; system design documentation; system
@@ -37,13 +37,13 @@ objectives:
           checklists; system security plan; other relevant documents
           or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with security configuration
           management responsibilities; organizational personnel with
           information security responsibilities; system/network
           administrators; system developers
       - method: test
-        statement: >
+        statement: >-
           Organizational processes prohibiting or restricting
           functions, ports, protocols, software, and/or services;
           mechanisms implementing restrictions or prohibition of
@@ -53,7 +53,7 @@ objectives:
   - id: b-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           least functionality in the system; configuration
           management plan; system design documentation; system
@@ -62,13 +62,13 @@ objectives:
           checklists; system security plan; other relevant documents
           or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with security configuration
           management responsibilities; organizational personnel with
           information security responsibilities; system/network
           administrators; system developers
       - method: test
-        statement: >
+        statement: >-
           Organizational processes prohibiting or restricting
           functions, ports, protocols, software, and/or services;
           mechanisms implementing restrictions or prohibition of
@@ -78,7 +78,7 @@ objectives:
   - id: b-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           least functionality in the system; configuration
           management plan; system design documentation; system
@@ -87,13 +87,13 @@ objectives:
           checklists; system security plan; other relevant documents
           or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with security configuration
           management responsibilities; organizational personnel with
           information security responsibilities; system/network
           administrators; system developers
       - method: test
-        statement: >
+        statement: >-
           Organizational processes prohibiting or restricting
           functions, ports, protocols, software, and/or services;
           mechanisms implementing restrictions or prohibition of
@@ -103,7 +103,7 @@ objectives:
   - id: b-3
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           least functionality in the system; configuration
           management plan; system design documentation; system
@@ -112,13 +112,13 @@ objectives:
           checklists; system security plan; other relevant documents
           or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with security configuration
           management responsibilities; organizational personnel with
           information security responsibilities; system/network
           administrators; system developers
       - method: test
-        statement: >
+        statement: >-
           Organizational processes prohibiting or restricting
           functions, ports, protocols, software, and/or services;
           mechanisms implementing restrictions or prohibition of
@@ -128,7 +128,7 @@ objectives:
   - id: b-4
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           least functionality in the system; configuration
           management plan; system design documentation; system
@@ -137,13 +137,13 @@ objectives:
           checklists; system security plan; other relevant documents
           or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with security configuration
           management responsibilities; organizational personnel with
           information security responsibilities; system/network
           administrators; system developers
       - method: test
-        statement: >
+        statement: >-
           Organizational processes prohibiting or restricting
           functions, ports, protocols, software, and/or services;
           mechanisms implementing restrictions or prohibition of
@@ -153,7 +153,7 @@ objectives:
   - id: b-5
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           least functionality in the system; configuration
           management plan; system design documentation; system
@@ -162,13 +162,13 @@ objectives:
           checklists; system security plan; other relevant documents
           or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with security configuration
           management responsibilities; organizational personnel with
           information security responsibilities; system/network
           administrators; system developers
       - method: test
-        statement: >
+        statement: >-
           Organizational processes prohibiting or restricting
           functions, ports, protocols, software, and/or services;
           mechanisms implementing restrictions or prohibition of
@@ -189,7 +189,7 @@ parameters:
   cm_07_odp_06:
     label: services
   cm_7_prm_2:
-    label: >
+    label: >-
       organization-defined prohibited or restricted functions,
       system ports, protocols, software, and/or services
 parts:
@@ -197,6 +197,6 @@ parts:
     statement: >-
       Configure the system to provide only {{ cm_07_odp_01 }} ; and
   - id: b
-    statement: >
+    statement: >-
       Prohibit or restrict the use of the following functions,
       ports, protocols, software, and/or services: {{ cm_7_prm_2 }}.

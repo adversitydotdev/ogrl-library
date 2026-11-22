@@ -16,13 +16,13 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           personnel security policy and procedures; procedures for
           personnel screening and rescreening; records of screened
           personnel; system security plan; other relevant documents
           or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with personnel security responsibilities;
           personnel with information security responsibilities
       - method: test
@@ -33,18 +33,18 @@ objectives:
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           personnel security policy and procedures; procedures for
           personnel screening and rescreening; records of screened
           personnel; system security plan; other relevant documents
           or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with personnel security responsibilities;
           personnel with information security responsibilities
       - method: test
         statement: processes for personnel screening and rescreening
-    statement: >
+    statement: >-
       individuals are rescreened in accordance with the following
       conditions: {{ a_03_09_01_odp_01 }}.
 parameters:

@@ -12,7 +12,7 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; software usage
           restrictions; software contract agreements and copyright
           laws; site license documentation; list of software usage
@@ -20,27 +20,27 @@ objectives:
           configuration management plan; system security plan;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel operating, using, and/or
           maintaining the system; organizational personnel with
           software license management responsibilities;
           organizational personnel with information security
           responsibilities; system/network administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for tracking the use of software
           protected by quantity licenses; organizational processes
           for controlling/documenting the use of peer-to-peer file
           sharing technology; mechanisms implementing software
           license tracking; mechanisms implementing and controlling
           the use of peer-to-peer files sharing technology
-    statement: >
+    statement: >-
       software and associated documentation are used in accordance
       with contract agreements and copyright laws;
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; software usage
           restrictions; software contract agreements and copyright
           laws; site license documentation; list of software usage
@@ -48,28 +48,28 @@ objectives:
           configuration management plan; system security plan;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel operating, using, and/or
           maintaining the system; organizational personnel with
           software license management responsibilities;
           organizational personnel with information security
           responsibilities; system/network administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for tracking the use of software
           protected by quantity licenses; organizational processes
           for controlling/documenting the use of peer-to-peer file
           sharing technology; mechanisms implementing software
           license tracking; mechanisms implementing and controlling
           the use of peer-to-peer files sharing technology
-    statement: >
+    statement: >-
       the use of software and associated documentation protected by
       quantity licenses is tracked to control copying and
       distribution;
   - id: c
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; software usage
           restrictions; software contract agreements and copyright
           laws; site license documentation; list of software usage
@@ -77,37 +77,37 @@ objectives:
           configuration management plan; system security plan;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel operating, using, and/or
           maintaining the system; organizational personnel with
           software license management responsibilities;
           organizational personnel with information security
           responsibilities; system/network administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for tracking the use of software
           protected by quantity licenses; organizational processes
           for controlling/documenting the use of peer-to-peer file
           sharing technology; mechanisms implementing software
           license tracking; mechanisms implementing and controlling
           the use of peer-to-peer files sharing technology
-    statement: >
+    statement: >-
       the use of peer-to-peer file sharing technology is controlled
       and documented to ensure that peer-to-peer file sharing is not
       used for the unauthorized distribution, display, performance,
       or reproduction of copyrighted work.
 parts:
   - id: a
-    statement: >
+    statement: >-
       Use software and associated documentation in accordance with
       contract agreements and copyright laws;
   - id: b
-    statement: >
+    statement: >-
       Track the use of software and associated documentation
       protected by quantity licenses to control copying and
       distribution; and
   - id: c
-    statement: >
+    statement: >-
       Control and document the use of peer-to-peer file sharing
       technology to ensure that this capability is not used for the
       unauthorized distribution, display, performance, or

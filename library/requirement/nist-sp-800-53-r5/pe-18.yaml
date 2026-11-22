@@ -12,7 +12,7 @@ objectives:
   - id: _obj
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Physical and environmental protection policy; procedures
           addressing the positioning of system components;
           documentation providing the location and position of
@@ -22,21 +22,21 @@ objectives:
           system components within the facility; system security
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for
           positioning system components; organizational personnel
           with information security responsibilities
       - method: test
         statement: >-
           Organizational processes for positioning system components
-    statement: >
+    statement: >-
       system components are positioned within the facility to
       minimize potential damage from {{ pe_18_odp }} and to minimize
       the opportunity for unauthorized access.
 parameters:
   pe_18_odp:
     label: physical and environmental hazards
-statement: >
+statement: >-
   Position system components within the facility to minimize
   potential damage from {{ pe_18_odp }} and to minimize the
   opportunity for unauthorized access.

@@ -12,7 +12,7 @@ objectives:
   - id: "si-13(05)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; procedures addressing
           predictable failure prevention; system design
@@ -22,14 +22,14 @@ objectives:
           records; system security plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel responsible for the failover
           capability; organizational personnel with information
           security responsibilities; system/network administrators;
           organizational personnel with contingency planning
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for managing the failover
           capability; automated mechanisms supporting and/or
           implementing the failover capability

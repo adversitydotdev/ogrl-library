@@ -12,7 +12,7 @@ objectives:
   - id: a-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; procedures addressing
           system monitoring tools and techniques; system design
@@ -22,7 +22,7 @@ objectives:
           records; system security plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; organizational
           personnel installing, configuring, and/or maintaining the
@@ -30,20 +30,20 @@ objectives:
           monitoring the system; organizational personnel
           responsible for the intrusion detection system
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for intrusion detection and
           system monitoring; mechanisms supporting and/or
           implementing intrusion detection and system monitoring
           capabilities; mechanisms supporting and/or implementing
           the monitoring of inbound and outbound communications
           traffic
-    statement: >
+    statement: >-
       criteria for unusual or unauthorized activities or conditions
       for inbound communications traffic are defined;
   - id: a-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; procedures addressing
           system monitoring tools and techniques; system design
@@ -53,7 +53,7 @@ objectives:
           records; system security plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; organizational
           personnel installing, configuring, and/or maintaining the
@@ -61,20 +61,20 @@ objectives:
           monitoring the system; organizational personnel
           responsible for the intrusion detection system
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for intrusion detection and
           system monitoring; mechanisms supporting and/or
           implementing intrusion detection and system monitoring
           capabilities; mechanisms supporting and/or implementing
           the monitoring of inbound and outbound communications
           traffic
-    statement: >
+    statement: >-
       criteria for unusual or unauthorized activities or conditions
       for outbound communications traffic are defined;
   - id: b-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; procedures addressing
           system monitoring tools and techniques; system design
@@ -84,7 +84,7 @@ objectives:
           records; system security plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; organizational
           personnel installing, configuring, and/or maintaining the
@@ -92,20 +92,20 @@ objectives:
           monitoring the system; organizational personnel
           responsible for the intrusion detection system
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for intrusion detection and
           system monitoring; mechanisms supporting and/or
           implementing intrusion detection and system monitoring
           capabilities; mechanisms supporting and/or implementing
           the monitoring of inbound and outbound communications
           traffic
-    statement: >
+    statement: >-
       inbound communications traffic is monitored
       {{ si_04_04_odp_01 }} for {{ si_04_04_odp_02 }};
   - id: b-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; procedures addressing
           system monitoring tools and techniques; system design
@@ -115,7 +115,7 @@ objectives:
           records; system security plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; organizational
           personnel installing, configuring, and/or maintaining the
@@ -123,14 +123,14 @@ objectives:
           monitoring the system; organizational personnel
           responsible for the intrusion detection system
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for intrusion detection and
           system monitoring; mechanisms supporting and/or
           implementing intrusion detection and system monitoring
           capabilities; mechanisms supporting and/or implementing
           the monitoring of inbound and outbound communications
           traffic
-    statement: >
+    statement: >-
       outbound communications traffic is monitored
       {{ si_04_04_odp_03 }} for {{ si_04_04_odp_04 }}.
 parameters:
@@ -150,10 +150,10 @@ parameters:
       conditions
 parts:
   - id: a
-    statement: >
+    statement: >-
       Determine criteria for unusual or unauthorized activities or
       conditions for inbound and outbound communications traffic;
   - id: b
-    statement: >
+    statement: >-
       Monitor inbound and outbound communications traffic
       {{ si_4_4_prm_1 }} for {{ si_4_4_prm_2 }}.

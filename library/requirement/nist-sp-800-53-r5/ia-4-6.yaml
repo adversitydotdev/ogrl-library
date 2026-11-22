@@ -12,13 +12,13 @@ objectives:
   - id: "ia-04(06)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Identification and authentication policy; procedures
           addressing identifier management; procedures addressing
           account management; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with identifier management
           responsibilities; organizational personnel with
           information security responsibilities
@@ -26,12 +26,12 @@ objectives:
         statement: >-
           Mechanisms supporting and/or implementing identifier
           management
-    statement: >
+    statement: >-
       cross-organization management of identifiers is coordinated
       with {{ ia_04_06_odp }}.
 parameters:
   ia_04_06_odp:
     label: external organizations
-statement: >
+statement: >-
   Coordinate with the following external organizations for
   cross-organization management of identifiers: {{ ia_04_06_odp }}.

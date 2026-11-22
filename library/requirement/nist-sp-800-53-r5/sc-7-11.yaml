@@ -12,23 +12,23 @@ objectives:
   - id: "sc-07(11)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing boundary protection; system design
           documentation; system configuration settings and
           associated documentation; system audit records; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; system
           developer; organizational personnel with boundary
           protection responsibilities
       - method: test
-        statement: >
+        statement: >-
           Mechanisms implementing boundary protection capabilities
           with respect to source/destination address pairs
-    statement: >
+    statement: >-
       only incoming communications from {{ sc_07_11_odp_01 }} are
       allowed to be routed to {{ sc_07_11_odp_02 }}.
 parameters:
@@ -36,6 +36,6 @@ parameters:
     label: authorized sources
   sc_07_11_odp_02:
     label: authorized destinations
-statement: >
+statement: >-
   Only allow incoming communications from {{ sc_07_11_odp_01 }} to
   be routed to {{ sc_07_11_odp_02 }}.

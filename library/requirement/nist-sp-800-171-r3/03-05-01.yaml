@@ -16,7 +16,7 @@ objectives:
   - id: a.01
     methods:
       - method: examine
-        statement: >
+        statement: >-
           identification and authentication policy and procedures;
           list of circumstances or situations requiring
           re-authentication; system design documentation; system
@@ -24,7 +24,7 @@ objectives:
           system accounts; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with identification and authentication
           responsibilities; personnel with system operations
           responsibilities; personnel with account management
@@ -32,7 +32,7 @@ objectives:
           information security responsibilities; system
           administrators
       - method: test
-        statement: >
+        statement: >-
           processes for uniquely identifying and authenticating
           users; mechanisms for supporting or implementing
           identification and authentication capabilities
@@ -40,7 +40,7 @@ objectives:
   - id: a.02
     methods:
       - method: examine
-        statement: >
+        statement: >-
           identification and authentication policy and procedures;
           list of circumstances or situations requiring
           re-authentication; system design documentation; system
@@ -48,7 +48,7 @@ objectives:
           system accounts; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with identification and authentication
           responsibilities; personnel with system operations
           responsibilities; personnel with account management
@@ -56,7 +56,7 @@ objectives:
           information security responsibilities; system
           administrators
       - method: test
-        statement: >
+        statement: >-
           processes for uniquely identifying and authenticating
           users; mechanisms for supporting or implementing
           identification and authentication capabilities
@@ -64,7 +64,7 @@ objectives:
   - id: a.03
     methods:
       - method: examine
-        statement: >
+        statement: >-
           identification and authentication policy and procedures;
           list of circumstances or situations requiring
           re-authentication; system design documentation; system
@@ -72,7 +72,7 @@ objectives:
           system accounts; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with identification and authentication
           responsibilities; personnel with system operations
           responsibilities; personnel with account management
@@ -80,17 +80,17 @@ objectives:
           information security responsibilities; system
           administrators
       - method: test
-        statement: >
+        statement: >-
           processes for uniquely identifying and authenticating
           users; mechanisms for supporting or implementing
           identification and authentication capabilities
-    statement: >
+    statement: >-
       processes acting on behalf of users are associated with
       uniquely identified and authenticated system users.
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           identification and authentication policy and procedures;
           list of circumstances or situations requiring
           re-authentication; system design documentation; system
@@ -98,7 +98,7 @@ objectives:
           system accounts; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with identification and authentication
           responsibilities; personnel with system operations
           responsibilities; personnel with account management
@@ -106,7 +106,7 @@ objectives:
           information security responsibilities; system
           administrators
       - method: test
-        statement: >
+        statement: >-
           processes for uniquely identifying and authenticating
           users; mechanisms for supporting or implementing
           identification and authentication capabilities
@@ -117,7 +117,7 @@ parameters:
     label: circumstances or situations
 parts:
   - id: a
-    statement: >
+    statement: >-
       Uniquely identify and authenticate system users, and associate
       that unique identification with processes acting on behalf of
       those users.

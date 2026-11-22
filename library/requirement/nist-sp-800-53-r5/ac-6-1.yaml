@@ -12,7 +12,7 @@ objectives:
   - id: a-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; procedures addressing least
           privilege; list of security functions (deployed in
           hardware, software, and firmware) and security-relevant
@@ -21,7 +21,7 @@ objectives:
           documentation; system audit records; system security plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for
           defining least privileges necessary to accomplish
           specified tasks; organizational personnel with information
@@ -34,7 +34,7 @@ objectives:
   - id: a-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; procedures addressing least
           privilege; list of security functions (deployed in
           hardware, software, and firmware) and security-relevant
@@ -43,7 +43,7 @@ objectives:
           documentation; system audit records; system security plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for
           defining least privileges necessary to accomplish
           specified tasks; organizational personnel with information
@@ -56,7 +56,7 @@ objectives:
   - id: a-3
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; procedures addressing least
           privilege; list of security functions (deployed in
           hardware, software, and firmware) and security-relevant
@@ -65,7 +65,7 @@ objectives:
           documentation; system audit records; system security plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for
           defining least privileges necessary to accomplish
           specified tasks; organizational personnel with information
@@ -78,7 +78,7 @@ objectives:
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; procedures addressing least
           privilege; list of security functions (deployed in
           hardware, software, and firmware) and security-relevant
@@ -87,7 +87,7 @@ objectives:
           documentation; system audit records; system security plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for
           defining least privileges necessary to accomplish
           specified tasks; organizational personnel with information
@@ -109,7 +109,7 @@ parameters:
   ac_06_01_odp_05:
     label: security-relevant information
   ac_6_1_prm_2:
-    label: >
+    label: >-
       organization-defined security functions (deployed in hardware,
       software, and firmware)
 parts:

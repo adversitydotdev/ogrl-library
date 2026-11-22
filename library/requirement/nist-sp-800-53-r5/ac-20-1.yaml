@@ -12,19 +12,19 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; procedures addressing the use of
           external systems; system connection or processing
           agreements; account management documents; system security
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities
       - method: test
         statement: >-
           Mechanisms implementing limits on use of external systems
-    statement: >
+    statement: >-
       authorized individuals are permitted to use an external system
       to access the system or to process, store, or transmit
       organization-controlled information only after verification of
@@ -34,19 +34,19 @@ objectives:
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; procedures addressing the use of
           external systems; system connection or processing
           agreements; account management documents; system security
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities
       - method: test
         statement: >-
           Mechanisms implementing limits on use of external systems
-    statement: >
+    statement: >-
       authorized individuals are permitted to use an external system
       to access the system or to process, store, or transmit
       organization-controlled information only after retention of
@@ -55,16 +55,16 @@ objectives:
       applicable).
 parts:
   - id: a
-    statement: >
+    statement: >-
       Verification of the implementation of controls on the external
       system as specified in the organization’s security and
       privacy policies and security and privacy plans; or
   - id: b
-    statement: >
+    statement: >-
       Retention of approved system connection or processing
       agreements with the organizational entity hosting the external
       system.
-statement: >
+statement: >-
   Permit authorized individuals to use an external system to access
   the system or to process, store, or transmit
   organization-controlled information only after:

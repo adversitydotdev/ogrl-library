@@ -12,7 +12,7 @@ objectives:
   - id: "au-16(03)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Audit and accountability policy; system security plan;
           privacy plan; procedures addressing cross-organizational
           sharing of audit information; policy and/or procedures
@@ -21,20 +21,20 @@ objectives:
           associated documentation; system audit records; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for sharing
           cross-organizational audit information; organizational
           personnel with information security and privacy
           responsibilities
       - method: test
         statement: Mechanisms implementing disassociability
-    statement: >
+    statement: >-
       {{ au_16_03_odp }} are implemented to disassociate individuals
       from audit information transmitted across organizational
       boundaries.
 parameters:
   au_16_03_odp:
     label: measures
-statement: >
+statement: >-
   Implement {{ au_16_03_odp }} to disassociate individuals from
   audit information transmitted across organizational boundaries.

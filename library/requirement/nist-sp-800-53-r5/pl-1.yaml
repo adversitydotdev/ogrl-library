@@ -31,11 +31,11 @@ objectives:
   - id: a-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Planning policy and procedures; system security plan;
           privacy plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with planning responsibilities;
           organizational personnel with information security and
           privacy responsibilities
@@ -43,11 +43,11 @@ objectives:
   - id: a-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Planning policy and procedures; system security plan;
           privacy plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with planning responsibilities;
           organizational personnel with information security and
           privacy responsibilities
@@ -56,26 +56,26 @@ objectives:
   - id: a-3
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Planning policy and procedures; system security plan;
           privacy plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with planning responsibilities;
           organizational personnel with information security and
           privacy responsibilities
-    statement: >
+    statement: >-
       planning procedures to facilitate the implementation of the
       planning policy and associated planning controls are developed
       and documented;
   - id: a-4
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Planning policy and procedures; system security plan;
           privacy plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with planning responsibilities;
           organizational personnel with information security and
           privacy responsibilities
@@ -85,11 +85,11 @@ objectives:
   - id: a.1.a-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Planning policy and procedures; system security plan;
           privacy plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with planning responsibilities;
           organizational personnel with information security and
           privacy responsibilities
@@ -98,11 +98,11 @@ objectives:
   - id: a.1.a-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Planning policy and procedures; system security plan;
           privacy plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with planning responsibilities;
           organizational personnel with information security and
           privacy responsibilities
@@ -111,11 +111,11 @@ objectives:
   - id: a.1.a-3
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Planning policy and procedures; system security plan;
           privacy plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with planning responsibilities;
           organizational personnel with information security and
           privacy responsibilities
@@ -124,11 +124,11 @@ objectives:
   - id: a.1.a-4
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Planning policy and procedures; system security plan;
           privacy plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with planning responsibilities;
           organizational personnel with information security and
           privacy responsibilities
@@ -138,11 +138,11 @@ objectives:
   - id: a.1.a-5
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Planning policy and procedures; system security plan;
           privacy plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with planning responsibilities;
           organizational personnel with information security and
           privacy responsibilities
@@ -152,25 +152,25 @@ objectives:
   - id: a.1.a-6
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Planning policy and procedures; system security plan;
           privacy plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with planning responsibilities;
           organizational personnel with information security and
           privacy responsibilities
-    statement: >
+    statement: >-
       the {{ pl_01_odp_03 }} planning policy addresses coordination
       among organizational entities;
   - id: a.1.a-7
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Planning policy and procedures; system security plan;
           privacy plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with planning responsibilities;
           organizational personnel with information security and
           privacy responsibilities
@@ -179,41 +179,41 @@ objectives:
   - id: a.1.b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Planning policy and procedures; system security plan;
           privacy plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with planning responsibilities;
           organizational personnel with information security and
           privacy responsibilities
-    statement: >
+    statement: >-
       the {{ pl_01_odp_03 }} planning policy is consistent with
       applicable laws, Executive Orders, directives, regulations,
       policies, standards, and guidelines;
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Planning policy and procedures; system security plan;
           privacy plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with planning responsibilities;
           organizational personnel with information security and
           privacy responsibilities
-    statement: >
+    statement: >-
       the {{ pl_01_odp_04 }} is designated to manage the
       development, documentation, and dissemination of the planning
       policy and procedures;
   - id: c.1-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Planning policy and procedures; system security plan;
           privacy plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with planning responsibilities;
           organizational personnel with information security and
           privacy responsibilities
@@ -223,25 +223,25 @@ objectives:
   - id: c.1-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Planning policy and procedures; system security plan;
           privacy plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with planning responsibilities;
           organizational personnel with information security and
           privacy responsibilities
-    statement: >
+    statement: >-
       the current planning policy is reviewed and updated following
       {{ pl_01_odp_06 }};
   - id: c.2-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Planning policy and procedures; system security plan;
           privacy plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with planning responsibilities;
           organizational personnel with information security and
           privacy responsibilities
@@ -251,15 +251,15 @@ objectives:
   - id: c.2-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Planning policy and procedures; system security plan;
           privacy plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with planning responsibilities;
           organizational personnel with information security and
           privacy responsibilities
-    statement: >
+    statement: >-
       the current planning procedures are reviewed and updated
       following {{ pl_01_odp_08 }}.
 parameters:
@@ -288,21 +288,21 @@ parts:
   - id: a.1
     statement: "{{ pl_01_odp_03 }} planning policy that:"
   - id: a.1.a
-    statement: >
+    statement: >-
       Addresses purpose, scope, roles, responsibilities, management
       commitment, coordination among organizational entities, and
       compliance; and
   - id: a.1.b
-    statement: >
+    statement: >-
       Is consistent with applicable laws, executive orders,
       directives, regulations, policies, standards, and guidelines;
       and
   - id: a.2
-    statement: >
+    statement: >-
       Procedures to facilitate the implementation of the planning
       policy and the associated planning controls;
   - id: b
-    statement: >
+    statement: >-
       Designate an {{ pl_01_odp_04 }} to manage the development,
       documentation, and dissemination of the planning policy and
       procedures; and

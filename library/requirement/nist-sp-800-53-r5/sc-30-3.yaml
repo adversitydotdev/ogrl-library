@@ -12,7 +12,7 @@ objectives:
   - id: "sc-30(03)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; configuration
           management policy and procedures; procedures addressing
           concealment and misdirection techniques for the system;
@@ -21,13 +21,13 @@ objectives:
           configuration management records; system audit records;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; organizational
           personnel with the responsibility to change processing
           and/or storage locations
       - method: test
-        statement: >
+        statement: >-
           Mechanisms supporting and/or implementing changing
           processing and/or storage locations
     statement: >-

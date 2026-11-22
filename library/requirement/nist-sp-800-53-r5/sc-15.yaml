@@ -12,7 +12,7 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing collaborative computing; access control policy
           and procedures; system design documentation; system
@@ -20,24 +20,24 @@ objectives:
           system audit records; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; system
           developer; organizational personnel with responsibilities
           for managing collaborative computing devices
       - method: test
-        statement: >
+        statement: >-
           Mechanisms supporting and/or implementing the management
           of remote activation of collaborative computing devices;
           mechanisms providing an indication of use of collaborative
           computing devices
-    statement: >
+    statement: >-
       remote activation of collaborative computing devices and
       applications is prohibited except {{ sc_15_odp }};
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing collaborative computing; access control policy
           and procedures; system design documentation; system
@@ -45,18 +45,18 @@ objectives:
           system audit records; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; system
           developer; organizational personnel with responsibilities
           for managing collaborative computing devices
       - method: test
-        statement: >
+        statement: >-
           Mechanisms supporting and/or implementing the management
           of remote activation of collaborative computing devices;
           mechanisms providing an indication of use of collaborative
           computing devices
-    statement: >
+    statement: >-
       an explicit indication of use is provided to users physically
       present at the devices.
 parameters:
@@ -64,11 +64,11 @@ parameters:
     label: exceptions where remote activation is to be allowed
 parts:
   - id: a
-    statement: >
+    statement: >-
       Prohibit remote activation of collaborative computing devices
       and applications with the following exceptions:
       {{ sc_15_odp }} ; and
   - id: b
-    statement: >
+    statement: >-
       Provide an explicit indication of use to users physically
       present at the devices.

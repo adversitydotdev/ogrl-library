@@ -12,7 +12,7 @@ objectives:
   - id: _obj
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; procedures
           addressing development process, standards, and tools;
           solicitation documentation; acquisition documentation;
@@ -21,18 +21,18 @@ objectives:
           component; system security plan; privacy plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and service
           acquisition responsibilities; organizational personnel
           with information security responsibilities; system
           developer; organizational personnel with privacy
           responsibilities
-    statement: >
+    statement: >-
       the developer of the system or system component is required to
       archive the system or component to be released or delivered
       together with the corresponding evidence supporting the final
       security and privacy review.
-statement: >
+statement: >-
   Require the developer of the system or system component to archive
   the system or component to be released or delivered together with
   the corresponding evidence supporting the final security and

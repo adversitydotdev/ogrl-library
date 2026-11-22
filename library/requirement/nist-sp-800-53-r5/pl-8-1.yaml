@@ -12,7 +12,7 @@ objectives:
   - id: a-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Security and privacy planning policy; procedures
           addressing information security and privacy architecture
           development; enterprise architecture documentation;
@@ -21,7 +21,7 @@ objectives:
           security and privacy CONOPS for the system; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with security and privacy
           planning and plan implementation responsibilities;
           organizational personnel with information security and
@@ -29,19 +29,19 @@ objectives:
           organizational personnel with information security and
           privacy responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for designing the information
           security and privacy architecture; mechanisms supporting
           and/or implementing the design of the information security
           and privacy architecture
-    statement: >
+    statement: >-
       the security architecture for the system is designed using a
       defense-in-depth approach that allocates {{ pl_08_01_odp_01 }}
       to {{ pl_08_01_odp_02 }};
   - id: a-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Security and privacy planning policy; procedures
           addressing information security and privacy architecture
           development; enterprise architecture documentation;
@@ -50,7 +50,7 @@ objectives:
           security and privacy CONOPS for the system; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with security and privacy
           planning and plan implementation responsibilities;
           organizational personnel with information security and
@@ -58,19 +58,19 @@ objectives:
           organizational personnel with information security and
           privacy responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for designing the information
           security and privacy architecture; mechanisms supporting
           and/or implementing the design of the information security
           and privacy architecture
-    statement: >
+    statement: >-
       the privacy architecture for the system is designed using a
       defense-in-depth approach that allocates {{ pl_08_01_odp_01 }}
       to {{ pl_08_01_odp_02 }};
   - id: b-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Security and privacy planning policy; procedures
           addressing information security and privacy architecture
           development; enterprise architecture documentation;
@@ -79,7 +79,7 @@ objectives:
           security and privacy CONOPS for the system; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with security and privacy
           planning and plan implementation responsibilities;
           organizational personnel with information security and
@@ -87,19 +87,19 @@ objectives:
           organizational personnel with information security and
           privacy responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for designing the information
           security and privacy architecture; mechanisms supporting
           and/or implementing the design of the information security
           and privacy architecture
-    statement: >
+    statement: >-
       the security architecture for the system is designed using a
       defense-in-depth approach that ensures the allocated controls
       operate in a coordinated and mutually reinforcing manner;
   - id: b-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Security and privacy planning policy; procedures
           addressing information security and privacy architecture
           development; enterprise architecture documentation;
@@ -108,7 +108,7 @@ objectives:
           security and privacy CONOPS for the system; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with security and privacy
           planning and plan implementation responsibilities;
           organizational personnel with information security and
@@ -116,12 +116,12 @@ objectives:
           organizational personnel with information security and
           privacy responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for designing the information
           security and privacy architecture; mechanisms supporting
           and/or implementing the design of the information security
           and privacy architecture
-    statement: >
+    statement: >-
       the privacy architecture for the system is designed using a
       defense-in-depth approach that ensures the allocated controls
       operate in a coordinated and mutually reinforcing manner.
@@ -135,9 +135,9 @@ parts:
     statement: >-
       Allocates {{ pl_08_01_odp_01 }} to {{ pl_08_01_odp_02 }} ; and
   - id: b
-    statement: >
+    statement: >-
       Ensures that the allocated controls operate in a coordinated
       and mutually reinforcing manner.
-statement: >
+statement: >-
   Design the security and privacy architectures for the system using
   a defense-in-depth approach that:

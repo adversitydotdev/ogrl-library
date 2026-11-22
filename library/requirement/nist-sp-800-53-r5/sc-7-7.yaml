@@ -12,7 +12,7 @@ objectives:
   - id: "sc-07(07)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing boundary protection; system design
           documentation; system hardware and software; system
@@ -20,23 +20,23 @@ objectives:
           documentation; system audit records; system security plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; system
           developer; organizational personnel with boundary
           protection responsibilities
       - method: test
-        statement: >
+        statement: >-
           Mechanisms implementing boundary protection capabilities;
           mechanisms supporting/restricting non-remote connections
-    statement: >
+    statement: >-
       split tunneling is prevented for remote devices connecting to
       organizational systems unless the split tunnel is securely
       provisioned using {{ sc_07_07_odp }}.
 parameters:
   sc_07_07_odp:
     label: safeguards
-statement: >
+statement: >-
   Prevent split tunneling for remote devices connecting to
   organizational systems unless the split tunnel is securely
   provisioned using {{ sc_07_07_odp }}.

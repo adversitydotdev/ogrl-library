@@ -12,7 +12,7 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Supply chain risk management policy; inventory of critical
           systems, system components, and system services; risk
           assessment policy; security planning policy and
@@ -23,13 +23,13 @@ objectives:
           plan; supply chain risk management plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with risk assessment
           responsibilities; organizational personnel with security
           responsibilities; organizational personnel with supply
           chain risk management responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for risk assessment; mechanisms
           supporting and/or conducting, documenting, reviewing,
           disseminating, and updating the supply chain risk
@@ -40,7 +40,7 @@ objectives:
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Supply chain risk management policy; inventory of critical
           systems, system components, and system services; risk
           assessment policy; security planning policy and
@@ -51,18 +51,18 @@ objectives:
           plan; supply chain risk management plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with risk assessment
           responsibilities; organizational personnel with security
           responsibilities; organizational personnel with supply
           chain risk management responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for risk assessment; mechanisms
           supporting and/or conducting, documenting, reviewing,
           disseminating, and updating the supply chain risk
           assessment
-    statement: >
+    statement: >-
       the supply chain risk assessment is updated
       {{ ra_03_01_odp_02 }} , when there are significant changes to
       the relevant supply chain, or when changes to the system,
@@ -79,7 +79,7 @@ parts:
       Assess supply chain risks associated with
       {{ ra_03_01_odp_01 }} ; and
   - id: b
-    statement: >
+    statement: >-
       Update the supply chain risk assessment {{ ra_03_01_odp_02 }}
       , when there are significant changes to the relevant supply
       chain, or when changes to the system, environments of

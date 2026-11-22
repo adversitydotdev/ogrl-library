@@ -12,7 +12,7 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing boundary protection; personally identifiable
           information processing policies; list of key internal
@@ -24,7 +24,7 @@ objectives:
           information inventory documentation; data mapping
           documentation; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security and privacy responsibilities;
           system developer; organizational personnel with boundary
@@ -32,14 +32,14 @@ objectives:
       - method: test
         statement: >-
           Mechanisms implementing boundary protection capabilities
-    statement: >
+    statement: >-
       {{ sc_07_24_odp }} are applied to data elements of personally
       identifiable information on systems that process personally
       identifiable information;
   - id: b-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing boundary protection; personally identifiable
           information processing policies; list of key internal
@@ -51,7 +51,7 @@ objectives:
           information inventory documentation; data mapping
           documentation; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security and privacy responsibilities;
           system developer; organizational personnel with boundary
@@ -59,14 +59,14 @@ objectives:
       - method: test
         statement: >-
           Mechanisms implementing boundary protection capabilities
-    statement: >
+    statement: >-
       permitted processing is monitored at the external interfaces
       to the systems that process personally identifiable
       information;
   - id: b-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing boundary protection; personally identifiable
           information processing policies; list of key internal
@@ -78,7 +78,7 @@ objectives:
           information inventory documentation; data mapping
           documentation; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security and privacy responsibilities;
           system developer; organizational personnel with boundary
@@ -86,14 +86,14 @@ objectives:
       - method: test
         statement: >-
           Mechanisms implementing boundary protection capabilities
-    statement: >
+    statement: >-
       permitted processing is monitored at key internal boundaries
       within the systems that process personally identifiable
       information;
   - id: c
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing boundary protection; personally identifiable
           information processing policies; list of key internal
@@ -105,7 +105,7 @@ objectives:
           information inventory documentation; data mapping
           documentation; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security and privacy responsibilities;
           system developer; organizational personnel with boundary
@@ -113,13 +113,13 @@ objectives:
       - method: test
         statement: >-
           Mechanisms implementing boundary protection capabilities
-    statement: >
+    statement: >-
       each processing exception is documented for systems that
       process personally identifiable information;
   - id: d-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing boundary protection; personally identifiable
           information processing policies; list of key internal
@@ -131,7 +131,7 @@ objectives:
           information inventory documentation; data mapping
           documentation; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security and privacy responsibilities;
           system developer; organizational personnel with boundary
@@ -139,13 +139,13 @@ objectives:
       - method: test
         statement: >-
           Mechanisms implementing boundary protection capabilities
-    statement: >
+    statement: >-
       exceptions for systems that process personally identifiable
       information are reviewed;
   - id: d-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing boundary protection; personally identifiable
           information processing policies; list of key internal
@@ -157,7 +157,7 @@ objectives:
           information inventory documentation; data mapping
           documentation; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security and privacy responsibilities;
           system developer; organizational personnel with boundary
@@ -165,7 +165,7 @@ objectives:
       - method: test
         statement: >-
           Mechanisms implementing boundary protection capabilities
-    statement: >
+    statement: >-
       exceptions for systems that process personally identifiable
       information that are no longer supported are removed.
 parameters:
@@ -173,11 +173,11 @@ parameters:
     label: processing rules
 parts:
   - id: a
-    statement: >
+    statement: >-
       Apply the following processing rules to data elements of
       personally identifiable information: {{ sc_07_24_odp }};
   - id: b
-    statement: >
+    statement: >-
       Monitor for permitted processing at the external interfaces to
       the system and at key internal boundaries within the system;
   - id: c

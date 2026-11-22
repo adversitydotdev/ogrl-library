@@ -31,7 +31,7 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           configuration settings for the system; configuration
           management plan; system design documentation; system
@@ -43,20 +43,20 @@ objectives:
           system audit records; system security plan; privacy plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with security configuration
           management responsibilities; organizational personnel with
           privacy configuration management responsibilities;
           organizational personnel with information security and
           privacy responsibilities; system/network administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for managing configuration
           settings; mechanisms that implement, monitor, and/or
           control system configuration settings; mechanisms that
           identify and/or document deviations from established
           configuration settings
-    statement: >
+    statement: >-
       configuration settings that reflect the most restrictive mode
       consistent with operational requirements are established and
       documented for components employed within the system using
@@ -64,7 +64,7 @@ objectives:
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           configuration settings for the system; configuration
           management plan; system design documentation; system
@@ -76,14 +76,14 @@ objectives:
           system audit records; system security plan; privacy plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with security configuration
           management responsibilities; organizational personnel with
           privacy configuration management responsibilities;
           organizational personnel with information security and
           privacy responsibilities; system/network administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for managing configuration
           settings; mechanisms that implement, monitor, and/or
           control system configuration settings; mechanisms that
@@ -95,7 +95,7 @@ objectives:
   - id: c-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           configuration settings for the system; configuration
           management plan; system design documentation; system
@@ -107,27 +107,27 @@ objectives:
           system audit records; system security plan; privacy plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with security configuration
           management responsibilities; organizational personnel with
           privacy configuration management responsibilities;
           organizational personnel with information security and
           privacy responsibilities; system/network administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for managing configuration
           settings; mechanisms that implement, monitor, and/or
           control system configuration settings; mechanisms that
           identify and/or document deviations from established
           configuration settings
-    statement: >
+    statement: >-
       any deviations from established configuration settings for
       {{ cm_06_odp_02 }} are identified and documented based on
       {{ cm_06_odp_03 }};
   - id: c-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           configuration settings for the system; configuration
           management plan; system design documentation; system
@@ -139,26 +139,26 @@ objectives:
           system audit records; system security plan; privacy plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with security configuration
           management responsibilities; organizational personnel with
           privacy configuration management responsibilities;
           organizational personnel with information security and
           privacy responsibilities; system/network administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for managing configuration
           settings; mechanisms that implement, monitor, and/or
           control system configuration settings; mechanisms that
           identify and/or document deviations from established
           configuration settings
-    statement: >
+    statement: >-
       any deviations from established configuration settings for
       {{ cm_06_odp_02 }} are approved;
   - id: d-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           configuration settings for the system; configuration
           management plan; system design documentation; system
@@ -170,26 +170,26 @@ objectives:
           system audit records; system security plan; privacy plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with security configuration
           management responsibilities; organizational personnel with
           privacy configuration management responsibilities;
           organizational personnel with information security and
           privacy responsibilities; system/network administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for managing configuration
           settings; mechanisms that implement, monitor, and/or
           control system configuration settings; mechanisms that
           identify and/or document deviations from established
           configuration settings
-    statement: >
+    statement: >-
       changes to the configuration settings are monitored in
       accordance with organizational policies and procedures;
   - id: d-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           configuration settings for the system; configuration
           management plan; system design documentation; system
@@ -201,20 +201,20 @@ objectives:
           system audit records; system security plan; privacy plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with security configuration
           management responsibilities; organizational personnel with
           privacy configuration management responsibilities;
           organizational personnel with information security and
           privacy responsibilities; system/network administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for managing configuration
           settings; mechanisms that implement, monitor, and/or
           control system configuration settings; mechanisms that
           identify and/or document deviations from established
           configuration settings
-    statement: >
+    statement: >-
       changes to the configuration settings are controlled in
       accordance with organizational policies and procedures.
 parameters:
@@ -226,7 +226,7 @@ parameters:
     label: operational requirements
 parts:
   - id: a
-    statement: >
+    statement: >-
       Establish and document configuration settings for components
       employed within the system that reflect the most restrictive
       mode consistent with operational requirements using
@@ -234,11 +234,11 @@ parts:
   - id: b
     statement: Implement the configuration settings;
   - id: c
-    statement: >
+    statement: >-
       Identify, document, and approve any deviations from
       established configuration settings for {{ cm_06_odp_02 }}
       based on {{ cm_06_odp_03 }} ; and
   - id: d
-    statement: >
+    statement: >-
       Monitor and control changes to the configuration settings in
       accordance with organizational policies and procedures.

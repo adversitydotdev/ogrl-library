@@ -19,7 +19,7 @@ objectives:
   - id: _obj
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; personally identifiable
           information processing policy; procedures addressing
@@ -29,17 +29,17 @@ objectives:
           list of information to be refreshed; system security plan;
           privacy plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel responsible for refreshing
           information; organizational personnel with information
           security and privacy responsibilities; organizational
           personnel with systems security engineering
           responsibilities; system developers
       - method: test
-        statement: >
+        statement: >-
           Mechanisms for information refresh; organizational
           processes for information refresh
-    statement: >
+    statement: >-
       the {{ si_21_odp_01 }} is refreshed {{ si_21_odp_02 }} or is
       generated on demand and deleted when no longer needed.
 parameters:
@@ -47,7 +47,7 @@ parameters:
     label: information
   si_21_odp_02:
     label: frequencies
-statement: >
+statement: >-
   Refresh {{ si_21_odp_01 }} at {{ si_21_odp_02 }} or generate the
   information on demand and delete the information when no longer
   needed.

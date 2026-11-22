@@ -12,7 +12,7 @@ objectives:
   - id: "sa-08(05)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; procedures
           addressing the security design principle of efficiently
           mediated access used in the specification, design,
@@ -22,7 +22,7 @@ objectives:
           security and privacy architecture; system security plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with acquisition/contracting
           responsibilities; organizational personnel with the
           responsibility for determining system security and privacy
@@ -32,7 +32,7 @@ objectives:
           organizational personnel with information security
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for applying the security design
           principle of efficiently mediated access in system
           specification, design, development, implementation, and
@@ -40,12 +40,12 @@ objectives:
           security design principle of efficiently mediated access
           in system specification, design, development,
           implementation, and modification
-    statement: >
+    statement: >-
       {{ sa_08_05_odp }} implement the security design principle of
       efficiently mediated access.
 parameters:
   sa_08_05_odp:
     label: systems or system components
-statement: >
+statement: >-
   Implement the security design principle of efficiently mediated
   access in {{ sa_08_05_odp }}.

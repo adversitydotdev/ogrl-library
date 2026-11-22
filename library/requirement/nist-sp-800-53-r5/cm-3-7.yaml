@@ -12,7 +12,7 @@ objectives:
   - id: "cm-03(07)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           system configuration change control; configuration
           management plan; change control records; system
@@ -21,16 +21,16 @@ objectives:
           system audit records; system component inventory; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with configuration change control
           responsibilities; organizational personnel with security
           responsibilities; system/network administrators; members
           of change control board or similar
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for configuration change control;
           mechanisms implementing audit records for changes
-    statement: >
+    statement: >-
       changes to the system are reviewed {{ cm_03_07_odp_01 }} or
       when {{ cm_03_07_odp_02 }} to determine whether unauthorized
       changes have occurred.
@@ -39,7 +39,7 @@ parameters:
     label: frequency
   cm_03_07_odp_02:
     label: circumstances
-statement: >
+statement: >-
   Review changes to the system {{ cm_03_07_odp_01 }} or when
   {{ cm_03_07_odp_02 }} to determine whether unauthorized changes
   have occurred.

@@ -12,7 +12,7 @@ objectives:
   - id: "sr-03(01).sr-03(01)[01]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Supply chain risk management policy and procedures; system
           and services acquisition policy; planning policy;
           procedures addressing supply chain protection; physical
@@ -23,13 +23,13 @@ objectives:
           adequate supply of critical system components; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and services
           acquisition responsibilities; organizational personnel
           with information security responsibilities; organizational
           personnel with supply chain protection responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for defining and employing
           security safeguards to ensure an adequate supply of
           critical system components; processes to identify critical
@@ -42,7 +42,7 @@ objectives:
   - id: "sr-03(01).sr-03(01)[02]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Supply chain risk management policy and procedures; system
           and services acquisition policy; planning policy;
           procedures addressing supply chain protection; physical
@@ -53,13 +53,13 @@ objectives:
           adequate supply of critical system components; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and services
           acquisition responsibilities; organizational personnel
           with information security responsibilities; organizational
           personnel with supply chain protection responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for defining and employing
           security safeguards to ensure an adequate supply of
           critical system components; processes to identify critical
@@ -76,6 +76,6 @@ parameters:
     label: services
   sr_3_1_prm_1:
     label: organization-defined system components and services
-statement: >
+statement: >-
   Employ a diverse set of sources for the following system
   components and services: {{ sr_3_1_prm_1 }}.

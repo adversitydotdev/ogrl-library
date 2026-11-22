@@ -12,7 +12,7 @@ objectives:
   - id: "sa-08(32)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; procedures
           addressing the security design principle of sufficient
           documentation used in the specification, design,
@@ -24,7 +24,7 @@ objectives:
           documentation; system security and privacy architecture;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with the responsibility for
           determining system security and privacy requirements;
           organizational personnel with system specification,
@@ -32,7 +32,7 @@ objectives:
           responsibilities; system developers; organizational
           personnel with information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for applying the security design
           principle of sufficient documentation in system
           specification, design, development, implementation, and
@@ -42,12 +42,12 @@ objectives:
           and modification; mechanisms that enforce security
           policies; organizational processes for managing change
           configuration; mechanisms supporting configuration control
-    statement: >
+    statement: >-
       {{ sa_08_32_odp }} implement the security design principle of
       sufficient documentation.
 parameters:
   sa_08_32_odp:
     label: systems or system components
-statement: >
+statement: >-
   Implement the security design principle of sufficient
   documentation in {{ sa_08_32_odp }}.

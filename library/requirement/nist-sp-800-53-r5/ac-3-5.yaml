@@ -12,14 +12,14 @@ objectives:
   - id: "ac-03(05)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; procedures addressing access
           enforcement; system design documentation; system
           configuration settings and associated documentation;
           system audit records; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with access enforcement
           responsibilities; system/network administrators;
           organizational personnel with information security
@@ -28,12 +28,12 @@ objectives:
         statement: >-
           Mechanisms preventing access to security-relevant
           information within the system
-    statement: >
+    statement: >-
       access to {{ ac_03_05_odp }} is prevented except during
       secure, non-operable system states.
 parameters:
   ac_03_05_odp:
     label: security-relevant information
-statement: >
+statement: >-
   Prevent access to {{ ac_03_05_odp }} except during secure,
   non-operable system states.

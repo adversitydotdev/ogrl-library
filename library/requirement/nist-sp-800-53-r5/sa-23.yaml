@@ -19,7 +19,7 @@ objectives:
   - id: _obj
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; procedures
           addressing design modification, augmentation, or
           reconfiguration of systems or system components;
@@ -27,7 +27,7 @@ objectives:
           or reconfiguration; system security plan; supply chain
           risk management plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and service
           acquisition responsibilities; organizational personnel
           with information security responsibilities; organizational
@@ -35,13 +35,13 @@ objectives:
           architecture; organizational personnel responsible for
           configuration management
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for the modification of design,
           augmentation, or reconfiguration of systems or system
           components; mechanisms supporting and/or implementing
           design modification, augmentation, or reconfiguration of
           systems or system components
-    statement: >
+    statement: >-
       {{ sa_23_odp_01 }} is employed on {{ sa_23_odp_02 }}
       supporting essential services or functions to increase the
       trustworthiness in those systems or components.
@@ -50,7 +50,7 @@ parameters:
     label: sa-23_odp.01
   sa_23_odp_02:
     label: systems or system components
-statement: >
+statement: >-
   Employ {{ sa_23_odp_01 }} on {{ sa_23_odp_02 }} supporting mission
   essential services or functions to increase the trustworthiness in
   those systems or components.

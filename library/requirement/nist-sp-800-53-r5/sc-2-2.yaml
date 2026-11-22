@@ -12,7 +12,7 @@ objectives:
   - id: "sc-02(02)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing application and software partitioning; system
           design documentation; system configuration settings and
@@ -20,7 +20,7 @@ objectives:
           security plan; privacy plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security and privacy responsibilities;
           system developer

@@ -12,7 +12,7 @@ objectives:
   - id: _obj
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy;; solicitation
           documentation;; acquisition documentation;; service level
           agreements;; acquisition contracts for the system, system
@@ -22,7 +22,7 @@ objectives:
           and level of detail;; system security plan; other relevant
           documents or records.
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and service
           acquisition responsibilities;; organizational personnel
           with information security responsibilities;; system
@@ -31,7 +31,7 @@ objectives:
         statement: >-
           Developer logs for the system, system component, or system
           service.
-    statement: |
+    statement: |-
       Determine if:
 
       the developer of the system, system component, or system service uses {{ sa_15_13_odp_01 }} to log {{ sa_15_13_odp_02 }} at {{ sa_15_13_odp_03 }}.
@@ -42,7 +42,7 @@ parameters:
     label: events types to log
   sa_15_13_odp_03:
     label: level of detail to log
-statement: >
+statement: >-
   Require the developer of the system, system component, or system
   service to use {{ sa_15_13_odp_01 }} to log {{ sa_15_13_odp_02 }}
   at {{ sa_15_13_odp_03 }}.

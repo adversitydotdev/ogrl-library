@@ -12,7 +12,7 @@ objectives:
   - id: a.1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; privacy and security policies,
           procedures addressing system use notification; documented
           approval of system use notification messages or banners;
@@ -24,19 +24,19 @@ objectives:
           impact assessment; privacy assessment report; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security and privacy responsibilities;
           legal counsel; system developers
       - method: test
         statement: Mechanisms implementing system use notification
-    statement: >
+    statement: >-
       the system use notification states that users are accessing a
       U.S. Government system;
   - id: a.2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; privacy and security policies,
           procedures addressing system use notification; documented
           approval of system use notification messages or banners;
@@ -48,19 +48,19 @@ objectives:
           impact assessment; privacy assessment report; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security and privacy responsibilities;
           legal counsel; system developers
       - method: test
         statement: Mechanisms implementing system use notification
-    statement: >
+    statement: >-
       the system use notification states that system usage may be
       monitored, recorded, and subject to audit;
   - id: a.3
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; privacy and security policies,
           procedures addressing system use notification; documented
           approval of system use notification messages or banners;
@@ -72,20 +72,20 @@ objectives:
           impact assessment; privacy assessment report; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security and privacy responsibilities;
           legal counsel; system developers
       - method: test
         statement: Mechanisms implementing system use notification
-    statement: >
+    statement: >-
       the system use notification states that unauthorized use of
       the system is prohibited and subject to criminal and civil
       penalties; and
   - id: a.4
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; privacy and security policies,
           procedures addressing system use notification; documented
           approval of system use notification messages or banners;
@@ -97,19 +97,19 @@ objectives:
           impact assessment; privacy assessment report; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security and privacy responsibilities;
           legal counsel; system developers
       - method: test
         statement: Mechanisms implementing system use notification
-    statement: >
+    statement: >-
       the system use notification states that use of the system
       indicates consent to monitoring and recording;
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; privacy and security policies,
           procedures addressing system use notification; documented
           approval of system use notification messages or banners;
@@ -121,20 +121,20 @@ objectives:
           impact assessment; privacy assessment report; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security and privacy responsibilities;
           legal counsel; system developers
       - method: test
         statement: Mechanisms implementing system use notification
-    statement: >
+    statement: >-
       the notification message or banner is retained on the screen
       until users acknowledge the usage conditions and take explicit
       actions to log on to or further access the system;
   - id: c.1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; privacy and security policies,
           procedures addressing system use notification; documented
           approval of system use notification messages or banners;
@@ -146,20 +146,20 @@ objectives:
           impact assessment; privacy assessment report; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security and privacy responsibilities;
           legal counsel; system developers
       - method: test
         statement: Mechanisms implementing system use notification
-    statement: >
+    statement: >-
       for publicly accessible systems, system use information
       {{ ac_08_odp_02 }} is displayed before granting further access
       to the publicly accessible system;
   - id: c.2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; privacy and security policies,
           procedures addressing system use notification; documented
           approval of system use notification messages or banners;
@@ -171,13 +171,13 @@ objectives:
           impact assessment; privacy assessment report; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security and privacy responsibilities;
           legal counsel; system developers
       - method: test
         statement: Mechanisms implementing system use notification
-    statement: >
+    statement: >-
       for publicly accessible systems, any references to monitoring,
       recording, or auditing that are consistent with privacy
       accommodations for such systems that generally prohibit those
@@ -185,7 +185,7 @@ objectives:
   - id: c.3
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; privacy and security policies,
           procedures addressing system use notification; documented
           approval of system use notification messages or banners;
@@ -197,13 +197,13 @@ objectives:
           impact assessment; privacy assessment report; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security and privacy responsibilities;
           legal counsel; system developers
       - method: test
         statement: Mechanisms implementing system use notification
-    statement: >
+    statement: >-
       for publicly accessible systems, a description of the
       authorized uses of the system is included.
 parameters:
@@ -213,7 +213,7 @@ parameters:
     label: conditions
 parts:
   - id: a
-    statement: >
+    statement: >-
       Display {{ ac_08_odp_01 }} to users before granting access to
       the system that provides privacy and security notices
       consistent with applicable laws, executive orders, directives,
@@ -225,7 +225,7 @@ parts:
     statement: >-
       System usage may be monitored, recorded, and subject to audit;
   - id: a.3
-    statement: >
+    statement: >-
       Unauthorized use of the system is prohibited and subject to
       criminal and civil penalties; and
   - id: a.4
@@ -233,18 +233,18 @@ parts:
       Use of the system indicates consent to monitoring and
       recording;
   - id: b
-    statement: >
+    statement: >-
       Retain the notification message or banner on the screen until
       users acknowledge the usage conditions and take explicit
       actions to log on to or further access the system; and
   - id: c
     statement: "For publicly accessible systems:"
   - id: c.1
-    statement: >
+    statement: >-
       Display system use information {{ ac_08_odp_02 }} , before
       granting further access to the publicly accessible system;
   - id: c.2
-    statement: >
+    statement: >-
       Display references, if any, to monitoring, recording, or
       auditing that are consistent with privacy accommodations for
       such systems that generally prohibit those activities; and

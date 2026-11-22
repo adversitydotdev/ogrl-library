@@ -34,7 +34,7 @@ objectives:
   - id: a.1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; procedures addressing
           system monitoring tools and techniques; continuous
@@ -45,24 +45,24 @@ objectives:
           configuration settings and associated documentation;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; organizational
           personnel installing, configuring, and/or maintaining the
           system; organizational personnel responsible for
           monitoring the system
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for system monitoring; mechanisms
           supporting and/or implementing system monitoring
           capabilities
-    statement: >
+    statement: >-
       the system is monitored to detect attacks and indicators of
       potential attacks in accordance with {{ si_04_odp_01 }};
   - id: a.2-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; procedures addressing
           system monitoring tools and techniques; continuous
@@ -73,14 +73,14 @@ objectives:
           configuration settings and associated documentation;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; organizational
           personnel installing, configuring, and/or maintaining the
           system; organizational personnel responsible for
           monitoring the system
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for system monitoring; mechanisms
           supporting and/or implementing system monitoring
           capabilities
@@ -90,7 +90,7 @@ objectives:
   - id: a.2-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; procedures addressing
           system monitoring tools and techniques; continuous
@@ -101,14 +101,14 @@ objectives:
           configuration settings and associated documentation;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; organizational
           personnel installing, configuring, and/or maintaining the
           system; organizational personnel responsible for
           monitoring the system
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for system monitoring; mechanisms
           supporting and/or implementing system monitoring
           capabilities
@@ -118,7 +118,7 @@ objectives:
   - id: a.2-3
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; procedures addressing
           system monitoring tools and techniques; continuous
@@ -129,14 +129,14 @@ objectives:
           configuration settings and associated documentation;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; organizational
           personnel installing, configuring, and/or maintaining the
           system; organizational personnel responsible for
           monitoring the system
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for system monitoring; mechanisms
           supporting and/or implementing system monitoring
           capabilities
@@ -146,7 +146,7 @@ objectives:
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; procedures addressing
           system monitoring tools and techniques; continuous
@@ -157,14 +157,14 @@ objectives:
           configuration settings and associated documentation;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; organizational
           personnel installing, configuring, and/or maintaining the
           system; organizational personnel responsible for
           monitoring the system
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for system monitoring; mechanisms
           supporting and/or implementing system monitoring
           capabilities
@@ -174,7 +174,7 @@ objectives:
   - id: c.1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; procedures addressing
           system monitoring tools and techniques; continuous
@@ -185,25 +185,25 @@ objectives:
           configuration settings and associated documentation;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; organizational
           personnel installing, configuring, and/or maintaining the
           system; organizational personnel responsible for
           monitoring the system
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for system monitoring; mechanisms
           supporting and/or implementing system monitoring
           capabilities
-    statement: >
+    statement: >-
       internal monitoring capabilities are invoked or monitoring
       devices are deployed strategically within the system to
       collect organization-determined essential information;
   - id: c.2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; procedures addressing
           system monitoring tools and techniques; continuous
@@ -214,18 +214,18 @@ objectives:
           configuration settings and associated documentation;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; organizational
           personnel installing, configuring, and/or maintaining the
           system; organizational personnel responsible for
           monitoring the system
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for system monitoring; mechanisms
           supporting and/or implementing system monitoring
           capabilities
-    statement: >
+    statement: >-
       internal monitoring capabilities are invoked or monitoring
       devices are deployed at ad hoc locations within the system to
       track specific types of transactions of interest to the
@@ -233,7 +233,7 @@ objectives:
   - id: d-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; procedures addressing
           system monitoring tools and techniques; continuous
@@ -244,14 +244,14 @@ objectives:
           configuration settings and associated documentation;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; organizational
           personnel installing, configuring, and/or maintaining the
           system; organizational personnel responsible for
           monitoring the system
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for system monitoring; mechanisms
           supporting and/or implementing system monitoring
           capabilities
@@ -259,7 +259,7 @@ objectives:
   - id: d-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; procedures addressing
           system monitoring tools and techniques; continuous
@@ -270,14 +270,14 @@ objectives:
           configuration settings and associated documentation;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; organizational
           personnel installing, configuring, and/or maintaining the
           system; organizational personnel responsible for
           monitoring the system
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for system monitoring; mechanisms
           supporting and/or implementing system monitoring
           capabilities
@@ -285,7 +285,7 @@ objectives:
   - id: e
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; procedures addressing
           system monitoring tools and techniques; continuous
@@ -296,25 +296,25 @@ objectives:
           configuration settings and associated documentation;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; organizational
           personnel installing, configuring, and/or maintaining the
           system; organizational personnel responsible for
           monitoring the system
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for system monitoring; mechanisms
           supporting and/or implementing system monitoring
           capabilities
-    statement: >
+    statement: >-
       the level of system monitoring activity is adjusted when there
       is a change in risk to organizational operations and assets,
       individuals, other organizations, or the Nation;
   - id: f
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; procedures addressing
           system monitoring tools and techniques; continuous
@@ -325,14 +325,14 @@ objectives:
           configuration settings and associated documentation;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; organizational
           personnel installing, configuring, and/or maintaining the
           system; organizational personnel responsible for
           monitoring the system
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for system monitoring; mechanisms
           supporting and/or implementing system monitoring
           capabilities
@@ -342,7 +342,7 @@ objectives:
   - id: g
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; procedures addressing
           system monitoring tools and techniques; continuous
@@ -353,14 +353,14 @@ objectives:
           configuration settings and associated documentation;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; organizational
           personnel installing, configuring, and/or maintaining the
           system; organizational personnel responsible for
           monitoring the system
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for system monitoring; mechanisms
           supporting and/or implementing system monitoring
           capabilities
@@ -384,14 +384,14 @@ parts:
   - id: a
     statement: "Monitor the system to detect:"
   - id: a.1
-    statement: >
+    statement: >-
       Attacks and indicators of potential attacks in accordance with
       the following monitoring objectives: {{ si_04_odp_01 }} ; and
   - id: a.2
     statement: >-
       Unauthorized local, network, and remote connections;
   - id: b
-    statement: >
+    statement: >-
       Identify unauthorized use of the system through the following
       techniques and methods: {{ si_04_odp_02 }};
   - id: c
@@ -399,17 +399,17 @@ parts:
       Invoke internal monitoring capabilities or deploy monitoring
       devices:
   - id: c.1
-    statement: >
+    statement: >-
       Strategically within the system to collect
       organization-determined essential information; and
   - id: c.2
-    statement: >
+    statement: >-
       At ad hoc locations within the system to track specific types
       of transactions of interest to the organization;
   - id: d
     statement: Analyze detected events and anomalies;
   - id: e
-    statement: >
+    statement: >-
       Adjust the level of system monitoring activity when there is a
       change in risk to organizational operations and assets,
       individuals, other organizations, or the Nation;

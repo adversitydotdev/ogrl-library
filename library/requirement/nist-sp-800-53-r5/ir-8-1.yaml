@@ -12,13 +12,13 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Incident response policy; procedures addressing incident
           response planning; incident response plan; system security
           plan; privacy plan; records of incident response plan
           reviews and approvals; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with incident response planning
           responsibilities; organizational personnel with
           information security and privacy responsibilities
@@ -26,7 +26,7 @@ objectives:
         statement: >-
           Organizational incident response plan and related
           organizational processes
-    statement: >
+    statement: >-
       the incident response plan for breaches involving personally
       identifiable information includes a process to determine if
       notice to individuals or other organizations, including
@@ -34,13 +34,13 @@ objectives:
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Incident response policy; procedures addressing incident
           response planning; incident response plan; system security
           plan; privacy plan; records of incident response plan
           reviews and approvals; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with incident response planning
           responsibilities; organizational personnel with
           information security and privacy responsibilities
@@ -48,7 +48,7 @@ objectives:
         statement: >-
           Organizational incident response plan and related
           organizational processes
-    statement: >
+    statement: >-
       the incident response plan for breaches involving personally
       identifiable information includes an assessment process to
       determine the extent of the harm, embarrassment,
@@ -57,13 +57,13 @@ objectives:
   - id: c
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Incident response policy; procedures addressing incident
           response planning; incident response plan; system security
           plan; privacy plan; records of incident response plan
           reviews and approvals; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with incident response planning
           responsibilities; organizational personnel with
           information security and privacy responsibilities
@@ -71,22 +71,22 @@ objectives:
         statement: >-
           Organizational incident response plan and related
           organizational processes
-    statement: >
+    statement: >-
       the incident response plan for breaches involving personally
       identifiable information includes the identification of
       applicable privacy requirements.
 parts:
   - id: a
-    statement: >
+    statement: >-
       A process to determine if notice to individuals or other
       organizations, including oversight organizations, is needed;
   - id: b
-    statement: >
+    statement: >-
       An assessment process to determine the extent of the harm,
       embarrassment, inconvenience, or unfairness to affected
       individuals and any mechanisms to mitigate such harms; and
   - id: c
     statement: Identification of applicable privacy requirements.
-statement: >
+statement: >-
   Include the following in the Incident Response Plan for breaches
   involving personally identifiable information:

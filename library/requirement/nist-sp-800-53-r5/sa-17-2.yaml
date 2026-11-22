@@ -12,7 +12,7 @@ objectives:
   - id: a-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; enterprise
           architecture policy; procedures addressing developer
           security architecture and design specifications for the
@@ -25,19 +25,19 @@ objectives:
           hardware, software, and firmware; system security plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and service
           acquisition responsibilities; organizational personnel
           with information security responsibilities; system
           developers; organizational personnel with information
           security architecture and design responsibilities
-    statement: >
+    statement: >-
       the developer of the system, system component, or system
       service is required to define security-relevant hardware;
   - id: a-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; enterprise
           architecture policy; procedures addressing developer
           security architecture and design specifications for the
@@ -50,19 +50,19 @@ objectives:
           hardware, software, and firmware; system security plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and service
           acquisition responsibilities; organizational personnel
           with information security responsibilities; system
           developers; organizational personnel with information
           security architecture and design responsibilities
-    statement: >
+    statement: >-
       the developer of the system, system component, or system
       service is required to define security-relevant software;
   - id: a-3
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; enterprise
           architecture policy; procedures addressing developer
           security architecture and design specifications for the
@@ -75,19 +75,19 @@ objectives:
           hardware, software, and firmware; system security plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and service
           acquisition responsibilities; organizational personnel
           with information security responsibilities; system
           developers; organizational personnel with information
           security architecture and design responsibilities
-    statement: >
+    statement: >-
       the developer of the system, system component, or system
       service is required to define security-relevant firmware;
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; enterprise
           architecture policy; procedures addressing developer
           security architecture and design specifications for the
@@ -100,13 +100,13 @@ objectives:
           hardware, software, and firmware; system security plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and service
           acquisition responsibilities; organizational personnel
           with information security responsibilities; system
           developers; organizational personnel with information
           security architecture and design responsibilities
-    statement: >
+    statement: >-
       the developer of the system, system component, or system
       service is required to provide a rationale that the definition
       for security-relevant hardware, software, and firmware is
@@ -116,7 +116,7 @@ parts:
     statement: >-
       Define security-relevant hardware, software, and firmware; and
   - id: b
-    statement: >
+    statement: >-
       Provide a rationale that the definition for security-relevant
       hardware, software, and firmware is complete.
 statement: >-

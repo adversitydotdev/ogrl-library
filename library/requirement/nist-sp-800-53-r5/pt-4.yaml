@@ -22,7 +22,7 @@ objectives:
   - id: pt-04
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Personally identifiable information processing and
           transparency policy and procedures; consent policies and
           procedures; consent tools and mechanisms; consent
@@ -30,18 +30,18 @@ objectives:
           individuals’ consent; privacy plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with personally identifiable
           information processing and transparency responsibilities;
           organizational personnel with information security and
           privacy responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for the collection of personally
           identifiable information; consent tools or mechanisms for
           users to authorize the processing of their personally
           identifiable information; mechanisms implementing consent
-    statement: >
+    statement: >-
       the {{ pt_04_odp }} are implemented for individuals to consent
       to the processing of their personally identifiable information
       prior to its collection that facilitate individuals’
@@ -49,7 +49,7 @@ objectives:
 parameters:
   pt_04_odp:
     label: tools or mechanisms
-statement: >
+statement: >-
   Implement {{ pt_04_odp }} for individuals to consent to the
   processing of their personally identifiable information prior to
   its collection that facilitate individuals’ informed

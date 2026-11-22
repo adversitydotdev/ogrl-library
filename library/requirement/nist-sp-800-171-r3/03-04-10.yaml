@@ -25,7 +25,7 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           configuration management policy and procedures; procedures
           for system component inventory; configuration management
           plan; system design documentation; system component
@@ -34,12 +34,12 @@ objectives:
           removal records; system change records; system security
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with component inventory management
           responsibilities; personnel with information security
           responsibilities; system administrators
       - method: test
-        statement: >
+        statement: >-
           processes for managing the system component inventory;
           mechanisms for supporting or implementing the system
           component inventory; processes for updating the system
@@ -50,7 +50,7 @@ objectives:
   - id: b.01
     methods:
       - method: examine
-        statement: >
+        statement: >-
           configuration management policy and procedures; procedures
           for system component inventory; configuration management
           plan; system design documentation; system component
@@ -59,12 +59,12 @@ objectives:
           removal records; system change records; system security
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with component inventory management
           responsibilities; personnel with information security
           responsibilities; system administrators
       - method: test
-        statement: >
+        statement: >-
           processes for managing the system component inventory;
           mechanisms for supporting or implementing the system
           component inventory; processes for updating the system
@@ -76,7 +76,7 @@ objectives:
   - id: b.02
     methods:
       - method: examine
-        statement: >
+        statement: >-
           configuration management policy and procedures; procedures
           for system component inventory; configuration management
           plan; system design documentation; system component
@@ -85,12 +85,12 @@ objectives:
           removal records; system change records; system security
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with component inventory management
           responsibilities; personnel with information security
           responsibilities; system administrators
       - method: test
-        statement: >
+        statement: >-
           processes for managing the system component inventory;
           mechanisms for supporting or implementing the system
           component inventory; processes for updating the system
@@ -102,7 +102,7 @@ objectives:
   - id: c.01
     methods:
       - method: examine
-        statement: >
+        statement: >-
           configuration management policy and procedures; procedures
           for system component inventory; configuration management
           plan; system design documentation; system component
@@ -111,12 +111,12 @@ objectives:
           removal records; system change records; system security
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with component inventory management
           responsibilities; personnel with information security
           responsibilities; system administrators
       - method: test
-        statement: >
+        statement: >-
           processes for managing the system component inventory;
           mechanisms for supporting or implementing the system
           component inventory; processes for updating the system
@@ -128,7 +128,7 @@ objectives:
   - id: c.02
     methods:
       - method: examine
-        statement: >
+        statement: >-
           configuration management policy and procedures; procedures
           for system component inventory; configuration management
           plan; system design documentation; system component
@@ -137,12 +137,12 @@ objectives:
           removal records; system change records; system security
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with component inventory management
           responsibilities; personnel with information security
           responsibilities; system administrators
       - method: test
-        statement: >
+        statement: >-
           processes for managing the system component inventory;
           mechanisms for supporting or implementing the system
           component inventory; processes for updating the system
@@ -154,7 +154,7 @@ objectives:
   - id: c.03
     methods:
       - method: examine
-        statement: >
+        statement: >-
           configuration management policy and procedures; procedures
           for system component inventory; configuration management
           plan; system design documentation; system component
@@ -163,12 +163,12 @@ objectives:
           removal records; system change records; system security
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with component inventory management
           responsibilities; personnel with information security
           responsibilities; system administrators
       - method: test
-        statement: >
+        statement: >-
           processes for managing the system component inventory;
           mechanisms for supporting or implementing the system
           component inventory; processes for updating the system
@@ -189,6 +189,6 @@ parts:
       Review and update the system component inventory
       {{ a_03_04_10_odp_01 }}.
   - id: c
-    statement: >
+    statement: >-
       Update the system component inventory as part of
       installations, removals, and system updates.

@@ -12,7 +12,7 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing covert channel analysis; system design
           documentation; system configuration settings and
@@ -20,26 +20,26 @@ objectives:
           documentation; system audit records; system security plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; organizational
           personnel with covert channel analysis responsibilities;
           system developers/integrators
       - method: test
-        statement: >
+        statement: >-
           Organizational process for conducting covert channel
           analysis; mechanisms supporting and/or implementing covert
           channel analysis; mechanisms supporting and/or
           implementing the capability to estimate the bandwidth of
           covert channels
-    statement: >
+    statement: >-
       a covert channel analysis is performed to identify those
       aspects of communications within the system that are potential
       avenues for covert {{ sc_31_odp }} channels;
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing covert channel analysis; system design
           documentation; system configuration settings and
@@ -47,13 +47,13 @@ objectives:
           documentation; system audit records; system security plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; organizational
           personnel with covert channel analysis responsibilities;
           system developers/integrators
       - method: test
-        statement: >
+        statement: >-
           Organizational process for conducting covert channel
           analysis; mechanisms supporting and/or implementing covert
           channel analysis; mechanisms supporting and/or
@@ -65,7 +65,7 @@ parameters:
     label: sc-31_odp
 parts:
   - id: a
-    statement: >
+    statement: >-
       Perform a covert channel analysis to identify those aspects of
       communications within the system that are potential avenues
       for covert {{ sc_31_odp }} channels; and

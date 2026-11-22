@@ -19,7 +19,7 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           configuration management policy and procedures; procedures
           for least functionality in the system; configuration
           management plan; system design documentation; system
@@ -31,13 +31,13 @@ objectives:
           audit records; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with responsibilities for identifying software
           authorized to execute on the system; personnel with
           information security responsibilities; system
           administrators
       - method: test
-        statement: >
+        statement: >-
           processes for identifying, reviewing, and updating
           programs authorized to execute on the system; processes
           for implementing authorized software policy; mechanisms
@@ -48,7 +48,7 @@ objectives:
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           configuration management policy and procedures; procedures
           for least functionality in the system; configuration
           management plan; system design documentation; system
@@ -60,24 +60,24 @@ objectives:
           audit records; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with responsibilities for identifying software
           authorized to execute on the system; personnel with
           information security responsibilities; system
           administrators
       - method: test
-        statement: >
+        statement: >-
           processes for identifying, reviewing, and updating
           programs authorized to execute on the system; processes
           for implementing authorized software policy; mechanisms
           for supporting or implementing authorized software policy
-    statement: >
+    statement: >-
       a deny-all, allow-by-exception policy for the execution of
       authorized software programs on the system is implemented.
   - id: c
     methods:
       - method: examine
-        statement: >
+        statement: >-
           configuration management policy and procedures; procedures
           for least functionality in the system; configuration
           management plan; system design documentation; system
@@ -89,18 +89,18 @@ objectives:
           audit records; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with responsibilities for identifying software
           authorized to execute on the system; personnel with
           information security responsibilities; system
           administrators
       - method: test
-        statement: >
+        statement: >-
           processes for identifying, reviewing, and updating
           programs authorized to execute on the system; processes
           for implementing authorized software policy; mechanisms
           for supporting or implementing authorized software policy
-    statement: >
+    statement: >-
       the list of authorized software programs is reviewed and
       updated {{ a_03_04_08_odp_01 }}.
 parameters:
@@ -112,10 +112,10 @@ parts:
       Identify software programs authorized to execute on the
       system.
   - id: b
-    statement: >
+    statement: >-
       Implement a deny-all, allow-by-exception policy for the
       execution of authorized software programs on the system.
   - id: c
-    statement: >
+    statement: >-
       Review and update the list of authorized software programs
       {{ a_03_04_08_odp_01 }}.

@@ -12,14 +12,14 @@ objectives:
   - id: "au-05(01)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Audit and accountability policy; procedures addressing
           response to audit processing failures; system design
           documentation; system security plan; privacy system
           configuration settings and associated documentation;
           system audit records; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with audit and accountability
           responsibilities; organizational personnel with
           information security and privacy responsibilities;
@@ -27,7 +27,7 @@ objectives:
       - method: test
         statement: >-
           Mechanisms implementing audit storage limit warnings
-    statement: >
+    statement: >-
       a warning is provided to {{ au_05_01_odp_01 }} within
       {{ au_05_01_odp_02 }} when allocated audit log storage volume
       reaches {{ au_05_01_odp_03 }} of repository maximum audit log
@@ -39,7 +39,7 @@ parameters:
     label: time period
   au_05_01_odp_03:
     label: percentage
-statement: >
+statement: >-
   Provide a warning to {{ au_05_01_odp_01 }} within
   {{ au_05_01_odp_02 }} when allocated audit log storage volume
   reaches {{ au_05_01_odp_03 }} of repository maximum audit log

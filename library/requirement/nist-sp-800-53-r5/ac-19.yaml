@@ -19,7 +19,7 @@ objectives:
   - id: a-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; procedures addressing access
           control for mobile device usage (including restrictions);
           configuration management plan; system design
@@ -29,23 +29,23 @@ objectives:
           records; system security plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel using mobile devices to access
           organizational systems; system/network administrators;
           organizational personnel with information security
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           Access control capability for mobile device connections to
           organizational systems; configurations of mobile devices
-    statement: >
+    statement: >-
       configuration requirements are established for
       organization-controlled mobile devices, including when such
       devices are outside of the controlled area;
   - id: a-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; procedures addressing access
           control for mobile device usage (including restrictions);
           configuration management plan; system design
@@ -55,23 +55,23 @@ objectives:
           records; system security plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel using mobile devices to access
           organizational systems; system/network administrators;
           organizational personnel with information security
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           Access control capability for mobile device connections to
           organizational systems; configurations of mobile devices
-    statement: >
+    statement: >-
       connection requirements are established for
       organization-controlled mobile devices, including when such
       devices are outside of the controlled area;
   - id: a-3
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; procedures addressing access
           control for mobile device usage (including restrictions);
           configuration management plan; system design
@@ -81,23 +81,23 @@ objectives:
           records; system security plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel using mobile devices to access
           organizational systems; system/network administrators;
           organizational personnel with information security
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           Access control capability for mobile device connections to
           organizational systems; configurations of mobile devices
-    statement: >
+    statement: >-
       implementation guidance is established for
       organization-controlled mobile devices, including when such
       devices are outside of the controlled area;
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; procedures addressing access
           control for mobile device usage (including restrictions);
           configuration management plan; system design
@@ -107,13 +107,13 @@ objectives:
           records; system security plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel using mobile devices to access
           organizational systems; system/network administrators;
           organizational personnel with information security
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           Access control capability for mobile device connections to
           organizational systems; configurations of mobile devices
     statement: >-
@@ -121,7 +121,7 @@ objectives:
       authorized.
 parts:
   - id: a
-    statement: >
+    statement: >-
       Establish configuration requirements, connection requirements,
       and implementation guidance for organization-controlled mobile
       devices, to include when such devices are outside of

@@ -12,7 +12,7 @@ objectives:
   - id: "sr-04(01).sr-04(01)[01]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Supply chain risk management policy and procedures; supply
           chain risk management plan; system and services
           acquisition policy; procedures addressing supply chain
@@ -25,7 +25,7 @@ objectives:
           equipment, techniques, and/or configurations; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and services
           acquisition responsibilities; organizational personnel
           with information security responsibilities; organizational
@@ -34,7 +34,7 @@ objectives:
           establishing and retaining the unique identification of
           supply chain elements, processes, and actors
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for defining, establishing, and
           retaining unique identification for supply chain elements,
           processes, and actors; mechanisms supporting and/or
@@ -46,7 +46,7 @@ objectives:
   - id: "sr-04(01).sr-04(01)[02]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Supply chain risk management policy and procedures; supply
           chain risk management plan; system and services
           acquisition policy; procedures addressing supply chain
@@ -59,7 +59,7 @@ objectives:
           equipment, techniques, and/or configurations; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and services
           acquisition responsibilities; organizational personnel
           with information security responsibilities; organizational
@@ -68,7 +68,7 @@ objectives:
           establishing and retaining the unique identification of
           supply chain elements, processes, and actors
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for defining, establishing, and
           retaining unique identification for supply chain elements,
           processes, and actors; mechanisms supporting and/or
@@ -80,7 +80,7 @@ objectives:
 parameters:
   sr_04_01_odp:
     label: "supply chain elements, processes, and personnel"
-statement: >
+statement: >-
   Establish and maintain unique identification of the following
   supply chain elements, processes, and personnel associated with
   the identified system and critical system components:

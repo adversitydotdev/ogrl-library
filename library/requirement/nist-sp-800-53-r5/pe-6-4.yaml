@@ -12,7 +12,7 @@ objectives:
   - id: "pe-06(04)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Physical and environmental protection policy; procedures
           addressing physical access monitoring; physical access
           control logs or records; physical access control devices;
@@ -23,23 +23,23 @@ objectives:
           plan; privacy impact assessment; privacy risk assessment
           documentation; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with physical access monitoring
           responsibilities; organizational personnel with
           information security and privacy responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for monitoring physical access to
           the system; mechanisms supporting and/or implementing
           physical access monitoring for facility areas containing
           system components
-    statement: >
+    statement: >-
       physical access to the system is monitored in addition to the
       physical access monitoring of the facility at
       {{ pe_06_04_odp }}.
 parameters:
   pe_06_04_odp:
     label: physical spaces
-statement: >
+statement: >-
   Monitor physical access to the system in addition to the physical
   access monitoring of the facility at {{ pe_06_04_odp }}.

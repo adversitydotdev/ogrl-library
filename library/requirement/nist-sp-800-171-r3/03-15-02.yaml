@@ -16,7 +16,7 @@ objectives:
   - id: a.01
     methods:
       - method: examine
-        statement: >
+        statement: >-
           security planning policy and procedures; procedures for
           system security plan development and implementation;
           procedures for system security plan reviews and updates;
@@ -26,7 +26,7 @@ objectives:
           architecture and design documentation; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with system security planning and plan
           implementation responsibilities; system developers;
           personnel with information security responsibilities
@@ -34,13 +34,13 @@ objectives:
         statement: >-
           processes for system security plan development, review,
           update, and approval
-    statement: >
+    statement: >-
       a system security plan that defines the constituent system
       components is developed.
   - id: a.02
     methods:
       - method: examine
-        statement: >
+        statement: >-
           security planning policy and procedures; procedures for
           system security plan development and implementation;
           procedures for system security plan reviews and updates;
@@ -50,7 +50,7 @@ objectives:
           architecture and design documentation; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with system security planning and plan
           implementation responsibilities; system developers;
           personnel with information security responsibilities
@@ -58,13 +58,13 @@ objectives:
         statement: >-
           processes for system security plan development, review,
           update, and approval
-    statement: >
+    statement: >-
       a system security plan that identifies the information types
       processed, stored, and transmitted by the system is developed.
   - id: a.03
     methods:
       - method: examine
-        statement: >
+        statement: >-
           security planning policy and procedures; procedures for
           system security plan development and implementation;
           procedures for system security plan reviews and updates;
@@ -74,7 +74,7 @@ objectives:
           architecture and design documentation; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with system security planning and plan
           implementation responsibilities; system developers;
           personnel with information security responsibilities
@@ -82,13 +82,13 @@ objectives:
         statement: >-
           processes for system security plan development, review,
           update, and approval
-    statement: >
+    statement: >-
       a system security plan that describes specific threats to the
       system that are of concern to the organization is developed.
   - id: a.04
     methods:
       - method: examine
-        statement: >
+        statement: >-
           security planning policy and procedures; procedures for
           system security plan development and implementation;
           procedures for system security plan reviews and updates;
@@ -98,7 +98,7 @@ objectives:
           architecture and design documentation; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with system security planning and plan
           implementation responsibilities; system developers;
           personnel with information security responsibilities
@@ -106,7 +106,7 @@ objectives:
         statement: >-
           processes for system security plan development, review,
           update, and approval
-    statement: >
+    statement: >-
       a system security plan that describes the operational
       environment for the system and any dependencies on or
       connections to other systems or system components is
@@ -114,7 +114,7 @@ objectives:
   - id: a.05
     methods:
       - method: examine
-        statement: >
+        statement: >-
           security planning policy and procedures; procedures for
           system security plan development and implementation;
           procedures for system security plan reviews and updates;
@@ -124,7 +124,7 @@ objectives:
           architecture and design documentation; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with system security planning and plan
           implementation responsibilities; system developers;
           personnel with information security responsibilities
@@ -132,13 +132,13 @@ objectives:
         statement: >-
           processes for system security plan development, review,
           update, and approval
-    statement: >
+    statement: >-
       a system security plan that provides an overview of the
       security requirements for the system is developed.
   - id: a.06
     methods:
       - method: examine
-        statement: >
+        statement: >-
           security planning policy and procedures; procedures for
           system security plan development and implementation;
           procedures for system security plan reviews and updates;
@@ -148,7 +148,7 @@ objectives:
           architecture and design documentation; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with system security planning and plan
           implementation responsibilities; system developers;
           personnel with information security responsibilities
@@ -156,13 +156,13 @@ objectives:
         statement: >-
           processes for system security plan development, review,
           update, and approval
-    statement: >
+    statement: >-
       a system security plan that describes the safeguards in place
       or planned for meeting the security requirements is developed.
   - id: a.07
     methods:
       - method: examine
-        statement: >
+        statement: >-
           security planning policy and procedures; procedures for
           system security plan development and implementation;
           procedures for system security plan reviews and updates;
@@ -172,7 +172,7 @@ objectives:
           architecture and design documentation; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with system security planning and plan
           implementation responsibilities; system developers;
           personnel with information security responsibilities
@@ -180,13 +180,13 @@ objectives:
         statement: >-
           processes for system security plan development, review,
           update, and approval
-    statement: >
+    statement: >-
       a system security plan that identifies individuals that
       fulfill system roles and responsibilities is developed.
   - id: a.08
     methods:
       - method: examine
-        statement: >
+        statement: >-
           security planning policy and procedures; procedures for
           system security plan development and implementation;
           procedures for system security plan reviews and updates;
@@ -196,7 +196,7 @@ objectives:
           architecture and design documentation; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with system security planning and plan
           implementation responsibilities; system developers;
           personnel with information security responsibilities
@@ -204,13 +204,13 @@ objectives:
         statement: >-
           processes for system security plan development, review,
           update, and approval
-    statement: >
+    statement: >-
       a system security plan that includes other relevant
       information necessary for the protection of CUI is developed.
   - id: b.01
     methods:
       - method: examine
-        statement: >
+        statement: >-
           security planning policy and procedures; procedures for
           system security plan development and implementation;
           procedures for system security plan reviews and updates;
@@ -220,7 +220,7 @@ objectives:
           architecture and design documentation; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with system security planning and plan
           implementation responsibilities; system developers;
           personnel with information security responsibilities
@@ -233,7 +233,7 @@ objectives:
   - id: b.02
     methods:
       - method: examine
-        statement: >
+        statement: >-
           security planning policy and procedures; procedures for
           system security plan development and implementation;
           procedures for system security plan reviews and updates;
@@ -243,7 +243,7 @@ objectives:
           architecture and design documentation; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with system security planning and plan
           implementation responsibilities; system developers;
           personnel with information security responsibilities
@@ -256,7 +256,7 @@ objectives:
   - id: c
     methods:
       - method: examine
-        statement: >
+        statement: >-
           security planning policy and procedures; procedures for
           system security plan development and implementation;
           procedures for system security plan reviews and updates;
@@ -266,7 +266,7 @@ objectives:
           architecture and design documentation; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with system security planning and plan
           implementation responsibilities; system developers;
           personnel with information security responsibilities
@@ -286,15 +286,15 @@ parts:
   - id: a.01
     statement: Defines the constituent system components;
   - id: a.02
-    statement: >
+    statement: >-
       Identifies the information types processed, stored, and
       transmitted by the system;
   - id: a.03
-    statement: >
+    statement: >-
       Describes specific threats to the system that are of concern
       to the organization;
   - id: a.04
-    statement: >
+    statement: >-
       Describes the operational environment for the system and any
       dependencies on or connections to other systems or system
       components;
@@ -303,7 +303,7 @@ parts:
       Provides an overview of the security requirements for the
       system;
   - id: a.06
-    statement: >
+    statement: >-
       Describes the safeguards in place or planned for meeting the
       security requirements;
   - id: a.07

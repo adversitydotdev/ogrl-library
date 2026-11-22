@@ -12,64 +12,64 @@ objectives:
   - id: _obj-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing the use of decoys; system design documentation;
           system configuration settings and associated
           documentation; system audit records; system security plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; system
           developer
       - method: test
         statement: Mechanisms supporting and/or implementing decoys
-    statement: >
+    statement: >-
       components within organizational systems specifically designed
       to be the target of malicious attacks are included to detect
       such attacks;
   - id: _obj-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing the use of decoys; system design documentation;
           system configuration settings and associated
           documentation; system audit records; system security plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; system
           developer
       - method: test
         statement: Mechanisms supporting and/or implementing decoys
-    statement: >
+    statement: >-
       components within organizational systems specifically designed
       to be the target of malicious attacks are included to deflect
       such attacks;
   - id: _obj-3
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing the use of decoys; system design documentation;
           system configuration settings and associated
           documentation; system audit records; system security plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; system
           developer
       - method: test
         statement: Mechanisms supporting and/or implementing decoys
-    statement: >
+    statement: >-
       components within organizational systems specifically designed
       to be the target of malicious attacks are included to analyze
       such attacks.
-statement: >
+statement: >-
   Include components within organizational systems specifically
   designed to be the target of malicious attacks for detecting,
   deflecting, and analyzing such attacks.

@@ -12,7 +12,7 @@ objectives:
   - id: "ca-03(06)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; procedures addressing system
           connections; system and communications protection policy;
           system interconnection agreements; information exchange
@@ -24,7 +24,7 @@ objectives:
           security plan; privacy plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for
           managing connections to external systems; network
           administrators; organizational personnel with information
@@ -33,12 +33,12 @@ objectives:
         statement: >-
           Mechanisms implementing restrictions on external system
           connections
-    statement: >
+    statement: >-
       individuals or systems transferring data between
       interconnecting systems have the requisite authorizations
       (i.e., write permissions or privileges) prior to accepting
       such data.
-statement: >
+statement: >-
   Verify that individuals or systems transferring data between
   interconnecting systems have the requisite authorizations (i.e.,
   write permissions or privileges) prior to accepting such data.

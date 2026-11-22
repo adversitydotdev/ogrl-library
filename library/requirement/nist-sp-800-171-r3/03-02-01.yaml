@@ -19,7 +19,7 @@ objectives:
   - id: a.01.01
     methods:
       - method: examine
-        statement: >
+        statement: >-
           security literacy training and awareness policy and
           procedures; procedures for security literacy training and
           awareness implementation; codes of federal regulations;
@@ -28,7 +28,7 @@ objectives:
           training records; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with responsibilities for security literacy
           training and awareness; personnel comprising the general
           system user community; personnel with information security
@@ -37,13 +37,13 @@ objectives:
         statement: >-
           mechanisms for managing information security literacy
           training and awareness
-    statement: >
+    statement: >-
       security literacy training is provided to system users as part
       of initial training for new users.
   - id: a.01.02
     methods:
       - method: examine
-        statement: >
+        statement: >-
           security literacy training and awareness policy and
           procedures; procedures for security literacy training and
           awareness implementation; codes of federal regulations;
@@ -52,7 +52,7 @@ objectives:
           training records; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with responsibilities for security literacy
           training and awareness; personnel comprising the general
           system user community; personnel with information security
@@ -61,13 +61,13 @@ objectives:
         statement: >-
           mechanisms for managing information security literacy
           training and awareness
-    statement: >
+    statement: >-
       security literacy training is provided to system users
       {{ a_03_02_01_odp_01 }} after initial training.
   - id: a.02
     methods:
       - method: examine
-        statement: >
+        statement: >-
           security literacy training and awareness policy and
           procedures; procedures for security literacy training and
           awareness implementation; codes of federal regulations;
@@ -76,7 +76,7 @@ objectives:
           training records; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with responsibilities for security literacy
           training and awareness; personnel comprising the general
           system user community; personnel with information security
@@ -85,14 +85,14 @@ objectives:
         statement: >-
           mechanisms for managing information security literacy
           training and awareness
-    statement: >
+    statement: >-
       security literacy training is provided to system users when
       required by system changes or following
       {{ a_03_02_01_odp_02 }}.
   - id: a.03.01
     methods:
       - method: examine
-        statement: >
+        statement: >-
           security literacy training and awareness policy and
           procedures; procedures for security literacy training and
           awareness implementation; codes of federal regulations;
@@ -101,7 +101,7 @@ objectives:
           training records; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with responsibilities for security literacy
           training and awareness; personnel comprising the general
           system user community; personnel with information security
@@ -110,13 +110,13 @@ objectives:
         statement: >-
           mechanisms for managing information security literacy
           training and awareness
-    statement: >
+    statement: >-
       security literacy training is provided to system users on
       recognizing indicators of insider threat.
   - id: a.03.02
     methods:
       - method: examine
-        statement: >
+        statement: >-
           security literacy training and awareness policy and
           procedures; procedures for security literacy training and
           awareness implementation; codes of federal regulations;
@@ -125,7 +125,7 @@ objectives:
           training records; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with responsibilities for security literacy
           training and awareness; personnel comprising the general
           system user community; personnel with information security
@@ -134,13 +134,13 @@ objectives:
         statement: >-
           mechanisms for managing information security literacy
           training and awareness
-    statement: >
+    statement: >-
       security literacy training is provided to system users on
       reporting indicators of insider threat.
   - id: a.03.03
     methods:
       - method: examine
-        statement: >
+        statement: >-
           security literacy training and awareness policy and
           procedures; procedures for security literacy training and
           awareness implementation; codes of federal regulations;
@@ -149,7 +149,7 @@ objectives:
           training records; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with responsibilities for security literacy
           training and awareness; personnel comprising the general
           system user community; personnel with information security
@@ -158,13 +158,13 @@ objectives:
         statement: >-
           mechanisms for managing information security literacy
           training and awareness
-    statement: >
+    statement: >-
       security literacy training is provided to system users on
       recognizing indicators of social engineering.
   - id: a.03.04
     methods:
       - method: examine
-        statement: >
+        statement: >-
           security literacy training and awareness policy and
           procedures; procedures for security literacy training and
           awareness implementation; codes of federal regulations;
@@ -173,7 +173,7 @@ objectives:
           training records; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with responsibilities for security literacy
           training and awareness; personnel comprising the general
           system user community; personnel with information security
@@ -182,13 +182,13 @@ objectives:
         statement: >-
           mechanisms for managing information security literacy
           training and awareness
-    statement: >
+    statement: >-
       security literacy training is provided to system users on
       reporting indicators of social engineering.
   - id: a.03.05
     methods:
       - method: examine
-        statement: >
+        statement: >-
           security literacy training and awareness policy and
           procedures; procedures for security literacy training and
           awareness implementation; codes of federal regulations;
@@ -197,7 +197,7 @@ objectives:
           training records; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with responsibilities for security literacy
           training and awareness; personnel comprising the general
           system user community; personnel with information security
@@ -206,13 +206,13 @@ objectives:
         statement: >-
           mechanisms for managing information security literacy
           training and awareness
-    statement: >
+    statement: >-
       security literacy training is provided to system users on
       recognizing indicators of social mining.
   - id: a.03.06
     methods:
       - method: examine
-        statement: >
+        statement: >-
           security literacy training and awareness policy and
           procedures; procedures for security literacy training and
           awareness implementation; codes of federal regulations;
@@ -221,7 +221,7 @@ objectives:
           training records; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with responsibilities for security literacy
           training and awareness; personnel comprising the general
           system user community; personnel with information security
@@ -230,13 +230,13 @@ objectives:
         statement: >-
           mechanisms for managing information security literacy
           training and awareness
-    statement: >
+    statement: >-
       security literacy training is provided to system users on
       reporting indicators of social mining.
   - id: b.01
     methods:
       - method: examine
-        statement: >
+        statement: >-
           security literacy training and awareness policy and
           procedures; procedures for security literacy training and
           awareness implementation; codes of federal regulations;
@@ -245,7 +245,7 @@ objectives:
           training records; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with responsibilities for security literacy
           training and awareness; personnel comprising the general
           system user community; personnel with information security
@@ -260,7 +260,7 @@ objectives:
   - id: b.02
     methods:
       - method: examine
-        statement: >
+        statement: >-
           security literacy training and awareness policy and
           procedures; procedures for security literacy training and
           awareness implementation; codes of federal regulations;
@@ -269,7 +269,7 @@ objectives:
           training records; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with responsibilities for security literacy
           training and awareness; personnel comprising the general
           system user community; personnel with information security
@@ -294,7 +294,7 @@ parts:
   - id: a
     statement: "Provide security literacy training to system users:"
   - id: a.01
-    statement: >
+    statement: >-
       As part of initial training for new users and
       {{ a_03_02_01_odp_01 }} thereafter,
   - id: a.02
@@ -302,10 +302,10 @@ parts:
       When required by system changes or following
       {{ a_03_02_01_odp_02 }}, and
   - id: a.03
-    statement: >
+    statement: >-
       On recognizing and reporting indicators of insider threat,
       social engineering, and social mining.
   - id: b
-    statement: >
+    statement: >-
       Update security literacy training content
       {{ a_03_02_01_odp_03 }} and following {{ a_03_02_01_odp_04 }}.

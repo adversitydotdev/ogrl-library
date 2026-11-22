@@ -10,7 +10,7 @@ class: control
 framework_ref: framework--nist-sp-800-171-r3
 objectives:
   - id: a
-    statement: >
+    statement: >-
       authorized individuals are trained to ensure that publicly
       accessible information does not contain CUI.
   - id: b.01
@@ -23,10 +23,10 @@ objectives:
       discovered.
 parts:
   - id: a
-    statement: >
+    statement: >-
       Train authorized individuals to ensure that publicly
       accessible information does not contain CUI.
   - id: b
-    statement: >
+    statement: >-
       Review the content on publicly accessible systems for CUI and
       remove such information, if discovered.

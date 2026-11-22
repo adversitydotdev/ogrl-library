@@ -12,30 +12,30 @@ objectives:
   - id: "sc-03(05)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing security function isolation; system design
           documentation; system configuration settings and
           associated documentation; system audit records; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for implementing security
           functions as a layered structure that minimizes
           interactions between layers and avoids dependence by lower
           layers on functionality/correctness of higher layers;
           mechanisms supporting and/or implementing security
           functions as a layered structure
-    statement: >
+    statement: >-
       security functions are implemented as a layered structure,
       minimizing interactions between layers of the design and
       avoiding any dependence by lower layers on the functionality
       or correctness of higher layers.
-statement: >
+statement: >-
   Implement security functions as a layered structure minimizing
   interactions between layers of the design and avoiding any
   dependence by lower layers on the functionality or correctness of

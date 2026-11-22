@@ -16,49 +16,49 @@ objectives:
   - id: "01"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           identification and authentication policy and procedures;
           system design documentation; system audit records; system
           configuration settings; list of privileged system
           accounts; system security plan; other relevant documents
           or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with system operations responsibilities;
           personnel with account management responsibilities;
           personnel with information security responsibilities;
           system developers; system administrators
       - method: test
-        statement: >
+        statement: >-
           mechanisms for supporting or implementing identification
           and authentication capabilities; mechanisms for supporting
           or implementing replay-resistance
-    statement: >
+    statement: >-
       replay-resistant authentication mechanisms for access to
       privileged accounts are implemented.
   - id: "02"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           identification and authentication policy and procedures;
           system design documentation; system audit records; system
           configuration settings; list of privileged system
           accounts; system security plan; other relevant documents
           or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with system operations responsibilities;
           personnel with account management responsibilities;
           personnel with information security responsibilities;
           system developers; system administrators
       - method: test
-        statement: >
+        statement: >-
           mechanisms for supporting or implementing identification
           and authentication capabilities; mechanisms for supporting
           or implementing replay-resistance
-    statement: >
+    statement: >-
       replay-resistant authentication mechanisms for access to
       non-privileged accounts are implemented.
-statement: >
+statement: >-
   Implement replay-resistant authentication mechanisms for access to
   privileged and non-privileged accounts.

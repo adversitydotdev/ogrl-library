@@ -12,7 +12,7 @@ objectives:
   - id: "sa-10(05)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; procedures
           addressing system developer configuration management;
           solicitation documentation; acquisition documentation;
@@ -26,25 +26,25 @@ objectives:
           code); system security plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and service
           acquisition responsibilities; organizational personnel
           with information security responsibilities; organizational
           personnel with configuration management responsibilities;
           system developers
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for monitoring developer
           configuration management; mechanisms supporting and/or
           implementing the monitoring of developer configuration
           management
-    statement: >
+    statement: >-
       the developer of the system, system component, or system
       service is required to maintain the integrity of the mapping
       between the master build data describing the current version
       of security-relevant hardware, software, and firmware and the
       on-site master copy of the data for the current version.
-statement: >
+statement: >-
   Require the developer of the system, system component, or system
   service to maintain the integrity of the mapping between the
   master build data describing the current version of

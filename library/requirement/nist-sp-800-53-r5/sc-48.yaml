@@ -16,7 +16,7 @@ objectives:
   - id: _obj
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing sensor and monitoring capability relocation;
           list of sensors/monitoring capabilities to be relocated;
@@ -25,7 +25,7 @@ objectives:
           and associated documentation; system audit records; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; organizational
           personnel installing, configuring, and/or maintaining the
@@ -44,6 +44,6 @@ parameters:
     label: locations
   sc_48_odp_03:
     label: conditions or circumstances
-statement: >
+statement: >-
   Relocate {{ sc_48_odp_01 }} to {{ sc_48_odp_02 }} under the
   following conditions or circumstances: {{ sc_48_odp_03 }}.

@@ -12,7 +12,7 @@ objectives:
   - id: "si-06(03).si-06(03)[01]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; procedures addressing
           security and privacy function verification; system design
@@ -22,25 +22,25 @@ objectives:
           system security plan; privacy plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with security and privacy
           function verification responsibilities; organizational
           personnel who are recipients of security and privacy
           function verification reports; organizational personnel
           with information security and privacy responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for reporting security and
           privacy function verification results; mechanisms
           supporting and/or implementing the reporting of security
           and privacy function verification results
-    statement: >
+    statement: >-
       the results of security function verification are reported to
       {{ si_06_03_odp }};
   - id: "si-06(03).si-06(03)[02]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; procedures addressing
           security and privacy function verification; system design
@@ -50,14 +50,14 @@ objectives:
           system security plan; privacy plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with security and privacy
           function verification responsibilities; organizational
           personnel who are recipients of security and privacy
           function verification reports; organizational personnel
           with information security and privacy responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for reporting security and
           privacy function verification results; mechanisms
           supporting and/or implementing the reporting of security
@@ -68,6 +68,6 @@ objectives:
 parameters:
   si_06_03_odp:
     label: personnel or roles
-statement: >
+statement: >-
   Report the results of security and privacy function verification
   to {{ si_06_03_odp }}.

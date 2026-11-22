@@ -12,7 +12,7 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; procedures addressing
           predictable failure prevention; system design
@@ -22,27 +22,27 @@ objectives:
           records; system security plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel responsible for MTTF activities;
           organizational personnel with information security
           responsibilities; system/network administrators;
           organizational personnel with contingency planning
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for managing MTTF; automated
           mechanisms supporting and/or implementing the transparent
           installation of standby components; automated mechanisms
           supporting and/or implementing alarms or system shutdown
           if component failures are detected
-    statement: >
+    statement: >-
       the standby components are successfully and transparently
       installed within {{ si_13_04_odp_01 }} if system component
       failures are detected;
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; procedures addressing
           predictable failure prevention; system design
@@ -52,14 +52,14 @@ objectives:
           records; system security plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel responsible for MTTF activities;
           organizational personnel with information security
           responsibilities; system/network administrators;
           organizational personnel with contingency planning
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for managing MTTF; automated
           mechanisms supporting and/or implementing the transparent
           installation of standby components; automated mechanisms
@@ -79,7 +79,7 @@ parameters:
     label: action
 parts:
   - id: a
-    statement: >
+    statement: >-
       Ensure that the standby components are successfully and
       transparently installed within {{ si_13_04_odp_01 }} ; and
   - id: b

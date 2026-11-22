@@ -12,7 +12,7 @@ objectives:
   - id: "si-13(01)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; procedures addressing
           predictable failure prevention; system design
@@ -20,25 +20,25 @@ objectives:
           associated documentation; system audit records; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel responsible for MTTF activities;
           organizational personnel with information security
           responsibilities; system/network administrators;
           organizational personnel with contingency planning
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for managing MTTF; automated
           mechanisms supporting and/or implementing the transfer of
           component responsibilities to substitute components
-    statement: >
+    statement: >-
       system components are taken out of service by transferring
       component responsibilities to substitute components no later
       than {{ si_13_01_odp }} of mean time to failure.
 parameters:
   si_13_01_odp:
     label: fraction or percentage
-statement: >
+statement: >-
   Take system components out of service by transferring component
   responsibilities to substitute components no later than
   {{ si_13_01_odp }} of mean time to failure.

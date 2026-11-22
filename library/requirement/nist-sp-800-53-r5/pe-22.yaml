@@ -16,14 +16,14 @@ objectives:
   - id: _obj
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Physical and environmental protection policy; procedures
           addressing component marking; list of component marking
           security attributes; component inventory; information
           types and their impact/classification level; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with component marking
           responsibilities; organizational personnel with component
           inventory responsibilities; organizational personnel with
@@ -31,18 +31,18 @@ objectives:
           responsibilities; organizational personnel with
           information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for component marking; automated
           mechanisms supporting and/or implementing component
           marking
-    statement: >
+    statement: >-
       {{ pe_22_odp }} are marked indicating the impact level or
       classification level of the information permitted to be
       processed, stored, or transmitted by the hardware component.
 parameters:
   pe_22_odp:
     label: system hardware components
-statement: >
+statement: >-
   Mark {{ pe_22_odp }} indicating the impact level or classification
   level of the information permitted to be processed, stored, or
   transmitted by the hardware component.

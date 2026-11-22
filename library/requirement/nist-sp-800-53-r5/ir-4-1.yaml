@@ -12,7 +12,7 @@ objectives:
   - id: "ir-04(01)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Incident response policy; procedures addressing incident
           handling; automated mechanisms supporting incident
           handling; system design documentation; system
@@ -20,7 +20,7 @@ objectives:
           system audit records; incident response plan; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with incident handling
           responsibilities; organizational personnel with
           information security responsibilities

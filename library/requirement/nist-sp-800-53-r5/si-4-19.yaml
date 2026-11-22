@@ -12,7 +12,7 @@ objectives:
   - id: "si-04(19)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; procedures addressing
           system monitoring; system design documentation; system
@@ -21,7 +21,7 @@ objectives:
           system audit records; system security plan; privacy plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security and privacy responsibilities;
           organizational personnel installing, configuring, and/or
@@ -30,11 +30,11 @@ objectives:
           human resource officials; organizational personnel with
           personnel security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for system monitoring; mechanisms
           supporting and/or implementing a system monitoring
           capability
-    statement: >
+    statement: >-
       {{ si_04_19_odp_01 }} is implemented on individuals who have
       been identified by {{ si_04_19_odp_02 }} as posing an
       increased level of risk.
@@ -43,7 +43,7 @@ parameters:
     label: additional monitoring
   si_04_19_odp_02:
     label: sources
-statement: >
+statement: >-
   Implement {{ si_04_19_odp_01 }} of individuals who have been
   identified by {{ si_04_19_odp_02 }} as posing an increased level
   of risk.

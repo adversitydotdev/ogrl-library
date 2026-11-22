@@ -12,7 +12,7 @@ objectives:
   - id: "sc-16(02)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing the transmission of security and privacy
           attributes; access control policy and procedures; system
@@ -20,18 +20,18 @@ objectives:
           associated documentation; system audit records; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities
       - method: test
         statement: >-
           Mechanisms supporting and/or implementing anti-spoofing
           mechanisms
-    statement: >
+    statement: >-
       anti-spoofing mechanisms are implemented to prevent
       adversaries from falsifying the security attributes indicating
       the successful application of the security process.
-statement: >
+statement: >-
   Implement anti-spoofing mechanisms to prevent adversaries from
   falsifying the security attributes indicating the successful
   application of the security process.

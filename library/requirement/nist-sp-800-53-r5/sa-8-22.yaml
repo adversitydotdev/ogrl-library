@@ -12,7 +12,7 @@ objectives:
   - id: "sa-08(22).sa-08(22)[01]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; audit and
           accountability policy; access control policy; procedures
           addressing least privilege; procedures addressing
@@ -28,7 +28,7 @@ objectives:
           the system; system security and privacy architecture;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with the responsibility for
           determining system security and privacy requirements;
           organizational personnel with audit and accountability
@@ -38,7 +38,7 @@ objectives:
           organizational personnel with information security
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for applying the security design
           principle of accountability and traceability in system
           specification, design, development, implementation, and
@@ -54,7 +54,7 @@ objectives:
   - id: "sa-08(22).sa-08(22)[02]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; audit and
           accountability policy; access control policy; procedures
           addressing least privilege; procedures addressing
@@ -70,7 +70,7 @@ objectives:
           the system; system security and privacy architecture;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with the responsibility for
           determining system security and privacy requirements;
           organizational personnel with audit and accountability
@@ -80,7 +80,7 @@ objectives:
           organizational personnel with information security
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for applying the security design
           principle of accountability and traceability in system
           specification, design, development, implementation, and
@@ -100,6 +100,6 @@ parameters:
     label: systems or system components
   sa_8_22_prm_1:
     label: organization-defined systems or system components
-statement: >
+statement: >-
   Implement the security design principle of accountability and
   traceability in {{ sa_8_22_prm_1 }}.

@@ -19,20 +19,20 @@ objectives:
   - id: a.01
     methods:
       - method: examine
-        statement: >
+        statement: >-
           incident response policy and procedures; procedures for
           incident monitoring; procedures for incident response
           assistance; incident response records and documentation;
           incident response plan; system security plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with incident monitoring responsibilities;
           personnel with incident response assistance and support
           responsibilities; personnel with information security
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           processes for incident reporting; incident monitoring
           capability; mechanisms for supporting or implementing the
           tracking and documenting of system security incidents;
@@ -44,20 +44,20 @@ objectives:
   - id: a.02
     methods:
       - method: examine
-        statement: >
+        statement: >-
           incident response policy and procedures; procedures for
           incident monitoring; procedures for incident response
           assistance; incident response records and documentation;
           incident response plan; system security plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with incident monitoring responsibilities;
           personnel with incident response assistance and support
           responsibilities; personnel with information security
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           processes for incident reporting; incident monitoring
           capability; mechanisms for supporting or implementing the
           tracking and documenting of system security incidents;
@@ -69,20 +69,20 @@ objectives:
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           incident response policy and procedures; procedures for
           incident monitoring; procedures for incident response
           assistance; incident response records and documentation;
           incident response plan; system security plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with incident monitoring responsibilities;
           personnel with incident response assistance and support
           responsibilities; personnel with information security
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           processes for incident reporting; incident monitoring
           capability; mechanisms for supporting or implementing the
           tracking and documenting of system security incidents;
@@ -90,26 +90,26 @@ objectives:
           reporting; mechanisms for supporting or implementing
           incident response assistance; processes for incident
           response assistance
-    statement: >
+    statement: >-
       suspected incidents are reported to the organizational
       incident response capability within {{ a_03_06_02_odp_01 }}.
   - id: c
     methods:
       - method: examine
-        statement: >
+        statement: >-
           incident response policy and procedures; procedures for
           incident monitoring; procedures for incident response
           assistance; incident response records and documentation;
           incident response plan; system security plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with incident monitoring responsibilities;
           personnel with incident response assistance and support
           responsibilities; personnel with information security
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           processes for incident reporting; incident monitoring
           capability; mechanisms for supporting or implementing the
           tracking and documenting of system security incidents;
@@ -122,20 +122,20 @@ objectives:
   - id: d
     methods:
       - method: examine
-        statement: >
+        statement: >-
           incident response policy and procedures; procedures for
           incident monitoring; procedures for incident response
           assistance; incident response records and documentation;
           incident response plan; system security plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with incident monitoring responsibilities;
           personnel with incident response assistance and support
           responsibilities; personnel with information security
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           processes for incident reporting; incident monitoring
           capability; mechanisms for supporting or implementing the
           tracking and documenting of system security incidents;
@@ -143,7 +143,7 @@ objectives:
           reporting; mechanisms for supporting or implementing
           incident response assistance; processes for incident
           response assistance
-    statement: >
+    statement: >-
       an incident response support resource that offers advice and
       assistance to system users on handling and reporting incidents
       is provided.
@@ -156,14 +156,14 @@ parts:
   - id: a
     statement: Track and document system security incidents.
   - id: b
-    statement: >
+    statement: >-
       Report suspected incidents to the organizational incident
       response capability within {{ a_03_06_02_odp_01 }}.
   - id: c
     statement: >-
       Report incident information to {{ a_03_06_02_odp_02 }}.
   - id: d
-    statement: >
+    statement: >-
       Provide an incident response support resource that offers
       advice and assistance to system users on handling and
       reporting incidents.

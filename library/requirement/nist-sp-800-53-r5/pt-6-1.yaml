@@ -12,13 +12,13 @@ objectives:
   - id: "pt-06(01)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Personally identifiable information processing and
           transparency policy and procedures; privacy notice;
           Privacy Act system of records; privacy plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with personally identifiable
           information processing and transparency responsibilities;
           organizational personnel with information security and
@@ -27,7 +27,7 @@ objectives:
         statement: >-
           Organizational processes for reviewing system of records
           notices
-    statement: >
+    statement: >-
       all routine uses published in the system of records notice are
       reviewed {{ pt_06_01_odp }} to ensure continued accuracy, and
       to ensure that routine uses continue to be compatible with the
@@ -35,7 +35,7 @@ objectives:
 parameters:
   pt_06_01_odp:
     label: frequency
-statement: >
+statement: >-
   Review all routine uses published in the system of records notice
   at {{ pt_06_01_odp }} to ensure continued accuracy, and to ensure
   that routine uses continue to be compatible with the purpose for

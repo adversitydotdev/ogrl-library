@@ -12,7 +12,7 @@ objectives:
   - id: "sc-03(01)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing security function isolation; system design
           documentation; hardware separation mechanisms; system
@@ -20,7 +20,7 @@ objectives:
           system audit records; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; system
           developer
@@ -28,7 +28,7 @@ objectives:
         statement: >-
           Separation of security functions from non-security
           functions within the system
-    statement: >
+    statement: >-
       hardware separation mechanisms are employed to implement
       security function isolation.
 statement: >-

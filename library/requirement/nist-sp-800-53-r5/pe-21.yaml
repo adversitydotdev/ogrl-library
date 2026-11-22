@@ -12,7 +12,7 @@ objectives:
   - id: _obj
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Physical and environmental protection policy; procedures
           addressing protective measures to mitigate EMP risk to
           systems and components; documentation detailing protective
@@ -20,14 +20,14 @@ objectives:
           protective measures to mitigate EMP risk are implemented;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for
           physical and environmental protection; system
           developers/integrators; organizational personnel with
           information security responsibilities
       - method: test
         statement: Mechanisms for mitigating EMP risk
-    statement: >
+    statement: >-
       {{ pe_21_odp_01 }} are employed against electromagnetic pulse
       damage for {{ pe_21_odp_02 }}.
 parameters:
@@ -35,6 +35,6 @@ parameters:
     label: protective measures
   pe_21_odp_02:
     label: system and system components
-statement: >
+statement: >-
   Employ {{ pe_21_odp_01 }} against electromagnetic pulse damage for
   {{ pe_21_odp_02 }}.

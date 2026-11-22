@@ -12,7 +12,7 @@ objectives:
   - id: "sa-08(23)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; configuration
           management policy; procedures addressing the security
           design principle of secure defaults used in the
@@ -27,7 +27,7 @@ objectives:
           addressing system documentation; system documentation;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with the responsibility for
           determining system security and privacy requirements;
           organizational personnel with system specification,
@@ -35,7 +35,7 @@ objectives:
           responsibilities; system developers; organizational
           personnel with information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for applying the security design
           principle of secure defaults in system specification,
           design, development, implementation, and modification;
@@ -51,6 +51,6 @@ objectives:
 parameters:
   sa_08_23_odp:
     label: systems or system components
-statement: >
+statement: >-
   Implement the security design principle of secure defaults in
   {{ sa_08_23_odp }}.

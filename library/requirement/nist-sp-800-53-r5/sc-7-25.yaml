@@ -12,7 +12,7 @@ objectives:
   - id: "sc-07(25)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing boundary protection; system design
           documentation; system hardware and software; system
@@ -20,17 +20,17 @@ objectives:
           documentation; system audit records; system security plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; system
           developer; organizational personnel with boundary
           protection responsibilities
       - method: test
-        statement: >
+        statement: >-
           Mechanisms prohibiting the direct connection of
           unclassified national security systems to an external
           network
-    statement: >
+    statement: >-
       the direct connection of {{ sc_07_25_odp_01 }} to an external
       network without the use of {{ sc_07_25_odp_02 }} is
       prohibited.
@@ -39,6 +39,6 @@ parameters:
     label: unclassified national security system
   sc_07_25_odp_02:
     label: boundary protection device
-statement: >
+statement: >-
   Prohibit the direct connection of {{ sc_07_25_odp_01 }} to an
   external network without the use of {{ sc_07_25_odp_02 }}.

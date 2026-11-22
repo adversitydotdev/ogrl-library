@@ -12,7 +12,7 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Contingency planning policy; procedures addressing
           contingency plan testing; contingency plan; contingency
           plan test documentation; contingency plan test results;
@@ -20,23 +20,23 @@ objectives:
           agreements; system security plan; other relevant documents
           or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with contingency planning and
           plan implementation responsibilities; organizational
           personnel with information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for contingency plan testing;
           mechanisms supporting the contingency plan and/or
           contingency plan testing
-    statement: >
+    statement: >-
       the contingency plan is tested at the alternate processing
       site to familiarize contingency personnel with the facility
       and available resources;
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Contingency planning policy; procedures addressing
           contingency plan testing; contingency plan; contingency
           plan test documentation; contingency plan test results;
@@ -44,26 +44,26 @@ objectives:
           agreements; system security plan; other relevant documents
           or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with contingency planning and
           plan implementation responsibilities; organizational
           personnel with information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for contingency plan testing;
           mechanisms supporting the contingency plan and/or
           contingency plan testing
-    statement: >
+    statement: >-
       the contingency plan is tested at the alternate processing
       site to evaluate the capabilities of the alternate processing
       site to support contingency operations.
 parts:
   - id: a
-    statement: >
+    statement: >-
       To familiarize contingency personnel with the facility and
       available resources; and
   - id: b
-    statement: >
+    statement: >-
       To evaluate the capabilities of the alternate processing site
       to support contingency operations.
 statement: >-

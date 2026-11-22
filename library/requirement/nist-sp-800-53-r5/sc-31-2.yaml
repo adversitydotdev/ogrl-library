@@ -12,7 +12,7 @@ objectives:
   - id: "sc-31(02)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing covert channel analysis; acquisition contracts
           for systems or services; acquisition documentation; system
@@ -21,19 +21,19 @@ objectives:
           documentation; system audit records; system security plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; organizational
           personnel with covert channel analysis responsibilities;
           system developers/integrators
       - method: test
-        statement: >
+        statement: >-
           Organizational process for conducting covert channel
           analysis; mechanisms supporting and/or implementing covert
           channel analysis; mechanisms supporting and/or
           implementing the capability to reduce the bandwidth of
           covert channels
-    statement: >
+    statement: >-
       the maximum bandwidth for identified covert
       {{ sc_31_02_odp_01 }} channels is reduced to
       {{ sc_31_02_odp_02 }}.
@@ -42,6 +42,6 @@ parameters:
     label: sc-31.02_odp.01
   sc_31_02_odp_02:
     label: values
-statement: >
+statement: >-
   Reduce the maximum bandwidth for identified covert
   {{ sc_31_02_odp_01 }} channels to {{ sc_31_02_odp_02 }}.

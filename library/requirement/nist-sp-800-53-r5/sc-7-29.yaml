@@ -12,7 +12,7 @@ objectives:
   - id: "sc-07(29)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing boundary protection; system design
           documentation; system hardware and software; system
@@ -20,7 +20,7 @@ objectives:
           documentation; criticality analysis; system audit records;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; system
           developer; organizational personnel with boundary
@@ -29,7 +29,7 @@ objectives:
         statement: >-
           Mechanisms separating critical system components and
           functions
-    statement: >
+    statement: >-
       subnetworks are separated {{ sc_07_29_odp_01 }} to isolate
       {{ sc_07_29_odp_02 }}.
 parameters:
@@ -37,7 +37,7 @@ parameters:
     label: sc-07.29_odp.01
   sc_07_29_odp_02:
     label: critical system components and functions
-statement: >
+statement: >-
   Implement {{ sc_07_29_odp_01 }} separate subnetworks to isolate
   the following critical system components and functions:
   {{ sc_07_29_odp_02 }}.

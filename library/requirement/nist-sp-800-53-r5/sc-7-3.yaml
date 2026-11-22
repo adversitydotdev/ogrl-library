@@ -12,7 +12,7 @@ objectives:
   - id: "sc-07(03)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing boundary protection; system design
           documentation; boundary protection hardware and software;
@@ -22,12 +22,12 @@ objectives:
           monitoring logs; system audit records; system security
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; organizational
           personnel with boundary protection responsibilities
       - method: test
-        statement: >
+        statement: >-
           Mechanisms implementing boundary protection capabilities;
           mechanisms limiting the number of external network
           connections to the system

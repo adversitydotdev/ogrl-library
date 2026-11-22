@@ -16,14 +16,14 @@ objectives:
   - id: cp-08
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Contingency planning policy; procedures addressing
           alternate telecommunications services; contingency plan;
           primary and alternate telecommunications service
           agreements; system security plan; other relevant documents
           or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with contingency plan
           telecommunications responsibilities; organizational
           personnel with system recovery responsibilities;
@@ -34,7 +34,7 @@ objectives:
           acquisitions/contractual agreements
       - method: test
         statement: Mechanisms supporting telecommunications
-    statement: >
+    statement: >-
       alternate telecommunications services, including necessary
       agreements to permit the resumption of {{ cp_08_odp_01 }} ,
       are established for essential mission and business functions
@@ -46,7 +46,7 @@ parameters:
     label: system operations
   cp_08_odp_02:
     label: time period
-statement: >
+statement: >-
   Establish alternate telecommunications services, including
   necessary agreements to permit the resumption of
   {{ cp_08_odp_01 }} for essential mission and business functions

@@ -12,50 +12,50 @@ objectives:
   - id: "ac-18(05).ac-18(05)[01]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; procedures addressing wireless
           implementation and usage (including restrictions); system
           design documentation; system configuration settings and
           associated documentation; system audit records; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Calibration of transmission power levels for wireless
           access; radio antenna signals for wireless access;
           wireless access reception outside of
           organization-controlled boundaries
-    statement: >
+    statement: >-
       radio antennas are selected to reduce the probability that
       signals from wireless access points can be received outside of
       organization-controlled boundaries;
   - id: "ac-18(05).ac-18(05)[02]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; procedures addressing wireless
           implementation and usage (including restrictions); system
           design documentation; system configuration settings and
           associated documentation; system audit records; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Calibration of transmission power levels for wireless
           access; radio antenna signals for wireless access;
           wireless access reception outside of
           organization-controlled boundaries
-    statement: >
+    statement: >-
       transmission power levels are calibrated to reduce the
       probability that signals from wireless access points can be
       received outside of organization-controlled boundaries.
-statement: >
+statement: >-
   Select radio antennas and calibrate transmission power levels to
   reduce the probability that signals from wireless access points
   can be received outside of organization-controlled boundaries.

@@ -22,7 +22,7 @@ objectives:
   - id: "01"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           access control policy and procedures; information flow
           control policies; procedures for information flow
           enforcement; security architecture and design
@@ -31,7 +31,7 @@ objectives:
           information flow authorizations; system security plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           system administrators; personnel with security
           architecture responsibilities; personnel with information
           security responsibilities; system developers
@@ -39,13 +39,13 @@ objectives:
         statement: >-
           mechanisms for implementing the information flow
           enforcement policy
-    statement: >
+    statement: >-
       approved authorizations are enforced for controlling the flow
       of CUI within the system.
   - id: "02"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           access control policy and procedures; information flow
           control policies; procedures for information flow
           enforcement; security architecture and design
@@ -54,7 +54,7 @@ objectives:
           information flow authorizations; system security plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           system administrators; personnel with security
           architecture responsibilities; personnel with information
           security responsibilities; system developers
@@ -62,9 +62,9 @@ objectives:
         statement: >-
           mechanisms for implementing the information flow
           enforcement policy
-    statement: >
+    statement: >-
       approved authorizations are enforced for controlling the flow
       of CUI between connected systems.
-statement: >
+statement: >-
   Enforce approved authorizations for controlling the flow of CUI
   within the system and between connected systems.

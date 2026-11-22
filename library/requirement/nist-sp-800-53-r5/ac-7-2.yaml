@@ -12,7 +12,7 @@ objectives:
   - id: "ac-07(02)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; procedures addressing unsuccessful
           logon attempts on mobile devices; system design
           documentation; system configuration settings and
@@ -23,14 +23,14 @@ objectives:
           audit records; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Mechanisms implementing access control policy for
           unsuccessful device logon attempts
-    statement: >
+    statement: >-
       information is purged or wiped from {{ ac_07_02_odp_01 }}
       based on {{ ac_07_02_odp_02 }} after {{ ac_07_02_odp_03 }}
       consecutive, unsuccessful device logon attempts.
@@ -41,7 +41,7 @@ parameters:
     label: purging or wiping requirements and techniques
   ac_07_02_odp_03:
     label: number
-statement: >
+statement: >-
   Purge or wipe information from {{ ac_07_02_odp_01 }} based on
   {{ ac_07_02_odp_02 }} after {{ ac_07_02_odp_03 }} consecutive,
   unsuccessful device logon attempts.

@@ -12,7 +12,7 @@ objectives:
   - id: "cm-06(02)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System security plan; privacy plan; configuration
           management policy; procedures addressing configuration
           settings for the system; configuration management plan;
@@ -24,18 +24,18 @@ objectives:
           change control records; system audit records; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with security configuration
           management responsibilities; organizational personnel with
           security and privacy responsibilities; system/network
           administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational process for responding to unauthorized
           changes to system configuration settings; mechanisms
           supporting and/or implementing actions in response to
           unauthorized changes
-    statement: >
+    statement: >-
       {{ cm_06_02_odp_01 }} are taken in response to unauthorized
       changes to {{ cm_06_02_odp_02 }}.
 parameters:
@@ -43,6 +43,6 @@ parameters:
     label: actions
   cm_06_02_odp_02:
     label: configuration settings
-statement: >
+statement: >-
   Take the following actions in response to unauthorized changes to
   {{ cm_06_02_odp_02 }}: {{ cm_06_02_odp_01 }}.

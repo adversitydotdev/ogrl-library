@@ -12,7 +12,7 @@ objectives:
   - id: "ca-09(01).ca-09(01)[01]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Assessment, authorization, and monitoring policy; access
           control policy; procedures addressing system connections;
           system and communications protection policy; system design
@@ -22,21 +22,21 @@ objectives:
           assessment report; system audit records; system security
           plan; privacy plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for
           developing, implementing, or authorizing internal system
           connections; organizational personnel with information
           security and privacy responsibilities
       - method: test
         statement: Mechanisms supporting compliance checks
-    statement: >
+    statement: >-
       security compliance checks are performed on constituent system
       components prior to the establishment of the internal
       connection;
   - id: "ca-09(01).ca-09(01)[02]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Assessment, authorization, and monitoring policy; access
           control policy; procedures addressing system connections;
           system and communications protection policy; system design
@@ -46,18 +46,18 @@ objectives:
           assessment report; system audit records; system security
           plan; privacy plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for
           developing, implementing, or authorizing internal system
           connections; organizational personnel with information
           security and privacy responsibilities
       - method: test
         statement: Mechanisms supporting compliance checks
-    statement: >
+    statement: >-
       privacy compliance checks are performed on constituent system
       components prior to the establishment of the internal
       connection.
-statement: >
+statement: >-
   Perform security and privacy compliance checks on constituent
   system components prior to the establishment of the internal
   connection.

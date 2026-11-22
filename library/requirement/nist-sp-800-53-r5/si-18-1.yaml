@@ -12,7 +12,7 @@ objectives:
   - id: "si-18(01)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; personally identifiable
           information processing policy; documentation addressing
@@ -22,18 +22,18 @@ objectives:
           privacy impact assessment; privacy risk assessment
           documentation; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel responsible for performing
           personally identifiable information quality inspections;
           organizational personnel with information security and
           privacy responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for personally identifiable
           information quality inspection; automated mechanisms
           supporting and/or implementing personally identifiable
           information quality operations
-    statement: >
+    statement: >-
       {{ si_18_01_odp }} are used to correct or delete personally
       identifiable information that is inaccurate, outdated,
       incorrectly determined regarding impact, or incorrectly
@@ -41,7 +41,7 @@ objectives:
 parameters:
   si_18_01_odp:
     label: automated mechanisms
-statement: >
+statement: >-
   Correct or delete personally identifiable information that is
   inaccurate or outdated, incorrectly determined regarding impact,
   or incorrectly de-identified using {{ si_18_01_odp }}.

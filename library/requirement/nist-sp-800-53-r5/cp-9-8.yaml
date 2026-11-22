@@ -12,28 +12,28 @@ objectives:
   - id: "cp-09(08)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Contingency planning policy; procedures addressing system
           backup; contingency plan; system design documentation;
           system configuration settings and associated
           documentation; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system backup
           responsibilities; organizational personnel with
           information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Mechanisms supporting and/or implementing cryptographic
           protection of backup information
-    statement: >
+    statement: >-
       cryptographic mechanisms are implemented to prevent
       unauthorized disclosure and modification of
       {{ cp_09_08_odp }}.
 parameters:
   cp_09_08_odp:
     label: backup information
-statement: >
+statement: >-
   Implement cryptographic mechanisms to prevent unauthorized
   disclosure and modification of {{ cp_09_08_odp }}.

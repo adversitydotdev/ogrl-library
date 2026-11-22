@@ -12,28 +12,28 @@ objectives:
   - id: "pt-03(02)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Personally identifiable information processing and
           transparency policy and procedures; data extracts with
           corresponding data tags; privacy plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with personally identifiable
           information processing and transparency responsibilities;
           organizational personnel with information security and
           privacy responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for managing the enforcement of
           authorized processing of personally identifiable
           information; automated tracking mechanisms
-    statement: >
+    statement: >-
       the processing purposes of personally identifiable information
       are tracked using {{ pt_03_02_odp }}.
 parameters:
   pt_03_02_odp:
     label: automated mechanisms
-statement: >
+statement: >-
   Track processing purposes of personally identifiable information
   using {{ pt_03_02_odp }}.

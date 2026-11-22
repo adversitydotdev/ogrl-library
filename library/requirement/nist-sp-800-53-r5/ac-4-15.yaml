@@ -12,7 +12,7 @@ objectives:
   - id: "ac-04(15).ac-04(15)[01]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; information flow control policies;
           procedures addressing information flow enforcement; system
           design documentation; system configuration settings and
@@ -21,7 +21,7 @@ objectives:
           system security plan; privacy plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with information security
           responsibilities; organizational personnel with privacy
           responsibilities; system developers
@@ -29,14 +29,14 @@ objectives:
         statement: >-
           Mechanisms implementing information flow enforcement
           policy
-    statement: >
+    statement: >-
       when transferring information between different security
       domains, information is examined for the presence of
       {{ ac_04_15_odp_01 }};
   - id: "ac-04(15).ac-04(15)[02]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; information flow control policies;
           procedures addressing information flow enforcement; system
           design documentation; system configuration settings and
@@ -45,7 +45,7 @@ objectives:
           system security plan; privacy plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with information security
           responsibilities; organizational personnel with privacy
           responsibilities; system developers
@@ -53,14 +53,14 @@ objectives:
         statement: >-
           Mechanisms implementing information flow enforcement
           policy
-    statement: >
+    statement: >-
       when transferring information between different security
       domains, transfer of {{ ac_04_15_odp_01 }} is prohibited in
       accordance with the {{ ac_04_15_odp_02 }};
   - id: "ac-04(15).ac-04(15)[03]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; information flow control policies;
           procedures addressing information flow enforcement; system
           design documentation; system configuration settings and
@@ -69,7 +69,7 @@ objectives:
           system security plan; privacy plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with information security
           responsibilities; organizational personnel with privacy
           responsibilities; system developers
@@ -77,7 +77,7 @@ objectives:
         statement: >-
           Mechanisms implementing information flow enforcement
           policy
-    statement: >
+    statement: >-
       when transferring information between different security
       domains, transfer of {{ ac_04_15_odp_01 }} is prohibited in
       accordance with the {{ ac_04_15_odp_03 }}.
@@ -90,7 +90,7 @@ parameters:
     label: privacy policy
   ac_4_15_prm_2:
     label: organization-defined security or privacy policy
-statement: >
+statement: >-
   When transferring information between different security domains,
   examine the information for the presence of {{ ac_04_15_odp_01 }}
   and prohibit the transfer of such information in accordance with

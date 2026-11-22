@@ -16,58 +16,58 @@ objectives:
   - id: a.1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Risk assessment policy; assessment reports; audit
           records/event logs; threat hunting capability; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with threat hunting
           responsibilities; system/network administrators;
           organizational personnel with security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for assessments and audits;
           mechanisms/tools supporting and/or implementing threat
           hunting capabilities
-    statement: >
+    statement: >-
       a cyber threat capability is established and maintained to
       search for indicators of compromise in organizational systems;
   - id: a.2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Risk assessment policy; assessment reports; audit
           records/event logs; threat hunting capability; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with threat hunting
           responsibilities; system/network administrators;
           organizational personnel with security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for assessments and audits;
           mechanisms/tools supporting and/or implementing threat
           hunting capabilities
-    statement: >
+    statement: >-
       a cyber threat capability is established and maintained to
       detect, track, and disrupt threats that evade existing
       controls;
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Risk assessment policy; assessment reports; audit
           records/event logs; threat hunting capability; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with threat hunting
           responsibilities; system/network administrators;
           organizational personnel with security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for assessments and audits;
           mechanisms/tools supporting and/or implementing threat
           hunting capabilities

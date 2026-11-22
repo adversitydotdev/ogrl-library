@@ -12,7 +12,7 @@ objectives:
   - id: "ia-02(13)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Identification and authentication policy; system security
           plan; procedures addressing user identification and
           authentication; system design documentation; system
@@ -20,7 +20,7 @@ objectives:
           system audit records; system-generated list of out-of-band
           authentication paths; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system operations
           responsibilities; organizational personnel with account
           management responsibilities; organizational personnel with
@@ -38,6 +38,6 @@ parameters:
     label: out-of-band authentication
   ia_02_13_odp_02:
     label: conditions
-statement: >
+statement: >-
   Implement the following out-of-band authentication mechanisms
   under {{ ia_02_13_odp_02 }}: {{ ia_02_13_odp_01 }}.

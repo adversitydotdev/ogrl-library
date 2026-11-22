@@ -12,7 +12,7 @@ objectives:
   - id: "sa-04(11)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; system and
           services acquisition procedures; procedures addressing the
           integration of Privacy Act requirements into systems of
@@ -25,18 +25,18 @@ objectives:
           assessment; privacy risk assessment documentation; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with acquisition
           responsibilities; organizational personnel with
           information security and privacy responsibilities
       - method: test
-        statement: >
+        statement: >-
           Contract management processes to verify Privacy Act
           requirements are defined for the operation of a system of
           records; vendor processes for demonstrating incorporation
           of Privacy Act requirements in its operation of a system
           of records
-    statement: >
+    statement: >-
       {{ sa_04_11_odp }} are defined in the acquisition contract for
       the operation of a system of records on behalf of an
       organization to accomplish an organizational mission or
@@ -44,7 +44,7 @@ objectives:
 parameters:
   sa_04_11_odp:
     label: Privacy Act requirements
-statement: >
+statement: >-
   Include {{ sa_04_11_odp }} in the acquisition contract for the
   operation of a system of records on behalf of an organization to
   accomplish an organizational mission or function.

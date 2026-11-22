@@ -12,7 +12,7 @@ objectives:
   - id: "ac-04(14).ac-04(14)[01]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; information flow control policies;
           procedures addressing information flow enforcement; system
           design documentation; system configuration settings and
@@ -22,22 +22,22 @@ objectives:
           system security plan; privacy plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security and privacy responsibilities;
           system developers
       - method: test
-        statement: >
+        statement: >-
           Mechanisms implementing information flow enforcement
           policy; security and privacy policy filters
-    statement: >
+    statement: >-
       when transferring information between different security
       domains, implemented {{ ac_04_14_odp_01 }} require fully
       enumerated formats that restrict data structure and content;
   - id: "ac-04(14).ac-04(14)[02]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; information flow control policies;
           procedures addressing information flow enforcement; system
           design documentation; system configuration settings and
@@ -47,15 +47,15 @@ objectives:
           system security plan; privacy plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security and privacy responsibilities;
           system developers
       - method: test
-        statement: >
+        statement: >-
           Mechanisms implementing information flow enforcement
           policy; security and privacy policy filters
-    statement: >
+    statement: >-
       when transferring information between different security
       domains, implemented {{ ac_04_14_odp_02 }} require fully
       enumerated formats that restrict data structure and content.
@@ -66,7 +66,7 @@ parameters:
     label: privacy policy filters
   ac_4_14_prm_1:
     label: organization-defined security or privacy policy filters
-statement: >
+statement: >-
   When transferring information between different security domains,
   implement {{ ac_4_14_prm_1 }} requiring fully enumerated formats
   that restrict data structure and content.

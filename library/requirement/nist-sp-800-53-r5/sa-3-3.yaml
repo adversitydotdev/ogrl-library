@@ -12,7 +12,7 @@ objectives:
   - id: "sa-03(03).sa-03(03)[01]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; system and
           services acquisition procedures; procedures addressing
           technology refresh planning and implementation; system
@@ -22,12 +22,12 @@ objectives:
           system security plan; privacy plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with information security and
           privacy responsibilities; organizational personnel with
           system life cycle development responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for defining and documenting the
           system development life cycle; organizational processes
           for identifying system development life cycle roles and
@@ -35,13 +35,13 @@ objectives:
           security and privacy risk management into the system
           development life cycle; mechanisms supporting and/or
           implementing the system development life cycle
-    statement: >
+    statement: >-
       a technology refresh schedule is planned for the system
       throughout the system development life cycle;
   - id: "sa-03(03).sa-03(03)[02]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; system and
           services acquisition procedures; procedures addressing
           technology refresh planning and implementation; system
@@ -51,12 +51,12 @@ objectives:
           system security plan; privacy plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with information security and
           privacy responsibilities; organizational personnel with
           system life cycle development responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for defining and documenting the
           system development life cycle; organizational processes
           for identifying system development life cycle roles and
@@ -64,9 +64,9 @@ objectives:
           security and privacy risk management into the system
           development life cycle; mechanisms supporting and/or
           implementing the system development life cycle
-    statement: >
+    statement: >-
       a technology refresh schedule is implemented for the system
       throughout the system development life cycle.
-statement: >
+statement: >-
   Plan for and implement a technology refresh schedule for the
   system throughout the system development life cycle.

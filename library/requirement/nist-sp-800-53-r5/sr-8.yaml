@@ -34,7 +34,7 @@ objectives:
   - id: sr-08
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Supply chain risk management policy and procedures; supply
           chain risk management plan; system and services
           acquisition policy; procedures addressing supply chain
@@ -44,18 +44,18 @@ objectives:
           agreements and procedures; system security plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and service
           acquisition responsibilities; organizational personnel
           with information security responsibilities; organizational
           personnel with supply chain risk management
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for establishing
           inter-organizational agreements and procedures with supply
           chain entities
-    statement: >
+    statement: >-
       agreements and procedures are established with entities
       involved in the supply chain for the system, system
       components, or system service for {{ sr_08_odp_01 }}.
@@ -64,7 +64,7 @@ parameters:
     label: sr-08_odp.01
   sr_08_odp_02:
     label: results of assessments or audits
-statement: >
+statement: >-
   Establish agreements and procedures with entities involved in the
   supply chain for the system, system component, or system service
   for the {{ sr_08_odp_01 }}.

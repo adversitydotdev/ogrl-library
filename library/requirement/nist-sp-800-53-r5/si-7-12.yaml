@@ -16,7 +16,7 @@ objectives:
   - id: "si-07(12)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; procedures addressing
           software, firmware, and information integrity; system
@@ -25,12 +25,12 @@ objectives:
           system audit records; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel responsible for software,
           firmware, and/or information integrity; organizational
           personnel with information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Software, firmware, and information integrity verification
           tools; mechanisms supporting and/or implementing
           verification of the integrity of user-installed software
@@ -41,6 +41,6 @@ objectives:
 parameters:
   si_07_12_odp:
     label: user-installed software
-statement: >
+statement: >-
   Require that the integrity of the following user-installed
   software be verified prior to execution: {{ si_07_12_odp }}.

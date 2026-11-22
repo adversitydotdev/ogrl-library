@@ -12,7 +12,7 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; procedures
           addressing development process, standards, and tools;
           solicitation documentation; acquisition documentation;
@@ -24,27 +24,27 @@ objectives:
           documentation; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and service
           acquisition responsibilities; organizational personnel
           with information security responsibilities; system
           developer; organizational personnel performing automated
           vulnerability analysis on the system
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for vulnerability analysis of
           systems, system components, or system services under
           development; mechanisms supporting and/or implementing
           vulnerability analysis of systems, system components, or
           system services under development
-    statement: >
+    statement: >-
       the developer of the system, system component, or system
       service is required to perform automated vulnerability
       analysis {{ sa_15_07_odp_01 }} using {{ sa_15_07_odp_02 }};
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; procedures
           addressing development process, standards, and tools;
           solicitation documentation; acquisition documentation;
@@ -56,27 +56,27 @@ objectives:
           documentation; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and service
           acquisition responsibilities; organizational personnel
           with information security responsibilities; system
           developer; organizational personnel performing automated
           vulnerability analysis on the system
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for vulnerability analysis of
           systems, system components, or system services under
           development; mechanisms supporting and/or implementing
           vulnerability analysis of systems, system components, or
           system services under development
-    statement: >
+    statement: >-
       the developer of the system, system component, or system
       service is required to determine the exploitation potential
       for discovered vulnerabilities {{ sa_15_07_odp_01 }};
   - id: c
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; procedures
           addressing development process, standards, and tools;
           solicitation documentation; acquisition documentation;
@@ -88,27 +88,27 @@ objectives:
           documentation; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and service
           acquisition responsibilities; organizational personnel
           with information security responsibilities; system
           developer; organizational personnel performing automated
           vulnerability analysis on the system
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for vulnerability analysis of
           systems, system components, or system services under
           development; mechanisms supporting and/or implementing
           vulnerability analysis of systems, system components, or
           system services under development
-    statement: >
+    statement: >-
       the developer of the system, system component, or system
       service is required to determine potential risk mitigations
       {{ sa_15_07_odp_01 }} for delivered vulnerabilities;
   - id: d
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; procedures
           addressing development process, standards, and tools;
           solicitation documentation; acquisition documentation;
@@ -120,20 +120,20 @@ objectives:
           documentation; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and service
           acquisition responsibilities; organizational personnel
           with information security responsibilities; system
           developer; organizational personnel performing automated
           vulnerability analysis on the system
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for vulnerability analysis of
           systems, system components, or system services under
           development; mechanisms supporting and/or implementing
           vulnerability analysis of systems, system components, or
           system services under development
-    statement: >
+    statement: >-
       the developer of the system, system component, or system
       service is required to deliver the outputs of the tools and
       results of the analysis {{ sa_15_07_odp_01 }} to
@@ -159,9 +159,9 @@ parts:
       Determine potential risk mitigations for delivered
       vulnerabilities; and
   - id: d
-    statement: >
+    statement: >-
       Deliver the outputs of the tools and results of the analysis
       to {{ sa_15_07_odp_03 }}.
-statement: >
+statement: >-
   Require the developer of the system, system component, or system
   service {{ sa_15_07_odp_01 }} to:

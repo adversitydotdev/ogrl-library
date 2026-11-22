@@ -12,7 +12,7 @@ objectives:
   - id: _obj-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; procedures addressing
           non-persistence for system components; system design
@@ -20,22 +20,22 @@ objectives:
           associated documentation; system audit records; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel responsible for non-persistence;
           organizational personnel with information security
           responsibilities; system/network administrators; system
           developer
       - method: test
-        statement: >
+        statement: >-
           Automated mechanisms supporting and/or implementing the
           initiation and termination of non-persistent components
-    statement: >
+    statement: >-
       non-persistent {{ si_14_odp_01 }} that are initiated in a
       known state are implemented;
   - id: _obj-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; procedures addressing
           non-persistence for system components; system design
@@ -43,13 +43,13 @@ objectives:
           associated documentation; system audit records; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel responsible for non-persistence;
           organizational personnel with information security
           responsibilities; system/network administrators; system
           developer
       - method: test
-        statement: >
+        statement: >-
           Automated mechanisms supporting and/or implementing the
           initiation and termination of non-persistent components
     statement: >-
@@ -62,6 +62,6 @@ parameters:
     label: si-14_odp.02
   si_14_odp_03:
     label: frequency
-statement: >
+statement: >-
   Implement non-persistent {{ si_14_odp_01 }} that are initiated in
   a known state and terminated {{ si_14_odp_02 }}.

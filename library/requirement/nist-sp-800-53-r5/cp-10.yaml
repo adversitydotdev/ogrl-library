@@ -16,7 +16,7 @@ objectives:
   - id: _obj-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Contingency planning policy; procedures addressing system
           backup; contingency plan; system backup test results;
           contingency plan test results; contingency plan test
@@ -25,23 +25,23 @@ objectives:
           system(s); system security plan; other relevant documents
           or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with contingency planning,
           recovery, and/or reconstitution responsibilities;
           organizational personnel with information security
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes implementing system recovery and
           reconstitution operations; mechanisms supporting and/or
           implementing system recovery and reconstitution operations
-    statement: >
+    statement: >-
       the recovery of the system to a known state is provided within
       {{ cp_10_odp_01 }} after a disruption, compromise, or failure;
   - id: _obj-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Contingency planning policy; procedures addressing system
           backup; contingency plan; system backup test results;
           contingency plan test results; contingency plan test
@@ -50,17 +50,17 @@ objectives:
           system(s); system security plan; other relevant documents
           or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with contingency planning,
           recovery, and/or reconstitution responsibilities;
           organizational personnel with information security
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes implementing system recovery and
           reconstitution operations; mechanisms supporting and/or
           implementing system recovery and reconstitution operations
-    statement: >
+    statement: >-
       a reconstitution of the system to a known state is provided
       within {{ cp_10_odp_02 }} after a disruption, compromise, or
       failure.
@@ -70,10 +70,10 @@ parameters:
   cp_10_odp_02:
     label: time period
   cp_10_prm_1:
-    label: >
+    label: >-
       organization-defined time period consistent with recovery time
       and recovery point objectives
-statement: >
+statement: >-
   Provide for the recovery and reconstitution of the system to a
   known state within {{ cp_10_prm_1 }} after a disruption,
   compromise, or failure.

@@ -22,7 +22,7 @@ objectives:
   - id: a.1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; procedures addressing the use of
           external systems; external systems terms and conditions;
           list of types of applications accessible from external
@@ -32,7 +32,7 @@ objectives:
           documentation; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for
           defining terms and conditions for use of external systems
           to access organizational systems; system/network
@@ -42,7 +42,7 @@ objectives:
         statement: >-
           Mechanisms implementing terms and conditions on the use of
           external systems
-    statement: >
+    statement: >-
       {{ ac_20_odp_01 }} is/are consistent with the trust
       relationships established with other organizations owning,
       operating, and/or maintaining external systems, allowing
@@ -51,7 +51,7 @@ objectives:
   - id: a.2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; procedures addressing the use of
           external systems; external systems terms and conditions;
           list of types of applications accessible from external
@@ -61,7 +61,7 @@ objectives:
           documentation; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for
           defining terms and conditions for use of external systems
           to access organizational systems; system/network
@@ -71,7 +71,7 @@ objectives:
         statement: >-
           Mechanisms implementing terms and conditions on the use of
           external systems
-    statement: >
+    statement: >-
       {{ ac_20_odp_01 }} is/are consistent with the trust
       relationships established with other organizations owning,
       operating, and/or maintaining external systems, allowing
@@ -81,7 +81,7 @@ objectives:
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; procedures addressing the use of
           external systems; external systems terms and conditions;
           list of types of applications accessible from external
@@ -91,7 +91,7 @@ objectives:
           documentation; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for
           defining terms and conditions for use of external systems
           to access organizational systems; system/network
@@ -114,7 +114,7 @@ parameters:
     label: prohibited types of external systems
 parts:
   - id: a
-    statement: >
+    statement: >-
       {{ ac_20_odp_01 }} , consistent with the trust relationships
       established with other organizations owning, operating, and/or
       maintaining external systems, allowing authorized individuals
@@ -122,7 +122,7 @@ parts:
   - id: a.1
     statement: Access the system from external systems; and
   - id: a.2
-    statement: >
+    statement: >-
       Process, store, or transmit organization-controlled
       information using external systems; or
   - id: b

@@ -12,7 +12,7 @@ objectives:
   - id: "sc-28(02).sc-28(02)[01]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing the protection of information at rest; system
           design documentation; system configuration settings and
@@ -21,11 +21,11 @@ objectives:
           locations for information at rest; system audit records;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Mechanisms supporting and/or implementing the removal of
           information from online storage; mechanisms supporting
           and/or implementing storage of information offline
@@ -33,7 +33,7 @@ objectives:
   - id: "sc-28(02).sc-28(02)[02]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing the protection of information at rest; system
           design documentation; system configuration settings and
@@ -42,11 +42,11 @@ objectives:
           locations for information at rest; system audit records;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Mechanisms supporting and/or implementing the removal of
           information from online storage; mechanisms supporting
           and/or implementing storage of information offline
@@ -55,6 +55,6 @@ objectives:
 parameters:
   sc_28_02_odp:
     label: information
-statement: >
+statement: >-
   Remove the following information from online storage and store
   offline in a secure location: {{ sc_28_02_odp }}.

@@ -12,14 +12,14 @@ objectives:
   - id: "ir-04(08)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Incident response policy; procedures addressing incident
           handling; list of external organizations; records of
           incident handling coordination with external
           organizations; incident response plan; system security
           plan; privacy plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with incident handling
           responsibilities; organizational personnel with
           information security and privacy responsibilities;
@@ -27,10 +27,10 @@ objectives:
           response information is to be coordinated, shared, and
           correlated
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for coordinating incident
           handling information with external organizations
-    statement: >
+    statement: >-
       there is coordination with {{ ir_04_08_odp_01 }} to correlate
       and share {{ ir_04_08_odp_02 }} to achieve a
       cross-organization perspective on incident awareness and more
@@ -40,7 +40,7 @@ parameters:
     label: external organizations
   ir_04_08_odp_02:
     label: incident information
-statement: >
+statement: >-
   Coordinate with {{ ir_04_08_odp_01 }} to correlate and share
   {{ ir_04_08_odp_02 }} to achieve a cross-organization perspective
   on incident awareness and more effective incident responses.

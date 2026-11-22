@@ -16,41 +16,41 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           system media protection policy and procedures; system use
           policy; procedures for media usage restrictions; rules of
           behavior; system audit records; system design
           documentation; system configuration settings; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with system media use responsibilities;
           personnel with information security responsibilities;
           system administrators
       - method: test
-        statement: >
+        statement: >-
           processes for media use; mechanisms for restricting or
           prohibiting the use of system media on systems or system
           components
-    statement: >
+    statement: >-
       the use of the following types of system media is restricted
       or prohibited: {{ a_03_08_07_odp_01 }}.
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           system media protection policy and procedures; system use
           policy; procedures for media usage restrictions; rules of
           behavior; system audit records; system design
           documentation; system configuration settings; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with system media use responsibilities;
           personnel with information security responsibilities;
           system administrators
       - method: test
-        statement: >
+        statement: >-
           processes for media use; mechanisms for restricting or
           prohibiting the use of system media on systems or system
           components

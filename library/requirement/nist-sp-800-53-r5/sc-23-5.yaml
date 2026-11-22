@@ -12,7 +12,7 @@ objectives:
   - id: "sc-23(05)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing session authenticity; system design
           documentation; system configuration settings and
@@ -21,19 +21,19 @@ objectives:
           sessions; system audit records; system security plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Mechanisms supporting and/or implementing the management
           of certificate authorities
-    statement: >
+    statement: >-
       only the use of {{ sc_23_05_odp }} for verification of the
       establishment of protected sessions is allowed.
 parameters:
   sc_23_05_odp:
     label: certificated authorities
-statement: >
+statement: >-
   Only allow the use of {{ sc_23_05_odp }} for verification of the
   establishment of protected sessions.

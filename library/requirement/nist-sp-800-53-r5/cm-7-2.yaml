@@ -12,7 +12,7 @@ objectives:
   - id: "cm-07(02)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           least functionality in the system; configuration
           management plan; system design documentation; system
@@ -22,12 +22,12 @@ objectives:
           execution; change control records; system audit records;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with information security
           responsibilities; system/network administrators; system
           developers
       - method: test
-        statement: >
+        statement: >-
           Organizational processes preventing program execution on
           the system; organizational processes for software program
           usage and restrictions; mechanisms preventing program
@@ -40,7 +40,7 @@ parameters:
   cm_07_02_odp_01:
     label: cm-07.02_odp.01
   cm_07_02_odp_02:
-    label: >
+    label: >-
       policies, rules of behavior, and/or access agreements
       regarding software program usage and restrictions
 statement: >-

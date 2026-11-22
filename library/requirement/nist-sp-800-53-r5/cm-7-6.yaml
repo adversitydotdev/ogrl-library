@@ -12,7 +12,7 @@ objectives:
   - id: "cm-07(06)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           least functionality in the system; configuration
           management plan; system design documentation; system
@@ -22,28 +22,28 @@ objectives:
           configuration checklists; system audit records; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for
           identifying and/or managing user-installed software and
           associated privileges; organizational personnel with
           information security responsibilities; system/network
           administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational process for identifying user-installed
           software required to execute in a confined environment;
           mechanisms supporting and/or implementing the confinement
           of user-installed software to physical or virtual machine
           environments; mechanisms supporting and/or implementing
           privilege limitations on user-installed software
-    statement: >
+    statement: >-
       {{ cm_07_06_odp }} is required to be executed in a confined
       physical or virtual machine environment with limited
       privileges.
 parameters:
   cm_07_06_odp:
     label: user-installed software
-statement: >
+statement: >-
   Require that the following user-installed software execute in a
   confined physical or virtual machine environment with limited
   privileges: {{ cm_07_06_odp }}.

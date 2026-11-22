@@ -12,7 +12,7 @@ objectives:
   - id: a.01
     methods:
       - method: examine
-        statement: >
+        statement: >-
           physical protection policy and procedures; procedures for
           physical access control; physical access control logs or
           records; inventory records of physical access control
@@ -23,15 +23,15 @@ objectives:
           designated publicly accessible areas within facility;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with physical access control responsibilities;
           personnel with information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           processes for physical access control; mechanisms for
           supporting or implementing physical access control;
           physical access control devices
-    statement: >
+    statement: >-
       physical access authorizations are enforced at entry and exit
       points to the facility where the system resides by verifying
       individual physical access authorizations before granting
@@ -39,7 +39,7 @@ objectives:
   - id: a.02
     methods:
       - method: examine
-        statement: >
+        statement: >-
           physical protection policy and procedures; procedures for
           physical access control; physical access control logs or
           records; inventory records of physical access control
@@ -50,15 +50,15 @@ objectives:
           designated publicly accessible areas within facility;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with physical access control responsibilities;
           personnel with information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           processes for physical access control; mechanisms for
           supporting or implementing physical access control;
           physical access control devices
-    statement: >
+    statement: >-
       physical access authorizations are enforced at entry and exit
       points to the facility where the system resides by controlling
       ingress and egress with physical access control systems,
@@ -66,7 +66,7 @@ objectives:
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           physical protection policy and procedures; procedures for
           physical access control; physical access control logs or
           records; inventory records of physical access control
@@ -77,11 +77,11 @@ objectives:
           designated publicly accessible areas within facility;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with physical access control responsibilities;
           personnel with information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           processes for physical access control; mechanisms for
           supporting or implementing physical access control;
           physical access control devices
@@ -91,7 +91,7 @@ objectives:
   - id: c.01
     methods:
       - method: examine
-        statement: >
+        statement: >-
           physical protection policy and procedures; procedures for
           physical access control; physical access control logs or
           records; inventory records of physical access control
@@ -102,11 +102,11 @@ objectives:
           designated publicly accessible areas within facility;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with physical access control responsibilities;
           personnel with information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           processes for physical access control; mechanisms for
           supporting or implementing physical access control;
           physical access control devices
@@ -114,7 +114,7 @@ objectives:
   - id: c.02
     methods:
       - method: examine
-        statement: >
+        statement: >-
           physical protection policy and procedures; procedures for
           physical access control; physical access control logs or
           records; inventory records of physical access control
@@ -125,11 +125,11 @@ objectives:
           designated publicly accessible areas within facility;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with physical access control responsibilities;
           personnel with information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           processes for physical access control; mechanisms for
           supporting or implementing physical access control;
           physical access control devices
@@ -137,7 +137,7 @@ objectives:
   - id: e
     methods:
       - method: examine
-        statement: >
+        statement: >-
           physical protection policy and procedures; procedures for
           physical access control; physical access control logs or
           records; inventory records of physical access control
@@ -148,21 +148,21 @@ objectives:
           designated publicly accessible areas within facility;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with physical access control responsibilities;
           personnel with information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           processes for physical access control; mechanisms for
           supporting or implementing physical access control;
           physical access control devices
-    statement: >
+    statement: >-
       physical access to output devices is controlled to prevent
       unauthorized individuals from obtaining access to CUI.
   - id: d
     methods:
       - method: examine
-        statement: >
+        statement: >-
           physical protection policy and procedures; procedures for
           physical access control; physical access control logs or
           records; inventory records of physical access control
@@ -173,11 +173,11 @@ objectives:
           designated publicly accessible areas within facility;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with physical access control responsibilities;
           personnel with information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           processes for physical access control; mechanisms for
           supporting or implementing physical access control;
           physical access control devices
@@ -186,15 +186,15 @@ objectives:
       secured.
 parts:
   - id: a
-    statement: >
+    statement: >-
       Enforce physical access authorizations at entry and exit
       points to the facility where the system resides by:
   - id: a.01
-    statement: >
+    statement: >-
       Verifying individual physical access authorizations before
       granting access to the facility and
   - id: a.02
-    statement: >
+    statement: >-
       Controlling ingress and egress with physical access control
       systems, devices, or guards.
   - id: b
@@ -206,6 +206,6 @@ parts:
     statement: >-
       Secure keys, combinations, and other physical access devices.
   - id: e
-    statement: >
+    statement: >-
       Control physical access to output devices to prevent
       unauthorized individuals from obtaining access to CUI.

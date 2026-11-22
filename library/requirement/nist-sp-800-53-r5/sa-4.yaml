@@ -79,7 +79,7 @@ objectives:
   - id: a-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; system and
           services acquisition procedures; procedures addressing the
           integration of information security and privacy and supply
@@ -90,21 +90,21 @@ objectives:
           risk management plan; privacy plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with acquisition/contracting
           responsibilities; organizational personnel with
           information security and privacy responsibilities;
           system/network administrators; organizational personnel
           with supply chain risk management responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for determining system security
           and privacy functional, strength, and assurance
           requirements; organizational processes for developing
           acquisition contracts; mechanisms supporting and/or
           implementing acquisitions and the inclusion of security
           and privacy requirements in contracts
-    statement: >
+    statement: >-
       security functional requirements, descriptions, and criteria
       are included explicitly or by reference using
       {{ sa_04_odp_01 }} in the acquisition contract for the system,
@@ -112,7 +112,7 @@ objectives:
   - id: a-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; system and
           services acquisition procedures; procedures addressing the
           integration of information security and privacy and supply
@@ -123,21 +123,21 @@ objectives:
           risk management plan; privacy plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with acquisition/contracting
           responsibilities; organizational personnel with
           information security and privacy responsibilities;
           system/network administrators; organizational personnel
           with supply chain risk management responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for determining system security
           and privacy functional, strength, and assurance
           requirements; organizational processes for developing
           acquisition contracts; mechanisms supporting and/or
           implementing acquisitions and the inclusion of security
           and privacy requirements in contracts
-    statement: >
+    statement: >-
       privacy functional requirements, descriptions, and criteria
       are included explicitly or by reference using
       {{ sa_04_odp_01 }} in the acquisition contract for the system,
@@ -145,7 +145,7 @@ objectives:
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; system and
           services acquisition procedures; procedures addressing the
           integration of information security and privacy and supply
@@ -156,21 +156,21 @@ objectives:
           risk management plan; privacy plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with acquisition/contracting
           responsibilities; organizational personnel with
           information security and privacy responsibilities;
           system/network administrators; organizational personnel
           with supply chain risk management responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for determining system security
           and privacy functional, strength, and assurance
           requirements; organizational processes for developing
           acquisition contracts; mechanisms supporting and/or
           implementing acquisitions and the inclusion of security
           and privacy requirements in contracts
-    statement: >
+    statement: >-
       strength of mechanism requirements, descriptions, and criteria
       are included explicitly or by reference using
       {{ sa_04_odp_01 }} in the acquisition contract for the system,
@@ -178,7 +178,7 @@ objectives:
   - id: c-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; system and
           services acquisition procedures; procedures addressing the
           integration of information security and privacy and supply
@@ -189,21 +189,21 @@ objectives:
           risk management plan; privacy plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with acquisition/contracting
           responsibilities; organizational personnel with
           information security and privacy responsibilities;
           system/network administrators; organizational personnel
           with supply chain risk management responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for determining system security
           and privacy functional, strength, and assurance
           requirements; organizational processes for developing
           acquisition contracts; mechanisms supporting and/or
           implementing acquisitions and the inclusion of security
           and privacy requirements in contracts
-    statement: >
+    statement: >-
       security assurance requirements, descriptions, and criteria
       are included explicitly or by reference using
       {{ sa_04_odp_01 }} in the acquisition contract for the system,
@@ -211,7 +211,7 @@ objectives:
   - id: c-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; system and
           services acquisition procedures; procedures addressing the
           integration of information security and privacy and supply
@@ -222,21 +222,21 @@ objectives:
           risk management plan; privacy plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with acquisition/contracting
           responsibilities; organizational personnel with
           information security and privacy responsibilities;
           system/network administrators; organizational personnel
           with supply chain risk management responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for determining system security
           and privacy functional, strength, and assurance
           requirements; organizational processes for developing
           acquisition contracts; mechanisms supporting and/or
           implementing acquisitions and the inclusion of security
           and privacy requirements in contracts
-    statement: >
+    statement: >-
       privacy assurance requirements, descriptions, and criteria are
       included explicitly or by reference using {{ sa_04_odp_01 }}
       in the acquisition contract for the system, system component,
@@ -244,7 +244,7 @@ objectives:
   - id: d-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; system and
           services acquisition procedures; procedures addressing the
           integration of information security and privacy and supply
@@ -255,21 +255,21 @@ objectives:
           risk management plan; privacy plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with acquisition/contracting
           responsibilities; organizational personnel with
           information security and privacy responsibilities;
           system/network administrators; organizational personnel
           with supply chain risk management responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for determining system security
           and privacy functional, strength, and assurance
           requirements; organizational processes for developing
           acquisition contracts; mechanisms supporting and/or
           implementing acquisitions and the inclusion of security
           and privacy requirements in contracts
-    statement: >
+    statement: >-
       controls needed to satisfy the security requirements,
       descriptions, and criteria are included explicitly or by
       reference using {{ sa_04_odp_01 }} in the acquisition contract
@@ -277,7 +277,7 @@ objectives:
   - id: d-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; system and
           services acquisition procedures; procedures addressing the
           integration of information security and privacy and supply
@@ -288,21 +288,21 @@ objectives:
           risk management plan; privacy plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with acquisition/contracting
           responsibilities; organizational personnel with
           information security and privacy responsibilities;
           system/network administrators; organizational personnel
           with supply chain risk management responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for determining system security
           and privacy functional, strength, and assurance
           requirements; organizational processes for developing
           acquisition contracts; mechanisms supporting and/or
           implementing acquisitions and the inclusion of security
           and privacy requirements in contracts
-    statement: >
+    statement: >-
       controls needed to satisfy the privacy requirements,
       descriptions, and criteria are included explicitly or by
       reference using {{ sa_04_odp_01 }} in the acquisition contract
@@ -310,7 +310,7 @@ objectives:
   - id: e-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; system and
           services acquisition procedures; procedures addressing the
           integration of information security and privacy and supply
@@ -321,21 +321,21 @@ objectives:
           risk management plan; privacy plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with acquisition/contracting
           responsibilities; organizational personnel with
           information security and privacy responsibilities;
           system/network administrators; organizational personnel
           with supply chain risk management responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for determining system security
           and privacy functional, strength, and assurance
           requirements; organizational processes for developing
           acquisition contracts; mechanisms supporting and/or
           implementing acquisitions and the inclusion of security
           and privacy requirements in contracts
-    statement: >
+    statement: >-
       security documentation requirements, descriptions, and
       criteria are included explicitly or by reference using
       {{ sa_04_odp_01 }} in the acquisition contract for the system,
@@ -343,7 +343,7 @@ objectives:
   - id: e-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; system and
           services acquisition procedures; procedures addressing the
           integration of information security and privacy and supply
@@ -354,21 +354,21 @@ objectives:
           risk management plan; privacy plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with acquisition/contracting
           responsibilities; organizational personnel with
           information security and privacy responsibilities;
           system/network administrators; organizational personnel
           with supply chain risk management responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for determining system security
           and privacy functional, strength, and assurance
           requirements; organizational processes for developing
           acquisition contracts; mechanisms supporting and/or
           implementing acquisitions and the inclusion of security
           and privacy requirements in contracts
-    statement: >
+    statement: >-
       privacy documentation requirements, descriptions, and criteria
       are included explicitly or by reference using
       {{ sa_04_odp_01 }} in the acquisition contract for the system,
@@ -376,7 +376,7 @@ objectives:
   - id: f-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; system and
           services acquisition procedures; procedures addressing the
           integration of information security and privacy and supply
@@ -387,21 +387,21 @@ objectives:
           risk management plan; privacy plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with acquisition/contracting
           responsibilities; organizational personnel with
           information security and privacy responsibilities;
           system/network administrators; organizational personnel
           with supply chain risk management responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for determining system security
           and privacy functional, strength, and assurance
           requirements; organizational processes for developing
           acquisition contracts; mechanisms supporting and/or
           implementing acquisitions and the inclusion of security
           and privacy requirements in contracts
-    statement: >
+    statement: >-
       requirements for protecting security documentation,
       descriptions, and criteria are included explicitly or by
       reference using {{ sa_04_odp_01 }} in the acquisition contract
@@ -409,7 +409,7 @@ objectives:
   - id: f-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; system and
           services acquisition procedures; procedures addressing the
           integration of information security and privacy and supply
@@ -420,21 +420,21 @@ objectives:
           risk management plan; privacy plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with acquisition/contracting
           responsibilities; organizational personnel with
           information security and privacy responsibilities;
           system/network administrators; organizational personnel
           with supply chain risk management responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for determining system security
           and privacy functional, strength, and assurance
           requirements; organizational processes for developing
           acquisition contracts; mechanisms supporting and/or
           implementing acquisitions and the inclusion of security
           and privacy requirements in contracts
-    statement: >
+    statement: >-
       requirements for protecting privacy documentation,
       descriptions, and criteria are included explicitly or by
       reference using {{ sa_04_odp_01 }} in the acquisition contract
@@ -442,7 +442,7 @@ objectives:
   - id: g
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; system and
           services acquisition procedures; procedures addressing the
           integration of information security and privacy and supply
@@ -453,21 +453,21 @@ objectives:
           risk management plan; privacy plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with acquisition/contracting
           responsibilities; organizational personnel with
           information security and privacy responsibilities;
           system/network administrators; organizational personnel
           with supply chain risk management responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for determining system security
           and privacy functional, strength, and assurance
           requirements; organizational processes for developing
           acquisition contracts; mechanisms supporting and/or
           implementing acquisitions and the inclusion of security
           and privacy requirements in contracts
-    statement: >
+    statement: >-
       the description of the system development environment and
       environment in which the system is intended to operate,
       requirements, and criteria are included explicitly or by
@@ -476,7 +476,7 @@ objectives:
   - id: h-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; system and
           services acquisition procedures; procedures addressing the
           integration of information security and privacy and supply
@@ -487,21 +487,21 @@ objectives:
           risk management plan; privacy plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with acquisition/contracting
           responsibilities; organizational personnel with
           information security and privacy responsibilities;
           system/network administrators; organizational personnel
           with supply chain risk management responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for determining system security
           and privacy functional, strength, and assurance
           requirements; organizational processes for developing
           acquisition contracts; mechanisms supporting and/or
           implementing acquisitions and the inclusion of security
           and privacy requirements in contracts
-    statement: >
+    statement: >-
       the allocation of responsibility or identification of parties
       responsible for information security requirements,
       descriptions, and criteria are included explicitly or by
@@ -510,7 +510,7 @@ objectives:
   - id: h-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; system and
           services acquisition procedures; procedures addressing the
           integration of information security and privacy and supply
@@ -521,21 +521,21 @@ objectives:
           risk management plan; privacy plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with acquisition/contracting
           responsibilities; organizational personnel with
           information security and privacy responsibilities;
           system/network administrators; organizational personnel
           with supply chain risk management responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for determining system security
           and privacy functional, strength, and assurance
           requirements; organizational processes for developing
           acquisition contracts; mechanisms supporting and/or
           implementing acquisitions and the inclusion of security
           and privacy requirements in contracts
-    statement: >
+    statement: >-
       the allocation of responsibility or identification of parties
       responsible for privacy requirements, descriptions, and
       criteria are included explicitly or by reference using
@@ -543,7 +543,7 @@ objectives:
   - id: h-3
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; system and
           services acquisition procedures; procedures addressing the
           integration of information security and privacy and supply
@@ -554,21 +554,21 @@ objectives:
           risk management plan; privacy plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with acquisition/contracting
           responsibilities; organizational personnel with
           information security and privacy responsibilities;
           system/network administrators; organizational personnel
           with supply chain risk management responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for determining system security
           and privacy functional, strength, and assurance
           requirements; organizational processes for developing
           acquisition contracts; mechanisms supporting and/or
           implementing acquisitions and the inclusion of security
           and privacy requirements in contracts
-    statement: >
+    statement: >-
       the allocation of responsibility or identification of parties
       responsible for supply chain risk management requirements,
       descriptions, and criteria are included explicitly or by
@@ -576,7 +576,7 @@ objectives:
   - id: i
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; system and
           services acquisition procedures; procedures addressing the
           integration of information security and privacy and supply
@@ -587,21 +587,21 @@ objectives:
           risk management plan; privacy plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with acquisition/contracting
           responsibilities; organizational personnel with
           information security and privacy responsibilities;
           system/network administrators; organizational personnel
           with supply chain risk management responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for determining system security
           and privacy functional, strength, and assurance
           requirements; organizational processes for developing
           acquisition contracts; mechanisms supporting and/or
           implementing acquisitions and the inclusion of security
           and privacy requirements in contracts
-    statement: >
+    statement: >-
       acceptance criteria requirements and descriptions are included
       explicitly or by reference using {{ sa_04_odp_01 }} in the
       acquisition contract for the system, system component, or
@@ -629,17 +629,17 @@ parts:
       Requirements for protecting security and privacy
       documentation;
   - id: g
-    statement: >
+    statement: >-
       Description of the system development environment and
       environment in which the system is intended to operate;
   - id: h
-    statement: >
+    statement: >-
       Allocation of responsibility or identification of parties
       responsible for information security, privacy, and supply
       chain risk management; and
   - id: i
     statement: Acceptance criteria.
-statement: >
+statement: >-
   Include the following requirements, descriptions, and criteria,
   explicitly or by reference, using {{ sa_04_odp_01 }} in the
   acquisition contract for the system, system component, or system

@@ -19,21 +19,21 @@ objectives:
   - id: a-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Maintenance policy; procedures addressing controlled
           system maintenance; maintenance records;
           manufacturer/vendor maintenance specifications; equipment
           sanitization records; media sanitization records; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system maintenance
           responsibilities; organizational personnel with
           information security responsibilities; organizational
           personnel responsible for media sanitization;
           system/network administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for scheduling, performing,
           documenting, reviewing, approving, and monitoring
           maintenance and repairs for the system; organizational
@@ -41,28 +41,28 @@ objectives:
           supporting and/or implementing controlled maintenance;
           mechanisms implementing the sanitization of system
           components
-    statement: >
+    statement: >-
       maintenance, repair, and replacement of system components are
       scheduled in accordance with manufacturer or vendor
       specifications and/or organizational requirements;
   - id: a-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Maintenance policy; procedures addressing controlled
           system maintenance; maintenance records;
           manufacturer/vendor maintenance specifications; equipment
           sanitization records; media sanitization records; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system maintenance
           responsibilities; organizational personnel with
           information security responsibilities; organizational
           personnel responsible for media sanitization;
           system/network administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for scheduling, performing,
           documenting, reviewing, approving, and monitoring
           maintenance and repairs for the system; organizational
@@ -70,28 +70,28 @@ objectives:
           supporting and/or implementing controlled maintenance;
           mechanisms implementing the sanitization of system
           components
-    statement: >
+    statement: >-
       maintenance, repair, and replacement of system components are
       documented in accordance with manufacturer or vendor
       specifications and/or organizational requirements;
   - id: a-3
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Maintenance policy; procedures addressing controlled
           system maintenance; maintenance records;
           manufacturer/vendor maintenance specifications; equipment
           sanitization records; media sanitization records; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system maintenance
           responsibilities; organizational personnel with
           information security responsibilities; organizational
           personnel responsible for media sanitization;
           system/network administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for scheduling, performing,
           documenting, reviewing, approving, and monitoring
           maintenance and repairs for the system; organizational
@@ -99,28 +99,28 @@ objectives:
           supporting and/or implementing controlled maintenance;
           mechanisms implementing the sanitization of system
           components
-    statement: >
+    statement: >-
       records of maintenance, repair, and replacement of system
       components are reviewed in accordance with manufacturer or
       vendor specifications and/or organizational requirements;
   - id: b-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Maintenance policy; procedures addressing controlled
           system maintenance; maintenance records;
           manufacturer/vendor maintenance specifications; equipment
           sanitization records; media sanitization records; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system maintenance
           responsibilities; organizational personnel with
           information security responsibilities; organizational
           personnel responsible for media sanitization;
           system/network administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for scheduling, performing,
           documenting, reviewing, approving, and monitoring
           maintenance and repairs for the system; organizational
@@ -128,28 +128,28 @@ objectives:
           supporting and/or implementing controlled maintenance;
           mechanisms implementing the sanitization of system
           components
-    statement: >
+    statement: >-
       all maintenance activities, whether performed on site or
       remotely and whether the system or system components are
       serviced on site or removed to another location, are approved;
   - id: b-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Maintenance policy; procedures addressing controlled
           system maintenance; maintenance records;
           manufacturer/vendor maintenance specifications; equipment
           sanitization records; media sanitization records; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system maintenance
           responsibilities; organizational personnel with
           information security responsibilities; organizational
           personnel responsible for media sanitization;
           system/network administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for scheduling, performing,
           documenting, reviewing, approving, and monitoring
           maintenance and repairs for the system; organizational
@@ -157,7 +157,7 @@ objectives:
           supporting and/or implementing controlled maintenance;
           mechanisms implementing the sanitization of system
           components
-    statement: >
+    statement: >-
       all maintenance activities, whether performed on site or
       remotely and whether the system or system components are
       serviced on site or removed to another location, are
@@ -165,21 +165,21 @@ objectives:
   - id: c
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Maintenance policy; procedures addressing controlled
           system maintenance; maintenance records;
           manufacturer/vendor maintenance specifications; equipment
           sanitization records; media sanitization records; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system maintenance
           responsibilities; organizational personnel with
           information security responsibilities; organizational
           personnel responsible for media sanitization;
           system/network administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for scheduling, performing,
           documenting, reviewing, approving, and monitoring
           maintenance and repairs for the system; organizational
@@ -187,28 +187,28 @@ objectives:
           supporting and/or implementing controlled maintenance;
           mechanisms implementing the sanitization of system
           components
-    statement: >
+    statement: >-
       {{ ma_02_odp_01 }} is/are required to explicitly approve the
       removal of the system or system components from organizational
       facilities for off-site maintenance, repair, or replacement;
   - id: d
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Maintenance policy; procedures addressing controlled
           system maintenance; maintenance records;
           manufacturer/vendor maintenance specifications; equipment
           sanitization records; media sanitization records; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system maintenance
           responsibilities; organizational personnel with
           information security responsibilities; organizational
           personnel responsible for media sanitization;
           system/network administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for scheduling, performing,
           documenting, reviewing, approving, and monitoring
           maintenance and repairs for the system; organizational
@@ -216,28 +216,28 @@ objectives:
           supporting and/or implementing controlled maintenance;
           mechanisms implementing the sanitization of system
           components
-    statement: >
+    statement: >-
       equipment is sanitized to remove {{ ma_02_odp_02 }} from
       associated media prior to removal from organizational
       facilities for off-site maintenance, repair, or replacement;
   - id: e
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Maintenance policy; procedures addressing controlled
           system maintenance; maintenance records;
           manufacturer/vendor maintenance specifications; equipment
           sanitization records; media sanitization records; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system maintenance
           responsibilities; organizational personnel with
           information security responsibilities; organizational
           personnel responsible for media sanitization;
           system/network administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for scheduling, performing,
           documenting, reviewing, approving, and monitoring
           maintenance and repairs for the system; organizational
@@ -245,28 +245,28 @@ objectives:
           supporting and/or implementing controlled maintenance;
           mechanisms implementing the sanitization of system
           components
-    statement: >
+    statement: >-
       all potentially impacted controls are checked to verify that
       the controls are still functioning properly following
       maintenance, repair, or replacement actions;
   - id: f
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Maintenance policy; procedures addressing controlled
           system maintenance; maintenance records;
           manufacturer/vendor maintenance specifications; equipment
           sanitization records; media sanitization records; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system maintenance
           responsibilities; organizational personnel with
           information security responsibilities; organizational
           personnel responsible for media sanitization;
           system/network administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for scheduling, performing,
           documenting, reviewing, approving, and monitoring
           maintenance and repairs for the system; organizational
@@ -286,34 +286,34 @@ parameters:
     label: information
 parts:
   - id: a
-    statement: >
+    statement: >-
       Schedule, document, and review records of maintenance, repair,
       and replacement on system components in accordance with
       manufacturer or vendor specifications and/or organizational
       requirements;
   - id: b
-    statement: >
+    statement: >-
       Approve and monitor all maintenance activities, whether
       performed on site or remotely and whether the system or system
       components are serviced on site or removed to another
       location;
   - id: c
-    statement: >
+    statement: >-
       Require that {{ ma_02_odp_01 }} explicitly approve the removal
       of the system or system components from organizational
       facilities for off-site maintenance, repair, or replacement;
   - id: d
-    statement: >
+    statement: >-
       Sanitize equipment to remove the following information from
       associated media prior to removal from organizational
       facilities for off-site maintenance, repair, or replacement:
       {{ ma_02_odp_02 }};
   - id: e
-    statement: >
+    statement: >-
       Check all potentially impacted controls to verify that the
       controls are still functioning properly following maintenance,
       repair, or replacement actions; and
   - id: f
-    statement: >
+    statement: >-
       Include the following information in organizational
       maintenance records: {{ ma_02_odp_03 }}.

@@ -12,7 +12,7 @@ objectives:
   - id: "sc-40(02)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; access
           control policy and procedures; procedures addressing
           wireless link protection; system design documentation;
@@ -22,7 +22,7 @@ objectives:
           categorization results; system audit records; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; system
           developer; organizational personnel installing,
@@ -30,15 +30,15 @@ objectives:
           personnel authorizing, installing, configuring, and/or
           maintaining internal and external wireless links
       - method: test
-        statement: >
+        statement: >-
           Cryptographic mechanisms enforcing protections to reduce
           the detection of wireless links
-    statement: >
+    statement: >-
       cryptographic mechanisms to reduce the detection potential of
       wireless links to {{ sc_40_02_odp }} are implemented.
 parameters:
   sc_40_02_odp:
     label: level of reduction
-statement: >
+statement: >-
   Implement cryptographic mechanisms to reduce the detection
   potential of wireless links to {{ sc_40_02_odp }}.

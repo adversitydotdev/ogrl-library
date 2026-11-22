@@ -12,7 +12,7 @@ objectives:
   - id: "sr-06(01)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Supply chain risk management policy and procedures; supply
           chain risk management plan; system and services
           acquisition policy; procedures addressing supply chain
@@ -25,7 +25,7 @@ objectives:
           testing; system security plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and services
           acquisition responsibilities; organizational personnel
           with information security responsibilities; organizational
@@ -34,13 +34,13 @@ objectives:
           responsibilities for analyzing and/or testing supply chain
           elements, processes, and actors
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for defining and employing
           methods of analysis/testing of supply chain elements,
           processes, and actors; mechanisms supporting and/or
           implementing the analysis/testing of supply chain
           elements, processes, and actors
-    statement: >
+    statement: >-
       {{ sr_06_01_odp_01 }} is/are employed on {{ sr_06_01_odp_02 }}
       associated with the system, system component, or system
       service.
@@ -49,7 +49,7 @@ parameters:
     label: sr-06.01_odp.01
   sr_06_01_odp_02:
     label: "supply chain elements, processes, and actors"
-statement: >
+statement: >-
   Employ {{ sr_06_01_odp_01 }} of the following supply chain
   elements, processes, and actors associated with the system, system
   component, or system service: {{ sr_06_01_odp_02 }}.

@@ -12,7 +12,7 @@ objectives:
   - id: "cm-08(08)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           system component inventory; configuration management plan;
           system design documentation; system component inventory;
@@ -20,24 +20,24 @@ objectives:
           documentation; system audit records; system security plan;
           privacy plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with component inventory
           management responsibilities; organizational personnel with
           information security and privacy responsibilities;
           system/network administrators; system developers
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for managing the system component
           inventory; automated mechanisms supporting and/or
           implementing system component inventory; automated
           mechanisms supporting and/or implementing tracking of
           components by geographic locations
-    statement: >
+    statement: >-
       {{ cm_08_08_odp }} are used to support the tracking of system
       components by geographic location.
 parameters:
   cm_08_08_odp:
     label: automated mechanisms
-statement: >
+statement: >-
   Support the tracking of system components by geographic location
   using {{ cm_08_08_odp }}.

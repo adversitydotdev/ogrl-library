@@ -12,7 +12,7 @@ objectives:
   - id: "pe-03(01).pe-03(01)[01]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Physical and environmental protection policy; procedures
           addressing physical access control; physical access
           control logs or records; physical access control devices;
@@ -22,12 +22,12 @@ objectives:
           components requiring additional physical protection;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with physical access
           authorization responsibilities; organizational personnel
           with information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for physical access control to
           the information system/components; mechanisms supporting
           and/or implementing physical access control for facility
@@ -37,7 +37,7 @@ objectives:
   - id: "2"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Physical and environmental protection policy; procedures
           addressing physical access control; physical access
           control logs or records; physical access control devices;
@@ -47,12 +47,12 @@ objectives:
           components requiring additional physical protection;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with physical access
           authorization responsibilities; organizational personnel
           with information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for physical access control to
           the information system/components; mechanisms supporting
           and/or implementing physical access control for facility
@@ -63,7 +63,7 @@ objectives:
 parameters:
   pe_03_01_odp:
     label: physical spaces
-statement: >
+statement: >-
   Enforce physical access authorizations to the system in addition
   to the physical access controls for the facility at
   {{ pe_03_01_odp }}.

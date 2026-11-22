@@ -12,19 +12,19 @@ objectives:
   - id: "cp-09(01).cp-09(01)[01]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Contingency planning policy; procedures addressing system
           backup; contingency plan; system backup test results;
           contingency plan test documentation; contingency plan test
           results; system security plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system backup
           responsibilities; organizational personnel with
           information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for conducting system backups;
           mechanisms supporting and/or implementing system backups
     statement: >-
@@ -33,22 +33,22 @@ objectives:
   - id: "cp-09(01).cp-09(01)[02]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Contingency planning policy; procedures addressing system
           backup; contingency plan; system backup test results;
           contingency plan test documentation; contingency plan test
           results; system security plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system backup
           responsibilities; organizational personnel with
           information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for conducting system backups;
           mechanisms supporting and/or implementing system backups
-    statement: >
+    statement: >-
       backup information is tested {{ cp_09_01_odp_02 }} to verify
       information integrity.
 parameters:
@@ -58,6 +58,6 @@ parameters:
     label: frequency
   cp_9_1_prm_1:
     label: organization-defined frequency
-statement: >
+statement: >-
   Test backup information {{ cp_9_1_prm_1 }} to verify media
   reliability and information integrity.

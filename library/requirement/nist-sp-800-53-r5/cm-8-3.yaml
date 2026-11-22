@@ -12,7 +12,7 @@ objectives:
   - id: a-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           system component inventory; configuration management plan;
           system design documentation; system security plan; system
@@ -22,7 +22,7 @@ objectives:
           records; system audit records; system security plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with component inventory
           management responsibilities; organizational personnel with
           responsibilities for managing the automated mechanisms
@@ -31,7 +31,7 @@ objectives:
           responsibilities; system/network administrators; system
           developers
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for detection of unauthorized
           system components; organizational processes for taking
           action when unauthorized system components are detected;
@@ -39,13 +39,13 @@ objectives:
           detection of unauthorized system components; automated
           mechanisms supporting and/or implementing actions taken
           when unauthorized system components are detected
-    statement: >
+    statement: >-
       the presence of unauthorized hardware within the system is
       detected using {{ cm_08_03_odp_01 }} {{ cm_08_03_odp_04 }};
   - id: a-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           system component inventory; configuration management plan;
           system design documentation; system security plan; system
@@ -55,7 +55,7 @@ objectives:
           records; system audit records; system security plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with component inventory
           management responsibilities; organizational personnel with
           responsibilities for managing the automated mechanisms
@@ -64,7 +64,7 @@ objectives:
           responsibilities; system/network administrators; system
           developers
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for detection of unauthorized
           system components; organizational processes for taking
           action when unauthorized system components are detected;
@@ -72,13 +72,13 @@ objectives:
           detection of unauthorized system components; automated
           mechanisms supporting and/or implementing actions taken
           when unauthorized system components are detected
-    statement: >
+    statement: >-
       the presence of unauthorized software within the system is
       detected using {{ cm_08_03_odp_02 }} {{ cm_08_03_odp_04 }};
   - id: a-3
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           system component inventory; configuration management plan;
           system design documentation; system security plan; system
@@ -88,7 +88,7 @@ objectives:
           records; system audit records; system security plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with component inventory
           management responsibilities; organizational personnel with
           responsibilities for managing the automated mechanisms
@@ -97,7 +97,7 @@ objectives:
           responsibilities; system/network administrators; system
           developers
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for detection of unauthorized
           system components; organizational processes for taking
           action when unauthorized system components are detected;
@@ -105,13 +105,13 @@ objectives:
           detection of unauthorized system components; automated
           mechanisms supporting and/or implementing actions taken
           when unauthorized system components are detected
-    statement: >
+    statement: >-
       the presence of unauthorized firmware within the system is
       detected using {{ cm_08_03_odp_03 }} {{ cm_08_03_odp_04 }};
   - id: b-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           system component inventory; configuration management plan;
           system design documentation; system security plan; system
@@ -121,7 +121,7 @@ objectives:
           records; system audit records; system security plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with component inventory
           management responsibilities; organizational personnel with
           responsibilities for managing the automated mechanisms
@@ -130,7 +130,7 @@ objectives:
           responsibilities; system/network administrators; system
           developers
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for detection of unauthorized
           system components; organizational processes for taking
           action when unauthorized system components are detected;
@@ -144,7 +144,7 @@ objectives:
   - id: b-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           system component inventory; configuration management plan;
           system design documentation; system security plan; system
@@ -154,7 +154,7 @@ objectives:
           records; system audit records; system security plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with component inventory
           management responsibilities; organizational personnel with
           responsibilities for managing the automated mechanisms
@@ -163,7 +163,7 @@ objectives:
           responsibilities; system/network administrators; system
           developers
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for detection of unauthorized
           system components; organizational processes for taking
           action when unauthorized system components are detected;
@@ -177,7 +177,7 @@ objectives:
   - id: b-3
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           system component inventory; configuration management plan;
           system design documentation; system security plan; system
@@ -187,7 +187,7 @@ objectives:
           records; system audit records; system security plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with component inventory
           management responsibilities; organizational personnel with
           responsibilities for managing the automated mechanisms
@@ -196,7 +196,7 @@ objectives:
           responsibilities; system/network administrators; system
           developers
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for detection of unauthorized
           system components; organizational processes for taking
           action when unauthorized system components are detected;
@@ -224,11 +224,11 @@ parameters:
     label: organization-defined automated mechanisms
 parts:
   - id: a
-    statement: >
+    statement: >-
       Detect the presence of unauthorized hardware, software, and
       firmware components within the system using {{ cm_8_3_prm_1 }}
       {{ cm_08_03_odp_04 }} ; and
   - id: b
-    statement: >
+    statement: >-
       Take the following actions when unauthorized components are
       detected: {{ cm_08_03_odp_05 }}.

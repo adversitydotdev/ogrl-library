@@ -16,7 +16,7 @@ objectives:
   - id: a-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Information security program plan; privacy program plan;
           risk management strategy; procedures for establishing and
           institutionalizing contacts with security and privacy
@@ -25,7 +25,7 @@ objectives:
           groups and associations; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with information security and
           privacy program planning and plan implementation
           responsibilities; organizational personnel responsible for
@@ -36,12 +36,12 @@ objectives:
           associations with which the organization has established
           and institutionalized contact
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for establishing and
           institutionalizing contact with security and privacy
           groups and associations; mechanisms supporting contact
           with security and privacy groups and associations
-    statement: >
+    statement: >-
       contact is established and institutionalized with selected
       groups and associations within the security community to
       facilitate ongoing security education and training for
@@ -49,7 +49,7 @@ objectives:
   - id: a-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Information security program plan; privacy program plan;
           risk management strategy; procedures for establishing and
           institutionalizing contacts with security and privacy
@@ -58,7 +58,7 @@ objectives:
           groups and associations; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with information security and
           privacy program planning and plan implementation
           responsibilities; organizational personnel responsible for
@@ -69,12 +69,12 @@ objectives:
           associations with which the organization has established
           and institutionalized contact
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for establishing and
           institutionalizing contact with security and privacy
           groups and associations; mechanisms supporting contact
           with security and privacy groups and associations
-    statement: >
+    statement: >-
       contact is established and institutionalized with selected
       groups and associations within the privacy community to
       facilitate ongoing privacy education and training for
@@ -82,7 +82,7 @@ objectives:
   - id: b-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Information security program plan; privacy program plan;
           risk management strategy; procedures for establishing and
           institutionalizing contacts with security and privacy
@@ -91,7 +91,7 @@ objectives:
           groups and associations; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with information security and
           privacy program planning and plan implementation
           responsibilities; organizational personnel responsible for
@@ -102,12 +102,12 @@ objectives:
           associations with which the organization has established
           and institutionalized contact
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for establishing and
           institutionalizing contact with security and privacy
           groups and associations; mechanisms supporting contact
           with security and privacy groups and associations
-    statement: >
+    statement: >-
       contact is established and institutionalized with selected
       groups and associations within the security community to
       maintain currency with recommended security practices,
@@ -115,7 +115,7 @@ objectives:
   - id: b-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Information security program plan; privacy program plan;
           risk management strategy; procedures for establishing and
           institutionalizing contacts with security and privacy
@@ -124,7 +124,7 @@ objectives:
           groups and associations; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with information security and
           privacy program planning and plan implementation
           responsibilities; organizational personnel responsible for
@@ -135,12 +135,12 @@ objectives:
           associations with which the organization has established
           and institutionalized contact
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for establishing and
           institutionalizing contact with security and privacy
           groups and associations; mechanisms supporting contact
           with security and privacy groups and associations
-    statement: >
+    statement: >-
       contact is established and institutionalized with selected
       groups and associations within the privacy community to
       maintain currency with recommended privacy practices,
@@ -148,7 +148,7 @@ objectives:
   - id: c-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Information security program plan; privacy program plan;
           risk management strategy; procedures for establishing and
           institutionalizing contacts with security and privacy
@@ -157,7 +157,7 @@ objectives:
           groups and associations; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with information security and
           privacy program planning and plan implementation
           responsibilities; organizational personnel responsible for
@@ -168,12 +168,12 @@ objectives:
           associations with which the organization has established
           and institutionalized contact
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for establishing and
           institutionalizing contact with security and privacy
           groups and associations; mechanisms supporting contact
           with security and privacy groups and associations
-    statement: >
+    statement: >-
       contact is established and institutionalized with selected
       groups and associations within the security community to share
       current security information, including threats,
@@ -181,7 +181,7 @@ objectives:
   - id: c-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Information security program plan; privacy program plan;
           risk management strategy; procedures for establishing and
           institutionalizing contacts with security and privacy
@@ -190,7 +190,7 @@ objectives:
           groups and associations; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with information security and
           privacy program planning and plan implementation
           responsibilities; organizational personnel responsible for
@@ -201,29 +201,29 @@ objectives:
           associations with which the organization has established
           and institutionalized contact
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for establishing and
           institutionalizing contact with security and privacy
           groups and associations; mechanisms supporting contact
           with security and privacy groups and associations
-    statement: >
+    statement: >-
       contact is established and institutionalized with selected
       groups and associations within the privacy community to share
       current privacy information, including threats,
       vulnerabilities, and incidents.
 parts:
   - id: a
-    statement: >
+    statement: >-
       To facilitate ongoing security and privacy education and
       training for organizational personnel;
   - id: b
-    statement: >
+    statement: >-
       To maintain currency with recommended security and privacy
       practices, techniques, and technologies; and
   - id: c
-    statement: >
+    statement: >-
       To share current security and privacy information, including
       threats, vulnerabilities, and incidents.
-statement: >
+statement: >-
   Establish and institutionalize contact with selected groups and
   associations within the security and privacy communities:

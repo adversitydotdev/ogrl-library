@@ -12,7 +12,7 @@ objectives:
   - id: _obj
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Audit and accountability policy; system security plan;
           privacy plan; procedures addressing methods for
           coordinating audit information among external
@@ -20,7 +20,7 @@ objectives:
           configuration settings and associated documentation;
           system audit records; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for
           coordinating audit information among external
           organizations; organizational personnel with information
@@ -28,7 +28,7 @@ objectives:
       - method: test
         statement: >-
           Mechanisms implementing cross-organizational auditing
-    statement: >
+    statement: >-
       {{ au_16_odp_01 }} for coordinating {{ au_16_odp_02 }} among
       external organizations when audit information is transmitted
       across organizational boundaries are employed.
@@ -37,7 +37,7 @@ parameters:
     label: methods
   au_16_odp_02:
     label: audit information
-statement: >
+statement: >-
   Employ {{ au_16_odp_01 }} for coordinating {{ au_16_odp_02 }}
   among external organizations when audit information is transmitted
   across organizational boundaries.

@@ -12,7 +12,7 @@ objectives:
   - id: "pe-02(03)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Physical and environmental protection policy; procedures
           addressing physical access authorizations; authorized
           personnel access list; security clearances; access
@@ -20,18 +20,18 @@ objectives:
           control logs or records; system security plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with physical access
           authorization responsibilities; organizational personnel
           with physical access to the system facility;
           organizational personnel with information security
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for physical access
           authorizations; mechanisms supporting and/or implementing
           physical access authorizations
-    statement: >
+    statement: >-
       unescorted access to the facility where the system resides is
       restricted to personnel with {{ pe_02_03_odp_01 }}.
 parameters:
@@ -39,6 +39,6 @@ parameters:
     label: pe-02.03_odp.01
   pe_02_03_odp_02:
     label: physical access authorizations
-statement: >
+statement: >-
   Restrict unescorted access to the facility where the system
   resides to personnel with {{ pe_02_03_odp_01 }}.

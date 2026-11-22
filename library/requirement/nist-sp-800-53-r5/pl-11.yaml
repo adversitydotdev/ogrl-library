@@ -43,7 +43,7 @@ objectives:
   - id: _obj
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Security and privacy planning policy; procedures
           addressing system security and privacy plan development
           and implementation; system design documentation; system
@@ -62,12 +62,12 @@ objectives:
           security and privacy plan reviews and updates; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with security and privacy
           planning and plan implementation responsibilities;
           organizational personnel with information security and
           privacy responsibilities
-    statement: >
+    statement: >-
       the selected control baseline is tailored by applying
       specified tailoring actions.
 statement: >-

@@ -12,7 +12,7 @@ objectives:
   - id: "ac-04(03)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; information flow control policies;
           procedures addressing information flow enforcement; system
           design documentation; system security architecture and
@@ -20,7 +20,7 @@ objectives:
           and associated documentation; system audit records; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; system
           developers

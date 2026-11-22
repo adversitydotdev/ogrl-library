@@ -12,7 +12,7 @@ objectives:
   - id: "ir-04(02)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Incident response policy; procedures addressing incident
           handling; mechanisms supporting incident handling; list of
           system components to be dynamically reconfigured as part
@@ -22,15 +22,15 @@ objectives:
           response plan; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with incident handling
           responsibilities; organizational personnel with
           information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Mechanisms that support and/or implement the dynamic
           reconfiguration of components as part of incident response
-    statement: >
+    statement: >-
       {{ ir_04_02_odp_01 }} for {{ ir_04_02_odp_02 }} are included
       as part of the incident response capability.
 parameters:
@@ -38,7 +38,7 @@ parameters:
     label: types of dynamic reconfiguration
   ir_04_02_odp_02:
     label: system components
-statement: >
+statement: >-
   Include the following types of dynamic reconfiguration for
   {{ ir_04_02_odp_02 }} as part of the incident response capability:
   {{ ir_04_02_odp_01 }}.

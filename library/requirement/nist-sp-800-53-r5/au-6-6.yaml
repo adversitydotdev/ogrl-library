@@ -12,7 +12,7 @@ objectives:
   - id: "au-06(06)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Audit and accountability policy; procedures addressing
           audit review, analysis, and reporting; procedures
           addressing physical access monitoring; system design
@@ -22,23 +22,23 @@ objectives:
           physical access monitoring records; system security plan;
           privacy plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with audit review, analysis, and
           reporting responsibilities; organizational personnel with
           physical access monitoring responsibilities;
           organizational personnel with information security and
           privacy responsibilities
       - method: test
-        statement: >
+        statement: >-
           Mechanisms implementing the capability to correlate
           information from audit records with information from
           monitoring physical access
-    statement: >
+    statement: >-
       information from audit records is correlated with information
       obtained from monitoring physical access to further enhance
       the ability to identify suspicious, inappropriate, unusual, or
       malevolent activity.
-statement: >
+statement: >-
   Correlate information from audit records with information obtained
   from monitoring physical access to further enhance the ability to
   identify suspicious, inappropriate, unusual, or malevolent

@@ -12,7 +12,7 @@ objectives:
   - id: "pt-03(01)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Personally identifiable information processing and
           transparency policy and procedures; documented description
           of how data tags are used to identify personally
@@ -21,18 +21,18 @@ objectives:
           corresponding data tags; privacy plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with personally identifiable
           information processing and transparency responsibilities;
           organizational personnel with data tagging
           responsibilities; organizational personnel with
           information security and privacy responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for authorizing the processing of
           personally identifiable information; mechanisms supporting
           and/or implementing data tagging
-    statement: >
+    statement: >-
       data tags containing {{ pt_03_01_odp_01 }} are attached to
       {{ pt_03_01_odp_02 }}.
 parameters:
@@ -40,6 +40,6 @@ parameters:
     label: processing purposes
   pt_03_01_odp_02:
     label: elements of personally identifiable information
-statement: >
+statement: >-
   Attach data tags containing the following purposes to
   {{ pt_03_01_odp_02 }}: {{ pt_03_01_odp_01 }}.

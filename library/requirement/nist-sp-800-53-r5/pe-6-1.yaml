@@ -12,7 +12,7 @@ objectives:
   - id: "pe-06(01).pe-06(01)[01]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Physical and environmental protection policy; procedures
           addressing physical access monitoring; physical access
           logs or records; physical access monitoring records;
@@ -20,25 +20,25 @@ objectives:
           plan; privacy impact assessment; privacy risk assessment
           documentation; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with physical access monitoring
           responsibilities; organizational personnel with incident
           response responsibilities; organizational personnel with
           information security and privacy responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for monitoring physical intrusion
           alarms and surveillance equipment; mechanisms supporting
           and/or implementing physical access monitoring; mechanisms
           supporting and/or implementing physical intrusion alarms
           and surveillance equipment
-    statement: >
+    statement: >-
       physical access to the facility where the system resides is
       monitored using physical intrusion alarms;
   - id: "pe-06(01).pe-06(01)[02]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Physical and environmental protection policy; procedures
           addressing physical access monitoring; physical access
           logs or records; physical access monitoring records;
@@ -46,21 +46,21 @@ objectives:
           plan; privacy impact assessment; privacy risk assessment
           documentation; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with physical access monitoring
           responsibilities; organizational personnel with incident
           response responsibilities; organizational personnel with
           information security and privacy responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for monitoring physical intrusion
           alarms and surveillance equipment; mechanisms supporting
           and/or implementing physical access monitoring; mechanisms
           supporting and/or implementing physical intrusion alarms
           and surveillance equipment
-    statement: >
+    statement: >-
       physical access to the facility where the system resides is
       monitored using physical surveillance equipment.
-statement: >
+statement: >-
   Monitor physical access to the facility where the system resides
   using physical intrusion alarms and surveillance equipment.

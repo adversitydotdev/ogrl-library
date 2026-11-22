@@ -12,7 +12,7 @@ objectives:
   - id: "ra-05(05)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Risk assessment policy; procedures addressing
           vulnerability scanning; system design documentation;
           system configuration settings and associated
@@ -21,7 +21,7 @@ objectives:
           authorization credentials; access authorization records;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with vulnerability scanning
           responsibilities; system/network administrators;
           organizational personnel responsible for access control to
@@ -29,13 +29,13 @@ objectives:
           configuration management of the system; system developers;
           organizational personnel with security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for vulnerability scanning;
           organizational processes for access control; mechanisms
           supporting and/or implementing access control;
           mechanisms/tools supporting and/or implementing
           vulnerability scanning
-    statement: >
+    statement: >-
       privileged access authorization is implemented to
       {{ ra_05_05_odp_01 }} for {{ ra_05_05_odp_02 }}.
 parameters:
@@ -43,6 +43,6 @@ parameters:
     label: system components
   ra_05_05_odp_02:
     label: vulnerability scanning activities
-statement: >
+statement: >-
   Implement privileged access authorization to {{ ra_05_05_odp_01 }}
   for {{ ra_05_05_odp_02 }}.

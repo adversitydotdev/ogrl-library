@@ -12,7 +12,7 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; traffic flow
           policy; information flow control policy; procedures
           addressing boundary protection; system security
@@ -23,12 +23,12 @@ objectives:
           policy exceptions; system audit records; system security
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; organizational
           personnel with boundary protection responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for documenting and reviewing
           exceptions to the traffic flow policy; organizational
           processes for removing exceptions to the traffic flow
@@ -41,7 +41,7 @@ objectives:
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; traffic flow
           policy; information flow control policy; procedures
           addressing boundary protection; system security
@@ -52,12 +52,12 @@ objectives:
           policy exceptions; system audit records; system security
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; organizational
           personnel with boundary protection responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for documenting and reviewing
           exceptions to the traffic flow policy; organizational
           processes for removing exceptions to the traffic flow
@@ -70,7 +70,7 @@ objectives:
   - id: c-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; traffic flow
           policy; information flow control policy; procedures
           addressing boundary protection; system security
@@ -81,25 +81,25 @@ objectives:
           policy exceptions; system audit records; system security
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; organizational
           personnel with boundary protection responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for documenting and reviewing
           exceptions to the traffic flow policy; organizational
           processes for removing exceptions to the traffic flow
           policy; mechanisms implementing boundary protection
           capabilities; managed interfaces implementing traffic flow
           policy
-    statement: >
+    statement: >-
       the confidentiality of the information being transmitted
       across each interface is protected;
   - id: c-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; traffic flow
           policy; information flow control policy; procedures
           addressing boundary protection; system security
@@ -110,25 +110,25 @@ objectives:
           policy exceptions; system audit records; system security
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; organizational
           personnel with boundary protection responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for documenting and reviewing
           exceptions to the traffic flow policy; organizational
           processes for removing exceptions to the traffic flow
           policy; mechanisms implementing boundary protection
           capabilities; managed interfaces implementing traffic flow
           policy
-    statement: >
+    statement: >-
       the integrity of the information being transmitted across each
       interface is protected;
   - id: d
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; traffic flow
           policy; information flow control policy; procedures
           addressing boundary protection; system security
@@ -139,25 +139,25 @@ objectives:
           policy exceptions; system audit records; system security
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; organizational
           personnel with boundary protection responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for documenting and reviewing
           exceptions to the traffic flow policy; organizational
           processes for removing exceptions to the traffic flow
           policy; mechanisms implementing boundary protection
           capabilities; managed interfaces implementing traffic flow
           policy
-    statement: >
+    statement: >-
       each exception to the traffic flow policy is documented with a
       supporting mission or business need and duration of that need;
   - id: e-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; traffic flow
           policy; information flow control policy; procedures
           addressing boundary protection; system security
@@ -168,12 +168,12 @@ objectives:
           policy exceptions; system audit records; system security
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; organizational
           personnel with boundary protection responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for documenting and reviewing
           exceptions to the traffic flow policy; organizational
           processes for removing exceptions to the traffic flow
@@ -186,7 +186,7 @@ objectives:
   - id: e-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; traffic flow
           policy; information flow control policy; procedures
           addressing boundary protection; system security
@@ -197,25 +197,25 @@ objectives:
           policy exceptions; system audit records; system security
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; organizational
           personnel with boundary protection responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for documenting and reviewing
           exceptions to the traffic flow policy; organizational
           processes for removing exceptions to the traffic flow
           policy; mechanisms implementing boundary protection
           capabilities; managed interfaces implementing traffic flow
           policy
-    statement: >
+    statement: >-
       exceptions to the traffic flow policy that are no longer
       supported by an explicit mission or business need are removed;
   - id: f
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; traffic flow
           policy; information flow control policy; procedures
           addressing boundary protection; system security
@@ -226,25 +226,25 @@ objectives:
           policy exceptions; system audit records; system security
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; organizational
           personnel with boundary protection responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for documenting and reviewing
           exceptions to the traffic flow policy; organizational
           processes for removing exceptions to the traffic flow
           policy; mechanisms implementing boundary protection
           capabilities; managed interfaces implementing traffic flow
           policy
-    statement: >
+    statement: >-
       unauthorized exchanges of control plan traffic with external
       networks are prevented;
   - id: g
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; traffic flow
           policy; information flow control policy; procedures
           addressing boundary protection; system security
@@ -255,25 +255,25 @@ objectives:
           policy exceptions; system audit records; system security
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; organizational
           personnel with boundary protection responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for documenting and reviewing
           exceptions to the traffic flow policy; organizational
           processes for removing exceptions to the traffic flow
           policy; mechanisms implementing boundary protection
           capabilities; managed interfaces implementing traffic flow
           policy
-    statement: >
+    statement: >-
       information is published to enable remote networks to detect
       unauthorized control plane traffic from internal networks;
   - id: h
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; traffic flow
           policy; information flow control policy; procedures
           addressing boundary protection; system security
@@ -284,12 +284,12 @@ objectives:
           policy exceptions; system audit records; system security
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; organizational
           personnel with boundary protection responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for documenting and reviewing
           exceptions to the traffic flow policy; organizational
           processes for removing exceptions to the traffic flow
@@ -311,15 +311,15 @@ parts:
     statement: >-
       Establish a traffic flow policy for each managed interface;
   - id: c
-    statement: >
+    statement: >-
       Protect the confidentiality and integrity of the information
       being transmitted across each interface;
   - id: d
-    statement: >
+    statement: >-
       Document each exception to the traffic flow policy with a
       supporting mission or business need and duration of that need;
   - id: e
-    statement: >
+    statement: >-
       Review exceptions to the traffic flow policy
       {{ sc_07_04_odp }} and remove exceptions that are no longer
       supported by an explicit mission or business need;
@@ -328,7 +328,7 @@ parts:
       Prevent unauthorized exchange of control plane traffic with
       external networks;
   - id: g
-    statement: >
+    statement: >-
       Publish information to enable remote networks to detect
       unauthorized control plane traffic from internal networks; and
   - id: h

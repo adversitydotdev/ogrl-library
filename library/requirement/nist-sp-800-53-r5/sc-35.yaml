@@ -12,7 +12,7 @@ objectives:
   - id: _obj
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing external malicious code identification; system
           design documentation; system configuration settings and
@@ -21,19 +21,19 @@ objectives:
           code; system audit records; system security plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; organizational
           personnel installing, configuring, and/or maintaining the
           system; system developers/integrators
       - method: test
-        statement: >
+        statement: >-
           Automated mechanisms supporting and/or implementing
           external malicious code identification
-    statement: >
+    statement: >-
       system components that proactively seek to identify
       network-based malicious code or malicious websites are
       included.
-statement: >
+statement: >-
   Include system components that proactively seek to identify
   network-based malicious code or malicious websites.

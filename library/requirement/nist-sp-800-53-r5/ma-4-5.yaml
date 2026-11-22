@@ -12,49 +12,49 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Maintenance policy; procedures addressing nonlocal system
           maintenance; notifications supporting nonlocal maintenance
           sessions; maintenance records; audit records; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system maintenance
           responsibilities; organizational personnel with
           notification responsibilities; organizational personnel
           with approval responsibilities; organizational personnel
           with information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for approving and notifying
           personnel regarding nonlocal maintenance; mechanisms
           supporting the notification and approval of nonlocal
           maintenance
-    statement: >
+    statement: >-
       the approval of each nonlocal maintenance session is required
       by {{ ma_04_05_odp_01 }};
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Maintenance policy; procedures addressing nonlocal system
           maintenance; notifications supporting nonlocal maintenance
           sessions; maintenance records; audit records; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system maintenance
           responsibilities; organizational personnel with
           notification responsibilities; organizational personnel
           with approval responsibilities; organizational personnel
           with information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for approving and notifying
           personnel regarding nonlocal maintenance; mechanisms
           supporting the notification and approval of nonlocal
           maintenance
-    statement: >
+    statement: >-
       {{ ma_04_05_odp_02 }} is/are notified of the date and time of
       planned nonlocal maintenance.
 parameters:
@@ -64,10 +64,10 @@ parameters:
     label: personnel and roles
 parts:
   - id: a
-    statement: >
+    statement: >-
       Require the approval of each nonlocal maintenance session by
       {{ ma_04_05_odp_01 }} ; and
   - id: b
-    statement: >
+    statement: >-
       Notify the following personnel or roles of the date and time
       of planned nonlocal maintenance: {{ ma_04_05_odp_02 }}.

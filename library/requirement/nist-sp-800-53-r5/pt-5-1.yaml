@@ -12,24 +12,24 @@ objectives:
   - id: "pt-05(01)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Personally identifiable information processing and
           transparency policy and procedures; privacy notice;
           privacy plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with personally identifiable
           information processing and transparency responsibilities;
           organizational personnel with user interface or user
           experience responsibilities; organizational personnel with
           information security and privacy responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes and implementation support or
           mechanisms for providing notice to individuals regarding
           the processing of their personally identifiable
           information
-    statement: >
+    statement: >-
       a notice of personally identifiable information processing is
       presented to individuals at a time and location where the
       individual provides personally identifiable information, in
@@ -37,7 +37,7 @@ objectives:
 parameters:
   pt_05_01_odp:
     label: frequency
-statement: >
+statement: >-
   Present notice of personally identifiable information processing
   to individuals at a time and location where the individual
   provides personally identifiable information or in conjunction

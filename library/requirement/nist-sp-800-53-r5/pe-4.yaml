@@ -12,7 +12,7 @@ objectives:
   - id: pe-04
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Physical and environmental protection policy; procedures
           addressing access control for transmission mediums; system
           design documentation; facility communications and wiring
@@ -20,17 +20,17 @@ objectives:
           system distribution and transmission lines; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with physical access control
           responsibilities; organizational personnel with
           information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for access control to
           distribution and transmission lines; mechanisms/security
           safeguards supporting and/or implementing access control
           to distribution and transmission lines
-    statement: >
+    statement: >-
       physical access to {{ pe_04_odp_01 }} within organizational
       facilities is controlled using {{ pe_04_odp_02 }}.
 parameters:
@@ -38,6 +38,6 @@ parameters:
     label: system distribution and transmission lines
   pe_04_odp_02:
     label: security controls
-statement: >
+statement: >-
   Control physical access to {{ pe_04_odp_01 }} within
   organizational facilities using {{ pe_04_odp_02 }}.

@@ -12,7 +12,7 @@ objectives:
   - id: "ia-03(04)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Identification and authentication policy; system security
           plan; procedures addressing device identification and
           authentication; procedures addressing device configuration
@@ -21,23 +21,23 @@ objectives:
           configuration management records; change control records;
           system audit records; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with operational responsibilities
           for device identification and authentication;
           organizational personnel with information security
           responsibilities; system/network administrators
       - method: test
-        statement: >
+        statement: >-
           Mechanisms supporting and/or implementing device
           identification and authentication capabilities; mechanisms
           supporting and/or implementing configuration management;
           cryptographic mechanisms supporting device attestation
-    statement: >
+    statement: >-
       device identification and authentication are handled based on
       attestation by {{ ia_03_04_odp }}.
 parameters:
   ia_03_04_odp:
     label: configuration management process
-statement: >
+statement: >-
   Handle device identification and authentication based on
   attestation by {{ ia_03_04_odp }}.

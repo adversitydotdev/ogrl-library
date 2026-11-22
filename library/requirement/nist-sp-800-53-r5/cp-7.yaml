@@ -16,7 +16,7 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Contingency planning policy; procedures addressing
           alternate processing sites; contingency plan; alternate
           processing site agreements; primary processing site
@@ -25,17 +25,17 @@ objectives:
           service-level agreements; system security plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for
           contingency planning and/or alternate site arrangements;
           organizational personnel with information security
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for recovery at the alternate
           site; mechanisms supporting and/or implementing recovery
           at the alternate processing site
-    statement: >
+    statement: >-
       an alternate processing site, including necessary agreements
       to permit the transfer and resumption of {{ cp_07_odp_01 }}
       for essential mission and business functions, is established
@@ -44,7 +44,7 @@ objectives:
   - id: b-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Contingency planning policy; procedures addressing
           alternate processing sites; contingency plan; alternate
           processing site agreements; primary processing site
@@ -53,17 +53,17 @@ objectives:
           service-level agreements; system security plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for
           contingency planning and/or alternate site arrangements;
           organizational personnel with information security
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for recovery at the alternate
           site; mechanisms supporting and/or implementing recovery
           at the alternate processing site
-    statement: >
+    statement: >-
       the equipment and supplies required to transfer operations are
       made available at the alternate processing site or if
       contracts are in place to support delivery to the site within
@@ -71,7 +71,7 @@ objectives:
   - id: b-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Contingency planning policy; procedures addressing
           alternate processing sites; contingency plan; alternate
           processing site agreements; primary processing site
@@ -80,17 +80,17 @@ objectives:
           service-level agreements; system security plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for
           contingency planning and/or alternate site arrangements;
           organizational personnel with information security
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for recovery at the alternate
           site; mechanisms supporting and/or implementing recovery
           at the alternate processing site
-    statement: >
+    statement: >-
       the equipment and supplies required to resume operations are
       made available at the alternate processing site or if
       contracts are in place to support delivery to the site within
@@ -98,7 +98,7 @@ objectives:
   - id: c
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Contingency planning policy; procedures addressing
           alternate processing sites; contingency plan; alternate
           processing site agreements; primary processing site
@@ -107,17 +107,17 @@ objectives:
           service-level agreements; system security plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for
           contingency planning and/or alternate site arrangements;
           organizational personnel with information security
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for recovery at the alternate
           site; mechanisms supporting and/or implementing recovery
           at the alternate processing site
-    statement: >
+    statement: >-
       controls provided at the alternate processing site are
       equivalent to those at the primary site.
 parameters:
@@ -127,20 +127,20 @@ parameters:
     label: time period
 parts:
   - id: a
-    statement: >
+    statement: >-
       Establish an alternate processing site, including necessary
       agreements to permit the transfer and resumption of
       {{ cp_07_odp_01 }} for essential mission and business
       functions within {{ cp_07_odp_02 }} when the primary
       processing capabilities are unavailable;
   - id: b
-    statement: >
+    statement: >-
       Make available at the alternate processing site, the equipment
       and supplies required to transfer and resume operations or put
       contracts in place to support delivery to the site within the
       organization-defined time period for transfer and resumption;
       and
   - id: c
-    statement: >
+    statement: >-
       Provide controls at the alternate processing site that are
       equivalent to those at the primary site.

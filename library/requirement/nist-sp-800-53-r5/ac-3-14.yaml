@@ -12,7 +12,7 @@ objectives:
   - id: "ac-03(14)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access mechanisms (e.g., request forms and application
           interfaces); access control policy; procedures addressing
           access enforcement; system design documentation; system
@@ -23,17 +23,17 @@ objectives:
           assessment; privacy assessment findings and/or reports;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with access enforcement
           responsibilities; system/network administrators;
           organizational personnel with information security and
           privacy responsibilities; legal counsel
       - method: test
-        statement: >
+        statement: >-
           Mechanisms implementing access enforcement functions;
           mechanisms enabling individual access to personally
           identifiable information
-    statement: >
+    statement: >-
       {{ ac_03_14_odp_01 }} are provided to enable individuals to
       have access to {{ ac_03_14_odp_02 }} of their personally
       identifiable information.
@@ -42,7 +42,7 @@ parameters:
     label: mechanisms
   ac_03_14_odp_02:
     label: elements
-statement: >
+statement: >-
   Provide {{ ac_03_14_odp_01 }} to enable individuals to have access
   to the following elements of their personally identifiable
   information: {{ ac_03_14_odp_02 }}.

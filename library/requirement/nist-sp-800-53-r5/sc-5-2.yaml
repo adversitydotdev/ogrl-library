@@ -12,27 +12,27 @@ objectives:
   - id: "sc-05(02)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing denial-of-service protection; system design
           documentation; system configuration settings and
           associated documentation; system audit records; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; organizational
           personnel with incident response responsibilities; system
           developer
       - method: test
-        statement: >
+        statement: >-
           Mechanisms implementing the management of system
           bandwidth, capacity, and redundancy to limit the effects
           of information flooding denial-of-service attacks
-    statement: >
+    statement: >-
       capacity, bandwidth, or other redundancies to limit the
       effects of information flooding denial-of-service attacks are
       managed.
-statement: >
+statement: >-
   Manage capacity, bandwidth, or other redundancy to limit the
   effects of information flooding denial-of-service attacks.

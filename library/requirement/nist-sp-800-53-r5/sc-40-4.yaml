@@ -12,7 +12,7 @@ objectives:
   - id: "sc-40(04)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; access
           control policy and procedures; procedures addressing
           system design documentation; wireless network diagrams;
@@ -21,7 +21,7 @@ objectives:
           hardware and software; system audit records; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; system
           developer; organizational personnel installing,
@@ -32,13 +32,13 @@ objectives:
         statement: >-
           Cryptographic mechanisms preventing the identification of
           wireless transmitters
-    statement: >
+    statement: >-
       cryptographic mechanisms are implemented to prevent the
       identification of {{ sc_40_04_odp }} by using the transmitter
       signal parameters.
 parameters:
   sc_40_04_odp:
     label: wireless transmitters
-statement: >
+statement: >-
   Implement cryptographic mechanisms to prevent the identification
   of {{ sc_40_04_odp }} by using the transmitter signal parameters.

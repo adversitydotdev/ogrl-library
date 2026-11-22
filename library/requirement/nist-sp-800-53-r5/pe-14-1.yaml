@@ -12,7 +12,7 @@ objectives:
   - id: "pe-14(01)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Physical and environmental protection policy; procedures
           addressing temperature and humidity controls; facility
           housing the system; automated mechanisms for temperature
@@ -20,21 +20,21 @@ objectives:
           temperature and humidity documentation; system security
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for system
           environmental controls; organizational personnel with
           information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Automated mechanisms supporting and/or implementing
           temperature and humidity levels
-    statement: >
+    statement: >-
       {{ pe_14_01_odp }} are employed in the facility to prevent
       fluctuations that are potentially harmful to the system.
 parameters:
   pe_14_01_odp:
     label: automatic environmental controls
-statement: >
+statement: >-
   Employ the following automatic environmental controls in the
   facility to prevent fluctuations potentially harmful to the
   system: {{ pe_14_01_odp }}.

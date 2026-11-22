@@ -19,7 +19,7 @@ objectives:
   - id: a.1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Incident response policy; procedures addressing incident
           response training; incident response training curriculum;
           incident response training materials; privacy plan;
@@ -27,11 +27,11 @@ objectives:
           records; system security plan; privacy plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with incident response training
           and operational responsibilities; organizational personnel
           with information security and privacy responsibilities
-    statement: >
+    statement: >-
       incident response training is provided to system users
       consistent with assigned roles and responsibilities within
       {{ ir_02_odp_01 }} of assuming an incident response role or
@@ -39,7 +39,7 @@ objectives:
   - id: a.2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Incident response policy; procedures addressing incident
           response training; incident response training curriculum;
           incident response training materials; privacy plan;
@@ -47,18 +47,18 @@ objectives:
           records; system security plan; privacy plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with incident response training
           and operational responsibilities; organizational personnel
           with information security and privacy responsibilities
-    statement: >
+    statement: >-
       incident response training is provided to system users
       consistent with assigned roles and responsibilities when
       required by system changes;
   - id: a.3
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Incident response policy; procedures addressing incident
           response training; incident response training curriculum;
           incident response training materials; privacy plan;
@@ -66,18 +66,18 @@ objectives:
           records; system security plan; privacy plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with incident response training
           and operational responsibilities; organizational personnel
           with information security and privacy responsibilities
-    statement: >
+    statement: >-
       incident response training is provided to system users
       consistent with assigned roles and responsibilities
       {{ ir_02_odp_02 }} thereafter;
   - id: b-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Incident response policy; procedures addressing incident
           response training; incident response training curriculum;
           incident response training materials; privacy plan;
@@ -85,7 +85,7 @@ objectives:
           records; system security plan; privacy plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with incident response training
           and operational responsibilities; organizational personnel
           with information security and privacy responsibilities
@@ -95,7 +95,7 @@ objectives:
   - id: b-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Incident response policy; procedures addressing incident
           response training; incident response training curriculum;
           incident response training materials; privacy plan;
@@ -103,11 +103,11 @@ objectives:
           records; system security plan; privacy plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with incident response training
           and operational responsibilities; organizational personnel
           with information security and privacy responsibilities
-    statement: >
+    statement: >-
       incident response training content is reviewed and updated
       following {{ ir_02_odp_04 }}.
 parameters:
@@ -121,11 +121,11 @@ parameters:
     label: events
 parts:
   - id: a
-    statement: >
+    statement: >-
       Provide incident response training to system users consistent
       with assigned roles and responsibilities:
   - id: a.1
-    statement: >
+    statement: >-
       Within {{ ir_02_odp_01 }} of assuming an incident response
       role or responsibility or acquiring system access;
   - id: a.2
@@ -133,6 +133,6 @@ parts:
   - id: a.3
     statement: "{{ ir_02_odp_02 }} thereafter; and"
   - id: b
-    statement: >
+    statement: >-
       Review and update incident response training content
       {{ ir_02_odp_03 }} and following {{ ir_02_odp_04 }}.

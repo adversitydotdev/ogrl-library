@@ -12,28 +12,28 @@ objectives:
   - id: _obj
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Physical and environmental protection policy; procedures
           addressing emergency power; uninterruptible power supply;
           uninterruptible power supply documentation;
           uninterruptible power supply test records; system security
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with the responsibility for
           emergency power and/or planning; organizational personnel
           with information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Mechanisms supporting and/or implementing an
           uninterruptible power supply; the uninterruptable power
           supply
-    statement: >
+    statement: >-
       an uninterruptible power supply is provided to facilitate
       {{ pe_11_odp }} in the event of a primary power source loss.
 parameters:
   pe_11_odp:
     label: pe-11_odp
-statement: >
+statement: >-
   Provide an uninterruptible power supply to facilitate
   {{ pe_11_odp }} in the event of a primary power source loss.

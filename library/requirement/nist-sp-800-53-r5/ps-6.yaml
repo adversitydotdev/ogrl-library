@@ -12,7 +12,7 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Personnel security policy; personnel security procedures;
           procedures addressing access agreements for organizational
           information and systems; access control policy; access
@@ -23,14 +23,14 @@ objectives:
           re-signing; system security plan; privacy plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with personnel security
           responsibilities; organizational personnel who have
           signed/resigned access agreements; organizational
           personnel with information security and privacy
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for reviewing, updating, and
           re-signing access agreements; mechanisms supporting the
           reviewing, updating, and re-signing of access agreements
@@ -40,7 +40,7 @@ objectives:
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Personnel security policy; personnel security procedures;
           procedures addressing access agreements for organizational
           information and systems; access control policy; access
@@ -51,14 +51,14 @@ objectives:
           re-signing; system security plan; privacy plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with personnel security
           responsibilities; organizational personnel who have
           signed/resigned access agreements; organizational
           personnel with information security and privacy
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for reviewing, updating, and
           re-signing access agreements; mechanisms supporting the
           reviewing, updating, and re-signing of access agreements
@@ -68,7 +68,7 @@ objectives:
   - id: c.1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Personnel security policy; personnel security procedures;
           procedures addressing access agreements for organizational
           information and systems; access control policy; access
@@ -79,25 +79,25 @@ objectives:
           re-signing; system security plan; privacy plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with personnel security
           responsibilities; organizational personnel who have
           signed/resigned access agreements; organizational
           personnel with information security and privacy
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for reviewing, updating, and
           re-signing access agreements; mechanisms supporting the
           reviewing, updating, and re-signing of access agreements
-    statement: >
+    statement: >-
       individuals requiring access to organizational information and
       systems sign appropriate access agreements prior to being
       granted access;
   - id: c.2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Personnel security policy; personnel security procedures;
           procedures addressing access agreements for organizational
           information and systems; access control policy; access
@@ -108,18 +108,18 @@ objectives:
           re-signing; system security plan; privacy plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with personnel security
           responsibilities; organizational personnel who have
           signed/resigned access agreements; organizational
           personnel with information security and privacy
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for reviewing, updating, and
           re-signing access agreements; mechanisms supporting the
           reviewing, updating, and re-signing of access agreements
-    statement: >
+    statement: >-
       individuals requiring access to organizational information and
       systems re-sign access agreements to maintain access to
       organizational systems when access agreements have been
@@ -139,7 +139,7 @@ parts:
       Review and update the access agreements {{ ps_06_odp_01 }} ;
       and
   - id: c
-    statement: >
+    statement: >-
       Verify that individuals requiring access to organizational
       information and systems:
   - id: c.1
@@ -147,7 +147,7 @@ parts:
       Sign appropriate access agreements prior to being granted
       access; and
   - id: c.2
-    statement: >
+    statement: >-
       Re-sign access agreements to maintain access to organizational
       systems when access agreements have been updated or
       {{ ps_06_odp_02 }}.

@@ -12,7 +12,7 @@ objectives:
   - id: "sr-02(01)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Supply chain risk management policy; supply chain risk
           management procedures; supply chain risk management team
           charter documentation; supply chain risk management
@@ -21,7 +21,7 @@ objectives:
           system security plan; privacy plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with acquisition
           responsibilities; organizational personnel with
           information security and privacy responsibilities;
@@ -30,7 +30,7 @@ objectives:
           risk management responsibilities; legal counsel;
           organizational personnel with business continuity
           responsibilities
-    statement: >
+    statement: >-
       a supply chain risk management team consisting of
       {{ sr_02_01_odp_01 }} is established to lead and support
       {{ sr_02_01_odp_02 }}.
@@ -39,7 +39,7 @@ parameters:
     label: "personnel, roles and responsibilities"
   sr_02_01_odp_02:
     label: supply chain risk management activities
-statement: >
+statement: >-
   Establish a supply chain risk management team consisting of
   {{ sr_02_01_odp_01 }} to lead and support the following SCRM
   activities: {{ sr_02_01_odp_02 }}.

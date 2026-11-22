@@ -12,7 +12,7 @@ objectives:
   - id: a-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; procedures addressing access
           enforcement; system design documentation; system
           configuration settings and associated documentation; list
@@ -23,7 +23,7 @@ objectives:
           control policies; system audit records; system security
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with access enforcement
           responsibilities; system/network administrators;
           organizational personnel with information security
@@ -32,13 +32,13 @@ objectives:
         statement: >-
           Mechanisms implementing mandatory and discretionary access
           control policy
-    statement: >
+    statement: >-
       {{ ac_03_15_odp_01 }} is enforced over the set of covered
       subjects specified in the policy;
   - id: a-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; procedures addressing access
           enforcement; system design documentation; system
           configuration settings and associated documentation; list
@@ -49,7 +49,7 @@ objectives:
           control policies; system audit records; system security
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with access enforcement
           responsibilities; system/network administrators;
           organizational personnel with information security
@@ -58,13 +58,13 @@ objectives:
         statement: >-
           Mechanisms implementing mandatory and discretionary access
           control policy
-    statement: >
+    statement: >-
       {{ ac_03_15_odp_02 }} is enforced over the set of covered
       objects specified in the policy;
   - id: b-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; procedures addressing access
           enforcement; system design documentation; system
           configuration settings and associated documentation; list
@@ -75,7 +75,7 @@ objectives:
           control policies; system audit records; system security
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with access enforcement
           responsibilities; system/network administrators;
           organizational personnel with information security
@@ -84,13 +84,13 @@ objectives:
         statement: >-
           Mechanisms implementing mandatory and discretionary access
           control policy
-    statement: >
+    statement: >-
       {{ ac_03_15_odp_03 }} is enforced over the set of covered
       subjects specified in the policy;
   - id: b-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; procedures addressing access
           enforcement; system design documentation; system
           configuration settings and associated documentation; list
@@ -101,7 +101,7 @@ objectives:
           control policies; system audit records; system security
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with access enforcement
           responsibilities; system/network administrators;
           organizational personnel with information security
@@ -110,7 +110,7 @@ objectives:
         statement: >-
           Mechanisms implementing mandatory and discretionary access
           control policy
-    statement: >
+    statement: >-
       {{ ac_03_15_odp_04 }} is enforced over the set of covered
       objects specified in the policy.
 parameters:
@@ -128,10 +128,10 @@ parameters:
     label: organization-defined discretionary access control policy
 parts:
   - id: a
-    statement: >
+    statement: >-
       Enforce {{ ac_3_15_prm_1 }} over the set of covered subjects
       and objects specified in the policy; and
   - id: b
-    statement: >
+    statement: >-
       Enforce {{ ac_3_15_prm_2 }} over the set of covered subjects
       and objects specified in the policy.

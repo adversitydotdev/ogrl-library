@@ -28,7 +28,7 @@ objectives:
   - id: a-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; procedures addressing the
           association of security and privacy attributes to
           information in storage, in process, and in transmission;
@@ -37,23 +37,23 @@ objectives:
           security plan; privacy plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security and privacy responsibilities;
           system developers
       - method: test
-        statement: >
+        statement: >-
           Organizational capability supporting and maintaining the
           association of security and privacy attributes to
           information in storage, in process, and in transmission
-    statement: >
+    statement: >-
       the means to associate {{ ac_16_odp_01 }} with
       {{ ac_16_odp_03 }} for information in storage, in process,
       and/or in transmission are provided;
   - id: a-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; procedures addressing the
           association of security and privacy attributes to
           information in storage, in process, and in transmission;
@@ -62,23 +62,23 @@ objectives:
           security plan; privacy plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security and privacy responsibilities;
           system developers
       - method: test
-        statement: >
+        statement: >-
           Organizational capability supporting and maintaining the
           association of security and privacy attributes to
           information in storage, in process, and in transmission
-    statement: >
+    statement: >-
       the means to associate {{ ac_16_odp_02 }} with
       {{ ac_16_odp_04 }} for information in storage, in process,
       and/or in transmission are provided;
   - id: b-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; procedures addressing the
           association of security and privacy attributes to
           information in storage, in process, and in transmission;
@@ -87,12 +87,12 @@ objectives:
           security plan; privacy plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security and privacy responsibilities;
           system developers
       - method: test
-        statement: >
+        statement: >-
           Organizational capability supporting and maintaining the
           association of security and privacy attributes to
           information in storage, in process, and in transmission
@@ -100,7 +100,7 @@ objectives:
   - id: b-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; procedures addressing the
           association of security and privacy attributes to
           information in storage, in process, and in transmission;
@@ -109,12 +109,12 @@ objectives:
           security plan; privacy plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security and privacy responsibilities;
           system developers
       - method: test
-        statement: >
+        statement: >-
           Organizational capability supporting and maintaining the
           association of security and privacy attributes to
           information in storage, in process, and in transmission
@@ -123,7 +123,7 @@ objectives:
   - id: c-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; procedures addressing the
           association of security and privacy attributes to
           information in storage, in process, and in transmission;
@@ -132,23 +132,23 @@ objectives:
           security plan; privacy plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security and privacy responsibilities;
           system developers
       - method: test
-        statement: >
+        statement: >-
           Organizational capability supporting and maintaining the
           association of security and privacy attributes to
           information in storage, in process, and in transmission
-    statement: >
+    statement: >-
       the following permitted security attributes are established
       from the attributes defined in AC-16_ODP[01] for
       {{ ac_16_odp_05 }}: {{ ac_16_odp_07 }};
   - id: c-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; procedures addressing the
           association of security and privacy attributes to
           information in storage, in process, and in transmission;
@@ -157,23 +157,23 @@ objectives:
           security plan; privacy plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security and privacy responsibilities;
           system developers
       - method: test
-        statement: >
+        statement: >-
           Organizational capability supporting and maintaining the
           association of security and privacy attributes to
           information in storage, in process, and in transmission
-    statement: >
+    statement: >-
       the following permitted privacy attributes are established
       from the attributes defined in AC-16_ODP[02] for
       {{ ac_16_odp_06 }}: {{ ac_16_odp_08 }};
   - id: d
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; procedures addressing the
           association of security and privacy attributes to
           information in storage, in process, and in transmission;
@@ -182,22 +182,22 @@ objectives:
           security plan; privacy plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security and privacy responsibilities;
           system developers
       - method: test
-        statement: >
+        statement: >-
           Organizational capability supporting and maintaining the
           association of security and privacy attributes to
           information in storage, in process, and in transmission
-    statement: >
+    statement: >-
       the following permitted attribute values or ranges for each of
       the established attributes are determined: {{ ac_16_odp_09 }};
   - id: e
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; procedures addressing the
           association of security and privacy attributes to
           information in storage, in process, and in transmission;
@@ -206,12 +206,12 @@ objectives:
           security plan; privacy plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security and privacy responsibilities;
           system developers
       - method: test
-        statement: >
+        statement: >-
           Organizational capability supporting and maintaining the
           association of security and privacy attributes to
           information in storage, in process, and in transmission
@@ -219,7 +219,7 @@ objectives:
   - id: f-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; procedures addressing the
           association of security and privacy attributes to
           information in storage, in process, and in transmission;
@@ -228,12 +228,12 @@ objectives:
           security plan; privacy plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security and privacy responsibilities;
           system developers
       - method: test
-        statement: >
+        statement: >-
           Organizational capability supporting and maintaining the
           association of security and privacy attributes to
           information in storage, in process, and in transmission
@@ -243,7 +243,7 @@ objectives:
   - id: f-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; procedures addressing the
           association of security and privacy attributes to
           information in storage, in process, and in transmission;
@@ -252,12 +252,12 @@ objectives:
           security plan; privacy plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security and privacy responsibilities;
           system developers
       - method: test
-        statement: >
+        statement: >-
           Organizational capability supporting and maintaining the
           association of security and privacy attributes to
           information in storage, in process, and in transmission
@@ -303,22 +303,22 @@ parameters:
     label: organization-defined frequency
 parts:
   - id: a
-    statement: >
+    statement: >-
       Provide the means to associate {{ ac_16_prm_1 }} with
       {{ ac_16_prm_2 }} for information in storage, in process,
       and/or in transmission;
   - id: b
-    statement: >
+    statement: >-
       Ensure that the attribute associations are made and retained
       with the information;
   - id: c
-    statement: >
+    statement: >-
       Establish the following permitted security and privacy
       attributes from the attributes defined in
       [AC-16a](#ac-16_smt.a) for {{ ac_16_prm_3 }}:
       {{ ac_16_prm_4 }};
   - id: d
-    statement: >
+    statement: >-
       Determine the following permitted attribute values or ranges
       for each of the established attributes: {{ ac_16_odp_09 }};
   - id: e

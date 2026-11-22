@@ -16,7 +16,7 @@ objectives:
   - id: _obj
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Physical and environmental protection policy; procedures
           addressing information leakage due to electromagnetic
           signal emanations; mechanisms protecting the system
@@ -25,18 +25,18 @@ objectives:
           tests; system security plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for system
           environmental controls; organizational personnel with
           information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Mechanisms supporting and/or implementing protection from
           information leakage due to electromagnetic signal
           emanations
-    statement: >
+    statement: >-
       the system is protected from information leakage due to
       electromagnetic signal emanations.
-statement: >
+statement: >-
   Protect the system from information leakage due to electromagnetic
   signals emanations.

@@ -12,7 +12,7 @@ objectives:
   - id: "au-09(04)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Audit and accountability policy; system security plan;
           privacy plan; access control policy and procedures;
           procedures addressing protection of audit information;
@@ -22,19 +22,19 @@ objectives:
           functionality; access authorizations; access control list;
           system audit records; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with audit and accountability
           responsibilities; organizational personnel with
           information security and privacy responsibilities;
           system/network administrators
       - method: test
         statement: Mechanisms managing access to audit functionality
-    statement: >
+    statement: >-
       access to management of audit logging functionality is
       authorized only to {{ au_09_04_odp }}.
 parameters:
   au_09_04_odp:
     label: subset of privileged users or roles
-statement: >
+statement: >-
   Authorize access to management of audit logging functionality to
   only {{ au_09_04_odp }}.

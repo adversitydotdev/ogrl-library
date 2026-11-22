@@ -12,7 +12,7 @@ objectives:
   - id: "cp-02(06).cp-02(06)[01]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Contingency planning policy; procedures addressing
           contingency operations for the system; contingency plan;
           business impact assessment; alternate processing site
@@ -20,25 +20,25 @@ objectives:
           plan testing documentation; contingency plan test results;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with contingency planning and
           plan implementation responsibilities; organizational
           personnel with knowledge of requirements for mission and
           business functions; organizational personnel with
           information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for transfer of essential mission
           and business functions to alternate processing/storage
           sites
-    statement: >
+    statement: >-
       the transfer of {{ cp_02_06_odp }} mission and business
       functions to alternate processing and/or storage sites with
       minimal or no loss of operational continuity is planned for;
   - id: "cp-02(06).cp-02(06)[02]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Contingency planning policy; procedures addressing
           contingency operations for the system; contingency plan;
           business impact assessment; alternate processing site
@@ -46,24 +46,24 @@ objectives:
           plan testing documentation; contingency plan test results;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with contingency planning and
           plan implementation responsibilities; organizational
           personnel with knowledge of requirements for mission and
           business functions; organizational personnel with
           information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for transfer of essential mission
           and business functions to alternate processing/storage
           sites
-    statement: >
+    statement: >-
       operational continuity is sustained until full system
       restoration at primary processing and/or storage sites.
 parameters:
   cp_02_06_odp:
     label: cp-02.06_odp
-statement: >
+statement: >-
   Plan for the transfer of {{ cp_02_06_odp }} mission and business
   functions to alternate processing and/or storage sites with
   minimal or no loss of operational continuity and sustain that

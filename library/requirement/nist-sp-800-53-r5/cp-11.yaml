@@ -12,7 +12,7 @@ objectives:
   - id: _obj
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Contingency planning policy; procedures addressing
           alternative communications protocols; contingency plan;
           continuity of operations plan; system design
@@ -22,7 +22,7 @@ objectives:
           operations; system security plan; other relevant documents
           or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with contingency planning and
           plan implementation responsibilities; organizational
           personnel with continuity of operations planning and plan
@@ -32,12 +32,12 @@ objectives:
       - method: test
         statement: >-
           Mechanisms employing alternative communications protocols
-    statement: >
+    statement: >-
       the capability to employ {{ cp_11_odp }} are provided in
       support of maintaining continuity of operations.
 parameters:
   cp_11_odp:
     label: alternative communications protocols
-statement: >
+statement: >-
   Provide the capability to employ {{ cp_11_odp }} in support of
   maintaining continuity of operations.

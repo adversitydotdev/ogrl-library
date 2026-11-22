@@ -14,7 +14,7 @@ objectives:
   - id: "si-12(02).si-12(02)[01]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; personally identifiable
           information processing policy; personally identifiable
@@ -34,27 +34,27 @@ objectives:
           assessment documentation; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with information and records
           management, retention, and disposition responsibilities;
           organizational personnel with information security and
           privacy responsibilities; network administrators; system
           developers; personnel with IRB responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for the minimization of
           personally identifiable information used in testing,
           training, and research; automated mechanisms supporting
           and/or implementing the minimization of personally
           identifiable information used in testing, training, and
           research
-    statement: >
+    statement: >-
       {{ si_12_02_odp_01 }} are used to minimize the use of
       personally identifiable information for research;
   - id: "si-12(02).si-12(02)[02]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; personally identifiable
           information processing policy; personally identifiable
@@ -74,27 +74,27 @@ objectives:
           assessment documentation; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with information and records
           management, retention, and disposition responsibilities;
           organizational personnel with information security and
           privacy responsibilities; network administrators; system
           developers; personnel with IRB responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for the minimization of
           personally identifiable information used in testing,
           training, and research; automated mechanisms supporting
           and/or implementing the minimization of personally
           identifiable information used in testing, training, and
           research
-    statement: >
+    statement: >-
       {{ si_12_02_odp_02 }} are used to minimize the use of
       personally identifiable information for testing;
   - id: "si-12(02).si-12(02)[03]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; personally identifiable
           information processing policy; personally identifiable
@@ -114,21 +114,21 @@ objectives:
           assessment documentation; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with information and records
           management, retention, and disposition responsibilities;
           organizational personnel with information security and
           privacy responsibilities; network administrators; system
           developers; personnel with IRB responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for the minimization of
           personally identifiable information used in testing,
           training, and research; automated mechanisms supporting
           and/or implementing the minimization of personally
           identifiable information used in testing, training, and
           research
-    statement: >
+    statement: >-
       {{ si_12_02_odp_03 }} are used to minimize the use of
       personally identifiable information for training.
 parameters:
@@ -140,7 +140,7 @@ parameters:
     label: techniques
   si_12_2_prm_1:
     label: organization-defined techniques
-statement: >
+statement: >-
   Use the following techniques to minimize the use of personally
   identifiable information for research, testing, or training:
   {{ si_12_2_prm_1 }}.

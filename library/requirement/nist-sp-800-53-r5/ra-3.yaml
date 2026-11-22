@@ -34,7 +34,7 @@ objectives:
   - id: a.1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Risk assessment policy; risk assessment procedures;
           security and privacy planning policy and procedures;
           procedures addressing organizational assessments of risk;
@@ -42,22 +42,22 @@ objectives:
           reviews; risk assessment updates; system security plan;
           privacy plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with risk assessment
           responsibilities; organizational personnel with security
           and privacy responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for risk assessment; mechanisms
           supporting and/or conducting, documenting, reviewing,
           disseminating, and updating the risk assessment
-    statement: >
+    statement: >-
       a risk assessment is conducted to identify threats to and
       vulnerabilities in the system;
   - id: a.2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Risk assessment policy; risk assessment procedures;
           security and privacy planning policy and procedures;
           procedures addressing organizational assessments of risk;
@@ -65,16 +65,16 @@ objectives:
           reviews; risk assessment updates; system security plan;
           privacy plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with risk assessment
           responsibilities; organizational personnel with security
           and privacy responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for risk assessment; mechanisms
           supporting and/or conducting, documenting, reviewing,
           disseminating, and updating the risk assessment
-    statement: >
+    statement: >-
       a risk assessment is conducted to determine the likelihood and
       magnitude of harm from unauthorized access, use, disclosure,
       disruption, modification, or destruction of the system; the
@@ -83,7 +83,7 @@ objectives:
   - id: a.3
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Risk assessment policy; risk assessment procedures;
           security and privacy planning policy and procedures;
           procedures addressing organizational assessments of risk;
@@ -91,23 +91,23 @@ objectives:
           reviews; risk assessment updates; system security plan;
           privacy plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with risk assessment
           responsibilities; organizational personnel with security
           and privacy responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for risk assessment; mechanisms
           supporting and/or conducting, documenting, reviewing,
           disseminating, and updating the risk assessment
-    statement: >
+    statement: >-
       a risk assessment is conducted to determine the likelihood and
       impact of adverse effects on individuals arising from the
       processing of personally identifiable information;
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Risk assessment policy; risk assessment procedures;
           security and privacy planning policy and procedures;
           procedures addressing organizational assessments of risk;
@@ -115,23 +115,23 @@ objectives:
           reviews; risk assessment updates; system security plan;
           privacy plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with risk assessment
           responsibilities; organizational personnel with security
           and privacy responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for risk assessment; mechanisms
           supporting and/or conducting, documenting, reviewing,
           disseminating, and updating the risk assessment
-    statement: >
+    statement: >-
       risk assessment results and risk management decisions from the
       organization and mission or business process perspectives are
       integrated with system-level risk assessments;
   - id: c
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Risk assessment policy; risk assessment procedures;
           security and privacy planning policy and procedures;
           procedures addressing organizational assessments of risk;
@@ -139,12 +139,12 @@ objectives:
           reviews; risk assessment updates; system security plan;
           privacy plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with risk assessment
           responsibilities; organizational personnel with security
           and privacy responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for risk assessment; mechanisms
           supporting and/or conducting, documenting, reviewing,
           disseminating, and updating the risk assessment
@@ -153,7 +153,7 @@ objectives:
   - id: d
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Risk assessment policy; risk assessment procedures;
           security and privacy planning policy and procedures;
           procedures addressing organizational assessments of risk;
@@ -161,12 +161,12 @@ objectives:
           reviews; risk assessment updates; system security plan;
           privacy plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with risk assessment
           responsibilities; organizational personnel with security
           and privacy responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for risk assessment; mechanisms
           supporting and/or conducting, documenting, reviewing,
           disseminating, and updating the risk assessment
@@ -175,7 +175,7 @@ objectives:
   - id: e
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Risk assessment policy; risk assessment procedures;
           security and privacy planning policy and procedures;
           procedures addressing organizational assessments of risk;
@@ -183,12 +183,12 @@ objectives:
           reviews; risk assessment updates; system security plan;
           privacy plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with risk assessment
           responsibilities; organizational personnel with security
           and privacy responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for risk assessment; mechanisms
           supporting and/or conducting, documenting, reviewing,
           disseminating, and updating the risk assessment
@@ -198,7 +198,7 @@ objectives:
   - id: f
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Risk assessment policy; risk assessment procedures;
           security and privacy planning policy and procedures;
           procedures addressing organizational assessments of risk;
@@ -206,16 +206,16 @@ objectives:
           reviews; risk assessment updates; system security plan;
           privacy plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with risk assessment
           responsibilities; organizational personnel with security
           and privacy responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for risk assessment; mechanisms
           supporting and/or conducting, documenting, reviewing,
           disseminating, and updating the risk assessment
-    statement: >
+    statement: >-
       the risk assessment is updated {{ ra_03_odp_05 }} or when
       there are significant changes to the system, its environment
       of operation, or other conditions that may impact the security
@@ -238,19 +238,19 @@ parts:
     statement: >-
       Identifying threats to and vulnerabilities in the system;
   - id: a.2
-    statement: >
+    statement: >-
       Determining the likelihood and magnitude of harm from
       unauthorized access, use, disclosure, disruption,
       modification, or destruction of the system, the information it
       processes, stores, or transmits, and any related information;
       and
   - id: a.3
-    statement: >
+    statement: >-
       Determining the likelihood and impact of adverse effects on
       individuals arising from the processing of personally
       identifiable information;
   - id: b
-    statement: >
+    statement: >-
       Integrate risk assessment results and risk management
       decisions from the organization and mission or business
       process perspectives with system-level risk assessments;
@@ -264,7 +264,7 @@ parts:
       Disseminate risk assessment results to {{ ra_03_odp_04 }} ;
       and
   - id: f
-    statement: >
+    statement: >-
       Update the risk assessment {{ ra_03_odp_05 }} or when there
       are significant changes to the system, its environment of
       operation, or other conditions that may impact the security or

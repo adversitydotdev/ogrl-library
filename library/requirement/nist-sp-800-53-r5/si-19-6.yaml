@@ -12,7 +12,7 @@ objectives:
   - id: "si-19(06)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; personally identifiable
           information processing policy; de-identification
@@ -21,19 +21,19 @@ objectives:
           plan; privacy impact assessment; privacy risk assessment
           documentation; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel responsible for de-identifying
           the dataset; organizational personnel with information
           security and privacy responsibilities
       - method: test
-        statement: >
+        statement: >-
           Online query systems; automated mechanisms supporting
           and/or implementing differential privacy
-    statement: >
+    statement: >-
       the disclosure of personally identifiable information is
       prevented by adding non-deterministic noise to the results of
       mathematical operations before the results are reported.
-statement: >
+statement: >-
   Prevent disclosure of personally identifiable information by
   adding non-deterministic noise to the results of mathematical
   operations before the results are reported.

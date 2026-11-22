@@ -52,7 +52,7 @@ objectives:
   - id: b.01
     methods:
       - method: examine
-        statement: >
+        statement: >-
           access control policy and procedures; personnel
           termination or transfer policies and procedures;
           procedures for account management; list of active system
@@ -71,21 +71,21 @@ objectives:
           disabled; system-generated list of disabled accounts;
           other relevant documents and records
       - method: interview
-        statement: >
+        statement: >-
           personnel with account management responsibilities; system
           administrators; personnel with information security
           responsibilities; system developers
       - method: test
-        statement: >
+        statement: >-
           processes for account management on the system; mechanisms
           for implementing account management
-    statement: >
+    statement: >-
       system accounts are created in accordance with organizational
       policy, procedures, prerequisites, and criteria.
   - id: b.02
     methods:
       - method: examine
-        statement: >
+        statement: >-
           access control policy and procedures; personnel
           termination or transfer policies and procedures;
           procedures for account management; list of active system
@@ -104,21 +104,21 @@ objectives:
           disabled; system-generated list of disabled accounts;
           other relevant documents and records
       - method: interview
-        statement: >
+        statement: >-
           personnel with account management responsibilities; system
           administrators; personnel with information security
           responsibilities; system developers
       - method: test
-        statement: >
+        statement: >-
           processes for account management on the system; mechanisms
           for implementing account management
-    statement: >
+    statement: >-
       system accounts are enabled in accordance with organizational
       policy, procedures, prerequisites, and criteria.
   - id: b.03
     methods:
       - method: examine
-        statement: >
+        statement: >-
           access control policy and procedures; personnel
           termination or transfer policies and procedures;
           procedures for account management; list of active system
@@ -137,21 +137,21 @@ objectives:
           disabled; system-generated list of disabled accounts;
           other relevant documents and records
       - method: interview
-        statement: >
+        statement: >-
           personnel with account management responsibilities; system
           administrators; personnel with information security
           responsibilities; system developers
       - method: test
-        statement: >
+        statement: >-
           processes for account management on the system; mechanisms
           for implementing account management
-    statement: >
+    statement: >-
       system accounts are modified in accordance with organizational
       policy, procedures, prerequisites, and criteria.
   - id: b.04
     methods:
       - method: examine
-        statement: >
+        statement: >-
           access control policy and procedures; personnel
           termination or transfer policies and procedures;
           procedures for account management; list of active system
@@ -170,21 +170,21 @@ objectives:
           disabled; system-generated list of disabled accounts;
           other relevant documents and records
       - method: interview
-        statement: >
+        statement: >-
           personnel with account management responsibilities; system
           administrators; personnel with information security
           responsibilities; system developers
       - method: test
-        statement: >
+        statement: >-
           processes for account management on the system; mechanisms
           for implementing account management
-    statement: >
+    statement: >-
       system accounts are disabled in accordance with organizational
       policy, procedures, prerequisites, and criteria.
   - id: b.05
     methods:
       - method: examine
-        statement: >
+        statement: >-
           access control policy and procedures; personnel
           termination or transfer policies and procedures;
           procedures for account management; list of active system
@@ -203,21 +203,21 @@ objectives:
           disabled; system-generated list of disabled accounts;
           other relevant documents and records
       - method: interview
-        statement: >
+        statement: >-
           personnel with account management responsibilities; system
           administrators; personnel with information security
           responsibilities; system developers
       - method: test
-        statement: >
+        statement: >-
           processes for account management on the system; mechanisms
           for implementing account management
-    statement: >
+    statement: >-
       system accounts are removed in accordance with organizational
       policy, procedures, prerequisites, and criteria.
   - id: a.01
     methods:
       - method: examine
-        statement: >
+        statement: >-
           access control policy and procedures; personnel
           termination or transfer policies and procedures;
           procedures for account management; list of active system
@@ -236,19 +236,19 @@ objectives:
           disabled; system-generated list of disabled accounts;
           other relevant documents and records
       - method: interview
-        statement: >
+        statement: >-
           personnel with account management responsibilities; system
           administrators; personnel with information security
           responsibilities; system developers
       - method: test
-        statement: >
+        statement: >-
           processes for account management on the system; mechanisms
           for implementing account management
     statement: system account types allowed are defined.
   - id: a.02
     methods:
       - method: examine
-        statement: >
+        statement: >-
           access control policy and procedures; personnel
           termination or transfer policies and procedures;
           procedures for account management; list of active system
@@ -267,19 +267,19 @@ objectives:
           disabled; system-generated list of disabled accounts;
           other relevant documents and records
       - method: interview
-        statement: >
+        statement: >-
           personnel with account management responsibilities; system
           administrators; personnel with information security
           responsibilities; system developers
       - method: test
-        statement: >
+        statement: >-
           processes for account management on the system; mechanisms
           for implementing account management
     statement: system account types prohibited are defined.
   - id: c.01
     methods:
       - method: examine
-        statement: >
+        statement: >-
           access control policy and procedures; personnel
           termination or transfer policies and procedures;
           procedures for account management; list of active system
@@ -298,19 +298,19 @@ objectives:
           disabled; system-generated list of disabled accounts;
           other relevant documents and records
       - method: interview
-        statement: >
+        statement: >-
           personnel with account management responsibilities; system
           administrators; personnel with information security
           responsibilities; system developers
       - method: test
-        statement: >
+        statement: >-
           processes for account management on the system; mechanisms
           for implementing account management
     statement: authorized users of the system are specified.
   - id: c.02
     methods:
       - method: examine
-        statement: >
+        statement: >-
           access control policy and procedures; personnel
           termination or transfer policies and procedures;
           procedures for account management; list of active system
@@ -329,19 +329,19 @@ objectives:
           disabled; system-generated list of disabled accounts;
           other relevant documents and records
       - method: interview
-        statement: >
+        statement: >-
           personnel with account management responsibilities; system
           administrators; personnel with information security
           responsibilities; system developers
       - method: test
-        statement: >
+        statement: >-
           processes for account management on the system; mechanisms
           for implementing account management
     statement: group and role memberships are specified.
   - id: c.03
     methods:
       - method: examine
-        statement: >
+        statement: >-
           access control policy and procedures; personnel
           termination or transfer policies and procedures;
           procedures for account management; list of active system
@@ -360,12 +360,12 @@ objectives:
           disabled; system-generated list of disabled accounts;
           other relevant documents and records
       - method: interview
-        statement: >
+        statement: >-
           personnel with account management responsibilities; system
           administrators; personnel with information security
           responsibilities; system developers
       - method: test
-        statement: >
+        statement: >-
           processes for account management on the system; mechanisms
           for implementing account management
     statement: >-
@@ -374,7 +374,7 @@ objectives:
   - id: d.01
     methods:
       - method: examine
-        statement: >
+        statement: >-
           access control policy and procedures; personnel
           termination or transfer policies and procedures;
           procedures for account management; list of active system
@@ -393,12 +393,12 @@ objectives:
           disabled; system-generated list of disabled accounts;
           other relevant documents and records
       - method: interview
-        statement: >
+        statement: >-
           personnel with account management responsibilities; system
           administrators; personnel with information security
           responsibilities; system developers
       - method: test
-        statement: >
+        statement: >-
           processes for account management on the system; mechanisms
           for implementing account management
     statement: >-
@@ -407,7 +407,7 @@ objectives:
   - id: d.02
     methods:
       - method: examine
-        statement: >
+        statement: >-
           access control policy and procedures; personnel
           termination or transfer policies and procedures;
           procedures for account management; list of active system
@@ -426,12 +426,12 @@ objectives:
           disabled; system-generated list of disabled accounts;
           other relevant documents and records
       - method: interview
-        statement: >
+        statement: >-
           personnel with account management responsibilities; system
           administrators; personnel with information security
           responsibilities; system developers
       - method: test
-        statement: >
+        statement: >-
           processes for account management on the system; mechanisms
           for implementing account management
     statement: >-
@@ -440,7 +440,7 @@ objectives:
   - id: e
     methods:
       - method: examine
-        statement: >
+        statement: >-
           access control policy and procedures; personnel
           termination or transfer policies and procedures;
           procedures for account management; list of active system
@@ -459,19 +459,19 @@ objectives:
           disabled; system-generated list of disabled accounts;
           other relevant documents and records
       - method: interview
-        statement: >
+        statement: >-
           personnel with account management responsibilities; system
           administrators; personnel with information security
           responsibilities; system developers
       - method: test
-        statement: >
+        statement: >-
           processes for account management on the system; mechanisms
           for implementing account management
     statement: the use of system accounts is monitored.
   - id: f.01
     methods:
       - method: examine
-        statement: >
+        statement: >-
           access control policy and procedures; personnel
           termination or transfer policies and procedures;
           procedures for account management; list of active system
@@ -490,12 +490,12 @@ objectives:
           disabled; system-generated list of disabled accounts;
           other relevant documents and records
       - method: interview
-        statement: >
+        statement: >-
           personnel with account management responsibilities; system
           administrators; personnel with information security
           responsibilities; system developers
       - method: test
-        statement: >
+        statement: >-
           processes for account management on the system; mechanisms
           for implementing account management
     statement: >-
@@ -503,7 +503,7 @@ objectives:
   - id: f.02
     methods:
       - method: examine
-        statement: >
+        statement: >-
           access control policy and procedures; personnel
           termination or transfer policies and procedures;
           procedures for account management; list of active system
@@ -522,21 +522,21 @@ objectives:
           disabled; system-generated list of disabled accounts;
           other relevant documents and records
       - method: interview
-        statement: >
+        statement: >-
           personnel with account management responsibilities; system
           administrators; personnel with information security
           responsibilities; system developers
       - method: test
-        statement: >
+        statement: >-
           processes for account management on the system; mechanisms
           for implementing account management
-    statement: >
+    statement: >-
       system accounts are disabled when the accounts have been
       inactive for {{ a_03_01_01_odp_01 }}.
   - id: f.03
     methods:
       - method: examine
-        statement: >
+        statement: >-
           access control policy and procedures; personnel
           termination or transfer policies and procedures;
           procedures for account management; list of active system
@@ -555,21 +555,21 @@ objectives:
           disabled; system-generated list of disabled accounts;
           other relevant documents and records
       - method: interview
-        statement: >
+        statement: >-
           personnel with account management responsibilities; system
           administrators; personnel with information security
           responsibilities; system developers
       - method: test
-        statement: >
+        statement: >-
           processes for account management on the system; mechanisms
           for implementing account management
-    statement: >
+    statement: >-
       system accounts are disabled when the accounts are no longer
       associated with a user or individual.
   - id: f.04
     methods:
       - method: examine
-        statement: >
+        statement: >-
           access control policy and procedures; personnel
           termination or transfer policies and procedures;
           procedures for account management; list of active system
@@ -588,12 +588,12 @@ objectives:
           disabled; system-generated list of disabled accounts;
           other relevant documents and records
       - method: interview
-        statement: >
+        statement: >-
           personnel with account management responsibilities; system
           administrators; personnel with information security
           responsibilities; system developers
       - method: test
-        statement: >
+        statement: >-
           processes for account management on the system; mechanisms
           for implementing account management
     statement: >-
@@ -602,7 +602,7 @@ objectives:
   - id: g.01
     methods:
       - method: examine
-        statement: >
+        statement: >-
           access control policy and procedures; personnel
           termination or transfer policies and procedures;
           procedures for account management; list of active system
@@ -621,22 +621,22 @@ objectives:
           disabled; system-generated list of disabled accounts;
           other relevant documents and records
       - method: interview
-        statement: >
+        statement: >-
           personnel with account management responsibilities; system
           administrators; personnel with information security
           responsibilities; system developers
       - method: test
-        statement: >
+        statement: >-
           processes for account management on the system; mechanisms
           for implementing account management
-    statement: >
+    statement: >-
       account managers and designated personnel or roles are
       notified within {{ a_03_01_01_odp_02 }} when accounts are no
       longer required.
   - id: g.02
     methods:
       - method: examine
-        statement: >
+        statement: >-
           access control policy and procedures; personnel
           termination or transfer policies and procedures;
           procedures for account management; list of active system
@@ -655,22 +655,22 @@ objectives:
           disabled; system-generated list of disabled accounts;
           other relevant documents and records
       - method: interview
-        statement: >
+        statement: >-
           personnel with account management responsibilities; system
           administrators; personnel with information security
           responsibilities; system developers
       - method: test
-        statement: >
+        statement: >-
           processes for account management on the system; mechanisms
           for implementing account management
-    statement: >
+    statement: >-
       account managers and designated personnel or roles are
       notified within {{ a_03_01_01_odp_03 }} when users are
       terminated or transferred.
   - id: g.03
     methods:
       - method: examine
-        statement: >
+        statement: >-
           access control policy and procedures; personnel
           termination or transfer policies and procedures;
           procedures for account management; list of active system
@@ -689,22 +689,22 @@ objectives:
           disabled; system-generated list of disabled accounts;
           other relevant documents and records
       - method: interview
-        statement: >
+        statement: >-
           personnel with account management responsibilities; system
           administrators; personnel with information security
           responsibilities; system developers
       - method: test
-        statement: >
+        statement: >-
           processes for account management on the system; mechanisms
           for implementing account management
-    statement: >
+    statement: >-
       account managers and designated personnel or roles are
       notified within {{ a_03_01_01_odp_04 }} when system usage or
       the need-to-know changes for an individual.
   - id: f.05
     methods:
       - method: examine
-        statement: >
+        statement: >-
           access control policy and procedures; personnel
           termination or transfer policies and procedures;
           procedures for account management; list of active system
@@ -723,21 +723,21 @@ objectives:
           disabled; system-generated list of disabled accounts;
           other relevant documents and records
       - method: interview
-        statement: >
+        statement: >-
           personnel with account management responsibilities; system
           administrators; personnel with information security
           responsibilities; system developers
       - method: test
-        statement: >
+        statement: >-
           processes for account management on the system; mechanisms
           for implementing account management
-    statement: >
+    statement: >-
       system accounts are disabled when significant risks associated
       with individuals are discovered.
   - id: h
     methods:
       - method: examine
-        statement: >
+        statement: >-
           access control policy and procedures; personnel
           termination or transfer policies and procedures;
           procedures for account management; list of active system
@@ -756,15 +756,15 @@ objectives:
           disabled; system-generated list of disabled accounts;
           other relevant documents and records
       - method: interview
-        statement: >
+        statement: >-
           personnel with account management responsibilities; system
           administrators; personnel with information security
           responsibilities; system developers
       - method: test
-        statement: >
+        statement: >-
           processes for account management on the system; mechanisms
           for implementing account management
-    statement: >
+    statement: >-
       users are required to log out of the system after
       {{ a_03_01_01_odp_05 }} of expected inactivity or when the
       following circumstances occur: {{ a_03_01_01_odp_06 }}.
@@ -786,7 +786,7 @@ parts:
     statement: >-
       Define the types of system accounts allowed and prohibited.
   - id: b
-    statement: >
+    statement: >-
       Create, enable, modify, disable, and remove system accounts in
       accordance with policy, procedures, prerequisites, and
       criteria.
@@ -836,11 +836,11 @@ parts:
       {{ a_03_01_01_odp_03 }} when users are terminated or
       transferred.
   - id: g.03
-    statement: >
+    statement: >-
       {{ a_03_01_01_odp_04 }} when system usage or the need-to-know
       changes for an individual.
   - id: h
-    statement: >
+    statement: >-
       Require that users log out of the system after
       {{ a_03_01_01_odp_05 }} of expected inactivity or when
       {{ a_03_01_01_odp_06 }}.

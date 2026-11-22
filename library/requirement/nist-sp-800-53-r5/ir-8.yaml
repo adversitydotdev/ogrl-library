@@ -22,13 +22,13 @@ objectives:
   - id: a.1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Incident response policy; procedures addressing incident
           response planning; incident response plan; system security
           plan; privacy plan; records of incident response plan
           reviews and approvals; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with incident response planning
           responsibilities; organizational personnel with
           information security and privacy responsibilities
@@ -36,20 +36,20 @@ objectives:
         statement: >-
           Organizational incident response plan and related
           organizational processes
-    statement: >
+    statement: >-
       an incident response plan is developed that provides the
       organization with a roadmap for implementing its incident
       response capability;
   - id: a.2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Incident response policy; procedures addressing incident
           response planning; incident response plan; system security
           plan; privacy plan; records of incident response plan
           reviews and approvals; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with incident response planning
           responsibilities; organizational personnel with
           information security and privacy responsibilities
@@ -57,20 +57,20 @@ objectives:
         statement: >-
           Organizational incident response plan and related
           organizational processes
-    statement: >
+    statement: >-
       an incident response plan is developed that describes the
       structure and organization of the incident response
       capability;
   - id: a.3
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Incident response policy; procedures addressing incident
           response planning; incident response plan; system security
           plan; privacy plan; records of incident response plan
           reviews and approvals; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with incident response planning
           responsibilities; organizational personnel with
           information security and privacy responsibilities
@@ -78,20 +78,20 @@ objectives:
         statement: >-
           Organizational incident response plan and related
           organizational processes
-    statement: >
+    statement: >-
       an incident response plan is developed that provides a
       high-level approach for how the incident response capability
       fits into the overall organization;
   - id: a.4
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Incident response policy; procedures addressing incident
           response planning; incident response plan; system security
           plan; privacy plan; records of incident response plan
           reviews and approvals; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with incident response planning
           responsibilities; organizational personnel with
           information security and privacy responsibilities
@@ -99,20 +99,20 @@ objectives:
         statement: >-
           Organizational incident response plan and related
           organizational processes
-    statement: >
+    statement: >-
       an incident response plan is developed that meets the unique
       requirements of the organization with regard to mission, size,
       structure, and functions;
   - id: a.5
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Incident response policy; procedures addressing incident
           response planning; incident response plan; system security
           plan; privacy plan; records of incident response plan
           reviews and approvals; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with incident response planning
           responsibilities; organizational personnel with
           information security and privacy responsibilities
@@ -126,13 +126,13 @@ objectives:
   - id: a.6
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Incident response policy; procedures addressing incident
           response planning; incident response plan; system security
           plan; privacy plan; records of incident response plan
           reviews and approvals; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with incident response planning
           responsibilities; organizational personnel with
           information security and privacy responsibilities
@@ -140,20 +140,20 @@ objectives:
         statement: >-
           Organizational incident response plan and related
           organizational processes
-    statement: >
+    statement: >-
       an incident response plan is developed that provides metrics
       for measuring the incident response capability within the
       organization;
   - id: a.7
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Incident response policy; procedures addressing incident
           response planning; incident response plan; system security
           plan; privacy plan; records of incident response plan
           reviews and approvals; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with incident response planning
           responsibilities; organizational personnel with
           information security and privacy responsibilities
@@ -161,20 +161,20 @@ objectives:
         statement: >-
           Organizational incident response plan and related
           organizational processes
-    statement: >
+    statement: >-
       an incident response plan is developed that defines the
       resources and management support needed to effectively
       maintain and mature an incident response capability;
   - id: a.8
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Incident response policy; procedures addressing incident
           response planning; incident response plan; system security
           plan; privacy plan; records of incident response plan
           reviews and approvals; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with incident response planning
           responsibilities; organizational personnel with
           information security and privacy responsibilities
@@ -182,19 +182,19 @@ objectives:
         statement: >-
           Organizational incident response plan and related
           organizational processes
-    statement: >
+    statement: >-
       an incident response plan is developed that addresses the
       sharing of incident information;
   - id: a.9
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Incident response policy; procedures addressing incident
           response planning; incident response plan; system security
           plan; privacy plan; records of incident response plan
           reviews and approvals; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with incident response planning
           responsibilities; organizational personnel with
           information security and privacy responsibilities
@@ -202,19 +202,19 @@ objectives:
         statement: >-
           Organizational incident response plan and related
           organizational processes
-    statement: >
+    statement: >-
       an incident response plan is developed that is reviewed and
       approved by {{ ir_08_odp_01 }} {{ ir_08_odp_02 }};
   - id: a.10
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Incident response policy; procedures addressing incident
           response planning; incident response plan; system security
           plan; privacy plan; records of incident response plan
           reviews and approvals; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with incident response planning
           responsibilities; organizational personnel with
           information security and privacy responsibilities
@@ -222,20 +222,20 @@ objectives:
         statement: >-
           Organizational incident response plan and related
           organizational processes
-    statement: >
+    statement: >-
       an incident response plan is developed that explicitly
       designates responsibility for incident response to
       {{ ir_08_odp_03 }}.
   - id: b-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Incident response policy; procedures addressing incident
           response planning; incident response plan; system security
           plan; privacy plan; records of incident response plan
           reviews and approvals; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with incident response planning
           responsibilities; organizational personnel with
           information security and privacy responsibilities
@@ -249,13 +249,13 @@ objectives:
   - id: b-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Incident response policy; procedures addressing incident
           response planning; incident response plan; system security
           plan; privacy plan; records of incident response plan
           reviews and approvals; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with incident response planning
           responsibilities; organizational personnel with
           information security and privacy responsibilities
@@ -269,13 +269,13 @@ objectives:
   - id: c
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Incident response policy; procedures addressing incident
           response planning; incident response plan; system security
           plan; privacy plan; records of incident response plan
           reviews and approvals; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with incident response planning
           responsibilities; organizational personnel with
           information security and privacy responsibilities
@@ -283,20 +283,20 @@ objectives:
         statement: >-
           Organizational incident response plan and related
           organizational processes
-    statement: >
+    statement: >-
       the incident response plan is updated to address system and
       organizational changes or problems encountered during plan
       implementation, execution, or testing;
   - id: d-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Incident response policy; procedures addressing incident
           response planning; incident response plan; system security
           plan; privacy plan; records of incident response plan
           reviews and approvals; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with incident response planning
           responsibilities; organizational personnel with
           information security and privacy responsibilities
@@ -310,13 +310,13 @@ objectives:
   - id: d-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Incident response policy; procedures addressing incident
           response planning; incident response plan; system security
           plan; privacy plan; records of incident response plan
           reviews and approvals; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with incident response planning
           responsibilities; organizational personnel with
           information security and privacy responsibilities
@@ -330,13 +330,13 @@ objectives:
   - id: e-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Incident response policy; procedures addressing incident
           response planning; incident response plan; system security
           plan; privacy plan; records of incident response plan
           reviews and approvals; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with incident response planning
           responsibilities; organizational personnel with
           information security and privacy responsibilities
@@ -350,13 +350,13 @@ objectives:
   - id: e-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Incident response policy; procedures addressing incident
           response planning; incident response plan; system security
           plan; privacy plan; records of incident response plan
           reviews and approvals; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with incident response planning
           responsibilities; organizational personnel with
           information security and privacy responsibilities
@@ -383,14 +383,14 @@ parameters:
   ir_08_odp_07:
     label: organizational elements
   ir_8_prm_5:
-    label: >
+    label: >-
       organization-defined incident response personnel (identified
       by name and/or by role) and organizational elements
 parts:
   - id: a
     statement: "Develop an incident response plan that:"
   - id: a.1
-    statement: >
+    statement: >-
       Provides the organization with a roadmap for implementing its
       incident response capability;
   - id: a.2
@@ -398,21 +398,21 @@ parts:
       Describes the structure and organization of the incident
       response capability;
   - id: a.3
-    statement: >
+    statement: >-
       Provides a high-level approach for how the incident response
       capability fits into the overall organization;
   - id: a.4
-    statement: >
+    statement: >-
       Meets the unique requirements of the organization, which
       relate to mission, size, structure, and functions;
   - id: a.5
     statement: Defines reportable incidents;
   - id: a.6
-    statement: >
+    statement: >-
       Provides metrics for measuring the incident response
       capability within the organization;
   - id: a.7
-    statement: >
+    statement: >-
       Defines the resources and management support needed to
       effectively maintain and mature an incident response
       capability;
@@ -423,7 +423,7 @@ parts:
       Is reviewed and approved by {{ ir_08_odp_01 }}
       {{ ir_08_odp_02 }} ; and
   - id: a.10
-    statement: >
+    statement: >-
       Explicitly designates responsibility for incident response to
       {{ ir_08_odp_03 }}.
   - id: b
@@ -431,7 +431,7 @@ parts:
       Distribute copies of the incident response plan to
       {{ ir_08_odp_04 }};
   - id: c
-    statement: >
+    statement: >-
       Update the incident response plan to address system and
       organizational changes or problems encountered during plan
       implementation, execution, or testing;
@@ -440,6 +440,6 @@ parts:
       Communicate incident response plan changes to {{ ir_8_prm_5 }}
       ; and
   - id: e
-    statement: >
+    statement: >-
       Protect the incident response plan from unauthorized
       disclosure and modification.

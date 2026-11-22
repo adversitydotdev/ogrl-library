@@ -25,7 +25,7 @@ objectives:
   - id: ac-04
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; information flow control policies;
           procedures addressing information flow enforcement;
           security architecture documentation; privacy architecture
@@ -35,7 +35,7 @@ objectives:
           authorizations; system audit records; system security
           plan; privacy plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security and privacy architecture
           development responsibilities; organizational personnel
@@ -45,14 +45,14 @@ objectives:
         statement: >-
           Mechanisms implementing information flow enforcement
           policy
-    statement: >
+    statement: >-
       approved authorizations are enforced for controlling the flow
       of information within the system and between connected systems
       based on {{ ac_04_odp }}.
 parameters:
   ac_04_odp:
     label: information flow control policies
-statement: >
+statement: >-
   Enforce approved authorizations for controlling the flow of
   information within the system and between connected systems based
   on {{ ac_04_odp }}.

@@ -12,14 +12,14 @@ objectives:
   - id: "cp-02(03)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Contingency planning policy; procedures addressing
           contingency operations for the system; contingency plan;
           business impact assessment; system security plan; privacy
           plan; other related plans; system security plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with contingency planning and
           plan implementation responsibilities; organizational
           personnel with information security and privacy
@@ -29,7 +29,7 @@ objectives:
         statement: >-
           Organizational processes for resumption of missions and
           business functions
-    statement: >
+    statement: >-
       the resumption of {{ cp_02_03_odp_01 }} mission and business
       functions are planned for within {{ cp_02_03_odp_02 }} of
       contingency plan activation.
@@ -38,7 +38,7 @@ parameters:
     label: cp-02.03_odp.01
   cp_02_03_odp_02:
     label: time period
-statement: >
+statement: >-
   Plan for the resumption of {{ cp_02_03_odp_01 }} mission and
   business functions within {{ cp_02_03_odp_02 }} of contingency
   plan activation.

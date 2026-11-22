@@ -12,7 +12,7 @@ objectives:
   - id: "si-02(02)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; procedures addressing
           flaw remediation; automated mechanisms supporting
@@ -21,17 +21,17 @@ objectives:
           associated documentation; system audit records; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; organizational
           personnel installing, configuring, and/or maintaining the
           system; organizational personnel responsible for flaw
           remediation
       - method: test
-        statement: >
+        statement: >-
           Automated mechanisms used to determine the state of system
           components with regard to flaw remediation
-    statement: >
+    statement: >-
       system components have applicable security-relevant software
       and firmware updates installed {{ si_02_02_odp_02 }} using
       {{ si_02_02_odp_01 }}.
@@ -40,7 +40,7 @@ parameters:
     label: automated mechanisms
   si_02_02_odp_02:
     label: frequency
-statement: >
+statement: >-
   Determine if system components have applicable security-relevant
   software and firmware updates installed using
   {{ si_02_02_odp_01 }} {{ si_02_02_odp_02 }}.

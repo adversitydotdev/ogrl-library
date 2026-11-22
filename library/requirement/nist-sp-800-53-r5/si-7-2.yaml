@@ -12,7 +12,7 @@ objectives:
   - id: "si-07(02)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; procedures addressing
           software, firmware, and information integrity; personally
@@ -26,25 +26,25 @@ objectives:
           system audit records; system security plan; privacy plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel responsible for software,
           firmware, and/or information integrity; organizational
           personnel with information security and privacy
           responsibilities; system administrators; software
           developers
       - method: test
-        statement: >
+        statement: >-
           Software, firmware, and information integrity verification
           tools; mechanisms providing integrity discrepancy
           notifications
-    statement: >
+    statement: >-
       automated tools that provide notification to
       {{ si_07_02_odp }} upon discovering discrepancies during
       integrity verification are employed.
 parameters:
   si_07_02_odp:
     label: personnel or roles
-statement: >
+statement: >-
   Employ automated tools that provide notification to
   {{ si_07_02_odp }} upon discovering discrepancies during integrity
   verification.

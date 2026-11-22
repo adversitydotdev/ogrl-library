@@ -12,23 +12,23 @@ objectives:
   - id: "ac-06(04)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; procedures addressing least
           privilege; system design documentation; system
           configuration settings and associated documentation;
           system audit records; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for
           defining least privileges necessary to accomplish
           specified tasks; organizational personnel with information
           security responsibilities; system developers
       - method: test
         statement: Mechanisms implementing least privilege functions
-    statement: >
+    statement: >-
       separate processing domains are provided to enable finer-grain
       allocation of user privileges.
-statement: >
+statement: >-
   Provide separate processing domains to enable finer-grained
   allocation of user privileges.

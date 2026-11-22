@@ -12,7 +12,7 @@ objectives:
   - id: "si-03(04)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; procedures addressing
           malicious code protection; list of privileged users on
@@ -22,7 +22,7 @@ objectives:
           associated documentation; system audit records; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; system
           developers; organizational personnel installing,
@@ -32,9 +32,9 @@ objectives:
         statement: >-
           Mechanisms supporting and/or implementing malicious code
           protection capabilities
-    statement: >
+    statement: >-
       malicious code protection mechanisms are updated only when
       directed by a privileged user.
-statement: >
+statement: >-
   Update malicious code protection mechanisms only when directed by
   a privileged user.

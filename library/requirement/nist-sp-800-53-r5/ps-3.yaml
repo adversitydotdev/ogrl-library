@@ -40,12 +40,12 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Personnel security policy; procedures addressing personnel
           screening; records of screened personnel; system security
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with personnel security
           responsibilities; organizational personnel with
           information security responsibilities
@@ -57,12 +57,12 @@ objectives:
   - id: b-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Personnel security policy; procedures addressing personnel
           screening; records of screened personnel; system security
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with personnel security
           responsibilities; organizational personnel with
           information security responsibilities
@@ -74,18 +74,18 @@ objectives:
   - id: b-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Personnel security policy; procedures addressing personnel
           screening; records of screened personnel; system security
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with personnel security
           responsibilities; organizational personnel with
           information security responsibilities
       - method: test
         statement: Organizational processes for personnel screening
-    statement: >
+    statement: >-
       where rescreening is so indicated, individuals are rescreened
       {{ ps_03_odp_02 }}.
 parameters:
@@ -94,7 +94,7 @@ parameters:
   ps_03_odp_02:
     label: frequency
   ps_3_prm_1:
-    label: >
+    label: >-
       organization-defined conditions requiring rescreening and,
       where rescreening is so indicated, the frequency of
       rescreening

@@ -12,14 +12,14 @@ objectives:
   - id: "ac-12(03)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; procedures addressing session
           termination; time until end of session messages; system
           design documentation; system configuration settings and
           associated documentation; system audit records; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; system
           developers
@@ -27,12 +27,12 @@ objectives:
         statement: >-
           System session termination mechanisms; display of end of
           session time
-    statement: >
+    statement: >-
       an explicit message to users is displayed indicating that the
       session will end in {{ ac_12_03_odp }}.
 parameters:
   ac_12_03_odp:
     label: time
-statement: >
+statement: >-
   Display an explicit message to users indicating that the session
   will end in {{ ac_12_03_odp }}.

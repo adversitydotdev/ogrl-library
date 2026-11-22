@@ -12,7 +12,7 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           access control policy and procedures; procedures for least
           privilege; list of system-generated privileged accounts;
           list of system administration personnel; system audit
@@ -21,7 +21,7 @@ objectives:
           security-relevant information assigned to system accounts
           or roles; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with responsibilities for defining least
           privileges; personnel with information security
           responsibilities; system administrators
@@ -34,7 +34,7 @@ objectives:
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           access control policy and procedures; procedures for least
           privilege; list of system-generated privileged accounts;
           list of system administration personnel; system audit
@@ -43,14 +43,14 @@ objectives:
           security-relevant information assigned to system accounts
           or roles; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with responsibilities for defining least
           privileges; personnel with information security
           responsibilities; system administrators
       - method: test
         statement: >-
           mechanisms for implementing least privilege functions
-    statement: >
+    statement: >-
       users (or roles) with privileged accounts are required to use
       non-privileged accounts when accessing non-security functions
       or non-security information.
@@ -63,7 +63,7 @@ parts:
       Restrict privileged accounts on the system to
       {{ a_03_01_06_odp_01 }}..
   - id: b
-    statement: >
+    statement: >-
       Require that users (or roles) with privileged accounts use
       non-privileged accounts when accessing non-security functions
       or non-security information.

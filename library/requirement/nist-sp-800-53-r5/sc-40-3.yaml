@@ -12,7 +12,7 @@ objectives:
   - id: "sc-40(03)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; access
           control policy and procedures; procedures addressing
           system design documentation; wireless network diagrams;
@@ -21,7 +21,7 @@ objectives:
           hardware and software; system audit records; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; system
           developer; organizational personnel installing,
@@ -29,16 +29,16 @@ objectives:
           personnel authorizing, installing, configuring, and/or
           maintaining internal and external wireless links
       - method: test
-        statement: >
+        statement: >-
           Cryptographic mechanisms enforcing wireless link
           protections against imitative or manipulative
           communications deception
-    statement: >
+    statement: >-
       cryptographic mechanisms are implemented to identify and
       reject wireless transmissions that are deliberate attempts to
       achieve imitative or manipulative communications deception
       based on signal parameters.
-statement: >
+statement: >-
   Implement cryptographic mechanisms to identify and reject wireless
   transmissions that are deliberate attempts to achieve imitative or
   manipulative communications deception based on signal parameters.

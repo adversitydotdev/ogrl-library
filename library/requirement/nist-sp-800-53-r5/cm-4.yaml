@@ -16,7 +16,7 @@ objectives:
   - id: "[01]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           security impact analyses for changes to the system;
           procedures addressing privacy impact analyses for changes
@@ -28,7 +28,7 @@ objectives:
           records; system audit records; system security plan;
           privacy plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibility for
           conducting security impact analyses; organizational
           personnel with responsibility for conducting privacy
@@ -37,16 +37,16 @@ objectives:
           system/network administrators; members of change control
           board or similar
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for security impact analyses;
           organizational processes for privacy impact analyses
-    statement: >
+    statement: >-
       changes to the system are analyzed to determine potential
       security impacts prior to change implementation;
   - id: "[02]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           security impact analyses for changes to the system;
           procedures addressing privacy impact analyses for changes
@@ -58,7 +58,7 @@ objectives:
           records; system audit records; system security plan;
           privacy plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibility for
           conducting security impact analyses; organizational
           personnel with responsibility for conducting privacy
@@ -67,12 +67,12 @@ objectives:
           system/network administrators; members of change control
           board or similar
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for security impact analyses;
           organizational processes for privacy impact analyses
-    statement: >
+    statement: >-
       changes to the system are analyzed to determine potential
       privacy impacts prior to change implementation.
-statement: >
+statement: >-
   Analyze changes to the system to determine potential security and
   privacy impacts prior to change implementation.

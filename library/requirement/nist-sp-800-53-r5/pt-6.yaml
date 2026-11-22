@@ -19,13 +19,13 @@ objectives:
   - id: a-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Personally identifiable information processing and
           transparency policy and procedures; privacy notice;
           Privacy Act system of records; Federal Register notices;
           privacy plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with personally identifiable
           information processing and transparency responsibilities;
           organizational personnel with information security and
@@ -34,20 +34,20 @@ objectives:
         statement: >-
           Organizational processes for Privacy Act system of records
           maintenance
-    statement: >
+    statement: >-
       system of records notices are drafted in accordance with OMB
       guidance for systems that process information that will be
       maintained in a Privacy Act system of records;
   - id: a-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Personally identifiable information processing and
           transparency policy and procedures; privacy notice;
           Privacy Act system of records; Federal Register notices;
           privacy plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with personally identifiable
           information processing and transparency responsibilities;
           organizational personnel with information security and
@@ -56,7 +56,7 @@ objectives:
         statement: >-
           Organizational processes for Privacy Act system of records
           maintenance
-    statement: >
+    statement: >-
       new and significantly modified system of records notices are
       submitted to the OMB and appropriate congressional committees
       for advance review for systems that process information that
@@ -64,13 +64,13 @@ objectives:
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Personally identifiable information processing and
           transparency policy and procedures; privacy notice;
           Privacy Act system of records; Federal Register notices;
           privacy plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with personally identifiable
           information processing and transparency responsibilities;
           organizational personnel with information security and
@@ -79,20 +79,20 @@ objectives:
         statement: >-
           Organizational processes for Privacy Act system of records
           maintenance
-    statement: >
+    statement: >-
       system of records notices are published in the Federal
       Register for systems that process information that will be
       maintained in a Privacy Act system of records;
   - id: c
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Personally identifiable information processing and
           transparency policy and procedures; privacy notice;
           Privacy Act system of records; Federal Register notices;
           privacy plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with personally identifiable
           information processing and transparency responsibilities;
           organizational personnel with information security and
@@ -101,14 +101,14 @@ objectives:
         statement: >-
           Organizational processes for Privacy Act system of records
           maintenance
-    statement: >
+    statement: >-
       system of records notices are kept accurate, up-to-date, and
       scoped in accordance with policy for systems that process
       information that will be maintained in a Privacy Act system of
       records.
 parts:
   - id: a
-    statement: >
+    statement: >-
       Draft system of records notices in accordance with OMB
       guidance and submit new and significantly modified system of
       records notices to the OMB and appropriate congressional
@@ -117,9 +117,9 @@ parts:
     statement: >-
       Publish system of records notices in the Federal Register; and
   - id: c
-    statement: >
+    statement: >-
       Keep system of records notices accurate, up-to-date, and
       scoped in accordance with policy.
-statement: >
+statement: >-
   For systems that process information that will be maintained in a
   Privacy Act system of records:

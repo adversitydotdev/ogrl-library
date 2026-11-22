@@ -12,7 +12,7 @@ objectives:
   - id: "ac-03(03).ac-03(03)[01]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; mandatory access control policies;
           procedures addressing access enforcement; system design
           documentation; system configuration settings and
@@ -21,7 +21,7 @@ objectives:
           mandatory access control policies; system audit records;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with access enforcement
           responsibilities; system/network administrators;
           organizational personnel with information security
@@ -29,13 +29,13 @@ objectives:
       - method: test
         statement: >-
           Automated mechanisms implementing mandatory access control
-    statement: >
+    statement: >-
       {{ ac_03_03_odp_01 }} is enforced over the set of covered
       subjects specified in the policy;
   - id: "ac-03(03).ac-03(03)[02]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; mandatory access control policies;
           procedures addressing access enforcement; system design
           documentation; system configuration settings and
@@ -44,7 +44,7 @@ objectives:
           mandatory access control policies; system audit records;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with access enforcement
           responsibilities; system/network administrators;
           organizational personnel with information security
@@ -52,13 +52,13 @@ objectives:
       - method: test
         statement: >-
           Automated mechanisms implementing mandatory access control
-    statement: >
+    statement: >-
       {{ ac_03_03_odp_02 }} is enforced over the set of covered
       objects specified in the policy;
   - id: a-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; mandatory access control policies;
           procedures addressing access enforcement; system design
           documentation; system configuration settings and
@@ -67,7 +67,7 @@ objectives:
           mandatory access control policies; system audit records;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with access enforcement
           responsibilities; system/network administrators;
           organizational personnel with information security
@@ -75,13 +75,13 @@ objectives:
       - method: test
         statement: >-
           Automated mechanisms implementing mandatory access control
-    statement: >
+    statement: >-
       {{ ac_03_03_odp_01 }} is uniformly enforced across the covered
       subjects within the system;
   - id: a-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; mandatory access control policies;
           procedures addressing access enforcement; system design
           documentation; system configuration settings and
@@ -90,7 +90,7 @@ objectives:
           mandatory access control policies; system audit records;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with access enforcement
           responsibilities; system/network administrators;
           organizational personnel with information security
@@ -98,13 +98,13 @@ objectives:
       - method: test
         statement: >-
           Automated mechanisms implementing mandatory access control
-    statement: >
+    statement: >-
       {{ ac_03_03_odp_02 }} is uniformly enforced across the covered
       objects within the system;
   - id: b.1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; mandatory access control policies;
           procedures addressing access enforcement; system design
           documentation; system configuration settings and
@@ -113,7 +113,7 @@ objectives:
           mandatory access control policies; system audit records;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with access enforcement
           responsibilities; system/network administrators;
           organizational personnel with information security
@@ -121,7 +121,7 @@ objectives:
       - method: test
         statement: >-
           Automated mechanisms implementing mandatory access control
-    statement: >
+    statement: >-
       {{ ac_03_03_odp_01 }} and {{ ac_03_03_odp_02 }} specifying
       that a subject that has been granted access to information is
       constrained from passing the information to unauthorized
@@ -129,7 +129,7 @@ objectives:
   - id: b.2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; mandatory access control policies;
           procedures addressing access enforcement; system design
           documentation; system configuration settings and
@@ -138,7 +138,7 @@ objectives:
           mandatory access control policies; system audit records;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with access enforcement
           responsibilities; system/network administrators;
           organizational personnel with information security
@@ -146,7 +146,7 @@ objectives:
       - method: test
         statement: >-
           Automated mechanisms implementing mandatory access control
-    statement: >
+    statement: >-
       {{ ac_03_03_odp_01 }} and {{ ac_03_03_odp_02 }} specifying
       that a subject that has been granted access to information is
       constrained from granting its privileges to other subjects are
@@ -154,7 +154,7 @@ objectives:
   - id: b.3
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; mandatory access control policies;
           procedures addressing access enforcement; system design
           documentation; system configuration settings and
@@ -163,7 +163,7 @@ objectives:
           mandatory access control policies; system audit records;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with access enforcement
           responsibilities; system/network administrators;
           organizational personnel with information security
@@ -171,7 +171,7 @@ objectives:
       - method: test
         statement: >-
           Automated mechanisms implementing mandatory access control
-    statement: >
+    statement: >-
       {{ ac_03_03_odp_01 }} and {{ ac_03_03_odp_02 }} specifying
       that a subject that has been granted access to information is
       constrained from changing one of more security attributes
@@ -180,7 +180,7 @@ objectives:
   - id: b.4
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; mandatory access control policies;
           procedures addressing access enforcement; system design
           documentation; system configuration settings and
@@ -189,7 +189,7 @@ objectives:
           mandatory access control policies; system audit records;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with access enforcement
           responsibilities; system/network administrators;
           organizational personnel with information security
@@ -197,7 +197,7 @@ objectives:
       - method: test
         statement: >-
           Automated mechanisms implementing mandatory access control
-    statement: >
+    statement: >-
       {{ ac_03_03_odp_01 }} and {{ ac_03_03_odp_02 }} specifying
       that a subject that has been granted access to information is
       constrained from choosing the security attributes and
@@ -206,7 +206,7 @@ objectives:
   - id: b.5
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; mandatory access control policies;
           procedures addressing access enforcement; system design
           documentation; system configuration settings and
@@ -215,7 +215,7 @@ objectives:
           mandatory access control policies; system audit records;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with access enforcement
           responsibilities; system/network administrators;
           organizational personnel with information security
@@ -223,7 +223,7 @@ objectives:
       - method: test
         statement: >-
           Automated mechanisms implementing mandatory access control
-    statement: >
+    statement: >-
       {{ ac_03_03_odp_01 }} and {{ ac_03_03_odp_02 }} specifying
       that a subject that has been granted access to information is
       constrained from changing the rules governing access control
@@ -231,7 +231,7 @@ objectives:
   - id: c
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; mandatory access control policies;
           procedures addressing access enforcement; system design
           documentation; system configuration settings and
@@ -240,7 +240,7 @@ objectives:
           mandatory access control policies; system audit records;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with access enforcement
           responsibilities; system/network administrators;
           organizational personnel with information security
@@ -248,7 +248,7 @@ objectives:
       - method: test
         statement: >-
           Automated mechanisms implementing mandatory access control
-    statement: >
+    statement: >-
       {{ ac_03_03_odp_01 }} and {{ ac_03_03_odp_02 }} specifying
       that {{ ac_03_03_odp_03 }} may explicitly be granted
       {{ ac_03_03_odp_04 }} such that they are not limited by any
@@ -270,7 +270,7 @@ parts:
       Is uniformly enforced across the covered subjects and objects
       within the system;
   - id: b
-    statement: >
+    statement: >-
       Specifies that a subject that has been granted access to
       information is constrained from doing any of the following;
   - id: b.1
@@ -279,22 +279,22 @@ parts:
   - id: b.2
     statement: Granting its privileges to other subjects;
   - id: b.3
-    statement: >
+    statement: >-
       Changing one or more security attributes (specified by the
       policy) on subjects, objects, the system, or system
       components;
   - id: b.4
-    statement: >
+    statement: >-
       Choosing the security attributes and attribute values
       (specified by the policy) to be associated with newly created
       or modified objects; and
   - id: b.5
     statement: Changing the rules governing access control; and
   - id: c
-    statement: >
+    statement: >-
       Specifies that {{ ac_03_03_odp_03 }} may explicitly be granted
       {{ ac_03_03_odp_04 }} such that they are not limited by any
       defined subset (or all) of the above constraints.
-statement: >
+statement: >-
   Enforce {{ ac_3_3_prm_1 }} over the set of covered subjects and
   objects specified in the policy, and where the policy:

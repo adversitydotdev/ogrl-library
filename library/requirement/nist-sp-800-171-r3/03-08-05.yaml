@@ -16,7 +16,7 @@ objectives:
   - id: a.01
     methods:
       - method: examine
-        statement: >
+        statement: >-
           physical protection policy and procedures; media
           protection policy and procedures; procedures for media
           storage; access control policy and procedures; authorized
@@ -30,23 +30,23 @@ objectives:
           records; system security plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           personnel with system media protection and storage
           responsibilities; personnel with information security
           responsibilities; system developers; system administrators
       - method: test
-        statement: >
+        statement: >-
           processes for storing information media; mechanisms for
           supporting or implementing media storage/media protection;
           mechanisms for supporting or implementing confidentiality
           protections for information at rest
-    statement: >
+    statement: >-
       system media that contain CUI are protected during transport
       outside of controlled areas.
   - id: a.02
     methods:
       - method: examine
-        statement: >
+        statement: >-
           physical protection policy and procedures; media
           protection policy and procedures; procedures for media
           storage; access control policy and procedures; authorized
@@ -60,23 +60,23 @@ objectives:
           records; system security plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           personnel with system media protection and storage
           responsibilities; personnel with information security
           responsibilities; system developers; system administrators
       - method: test
-        statement: >
+        statement: >-
           processes for storing information media; mechanisms for
           supporting or implementing media storage/media protection;
           mechanisms for supporting or implementing confidentiality
           protections for information at rest
-    statement: >
+    statement: >-
       system media that contain CUI are controlled during transport
       outside of controlled areas.
   - id: c
     methods:
       - method: examine
-        statement: >
+        statement: >-
           physical protection policy and procedures; media
           protection policy and procedures; procedures for media
           storage; access control policy and procedures; authorized
@@ -90,23 +90,23 @@ objectives:
           records; system security plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           personnel with system media protection and storage
           responsibilities; personnel with information security
           responsibilities; system developers; system administrators
       - method: test
-        statement: >
+        statement: >-
           processes for storing information media; mechanisms for
           supporting or implementing media storage/media protection;
           mechanisms for supporting or implementing confidentiality
           protections for information at rest
-    statement: >
+    statement: >-
       activities associated with the transport of system media that
       contain CUI are documented.
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           physical protection policy and procedures; media
           protection policy and procedures; procedures for media
           storage; access control policy and procedures; authorized
@@ -120,29 +120,29 @@ objectives:
           records; system security plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           personnel with system media protection and storage
           responsibilities; personnel with information security
           responsibilities; system developers; system administrators
       - method: test
-        statement: >
+        statement: >-
           processes for storing information media; mechanisms for
           supporting or implementing media storage/media protection;
           mechanisms for supporting or implementing confidentiality
           protections for information at rest
-    statement: >
+    statement: >-
       accountability for system media that contain CUI is maintained
       during transport outside of controlled areas.
 parts:
   - id: a
-    statement: >
+    statement: >-
       Protect and control system media that contain CUI during
       transport outside of controlled areas.
   - id: b
-    statement: >
+    statement: >-
       Maintain accountability of system media that contain CUI
       during transport outside of controlled areas.
   - id: c
-    statement: >
+    statement: >-
       Document activities associated with the transport of system
       media that contain CUI.

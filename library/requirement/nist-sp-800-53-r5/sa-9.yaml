@@ -28,7 +28,7 @@ objectives:
   - id: a-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; system and
           services acquisition procedures; procedures addressing
           methods and techniques for monitoring control compliance
@@ -41,26 +41,26 @@ objectives:
           system security plan; privacy plan; supply chain risk
           management plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with acquisition
           responsibilities; external providers of system services;
           organizational personnel with information security and
           privacy responsibilities; organizational personnel with
           supply chain risk management responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for monitoring security and
           privacy control compliance by external service providers
           on an ongoing basis; mechanisms for monitoring security
           and privacy control compliance by external service
           providers on an ongoing basis
-    statement: >
+    statement: >-
       providers of external system services comply with
       organizational security requirements;
   - id: a-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; system and
           services acquisition procedures; procedures addressing
           methods and techniques for monitoring control compliance
@@ -73,26 +73,26 @@ objectives:
           system security plan; privacy plan; supply chain risk
           management plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with acquisition
           responsibilities; external providers of system services;
           organizational personnel with information security and
           privacy responsibilities; organizational personnel with
           supply chain risk management responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for monitoring security and
           privacy control compliance by external service providers
           on an ongoing basis; mechanisms for monitoring security
           and privacy control compliance by external service
           providers on an ongoing basis
-    statement: >
+    statement: >-
       providers of external system services comply with
       organizational privacy requirements;
   - id: a-3
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; system and
           services acquisition procedures; procedures addressing
           methods and techniques for monitoring control compliance
@@ -105,14 +105,14 @@ objectives:
           system security plan; privacy plan; supply chain risk
           management plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with acquisition
           responsibilities; external providers of system services;
           organizational personnel with information security and
           privacy responsibilities; organizational personnel with
           supply chain risk management responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for monitoring security and
           privacy control compliance by external service providers
           on an ongoing basis; mechanisms for monitoring security
@@ -124,7 +124,7 @@ objectives:
   - id: b-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; system and
           services acquisition procedures; procedures addressing
           methods and techniques for monitoring control compliance
@@ -137,26 +137,26 @@ objectives:
           system security plan; privacy plan; supply chain risk
           management plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with acquisition
           responsibilities; external providers of system services;
           organizational personnel with information security and
           privacy responsibilities; organizational personnel with
           supply chain risk management responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for monitoring security and
           privacy control compliance by external service providers
           on an ongoing basis; mechanisms for monitoring security
           and privacy control compliance by external service
           providers on an ongoing basis
-    statement: >
+    statement: >-
       organizational oversight with regard to external system
       services are defined and documented;
   - id: b-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; system and
           services acquisition procedures; procedures addressing
           methods and techniques for monitoring control compliance
@@ -169,26 +169,26 @@ objectives:
           system security plan; privacy plan; supply chain risk
           management plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with acquisition
           responsibilities; external providers of system services;
           organizational personnel with information security and
           privacy responsibilities; organizational personnel with
           supply chain risk management responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for monitoring security and
           privacy control compliance by external service providers
           on an ongoing basis; mechanisms for monitoring security
           and privacy control compliance by external service
           providers on an ongoing basis
-    statement: >
+    statement: >-
       user roles and responsibilities with regard to external system
       services are defined and documented;
   - id: c
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; system and
           services acquisition procedures; procedures addressing
           methods and techniques for monitoring control compliance
@@ -201,20 +201,20 @@ objectives:
           system security plan; privacy plan; supply chain risk
           management plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with acquisition
           responsibilities; external providers of system services;
           organizational personnel with information security and
           privacy responsibilities; organizational personnel with
           supply chain risk management responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for monitoring security and
           privacy control compliance by external service providers
           on an ongoing basis; mechanisms for monitoring security
           and privacy control compliance by external service
           providers on an ongoing basis
-    statement: >
+    statement: >-
       {{ sa_09_odp_02 }} are employed to monitor control compliance
       by external service providers on an ongoing basis.
 parameters:
@@ -224,17 +224,17 @@ parameters:
     label: "processes, methods, and techniques"
 parts:
   - id: a
-    statement: >
+    statement: >-
       Require that providers of external system services comply with
       organizational security and privacy requirements and employ
       the following controls: {{ sa_09_odp_01 }};
   - id: b
-    statement: >
+    statement: >-
       Define and document organizational oversight and user roles
       and responsibilities with regard to external system services;
       and
   - id: c
-    statement: >
+    statement: >-
       Employ the following processes, methods, and techniques to
       monitor control compliance by external service providers on an
       ongoing basis: {{ sa_09_odp_02 }}.

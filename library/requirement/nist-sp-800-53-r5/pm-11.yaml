@@ -31,7 +31,7 @@ objectives:
   - id: a-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Information security program plan; privacy program plan;
           risk management strategy; procedures for determining
           mission and business protection needs; information
@@ -41,7 +41,7 @@ objectives:
           policy; personally identifiable information inventory;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with information security and
           privacy program planning and plan implementation
           responsibilities; organizational personnel responsible for
@@ -51,16 +51,16 @@ objectives:
           personnel with information security and privacy
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for defining mission and business
           processes and their information protection needs
-    statement: >
+    statement: >-
       organizational mission and business processes are defined with
       consideration for information security;
   - id: a-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Information security program plan; privacy program plan;
           risk management strategy; procedures for determining
           mission and business protection needs; information
@@ -70,7 +70,7 @@ objectives:
           policy; personally identifiable information inventory;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with information security and
           privacy program planning and plan implementation
           responsibilities; organizational personnel responsible for
@@ -80,16 +80,16 @@ objectives:
           personnel with information security and privacy
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for defining mission and business
           processes and their information protection needs
-    statement: >
+    statement: >-
       organizational mission and business processes are defined with
       consideration for privacy;
   - id: a-3
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Information security program plan; privacy program plan;
           risk management strategy; procedures for determining
           mission and business protection needs; information
@@ -99,7 +99,7 @@ objectives:
           policy; personally identifiable information inventory;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with information security and
           privacy program planning and plan implementation
           responsibilities; organizational personnel responsible for
@@ -109,10 +109,10 @@ objectives:
           personnel with information security and privacy
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for defining mission and business
           processes and their information protection needs
-    statement: >
+    statement: >-
       organizational mission and business processes are defined with
       consideration for the resulting risk to organizational
       operations, organizational assets, individuals, other
@@ -120,7 +120,7 @@ objectives:
   - id: b-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Information security program plan; privacy program plan;
           risk management strategy; procedures for determining
           mission and business protection needs; information
@@ -130,7 +130,7 @@ objectives:
           policy; personally identifiable information inventory;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with information security and
           privacy program planning and plan implementation
           responsibilities; organizational personnel responsible for
@@ -140,16 +140,16 @@ objectives:
           personnel with information security and privacy
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for defining mission and business
           processes and their information protection needs
-    statement: >
+    statement: >-
       information protection needs arising from the defined mission
       and business processes are determined;
   - id: b-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Information security program plan; privacy program plan;
           risk management strategy; procedures for determining
           mission and business protection needs; information
@@ -159,7 +159,7 @@ objectives:
           policy; personally identifiable information inventory;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with information security and
           privacy program planning and plan implementation
           responsibilities; organizational personnel responsible for
@@ -169,17 +169,17 @@ objectives:
           personnel with information security and privacy
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for defining mission and business
           processes and their information protection needs
-    statement: >
+    statement: >-
       personally identifiable information processing needs arising
       from the defined mission and business processes are
       determined;
   - id: c
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Information security program plan; privacy program plan;
           risk management strategy; procedures for determining
           mission and business protection needs; information
@@ -189,7 +189,7 @@ objectives:
           policy; personally identifiable information inventory;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with information security and
           privacy program planning and plan implementation
           responsibilities; organizational personnel responsible for
@@ -199,7 +199,7 @@ objectives:
           personnel with information security and privacy
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for defining mission and business
           processes and their information protection needs
     statement: >-
@@ -210,13 +210,13 @@ parameters:
     label: frequency
 parts:
   - id: a
-    statement: >
+    statement: >-
       Define organizational mission and business processes with
       consideration for information security and privacy and the
       resulting risk to organizational operations, organizational
       assets, individuals, other organizations, and the Nation; and
   - id: b
-    statement: >
+    statement: >-
       Determine information protection and personally identifiable
       information processing needs arising from the defined mission
       and business processes; and

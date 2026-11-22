@@ -25,7 +25,7 @@ objectives:
   - id: _obj
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Privacy program plan; documentation relating to the Data
           Governance Body, including documents establishing such a
           body, its charter of operations, and any plans and
@@ -33,11 +33,11 @@ objectives:
           of requests to review data; policies, procedures, and
           standards that facilitate data governance
       - method: interview
-        statement: >
+        statement: >-
           Officials serving on the Data Governance Body (e.g., chief
           information officer, senior agency information security
           officer, and senior agency official for privacy)
-    statement: >
+    statement: >-
       a Data Governance Body consisting of {{ pm_23_odp_01 }} with
       {{ pm_23_odp_02 }} is established.
 parameters:
@@ -45,6 +45,6 @@ parameters:
     label: roles
   pm_23_odp_02:
     label: responsibilities
-statement: >
+statement: >-
   Establish a Data Governance Body consisting of {{ pm_23_odp_01 }}
   with {{ pm_23_odp_02 }}.

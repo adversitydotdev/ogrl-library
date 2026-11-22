@@ -28,7 +28,7 @@ objectives:
   - id: sr-07
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Supply chain risk management plan; supply chain risk
           management procedures; system and services acquisition
           policy; system and services acquisition procedures;
@@ -39,7 +39,7 @@ objectives:
           all-source intelligence analyses; system security plan;
           privacy plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with acquisition
           responsibilities; organizational personnel with
           information security and privacy responsibilities;
@@ -47,18 +47,18 @@ objectives:
           organizational personnel with supply chain risk management
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for defining and employing OPSEC
           safeguards; mechanisms supporting and/or implementing the
           definition and employment of OPSEC safeguards
-    statement: >
+    statement: >-
       {{ sr_07_odp }} are employed to protect supply chain-related
       information for the system, system component, or system
       service.
 parameters:
   sr_07_odp:
     label: OPSEC controls
-statement: >
+statement: >-
   Employ the following Operations Security (OPSEC) controls to
   protect supply chain-related information for the system, system
   component, or system service: {{ sr_07_odp }}.

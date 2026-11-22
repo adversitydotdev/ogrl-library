@@ -12,7 +12,7 @@ objectives:
   - id: a.01
     methods:
       - method: examine
-        statement: >
+        statement: >-
           audit and accountability policy and procedures; procedures
           for the content of audit records; list of
           organization-defined auditable events; system design
@@ -20,12 +20,12 @@ objectives:
           records; system incident reports; system security plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with audit and accountability responsibilities;
           personnel with information security responsibilities;
           system developers; system administrators
       - method: test
-        statement: >
+        statement: >-
           mechanisms for implementing system auditing of auditable
           events; system audit capability
     statement: >-
@@ -34,7 +34,7 @@ objectives:
   - id: a.02
     methods:
       - method: examine
-        statement: >
+        statement: >-
           audit and accountability policy and procedures; procedures
           for the content of audit records; list of
           organization-defined auditable events; system design
@@ -42,12 +42,12 @@ objectives:
           records; system incident reports; system security plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with audit and accountability responsibilities;
           personnel with information security responsibilities;
           system developers; system administrators
       - method: test
-        statement: >
+        statement: >-
           mechanisms for implementing system auditing of auditable
           events; system audit capability
     statement: >-
@@ -56,7 +56,7 @@ objectives:
   - id: a.03
     methods:
       - method: examine
-        statement: >
+        statement: >-
           audit and accountability policy and procedures; procedures
           for the content of audit records; list of
           organization-defined auditable events; system design
@@ -64,12 +64,12 @@ objectives:
           records; system incident reports; system security plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with audit and accountability responsibilities;
           personnel with information security responsibilities;
           system developers; system administrators
       - method: test
-        statement: >
+        statement: >-
           mechanisms for implementing system auditing of auditable
           events; system audit capability
     statement: >-
@@ -78,7 +78,7 @@ objectives:
   - id: a.04
     methods:
       - method: examine
-        statement: >
+        statement: >-
           audit and accountability policy and procedures; procedures
           for the content of audit records; list of
           organization-defined auditable events; system design
@@ -86,12 +86,12 @@ objectives:
           records; system incident reports; system security plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with audit and accountability responsibilities;
           personnel with information security responsibilities;
           system developers; system administrators
       - method: test
-        statement: >
+        statement: >-
           mechanisms for implementing system auditing of auditable
           events; system audit capability
     statement: >-
@@ -100,7 +100,7 @@ objectives:
   - id: a.05
     methods:
       - method: examine
-        statement: >
+        statement: >-
           audit and accountability policy and procedures; procedures
           for the content of audit records; list of
           organization-defined auditable events; system design
@@ -108,12 +108,12 @@ objectives:
           records; system incident reports; system security plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with audit and accountability responsibilities;
           personnel with information security responsibilities;
           system developers; system administrators
       - method: test
-        statement: >
+        statement: >-
           mechanisms for implementing system auditing of auditable
           events; system audit capability
     statement: >-
@@ -122,7 +122,7 @@ objectives:
   - id: a.06
     methods:
       - method: examine
-        statement: >
+        statement: >-
           audit and accountability policy and procedures; procedures
           for the content of audit records; list of
           organization-defined auditable events; system design
@@ -130,22 +130,22 @@ objectives:
           records; system incident reports; system security plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with audit and accountability responsibilities;
           personnel with information security responsibilities;
           system developers; system administrators
       - method: test
-        statement: >
+        statement: >-
           mechanisms for implementing system auditing of auditable
           events; system audit capability
-    statement: >
+    statement: >-
       audit records contain information that establishes the
       identity of the individuals, subjects, objects, or entities
       associated with the event.
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           audit and accountability policy and procedures; procedures
           for the content of audit records; list of
           organization-defined auditable events; system design
@@ -153,12 +153,12 @@ objectives:
           records; system incident reports; system security plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with audit and accountability responsibilities;
           personnel with information security responsibilities;
           system developers; system administrators
       - method: test
-        statement: >
+        statement: >-
           mechanisms for implementing system auditing of auditable
           events; system audit capability
     statement: >-
@@ -178,7 +178,7 @@ parts:
   - id: a.05
     statement: Outcome of the event
   - id: a.06
-    statement: >
+    statement: >-
       Identity of the individuals, subjects, objects, or entities
       associated with the event
   - id: b

@@ -16,14 +16,14 @@ objectives:
   - id: ia-07
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Identification and authentication policy; system security
           plan; procedures addressing cryptographic module
           authentication; system design documentation; system
           configuration settings and associated documentation;
           system audit records; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibility for
           cryptographic module authentication; organizational
           personnel with information security responsibilities;
@@ -32,12 +32,12 @@ objectives:
         statement: >-
           Mechanisms supporting and/or implementing cryptographic
           module authentication
-    statement: >
+    statement: >-
       mechanisms for authentication to a cryptographic module are
       implemented that meet the requirements of applicable laws,
       executive orders, directives, policies, regulations,
       standards, and guidelines for such authentication.
-statement: >
+statement: >-
   Implement mechanisms for authentication to a cryptographic module
   that meet the requirements of applicable laws, executive orders,
   directives, policies, regulations, standards, and guidelines for

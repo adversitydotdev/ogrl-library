@@ -34,7 +34,7 @@ objectives:
   - id: ia-08
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Identification and authentication policy; system security
           plan; privacy plan; procedures addressing user
           identification and authentication; system design
@@ -42,20 +42,20 @@ objectives:
           associated documentation; system audit records; list of
           system accounts; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system operations
           responsibilities; organizational personnel with
           information security and privacy responsibilities;
           system/network administrators; organizational personnel
           with account management responsibilities
       - method: test
-        statement: >
+        statement: >-
           Mechanisms supporting and/or implementing identification
           and authentication capabilities
-    statement: >
+    statement: >-
       non-organizational users or processes acting on behalf of
       non-organizational users are uniquely identified and
       authenticated.
-statement: >
+statement: >-
   Uniquely identify and authenticate non-organizational users or
   processes acting on behalf of non-organizational users.

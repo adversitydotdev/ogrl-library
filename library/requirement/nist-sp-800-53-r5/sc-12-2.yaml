@@ -12,7 +12,7 @@ objectives:
   - id: "sc-12(02).sc-12(02)[01]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing cryptographic key establishment and management;
           system design documentation; system configuration settings
@@ -21,22 +21,22 @@ objectives:
           NSA-approved cryptographic products; system security plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; system
           developer; organizational personnel with responsibilities
           for cryptographic key establishment or management
       - method: test
-        statement: >
+        statement: >-
           Mechanisms supporting and/or implementing symmetric
           cryptographic key establishment and management
-    statement: >
+    statement: >-
       symmetric cryptographic keys are produced using
       {{ sc_12_02_odp }} key management technology and processes;
   - id: "sc-12(02).sc-12(02)[02]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing cryptographic key establishment and management;
           system design documentation; system configuration settings
@@ -45,22 +45,22 @@ objectives:
           NSA-approved cryptographic products; system security plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; system
           developer; organizational personnel with responsibilities
           for cryptographic key establishment or management
       - method: test
-        statement: >
+        statement: >-
           Mechanisms supporting and/or implementing symmetric
           cryptographic key establishment and management
-    statement: >
+    statement: >-
       symmetric cryptographic keys are controlled using
       {{ sc_12_02_odp }} key management technology and processes;
   - id: "sc-12(02).sc-12(02)[03]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing cryptographic key establishment and management;
           system design documentation; system configuration settings
@@ -69,21 +69,21 @@ objectives:
           NSA-approved cryptographic products; system security plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; system
           developer; organizational personnel with responsibilities
           for cryptographic key establishment or management
       - method: test
-        statement: >
+        statement: >-
           Mechanisms supporting and/or implementing symmetric
           cryptographic key establishment and management
-    statement: >
+    statement: >-
       symmetric cryptographic keys are distributed using
       {{ sc_12_02_odp }} key management technology and processes.
 parameters:
   sc_12_02_odp:
     label: sc-12.02_odp
-statement: >
+statement: >-
   Produce, control, and distribute symmetric cryptographic keys
   using {{ sc_12_02_odp }} key management technology and processes.

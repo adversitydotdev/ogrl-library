@@ -16,7 +16,7 @@ objectives:
   - id: a-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Supply chain risk management policy and procedures; supply
           chain risk management plan; system and services
           acquisition policy; anti-counterfeit plan;
@@ -31,7 +31,7 @@ objectives:
           reported counterfeit system components; system security
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and service
           acquisition responsibilities; organizational personnel
           with information security responsibilities; organizational
@@ -40,7 +40,7 @@ objectives:
           responsibilities for anti-counterfeit policies,
           procedures, and reporting
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for counterfeit prevention,
           detection, and reporting; mechanisms supporting and/or
           implementing anti-counterfeit detection, prevention, and
@@ -50,7 +50,7 @@ objectives:
   - id: a-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Supply chain risk management policy and procedures; supply
           chain risk management plan; system and services
           acquisition policy; anti-counterfeit plan;
@@ -65,7 +65,7 @@ objectives:
           reported counterfeit system components; system security
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and service
           acquisition responsibilities; organizational personnel
           with information security responsibilities; organizational
@@ -74,7 +74,7 @@ objectives:
           responsibilities for anti-counterfeit policies,
           procedures, and reporting
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for counterfeit prevention,
           detection, and reporting; mechanisms supporting and/or
           implementing anti-counterfeit detection, prevention, and
@@ -84,7 +84,7 @@ objectives:
   - id: a-3
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Supply chain risk management policy and procedures; supply
           chain risk management plan; system and services
           acquisition policy; anti-counterfeit plan;
@@ -99,7 +99,7 @@ objectives:
           reported counterfeit system components; system security
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and service
           acquisition responsibilities; organizational personnel
           with information security responsibilities; organizational
@@ -108,18 +108,18 @@ objectives:
           responsibilities for anti-counterfeit policies,
           procedures, and reporting
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for counterfeit prevention,
           detection, and reporting; mechanisms supporting and/or
           implementing anti-counterfeit detection, prevention, and
           reporting
-    statement: >
+    statement: >-
       the anti-counterfeit procedures include the means to detect
       counterfeit components entering the system;
   - id: a-4
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Supply chain risk management policy and procedures; supply
           chain risk management plan; system and services
           acquisition policy; anti-counterfeit plan;
@@ -134,7 +134,7 @@ objectives:
           reported counterfeit system components; system security
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and service
           acquisition responsibilities; organizational personnel
           with information security responsibilities; organizational
@@ -143,18 +143,18 @@ objectives:
           responsibilities for anti-counterfeit policies,
           procedures, and reporting
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for counterfeit prevention,
           detection, and reporting; mechanisms supporting and/or
           implementing anti-counterfeit detection, prevention, and
           reporting
-    statement: >
+    statement: >-
       the anti-counterfeit procedures include the means to prevent
       counterfeit components from entering the system;
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Supply chain risk management policy and procedures; supply
           chain risk management plan; system and services
           acquisition policy; anti-counterfeit plan;
@@ -169,7 +169,7 @@ objectives:
           reported counterfeit system components; system security
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and service
           acquisition responsibilities; organizational personnel
           with information security responsibilities; organizational
@@ -178,7 +178,7 @@ objectives:
           responsibilities for anti-counterfeit policies,
           procedures, and reporting
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for counterfeit prevention,
           detection, and reporting; mechanisms supporting and/or
           implementing anti-counterfeit detection, prevention, and
@@ -195,7 +195,7 @@ parameters:
     label: personnel or roles
 parts:
   - id: a
-    statement: >
+    statement: >-
       Develop and implement anti-counterfeit policy and procedures
       that include the means to detect and prevent counterfeit
       components from entering the system; and

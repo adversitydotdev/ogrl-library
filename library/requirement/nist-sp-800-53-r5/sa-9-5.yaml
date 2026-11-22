@@ -12,7 +12,7 @@ objectives:
   - id: "sa-09(05)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; procedures
           addressing external system services; acquisition contracts
           for the system, system component, or system service;
@@ -25,20 +25,20 @@ objectives:
           external providers; system security plan; supply chain
           risk management plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and service
           acquisition responsibilities; organizational personnel
           with information security responsibilities; external
           providers of system services; organizational personnel
           with supply chain risk management responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for defining the requirements to
           restrict locations of information processing,
           information/data, or information services; organizational
           processes for ensuring the location is restricted in
           accordance with requirements or conditions
-    statement: >
+    statement: >-
       based on {{ sa_09_05_odp_03 }}, {{ sa_09_05_odp_01 }} is/are
       restricted to {{ sa_09_05_odp_02 }}.
 parameters:
@@ -48,6 +48,6 @@ parameters:
     label: locations
   sa_09_05_odp_03:
     label: requirements
-statement: >
+statement: >-
   Restrict the location of {{ sa_09_05_odp_01 }} to
   {{ sa_09_05_odp_02 }} based on {{ sa_09_05_odp_03 }}.

@@ -12,7 +12,7 @@ objectives:
   - id: "au-06(04).au-06(04)[01]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Audit and accountability policy; procedures addressing
           audit review, analysis, and reporting; system design
           documentation; system configuration settings and
@@ -20,7 +20,7 @@ objectives:
           plan; system audit records; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with audit review, analysis, and
           reporting responsibilities; organizational personnel with
           information security and privacy responsibilities; system
@@ -29,13 +29,13 @@ objectives:
         statement: >-
           System capability to centralize review and analysis of
           audit records
-    statement: >
+    statement: >-
       the capability to centrally review and analyze audit records
       from multiple components within the system is provided;
   - id: "au-06(04).au-06(04)[02]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Audit and accountability policy; procedures addressing
           audit review, analysis, and reporting; system design
           documentation; system configuration settings and
@@ -43,7 +43,7 @@ objectives:
           plan; system audit records; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with audit review, analysis, and
           reporting responsibilities; organizational personnel with
           information security and privacy responsibilities; system
@@ -52,9 +52,9 @@ objectives:
         statement: >-
           System capability to centralize review and analysis of
           audit records
-    statement: >
+    statement: >-
       the capability to centrally review and analyze audit records
       from multiple components within the system is implemented.
-statement: >
+statement: >-
   Provide and implement the capability to centrally review and
   analyze audit records from multiple components within the system.

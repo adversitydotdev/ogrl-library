@@ -12,7 +12,7 @@ objectives:
   - id: "pe-03(02)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Physical and environmental protection policy; procedures
           addressing physical access control; physical access
           control logs or records; records of security checks;
@@ -21,25 +21,25 @@ objectives:
           points; system security plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with physical access control
           responsibilities; organizational personnel with
           information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for physical access control to
           the facility and/or system; mechanisms supporting and/or
           implementing physical access control for the facility or
           system; mechanisms supporting and/or implementing security
           checks for the unauthorized exfiltration of information
-    statement: >
+    statement: >-
       security checks are performed {{ pe_03_02_odp }} at the
       physical perimeter of the facility or system for exfiltration
       of information or removal of system components.
 parameters:
   pe_03_02_odp:
     label: frequency
-statement: >
+statement: >-
   Perform security checks {{ pe_03_02_odp }} at the physical
   perimeter of the facility or system for exfiltration of
   information or removal of system components.

@@ -12,7 +12,7 @@ objectives:
   - id: _obj
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Contingency planning policy; procedures addressing safe
           mode of operation for the system; contingency plan; system
           design documentation; system configuration settings and
@@ -22,14 +22,14 @@ objectives:
           system audit records; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system operation
           responsibilities; organizational personnel with
           information security responsibilities; system/network
           administrators; system developers
       - method: test
         statement: Mechanisms implementing safe mode of operation
-    statement: >
+    statement: >-
       a safe mode of operation is entered with {{ cp_12_odp_01 }}
       when {{ cp_12_odp_02 }} are detected.
 parameters:
@@ -37,6 +37,6 @@ parameters:
     label: restrictions
   cp_12_odp_02:
     label: conditions
-statement: >
+statement: >-
   When {{ cp_12_odp_02 }} are detected, enter a safe mode of
   operation with {{ cp_12_odp_01 }}.

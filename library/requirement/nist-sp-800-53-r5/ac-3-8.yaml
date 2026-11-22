@@ -12,7 +12,7 @@ objectives:
   - id: "ac-03(08).ac-03(08)[01]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; procedures addressing access
           enforcement; system design documentation; system
           configuration settings and associated documentation; rules
@@ -20,7 +20,7 @@ objectives:
           audit records; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with access enforcement
           responsibilities; system/network administrators;
           organizational personnel with information security
@@ -28,14 +28,14 @@ objectives:
       - method: test
         statement: >-
           Mechanisms implementing access enforcement functions
-    statement: >
+    statement: >-
       revocation of access authorizations is enforced, resulting
       from changes to the security attributes of subjects based on
       {{ ac_03_08_odp }};
   - id: "ac-03(08).ac-03(08)[02]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; procedures addressing access
           enforcement; system design documentation; system
           configuration settings and associated documentation; rules
@@ -43,7 +43,7 @@ objectives:
           audit records; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with access enforcement
           responsibilities; system/network administrators;
           organizational personnel with information security
@@ -51,14 +51,14 @@ objectives:
       - method: test
         statement: >-
           Mechanisms implementing access enforcement functions
-    statement: >
+    statement: >-
       revocation of access authorizations is enforced resulting from
       changes to the security attributes of objects based on
       {{ ac_03_08_odp }}.
 parameters:
   ac_03_08_odp:
     label: rules
-statement: >
+statement: >-
   Enforce the revocation of access authorizations resulting from
   changes to the security attributes of subjects and objects based
   on {{ ac_03_08_odp }}.

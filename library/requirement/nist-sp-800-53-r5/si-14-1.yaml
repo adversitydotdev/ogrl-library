@@ -12,7 +12,7 @@ objectives:
   - id: "si-14(01)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; procedures addressing
           non-persistence for system components; system design
@@ -20,24 +20,24 @@ objectives:
           associated documentation; system audit records; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel responsible for obtaining
           component and service refreshes from trusted sources;
           organizational personnel with information security
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for defining and obtaining
           component and service refreshes from trusted sources;
           automated mechanisms supporting and/or implementing
           component and service refreshes
-    statement: >
+    statement: >-
       the software and data employed during system component and
       service refreshes are obtained from {{ si_14_01_odp }}.
 parameters:
   si_14_01_odp:
     label: trusted sources
-statement: >
+statement: >-
   Obtain software and data employed during system component and
   service refreshes from the following trusted sources:
   {{ si_14_01_odp }}.

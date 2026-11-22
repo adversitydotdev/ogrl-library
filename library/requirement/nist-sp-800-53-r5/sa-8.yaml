@@ -46,7 +46,7 @@ objectives:
   - id: "[01]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; system and
           services acquisition procedures; assessment and
           authorization procedures; procedures addressing security
@@ -58,7 +58,7 @@ objectives:
           impact assessment; privacy risk assessment documentation;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with acquisition/contracting
           responsibilities; organizational personnel with
           information security and privacy responsibilities;
@@ -66,20 +66,20 @@ objectives:
           design, development, implementation, and modification
           responsibilities; system developers
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for applying security and privacy
           engineering principles in system specification, design,
           development, implementation, and modification; mechanisms
           supporting the application of security and privacy
           engineering principles in system specification, design,
           development, implementation, and modification
-    statement: >
+    statement: >-
       {{ sa_08_odp_01 }} are applied in the specification of the
       system and system components;
   - id: "[02]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; system and
           services acquisition procedures; assessment and
           authorization procedures; procedures addressing security
@@ -91,7 +91,7 @@ objectives:
           impact assessment; privacy risk assessment documentation;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with acquisition/contracting
           responsibilities; organizational personnel with
           information security and privacy responsibilities;
@@ -99,20 +99,20 @@ objectives:
           design, development, implementation, and modification
           responsibilities; system developers
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for applying security and privacy
           engineering principles in system specification, design,
           development, implementation, and modification; mechanisms
           supporting the application of security and privacy
           engineering principles in system specification, design,
           development, implementation, and modification
-    statement: >
+    statement: >-
       {{ sa_08_odp_01 }} are applied in the design of the system and
       system components;
   - id: "[03]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; system and
           services acquisition procedures; assessment and
           authorization procedures; procedures addressing security
@@ -124,7 +124,7 @@ objectives:
           impact assessment; privacy risk assessment documentation;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with acquisition/contracting
           responsibilities; organizational personnel with
           information security and privacy responsibilities;
@@ -132,20 +132,20 @@ objectives:
           design, development, implementation, and modification
           responsibilities; system developers
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for applying security and privacy
           engineering principles in system specification, design,
           development, implementation, and modification; mechanisms
           supporting the application of security and privacy
           engineering principles in system specification, design,
           development, implementation, and modification
-    statement: >
+    statement: >-
       {{ sa_08_odp_01 }} are applied in the development of the
       system and system components;
   - id: "[04]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; system and
           services acquisition procedures; assessment and
           authorization procedures; procedures addressing security
@@ -157,7 +157,7 @@ objectives:
           impact assessment; privacy risk assessment documentation;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with acquisition/contracting
           responsibilities; organizational personnel with
           information security and privacy responsibilities;
@@ -165,20 +165,20 @@ objectives:
           design, development, implementation, and modification
           responsibilities; system developers
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for applying security and privacy
           engineering principles in system specification, design,
           development, implementation, and modification; mechanisms
           supporting the application of security and privacy
           engineering principles in system specification, design,
           development, implementation, and modification
-    statement: >
+    statement: >-
       {{ sa_08_odp_01 }} are applied in the implementation of the
       system and system components;
   - id: "[05]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; system and
           services acquisition procedures; assessment and
           authorization procedures; procedures addressing security
@@ -190,7 +190,7 @@ objectives:
           impact assessment; privacy risk assessment documentation;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with acquisition/contracting
           responsibilities; organizational personnel with
           information security and privacy responsibilities;
@@ -198,20 +198,20 @@ objectives:
           design, development, implementation, and modification
           responsibilities; system developers
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for applying security and privacy
           engineering principles in system specification, design,
           development, implementation, and modification; mechanisms
           supporting the application of security and privacy
           engineering principles in system specification, design,
           development, implementation, and modification
-    statement: >
+    statement: >-
       {{ sa_08_odp_01 }} are applied in the modification of the
       system and system components;
   - id: "[06]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; system and
           services acquisition procedures; assessment and
           authorization procedures; procedures addressing security
@@ -223,7 +223,7 @@ objectives:
           impact assessment; privacy risk assessment documentation;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with acquisition/contracting
           responsibilities; organizational personnel with
           information security and privacy responsibilities;
@@ -231,20 +231,20 @@ objectives:
           design, development, implementation, and modification
           responsibilities; system developers
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for applying security and privacy
           engineering principles in system specification, design,
           development, implementation, and modification; mechanisms
           supporting the application of security and privacy
           engineering principles in system specification, design,
           development, implementation, and modification
-    statement: >
+    statement: >-
       {{ sa_08_odp_02 }} are applied in the specification of the
       system and system components;
   - id: "[07]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; system and
           services acquisition procedures; assessment and
           authorization procedures; procedures addressing security
@@ -256,7 +256,7 @@ objectives:
           impact assessment; privacy risk assessment documentation;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with acquisition/contracting
           responsibilities; organizational personnel with
           information security and privacy responsibilities;
@@ -264,20 +264,20 @@ objectives:
           design, development, implementation, and modification
           responsibilities; system developers
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for applying security and privacy
           engineering principles in system specification, design,
           development, implementation, and modification; mechanisms
           supporting the application of security and privacy
           engineering principles in system specification, design,
           development, implementation, and modification
-    statement: >
+    statement: >-
       {{ sa_08_odp_02 }} are applied in the design of the system and
       system components;
   - id: "[08]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; system and
           services acquisition procedures; assessment and
           authorization procedures; procedures addressing security
@@ -289,7 +289,7 @@ objectives:
           impact assessment; privacy risk assessment documentation;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with acquisition/contracting
           responsibilities; organizational personnel with
           information security and privacy responsibilities;
@@ -297,20 +297,20 @@ objectives:
           design, development, implementation, and modification
           responsibilities; system developers
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for applying security and privacy
           engineering principles in system specification, design,
           development, implementation, and modification; mechanisms
           supporting the application of security and privacy
           engineering principles in system specification, design,
           development, implementation, and modification
-    statement: >
+    statement: >-
       {{ sa_08_odp_02 }} are applied in the development of the
       system and system components;
   - id: "[09]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; system and
           services acquisition procedures; assessment and
           authorization procedures; procedures addressing security
@@ -322,7 +322,7 @@ objectives:
           impact assessment; privacy risk assessment documentation;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with acquisition/contracting
           responsibilities; organizational personnel with
           information security and privacy responsibilities;
@@ -330,20 +330,20 @@ objectives:
           design, development, implementation, and modification
           responsibilities; system developers
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for applying security and privacy
           engineering principles in system specification, design,
           development, implementation, and modification; mechanisms
           supporting the application of security and privacy
           engineering principles in system specification, design,
           development, implementation, and modification
-    statement: >
+    statement: >-
       {{ sa_08_odp_02 }} are applied in the implementation of the
       system and system components;
   - id: "[10]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; system and
           services acquisition procedures; assessment and
           authorization procedures; procedures addressing security
@@ -355,7 +355,7 @@ objectives:
           impact assessment; privacy risk assessment documentation;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with acquisition/contracting
           responsibilities; organizational personnel with
           information security and privacy responsibilities;
@@ -363,14 +363,14 @@ objectives:
           design, development, implementation, and modification
           responsibilities; system developers
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for applying security and privacy
           engineering principles in system specification, design,
           development, implementation, and modification; mechanisms
           supporting the application of security and privacy
           engineering principles in system specification, design,
           development, implementation, and modification
-    statement: >
+    statement: >-
       {{ sa_08_odp_02 }} are applied in the modification of the
       system and system components.
 parameters:
@@ -382,7 +382,7 @@ parameters:
     label: >-
       organization-defined systems security and privacy engineering
       principles
-statement: >
+statement: >-
   Apply the following systems security and privacy engineering
   principles in the specification, design, development,
   implementation, and modification of the system and system

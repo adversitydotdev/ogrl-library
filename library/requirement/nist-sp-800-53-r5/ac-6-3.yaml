@@ -12,7 +12,7 @@ objectives:
   - id: "ac-06(03).ac-06(03)[01]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; procedures addressing least
           privilege; system configuration settings and associated
           documentation; system audit records; list of operational
@@ -20,20 +20,20 @@ objectives:
           commands; system security plan; other relevant documents
           or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for
           defining least privileges necessary to accomplish
           specified tasks; organizational personnel with information
           security responsibilities
       - method: test
         statement: Mechanisms implementing least privilege functions
-    statement: >
+    statement: >-
       network access to {{ ac_06_03_odp_01 }} is authorized only for
       {{ ac_06_03_odp_02 }};
   - id: "ac-06(03).ac-06(03)[02]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; procedures addressing least
           privilege; system configuration settings and associated
           documentation; system audit records; list of operational
@@ -41,14 +41,14 @@ objectives:
           commands; system security plan; other relevant documents
           or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for
           defining least privileges necessary to accomplish
           specified tasks; organizational personnel with information
           security responsibilities
       - method: test
         statement: Mechanisms implementing least privilege functions
-    statement: >
+    statement: >-
       the rationale for authorizing network access to privileged
       commands is documented in the security plan for the system.
 parameters:
@@ -56,7 +56,7 @@ parameters:
     label: privileged commands
   ac_06_03_odp_02:
     label: compelling operational needs
-statement: >
+statement: >-
   Authorize network access to {{ ac_06_03_odp_01 }} only for
   {{ ac_06_03_odp_02 }} and document the rationale for such access
   in the security plan for the system.

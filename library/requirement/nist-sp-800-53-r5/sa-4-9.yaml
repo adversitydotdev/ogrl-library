@@ -12,7 +12,7 @@ objectives:
   - id: "sa-04(09).sa-04(09)[01]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; procedures
           addressing the integration of security requirements,
           descriptions, and criteria into the acquisition process;
@@ -26,7 +26,7 @@ objectives:
           system services; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with acquisition/contracting
           responsibilities; organizational personnel with the
           responsibility for determining system security
@@ -34,14 +34,14 @@ objectives:
           organizational personnel operating, using, and/or
           maintaining the system; system developers; organizational
           personnel with information security responsibilities
-    statement: >
+    statement: >-
       the developer of the system, system component, or system
       service is required to identify the functions intended for
       organizational use;
   - id: "sa-04(09).sa-04(09)[02]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; procedures
           addressing the integration of security requirements,
           descriptions, and criteria into the acquisition process;
@@ -55,7 +55,7 @@ objectives:
           system services; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with acquisition/contracting
           responsibilities; organizational personnel with the
           responsibility for determining system security
@@ -63,14 +63,14 @@ objectives:
           organizational personnel operating, using, and/or
           maintaining the system; system developers; organizational
           personnel with information security responsibilities
-    statement: >
+    statement: >-
       the developer of the system, system component, or system
       service is required to identify the ports intended for
       organizational use;
   - id: "sa-04(09).sa-04(09)[03]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; procedures
           addressing the integration of security requirements,
           descriptions, and criteria into the acquisition process;
@@ -84,7 +84,7 @@ objectives:
           system services; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with acquisition/contracting
           responsibilities; organizational personnel with the
           responsibility for determining system security
@@ -92,14 +92,14 @@ objectives:
           organizational personnel operating, using, and/or
           maintaining the system; system developers; organizational
           personnel with information security responsibilities
-    statement: >
+    statement: >-
       the developer of the system, system component, or system
       service is required to identify the protocols intended for
       organizational use;
   - id: "sa-04(09).sa-04(09)[04]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; procedures
           addressing the integration of security requirements,
           descriptions, and criteria into the acquisition process;
@@ -113,7 +113,7 @@ objectives:
           system services; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with acquisition/contracting
           responsibilities; organizational personnel with the
           responsibility for determining system security
@@ -121,11 +121,11 @@ objectives:
           organizational personnel operating, using, and/or
           maintaining the system; system developers; organizational
           personnel with information security responsibilities
-    statement: >
+    statement: >-
       the developer of the system, system component, or system
       service is required to identify the services intended for
       organizational use.
-statement: >
+statement: >-
   Require the developer of the system, system component, or system
   service to identify the functions, ports, protocols, and services
   intended for organizational use.

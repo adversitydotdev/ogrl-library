@@ -19,7 +19,7 @@ objectives:
   - id: b.01
     methods:
       - method: examine
-        statement: >
+        statement: >-
           configuration management policy and procedures; procedures
           for least functionality in the system; configuration
           management plan; system design documentation; system
@@ -29,14 +29,14 @@ objectives:
           records; system audit records; system security plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with configuration management responsibilities;
           personnel with responsibilities for reviewing functions,
           ports, protocols, and services; personnel with information
           security responsibilities; system developers; system
           administrators
       - method: test
-        statement: >
+        statement: >-
           processes for prohibiting or restricting functions, ports,
           protocols, and services; processes for reviewing or
           disabling functions, ports, protocols, and services;
@@ -44,13 +44,13 @@ objectives:
           functions, ports, protocols, and services; mechanisms for
           implementing restrictions on or the prohibition of
           functions, ports, protocols, and services
-    statement: >
+    statement: >-
       the use of the following functions is prohibited or
       restricted: {{ a_03_04_06_odp_01 }}.
   - id: b.02
     methods:
       - method: examine
-        statement: >
+        statement: >-
           configuration management policy and procedures; procedures
           for least functionality in the system; configuration
           management plan; system design documentation; system
@@ -60,14 +60,14 @@ objectives:
           records; system audit records; system security plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with configuration management responsibilities;
           personnel with responsibilities for reviewing functions,
           ports, protocols, and services; personnel with information
           security responsibilities; system developers; system
           administrators
       - method: test
-        statement: >
+        statement: >-
           processes for prohibiting or restricting functions, ports,
           protocols, and services; processes for reviewing or
           disabling functions, ports, protocols, and services;
@@ -75,13 +75,13 @@ objectives:
           functions, ports, protocols, and services; mechanisms for
           implementing restrictions on or the prohibition of
           functions, ports, protocols, and services
-    statement: >
+    statement: >-
       the use of the following ports is prohibited or restricted:
       {{ a_03_04_06_odp_02 }}.
   - id: b.03
     methods:
       - method: examine
-        statement: >
+        statement: >-
           configuration management policy and procedures; procedures
           for least functionality in the system; configuration
           management plan; system design documentation; system
@@ -91,14 +91,14 @@ objectives:
           records; system audit records; system security plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with configuration management responsibilities;
           personnel with responsibilities for reviewing functions,
           ports, protocols, and services; personnel with information
           security responsibilities; system developers; system
           administrators
       - method: test
-        statement: >
+        statement: >-
           processes for prohibiting or restricting functions, ports,
           protocols, and services; processes for reviewing or
           disabling functions, ports, protocols, and services;
@@ -106,13 +106,13 @@ objectives:
           functions, ports, protocols, and services; mechanisms for
           implementing restrictions on or the prohibition of
           functions, ports, protocols, and services
-    statement: >
+    statement: >-
       the use of the following protocols is prohibited or
       restricted: {{ a_03_04_06_odp_03 }}.
   - id: b.04
     methods:
       - method: examine
-        statement: >
+        statement: >-
           configuration management policy and procedures; procedures
           for least functionality in the system; configuration
           management plan; system design documentation; system
@@ -122,14 +122,14 @@ objectives:
           records; system audit records; system security plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with configuration management responsibilities;
           personnel with responsibilities for reviewing functions,
           ports, protocols, and services; personnel with information
           security responsibilities; system developers; system
           administrators
       - method: test
-        statement: >
+        statement: >-
           processes for prohibiting or restricting functions, ports,
           protocols, and services; processes for reviewing or
           disabling functions, ports, protocols, and services;
@@ -137,13 +137,13 @@ objectives:
           functions, ports, protocols, and services; mechanisms for
           implementing restrictions on or the prohibition of
           functions, ports, protocols, and services
-    statement: >
+    statement: >-
       the use of the following connections is prohibited or
       restricted: {{ a_03_04_06_odp_04 }}.
   - id: b.05
     methods:
       - method: examine
-        statement: >
+        statement: >-
           configuration management policy and procedures; procedures
           for least functionality in the system; configuration
           management plan; system design documentation; system
@@ -153,14 +153,14 @@ objectives:
           records; system audit records; system security plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with configuration management responsibilities;
           personnel with responsibilities for reviewing functions,
           ports, protocols, and services; personnel with information
           security responsibilities; system developers; system
           administrators
       - method: test
-        statement: >
+        statement: >-
           processes for prohibiting or restricting functions, ports,
           protocols, and services; processes for reviewing or
           disabling functions, ports, protocols, and services;
@@ -168,13 +168,13 @@ objectives:
           functions, ports, protocols, and services; mechanisms for
           implementing restrictions on or the prohibition of
           functions, ports, protocols, and services
-    statement: >
+    statement: >-
       the use of the following services is prohibited or restricted:
       {{ a_03_04_06_odp_05 }}.
   - id: c
     methods:
       - method: examine
-        statement: >
+        statement: >-
           configuration management policy and procedures; procedures
           for least functionality in the system; configuration
           management plan; system design documentation; system
@@ -184,14 +184,14 @@ objectives:
           records; system audit records; system security plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with configuration management responsibilities;
           personnel with responsibilities for reviewing functions,
           ports, protocols, and services; personnel with information
           security responsibilities; system developers; system
           administrators
       - method: test
-        statement: >
+        statement: >-
           processes for prohibiting or restricting functions, ports,
           protocols, and services; processes for reviewing or
           disabling functions, ports, protocols, and services;
@@ -199,14 +199,14 @@ objectives:
           functions, ports, protocols, and services; mechanisms for
           implementing restrictions on or the prohibition of
           functions, ports, protocols, and services
-    statement: >
+    statement: >-
       the system is reviewed {{ a_03_04_06_odp_06 }} to identify
       unnecessary or nonsecure functions, ports, protocols,
       connections, and services.
   - id: d
     methods:
       - method: examine
-        statement: >
+        statement: >-
           configuration management policy and procedures; procedures
           for least functionality in the system; configuration
           management plan; system design documentation; system
@@ -216,14 +216,14 @@ objectives:
           records; system audit records; system security plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with configuration management responsibilities;
           personnel with responsibilities for reviewing functions,
           ports, protocols, and services; personnel with information
           security responsibilities; system developers; system
           administrators
       - method: test
-        statement: >
+        statement: >-
           processes for prohibiting or restricting functions, ports,
           protocols, and services; processes for reviewing or
           disabling functions, ports, protocols, and services;
@@ -231,13 +231,13 @@ objectives:
           functions, ports, protocols, and services; mechanisms for
           implementing restrictions on or the prohibition of
           functions, ports, protocols, and services
-    statement: >
+    statement: >-
       unnecessary or nonsecure functions, ports, protocols,
       connections, and services are disabled or removed.
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           configuration management policy and procedures; procedures
           for least functionality in the system; configuration
           management plan; system design documentation; system
@@ -247,14 +247,14 @@ objectives:
           records; system audit records; system security plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with configuration management responsibilities;
           personnel with responsibilities for reviewing functions,
           ports, protocols, and services; personnel with information
           security responsibilities; system developers; system
           administrators
       - method: test
-        statement: >
+        statement: >-
           processes for prohibiting or restricting functions, ports,
           protocols, and services; processes for reviewing or
           disabling functions, ports, protocols, and services;
@@ -284,16 +284,16 @@ parts:
       Configure the system to provide only mission-essential
       capabilities.
   - id: b
-    statement: >
+    statement: >-
       Prohibit or restrict use of the following functions, ports,
       protocols, connections, and services: {{ a_03_04_06_odp_01 }}
       .
   - id: c
-    statement: >
+    statement: >-
       Review the system {{ a_03_04_06_odp_06 }} to identify
       unnecessary or nonsecure functions, ports, protocols,
       connections, and services.
   - id: d
-    statement: >
+    statement: >-
       Disable or remove functions, ports, protocols, connections,
       and services that are unnecessary or nonsecure.

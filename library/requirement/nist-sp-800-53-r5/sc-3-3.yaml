@@ -12,23 +12,23 @@ objectives:
   - id: "sc-03(03)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing security function isolation; system design
           documentation; system configuration settings and
           associated documentation; system audit records; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities
       - method: test
         statement: >-
           Mechanisms supporting and/or implementing an isolation
           boundary
-    statement: >
+    statement: >-
       the number of non-security functions included within the
       isolation boundary containing security functions is minimized.
-statement: >
+statement: >-
   Minimize the number of nonsecurity functions included within the
   isolation boundary containing security functions.

@@ -12,7 +12,7 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing firmware modifications; system design
           documentation; system configuration settings and
@@ -20,13 +20,13 @@ objectives:
           audit records; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; organizational
           personnel installing, configuring, and/or maintaining the
           system; system developers/integrators
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for modifying system firmware;
           mechanisms supporting and/or implementing hardware-based
           write-protection for system firmware
@@ -36,7 +36,7 @@ objectives:
   - id: b-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing firmware modifications; system design
           documentation; system configuration settings and
@@ -44,24 +44,24 @@ objectives:
           audit records; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; organizational
           personnel installing, configuring, and/or maintaining the
           system; system developers/integrators
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for modifying system firmware;
           mechanisms supporting and/or implementing hardware-based
           write-protection for system firmware
-    statement: >
+    statement: >-
       specific procedures are implemented for {{ sc_51_odp_02 }} to
       manually disable hardware write-protect for firmware
       modifications;
   - id: b-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing firmware modifications; system design
           documentation; system configuration settings and
@@ -69,17 +69,17 @@ objectives:
           audit records; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; organizational
           personnel installing, configuring, and/or maintaining the
           system; system developers/integrators
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for modifying system firmware;
           mechanisms supporting and/or implementing hardware-based
           write-protection for system firmware
-    statement: >
+    statement: >-
       specific procedures are implemented for {{ sc_51_odp_02 }} to
       re-enable the write-protect prior to returning to operational
       mode.
@@ -94,7 +94,7 @@ parts:
       Employ hardware-based, write-protect for {{ sc_51_odp_01 }} ;
       and
   - id: b
-    statement: >
+    statement: >-
       Implement specific procedures for {{ sc_51_odp_02 }} to
       manually disable hardware write-protect for firmware
       modifications and re-enable the write-protect prior to

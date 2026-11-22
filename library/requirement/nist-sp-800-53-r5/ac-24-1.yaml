@@ -12,14 +12,14 @@ objectives:
   - id: "ac-24(01)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; procedures addressing access
           enforcement; system design documentation; system
           configuration settings and associated documentation;
           system audit records; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with access enforcement
           responsibilities; system/network administrators;
           organizational personnel with information security
@@ -27,7 +27,7 @@ objectives:
       - method: test
         statement: >-
           Mechanisms implementing access enforcement functions
-    statement: >
+    statement: >-
       {{ ac_24_01_odp_01 }} is transmitted using
       {{ ac_24_01_odp_02 }} to {{ ac_24_01_odp_03 }} that enforce
       access control decisions.
@@ -38,6 +38,6 @@ parameters:
     label: controls
   ac_24_01_odp_03:
     label: systems
-statement: >
+statement: >-
   Transmit {{ ac_24_01_odp_01 }} using {{ ac_24_01_odp_02 }} to
   {{ ac_24_01_odp_03 }} that enforce access control decisions.

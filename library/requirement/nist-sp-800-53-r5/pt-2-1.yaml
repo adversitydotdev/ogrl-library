@@ -12,7 +12,7 @@ objectives:
   - id: "pt-02(01)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Personally identifiable information processing and
           transparency policy and procedures including procedures
           addressing data tagging; data tag definitions; documented
@@ -20,20 +20,20 @@ objectives:
           extracts with corresponding data tags; privacy plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with personally identifiable
           information processing and transparency responsibilities;
           organizational personnel with information security and
           privacy responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for authorizing the processing of
           personally identifiable information; organizational
           processes for data tagging; mechanisms for applying and
           monitoring data tagging; mechanisms supporting and/or
           implementing the restriction of personally identifiable
           information processing
-    statement: >
+    statement: >-
       data tags containing {{ pt_02_01_odp_01 }} are attached to
       {{ pt_02_01_odp_02 }}.
 parameters:

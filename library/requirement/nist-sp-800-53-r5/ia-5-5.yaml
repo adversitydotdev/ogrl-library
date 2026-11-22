@@ -12,7 +12,7 @@ objectives:
   - id: "ia-05(05)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Identification and authentication policy; system security
           plan; system and services acquisition policy; procedures
           addressing authenticator management; procedures addressing
@@ -21,7 +21,7 @@ objectives:
           acquisition contracts for system procurements or services;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with authenticator management
           responsibilities; organizational personnel with
           information security, acquisition, and contracting
@@ -30,11 +30,11 @@ objectives:
         statement: >-
           Mechanisms supporting and/or implementing authenticator
           management capability
-    statement: >
+    statement: >-
       developers and installers of system components are required to
       provide unique authenticators or change default authenticators
       prior to delivery and installation.
-statement: >
+statement: >-
   Require developers and installers of system components to provide
   unique authenticators or change default authenticators prior to
   delivery and installation.

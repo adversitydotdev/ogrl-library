@@ -22,41 +22,41 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System media protection policy; procedures addressing
           media marking; physical and environmental protection
           policy and procedures; list of system media marking
           security attributes; designated controlled areas; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system media protection and
           marking responsibilities; organizational personnel with
           information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for marking information media;
           mechanisms supporting and/or implementing media marking
-    statement: >
+    statement: >-
       system media is marked to indicate distribution limitations,
       handling caveats, and applicable security markings (if any) of
       the information;
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System media protection policy; procedures addressing
           media marking; physical and environmental protection
           policy and procedures; list of system media marking
           security attributes; designated controlled areas; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system media protection and
           marking responsibilities; organizational personnel with
           information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for marking information media;
           mechanisms supporting and/or implementing media marking
     statement: >-
@@ -68,11 +68,11 @@ parameters:
     label: controlled areas
 parts:
   - id: a
-    statement: >
+    statement: >-
       Mark system media indicating the distribution limitations,
       handling caveats, and applicable security markings (if any) of
       the information; and
   - id: b
-    statement: >
+    statement: >-
       Exempt {{ mp_03_odp_01 }} from marking if the media remain
       within {{ mp_03_odp_02 }}.

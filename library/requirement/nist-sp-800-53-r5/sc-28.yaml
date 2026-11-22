@@ -40,7 +40,7 @@ objectives:
   - id: _obj
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing the protection of information at rest; system
           design documentation; system configuration settings and
@@ -50,12 +50,12 @@ objectives:
           integrity protections; system security plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; system
           developer
       - method: test
-        statement: >
+        statement: >-
           Mechanisms supporting and/or implementing confidentiality
           and integrity protections for information at rest
     statement: >-
@@ -65,6 +65,6 @@ parameters:
     label: sc-28_odp.01
   sc_28_odp_02:
     label: information at rest
-statement: >
+statement: >-
   Protect the {{ sc_28_odp_01 }} of the following information at
   rest: {{ sc_28_odp_02 }}.

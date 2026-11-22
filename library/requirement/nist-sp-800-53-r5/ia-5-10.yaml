@@ -12,7 +12,7 @@ objectives:
   - id: "ia-05(10)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Identification and authentication policy; procedures
           addressing identifier management; system security plan;
           system design documentation; automated mechanisms
@@ -21,13 +21,13 @@ objectives:
           associated documentation; system audit records; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with identifier management
           responsibilities; organizational personnel with
           information security responsibilities; system/network
           administrators
       - method: test
-        statement: >
+        statement: >-
           Automated mechanisms implementing identifier management
           capability; automated mechanisms implementing dynamic
           binding of identities and authenticators
@@ -37,6 +37,6 @@ objectives:
 parameters:
   ia_05_10_odp:
     label: binding rules
-statement: >
+statement: >-
   Bind identities and authenticators dynamically using the following
   rules: {{ ia_05_10_odp }}.

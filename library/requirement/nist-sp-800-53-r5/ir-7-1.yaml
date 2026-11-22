@@ -12,7 +12,7 @@ objectives:
   - id: "ir-07(01)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Incident response policy; procedures addressing incident
           response assistance; automated mechanisms supporting
           incident response support and assistance; system design
@@ -20,24 +20,24 @@ objectives:
           associated documentation; incident response plan; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with incident response support
           and assistance responsibilities; organizational personnel
           with access to incident response support and assistance
           capability; organizational personnel with information
           security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for incident response assistance;
           automated mechanisms supporting and/or implementing an
           increase in the availability of incident response
           information and support
-    statement: >
+    statement: >-
       the availability of incident response information and support
       is increased using {{ ir_07_01_odp }}.
 parameters:
   ir_07_01_odp:
     label: automated mechanisms
-statement: >
+statement: >-
   Increase the availability of incident response information and
   support using {{ ir_07_01_odp }}.

@@ -12,7 +12,7 @@ objectives:
   - id: "si-10(04)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; procedures addressing
           information input validation; system design documentation;
@@ -20,19 +20,19 @@ objectives:
           documentation; system audit records; system security plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel responsible for information input
           validation; organizational personnel with information
           security responsibilities; system/network administrators;
           system developer
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for determining appropriate
           responses to invalid inputs; automated mechanisms
           supporting and/or implementing responses to invalid inputs
-    statement: >
+    statement: >-
       timing interactions among system components are accounted for
       in determining appropriate responses for invalid inputs.
-statement: >
+statement: >-
   Account for timing interactions among system components in
   determining appropriate responses for invalid inputs.

@@ -12,7 +12,7 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; procedures addressing access
           enforcement; system design documentation; system
           configuration settings and associated documentation; list
@@ -26,7 +26,7 @@ objectives:
           security plan; privacy plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with access enforcement
           responsibilities; system/network administrators;
           organizational personnel with information security and
@@ -36,14 +36,14 @@ objectives:
       - method: test
         statement: >-
           Mechanisms implementing access enforcement functions
-    statement: >
+    statement: >-
       information is released outside of the system only if the
       receiving {{ ac_03_09_odp_01 }} provides
       {{ ac_03_09_odp_02 }};
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; procedures addressing access
           enforcement; system design documentation; system
           configuration settings and associated documentation; list
@@ -57,7 +57,7 @@ objectives:
           security plan; privacy plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with access enforcement
           responsibilities; system/network administrators;
           organizational personnel with information security and
@@ -67,7 +67,7 @@ objectives:
       - method: test
         statement: >-
           Mechanisms implementing access enforcement functions
-    statement: >
+    statement: >-
       information is released outside of the system only if
       {{ ac_03_09_odp_03 }} are used to validate the appropriateness
       of the information designated for release.
@@ -84,7 +84,7 @@ parts:
       The receiving {{ ac_03_09_odp_01 }} provides
       {{ ac_03_09_odp_02 }} ; and
   - id: b
-    statement: >
+    statement: >-
       {{ ac_03_09_odp_03 }} are used to validate the appropriateness
       of the information designated for release.
 statement: "Release information outside of the system only if:"

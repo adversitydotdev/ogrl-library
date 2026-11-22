@@ -12,7 +12,7 @@ objectives:
   - id: "ac-20(04)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; procedures addressing use of
           network-accessible storage devices in external systems;
           system design documentation; system configuration settings
@@ -22,14 +22,14 @@ objectives:
           audit records; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for
           prohibiting the use of network-accessible storage devices
           in external systems; system/network administrators;
           organizational personnel with information security
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           Mechanisms prohibiting the use of network-accessible
           storage devices in external systems
     statement: >-

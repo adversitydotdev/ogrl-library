@@ -12,7 +12,7 @@ objectives:
   - id: "si-07(15)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; procedures addressing
           software, firmware, and information integrity; system
@@ -21,22 +21,22 @@ objectives:
           associated documentation; system audit records; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel responsible for software,
           firmware, and/or information integrity; organizational
           personnel with information security responsibilities;
           system/network administrators; system developer
       - method: test
-        statement: >
+        statement: >-
           Cryptographic mechanisms authenticating software and
           firmware prior to installation
-    statement: >
+    statement: >-
       cryptographic mechanisms are implemented to authenticate
       {{ si_07_15_odp }} prior to installation.
 parameters:
   si_07_15_odp:
     label: software or firmware components
-statement: >
+statement: >-
   Implement cryptographic mechanisms to authenticate the following
   software or firmware components prior to installation:
   {{ si_07_15_odp }}.

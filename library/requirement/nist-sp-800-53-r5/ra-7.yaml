@@ -31,88 +31,88 @@ objectives:
   - id: "[01]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Risk assessment policy; assessment reports; audit
           records/event logs; system security plan; privacy plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with assessment and auditing
           responsibilities; system/network administrators;
           organizational personnel with security and privacy
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for assessments and audits;
           mechanisms/tools supporting and/or implementing
           assessments and auditing
-    statement: >
+    statement: >-
       findings from security assessments are responded to in
       accordance with organizational risk tolerance;
   - id: "[02]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Risk assessment policy; assessment reports; audit
           records/event logs; system security plan; privacy plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with assessment and auditing
           responsibilities; system/network administrators;
           organizational personnel with security and privacy
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for assessments and audits;
           mechanisms/tools supporting and/or implementing
           assessments and auditing
-    statement: >
+    statement: >-
       findings from privacy assessments are responded to in
       accordance with organizational risk tolerance;
   - id: "[03]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Risk assessment policy; assessment reports; audit
           records/event logs; system security plan; privacy plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with assessment and auditing
           responsibilities; system/network administrators;
           organizational personnel with security and privacy
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for assessments and audits;
           mechanisms/tools supporting and/or implementing
           assessments and auditing
-    statement: >
+    statement: >-
       findings from monitoring are responded to in accordance with
       organizational risk tolerance;
   - id: "[04]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Risk assessment policy; assessment reports; audit
           records/event logs; system security plan; privacy plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with assessment and auditing
           responsibilities; system/network administrators;
           organizational personnel with security and privacy
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for assessments and audits;
           mechanisms/tools supporting and/or implementing
           assessments and auditing
-    statement: >
+    statement: >-
       findings from audits are responded to in accordance with
       organizational risk tolerance.
-statement: >
+statement: >-
   Respond to findings from security and privacy assessments,
   monitoring, and audits in accordance with organizational risk
   tolerance.

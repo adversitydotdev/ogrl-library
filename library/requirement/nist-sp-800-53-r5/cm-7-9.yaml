@@ -12,20 +12,20 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; network connection policy
           and procedures; configuration management plan; system
           security plan; system design documentation; system
           component inventory; system audit records; system security
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system hardware management
           responsibilities; organizational personnel with
           information security responsibilities; system/network
           administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational process for approving execution of binary
           or machine-executable code; mechanisms supporting and/or
           implementing the prohibition of binary or
@@ -34,20 +34,20 @@ objectives:
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; network connection policy
           and procedures; configuration management plan; system
           security plan; system design documentation; system
           component inventory; system audit records; system security
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system hardware management
           responsibilities; organizational personnel with
           information security responsibilities; system/network
           administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational process for approving execution of binary
           or machine-executable code; mechanisms supporting and/or
           implementing the prohibition of binary or
@@ -58,25 +58,25 @@ objectives:
   - id: c
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; network connection policy
           and procedures; configuration management plan; system
           security plan; system design documentation; system
           component inventory; system audit records; system security
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system hardware management
           responsibilities; organizational personnel with
           information security responsibilities; system/network
           administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational process for approving execution of binary
           or machine-executable code; mechanisms supporting and/or
           implementing the prohibition of binary or
           machine-executable code
-    statement: >
+    statement: >-
       the list of authorized hardware components is reviewed and
       updated {{ cm_07_09_odp_02 }}.
 parameters:
@@ -92,6 +92,6 @@ parts:
       Prohibit the use or connection of unauthorized hardware
       components;
   - id: c
-    statement: >
+    statement: >-
       Review and update the list of authorized hardware components
       {{ cm_07_09_odp_02 }}.

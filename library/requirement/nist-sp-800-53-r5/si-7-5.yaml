@@ -12,7 +12,7 @@ objectives:
   - id: "si-07(05)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; procedures addressing
           software, firmware, and information integrity; system
@@ -23,19 +23,19 @@ objectives:
           violations; audit records; system security plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel responsible for software,
           firmware, and/or information integrity; organizational
           personnel with information security responsibilities;
           system/network administrators; system developer
       - method: test
-        statement: >
+        statement: >-
           Software, firmware, and information integrity verification
           tools; mechanisms providing an automated response to
           integrity violations; mechanisms supporting and/or
           implementing security safeguards to be implemented when
           integrity violations are discovered
-    statement: >
+    statement: >-
       {{ si_07_05_odp_01 }} are automatically performed when
       integrity violations are discovered.
 parameters:

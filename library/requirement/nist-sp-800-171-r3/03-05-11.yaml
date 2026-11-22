@@ -12,24 +12,24 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           identification and authentication policy and procedures;
           procedures for authenticator feedback; system design
           documentation; system configuration settings; system audit
           records; system security plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           personnel with information security responsibilities;
           system developers; system administrators
       - method: test
-        statement: >
+        statement: >-
           mechanisms for supporting or implementing the obscuring of
           feedback of authentication information during
           authentication
-    statement: >
+    statement: >-
       feedback of authentication information during the
       authentication process is obscured.
-statement: >
+statement: >-
   Obscure feedback of authentication information during the
   authentication process.

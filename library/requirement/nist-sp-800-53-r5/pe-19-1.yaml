@@ -12,7 +12,7 @@ objectives:
   - id: "pe-19(01).pe-19(01)[01]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Physical and environmental protection policy; procedures
           addressing information leakage that comply with national
           emissions and TEMPEST policies and procedures; system
@@ -20,22 +20,22 @@ objectives:
           settings and associated documentation system security
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for system
           environmental controls; organizational personnel with
           information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Information system components for compliance with national
           emissions and TEMPEST policies and procedures
-    statement: >
+    statement: >-
       system components are protected in accordance with national
       emissions security policies and procedures based on the
       security category or classification of the information;
   - id: "pe-19(01).pe-19(01)[02]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Physical and environmental protection policy; procedures
           addressing information leakage that comply with national
           emissions and TEMPEST policies and procedures; system
@@ -43,22 +43,22 @@ objectives:
           settings and associated documentation system security
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for system
           environmental controls; organizational personnel with
           information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Information system components for compliance with national
           emissions and TEMPEST policies and procedures
-    statement: >
+    statement: >-
       associated data communications are protected in accordance
       with national emissions security policies and procedures based
       on the security category or classification of the information;
   - id: "pe-19(01).pe-19(01)[03]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Physical and environmental protection policy; procedures
           addressing information leakage that comply with national
           emissions and TEMPEST policies and procedures; system
@@ -66,19 +66,19 @@ objectives:
           settings and associated documentation system security
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for system
           environmental controls; organizational personnel with
           information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Information system components for compliance with national
           emissions and TEMPEST policies and procedures
-    statement: >
+    statement: >-
       networks are protected in accordance with national emissions
       security policies and procedures based on the security
       category or classification of the information.
-statement: >
+statement: >-
   Protect system components, associated data communications, and
   networks in accordance with national Emissions Security policies
   and procedures based on the security category or classification of

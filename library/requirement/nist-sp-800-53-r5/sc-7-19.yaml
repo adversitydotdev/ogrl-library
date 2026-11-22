@@ -12,7 +12,7 @@ objectives:
   - id: "sc-07(19).sc-07(19)[01]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing boundary protection; system design
           documentation; system hardware and software; system
@@ -22,24 +22,24 @@ objectives:
           system audit records; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; organizational
           personnel with boundary protection responsibilities
       - method: test
-        statement: >
+        statement: >-
           Mechanisms supporting and/or implementing the blocking of
           inbound and outbound communications traffic between
           communication clients independently configured by end
           users and external service providers
-    statement: >
+    statement: >-
       inbound communications traffic is blocked between
       {{ sc_07_19_odp }} that are independently configured by end
       users and external service providers;
   - id: "sc-07(19).sc-07(19)[02]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing boundary protection; system design
           documentation; system hardware and software; system
@@ -49,24 +49,24 @@ objectives:
           system audit records; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; organizational
           personnel with boundary protection responsibilities
       - method: test
-        statement: >
+        statement: >-
           Mechanisms supporting and/or implementing the blocking of
           inbound and outbound communications traffic between
           communication clients independently configured by end
           users and external service providers
-    statement: >
+    statement: >-
       outbound communications traffic is blocked between
       {{ sc_07_19_odp }} that are independently configured by end
       users and external service providers.
 parameters:
   sc_07_19_odp:
     label: communication clients
-statement: >
+statement: >-
   Block inbound and outbound communications traffic between
   {{ sc_07_19_odp }} that are independently configured by end users
   and external service providers.

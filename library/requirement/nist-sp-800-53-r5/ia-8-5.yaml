@@ -12,7 +12,7 @@ objectives:
   - id: "ia-08(05).ia-08(05)[01]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Identification and authentication policy; system security
           plan; procedures addressing user identification and
           authentication; system design documentation; system
@@ -21,14 +21,14 @@ objectives:
           of PIV-I credentials; PIV-I credential authorizations;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system operations
           responsibilities; organizational personnel with
           information security responsibilities; system/network
           administrators; system developers; organizational
           personnel with account management responsibilities
       - method: test
-        statement: >
+        statement: >-
           Mechanisms supporting and/or implementing identification
           and authentication capabilities; mechanisms that accept
           and verify PIV-I credentials
@@ -38,7 +38,7 @@ objectives:
   - id: "ia-08(05).ia-08(05)[02]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Identification and authentication policy; system security
           plan; procedures addressing user identification and
           authentication; system design documentation; system
@@ -47,14 +47,14 @@ objectives:
           of PIV-I credentials; PIV-I credential authorizations;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system operations
           responsibilities; organizational personnel with
           information security responsibilities; system/network
           administrators; system developers; organizational
           personnel with account management responsibilities
       - method: test
-        statement: >
+        statement: >-
           Mechanisms supporting and/or implementing identification
           and authentication capabilities; mechanisms that accept
           and verify PIV-I credentials

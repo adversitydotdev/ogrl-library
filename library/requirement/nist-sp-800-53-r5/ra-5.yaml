@@ -40,7 +40,7 @@ objectives:
   - id: a-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Risk assessment policy; procedures addressing
           vulnerability scanning; risk assessment; assessment
           report; vulnerability scanning tools and associated
@@ -48,7 +48,7 @@ objectives:
           results; patch and vulnerability management records;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with risk assessment, control
           assessment, and vulnerability scanning responsibilities;
           organizational personnel with vulnerability scan analysis
@@ -57,12 +57,12 @@ objectives:
           personnel with security responsibilities; system/network
           administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for vulnerability scanning,
           analysis, remediation, and information sharing; mechanisms
           supporting and/or implementing vulnerability scanning,
           analysis, remediation, and information sharing
-    statement: >
+    statement: >-
       systems and hosted applications are monitored for
       vulnerabilities {{ ra_05_odp_01 }} and when new
       vulnerabilities potentially affecting the system are
@@ -70,7 +70,7 @@ objectives:
   - id: a-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Risk assessment policy; procedures addressing
           vulnerability scanning; risk assessment; assessment
           report; vulnerability scanning tools and associated
@@ -78,7 +78,7 @@ objectives:
           results; patch and vulnerability management records;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with risk assessment, control
           assessment, and vulnerability scanning responsibilities;
           organizational personnel with vulnerability scan analysis
@@ -87,12 +87,12 @@ objectives:
           personnel with security responsibilities; system/network
           administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for vulnerability scanning,
           analysis, remediation, and information sharing; mechanisms
           supporting and/or implementing vulnerability scanning,
           analysis, remediation, and information sharing
-    statement: >
+    statement: >-
       systems and hosted applications are scanned for
       vulnerabilities {{ ra_05_odp_02 }} and when new
       vulnerabilities potentially affecting the system are
@@ -100,7 +100,7 @@ objectives:
   - id: b.1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Risk assessment policy; procedures addressing
           vulnerability scanning; risk assessment; assessment
           report; vulnerability scanning tools and associated
@@ -108,7 +108,7 @@ objectives:
           results; patch and vulnerability management records;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with risk assessment, control
           assessment, and vulnerability scanning responsibilities;
           organizational personnel with vulnerability scan analysis
@@ -117,12 +117,12 @@ objectives:
           personnel with security responsibilities; system/network
           administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for vulnerability scanning,
           analysis, remediation, and information sharing; mechanisms
           supporting and/or implementing vulnerability scanning,
           analysis, remediation, and information sharing
-    statement: >
+    statement: >-
       vulnerability monitoring tools and techniques are employed to
       automate parts of the vulnerability management process by
       using standards for enumerating platforms, software flaws, and
@@ -130,7 +130,7 @@ objectives:
   - id: b.2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Risk assessment policy; procedures addressing
           vulnerability scanning; risk assessment; assessment
           report; vulnerability scanning tools and associated
@@ -138,7 +138,7 @@ objectives:
           results; patch and vulnerability management records;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with risk assessment, control
           assessment, and vulnerability scanning responsibilities;
           organizational personnel with vulnerability scan analysis
@@ -147,12 +147,12 @@ objectives:
           personnel with security responsibilities; system/network
           administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for vulnerability scanning,
           analysis, remediation, and information sharing; mechanisms
           supporting and/or implementing vulnerability scanning,
           analysis, remediation, and information sharing
-    statement: >
+    statement: >-
       vulnerability monitoring tools and techniques are employed to
       facilitate interoperability among tools and to automate parts
       of the vulnerability management process by using standards for
@@ -160,7 +160,7 @@ objectives:
   - id: b.3
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Risk assessment policy; procedures addressing
           vulnerability scanning; risk assessment; assessment
           report; vulnerability scanning tools and associated
@@ -168,7 +168,7 @@ objectives:
           results; patch and vulnerability management records;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with risk assessment, control
           assessment, and vulnerability scanning responsibilities;
           organizational personnel with vulnerability scan analysis
@@ -177,12 +177,12 @@ objectives:
           personnel with security responsibilities; system/network
           administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for vulnerability scanning,
           analysis, remediation, and information sharing; mechanisms
           supporting and/or implementing vulnerability scanning,
           analysis, remediation, and information sharing
-    statement: >
+    statement: >-
       vulnerability monitoring tools and techniques are employed to
       facilitate interoperability among tools and to automate parts
       of the vulnerability management process by using standards for
@@ -190,7 +190,7 @@ objectives:
   - id: c
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Risk assessment policy; procedures addressing
           vulnerability scanning; risk assessment; assessment
           report; vulnerability scanning tools and associated
@@ -198,7 +198,7 @@ objectives:
           results; patch and vulnerability management records;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with risk assessment, control
           assessment, and vulnerability scanning responsibilities;
           organizational personnel with vulnerability scan analysis
@@ -207,18 +207,18 @@ objectives:
           personnel with security responsibilities; system/network
           administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for vulnerability scanning,
           analysis, remediation, and information sharing; mechanisms
           supporting and/or implementing vulnerability scanning,
           analysis, remediation, and information sharing
-    statement: >
+    statement: >-
       vulnerability scan reports and results from vulnerability
       monitoring are analyzed;
   - id: d
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Risk assessment policy; procedures addressing
           vulnerability scanning; risk assessment; assessment
           report; vulnerability scanning tools and associated
@@ -226,7 +226,7 @@ objectives:
           results; patch and vulnerability management records;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with risk assessment, control
           assessment, and vulnerability scanning responsibilities;
           organizational personnel with vulnerability scan analysis
@@ -235,18 +235,18 @@ objectives:
           personnel with security responsibilities; system/network
           administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for vulnerability scanning,
           analysis, remediation, and information sharing; mechanisms
           supporting and/or implementing vulnerability scanning,
           analysis, remediation, and information sharing
-    statement: >
+    statement: >-
       legitimate vulnerabilities are remediated {{ ra_05_odp_03 }}
       in accordance with an organizational assessment of risk;
   - id: e
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Risk assessment policy; procedures addressing
           vulnerability scanning; risk assessment; assessment
           report; vulnerability scanning tools and associated
@@ -254,7 +254,7 @@ objectives:
           results; patch and vulnerability management records;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with risk assessment, control
           assessment, and vulnerability scanning responsibilities;
           organizational personnel with vulnerability scan analysis
@@ -263,19 +263,19 @@ objectives:
           personnel with security responsibilities; system/network
           administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for vulnerability scanning,
           analysis, remediation, and information sharing; mechanisms
           supporting and/or implementing vulnerability scanning,
           analysis, remediation, and information sharing
-    statement: >
+    statement: >-
       information obtained from the vulnerability monitoring process
       and control assessments is shared with {{ ra_05_odp_04 }} to
       help eliminate similar vulnerabilities in other systems;
   - id: f
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Risk assessment policy; procedures addressing
           vulnerability scanning; risk assessment; assessment
           report; vulnerability scanning tools and associated
@@ -283,7 +283,7 @@ objectives:
           results; patch and vulnerability management records;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with risk assessment, control
           assessment, and vulnerability scanning responsibilities;
           organizational personnel with vulnerability scan analysis
@@ -292,12 +292,12 @@ objectives:
           personnel with security responsibilities; system/network
           administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for vulnerability scanning,
           analysis, remediation, and information sharing; mechanisms
           supporting and/or implementing vulnerability scanning,
           analysis, remediation, and information sharing
-    statement: >
+    statement: >-
       vulnerability monitoring tools that include the capability to
       readily update the vulnerabilities to be scanned are employed.
 parameters:
@@ -314,17 +314,17 @@ parameters:
   ra_05_odp_04:
     label: personnel or roles
   ra_5_prm_1:
-    label: >
+    label: >-
       organization-defined frequency and/or randomly in accordance
       with organization-defined process
 parts:
   - id: a
-    statement: >
+    statement: >-
       Monitor and scan for vulnerabilities in the system and hosted
       applications {{ ra_5_prm_1 }} and when new vulnerabilities
       potentially affecting the system are identified and reported;
   - id: b
-    statement: >
+    statement: >-
       Employ vulnerability monitoring tools and techniques that
       facilitate interoperability among tools and automate parts of
       the vulnerability management process by using standards for:
@@ -341,16 +341,16 @@ parts:
       Analyze vulnerability scan reports and results from
       vulnerability monitoring;
   - id: d
-    statement: >
+    statement: >-
       Remediate legitimate vulnerabilities {{ ra_05_odp_03 }} in
       accordance with an organizational assessment of risk;
   - id: e
-    statement: >
+    statement: >-
       Share information obtained from the vulnerability monitoring
       process and control assessments with {{ ra_05_odp_04 }} to
       help eliminate similar vulnerabilities in other systems; and
   - id: f
-    statement: >
+    statement: >-
       Employ vulnerability monitoring tools that include the
       capability to readily update the vulnerabilities to be
       scanned.

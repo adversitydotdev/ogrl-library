@@ -12,7 +12,7 @@ objectives:
   - id: "sa-17(08)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; enterprise
           architecture policy; procedures addressing developer
           security and privacy architecture and design; enterprise
@@ -25,13 +25,13 @@ objectives:
           orchestration; system security plan; privacy plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and service
           acquisition responsibilities; organizational personnel
           with information security and privacy responsibilities;
           system developer; organizational personnel with
           information security architecture responsibilities
-    statement: >
+    statement: >-
       {{ sa_17_08_odp_01 }} are designed with coordinated behavior
       to implement {{ sa_17_08_odp_02 }}.
 parameters:
@@ -39,6 +39,6 @@ parameters:
     label: critical systems
   sa_17_08_odp_02:
     label: capabilities
-statement: >
+statement: >-
   Design {{ sa_17_08_odp_01 }} with coordinated behavior to
   implement the following capabilities: {{ sa_17_08_odp_02 }}.

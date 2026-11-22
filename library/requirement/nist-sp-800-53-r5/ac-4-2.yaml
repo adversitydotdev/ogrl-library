@@ -12,7 +12,7 @@ objectives:
   - id: "ac-04(02)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; information flow control policies;
           procedures addressing information flow enforcement; system
           design documentation; system security architecture and
@@ -20,19 +20,19 @@ objectives:
           and associated documentation; system audit records; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities
       - method: test
         statement: >-
           Mechanisms implementing information flow enforcement
           policy
-    statement: >
+    statement: >-
       protected processing domains are used to enforce
       {{ ac_04_02_odp }} as a basis for flow control decisions.
 parameters:
   ac_04_02_odp:
     label: information flow control policies
-statement: >
+statement: >-
   Use protected processing domains to enforce {{ ac_04_02_odp }} as
   a basis for flow control decisions.

@@ -12,49 +12,49 @@ objectives:
   - id: "cp-09(05).cp-09(05)[01]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Contingency planning policy; procedures addressing system
           backup; contingency plan; system backup logs or records;
           evidence of system backup information transferred to
           alternate storage site; alternate storage site agreements;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system backup
           responsibilities; organizational personnel with
           information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for transferring system backups
           to the alternate storage site; mechanisms supporting
           and/or implementing system backups; mechanisms supporting
           and/or implementing information transfer to the alternate
           storage site
-    statement: >
+    statement: >-
       system backup information is transferred to the alternate
       storage site for {{ cp_09_05_odp_01 }};
   - id: "cp-09(05).cp-09(05)[02]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Contingency planning policy; procedures addressing system
           backup; contingency plan; system backup logs or records;
           evidence of system backup information transferred to
           alternate storage site; alternate storage site agreements;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system backup
           responsibilities; organizational personnel with
           information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for transferring system backups
           to the alternate storage site; mechanisms supporting
           and/or implementing system backups; mechanisms supporting
           and/or implementing information transfer to the alternate
           storage site
-    statement: >
+    statement: >-
       system backup information is transferred to the alternate
       storage site {{ cp_09_05_odp_02 }}.
 parameters:
@@ -63,9 +63,9 @@ parameters:
   cp_09_05_odp_02:
     label: transfer rate
   cp_9_5_prm_1:
-    label: >
+    label: >-
       organization-defined time period and transfer rate consistent
       with the recovery time and recovery point objectives
-statement: >
+statement: >-
   Transfer system backup information to the alternate storage site
   {{ cp_9_5_prm_1 }}.

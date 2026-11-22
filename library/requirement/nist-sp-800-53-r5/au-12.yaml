@@ -12,7 +12,7 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Audit and accountability policy; procedures addressing
           audit record generation; system security plan; privacy
           plan; system design documentation; system configuration
@@ -20,7 +20,7 @@ objectives:
           events; system audit records; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with audit record generation
           responsibilities; organizational personnel with
           information security and privacy responsibilities;
@@ -28,14 +28,14 @@ objectives:
       - method: test
         statement: >-
           Mechanisms implementing audit record generation capability
-    statement: >
+    statement: >-
       audit record generation capability for the event types the
       system is capable of auditing (defined in AU-02_ODP[01]) is
       provided by {{ au_12_odp_01 }};
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Audit and accountability policy; procedures addressing
           audit record generation; system security plan; privacy
           plan; system design documentation; system configuration
@@ -43,7 +43,7 @@ objectives:
           events; system audit records; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with audit record generation
           responsibilities; organizational personnel with
           information security and privacy responsibilities;
@@ -51,13 +51,13 @@ objectives:
       - method: test
         statement: >-
           Mechanisms implementing audit record generation capability
-    statement: >
+    statement: >-
       {{ au_12_odp_02 }} is/are allowed to select the event types
       that are to be logged by specific components of the system;
   - id: c
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Audit and accountability policy; procedures addressing
           audit record generation; system security plan; privacy
           plan; system design documentation; system configuration
@@ -65,7 +65,7 @@ objectives:
           events; system audit records; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with audit record generation
           responsibilities; organizational personnel with
           information security and privacy responsibilities;
@@ -73,7 +73,7 @@ objectives:
       - method: test
         statement: >-
           Mechanisms implementing audit record generation capability
-    statement: >
+    statement: >-
       audit records for the event types defined in AU-02_ODP[02]
       that include the audit record content defined in AU-03 are
       generated.
@@ -84,16 +84,16 @@ parameters:
     label: personnel or roles
 parts:
   - id: a
-    statement: >
+    statement: >-
       Provide audit record generation capability for the event types
       the system is capable of auditing as defined in
       [AU-2a](#au-2_smt.a) on {{ au_12_odp_01 }};
   - id: b
-    statement: >
+    statement: >-
       Allow {{ au_12_odp_02 }} to select the event types that are to
       be logged by specific components of the system; and
   - id: c
-    statement: >
+    statement: >-
       Generate audit records for the event types defined in
       [AU-2c](#au-2_smt.c) that include the audit record content
       defined in [AU-3](#au-3).

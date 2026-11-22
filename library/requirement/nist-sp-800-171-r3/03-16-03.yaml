@@ -19,7 +19,7 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           system and services acquisition policy and procedures;
           procedures for monitoring security requirement compliance
           by external service providers; acquisition documentation;
@@ -30,26 +30,26 @@ objectives:
           plan; system security plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           personnel with acquisition responsibilities; external
           providers of system services; personnel with SCRM
           responsibilities; personnel with information security
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           organizational processes for monitoring security and
           privacy control compliance by external service providers
           on an ongoing basis; mechanisms for monitoring security
           and privacy control compliance by external service
           providers on an ongoing basis
-    statement: >
+    statement: >-
       the providers of external system services used for the
       processing, storage, or transmission of CUI comply with the
       following security requirements: {{ a_03_16_03_odp_01 }}.
   - id: c
     methods:
       - method: examine
-        statement: >
+        statement: >-
           system and services acquisition policy and procedures;
           procedures for monitoring security requirement compliance
           by external service providers; acquisition documentation;
@@ -60,26 +60,26 @@ objectives:
           plan; system security plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           personnel with acquisition responsibilities; external
           providers of system services; personnel with SCRM
           responsibilities; personnel with information security
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           organizational processes for monitoring security and
           privacy control compliance by external service providers
           on an ongoing basis; mechanisms for monitoring security
           and privacy control compliance by external service
           providers on an ongoing basis
-    statement: >
+    statement: >-
       processes, methods, and techniques to monitor security
       requirement compliance by external service providers on an
       ongoing basis are implemented.
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           system and services acquisition policy and procedures;
           procedures for monitoring security requirement compliance
           by external service providers; acquisition documentation;
@@ -90,19 +90,19 @@ objectives:
           plan; system security plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           personnel with acquisition responsibilities; external
           providers of system services; personnel with SCRM
           responsibilities; personnel with information security
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           organizational processes for monitoring security and
           privacy control compliance by external service providers
           on an ongoing basis; mechanisms for monitoring security
           and privacy control compliance by external service
           providers on an ongoing basis
-    statement: >
+    statement: >-
       user roles and responsibilities with regard to external system
       services, including shared responsibilities with external
       service providers, are defined and documented.
@@ -111,17 +111,17 @@ parameters:
     label: security requirements
 parts:
   - id: a
-    statement: >
+    statement: >-
       Require the providers of external system services used for the
       processing, storage, or transmission of CUI to comply with the
       following security requirements: {{ a_03_16_03_odp_01 }}.
   - id: b
-    statement: >
+    statement: >-
       Define and document user roles and responsibilities with
       regard to external system services, including shared
       responsibilities with external service providers.
   - id: c
-    statement: >
+    statement: >-
       Implement processes, methods, and techniques to monitor
       security requirement compliance by external service providers
       on an ongoing basis.

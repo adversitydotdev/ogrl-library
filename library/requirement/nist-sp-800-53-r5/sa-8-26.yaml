@@ -12,7 +12,7 @@ objectives:
   - id: "sa-08(26)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; procedures
           addressing the security design principle of performance
           security used in the specification, design, development,
@@ -23,7 +23,7 @@ objectives:
           performance and security; system security plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with the responsibility for
           determining system security and privacy requirements;
           organizational personnel with system specification,
@@ -31,7 +31,7 @@ objectives:
           responsibilities; system developers; organizational
           personnel with information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for applying the security design
           principle of performance security in system specification,
           design, development, implementation, and modification;
@@ -39,12 +39,12 @@ objectives:
           design principle of performance security in system
           specification, design, development, implementation, and
           modification
-    statement: >
+    statement: >-
       {{ sa_08_26_odp }} implement the security design principle of
       performance security.
 parameters:
   sa_08_26_odp:
     label: systems or system components
-statement: >
+statement: >-
   Implement the security design principle of performance security in
   {{ sa_08_26_odp }}.

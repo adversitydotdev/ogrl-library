@@ -13,7 +13,7 @@ objectives:
   - id: "sc-07(13)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing boundary protection; system design
           documentation; system hardware and software; system
@@ -23,16 +23,16 @@ objectives:
           components; system audit records; system security plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; organizational
           personnel with boundary protection responsibilities
       - method: test
-        statement: >
+        statement: >-
           Mechanisms supporting and/or implementing the isolation of
           information security tools, mechanisms, and support
           components
-    statement: >
+    statement: >-
       {{ sc_07_13_odp }} are isolated from other internal system
       components by implementing physically separate subnetworks
       with managed interfaces to other components of the system.
@@ -40,7 +40,7 @@ parameters:
   sc_07_13_odp:
     label: >-
       information security tools, mechanisms, and support components
-statement: >
+statement: >-
   Isolate {{ sc_07_13_odp }} from other internal system components
   by implementing physically separate subnetworks with managed
   interfaces to other components of the system.

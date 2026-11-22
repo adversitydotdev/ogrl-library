@@ -19,7 +19,7 @@ objectives:
   - id: "[01]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           access restrictions for changes to the system;
           configuration management plan; system design
@@ -30,25 +30,25 @@ objectives:
           control records; system audit records; system security
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with logical access control
           responsibilities; organizational personnel with physical
           access control responsibilities; organizational personnel
           with information security responsibilities; system/network
           administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for managing access restrictions
           to change; mechanisms supporting, implementing, or
           enforcing access restrictions associated with changes to
           the system
-    statement: >
+    statement: >-
       physical access restrictions associated with changes to the
       system are defined and documented;
   - id: "[02]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           access restrictions for changes to the system;
           configuration management plan; system design
@@ -59,14 +59,14 @@ objectives:
           control records; system audit records; system security
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with logical access control
           responsibilities; organizational personnel with physical
           access control responsibilities; organizational personnel
           with information security responsibilities; system/network
           administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for managing access restrictions
           to change; mechanisms supporting, implementing, or
           enforcing access restrictions associated with changes to
@@ -77,7 +77,7 @@ objectives:
   - id: "[03]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           access restrictions for changes to the system;
           configuration management plan; system design
@@ -88,14 +88,14 @@ objectives:
           control records; system audit records; system security
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with logical access control
           responsibilities; organizational personnel with physical
           access control responsibilities; organizational personnel
           with information security responsibilities; system/network
           administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for managing access restrictions
           to change; mechanisms supporting, implementing, or
           enforcing access restrictions associated with changes to
@@ -106,7 +106,7 @@ objectives:
   - id: "[04]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           access restrictions for changes to the system;
           configuration management plan; system design
@@ -117,25 +117,25 @@ objectives:
           control records; system audit records; system security
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with logical access control
           responsibilities; organizational personnel with physical
           access control responsibilities; organizational personnel
           with information security responsibilities; system/network
           administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for managing access restrictions
           to change; mechanisms supporting, implementing, or
           enforcing access restrictions associated with changes to
           the system
-    statement: >
+    statement: >-
       logical access restrictions associated with changes to the
       system are defined and documented;
   - id: "[05]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           access restrictions for changes to the system;
           configuration management plan; system design
@@ -146,14 +146,14 @@ objectives:
           control records; system audit records; system security
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with logical access control
           responsibilities; organizational personnel with physical
           access control responsibilities; organizational personnel
           with information security responsibilities; system/network
           administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for managing access restrictions
           to change; mechanisms supporting, implementing, or
           enforcing access restrictions associated with changes to
@@ -164,7 +164,7 @@ objectives:
   - id: "[06]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           access restrictions for changes to the system;
           configuration management plan; system design
@@ -175,14 +175,14 @@ objectives:
           control records; system audit records; system security
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with logical access control
           responsibilities; organizational personnel with physical
           access control responsibilities; organizational personnel
           with information security responsibilities; system/network
           administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for managing access restrictions
           to change; mechanisms supporting, implementing, or
           enforcing access restrictions associated with changes to
@@ -190,6 +190,6 @@ objectives:
     statement: >-
       logical access restrictions associated with changes to the
       system are enforced.
-statement: >
+statement: >-
   Define, document, approve, and enforce physical and logical access
   restrictions associated with changes to the system.

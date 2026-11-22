@@ -12,7 +12,7 @@ objectives:
   - id: "si-18(02)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; personally identifiable
           information processing policy; procedures addressing data
@@ -22,19 +22,19 @@ objectives:
           risk assessment documentation; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel responsible for tagging data;
           organizational personnel with information security and
           privacy responsibilities
       - method: test
-        statement: >
+        statement: >-
           Data tagging mechanisms; automated mechanisms supporting
           and/or implementing data tagging
-    statement: >
+    statement: >-
       data tags are employed to automate the correction or deletion
       of personally identifiable information across the information
       life cycle within organizational systems.
-statement: >
+statement: >-
   Employ data tags to automate the correction or deletion of
   personally identifiable information across the information life
   cycle within organizational systems.

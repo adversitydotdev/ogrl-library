@@ -12,7 +12,7 @@ objectives:
   - id: "sr-11(02).sr-11(02)[01]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Supply chain risk management policy and procedures; supply
           chain risk management plan; configuration control
           procedures; acquisition documentation; service level
@@ -20,25 +20,25 @@ objectives:
           component; inter-organizational agreements and procedures;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and services
           acquisition responsibilities; organizational personnel
           with information security responsibilities; organizational
           personnel with supply chain risk management
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for establishing
           inter-organizational agreements and procedures with supply
           chain entities; organizational configuration control
           processes
-    statement: >
+    statement: >-
       configuration control over {{ sr_11_02_odp }} awaiting service
       or repair is maintained;
   - id: "sr-11(02).sr-11(02)[02]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Supply chain risk management policy and procedures; supply
           chain risk management plan; configuration control
           procedures; acquisition documentation; service level
@@ -46,25 +46,25 @@ objectives:
           component; inter-organizational agreements and procedures;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and services
           acquisition responsibilities; organizational personnel
           with information security responsibilities; organizational
           personnel with supply chain risk management
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for establishing
           inter-organizational agreements and procedures with supply
           chain entities; organizational configuration control
           processes
-    statement: >
+    statement: >-
       configuration control over serviced or repaired
       {{ sr_11_02_odp }} awaiting return to service is maintained.
 parameters:
   sr_11_02_odp:
     label: system components
-statement: >
+statement: >-
   Maintain configuration control over the following system
   components awaiting service or repair and serviced or repaired
   components awaiting return to service: {{ sr_11_02_odp }}.

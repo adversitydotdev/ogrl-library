@@ -12,7 +12,7 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; procedures
           addressing development process, standards, and tools;
           procedures addressing the integration of security
@@ -23,19 +23,19 @@ objectives:
           documentation evidence of meeting quality metrics; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and service
           acquisition responsibilities; organizational personnel
           with information security responsibilities; system
           developer
-    statement: >
+    statement: >-
       the developer of the system, system component, or system
       service is required to define quality metrics at the beginning
       of the development process;
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; procedures
           addressing development process, standards, and tools;
           procedures addressing the integration of security
@@ -46,12 +46,12 @@ objectives:
           documentation evidence of meeting quality metrics; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and service
           acquisition responsibilities; organizational personnel
           with information security responsibilities; system
           developer
-    statement: >
+    statement: >-
       the developer of the system, system component, or system
       service is required to provide evidence of meeting the quality
       metrics {{ sa_15_01_odp_01 }}.

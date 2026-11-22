@@ -12,7 +12,7 @@ objectives:
   - id: "sa-08(03).sa-08(03)[01]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; procedures
           addressing the security design principles of modularity
           and layering used in the specification, design,
@@ -22,7 +22,7 @@ objectives:
           security and privacy architecture; system security plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with the responsibility for
           determining system security and privacy requirements;
           organizational personnel with system specification,
@@ -30,7 +30,7 @@ objectives:
           responsibilities; system developers; organizational
           personnel with information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for applying the security design
           principles of modularity and layering in system
           specification, design, development, implementation, and
@@ -45,7 +45,7 @@ objectives:
   - id: "sa-08(03).sa-08(03)[02]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; procedures
           addressing the security design principles of modularity
           and layering used in the specification, design,
@@ -55,7 +55,7 @@ objectives:
           security and privacy architecture; system security plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with the responsibility for
           determining system security and privacy requirements;
           organizational personnel with system specification,
@@ -63,7 +63,7 @@ objectives:
           responsibilities; system developers; organizational
           personnel with information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for applying the security design
           principles of modularity and layering in system
           specification, design, development, implementation, and
@@ -82,6 +82,6 @@ parameters:
     label: systems or system components
   sa_8_3_prm_1:
     label: organization-defined systems or system components
-statement: >
+statement: >-
   Implement the security design principles of modularity and
   layering in {{ sa_8_3_prm_1 }}.

@@ -13,7 +13,7 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           system configuration change control; configuration
           management plan; system design documentation; system
@@ -24,14 +24,14 @@ objectives:
           change approvals; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with configuration change control
           responsibilities; organizational personnel with
           information security responsibilities; system/network
           administrators; system developers; members of change
           control board or similar
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for configuration change control;
           automated mechanisms implementing configuration change
           control activities
@@ -41,7 +41,7 @@ objectives:
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           system configuration change control; configuration
           management plan; system design documentation; system
@@ -52,24 +52,24 @@ objectives:
           change approvals; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with configuration change control
           responsibilities; organizational personnel with
           information security responsibilities; system/network
           administrators; system developers; members of change
           control board or similar
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for configuration change control;
           automated mechanisms implementing configuration change
           control activities
-    statement: >
+    statement: >-
       {{ cm_03_01_odp_01 }} are used to notify {{ cm_03_01_odp_02 }}
       of proposed changes to the system and request change approval;
   - id: c
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           system configuration change control; configuration
           management plan; system design documentation; system
@@ -80,25 +80,25 @@ objectives:
           change approvals; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with configuration change control
           responsibilities; organizational personnel with
           information security responsibilities; system/network
           administrators; system developers; members of change
           control board or similar
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for configuration change control;
           automated mechanisms implementing configuration change
           control activities
-    statement: >
+    statement: >-
       {{ cm_03_01_odp_01 }} are used to highlight proposed changes
       to the system that have not been approved or disapproved
       within {{ cm_03_01_odp_03 }};
   - id: d
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           system configuration change control; configuration
           management plan; system design documentation; system
@@ -109,24 +109,24 @@ objectives:
           change approvals; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with configuration change control
           responsibilities; organizational personnel with
           information security responsibilities; system/network
           administrators; system developers; members of change
           control board or similar
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for configuration change control;
           automated mechanisms implementing configuration change
           control activities
-    statement: >
+    statement: >-
       {{ cm_03_01_odp_01 }} are used to prohibit changes to the
       system until designated approvals are received;
   - id: e
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           system configuration change control; configuration
           management plan; system design documentation; system
@@ -137,14 +137,14 @@ objectives:
           change approvals; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with configuration change control
           responsibilities; organizational personnel with
           information security responsibilities; system/network
           administrators; system developers; members of change
           control board or similar
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for configuration change control;
           automated mechanisms implementing configuration change
           control activities
@@ -154,7 +154,7 @@ objectives:
   - id: f
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           system configuration change control; configuration
           management plan; system design documentation; system
@@ -165,18 +165,18 @@ objectives:
           change approvals; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with configuration change control
           responsibilities; organizational personnel with
           information security responsibilities; system/network
           administrators; system developers; members of change
           control board or similar
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for configuration change control;
           automated mechanisms implementing configuration change
           control activities
-    statement: >
+    statement: >-
       {{ cm_03_01_odp_01 }} are used to notify {{ cm_03_01_odp_04 }}
       when approved changes to the system are completed.
 parameters:
@@ -192,11 +192,11 @@ parts:
   - id: a
     statement: Document proposed changes to the system;
   - id: b
-    statement: >
+    statement: >-
       Notify {{ cm_03_01_odp_02 }} of proposed changes to the system
       and request change approval;
   - id: c
-    statement: >
+    statement: >-
       Highlight proposed changes to the system that have not been
       approved or disapproved within {{ cm_03_01_odp_03 }};
   - id: d

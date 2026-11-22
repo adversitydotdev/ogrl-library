@@ -12,7 +12,7 @@ objectives:
   - id: "au-10(03)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Audit and accountability policy; system security plan;
           privacy plan; procedures addressing non-repudiation;
           system design documentation; system configuration settings
@@ -20,7 +20,7 @@ objectives:
           reviews and releases; system audit records; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with information security and
           privacy responsibilities; system/network administrators;
           system developers
@@ -28,10 +28,10 @@ objectives:
         statement: >-
           Automated mechanisms implementing non-repudiation
           capability
-    statement: >
+    statement: >-
       reviewer or releaser credentials are maintained within the
       established chain of custody for information reviewed or
       released.
-statement: >
+statement: >-
   Maintain reviewer or releaser credentials within the established
   chain of custody for information reviewed or released.

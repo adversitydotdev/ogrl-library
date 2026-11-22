@@ -16,7 +16,7 @@ objectives:
   - id: _obj
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; access control policy
           and procedures; separation of duties policy and
@@ -28,7 +28,7 @@ objectives:
           associated documentation; system audit records; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel responsible for information input
           validation; organizational personnel with information
           security responsibilities; system/network administrators;

@@ -12,7 +12,7 @@ objectives:
   - id: "ma-04(07).ma-04(07)[01]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Maintenance policy; procedures addressing nonlocal system
           maintenance; system design documentation; system
           configuration settings and associated documentation;
@@ -21,22 +21,22 @@ objectives:
           records; diagnostic records; audit records; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system maintenance
           responsibilities; network engineers; organizational
           personnel with information security responsibilities;
           system/network administrators
       - method: test
-        statement: >
+        statement: >-
           Mechanisms implementing remote disconnect verifications of
           terminated nonlocal maintenance and diagnostic sessions
-    statement: >
+    statement: >-
       session connection termination is verified after the
       completion of nonlocal maintenance and diagnostic sessions;
   - id: "ma-04(07).ma-04(07)[02]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Maintenance policy; procedures addressing nonlocal system
           maintenance; system design documentation; system
           configuration settings and associated documentation;
@@ -45,18 +45,18 @@ objectives:
           records; diagnostic records; audit records; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system maintenance
           responsibilities; network engineers; organizational
           personnel with information security responsibilities;
           system/network administrators
       - method: test
-        statement: >
+        statement: >-
           Mechanisms implementing remote disconnect verifications of
           terminated nonlocal maintenance and diagnostic sessions
-    statement: >
+    statement: >-
       network connection termination is verified after the
       completion of nonlocal maintenance and diagnostic sessions.
-statement: >
+statement: >-
   Verify session and network connection termination after the
   completion of nonlocal maintenance and diagnostic sessions.

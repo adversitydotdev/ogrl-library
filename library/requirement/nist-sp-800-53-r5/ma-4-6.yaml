@@ -12,7 +12,7 @@ objectives:
   - id: "ma-04(06).ma-04(06)[01]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Maintenance policy; procedures addressing nonlocal system
           maintenance; system design documentation; system
           configuration settings and associated documentation;
@@ -21,22 +21,22 @@ objectives:
           records; system security plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system maintenance
           responsibilities; network engineers; organizational
           personnel with information security responsibilities;
           system/network administrators
       - method: test
-        statement: >
+        statement: >-
           Cryptographic mechanisms protecting nonlocal maintenance
           and diagnostic communications
-    statement: >
+    statement: >-
       {{ ma_04_06_odp }} are implemented to protect the integrity of
       nonlocal maintenance and diagnostic communications;
   - id: "ma-04(06).ma-04(06)[02]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Maintenance policy; procedures addressing nonlocal system
           maintenance; system design documentation; system
           configuration settings and associated documentation;
@@ -45,23 +45,23 @@ objectives:
           records; system security plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system maintenance
           responsibilities; network engineers; organizational
           personnel with information security responsibilities;
           system/network administrators
       - method: test
-        statement: >
+        statement: >-
           Cryptographic mechanisms protecting nonlocal maintenance
           and diagnostic communications
-    statement: >
+    statement: >-
       {{ ma_04_06_odp }} are implemented to protect the
       confidentiality of nonlocal maintenance and diagnostic
       communications.
 parameters:
   ma_04_06_odp:
     label: cryptographic mechanisms
-statement: >
+statement: >-
   Implement the following cryptographic mechanisms to protect the
   integrity and confidentiality of nonlocal maintenance and
   diagnostic communications: {{ ma_04_06_odp }}.

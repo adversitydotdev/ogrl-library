@@ -12,14 +12,14 @@ objectives:
   - id: "ir-06(02)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Incident response policy; procedures addressing incident
           reporting; incident response plan; system security plan;
           privacy plan; security incident reports and associated
           system vulnerabilities; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with incident reporting
           responsibilities; organizational personnel with
           information security and privacy responsibilities;
@@ -27,16 +27,16 @@ objectives:
           vulnerabilities associated with security incidents are to
           be reported
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for incident reporting;
           mechanisms supporting and/or implementing the reporting of
           vulnerabilities associated with security incidents
-    statement: >
+    statement: >-
       system vulnerabilities associated with reported incidents are
       reported to {{ ir_06_02_odp }}.
 parameters:
   ir_06_02_odp:
     label: personnel or roles
-statement: >
+statement: >-
   Report system vulnerabilities associated with reported incidents
   to {{ ir_06_02_odp }}.

@@ -12,30 +12,30 @@ objectives:
   - id: "ma-06(03)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Maintenance policy; procedures addressing system
           maintenance; service provider contracts; service-level
           agreements; maintenance records; list of system components
           requiring predictive maintenance; system security plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system maintenance
           responsibilities; organizational personnel with
           information security responsibilities; system/network
           administrators
       - method: test
-        statement: >
+        statement: >-
           Automated mechanisms implementing the transfer of
           predictive maintenance data to a computerized maintenance
           management system; operations of the computer maintenance
           management system
-    statement: >
+    statement: >-
       predictive maintenance data is transferred to a maintenance
       management system using {{ ma_06_03_odp }}.
 parameters:
   ma_06_03_odp:
     label: automated mechanisms
-statement: >
+statement: >-
   Transfer predictive maintenance data to a maintenance management
   system using {{ ma_06_03_odp }}.

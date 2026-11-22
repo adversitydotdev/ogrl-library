@@ -12,7 +12,7 @@ objectives:
   - id: _obj
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; procedures addressing
           information output filtering; system design documentation;
@@ -20,23 +20,23 @@ objectives:
           documentation; system audit records; system security plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel responsible for validating
           information output; organizational personnel with
           information security responsibilities; system/network
           administrators; system developer
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for validating information
           output; automated mechanisms supporting and/or
           implementing information output validation
-    statement: >
+    statement: >-
       information output from {{ si_15_odp }} is validated to ensure
       that the information is consistent with the expected content.
 parameters:
   si_15_odp:
     label: software programs and/or applications
-statement: >
+statement: >-
   Validate information output from the following software programs
   and/or applications to ensure that the information is consistent
   with the expected content: {{ si_15_odp }}.

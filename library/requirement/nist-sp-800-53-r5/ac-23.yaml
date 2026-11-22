@@ -16,7 +16,7 @@ objectives:
   - id: _obj
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; procedures for preventing and
           detecting data mining; policies and procedures addressing
           authorized data mining techniques; procedures addressing
@@ -29,7 +29,7 @@ objectives:
           program; system security plan; privacy plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for
           implementing data mining detection and prevention
           techniques for data storage objects; legal counsel;
@@ -39,7 +39,7 @@ objectives:
         statement: >-
           Mechanisms implementing data mining prevention and
           detection
-    statement: >
+    statement: >-
       {{ ac_23_odp_01 }} are employed for {{ ac_23_odp_02 }} to
       detect and protect against unauthorized data mining.
 parameters:
@@ -47,6 +47,6 @@ parameters:
     label: techniques
   ac_23_odp_02:
     label: data storage objects
-statement: >
+statement: >-
   Employ {{ ac_23_odp_01 }} for {{ ac_23_odp_02 }} to detect and
   protect against unauthorized data mining.

@@ -12,7 +12,7 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Incident response policy; procedures addressing
           information spillage; incident response plan; system
           security plan; records of information spillage
@@ -21,23 +21,23 @@ objectives:
           performed regarding information spillage; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with incident response
           responsibilities; organizational personnel with
           information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for information spillage
           response; mechanisms supporting and/or implementing
           information spillage response actions and related
           communications
-    statement: >
+    statement: >-
       {{ ir_09_odp_01 }} is/are assigned the responsibility to
       respond to information spills;
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Incident response policy; procedures addressing
           information spillage; incident response plan; system
           security plan; records of information spillage
@@ -46,23 +46,23 @@ objectives:
           performed regarding information spillage; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with incident response
           responsibilities; organizational personnel with
           information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for information spillage
           response; mechanisms supporting and/or implementing
           information spillage response actions and related
           communications
-    statement: >
+    statement: >-
       the specific information involved in the system contamination
       is identified in response to information spills;
   - id: c
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Incident response policy; procedures addressing
           information spillage; incident response plan; system
           security plan; records of information spillage
@@ -71,23 +71,23 @@ objectives:
           performed regarding information spillage; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with incident response
           responsibilities; organizational personnel with
           information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for information spillage
           response; mechanisms supporting and/or implementing
           information spillage response actions and related
           communications
-    statement: >
+    statement: >-
       {{ ir_09_odp_02 }} is/are alerted of the information spill
       using a method of communication not associated with the spill;
   - id: d
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Incident response policy; procedures addressing
           information spillage; incident response plan; system
           security plan; records of information spillage
@@ -96,23 +96,23 @@ objectives:
           performed regarding information spillage; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with incident response
           responsibilities; organizational personnel with
           information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for information spillage
           response; mechanisms supporting and/or implementing
           information spillage response actions and related
           communications
-    statement: >
+    statement: >-
       the contaminated system or system component is isolated in
       response to information spills;
   - id: e
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Incident response policy; procedures addressing
           information spillage; incident response plan; system
           security plan; records of information spillage
@@ -121,23 +121,23 @@ objectives:
           performed regarding information spillage; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with incident response
           responsibilities; organizational personnel with
           information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for information spillage
           response; mechanisms supporting and/or implementing
           information spillage response actions and related
           communications
-    statement: >
+    statement: >-
       the information is eradicated from the contaminated system or
       component in response to information spills;
   - id: f
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Incident response policy; procedures addressing
           information spillage; incident response plan; system
           security plan; records of information spillage
@@ -146,24 +146,24 @@ objectives:
           performed regarding information spillage; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with incident response
           responsibilities; organizational personnel with
           information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for information spillage
           response; mechanisms supporting and/or implementing
           information spillage response actions and related
           communications
-    statement: >
+    statement: >-
       other systems or system components that may have been
       subsequently contaminated are identified in response to
       information spills;
   - id: g
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Incident response policy; procedures addressing
           information spillage; incident response plan; system
           security plan; records of information spillage
@@ -172,12 +172,12 @@ objectives:
           performed regarding information spillage; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with incident response
           responsibilities; organizational personnel with
           information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for information spillage
           response; mechanisms supporting and/or implementing
           information spillage response actions and related
@@ -194,7 +194,7 @@ parameters:
     label: actions
 parts:
   - id: a
-    statement: >
+    statement: >-
       Assigning {{ ir_09_odp_01 }} with responsibility for
       responding to information spills;
   - id: b
@@ -202,7 +202,7 @@ parts:
       Identifying the specific information involved in the system
       contamination;
   - id: c
-    statement: >
+    statement: >-
       Alerting {{ ir_09_odp_02 }} of the information spill using a
       method of communication not associated with the spill;
   - id: d
@@ -213,7 +213,7 @@ parts:
       Eradicating the information from the contaminated system or
       component;
   - id: f
-    statement: >
+    statement: >-
       Identifying other systems or system components that may have
       been subsequently contaminated; and
   - id: g

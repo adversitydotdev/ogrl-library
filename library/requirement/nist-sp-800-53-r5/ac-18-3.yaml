@@ -12,25 +12,25 @@ objectives:
   - id: "ac-18(03)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; procedures addressing wireless
           implementation and usage (including restrictions); system
           design documentation; system configuration settings and
           associated documentation; system audit records; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Mechanisms managing the disabling of wireless networking
           capabilities internally embedded within system components
-    statement: >
+    statement: >-
       when not intended for use, wireless networking capabilities
       embedded within system components are disabled prior to
       issuance and deployment.
-statement: >
+statement: >-
   Disable, when not intended for use, wireless networking
   capabilities embedded within system components prior to issuance
   and deployment.

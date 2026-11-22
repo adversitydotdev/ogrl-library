@@ -12,7 +12,7 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Physical and environmental protection policy; procedures
           addressing temperature and humidity control; temperature
           and humidity controls; facility housing the system;
@@ -20,21 +20,21 @@ objectives:
           temperature and humidity records; system security plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for system
           environmental controls; organizational personnel with
           information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Mechanisms supporting and/or implementing the maintenance
           and monitoring of temperature and humidity levels
-    statement: >
+    statement: >-
       {{ pe_14_odp_01 }} levels are maintained at {{ pe_14_odp_03 }}
       within the facility where the system resides;
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Physical and environmental protection policy; procedures
           addressing temperature and humidity control; temperature
           and humidity controls; facility housing the system;
@@ -42,12 +42,12 @@ objectives:
           temperature and humidity records; system security plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for system
           environmental controls; organizational personnel with
           information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Mechanisms supporting and/or implementing the maintenance
           and monitoring of temperature and humidity levels
     statement: >-
@@ -63,7 +63,7 @@ parameters:
     label: frequency
 parts:
   - id: a
-    statement: >
+    statement: >-
       Maintain {{ pe_14_odp_01 }} levels within the facility where
       the system resides at {{ pe_14_odp_03 }} ; and
   - id: b

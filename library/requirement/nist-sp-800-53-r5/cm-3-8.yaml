@@ -12,7 +12,7 @@ objectives:
   - id: "cm-03(08)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           system configuration change control; configuration
           management plan; change control records; system
@@ -20,12 +20,12 @@ objectives:
           configuration settings and associated documentation;
           system component inventory; system audit records; system
           security plan; other relevant documents or records
-    statement: >
+    statement: >-
       changes to the configuration of the system are prevented or
       restricted under {{ cm_03_08_odp }}.
 parameters:
   cm_03_08_odp:
     label: circumstances
-statement: >
+statement: >-
   Prevent or restrict changes to the configuration of the system
   under the following circumstances: {{ cm_03_08_odp }}.

@@ -12,7 +12,7 @@ objectives:
   - id: "au-09(02)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Audit and accountability policy; system security plan;
           privacy plan; procedures addressing protection of audit
           information; system design documentation; system
@@ -20,7 +20,7 @@ objectives:
           system or media storing backups of system audit records;
           system audit records; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with audit and accountability
           responsibilities; organizational personnel with
           information security and privacy responsibilities;
@@ -28,14 +28,14 @@ objectives:
       - method: test
         statement: >-
           Mechanisms implementing the backing up of audit records
-    statement: >
+    statement: >-
       audit records are stored {{ au_09_02_odp }} in a repository
       that is part of a physically different system or system
       component than the system or component being audited.
 parameters:
   au_09_02_odp:
     label: frequency
-statement: >
+statement: >-
   Store audit records {{ au_09_02_odp }} in a repository that is
   part of a physically different system or system component than the
   system or component being audited.

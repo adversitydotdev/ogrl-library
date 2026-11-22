@@ -22,7 +22,7 @@ objectives:
   - id: a.01
     methods:
       - method: examine
-        statement: >
+        statement: >-
           access control policy and procedures; procedures for
           wireless system access; wireless system access
           configuration and connection requirements; configuration
@@ -31,12 +31,12 @@ objectives:
           documentation; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with responsibilities for managing wireless
           access connections; personnel with information security
           responsibilities; system developers; system administrators
       - method: test
-        statement: >
+        statement: >-
           wireless access management capability for the system;
           mechanisms for implementing wireless access protections to
           the system; mechanisms for managing the disabling of
@@ -46,7 +46,7 @@ objectives:
   - id: a.02
     methods:
       - method: examine
-        statement: >
+        statement: >-
           access control policy and procedures; procedures for
           wireless system access; wireless system access
           configuration and connection requirements; configuration
@@ -55,23 +55,23 @@ objectives:
           documentation; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with responsibilities for managing wireless
           access connections; personnel with information security
           responsibilities; system developers; system administrators
       - method: test
-        statement: >
+        statement: >-
           wireless access management capability for the system;
           mechanisms for implementing wireless access protections to
           the system; mechanisms for managing the disabling of
           wireless networking capabilities
-    statement: >
+    statement: >-
       usage restrictions are established for each type of wireless
       access to the system.
   - id: a.03
     methods:
       - method: examine
-        statement: >
+        statement: >-
           access control policy and procedures; procedures for
           wireless system access; wireless system access
           configuration and connection requirements; configuration
@@ -80,23 +80,23 @@ objectives:
           documentation; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with responsibilities for managing wireless
           access connections; personnel with information security
           responsibilities; system developers; system administrators
       - method: test
-        statement: >
+        statement: >-
           wireless access management capability for the system;
           mechanisms for implementing wireless access protections to
           the system; mechanisms for managing the disabling of
           wireless networking capabilities
-    statement: >
+    statement: >-
       configuration requirements are established for each type of
       wireless access to the system.
   - id: a.04
     methods:
       - method: examine
-        statement: >
+        statement: >-
           access control policy and procedures; procedures for
           wireless system access; wireless system access
           configuration and connection requirements; configuration
@@ -105,23 +105,23 @@ objectives:
           documentation; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with responsibilities for managing wireless
           access connections; personnel with information security
           responsibilities; system developers; system administrators
       - method: test
-        statement: >
+        statement: >-
           wireless access management capability for the system;
           mechanisms for implementing wireless access protections to
           the system; mechanisms for managing the disabling of
           wireless networking capabilities
-    statement: >
+    statement: >-
       connection requirements are established for each type of
       wireless access to the system.
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           access control policy and procedures; procedures for
           wireless system access; wireless system access
           configuration and connection requirements; configuration
@@ -130,23 +130,23 @@ objectives:
           documentation; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with responsibilities for managing wireless
           access connections; personnel with information security
           responsibilities; system developers; system administrators
       - method: test
-        statement: >
+        statement: >-
           wireless access management capability for the system;
           mechanisms for implementing wireless access protections to
           the system; mechanisms for managing the disabling of
           wireless networking capabilities
-    statement: >
+    statement: >-
       each type of wireless access to the system is authorized prior
       to establishing such connections.
   - id: c
     methods:
       - method: examine
-        statement: >
+        statement: >-
           access control policy and procedures; procedures for
           wireless system access; wireless system access
           configuration and connection requirements; configuration
@@ -155,23 +155,23 @@ objectives:
           documentation; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with responsibilities for managing wireless
           access connections; personnel with information security
           responsibilities; system developers; system administrators
       - method: test
-        statement: >
+        statement: >-
           wireless access management capability for the system;
           mechanisms for implementing wireless access protections to
           the system; mechanisms for managing the disabling of
           wireless networking capabilities
-    statement: >
+    statement: >-
       wireless networking capabilities not intended for use are
       disabled prior to issuance and deployment.
   - id: d.01
     methods:
       - method: examine
-        statement: >
+        statement: >-
           access control policy and procedures; procedures for
           wireless system access; wireless system access
           configuration and connection requirements; configuration
@@ -180,12 +180,12 @@ objectives:
           documentation; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with responsibilities for managing wireless
           access connections; personnel with information security
           responsibilities; system developers; system administrators
       - method: test
-        statement: >
+        statement: >-
           wireless access management capability for the system;
           mechanisms for implementing wireless access protections to
           the system; mechanisms for managing the disabling of
@@ -196,7 +196,7 @@ objectives:
   - id: d.02
     methods:
       - method: examine
-        statement: >
+        statement: >-
           access control policy and procedures; procedures for
           wireless system access; wireless system access
           configuration and connection requirements; configuration
@@ -205,12 +205,12 @@ objectives:
           documentation; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with responsibilities for managing wireless
           access connections; personnel with information security
           responsibilities; system developers; system administrators
       - method: test
-        statement: >
+        statement: >-
           wireless access management capability for the system;
           mechanisms for implementing wireless access protections to
           the system; mechanisms for managing the disabling of
@@ -219,16 +219,16 @@ objectives:
       wireless access to the system is protected using encryption.
 parts:
   - id: a
-    statement: >
+    statement: >-
       Establish usage restrictions, configuration requirements, and
       connection requirements for each type of wireless access to
       the system.
   - id: b
-    statement: >
+    statement: >-
       Authorize each type of wireless access to the system prior to
       establishing such connections.
   - id: c
-    statement: >
+    statement: >-
       Disable, when not intended for use, wireless networking
       capabilities prior to issuance and deployment.
   - id: d

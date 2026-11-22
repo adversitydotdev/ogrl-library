@@ -12,7 +12,7 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; procedures addressing system
           connections; system and communications protection policy;
           system interconnection agreements; information exchange
@@ -24,7 +24,7 @@ objectives:
           security plan; privacy plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for
           managing connections to external systems; network
           administrators; organizational personnel with information
@@ -33,14 +33,14 @@ objectives:
         statement: >-
           Mechanisms implementing restrictions on external system
           connections
-    statement: >
+    statement: >-
       transitive (downstream) information exchanges with other
       systems through the systems identified in CA-03a are
       identified;
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; procedures addressing system
           connections; system and communications protection policy;
           system interconnection agreements; information exchange
@@ -52,7 +52,7 @@ objectives:
           security plan; privacy plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for
           managing connections to external systems; network
           administrators; organizational personnel with information
@@ -61,19 +61,19 @@ objectives:
         statement: >-
           Mechanisms implementing restrictions on external system
           connections
-    statement: >
+    statement: >-
       measures are taken to ensure that transitive (downstream)
       information exchanges cease when the controls on identified
       transitive (downstream) systems cannot be verified or
       validated.
 parts:
   - id: a
-    statement: >
+    statement: >-
       Identify transitive (downstream) information exchanges with
       other systems through the systems identified in
       [CA-3a](#ca-3_smt.a) ; and
   - id: b
-    statement: >
+    statement: >-
       Take measures to ensure that transitive (downstream)
       information exchanges cease when the controls on identified
       transitive (downstream) systems cannot be verified or

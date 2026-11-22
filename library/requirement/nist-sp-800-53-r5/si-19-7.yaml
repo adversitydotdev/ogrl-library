@@ -12,7 +12,7 @@ objectives:
   - id: "si-19(07).si-19(07)[01]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; personally identifiable
           information processing policy; de-identification
@@ -22,7 +22,7 @@ objectives:
           risk assessment documentation; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel responsible for de-identifying
           the dataset; organizational personnel with information
           security and privacy responsibilities
@@ -33,7 +33,7 @@ objectives:
   - id: "si-19(07).si-19(07)[02]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; personally identifiable
           information processing policy; de-identification
@@ -43,15 +43,15 @@ objectives:
           risk assessment documentation; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel responsible for de-identifying
           the dataset; organizational personnel with information
           security and privacy responsibilities
       - method: test
         statement: Validated algorithms and software
-    statement: >
+    statement: >-
       de-identification is performed using software that is
       validated to implement the algorithms.
-statement: >
+statement: >-
   Perform de-identification using validated algorithms and software
   that is validated to implement the algorithms.

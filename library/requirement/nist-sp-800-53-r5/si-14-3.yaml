@@ -12,7 +12,7 @@ objectives:
   - id: "si-14(03).si-14(03)[01]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; procedures addressing
           non-persistence for system components; system design
@@ -20,12 +20,12 @@ objectives:
           associated documentation; system audit records; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel responsible for limiting
           persistent connections; organizational personnel with
           information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for limiting persistent
           connections; automated mechanisms supporting and/or
           implementing non-persistent connectivity
@@ -33,7 +33,7 @@ objectives:
   - id: "si-14(03).si-14(03)[02]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; procedures addressing
           non-persistence for system components; system design
@@ -41,12 +41,12 @@ objectives:
           associated documentation; system audit records; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel responsible for limiting
           persistent connections; organizational personnel with
           information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for limiting persistent
           connections; automated mechanisms supporting and/or
           implementing non-persistent connectivity
@@ -56,6 +56,6 @@ objectives:
 parameters:
   si_14_03_odp:
     label: si-14.03_odp
-statement: >
+statement: >-
   Establish connections to the system on demand and terminate
   connections after {{ si_14_03_odp }}.

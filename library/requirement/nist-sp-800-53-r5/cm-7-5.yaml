@@ -12,7 +12,7 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           least functionality in the system; configuration
           management plan; system design documentation; system
@@ -24,13 +24,13 @@ objectives:
           system audit records; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for
           identifying software authorized to execute on the system;
           organizational personnel with information security
           responsibilities; system/network administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational process for identifying, reviewing, and
           updating programs authorized to execute on the system;
           organizational process for implementing authorized
@@ -40,7 +40,7 @@ objectives:
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           least functionality in the system; configuration
           management plan; system design documentation; system
@@ -52,25 +52,25 @@ objectives:
           system audit records; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for
           identifying software authorized to execute on the system;
           organizational personnel with information security
           responsibilities; system/network administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational process for identifying, reviewing, and
           updating programs authorized to execute on the system;
           organizational process for implementing authorized
           software policy; mechanisms supporting and/or implementing
           authorized software policy
-    statement: >
+    statement: >-
       a deny-all, permit-by-exception policy to allow the execution
       of authorized software programs on the system is employed;
   - id: c
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           least functionality in the system; configuration
           management plan; system design documentation; system
@@ -82,19 +82,19 @@ objectives:
           system audit records; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for
           identifying software authorized to execute on the system;
           organizational personnel with information security
           responsibilities; system/network administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational process for identifying, reviewing, and
           updating programs authorized to execute on the system;
           organizational process for implementing authorized
           software policy; mechanisms supporting and/or implementing
           authorized software policy
-    statement: >
+    statement: >-
       the list of authorized software programs is reviewed and
       updated {{ cm_07_05_odp_02 }}.
 parameters:
@@ -106,10 +106,10 @@ parts:
   - id: a
     statement: "Identify {{ cm_07_05_odp_01 }};"
   - id: b
-    statement: >
+    statement: >-
       Employ a deny-all, permit-by-exception policy to allow the
       execution of authorized software programs on the system; and
   - id: c
-    statement: >
+    statement: >-
       Review and update the list of authorized software programs
       {{ cm_07_05_odp_02 }}.

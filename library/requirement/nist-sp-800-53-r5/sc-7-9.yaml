@@ -12,7 +12,7 @@ objectives:
   - id: a-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing boundary protection; system design
           documentation; system hardware and software; system
@@ -20,13 +20,13 @@ objectives:
           documentation; system audit records; system security plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; system
           developer; organizational personnel with boundary
           protection responsibilities
       - method: test
-        statement: >
+        statement: >-
           Mechanisms implementing boundary protection capabilities;
           mechanisms implementing the detection and denial of
           threatening outgoing communications traffic; mechanisms
@@ -37,7 +37,7 @@ objectives:
   - id: a-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing boundary protection; system design
           documentation; system hardware and software; system
@@ -45,13 +45,13 @@ objectives:
           documentation; system audit records; system security plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; system
           developer; organizational personnel with boundary
           protection responsibilities
       - method: test
-        statement: >
+        statement: >-
           Mechanisms implementing boundary protection capabilities;
           mechanisms implementing the detection and denial of
           threatening outgoing communications traffic; mechanisms
@@ -62,7 +62,7 @@ objectives:
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing boundary protection; system design
           documentation; system hardware and software; system
@@ -70,13 +70,13 @@ objectives:
           documentation; system audit records; system security plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; system
           developer; organizational personnel with boundary
           protection responsibilities
       - method: test
-        statement: >
+        statement: >-
           Mechanisms implementing boundary protection capabilities;
           mechanisms implementing the detection and denial of
           threatening outgoing communications traffic; mechanisms
@@ -86,7 +86,7 @@ objectives:
       communications is audited.
 parts:
   - id: a
-    statement: >
+    statement: >-
       Detect and deny outgoing communications traffic posing a
       threat to external systems; and
   - id: b

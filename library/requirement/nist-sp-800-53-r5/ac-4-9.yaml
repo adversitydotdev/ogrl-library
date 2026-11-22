@@ -12,7 +12,7 @@ objectives:
   - id: "ac-04(09)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; information flow control policies;
           procedures addressing information flow enforcement; system
           design documentation; system configuration settings and
@@ -23,7 +23,7 @@ objectives:
           audit records; system security plan; privacy plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security and privacy responsibilities;
           organizational personnel with information flow enforcement
@@ -38,6 +38,6 @@ parameters:
     label: information flows
   ac_04_09_odp_02:
     label: conditions
-statement: >
+statement: >-
   Enforce the use of human reviews for {{ ac_04_09_odp_01 }} under
   the following conditions: {{ ac_04_09_odp_02 }}.

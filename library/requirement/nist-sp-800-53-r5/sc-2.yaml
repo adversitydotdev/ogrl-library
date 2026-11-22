@@ -12,14 +12,14 @@ objectives:
   - id: sc-02
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing application partitioning; system design
           documentation; system configuration settings and
           associated documentation; system audit records; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; system
           developer
@@ -27,9 +27,9 @@ objectives:
         statement: >-
           Separation of user functionality from system management
           functionality
-    statement: >
+    statement: >-
       user functionality, including user interface services, is
       separated from system management functionality.
-statement: >
+statement: >-
   Separate user functionality, including user interface services,
   from system management functionality.

@@ -22,7 +22,7 @@ objectives:
   - id: a.1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Privacy program plan; internal and external privacy
           reports; privacy program plan; annual senior agency
           official for privacy reports to OMB; reports to Congress
@@ -32,18 +32,18 @@ objectives:
           monitoring privacy program compliance; records of review
           and updates of privacy reports.
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with privacy program
           responsibilities; organizational personnel with privacy
           responsibilities; legal counsel.
-    statement: >
+    statement: >-
       the privacy reports are disseminated to {{ pm_27_odp_02 }} to
       demonstrate accountability with statutory, regulatory, and
       policy privacy mandates;
   - id: a.2-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Privacy program plan; internal and external privacy
           reports; privacy program plan; annual senior agency
           official for privacy reports to OMB; reports to Congress
@@ -53,7 +53,7 @@ objectives:
           monitoring privacy program compliance; records of review
           and updates of privacy reports.
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with privacy program
           responsibilities; organizational personnel with privacy
           responsibilities; legal counsel.
@@ -62,7 +62,7 @@ objectives:
   - id: a.2-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Privacy program plan; internal and external privacy
           reports; privacy program plan; annual senior agency
           official for privacy reports to OMB; reports to Congress
@@ -72,17 +72,17 @@ objectives:
           monitoring privacy program compliance; records of review
           and updates of privacy reports.
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with privacy program
           responsibilities; organizational personnel with privacy
           responsibilities; legal counsel.
-    statement: >
+    statement: >-
       the privacy reports are disseminated to other personnel
       responsible for monitoring privacy program compliance;
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Privacy program plan; internal and external privacy
           reports; privacy program plan; annual senior agency
           official for privacy reports to OMB; reports to Congress
@@ -92,7 +92,7 @@ objectives:
           monitoring privacy program compliance; records of review
           and updates of privacy reports.
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with privacy program
           responsibilities; organizational personnel with privacy
           responsibilities; legal counsel.
@@ -112,11 +112,11 @@ parts:
   - id: a
     statement: "Develop {{ pm_27_odp_01 }} and disseminate to:"
   - id: a.1
-    statement: >
+    statement: >-
       {{ pm_27_odp_02 }} to demonstrate accountability with
       statutory, regulatory, and policy privacy mandates; and
   - id: a.2
-    statement: >
+    statement: >-
       {{ pm_27_odp_03 }} and other personnel with responsibility for
       monitoring privacy program compliance; and
   - id: b

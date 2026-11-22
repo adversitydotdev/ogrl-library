@@ -12,7 +12,7 @@ objectives:
   - id: "sa-09(04)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; procedures
           addressing external system services; acquisition contracts
           for the system, system component, or system service;
@@ -24,20 +24,20 @@ objectives:
           providers; system security plan; supply chain risk
           management plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and service
           acquisition responsibilities; organizational personnel
           with information security responsibilities; external
           providers of system services; organizational personnel
           with supply chain risk management responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for defining and employing
           safeguards to ensure consistent interests with external
           service providers; mechanisms supporting and/or
           implementing safeguards to ensure consistent interests
           with external service providers
-    statement: >
+    statement: >-
       {{ sa_09_04_odp_02 }} are taken to verify that the interests
       of {{ sa_09_04_odp_01 }} are consistent with and reflect
       organizational interests.
@@ -46,7 +46,7 @@ parameters:
     label: external service providers
   sa_09_04_odp_02:
     label: actions
-statement: >
+statement: >-
   Take the following actions to verify that the interests of
   {{ sa_09_04_odp_01 }} are consistent with and reflect
   organizational interests: {{ sa_09_04_odp_02 }}.

@@ -12,7 +12,7 @@ objectives:
   - id: "sa-15(08).sa-15(08)[01]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; supply chain risk
           management plan; procedures addressing development
           process, standards, and tools; solicitation documentation;
@@ -23,13 +23,13 @@ objectives:
           services; system security plan; other relevant documents
           or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and service
           acquisition responsibilities; organizational personnel
           with information security responsibilities; system
           developer; organizational personnel with supply chain risk
           management responsibilities
-    statement: >
+    statement: >-
       the developer of the system, system component, or system
       service is required to use threat modeling from similar
       systems, components, or services to inform the current
@@ -37,7 +37,7 @@ objectives:
   - id: "sa-15(08).sa-15(08)[02]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; supply chain risk
           management plan; procedures addressing development
           process, standards, and tools; solicitation documentation;
@@ -48,18 +48,18 @@ objectives:
           services; system security plan; other relevant documents
           or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and service
           acquisition responsibilities; organizational personnel
           with information security responsibilities; system
           developer; organizational personnel with supply chain risk
           management responsibilities
-    statement: >
+    statement: >-
       the developer of the system, system component, or system
       service is required to use vulnerability analyses from similar
       systems, components, or services to inform the current
       development process.
-statement: >
+statement: >-
   Require the developer of the system, system component, or system
   service to use threat modeling and vulnerability analyses from
   similar systems, components, or services to inform the current

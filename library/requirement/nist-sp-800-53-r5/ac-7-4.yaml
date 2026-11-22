@@ -12,7 +12,7 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; procedures addressing unsuccessful
           logon attempts for primary and alternate authentication
           factors; system design documentation; system configuration
@@ -20,14 +20,14 @@ objectives:
           records; system security plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities
       - method: test
         statement: >-
           Mechanisms implementing access control policy for
           unsuccessful logon attempts
-    statement: >
+    statement: >-
       {{ ac_07_04_odp_01 }} that are different from the primary
       authentication factors are allowed to be used after the number
       of organization-defined consecutive invalid logon attempts
@@ -35,7 +35,7 @@ objectives:
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; procedures addressing unsuccessful
           logon attempts for primary and alternate authentication
           factors; system design documentation; system configuration
@@ -43,14 +43,14 @@ objectives:
           records; system security plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities
       - method: test
         statement: >-
           Mechanisms implementing access control policy for
           unsuccessful logon attempts
-    statement: >
+    statement: >-
       a limit of {{ ac_07_04_odp_02 }} consecutive invalid logon
       attempts through the use of the alternative factors by the
       user during a {{ ac_07_04_odp_03 }} is enforced.
@@ -63,13 +63,13 @@ parameters:
     label: time period
 parts:
   - id: a
-    statement: >
+    statement: >-
       Allow the use of {{ ac_07_04_odp_01 }} that are different from
       the primary authentication factors after the number of
       organization-defined consecutive invalid logon attempts have
       been exceeded; and
   - id: b
-    statement: >
+    statement: >-
       Enforce a limit of {{ ac_07_04_odp_02 }} consecutive invalid
       logon attempts through use of the alternative factors by a
       user during a {{ ac_07_04_odp_03 }}.

@@ -12,7 +12,7 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; configuration management
           plan; procedures addressing the baseline configuration of
           the system; procedures addressing system component
@@ -24,7 +24,7 @@ objectives:
           associated records; change control records; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with configuration management
           responsibilities; organizational personnel with
           information security responsibilities; system/network
@@ -33,14 +33,14 @@ objectives:
         statement: >-
           Organizational processes for managing baseline
           configurations
-    statement: >
+    statement: >-
       {{ cm_02_07_odp_01 }} with {{ cm_02_07_odp_02 }} are issued to
       individuals traveling to locations that the organization deems
       to be of significant risk;
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; configuration management
           plan; procedures addressing the baseline configuration of
           the system; procedures addressing system component
@@ -52,7 +52,7 @@ objectives:
           associated records; change control records; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with configuration management
           responsibilities; organizational personnel with
           information security responsibilities; system/network
@@ -61,7 +61,7 @@ objectives:
         statement: >-
           Organizational processes for managing baseline
           configurations
-    statement: >
+    statement: >-
       {{ cm_02_07_odp_03 }} are applied to the systems or system
       components when the individuals return from travel.
 parameters:
@@ -73,11 +73,11 @@ parameters:
     label: controls
 parts:
   - id: a
-    statement: >
+    statement: >-
       Issue {{ cm_02_07_odp_01 }} with {{ cm_02_07_odp_02 }} to
       individuals traveling to locations that the organization deems
       to be of significant risk; and
   - id: b
-    statement: >
+    statement: >-
       Apply the following controls to the systems or components when
       the individuals return from travel: {{ cm_02_07_odp_03 }}.

@@ -19,129 +19,129 @@ objectives:
   - id: a-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System media protection policy; procedures addressing
           media downgrading; system categorization documentation;
           list of media requiring downgrading; records of media
           downgrading; audit records; system security plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system media downgrading
           responsibilities; organizational personnel with
           information security responsibilities; system/network
           administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for media downgrading; mechanisms
           supporting and/or implementing media downgrading
     statement: "a {{ mp_08_odp_01 }} is established;"
   - id: a-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System media protection policy; procedures addressing
           media downgrading; system categorization documentation;
           list of media requiring downgrading; records of media
           downgrading; audit records; system security plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system media downgrading
           responsibilities; organizational personnel with
           information security responsibilities; system/network
           administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for media downgrading; mechanisms
           supporting and/or implementing media downgrading
-    statement: >
+    statement: >-
       the {{ mp_08_odp_01 }} includes employing downgrading
       mechanisms with strength and integrity commensurate with the
       security category or classification of the information;
   - id: b-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System media protection policy; procedures addressing
           media downgrading; system categorization documentation;
           list of media requiring downgrading; records of media
           downgrading; audit records; system security plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system media downgrading
           responsibilities; organizational personnel with
           information security responsibilities; system/network
           administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for media downgrading; mechanisms
           supporting and/or implementing media downgrading
-    statement: >
+    statement: >-
       there is verification that the system media downgrading
       process is commensurate with the security category and/or
       classification level of the information to be removed;
   - id: b-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System media protection policy; procedures addressing
           media downgrading; system categorization documentation;
           list of media requiring downgrading; records of media
           downgrading; audit records; system security plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system media downgrading
           responsibilities; organizational personnel with
           information security responsibilities; system/network
           administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for media downgrading; mechanisms
           supporting and/or implementing media downgrading
-    statement: >
+    statement: >-
       there is verification that the system media downgrading
       process is commensurate with the access authorizations of the
       potential recipients of the downgraded information;
   - id: c
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System media protection policy; procedures addressing
           media downgrading; system categorization documentation;
           list of media requiring downgrading; records of media
           downgrading; audit records; system security plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system media downgrading
           responsibilities; organizational personnel with
           information security responsibilities; system/network
           administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for media downgrading; mechanisms
           supporting and/or implementing media downgrading
     statement: "{{ mp_08_odp_02 }} is identified;"
   - id: d
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System media protection policy; procedures addressing
           media downgrading; system categorization documentation;
           list of media requiring downgrading; records of media
           downgrading; audit records; system security plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system media downgrading
           responsibilities; organizational personnel with
           information security responsibilities; system/network
           administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for media downgrading; mechanisms
           supporting and/or implementing media downgrading
     statement: >-
@@ -154,13 +154,13 @@ parameters:
     label: system media requiring downgrading
 parts:
   - id: a
-    statement: >
+    statement: >-
       Establish {{ mp_08_odp_01 }} that includes employing
       downgrading mechanisms with strength and integrity
       commensurate with the security category or classification of
       the information;
   - id: b
-    statement: >
+    statement: >-
       Verify that the system media downgrading process is
       commensurate with the security category and/or classification
       level of the information to be removed and the access

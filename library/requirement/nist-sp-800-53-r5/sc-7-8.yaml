@@ -12,7 +12,7 @@ objectives:
   - id: "sc-07(08)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing boundary protection; system design
           documentation; system hardware and software; system
@@ -20,16 +20,16 @@ objectives:
           documentation; system audit records; system security plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; system
           developer; organizational personnel with boundary
           protection responsibilities
       - method: test
-        statement: >
+        statement: >-
           Mechanisms implementing traffic management through
           authenticated proxy servers at managed interfaces
-    statement: >
+    statement: >-
       {{ sc_07_08_odp_01 }} is routed to {{ sc_07_08_odp_02 }}
       through authenticated proxy servers at managed interfaces.
 parameters:
@@ -37,6 +37,6 @@ parameters:
     label: internal communications traffic
   sc_07_08_odp_02:
     label: external networks
-statement: >
+statement: >-
   Route {{ sc_07_08_odp_01 }} to {{ sc_07_08_odp_02 }} through
   authenticated proxy servers at managed interfaces.

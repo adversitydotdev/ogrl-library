@@ -12,7 +12,7 @@ objectives:
   - id: "sa-08(30)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; procedures
           addressing the security design principle of procedural
           rigor used in the specification, design, development,
@@ -22,7 +22,7 @@ objectives:
           privacy architecture; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with the responsibility for
           determining system security and privacy requirements;
           organizational personnel with system specification,
@@ -30,7 +30,7 @@ objectives:
           responsibilities; system developers; organizational
           personnel with information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for applying the security design
           principle of procedural rigor in system specification,
           design, development, implementation, and modification;
@@ -44,6 +44,6 @@ objectives:
 parameters:
   sa_08_30_odp:
     label: systems or system components
-statement: >
+statement: >-
   Implement the security design principle of procedural rigor in
   {{ sa_08_30_odp }}.

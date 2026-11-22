@@ -12,7 +12,7 @@ objectives:
   - id: "at-03(05)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Security and privacy awareness and training policy;
           procedures addressing security and privacy awareness
           training implementation; security and privacy awareness
@@ -24,12 +24,12 @@ objectives:
           assessments; information sharing agreements; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for
           role-based security and privacy training; organizational
           personnel who participate in security and privacy
           awareness training
-    statement: >
+    statement: >-
       {{ at_03_05_odp_01 }} are provided with initial and refresher
       training {{ at_03_05_odp_02 }} in the employment and operation
       of personally identifiable information processing and
@@ -39,7 +39,7 @@ parameters:
     label: personnel or roles
   at_03_05_odp_02:
     label: frequency
-statement: >
+statement: >-
   Provide {{ at_03_05_odp_01 }} with initial and
   {{ at_03_05_odp_02 }} training in the employment and operation of
   personally identifiable information processing and transparency

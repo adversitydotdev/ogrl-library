@@ -12,18 +12,18 @@ objectives:
   - id: "01"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           physical protection policy and procedures; media
           protection policy and procedures; procedures for media
           marking; list of system media marking security attributes;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with system media protection and marking
           responsibilities; personnel with information security
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           processes for marking information media; mechanisms for
           supporting or implementing media marking
     statement: >-
@@ -32,18 +32,18 @@ objectives:
   - id: "02"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           physical protection policy and procedures; media
           protection policy and procedures; procedures for media
           marking; list of system media marking security attributes;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with system media protection and marking
           responsibilities; personnel with information security
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           processes for marking information media; mechanisms for
           supporting or implementing media marking
     statement: >-
@@ -52,23 +52,23 @@ objectives:
   - id: "03"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           physical protection policy and procedures; media
           protection policy and procedures; procedures for media
           marking; list of system media marking security attributes;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with system media protection and marking
           responsibilities; personnel with information security
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           processes for marking information media; mechanisms for
           supporting or implementing media marking
     statement: >-
       system media that contain CUI are marked to indicate
       applicable CUI markings.
-statement: >
+statement: >-
   Mark system media that contain CUI to indicate distribution
   limitations, handling caveats, and applicable CUI markings.

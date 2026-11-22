@@ -19,14 +19,14 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; procedures addressing unsuccessful
           logon attempts; system design documentation; system
           configuration settings and associated documentation;
           system audit records; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with information security
           responsibilities; system developers; system/network
           administrators
@@ -34,20 +34,20 @@ objectives:
         statement: >-
           Mechanisms implementing access control policy for
           unsuccessful logon attempts
-    statement: >
+    statement: >-
       a limit of {{ ac_07_odp_01 }} consecutive invalid logon
       attempts by a user during {{ ac_07_odp_02 }} is enforced;
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; procedures addressing unsuccessful
           logon attempts; system design documentation; system
           configuration settings and associated documentation;
           system audit records; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with information security
           responsibilities; system developers; system/network
           administrators
@@ -55,7 +55,7 @@ objectives:
         statement: >-
           Mechanisms implementing access control policy for
           unsuccessful logon attempts
-    statement: >
+    statement: >-
       automatically {{ ac_07_odp_03 }} when the maximum number of
       unsuccessful attempts is exceeded.
 parameters:
@@ -73,10 +73,10 @@ parameters:
     label: action
 parts:
   - id: a
-    statement: >
+    statement: >-
       Enforce a limit of {{ ac_07_odp_01 }} consecutive invalid
       logon attempts by a user during a {{ ac_07_odp_02 }} ; and
   - id: b
-    statement: >
+    statement: >-
       Automatically {{ ac_07_odp_03 }} when the maximum number of
       unsuccessful attempts is exceeded.

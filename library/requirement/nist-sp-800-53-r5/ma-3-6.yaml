@@ -12,7 +12,7 @@ objectives:
   - id: "ma-03(06)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Maintenance policy; procedures addressing system
           maintenance tools; system maintenance tools and associated
           documentation; list of personnel authorized to use
@@ -20,20 +20,20 @@ objectives:
           maintenance records; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system maintenance
           responsibilities; organizational personnel with
           information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for inspecting maintenance tools;
           organizational processes for maintenance tools updates;
           mechanisms supporting and/or implementing the inspection
           of maintenance tools; mechanisms supporting and/or
           implementing maintenance tool updates.
-    statement: >
+    statement: >-
       maintenance tools are inspected to ensure that the latest
       software updates and patches are installed.
-statement: >
+statement: >-
   Inspect maintenance tools to ensure the latest software updates
   and patches are installed.

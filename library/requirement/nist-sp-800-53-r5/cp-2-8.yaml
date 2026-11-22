@@ -12,24 +12,24 @@ objectives:
   - id: "cp-02(08)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Contingency planning policy; procedures addressing
           contingency operations for the system; contingency plan;
           business impact assessment; system security plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with contingency planning and
           plan implementation responsibilities; organizational
           personnel with knowledge of requirements for mission and
           business functions; organizational personnel with
           information security responsibilities
-    statement: >
+    statement: >-
       critical system assets supporting {{ cp_02_08_odp }} mission
       and business functions are identified.
 parameters:
   cp_02_08_odp:
     label: cp-02.08_odp
-statement: >
+statement: >-
   Identify critical system assets supporting {{ cp_02_08_odp }}
   mission and business functions.

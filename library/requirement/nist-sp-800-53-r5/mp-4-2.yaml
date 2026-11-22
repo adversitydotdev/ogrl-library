@@ -12,7 +12,7 @@ objectives:
   - id: "mp-04(02).mp-04(02)[01]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System media protection policy; procedures addressing
           media storage; access control policy and procedures;
           physical and environmental protection policy and
@@ -22,13 +22,13 @@ objectives:
           records; audit records; system security plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system media protection and
           storage responsibilities; organizational personnel with
           information security responsibilities; system/network
           administrators
       - method: test
-        statement: >
+        statement: >-
           Automated mechanisms restricting access to media storage
           areas; automated mechanisms auditing access attempts and
           access granted to media storage areas
@@ -38,7 +38,7 @@ objectives:
   - id: "mp-04(02).mp-04(02)[02]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System media protection policy; procedures addressing
           media storage; access control policy and procedures;
           physical and environmental protection policy and
@@ -48,13 +48,13 @@ objectives:
           records; audit records; system security plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system media protection and
           storage responsibilities; organizational personnel with
           information security responsibilities; system/network
           administrators
       - method: test
-        statement: >
+        statement: >-
           Automated mechanisms restricting access to media storage
           areas; automated mechanisms auditing access attempts and
           access granted to media storage areas
@@ -64,7 +64,7 @@ objectives:
   - id: "mp-04(02).mp-04(02)[03]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System media protection policy; procedures addressing
           media storage; access control policy and procedures;
           physical and environmental protection policy and
@@ -74,13 +74,13 @@ objectives:
           records; audit records; system security plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system media protection and
           storage responsibilities; organizational personnel with
           information security responsibilities; system/network
           administrators
       - method: test
-        statement: >
+        statement: >-
           Automated mechanisms restricting access to media storage
           areas; automated mechanisms auditing access attempts and
           access granted to media storage areas
@@ -96,6 +96,6 @@ parameters:
     label: automated mechanisms
   mp_4_2_prm_1:
     label: organization-defined automated mechanisms
-statement: >
+statement: >-
   Restrict access to media storage areas and log access attempts and
   access granted using {{ mp_4_2_prm_1 }}.

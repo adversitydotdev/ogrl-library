@@ -12,7 +12,7 @@ objectives:
   - id: "ac-02(09)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; procedures addressing account
           management; system design documentation; system
           configuration settings and associated documentation;
@@ -20,7 +20,7 @@ objectives:
           associated roles; system audit records; system security
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with account management
           responsibilities; system/network administrators;
           organizational personnel with information security
@@ -29,7 +29,7 @@ objectives:
         statement: >-
           Mechanisms implementing management of shared/group
           accounts
-    statement: >
+    statement: >-
       the use of shared and group accounts is only permitted if
       {{ ac_02_09_odp }} are met.
 parameters:

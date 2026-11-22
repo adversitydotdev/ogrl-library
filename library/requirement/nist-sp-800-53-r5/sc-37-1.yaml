@@ -12,7 +12,7 @@ objectives:
   - id: "sc-37(01)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing the use of out-of-band channels; access control
           policy and procedures; identification and authentication
@@ -28,7 +28,7 @@ objectives:
           designated individuals or systems; system audit records;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; organizational
           personnel installing, configuring, and/or maintaining the
@@ -36,13 +36,13 @@ objectives:
           configuring, operating, and/or using out-of-band channels;
           system developers/integrators
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for the use of out-of-band
           channels; mechanisms supporting and/or implementing the
           use of out-of-band channels; mechanisms
           supporting/implementing safeguards to ensure the delivery
           of designated information, system components, or devices
-    statement: >
+    statement: >-
       {{ sc_37_01_odp_01 }} are employed to ensure that only
       {{ sc_37_01_odp_02 }} receive {{ sc_37_01_odp_03 }}.
 parameters:
@@ -52,7 +52,7 @@ parameters:
     label: individuals or systems
   sc_37_01_odp_03:
     label: "information, system components, or devices"
-statement: >
+statement: >-
   Employ {{ sc_37_01_odp_01 }} to ensure that only
   {{ sc_37_01_odp_02 }} receive the following information, system
   components, or devices: {{ sc_37_01_odp_03 }}.

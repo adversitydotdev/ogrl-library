@@ -12,13 +12,13 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Security and privacy planning policy; procedures
           addressing rules of behavior for system users; rules of
           behavior; training policy; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibility for
           establishing, reviewing, and updating rules of behavior;
           organizational personnel with responsibility for literacy
@@ -28,24 +28,24 @@ objectives:
           personnel with information security and privacy
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for establishing rules of
           behavior; mechanisms supporting and/or implementing the
           establishment of rules of behavior
-    statement: >
+    statement: >-
       the rules of behavior include restrictions on the use of
       social media, social networking sites, and external
       sites/applications;
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Security and privacy planning policy; procedures
           addressing rules of behavior for system users; rules of
           behavior; training policy; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibility for
           establishing, reviewing, and updating rules of behavior;
           organizational personnel with responsibility for literacy
@@ -55,23 +55,23 @@ objectives:
           personnel with information security and privacy
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for establishing rules of
           behavior; mechanisms supporting and/or implementing the
           establishment of rules of behavior
-    statement: >
+    statement: >-
       the rules of behavior include restrictions on posting
       organizational information on public websites;
   - id: c
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Security and privacy planning policy; procedures
           addressing rules of behavior for system users; rules of
           behavior; training policy; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibility for
           establishing, reviewing, and updating rules of behavior;
           organizational personnel with responsibility for literacy
@@ -81,11 +81,11 @@ objectives:
           personnel with information security and privacy
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for establishing rules of
           behavior; mechanisms supporting and/or implementing the
           establishment of rules of behavior
-    statement: >
+    statement: >-
       the rules of behavior include restrictions on the use of
       organization-provided identifiers (e.g., email addresses) and
       authentication secrets (e.g., passwords) for creating accounts
@@ -99,7 +99,7 @@ parts:
     statement: >-
       Posting organizational information on public websites; and
   - id: c
-    statement: >
+    statement: >-
       Use of organization-provided identifiers (e.g., email
       addresses) and authentication secrets (e.g., passwords) for
       creating accounts on external sites/applications.

@@ -12,7 +12,7 @@ objectives:
   - id: "pl-08(02)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Security and privacy planning policy; procedures
           addressing information security and privacy architecture
           development; enterprise architecture documentation;
@@ -21,7 +21,7 @@ objectives:
           security and privacy CONOPS for the system; IT
           acquisitions policy; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with security and privacy
           planning and plan implementation responsibilities;
           organizational personnel with information security and
@@ -30,10 +30,10 @@ objectives:
           responsibilities; organizational personnel with
           information security and privacy responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for obtaining information
           security and privacy safeguards from different suppliers
-    statement: >
+    statement: >-
       {{ pl_08_02_odp_01 }} that are allocated to
       {{ pl_08_02_odp_02 }} are required to be obtained from
       different suppliers.
@@ -42,6 +42,6 @@ parameters:
     label: controls
   pl_08_02_odp_02:
     label: locations and architectural layers
-statement: >
+statement: >-
   Require that {{ pl_08_02_odp_01 }} allocated to
   {{ pl_08_02_odp_02 }} are obtained from different suppliers.

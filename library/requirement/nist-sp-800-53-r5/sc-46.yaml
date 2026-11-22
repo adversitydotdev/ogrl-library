@@ -16,14 +16,14 @@ objectives:
   - id: _obj
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing cross-domain policy enforcement; system design
           documentation; system configuration settings and
           associated documentation; system audit records; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; organizational
           personnel installing, configuring, and/or maintaining the
@@ -32,14 +32,14 @@ objectives:
         statement: >-
           Mechanisms supporting and/or implementing cross-domain
           policy enforcement
-    statement: >
+    statement: >-
       a policy enforcement mechanism is {{ sc_46_odp }} implemented
       between the physical and/or network interfaces for the
       connecting security domains.
 parameters:
   sc_46_odp:
     label: sc-46_odp
-statement: >
+statement: >-
   Implement a policy enforcement mechanism {{ sc_46_odp }} between
   the physical and/or network interfaces for the connecting security
   domains.

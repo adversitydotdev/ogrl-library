@@ -12,7 +12,7 @@ objectives:
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           audit and accountability policy and procedures; access
           control policy and procedures; procedures for the
           protection of audit information; system configuration
@@ -23,21 +23,21 @@ objectives:
           documentation; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with audit and accountability responsibilities;
           personnel with information security responsibilities;
           system developers; system administrators
       - method: test
-        statement: >
+        statement: >-
           mechanisms for implementing audit information protection;
           mechanisms for managing access to audit functionality
-    statement: >
+    statement: >-
       access to management of audit logging functionality is
       authorized to only a subset of privileged users or roles.
   - id: a.01
     methods:
       - method: examine
-        statement: >
+        statement: >-
           audit and accountability policy and procedures; access
           control policy and procedures; procedures for the
           protection of audit information; system configuration
@@ -48,21 +48,21 @@ objectives:
           documentation; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with audit and accountability responsibilities;
           personnel with information security responsibilities;
           system developers; system administrators
       - method: test
-        statement: >
+        statement: >-
           mechanisms for implementing audit information protection;
           mechanisms for managing access to audit functionality
-    statement: >
+    statement: >-
       audit information is protected from unauthorized access,
       modification, and deletion.
   - id: a.02
     methods:
       - method: examine
-        statement: >
+        statement: >-
           audit and accountability policy and procedures; access
           control policy and procedures; procedures for the
           protection of audit information; system configuration
@@ -73,23 +73,23 @@ objectives:
           documentation; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with audit and accountability responsibilities;
           personnel with information security responsibilities;
           system developers; system administrators
       - method: test
-        statement: >
+        statement: >-
           mechanisms for implementing audit information protection;
           mechanisms for managing access to audit functionality
-    statement: >
+    statement: >-
       audit logging tools are protected from unauthorized access,
       modification, and deletion.
 parts:
   - id: a
-    statement: >
+    statement: >-
       Protect audit information and audit logging tools from
       unauthorized access, modification, and deletion.
   - id: b
-    statement: >
+    statement: >-
       Authorize access to management of audit logging functionality
       to only a subset of privileged users or roles.

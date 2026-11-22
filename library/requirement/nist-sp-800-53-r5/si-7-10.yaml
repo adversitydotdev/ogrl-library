@@ -12,7 +12,7 @@ objectives:
   - id: "si-07(10)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; procedures addressing
           software, firmware, and information integrity; system
@@ -22,18 +22,18 @@ objectives:
           verification scans; system audit records; system security
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel responsible for software,
           firmware, and/or information integrity; organizational
           personnel with information security responsibilities;
           system/network administrators; system developer
       - method: test
-        statement: >
+        statement: >-
           Software, firmware, and information integrity verification
           tools; mechanisms supporting and/or implementing
           protection of the integrity of boot firmware; safeguards
           implementing protection of the integrity of boot firmware
-    statement: >
+    statement: >-
       {{ si_07_10_odp_01 }} are implemented to protect the integrity
       of boot firmware in {{ si_07_10_odp_02 }}.
 parameters:
@@ -41,6 +41,6 @@ parameters:
     label: mechanisms
   si_07_10_odp_02:
     label: system components
-statement: >
+statement: >-
   Implement the following mechanisms to protect the integrity of
   boot firmware in {{ si_07_10_odp_02 }}: {{ si_07_10_odp_01 }}.

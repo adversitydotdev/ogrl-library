@@ -12,7 +12,7 @@ objectives:
   - id: "ac-20(05)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; procedures addressing use of
           portable storage devices in external systems; system
           design documentation; system configuration settings and
@@ -20,15 +20,15 @@ objectives:
           agreements; system audit records; system security plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for
           prohibiting the use of portable storage devices in
           external systems; system/network administrators;
           organizational personnel with information security
           responsibilities
-    statement: >
+    statement: >-
       the use of organization-controlled portable storage devices by
       authorized individuals is prohibited on external systems.
-statement: >
+statement: >-
   Prohibit the use of organization-controlled portable storage
   devices by authorized individuals on external systems.

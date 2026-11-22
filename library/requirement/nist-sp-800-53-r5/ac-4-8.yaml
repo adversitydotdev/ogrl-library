@@ -12,7 +12,7 @@ objectives:
   - id: a-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; information flow control policies;
           procedures addressing information flow enforcement; system
           design documentation; system configuration settings and
@@ -22,22 +22,22 @@ objectives:
           records; system security plan; privacy plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security and privacy responsibilities;
           system developers
       - method: test
-        statement: >
+        statement: >-
           Mechanisms implementing information flow enforcement
           policy; security and privacy policy filters
-    statement: >
+    statement: >-
       information flow control is enforced using
       {{ ac_04_08_odp_01 }} as a basis for flow control decisions
       for {{ ac_04_08_odp_03 }};
   - id: a-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; information flow control policies;
           procedures addressing information flow enforcement; system
           design documentation; system configuration settings and
@@ -47,22 +47,22 @@ objectives:
           records; system security plan; privacy plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security and privacy responsibilities;
           system developers
       - method: test
-        statement: >
+        statement: >-
           Mechanisms implementing information flow enforcement
           policy; security and privacy policy filters
-    statement: >
+    statement: >-
       information flow control is enforced using
       {{ ac_04_08_odp_02 }} as a basis for flow control decisions
       for {{ ac_04_08_odp_04 }};
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; information flow control policies;
           procedures addressing information flow enforcement; system
           design documentation; system configuration settings and
@@ -72,15 +72,15 @@ objectives:
           records; system security plan; privacy plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security and privacy responsibilities;
           system developers
       - method: test
-        statement: >
+        statement: >-
           Mechanisms implementing information flow enforcement
           policy; security and privacy policy filters
-    statement: |
+    statement: |-
       {{ ac_04_08_odp_05 }} data after a filter processing failure in accordance with {{ ac_04_08_odp_06 }};
 
       {{ ac_04_08_odp_05 }} data after a filter processing failure in accordance with {{ ac_04_08_odp_07 }}.
@@ -107,10 +107,10 @@ parameters:
     label: organization-defined security or privacy policy
 parts:
   - id: a
-    statement: >
+    statement: >-
       Enforce information flow control using {{ ac_4_8_prm_1 }} as a
       basis for flow control decisions for {{ ac_4_8_prm_2 }} ; and
   - id: b
-    statement: >
+    statement: >-
       {{ ac_04_08_odp_05 }} data after a filter processing failure
       in accordance with {{ ac_4_8_prm_4 }}.

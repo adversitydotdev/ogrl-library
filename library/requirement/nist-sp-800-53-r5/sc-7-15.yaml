@@ -12,7 +12,7 @@ objectives:
   - id: "sc-07(15).sc-07(15)[01]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing boundary protection; system design
           documentation; system hardware and software; system
@@ -20,23 +20,23 @@ objectives:
           documentation; audit logs; system security plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; system
           developer; organizational personnel with boundary
           protection responsibilities
       - method: test
-        statement: >
+        statement: >-
           Mechanisms supporting and/or implementing the routing of
           networked, privileged access through dedicated, managed
           interfaces
-    statement: >
+    statement: >-
       networked, privileged accesses are routed through a dedicated,
       managed interface for purposes of access control;
   - id: "sc-07(15).sc-07(15)[02]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing boundary protection; system design
           documentation; system hardware and software; system
@@ -44,19 +44,19 @@ objectives:
           documentation; audit logs; system security plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; system
           developer; organizational personnel with boundary
           protection responsibilities
       - method: test
-        statement: >
+        statement: >-
           Mechanisms supporting and/or implementing the routing of
           networked, privileged access through dedicated, managed
           interfaces
-    statement: >
+    statement: >-
       networked, privileged accesses are routed through a dedicated,
       managed interface for purposes of auditing.
-statement: >
+statement: >-
   Route networked, privileged accesses through a dedicated, managed
   interface for purposes of access control and auditing.

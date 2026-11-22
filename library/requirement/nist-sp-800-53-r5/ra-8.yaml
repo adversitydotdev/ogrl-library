@@ -22,24 +22,24 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Risk assessment policy; security and privacy risk
           assessment reports; acquisitions documents; system
           security plan; privacy plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with assessment and auditing
           responsibilities; system/network administrators; system
           developers; program managers; legal counsel;
           organizational personnel with security and privacy
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for assessments and audits;
           mechanisms/tools supporting and/or implementing
           assessments and auditing
-    statement: >
+    statement: >-
       privacy impact assessments are conducted for systems,
       programs, or other activities before developing or procuring
       information technology that processes personally identifiable
@@ -47,24 +47,24 @@ objectives:
   - id: b-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Risk assessment policy; security and privacy risk
           assessment reports; acquisitions documents; system
           security plan; privacy plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with assessment and auditing
           responsibilities; system/network administrators; system
           developers; program managers; legal counsel;
           organizational personnel with security and privacy
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for assessments and audits;
           mechanisms/tools supporting and/or implementing
           assessments and auditing
-    statement: >
+    statement: >-
       privacy impact assessments are conducted for systems,
       programs, or other activities before initiating a collection
       of personally identifiable information that will be processed
@@ -72,24 +72,24 @@ objectives:
   - id: b-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Risk assessment policy; security and privacy risk
           assessment reports; acquisitions documents; system
           security plan; privacy plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with assessment and auditing
           responsibilities; system/network administrators; system
           developers; program managers; legal counsel;
           organizational personnel with security and privacy
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for assessments and audits;
           mechanisms/tools supporting and/or implementing
           assessments and auditing
-    statement: >
+    statement: >-
       privacy impact assessments are conducted for systems,
       programs, or other activities before initiating a collection
       of personally identifiable information that includes
@@ -101,7 +101,7 @@ objectives:
       government.
 parts:
   - id: a
-    statement: >
+    statement: >-
       Developing or procuring information technology that processes
       personally identifiable information; and
   - id: b
@@ -111,13 +111,13 @@ parts:
   - id: b.1
     statement: Will be processed using information technology; and
   - id: b.2
-    statement: >
+    statement: >-
       Includes personally identifiable information permitting the
       physical or virtual (online) contacting of a specific
       individual, if identical questions have been posed to, or
       identical reporting requirements imposed on, ten or more
       individuals, other than agencies, instrumentalities, or
       employees of the federal government.
-statement: >
+statement: >-
   Conduct privacy impact assessments for systems, programs, or other
   activities before:

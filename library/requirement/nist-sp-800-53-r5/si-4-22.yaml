@@ -12,7 +12,7 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; procedures addressing
           system monitoring tools and techniques; system design
@@ -24,25 +24,25 @@ objectives:
           monitoring logs or records; system audit records; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; system
           developer; organizational personnel installing,
           configuring, and/or maintaining the system; organizational
           personnel responsible for monitoring the system
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for system monitoring; mechanisms
           supporting and/or implementing a system monitoring
           capability; mechanisms for auditing network services;
           mechanisms for providing alerts
-    statement: >
+    statement: >-
       network services that have not been authorized or approved by
       {{ si_04_22_odp_01 }} are detected;
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; procedures addressing
           system monitoring tools and techniques; system design
@@ -54,19 +54,19 @@ objectives:
           monitoring logs or records; system audit records; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; system
           developer; organizational personnel installing,
           configuring, and/or maintaining the system; organizational
           personnel responsible for monitoring the system
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for system monitoring; mechanisms
           supporting and/or implementing a system monitoring
           capability; mechanisms for auditing network services;
           mechanisms for providing alerts
-    statement: >
+    statement: >-
       {{ si_04_22_odp_02 }} is/are initiated when network services
       that have not been authorized or approved by authorization or
       approval processes are detected.
@@ -79,7 +79,7 @@ parameters:
     label: personnel or roles
 parts:
   - id: a
-    statement: >
+    statement: >-
       Detect network services that have not been authorized or
       approved by {{ si_04_22_odp_01 }} ; and
   - id: b

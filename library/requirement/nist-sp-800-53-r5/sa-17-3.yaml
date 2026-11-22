@@ -12,7 +12,7 @@ objectives:
   - id: a-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; enterprise
           architecture policy; formal policy model; procedures
           addressing developer security architecture and design
@@ -28,13 +28,13 @@ objectives:
           formal top-level specification documentation; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and service
           acquisition responsibilities; organizational personnel
           with information security responsibilities; system
           developer; organizational personnel with information
           security architecture and design responsibilities
-    statement: >
+    statement: >-
       as an integral part of the development process, the developer
       of the system, system component, or system service is required
       to produce a formal top-level specification that specifies the
@@ -43,7 +43,7 @@ objectives:
   - id: a-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; enterprise
           architecture policy; formal policy model; procedures
           addressing developer security architecture and design
@@ -59,13 +59,13 @@ objectives:
           formal top-level specification documentation; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and service
           acquisition responsibilities; organizational personnel
           with information security responsibilities; system
           developer; organizational personnel with information
           security architecture and design responsibilities
-    statement: >
+    statement: >-
       as an integral part of the development process, the developer
       of the system, system component, or system service is required
       to produce a formal top-level specification that specifies the
@@ -74,7 +74,7 @@ objectives:
   - id: a-3
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; enterprise
           architecture policy; formal policy model; procedures
           addressing developer security architecture and design
@@ -90,13 +90,13 @@ objectives:
           formal top-level specification documentation; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and service
           acquisition responsibilities; organizational personnel
           with information security responsibilities; system
           developer; organizational personnel with information
           security architecture and design responsibilities
-    statement: >
+    statement: >-
       as an integral part of the development process, the developer
       of the system, system component, or system service is required
       to produce a formal top-level specification that specifies the
@@ -105,7 +105,7 @@ objectives:
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; enterprise
           architecture policy; formal policy model; procedures
           addressing developer security architecture and design
@@ -121,13 +121,13 @@ objectives:
           formal top-level specification documentation; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and service
           acquisition responsibilities; organizational personnel
           with information security responsibilities; system
           developer; organizational personnel with information
           security architecture and design responsibilities
-    statement: >
+    statement: >-
       the developer of the system, system component, or system
       service is required to show proof that the formal top-level
       specification is consistent with the formal policy model to
@@ -136,7 +136,7 @@ objectives:
   - id: c
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; enterprise
           architecture policy; formal policy model; procedures
           addressing developer security architecture and design
@@ -152,13 +152,13 @@ objectives:
           formal top-level specification documentation; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and service
           acquisition responsibilities; organizational personnel
           with information security responsibilities; system
           developer; organizational personnel with information
           security architecture and design responsibilities
-    statement: >
+    statement: >-
       the developer of the system, system component, or system
       service is required to show via informal demonstration that
       the formal top-level specification completely covers the
@@ -167,7 +167,7 @@ objectives:
   - id: d
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; enterprise
           architecture policy; formal policy model; procedures
           addressing developer security architecture and design
@@ -183,13 +183,13 @@ objectives:
           formal top-level specification documentation; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and service
           acquisition responsibilities; organizational personnel
           with information security responsibilities; system
           developer; organizational personnel with information
           security architecture and design responsibilities
-    statement: >
+    statement: >-
       the developer of the system, system component, or system
       service is required to show that the formal top-level
       specification is an accurate description of the implemented
@@ -197,7 +197,7 @@ objectives:
   - id: e
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; enterprise
           architecture policy; formal policy model; procedures
           addressing developer security architecture and design
@@ -213,13 +213,13 @@ objectives:
           formal top-level specification documentation; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and service
           acquisition responsibilities; organizational personnel
           with information security responsibilities; system
           developer; organizational personnel with information
           security architecture and design responsibilities
-    statement: >
+    statement: >-
       the developer of the system, system component, or system
       service is required to describe the security-relevant
       hardware, software, and firmware mechanisms that are not
@@ -228,28 +228,28 @@ objectives:
       and firmware.
 parts:
   - id: a
-    statement: >
+    statement: >-
       Produce, as an integral part of the development process, a
       formal top-level specification that specifies the interfaces
       to security-relevant hardware, software, and firmware in terms
       of exceptions, error messages, and effects;
   - id: b
-    statement: >
+    statement: >-
       Show via proof to the extent feasible with additional informal
       demonstration as necessary, that the formal top-level
       specification is consistent with the formal policy model;
   - id: c
-    statement: >
+    statement: >-
       Show via informal demonstration, that the formal top-level
       specification completely covers the interfaces to
       security-relevant hardware, software, and firmware;
   - id: d
-    statement: >
+    statement: >-
       Show that the formal top-level specification is an accurate
       description of the implemented security-relevant hardware,
       software, and firmware; and
   - id: e
-    statement: >
+    statement: >-
       Describe the security-relevant hardware, software, and
       firmware mechanisms not addressed in the formal top-level
       specification but strictly internal to the security-relevant

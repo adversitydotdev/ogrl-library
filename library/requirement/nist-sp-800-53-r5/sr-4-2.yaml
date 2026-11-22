@@ -12,7 +12,7 @@ objectives:
   - id: "sr-04(02).sr-04(02)[01]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Supply chain risk management policy and procedures; system
           and services acquisition policy; procedures addressing
           supply chain protection; procedures addressing the
@@ -25,7 +25,7 @@ objectives:
           techniques, and/or configurations; system security plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and services
           acquisition responsibilities; organizational personnel
           with information security responsibilities; organizational
@@ -34,20 +34,20 @@ objectives:
           establishing and retaining the unique identification of
           supply chain elements, processes, and actors
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for defining, establishing, and
           retaining unique identification for supply chain elements,
           processes, and actors; mechanisms supporting and/or
           implementing the definition, establishment, and retention
           of unique identification for supply chain elements,
           processes, and actors
-    statement: >
+    statement: >-
       the unique identification of {{ sr_04_02_odp }} is established
       for tracking through the supply chain;
   - id: "sr-04(02).sr-04(02)[02]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Supply chain risk management policy and procedures; system
           and services acquisition policy; procedures addressing
           supply chain protection; procedures addressing the
@@ -60,7 +60,7 @@ objectives:
           techniques, and/or configurations; system security plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and services
           acquisition responsibilities; organizational personnel
           with information security responsibilities; organizational
@@ -69,20 +69,20 @@ objectives:
           establishing and retaining the unique identification of
           supply chain elements, processes, and actors
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for defining, establishing, and
           retaining unique identification for supply chain elements,
           processes, and actors; mechanisms supporting and/or
           implementing the definition, establishment, and retention
           of unique identification for supply chain elements,
           processes, and actors
-    statement: >
+    statement: >-
       the unique identification of {{ sr_04_02_odp }} is maintained
       for tracking through the supply chain.
 parameters:
   sr_04_02_odp:
     label: systems and critical system components
-statement: >
+statement: >-
   Establish and maintain unique identification of the following
   systems and critical system components for tracking through the
   supply chain: {{ sr_04_02_odp }}.

@@ -12,7 +12,7 @@ objectives:
   - id: a.01
     methods:
       - method: examine
-        statement: >
+        statement: >-
           audit and accountability policy and procedures; procedures
           for audit record reduction and report generation; audit
           record reduction, review, analysis, and reporting tools;
@@ -20,21 +20,21 @@ objectives:
           configuration settings; system security plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with audit record reduction and report
           generation responsibilities; personnel with information
           security responsibilities
       - method: test
-        statement: >
+        statement: >-
           mechanisms for supporting audit record reduction and
           report generation capability
-    statement: >
+    statement: >-
       an audit record reduction and report generation capability
       that supports audit record review is implemented.
   - id: a.02
     methods:
       - method: examine
-        statement: >
+        statement: >-
           audit and accountability policy and procedures; procedures
           for audit record reduction and report generation; audit
           record reduction, review, analysis, and reporting tools;
@@ -42,21 +42,21 @@ objectives:
           configuration settings; system security plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with audit record reduction and report
           generation responsibilities; personnel with information
           security responsibilities
       - method: test
-        statement: >
+        statement: >-
           mechanisms for supporting audit record reduction and
           report generation capability
-    statement: >
+    statement: >-
       an audit record reduction and report generation capability
       that supports audit record analysis is implemented.
   - id: a.03
     methods:
       - method: examine
-        statement: >
+        statement: >-
           audit and accountability policy and procedures; procedures
           for audit record reduction and report generation; audit
           record reduction, review, analysis, and reporting tools;
@@ -64,22 +64,22 @@ objectives:
           configuration settings; system security plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with audit record reduction and report
           generation responsibilities; personnel with information
           security responsibilities
       - method: test
-        statement: >
+        statement: >-
           mechanisms for supporting audit record reduction and
           report generation capability
-    statement: >
+    statement: >-
       an audit record reduction and report generation capability
       that supports audit record reporting requirements is
       implemented.
   - id: a.04
     methods:
       - method: examine
-        statement: >
+        statement: >-
           audit and accountability policy and procedures; procedures
           for audit record reduction and report generation; audit
           record reduction, review, analysis, and reporting tools;
@@ -87,22 +87,22 @@ objectives:
           configuration settings; system security plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with audit record reduction and report
           generation responsibilities; personnel with information
           security responsibilities
       - method: test
-        statement: >
+        statement: >-
           mechanisms for supporting audit record reduction and
           report generation capability
-    statement: >
+    statement: >-
       an audit record reduction and report generation capability
       that supports after-the-fact investigations of incidents is
       implemented.
   - id: b.01
     methods:
       - method: examine
-        statement: >
+        statement: >-
           audit and accountability policy and procedures; procedures
           for audit record reduction and report generation; audit
           record reduction, review, analysis, and reporting tools;
@@ -110,19 +110,19 @@ objectives:
           configuration settings; system security plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with audit record reduction and report
           generation responsibilities; personnel with information
           security responsibilities
       - method: test
-        statement: >
+        statement: >-
           mechanisms for supporting audit record reduction and
           report generation capability
     statement: the original content of audit records is preserved.
   - id: b.02
     methods:
       - method: examine
-        statement: >
+        statement: >-
           audit and accountability policy and procedures; procedures
           for audit record reduction and report generation; audit
           record reduction, review, analysis, and reporting tools;
@@ -130,19 +130,19 @@ objectives:
           configuration settings; system security plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with audit record reduction and report
           generation responsibilities; personnel with information
           security responsibilities
       - method: test
-        statement: >
+        statement: >-
           mechanisms for supporting audit record reduction and
           report generation capability
     statement: >-
       the original time ordering of audit records is preserved.
 parts:
   - id: a
-    statement: >
+    statement: >-
       Implement an audit record reduction and report generation
       capability that supports audit record review, analysis,
       reporting requirements, and after-the-fact investigations of

@@ -12,7 +12,7 @@ objectives:
   - id: "sc-39(01)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; system design
           documentation; system configuration settings and
           associated documentation; system architecture; system
@@ -21,13 +21,13 @@ objectives:
           independent verification and validation documentation;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; organizational
           personnel installing, configuring, and/or maintaining the
           system; system developers/integrators
       - method: test
-        statement: >
+        statement: >-
           System capability implementing underlying hardware
           separation mechanisms for process separation
     statement: >-

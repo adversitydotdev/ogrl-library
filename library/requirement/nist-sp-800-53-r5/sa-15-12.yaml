@@ -12,7 +12,7 @@ objectives:
   - id: _obj
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; system and
           services acquisition procedures; procedures addressing the
           development process; procedures addressing the
@@ -25,23 +25,23 @@ objectives:
           contracts for the system or services; system security
           plan; privacy plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with acquisition
           responsibilities; organizational personnel with
           information security and privacy responsibilities; system
           developer
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for the minimization of
           personally identifiable information in development and
           test environments; mechanisms to facilitate the
           minimization of personally identifiable information in
           development and test environments
-    statement: >
+    statement: >-
       the developer of the system or system component is required to
       minimize the use of personally identifiable information in
       development and test environments.
-statement: >
+statement: >-
   Require the developer of the system or system component to
   minimize the use of personally identifiable information in
   development and test environments.

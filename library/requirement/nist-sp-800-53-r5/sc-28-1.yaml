@@ -12,7 +12,7 @@ objectives:
   - id: "sc-28(01).sc-28(01)[01]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing the protection of information at rest; system
           design documentation; system configuration settings and
@@ -21,22 +21,22 @@ objectives:
           records; system security plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; system
           developer
       - method: test
-        statement: >
+        statement: >-
           Cryptographic mechanisms implementing confidentiality and
           integrity protections for information at rest
-    statement: >
+    statement: >-
       cryptographic mechanisms are implemented to prevent
       unauthorized disclosure of {{ sc_28_01_odp_01 }} at rest on
       {{ sc_28_01_odp_02 }};
   - id: "sc-28(01).sc-28(01)[02]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing the protection of information at rest; system
           design documentation; system configuration settings and
@@ -45,15 +45,15 @@ objectives:
           records; system security plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; system
           developer
       - method: test
-        statement: >
+        statement: >-
           Cryptographic mechanisms implementing confidentiality and
           integrity protections for information at rest
-    statement: >
+    statement: >-
       cryptographic mechanisms are implemented to prevent
       unauthorized modification of {{ sc_28_01_odp_01 }} at rest on
       {{ sc_28_01_odp_02 }}.
@@ -62,7 +62,7 @@ parameters:
     label: information
   sc_28_01_odp_02:
     label: system components or media
-statement: >
+statement: >-
   Implement cryptographic mechanisms to prevent unauthorized
   disclosure and modification of the following information at rest
   on {{ sc_28_01_odp_02 }}: {{ sc_28_01_odp_01 }}.

@@ -12,7 +12,7 @@ objectives:
   - id: "cm-07(03)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System security plan; configuration management policy;
           procedures addressing least functionality in the system;
           configuration management plan; system configuration
@@ -20,11 +20,11 @@ objectives:
           inventory; audit and compliance reviews; system audit
           records; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with security responsibilities;
           system/network administrators; system developers
       - method: test
-        statement: >
+        statement: >-
           Organizational processes ensuring compliance with
           registration requirements for functions, ports, protocols,
           and/or services; mechanisms implementing compliance with

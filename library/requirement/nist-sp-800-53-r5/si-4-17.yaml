@@ -12,7 +12,7 @@ objectives:
   - id: "si-04(17)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; procedures addressing
           system monitoring tools and techniques; system design
@@ -24,7 +24,7 @@ objectives:
           supply chain risk management plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; organizational
           personnel installing, configuring, and/or maintaining the
@@ -32,17 +32,17 @@ objectives:
           monitoring the system; organizational personnel
           responsible for the intrusion detection system
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for intrusion detection and
           system monitoring; mechanisms supporting and/or
           implementing intrusion detection and system monitoring
           capabilities; mechanisms supporting and/or implementing
           the correlation of information from monitoring tools
-    statement: >
+    statement: >-
       information from monitoring physical, cyber, and supply chain
       activities are correlated to achieve integrated,
       organization-wide situational awareness.
-statement: >
+statement: >-
   Correlate information from monitoring physical, cyber, and supply
   chain activities to achieve integrated, organization-wide
   situational awareness.

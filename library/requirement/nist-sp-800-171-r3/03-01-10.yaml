@@ -12,18 +12,18 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           access control policy and procedures; procedures for
           session lock and identification and authentication; system
           design documentation; system configuration settings;
           display screen with session lock activated; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with information security responsibilities;
           system developers; system administrators
       - method: test
-        statement: >
+        statement: >-
           mechanisms for implementing the access control policy for
           session lock; session lock mechanisms
     statement: >-
@@ -31,41 +31,41 @@ objectives:
   - id: c
     methods:
       - method: examine
-        statement: >
+        statement: >-
           access control policy and procedures; procedures for
           session lock and identification and authentication; system
           design documentation; system configuration settings;
           display screen with session lock activated; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with information security responsibilities;
           system developers; system administrators
       - method: test
-        statement: >
+        statement: >-
           mechanisms for implementing the access control policy for
           session lock; session lock mechanisms
-    statement: >
+    statement: >-
       information previously visible on the display is concealed via
       device lock with a publicly viewable image.
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           access control policy and procedures; procedures for
           session lock and identification and authentication; system
           design documentation; system configuration settings;
           display screen with session lock activated; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with information security responsibilities;
           system developers; system administrators
       - method: test
-        statement: >
+        statement: >-
           mechanisms for implementing the access control policy for
           session lock; session lock mechanisms
-    statement: >
+    statement: >-
       the device lock is retained until the user reestablishes
       access using established identification and authentication
       procedures.
@@ -79,11 +79,11 @@ parts:
     statement: >-
       Prevent access to the system by {{ a_03_01_10_odp_01 }}.
   - id: b
-    statement: >
+    statement: >-
       Retain the device lock until the user reestablishes access
       using established identification and authentication
       procedures.
   - id: c
-    statement: >
+    statement: >-
       Conceal, via the device lock, information previously visible
       on the display with a publicly viewable image.

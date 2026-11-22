@@ -12,17 +12,17 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           maintenance policy and procedures; service provider
           contracts; service-level agreements; list of authorized
           personnel; maintenance records; access control records;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with system maintenance responsibilities;
           personnel with information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           processes for authorizing and managing maintenance
           personnel; mechanisms for supporting or implementing the
           authorization of maintenance personnel
@@ -32,17 +32,17 @@ objectives:
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           maintenance policy and procedures; service provider
           contracts; service-level agreements; list of authorized
           personnel; maintenance records; access control records;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with system maintenance responsibilities;
           personnel with information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           processes for authorizing and managing maintenance
           personnel; mechanisms for supporting or implementing the
           authorization of maintenance personnel
@@ -52,21 +52,21 @@ objectives:
   - id: d.01
     methods:
       - method: examine
-        statement: >
+        statement: >-
           maintenance policy and procedures; service provider
           contracts; service-level agreements; list of authorized
           personnel; maintenance records; access control records;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with system maintenance responsibilities;
           personnel with information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           processes for authorizing and managing maintenance
           personnel; mechanisms for supporting or implementing the
           authorization of maintenance personnel
-    statement: >
+    statement: >-
       organizational personnel with required access authorizations
       are designated to supervise the maintenance activities of
       personnel who do not possess the required access
@@ -74,21 +74,21 @@ objectives:
   - id: d.02
     methods:
       - method: examine
-        statement: >
+        statement: >-
           maintenance policy and procedures; service provider
           contracts; service-level agreements; list of authorized
           personnel; maintenance records; access control records;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with system maintenance responsibilities;
           personnel with information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           processes for authorizing and managing maintenance
           personnel; mechanisms for supporting or implementing the
           authorization of maintenance personnel
-    statement: >
+    statement: >-
       organizational personnel with required technical competence
       are designated to supervise the maintenance activities of
       personnel who do not possess the required access
@@ -96,21 +96,21 @@ objectives:
   - id: c
     methods:
       - method: examine
-        statement: >
+        statement: >-
           maintenance policy and procedures; service provider
           contracts; service-level agreements; list of authorized
           personnel; maintenance records; access control records;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with system maintenance responsibilities;
           personnel with information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           processes for authorizing and managing maintenance
           personnel; mechanisms for supporting or implementing the
           authorization of maintenance personnel
-    statement: >
+    statement: >-
       non-escorted personnel who perform maintenance on the system
       possess the required access authorizations.
 parts:
@@ -122,11 +122,11 @@ parts:
       Maintain a list of authorized maintenance organizations or
       personnel.
   - id: c
-    statement: >
+    statement: >-
       Verify that non-escorted personnel who perform maintenance on
       the system possess the required access authorizations.
   - id: d
-    statement: >
+    statement: >-
       Designate organizational personnel with required access
       authorizations and technical competence to supervise the
       maintenance activities of personnel who do not possess the

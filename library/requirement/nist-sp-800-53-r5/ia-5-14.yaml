@@ -12,7 +12,7 @@ objectives:
   - id: "ia-05(14)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Identification and authentication policy; procedures
           addressing authenticator management; system security plan;
           organizational methodology for managing content of PKI
@@ -22,22 +22,22 @@ objectives:
           documentation; enterprise architecture documentation;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with authenticator management
           responsibilities; organizational personnel with
           information security responsibilities; system/network
           administrators; system developers
       - method: test
-        statement: >
+        statement: >-
           Mechanisms supporting and/or implementing PKI-based
           authenticator management capability; mechanisms supporting
           and/or implementing the PKI trust store capability
-    statement: >
+    statement: >-
       an organization-wide methodology for managing the content of
       PKI trust stores is employed across all platforms, including
       networks, operating systems, browsers, and applications for
       PKI-based authentication.
-statement: >
+statement: >-
   For PKI-based authentication, employ an organization-wide
   methodology for managing the content of PKI trust stores installed
   across all platforms, including networks, operating systems,

@@ -28,7 +28,7 @@ objectives:
   - id: a-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Maintenance policy; procedures addressing nonlocal system
           maintenance; remote access policy; remote access
           procedures; system design documentation; system
@@ -37,13 +37,13 @@ objectives:
           records; system security plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system maintenance
           responsibilities; organizational personnel with
           information security responsibilities; system/network
           administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for managing nonlocal
           maintenance; mechanisms implementing, supporting, and/or
           managing nonlocal maintenance; mechanisms for strong
@@ -55,7 +55,7 @@ objectives:
   - id: a-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Maintenance policy; procedures addressing nonlocal system
           maintenance; remote access policy; remote access
           procedures; system design documentation; system
@@ -64,13 +64,13 @@ objectives:
           records; system security plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system maintenance
           responsibilities; organizational personnel with
           information security responsibilities; system/network
           administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for managing nonlocal
           maintenance; mechanisms implementing, supporting, and/or
           managing nonlocal maintenance; mechanisms for strong
@@ -82,7 +82,7 @@ objectives:
   - id: b-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Maintenance policy; procedures addressing nonlocal system
           maintenance; remote access policy; remote access
           procedures; system design documentation; system
@@ -91,26 +91,26 @@ objectives:
           records; system security plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system maintenance
           responsibilities; organizational personnel with
           information security responsibilities; system/network
           administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for managing nonlocal
           maintenance; mechanisms implementing, supporting, and/or
           managing nonlocal maintenance; mechanisms for strong
           authentication of nonlocal maintenance diagnostic
           sessions; mechanisms for terminating nonlocal maintenance
           sessions and network connections
-    statement: >
+    statement: >-
       the use of nonlocal maintenance and diagnostic tools are
       allowed only as consistent with organizational policy;
   - id: b-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Maintenance policy; procedures addressing nonlocal system
           maintenance; remote access policy; remote access
           procedures; system design documentation; system
@@ -119,26 +119,26 @@ objectives:
           records; system security plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system maintenance
           responsibilities; organizational personnel with
           information security responsibilities; system/network
           administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for managing nonlocal
           maintenance; mechanisms implementing, supporting, and/or
           managing nonlocal maintenance; mechanisms for strong
           authentication of nonlocal maintenance diagnostic
           sessions; mechanisms for terminating nonlocal maintenance
           sessions and network connections
-    statement: >
+    statement: >-
       the use of nonlocal maintenance and diagnostic tools are
       documented in the security plan for the system;
   - id: c
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Maintenance policy; procedures addressing nonlocal system
           maintenance; remote access policy; remote access
           procedures; system design documentation; system
@@ -147,26 +147,26 @@ objectives:
           records; system security plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system maintenance
           responsibilities; organizational personnel with
           information security responsibilities; system/network
           administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for managing nonlocal
           maintenance; mechanisms implementing, supporting, and/or
           managing nonlocal maintenance; mechanisms for strong
           authentication of nonlocal maintenance diagnostic
           sessions; mechanisms for terminating nonlocal maintenance
           sessions and network connections
-    statement: >
+    statement: >-
       strong authentication is employed in the establishment of
       nonlocal maintenance and diagnostic sessions;
   - id: d
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Maintenance policy; procedures addressing nonlocal system
           maintenance; remote access policy; remote access
           procedures; system design documentation; system
@@ -175,13 +175,13 @@ objectives:
           records; system security plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system maintenance
           responsibilities; organizational personnel with
           information security responsibilities; system/network
           administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for managing nonlocal
           maintenance; mechanisms implementing, supporting, and/or
           managing nonlocal maintenance; mechanisms for strong
@@ -194,7 +194,7 @@ objectives:
   - id: e-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Maintenance policy; procedures addressing nonlocal system
           maintenance; remote access policy; remote access
           procedures; system design documentation; system
@@ -203,13 +203,13 @@ objectives:
           records; system security plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system maintenance
           responsibilities; organizational personnel with
           information security responsibilities; system/network
           administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for managing nonlocal
           maintenance; mechanisms implementing, supporting, and/or
           managing nonlocal maintenance; mechanisms for strong
@@ -222,7 +222,7 @@ objectives:
   - id: e-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Maintenance policy; procedures addressing nonlocal system
           maintenance; remote access policy; remote access
           procedures; system design documentation; system
@@ -231,13 +231,13 @@ objectives:
           records; system security plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system maintenance
           responsibilities; organizational personnel with
           information security responsibilities; system/network
           administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for managing nonlocal
           maintenance; mechanisms implementing, supporting, and/or
           managing nonlocal maintenance; mechanisms for strong
@@ -253,12 +253,12 @@ parts:
       Approve and monitor nonlocal maintenance and diagnostic
       activities;
   - id: b
-    statement: >
+    statement: >-
       Allow the use of nonlocal maintenance and diagnostic tools
       only as consistent with organizational policy and documented
       in the security plan for the system;
   - id: c
-    statement: >
+    statement: >-
       Employ strong authentication in the establishment of nonlocal
       maintenance and diagnostic sessions;
   - id: d
@@ -266,6 +266,6 @@ parts:
       Maintain records for nonlocal maintenance and diagnostic
       activities; and
   - id: e
-    statement: >
+    statement: >-
       Terminate session and network connections when nonlocal
       maintenance is completed.

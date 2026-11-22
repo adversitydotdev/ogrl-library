@@ -12,7 +12,7 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; incident handling policy;
           procedures addressing access control for mobile devices;
           system design documentation; system configuration settings
@@ -21,7 +21,7 @@ objectives:
           system audit records; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel responsible for random
           reviews/inspections of mobile devices; organizational
           personnel using mobile devices in facilities containing
@@ -31,10 +31,10 @@ objectives:
           organizational personnel with information security
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           Mechanisms prohibiting the use of internal or external
           modems or wireless interfaces with mobile devices
-    statement: >
+    statement: >-
       the use of unclassified mobile devices in facilities
       containing systems processing, storing, or transmitting
       classified information is prohibited unless specifically
@@ -42,7 +42,7 @@ objectives:
   - id: b.1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; incident handling policy;
           procedures addressing access control for mobile devices;
           system design documentation; system configuration settings
@@ -51,7 +51,7 @@ objectives:
           system audit records; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel responsible for random
           reviews/inspections of mobile devices; organizational
           personnel using mobile devices in facilities containing
@@ -61,10 +61,10 @@ objectives:
           organizational personnel with information security
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           Mechanisms prohibiting the use of internal or external
           modems or wireless interfaces with mobile devices
-    statement: >
+    statement: >-
       prohibition of the connection of unclassified mobile devices
       to classified systems is enforced on individuals permitted by
       an authorizing official to use unclassified mobile devices in
@@ -73,7 +73,7 @@ objectives:
   - id: b.2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; incident handling policy;
           procedures addressing access control for mobile devices;
           system design documentation; system configuration settings
@@ -82,7 +82,7 @@ objectives:
           system audit records; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel responsible for random
           reviews/inspections of mobile devices; organizational
           personnel using mobile devices in facilities containing
@@ -92,10 +92,10 @@ objectives:
           organizational personnel with information security
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           Mechanisms prohibiting the use of internal or external
           modems or wireless interfaces with mobile devices
-    statement: >
+    statement: >-
       approval by the authorizing official for the connection of
       unclassified mobile devices to unclassified systems is
       enforced on individuals permitted to use unclassified mobile
@@ -104,7 +104,7 @@ objectives:
   - id: b.3
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; incident handling policy;
           procedures addressing access control for mobile devices;
           system design documentation; system configuration settings
@@ -113,7 +113,7 @@ objectives:
           system audit records; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel responsible for random
           reviews/inspections of mobile devices; organizational
           personnel using mobile devices in facilities containing
@@ -123,10 +123,10 @@ objectives:
           organizational personnel with information security
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           Mechanisms prohibiting the use of internal or external
           modems or wireless interfaces with mobile devices
-    statement: >
+    statement: >-
       prohibition of the use of internal or external modems or
       wireless interfaces within unclassified mobile devices is
       enforced on individuals permitted by an authorizing official
@@ -136,7 +136,7 @@ objectives:
   - id: b.4-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; incident handling policy;
           procedures addressing access control for mobile devices;
           system design documentation; system configuration settings
@@ -145,7 +145,7 @@ objectives:
           system audit records; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel responsible for random
           reviews/inspections of mobile devices; organizational
           personnel using mobile devices in facilities containing
@@ -155,17 +155,17 @@ objectives:
           organizational personnel with information security
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           Mechanisms prohibiting the use of internal or external
           modems or wireless interfaces with mobile devices
-    statement: >
+    statement: >-
       random review and inspection of unclassified mobile devices
       and the information stored on those devices by
       {{ ac_19_04_odp_01 }} are enforced;
   - id: b.4-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; incident handling policy;
           procedures addressing access control for mobile devices;
           system design documentation; system configuration settings
@@ -174,7 +174,7 @@ objectives:
           system audit records; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel responsible for random
           reviews/inspections of mobile devices; organizational
           personnel using mobile devices in facilities containing
@@ -184,17 +184,17 @@ objectives:
           organizational personnel with information security
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           Mechanisms prohibiting the use of internal or external
           modems or wireless interfaces with mobile devices
-    statement: >
+    statement: >-
       following of the incident handling policy is enforced if
       classified information is found during a random review and
       inspection of unclassified mobile devices;
   - id: c
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; incident handling policy;
           procedures addressing access control for mobile devices;
           system design documentation; system configuration settings
@@ -203,7 +203,7 @@ objectives:
           system audit records; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel responsible for random
           reviews/inspections of mobile devices; organizational
           personnel using mobile devices in facilities containing
@@ -213,10 +213,10 @@ objectives:
           organizational personnel with information security
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           Mechanisms prohibiting the use of internal or external
           modems or wireless interfaces with mobile devices
-    statement: >
+    statement: >-
       the connection of classified mobile devices to classified
       systems is restricted in accordance with
       {{ ac_19_04_odp_02 }}.
@@ -227,13 +227,13 @@ parameters:
     label: security policies
 parts:
   - id: a
-    statement: >
+    statement: >-
       Prohibit the use of unclassified mobile devices in facilities
       containing systems processing, storing, or transmitting
       classified information unless specifically permitted by the
       authorizing official; and
   - id: b
-    statement: >
+    statement: >-
       Enforce the following restrictions on individuals permitted by
       the authorizing official to use unclassified mobile devices in
       facilities containing systems processing, storing, or
@@ -243,20 +243,20 @@ parts:
       Connection of unclassified mobile devices to classified
       systems is prohibited;
   - id: b.2
-    statement: >
+    statement: >-
       Connection of unclassified mobile devices to unclassified
       systems requires approval from the authorizing official;
   - id: b.3
-    statement: >
+    statement: >-
       Use of internal or external modems or wireless interfaces
       within the unclassified mobile devices is prohibited; and
   - id: b.4
-    statement: >
+    statement: >-
       Unclassified mobile devices and the information stored on
       those devices are subject to random reviews and inspections by
       {{ ac_19_04_odp_01 }} , and if classified information is
       found, the incident handling policy is followed.
   - id: c
-    statement: >
+    statement: >-
       Restrict the connection of classified mobile devices to
       classified systems in accordance with {{ ac_19_04_odp_02 }}.

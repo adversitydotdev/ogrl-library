@@ -12,7 +12,7 @@ objectives:
   - id: "sa-09(03).sa-09(03)[01]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; system and
           services acquisition procedures; acquisition contracts for
           the system, system component, or system service;
@@ -25,20 +25,20 @@ objectives:
           system security plan; privacy plan; supply chain risk
           management plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with acquisition
           responsibilities; organizational personnel with
           information security and privacy responsibilities;
           external providers of system services; organizational
           personnel with supply chain risk management
           responsibilities
-    statement: >
+    statement: >-
       trust relationships with external service provides based on
       {{ sa_09_03_odp_01 }} are established and documented;
   - id: "sa-09(03).sa-09(03)[02]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; system and
           services acquisition procedures; acquisition contracts for
           the system, system component, or system service;
@@ -51,20 +51,20 @@ objectives:
           system security plan; privacy plan; supply chain risk
           management plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with acquisition
           responsibilities; organizational personnel with
           information security and privacy responsibilities;
           external providers of system services; organizational
           personnel with supply chain risk management
           responsibilities
-    statement: >
+    statement: >-
       trust relationships with external service provides based on
       {{ sa_09_03_odp_01 }} are maintained;
   - id: "sa-09(03).sa-09(03)[03]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; system and
           services acquisition procedures; acquisition contracts for
           the system, system component, or system service;
@@ -77,20 +77,20 @@ objectives:
           system security plan; privacy plan; supply chain risk
           management plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with acquisition
           responsibilities; organizational personnel with
           information security and privacy responsibilities;
           external providers of system services; organizational
           personnel with supply chain risk management
           responsibilities
-    statement: >
+    statement: >-
       trust relationships with external service provides based on
       {{ sa_09_03_odp_02 }} are established and documented;
   - id: "sa-09(03).sa-09(03)[04]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; system and
           services acquisition procedures; acquisition contracts for
           the system, system component, or system service;
@@ -103,14 +103,14 @@ objectives:
           system security plan; privacy plan; supply chain risk
           management plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with acquisition
           responsibilities; organizational personnel with
           information security and privacy responsibilities;
           external providers of system services; organizational
           personnel with supply chain risk management
           responsibilities
-    statement: >
+    statement: >-
       trust relationships with external service provides based on
       {{ sa_09_03_odp_02 }} are maintained.
 parameters:
@@ -121,11 +121,11 @@ parameters:
     label: >-
       privacy requirements, properties, factors, or conditions
   sa_9_3_prm_1:
-    label: >
+    label: >-
       organization-defined security and privacy requirements,
       properties, factors, or conditions defining acceptable trust
       relationships
-statement: >
+statement: >-
   Establish, document, and maintain trust relationships with
   external service providers based on the following requirements,
   properties, factors, or conditions: {{ sa_9_3_prm_1 }}.

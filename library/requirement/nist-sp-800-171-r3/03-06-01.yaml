@@ -22,7 +22,7 @@ objectives:
   - id: "01"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           incident response policy and procedures; contingency
           planning policy and procedures; procedures for incident
           handling; procedures for incident response planning;
@@ -30,7 +30,7 @@ objectives:
           incident response plan reviews and approvals; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with incident handling responsibilities;
           personnel with incident response planning
           responsibilities; personnel with contingency planning
@@ -40,13 +40,13 @@ objectives:
         statement: >-
           incident handling capability for the organization;
           incident response plan
-    statement: >
+    statement: >-
       an incident-handling capability that is consistent with the
       incident response plan is implemented.
   - id: "02"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           incident response policy and procedures; contingency
           planning policy and procedures; procedures for incident
           handling; procedures for incident response planning;
@@ -54,7 +54,7 @@ objectives:
           incident response plan reviews and approvals; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with incident handling responsibilities;
           personnel with incident response planning
           responsibilities; personnel with contingency planning
@@ -69,7 +69,7 @@ objectives:
   - id: "03"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           incident response policy and procedures; contingency
           planning policy and procedures; procedures for incident
           handling; procedures for incident response planning;
@@ -77,7 +77,7 @@ objectives:
           incident response plan reviews and approvals; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with incident handling responsibilities;
           personnel with incident response planning
           responsibilities; personnel with contingency planning
@@ -93,7 +93,7 @@ objectives:
   - id: "04"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           incident response policy and procedures; contingency
           planning policy and procedures; procedures for incident
           handling; procedures for incident response planning;
@@ -101,7 +101,7 @@ objectives:
           incident response plan reviews and approvals; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with incident handling responsibilities;
           personnel with incident response planning
           responsibilities; personnel with contingency planning
@@ -116,7 +116,7 @@ objectives:
   - id: "05"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           incident response policy and procedures; contingency
           planning policy and procedures; procedures for incident
           handling; procedures for incident response planning;
@@ -124,7 +124,7 @@ objectives:
           incident response plan reviews and approvals; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with incident handling responsibilities;
           personnel with incident response planning
           responsibilities; personnel with contingency planning
@@ -139,7 +139,7 @@ objectives:
   - id: "06"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           incident response policy and procedures; contingency
           planning policy and procedures; procedures for incident
           handling; procedures for incident response planning;
@@ -147,7 +147,7 @@ objectives:
           incident response plan reviews and approvals; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with incident handling responsibilities;
           personnel with incident response planning
           responsibilities; personnel with contingency planning
@@ -158,7 +158,7 @@ objectives:
           incident handling capability for the organization;
           incident response plan
     statement: the incident handling capability includes recovery.
-statement: >
+statement: >-
   Implement an incident-handling capability that is consistent with
   the incident response plan and includes preparation, detection and
   analysis, containment, eradication, and recovery.

@@ -12,14 +12,14 @@ objectives:
   - id: _obj
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; procedures addressing access
           enforcement; system design documentation; system
           configuration settings and associated documentation;
           system audit records; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with access enforcement
           responsibilities; system/network administrators;
           organizational personnel with information security
@@ -27,7 +27,7 @@ objectives:
       - method: test
         statement: >-
           Mechanisms implementing access enforcement functions
-    statement: >
+    statement: >-
       a reference monitor is implemented for {{ ac_25_odp }} that is
       tamper-proof, always invoked, and small enough to be subject
       to analysis and testing, the completeness of which can be
@@ -35,7 +35,7 @@ objectives:
 parameters:
   ac_25_odp:
     label: access control policies
-statement: >
+statement: >-
   Implement a reference monitor for {{ ac_25_odp }} that is
   tamperproof, always invoked, and small enough to be subject to
   analysis and testing, the completeness of which can be assured.

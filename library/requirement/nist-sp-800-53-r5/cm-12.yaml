@@ -22,7 +22,7 @@ objectives:
   - id: a-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           identification and documentation of information location;
           configuration management plan; system design
@@ -33,7 +33,7 @@ objectives:
           inventory; system security plan; privacy plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for
           managing information location and user access to
           information; organizational personnel with
@@ -42,7 +42,7 @@ objectives:
           security and privacy responsibilities; system/network
           administrators; system developers
       - method: test
-        statement: >
+        statement: >-
           Organizational processes governing information location;
           mechanisms enforcing policies and methods for governing
           information location
@@ -51,7 +51,7 @@ objectives:
   - id: a-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           identification and documentation of information location;
           configuration management plan; system design
@@ -62,7 +62,7 @@ objectives:
           inventory; system security plan; privacy plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for
           managing information location and user access to
           information; organizational personnel with
@@ -71,17 +71,17 @@ objectives:
           security and privacy responsibilities; system/network
           administrators; system developers
       - method: test
-        statement: >
+        statement: >-
           Organizational processes governing information location;
           mechanisms enforcing policies and methods for governing
           information location
-    statement: >
+    statement: >-
       the specific system components on which {{ cm_12_odp }} is
       processed are identified and documented;
   - id: a-3
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           identification and documentation of information location;
           configuration management plan; system design
@@ -92,7 +92,7 @@ objectives:
           inventory; system security plan; privacy plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for
           managing information location and user access to
           information; organizational personnel with
@@ -101,17 +101,17 @@ objectives:
           security and privacy responsibilities; system/network
           administrators; system developers
       - method: test
-        statement: >
+        statement: >-
           Organizational processes governing information location;
           mechanisms enforcing policies and methods for governing
           information location
-    statement: >
+    statement: >-
       the specific system components on which {{ cm_12_odp }} is
       stored are identified and documented;
   - id: b-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           identification and documentation of information location;
           configuration management plan; system design
@@ -122,7 +122,7 @@ objectives:
           inventory; system security plan; privacy plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for
           managing information location and user access to
           information; organizational personnel with
@@ -131,18 +131,18 @@ objectives:
           security and privacy responsibilities; system/network
           administrators; system developers
       - method: test
-        statement: >
+        statement: >-
           Organizational processes governing information location;
           mechanisms enforcing policies and methods for governing
           information location
-    statement: >
+    statement: >-
       the users who have access to the system and system components
       where {{ cm_12_odp }} is processed are identified and
       documented;
   - id: b-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           identification and documentation of information location;
           configuration management plan; system design
@@ -153,7 +153,7 @@ objectives:
           inventory; system security plan; privacy plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for
           managing information location and user access to
           information; organizational personnel with
@@ -162,17 +162,17 @@ objectives:
           security and privacy responsibilities; system/network
           administrators; system developers
       - method: test
-        statement: >
+        statement: >-
           Organizational processes governing information location;
           mechanisms enforcing policies and methods for governing
           information location
-    statement: >
+    statement: >-
       the users who have access to the system and system components
       where {{ cm_12_odp }} is stored are identified and documented;
   - id: c-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           identification and documentation of information location;
           configuration management plan; system design
@@ -183,7 +183,7 @@ objectives:
           inventory; system security plan; privacy plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for
           managing information location and user access to
           information; organizational personnel with
@@ -192,17 +192,17 @@ objectives:
           security and privacy responsibilities; system/network
           administrators; system developers
       - method: test
-        statement: >
+        statement: >-
           Organizational processes governing information location;
           mechanisms enforcing policies and methods for governing
           information location
-    statement: >
+    statement: >-
       changes to the location (i.e., system or system components)
       where {{ cm_12_odp }} is processed are documented;
   - id: c-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           identification and documentation of information location;
           configuration management plan; system design
@@ -213,7 +213,7 @@ objectives:
           inventory; system security plan; privacy plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for
           managing information location and user access to
           information; organizational personnel with
@@ -222,11 +222,11 @@ objectives:
           security and privacy responsibilities; system/network
           administrators; system developers
       - method: test
-        statement: >
+        statement: >-
           Organizational processes governing information location;
           mechanisms enforcing policies and methods for governing
           information location
-    statement: >
+    statement: >-
       changes to the location (i.e., system or system components)
       where {{ cm_12_odp }} is stored are documented.
 parameters:
@@ -234,16 +234,16 @@ parameters:
     label: information
 parts:
   - id: a
-    statement: >
+    statement: >-
       Identify and document the location of {{ cm_12_odp }} and the
       specific system components on which the information is
       processed and stored;
   - id: b
-    statement: >
+    statement: >-
       Identify and document the users who have access to the system
       and system components where the information is processed and
       stored; and
   - id: c
-    statement: >
+    statement: >-
       Document changes to the location (i.e., system or system
       components) where the information is processed and stored.

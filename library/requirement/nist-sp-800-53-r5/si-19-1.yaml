@@ -12,7 +12,7 @@ objectives:
   - id: "si-19(01)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; personally identifiable
           information processing policy; de-identification
@@ -22,17 +22,17 @@ objectives:
           plan; privacy impact assessment; privacy risk assessment
           documentation; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel responsible for de-identifying
           the dataset; organizational personnel with information
           security and privacy responsibilities
       - method: test
-        statement: >
+        statement: >-
           Automated mechanisms preventing the collection of
           personally identifiable information
-    statement: >
+    statement: >-
       the dataset is de-identified upon collection by not collecting
       personally identifiable information.
-statement: >
+statement: >-
   De-identify the dataset upon collection by not collecting
   personally identifiable information.

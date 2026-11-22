@@ -12,7 +12,7 @@ objectives:
   - id: "sa-11(01).sa-11(01)[01]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; system and
           services acquisition procedures; procedures addressing
           system developer security testing; procedures addressing
@@ -27,7 +27,7 @@ objectives:
           privacy impact assessment; privacy risk assessment
           documentation; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and service
           acquisition responsibilities; organizational personnel
           with information security responsibilities; organizational
@@ -36,19 +36,19 @@ objectives:
           configuration management responsibilities; system
           developers
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for monitoring developer security
           testing and evaluation; mechanisms supporting and/or
           implementing the monitoring of developer security testing
           and evaluation; static code analysis tools
-    statement: >
+    statement: >-
       the developer of the system, system component, or system
       service is required to employ static code analysis tools to
       identify common flaws;
   - id: "sa-11(01).sa-11(01)[02]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; system and
           services acquisition procedures; procedures addressing
           system developer security testing; procedures addressing
@@ -63,7 +63,7 @@ objectives:
           privacy impact assessment; privacy risk assessment
           documentation; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and service
           acquisition responsibilities; organizational personnel
           with information security responsibilities; organizational
@@ -72,16 +72,16 @@ objectives:
           configuration management responsibilities; system
           developers
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for monitoring developer security
           testing and evaluation; mechanisms supporting and/or
           implementing the monitoring of developer security testing
           and evaluation; static code analysis tools
-    statement: >
+    statement: >-
       the developer of the system, system component, or system
       service is required to employ static code analysis tools to
       document the results of the analysis.
-statement: >
+statement: >-
   Require the developer of the system, system component, or system
   service to employ static code analysis tools to identify common
   flaws and document the results of the analysis.

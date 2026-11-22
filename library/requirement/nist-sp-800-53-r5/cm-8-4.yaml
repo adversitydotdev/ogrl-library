@@ -12,30 +12,30 @@ objectives:
   - id: "cm-08(04)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           system component inventory; configuration management plan;
           system security plan; system component inventory; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with component inventory
           management responsibilities; organizational personnel with
           information security responsibilities; system/network
           administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for managing the system component
           inventory; mechanisms supporting and/or implementing the
           system component inventory
-    statement: >
+    statement: >-
       individuals responsible and accountable for administering
       system components are identified by {{ cm_08_04_odp }} in the
       system component inventory.
 parameters:
   cm_08_04_odp:
     label: cm-08.04_odp
-statement: >
+statement: >-
   Include in the system component inventory information, a means for
   identifying by {{ cm_08_04_odp }} , individuals responsible and
   accountable for administering those components.

@@ -12,7 +12,7 @@ objectives:
   - id: "sa-11(07).sa-11(07)[01]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; procedures
           addressing system developer security testing; solicitation
           documentation; acquisition documentation; service level
@@ -22,7 +22,7 @@ objectives:
           testing and evaluation results; system security plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and service
           acquisition responsibilities; organizational personnel
           with information security responsibilities; organizational
@@ -30,12 +30,12 @@ objectives:
           responsibilities; system developers; independent
           verification agent
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for monitoring developer security
           testing and evaluation; mechanisms supporting and/or
           implementing the monitoring of developer security testing
           and evaluation
-    statement: >
+    statement: >-
       the developer of the system, system component, or system
       service is required to verify that the scope of testing and
       evaluation provides complete coverage of the required controls
@@ -43,7 +43,7 @@ objectives:
   - id: "sa-11(07).sa-11(07)[02]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; procedures
           addressing system developer security testing; solicitation
           documentation; acquisition documentation; service level
@@ -53,7 +53,7 @@ objectives:
           testing and evaluation results; system security plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and service
           acquisition responsibilities; organizational personnel
           with information security responsibilities; organizational
@@ -61,12 +61,12 @@ objectives:
           responsibilities; system developers; independent
           verification agent
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for monitoring developer security
           testing and evaluation; mechanisms supporting and/or
           implementing the monitoring of developer security testing
           and evaluation
-    statement: >
+    statement: >-
       the developer of the system, system component, or system
       service is required to verify that the scope of testing and
       evaluation provides complete coverage of the required controls
@@ -80,7 +80,7 @@ parameters:
     label: >-
       organization-defined breadth and depth of testing and
       evaluation
-statement: >
+statement: >-
   Require the developer of the system, system component, or system
   service to verify that the scope of testing and evaluation
   provides complete coverage of the required controls at the

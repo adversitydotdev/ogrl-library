@@ -22,7 +22,7 @@ objectives:
   - id: a.01
     methods:
       - method: examine
-        statement: >
+        statement: >-
           system and information integrity policy and procedures;
           procedures for flaw remediation; procedures for
           configuration management; list of recent security flaw
@@ -34,14 +34,14 @@ objectives:
           firmware updates; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel responsible for installing, configuring, or
           maintaining the system; personnel responsible for flaw
           remediation; personnel with configuration management
           responsibilities; personnel with information security
           responsibilities; system administrators
       - method: test
-        statement: >
+        statement: >-
           processes for identifying, reporting, and correcting
           system flaws; processes for installing software and
           firmware updates; mechanisms for supporting or
@@ -52,7 +52,7 @@ objectives:
   - id: a.02
     methods:
       - method: examine
-        statement: >
+        statement: >-
           system and information integrity policy and procedures;
           procedures for flaw remediation; procedures for
           configuration management; list of recent security flaw
@@ -64,14 +64,14 @@ objectives:
           firmware updates; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel responsible for installing, configuring, or
           maintaining the system; personnel responsible for flaw
           remediation; personnel with configuration management
           responsibilities; personnel with information security
           responsibilities; system administrators
       - method: test
-        statement: >
+        statement: >-
           processes for identifying, reporting, and correcting
           system flaws; processes for installing software and
           firmware updates; mechanisms for supporting or
@@ -82,7 +82,7 @@ objectives:
   - id: a.03
     methods:
       - method: examine
-        statement: >
+        statement: >-
           system and information integrity policy and procedures;
           procedures for flaw remediation; procedures for
           configuration management; list of recent security flaw
@@ -94,14 +94,14 @@ objectives:
           firmware updates; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel responsible for installing, configuring, or
           maintaining the system; personnel responsible for flaw
           remediation; personnel with configuration management
           responsibilities; personnel with information security
           responsibilities; system administrators
       - method: test
-        statement: >
+        statement: >-
           processes for identifying, reporting, and correcting
           system flaws; processes for installing software and
           firmware updates; mechanisms for supporting or
@@ -112,7 +112,7 @@ objectives:
   - id: b.01
     methods:
       - method: examine
-        statement: >
+        statement: >-
           system and information integrity policy and procedures;
           procedures for flaw remediation; procedures for
           configuration management; list of recent security flaw
@@ -124,27 +124,27 @@ objectives:
           firmware updates; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel responsible for installing, configuring, or
           maintaining the system; personnel responsible for flaw
           remediation; personnel with configuration management
           responsibilities; personnel with information security
           responsibilities; system administrators
       - method: test
-        statement: >
+        statement: >-
           processes for identifying, reporting, and correcting
           system flaws; processes for installing software and
           firmware updates; mechanisms for supporting or
           implementing the reporting and correction of system flaws;
           mechanisms for supporting or implementing the testing
           software and firmware updates
-    statement: >
+    statement: >-
       security-relevant software updates are installed within
       {{ a_03_14_01_odp_01 }} of the release of the updates.
   - id: b.02
     methods:
       - method: examine
-        statement: >
+        statement: >-
           system and information integrity policy and procedures;
           procedures for flaw remediation; procedures for
           configuration management; list of recent security flaw
@@ -156,21 +156,21 @@ objectives:
           firmware updates; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel responsible for installing, configuring, or
           maintaining the system; personnel responsible for flaw
           remediation; personnel with configuration management
           responsibilities; personnel with information security
           responsibilities; system administrators
       - method: test
-        statement: >
+        statement: >-
           processes for identifying, reporting, and correcting
           system flaws; processes for installing software and
           firmware updates; mechanisms for supporting or
           implementing the reporting and correction of system flaws;
           mechanisms for supporting or implementing the testing
           software and firmware updates
-    statement: >
+    statement: >-
       security-relevant firmware updates are installed within
       {{ a_03_14_01_odp_02 }} of the release of the updates.
 parameters:
@@ -182,6 +182,6 @@ parts:
   - id: a
     statement: "Identify, report, and correct system flaws."
   - id: b
-    statement: >
+    statement: >-
       Install security-relevant software and firmware updates within
       {{ a_03_14_01_odp_01 }} of the release of the updates.

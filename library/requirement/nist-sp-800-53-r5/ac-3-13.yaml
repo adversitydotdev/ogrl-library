@@ -12,7 +12,7 @@ objectives:
   - id: "ac-03(13).ac-03(13)[01]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; procedures addressing access
           enforcement; system design documentation; system
           configuration settings and associated documentation; list
@@ -21,7 +21,7 @@ objectives:
           policies; system audit records; system security plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with access enforcement
           responsibilities; system/network administrators;
           organizational personnel with information security
@@ -35,7 +35,7 @@ objectives:
   - id: "ac-03(13).ac-03(13)[02]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; procedures addressing access
           enforcement; system design documentation; system
           configuration settings and associated documentation; list
@@ -44,7 +44,7 @@ objectives:
           policies; system audit records; system security plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with access enforcement
           responsibilities; system/network administrators;
           organizational personnel with information security
@@ -58,7 +58,7 @@ objectives:
   - id: "ac-03(13).ac-03(13)[03]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; procedures addressing access
           enforcement; system design documentation; system
           configuration settings and associated documentation; list
@@ -67,7 +67,7 @@ objectives:
           policies; system audit records; system security plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with access enforcement
           responsibilities; system/network administrators;
           organizational personnel with information security
@@ -79,7 +79,7 @@ objectives:
 parameters:
   ac_03_13_odp:
     label: attributes
-statement: >
+statement: >-
   Enforce attribute-based access control policy over defined
   subjects and objects and control access based upon
   {{ ac_03_13_odp }}.

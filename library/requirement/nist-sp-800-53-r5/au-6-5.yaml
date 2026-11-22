@@ -12,7 +12,7 @@ objectives:
   - id: "au-06(05)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Audit and accountability policy; system security plan;
           privacy plan; procedures addressing audit review,
           analysis, and reporting; system design documentation;
@@ -22,16 +22,16 @@ objectives:
           network monitoring information, and associated
           documentation; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with audit review, analysis, and
           reporting responsibilities; organizational personnel with
           information security and privacy responsibilities
       - method: test
-        statement: >
+        statement: >-
           Mechanisms implementing the capability to integrate
           analysis of audit records with analysis of
           data/information sources
-    statement: >
+    statement: >-
       analysis of audit records is integrated with analysis of
       {{ au_06_05_odp_01 }} to further enhance the ability to
       identify inappropriate or unusual activity.
@@ -40,7 +40,7 @@ parameters:
     label: au-06.05_odp.01
   au_06_05_odp_02:
     label: data/information collected from other sources
-statement: >
+statement: >-
   Integrate analysis of audit records with analysis of
   {{ au_06_05_odp_01 }} to further enhance the ability to identify
   inappropriate or unusual activity.

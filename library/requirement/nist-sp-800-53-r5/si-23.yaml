@@ -16,7 +16,7 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; personally identifiable
           information processing policy; procedures addressing
@@ -30,13 +30,13 @@ objectives:
           security architecture; system security plan; privacy plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with information security and
           privacy responsibilities; organizational personnel with
           systems security engineering responsibilities; system
           developers; security architects
       - method: test
-        statement: >
+        statement: >-
           Organizational processes to identify information for
           fragmentation and distribution across systems/system
           components; automated mechanisms supporting and/or
@@ -47,7 +47,7 @@ objectives:
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; personally identifiable
           information processing policy; procedures addressing
@@ -61,19 +61,19 @@ objectives:
           security architecture; system security plan; privacy plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with information security and
           privacy responsibilities; organizational personnel with
           systems security engineering responsibilities; system
           developers; security architects
       - method: test
-        statement: >
+        statement: >-
           Organizational processes to identify information for
           fragmentation and distribution across systems/system
           components; automated mechanisms supporting and/or
           implementing information fragmentation and distribution
           across systems/system components
-    statement: >
+    statement: >-
       under {{ si_23_odp_01 }} , the fragmented information is
       distributed across {{ si_23_odp_03 }}.
 parameters:
@@ -88,7 +88,7 @@ parts:
     statement: >-
       Fragment the following information: {{ si_23_odp_02 }} ; and
   - id: b
-    statement: >
+    statement: >-
       Distribute the fragmented information across the following
       systems or system components: {{ si_23_odp_03 }}.
 statement: "Based on {{ si_23_odp_01 }}:"

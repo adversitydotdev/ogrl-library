@@ -12,7 +12,7 @@ objectives:
   - id: "cm-03(03).cm-03(03)[01]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; configuration management
           plan; procedures addressing system configuration change
           control; system design documentation; system architecture
@@ -21,14 +21,14 @@ objectives:
           component inventory; system audit records; system security
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with configuration change control
           responsibilities; organizational personnel with
           information security responsibilities; system/network
           administrators; system developers; members of change
           control board or similar
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for configuration change control;
           automated mechanisms implementing changes to current
           system baseline
@@ -38,7 +38,7 @@ objectives:
   - id: "cm-03(03).cm-03(03)[02]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; configuration management
           plan; procedures addressing system configuration change
           control; system design documentation; system architecture
@@ -47,24 +47,24 @@ objectives:
           component inventory; system audit records; system security
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with configuration change control
           responsibilities; organizational personnel with
           information security responsibilities; system/network
           administrators; system developers; members of change
           control board or similar
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for configuration change control;
           automated mechanisms implementing changes to current
           system baseline
-    statement: >
+    statement: >-
       the updated baseline is deployed across the installed base
       using {{ cm_03_03_odp }}.
 parameters:
   cm_03_03_odp:
     label: automated mechanisms
-statement: >
+statement: >-
   Implement changes to the current system baseline and deploy the
   updated baseline across the installed base using
   {{ cm_03_03_odp }}.

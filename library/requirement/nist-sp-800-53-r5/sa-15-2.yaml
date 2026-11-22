@@ -12,7 +12,7 @@ objectives:
   - id: "sa-15(02).sa-15(02)[01]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; system and
           services acquisition procedures; procedures addressing
           development process, standards, and tools; procedures
@@ -27,20 +27,20 @@ objectives:
           privacy risk assessment documentation; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and service
           acquisition responsibilities; organizational personnel
           with information security responsibilities; system
           developer; organizational personnel with privacy
           responsibilities
-    statement: >
+    statement: >-
       the developer of the system, system component, or system
       service is required to select and employ security tracking
       tools for use during the development process;
   - id: "sa-15(02).sa-15(02)[02]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; system and
           services acquisition procedures; procedures addressing
           development process, standards, and tools; procedures
@@ -55,17 +55,17 @@ objectives:
           privacy risk assessment documentation; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and service
           acquisition responsibilities; organizational personnel
           with information security responsibilities; system
           developer; organizational personnel with privacy
           responsibilities
-    statement: >
+    statement: >-
       the developer of the system, system component, or system
       service is required to select and employ privacy tracking
       tools for use during the development process.
-statement: >
+statement: >-
   Require the developer of the system, system component, or system
   service to select and employ security and privacy tracking tools
   for use during the development process.

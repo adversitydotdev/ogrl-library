@@ -12,7 +12,7 @@ objectives:
   - id: "cm-03(06)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           system configuration change control; configuration
           management plan; system design documentation; system
@@ -20,23 +20,23 @@ objectives:
           configuration settings and associated documentation;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with configuration change control
           responsibilities; organizational personnel with
           information security responsibilities; system/network
           administrators; system developers; members of change
           control board or similar
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for configuration change control;
           cryptographic mechanisms implementing organizational
           security safeguards (controls)
-    statement: >
+    statement: >-
       cryptographic mechanisms used to provide {{ cm_03_06_odp }}
       are under configuration management.
 parameters:
   cm_03_06_odp:
     label: controls
-statement: >
+statement: >-
   Ensure that cryptographic mechanisms used to provide the following
   controls are under configuration management: {{ cm_03_06_odp }}.

@@ -12,7 +12,7 @@ objectives:
   - id: "sc-30(05)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; configuration
           management policy and procedures; procedures addressing
           concealment and misdirection techniques for the system;
@@ -22,13 +22,13 @@ objectives:
           components to be hidden or concealed; system security
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; organizational
           personnel with the responsibility to conceal system
           components
       - method: test
-        statement: >
+        statement: >-
           Mechanisms supporting and/or implementing techniques for
           the concealment of system components
     statement: >-
@@ -39,6 +39,6 @@ parameters:
     label: techniques
   sc_30_05_odp_02:
     label: system components
-statement: >
+statement: >-
   Employ the following techniques to hide or conceal
   {{ sc_30_05_odp_02 }}: {{ sc_30_05_odp_01 }}.

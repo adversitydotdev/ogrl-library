@@ -16,7 +16,7 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; personally identifiable
           information processing policy; system design
@@ -25,13 +25,13 @@ objectives:
           system security plan; privacy plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with information security and
           privacy responsibilities; organizational personnel with
           systems security engineering responsibilities; system
           developers
       - method: test
-        statement: >
+        statement: >-
           Automated methods and mechanisms to convert information
           from an analog to digital medium
     statement: >-
@@ -39,7 +39,7 @@ objectives:
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; personally identifiable
           information processing policy; system design
@@ -48,16 +48,16 @@ objectives:
           system security plan; privacy plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with information security and
           privacy responsibilities; organizational personnel with
           systems security engineering responsibilities; system
           developers
       - method: test
-        statement: >
+        statement: >-
           Automated methods and mechanisms to convert information
           from an analog to digital medium
-    statement: >
+    statement: >-
       an alternative information source is used for the execution of
       essential functions or services on {{ si_22_odp_03 }} when the
       primary source of information is corrupted or unavailable.
@@ -70,11 +70,11 @@ parameters:
     label: systems or system components
 parts:
   - id: a
-    statement: >
+    statement: >-
       Identify the following alternative sources of information for
       {{ si_22_odp_02 }}: {{ si_22_odp_01 }} ; and
   - id: b
-    statement: >
+    statement: >-
       Use an alternative information source for the execution of
       essential functions or services on {{ si_22_odp_03 }} when the
       primary source of information is corrupted or unavailable.

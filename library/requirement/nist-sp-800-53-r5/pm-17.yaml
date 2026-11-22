@@ -26,16 +26,16 @@ objectives:
   - id: a-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Controlled unclassified information policy; controlled
           unclassified information procedures; other relevant
           documents or records.
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with controlled unclassified
           information responsibilities; organizational personnel
           with information security responsibilities.
-    statement: >
+    statement: >-
       policy is established to ensure that requirements for the
       protection of controlled unclassified information that is
       processed, stored, or transmitted on external systems are
@@ -44,16 +44,16 @@ objectives:
   - id: a-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Controlled unclassified information policy; controlled
           unclassified information procedures; other relevant
           documents or records.
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with controlled unclassified
           information responsibilities; organizational personnel
           with information security responsibilities.
-    statement: >
+    statement: >-
       procedures are established to ensure that requirements for the
       protection of controlled unclassified information that is
       processed, stored, or transmitted on external systems are
@@ -62,12 +62,12 @@ objectives:
   - id: b-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Controlled unclassified information policy; controlled
           unclassified information procedures; other relevant
           documents or records.
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with controlled unclassified
           information responsibilities; organizational personnel
           with information security responsibilities.
@@ -75,12 +75,12 @@ objectives:
   - id: b-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Controlled unclassified information policy; controlled
           unclassified information procedures; other relevant
           documents or records.
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with controlled unclassified
           information responsibilities; organizational personnel
           with information security responsibilities.
@@ -95,7 +95,7 @@ parameters:
     label: organization-defined frequency
 parts:
   - id: a
-    statement: >
+    statement: >-
       Establish policy and procedures to ensure that requirements
       for the protection of controlled unclassified information that
       is processed, stored or transmitted on external systems, are

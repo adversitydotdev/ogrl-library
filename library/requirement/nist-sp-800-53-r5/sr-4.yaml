@@ -43,7 +43,7 @@ objectives:
   - id: "[01]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Supply chain risk management policy; supply chain risk
           management procedures; supply chain risk management plan;
           documentation of critical systems, critical system
@@ -55,14 +55,14 @@ objectives:
           personally identifiable information processing policy;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with acquisition
           responsibilities; organizational personnel with
           information security and privacy responsibilities;
           organizational personnel with supply chain risk management
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for identifying the provenance of
           critical systems and critical system components;
           mechanisms used to document, monitor, or maintain
@@ -71,7 +71,7 @@ objectives:
   - id: "[02]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Supply chain risk management policy; supply chain risk
           management procedures; supply chain risk management plan;
           documentation of critical systems, critical system
@@ -83,14 +83,14 @@ objectives:
           personally identifiable information processing policy;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with acquisition
           responsibilities; organizational personnel with
           information security and privacy responsibilities;
           organizational personnel with supply chain risk management
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for identifying the provenance of
           critical systems and critical system components;
           mechanisms used to document, monitor, or maintain
@@ -99,7 +99,7 @@ objectives:
   - id: "[03]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Supply chain risk management policy; supply chain risk
           management procedures; supply chain risk management plan;
           documentation of critical systems, critical system
@@ -111,14 +111,14 @@ objectives:
           personally identifiable information processing policy;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with acquisition
           responsibilities; organizational personnel with
           information security and privacy responsibilities;
           organizational personnel with supply chain risk management
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for identifying the provenance of
           critical systems and critical system components;
           mechanisms used to document, monitor, or maintain
@@ -127,6 +127,6 @@ objectives:
 parameters:
   sr_04_odp:
     label: "systems, system components, and associated data"
-statement: >
+statement: >-
   Document, monitor, and maintain valid provenance of the following
   systems, system components, and associated data: {{ sr_04_odp }}.

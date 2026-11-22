@@ -12,32 +12,32 @@ objectives:
   - id: "sc-08(04)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing transmission confidentiality and integrity;
           system design documentation; system configuration settings
           and associated documentation; system audit records; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; system
           developer
       - method: test
-        statement: >
+        statement: >-
           Cryptographic mechanisms supporting and/or implementing
           concealment or randomization of communication patterns;
           mechanisms supporting and/or implementing alternative
           physical safeguards; organizational processes for defining
           and implementing alternative physical safeguards
-    statement: >
+    statement: >-
       cryptographic mechanisms are implemented to conceal or
       randomize communication patterns unless otherwise protected by
       {{ sc_08_04_odp }}.
 parameters:
   sc_08_04_odp:
     label: alternative physical controls
-statement: >
+statement: >-
   Implement cryptographic mechanisms to conceal or randomize
   communication patterns unless otherwise protected by
   {{ sc_08_04_odp }}.

@@ -25,7 +25,7 @@ objectives:
   - id: a-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Physical and environmental protection policy; procedures
           addressing physical access authorizations; authorized
           personnel access list; authorization credentials; physical
@@ -33,23 +33,23 @@ objectives:
           and associated documentation; system security plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with physical access
           authorization responsibilities; organizational personnel
           with physical access to system facility; organizational
           personnel with information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for physical access
           authorizations; mechanisms supporting and/or implementing
           physical access authorizations
-    statement: >
+    statement: >-
       a list of individuals with authorized access to the facility
       where the system resides has been developed;
   - id: a-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Physical and environmental protection policy; procedures
           addressing physical access authorizations; authorized
           personnel access list; authorization credentials; physical
@@ -57,23 +57,23 @@ objectives:
           and associated documentation; system security plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with physical access
           authorization responsibilities; organizational personnel
           with physical access to system facility; organizational
           personnel with information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for physical access
           authorizations; mechanisms supporting and/or implementing
           physical access authorizations
-    statement: >
+    statement: >-
       the list of individuals with authorized access to the facility
       where the system resides has been approved;
   - id: a-3
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Physical and environmental protection policy; procedures
           addressing physical access authorizations; authorized
           personnel access list; authorization credentials; physical
@@ -81,23 +81,23 @@ objectives:
           and associated documentation; system security plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with physical access
           authorization responsibilities; organizational personnel
           with physical access to system facility; organizational
           personnel with information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for physical access
           authorizations; mechanisms supporting and/or implementing
           physical access authorizations
-    statement: >
+    statement: >-
       the list of individuals with authorized access to the facility
       where the system resides has been maintained;
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Physical and environmental protection policy; procedures
           addressing physical access authorizations; authorized
           personnel access list; authorization credentials; physical
@@ -105,13 +105,13 @@ objectives:
           and associated documentation; system security plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with physical access
           authorization responsibilities; organizational personnel
           with physical access to system facility; organizational
           personnel with information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for physical access
           authorizations; mechanisms supporting and/or implementing
           physical access authorizations
@@ -120,7 +120,7 @@ objectives:
   - id: c
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Physical and environmental protection policy; procedures
           addressing physical access authorizations; authorized
           personnel access list; authorization credentials; physical
@@ -128,23 +128,23 @@ objectives:
           and associated documentation; system security plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with physical access
           authorization responsibilities; organizational personnel
           with physical access to system facility; organizational
           personnel with information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for physical access
           authorizations; mechanisms supporting and/or implementing
           physical access authorizations
-    statement: >
+    statement: >-
       the access list detailing authorized facility access by
       individuals is reviewed {{ pe_02_odp }};
   - id: d
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Physical and environmental protection policy; procedures
           addressing physical access authorizations; authorized
           personnel access list; authorization credentials; physical
@@ -152,17 +152,17 @@ objectives:
           and associated documentation; system security plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with physical access
           authorization responsibilities; organizational personnel
           with physical access to system facility; organizational
           personnel with information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for physical access
           authorizations; mechanisms supporting and/or implementing
           physical access authorizations
-    statement: >
+    statement: >-
       individuals are removed from the facility access list when
       access is no longer required.
 parameters:
@@ -170,16 +170,16 @@ parameters:
     label: frequency
 parts:
   - id: a
-    statement: >
+    statement: >-
       Develop, approve, and maintain a list of individuals with
       authorized access to the facility where the system resides;
   - id: b
     statement: Issue authorization credentials for facility access;
   - id: c
-    statement: >
+    statement: >-
       Review the access list detailing authorized facility access by
       individuals {{ pe_02_odp }} ; and
   - id: d
-    statement: >
+    statement: >-
       Remove individuals from the facility access list when access
       is no longer required.

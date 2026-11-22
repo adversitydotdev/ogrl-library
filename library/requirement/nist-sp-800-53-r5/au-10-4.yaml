@@ -12,35 +12,35 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Audit and accountability policy; system security plan;
           privacy plan; procedures addressing non-repudiation;
           system design documentation; system configuration settings
           and associated documentation; validation records; system
           audit records; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with information security and
           privacy responsibilities; system/network administrators;
           system developers
       - method: test
         statement: >-
           Mechanisms implementing non-repudiation capability
-    statement: >
+    statement: >-
       the binding of the information reviewer identity to the
       information at the transfer or release points prior to release
       or transfer between {{ au_10_04_odp_01 }} is validated;
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Audit and accountability policy; system security plan;
           privacy plan; procedures addressing non-repudiation;
           system design documentation; system configuration settings
           and associated documentation; validation records; system
           audit records; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with information security and
           privacy responsibilities; system/network administrators;
           system developers
@@ -57,7 +57,7 @@ parameters:
     label: actions
 parts:
   - id: a
-    statement: >
+    statement: >-
       Validate the binding of the information reviewer identity to
       the information at the transfer or release points prior to
       release or transfer between {{ au_10_04_odp_01 }} ; and

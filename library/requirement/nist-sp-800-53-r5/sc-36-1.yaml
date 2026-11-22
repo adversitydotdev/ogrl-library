@@ -12,7 +12,7 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; system design
           documentation; system configuration settings and
           associated documentation; system architecture; list of
@@ -21,7 +21,7 @@ objectives:
           documentation or records; system audit records; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; organizational
           personnel installing, configuring, and/or maintaining the
@@ -30,13 +30,13 @@ objectives:
         statement: >-
           Mechanisms supporting and/or implementing polling
           techniques
-    statement: >
+    statement: >-
       polling techniques are employed to identify potential faults,
       errors, or compromises to {{ sc_36_01_odp_01 }};
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; system design
           documentation; system configuration settings and
           associated documentation; system architecture; list of
@@ -45,7 +45,7 @@ objectives:
           documentation or records; system audit records; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; organizational
           personnel installing, configuring, and/or maintaining the
@@ -54,7 +54,7 @@ objectives:
         statement: >-
           Mechanisms supporting and/or implementing polling
           techniques
-    statement: >
+    statement: >-
       {{ sc_36_01_odp_02 }} are taken in response to identified
       faults, errors, or compromise.
 parameters:
@@ -64,11 +64,11 @@ parameters:
     label: actions
 parts:
   - id: a
-    statement: >
+    statement: >-
       Employ polling techniques to identify potential faults,
       errors, or compromises to the following processing and storage
       components: {{ sc_36_01_odp_01 }} ; and
   - id: b
-    statement: >
+    statement: >-
       Take the following actions in response to identified faults,
       errors, or compromises: {{ sc_36_01_odp_02 }}.

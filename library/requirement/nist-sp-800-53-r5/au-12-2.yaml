@@ -12,7 +12,7 @@ objectives:
   - id: "au-12(02)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Audit and accountability policy; system security plan;
           privacy plan; procedures addressing audit record
           generation; system design documentation; system
@@ -20,7 +20,7 @@ objectives:
           system-wide audit trail (logical or physical); system
           audit records; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with audit record generation
           responsibilities; organizational personnel with security
           responsibilities; system/network administrators; system
@@ -28,9 +28,9 @@ objectives:
       - method: test
         statement: >-
           Mechanisms implementing audit record generation capability
-    statement: >
+    statement: >-
       a system-wide (logical or physical) audit trail composed of
       audit records is produced in a standardized format.
-statement: >
+statement: >-
   Produce a system-wide (logical or physical) audit trail composed
   of audit records in a standardized format.

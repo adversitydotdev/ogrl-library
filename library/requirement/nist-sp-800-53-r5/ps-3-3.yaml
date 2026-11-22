@@ -12,25 +12,25 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Personnel security policy; access control policy,
           procedures addressing personnel screening; records of
           screened personnel; screening criteria; records of access
           authorizations; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with personnel security
           responsibilities; organizational personnel with
           information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for ensuring valid access
           authorizations for information requiring special
           protection; organizational process for additional
           personnel screening for information requiring special
           protection
-    statement: >
+    statement: >-
       individuals accessing a system processing, storing, or
       transmitting information requiring special protection have
       valid access authorizations that are demonstrated by assigned
@@ -38,25 +38,25 @@ objectives:
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Personnel security policy; access control policy,
           procedures addressing personnel screening; records of
           screened personnel; screening criteria; records of access
           authorizations; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with personnel security
           responsibilities; organizational personnel with
           information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for ensuring valid access
           authorizations for information requiring special
           protection; organizational process for additional
           personnel screening for information requiring special
           protection
-    statement: >
+    statement: >-
       individuals accessing a system processing, storing, or
       transmitting information requiring special protection satisfy
       {{ ps_03_03_odp }}.
@@ -65,11 +65,11 @@ parameters:
     label: additional personnel screening criteria
 parts:
   - id: a
-    statement: >
+    statement: >-
       Have valid access authorizations that are demonstrated by
       assigned official government duties; and
   - id: b
     statement: "Satisfy {{ ps_03_03_odp }}."
-statement: >
+statement: >-
   Verify that individuals accessing a system processing, storing, or
   transmitting information requiring special protection:

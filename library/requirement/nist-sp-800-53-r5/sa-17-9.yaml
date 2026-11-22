@@ -12,7 +12,7 @@ objectives:
   - id: "sa-17(09)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; enterprise
           architecture policy; procedures addressing developer
           security architecture and design diversity for the system;
@@ -25,19 +25,19 @@ objectives:
           diversity; system security plan; other relevant documents
           or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and service
           acquisition responsibilities; organizational personnel
           with information security responsibilities; system
           developer; organizational personnel with information
           security architecture responsibilities
-    statement: >
+    statement: >-
       different designs are used for {{ sa_17_09_odp }} to satisfy a
       common set of requirements or to provide equivalent
       functionality.
 parameters:
   sa_17_09_odp:
     label: critical systems
-statement: >
+statement: >-
   Use different designs for {{ sa_17_09_odp }} to satisfy a common
   set of requirements or to provide equivalent functionality.

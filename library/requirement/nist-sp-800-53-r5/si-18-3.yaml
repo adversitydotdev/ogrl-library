@@ -12,7 +12,7 @@ objectives:
   - id: "si-18(03)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; personally identifiable
           information processing policy; system configuration
@@ -22,12 +22,12 @@ objectives:
           privacy risk assessment documentation; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel responsible for data collection;
           organizational personnel with information security and
           privacy responsibilities
       - method: test
-        statement: >
+        statement: >-
           Data collection mechanisms; automated mechanisms
           supporting and/or validating collection directly from the
           individual

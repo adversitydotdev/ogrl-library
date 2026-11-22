@@ -22,7 +22,7 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Audit and accountability policy; system security plan;
           privacy plan; access control policy and procedures;
           procedures addressing protection of audit information;
@@ -30,7 +30,7 @@ objectives:
           and associated documentation; system audit records; audit
           tools; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with audit and accountability
           responsibilities; organizational personnel with
           information security and privacy responsibilities;
@@ -38,13 +38,13 @@ objectives:
       - method: test
         statement: >-
           Mechanisms implementing audit information protection
-    statement: >
+    statement: >-
       audit information and audit logging tools are protected from
       unauthorized access, modification, and deletion;
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Audit and accountability policy; system security plan;
           privacy plan; access control policy and procedures;
           procedures addressing protection of audit information;
@@ -52,7 +52,7 @@ objectives:
           and associated documentation; system audit records; audit
           tools; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with audit and accountability
           responsibilities; organizational personnel with
           information security and privacy responsibilities;
@@ -60,7 +60,7 @@ objectives:
       - method: test
         statement: >-
           Mechanisms implementing audit information protection
-    statement: >
+    statement: >-
       {{ au_09_odp }} are alerted upon detection of unauthorized
       access, modification, or deletion of audit information.
 parameters:
@@ -68,10 +68,10 @@ parameters:
     label: personnel or roles
 parts:
   - id: a
-    statement: >
+    statement: >-
       Protect audit information and audit logging tools from
       unauthorized access, modification, and deletion; and
   - id: b
-    statement: >
+    statement: >-
       Alert {{ au_09_odp }} upon detection of unauthorized access,
       modification, or deletion of audit information.

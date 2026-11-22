@@ -12,7 +12,7 @@ objectives:
   - id: "sa-10(04).sa-10(04)[01]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; procedures
           addressing system developer configuration management;
           solicitation documentation; acquisition documentation;
@@ -23,12 +23,12 @@ objectives:
           control audit records; system security plan; other
           relevant documents or records
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for monitoring developer
           configuration management; mechanisms supporting and/or
           implementing the monitoring of developer configuration
           management
-    statement: >
+    statement: >-
       the developer of the system, system component, or system
       service is required to employ tools for comparing newly
       generated versions of security-relevant hardware descriptions
@@ -36,7 +36,7 @@ objectives:
   - id: "sa-10(04).sa-10(04)[02]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; procedures
           addressing system developer configuration management;
           solicitation documentation; acquisition documentation;
@@ -47,19 +47,19 @@ objectives:
           control audit records; system security plan; other
           relevant documents or records
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for monitoring developer
           configuration management; mechanisms supporting and/or
           implementing the monitoring of developer configuration
           management
-    statement: >
+    statement: >-
       the developer of the system, system component, or system
       service is required to employ tools for comparing newly
       generated versions of source code with previous versions;
   - id: "sa-10(04).sa-10(04)[03]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; procedures
           addressing system developer configuration management;
           solicitation documentation; acquisition documentation;
@@ -70,16 +70,16 @@ objectives:
           control audit records; system security plan; other
           relevant documents or records
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for monitoring developer
           configuration management; mechanisms supporting and/or
           implementing the monitoring of developer configuration
           management
-    statement: >
+    statement: >-
       the developer of the system, system component, or system
       service is required to employ tools for comparing newly
       generated versions of object code with previous versions.
-statement: >
+statement: >-
   Require the developer of the system, system component, or system
   service to employ tools for comparing newly generated versions of
   security-relevant hardware descriptions, source code, and object

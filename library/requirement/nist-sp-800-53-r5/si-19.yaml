@@ -19,7 +19,7 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; personally identifiable
           information processing policy; de-identification
@@ -29,21 +29,21 @@ objectives:
           assessment documentation; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel responsible for identifying
           unnecessary identifiers; organizational personnel
           responsible for removing personally identifiable
           information from datasets; organizational personnel with
           information security and privacy responsibilities
       - method: test
-        statement: >
+        statement: >-
           Automated mechanisms supporting and/or implementing the
           removal of personally identifiable information elements
     statement: "{{ si_19_odp_01 }} are removed from datasets;"
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; personally identifiable
           information processing policy; de-identification
@@ -53,14 +53,14 @@ objectives:
           assessment documentation; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel responsible for identifying
           unnecessary identifiers; organizational personnel
           responsible for removing personally identifiable
           information from datasets; organizational personnel with
           information security and privacy responsibilities
       - method: test
-        statement: >
+        statement: >-
           Automated mechanisms supporting and/or implementing the
           removal of personally identifiable information elements
     statement: >-
@@ -73,7 +73,7 @@ parameters:
     label: frequency
 parts:
   - id: a
-    statement: >
+    statement: >-
       Remove the following elements of personally identifiable
       information from datasets: {{ si_19_odp_01 }} ; and
   - id: b

@@ -12,28 +12,28 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           system and communications protection policy and
           procedures; procedures for network disconnect; system
           design documentation; system configuration settings;
           system audit records; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with information security responsibilities;
           system developers; system administrators
       - method: test
         statement: >-
           mechanisms for supporting or implementing a network
           disconnect capability
-    statement: >
+    statement: >-
       the network connection associated with a communications
       session is terminated at the end of the session or after
       {{ a_03_13_09_odp_01 }} of inactivity.
 parameters:
   a_03_13_09_odp_01:
     label: time period
-statement: >
+statement: >-
   Terminate the network connection associated with a communications
   session at the end of the session or after {{ a_03_13_09_odp_01 }}
   of inactivity.

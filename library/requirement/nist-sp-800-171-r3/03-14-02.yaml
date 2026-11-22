@@ -22,7 +22,7 @@ objectives:
   - id: a.01
     methods:
       - method: examine
-        statement: >
+        statement: >-
           system and information integrity policy and procedures;
           configuration management policy and procedures; procedures
           for malicious code protection; records of malicious code
@@ -33,13 +33,13 @@ objectives:
           malicious code detection; system audit records; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel responsible for malicious code protection;
           personnel with system installation, configuration, or
           maintenance responsibilities; personnel with information
           security responsibilities; system administrators
       - method: test
-        statement: >
+        statement: >-
           processes for employing, updating, and configuring
           malicious code protection mechanisms; processes for
           addressing the detection of false positives and resulting
@@ -48,13 +48,13 @@ objectives:
           malicious code protection mechanisms; mechanisms for
           supporting or implementing malicious code scanning and the
           execution of subsequent actions
-    statement: >
+    statement: >-
       malicious code protection mechanisms are implemented at system
       entry and exit points to detect malicious code.
   - id: a.02
     methods:
       - method: examine
-        statement: >
+        statement: >-
           system and information integrity policy and procedures;
           configuration management policy and procedures; procedures
           for malicious code protection; records of malicious code
@@ -65,13 +65,13 @@ objectives:
           malicious code detection; system audit records; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel responsible for malicious code protection;
           personnel with system installation, configuration, or
           maintenance responsibilities; personnel with information
           security responsibilities; system administrators
       - method: test
-        statement: >
+        statement: >-
           processes for employing, updating, and configuring
           malicious code protection mechanisms; processes for
           addressing the detection of false positives and resulting
@@ -80,13 +80,13 @@ objectives:
           malicious code protection mechanisms; mechanisms for
           supporting or implementing malicious code scanning and the
           execution of subsequent actions
-    statement: >
+    statement: >-
       malicious code protection mechanisms are implemented at system
       entry and exit points to eradicate malicious code.
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           system and information integrity policy and procedures;
           configuration management policy and procedures; procedures
           for malicious code protection; records of malicious code
@@ -97,13 +97,13 @@ objectives:
           malicious code detection; system audit records; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel responsible for malicious code protection;
           personnel with system installation, configuration, or
           maintenance responsibilities; personnel with information
           security responsibilities; system administrators
       - method: test
-        statement: >
+        statement: >-
           processes for employing, updating, and configuring
           malicious code protection mechanisms; processes for
           addressing the detection of false positives and resulting
@@ -112,14 +112,14 @@ objectives:
           malicious code protection mechanisms; mechanisms for
           supporting or implementing malicious code scanning and the
           execution of subsequent actions
-    statement: >
+    statement: >-
       malicious code protection mechanisms are updated as new
       releases are available in accordance with configuration
       management policy and procedures.
   - id: c.01.01
     methods:
       - method: examine
-        statement: >
+        statement: >-
           system and information integrity policy and procedures;
           configuration management policy and procedures; procedures
           for malicious code protection; records of malicious code
@@ -130,13 +130,13 @@ objectives:
           malicious code detection; system audit records; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel responsible for malicious code protection;
           personnel with system installation, configuration, or
           maintenance responsibilities; personnel with information
           security responsibilities; system administrators
       - method: test
-        statement: >
+        statement: >-
           processes for employing, updating, and configuring
           malicious code protection mechanisms; processes for
           addressing the detection of false positives and resulting
@@ -145,13 +145,13 @@ objectives:
           malicious code protection mechanisms; mechanisms for
           supporting or implementing malicious code scanning and the
           execution of subsequent actions
-    statement: >
+    statement: >-
       malicious code protection mechanisms are configured to perform
       scans of the system {{ a_03_14_02_odp_01 }}.
   - id: c.02
     methods:
       - method: examine
-        statement: >
+        statement: >-
           system and information integrity policy and procedures;
           configuration management policy and procedures; procedures
           for malicious code protection; records of malicious code
@@ -162,13 +162,13 @@ objectives:
           malicious code detection; system audit records; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel responsible for malicious code protection;
           personnel with system installation, configuration, or
           maintenance responsibilities; personnel with information
           security responsibilities; system administrators
       - method: test
-        statement: >
+        statement: >-
           processes for employing, updating, and configuring
           malicious code protection mechanisms; processes for
           addressing the detection of false positives and resulting
@@ -177,14 +177,14 @@ objectives:
           malicious code protection mechanisms; mechanisms for
           supporting or implementing malicious code scanning and the
           execution of subsequent actions
-    statement: >
+    statement: >-
       malicious code protection mechanisms are configured to block
       malicious code, quarantine malicious code, or take other
       actions in response to malicious code detection.
   - id: c.01.02
     methods:
       - method: examine
-        statement: >
+        statement: >-
           system and information integrity policy and procedures;
           configuration management policy and procedures; procedures
           for malicious code protection; records of malicious code
@@ -195,13 +195,13 @@ objectives:
           malicious code detection; system audit records; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel responsible for malicious code protection;
           personnel with system installation, configuration, or
           maintenance responsibilities; personnel with information
           security responsibilities; system administrators
       - method: test
-        statement: >
+        statement: >-
           processes for employing, updating, and configuring
           malicious code protection mechanisms; processes for
           addressing the detection of false positives and resulting
@@ -210,7 +210,7 @@ objectives:
           malicious code protection mechanisms; mechanisms for
           supporting or implementing malicious code scanning and the
           execution of subsequent actions
-    statement: >
+    statement: >-
       malicious code protection mechanisms are configured to perform
       real-time scans of files from external sources at endpoints or
       system entry and exit points as the files are downloaded,
@@ -220,23 +220,23 @@ parameters:
     label: frequency
 parts:
   - id: a
-    statement: >
+    statement: >-
       Implement malicious code protection mechanisms at system entry
       and exit points to detect and eradicate malicious code.
   - id: b
-    statement: >
+    statement: >-
       Update malicious code protection mechanisms as new releases
       are available in accordance with configuration management
       policies and procedures.
   - id: c
     statement: "Configure malicious code protection mechanisms to:"
   - id: c.01
-    statement: >
+    statement: >-
       Perform scans of the system {{ a_03_14_02_odp_01 }} and
       real-time scans of files from external sources at endpoints or
       system entry and exit points as the files are downloaded,
       opened, or executed; and
   - id: c.02
-    statement: >
+    statement: >-
       Block malicious code, quarantine malicious code, or take other
       mitigation actions in response to malicious code detection.

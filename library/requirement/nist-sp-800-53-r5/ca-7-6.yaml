@@ -12,7 +12,7 @@ objectives:
   - id: "ca-07(06)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Assessment, authorization, and monitoring policy;
           organizational continuous monitoring strategy;
           system-level continuous monitoring strategy; procedures
@@ -22,18 +22,18 @@ objectives:
           system security plan; privacy plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with continuous monitoring
           responsibilities; organizational personnel with
           information security and privacy responsibilities
       - method: test
         statement: Mechanisms supporting automated monitoring
-    statement: >
+    statement: >-
       {{ ca_07_06_odp }} are used to ensure the accuracy, currency,
       and availability of monitoring results for the system.
 parameters:
   ca_07_06_odp:
     label: automated mechanisms
-statement: >
+statement: >-
   Ensure the accuracy, currency, and availability of monitoring
   results for the system using {{ ca_07_06_odp }}.

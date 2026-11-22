@@ -12,7 +12,7 @@ objectives:
   - id: _obj
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; access
           control policy and procedures; procedures addressing port
           and input/output device access; system design
@@ -23,16 +23,16 @@ objectives:
           on systems or system components; system security plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; organizational
           personnel installing, configuring, and/or maintaining the
           system
       - method: test
-        statement: >
+        statement: >-
           Mechanisms supporting and/or implementing the disabling of
           connection ports or input/output devices
-    statement: >
+    statement: >-
       {{ sc_41_odp_01 }} are {{ sc_41_odp_02 }} disabled or removed
       on {{ sc_41_odp_03 }}.
 parameters:
@@ -42,6 +42,6 @@ parameters:
     label: sc-41_odp.02
   sc_41_odp_03:
     label: systems or system components
-statement: >
+statement: >-
   {{ sc_41_odp_02 }} disable or remove {{ sc_41_odp_01 }} on the
   following systems or system components: {{ sc_41_odp_03 }}.

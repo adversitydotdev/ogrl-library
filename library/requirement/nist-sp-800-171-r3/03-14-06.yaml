@@ -31,7 +31,7 @@ objectives:
   - id: a.01.01
     methods:
       - method: examine
-        statement: >
+        statement: >-
           system and information integrity policy and procedures;
           procedures for system monitoring tools and techniques;
           continuous monitoring strategy; facility diagram or
@@ -41,7 +41,7 @@ objectives:
           records; system security plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           personnel with responsibilities for installing,
           configuring, or maintaining the system; personnel with
           system monitoring responsibilities; personnel with
@@ -49,7 +49,7 @@ objectives:
           information security responsibilities; system
           administrators
       - method: test
-        statement: >
+        statement: >-
           processes for intrusion detection and system monitoring;
           mechanisms for supporting or implementing system
           monitoring capabilities; mechanisms for supporting or
@@ -61,7 +61,7 @@ objectives:
   - id: a.01.02
     methods:
       - method: examine
-        statement: >
+        statement: >-
           system and information integrity policy and procedures;
           procedures for system monitoring tools and techniques;
           continuous monitoring strategy; facility diagram or
@@ -71,7 +71,7 @@ objectives:
           records; system security plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           personnel with responsibilities for installing,
           configuring, or maintaining the system; personnel with
           system monitoring responsibilities; personnel with
@@ -79,7 +79,7 @@ objectives:
           information security responsibilities; system
           administrators
       - method: test
-        statement: >
+        statement: >-
           processes for intrusion detection and system monitoring;
           mechanisms for supporting or implementing system
           monitoring capabilities; mechanisms for supporting or
@@ -93,7 +93,7 @@ objectives:
   - id: a.02
     methods:
       - method: examine
-        statement: >
+        statement: >-
           system and information integrity policy and procedures;
           procedures for system monitoring tools and techniques;
           continuous monitoring strategy; facility diagram or
@@ -103,7 +103,7 @@ objectives:
           records; system security plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           personnel with responsibilities for installing,
           configuring, or maintaining the system; personnel with
           system monitoring responsibilities; personnel with
@@ -111,7 +111,7 @@ objectives:
           information security responsibilities; system
           administrators
       - method: test
-        statement: >
+        statement: >-
           processes for intrusion detection and system monitoring;
           mechanisms for supporting or implementing system
           monitoring capabilities; mechanisms for supporting or
@@ -124,7 +124,7 @@ objectives:
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           system and information integrity policy and procedures;
           procedures for system monitoring tools and techniques;
           continuous monitoring strategy; facility diagram or
@@ -134,7 +134,7 @@ objectives:
           records; system security plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           personnel with responsibilities for installing,
           configuring, or maintaining the system; personnel with
           system monitoring responsibilities; personnel with
@@ -142,7 +142,7 @@ objectives:
           information security responsibilities; system
           administrators
       - method: test
-        statement: >
+        statement: >-
           processes for intrusion detection and system monitoring;
           mechanisms for supporting or implementing system
           monitoring capabilities; mechanisms for supporting or
@@ -154,7 +154,7 @@ objectives:
   - id: c.01
     methods:
       - method: examine
-        statement: >
+        statement: >-
           system and information integrity policy and procedures;
           procedures for system monitoring tools and techniques;
           continuous monitoring strategy; facility diagram or
@@ -164,7 +164,7 @@ objectives:
           records; system security plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           personnel with responsibilities for installing,
           configuring, or maintaining the system; personnel with
           system monitoring responsibilities; personnel with
@@ -172,7 +172,7 @@ objectives:
           information security responsibilities; system
           administrators
       - method: test
-        statement: >
+        statement: >-
           processes for intrusion detection and system monitoring;
           mechanisms for supporting or implementing system
           monitoring capabilities; mechanisms for supporting or
@@ -180,13 +180,13 @@ objectives:
           capabilities; mechanisms for supporting or implementing
           the monitoring of inbound and outbound communications
           traffic
-    statement: >
+    statement: >-
       inbound communications traffic is monitored to detect unusual
       or unauthorized activities or conditions.
   - id: c.02
     methods:
       - method: examine
-        statement: >
+        statement: >-
           system and information integrity policy and procedures;
           procedures for system monitoring tools and techniques;
           continuous monitoring strategy; facility diagram or
@@ -196,7 +196,7 @@ objectives:
           records; system security plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           personnel with responsibilities for installing,
           configuring, or maintaining the system; personnel with
           system monitoring responsibilities; personnel with
@@ -204,7 +204,7 @@ objectives:
           information security responsibilities; system
           administrators
       - method: test
-        statement: >
+        statement: >-
           processes for intrusion detection and system monitoring;
           mechanisms for supporting or implementing system
           monitoring capabilities; mechanisms for supporting or
@@ -212,7 +212,7 @@ objectives:
           capabilities; mechanisms for supporting or implementing
           the monitoring of inbound and outbound communications
           traffic
-    statement: >
+    statement: >-
       outbound communications traffic is monitored to detect unusual
       or unauthorized activities or conditions.
 parts:
@@ -225,6 +225,6 @@ parts:
   - id: b
     statement: Identify unauthorized use of the system.
   - id: c
-    statement: >
+    statement: >-
       Monitor inbound and outbound communications traffic to detect
       unusual or unauthorized activities or conditions.

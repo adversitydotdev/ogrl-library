@@ -25,7 +25,7 @@ objectives:
   - id: a.1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy;; system and
           services acquisition procedures;; assessment and
           authorization procedures;; procedures addressing cyber
@@ -37,7 +37,7 @@ objectives:
           the system;; system security plan;; privacy plan;; privacy
           impact assessment;; privacy risk assessment documentation.
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with acquisition/contracting
           responsibilities;; organizational personnel with
           information security and privacy responsibilities;;
@@ -45,20 +45,20 @@ objectives:
           design, development, implementation, and modification
           responsibilities;; system developers.
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for applying cyber resiliency
           principles in system specification, design, development,
           implementation, and modification;; mechanisms supporting
           the application of cyber resiliency principles in system
           specification, design, development, implementation, and
           modification.
-    statement: >
+    statement: >-
       organizational systems, system components, or system services
       achieve cyber resiliency through {{ sa_24_odp_01 }};
   - id: a.2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy;; system and
           services acquisition procedures;; assessment and
           authorization procedures;; procedures addressing cyber
@@ -70,7 +70,7 @@ objectives:
           the system;; system security plan;; privacy plan;; privacy
           impact assessment;; privacy risk assessment documentation.
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with acquisition/contracting
           responsibilities;; organizational personnel with
           information security and privacy responsibilities;;
@@ -78,20 +78,20 @@ objectives:
           design, development, implementation, and modification
           responsibilities;; system developers.
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for applying cyber resiliency
           principles in system specification, design, development,
           implementation, and modification;; mechanisms supporting
           the application of cyber resiliency principles in system
           specification, design, development, implementation, and
           modification.
-    statement: >
+    statement: >-
       organizational systems, system components, or system services
       achieve cyber resiliency through {{ sa_24_odp_02 }};
   - id: a.3
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy;; system and
           services acquisition procedures;; assessment and
           authorization procedures;; procedures addressing cyber
@@ -103,7 +103,7 @@ objectives:
           the system;; system security plan;; privacy plan;; privacy
           impact assessment;; privacy risk assessment documentation.
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with acquisition/contracting
           responsibilities;; organizational personnel with
           information security and privacy responsibilities;;
@@ -111,20 +111,20 @@ objectives:
           design, development, implementation, and modification
           responsibilities;; system developers.
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for applying cyber resiliency
           principles in system specification, design, development,
           implementation, and modification;; mechanisms supporting
           the application of cyber resiliency principles in system
           specification, design, development, implementation, and
           modification.
-    statement: >
+    statement: >-
       organizational systems, system components, or system services
       achieve cyber resiliency through {{ sa_24_odp_03 }};
   - id: a.4
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy;; system and
           services acquisition procedures;; assessment and
           authorization procedures;; procedures addressing cyber
@@ -136,7 +136,7 @@ objectives:
           the system;; system security plan;; privacy plan;; privacy
           impact assessment;; privacy risk assessment documentation.
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with acquisition/contracting
           responsibilities;; organizational personnel with
           information security and privacy responsibilities;;
@@ -144,20 +144,20 @@ objectives:
           design, development, implementation, and modification
           responsibilities;; system developers.
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for applying cyber resiliency
           principles in system specification, design, development,
           implementation, and modification;; mechanisms supporting
           the application of cyber resiliency principles in system
           specification, design, development, implementation, and
           modification.
-    statement: >
+    statement: >-
       organizational systems, system components, or system services
       achieve cyber resiliency through {{ sa_24_odp_04 }};
   - id: a-5
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy;; system and
           services acquisition procedures;; assessment and
           authorization procedures;; procedures addressing cyber
@@ -169,7 +169,7 @@ objectives:
           the system;; system security plan;; privacy plan;; privacy
           impact assessment;; privacy risk assessment documentation.
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with acquisition/contracting
           responsibilities;; organizational personnel with
           information security and privacy responsibilities;;
@@ -177,20 +177,20 @@ objectives:
           design, development, implementation, and modification
           responsibilities;; system developers.
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for applying cyber resiliency
           principles in system specification, design, development,
           implementation, and modification;; mechanisms supporting
           the application of cyber resiliency principles in system
           specification, design, development, implementation, and
           modification.
-    statement: >
+    statement: >-
       organizational systems, system components, or system services
       achieve cyber resiliency through {{ sa_24_odp_05 }};
   - id: b-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy;; system and
           services acquisition procedures;; assessment and
           authorization procedures;; procedures addressing cyber
@@ -202,7 +202,7 @@ objectives:
           the system;; system security plan;; privacy plan;; privacy
           impact assessment;; privacy risk assessment documentation.
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with acquisition/contracting
           responsibilities;; organizational personnel with
           information security and privacy responsibilities;;
@@ -210,21 +210,21 @@ objectives:
           design, development, implementation, and modification
           responsibilities;; system developers.
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for applying cyber resiliency
           principles in system specification, design, development,
           implementation, and modification;; mechanisms supporting
           the application of cyber resiliency principles in system
           specification, design, development, implementation, and
           modification.
-    statement: >
+    statement: >-
       selected cyber resiliency goals are implemented as part of an
       organizational risk management process of systems security
       engineering process;
   - id: b-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy;; system and
           services acquisition procedures;; assessment and
           authorization procedures;; procedures addressing cyber
@@ -236,7 +236,7 @@ objectives:
           the system;; system security plan;; privacy plan;; privacy
           impact assessment;; privacy risk assessment documentation.
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with acquisition/contracting
           responsibilities;; organizational personnel with
           information security and privacy responsibilities;;
@@ -244,21 +244,21 @@ objectives:
           design, development, implementation, and modification
           responsibilities;; system developers.
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for applying cyber resiliency
           principles in system specification, design, development,
           implementation, and modification;; mechanisms supporting
           the application of cyber resiliency principles in system
           specification, design, development, implementation, and
           modification.
-    statement: >
+    statement: >-
       selected cyber resiliency objectives are implemented as part
       of an organizational risk management process of systems
       security engineering process;
   - id: b-3
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy;; system and
           services acquisition procedures;; assessment and
           authorization procedures;; procedures addressing cyber
@@ -270,7 +270,7 @@ objectives:
           the system;; system security plan;; privacy plan;; privacy
           impact assessment;; privacy risk assessment documentation.
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with acquisition/contracting
           responsibilities;; organizational personnel with
           information security and privacy responsibilities;;
@@ -278,21 +278,21 @@ objectives:
           design, development, implementation, and modification
           responsibilities;; system developers.
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for applying cyber resiliency
           principles in system specification, design, development,
           implementation, and modification;; mechanisms supporting
           the application of cyber resiliency principles in system
           specification, design, development, implementation, and
           modification.
-    statement: >
+    statement: >-
       selected cyber resiliency techniques are implemented as part
       of an organizational risk management process of systems
       security engineering process;
   - id: b-4
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy;; system and
           services acquisition procedures;; assessment and
           authorization procedures;; procedures addressing cyber
@@ -304,7 +304,7 @@ objectives:
           the system;; system security plan;; privacy plan;; privacy
           impact assessment;; privacy risk assessment documentation.
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with acquisition/contracting
           responsibilities;; organizational personnel with
           information security and privacy responsibilities;;
@@ -312,21 +312,21 @@ objectives:
           design, development, implementation, and modification
           responsibilities;; system developers.
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for applying cyber resiliency
           principles in system specification, design, development,
           implementation, and modification;; mechanisms supporting
           the application of cyber resiliency principles in system
           specification, design, development, implementation, and
           modification.
-    statement: >
+    statement: >-
       selected cyber resiliency implementation approaches are
       implemented as part of an organizational risk management
       process of systems security engineering process;
   - id: b-5
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy;; system and
           services acquisition procedures;; assessment and
           authorization procedures;; procedures addressing cyber
@@ -338,7 +338,7 @@ objectives:
           the system;; system security plan;; privacy plan;; privacy
           impact assessment;; privacy risk assessment documentation.
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with acquisition/contracting
           responsibilities;; organizational personnel with
           information security and privacy responsibilities;;
@@ -346,21 +346,21 @@ objectives:
           design, development, implementation, and modification
           responsibilities;; system developers.
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for applying cyber resiliency
           principles in system specification, design, development,
           implementation, and modification;; mechanisms supporting
           the application of cyber resiliency principles in system
           specification, design, development, implementation, and
           modification.
-    statement: >
+    statement: >-
       selected cyber resiliency design principles are implemented as
       part of an organizational risk management process of systems
       security engineering process.
   - id: b-6
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy;; system and
           services acquisition procedures;; assessment and
           authorization procedures;; procedures addressing cyber
@@ -372,7 +372,7 @@ objectives:
           the system;; system security plan;; privacy plan;; privacy
           impact assessment;; privacy risk assessment documentation.
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with acquisition/contracting
           responsibilities;; organizational personnel with
           information security and privacy responsibilities;;
@@ -380,21 +380,21 @@ objectives:
           design, development, implementation, and modification
           responsibilities;; system developers.
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for applying cyber resiliency
           principles in system specification, design, development,
           implementation, and modification;; mechanisms supporting
           the application of cyber resiliency principles in system
           specification, design, development, implementation, and
           modification.
-    statement: >
+    statement: >-
       selected cyber resiliency goals are reviewed as part of an
       organizational risk management process of systems security
       engineering process;
   - id: b-7
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy;; system and
           services acquisition procedures;; assessment and
           authorization procedures;; procedures addressing cyber
@@ -406,7 +406,7 @@ objectives:
           the system;; system security plan;; privacy plan;; privacy
           impact assessment;; privacy risk assessment documentation.
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with acquisition/contracting
           responsibilities;; organizational personnel with
           information security and privacy responsibilities;;
@@ -414,21 +414,21 @@ objectives:
           design, development, implementation, and modification
           responsibilities;; system developers.
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for applying cyber resiliency
           principles in system specification, design, development,
           implementation, and modification;; mechanisms supporting
           the application of cyber resiliency principles in system
           specification, design, development, implementation, and
           modification.
-    statement: >
+    statement: >-
       selected cyber resiliency objectives are reviewed as part of
       an organizational risk management process of systems security
       engineering process;
   - id: b-8
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy;; system and
           services acquisition procedures;; assessment and
           authorization procedures;; procedures addressing cyber
@@ -440,7 +440,7 @@ objectives:
           the system;; system security plan;; privacy plan;; privacy
           impact assessment;; privacy risk assessment documentation.
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with acquisition/contracting
           responsibilities;; organizational personnel with
           information security and privacy responsibilities;;
@@ -448,21 +448,21 @@ objectives:
           design, development, implementation, and modification
           responsibilities;; system developers.
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for applying cyber resiliency
           principles in system specification, design, development,
           implementation, and modification;; mechanisms supporting
           the application of cyber resiliency principles in system
           specification, design, development, implementation, and
           modification.
-    statement: >
+    statement: >-
       selected cyber resiliency techniques are reviewed as part of
       an organizational risk management process of systems security
       engineering process;
   - id: b-9
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy;; system and
           services acquisition procedures;; assessment and
           authorization procedures;; procedures addressing cyber
@@ -474,7 +474,7 @@ objectives:
           the system;; system security plan;; privacy plan;; privacy
           impact assessment;; privacy risk assessment documentation.
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with acquisition/contracting
           responsibilities;; organizational personnel with
           information security and privacy responsibilities;;
@@ -482,21 +482,21 @@ objectives:
           design, development, implementation, and modification
           responsibilities;; system developers.
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for applying cyber resiliency
           principles in system specification, design, development,
           implementation, and modification;; mechanisms supporting
           the application of cyber resiliency principles in system
           specification, design, development, implementation, and
           modification.
-    statement: >
+    statement: >-
       selected cyber resiliency implementation approaches are
       reviewed as part of an organizational risk management process
       of systems security engineering process;
   - id: b-10
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy;; system and
           services acquisition procedures;; assessment and
           authorization procedures;; procedures addressing cyber
@@ -508,7 +508,7 @@ objectives:
           the system;; system security plan;; privacy plan;; privacy
           impact assessment;; privacy risk assessment documentation.
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with acquisition/contracting
           responsibilities;; organizational personnel with
           information security and privacy responsibilities;;
@@ -516,14 +516,14 @@ objectives:
           design, development, implementation, and modification
           responsibilities;; system developers.
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for applying cyber resiliency
           principles in system specification, design, development,
           implementation, and modification;; mechanisms supporting
           the application of cyber resiliency principles in system
           specification, design, development, implementation, and
           modification.
-    statement: >
+    statement: >-
       selected cyber resiliency design principles are reviewed as
       part of an organizational risk management process of systems
       security engineering process.
@@ -540,7 +540,7 @@ parameters:
     label: cyber resiliency design principles
 parts:
   - id: a
-    statement: >
+    statement: >-
       Design organizational systems, system components, or system
       services to achieve cyber resiliency by:
   - id: a.1
@@ -556,7 +556,7 @@ parts:
       Defining the following cyber resiliency techniques:
       {{ sa_24_odp_03 }}.
   - id: a.4
-    statement: >
+    statement: >-
       Defining the following cyber resiliency implementation
       approaches: {{ sa_24_odp_04 }}.
   - id: a.5
@@ -564,7 +564,7 @@ parts:
       Defining the following cyber resiliency design principles:
       {{ sa_24_odp_05 }}.
   - id: b
-    statement: >
+    statement: >-
       Implement the selected cyber resiliency goals, objectives,
       techniques, implementation approaches, and design principles
       as part of an organizational risk management process or

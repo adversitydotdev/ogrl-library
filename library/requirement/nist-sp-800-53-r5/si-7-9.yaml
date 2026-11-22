@@ -12,7 +12,7 @@ objectives:
   - id: "si-07(09)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; procedures addressing
           software, firmware, and information integrity; system
@@ -22,13 +22,13 @@ objectives:
           integrity verification scans; system audit records; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel responsible for software,
           firmware, and/or information integrity; organizational
           personnel with information security responsibilities;
           system developer
       - method: test
-        statement: >
+        statement: >-
           Software, firmware, and information integrity verification
           tools; mechanisms supporting and/or implementing integrity
           verification of the boot process
@@ -38,6 +38,6 @@ objectives:
 parameters:
   si_07_09_odp:
     label: system components
-statement: >
+statement: >-
   Verify the integrity of the boot process of the following system
   components: {{ si_07_09_odp }}.

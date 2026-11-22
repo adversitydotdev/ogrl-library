@@ -12,7 +12,7 @@ objectives:
   - id: "ac-16(03).ac-16(03)[01]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; procedures addressing the
           association of security and privacy attributes to
           information; procedures addressing labeling or marking;
@@ -20,20 +20,20 @@ objectives:
           and associated documentation; system security plan;
           privacy plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with information security and
           privacy responsibilities; system developers
       - method: test
-        statement: >
+        statement: >-
           Mechanisms maintaining association and integrity of
           security and privacy attributes to information
-    statement: >
+    statement: >-
       the association and integrity of {{ ac_16_03_odp_01 }} to
       {{ ac_16_03_odp_03 }} is maintained;
   - id: "ac-16(03).ac-16(03)[02]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; procedures addressing the
           association of security and privacy attributes to
           information; procedures addressing labeling or marking;
@@ -41,20 +41,20 @@ objectives:
           and associated documentation; system security plan;
           privacy plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with information security and
           privacy responsibilities; system developers
       - method: test
-        statement: >
+        statement: >-
           Mechanisms maintaining association and integrity of
           security and privacy attributes to information
-    statement: >
+    statement: >-
       the association and integrity of {{ ac_16_03_odp_01 }} to
       {{ ac_16_03_odp_04 }} is maintained.
   - id: "ac-16(03).ac-16(03)[03]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; procedures addressing the
           association of security and privacy attributes to
           information; procedures addressing labeling or marking;
@@ -62,20 +62,20 @@ objectives:
           and associated documentation; system security plan;
           privacy plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with information security and
           privacy responsibilities; system developers
       - method: test
-        statement: >
+        statement: >-
           Mechanisms maintaining association and integrity of
           security and privacy attributes to information
-    statement: >
+    statement: >-
       the association and integrity of {{ ac_16_03_odp_02 }} to
       {{ ac_16_03_odp_05 }} is maintained;
   - id: "ac-16(03).ac-16(03)[04]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; procedures addressing the
           association of security and privacy attributes to
           information; procedures addressing labeling or marking;
@@ -83,14 +83,14 @@ objectives:
           and associated documentation; system security plan;
           privacy plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with information security and
           privacy responsibilities; system developers
       - method: test
-        statement: >
+        statement: >-
           Mechanisms maintaining association and integrity of
           security and privacy attributes to information
-    statement: >
+    statement: >-
       the association and integrity of {{ ac_16_03_odp_02 }} to
       {{ ac_16_03_odp_06 }} is maintained.
 parameters:
@@ -110,6 +110,6 @@ parameters:
     label: organization-defined security and privacy attributes
   ac_16_3_prm_2:
     label: organization-defined subjects and objects
-statement: >
+statement: >-
   Maintain the association and integrity of {{ ac_16_3_prm_1 }} to
   {{ ac_16_3_prm_2 }}.

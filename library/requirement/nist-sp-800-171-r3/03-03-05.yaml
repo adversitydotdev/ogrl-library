@@ -19,7 +19,7 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           audit and accountability policy and procedures; procedures
           for audit record review, analysis, and reporting; reports
           of audit record findings; records of actions taken in
@@ -29,7 +29,7 @@ objectives:
           configuration settings; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           personnel with audit record review, analysis, and
           reporting responsibilities; personnel with information
           security responsibilities
@@ -37,14 +37,14 @@ objectives:
         statement: >-
           mechanisms for supporting the analysis and correlation of
           audit records
-    statement: >
+    statement: >-
       system audit records are reviewed and analyzed
       {{ a_03_03_05_odp_01 }} for indications and the potential
       impact of inappropriate or unusual activity.
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           audit and accountability policy and procedures; procedures
           for audit record review, analysis, and reporting; reports
           of audit record findings; records of actions taken in
@@ -54,7 +54,7 @@ objectives:
           configuration settings; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           personnel with audit record review, analysis, and
           reporting responsibilities; personnel with information
           security responsibilities
@@ -67,7 +67,7 @@ objectives:
   - id: c.01
     methods:
       - method: examine
-        statement: >
+        statement: >-
           audit and accountability policy and procedures; procedures
           for audit record review, analysis, and reporting; reports
           of audit record findings; records of actions taken in
@@ -77,7 +77,7 @@ objectives:
           configuration settings; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           personnel with audit record review, analysis, and
           reporting responsibilities; personnel with information
           security responsibilities
@@ -85,13 +85,13 @@ objectives:
         statement: >-
           mechanisms for supporting the analysis and correlation of
           audit records
-    statement: >
+    statement: >-
       audit records across different repositories are analyzed to
       gain organization-wide situational awareness.
   - id: c.02
     methods:
       - method: examine
-        statement: >
+        statement: >-
           audit and accountability policy and procedures; procedures
           for audit record review, analysis, and reporting; reports
           of audit record findings; records of actions taken in
@@ -101,7 +101,7 @@ objectives:
           configuration settings; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           personnel with audit record review, analysis, and
           reporting responsibilities; personnel with information
           security responsibilities
@@ -109,7 +109,7 @@ objectives:
         statement: >-
           mechanisms for supporting the analysis and correlation of
           audit records
-    statement: >
+    statement: >-
       audit records across different repositories are correlated to
       gain organization-wide situational awareness.
 parameters:
@@ -117,13 +117,13 @@ parameters:
     label: frequency
 parts:
   - id: a
-    statement: >
+    statement: >-
       Review and analyze system audit records
       {{ a_03_03_05_odp_01 }} for indications and the potential
       impact of inappropriate or unusual activity.
   - id: b
     statement: Report findings to organizational personnel or roles.
   - id: c
-    statement: >
+    statement: >-
       Analyze and correlate audit records across different
       repositories to gain organization-wide situational awareness.

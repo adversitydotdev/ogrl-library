@@ -43,7 +43,7 @@ objectives:
   - id: _obj-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing cryptographic key establishment and management;
           system design documentation; cryptographic mechanisms;
@@ -51,22 +51,22 @@ objectives:
           documentation; system audit records; system security plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; organizational
           personnel with responsibilities for cryptographic key
           establishment and/or management
       - method: test
-        statement: >
+        statement: >-
           Mechanisms supporting and/or implementing cryptographic
           key establishment and management
-    statement: >
+    statement: >-
       cryptographic keys are established when cryptography is
       employed within the system in accordance with {{ sc_12_odp }};
   - id: _obj-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing cryptographic key establishment and management;
           system design documentation; cryptographic mechanisms;
@@ -74,22 +74,22 @@ objectives:
           documentation; system audit records; system security plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; organizational
           personnel with responsibilities for cryptographic key
           establishment and/or management
       - method: test
-        statement: >
+        statement: >-
           Mechanisms supporting and/or implementing cryptographic
           key establishment and management
-    statement: >
+    statement: >-
       cryptographic keys are managed when cryptography is employed
       within the system in accordance with {{ sc_12_odp }}.
 parameters:
   sc_12_odp:
     label: requirements
-statement: >
+statement: >-
   Establish and manage cryptographic keys when cryptography is
   employed within the system in accordance with the following key
   management requirements: {{ sc_12_odp }}.

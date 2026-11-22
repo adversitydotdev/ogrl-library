@@ -12,7 +12,7 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Physical and environmental protection policy; procedures
           addressing power source emergency shutoff; emergency
           shutoff controls or switches; locations housing emergency
@@ -21,7 +21,7 @@ objectives:
           unauthorized activation; system security plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with the responsibility for the
           emergency power shutoff capability (both implementing and
           using the capability); organizational personnel with
@@ -30,13 +30,13 @@ objectives:
         statement: >-
           Mechanisms supporting and/or implementing emergency power
           shutoff
-    statement: >
+    statement: >-
       the capability to shut off power to {{ pe_10_odp_01 }} in
       emergency situations is provided;
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Physical and environmental protection policy; procedures
           addressing power source emergency shutoff; emergency
           shutoff controls or switches; locations housing emergency
@@ -45,7 +45,7 @@ objectives:
           unauthorized activation; system security plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with the responsibility for the
           emergency power shutoff capability (both implementing and
           using the capability); organizational personnel with
@@ -54,14 +54,14 @@ objectives:
         statement: >-
           Mechanisms supporting and/or implementing emergency power
           shutoff
-    statement: >
+    statement: >-
       emergency shutoff switches or devices are placed in
       {{ pe_10_odp_02 }} to facilitate access for authorized
       personnel;
   - id: c
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Physical and environmental protection policy; procedures
           addressing power source emergency shutoff; emergency
           shutoff controls or switches; locations housing emergency
@@ -70,7 +70,7 @@ objectives:
           unauthorized activation; system security plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with the responsibility for the
           emergency power shutoff capability (both implementing and
           using the capability); organizational personnel with
@@ -79,7 +79,7 @@ objectives:
         statement: >-
           Mechanisms supporting and/or implementing emergency power
           shutoff
-    statement: >
+    statement: >-
       the emergency power shutoff capability is protected from
       unauthorized activation.
 parameters:
@@ -89,11 +89,11 @@ parameters:
     label: location
 parts:
   - id: a
-    statement: >
+    statement: >-
       Provide the capability of shutting off power to
       {{ pe_10_odp_01 }} in emergency situations;
   - id: b
-    statement: >
+    statement: >-
       Place emergency shutoff switches or devices in
       {{ pe_10_odp_02 }} to facilitate access for authorized
       personnel; and

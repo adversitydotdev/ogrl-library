@@ -12,7 +12,7 @@ objectives:
   - id: "ir-06(03)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Incident response policy; procedures addressing supply
           chain coordination and supply chain risk information
           sharing with the Federal Acquisition Security Council;
@@ -22,7 +22,7 @@ objectives:
           organizations involved in supply chain activities; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with incident reporting
           responsibilities; organizational personnel with
           information security responsibilities; organizational
@@ -30,18 +30,18 @@ objectives:
           responsibilities; organization personnel with acquisition
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for incident reporting;
           organizational processes for supply chain risk information
           sharing; mechanisms supporting and/or implementing the
           reporting of incident information involved in the supply
           chain
-    statement: >
+    statement: >-
       incident information is provided to the provider of the
       product or service and other organizations involved in the
       supply chain or supply chain governance for systems or system
       components related to the incident.
-statement: >
+statement: >-
   Provide incident information to the provider of the product or
   service and other organizations involved in the supply chain or
   supply chain governance for systems or system components related

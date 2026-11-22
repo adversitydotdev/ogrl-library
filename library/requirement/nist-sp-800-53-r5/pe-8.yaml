@@ -12,7 +12,7 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Physical and environmental protection policy; procedures
           addressing visitor access records; visitor access control
           logs or records; visitor access record or log reviews;
@@ -20,23 +20,23 @@ objectives:
           assessment; privacy risk assessment documentation; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with visitor access record
           responsibilities; organizational personnel with
           information security and privacy responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for maintaining and reviewing
           visitor access records; mechanisms supporting and/or
           implementing the maintenance and review of visitor access
           records
-    statement: >
+    statement: >-
       visitor access records for the facility where the system
       resides are maintained for {{ pe_08_odp_01 }};
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Physical and environmental protection policy; procedures
           addressing visitor access records; visitor access control
           logs or records; visitor access record or log reviews;
@@ -44,12 +44,12 @@ objectives:
           assessment; privacy risk assessment documentation; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with visitor access record
           responsibilities; organizational personnel with
           information security and privacy responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for maintaining and reviewing
           visitor access records; mechanisms supporting and/or
           implementing the maintenance and review of visitor access
@@ -59,7 +59,7 @@ objectives:
   - id: c
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Physical and environmental protection policy; procedures
           addressing visitor access records; visitor access control
           logs or records; visitor access record or log reviews;
@@ -67,12 +67,12 @@ objectives:
           assessment; privacy risk assessment documentation; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with visitor access record
           responsibilities; organizational personnel with
           information security and privacy responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for maintaining and reviewing
           visitor access records; mechanisms supporting and/or
           implementing the maintenance and review of visitor access
@@ -89,7 +89,7 @@ parameters:
     label: personnel
 parts:
   - id: a
-    statement: >
+    statement: >-
       Maintain visitor access records to the facility where the
       system resides for {{ pe_08_odp_01 }};
   - id: b

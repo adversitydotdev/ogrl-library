@@ -12,7 +12,7 @@ objectives:
   - id: "sc-32(01)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing system partitioning; system design
           documentation; system configuration settings and
@@ -21,13 +21,13 @@ objectives:
           diagrams; system network diagrams; system security plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; organizational
           personnel installing, configuring, and/or maintaining the
           system; system developers/integrators
       - method: test
-        statement: >
+        statement: >-
           Mechanisms supporting and/or implementing the physical
           separation of system components
     statement: >-

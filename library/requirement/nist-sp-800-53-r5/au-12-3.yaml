@@ -12,7 +12,7 @@ objectives:
   - id: "au-12(03).au-12(03)[01]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Audit and accountability policy; system security plan;
           privacy plan; procedures addressing audit record
           generation; system design documentation; system
@@ -21,7 +21,7 @@ objectives:
           to change auditing to be performed; system audit records;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with audit record generation
           responsibilities; organizational personnel with
           information security and privacy responsibilities;
@@ -29,7 +29,7 @@ objectives:
       - method: test
         statement: >-
           Mechanisms implementing audit record generation capability
-    statement: >
+    statement: >-
       the capability for {{ au_12_03_odp_01 }} to change the logging
       to be performed on {{ au_12_03_odp_02 }} based on
       {{ au_12_03_odp_03 }} within {{ au_12_03_odp_04 }} is
@@ -37,7 +37,7 @@ objectives:
   - id: "au-12(03).au-12(03)[02]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Audit and accountability policy; system security plan;
           privacy plan; procedures addressing audit record
           generation; system design documentation; system
@@ -46,7 +46,7 @@ objectives:
           to change auditing to be performed; system audit records;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with audit record generation
           responsibilities; organizational personnel with
           information security and privacy responsibilities;
@@ -54,7 +54,7 @@ objectives:
       - method: test
         statement: >-
           Mechanisms implementing audit record generation capability
-    statement: >
+    statement: >-
       the capability for {{ au_12_03_odp_01 }} to change the logging
       to be performed on {{ au_12_03_odp_02 }} based on
       {{ au_12_03_odp_03 }} within {{ au_12_03_odp_04 }} is
@@ -68,7 +68,7 @@ parameters:
     label: selectable event criteria
   au_12_03_odp_04:
     label: time thresholds
-statement: >
+statement: >-
   Provide and implement the capability for {{ au_12_03_odp_01 }} to
   change the logging to be performed on {{ au_12_03_odp_02 }} based
   on {{ au_12_03_odp_03 }} within {{ au_12_03_odp_04 }}.

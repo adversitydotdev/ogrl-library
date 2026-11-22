@@ -12,7 +12,7 @@ objectives:
   - id: "at-03(01)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Security and privacy awareness and training policy;
           procedures addressing security and privacy training
           implementation; security and privacy training curriculum;
@@ -20,12 +20,12 @@ objectives:
           plan; privacy plan; training records; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for
           role-based security and privacy training; organizational
           personnel with responsibilities for employing and
           operating environmental controls
-    statement: >
+    statement: >-
       {{ at_03_01_odp_01 }} are provided with initial and refresher
       training {{ at_03_01_odp_02 }} in the employment and operation
       of environmental controls.
@@ -34,7 +34,7 @@ parameters:
     label: personnel or roles
   at_03_01_odp_02:
     label: frequency
-statement: >
+statement: >-
   Provide {{ at_03_01_odp_01 }} with initial and
   {{ at_03_01_odp_02 }} training in the employment and operation of
   environmental controls.

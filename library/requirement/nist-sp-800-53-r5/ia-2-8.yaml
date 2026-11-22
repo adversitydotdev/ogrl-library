@@ -12,7 +12,7 @@ objectives:
   - id: "ia-02(08)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Identification and authentication policy; system security
           plan; procedures addressing user identification and
           authentication; system design documentation; system
@@ -20,24 +20,24 @@ objectives:
           system audit records; list of privileged system accounts;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system operations
           responsibilities; organizational personnel with account
           management responsibilities; organizational personnel with
           information security responsibilities; system/network
           administrators; system developers
       - method: test
-        statement: >
+        statement: >-
           Mechanisms supporting and/or implementing identification
           and authentication capabilities; Mechanisms supporting
           and/or implementing replay-resistant authentication
           mechanisms
-    statement: >
+    statement: >-
       replay-resistant authentication mechanisms for access to
       {{ ia_02_08_odp }} are implemented.
 parameters:
   ia_02_08_odp:
     label: ia-02.08_odp
-statement: >
+statement: >-
   Implement replay-resistant authentication mechanisms for access to
   {{ ia_02_08_odp }}.

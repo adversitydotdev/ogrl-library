@@ -12,7 +12,7 @@ objectives:
   - id: "pe-05(02)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Physical and environmental protection policy; procedures
           addressing physical access control; system design
           documentation; system configuration settings and
@@ -24,13 +24,13 @@ objectives:
           impact assessment; privacy risk assessment documentation;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with physical access control
           responsibilities; organizational personnel with
           information security and privacy responsibilities;
           system/network administrators; system developers
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for access control to output
           devices; mechanisms supporting and/or implementing access
           control to output devices

@@ -12,7 +12,7 @@ objectives:
   - id: "sa-04(10)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Supply chain risk management plan; system and services
           acquisition policy; procedures addressing the integration
           of security requirements, descriptions, and criteria into
@@ -22,7 +22,7 @@ objectives:
           agreements; FIPS 201 approved products list; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with acquisition/contracting
           responsibilities; organizational personnel with the
           responsibility for determining system security
@@ -34,12 +34,12 @@ objectives:
         statement: >-
           Organizational processes for selecting and employing FIPS
           201-approved products
-    statement: >
+    statement: >-
       only information technology products on the FIPS 201-approved
       products list for the Personal Identity Verification (PIV)
       capability implemented within organizational systems are
       employed.
-statement: >
+statement: >-
   Employ only information technology products on the FIPS
   201-approved products list for Personal Identity Verification
   (PIV) capability implemented within organizational systems.

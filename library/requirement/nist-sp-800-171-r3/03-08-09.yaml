@@ -22,36 +22,36 @@ objectives:
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           contingency planning policy and procedures; procedures for
           system backup; contingency plan; system design
           documentation; system configuration settings; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with system backup responsibilities; personnel
           with information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           mechanisms for supporting or implementing the
           cryptographic protection of backup information
-    statement: >
+    statement: >-
       cryptographic mechanisms are implemented to prevent the
       unauthorized disclosure of CUI at backup storage locations.
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           contingency planning policy and procedures; procedures for
           system backup; contingency plan; system design
           documentation; system configuration settings; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with system backup responsibilities; personnel
           with information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           mechanisms for supporting or implementing the
           cryptographic protection of backup information
     statement: >-
@@ -60,6 +60,6 @@ parts:
   - id: a
     statement: Protect the confidentiality of backup information.
   - id: b
-    statement: >
+    statement: >-
       Implement cryptographic mechanisms to prevent the unauthorized
       disclosure of CUI at backup storage locations.

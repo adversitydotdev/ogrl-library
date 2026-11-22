@@ -12,7 +12,7 @@ objectives:
   - id: "sa-08(09)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Supply chain risk management plan; system and services
           acquisition policy; procedures addressing the security
           design principle of trusted components used in the
@@ -24,7 +24,7 @@ objectives:
           determining component assurance; system security plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with the responsibility for
           determining system security and privacy requirements;
           organizational personnel with system specification,
@@ -34,7 +34,7 @@ objectives:
           organizational personnel with supply chain risk management
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for applying the security design
           principle of trusted components in system specification,
           design, development, implementation, and modification;
@@ -42,12 +42,12 @@ objectives:
           design principle of trusted components in system
           specification, design, development, implementation, and
           modification
-    statement: >
+    statement: >-
       {{ sa_08_09_odp }} implement the security design principle of
       trusted components.
 parameters:
   sa_08_09_odp:
     label: systems or system components
-statement: >
+statement: >-
   Implement the security design principle of trusted components in
   {{ sa_08_09_odp }}.

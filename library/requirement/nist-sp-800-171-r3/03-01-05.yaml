@@ -12,7 +12,7 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           access control policy and procedures; procedures for least
           privilege; list of assigned access authorizations (i.e.,
           privileges); system configuration settings; system audit
@@ -26,22 +26,22 @@ objectives:
           classes of users; system security plan; system design
           documentation; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with responsibilities for defining least
           privileges; personnel with information security
           responsibilities; system administrators
       - method: test
-        statement: >
+        statement: >-
           mechanisms for implementing least privilege functions;
           mechanisms for implementing reviews of user privileges
-    statement: >
+    statement: >-
       system access for users (or processes acting on behalf of
       users) is authorized only when necessary to accomplish
       assigned organizational tasks.
   - id: b.01
     methods:
       - method: examine
-        statement: >
+        statement: >-
           access control policy and procedures; procedures for least
           privilege; list of assigned access authorizations (i.e.,
           privileges); system configuration settings; system audit
@@ -55,19 +55,19 @@ objectives:
           classes of users; system security plan; system design
           documentation; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with responsibilities for defining least
           privileges; personnel with information security
           responsibilities; system administrators
       - method: test
-        statement: >
+        statement: >-
           mechanisms for implementing least privilege functions;
           mechanisms for implementing reviews of user privileges
     statement: "access to {{ a_03_01_05_odp_01 }} is authorized."
   - id: b.02
     methods:
       - method: examine
-        statement: >
+        statement: >-
           access control policy and procedures; procedures for least
           privilege; list of assigned access authorizations (i.e.,
           privileges); system configuration settings; system audit
@@ -81,19 +81,19 @@ objectives:
           classes of users; system security plan; system design
           documentation; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with responsibilities for defining least
           privileges; personnel with information security
           responsibilities; system administrators
       - method: test
-        statement: >
+        statement: >-
           mechanisms for implementing least privilege functions;
           mechanisms for implementing reviews of user privileges
     statement: "access to {{ a_03_01_05_odp_02 }} is authorized."
   - id: c
     methods:
       - method: examine
-        statement: >
+        statement: >-
           access control policy and procedures; procedures for least
           privilege; list of assigned access authorizations (i.e.,
           privileges); system configuration settings; system audit
@@ -107,22 +107,22 @@ objectives:
           classes of users; system security plan; system design
           documentation; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with responsibilities for defining least
           privileges; personnel with information security
           responsibilities; system administrators
       - method: test
-        statement: >
+        statement: >-
           mechanisms for implementing least privilege functions;
           mechanisms for implementing reviews of user privileges
-    statement: >
+    statement: >-
       the privileges assigned to roles or classes of users are
       reviewed {{ a_03_01_05_odp_03 }} to validate the need for such
       privileges.
   - id: d
     methods:
       - method: examine
-        statement: >
+        statement: >-
           access control policy and procedures; procedures for least
           privilege; list of assigned access authorizations (i.e.,
           privileges); system configuration settings; system audit
@@ -136,12 +136,12 @@ objectives:
           classes of users; system security plan; system design
           documentation; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with responsibilities for defining least
           privileges; personnel with information security
           responsibilities; system administrators
       - method: test
-        statement: >
+        statement: >-
           mechanisms for implementing least privilege functions;
           mechanisms for implementing reviews of user privileges
     statement: "privileges are reassigned or removed, as necessary."
@@ -154,7 +154,7 @@ parameters:
     label: frequency
 parts:
   - id: a
-    statement: >
+    statement: >-
       Allow only authorized system access for users (or processes
       acting on behalf of users) that is necessary to accomplish
       assigned organizational tasks.
@@ -163,7 +163,7 @@ parts:
       Authorize access to {{ a_03_01_05_odp_01 }} and
       {{ a_03_01_05_odp_02 }}.
   - id: c
-    statement: >
+    statement: >-
       Review the privileges assigned to roles or classes of users
       {{ a_03_01_05_odp_03 }} to validate the need for such
       privileges.

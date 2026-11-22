@@ -19,7 +19,7 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           configuration management policy and procedures; procedures
           for system configuration change control; configuration
           management plan; system architecture; configuration
@@ -29,22 +29,22 @@ objectives:
           oversight meetings; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with configuration change control
           responsibilities; personnel with information security
           responsibilities; members of change control board or
           similar; system administrators
       - method: test
-        statement: >
+        statement: >-
           processes for configuration change control; mechanisms
           that implement configuration change control
-    statement: >
+    statement: >-
       the types of changes to the system that are
       configuration-controlled are defined.
   - id: b.01
     methods:
       - method: examine
-        statement: >
+        statement: >-
           configuration management policy and procedures; procedures
           for system configuration change control; configuration
           management plan; system architecture; configuration
@@ -54,22 +54,22 @@ objectives:
           oversight meetings; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with configuration change control
           responsibilities; personnel with information security
           responsibilities; members of change control board or
           similar; system administrators
       - method: test
-        statement: >
+        statement: >-
           processes for configuration change control; mechanisms
           that implement configuration change control
-    statement: >
+    statement: >-
       proposed configuration-controlled changes to the system are
       reviewed with explicit consideration for security impacts.
   - id: b.02
     methods:
       - method: examine
-        statement: >
+        statement: >-
           configuration management policy and procedures; procedures
           for system configuration change control; configuration
           management plan; system architecture; configuration
@@ -79,23 +79,23 @@ objectives:
           oversight meetings; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with configuration change control
           responsibilities; personnel with information security
           responsibilities; members of change control board or
           similar; system administrators
       - method: test
-        statement: >
+        statement: >-
           processes for configuration change control; mechanisms
           that implement configuration change control
-    statement: >
+    statement: >-
       proposed configuration-controlled changes to the system are
       approved or disapproved with explicit consideration for
       security impacts.
   - id: d.01
     methods:
       - method: examine
-        statement: >
+        statement: >-
           configuration management policy and procedures; procedures
           for system configuration change control; configuration
           management plan; system architecture; configuration
@@ -105,22 +105,22 @@ objectives:
           oversight meetings; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with configuration change control
           responsibilities; personnel with information security
           responsibilities; members of change control board or
           similar; system administrators
       - method: test
-        statement: >
+        statement: >-
           processes for configuration change control; mechanisms
           that implement configuration change control
-    statement: >
+    statement: >-
       activities associated with configuration-controlled changes to
       the system are monitored.
   - id: d.02
     methods:
       - method: examine
-        statement: >
+        statement: >-
           configuration management policy and procedures; procedures
           for system configuration change control; configuration
           management plan; system architecture; configuration
@@ -130,22 +130,22 @@ objectives:
           oversight meetings; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with configuration change control
           responsibilities; personnel with information security
           responsibilities; members of change control board or
           similar; system administrators
       - method: test
-        statement: >
+        statement: >-
           processes for configuration change control; mechanisms
           that implement configuration change control
-    statement: >
+    statement: >-
       activities associated with configuration-controlled changes to
       the system are reviewed.
   - id: c.01
     methods:
       - method: examine
-        statement: >
+        statement: >-
           configuration management policy and procedures; procedures
           for system configuration change control; configuration
           management plan; system architecture; configuration
@@ -155,13 +155,13 @@ objectives:
           oversight meetings; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with configuration change control
           responsibilities; personnel with information security
           responsibilities; members of change control board or
           similar; system administrators
       - method: test
-        statement: >
+        statement: >-
           processes for configuration change control; mechanisms
           that implement configuration change control
     statement: >-
@@ -170,7 +170,7 @@ objectives:
   - id: c.02
     methods:
       - method: examine
-        statement: >
+        statement: >-
           configuration management policy and procedures; procedures
           for system configuration change control; configuration
           management plan; system architecture; configuration
@@ -180,13 +180,13 @@ objectives:
           oversight meetings; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with configuration change control
           responsibilities; personnel with information security
           responsibilities; members of change control board or
           similar; system administrators
       - method: test
-        statement: >
+        statement: >-
           processes for configuration change control; mechanisms
           that implement configuration change control
     statement: >-
@@ -198,7 +198,7 @@ parts:
       Define the types of changes to the system that are
       configuration-controlled.
   - id: b
-    statement: >
+    statement: >-
       Review proposed configuration-controlled changes to the
       system, and approve or disapprove such changes with explicit
       consideration for security impacts.
@@ -207,6 +207,6 @@ parts:
       Implement and document approved configuration-controlled
       changes to the system.
   - id: d
-    statement: >
+    statement: >-
       Monitor and review activities associated with
       configuration-controlled changes to the system.

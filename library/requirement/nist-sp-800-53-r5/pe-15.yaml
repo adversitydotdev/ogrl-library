@@ -12,7 +12,7 @@ objectives:
   - id: _obj-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Physical and environmental protection policy; procedures
           addressing water damage protection; facility housing the
           system; master shutoff valves; list of key personnel with
@@ -21,21 +21,21 @@ objectives:
           valve documentation; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for system
           environmental controls; organizational personnel with
           information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Master water-shutoff valves; organizational process for
           activating master water shutoff
-    statement: >
+    statement: >-
       the system is protected from damage resulting from water
       leakage by providing master shutoff or isolation valves;
   - id: _obj-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Physical and environmental protection policy; procedures
           addressing water damage protection; facility housing the
           system; master shutoff valves; list of key personnel with
@@ -44,12 +44,12 @@ objectives:
           valve documentation; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for system
           environmental controls; organizational personnel with
           information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Master water-shutoff valves; organizational process for
           activating master water shutoff
     statement: >-
@@ -57,7 +57,7 @@ objectives:
   - id: _obj-3
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Physical and environmental protection policy; procedures
           addressing water damage protection; facility housing the
           system; master shutoff valves; list of key personnel with
@@ -66,12 +66,12 @@ objectives:
           valve documentation; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for system
           environmental controls; organizational personnel with
           information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Master water-shutoff valves; organizational process for
           activating master water shutoff
     statement: >-
@@ -79,7 +79,7 @@ objectives:
   - id: _obj-4
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Physical and environmental protection policy; procedures
           addressing water damage protection; facility housing the
           system; master shutoff valves; list of key personnel with
@@ -88,18 +88,18 @@ objectives:
           valve documentation; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for system
           environmental controls; organizational personnel with
           information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Master water-shutoff valves; organizational process for
           activating master water shutoff
     statement: >-
       the master shutoff or isolation valves are known to key
       personnel.
-statement: >
+statement: >-
   Protect the system from damage resulting from water leakage by
   providing master shutoff or isolation valves that are accessible,
   working properly, and known to key personnel.

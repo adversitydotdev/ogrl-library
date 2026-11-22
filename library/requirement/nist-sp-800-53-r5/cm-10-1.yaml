@@ -12,7 +12,7 @@ objectives:
   - id: "cm-10(01)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; software usage
           restrictions; software contract agreements and copyright
           laws; site license documentation; list of software usage
@@ -20,14 +20,14 @@ objectives:
           configuration management plan; system security plan;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel operating, using, and/or
           maintaining the system; organizational personnel with
           software license management responsibilities;
           organizational personnel with information security
           responsibilities; system/network administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for tracking the use of software
           protected by quantity licenses; organizational processes
           for controlling/documenting the use of peer-to-peer file
@@ -40,6 +40,6 @@ objectives:
 parameters:
   cm_10_01_odp:
     label: restrictions
-statement: >
+statement: >-
   Establish the following restrictions on the use of open-source
   software: {{ cm_10_01_odp }}.

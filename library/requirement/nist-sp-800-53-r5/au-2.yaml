@@ -19,41 +19,41 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Audit and accountability policy; procedures addressing
           auditable events; system security plan; privacy plan;
           system design documentation; system configuration settings
           and associated documentation; system audit records; system
           auditable events; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with audit and accountability
           responsibilities; organizational personnel with
           information security and privacy responsibilities;
           system/network administrators
       - method: test
         statement: Mechanisms implementing system auditing
-    statement: >
+    statement: >-
       {{ au_02_odp_01 }} that the system is capable of logging are
       identified in support of the audit logging function;
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Audit and accountability policy; procedures addressing
           auditable events; system security plan; privacy plan;
           system design documentation; system configuration settings
           and associated documentation; system audit records; system
           auditable events; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with audit and accountability
           responsibilities; organizational personnel with
           information security and privacy responsibilities;
           system/network administrators
       - method: test
         statement: Mechanisms implementing system auditing
-    statement: >
+    statement: >-
       the event logging function is coordinated with other
       organizational entities requiring audit-related information to
       guide and inform the selection criteria for events to be
@@ -61,14 +61,14 @@ objectives:
   - id: c-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Audit and accountability policy; procedures addressing
           auditable events; system security plan; privacy plan;
           system design documentation; system configuration settings
           and associated documentation; system audit records; system
           auditable events; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with audit and accountability
           responsibilities; organizational personnel with
           information security and privacy responsibilities;
@@ -81,14 +81,14 @@ objectives:
   - id: c-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Audit and accountability policy; procedures addressing
           auditable events; system security plan; privacy plan;
           system design documentation; system configuration settings
           and associated documentation; system audit records; system
           auditable events; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with audit and accountability
           responsibilities; organizational personnel with
           information security and privacy responsibilities;
@@ -101,42 +101,42 @@ objectives:
   - id: d
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Audit and accountability policy; procedures addressing
           auditable events; system security plan; privacy plan;
           system design documentation; system configuration settings
           and associated documentation; system audit records; system
           auditable events; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with audit and accountability
           responsibilities; organizational personnel with
           information security and privacy responsibilities;
           system/network administrators
       - method: test
         statement: Mechanisms implementing system auditing
-    statement: >
+    statement: >-
       a rationale is provided for why the event types selected for
       logging are deemed to be adequate to support after-the-fact
       investigations of incidents;
   - id: e
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Audit and accountability policy; procedures addressing
           auditable events; system security plan; privacy plan;
           system design documentation; system configuration settings
           and associated documentation; system audit records; system
           auditable events; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with audit and accountability
           responsibilities; organizational personnel with
           information security and privacy responsibilities;
           system/network administrators
       - method: test
         statement: Mechanisms implementing system auditing
-    statement: >
+    statement: >-
       the event types selected for logging are reviewed and updated
       {{ au_02_odp_04 }}.
 parameters:
@@ -149,28 +149,28 @@ parameters:
   au_02_odp_04:
     label: frequency
   au_2_prm_2:
-    label: >
+    label: >-
       organization-defined event types (subset of the event types
       defined in [AU-2a.](#au-2_smt.a)) along with the frequency of
       (or situation requiring) logging for each identified event
       type
 parts:
   - id: a
-    statement: >
+    statement: >-
       Identify the types of events that the system is capable of
       logging in support of the audit function: {{ au_02_odp_01 }};
   - id: b
-    statement: >
+    statement: >-
       Coordinate the event logging function with other
       organizational entities requiring audit-related information to
       guide and inform the selection criteria for events to be
       logged;
   - id: c
-    statement: >
+    statement: >-
       Specify the following event types for logging within the
       system: {{ au_2_prm_2 }};
   - id: d
-    statement: >
+    statement: >-
       Provide a rationale for why the event types selected for
       logging are deemed to be adequate to support after-the-fact
       investigations of incidents; and

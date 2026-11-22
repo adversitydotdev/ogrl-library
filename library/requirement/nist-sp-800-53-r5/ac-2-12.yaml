@@ -12,7 +12,7 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; procedures addressing account
           management; system design documentation; system
           configuration settings and associated documentation;
@@ -21,7 +21,7 @@ objectives:
           assessment; system security plan; privacy plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with account management
           responsibilities; system/network administrators;
           organizational personnel with information security
@@ -34,7 +34,7 @@ objectives:
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; procedures addressing account
           management; system design documentation; system
           configuration settings and associated documentation;
@@ -43,7 +43,7 @@ objectives:
           assessment; system security plan; privacy plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with account management
           responsibilities; system/network administrators;
           organizational personnel with information security

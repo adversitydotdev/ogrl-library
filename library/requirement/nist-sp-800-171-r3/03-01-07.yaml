@@ -12,7 +12,7 @@ objectives:
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           access control policy and procedures; procedures for least
           privilege; system design documentation; system
           configuration settings; system audit records; list of
@@ -20,12 +20,12 @@ objectives:
           and associated user account assignments; system security
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with responsibilities for reviewing least
           privileges; personnel with information security
           responsibilities; system developers; system administrators
       - method: test
-        statement: >
+        statement: >-
           mechanisms for auditing the execution of least privilege
           functions; mechanisms for implementing least privilege
           functions for non-privileged users
@@ -33,7 +33,7 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           access control policy and procedures; procedures for least
           privilege; system design documentation; system
           configuration settings; system audit records; list of
@@ -41,12 +41,12 @@ objectives:
           and associated user account assignments; system security
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with responsibilities for reviewing least
           privileges; personnel with information security
           responsibilities; system developers; system administrators
       - method: test
-        statement: >
+        statement: >-
           mechanisms for auditing the execution of least privilege
           functions; mechanisms for implementing least privilege
           functions for non-privileged users

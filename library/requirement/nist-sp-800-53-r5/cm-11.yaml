@@ -12,7 +12,7 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           user-installed software; configuration management plan;
           system security plan; system design documentation; system
@@ -22,7 +22,7 @@ objectives:
           monitoring strategy; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for
           governing user-installed software; organizational
           personnel operating, using, and/or maintaining the system;
@@ -31,18 +31,18 @@ objectives:
           with information security responsibilities; system/network
           administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational processes governing user-installed software
           on the system; mechanisms enforcing policies and methods
           for governing the installation of software by users;
           mechanisms monitoring policy compliance
-    statement: >
+    statement: >-
       {{ cm_11_odp_01 }} governing the installation of software by
       users are established;
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           user-installed software; configuration management plan;
           system security plan; system design documentation; system
@@ -52,7 +52,7 @@ objectives:
           monitoring strategy; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for
           governing user-installed software; organizational
           personnel operating, using, and/or maintaining the system;
@@ -61,7 +61,7 @@ objectives:
           with information security responsibilities; system/network
           administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational processes governing user-installed software
           on the system; mechanisms enforcing policies and methods
           for governing the installation of software by users;
@@ -72,7 +72,7 @@ objectives:
   - id: c
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           user-installed software; configuration management plan;
           system security plan; system design documentation; system
@@ -82,7 +82,7 @@ objectives:
           monitoring strategy; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for
           governing user-installed software; organizational
           personnel operating, using, and/or maintaining the system;
@@ -91,7 +91,7 @@ objectives:
           with information security responsibilities; system/network
           administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational processes governing user-installed software
           on the system; mechanisms enforcing policies and methods
           for governing the installation of software by users;
@@ -112,7 +112,7 @@ parts:
       Establish {{ cm_11_odp_01 }} governing the installation of
       software by users;
   - id: b
-    statement: >
+    statement: >-
       Enforce software installation policies through the following
       methods: {{ cm_11_odp_02 }} ; and
   - id: c

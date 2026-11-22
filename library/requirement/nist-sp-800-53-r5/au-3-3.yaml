@@ -12,7 +12,7 @@ objectives:
   - id: "au-03(03)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Audit and accountability policy; system security plan;
           privacy plan; privacy risk assessment; privacy risk
           assessment results; procedures addressing content of audit
@@ -22,21 +22,21 @@ objectives:
           records; third party contracts; other relevant documents
           or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with audit and accountability
           responsibilities; organizational personnel with
           information security and privacy responsibilities;
           system/network administrators; system developers
       - method: test
         statement: system audit capability
-    statement: >
+    statement: >-
       personally identifiable information contained in audit records
       is limited to {{ au_03_03_odp }} identified in the privacy
       risk assessment.
 parameters:
   au_03_03_odp:
     label: elements
-statement: >
+statement: >-
   Limit personally identifiable information contained in audit
   records to the following elements identified in the privacy risk
   assessment: {{ au_03_03_odp }}.

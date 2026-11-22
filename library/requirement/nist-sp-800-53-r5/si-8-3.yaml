@@ -12,7 +12,7 @@ objectives:
   - id: "si-08(03)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; procedures addressing
           spam protection; spam protection mechanisms; system design
@@ -20,20 +20,20 @@ objectives:
           associated documentation; system audit records; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel responsible for spam protection;
           organizational personnel with information security
           responsibilities; system/network administrators; system
           developer
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for spam protection; mechanisms
           supporting and/or implementing spam protection mechanisms
           with a learning capability
-    statement: >
+    statement: >-
       spam protection mechanisms with a learning capability are
       implemented to more effectively identify legitimate
       communications traffic.
-statement: >
+statement: >-
   Implement spam protection mechanisms with a learning capability to
   more effectively identify legitimate communications traffic.

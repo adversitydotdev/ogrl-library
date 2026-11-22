@@ -12,7 +12,7 @@ objectives:
   - id: "ia-05(16)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Identification and authentication policy; procedures
           addressing identifier management; system security plan;
           system design documentation; mechanisms providing dynamic
@@ -20,18 +20,18 @@ objectives:
           configuration settings and associated documentation;
           system audit records; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with identification and
           authentication management responsibilities; organizational
           personnel with information security responsibilities;
           system/network administrators
       - method: test
-        statement: >
+        statement: >-
           Mechanisms supporting and/or implementing account
           management capability; mechanisms supporting and/or
           implementing identification and authentication management
           capabilities for the system
-    statement: >
+    statement: >-
       the issuance of {{ ia_05_16_odp_01 }} is required to be
       conducted {{ ia_05_16_odp_02 }} before {{ ia_05_16_odp_03 }}
       with authorization by {{ ia_05_16_odp_04 }}.
@@ -44,7 +44,7 @@ parameters:
     label: registration authority
   ia_05_16_odp_04:
     label: personnel or roles
-statement: >
+statement: >-
   Require that the issuance of {{ ia_05_16_odp_01 }} be conducted
   {{ ia_05_16_odp_02 }} before {{ ia_05_16_odp_03 }} with
   authorization by {{ ia_05_16_odp_04 }}.

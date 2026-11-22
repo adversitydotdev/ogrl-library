@@ -12,21 +12,21 @@ objectives:
   - id: "sc-23(01)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing session authenticity; system design
           documentation; system configuration settings and
           associated documentation; system audit records; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Mechanisms supporting and/or implementing session
           identifier invalidation upon session termination
-    statement: >
+    statement: >-
       session identifiers are invalidated upon user logout or other
       session termination.
 statement: >-

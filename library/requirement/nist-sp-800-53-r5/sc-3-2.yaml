@@ -12,7 +12,7 @@ objectives:
   - id: "sc-03(02).sc-03(02)[01]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing security function isolation; list of critical
           security functions; system design documentation; system
@@ -20,7 +20,7 @@ objectives:
           system audit records system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; system
           developer
@@ -28,13 +28,13 @@ objectives:
         statement: >-
           Isolation of security functions enforcing access and
           information flow control
-    statement: >
+    statement: >-
       security functions enforcing access control are isolated from
       non-security functions;
   - id: "sc-03(02).sc-03(02)[02]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing security function isolation; list of critical
           security functions; system design documentation; system
@@ -42,7 +42,7 @@ objectives:
           system audit records system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; system
           developer
@@ -50,13 +50,13 @@ objectives:
         statement: >-
           Isolation of security functions enforcing access and
           information flow control
-    statement: >
+    statement: >-
       security functions enforcing access control are isolated from
       other security functions;
   - id: "sc-03(02).sc-03(02)[03]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing security function isolation; list of critical
           security functions; system design documentation; system
@@ -64,7 +64,7 @@ objectives:
           system audit records system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; system
           developer
@@ -72,13 +72,13 @@ objectives:
         statement: >-
           Isolation of security functions enforcing access and
           information flow control
-    statement: >
+    statement: >-
       security functions enforcing information flow control are
       isolated from non-security functions;
   - id: "sc-03(02).sc-03(02)[04]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing security function isolation; list of critical
           security functions; system design documentation; system
@@ -86,7 +86,7 @@ objectives:
           system audit records system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; system
           developer
@@ -94,10 +94,10 @@ objectives:
         statement: >-
           Isolation of security functions enforcing access and
           information flow control
-    statement: >
+    statement: >-
       security functions enforcing information flow control are
       isolated from other security functions.
-statement: >
+statement: >-
   Isolate security functions enforcing access and information flow
   control from nonsecurity functions and from other security
   functions.

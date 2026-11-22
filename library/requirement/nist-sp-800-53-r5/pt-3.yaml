@@ -22,7 +22,7 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Personally identifiable information processing and
           transparency policy and procedures; configuration
           management plan; organizational privacy notices;
@@ -32,26 +32,26 @@ objectives:
           processing of personally identifiable information; privacy
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with personally identifiable
           information processing and transparency responsibilities;
           organizational personnel with information security and
           privacy responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for authorizing the processing of
           personally identifiable information; mechanisms supporting
           and/or implementing the management of authorized
           personally identifiable information processing;
           organizational processes for monitoring changes in
           processing personally identifiable information
-    statement: >
+    statement: >-
       the {{ pt_03_odp_01 }} for processing personally identifiable
       information is/are identified and documented;
   - id: b-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Personally identifiable information processing and
           transparency policy and procedures; configuration
           management plan; organizational privacy notices;
@@ -61,26 +61,26 @@ objectives:
           processing of personally identifiable information; privacy
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with personally identifiable
           information processing and transparency responsibilities;
           organizational personnel with information security and
           privacy responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for authorizing the processing of
           personally identifiable information; mechanisms supporting
           and/or implementing the management of authorized
           personally identifiable information processing;
           organizational processes for monitoring changes in
           processing personally identifiable information
-    statement: >
+    statement: >-
       the purpose(s) is/are described in the public privacy notices
       of the organization;
   - id: b-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Personally identifiable information processing and
           transparency policy and procedures; configuration
           management plan; organizational privacy notices;
@@ -90,13 +90,13 @@ objectives:
           processing of personally identifiable information; privacy
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with personally identifiable
           information processing and transparency responsibilities;
           organizational personnel with information security and
           privacy responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for authorizing the processing of
           personally identifiable information; mechanisms supporting
           and/or implementing the management of authorized
@@ -109,7 +109,7 @@ objectives:
   - id: c
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Personally identifiable information processing and
           transparency policy and procedures; configuration
           management plan; organizational privacy notices;
@@ -119,27 +119,27 @@ objectives:
           processing of personally identifiable information; privacy
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with personally identifiable
           information processing and transparency responsibilities;
           organizational personnel with information security and
           privacy responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for authorizing the processing of
           personally identifiable information; mechanisms supporting
           and/or implementing the management of authorized
           personally identifiable information processing;
           organizational processes for monitoring changes in
           processing personally identifiable information
-    statement: >
+    statement: >-
       the {{ pt_03_odp_02 }} of personally identifiable information
       are restricted to only that which is compatible with the
       identified purpose(s);
   - id: d-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Personally identifiable information processing and
           transparency policy and procedures; configuration
           management plan; organizational privacy notices;
@@ -149,13 +149,13 @@ objectives:
           processing of personally identifiable information; privacy
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with personally identifiable
           information processing and transparency responsibilities;
           organizational personnel with information security and
           privacy responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for authorizing the processing of
           personally identifiable information; mechanisms supporting
           and/or implementing the management of authorized
@@ -168,7 +168,7 @@ objectives:
   - id: d-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Personally identifiable information processing and
           transparency policy and procedures; configuration
           management plan; organizational privacy notices;
@@ -178,20 +178,20 @@ objectives:
           processing of personally identifiable information; privacy
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with personally identifiable
           information processing and transparency responsibilities;
           organizational personnel with information security and
           privacy responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for authorizing the processing of
           personally identifiable information; mechanisms supporting
           and/or implementing the management of authorized
           personally identifiable information processing;
           organizational processes for monitoring changes in
           processing personally identifiable information
-    statement: >
+    statement: >-
       {{ pt_03_odp_03 }} are implemented to ensure that any changes
       are made in accordance with {{ pt_03_odp_04 }}.
 parameters:
@@ -205,20 +205,20 @@ parameters:
     label: requirements
 parts:
   - id: a
-    statement: >
+    statement: >-
       Identify and document the {{ pt_03_odp_01 }} for processing
       personally identifiable information;
   - id: b
-    statement: >
+    statement: >-
       Describe the purpose(s) in the public privacy notices and
       policies of the organization;
   - id: c
-    statement: >
+    statement: >-
       Restrict the {{ pt_03_odp_02 }} of personally identifiable
       information to only that which is compatible with the
       identified purpose(s); and
   - id: d
-    statement: >
+    statement: >-
       Monitor changes in processing personally identifiable
       information and implement {{ pt_03_odp_03 }} to ensure that
       any changes are made in accordance with {{ pt_03_odp_04 }}.

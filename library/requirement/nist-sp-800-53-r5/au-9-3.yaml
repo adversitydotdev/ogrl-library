@@ -12,7 +12,7 @@ objectives:
   - id: "au-09(03)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Audit and accountability policy; system security plan;
           privacy plan; access control policy and procedures;
           procedures addressing protection of audit information;
@@ -21,7 +21,7 @@ objectives:
           documentation; system audit records; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with audit and accountability
           responsibilities; organizational personnel with
           information security and privacy responsibilities;
@@ -30,9 +30,9 @@ objectives:
         statement: >-
           Cryptographic mechanisms protecting the integrity of audit
           information and tools
-    statement: >
+    statement: >-
       cryptographic mechanisms to protect the integrity of audit
       information and audit tools are implemented.
-statement: >
+statement: >-
   Implement cryptographic mechanisms to protect the integrity of
   audit information and audit tools.

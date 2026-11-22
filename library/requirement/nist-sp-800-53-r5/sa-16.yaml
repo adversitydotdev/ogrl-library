@@ -12,7 +12,7 @@ objectives:
   - id: _obj
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; system and
           services acquisition procedures; procedures addressing
           developer-provided training; solicitation documentation;
@@ -24,14 +24,14 @@ objectives:
           privacy impact assessment; privacy risk assessment
           documentation; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and service
           acquisition responsibilities; organizational personnel
           with information security and privacy responsibilities;
           system developer; external or internal (in-house)
           developers with training responsibilities for the system,
           system component, or information system service
-    statement: >
+    statement: >-
       the developer of the system, system component, or system
       service is required to provide {{ sa_16_odp }} on the correct
       use and operation of the implemented security and privacy
@@ -39,7 +39,7 @@ objectives:
 parameters:
   sa_16_odp:
     label: training
-statement: >
+statement: >-
   Require the developer of the system, system component, or system
   service to provide the following training on the correct use and
   operation of the implemented security and privacy functions,

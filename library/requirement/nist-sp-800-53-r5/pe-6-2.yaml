@@ -12,7 +12,7 @@ objectives:
   - id: "pe-06(02).pe-06(02)[01]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Physical and environmental protection policy; procedures
           addressing physical access monitoring; system design
           documentation; system configuration settings and
@@ -22,12 +22,12 @@ objectives:
           security plan; privacy plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with physical access monitoring
           responsibilities; organizational personnel with
           information security and privacy responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for monitoring physical access;
           automated mechanisms supporting and/or implementing
           physical access monitoring; automated mechanisms
@@ -37,7 +37,7 @@ objectives:
   - id: "pe-06(02).pe-06(02)[02]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Physical and environmental protection policy; procedures
           addressing physical access monitoring; system design
           documentation; system configuration settings and
@@ -47,12 +47,12 @@ objectives:
           security plan; privacy plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with physical access monitoring
           responsibilities; organizational personnel with
           information security and privacy responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for monitoring physical access;
           automated mechanisms supporting and/or implementing
           physical access monitoring; automated mechanisms
@@ -68,6 +68,6 @@ parameters:
     label: response actions
   pe_06_02_odp_03:
     label: automated mechanisms
-statement: >
+statement: >-
   Recognize {{ pe_06_02_odp_01 }} and initiate {{ pe_06_02_odp_02 }}
   using {{ pe_06_02_odp_03 }}.

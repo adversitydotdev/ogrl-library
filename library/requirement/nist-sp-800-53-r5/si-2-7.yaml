@@ -12,7 +12,7 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy;; system and
           information integrity procedures;; procedures addressing
           flaw remediation;; procedures addressing root cause
@@ -22,7 +22,7 @@ objectives:
           security and privacy plan;; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators;; organizational personnel
           with information security and privacy responsibilities;;
           organizational personnel responsible for installing,
@@ -31,20 +31,20 @@ objectives:
           remediation;; organizational personnel with configuration
           management responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for identifying, reporting, and
           correcting system flaws;; organizational process for
           installing software and firmware updates;; mechanisms
           supporting and/or implementing the reporting and
           correcting of system flaws;; mechanisms supporting and/or
           implementing testing software and firmware updates
-    statement: >
+    statement: >-
       Root cause analysis is conducted to identify underlying causes
       of issues or failures
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy;; system and
           information integrity procedures;; procedures addressing
           flaw remediation;; procedures addressing root cause
@@ -54,7 +54,7 @@ objectives:
           security and privacy plan;; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators;; organizational personnel
           with information security and privacy responsibilities;;
           organizational personnel responsible for installing,
@@ -63,7 +63,7 @@ objectives:
           remediation;; organizational personnel with configuration
           management responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for identifying, reporting, and
           correcting system flaws;; organizational process for
           installing software and firmware updates;; mechanisms
@@ -76,7 +76,7 @@ objectives:
   - id: c-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy;; system and
           information integrity procedures;; procedures addressing
           flaw remediation;; procedures addressing root cause
@@ -86,7 +86,7 @@ objectives:
           security and privacy plan;; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators;; organizational personnel
           with information security and privacy responsibilities;;
           organizational personnel responsible for installing,
@@ -95,7 +95,7 @@ objectives:
           remediation;; organizational personnel with configuration
           management responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for identifying, reporting, and
           correcting system flaws;; organizational process for
           installing software and firmware updates;; mechanisms
@@ -108,7 +108,7 @@ objectives:
   - id: c-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy;; system and
           information integrity procedures;; procedures addressing
           flaw remediation;; procedures addressing root cause
@@ -118,7 +118,7 @@ objectives:
           security and privacy plan;; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators;; organizational personnel
           with information security and privacy responsibilities;;
           organizational personnel responsible for installing,
@@ -127,7 +127,7 @@ objectives:
           remediation;; organizational personnel with configuration
           management responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for identifying, reporting, and
           correcting system flaws;; organizational process for
           installing software and firmware updates;; mechanisms

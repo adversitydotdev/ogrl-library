@@ -12,7 +12,7 @@ objectives:
   - id: "sc-15(04)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing collaborative computing; access control policy
           and procedures; system design documentation; system
@@ -22,17 +22,17 @@ objectives:
           participants; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; organizational
           personnel with responsibilities for managing collaborative
           computing devices
       - method: test
-        statement: >
+        statement: >-
           Mechanisms supporting and/or implementing the capability
           to indicate participants on collaborative computing
           devices
-    statement: >
+    statement: >-
       an explicit indication of current participants in
       {{ sc_15_04_odp }} is provided.
 parameters:

@@ -12,7 +12,7 @@ objectives:
   - id: "cm-12(01)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           identification and documentation of information location;
           configuration management plan; system design
@@ -21,18 +21,18 @@ objectives:
           inventory; system security plan; privacy plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for
           managing information location; organizational personnel
           with information security responsibilities; system/network
           administrators; system developers
       - method: test
-        statement: >
+        statement: >-
           Organizational processes governing information location;
           automated mechanisms enforcing policies and methods for
           governing information location; automated tools used to
           identify information on system components
-    statement: >
+    statement: >-
       automated tools are used to identify {{ cm_12_01_odp_01 }} on
       {{ cm_12_01_odp_02 }} to ensure that controls are in place to
       protect organizational information and individual privacy.
@@ -41,7 +41,7 @@ parameters:
     label: information by information type
   cm_12_01_odp_02:
     label: system components
-statement: >
+statement: >-
   Use automated tools to identify {{ cm_12_01_odp_01 }} on
   {{ cm_12_01_odp_02 }} to ensure controls are in place to protect
   organizational information and individual privacy.

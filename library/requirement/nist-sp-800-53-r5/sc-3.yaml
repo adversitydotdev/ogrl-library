@@ -12,7 +12,7 @@ objectives:
   - id: sc-03
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing security function isolation; list of security
           functions to be isolated from non-security functions;
@@ -20,7 +20,7 @@ objectives:
           and associated documentation; system audit records; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; system
           developer

@@ -12,7 +12,7 @@ objectives:
   - id: "ia-05(08)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Identification and authentication policy; procedures
           addressing authenticator management; system security plan;
           list of individuals having accounts on multiple systems;
@@ -20,22 +20,22 @@ objectives:
           compromise due to individuals having accounts on multiple
           systems; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with authenticator management
           responsibilities; organizational personnel with
           information security responsibilities; system/network
           administrators
       - method: test
-        statement: >
+        statement: >-
           Mechanisms supporting and/or implementing safeguards for
           authenticator management
-    statement: >
+    statement: >-
       {{ ia_05_08_odp }} are implemented to manage the risk of
       compromise due to individuals having accounts on multiple
       systems.
 parameters:
   ia_05_08_odp:
     label: security controls
-statement: >
+statement: >-
   Implement {{ ia_05_08_odp }} to manage the risk of compromise due
   to individuals having accounts on multiple systems.

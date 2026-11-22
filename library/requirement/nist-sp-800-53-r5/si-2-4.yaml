@@ -12,7 +12,7 @@ objectives:
   - id: "si-02(04)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; procedures addressing
           flaw remediation; mechanisms supporting flaw remediation
@@ -24,24 +24,24 @@ objectives:
           system audit records; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; organizational
           personnel installing, configuring, and/or maintaining the
           system; organizational personnel responsible for flaw
           remediation
       - method: test
-        statement: >
+        statement: >-
           Automated patch management tools; mechanisms implementing
           automatic software/firmware updates; mechanisms
           facilitating flaw remediation to system components
-    statement: >
+    statement: >-
       automated patch management tools are employed to facilitate
       flaw remediation to {{ si_02_04_odp }}.
 parameters:
   si_02_04_odp:
     label: components
-statement: >
+statement: >-
   Employ automated patch management tools to facilitate flaw
   remediation to the following system components:
   {{ si_02_04_odp }}.

@@ -12,26 +12,26 @@ objectives:
   - id: "pe-09(01)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Physical and environmental protection policy; procedures
           addressing power equipment/cabling protection; facilities
           housing power equipment/cabling; system security plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with the responsibility to
           protect power equipment/cabling; organizational personnel
           with information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Mechanisms supporting and/or implementing the protection
           of power equipment/cabling
-    statement: >
+    statement: >-
       redundant power cabling paths that are physically separated by
       {{ pe_09_01_odp }} are employed.
 parameters:
   pe_09_01_odp:
     label: distance
-statement: >
+statement: >-
   Employ redundant power cabling paths that are physically separated
   by {{ pe_09_01_odp }}.

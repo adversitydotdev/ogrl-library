@@ -16,7 +16,7 @@ objectives:
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           configuration management policy and procedures; procedures
           for security impact analyses for system changes;
           configuration management plan; security impact analysis
@@ -24,20 +24,20 @@ objectives:
           and outputs; change control records; system audit records;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with security impact analysis responsibilities;
           personnel with information security responsibilities;
           members of change control board; system developers; system
           administrators
       - method: test
         statement: processes for security impact analyses
-    statement: >
+    statement: >-
       the security requirements for the system continue to be
       satisfied after the system changes have been implemented.
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           configuration management policy and procedures; procedures
           for security impact analyses for system changes;
           configuration management plan; security impact analysis
@@ -45,23 +45,23 @@ objectives:
           and outputs; change control records; system audit records;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with security impact analysis responsibilities;
           personnel with information security responsibilities;
           members of change control board; system developers; system
           administrators
       - method: test
         statement: processes for security impact analyses
-    statement: >
+    statement: >-
       changes to the system are analyzed to determine potential
       security impacts prior to change implementation.
 parts:
   - id: a
-    statement: >
+    statement: >-
       Analyze changes to the system to determine potential security
       impacts prior to change implementation.
   - id: b
-    statement: >
+    statement: >-
       Verify that the security requirements for the system continue
       to be satisfied after the system changes have been
       implemented.

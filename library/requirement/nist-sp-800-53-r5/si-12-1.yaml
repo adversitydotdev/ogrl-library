@@ -12,7 +12,7 @@ objectives:
   - id: "si-12(01)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; personally identifiable
           information processing policy; personally identifiable
@@ -28,25 +28,25 @@ objectives:
           assessment documentation; data mapping documentation;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with information and records
           management, retention, and disposition responsibilities;
           organizational personnel with security and privacy
           responsibilities; network administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for information management and
           retention (including limiting personally identifiable
           information processing); automated mechanisms supporting
           and/or implementing limits to personally identifiable
           information processing
-    statement: >
+    statement: >-
       personally identifiable information being processed in the
       information life cycle is limited to {{ si_12_01_odp }}.
 parameters:
   si_12_01_odp:
     label: elements of personally identifiable information
-statement: >
+statement: >-
   Limit personally identifiable information being processed in the
   information life cycle to the following elements of personally
   identifiable information: {{ si_12_01_odp }}.

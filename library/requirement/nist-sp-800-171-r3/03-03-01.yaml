@@ -16,33 +16,33 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           audit and accountability policy and procedures; procedures
           for auditable events; system design documentation; system
           configuration settings; system audit records; system
           auditable events; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with audit and accountability responsibilities;
           personnel with information security responsibilities;
           system administrators
       - method: test
         statement: mechanisms for implementing system auditing
-    statement: >
+    statement: >-
       the following event types are specified for logging within the
       system: {{ a_03_03_01_odp_01 }}.
   - id: b.01
     methods:
       - method: examine
-        statement: >
+        statement: >-
           audit and accountability policy and procedures; procedures
           for auditable events; system design documentation; system
           configuration settings; system audit records; system
           auditable events; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with audit and accountability responsibilities;
           personnel with information security responsibilities;
           system administrators
@@ -54,14 +54,14 @@ objectives:
   - id: b.02
     methods:
       - method: examine
-        statement: >
+        statement: >-
           audit and accountability policy and procedures; procedures
           for auditable events; system design documentation; system
           configuration settings; system audit records; system
           auditable events; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with audit and accountability responsibilities;
           personnel with information security responsibilities;
           system administrators
@@ -77,7 +77,7 @@ parameters:
     label: frequency
 parts:
   - id: a
-    statement: >
+    statement: >-
       Specify the following event types selected for logging within
       the system: {{ a_03_03_01_odp_01 }}.
   - id: b

@@ -12,7 +12,7 @@ objectives:
   - id: "ir-04(13)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Incident response policy; procedures addressing system
           monitoring tools and techniques; incident response plan;
           system monitoring logs or records; system monitoring tools
@@ -23,18 +23,18 @@ objectives:
           false positives and false negatives; system security plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with information security
           responsibilities; system/network administrators
       - method: test
         statement: >-
           Organizational processes for detecting anomalous behavior
-    statement: >
+    statement: >-
       anomalous or suspected adversarial behavior in or related to
       {{ ir_04_13_odp }} are analyzed.
 parameters:
   ir_04_13_odp:
     label: environments or resources
-statement: >
+statement: >-
   Analyze anomalous or suspected adversarial behavior in or related
   to {{ ir_04_13_odp }}.

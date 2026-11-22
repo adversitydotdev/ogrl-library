@@ -12,7 +12,7 @@ objectives:
   - id: "sc-42(04)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; access
           control policy and procedures; personally identifiable
           information processing policy; sensor capability and data
@@ -28,19 +28,19 @@ objectives:
           system audit records; system security plan; privacy plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security and privacy responsibilities;
           organizational personnel installing, configuring, and/or
           maintaining the system; organizational personnel
           responsible for sensor capabilities
       - method: test
-        statement: >
+        statement: >-
           Mechanisms supporting and/or implementing measures to
           facilitate an individual’s awareness that personally
           identifiable information is being collected by sensors;
           sensor information collection capabilities for the system
-    statement: >
+    statement: >-
       {{ sc_42_04_odp_01 }} are employed to facilitate an
       individual’s awareness that personally identifiable
       information is being collected by {{ sc_42_04_odp_02 }}
@@ -49,7 +49,7 @@ parameters:
     label: measures
   sc_42_04_odp_02:
     label: sensors
-statement: >
+statement: >-
   Employ the following measures to facilitate an individual’s
   awareness that personally identifiable information is being
   collected by {{ sc_42_04_odp_02 }}: {{ sc_42_04_odp_01 }}.

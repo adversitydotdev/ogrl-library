@@ -12,7 +12,7 @@ objectives:
   - id: "sa-08(33)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; system and
           services acquisition procedures; personally identifiable
           information processing policy; procedures addressing the
@@ -26,13 +26,13 @@ objectives:
           assessment documentation; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with information security and
           privacy responsibilities; organizational personnel with
           system specification, design, development, implementation,
           and modification responsibilities; system developers
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for applying the privacy design
           principle of minimization in system specification, design,
           development, implementation, and modification; mechanisms

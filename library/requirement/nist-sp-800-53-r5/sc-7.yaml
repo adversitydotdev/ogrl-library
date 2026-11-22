@@ -31,7 +31,7 @@ objectives:
   - id: a-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing boundary protection; list of key internal
           boundaries of the system; system design documentation;
@@ -41,7 +41,7 @@ objectives:
           audit records; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; system
           developer; organizational personnel with boundary
@@ -55,7 +55,7 @@ objectives:
   - id: a-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing boundary protection; list of key internal
           boundaries of the system; system design documentation;
@@ -65,7 +65,7 @@ objectives:
           audit records; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; system
           developer; organizational personnel with boundary
@@ -79,7 +79,7 @@ objectives:
   - id: a-3
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing boundary protection; list of key internal
           boundaries of the system; system design documentation;
@@ -89,7 +89,7 @@ objectives:
           audit records; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; system
           developer; organizational personnel with boundary
@@ -97,13 +97,13 @@ objectives:
       - method: test
         statement: >-
           Mechanisms implementing boundary protection capabilities
-    statement: >
+    statement: >-
       communications at key internal managed interfaces within the
       system are monitored;
   - id: a-4
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing boundary protection; list of key internal
           boundaries of the system; system design documentation;
@@ -113,7 +113,7 @@ objectives:
           audit records; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; system
           developer; organizational personnel with boundary
@@ -121,13 +121,13 @@ objectives:
       - method: test
         statement: >-
           Mechanisms implementing boundary protection capabilities
-    statement: >
+    statement: >-
       communications at key internal managed interfaces within the
       system are controlled;
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing boundary protection; list of key internal
           boundaries of the system; system design documentation;
@@ -137,7 +137,7 @@ objectives:
           audit records; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; system
           developer; organizational personnel with boundary
@@ -145,14 +145,14 @@ objectives:
       - method: test
         statement: >-
           Mechanisms implementing boundary protection capabilities
-    statement: >
+    statement: >-
       subnetworks for publicly accessible system components are
       {{ sc_07_odp }} separated from internal organizational
       networks;
   - id: c
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing boundary protection; list of key internal
           boundaries of the system; system design documentation;
@@ -162,7 +162,7 @@ objectives:
           audit records; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; system
           developer; organizational personnel with boundary
@@ -170,7 +170,7 @@ objectives:
       - method: test
         statement: >-
           Mechanisms implementing boundary protection capabilities
-    statement: >
+    statement: >-
       external networks or systems are only connected to through
       managed interfaces consisting of boundary protection devices
       arranged in accordance with an organizational security and
@@ -180,17 +180,17 @@ parameters:
     label: sc-07_odp
 parts:
   - id: a
-    statement: >
+    statement: >-
       Monitor and control communications at the external managed
       interfaces to the system and at key internal managed
       interfaces within the system;
   - id: b
-    statement: >
+    statement: >-
       Implement subnetworks for publicly accessible system
       components that are {{ sc_07_odp }} separated from internal
       organizational networks; and
   - id: c
-    statement: >
+    statement: >-
       Connect to external networks or systems only through managed
       interfaces consisting of boundary protection devices arranged
       in accordance with an organizational security and privacy

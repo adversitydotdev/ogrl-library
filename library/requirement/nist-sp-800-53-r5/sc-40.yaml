@@ -12,7 +12,7 @@ objectives:
   - id: _obj-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; access
           control policy and procedures; procedures addressing
           wireless link protection; system design documentation;
@@ -23,7 +23,7 @@ objectives:
           system audit records; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; system
           developer; organizational personnel installing,
@@ -40,7 +40,7 @@ objectives:
   - id: _obj-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; access
           control policy and procedures; procedures addressing
           wireless link protection; system design documentation;
@@ -51,7 +51,7 @@ objectives:
           system audit records; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; system
           developer; organizational personnel installing,
@@ -81,9 +81,9 @@ parameters:
   sc_40_prm_1:
     label: organization-defined wireless links
   sc_40_prm_2:
-    label: >
+    label: >-
       organization-defined types of signal parameter attacks or
       references to sources for such attacks
-statement: >
+statement: >-
   Protect external and internal {{ sc_40_prm_1 }} from the following
   signal parameter attacks: {{ sc_40_prm_2 }}.

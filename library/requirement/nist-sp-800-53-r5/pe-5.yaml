@@ -16,7 +16,7 @@ objectives:
   - id: pe-05
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Physical and environmental protection policy; procedures
           addressing access control for display medium; facility
           layout of system components; actual displays from system
@@ -26,21 +26,21 @@ objectives:
           devices and related outputs; system security plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with physical access control
           responsibilities; organizational personnel with
           information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for access control to output
           devices; mechanisms supporting and/or implementing access
           control to output devices
-    statement: >
+    statement: >-
       physical access to output from {{ pe_05_odp }} is controlled
       to prevent unauthorized individuals from obtaining the output.
 parameters:
   pe_05_odp:
     label: output devices
-statement: >
+statement: >-
   Control physical access to output from {{ pe_05_odp }} to prevent
   unauthorized individuals from obtaining the output.

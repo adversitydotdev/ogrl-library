@@ -12,14 +12,14 @@ objectives:
   - id: "ac-12(02)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; procedures addressing session
           termination; user logout messages; system design
           documentation; system configuration settings and
           associated documentation; system audit records; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; system
           developers
@@ -27,9 +27,9 @@ objectives:
         statement: >-
           System session termination mechanisms; display of logout
           messages
-    statement: >
+    statement: >-
       an explicit logout message is displayed to users indicating
       the termination of authenticated communication sessions.
-statement: >
+statement: >-
   Display an explicit logout message to users indicating the
   termination of authenticated communications sessions.

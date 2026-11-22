@@ -12,7 +12,7 @@ objectives:
   - id: "ca-05(01)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Assessment, authorization, and monitoring policy;
           procedures addressing plan of action and milestones;
           system design documentation; system configuration settings
@@ -20,22 +20,22 @@ objectives:
           of action and milestones; system security plan; privacy
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with plan of action and
           milestones development and implementation
           responsibilities; organizational personnel with
           information security and privacy responsibilities
       - method: test
-        statement: >
+        statement: >-
           Automated mechanisms for developing, implementing, and
           maintaining a plan of action and milestones
-    statement: >
+    statement: >-
       {{ ca_05_01_odp }} are used to ensure the accuracy, currency,
       and availability of the plan of action and milestones for the
       system.
 parameters:
   ca_05_01_odp:
     label: automated mechanisms
-statement: >
+statement: >-
   Ensure the accuracy, currency, and availability of the plan of
   action and milestones for the system using {{ ca_05_01_odp }}.

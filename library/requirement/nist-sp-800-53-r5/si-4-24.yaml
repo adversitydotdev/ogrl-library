@@ -12,7 +12,7 @@ objectives:
   - id: "si-04(24).si-04(24)[01]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; procedures addressing
           system monitoring; system design documentation; system
@@ -21,14 +21,14 @@ objectives:
           system monitoring logs or records; system audit records;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; system
           developer; organizational personnel installing,
           configuring, and/or maintaining the system; organizational
           personnel responsible for monitoring system hosts
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for system monitoring;
           organizational processes for the discovery, collection,
           distribution, and use of indicators of compromise;
@@ -42,7 +42,7 @@ objectives:
   - id: "si-04(24).si-04(24)[02]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; procedures addressing
           system monitoring; system design documentation; system
@@ -51,14 +51,14 @@ objectives:
           system monitoring logs or records; system audit records;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; system
           developer; organizational personnel installing,
           configuring, and/or maintaining the system; organizational
           personnel responsible for monitoring system hosts
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for system monitoring;
           organizational processes for the discovery, collection,
           distribution, and use of indicators of compromise;
@@ -72,7 +72,7 @@ objectives:
   - id: "si-04(24).si-04(24)[03]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; procedures addressing
           system monitoring; system design documentation; system
@@ -81,14 +81,14 @@ objectives:
           system monitoring logs or records; system audit records;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; system
           developer; organizational personnel installing,
           configuring, and/or maintaining the system; organizational
           personnel responsible for monitoring system hosts
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for system monitoring;
           organizational processes for the discovery, collection,
           distribution, and use of indicators of compromise;
@@ -96,7 +96,7 @@ objectives:
           monitoring capability; mechanisms supporting and/or
           implementing the discovery, collection, distribution, and
           use of indicators of compromise
-    statement: >
+    statement: >-
       indicators of compromise provided by {{ si_04_24_odp_01 }} are
       distributed to {{ si_04_24_odp_02 }}.
 parameters:
@@ -104,6 +104,6 @@ parameters:
     label: sources
   si_04_24_odp_02:
     label: personnel or roles
-statement: >
+statement: >-
   Discover, collect, and distribute to {{ si_04_24_odp_02 }} ,
   indicators of compromise provided by {{ si_04_24_odp_01 }}.

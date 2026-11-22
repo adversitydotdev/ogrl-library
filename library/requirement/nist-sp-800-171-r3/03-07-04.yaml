@@ -16,19 +16,19 @@ objectives:
   - id: a.01
     methods:
       - method: examine
-        statement: >
+        statement: >-
           maintenance policy and procedures; procedures for system
           maintenance tools; system maintenance tools; maintenance
           tool inspection records; equipment sanitization records;
           media sanitization records; system security plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with system maintenance responsibilities;
           personnel responsible for media sanitization; personnel
           with information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           processes for approving, controlling, and monitoring
           maintenance tools; mechanisms for supporting or
           implementing the approval, control, or monitoring of
@@ -46,19 +46,19 @@ objectives:
   - id: a.02
     methods:
       - method: examine
-        statement: >
+        statement: >-
           maintenance policy and procedures; procedures for system
           maintenance tools; system maintenance tools; maintenance
           tool inspection records; equipment sanitization records;
           media sanitization records; system security plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with system maintenance responsibilities;
           personnel responsible for media sanitization; personnel
           with information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           processes for approving, controlling, and monitoring
           maintenance tools; mechanisms for supporting or
           implementing the approval, control, or monitoring of
@@ -76,19 +76,19 @@ objectives:
   - id: a.03
     methods:
       - method: examine
-        statement: >
+        statement: >-
           maintenance policy and procedures; procedures for system
           maintenance tools; system maintenance tools; maintenance
           tool inspection records; equipment sanitization records;
           media sanitization records; system security plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with system maintenance responsibilities;
           personnel responsible for media sanitization; personnel
           with information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           processes for approving, controlling, and monitoring
           maintenance tools; mechanisms for supporting or
           implementing the approval, control, or monitoring of
@@ -106,19 +106,19 @@ objectives:
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           maintenance policy and procedures; procedures for system
           maintenance tools; system maintenance tools; maintenance
           tool inspection records; equipment sanitization records;
           media sanitization records; system security plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with system maintenance responsibilities;
           personnel responsible for media sanitization; personnel
           with information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           processes for approving, controlling, and monitoring
           maintenance tools; mechanisms for supporting or
           implementing the approval, control, or monitoring of
@@ -132,25 +132,25 @@ objectives:
           inspection of maintenance tools; mechanisms for supporting
           or implementing the inspection of media used for
           maintenance
-    statement: >
+    statement: >-
       media with diagnostic and test programs are checked for
       malicious code before the media are used in the system.
   - id: c
     methods:
       - method: examine
-        statement: >
+        statement: >-
           maintenance policy and procedures; procedures for system
           maintenance tools; system maintenance tools; maintenance
           tool inspection records; equipment sanitization records;
           media sanitization records; system security plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with system maintenance responsibilities;
           personnel responsible for media sanitization; personnel
           with information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           processes for approving, controlling, and monitoring
           maintenance tools; mechanisms for supporting or
           implementing the approval, control, or monitoring of
@@ -164,7 +164,7 @@ objectives:
           inspection of maintenance tools; mechanisms for supporting
           or implementing the inspection of media used for
           maintenance
-    statement: >
+    statement: >-
       the removal of system maintenance equipment containing CUI is
       prevented by verifying that there is no CUI on the equipment,
       sanitizing or destroying the equipment, or retaining the
@@ -175,11 +175,11 @@ parts:
       Approve, control, and monitor the use of system maintenance
       tools.
   - id: b
-    statement: >
+    statement: >-
       Check media with diagnostic and test programs for malicious
       code before it is used in the system.
   - id: c
-    statement: >
+    statement: >-
       Prevent the removal of system maintenance equipment containing
       CUI by verifying that there is no CUI on the equipment,
       sanitizing or destroying the equipment, or retaining the

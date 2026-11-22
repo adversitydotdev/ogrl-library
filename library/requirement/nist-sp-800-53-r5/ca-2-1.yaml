@@ -12,7 +12,7 @@ objectives:
   - id: "ca-02(01)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Assessment, authorization, and monitoring policy;
           procedures addressing control assessments; previous
           control assessment plan; previous control assessment
@@ -20,11 +20,11 @@ objectives:
           authorization statement; system security plan; privacy
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with security assessment
           responsibilities; organizational personnel with
           information security and privacy responsibilities
-    statement: >
+    statement: >-
       independent assessors or assessment teams are employed to
       conduct control assessments.
 statement: >-

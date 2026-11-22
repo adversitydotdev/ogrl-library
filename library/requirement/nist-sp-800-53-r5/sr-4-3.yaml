@@ -12,7 +12,7 @@ objectives:
   - id: "sr-04(03).sr-04(03)[01]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Supply chain risk management policy and procedures; supply
           chain risk management plan; system and services
           acquisition policy; procedures addressing supply chain
@@ -30,14 +30,14 @@ objectives:
           altered; system security plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and services
           acquisition responsibilities; organizational personnel
           with information security responsibilities; organizational
           personnel with supply chain risk management
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for defining and employing
           validation safeguards; mechanisms supporting and/or
           implementing the definition and employment of validation
@@ -45,13 +45,13 @@ objectives:
           security design principle of trusted components in system
           specification, design, development, implementation, and
           modification
-    statement: >
+    statement: >-
       {{ sr_04_03_odp_01 }} are employed to validate that the system
       or system component received is genuine;
   - id: "sr-04(03).sr-04(03)[02]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Supply chain risk management policy and procedures; supply
           chain risk management plan; system and services
           acquisition policy; procedures addressing supply chain
@@ -69,14 +69,14 @@ objectives:
           altered; system security plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and services
           acquisition responsibilities; organizational personnel
           with information security responsibilities; organizational
           personnel with supply chain risk management
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for defining and employing
           validation safeguards; mechanisms supporting and/or
           implementing the definition and employment of validation
@@ -84,7 +84,7 @@ objectives:
           security design principle of trusted components in system
           specification, design, development, implementation, and
           modification
-    statement: >
+    statement: >-
       {{ sr_04_03_odp_02 }} are employed to validate that the system
       or system component received has not been altered.
 parameters:
@@ -94,7 +94,7 @@ parameters:
     label: controls
   sr_4_3_prm_1:
     label: organization-defined controls
-statement: >
+statement: >-
   Employ the following controls to validate that the system or
   system component received is genuine and has not been altered:
   {{ sr_4_3_prm_1 }}.

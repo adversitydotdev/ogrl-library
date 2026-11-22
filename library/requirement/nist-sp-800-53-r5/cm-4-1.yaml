@@ -12,7 +12,7 @@ objectives:
   - id: "cm-04(01).cm-04(01)[01]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           security impact analyses for changes to the system;
           procedures addressing privacy impact analyses for changes
@@ -27,25 +27,25 @@ objectives:
           operational environments; system security plan; privacy
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibility for
           conducting security and privacy impact analyses;
           organizational personnel with information security and
           privacy responsibilities; system/network administrators;
           members of change control board or similar
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for security and privacy impact
           analyses; mechanisms supporting and/or implementing
           security and privacy impact analyses of changes
-    statement: >
+    statement: >-
       changes to the system are analyzed in a separate test
       environment before implementation in an operational
       environment;
   - id: "cm-04(01).cm-04(01)[02]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           security impact analyses for changes to the system;
           procedures addressing privacy impact analyses for changes
@@ -60,14 +60,14 @@ objectives:
           operational environments; system security plan; privacy
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibility for
           conducting security and privacy impact analyses;
           organizational personnel with information security and
           privacy responsibilities; system/network administrators;
           members of change control board or similar
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for security and privacy impact
           analyses; mechanisms supporting and/or implementing
           security and privacy impact analyses of changes
@@ -77,7 +77,7 @@ objectives:
   - id: "cm-04(01).cm-04(01)[03]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           security impact analyses for changes to the system;
           procedures addressing privacy impact analyses for changes
@@ -92,14 +92,14 @@ objectives:
           operational environments; system security plan; privacy
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibility for
           conducting security and privacy impact analyses;
           organizational personnel with information security and
           privacy responsibilities; system/network administrators;
           members of change control board or similar
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for security and privacy impact
           analyses; mechanisms supporting and/or implementing
           security and privacy impact analyses of changes
@@ -109,7 +109,7 @@ objectives:
   - id: "cm-04(01).cm-04(01)[04]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           security impact analyses for changes to the system;
           procedures addressing privacy impact analyses for changes
@@ -124,14 +124,14 @@ objectives:
           operational environments; system security plan; privacy
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibility for
           conducting security and privacy impact analyses;
           organizational personnel with information security and
           privacy responsibilities; system/network administrators;
           members of change control board or similar
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for security and privacy impact
           analyses; mechanisms supporting and/or implementing
           security and privacy impact analyses of changes
@@ -141,7 +141,7 @@ objectives:
   - id: "cm-04(01).cm-04(01)[05]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           security impact analyses for changes to the system;
           procedures addressing privacy impact analyses for changes
@@ -156,14 +156,14 @@ objectives:
           operational environments; system security plan; privacy
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibility for
           conducting security and privacy impact analyses;
           organizational personnel with information security and
           privacy responsibilities; system/network administrators;
           members of change control board or similar
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for security and privacy impact
           analyses; mechanisms supporting and/or implementing
           security and privacy impact analyses of changes
@@ -173,7 +173,7 @@ objectives:
   - id: "cm-04(01).cm-04(01)[06]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           security impact analyses for changes to the system;
           procedures addressing privacy impact analyses for changes
@@ -188,14 +188,14 @@ objectives:
           operational environments; system security plan; privacy
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibility for
           conducting security and privacy impact analyses;
           organizational personnel with information security and
           privacy responsibilities; system/network administrators;
           members of change control board or similar
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for security and privacy impact
           analyses; mechanisms supporting and/or implementing
           security and privacy impact analyses of changes
@@ -205,7 +205,7 @@ objectives:
   - id: "cm-04(01).cm-04(01)[07]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           security impact analyses for changes to the system;
           procedures addressing privacy impact analyses for changes
@@ -220,14 +220,14 @@ objectives:
           operational environments; system security plan; privacy
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibility for
           conducting security and privacy impact analyses;
           organizational personnel with information security and
           privacy responsibilities; system/network administrators;
           members of change control board or similar
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for security and privacy impact
           analyses; mechanisms supporting and/or implementing
           security and privacy impact analyses of changes
@@ -237,7 +237,7 @@ objectives:
   - id: "cm-04(01).cm-04(01)[08]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           security impact analyses for changes to the system;
           procedures addressing privacy impact analyses for changes
@@ -252,24 +252,24 @@ objectives:
           operational environments; system security plan; privacy
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibility for
           conducting security and privacy impact analyses;
           organizational personnel with information security and
           privacy responsibilities; system/network administrators;
           members of change control board or similar
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for security and privacy impact
           analyses; mechanisms supporting and/or implementing
           security and privacy impact analyses of changes
-    statement: >
+    statement: >-
       changes to the system are analyzed for security impacts due to
       intentional malice;
   - id: "cm-04(01).cm-04(01)[09]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           security impact analyses for changes to the system;
           procedures addressing privacy impact analyses for changes
@@ -284,21 +284,21 @@ objectives:
           operational environments; system security plan; privacy
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibility for
           conducting security and privacy impact analyses;
           organizational personnel with information security and
           privacy responsibilities; system/network administrators;
           members of change control board or similar
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for security and privacy impact
           analyses; mechanisms supporting and/or implementing
           security and privacy impact analyses of changes
-    statement: >
+    statement: >-
       changes to the system are analyzed for privacy impacts due to
       intentional malice.
-statement: >
+statement: >-
   Analyze changes to the system in a separate test environment
   before implementation in an operational environment, looking for
   security and privacy impacts due to flaws, weaknesses,

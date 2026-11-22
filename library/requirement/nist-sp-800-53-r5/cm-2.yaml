@@ -19,7 +19,7 @@ objectives:
   - id: a-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing the
           baseline configuration of the system; configuration
           management plan; enterprise architecture documentation;
@@ -29,13 +29,13 @@ objectives:
           documentation; system component inventory; change control
           records; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with configuration management
           responsibilities; organizational personnel with
           information security and privacy responsibilities;
           system/network administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for managing baseline
           configurations; mechanisms supporting configuration
           control of the baseline configuration
@@ -45,7 +45,7 @@ objectives:
   - id: a-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing the
           baseline configuration of the system; configuration
           management plan; enterprise architecture documentation;
@@ -55,23 +55,23 @@ objectives:
           documentation; system component inventory; change control
           records; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with configuration management
           responsibilities; organizational personnel with
           information security and privacy responsibilities;
           system/network administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for managing baseline
           configurations; mechanisms supporting configuration
           control of the baseline configuration
-    statement: >
+    statement: >-
       a current baseline configuration of the system is maintained
       under configuration control;
   - id: b.1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing the
           baseline configuration of the system; configuration
           management plan; enterprise architecture documentation;
@@ -81,23 +81,23 @@ objectives:
           documentation; system component inventory; change control
           records; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with configuration management
           responsibilities; organizational personnel with
           information security and privacy responsibilities;
           system/network administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for managing baseline
           configurations; mechanisms supporting configuration
           control of the baseline configuration
-    statement: >
+    statement: >-
       the baseline configuration of the system is reviewed and
       updated {{ cm_02_odp_01 }};
   - id: b.2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing the
           baseline configuration of the system; configuration
           management plan; enterprise architecture documentation;
@@ -107,23 +107,23 @@ objectives:
           documentation; system component inventory; change control
           records; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with configuration management
           responsibilities; organizational personnel with
           information security and privacy responsibilities;
           system/network administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for managing baseline
           configurations; mechanisms supporting configuration
           control of the baseline configuration
-    statement: >
+    statement: >-
       the baseline configuration of the system is reviewed and
       updated when required due to {{ cm_02_odp_02 }};
   - id: b.3
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing the
           baseline configuration of the system; configuration
           management plan; enterprise architecture documentation;
@@ -133,17 +133,17 @@ objectives:
           documentation; system component inventory; change control
           records; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with configuration management
           responsibilities; organizational personnel with
           information security and privacy responsibilities;
           system/network administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for managing baseline
           configurations; mechanisms supporting configuration
           control of the baseline configuration
-    statement: >
+    statement: >-
       the baseline configuration of the system is reviewed and
       updated when system components are installed or upgraded.
 parameters:
@@ -153,7 +153,7 @@ parameters:
     label: circumstances
 parts:
   - id: a
-    statement: >
+    statement: >-
       Develop, document, and maintain under configuration control, a
       current baseline configuration of the system; and
   - id: b

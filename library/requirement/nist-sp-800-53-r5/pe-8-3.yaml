@@ -12,7 +12,7 @@ objectives:
   - id: "pe-08(03)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Physical and environmental protection policy; personally
           identifiable information processing policy; privacy risk
           assessment documentation; privacy impact assessment;
@@ -20,7 +20,7 @@ objectives:
           information inventory; system security plan; privacy plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with visitor access records
           responsibilities; organizational personnel with
           information security and privacy responsibilities
@@ -28,14 +28,14 @@ objectives:
         statement: >-
           Organizational processes for maintaining and reviewing
           visitor access records
-    statement: >
+    statement: >-
       personally identifiable information contained in visitor
       access records is limited to {{ pe_08_03_odp }} identified in
       the privacy risk assessment.
 parameters:
   pe_08_03_odp:
     label: elements
-statement: >
+statement: >-
   Limit personally identifiable information contained in visitor
   access records to the following elements identified in the privacy
   risk assessment: {{ pe_08_03_odp }}.

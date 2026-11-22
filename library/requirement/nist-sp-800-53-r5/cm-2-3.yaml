@@ -12,7 +12,7 @@ objectives:
   - id: "cm-02(03)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing the
           baseline configuration of the system; configuration
           management plan; system architecture and configuration
@@ -21,7 +21,7 @@ objectives:
           configuration versions; system security plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with configuration management
           responsibilities; organizational personnel with
           information security responsibilities; system/network
@@ -30,12 +30,12 @@ objectives:
         statement: >-
           Organizational processes for managing baseline
           configurations
-    statement: >
+    statement: >-
       {{ cm_02_03_odp }} of previous baseline configuration
       version(s) of the system is/are retained to support rollback.
 parameters:
   cm_02_03_odp:
     label: number
-statement: >
+statement: >-
   Retain {{ cm_02_03_odp }} of previous versions of baseline
   configurations of the system to support rollback.

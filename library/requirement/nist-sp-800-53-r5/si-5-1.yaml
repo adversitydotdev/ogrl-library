@@ -12,7 +12,7 @@ objectives:
   - id: "si-05(01)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; procedures addressing
           security alerts, advisories, and directives; system design
@@ -23,7 +23,7 @@ objectives:
           system audit records; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with security alert and advisory
           responsibilities; organizational personnel implementing,
           operating, maintaining, and using the system;
@@ -33,18 +33,18 @@ objectives:
           organizational personnel with information security
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for defining, receiving,
           generating, and disseminating security alerts and
           advisories; automated mechanisms supporting and/or
           implementing the dissemination of security alerts and
           advisories
-    statement: >
+    statement: >-
       {{ si_05_01_odp }} are used to broadcast security alert and
       advisory information throughout the organization.
 parameters:
   si_05_01_odp:
     label: automated mechanisms
-statement: >
+statement: >-
   Broadcast security alert and advisory information throughout the
   organization using {{ si_05_01_odp }}.

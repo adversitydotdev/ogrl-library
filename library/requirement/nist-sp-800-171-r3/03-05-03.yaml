@@ -16,19 +16,19 @@ objectives:
   - id: "01"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           identification and authentication policy and procedures;
           system design documentation; list of system accounts;
           system configuration settings; system audit records;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with system operations responsibilities;
           personnel with account management responsibilities;
           personnel with information security responsibilities;
           system developers; system administrators
       - method: test
-        statement: >
+        statement: >-
           mechanisms for supporting or implementing a multi-factor
           authentication capability
     statement: >-
@@ -37,24 +37,24 @@ objectives:
   - id: "02"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           identification and authentication policy and procedures;
           system design documentation; list of system accounts;
           system configuration settings; system audit records;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with system operations responsibilities;
           personnel with account management responsibilities;
           personnel with information security responsibilities;
           system developers; system administrators
       - method: test
-        statement: >
+        statement: >-
           mechanisms for supporting or implementing a multi-factor
           authentication capability
-    statement: >
+    statement: >-
       multi-factor authentication for access to non-privileged
       accounts is implemented.
-statement: >
+statement: >-
   Implement multi-factor authentication for access to privileged and
   non-privileged accounts.

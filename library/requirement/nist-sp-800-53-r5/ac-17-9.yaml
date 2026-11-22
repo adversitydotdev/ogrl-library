@@ -12,7 +12,7 @@ objectives:
   - id: "ac-17(09)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; procedures addressing disconnecting
           or disabling remote access to the system; system design
           documentation; system configuration settings and
@@ -20,20 +20,20 @@ objectives:
           records; system security plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; system
           developers
       - method: test
-        statement: >
+        statement: >-
           Mechanisms implementing capability to disconnect or
           disable remote access to system
-    statement: >
+    statement: >-
       the capability to disconnect or disable remote access to the
       system within {{ ac_17_09_odp }} is provided.
 parameters:
   ac_17_09_odp:
     label: time period
-statement: >
+statement: >-
   Provide the capability to disconnect or disable remote access to
   the system within {{ ac_17_09_odp }}.

@@ -12,7 +12,7 @@ objectives:
   - id: "ir-04(12).ir-04(12)[01]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Incident response policy; procedures addressing incident
           handling; procedures addressing code and forensic
           analysis; procedures addressing incident response;
@@ -22,7 +22,7 @@ objectives:
           security plan; system audit records; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; organizational
           personnel installing, configuring, and/or maintaining the
@@ -30,7 +30,7 @@ objectives:
           malicious code protection; organizational personnel
           responsible for incident response/management
       - method: test
-        statement: >
+        statement: >-
           Organizational process for incident response;
           organizational processes for conducting forensic analysis;
           tools and techniques for analysis of malicious code
@@ -41,7 +41,7 @@ objectives:
   - id: "ir-04(12).ir-04(12)[02]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Incident response policy; procedures addressing incident
           handling; procedures addressing code and forensic
           analysis; procedures addressing incident response;
@@ -51,7 +51,7 @@ objectives:
           security plan; system audit records; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; organizational
           personnel installing, configuring, and/or maintaining the
@@ -59,14 +59,14 @@ objectives:
           malicious code protection; organizational personnel
           responsible for incident response/management
       - method: test
-        statement: >
+        statement: >-
           Organizational process for incident response;
           organizational processes for conducting forensic analysis;
           tools and techniques for analysis of malicious code
           characteristics and behavior
-    statement: >
+    statement: >-
       other residual artifacts remaining in the system (if any) are
       analyzed after the incident.
-statement: >
+statement: >-
   Analyze malicious code and/or other residual artifacts remaining
   in the system after the incident.

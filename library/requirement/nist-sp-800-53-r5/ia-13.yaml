@@ -12,7 +12,7 @@ objectives:
   - id: _obj-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Identification and authentication policy;; procedures
           addressing user and device identification and
           authentication;; system security plan;; system design
@@ -20,17 +20,17 @@ objectives:
           associated documentation;; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system operations
           responsibilities;; organizational personnel with
           information security responsibilities;; system/network
           administrators;; organizational personnel with account
           management responsibilities;; system developers
       - method: test
-        statement: >
+        statement: >-
           Mechanisms supporting and/or implementing identification
           and authentication capabilities and access rights
-    statement: >
+    statement: >-
       identity providers are employed to manage user, device, and
       non-person entity (NPE) identities, attributes and access
       rights supporting authentication decisions in accordance with
@@ -38,7 +38,7 @@ objectives:
   - id: _obj-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Identification and authentication policy;; procedures
           addressing user and device identification and
           authentication;; system security plan;; system design
@@ -46,17 +46,17 @@ objectives:
           associated documentation;; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system operations
           responsibilities;; organizational personnel with
           information security responsibilities;; system/network
           administrators;; organizational personnel with account
           management responsibilities;; system developers
       - method: test
-        statement: >
+        statement: >-
           Mechanisms supporting and/or implementing identification
           and authentication capabilities and access rights
-    statement: >
+    statement: >-
       identity providers are employed to manage user, device, and
       non-person entity (NPE) identities, attributes and access
       rights supporting authorization decisions in accordance with
@@ -64,7 +64,7 @@ objectives:
   - id: _obj-3
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Identification and authentication policy;; procedures
           addressing user and device identification and
           authentication;; system security plan;; system design
@@ -72,17 +72,17 @@ objectives:
           associated documentation;; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system operations
           responsibilities;; organizational personnel with
           information security responsibilities;; system/network
           administrators;; organizational personnel with account
           management responsibilities;; system developers
       - method: test
-        statement: >
+        statement: >-
           Mechanisms supporting and/or implementing identification
           and authentication capabilities and access rights
-    statement: >
+    statement: >-
       authorization servers are employed to manage user, device, and
       non-person entity (NPE) identities, attributes and access
       rights supporting authentication decisions in accordance with
@@ -90,7 +90,7 @@ objectives:
   - id: _obj-4
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Identification and authentication policy;; procedures
           addressing user and device identification and
           authentication;; system security plan;; system design
@@ -98,17 +98,17 @@ objectives:
           associated documentation;; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system operations
           responsibilities;; organizational personnel with
           information security responsibilities;; system/network
           administrators;; organizational personnel with account
           management responsibilities;; system developers
       - method: test
-        statement: >
+        statement: >-
           Mechanisms supporting and/or implementing identification
           and authentication capabilities and access rights
-    statement: >
+    statement: >-
       authorization servers are employed to manage user, device, and
       non-person entity (NPE) identities, attributes and access
       rights supporting authorization decisions in accordance with
@@ -118,7 +118,7 @@ parameters:
     label: policy
   ia_13_odp_02:
     label: mechanisms
-statement: >
+statement: >-
   Employ identity providers and authorization servers to manage
   user, device, and non-person entity (NPE) identities, attributes,
   and access rights supporting authentication and authorization

@@ -12,7 +12,7 @@ objectives:
   - id: "si-04(03).si-04(03)[01]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; access control policy
           and procedures; procedures addressing system monitoring
@@ -22,7 +22,7 @@ objectives:
           system audit records; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; organizational
           personnel installing, configuring, and/or maintaining the
@@ -30,7 +30,7 @@ objectives:
           monitoring the system; organizational personnel
           responsible for the intrusion detection system
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for intrusion detection and
           system monitoring; mechanisms supporting and/or
           implementing the intrusion detection and system monitoring
@@ -39,14 +39,14 @@ objectives:
           mechanisms and tools supporting and/or implementing the
           integration of intrusion detection tools into the access
           and flow control mechanisms
-    statement: >
+    statement: >-
       automated tools and mechanisms are employed to integrate
       intrusion detection tools and mechanisms into access control
       mechanisms;
   - id: "si-04(03).si-04(03)[02]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; access control policy
           and procedures; procedures addressing system monitoring
@@ -56,7 +56,7 @@ objectives:
           system audit records; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; organizational
           personnel installing, configuring, and/or maintaining the
@@ -64,7 +64,7 @@ objectives:
           monitoring the system; organizational personnel
           responsible for the intrusion detection system
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for intrusion detection and
           system monitoring; mechanisms supporting and/or
           implementing the intrusion detection and system monitoring
@@ -73,11 +73,11 @@ objectives:
           mechanisms and tools supporting and/or implementing the
           integration of intrusion detection tools into the access
           and flow control mechanisms
-    statement: >
+    statement: >-
       automated tools and mechanisms are employed to integrate
       intrusion detection tools and mechanisms into flow control
       mechanisms.
-statement: >
+statement: >-
   Employ automated tools and mechanisms to integrate intrusion
   detection tools and mechanisms into access control and flow
   control mechanisms.

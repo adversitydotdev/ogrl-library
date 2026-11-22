@@ -19,7 +19,7 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Assessment, authorization, and monitoring policy; access
           control policy; procedures addressing system connections;
           system and communications protection policy; system design
@@ -29,7 +29,7 @@ objectives:
           assessment report; system audit records; system security
           plan; privacy plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for
           developing, implementing, or authorizing internal system
           connections; organizational personnel with information
@@ -42,7 +42,7 @@ objectives:
   - id: b-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Assessment, authorization, and monitoring policy; access
           control policy; procedures addressing system connections;
           system and communications protection policy; system design
@@ -52,7 +52,7 @@ objectives:
           assessment report; system audit records; system security
           plan; privacy plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for
           developing, implementing, or authorizing internal system
           connections; organizational personnel with information
@@ -65,7 +65,7 @@ objectives:
   - id: b-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Assessment, authorization, and monitoring policy; access
           control policy; procedures addressing system connections;
           system and communications protection policy; system design
@@ -75,7 +75,7 @@ objectives:
           assessment report; system audit records; system security
           plan; privacy plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for
           developing, implementing, or authorizing internal system
           connections; organizational personnel with information
@@ -88,7 +88,7 @@ objectives:
   - id: b-3
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Assessment, authorization, and monitoring policy; access
           control policy; procedures addressing system connections;
           system and communications protection policy; system design
@@ -98,7 +98,7 @@ objectives:
           assessment report; system audit records; system security
           plan; privacy plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for
           developing, implementing, or authorizing internal system
           connections; organizational personnel with information
@@ -111,7 +111,7 @@ objectives:
   - id: b-4
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Assessment, authorization, and monitoring policy; access
           control policy; procedures addressing system connections;
           system and communications protection policy; system design
@@ -121,20 +121,20 @@ objectives:
           assessment report; system audit records; system security
           plan; privacy plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for
           developing, implementing, or authorizing internal system
           connections; organizational personnel with information
           security and privacy responsibilities
       - method: test
         statement: Mechanisms supporting internal system connections
-    statement: >
+    statement: >-
       for each internal connection, the nature of the information
       communicated is documented;
   - id: c
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Assessment, authorization, and monitoring policy; access
           control policy; procedures addressing system connections;
           system and communications protection policy; system design
@@ -144,7 +144,7 @@ objectives:
           assessment report; system audit records; system security
           plan; privacy plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for
           developing, implementing, or authorizing internal system
           connections; organizational personnel with information
@@ -157,7 +157,7 @@ objectives:
   - id: d
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Assessment, authorization, and monitoring policy; access
           control policy; procedures addressing system connections;
           system and communications protection policy; system design
@@ -167,7 +167,7 @@ objectives:
           assessment report; system audit records; system security
           plan; privacy plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for
           developing, implementing, or authorizing internal system
           connections; organizational personnel with information
@@ -190,7 +190,7 @@ parts:
       Authorize internal connections of {{ ca_09_odp_01 }} to the
       system;
   - id: b
-    statement: >
+    statement: >-
       Document, for each internal connection, the interface
       characteristics, security and privacy requirements, and the
       nature of the information communicated;

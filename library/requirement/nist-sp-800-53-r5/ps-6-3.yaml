@@ -12,7 +12,7 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Personnel security policy; procedures addressing access
           agreements for organizational information and systems;
           signed post-employment acknowledgement forms; access
@@ -20,25 +20,25 @@ objectives:
           post-employment requirements; system security plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with personnel security
           responsibilities; organizational personnel who have signed
           access agreements that include post-employment
           requirements; organizational personnel with information
           security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for post-employment requirements;
           mechanisms supporting notifications and individual
           acknowledgements of post-employment requirements
-    statement: >
+    statement: >-
       individuals are notified of applicable, legally binding
       post-employment requirements for the protection of
       organizational information;
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Personnel security policy; procedures addressing access
           agreements for organizational information and systems;
           signed post-employment acknowledgement forms; access
@@ -46,29 +46,29 @@ objectives:
           post-employment requirements; system security plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with personnel security
           responsibilities; organizational personnel who have signed
           access agreements that include post-employment
           requirements; organizational personnel with information
           security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for post-employment requirements;
           mechanisms supporting notifications and individual
           acknowledgements of post-employment requirements
-    statement: >
+    statement: >-
       individuals are required to sign an acknowledgement of
       applicable, legally binding post-employment requirements as
       part of being granted initial access to covered information.
 parts:
   - id: a
-    statement: >
+    statement: >-
       Notify individuals of applicable, legally binding
       post-employment requirements for protection of organizational
       information; and
   - id: b
-    statement: >
+    statement: >-
       Require individuals to sign an acknowledgment of these
       requirements, if applicable, as part of granting initial
       access to covered information.

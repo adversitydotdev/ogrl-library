@@ -12,7 +12,7 @@ objectives:
   - id: "sa-03(01)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; procedures
           addressing the integration of security and supply chain
           risk management into the system development life cycle
@@ -23,12 +23,12 @@ objectives:
           security plan; supply chain risk management plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with security and system life
           cycle development responsibilities; organizational
           personnel with information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for defining and documenting the
           system development life cycle; organizational processes
           for identifying system development life cycle roles and
@@ -36,11 +36,11 @@ objectives:
           security risk management into the system development life
           cycle; mechanisms supporting and/or implementing the
           system development life cycle
-    statement: >
+    statement: >-
       system pre-production environments are protected commensurate
       with risk throughout the system development life cycle for the
       system, system component, or system service.
-statement: >
+statement: >-
   Protect system preproduction environments commensurate with risk
   throughout the system development life cycle for the system,
   system component, or system service.

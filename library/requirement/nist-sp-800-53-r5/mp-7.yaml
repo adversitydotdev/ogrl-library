@@ -19,7 +19,7 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System media protection policy; system use policy;
           procedures addressing media usage restrictions; rules of
           behavior; system design documentation; system
@@ -27,23 +27,23 @@ objectives:
           records; system security plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system media use
           responsibilities; organizational personnel with
           information security responsibilities; system/network
           administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for media use; mechanisms
           restricting or prohibiting the use of system media on
           systems or system components
-    statement: >
+    statement: >-
       the use of {{ mp_07_odp_01 }} is {{ mp_07_odp_02 }} on
       {{ mp_07_odp_03 }} using {{ mp_07_odp_04 }};
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System media protection policy; system use policy;
           procedures addressing media usage restrictions; rules of
           behavior; system design documentation; system
@@ -51,17 +51,17 @@ objectives:
           records; system security plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system media use
           responsibilities; organizational personnel with
           information security responsibilities; system/network
           administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for media use; mechanisms
           restricting or prohibiting the use of system media on
           systems or system components
-    statement: >
+    statement: >-
       the use of portable storage devices in organizational systems
       is prohibited when such devices have no identifiable owner.
 parameters:
@@ -75,10 +75,10 @@ parameters:
     label: controls
 parts:
   - id: a
-    statement: >
+    statement: >-
       {{ mp_07_odp_02 }} the use of {{ mp_07_odp_01 }} on
       {{ mp_07_odp_03 }} using {{ mp_07_odp_04 }} ; and
   - id: b
-    statement: >
+    statement: >-
       Prohibit the use of portable storage devices in organizational
       systems when such devices have no identifiable owner.

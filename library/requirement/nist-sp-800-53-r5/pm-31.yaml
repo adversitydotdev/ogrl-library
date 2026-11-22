@@ -25,7 +25,7 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Information security program plan; privacy program plan;
           supply chain risk management plan; continuous monitoring
           strategy; risk management strategy; information security
@@ -40,7 +40,7 @@ objectives:
           privacy impact analyses; status reports; risk response
           documentation; other relevant documents or records.
       - method: interview
-        statement: >
+        statement: >-
           Senior Accountable Official for Risk Management; chief
           information officer; senior agency information security
           officer; senior agency official for privacy;
@@ -48,17 +48,17 @@ objectives:
           privacy, and supply chain risk management program
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational procedures and mechanisms used for
           information security, privacy, and supply chain continuous
           monitoring
-    statement: >
+    statement: >-
       continuous monitoring programs are implemented that include
       establishing {{ pm_31_odp_01 }} to be monitored;
   - id: b-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Information security program plan; privacy program plan;
           supply chain risk management plan; continuous monitoring
           strategy; risk management strategy; information security
@@ -73,7 +73,7 @@ objectives:
           privacy impact analyses; status reports; risk response
           documentation; other relevant documents or records.
       - method: interview
-        statement: >
+        statement: >-
           Senior Accountable Official for Risk Management; chief
           information officer; senior agency information security
           officer; senior agency official for privacy;
@@ -81,17 +81,17 @@ objectives:
           privacy, and supply chain risk management program
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational procedures and mechanisms used for
           information security, privacy, and supply chain continuous
           monitoring
-    statement: >
+    statement: >-
       continuous monitoring programs are implemented that establish
       {{ pm_31_odp_02 }} for monitoring;
   - id: b-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Information security program plan; privacy program plan;
           supply chain risk management plan; continuous monitoring
           strategy; risk management strategy; information security
@@ -106,7 +106,7 @@ objectives:
           privacy impact analyses; status reports; risk response
           documentation; other relevant documents or records.
       - method: interview
-        statement: >
+        statement: >-
           Senior Accountable Official for Risk Management; chief
           information officer; senior agency information security
           officer; senior agency official for privacy;
@@ -114,17 +114,17 @@ objectives:
           privacy, and supply chain risk management program
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational procedures and mechanisms used for
           information security, privacy, and supply chain continuous
           monitoring
-    statement: >
+    statement: >-
       continuous monitoring programs are implemented that establish
       {{ pm_31_odp_03 }} for assessment of control effectiveness;
   - id: c
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Information security program plan; privacy program plan;
           supply chain risk management plan; continuous monitoring
           strategy; risk management strategy; information security
@@ -139,7 +139,7 @@ objectives:
           privacy impact analyses; status reports; risk response
           documentation; other relevant documents or records.
       - method: interview
-        statement: >
+        statement: >-
           Senior Accountable Official for Risk Management; chief
           information officer; senior agency information security
           officer; senior agency official for privacy;
@@ -147,18 +147,18 @@ objectives:
           privacy, and supply chain risk management program
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational procedures and mechanisms used for
           information security, privacy, and supply chain continuous
           monitoring
-    statement: >
+    statement: >-
       continuous monitoring programs are implemented that include
       monitoring {{ pm_31_odp_01 }} on an ongoing basis in
       accordance with the continuous monitoring strategy;
   - id: d-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Information security program plan; privacy program plan;
           supply chain risk management plan; continuous monitoring
           strategy; risk management strategy; information security
@@ -173,7 +173,7 @@ objectives:
           privacy impact analyses; status reports; risk response
           documentation; other relevant documents or records.
       - method: interview
-        statement: >
+        statement: >-
           Senior Accountable Official for Risk Management; chief
           information officer; senior agency information security
           officer; senior agency official for privacy;
@@ -181,18 +181,18 @@ objectives:
           privacy, and supply chain risk management program
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational procedures and mechanisms used for
           information security, privacy, and supply chain continuous
           monitoring
-    statement: >
+    statement: >-
       continuous monitoring programs are implemented that include
       correlating information generated by control assessments and
       monitoring;
   - id: d-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Information security program plan; privacy program plan;
           supply chain risk management plan; continuous monitoring
           strategy; risk management strategy; information security
@@ -207,7 +207,7 @@ objectives:
           privacy impact analyses; status reports; risk response
           documentation; other relevant documents or records.
       - method: interview
-        statement: >
+        statement: >-
           Senior Accountable Official for Risk Management; chief
           information officer; senior agency information security
           officer; senior agency official for privacy;
@@ -215,18 +215,18 @@ objectives:
           privacy, and supply chain risk management program
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational procedures and mechanisms used for
           information security, privacy, and supply chain continuous
           monitoring
-    statement: >
+    statement: >-
       continuous monitoring programs are implemented that include
       analyzing information generated by control assessments and
       monitoring;
   - id: e-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Information security program plan; privacy program plan;
           supply chain risk management plan; continuous monitoring
           strategy; risk management strategy; information security
@@ -241,7 +241,7 @@ objectives:
           privacy impact analyses; status reports; risk response
           documentation; other relevant documents or records.
       - method: interview
-        statement: >
+        statement: >-
           Senior Accountable Official for Risk Management; chief
           information officer; senior agency information security
           officer; senior agency official for privacy;
@@ -249,18 +249,18 @@ objectives:
           privacy, and supply chain risk management program
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational procedures and mechanisms used for
           information security, privacy, and supply chain continuous
           monitoring
-    statement: >
+    statement: >-
       continuous monitoring programs are implemented that include
       response actions to address the analysis of control assessment
       information;
   - id: e-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Information security program plan; privacy program plan;
           supply chain risk management plan; continuous monitoring
           strategy; risk management strategy; information security
@@ -275,7 +275,7 @@ objectives:
           privacy impact analyses; status reports; risk response
           documentation; other relevant documents or records.
       - method: interview
-        statement: >
+        statement: >-
           Senior Accountable Official for Risk Management; chief
           information officer; senior agency information security
           officer; senior agency official for privacy;
@@ -283,18 +283,18 @@ objectives:
           privacy, and supply chain risk management program
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational procedures and mechanisms used for
           information security, privacy, and supply chain continuous
           monitoring
-    statement: >
+    statement: >-
       continuous monitoring programs are implemented that include
       response actions to address the analysis of monitoring
       information;
   - id: f-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Information security program plan; privacy program plan;
           supply chain risk management plan; continuous monitoring
           strategy; risk management strategy; information security
@@ -309,7 +309,7 @@ objectives:
           privacy impact analyses; status reports; risk response
           documentation; other relevant documents or records.
       - method: interview
-        statement: >
+        statement: >-
           Senior Accountable Official for Risk Management; chief
           information officer; senior agency information security
           officer; senior agency official for privacy;
@@ -317,18 +317,18 @@ objectives:
           privacy, and supply chain risk management program
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational procedures and mechanisms used for
           information security, privacy, and supply chain continuous
           monitoring
-    statement: >
+    statement: >-
       continuous monitoring programs are implemented that include
       reporting the security status of organizational systems to
       {{ pm_31_odp_04 }} {{ pm_31_odp_06 }};
   - id: f-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Information security program plan; privacy program plan;
           supply chain risk management plan; continuous monitoring
           strategy; risk management strategy; information security
@@ -343,7 +343,7 @@ objectives:
           privacy impact analyses; status reports; risk response
           documentation; other relevant documents or records.
       - method: interview
-        statement: >
+        statement: >-
           Senior Accountable Official for Risk Management; chief
           information officer; senior agency information security
           officer; senior agency official for privacy;
@@ -351,11 +351,11 @@ objectives:
           privacy, and supply chain risk management program
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational procedures and mechanisms used for
           information security, privacy, and supply chain continuous
           monitoring
-    statement: >
+    statement: >-
       continuous monitoring programs are implemented that include
       reporting the privacy status of organizational systems to
       {{ pm_31_odp_05 }} {{ pm_31_odp_07 }}.
@@ -380,29 +380,29 @@ parameters:
     label: organization-defined frequency
 parts:
   - id: a
-    statement: >
+    statement: >-
       Establishing the following organization-wide metrics to be
       monitored: {{ pm_31_odp_01 }};
   - id: b
-    statement: >
+    statement: >-
       Establishing {{ pm_31_odp_02 }} and {{ pm_31_odp_03 }} for
       control effectiveness;
   - id: c
-    statement: >
+    statement: >-
       Ongoing monitoring of organizationally-defined metrics in
       accordance with the continuous monitoring strategy;
   - id: d
-    statement: >
+    statement: >-
       Correlation and analysis of information generated by control
       assessments and monitoring;
   - id: e
-    statement: >
+    statement: >-
       Response actions to address results of the analysis of control
       assessment and monitoring information; and
   - id: f
-    statement: >
+    statement: >-
       Reporting the security and privacy status of organizational
       systems to {{ pm_31_prm_4 }} {{ pm_31_prm_5 }}.
-statement: >
+statement: >-
   Develop an organization-wide continuous monitoring strategy and
   implement continuous monitoring programs that include:

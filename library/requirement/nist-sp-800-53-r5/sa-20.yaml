@@ -16,7 +16,7 @@ objectives:
   - id: _obj
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Supply chain risk management plan; system and services
           acquisition policy; procedures addressing the customized
           development of critical system components; system design
@@ -27,14 +27,14 @@ objectives:
           records; system audit records; system security plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and service
           acquisition responsibilities; organizational personnel
           with information security responsibilities; organizational
           personnel with responsibility for the reimplementation or
           customized development of critical system components
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for the reimplementation or
           customized development of critical system components;
           mechanisms supporting and/or implementing the
@@ -45,6 +45,6 @@ objectives:
 parameters:
   sa_20_odp:
     label: critical system
-statement: >
+statement: >-
   Reimplement or custom develop the following critical system
   components: {{ sa_20_odp }}.

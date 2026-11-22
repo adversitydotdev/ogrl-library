@@ -12,7 +12,7 @@ objectives:
   - id: "sa-17(06)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; enterprise
           architecture policy; procedures addressing developer
           security architecture and design specifications for the
@@ -28,18 +28,18 @@ objectives:
           testing; system security plan; privacy plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and service
           acquisition responsibilities; organizational personnel
           with information security and privacy responsibilities;
           system developer; organizational personnel with
           information security and privacy architecture and design
           responsibilities
-    statement: >
+    statement: >-
       the developer of the system, system component, or system
       service is required to structure security-relevant hardware,
       software, and firmware to facilitate testing.
-statement: >
+statement: >-
   Require the developer of the system, system component, or system
   service to structure security-relevant hardware, software, and
   firmware to facilitate testing.

@@ -12,7 +12,7 @@ objectives:
   - id: "sr-11(01)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Supply chain risk management policy and procedures; supply
           chain risk management plan; system and services
           acquisition policy; anti-counterfeit plan;
@@ -23,7 +23,7 @@ objectives:
           prevention of counterfeit components entering the system;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with information security
           responsibilities; organizational personnel with supply
           chain risk management responsibilities; organizational
@@ -32,12 +32,12 @@ objectives:
       - method: test
         statement: >-
           Organizational processes for anti-counterfeit training
-    statement: >
+    statement: >-
       {{ sr_11_01_odp }} are trained to detect counterfeit system
       components (including hardware, software, and firmware).
 parameters:
   sr_11_01_odp:
     label: personnel or roles
-statement: >
+statement: >-
   Train {{ sr_11_01_odp }} to detect counterfeit system components
   (including hardware, software, and firmware).

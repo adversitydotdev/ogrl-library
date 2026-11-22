@@ -12,7 +12,7 @@ objectives:
   - id: _obj
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Supply chain risk management policy and procedures; supply
           chain risk management plan; disposal procedures addressing
           supply chain protection; media disposal policy; media
@@ -22,13 +22,13 @@ objectives:
           methods employed for system components; system security
           plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system component disposal
           responsibilities; organizational personnel with
           information security responsibilities; organizational
           personnel with supply chain protection responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational techniques and methods for system component
           disposal; mechanisms supporting and/or implementing system
           component disposal
@@ -39,6 +39,6 @@ parameters:
     label: "data, documentation, tools, or system components"
   sr_12_odp_02:
     label: techniques and methods
-statement: >
+statement: >-
   Dispose of {{ sr_12_odp_01 }} using the following techniques and
   methods: {{ sr_12_odp_02 }}.

@@ -12,7 +12,7 @@ objectives:
   - id: "cp-10(06)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Contingency planning policy; procedures addressing system
           recovery and reconstitution; contingency plan; system
           design documentation; system configuration settings and
@@ -21,12 +21,12 @@ objectives:
           records; physical access authorization records; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system recovery and
           reconstitution responsibilities; organizational personnel
           with information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for protecting backup and
           restoration of hardware, firmware, and software;
           mechanisms supporting and/or implementing protection of

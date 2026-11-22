@@ -16,7 +16,7 @@ objectives:
   - id: "02"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           identification and authentication policy and procedures;
           procedures for device identification and authentication;
           system design documentation; list of devices requiring
@@ -24,21 +24,21 @@ objectives:
           connection reports; system configuration settings; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with responsibilities for device identification
           and authentication; personnel with information security
           responsibilities; system developers; system administrators
       - method: test
-        statement: >
+        statement: >-
           mechanisms for supporting or implementing device
           identification and authentication capabilities
-    statement: >
+    statement: >-
       {{ a_03_05_02_odp_01 }} are authenticated before establishing
       a system connection.
   - id: "01"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           identification and authentication policy and procedures;
           procedures for device identification and authentication;
           system design documentation; list of devices requiring
@@ -46,20 +46,20 @@ objectives:
           connection reports; system configuration settings; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with responsibilities for device identification
           and authentication; personnel with information security
           responsibilities; system developers; system administrators
       - method: test
-        statement: >
+        statement: >-
           mechanisms for supporting or implementing device
           identification and authentication capabilities
-    statement: >
+    statement: >-
       {{ a_03_05_02_odp_01 }} are uniquely identified before
       establishing a system connection.
 parameters:
   a_03_05_02_odp_01:
     label: devices or types of devices
-statement: >
+statement: >-
   Uniquely identify and authenticate {{ a_03_05_02_odp_01 }} before
   establishing a system connection.

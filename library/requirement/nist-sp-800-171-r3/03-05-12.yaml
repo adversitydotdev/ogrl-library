@@ -16,7 +16,7 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           identification and authentication policy and procedures;
           procedures for authenticator management; system
           configuration settings; list of system authenticator
@@ -25,22 +25,22 @@ objectives:
           authenticators; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with authenticator management responsibilities;
           personnel with information security responsibilities;
           system administrators
       - method: test
-        statement: >
+        statement: >-
           mechanisms for supporting or implementing the
           authenticator management capability
-    statement: >
+    statement: >-
       the identity of the individual, group, role, service, or
       device receiving the authenticator as part of the initial
       authenticator distribution is verified.
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           identification and authentication policy and procedures;
           procedures for authenticator management; system
           configuration settings; list of system authenticator
@@ -49,21 +49,21 @@ objectives:
           authenticators; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with authenticator management responsibilities;
           personnel with information security responsibilities;
           system administrators
       - method: test
-        statement: >
+        statement: >-
           mechanisms for supporting or implementing the
           authenticator management capability
-    statement: >
+    statement: >-
       initial authenticator content for any authenticators issued by
       the organization is established.
   - id: c.01
     methods:
       - method: examine
-        statement: >
+        statement: >-
           identification and authentication policy and procedures;
           procedures for authenticator management; system
           configuration settings; list of system authenticator
@@ -72,21 +72,21 @@ objectives:
           authenticators; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with authenticator management responsibilities;
           personnel with information security responsibilities;
           system administrators
       - method: test
-        statement: >
+        statement: >-
           mechanisms for supporting or implementing the
           authenticator management capability
-    statement: >
+    statement: >-
       administrative procedures for initial authenticator
       distribution are established.
   - id: c.02
     methods:
       - method: examine
-        statement: >
+        statement: >-
           identification and authentication policy and procedures;
           procedures for authenticator management; system
           configuration settings; list of system authenticator
@@ -95,21 +95,21 @@ objectives:
           authenticators; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with authenticator management responsibilities;
           personnel with information security responsibilities;
           system administrators
       - method: test
-        statement: >
+        statement: >-
           mechanisms for supporting or implementing the
           authenticator management capability
-    statement: >
+    statement: >-
       administrative procedures for lost, compromised, or damaged
       authenticators are established.
   - id: c.03
     methods:
       - method: examine
-        statement: >
+        statement: >-
           identification and authentication policy and procedures;
           procedures for authenticator management; system
           configuration settings; list of system authenticator
@@ -118,12 +118,12 @@ objectives:
           authenticators; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with authenticator management responsibilities;
           personnel with information security responsibilities;
           system administrators
       - method: test
-        statement: >
+        statement: >-
           mechanisms for supporting or implementing the
           authenticator management capability
     statement: >-
@@ -132,7 +132,7 @@ objectives:
   - id: c.04
     methods:
       - method: examine
-        statement: >
+        statement: >-
           identification and authentication policy and procedures;
           procedures for authenticator management; system
           configuration settings; list of system authenticator
@@ -141,21 +141,21 @@ objectives:
           authenticators; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with authenticator management responsibilities;
           personnel with information security responsibilities;
           system administrators
       - method: test
-        statement: >
+        statement: >-
           mechanisms for supporting or implementing the
           authenticator management capability
-    statement: >
+    statement: >-
       administrative procedures for initial authenticator
       distribution are implemented.
   - id: c.05
     methods:
       - method: examine
-        statement: >
+        statement: >-
           identification and authentication policy and procedures;
           procedures for authenticator management; system
           configuration settings; list of system authenticator
@@ -164,21 +164,21 @@ objectives:
           authenticators; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with authenticator management responsibilities;
           personnel with information security responsibilities;
           system administrators
       - method: test
-        statement: >
+        statement: >-
           mechanisms for supporting or implementing the
           authenticator management capability
-    statement: >
+    statement: >-
       administrative procedures for lost, compromised, or damaged
       authenticators are implemented.
   - id: c.06
     methods:
       - method: examine
-        statement: >
+        statement: >-
           identification and authentication policy and procedures;
           procedures for authenticator management; system
           configuration settings; list of system authenticator
@@ -187,12 +187,12 @@ objectives:
           authenticators; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with authenticator management responsibilities;
           personnel with information security responsibilities;
           system administrators
       - method: test
-        statement: >
+        statement: >-
           mechanisms for supporting or implementing the
           authenticator management capability
     statement: >-
@@ -201,7 +201,7 @@ objectives:
   - id: d
     methods:
       - method: examine
-        statement: >
+        statement: >-
           identification and authentication policy and procedures;
           procedures for authenticator management; system
           configuration settings; list of system authenticator
@@ -210,19 +210,19 @@ objectives:
           authenticators; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with authenticator management responsibilities;
           personnel with information security responsibilities;
           system administrators
       - method: test
-        statement: >
+        statement: >-
           mechanisms for supporting or implementing the
           authenticator management capability
     statement: default authenticators are changed at first use.
   - id: e
     methods:
       - method: examine
-        statement: >
+        statement: >-
           identification and authentication policy and procedures;
           procedures for authenticator management; system
           configuration settings; list of system authenticator
@@ -231,22 +231,22 @@ objectives:
           authenticators; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with authenticator management responsibilities;
           personnel with information security responsibilities;
           system administrators
       - method: test
-        statement: >
+        statement: >-
           mechanisms for supporting or implementing the
           authenticator management capability
-    statement: >
+    statement: >-
       authenticators are changed or refreshed
       {{ a_03_05_12_odp_01 }} or when the following events occur:
       {{ a_03_05_12_odp_02 }}.
   - id: f.01
     methods:
       - method: examine
-        statement: >
+        statement: >-
           identification and authentication policy and procedures;
           procedures for authenticator management; system
           configuration settings; list of system authenticator
@@ -255,12 +255,12 @@ objectives:
           authenticators; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with authenticator management responsibilities;
           personnel with information security responsibilities;
           system administrators
       - method: test
-        statement: >
+        statement: >-
           mechanisms for supporting or implementing the
           authenticator management capability
     statement: >-
@@ -269,7 +269,7 @@ objectives:
   - id: f.02
     methods:
       - method: examine
-        statement: >
+        statement: >-
           identification and authentication policy and procedures;
           procedures for authenticator management; system
           configuration settings; list of system authenticator
@@ -278,12 +278,12 @@ objectives:
           authenticators; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with authenticator management responsibilities;
           personnel with information security responsibilities;
           system administrators
       - method: test
-        statement: >
+        statement: >-
           mechanisms for supporting or implementing the
           authenticator management capability
     statement: >-
@@ -296,23 +296,23 @@ parameters:
     label: events
 parts:
   - id: a
-    statement: >
+    statement: >-
       Verify the identity of the individual, group, role, service,
       or device receiving the authenticator as part of the initial
       authenticator distribution.
   - id: b
-    statement: >
+    statement: >-
       Establish initial authenticator content for any authenticators
       issued by the organization.
   - id: c
-    statement: >
+    statement: >-
       Establish and implement administrative procedures for initial
       authenticator distribution; for lost, compromised, or damaged
       authenticators; and for revoking authenticators.
   - id: d
     statement: Change default authenticators at first use.
   - id: e
-    statement: >
+    statement: >-
       Change or refresh authenticators {{ a_03_05_12_odp_01 }} or
       when the following events occur: {{ a_03_05_12_odp_02 }}.
   - id: f

@@ -25,51 +25,51 @@ objectives:
   - id: "01"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           risk assessment policy; assessment reports; system audit
           records; event logs; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with assessment and auditing responsibilities;
           system administrators; personnel with security
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           processes for assessments and audits; mechanisms and tools
           supporting or implementing assessments and auditing
     statement: findings from security assessments are responded to.
   - id: "02"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           risk assessment policy; assessment reports; system audit
           records; event logs; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with assessment and auditing responsibilities;
           system administrators; personnel with security
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           processes for assessments and audits; mechanisms and tools
           supporting or implementing assessments and auditing
     statement: findings from security monitoring are responded to.
   - id: "03"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           risk assessment policy; assessment reports; system audit
           records; event logs; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with assessment and auditing responsibilities;
           system administrators; personnel with security
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           processes for assessments and audits; mechanisms and tools
           supporting or implementing assessments and auditing
     statement: findings from security audits are responded to.

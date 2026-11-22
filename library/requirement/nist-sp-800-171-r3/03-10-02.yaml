@@ -12,44 +12,44 @@ objectives:
   - id: a.01
     methods:
       - method: examine
-        statement: >
+        statement: >-
           physical protection policy and procedures; procedures for
           physical access monitoring; physical access logs or
           records; physical access monitoring records; physical
           access log reviews; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with physical access monitoring
           responsibilities; personnel with incident response
           responsibilities; personnel with information security
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           processes for monitoring physical access; mechanisms for
           supporting or implementing physical access monitoring;
           mechanisms for supporting or implementing the review of
           physical access logs
-    statement: >
+    statement: >-
       physical access to the facility where the system resides is
       monitored to detect physical security incidents.
   - id: a.02
     methods:
       - method: examine
-        statement: >
+        statement: >-
           physical protection policy and procedures; procedures for
           physical access monitoring; physical access logs or
           records; physical access monitoring records; physical
           access log reviews; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with physical access monitoring
           responsibilities; personnel with incident response
           responsibilities; personnel with information security
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           processes for monitoring physical access; mechanisms for
           supporting or implementing physical access monitoring;
           mechanisms for supporting or implementing the review of
@@ -58,20 +58,20 @@ objectives:
   - id: b.01
     methods:
       - method: examine
-        statement: >
+        statement: >-
           physical protection policy and procedures; procedures for
           physical access monitoring; physical access logs or
           records; physical access monitoring records; physical
           access log reviews; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with physical access monitoring
           responsibilities; personnel with incident response
           responsibilities; personnel with information security
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           processes for monitoring physical access; mechanisms for
           supporting or implementing physical access monitoring;
           mechanisms for supporting or implementing the review of
@@ -81,20 +81,20 @@ objectives:
   - id: b.02
     methods:
       - method: examine
-        statement: >
+        statement: >-
           physical protection policy and procedures; procedures for
           physical access monitoring; physical access logs or
           records; physical access monitoring records; physical
           access log reviews; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with physical access monitoring
           responsibilities; personnel with incident response
           responsibilities; personnel with information security
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           processes for monitoring physical access; mechanisms for
           supporting or implementing physical access monitoring;
           mechanisms for supporting or implementing the review of
@@ -109,10 +109,10 @@ parameters:
     label: events or potential indicators of events
 parts:
   - id: a
-    statement: >
+    statement: >-
       Monitor physical access to the facility where the system
       resides to detect and respond to physical security incidents.
   - id: b
-    statement: >
+    statement: >-
       Review physical access logs {{ a_03_10_02_odp_01 }} and upon
       occurrence of {{ a_03_10_02_odp_02 }}.

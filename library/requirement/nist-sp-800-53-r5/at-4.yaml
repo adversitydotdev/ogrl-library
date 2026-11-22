@@ -16,56 +16,56 @@ objectives:
   - id: a-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Security and privacy awareness and training policy;
           procedures addressing security and privacy training
           records; security and privacy awareness and training
           records; system security plan; privacy plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with information security and
           privacy training record retention responsibilities
       - method: test
         statement: >-
           Mechanisms supporting the management of security and
           privacy training records
-    statement: >
+    statement: >-
       information security and privacy training activities,
       including security and privacy awareness training and specific
       role-based security and privacy training, are documented;
   - id: a-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Security and privacy awareness and training policy;
           procedures addressing security and privacy training
           records; security and privacy awareness and training
           records; system security plan; privacy plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with information security and
           privacy training record retention responsibilities
       - method: test
         statement: >-
           Mechanisms supporting the management of security and
           privacy training records
-    statement: >
+    statement: >-
       information security and privacy training activities,
       including security and privacy awareness training and specific
       role-based security and privacy training, are monitored;
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Security and privacy awareness and training policy;
           procedures addressing security and privacy training
           records; security and privacy awareness and training
           records; system security plan; privacy plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with information security and
           privacy training record retention responsibilities
       - method: test
@@ -79,7 +79,7 @@ parameters:
     label: time period
 parts:
   - id: a
-    statement: >
+    statement: >-
       Document and monitor information security and privacy training
       activities, including security and privacy awareness training
       and specific role-based security and privacy training; and

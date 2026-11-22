@@ -22,7 +22,7 @@ objectives:
   - id: a-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; personnel termination policy and
           procedure; personnel transfer policy and procedure;
           procedures for addressing account management; system
@@ -38,13 +38,13 @@ objectives:
           system audit records; system security plan; privacy plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with account management
           responsibilities; system/network administrators;
           organizational personnel with information security with
           information security and privacy responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for account management on the
           system; mechanisms for implementing account management
     statement: >-
@@ -53,7 +53,7 @@ objectives:
   - id: a-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; personnel termination policy and
           procedure; personnel transfer policy and procedure;
           procedures for addressing account management; system
@@ -69,22 +69,22 @@ objectives:
           system audit records; system security plan; privacy plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with account management
           responsibilities; system/network administrators;
           organizational personnel with information security with
           information security and privacy responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for account management on the
           system; mechanisms for implementing account management
-    statement: >
+    statement: >-
       account types specifically prohibited for use within the
       system are defined and documented;
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; personnel termination policy and
           procedure; personnel transfer policy and procedure;
           procedures for addressing account management; system
@@ -100,20 +100,20 @@ objectives:
           system audit records; system security plan; privacy plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with account management
           responsibilities; system/network administrators;
           organizational personnel with information security with
           information security and privacy responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for account management on the
           system; mechanisms for implementing account management
     statement: account managers are assigned;
   - id: c
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; personnel termination policy and
           procedure; personnel transfer policy and procedure;
           procedures for addressing account management; system
@@ -129,13 +129,13 @@ objectives:
           system audit records; system security plan; privacy plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with account management
           responsibilities; system/network administrators;
           organizational personnel with information security with
           information security and privacy responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for account management on the
           system; mechanisms for implementing account management
     statement: >-
@@ -143,7 +143,7 @@ objectives:
   - id: d.1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; personnel termination policy and
           procedure; personnel transfer policy and procedure;
           procedures for addressing account management; system
@@ -159,20 +159,20 @@ objectives:
           system audit records; system security plan; privacy plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with account management
           responsibilities; system/network administrators;
           organizational personnel with information security with
           information security and privacy responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for account management on the
           system; mechanisms for implementing account management
     statement: authorized users of the system are specified;
   - id: d.2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; personnel termination policy and
           procedure; personnel transfer policy and procedure;
           procedures for addressing account management; system
@@ -188,20 +188,20 @@ objectives:
           system audit records; system security plan; privacy plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with account management
           responsibilities; system/network administrators;
           organizational personnel with information security with
           information security and privacy responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for account management on the
           system; mechanisms for implementing account management
     statement: group and role membership are specified;
   - id: d.3-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; personnel termination policy and
           procedure; personnel transfer policy and procedure;
           procedures for addressing account management; system
@@ -217,13 +217,13 @@ objectives:
           system audit records; system security plan; privacy plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with account management
           responsibilities; system/network administrators;
           organizational personnel with information security with
           information security and privacy responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for account management on the
           system; mechanisms for implementing account management
     statement: >-
@@ -232,7 +232,7 @@ objectives:
   - id: d.3-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; personnel termination policy and
           procedure; personnel transfer policy and procedure;
           procedures for addressing account management; system
@@ -248,20 +248,20 @@ objectives:
           system audit records; system security plan; privacy plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with account management
           responsibilities; system/network administrators;
           organizational personnel with information security with
           information security and privacy responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for account management on the
           system; mechanisms for implementing account management
     statement: "{{ ac_02_odp_02 }} are specified for each account;"
   - id: e
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; personnel termination policy and
           procedure; personnel transfer policy and procedure;
           procedures for addressing account management; system
@@ -277,13 +277,13 @@ objectives:
           system audit records; system security plan; privacy plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with account management
           responsibilities; system/network administrators;
           organizational personnel with information security with
           information security and privacy responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for account management on the
           system; mechanisms for implementing account management
     statement: >-
@@ -292,7 +292,7 @@ objectives:
   - id: f-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; personnel termination policy and
           procedure; personnel transfer policy and procedure;
           procedures for addressing account management; system
@@ -308,13 +308,13 @@ objectives:
           system audit records; system security plan; privacy plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with account management
           responsibilities; system/network administrators;
           organizational personnel with information security with
           information security and privacy responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for account management on the
           system; mechanisms for implementing account management
     statement: >-
@@ -322,7 +322,7 @@ objectives:
   - id: f-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; personnel termination policy and
           procedure; personnel transfer policy and procedure;
           procedures for addressing account management; system
@@ -338,13 +338,13 @@ objectives:
           system audit records; system security plan; privacy plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with account management
           responsibilities; system/network administrators;
           organizational personnel with information security with
           information security and privacy responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for account management on the
           system; mechanisms for implementing account management
     statement: >-
@@ -352,7 +352,7 @@ objectives:
   - id: f-3
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; personnel termination policy and
           procedure; personnel transfer policy and procedure;
           procedures for addressing account management; system
@@ -368,13 +368,13 @@ objectives:
           system audit records; system security plan; privacy plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with account management
           responsibilities; system/network administrators;
           organizational personnel with information security with
           information security and privacy responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for account management on the
           system; mechanisms for implementing account management
     statement: >-
@@ -382,7 +382,7 @@ objectives:
   - id: f-4
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; personnel termination policy and
           procedure; personnel transfer policy and procedure;
           procedures for addressing account management; system
@@ -398,13 +398,13 @@ objectives:
           system audit records; system security plan; privacy plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with account management
           responsibilities; system/network administrators;
           organizational personnel with information security with
           information security and privacy responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for account management on the
           system; mechanisms for implementing account management
     statement: >-
@@ -412,7 +412,7 @@ objectives:
   - id: f-5
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; personnel termination policy and
           procedure; personnel transfer policy and procedure;
           procedures for addressing account management; system
@@ -428,13 +428,13 @@ objectives:
           system audit records; system security plan; privacy plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with account management
           responsibilities; system/network administrators;
           organizational personnel with information security with
           information security and privacy responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for account management on the
           system; mechanisms for implementing account management
     statement: >-
@@ -442,7 +442,7 @@ objectives:
   - id: g
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; personnel termination policy and
           procedure; personnel transfer policy and procedure;
           procedures for addressing account management; system
@@ -458,20 +458,20 @@ objectives:
           system audit records; system security plan; privacy plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with account management
           responsibilities; system/network administrators;
           organizational personnel with information security with
           information security and privacy responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for account management on the
           system; mechanisms for implementing account management
     statement: the use of accounts is monitored;
   - id: h.1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; personnel termination policy and
           procedure; personnel transfer policy and procedure;
           procedures for addressing account management; system
@@ -487,22 +487,22 @@ objectives:
           system audit records; system security plan; privacy plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with account management
           responsibilities; system/network administrators;
           organizational personnel with information security with
           information security and privacy responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for account management on the
           system; mechanisms for implementing account management
-    statement: >
+    statement: >-
       account managers and {{ ac_02_odp_05 }} are notified within
       {{ ac_02_odp_06 }} when accounts are no longer required;
   - id: h.2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; personnel termination policy and
           procedure; personnel transfer policy and procedure;
           procedures for addressing account management; system
@@ -518,22 +518,22 @@ objectives:
           system audit records; system security plan; privacy plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with account management
           responsibilities; system/network administrators;
           organizational personnel with information security with
           information security and privacy responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for account management on the
           system; mechanisms for implementing account management
-    statement: >
+    statement: >-
       account managers and {{ ac_02_odp_05 }} are notified within
       {{ ac_02_odp_07 }} when users are terminated or transferred;
   - id: h.3
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; personnel termination policy and
           procedure; personnel transfer policy and procedure;
           procedures for addressing account management; system
@@ -549,23 +549,23 @@ objectives:
           system audit records; system security plan; privacy plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with account management
           responsibilities; system/network administrators;
           organizational personnel with information security with
           information security and privacy responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for account management on the
           system; mechanisms for implementing account management
-    statement: >
+    statement: >-
       account managers and {{ ac_02_odp_05 }} are notified within
       {{ ac_02_odp_08 }} when system usage or the need to know
       changes for an individual;
   - id: i.1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; personnel termination policy and
           procedure; personnel transfer policy and procedure;
           procedures for addressing account management; system
@@ -581,13 +581,13 @@ objectives:
           system audit records; system security plan; privacy plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with account management
           responsibilities; system/network administrators;
           organizational personnel with information security with
           information security and privacy responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for account management on the
           system; mechanisms for implementing account management
     statement: >-
@@ -596,7 +596,7 @@ objectives:
   - id: i.2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; personnel termination policy and
           procedure; personnel transfer policy and procedure;
           procedures for addressing account management; system
@@ -612,13 +612,13 @@ objectives:
           system audit records; system security plan; privacy plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with account management
           responsibilities; system/network administrators;
           organizational personnel with information security with
           information security and privacy responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for account management on the
           system; mechanisms for implementing account management
     statement: >-
@@ -627,7 +627,7 @@ objectives:
   - id: i.3
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; personnel termination policy and
           procedure; personnel transfer policy and procedure;
           procedures for addressing account management; system
@@ -643,13 +643,13 @@ objectives:
           system audit records; system security plan; privacy plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with account management
           responsibilities; system/network administrators;
           organizational personnel with information security with
           information security and privacy responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for account management on the
           system; mechanisms for implementing account management
     statement: >-
@@ -658,7 +658,7 @@ objectives:
   - id: j
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; personnel termination policy and
           procedure; personnel transfer policy and procedure;
           procedures for addressing account management; system
@@ -674,22 +674,22 @@ objectives:
           system audit records; system security plan; privacy plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with account management
           responsibilities; system/network administrators;
           organizational personnel with information security with
           information security and privacy responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for account management on the
           system; mechanisms for implementing account management
-    statement: >
+    statement: >-
       accounts are reviewed for compliance with account management
       requirements {{ ac_02_odp_10 }};
   - id: k-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; personnel termination policy and
           procedure; personnel transfer policy and procedure;
           procedures for addressing account management; system
@@ -705,23 +705,23 @@ objectives:
           system audit records; system security plan; privacy plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with account management
           responsibilities; system/network administrators;
           organizational personnel with information security with
           information security and privacy responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for account management on the
           system; mechanisms for implementing account management
-    statement: >
+    statement: >-
       a process is established for changing shared or group account
       authenticators (if deployed) when individuals are removed from
       the group;
   - id: k-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; personnel termination policy and
           procedure; personnel transfer policy and procedure;
           procedures for addressing account management; system
@@ -737,23 +737,23 @@ objectives:
           system audit records; system security plan; privacy plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with account management
           responsibilities; system/network administrators;
           organizational personnel with information security with
           information security and privacy responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for account management on the
           system; mechanisms for implementing account management
-    statement: >
+    statement: >-
       a process is implemented for changing shared or group account
       authenticators (if deployed) when individuals are removed from
       the group;
   - id: l-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; personnel termination policy and
           procedure; personnel transfer policy and procedure;
           procedures for addressing account management; system
@@ -769,13 +769,13 @@ objectives:
           system audit records; system security plan; privacy plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with account management
           responsibilities; system/network administrators;
           organizational personnel with information security with
           information security and privacy responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for account management on the
           system; mechanisms for implementing account management
     statement: >-
@@ -784,7 +784,7 @@ objectives:
   - id: l-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; personnel termination policy and
           procedure; personnel transfer policy and procedure;
           procedures for addressing account management; system
@@ -800,13 +800,13 @@ objectives:
           system audit records; system security plan; privacy plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with account management
           responsibilities; system/network administrators;
           organizational personnel with information security with
           information security and privacy responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for account management on the
           system; mechanisms for implementing account management
     statement: >-
@@ -835,7 +835,7 @@ parameters:
     label: frequency
 parts:
   - id: a
-    statement: >
+    statement: >-
       Define and document the types of accounts allowed and
       specifically prohibited for use within the system;
   - id: b
@@ -850,7 +850,7 @@ parts:
   - id: d.2
     statement: Group and role membership; and
   - id: d.3
-    statement: >
+    statement: >-
       Access authorizations (i.e., privileges) and
       {{ ac_02_odp_02 }} for each account;
   - id: e
@@ -858,7 +858,7 @@ parts:
       Require approvals by {{ ac_02_odp_03 }} for requests to create
       accounts;
   - id: f
-    statement: >
+    statement: >-
       Create, enable, modify, disable, and remove accounts in
       accordance with {{ ac_02_odp_04 }};
   - id: g
@@ -886,15 +886,15 @@ parts:
   - id: i.3
     statement: "{{ ac_02_odp_09 }};"
   - id: j
-    statement: >
+    statement: >-
       Review accounts for compliance with account management
       requirements {{ ac_02_odp_10 }};
   - id: k
-    statement: >
+    statement: >-
       Establish and implement a process for changing shared or group
       account authenticators (if deployed) when individuals are
       removed from the group; and
   - id: l
-    statement: >
+    statement: >-
       Align account management processes with personnel termination
       and transfer processes.

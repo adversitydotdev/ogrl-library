@@ -12,7 +12,7 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; access control policy
           and procedures; separation of duties policy and
@@ -22,13 +22,13 @@ objectives:
           system audit records; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel responsible for information input
           validation; organizational personnel with information
           security responsibilities; system/network administrators;
           system developer
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for the use of a manual override
           capability; mechanisms supporting and/or implementing a
           manual override capability for input validation;
@@ -40,7 +40,7 @@ objectives:
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; access control policy
           and procedures; separation of duties policy and
@@ -50,25 +50,25 @@ objectives:
           system audit records; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel responsible for information input
           validation; organizational personnel with information
           security responsibilities; system/network administrators;
           system developer
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for the use of a manual override
           capability; mechanisms supporting and/or implementing a
           manual override capability for input validation;
           mechanisms supporting and/or implementing auditing of the
           use of a manual override capability
-    statement: >
+    statement: >-
       the use of the manual override capability is restricted to
       only {{ si_10_01_odp }};
   - id: c
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; access control policy
           and procedures; separation of duties policy and
@@ -78,13 +78,13 @@ objectives:
           system audit records; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel responsible for information input
           validation; organizational personnel with information
           security responsibilities; system/network administrators;
           system developer
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for the use of a manual override
           capability; mechanisms supporting and/or implementing a
           manual override capability for input validation;
@@ -98,11 +98,11 @@ parameters:
     label: information inputs
 parts:
   - id: a
-    statement: >
+    statement: >-
       Provide a manual override capability for input validation of
       the following information inputs: {{ si_10_odp }};
   - id: b
-    statement: >
+    statement: >-
       Restrict the use of the manual override capability to only
       {{ si_10_01_odp }} ; and
   - id: c

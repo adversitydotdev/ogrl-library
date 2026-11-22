@@ -12,7 +12,7 @@ objectives:
   - id: "cm-05(06)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Configuration management policy; procedures addressing
           access restrictions for changes to the system;
           configuration management plan; system design
@@ -22,11 +22,11 @@ objectives:
           change control records; system audit records; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with information security
           responsibilities; system/network administrators
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for managing access restrictions
           to change; mechanisms supporting and/or implementing
           access restrictions for change

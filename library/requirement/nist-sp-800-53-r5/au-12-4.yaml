@@ -12,7 +12,7 @@ objectives:
   - id: "au-12(04).au-12(04)[01]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Audit and accountability policy; system security plan;
           privacy plan; procedures addressing audit record
           generation; query event records; system design
@@ -20,7 +20,7 @@ objectives:
           associated documentation; map of system data actions;
           system audit records; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with audit record generation
           responsibilities; organizational personnel with
           information security and privacy responsibilities;
@@ -28,14 +28,14 @@ objectives:
       - method: test
         statement: >-
           Mechanisms implementing audit record generation capability
-    statement: >
+    statement: >-
       the capability to audit the parameters of user query events
       for data sets containing personally identifiable information
       is provided;
   - id: "au-12(04).au-12(04)[02]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Audit and accountability policy; system security plan;
           privacy plan; procedures addressing audit record
           generation; query event records; system design
@@ -43,7 +43,7 @@ objectives:
           associated documentation; map of system data actions;
           system audit records; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with audit record generation
           responsibilities; organizational personnel with
           information security and privacy responsibilities;
@@ -51,11 +51,11 @@ objectives:
       - method: test
         statement: >-
           Mechanisms implementing audit record generation capability
-    statement: >
+    statement: >-
       the capability to audit the parameters of user query events
       for data sets containing personally identifiable information
       is implemented.
-statement: >
+statement: >-
   Provide and implement the capability for auditing the parameters
   of user query events for data sets containing personally
   identifiable information.

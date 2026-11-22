@@ -12,7 +12,7 @@ objectives:
   - id: "si-04(14).si-04(14)[01]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; procedures addressing
           system monitoring tools and techniques; system design
@@ -22,7 +22,7 @@ objectives:
           records; system security plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; organizational
           personnel installing, configuring, and/or maintaining the
@@ -30,17 +30,17 @@ objectives:
           monitoring the system; organizational personnel
           responsible for the intrusion detection system
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for intrusion detection;
           mechanisms supporting and/or implementing a wireless
           intrusion detection capability
-    statement: >
+    statement: >-
       a wireless intrusion detection system is employed to identify
       rogue wireless devices;
   - id: "si-04(14).si-04(14)[02]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; procedures addressing
           system monitoring tools and techniques; system design
@@ -50,7 +50,7 @@ objectives:
           records; system security plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; organizational
           personnel installing, configuring, and/or maintaining the
@@ -58,17 +58,17 @@ objectives:
           monitoring the system; organizational personnel
           responsible for the intrusion detection system
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for intrusion detection;
           mechanisms supporting and/or implementing a wireless
           intrusion detection capability
-    statement: >
+    statement: >-
       a wireless intrusion detection system is employed to detect
       attack attempts on the system;
   - id: "si-04(14).si-04(14)[03]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; procedures addressing
           system monitoring tools and techniques; system design
@@ -78,7 +78,7 @@ objectives:
           records; system security plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; organizational
           personnel installing, configuring, and/or maintaining the
@@ -86,14 +86,14 @@ objectives:
           monitoring the system; organizational personnel
           responsible for the intrusion detection system
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for intrusion detection;
           mechanisms supporting and/or implementing a wireless
           intrusion detection capability
-    statement: >
+    statement: >-
       a wireless intrusion detection system is employed to detect
       potential compromises or breaches to the system.
-statement: >
+statement: >-
   Employ a wireless intrusion detection system to identify rogue
   wireless devices and to detect attack attempts and potential
   compromises or breaches to the system.

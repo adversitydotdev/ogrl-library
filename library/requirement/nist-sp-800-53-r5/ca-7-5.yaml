@@ -12,7 +12,7 @@ objectives:
   - id: "ca-07(05).ca-07(05)[01]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Assessment, authorization, and monitoring policy;
           organizational continuous monitoring strategy;
           system-level continuous monitoring strategy; procedures
@@ -22,7 +22,7 @@ objectives:
           analyses; status reports; system security plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with continuous monitoring
           responsibilities; organizational personnel with
           information security and privacy responsibilities
@@ -34,7 +34,7 @@ objectives:
   - id: "ca-07(05).ca-07(05)[02]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Assessment, authorization, and monitoring policy;
           organizational continuous monitoring strategy;
           system-level continuous monitoring strategy; procedures
@@ -44,13 +44,13 @@ objectives:
           analyses; status reports; system security plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with continuous monitoring
           responsibilities; organizational personnel with
           information security and privacy responsibilities
       - method: test
         statement: Mechanisms supporting consistency analyses
-    statement: >
+    statement: >-
       {{ ca_07_05_odp_02 }} are employed to validate that
       implemented controls are operating in a consistent manner.
 parameters:
@@ -60,7 +60,7 @@ parameters:
     label: actions
   ca_7_5_prm_1:
     label: organization-defined actions
-statement: >
+statement: >-
   Employ the following actions to validate that policies are
   established and implemented controls are operating in a consistent
   manner: {{ ca_7_5_prm_1 }}.

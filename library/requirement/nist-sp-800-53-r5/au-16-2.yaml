@@ -12,18 +12,18 @@ objectives:
   - id: "au-16(02)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Audit and accountability policy; system security plan;
           privacy plan; procedures addressing cross-organizational
           sharing of audit information; information sharing
           agreements; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for sharing
           cross-organizational audit information; organizational
           personnel with information security and privacy
           responsibilities
-    statement: >
+    statement: >-
       cross-organizational audit information is provided to
       {{ au_16_02_odp_01 }} based on {{ au_16_02_odp_02 }}.
 parameters:
@@ -31,6 +31,6 @@ parameters:
     label: organizations
   au_16_02_odp_02:
     label: cross-organizational sharing agreements
-statement: >
+statement: >-
   Provide cross-organizational audit information to
   {{ au_16_02_odp_01 }} based on {{ au_16_02_odp_02 }}.

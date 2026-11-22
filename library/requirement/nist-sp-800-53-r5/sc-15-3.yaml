@@ -12,7 +12,7 @@ objectives:
   - id: "sc-15(03)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing collaborative computing; access control policy
           and procedures; system design documentation; system
@@ -23,16 +23,16 @@ objectives:
           removed; system security plan; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; organizational
           personnel with responsibilities for managing collaborative
           computing devices
       - method: test
-        statement: >
+        statement: >-
           Mechanisms supporting and/or implementing the capability
           to disable collaborative computing devices
-    statement: >
+    statement: >-
       collaborative computing devices and applications are disabled
       or removed from {{ sc_15_03_odp_01 }} in
       {{ sc_15_03_odp_02 }}.
@@ -41,6 +41,6 @@ parameters:
     label: systems or system components
   sc_15_03_odp_02:
     label: secure work areas
-statement: >
+statement: >-
   Disable or remove collaborative computing devices and applications
   from {{ sc_15_03_odp_01 }} in {{ sc_15_03_odp_02 }}.

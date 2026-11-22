@@ -16,7 +16,7 @@ objectives:
   - id: _obj
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System design documentation; system architecture;
           independent verification and validation documentation;
           testing and evaluation documentation; other relevant
@@ -25,7 +25,7 @@ objectives:
         statement: >-
           System developers/integrators; system security architect
       - method: test
-        statement: >
+        statement: >-
           Mechanisms supporting and/or implementing separate
           execution domains for each executing process
     statement: >-

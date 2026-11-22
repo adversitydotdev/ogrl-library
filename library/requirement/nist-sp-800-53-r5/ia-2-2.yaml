@@ -12,7 +12,7 @@ objectives:
   - id: "ia-02(02)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Identification and authentication policy; system security
           plan; procedures addressing user identification and
           authentication; system design documentation; system
@@ -20,17 +20,17 @@ objectives:
           system audit records; list of system accounts; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system operations
           responsibilities; organizational personnel with account
           management responsibilities; organizational personnel with
           information security responsibilities; system/network
           administrators; system developers
       - method: test
-        statement: >
+        statement: >-
           Mechanisms supporting and/or implementing a multi-factor
           authentication capability
-    statement: >
+    statement: >-
       multi-factor authentication for access to non-privileged
       accounts is implemented.
 statement: >-

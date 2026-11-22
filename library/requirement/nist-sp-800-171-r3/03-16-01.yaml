@@ -22,7 +22,7 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           system and services acquisition policy; system and
           services acquisition procedures; procedures addressing
           security engineering principles used in the development
@@ -31,24 +31,24 @@ objectives:
           for the system; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with acquisition/contracting responsibilities;
           personnel with information security responsibilities;
           personnel with system development and modification
           responsibilities; system developers
       - method: test
-        statement: >
+        statement: >-
           processes for applying security engineering principles in
           system development and modification; mechanisms supporting
           the application of security engineering principles in
           system development and modification
-    statement: >
+    statement: >-
       {{ a_03_16_01_odp_01 }} are applied to the development or
       modification of the system and system components.
 parameters:
   a_03_16_01_odp_01:
     label: systems security engineering principles
-statement: >
+statement: >-
   Apply the following systems security engineering principles to the
   development or modification of the system and system components:
   {{ a_03_16_01_odp_01 }}.

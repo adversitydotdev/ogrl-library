@@ -12,7 +12,7 @@ objectives:
   - id: a-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Audit and accountability policy; system security plan;
           privacy plan; procedures addressing audit reduction and
           report generation; system design documentation; system
@@ -20,13 +20,13 @@ objectives:
           reduction, review, analysis, and reporting tools; system
           audit records; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with audit reduction and report
           generation responsibilities; organizational personnel with
           information security and privacy responsibilities
       - method: test
         statement: Audit reduction and report generation capability
-    statement: >
+    statement: >-
       an audit record reduction and report generation capability is
       provided that supports on-demand audit record review,
       analysis, and reporting requirements and after-the-fact
@@ -34,7 +34,7 @@ objectives:
   - id: a-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Audit and accountability policy; system security plan;
           privacy plan; procedures addressing audit reduction and
           report generation; system design documentation; system
@@ -42,13 +42,13 @@ objectives:
           reduction, review, analysis, and reporting tools; system
           audit records; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with audit reduction and report
           generation responsibilities; organizational personnel with
           information security and privacy responsibilities
       - method: test
         statement: Audit reduction and report generation capability
-    statement: >
+    statement: >-
       an audit record reduction and report generation capability is
       implemented that supports on-demand audit record review,
       analysis, and reporting requirements and after-the-fact
@@ -56,7 +56,7 @@ objectives:
   - id: b-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Audit and accountability policy; system security plan;
           privacy plan; procedures addressing audit reduction and
           report generation; system design documentation; system
@@ -64,20 +64,20 @@ objectives:
           reduction, review, analysis, and reporting tools; system
           audit records; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with audit reduction and report
           generation responsibilities; organizational personnel with
           information security and privacy responsibilities
       - method: test
         statement: Audit reduction and report generation capability
-    statement: >
+    statement: >-
       an audit record reduction and report generation capability is
       provided that does not alter the original content or time
       ordering of audit records;
   - id: b-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Audit and accountability policy; system security plan;
           privacy plan; procedures addressing audit reduction and
           report generation; system design documentation; system
@@ -85,19 +85,19 @@ objectives:
           reduction, review, analysis, and reporting tools; system
           audit records; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with audit reduction and report
           generation responsibilities; organizational personnel with
           information security and privacy responsibilities
       - method: test
         statement: Audit reduction and report generation capability
-    statement: >
+    statement: >-
       an audit record reduction and report generation capability is
       implemented that does not alter the original content or time
       ordering of audit records.
 parts:
   - id: a
-    statement: >
+    statement: >-
       Supports on-demand audit record review, analysis, and
       reporting requirements and after-the-fact investigations of
       incidents; and
@@ -105,6 +105,6 @@ parts:
     statement: >-
       Does not alter the original content or time ordering of audit
       records.
-statement: >
+statement: >-
   Provide and implement an audit record reduction and report
   generation capability that:

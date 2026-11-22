@@ -12,7 +12,7 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; procedures addressing
           malicious code protection; system design documentation;
@@ -22,26 +22,26 @@ objectives:
           associated documentation; system audit records; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; system
           developers; organizational personnel installing,
           configuring, and/or maintaining the system; organizational
           personnel responsible for malicious code protection
       - method: test
-        statement: >
+        statement: >-
           Mechanisms supporting and/or implementing malicious code
           protection capabilities; mechanisms supporting and/or
           implementing the detection of unauthorized operating
           system commands through the kernel application programming
           interface
-    statement: >
+    statement: >-
       {{ si_03_08_odp_01 }} are detected through the kernel
       application programming interface on {{ si_03_08_odp_02 }};
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; procedures addressing
           malicious code protection; system design documentation;
@@ -51,14 +51,14 @@ objectives:
           associated documentation; system audit records; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; system
           developers; organizational personnel installing,
           configuring, and/or maintaining the system; organizational
           personnel responsible for malicious code protection
       - method: test
-        statement: >
+        statement: >-
           Mechanisms supporting and/or implementing malicious code
           protection capabilities; mechanisms supporting and/or
           implementing the detection of unauthorized operating
@@ -74,7 +74,7 @@ parameters:
     label: si-03.08_odp.03
 parts:
   - id: a
-    statement: >
+    statement: >-
       Detect the following unauthorized operating system commands
       through the kernel application programming interface on
       {{ si_03_08_odp_02 }}: {{ si_03_08_odp_01 }} ; and

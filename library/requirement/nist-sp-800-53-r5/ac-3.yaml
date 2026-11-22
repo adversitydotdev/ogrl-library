@@ -37,7 +37,7 @@ objectives:
   - id: ac-03
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; procedures addressing access
           enforcement; system design documentation; system
           configuration settings and associated documentation; list
@@ -45,18 +45,18 @@ objectives:
           records; system security plan; privacy plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with access enforcement
           responsibilities; system/network administrators;
           organizational personnel with information security and
           privacy responsibilities; system developers
       - method: test
         statement: Mechanisms implementing access control policy
-    statement: >
+    statement: >-
       approved authorizations for logical access to information and
       system resources are enforced in accordance with applicable
       access control policies.
-statement: >
+statement: >-
   Enforce approved authorizations for logical access to information
   and system resources in accordance with applicable access control
   policies.

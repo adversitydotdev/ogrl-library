@@ -12,7 +12,7 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Audit and accountability policy; procedures addressing
           response to audit processing failures; system design
           documentation; system security plan; privacy plan; system
@@ -21,7 +21,7 @@ objectives:
           failure; system audit records; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with audit and accountability
           responsibilities; organizational personnel with
           information security and privacy responsibilities;
@@ -30,13 +30,13 @@ objectives:
         statement: >-
           Mechanisms implementing system response to audit
           processing failures
-    statement: >
+    statement: >-
       {{ au_05_odp_01 }} are alerted in the event of an audit
       logging process failure within {{ au_05_odp_02 }};
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Audit and accountability policy; procedures addressing
           response to audit processing failures; system design
           documentation; system security plan; privacy plan; system
@@ -45,7 +45,7 @@ objectives:
           failure; system audit records; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with audit and accountability
           responsibilities; organizational personnel with
           information security and privacy responsibilities;
@@ -66,7 +66,7 @@ parameters:
     label: additional actions
 parts:
   - id: a
-    statement: >
+    statement: >-
       Alert {{ au_05_odp_01 }} within {{ au_05_odp_02 }} in the
       event of an audit logging process failure; and
   - id: b

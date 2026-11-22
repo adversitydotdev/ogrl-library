@@ -12,7 +12,7 @@ objectives:
   - id: "si-04(20)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; procedures addressing
           system monitoring tools and techniques; system design
@@ -22,14 +22,14 @@ objectives:
           records; system audit records; system security plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; organizational
           personnel installing, configuring, and/or maintaining the
           system; organizational personnel responsible for
           monitoring the system
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for system monitoring; mechanisms
           supporting and/or implementing a system monitoring
           capability
@@ -38,6 +38,6 @@ objectives:
 parameters:
   si_04_20_odp:
     label: additional monitoring
-statement: >
+statement: >-
   Implement the following additional monitoring of privileged users:
   {{ si_04_20_odp }}.

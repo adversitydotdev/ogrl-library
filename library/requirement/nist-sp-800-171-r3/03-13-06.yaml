@@ -23,14 +23,14 @@ objectives:
   - id: "01"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           system and communications protection policy and
           procedures; procedures for boundary protection; system
           design documentation; system configuration settings;
           system audit records; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with boundary protection responsibilities;
           personnel with information security responsibilities;
           system developers; system administrators
@@ -42,14 +42,14 @@ objectives:
   - id: "02"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           system and communications protection policy and
           procedures; procedures for boundary protection; system
           design documentation; system configuration settings;
           system audit records; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with boundary protection responsibilities;
           personnel with information security responsibilities;
           system developers; system administrators
@@ -59,6 +59,6 @@ objectives:
           interfaces
     statement: >-
       network communications traffic is allowed by exception.
-statement: >
+statement: >-
   Deny network communications traffic by default, and allow network
   communications traffic by exception.

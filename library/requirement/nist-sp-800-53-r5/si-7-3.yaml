@@ -12,7 +12,7 @@ objectives:
   - id: "si-07(03)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; procedures addressing
           software, firmware, and information integrity; system
@@ -21,12 +21,12 @@ objectives:
           associated documentation; records of integrity scans;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel responsible for the central
           management of integrity verification tools; organizational
           personnel with information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Mechanisms supporting and/or implementing the central
           management of integrity verification tools
     statement: >-

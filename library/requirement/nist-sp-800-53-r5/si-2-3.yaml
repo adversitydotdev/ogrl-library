@@ -12,7 +12,7 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; procedures addressing
           flaw remediation; system design documentation; system
@@ -22,14 +22,14 @@ objectives:
           identification and subsequent flaw remediation activities;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; organizational
           personnel installing, configuring, and/or maintaining the
           system; organizational personnel responsible for flaw
           remediation
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for identifying, reporting, and
           correcting system flaws; mechanisms used to measure the
           time between flaw identification and flaw remediation
@@ -39,7 +39,7 @@ objectives:
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; procedures addressing
           flaw remediation; system design documentation; system
@@ -49,14 +49,14 @@ objectives:
           identification and subsequent flaw remediation activities;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; organizational
           personnel installing, configuring, and/or maintaining the
           system; organizational personnel responsible for flaw
           remediation
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for identifying, reporting, and
           correcting system flaws; mechanisms used to measure the
           time between flaw identification and flaw remediation
@@ -72,6 +72,6 @@ parts:
       Measure the time between flaw identification and flaw
       remediation; and
   - id: b
-    statement: >
+    statement: >-
       Establish the following benchmarks for taking corrective
       actions: {{ si_02_03_odp }}.

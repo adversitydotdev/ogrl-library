@@ -12,7 +12,7 @@ objectives:
   - id: "sr-09(01)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Supply chain risk management policy and procedures; supply
           chain risk management plan; system and services
           acquisition policy; procedures addressing tamper
@@ -28,7 +28,7 @@ objectives:
           agreements and procedures; system security plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and services
           acquisition responsibilities; organizational personnel
           with information security responsibilities; organizational
@@ -36,13 +36,13 @@ objectives:
           responsibilities; organizational personnel with SDLC
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for employing anti-tamper
           technologies; mechanisms supporting and/or implementing
           anti-tamper technologies
-    statement: >
+    statement: >-
       anti-tamper technologies, tools, and techniques are employed
       throughout the system development life cycle.
-statement: >
+statement: >-
   Employ anti-tamper technologies, tools, and techniques throughout
   the system development life cycle.

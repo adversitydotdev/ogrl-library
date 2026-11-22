@@ -12,7 +12,7 @@ objectives:
   - id: "ac-06(08)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; procedures addressing least
           privilege; list of software that should not execute at
           higher privilege levels than users executing software;
@@ -20,7 +20,7 @@ objectives:
           and associated documentation; system audit records; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for
           defining least privileges necessary to accomplish
           specified tasks; organizational personnel with information
@@ -30,12 +30,12 @@ objectives:
         statement: >-
           Mechanisms implementing least privilege functions for
           software execution
-    statement: >
+    statement: >-
       {{ ac_06_08_odp }} is prevented from executing at higher
       privilege levels than users executing the software.
 parameters:
   ac_06_08_odp:
     label: software
-statement: >
+statement: >-
   Prevent the following software from executing at higher privilege
   levels than users executing the software: {{ ac_06_08_odp }}.

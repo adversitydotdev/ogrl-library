@@ -12,7 +12,7 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; supply chain risk
           management policy and procedures; procedures addressing
           external system services; acquisition documentation;
@@ -22,7 +22,7 @@ objectives:
           services; system security plan; supply chain risk
           management plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and service
           acquisition responsibilities; organizational personnel
           with system security responsibilities; external providers
@@ -31,20 +31,20 @@ objectives:
           personnel with supply chain risk management
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for conducting a risk assessment
           prior to acquiring or outsourcing dedicated security
           services; organizational processes for approving the
           outsourcing of dedicated security services; mechanisms
           supporting and/or implementing risk assessment; mechanisms
           supporting and/or implementing approval processes
-    statement: >
+    statement: >-
       an organizational assessment of risk is conducted prior to the
       acquisition or outsourcing of information security services;
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; supply chain risk
           management policy and procedures; procedures addressing
           external system services; acquisition documentation;
@@ -54,7 +54,7 @@ objectives:
           services; system security plan; supply chain risk
           management plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and service
           acquisition responsibilities; organizational personnel
           with system security responsibilities; external providers
@@ -63,14 +63,14 @@ objectives:
           personnel with supply chain risk management
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for conducting a risk assessment
           prior to acquiring or outsourcing dedicated security
           services; organizational processes for approving the
           outsourcing of dedicated security services; mechanisms
           supporting and/or implementing risk assessment; mechanisms
           supporting and/or implementing approval processes
-    statement: >
+    statement: >-
       {{ sa_09_01_odp }} approve the acquisition or outsourcing of
       dedicated information security services.
 parameters:
@@ -78,12 +78,12 @@ parameters:
     label: personnel or roles
 parts:
   - id: a
-    statement: >
+    statement: >-
       Conduct an organizational assessment of risk prior to the
       acquisition or outsourcing of information security services;
       and
   - id: b
-    statement: >
+    statement: >-
       Verify that the acquisition or outsourcing of dedicated
       information security services is approved by
       {{ sa_09_01_odp }}.

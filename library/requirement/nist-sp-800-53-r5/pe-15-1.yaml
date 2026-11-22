@@ -12,7 +12,7 @@ objectives:
   - id: "pe-15(01).pe-15(01)[01]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Physical and environmental protection policy; procedures
           addressing water damage protection; facility housing the
           system; automated mechanisms for water shutoff valves;
@@ -21,12 +21,12 @@ objectives:
           water detection in system facility; system security plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for system
           environmental controls; organizational personnel with
           information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Automated mechanisms supporting and/or implementing water
           detection capabilities and alerts for the system
     statement: >-
@@ -35,7 +35,7 @@ objectives:
   - id: "pe-15(01).pe-15(01)[02]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Physical and environmental protection policy; procedures
           addressing water damage protection; facility housing the
           system; automated mechanisms for water shutoff valves;
@@ -44,12 +44,12 @@ objectives:
           water detection in system facility; system security plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for system
           environmental controls; organizational personnel with
           information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Automated mechanisms supporting and/or implementing water
           detection capabilities and alerts for the system
     statement: >-
@@ -60,6 +60,6 @@ parameters:
     label: personnel or roles
   pe_15_01_odp_02:
     label: automated mechanisms
-statement: >
+statement: >-
   Detect the presence of water near the system and alert
   {{ pe_15_01_odp_01 }} using {{ pe_15_01_odp_02 }}.

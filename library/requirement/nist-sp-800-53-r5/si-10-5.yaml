@@ -12,7 +12,7 @@ objectives:
   - id: "si-10(05)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; procedures addressing
           information input validation; system design documentation;
@@ -22,17 +22,17 @@ objectives:
           system audit records; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel responsible for information input
           validation; organizational personnel with information
           security responsibilities; system/network administrators;
           system developer
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for restricting information
           inputs; automated mechanisms supporting and/or
           implementing restriction of information inputs
-    statement: >
+    statement: >-
       the use of information inputs is restricted to
       {{ si_10_05_odp_01 }} and/or {{ si_10_05_odp_02 }}.
 parameters:
@@ -40,6 +40,6 @@ parameters:
     label: trusted sources
   si_10_05_odp_02:
     label: formats
-statement: >
+statement: >-
   Restrict the use of information inputs to {{ si_10_05_odp_01 }}
   and/or {{ si_10_05_odp_02 }}.

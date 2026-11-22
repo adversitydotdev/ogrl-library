@@ -22,7 +22,7 @@ objectives:
   - id: a-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; system and
           services acquisition procedures; system and services
           acquisition strategy and plans; procedures addressing the
@@ -33,7 +33,7 @@ objectives:
           plan; privacy plan; supply chain risk management policy;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with capital planning, investment
           control, organizational programming, and budgeting
           responsibilities; organizational personnel with
@@ -41,21 +41,21 @@ objectives:
           organizational personnel with supply chain risk management
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for determining information
           security and privacy requirements; organizational
           processes for capital planning, programming, and
           budgeting; mechanisms supporting and/or implementing
           organizational capital planning, programming, and
           budgeting
-    statement: >
+    statement: >-
       the high-level information security requirements for the
       system or system service are determined in mission and
       business process planning;
   - id: a-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; system and
           services acquisition procedures; system and services
           acquisition strategy and plans; procedures addressing the
@@ -66,7 +66,7 @@ objectives:
           plan; privacy plan; supply chain risk management policy;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with capital planning, investment
           control, organizational programming, and budgeting
           responsibilities; organizational personnel with
@@ -74,21 +74,21 @@ objectives:
           organizational personnel with supply chain risk management
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for determining information
           security and privacy requirements; organizational
           processes for capital planning, programming, and
           budgeting; mechanisms supporting and/or implementing
           organizational capital planning, programming, and
           budgeting
-    statement: >
+    statement: >-
       the high-level privacy requirements for the system or system
       service are determined in mission and business process
       planning;
   - id: b-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; system and
           services acquisition procedures; system and services
           acquisition strategy and plans; procedures addressing the
@@ -99,7 +99,7 @@ objectives:
           plan; privacy plan; supply chain risk management policy;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with capital planning, investment
           control, organizational programming, and budgeting
           responsibilities; organizational personnel with
@@ -107,21 +107,21 @@ objectives:
           organizational personnel with supply chain risk management
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for determining information
           security and privacy requirements; organizational
           processes for capital planning, programming, and
           budgeting; mechanisms supporting and/or implementing
           organizational capital planning, programming, and
           budgeting
-    statement: >
+    statement: >-
       the resources required to protect the system or system service
       are determined and documented as part of the organizational
       capital planning and investment control process;
   - id: b-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; system and
           services acquisition procedures; system and services
           acquisition strategy and plans; procedures addressing the
@@ -132,7 +132,7 @@ objectives:
           plan; privacy plan; supply chain risk management policy;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with capital planning, investment
           control, organizational programming, and budgeting
           responsibilities; organizational personnel with
@@ -140,21 +140,21 @@ objectives:
           organizational personnel with supply chain risk management
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for determining information
           security and privacy requirements; organizational
           processes for capital planning, programming, and
           budgeting; mechanisms supporting and/or implementing
           organizational capital planning, programming, and
           budgeting
-    statement: >
+    statement: >-
       the resources required to protect the system or system service
       are allocated as part of the organizational capital planning
       and investment control process;
   - id: c-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; system and
           services acquisition procedures; system and services
           acquisition strategy and plans; procedures addressing the
@@ -165,7 +165,7 @@ objectives:
           plan; privacy plan; supply chain risk management policy;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with capital planning, investment
           control, organizational programming, and budgeting
           responsibilities; organizational personnel with
@@ -173,20 +173,20 @@ objectives:
           organizational personnel with supply chain risk management
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for determining information
           security and privacy requirements; organizational
           processes for capital planning, programming, and
           budgeting; mechanisms supporting and/or implementing
           organizational capital planning, programming, and
           budgeting
-    statement: >
+    statement: >-
       a discrete line item for information security is established
       in organizational programming and budgeting documentation;
   - id: c-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; system and
           services acquisition procedures; system and services
           acquisition strategy and plans; procedures addressing the
@@ -197,7 +197,7 @@ objectives:
           plan; privacy plan; supply chain risk management policy;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with capital planning, investment
           control, organizational programming, and budgeting
           responsibilities; organizational personnel with
@@ -205,30 +205,30 @@ objectives:
           organizational personnel with supply chain risk management
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for determining information
           security and privacy requirements; organizational
           processes for capital planning, programming, and
           budgeting; mechanisms supporting and/or implementing
           organizational capital planning, programming, and
           budgeting
-    statement: >
+    statement: >-
       a discrete line item for privacy is established in
       organizational programming and budgeting documentation.
 parts:
   - id: a
-    statement: >
+    statement: >-
       Determine the high-level information security and privacy
       requirements for the system or system service in mission and
       business process planning;
   - id: b
-    statement: >
+    statement: >-
       Determine, document, and allocate the resources required to
       protect the system or system service as part of the
       organizational capital planning and investment control
       process; and
   - id: c
-    statement: >
+    statement: >-
       Establish a discrete line item for information security and
       privacy in organizational programming and budgeting
       documentation.

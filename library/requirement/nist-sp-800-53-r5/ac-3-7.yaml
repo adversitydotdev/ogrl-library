@@ -12,7 +12,7 @@ objectives:
   - id: "ac-03(07).ac-03(07)[01]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; role-based access control policies;
           procedures addressing access enforcement; system design
           documentation; system configuration settings and
@@ -21,7 +21,7 @@ objectives:
           system audit records; system security plan; privacy plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with access enforcement
           responsibilities; system/network administrators;
           organizational personnel with information security and
@@ -35,7 +35,7 @@ objectives:
   - id: "ac-03(07).ac-03(07)[02]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; role-based access control policies;
           procedures addressing access enforcement; system design
           documentation; system configuration settings and
@@ -44,7 +44,7 @@ objectives:
           system audit records; system security plan; privacy plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with access enforcement
           responsibilities; system/network administrators;
           organizational personnel with information security and
@@ -58,7 +58,7 @@ objectives:
   - id: "ac-03(07).ac-03(07)[03]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; role-based access control policies;
           procedures addressing access enforcement; system design
           documentation; system configuration settings and
@@ -67,7 +67,7 @@ objectives:
           system audit records; system security plan; privacy plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with access enforcement
           responsibilities; system/network administrators;
           organizational personnel with information security and
@@ -87,6 +87,6 @@ parameters:
     label: >-
       organization-defined roles and users authorized to assume such
       roles
-statement: >
+statement: >-
   Enforce a role-based access control policy over defined subjects
   and objects and control access based upon {{ ac_3_7_prm_1 }}.

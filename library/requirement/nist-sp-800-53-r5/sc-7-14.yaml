@@ -12,7 +12,7 @@ objectives:
   - id: "sc-07(14)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing boundary protection; system design
           documentation; system hardware and software; system
@@ -20,12 +20,12 @@ objectives:
           documentation; facility communications and wiring diagram
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; organizational
           personnel with boundary protection responsibilities
       - method: test
-        statement: >
+        statement: >-
           Mechanisms supporting and/or implementing protection
           against unauthorized physical connections
     statement: >-

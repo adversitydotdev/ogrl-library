@@ -16,7 +16,7 @@ objectives:
   - id: a.01
     methods:
       - method: examine
-        statement: >
+        statement: >-
           access control policy and procedures; procedures for
           system connections; system and communications protection
           policy and procedures; system interconnection security
@@ -27,19 +27,19 @@ objectives:
           architecture; system configuration settings; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with development, implementation, and approval
           responsibilities for system interconnection agreements;
           personnel who manage systems to which the exchange
           agreements apply; personnel with information security
           responsibilities
-    statement: >
+    statement: >-
       the exchange of CUI between the system and other systems is
       approved using {{ a_03_12_05_odp_01 }}.
   - id: a.02
     methods:
       - method: examine
-        statement: >
+        statement: >-
           access control policy and procedures; procedures for
           system connections; system and communications protection
           policy and procedures; system interconnection security
@@ -50,19 +50,19 @@ objectives:
           architecture; system configuration settings; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with development, implementation, and approval
           responsibilities for system interconnection agreements;
           personnel who manage systems to which the exchange
           agreements apply; personnel with information security
           responsibilities
-    statement: >
+    statement: >-
       the exchange of CUI between the system and other systems is
       managed using {{ a_03_12_05_odp_01 }}.
   - id: b.01
     methods:
       - method: examine
-        statement: >
+        statement: >-
           access control policy and procedures; procedures for
           system connections; system and communications protection
           policy and procedures; system interconnection security
@@ -73,19 +73,19 @@ objectives:
           architecture; system configuration settings; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with development, implementation, and approval
           responsibilities for system interconnection agreements;
           personnel who manage systems to which the exchange
           agreements apply; personnel with information security
           responsibilities
-    statement: >
+    statement: >-
       interface characteristics for each system are documented as
       part of the exchange agreements.
   - id: b.02
     methods:
       - method: examine
-        statement: >
+        statement: >-
           access control policy and procedures; procedures for
           system connections; system and communications protection
           policy and procedures; system interconnection security
@@ -96,19 +96,19 @@ objectives:
           architecture; system configuration settings; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with development, implementation, and approval
           responsibilities for system interconnection agreements;
           personnel who manage systems to which the exchange
           agreements apply; personnel with information security
           responsibilities
-    statement: >
+    statement: >-
       security requirements for each system are documented as part
       of the exchange agreements.
   - id: b.03
     methods:
       - method: examine
-        statement: >
+        statement: >-
           access control policy and procedures; procedures for
           system connections; system and communications protection
           policy and procedures; system interconnection security
@@ -119,19 +119,19 @@ objectives:
           architecture; system configuration settings; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with development, implementation, and approval
           responsibilities for system interconnection agreements;
           personnel who manage systems to which the exchange
           agreements apply; personnel with information security
           responsibilities
-    statement: >
+    statement: >-
       responsibilities for each system are documented as part of the
       exchange agreements.
   - id: c.01
     methods:
       - method: examine
-        statement: >
+        statement: >-
           access control policy and procedures; procedures for
           system connections; system and communications protection
           policy and procedures; system interconnection security
@@ -142,7 +142,7 @@ objectives:
           architecture; system configuration settings; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with development, implementation, and approval
           responsibilities for system interconnection agreements;
           personnel who manage systems to which the exchange
@@ -153,7 +153,7 @@ objectives:
   - id: c.02
     methods:
       - method: examine
-        statement: >
+        statement: >-
           access control policy and procedures; procedures for
           system connections; system and communications protection
           policy and procedures; system interconnection security
@@ -164,7 +164,7 @@ objectives:
           architecture; system configuration settings; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           personnel with development, implementation, and approval
           responsibilities for system interconnection agreements;
           personnel who manage systems to which the exchange
@@ -179,11 +179,11 @@ parameters:
     label: frequency
 parts:
   - id: a
-    statement: >
+    statement: >-
       Approve and manage the exchange of CUI between the system and
       other systems using {{ a_03_12_05_odp_01 }}.
   - id: b
-    statement: >
+    statement: >-
       Document interface characteristics, security requirements, and
       responsibilities for each system as part of the exchange
       agreements.

@@ -12,7 +12,7 @@ objectives:
   - id: "ac-04(07)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Access control policy; information flow control policies;
           procedures addressing information flow enforcement; system
           design documentation; system configuration settings and
@@ -20,7 +20,7 @@ objectives:
           associated configurations; system audit records; system
           security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; system
           developers
@@ -28,9 +28,9 @@ objectives:
         statement: >-
           Hardware mechanisms implementing information flow
           enforcement policy
-    statement: >
+    statement: >-
       one-way information flows are enforced through hardware-based
       flow control mechanisms.
-statement: >
+statement: >-
   Enforce one-way information flows through hardware-based flow
   control mechanisms.

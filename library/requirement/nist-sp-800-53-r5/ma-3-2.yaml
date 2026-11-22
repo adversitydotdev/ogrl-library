@@ -12,24 +12,24 @@ objectives:
   - id: "ma-03(02)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Maintenance policy; procedures addressing system
           maintenance tools; system maintenance tools and associated
           documentation; maintenance records; system security plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system maintenance
           responsibilities; organizational personnel with
           information security responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational process for inspecting media for malicious
           code; mechanisms supporting and/or implementing the
           inspection of media used for maintenance
-    statement: >
+    statement: >-
       media containing diagnostic and test programs are checked for
       malicious code before the media are used in the system.
-statement: >
+statement: >-
   Check media containing diagnostic and test programs for malicious
   code before the media are used in the system.

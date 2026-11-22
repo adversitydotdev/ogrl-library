@@ -28,7 +28,7 @@ objectives:
   - id: a-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; system and
           services acquisition procedures; procedures addressing
           system developer security and privacy testing; procedures
@@ -45,19 +45,19 @@ objectives:
           assessment documentation; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and service
           acquisition responsibilities; organizational personnel
           with information security and privacy responsibilities;
           organizational personnel with developer security and
           privacy testing responsibilities; system developers
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for monitoring developer security
           testing and evaluation; mechanisms supporting and/or
           implementing the monitoring of developer security and
           privacy testing and evaluation
-    statement: >
+    statement: >-
       the developer of the system, system component, or system
       service is required at all post-design stages of the system
       development life cycle to develop a plan for ongoing security
@@ -65,7 +65,7 @@ objectives:
   - id: a-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; system and
           services acquisition procedures; procedures addressing
           system developer security and privacy testing; procedures
@@ -82,19 +82,19 @@ objectives:
           assessment documentation; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and service
           acquisition responsibilities; organizational personnel
           with information security and privacy responsibilities;
           organizational personnel with developer security and
           privacy testing responsibilities; system developers
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for monitoring developer security
           testing and evaluation; mechanisms supporting and/or
           implementing the monitoring of developer security and
           privacy testing and evaluation
-    statement: >
+    statement: >-
       the developer of the system, system component, or system
       service is required at all post-design stages of the system
       development life cycle to implement a plan for ongoing
@@ -102,7 +102,7 @@ objectives:
   - id: a-3
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; system and
           services acquisition procedures; procedures addressing
           system developer security and privacy testing; procedures
@@ -119,19 +119,19 @@ objectives:
           assessment documentation; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and service
           acquisition responsibilities; organizational personnel
           with information security and privacy responsibilities;
           organizational personnel with developer security and
           privacy testing responsibilities; system developers
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for monitoring developer security
           testing and evaluation; mechanisms supporting and/or
           implementing the monitoring of developer security and
           privacy testing and evaluation
-    statement: >
+    statement: >-
       the developer of the system, system component, or system
       service is required at all post-design stages of the system
       development life cycle to develop a plan for privacy
@@ -139,7 +139,7 @@ objectives:
   - id: a-4
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; system and
           services acquisition procedures; procedures addressing
           system developer security and privacy testing; procedures
@@ -156,19 +156,19 @@ objectives:
           assessment documentation; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and service
           acquisition responsibilities; organizational personnel
           with information security and privacy responsibilities;
           organizational personnel with developer security and
           privacy testing responsibilities; system developers
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for monitoring developer security
           testing and evaluation; mechanisms supporting and/or
           implementing the monitoring of developer security and
           privacy testing and evaluation
-    statement: >
+    statement: >-
       the developer of the system, system component, or system
       service is required at all post-design stages of the system
       development life cycle to implement a plan for ongoing privacy
@@ -176,7 +176,7 @@ objectives:
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; system and
           services acquisition procedures; procedures addressing
           system developer security and privacy testing; procedures
@@ -193,19 +193,19 @@ objectives:
           assessment documentation; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and service
           acquisition responsibilities; organizational personnel
           with information security and privacy responsibilities;
           organizational personnel with developer security and
           privacy testing responsibilities; system developers
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for monitoring developer security
           testing and evaluation; mechanisms supporting and/or
           implementing the monitoring of developer security and
           privacy testing and evaluation
-    statement: >
+    statement: >-
       the developer of the system, system component, or system
       service is required at all post-design stages of the system
       development life cycle to perform {{ sa_11_odp_01 }}
@@ -213,7 +213,7 @@ objectives:
   - id: c-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; system and
           services acquisition procedures; procedures addressing
           system developer security and privacy testing; procedures
@@ -230,19 +230,19 @@ objectives:
           assessment documentation; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and service
           acquisition responsibilities; organizational personnel
           with information security and privacy responsibilities;
           organizational personnel with developer security and
           privacy testing responsibilities; system developers
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for monitoring developer security
           testing and evaluation; mechanisms supporting and/or
           implementing the monitoring of developer security and
           privacy testing and evaluation
-    statement: >
+    statement: >-
       the developer of the system, system component, or system
       service is required at all post-design stages of the system
       development life cycle to produce evidence of the execution of
@@ -250,7 +250,7 @@ objectives:
   - id: c-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; system and
           services acquisition procedures; procedures addressing
           system developer security and privacy testing; procedures
@@ -267,19 +267,19 @@ objectives:
           assessment documentation; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and service
           acquisition responsibilities; organizational personnel
           with information security and privacy responsibilities;
           organizational personnel with developer security and
           privacy testing responsibilities; system developers
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for monitoring developer security
           testing and evaluation; mechanisms supporting and/or
           implementing the monitoring of developer security and
           privacy testing and evaluation
-    statement: >
+    statement: >-
       the developer of the system, system component, or system
       service is required at all post-design stages of the system
       development life cycle to produce the results of the testing
@@ -287,7 +287,7 @@ objectives:
   - id: d
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; system and
           services acquisition procedures; procedures addressing
           system developer security and privacy testing; procedures
@@ -304,19 +304,19 @@ objectives:
           assessment documentation; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and service
           acquisition responsibilities; organizational personnel
           with information security and privacy responsibilities;
           organizational personnel with developer security and
           privacy testing responsibilities; system developers
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for monitoring developer security
           testing and evaluation; mechanisms supporting and/or
           implementing the monitoring of developer security and
           privacy testing and evaluation
-    statement: >
+    statement: >-
       the developer of the system, system component, or system
       service is required at all post-design stages of the system
       development life cycle to implement a verifiable flaw
@@ -324,7 +324,7 @@ objectives:
   - id: e
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; system and
           services acquisition procedures; procedures addressing
           system developer security and privacy testing; procedures
@@ -341,19 +341,19 @@ objectives:
           assessment documentation; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and service
           acquisition responsibilities; organizational personnel
           with information security and privacy responsibilities;
           organizational personnel with developer security and
           privacy testing responsibilities; system developers
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for monitoring developer security
           testing and evaluation; mechanisms supporting and/or
           implementing the monitoring of developer security and
           privacy testing and evaluation
-    statement: >
+    statement: >-
       the developer of the system, system component, or system
       service is required at all post-design stages of the system
       development life cycle to correct flaws identified during
@@ -367,15 +367,15 @@ parameters:
     label: depth and coverage
 parts:
   - id: a
-    statement: >
+    statement: >-
       Develop and implement a plan for ongoing security and privacy
       control assessments;
   - id: b
-    statement: >
+    statement: >-
       Perform {{ sa_11_odp_01 }} testing/evaluation
       {{ sa_11_odp_02 }} at {{ sa_11_odp_03 }};
   - id: c
-    statement: >
+    statement: >-
       Produce evidence of the execution of the assessment plan and
       the results of the testing and evaluation;
   - id: d
@@ -383,7 +383,7 @@ parts:
   - id: e
     statement: >-
       Correct flaws identified during testing and evaluation.
-statement: >
+statement: >-
   Require the developer of the system, system component, or system
   service, at all post-design stages of the system development life
   cycle, to:

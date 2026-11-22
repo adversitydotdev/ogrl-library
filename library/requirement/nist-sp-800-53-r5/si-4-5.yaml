@@ -12,7 +12,7 @@ objectives:
   - id: "si-04(05)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and information integrity policy; system and
           information integrity procedures; procedures addressing
           system monitoring tools and techniques; system monitoring
@@ -23,7 +23,7 @@ objectives:
           records; system security plan; privacy plan; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security and privacy responsibilities;
           system developers; organizational personnel installing,
@@ -33,13 +33,13 @@ objectives:
           list; organizational personnel responsible for the
           intrusion detection system
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for intrusion detection and
           system monitoring; mechanisms supporting and/or
           implementing intrusion detection and system monitoring
           capabilities; mechanisms supporting and/or implementing
           alerts for compromise indicators
-    statement: >
+    statement: >-
       {{ si_04_05_odp_01 }} are alerted when system-generated
       {{ si_04_05_odp_02 }} occur.
 parameters:
@@ -47,7 +47,7 @@ parameters:
     label: personnel or roles
   si_04_05_odp_02:
     label: compromise indicators
-statement: >
+statement: >-
   Alert {{ si_04_05_odp_01 }} when the following system-generated
   indications of compromise or potential compromise occur:
   {{ si_04_05_odp_02 }}.

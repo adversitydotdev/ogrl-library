@@ -12,7 +12,7 @@ objectives:
   - id: "pe-13(04).pe-13(04)[01]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Physical and environmental protection policy; procedures
           addressing fire protection; facility housing the system;
           inspection plans; inspection results; inspect reports;
@@ -20,18 +20,18 @@ objectives:
           devices/systems; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for
           planning, approving, and executing fire inspections;
           organizational personnel with information security
           responsibilities
-    statement: >
+    statement: >-
       the facility undergoes fire protection inspections
       {{ pe_13_04_odp_01 }} by authorized and qualified inspectors;
   - id: "pe-13(04).pe-13(04)[02]"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Physical and environmental protection policy; procedures
           addressing fire protection; facility housing the system;
           inspection plans; inspection results; inspect reports;
@@ -39,12 +39,12 @@ objectives:
           devices/systems; system security plan; other relevant
           documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with responsibilities for
           planning, approving, and executing fire inspections;
           organizational personnel with information security
           responsibilities
-    statement: >
+    statement: >-
       the identified deficiencies from fire protection inspections
       are resolved within {{ pe_13_04_odp_02 }}.
 parameters:
@@ -52,7 +52,7 @@ parameters:
     label: frequency
   pe_13_04_odp_02:
     label: time period
-statement: >
+statement: >-
   Ensure that the facility undergoes {{ pe_13_04_odp_01 }} fire
   protection inspections by authorized and qualified inspectors and
   identified deficiencies are resolved within {{ pe_13_04_odp_02 }}.

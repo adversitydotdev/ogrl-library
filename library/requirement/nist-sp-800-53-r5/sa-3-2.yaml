@@ -12,7 +12,7 @@ objectives:
   - id: a-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; system and
           services acquisition procedures; procedures addressing the
           integration of security and privacy into the system
@@ -28,22 +28,22 @@ objectives:
           training, and research; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with information security and
           privacy responsibility; organizational personnel with
           system life cycle development responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes the use of live data in
           pre-production environments; mechanisms for protecting
           live data in pre-production environments
-    statement: >
+    statement: >-
       the use of live data in pre-production environments is
       approved for the system, system component, or system service;
   - id: a-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; system and
           services acquisition procedures; procedures addressing the
           integration of security and privacy into the system
@@ -59,23 +59,23 @@ objectives:
           training, and research; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with information security and
           privacy responsibility; organizational personnel with
           system life cycle development responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes the use of live data in
           pre-production environments; mechanisms for protecting
           live data in pre-production environments
-    statement: >
+    statement: >-
       the use of live data in pre-production environments is
       documented for the system, system component, or system
       service;
   - id: a-3
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; system and
           services acquisition procedures; procedures addressing the
           integration of security and privacy into the system
@@ -91,23 +91,23 @@ objectives:
           training, and research; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with information security and
           privacy responsibility; organizational personnel with
           system life cycle development responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes the use of live data in
           pre-production environments; mechanisms for protecting
           live data in pre-production environments
-    statement: >
+    statement: >-
       the use of live data in pre-production environments is
       controlled for the system, system component, or system
       service;
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; system and
           services acquisition procedures; procedures addressing the
           integration of security and privacy into the system
@@ -123,28 +123,28 @@ objectives:
           training, and research; other relevant documents or
           records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with information security and
           privacy responsibility; organizational personnel with
           system life cycle development responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes the use of live data in
           pre-production environments; mechanisms for protecting
           live data in pre-production environments
-    statement: >
+    statement: >-
       pre-production environments for the system, system component,
       or system service are protected at the same impact or
       classification level as any live data in use within the
       pre-production environments.
 parts:
   - id: a
-    statement: >
+    statement: >-
       Approve, document, and control the use of live data in
       preproduction environments for the system, system component,
       or system service; and
   - id: b
-    statement: >
+    statement: >-
       Protect preproduction environments for the system, system
       component, or system service at the same impact or
       classification level as any live data in use within the

@@ -12,14 +12,14 @@ objectives:
   - id: _obj-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing use of thin nodes; system design documentation;
           system configuration settings and associated
           documentation; system audit records; system security plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities
       - method: test
@@ -30,14 +30,14 @@ objectives:
   - id: _obj-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing use of thin nodes; system design documentation;
           system configuration settings and associated
           documentation; system audit records; system security plan;
           other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities
       - method: test
@@ -48,6 +48,6 @@ objectives:
 parameters:
   sc_25_odp:
     label: system components
-statement: >
+statement: >-
   Employ minimal functionality and information storage on the
   following system components: {{ sc_25_odp }}.

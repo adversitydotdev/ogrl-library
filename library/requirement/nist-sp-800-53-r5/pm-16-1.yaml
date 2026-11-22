@@ -12,7 +12,7 @@ objectives:
   - id: "pm-16(01)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Information security program plan; privacy program plan;
           threat awareness program policy; threat awareness program
           procedures; risk assessment results related to threat
@@ -20,7 +20,7 @@ objectives:
           information-sharing capability; other relevant documents
           or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with information security and
           privacy program planning and plan implementation
           responsibilities; organizational personnel responsible for
@@ -31,7 +31,7 @@ objectives:
           with whom threat awareness information is shared by the
           organization
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for implementing the threat
           awareness program; organizational processes for
           implementing the cross-organization information-sharing
@@ -39,9 +39,9 @@ objectives:
           implementing the threat awareness program; automated
           mechanisms supporting and/or implementing the
           cross-organization information-sharing capability
-    statement: >
+    statement: >-
       automated mechanisms are employed to maximize the
       effectiveness of sharing threat intelligence information.
-statement: >
+statement: >-
   Employ automated mechanisms to maximize the effectiveness of
   sharing threat intelligence information.

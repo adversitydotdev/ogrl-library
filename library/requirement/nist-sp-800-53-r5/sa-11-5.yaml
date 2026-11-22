@@ -12,7 +12,7 @@ objectives:
   - id: a-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; system and
           services acquisition procedures; procedures addressing
           system developer security testing; solicitation
@@ -24,7 +24,7 @@ objectives:
           privacy plan; personally identifiable information
           processing policy; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and service
           acquisition responsibilities; organizational personnel
           with information security and privacy responsibilities;
@@ -32,19 +32,19 @@ objectives:
           responsibilities; system developers; independent
           verification agent
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for monitoring developer security
           and privacy assessments; mechanisms supporting and/or
           implementing the monitoring of developer security and
           privacy assessments
-    statement: >
+    statement: >-
       the developer of the system, system component, or system
       service is required to perform penetration testing at the
       following level of rigor: {{ sa_11_05_odp_01 }};
   - id: a-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; system and
           services acquisition procedures; procedures addressing
           system developer security testing; solicitation
@@ -56,7 +56,7 @@ objectives:
           privacy plan; personally identifiable information
           processing policy; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and service
           acquisition responsibilities; organizational personnel
           with information security and privacy responsibilities;
@@ -64,19 +64,19 @@ objectives:
           responsibilities; system developers; independent
           verification agent
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for monitoring developer security
           and privacy assessments; mechanisms supporting and/or
           implementing the monitoring of developer security and
           privacy assessments
-    statement: >
+    statement: >-
       the developer of the system, system component, or system
       service is required to perform penetration testing at the
       following level of rigor: {{ sa_11_05_odp_02 }};
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and services acquisition policy; system and
           services acquisition procedures; procedures addressing
           system developer security testing; solicitation
@@ -88,7 +88,7 @@ objectives:
           privacy plan; personally identifiable information
           processing policy; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with system and service
           acquisition responsibilities; organizational personnel
           with information security and privacy responsibilities;
@@ -96,12 +96,12 @@ objectives:
           responsibilities; system developers; independent
           verification agent
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for monitoring developer security
           and privacy assessments; mechanisms supporting and/or
           implementing the monitoring of developer security and
           privacy assessments
-    statement: >
+    statement: >-
       the developer of the system, system component, or system
       service is required to perform penetration testing under
       {{ sa_11_05_odp_03 }}.
@@ -121,6 +121,6 @@ parts:
   - id: b
     statement: >-
       Under the following constraints: {{ sa_11_05_odp_03 }}.
-statement: >
+statement: >-
   Require the developer of the system, system component, or system
   service to perform penetration testing:

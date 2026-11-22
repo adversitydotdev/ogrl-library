@@ -12,23 +12,23 @@ objectives:
   - id: "cp-04(05)"
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Contingency planning policy; procedures addressing system
           recovery and reconstitution; contingency plan; contingency
           plan test documentation; contingency plan test results;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with contingency plan testing
           responsibilities; organizational personnel with system
           recovery and reconstitution responsibilities;
           organizational personnel with information security
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for contingency plan testing;
           mechanisms supporting contingency plan testing
-    statement: >
+    statement: >-
       {{ cp_04_05_odp_01 }} are employed to disrupt and adversely
       affect the {{ cp_04_05_odp_02 }}.
 parameters:
@@ -36,6 +36,6 @@ parameters:
     label: mechanisms
   cp_04_05_odp_02:
     label: system or system component
-statement: >
+statement: >-
   Employ {{ cp_04_05_odp_01 }} to {{ cp_04_05_odp_02 }} to disrupt
   and adversely affect the system or system component.

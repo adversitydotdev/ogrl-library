@@ -22,7 +22,7 @@ objectives:
   - id: a-1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Information security program plan; privacy program plan;
           procedures addressing management (i.e., documentation,
           tracking, and reporting) of the authorization process;
@@ -35,7 +35,7 @@ objectives:
           management program; organizational risk management
           strategy; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with information security and
           privacy program planning and plan implementation
           responsibilities; organizational personnel responsible for
@@ -43,17 +43,17 @@ objectives:
           personnel with information security and privacy
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for authorization; mechanisms
           supporting the authorization process
-    statement: >
+    statement: >-
       the security state of organizational systems and the
       environments in which those systems operate are managed
       through authorization processes;
   - id: a-2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Information security program plan; privacy program plan;
           procedures addressing management (i.e., documentation,
           tracking, and reporting) of the authorization process;
@@ -66,7 +66,7 @@ objectives:
           management program; organizational risk management
           strategy; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with information security and
           privacy program planning and plan implementation
           responsibilities; organizational personnel responsible for
@@ -74,17 +74,17 @@ objectives:
           personnel with information security and privacy
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for authorization; mechanisms
           supporting the authorization process
-    statement: >
+    statement: >-
       the privacy state of organizational systems and the
       environments in which those systems operate are managed
       through authorization processes;
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Information security program plan; privacy program plan;
           procedures addressing management (i.e., documentation,
           tracking, and reporting) of the authorization process;
@@ -97,7 +97,7 @@ objectives:
           management program; organizational risk management
           strategy; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with information security and
           privacy program planning and plan implementation
           responsibilities; organizational personnel responsible for
@@ -105,17 +105,17 @@ objectives:
           personnel with information security and privacy
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for authorization; mechanisms
           supporting the authorization process
-    statement: >
+    statement: >-
       individuals are designated to fulfill specific roles and
       responsibilities within the organizational risk management
       process;
   - id: c
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Information security program plan; privacy program plan;
           procedures addressing management (i.e., documentation,
           tracking, and reporting) of the authorization process;
@@ -128,7 +128,7 @@ objectives:
           management program; organizational risk management
           strategy; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with information security and
           privacy program planning and plan implementation
           responsibilities; organizational personnel responsible for
@@ -136,24 +136,24 @@ objectives:
           personnel with information security and privacy
           responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for authorization; mechanisms
           supporting the authorization process
-    statement: >
+    statement: >-
       the authorization processes are integrated into an
       organization-wide risk management program.
 parts:
   - id: a
-    statement: >
+    statement: >-
       Manage the security and privacy state of organizational
       systems and the environments in which those systems operate
       through authorization processes;
   - id: b
-    statement: >
+    statement: >-
       Designate individuals to fulfill specific roles and
       responsibilities within the organizational risk management
       process; and
   - id: c
-    statement: >
+    statement: >-
       Integrate the authorization processes into an
       organization-wide risk management program.

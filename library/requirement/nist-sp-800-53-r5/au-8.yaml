@@ -12,14 +12,14 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Audit and accountability policy; system security plan;
           privacy plan; procedures addressing timestamp generation;
           system design documentation; system configuration settings
           and associated documentation; system audit records; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with information security and
           privacy responsibilities; system/network administrators;
           system developers
@@ -31,20 +31,20 @@ objectives:
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Audit and accountability policy; system security plan;
           privacy plan; procedures addressing timestamp generation;
           system design documentation; system configuration settings
           and associated documentation; system audit records; other
           relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with information security and
           privacy responsibilities; system/network administrators;
           system developers
       - method: test
         statement: Mechanisms implementing timestamp generation
-    statement: >
+    statement: >-
       timestamps are recorded for audit records that meet
       {{ au_08_odp }} and that use Coordinated Universal Time, have
       a fixed local time offset from Coordinated Universal Time, or
@@ -58,7 +58,7 @@ parts:
       Use internal system clocks to generate time stamps for audit
       records; and
   - id: b
-    statement: >
+    statement: >-
       Record time stamps for audit records that meet {{ au_08_odp }}
       and that use Coordinated Universal Time, have a fixed local
       time offset from Coordinated Universal Time, or that include

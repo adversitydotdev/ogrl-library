@@ -12,7 +12,7 @@ objectives:
   - id: a
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing trusted communication paths; security plan;
           system design documentation; system configuration settings
@@ -20,7 +20,7 @@ objectives:
           independent, testing organizations; system audit records;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; system
           developer
@@ -28,13 +28,13 @@ objectives:
         statement: >-
           Mechanisms supporting and/or implementing trusted
           communication paths
-    statement: >
+    statement: >-
       a trusted communication path that is irrefutably
       distinguishable from other communication paths is provided;
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           System and communications protection policy; procedures
           addressing trusted communication paths; security plan;
           system design documentation; system configuration settings
@@ -42,7 +42,7 @@ objectives:
           independent, testing organizations; system audit records;
           system security plan; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           System/network administrators; organizational personnel
           with information security responsibilities; system
           developer
@@ -50,7 +50,7 @@ objectives:
         statement: >-
           Mechanisms supporting and/or implementing trusted
           communication paths
-    statement: >
+    statement: >-
       the trusted communication path for communications between the
       {{ sc_11_01_odp }} of the system and the user is initiated.
 parameters:
@@ -58,10 +58,10 @@ parameters:
     label: security functions
 parts:
   - id: a
-    statement: >
+    statement: >-
       Provide a trusted communications path that is irrefutably
       distinguishable from other communications paths; and
   - id: b
-    statement: >
+    statement: >-
       Initiate the trusted communications path for communications
       between the {{ sc_11_01_odp }} of the system and the user.

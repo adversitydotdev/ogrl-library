@@ -31,7 +31,7 @@ objectives:
   - id: a.1
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Information security program plan; privacy program plan;
           risk management strategy; supply chain risk management
           strategy; procedures addressing the development,
@@ -39,7 +39,7 @@ objectives:
           strategy; risk assessment results relevant to the risk
           management strategy; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with information security and
           privacy program planning and plan implementation
           responsibilities; organizational personnel responsible for
@@ -47,13 +47,13 @@ objectives:
           risk management strategy; organizational personnel with
           information security and privacy responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for the development,
           implementation, review, and update of the risk management
           strategy; mechanisms supporting the development,
           implementation, review, and update of the risk management
           strategy
-    statement: >
+    statement: >-
       a comprehensive strategy is developed to manage security risk
       to organizational operations and assets, individuals, other
       organizations, and the Nation associated with the operation
@@ -61,7 +61,7 @@ objectives:
   - id: a.2
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Information security program plan; privacy program plan;
           risk management strategy; supply chain risk management
           strategy; procedures addressing the development,
@@ -69,7 +69,7 @@ objectives:
           strategy; risk assessment results relevant to the risk
           management strategy; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with information security and
           privacy program planning and plan implementation
           responsibilities; organizational personnel responsible for
@@ -77,20 +77,20 @@ objectives:
           risk management strategy; organizational personnel with
           information security and privacy responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for the development,
           implementation, review, and update of the risk management
           strategy; mechanisms supporting the development,
           implementation, review, and update of the risk management
           strategy
-    statement: >
+    statement: >-
       a comprehensive strategy is developed to manage privacy risk
       to individuals resulting from the authorized processing of
       personally identifiable information;
   - id: b
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Information security program plan; privacy program plan;
           risk management strategy; supply chain risk management
           strategy; procedures addressing the development,
@@ -98,7 +98,7 @@ objectives:
           strategy; risk assessment results relevant to the risk
           management strategy; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with information security and
           privacy program planning and plan implementation
           responsibilities; organizational personnel responsible for
@@ -106,19 +106,19 @@ objectives:
           risk management strategy; organizational personnel with
           information security and privacy responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for the development,
           implementation, review, and update of the risk management
           strategy; mechanisms supporting the development,
           implementation, review, and update of the risk management
           strategy
-    statement: >
+    statement: >-
       the risk management strategy is implemented consistently
       across the organization;
   - id: c
     methods:
       - method: examine
-        statement: >
+        statement: >-
           Information security program plan; privacy program plan;
           risk management strategy; supply chain risk management
           strategy; procedures addressing the development,
@@ -126,7 +126,7 @@ objectives:
           strategy; risk assessment results relevant to the risk
           management strategy; other relevant documents or records
       - method: interview
-        statement: >
+        statement: >-
           Organizational personnel with information security and
           privacy program planning and plan implementation
           responsibilities; organizational personnel responsible for
@@ -134,13 +134,13 @@ objectives:
           risk management strategy; organizational personnel with
           information security and privacy responsibilities
       - method: test
-        statement: >
+        statement: >-
           Organizational processes for the development,
           implementation, review, and update of the risk management
           strategy; mechanisms supporting the development,
           implementation, review, and update of the risk management
           strategy
-    statement: >
+    statement: >-
       the risk management strategy is reviewed and updated
       {{ pm_09_odp }} or as required to address organizational
       changes.
@@ -151,12 +151,12 @@ parts:
   - id: a
     statement: "Develops a comprehensive strategy to manage:"
   - id: a.1
-    statement: >
+    statement: >-
       Security risk to organizational operations and assets,
       individuals, other organizations, and the Nation associated
       with the operation and use of organizational systems; and
   - id: a.2
-    statement: >
+    statement: >-
       Privacy risk to individuals resulting from the authorized
       processing of personally identifiable information;
   - id: b
@@ -164,6 +164,6 @@ parts:
       Implement the risk management strategy consistently across the
       organization; and
   - id: c
-    statement: >
+    statement: >-
       Review and update the risk management strategy {{ pm_09_odp }}
       or as required, to address organizational changes.
