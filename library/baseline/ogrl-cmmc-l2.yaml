@@ -88,447 +88,560 @@ control_refs:
 extensions:
   dev.ogrl.cmmc:
     level: 2
+    names_source: >-
+      CMMC Assessment Guide Level 2, Version 2.13 (DoD CIO,
+      September 2024)
     requirements:
       requirement--nist-sp-800-171-r2-3-1-1:
+        name: "Authorized Access Control [CUI Data]"
         poam_eligible: false
         points: 5
         practice_id: AC.L2-3.1.1
       requirement--nist-sp-800-171-r2-3-1-10:
+        name: Session Lock
         poam_eligible: true
         points: 1
         practice_id: AC.L2-3.1.10
       requirement--nist-sp-800-171-r2-3-1-11:
+        name: Session Termination
         poam_eligible: true
         points: 1
         practice_id: AC.L2-3.1.11
       requirement--nist-sp-800-171-r2-3-1-12:
+        name: Control Remote Access
         poam_eligible: false
         points: 5
         practice_id: AC.L2-3.1.12
       requirement--nist-sp-800-171-r2-3-1-13:
+        name: Remote Access Confidentiality
         poam_eligible: false
         points: 5
         practice_id: AC.L2-3.1.13
       requirement--nist-sp-800-171-r2-3-1-14:
+        name: Remote Access Routing
         poam_eligible: true
         points: 1
         practice_id: AC.L2-3.1.14
       requirement--nist-sp-800-171-r2-3-1-15:
+        name: Privileged Remote Access
         poam_eligible: true
         points: 1
         practice_id: AC.L2-3.1.15
       requirement--nist-sp-800-171-r2-3-1-16:
+        name: Wireless Access Authorization
         poam_eligible: false
         points: 5
         practice_id: AC.L2-3.1.16
       requirement--nist-sp-800-171-r2-3-1-17:
+        name: Wireless Access Protection
         poam_eligible: false
         points: 5
         practice_id: AC.L2-3.1.17
       requirement--nist-sp-800-171-r2-3-1-18:
+        name: Mobile Device Connection
         poam_eligible: false
         points: 5
         practice_id: AC.L2-3.1.18
       requirement--nist-sp-800-171-r2-3-1-19:
+        name: Encrypt CUI on Mobile
         poam_eligible: false
         points: 3
         practice_id: AC.L2-3.1.19
       requirement--nist-sp-800-171-r2-3-1-2:
+        name: "Transaction & Function Control"
         poam_eligible: false
         points: 5
         practice_id: AC.L2-3.1.2
       requirement--nist-sp-800-171-r2-3-1-20:
+        name: "External Connections [CUI Data]"
         poam_eligible: false
         points: 1
         practice_id: AC.L2-3.1.20
       requirement--nist-sp-800-171-r2-3-1-21:
+        name: Portable Storage Use
         poam_eligible: true
         points: 1
         practice_id: AC.L2-3.1.21
       requirement--nist-sp-800-171-r2-3-1-22:
+        name: "Control Public Information [CUI Data]"
         poam_eligible: false
         points: 1
         practice_id: AC.L2-3.1.22
       requirement--nist-sp-800-171-r2-3-1-3:
+        name: Control CUI Flow
         poam_eligible: true
         points: 1
         practice_id: AC.L2-3.1.3
       requirement--nist-sp-800-171-r2-3-1-4:
+        name: Separation of Duties
         poam_eligible: true
         points: 1
         practice_id: AC.L2-3.1.4
       requirement--nist-sp-800-171-r2-3-1-5:
+        name: Least Privilege
         poam_eligible: false
         points: 3
         practice_id: AC.L2-3.1.5
       requirement--nist-sp-800-171-r2-3-1-6:
+        name: Non-Privileged Account Use
         poam_eligible: true
         points: 1
         practice_id: AC.L2-3.1.6
       requirement--nist-sp-800-171-r2-3-1-7:
+        name: Privileged Functions
         poam_eligible: true
         points: 1
         practice_id: AC.L2-3.1.7
       requirement--nist-sp-800-171-r2-3-1-8:
+        name: Unsuccessful Logon Attempts
         poam_eligible: true
         points: 1
         practice_id: AC.L2-3.1.8
       requirement--nist-sp-800-171-r2-3-1-9:
+        name: "Privacy & Security Notices"
         poam_eligible: true
         points: 1
         practice_id: AC.L2-3.1.9
       requirement--nist-sp-800-171-r2-3-10-1:
+        name: "Limit Physical Access [CUI Data]"
         poam_eligible: false
         points: 5
         practice_id: PE.L2-3.10.1
       requirement--nist-sp-800-171-r2-3-10-2:
+        name: Monitor Facility
         poam_eligible: false
         points: 5
         practice_id: PE.L2-3.10.2
       requirement--nist-sp-800-171-r2-3-10-3:
+        name: "Escort Visitors [CUI Data]"
         poam_eligible: false
         points: 1
         practice_id: PE.L2-3.10.3
       requirement--nist-sp-800-171-r2-3-10-4:
+        name: "Physical Access Logs [CUI Data]"
         poam_eligible: false
         points: 1
         practice_id: PE.L2-3.10.4
       requirement--nist-sp-800-171-r2-3-10-5:
+        name: "Manage Physical Access [CUI Data]"
         poam_eligible: false
         points: 1
         practice_id: PE.L2-3.10.5
       requirement--nist-sp-800-171-r2-3-10-6:
+        name: Alternative Work Sites
         poam_eligible: true
         points: 1
         practice_id: PE.L2-3.10.6
       requirement--nist-sp-800-171-r2-3-11-1:
+        name: RIsk Assessments
         poam_eligible: false
         points: 3
         practice_id: RA.L2-3.11.1
       requirement--nist-sp-800-171-r2-3-11-2:
+        name: Vulnerability Scan
         poam_eligible: false
         points: 5
         practice_id: RA.L2-3.11.2
       requirement--nist-sp-800-171-r2-3-11-3:
+        name: Vulnerability Remediation
         poam_eligible: true
         points: 1
         practice_id: RA.L2-3.11.3
       requirement--nist-sp-800-171-r2-3-12-1:
+        name: Security Control Assessment
         poam_eligible: false
         points: 5
         practice_id: CA.L2-3.12.1
       requirement--nist-sp-800-171-r2-3-12-2:
+        name: operational Plan of Action
         poam_eligible: false
         points: 3
         practice_id: CA.L2-3.12.2
       requirement--nist-sp-800-171-r2-3-12-3:
+        name: Security Control Monitoring
         poam_eligible: false
         points: 5
         practice_id: CA.L2-3.12.3
       requirement--nist-sp-800-171-r2-3-12-4:
+        name: System Security Plan
         poam_eligible: false
         practice_id: CA.L2-3.12.4
         ssp_required: true
       requirement--nist-sp-800-171-r2-3-13-1:
+        name: "Boundary Protection [CUI Data]"
         poam_eligible: false
         points: 5
         practice_id: SC.L2-3.13.1
       requirement--nist-sp-800-171-r2-3-13-10:
+        name: Key Management
         poam_eligible: true
         points: 1
         practice_id: SC.L2-3.13.10
       requirement--nist-sp-800-171-r2-3-13-11:
+        name: CUI Encryption
         partial_points: 3
         poam_eligible: false
         poam_eligible_at_partial: true
         points: 5
         practice_id: SC.L2-3.13.11
       requirement--nist-sp-800-171-r2-3-13-12:
+        name: Collaborative Device Control
         poam_eligible: true
         points: 1
         practice_id: SC.L2-3.13.12
       requirement--nist-sp-800-171-r2-3-13-13:
+        name: Mobile Code
         poam_eligible: true
         points: 1
         practice_id: SC.L2-3.13.13
       requirement--nist-sp-800-171-r2-3-13-14:
+        name: Voice over Internet Protocol
         poam_eligible: true
         points: 1
         practice_id: SC.L2-3.13.14
       requirement--nist-sp-800-171-r2-3-13-15:
+        name: Communications Authenticity
         poam_eligible: false
         points: 5
         practice_id: SC.L2-3.13.15
       requirement--nist-sp-800-171-r2-3-13-16:
+        name: Data at Rest
         poam_eligible: true
         points: 1
         practice_id: SC.L2-3.13.16
       requirement--nist-sp-800-171-r2-3-13-2:
+        name: Security Engineering
         poam_eligible: false
         points: 5
         practice_id: SC.L2-3.13.2
       requirement--nist-sp-800-171-r2-3-13-3:
+        name: Role Separation
         poam_eligible: true
         points: 1
         practice_id: SC.L2-3.13.3
       requirement--nist-sp-800-171-r2-3-13-4:
+        name: Shared Resource Control
         poam_eligible: true
         points: 1
         practice_id: SC.L2-3.13.4
       requirement--nist-sp-800-171-r2-3-13-5:
+        name: "Public-Access System Separation [CUI Data]"
         poam_eligible: false
         points: 5
         practice_id: SC.L2-3.13.5
       requirement--nist-sp-800-171-r2-3-13-6:
+        name: Network Communication by Exception
         poam_eligible: false
         points: 5
         practice_id: SC.L2-3.13.6
       requirement--nist-sp-800-171-r2-3-13-7:
+        name: Split Tunneling
         poam_eligible: true
         points: 1
         practice_id: SC.L2-3.13.7
       requirement--nist-sp-800-171-r2-3-13-8:
+        name: Data in Transit
         poam_eligible: false
         points: 3
         practice_id: SC.L2-3.13.8
       requirement--nist-sp-800-171-r2-3-13-9:
+        name: Connections Termination
         poam_eligible: true
         points: 1
         practice_id: SC.L2-3.13.9
       requirement--nist-sp-800-171-r2-3-14-1:
+        name: "Flaw Remediation [CUI Data]"
         poam_eligible: false
         points: 5
         practice_id: SI.L2-3.14.1
       requirement--nist-sp-800-171-r2-3-14-2:
+        name: "Malicious Code Protection [CUI Data]"
         poam_eligible: false
         points: 5
         practice_id: SI.L2-3.14.2
       requirement--nist-sp-800-171-r2-3-14-3:
+        name: "Security Alerts & Advisories"
         poam_eligible: false
         points: 5
         practice_id: SI.L2-3.14.3
       requirement--nist-sp-800-171-r2-3-14-4:
+        name: "Update Malicious Code Protection [CUI Data]"
         poam_eligible: false
         points: 5
         practice_id: SI.L2-3.14.4
       requirement--nist-sp-800-171-r2-3-14-5:
+        name: "System & File Scanning [CUI Data]"
         poam_eligible: false
         points: 3
         practice_id: SI.L2-3.14.5
       requirement--nist-sp-800-171-r2-3-14-6:
+        name: Monitor Communications for Attacks
         poam_eligible: false
         points: 5
         practice_id: SI.L2-3.14.6
       requirement--nist-sp-800-171-r2-3-14-7:
+        name: Identify Unauthorized Use
         poam_eligible: false
         points: 3
         practice_id: SI.L2-3.14.7
       requirement--nist-sp-800-171-r2-3-2-1:
+        name: Role-Based Risk Awareness
         poam_eligible: false
         points: 5
         practice_id: AT.L2-3.2.1
       requirement--nist-sp-800-171-r2-3-2-2:
+        name: Role-Based Training
         poam_eligible: false
         points: 5
         practice_id: AT.L2-3.2.2
       requirement--nist-sp-800-171-r2-3-2-3:
+        name: Insider Threat Awareness
         poam_eligible: true
         points: 1
         practice_id: AT.L2-3.2.3
       requirement--nist-sp-800-171-r2-3-3-1:
+        name: System Auditing
         poam_eligible: false
         points: 5
         practice_id: AU.L2-3.3.1
       requirement--nist-sp-800-171-r2-3-3-2:
+        name: User Accountability
         poam_eligible: false
         points: 3
         practice_id: AU.L2-3.3.2
       requirement--nist-sp-800-171-r2-3-3-3:
+        name: Event Review
         poam_eligible: true
         points: 1
         practice_id: AU.L2-3.3.3
       requirement--nist-sp-800-171-r2-3-3-4:
+        name: Audit Failure Alerting
         poam_eligible: true
         points: 1
         practice_id: AU.L2-3.3.4
       requirement--nist-sp-800-171-r2-3-3-5:
+        name: Audit Correlation
         poam_eligible: false
         points: 5
         practice_id: AU.L2-3.3.5
       requirement--nist-sp-800-171-r2-3-3-6:
+        name: "Reduction & Reporting"
         poam_eligible: true
         points: 1
         practice_id: AU.L2-3.3.6
       requirement--nist-sp-800-171-r2-3-3-7:
+        name: Authoritative Time Source
         poam_eligible: true
         points: 1
         practice_id: AU.L2-3.3.7
       requirement--nist-sp-800-171-r2-3-3-8:
+        name: Audit Protection
         poam_eligible: true
         points: 1
         practice_id: AU.L2-3.3.8
       requirement--nist-sp-800-171-r2-3-3-9:
+        name: Audit Management
         poam_eligible: true
         points: 1
         practice_id: AU.L2-3.3.9
       requirement--nist-sp-800-171-r2-3-4-1:
+        name: System Baselining
         poam_eligible: false
         points: 5
         practice_id: CM.L2-3.4.1
       requirement--nist-sp-800-171-r2-3-4-2:
+        name: Security Configuration Enforcement
         poam_eligible: false
         points: 5
         practice_id: CM.L2-3.4.2
       requirement--nist-sp-800-171-r2-3-4-3:
+        name: System Change Management
         poam_eligible: true
         points: 1
         practice_id: CM.L2-3.4.3
       requirement--nist-sp-800-171-r2-3-4-4:
+        name: Security Impact Analysis
         poam_eligible: true
         points: 1
         practice_id: CM.L2-3.4.4
       requirement--nist-sp-800-171-r2-3-4-5:
+        name: Access Restrictions for Change
         poam_eligible: false
         points: 5
         practice_id: CM.L2-3.4.5
       requirement--nist-sp-800-171-r2-3-4-6:
+        name: Least Functionality
         poam_eligible: false
         points: 5
         practice_id: CM.L2-3.4.6
       requirement--nist-sp-800-171-r2-3-4-7:
+        name: Nonessential Functionality
         poam_eligible: false
         points: 5
         practice_id: CM.L2-3.4.7
       requirement--nist-sp-800-171-r2-3-4-8:
+        name: Application Execution Policy
         poam_eligible: false
         points: 5
         practice_id: CM.L2-3.4.8
       requirement--nist-sp-800-171-r2-3-4-9:
+        name: User-Installed Software
         poam_eligible: true
         points: 1
         practice_id: CM.L2-3.4.9
       requirement--nist-sp-800-171-r2-3-5-1:
+        name: "Identification [CUI Data]"
         poam_eligible: false
         points: 5
         practice_id: IA.L2-3.5.1
       requirement--nist-sp-800-171-r2-3-5-10:
+        name: Cryptographically-Protected Passwords
         poam_eligible: false
         points: 5
         practice_id: IA.L2-3.5.10
       requirement--nist-sp-800-171-r2-3-5-11:
+        name: Obscure Feedback
         poam_eligible: true
         points: 1
         practice_id: IA.L2-3.5.11
       requirement--nist-sp-800-171-r2-3-5-2:
+        name: "Authentication [CUI Data]"
         poam_eligible: false
         points: 5
         practice_id: IA.L2-3.5.2
       requirement--nist-sp-800-171-r2-3-5-3:
+        name: Multifactor Authentication
         partial_points: 3
         poam_eligible: false
         points: 5
         practice_id: IA.L2-3.5.3
       requirement--nist-sp-800-171-r2-3-5-4:
+        name: Replay-Resistant Authentication
         poam_eligible: true
         points: 1
         practice_id: IA.L2-3.5.4
       requirement--nist-sp-800-171-r2-3-5-5:
+        name: Identifier Reuse
         poam_eligible: true
         points: 1
         practice_id: IA.L2-3.5.5
       requirement--nist-sp-800-171-r2-3-5-6:
+        name: Identifier Handling
         poam_eligible: true
         points: 1
         practice_id: IA.L2-3.5.6
       requirement--nist-sp-800-171-r2-3-5-7:
+        name: Password Complexity
         poam_eligible: true
         points: 1
         practice_id: IA.L2-3.5.7
       requirement--nist-sp-800-171-r2-3-5-8:
+        name: Password Reuse
         poam_eligible: true
         points: 1
         practice_id: IA.L2-3.5.8
       requirement--nist-sp-800-171-r2-3-5-9:
+        name: Temporary Passwords
         poam_eligible: true
         points: 1
         practice_id: IA.L2-3.5.9
       requirement--nist-sp-800-171-r2-3-6-1:
+        name: Incident Handling
         poam_eligible: false
         points: 5
         practice_id: IR.L2-3.6.1
       requirement--nist-sp-800-171-r2-3-6-2:
+        name: Incident Reporting
         poam_eligible: false
         points: 5
         practice_id: IR.L2-3.6.2
       requirement--nist-sp-800-171-r2-3-6-3:
+        name: Incident Response Testing
         poam_eligible: true
         points: 1
         practice_id: IR.L2-3.6.3
       requirement--nist-sp-800-171-r2-3-7-1:
+        name: Perform Maintenance
         poam_eligible: false
         points: 3
         practice_id: MA.L2-3.7.1
       requirement--nist-sp-800-171-r2-3-7-2:
+        name: System Maintenance Control
         poam_eligible: false
         points: 5
         practice_id: MA.L2-3.7.2
       requirement--nist-sp-800-171-r2-3-7-3:
+        name: Equipment Sanitization
         poam_eligible: true
         points: 1
         practice_id: MA.L2-3.7.3
       requirement--nist-sp-800-171-r2-3-7-4:
+        name: Media Inspection
         poam_eligible: false
         points: 3
         practice_id: MA.L2-3.7.4
       requirement--nist-sp-800-171-r2-3-7-5:
+        name: Nonlocal Maintenance
         poam_eligible: false
         points: 5
         practice_id: MA.L2-3.7.5
       requirement--nist-sp-800-171-r2-3-7-6:
+        name: Maintenance Personnel
         poam_eligible: true
         points: 1
         practice_id: MA.L2-3.7.6
       requirement--nist-sp-800-171-r2-3-8-1:
+        name: Media Protection
         poam_eligible: false
         points: 3
         practice_id: MP.L2-3.8.1
       requirement--nist-sp-800-171-r2-3-8-2:
+        name: Media Access
         poam_eligible: false
         points: 3
         practice_id: MP.L2-3.8.2
       requirement--nist-sp-800-171-r2-3-8-3:
+        name: "Media Disposal [CUI Data]"
         poam_eligible: false
         points: 5
         practice_id: MP.L2-3.8.3
       requirement--nist-sp-800-171-r2-3-8-4:
+        name: Media Markings
         poam_eligible: true
         points: 1
         practice_id: MP.L2-3.8.4
       requirement--nist-sp-800-171-r2-3-8-5:
+        name: Media Accountability
         poam_eligible: true
         points: 1
         practice_id: MP.L2-3.8.5
       requirement--nist-sp-800-171-r2-3-8-6:
+        name: Portable Storage Encryption
         poam_eligible: true
         points: 1
         practice_id: MP.L2-3.8.6
       requirement--nist-sp-800-171-r2-3-8-7:
+        name: Removeable Media
         poam_eligible: false
         points: 5
         practice_id: MP.L2-3.8.7
       requirement--nist-sp-800-171-r2-3-8-8:
+        name: Shared Media
         poam_eligible: false
         points: 3
         practice_id: MP.L2-3.8.8
       requirement--nist-sp-800-171-r2-3-8-9:
+        name: Protect Backups
         poam_eligible: true
         points: 1
         practice_id: MP.L2-3.8.9
       requirement--nist-sp-800-171-r2-3-9-1:
+        name: Screen Individuals
         poam_eligible: false
         points: 3
         practice_id: PS.L2-3.9.1
       requirement--nist-sp-800-171-r2-3-9-2:
+        name: Personnel Actions
         poam_eligible: false
         points: 5
         practice_id: PS.L2-3.9.2
