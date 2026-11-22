@@ -6,7 +6,7 @@ on:
   pull_request:
 
 env:
-  OGRL_RS_VERSION: v0.2.0
+  OGRL_RS_VERSION: v0.3.0
 
 jobs:
   lint:
