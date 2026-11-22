@@ -8,7 +8,7 @@ parameter_map:
   si_02_odp: patch_sla
 rationale: functional
 relationship: equivalent-to
-review_status: draft
+review_status: reviewed
 source_ref: control--ogrl-vm-02
 summary: >-
   A defined installation timeframe for security updates satisfies

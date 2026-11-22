@@ -8,7 +8,7 @@ parameter_map:
   au_06_odp_03: log_review_report_recipients
 rationale: functional
 relationship: equivalent-to
-review_status: draft
+review_status: reviewed
 source_ref: control--ogrl-lm-04
 summary: "Findings are reported to defined recipients per AU-6(b)."
 target_ref: "requirement--nist-sp-800-53-r5-au-6#b"

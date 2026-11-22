@@ -9,7 +9,7 @@ parameter_map:
   at_02_odp_07: content_update_events
 rationale: functional
 relationship: equivalent-to
-review_status: draft
+review_status: reviewed
 source_ref: control--ogrl-hr-07
 summary: >
   Content is updated on a defined cadence and after defined events.

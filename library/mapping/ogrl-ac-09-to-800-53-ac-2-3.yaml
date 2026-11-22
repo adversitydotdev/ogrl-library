@@ -9,7 +9,7 @@ parameter_map:
   ac_02_03_odp_02: inactivity_period
 rationale: functional
 relationship: equivalent-to
-review_status: draft
+review_status: reviewed
 source_ref: control--ogrl-ac-09
 summary: >
   Disabling expired, orphaned, non-compliant, and inactive accounts

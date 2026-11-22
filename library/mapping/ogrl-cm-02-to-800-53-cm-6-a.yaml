@@ -8,7 +8,7 @@ parameter_map:
   cm_06_odp_01: hardening_benchmark
 rationale: functional
 relationship: equivalent-to
-review_status: draft
+review_status: reviewed
 source_ref: control--ogrl-cm-02
 summary: >
   Baselines derived from a named hardening benchmark establish

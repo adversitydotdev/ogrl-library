@@ -8,7 +8,7 @@ parameter_map:
   cp_9_1_prm_1: restore_test_cadence
 rationale: functional
 relationship: equivalent-to
-review_status: draft
+review_status: reviewed
 source_ref: control--ogrl-bc-04
 summary: >
   Scheduled restore tests with completeness and integrity checks

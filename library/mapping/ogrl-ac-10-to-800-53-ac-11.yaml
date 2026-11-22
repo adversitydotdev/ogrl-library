@@ -8,7 +8,7 @@ parameter_map:
   ac_11_odp_02: device_lock_timeout
 rationale: functional
 relationship: equivalent-to
-review_status: draft
+review_status: reviewed
 source_ref: control--ogrl-ac-10
 summary: >
   Inactivity-based screen lock that persists until re-authentication

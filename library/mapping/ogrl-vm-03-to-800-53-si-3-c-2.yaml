@@ -9,7 +9,7 @@ parameter_map:
   si_03_odp_06: malware_alert_recipients
 rationale: functional
 relationship: equivalent-to
-review_status: draft
+review_status: reviewed
 source_ref: control--ogrl-vm-03
 summary: >
   Automatic block or quarantine with alerts to defined recipients

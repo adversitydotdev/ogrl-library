@@ -9,7 +9,7 @@ parameter_map:
   cp_09_odp_02: backup_frequency
 rationale: functional
 relationship: equivalent-to
-review_status: draft
+review_status: reviewed
 source_ref: control--ogrl-bc-03
 summary: >
   Automated backups of production data stores at a defined frequency

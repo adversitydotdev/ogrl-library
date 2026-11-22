@@ -9,7 +9,7 @@ parameter_map:
   ac_06_07_odp_02: privileged_roles
 rationale: functional
 relationship: equivalent-to
-review_status: draft
+review_status: reviewed
 source_ref: control--ogrl-ac-07
 summary: >
   Periodic reconciliation of privileged assignments validates need

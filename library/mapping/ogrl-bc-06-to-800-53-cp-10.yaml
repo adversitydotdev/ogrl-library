@@ -8,7 +8,7 @@ parameter_map:
   cp_10_prm_1: recovery_time_objective
 rationale: functional
 relationship: equivalent-to
-review_status: draft
+review_status: reviewed
 source_ref: control--ogrl-bc-06
 summary: >
   Recovering to a known-good state within defined recovery

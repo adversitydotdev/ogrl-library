@@ -8,7 +8,7 @@ parameter_map:
   cp_07_odp_02: failover_time_limit
 rationale: functional
 relationship: equivalent-to
-review_status: draft
+review_status: reviewed
 source_ref: control--ogrl-bc-05
 summary: >
   Multi-zone deployment with the ability to resume at an alternate

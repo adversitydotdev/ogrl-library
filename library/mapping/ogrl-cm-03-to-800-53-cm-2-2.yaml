@@ -8,7 +8,7 @@ parameter_map:
   cm_02_02_odp: drift_detection_tooling
 rationale: functional
 relationship: intersects-with
-review_status: draft
+review_status: reviewed
 source_ref: control--ogrl-cm-03
 summary: >
   Automated drift checks keep the recorded baseline and actual state

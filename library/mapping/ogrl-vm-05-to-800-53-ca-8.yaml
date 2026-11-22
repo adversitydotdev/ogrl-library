@@ -9,7 +9,7 @@ parameter_map:
   ca_08_odp_02: pentest_scope
 rationale: functional
 relationship: superset-of
-review_status: draft
+review_status: reviewed
 source_ref: control--ogrl-vm-05
 summary: >
   Scheduled penetration testing of defined systems meets CA-8, with

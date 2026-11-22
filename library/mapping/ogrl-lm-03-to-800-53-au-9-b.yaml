@@ -8,7 +8,7 @@ parameter_map:
   au_09_odp: log_tamper_alert_recipients
 rationale: functional
 relationship: equivalent-to
-review_status: draft
+review_status: reviewed
 source_ref: control--ogrl-lm-03
 summary: "Tampering alerts to defined recipients satisfy AU-9(b)."
 target_ref: "requirement--nist-sp-800-53-r5-au-9#b"

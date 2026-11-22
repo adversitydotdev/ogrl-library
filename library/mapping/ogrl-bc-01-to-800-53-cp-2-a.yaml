@@ -8,7 +8,7 @@ parameter_map:
   cp_2_prm_1: plan_approver
 rationale: functional
 relationship: subset-of
-review_status: draft
+review_status: reviewed
 source_ref: control--ogrl-bc-01
 summary: >
   The plan identifies critical functions, recovery objectives and

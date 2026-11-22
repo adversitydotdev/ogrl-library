@@ -8,7 +8,7 @@ parameter_map:
   si_03_odp_02: malware_scan_frequency
 rationale: functional
 relationship: equivalent-to
-review_status: draft
+review_status: reviewed
 source_ref: control--ogrl-vm-03
 summary: >-
   Real-time scanning plus scheduled full scans meet SI-3(c)(1).

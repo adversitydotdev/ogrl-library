@@ -8,7 +8,7 @@ parameter_map:
   cp_02_odp_05: plan_review_cadence
 rationale: functional
 relationship: equivalent-to
-review_status: draft
+review_status: reviewed
 source_ref: control--ogrl-bc-01
 summary: "Periodic plan review satisfies CP-2(d)."
 target_ref: "requirement--nist-sp-800-53-r5-cp-2#d"

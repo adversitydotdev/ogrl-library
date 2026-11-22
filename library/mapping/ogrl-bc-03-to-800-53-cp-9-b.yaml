@@ -8,7 +8,7 @@ parameter_map:
   cp_09_odp_03: backup_frequency
 rationale: functional
 relationship: equivalent-to
-review_status: draft
+review_status: reviewed
 source_ref: control--ogrl-bc-03
 summary: >
   Backing up system configuration and state not held in version

@@ -8,7 +8,7 @@ parameter_map:
   pe_03_odp_08: access_device_inventory_cadence
 rationale: functional
 relationship: equivalent-to
-review_status: draft
+review_status: reviewed
 source_ref: control--ogrl-ps-02
 summary: >-
   Periodic inventory of physical access devices satisfies PE-3(f).

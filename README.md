@@ -16,7 +16,13 @@ All library objects live under `library/` so OGRL deployments can pull pinned re
 - `library/control/` — Standard OGRL operational controls (`origin: standard`) with configurable parameters, statements, objectives, and guidance
 - `library/test/` — Standard library test specifications (`required: true`) linked to controls and NIST assessment objectives
 - `library/mapping/` — Reviewed `control → requirement` crosswalks (with `#part` fragment targets and `parameter_map` bindings) alongside imported NIST `requirement → requirement` draft links
-- `library/baseline/` — Starter library baselines (`ogrl-core`, `ogrl-soc2`, `ogrl-iso27001`, `ogrl-nist-800-171-r3`)
+- `library/baseline/` — Library baselines (`ogrl-core`, `ogrl-soc2`, `ogrl-iso27001`, `ogrl-nist-800-171-r3`). `ogrl-soc2` selects 113 standard controls covering all 61 SOC 2 Trust Services Criteria (Security, Availability, Confidentiality, Processing Integrity, and Privacy).
+
+## AI-Derived Content Disclaimer
+
+Most standard controls and their crosswalks were drafted with AI assistance (Anthropic Claude). That includes the `ogrl-soc2` control set and its `control → requirement` mappings to NIST SP 800-53 Rev 5 and the SOC 2 Trust Services Criteria. The library maintainers published these mappings as `review_status: reviewed`. A qualified assessor has not validated each one individually.
+
+Treat the controls and mappings as a starting point, not as audit or legal advice. Before you rely on them, check the control statements, mapping relationships, and coverage claims against the official AICPA and NIST publications and with your auditor. Corrections are welcome as pull requests.
 
 ## Regenerating & Validating
 

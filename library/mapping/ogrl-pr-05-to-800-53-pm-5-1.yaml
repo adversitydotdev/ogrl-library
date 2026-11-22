@@ -8,7 +8,7 @@ parameter_map:
   pm_05_01_odp: pii_inventory_review_cadence
 rationale: functional
 relationship: equivalent-to
-review_status: draft
+review_status: reviewed
 source_ref: control--ogrl-pr-05
 summary: >
   A maintained and periodically reviewed inventory of PII-processing

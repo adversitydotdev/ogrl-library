@@ -8,7 +8,7 @@ parameter_map:
   si_7_prm_2: integrity_response_actions
 rationale: functional
 relationship: equivalent-to
-review_status: draft
+review_status: reviewed
 source_ref: control--ogrl-cm-09
 summary: >-
   Defined response actions on integrity failure satisfy SI-7(b).

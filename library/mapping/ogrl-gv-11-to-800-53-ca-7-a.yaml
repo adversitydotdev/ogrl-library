@@ -8,7 +8,7 @@ parameter_map:
   ca_07_odp_01: monitored_metrics
 rationale: functional
 relationship: equivalent-to
-review_status: draft
+review_status: reviewed
 source_ref: control--ogrl-gv-11
 summary: >-
   Defines the control metrics that automated monitoring tracks.

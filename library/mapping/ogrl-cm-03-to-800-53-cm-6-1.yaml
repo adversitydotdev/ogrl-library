@@ -8,7 +8,7 @@ parameter_map:
   cm_6_1_prm_2: drift_detection_tooling
 rationale: functional
 relationship: subset-of
-review_status: draft
+review_status: reviewed
 source_ref: control--ogrl-cm-03
 summary: >
   Drift tooling provides the automated verification element of

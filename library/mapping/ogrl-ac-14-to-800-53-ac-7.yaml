@@ -9,7 +9,7 @@ parameter_map:
   ac_07_odp_02: failed_attempt_window
 rationale: functional
 relationship: equivalent-to
-review_status: draft
+review_status: reviewed
 source_ref: control--ogrl-ac-14
 summary: >
   A limit on consecutive failed attempts within a window with

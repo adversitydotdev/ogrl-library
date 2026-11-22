@@ -8,7 +8,7 @@ parameter_map:
   si_12_01_odp: permitted_pii_elements
 rationale: functional
 relationship: equivalent-to
-review_status: draft
+review_status: reviewed
 source_ref: control--ogrl-pr-04
 summary: >-
   Limiting processing to approved PII elements satisfies SI-12(1).

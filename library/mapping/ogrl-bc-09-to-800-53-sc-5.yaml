@@ -9,7 +9,7 @@ parameter_map:
   sc_05_odp_03: dos_protections
 rationale: functional
 relationship: equivalent-to
-review_status: draft
+review_status: reviewed
 source_ref: control--ogrl-bc-09
 summary: >-
   Layered denial-of-service mitigations for defined attack types

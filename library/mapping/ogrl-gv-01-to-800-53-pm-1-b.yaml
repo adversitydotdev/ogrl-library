@@ -9,7 +9,7 @@ parameter_map:
   pm_01_odp_02: policy_review_triggers
 rationale: functional
 relationship: equivalent-to
-review_status: draft
+review_status: reviewed
 source_ref: control--ogrl-gv-01
 summary: >
   Scheduled and event-driven policy review and update fulfils the

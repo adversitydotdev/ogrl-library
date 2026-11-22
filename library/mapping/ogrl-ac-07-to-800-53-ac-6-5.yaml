@@ -8,7 +8,7 @@ parameter_map:
   ac_06_05_odp: privileged_roles
 rationale: functional
 relationship: equivalent-to
-review_status: draft
+review_status: reviewed
 source_ref: control--ogrl-ac-07
 summary: >
   Privileged accounts are restricted to the defined set of eligible

@@ -8,7 +8,7 @@ parameter_map:
   ia_04_odp_02: identifier_reuse_period
 rationale: functional
 relationship: equivalent-to
-review_status: draft
+review_status: reviewed
 source_ref: control--ogrl-ac-13
 summary: >
   Retired identifiers are not reused for a defined period.

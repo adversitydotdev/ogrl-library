@@ -9,7 +9,7 @@ parameter_map:
   pe_06_odp_02: access_log_review_triggers
 rationale: functional
 relationship: equivalent-to
-review_status: draft
+review_status: reviewed
 source_ref: control--ogrl-ps-04
 summary: >
   Entry-point monitoring, scheduled and triggered log reviews, and
