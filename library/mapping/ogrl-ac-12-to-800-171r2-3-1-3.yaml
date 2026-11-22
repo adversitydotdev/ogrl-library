@@ -1,0 +1,15 @@
+type: mapping
+id: mapping--ogrl-ac-12-to-800-171r2-3-1-3
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: medium
+rationale: functional
+relationship: intersects-with
+review_status: reviewed
+source_ref: control--ogrl-ac-12
+summary: >-
+  Tenant isolation enforces one kind of information flow
+  restriction; CUI flow policies, designated sources and
+  destinations, and flow authorizations are not covered.
+target_ref: requirement--nist-sp-800-171-r2-3-1-3

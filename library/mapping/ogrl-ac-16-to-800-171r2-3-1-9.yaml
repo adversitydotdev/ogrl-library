@@ -1,0 +1,15 @@
+type: mapping
+id: mapping--ogrl-ac-16-to-800-171r2-3-1-9
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: high
+rationale: functional
+relationship: equivalent-to
+review_status: reviewed
+source_ref: control--ogrl-ac-16
+summary: >-
+  Identifies CUI-specific notice requirements by category and
+  displays the resulting notice at sign-in, covering both 3.1.9
+  objectives.
+target_ref: requirement--nist-sp-800-171-r2-3-1-9

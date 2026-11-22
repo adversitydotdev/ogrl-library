@@ -1,0 +1,62 @@
+type: control
+id: control--ogrl-ac-17
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+name: Wireless Access Authorization and Protection
+display_id: OGRL-AC-17
+control_type: preventive
+family: ac
+frequency: continuous
+guidance: >-
+  Use WPA2-Enterprise or WPA3-Enterprise with 802.1X backed by the
+  identity provider or certificate-based device authentication
+  instead of shared pre-shared keys for networks that reach CUI. Put
+  guest Wi-Fi on an isolated network with internet-only egress. Most
+  managed wireless controllers and cloud Wi-Fi dashboards can export
+  the access point inventory and report rogue or neighboring access
+  points for the reconciliation. Cloud-first contractors whose
+  offices have no wireless path to in-scope systems should document
+  that all wireless networks, including home and public Wi-Fi, are
+  treated as untrusted and that access to in-scope systems is only
+  through the approved remote access path (OGRL-AC-11); record this
+  scoping decision in the system security plan.
+objective: >-
+  Prevent unauthorized or weakly protected wireless connections from
+  providing a path to systems that store or process CUI.
+origin: standard
+parameters:
+  wireless_authenticated_entities:
+    label: Entities authenticated for wireless access
+    value: users and devices
+  wireless_authentication_method:
+    label: Wireless authentication method
+    value: >-
+      WPA2-Enterprise or WPA3-Enterprise 802.1X with individual user
+      or device credentials
+  wireless_encryption:
+    label: Wireless encryption standard
+    value: WPA2 or WPA3 AES-based encryption
+  wireless_review_frequency:
+    label: Wireless inventory reconciliation frequency
+    value: quarterly
+statement: >-
+  Maintain an inventory of wireless access points and wireless
+  networks that provide access to in-scope systems, document
+  configuration and connection requirements for each type of
+  wireless access, authorize each access point and network before it
+  is enabled, require authentication of
+  {{ wireless_authenticated_entities }} using
+  {{ wireless_authentication_method }} and encryption using
+  {{ wireless_encryption }} on every such network, keep guest and
+  other untrusted wireless networks separated from in-scope systems,
+  and reconcile the inventory against detected access points
+  {{ wireless_review_frequency }}.
+summary: >-
+  Inventory and authorize every wireless network that reaches
+  in-scope systems and protect it with strong authentication and
+  encryption.
+tags:
+  - wireless
+  - network
+  - access-control

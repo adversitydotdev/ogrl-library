@@ -1,0 +1,70 @@
+type: control
+id: control--ogrl-ac-18
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+name: External System Connections and Use
+display_id: OGRL-AC-18
+control_type: preventive
+family: ac
+frequency: continuous
+guidance: >-
+  For small DIB contractors the inventory is usually the list of
+  cloud services (email, file sharing, ERP, MSP tooling), partner
+  portals, and any personal devices. For cloud services that store
+  or process CUI, verify FedRAMP Moderate authorization or
+  equivalency as required by DFARS 252.204-7012 and keep the
+  customer responsibility matrix. For MSPs and other connected
+  organizations, retain the contract or connection agreement and
+  their CMMC status. Enforce restrictions with conditional access
+  requiring managed or compliant devices, OAuth app consent
+  restrictions, tenant restrictions, and blocking of unapproved
+  storage and sharing services. Treat personally owned devices as
+  prohibited unless they are enrolled and approved, or limited to
+  access that cannot download CUI (for example, browser-only virtual
+  desktop).
+objective: >-
+  Ensure CUI and in-scope systems are only reached from, or handled
+  by, external systems whose security has been verified and
+  approved.
+origin: standard
+parameters:
+  external_system_approver:
+    label: External system approval authority
+    value: the information security lead
+  external_system_review_frequency:
+    label: External system re-verification frequency
+    value: annually
+  external_system_verification:
+    label: >-
+      Verification required before an external system is permitted
+    value: >-
+      verifying that the external system implements the
+      organization's required security controls, through FedRAMP
+      authorization or equivalency, CMMC certification, or a
+      documented assessment, or retaining an approved connection or
+      processing agreement with its owner
+  prohibited_external_systems:
+    label: Prohibited types of external systems
+    value: >-
+      personally owned devices and unapproved cloud services for
+      processing, storing, or transmitting CUI
+statement: >-
+  Maintain an inventory of external systems that connect to in-scope
+  systems or are used to process, store, or transmit
+  organization-controlled information, including cloud services,
+  partner and customer systems, and personally owned devices; permit
+  each connection or use only after
+  {{ external_system_verification }} and approval by
+  {{ external_system_approver }}; prohibit use of
+  {{ prohibited_external_systems }}; enforce the approved list
+  through technical restrictions on connections and data transfer;
+  and re-verify each listed external system
+  {{ external_system_review_frequency }}.
+summary: >-
+  Identify, verify, and restrict the external systems and devices
+  that connect to in-scope systems or handle CUI.
+tags:
+  - external-systems
+  - third-party
+  - access-control

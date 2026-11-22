@@ -1,0 +1,57 @@
+type: control
+id: control--ogrl-ac-20
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+name: Authentication Mechanism Protections
+display_id: OGRL-AC-20
+control_type: preventive
+family: ac
+frequency: continuous
+guidance: >-
+  Modern identity providers using SAML or OIDC with TLS, FIDO2 or
+  WebAuthn, and time-based one-time codes are replay resistant;
+  Kerberos is replay resistant on-premises. Block legacy
+  authentication (basic authentication for mail protocols, NTLMv1
+  and LM, Telnet, plain FTP, and HTTP basic auth) through IdP
+  conditional access and Group Policy. Password field masking is the
+  default in operating systems and mainstream applications; verify
+  custom applications and command-line tools do not echo secrets,
+  and allow at most a brief user-initiated reveal. Evidence is the
+  IdP legacy authentication policy, protocol configuration, and
+  screenshots of masked sign-in prompts.
+objective: >-
+  Prevent captured or observed authentication data from being reused
+  or read to gain access to accounts.
+origin: standard
+parameters:
+  prohibited_auth_protocols:
+    label: Prohibited authentication protocols
+    value: >-
+      NTLMv1, LM, Telnet, unencrypted FTP, and basic authentication
+      for mail and web protocols
+  replay_resistant_account_types:
+    label: Account types requiring replay-resistant authentication
+    value: privileged and non-privileged accounts
+  replay_resistant_mechanisms:
+    label: Approved replay-resistant mechanisms
+    value: >-
+      FIDO2/WebAuthn, TLS-protected SAML or OIDC with signed,
+      time-bound assertions, Kerberos, and time-based or
+      challenge-based one-time codes
+statement: >-
+  Require network authentication to
+  {{ replay_resistant_account_types }} on in-scope systems to use
+  replay-resistant mechanisms such as
+  {{ replay_resistant_mechanisms }}; disable authentication
+  protocols that send reusable secrets in a form that can be
+  captured and replayed, including {{ prohibited_auth_protocols }};
+  and configure every authentication interface to obscure passwords,
+  PINs, and one-time codes as they are entered.
+summary: >-
+  Use replay-resistant authentication for network access to accounts
+  and obscure authenticators as they are entered.
+tags:
+  - authentication
+  - replay-resistance
+  - identity

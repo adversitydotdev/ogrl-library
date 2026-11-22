@@ -1,0 +1,16 @@
+type: mapping
+id: mapping--ogrl-ac-17-to-800-53-ac-18-1
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: high
+parameter_map:
+  ac_18_01_odp: wireless_authenticated_entities
+rationale: functional
+relationship: equivalent-to
+review_status: reviewed
+source_ref: control--ogrl-ac-17
+summary: >-
+  Requires authentication of users and devices and encryption on
+  every wireless network reaching in-scope systems.
+target_ref: requirement--nist-sp-800-53-r5-ac-18-1

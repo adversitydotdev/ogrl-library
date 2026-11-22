@@ -1,0 +1,56 @@
+type: control
+id: control--ogrl-ac-16
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+name: System Use Notification Banners
+display_id: OGRL-AC-16
+control_type: preventive
+family: ac
+frequency: continuous
+guidance: >-
+  Have counsel or the contracts lead approve one standard banner and
+  reuse it everywhere. Deploy it through MDM (Windows legal notice
+  policy, macOS login window text), the identity provider sign-in
+  page or custom terms of use, VPN or ZTNA client prompts, SSH
+  pre-authentication banners on servers and network devices, and
+  cloud console sign-in where the provider supports it. Where a SaaS
+  product cannot display a banner itself, enforce sign-in through
+  the identity provider so the IdP banner is shown first. Check each
+  CUI category in the DoD CUI Registry and any DFARS or agency
+  contract clauses for specific notice or marking wording. Evidence
+  is the approved banner text and screenshots or configuration
+  exports showing it on each access path.
+objective: >-
+  Ensure every user is informed of monitoring, permitted use, and
+  CUI handling obligations before accessing systems that hold CUI.
+origin: standard
+parameters:
+  banner_content:
+    label: System use notification content
+    value: >-
+      statements that the system may contain controlled unclassified
+      information, that use may be monitored, recorded, and audited,
+      that unauthorized use is prohibited and subject to criminal
+      and civil penalties, and that use of the system constitutes
+      consent to monitoring and recording
+  banner_review_frequency:
+    label: Notice text review frequency
+    value: annually
+statement: >-
+  Identify the privacy and security notice requirements that apply
+  to each CUI category and contract handled by in-scope systems and
+  record which notice applies to which category; display an approved
+  system use notification containing {{ banner_content }} at every
+  interactive sign-in to in-scope endpoints, identity provider,
+  remote access gateways, and administrative consoles, keeping it on
+  screen until the user explicitly acknowledges it before access is
+  granted; and review the notice text {{ banner_review_frequency }}
+  and whenever applicable CUI rules or contract clauses change.
+summary: >-
+  Display an approved privacy and security notice consistent with
+  applicable CUI rules before users can sign in to in-scope systems.
+tags:
+  - system-use-notification
+  - cui
+  - access-control

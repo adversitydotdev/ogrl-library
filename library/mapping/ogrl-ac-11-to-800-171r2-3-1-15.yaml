@@ -1,0 +1,15 @@
+type: mapping
+id: mapping--ogrl-ac-11-to-800-171r2-3-1-15
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: low
+rationale: functional
+relationship: intersects-with
+review_status: reviewed
+source_ref: control--ogrl-ac-11
+summary: >-
+  Authorizes remote access methods; specific privileged commands and
+  security-relevant information allowed remotely are not identified
+  or authorized.
+target_ref: requirement--nist-sp-800-171-r2-3-1-15

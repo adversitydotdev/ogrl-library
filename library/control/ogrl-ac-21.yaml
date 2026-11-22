@@ -1,0 +1,46 @@
+type: control
+id: control--ogrl-ac-21
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+name: Separation of User and System Management Functionality
+display_id: OGRL-AC-21
+control_type: preventive
+family: ac
+frequency: continuous
+guidance: >-
+  For SaaS and cloud workloads, host internal admin panels on a
+  separate hostname or application behind the identity provider and
+  a restricted network path rather than as hidden routes in the
+  customer-facing app, and keep cloud control-plane access separate
+  from the data plane. On endpoints, users work as standard users
+  and administrative tools run only under separate privileged
+  accounts or elevation (see OGRL-AC-07). Network devices and
+  hypervisors should expose management interfaces only on a
+  management network. Evidence is an architecture diagram or
+  inventory identifying the management interfaces and the
+  configuration that restricts them.
+objective: >-
+  Prevent ordinary users and user-facing interfaces from being used
+  to reach or tamper with system administration functions.
+origin: standard
+parameters:
+  management_interface_separation:
+    label: Means of separating management functionality
+    value: >-
+      separate administrative consoles, hostnames, or management
+      network paths
+statement: >-
+  Document which interfaces of in-scope systems provide user
+  functionality and which provide system management functionality,
+  and provide system management functionality only through
+  {{ management_interface_separation }} that are not exposed through
+  user-facing interfaces and are reachable only by authorized
+  privileged accounts.
+summary: >-
+  Keep administrative interfaces separate from the interfaces
+  ordinary users work in.
+tags:
+  - system-management
+  - separation
+  - access-control

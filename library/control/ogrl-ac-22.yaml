@@ -1,0 +1,50 @@
+type: control
+id: control--ogrl-ac-22
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+name: Remote Access Split-Tunneling Prevention
+display_id: OGRL-AC-22
+control_type: preventive
+family: ac
+frequency: continuous
+guidance: >-
+  In most VPN products this is the full-tunnel setting with local
+  LAN access disabled, pushed through MDM or the VPN head-end so
+  users cannot override it. Cloud-delivered secure access service
+  edge (SASE) or ZTNA clients can satisfy the requirement when they
+  steer all device traffic, including internet-bound traffic,
+  through the provider's inspection and policy enforcement. If the
+  organization has no VPN and CUI is reached only through cloud
+  services over TLS, document in the system security plan how remote
+  devices are prevented from bridging networks and expect assessor
+  scrutiny of the approach. Evidence is the client configuration
+  profile and a test showing local network resources are unreachable
+  while connected.
+objective: >-
+  Prevent a remote device from bridging the organization's systems
+  to untrusted networks it is simultaneously connected to.
+origin: standard
+parameters:
+  split_tunnel_safeguards:
+    label: Safeguards required for any approved split tunnel
+    value: >-
+      a managed cloud security gateway that receives and inspects
+      all non-tunneled traffic and enforces the organization's
+      network policy
+statement: >-
+  Configure the VPN or zero-trust remote access client on every
+  device that connects remotely to in-scope systems so that, while
+  connected, all traffic is routed through the organization's
+  managed tunnel and access to local and other external networks is
+  blocked, prevent users from changing these settings, and permit
+  split tunneling only when the split tunnel is securely provisioned
+  using {{ split_tunnel_safeguards }} and the exception is
+  documented and approved.
+summary: >-
+  Prevent remotely connected devices from talking to other networks
+  outside the organization's managed tunnel while connected.
+tags:
+  - remote-access
+  - split-tunneling
+  - network

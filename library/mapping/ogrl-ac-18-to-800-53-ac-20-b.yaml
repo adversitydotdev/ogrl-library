@@ -1,0 +1,14 @@
+type: mapping
+id: mapping--ogrl-ac-18-to-800-53-ac-20-b
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: high
+parameter_map:
+  ac_20_odp_04: prohibited_external_systems
+rationale: functional
+relationship: equivalent-to
+review_status: reviewed
+source_ref: control--ogrl-ac-18
+summary: Prohibits defined types of external systems.
+target_ref: "requirement--nist-sp-800-53-r5-ac-20#b"

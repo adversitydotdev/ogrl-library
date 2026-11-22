@@ -1,0 +1,53 @@
+type: control
+id: control--ogrl-ac-19
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+name: Publicly Accessible Content Review
+display_id: OGRL-AC-19
+control_type: preventive
+family: ac
+frequency: event-driven
+guidance: >-
+  Publicly accessible systems include the company website, social
+  media accounts, public code repositories, public cloud storage
+  buckets, job postings, and anyone-with-the-link file shares.
+  Enforce the publisher roster through CMS and social media account
+  permissions and repository visibility settings, and block public
+  sharing links in collaboration tools that hold CUI. Use a
+  lightweight ticket or approval step in the CMS for pre-publication
+  review. Evidence is the publisher roster, training records,
+  approval records for recent posts, and the periodic review log.
+objective: >-
+  Prevent CUI and other nonpublic information from being published
+  or remaining on public websites, social media, and other public
+  systems.
+origin: standard
+parameters:
+  public_content_publishers:
+    label: Individuals authorized to publish publicly
+    value: named individuals on an approved publisher roster
+  public_content_removal_window:
+    label: Time to remove improperly posted information
+    value: "24 hours"
+  public_content_review_frequency:
+    label: Public content review frequency
+    value: quarterly
+statement: >-
+  Limit the ability to post or process information on publicly
+  accessible systems to {{ public_content_publishers }}, train each
+  of them to recognize CUI and other nonpublic information before
+  granting publishing rights, require review and approval by a
+  designated reviewer of all proposed content before it is posted,
+  review content on publicly accessible systems for CUI and other
+  nonpublic information {{ public_content_review_frequency }}, and
+  remove any such information discovered within
+  {{ public_content_removal_window }} and report it as a security
+  incident.
+summary: >-
+  Restrict who can publish to public systems, review content before
+  posting, and periodically check public content for CUI.
+tags:
+  - public-content
+  - cui
+  - data-protection
