@@ -1,6 +1,6 @@
 # OGRL Standard Library
 
-The authoritative public repository for the shared **OGRL** (Open GRC Language) standard library as specified in [RFC 0001](https://ogrl.adversity.dev/rfcs/0001-object-model/) and [RFC 0002](https://ogrl.adversity.dev/rfcs/0002-tooling/).
+The authoritative public repository for the shared **OGRL** (Open Governance Reference Language) standard library as specified in [RFC 0001](https://ogrl.adversity.dev/rfcs/0001-object-model/) and [RFC 0002](https://ogrl.adversity.dev/rfcs/0002-tooling/).
 
 Browse the published catalog at **[ogrl.adversity.dev/library](https://ogrl.adversity.dev/library/)**.
 
