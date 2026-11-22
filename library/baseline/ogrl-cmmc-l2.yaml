@@ -1,0 +1,943 @@
+type: baseline
+id: baseline--ogrl-cmmc-l2
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+name: OGRL CMMC Level 2 Baseline
+control_refs:
+  - control--ogrl-ac-01
+  - control--ogrl-ac-03
+  - control--ogrl-ac-04
+  - control--ogrl-ac-05
+  - control--ogrl-ac-06
+  - control--ogrl-ac-07
+  - control--ogrl-ac-08
+  - control--ogrl-ac-09
+  - control--ogrl-ac-10
+  - control--ogrl-ac-11
+  - control--ogrl-ac-12
+  - control--ogrl-ac-13
+  - control--ogrl-ac-14
+  - control--ogrl-ac-16
+  - control--ogrl-ac-17
+  - control--ogrl-ac-18
+  - control--ogrl-ac-19
+  - control--ogrl-ac-20
+  - control--ogrl-ac-21
+  - control--ogrl-ac-22
+  - control--ogrl-am-01
+  - control--ogrl-bc-03
+  - control--ogrl-cm-01
+  - control--ogrl-cm-02
+  - control--ogrl-cm-03
+  - control--ogrl-cm-04
+  - control--ogrl-cm-05
+  - control--ogrl-cm-08
+  - control--ogrl-cm-10
+  - control--ogrl-cm-11
+  - control--ogrl-cm-12
+  - control--ogrl-cm-13
+  - control--ogrl-cm-14
+  - control--ogrl-cr-01
+  - control--ogrl-cr-02
+  - control--ogrl-cr-04
+  - control--ogrl-cr-06
+  - control--ogrl-gv-08
+  - control--ogrl-gv-09
+  - control--ogrl-gv-10
+  - control--ogrl-gv-11
+  - control--ogrl-gv-12
+  - control--ogrl-gv-13
+  - control--ogrl-hr-01
+  - control--ogrl-hr-02
+  - control--ogrl-hr-07
+  - control--ogrl-hr-08
+  - control--ogrl-hr-09
+  - control--ogrl-ir-01
+  - control--ogrl-ir-02
+  - control--ogrl-ir-03
+  - control--ogrl-ir-04
+  - control--ogrl-ir-07
+  - control--ogrl-lm-01
+  - control--ogrl-lm-02
+  - control--ogrl-lm-03
+  - control--ogrl-lm-04
+  - control--ogrl-lm-06
+  - control--ogrl-lm-07
+  - control--ogrl-lm-08
+  - control--ogrl-ps-01
+  - control--ogrl-ps-02
+  - control--ogrl-ps-03
+  - control--ogrl-ps-04
+  - control--ogrl-ps-05
+  - control--ogrl-ps-08
+  - control--ogrl-ps-09
+  - control--ogrl-ps-10
+  - control--ogrl-ps-11
+  - control--ogrl-ps-12
+  - control--ogrl-rm-02
+  - control--ogrl-sd-01
+  - control--ogrl-vm-01
+  - control--ogrl-vm-02
+  - control--ogrl-vm-03
+  - control--ogrl-vm-04
+  - control--ogrl-vm-06
+  - control--ogrl-vm-07
+  - control--ogrl-vm-08
+  - control--ogrl-vm-09
+extensions:
+  dev.ogrl.cmmc:
+    level: 2
+    requirements:
+      requirement--nist-sp-800-171-r2-3-1-1:
+        poam_eligible: false
+        points: 5
+        practice_id: AC.L2-3.1.1
+      requirement--nist-sp-800-171-r2-3-1-10:
+        poam_eligible: true
+        points: 1
+        practice_id: AC.L2-3.1.10
+      requirement--nist-sp-800-171-r2-3-1-11:
+        poam_eligible: true
+        points: 1
+        practice_id: AC.L2-3.1.11
+      requirement--nist-sp-800-171-r2-3-1-12:
+        poam_eligible: false
+        points: 5
+        practice_id: AC.L2-3.1.12
+      requirement--nist-sp-800-171-r2-3-1-13:
+        poam_eligible: false
+        points: 5
+        practice_id: AC.L2-3.1.13
+      requirement--nist-sp-800-171-r2-3-1-14:
+        poam_eligible: true
+        points: 1
+        practice_id: AC.L2-3.1.14
+      requirement--nist-sp-800-171-r2-3-1-15:
+        poam_eligible: true
+        points: 1
+        practice_id: AC.L2-3.1.15
+      requirement--nist-sp-800-171-r2-3-1-16:
+        poam_eligible: false
+        points: 5
+        practice_id: AC.L2-3.1.16
+      requirement--nist-sp-800-171-r2-3-1-17:
+        poam_eligible: false
+        points: 5
+        practice_id: AC.L2-3.1.17
+      requirement--nist-sp-800-171-r2-3-1-18:
+        poam_eligible: false
+        points: 5
+        practice_id: AC.L2-3.1.18
+      requirement--nist-sp-800-171-r2-3-1-19:
+        poam_eligible: false
+        points: 3
+        practice_id: AC.L2-3.1.19
+      requirement--nist-sp-800-171-r2-3-1-2:
+        poam_eligible: false
+        points: 5
+        practice_id: AC.L2-3.1.2
+      requirement--nist-sp-800-171-r2-3-1-20:
+        poam_eligible: false
+        points: 1
+        practice_id: AC.L2-3.1.20
+      requirement--nist-sp-800-171-r2-3-1-21:
+        poam_eligible: true
+        points: 1
+        practice_id: AC.L2-3.1.21
+      requirement--nist-sp-800-171-r2-3-1-22:
+        poam_eligible: false
+        points: 1
+        practice_id: AC.L2-3.1.22
+      requirement--nist-sp-800-171-r2-3-1-3:
+        poam_eligible: true
+        points: 1
+        practice_id: AC.L2-3.1.3
+      requirement--nist-sp-800-171-r2-3-1-4:
+        poam_eligible: true
+        points: 1
+        practice_id: AC.L2-3.1.4
+      requirement--nist-sp-800-171-r2-3-1-5:
+        poam_eligible: false
+        points: 3
+        practice_id: AC.L2-3.1.5
+      requirement--nist-sp-800-171-r2-3-1-6:
+        poam_eligible: true
+        points: 1
+        practice_id: AC.L2-3.1.6
+      requirement--nist-sp-800-171-r2-3-1-7:
+        poam_eligible: true
+        points: 1
+        practice_id: AC.L2-3.1.7
+      requirement--nist-sp-800-171-r2-3-1-8:
+        poam_eligible: true
+        points: 1
+        practice_id: AC.L2-3.1.8
+      requirement--nist-sp-800-171-r2-3-1-9:
+        poam_eligible: true
+        points: 1
+        practice_id: AC.L2-3.1.9
+      requirement--nist-sp-800-171-r2-3-10-1:
+        poam_eligible: false
+        points: 5
+        practice_id: PE.L2-3.10.1
+      requirement--nist-sp-800-171-r2-3-10-2:
+        poam_eligible: false
+        points: 5
+        practice_id: PE.L2-3.10.2
+      requirement--nist-sp-800-171-r2-3-10-3:
+        poam_eligible: false
+        points: 1
+        practice_id: PE.L2-3.10.3
+      requirement--nist-sp-800-171-r2-3-10-4:
+        poam_eligible: false
+        points: 1
+        practice_id: PE.L2-3.10.4
+      requirement--nist-sp-800-171-r2-3-10-5:
+        poam_eligible: false
+        points: 1
+        practice_id: PE.L2-3.10.5
+      requirement--nist-sp-800-171-r2-3-10-6:
+        poam_eligible: true
+        points: 1
+        practice_id: PE.L2-3.10.6
+      requirement--nist-sp-800-171-r2-3-11-1:
+        poam_eligible: false
+        points: 3
+        practice_id: RA.L2-3.11.1
+      requirement--nist-sp-800-171-r2-3-11-2:
+        poam_eligible: false
+        points: 5
+        practice_id: RA.L2-3.11.2
+      requirement--nist-sp-800-171-r2-3-11-3:
+        poam_eligible: true
+        points: 1
+        practice_id: RA.L2-3.11.3
+      requirement--nist-sp-800-171-r2-3-12-1:
+        poam_eligible: false
+        points: 5
+        practice_id: CA.L2-3.12.1
+      requirement--nist-sp-800-171-r2-3-12-2:
+        poam_eligible: false
+        points: 3
+        practice_id: CA.L2-3.12.2
+      requirement--nist-sp-800-171-r2-3-12-3:
+        poam_eligible: false
+        points: 5
+        practice_id: CA.L2-3.12.3
+      requirement--nist-sp-800-171-r2-3-12-4:
+        poam_eligible: false
+        practice_id: CA.L2-3.12.4
+        ssp_required: true
+      requirement--nist-sp-800-171-r2-3-13-1:
+        poam_eligible: false
+        points: 5
+        practice_id: SC.L2-3.13.1
+      requirement--nist-sp-800-171-r2-3-13-10:
+        poam_eligible: true
+        points: 1
+        practice_id: SC.L2-3.13.10
+      requirement--nist-sp-800-171-r2-3-13-11:
+        partial_points: 3
+        poam_eligible: false
+        poam_eligible_at_partial: true
+        points: 5
+        practice_id: SC.L2-3.13.11
+      requirement--nist-sp-800-171-r2-3-13-12:
+        poam_eligible: true
+        points: 1
+        practice_id: SC.L2-3.13.12
+      requirement--nist-sp-800-171-r2-3-13-13:
+        poam_eligible: true
+        points: 1
+        practice_id: SC.L2-3.13.13
+      requirement--nist-sp-800-171-r2-3-13-14:
+        poam_eligible: true
+        points: 1
+        practice_id: SC.L2-3.13.14
+      requirement--nist-sp-800-171-r2-3-13-15:
+        poam_eligible: false
+        points: 5
+        practice_id: SC.L2-3.13.15
+      requirement--nist-sp-800-171-r2-3-13-16:
+        poam_eligible: true
+        points: 1
+        practice_id: SC.L2-3.13.16
+      requirement--nist-sp-800-171-r2-3-13-2:
+        poam_eligible: false
+        points: 5
+        practice_id: SC.L2-3.13.2
+      requirement--nist-sp-800-171-r2-3-13-3:
+        poam_eligible: true
+        points: 1
+        practice_id: SC.L2-3.13.3
+      requirement--nist-sp-800-171-r2-3-13-4:
+        poam_eligible: true
+        points: 1
+        practice_id: SC.L2-3.13.4
+      requirement--nist-sp-800-171-r2-3-13-5:
+        poam_eligible: false
+        points: 5
+        practice_id: SC.L2-3.13.5
+      requirement--nist-sp-800-171-r2-3-13-6:
+        poam_eligible: false
+        points: 5
+        practice_id: SC.L2-3.13.6
+      requirement--nist-sp-800-171-r2-3-13-7:
+        poam_eligible: true
+        points: 1
+        practice_id: SC.L2-3.13.7
+      requirement--nist-sp-800-171-r2-3-13-8:
+        poam_eligible: false
+        points: 3
+        practice_id: SC.L2-3.13.8
+      requirement--nist-sp-800-171-r2-3-13-9:
+        poam_eligible: true
+        points: 1
+        practice_id: SC.L2-3.13.9
+      requirement--nist-sp-800-171-r2-3-14-1:
+        poam_eligible: false
+        points: 5
+        practice_id: SI.L2-3.14.1
+      requirement--nist-sp-800-171-r2-3-14-2:
+        poam_eligible: false
+        points: 5
+        practice_id: SI.L2-3.14.2
+      requirement--nist-sp-800-171-r2-3-14-3:
+        poam_eligible: false
+        points: 5
+        practice_id: SI.L2-3.14.3
+      requirement--nist-sp-800-171-r2-3-14-4:
+        poam_eligible: false
+        points: 5
+        practice_id: SI.L2-3.14.4
+      requirement--nist-sp-800-171-r2-3-14-5:
+        poam_eligible: false
+        points: 3
+        practice_id: SI.L2-3.14.5
+      requirement--nist-sp-800-171-r2-3-14-6:
+        poam_eligible: false
+        points: 5
+        practice_id: SI.L2-3.14.6
+      requirement--nist-sp-800-171-r2-3-14-7:
+        poam_eligible: false
+        points: 3
+        practice_id: SI.L2-3.14.7
+      requirement--nist-sp-800-171-r2-3-2-1:
+        poam_eligible: false
+        points: 5
+        practice_id: AT.L2-3.2.1
+      requirement--nist-sp-800-171-r2-3-2-2:
+        poam_eligible: false
+        points: 5
+        practice_id: AT.L2-3.2.2
+      requirement--nist-sp-800-171-r2-3-2-3:
+        poam_eligible: true
+        points: 1
+        practice_id: AT.L2-3.2.3
+      requirement--nist-sp-800-171-r2-3-3-1:
+        poam_eligible: false
+        points: 5
+        practice_id: AU.L2-3.3.1
+      requirement--nist-sp-800-171-r2-3-3-2:
+        poam_eligible: false
+        points: 3
+        practice_id: AU.L2-3.3.2
+      requirement--nist-sp-800-171-r2-3-3-3:
+        poam_eligible: true
+        points: 1
+        practice_id: AU.L2-3.3.3
+      requirement--nist-sp-800-171-r2-3-3-4:
+        poam_eligible: true
+        points: 1
+        practice_id: AU.L2-3.3.4
+      requirement--nist-sp-800-171-r2-3-3-5:
+        poam_eligible: false
+        points: 5
+        practice_id: AU.L2-3.3.5
+      requirement--nist-sp-800-171-r2-3-3-6:
+        poam_eligible: true
+        points: 1
+        practice_id: AU.L2-3.3.6
+      requirement--nist-sp-800-171-r2-3-3-7:
+        poam_eligible: true
+        points: 1
+        practice_id: AU.L2-3.3.7
+      requirement--nist-sp-800-171-r2-3-3-8:
+        poam_eligible: true
+        points: 1
+        practice_id: AU.L2-3.3.8
+      requirement--nist-sp-800-171-r2-3-3-9:
+        poam_eligible: true
+        points: 1
+        practice_id: AU.L2-3.3.9
+      requirement--nist-sp-800-171-r2-3-4-1:
+        poam_eligible: false
+        points: 5
+        practice_id: CM.L2-3.4.1
+      requirement--nist-sp-800-171-r2-3-4-2:
+        poam_eligible: false
+        points: 5
+        practice_id: CM.L2-3.4.2
+      requirement--nist-sp-800-171-r2-3-4-3:
+        poam_eligible: true
+        points: 1
+        practice_id: CM.L2-3.4.3
+      requirement--nist-sp-800-171-r2-3-4-4:
+        poam_eligible: true
+        points: 1
+        practice_id: CM.L2-3.4.4
+      requirement--nist-sp-800-171-r2-3-4-5:
+        poam_eligible: false
+        points: 5
+        practice_id: CM.L2-3.4.5
+      requirement--nist-sp-800-171-r2-3-4-6:
+        poam_eligible: false
+        points: 5
+        practice_id: CM.L2-3.4.6
+      requirement--nist-sp-800-171-r2-3-4-7:
+        poam_eligible: false
+        points: 5
+        practice_id: CM.L2-3.4.7
+      requirement--nist-sp-800-171-r2-3-4-8:
+        poam_eligible: false
+        points: 5
+        practice_id: CM.L2-3.4.8
+      requirement--nist-sp-800-171-r2-3-4-9:
+        poam_eligible: true
+        points: 1
+        practice_id: CM.L2-3.4.9
+      requirement--nist-sp-800-171-r2-3-5-1:
+        poam_eligible: false
+        points: 5
+        practice_id: IA.L2-3.5.1
+      requirement--nist-sp-800-171-r2-3-5-10:
+        poam_eligible: false
+        points: 5
+        practice_id: IA.L2-3.5.10
+      requirement--nist-sp-800-171-r2-3-5-11:
+        poam_eligible: true
+        points: 1
+        practice_id: IA.L2-3.5.11
+      requirement--nist-sp-800-171-r2-3-5-2:
+        poam_eligible: false
+        points: 5
+        practice_id: IA.L2-3.5.2
+      requirement--nist-sp-800-171-r2-3-5-3:
+        partial_points: 3
+        poam_eligible: false
+        points: 5
+        practice_id: IA.L2-3.5.3
+      requirement--nist-sp-800-171-r2-3-5-4:
+        poam_eligible: true
+        points: 1
+        practice_id: IA.L2-3.5.4
+      requirement--nist-sp-800-171-r2-3-5-5:
+        poam_eligible: true
+        points: 1
+        practice_id: IA.L2-3.5.5
+      requirement--nist-sp-800-171-r2-3-5-6:
+        poam_eligible: true
+        points: 1
+        practice_id: IA.L2-3.5.6
+      requirement--nist-sp-800-171-r2-3-5-7:
+        poam_eligible: true
+        points: 1
+        practice_id: IA.L2-3.5.7
+      requirement--nist-sp-800-171-r2-3-5-8:
+        poam_eligible: true
+        points: 1
+        practice_id: IA.L2-3.5.8
+      requirement--nist-sp-800-171-r2-3-5-9:
+        poam_eligible: true
+        points: 1
+        practice_id: IA.L2-3.5.9
+      requirement--nist-sp-800-171-r2-3-6-1:
+        poam_eligible: false
+        points: 5
+        practice_id: IR.L2-3.6.1
+      requirement--nist-sp-800-171-r2-3-6-2:
+        poam_eligible: false
+        points: 5
+        practice_id: IR.L2-3.6.2
+      requirement--nist-sp-800-171-r2-3-6-3:
+        poam_eligible: true
+        points: 1
+        practice_id: IR.L2-3.6.3
+      requirement--nist-sp-800-171-r2-3-7-1:
+        poam_eligible: false
+        points: 3
+        practice_id: MA.L2-3.7.1
+      requirement--nist-sp-800-171-r2-3-7-2:
+        poam_eligible: false
+        points: 5
+        practice_id: MA.L2-3.7.2
+      requirement--nist-sp-800-171-r2-3-7-3:
+        poam_eligible: true
+        points: 1
+        practice_id: MA.L2-3.7.3
+      requirement--nist-sp-800-171-r2-3-7-4:
+        poam_eligible: false
+        points: 3
+        practice_id: MA.L2-3.7.4
+      requirement--nist-sp-800-171-r2-3-7-5:
+        poam_eligible: false
+        points: 5
+        practice_id: MA.L2-3.7.5
+      requirement--nist-sp-800-171-r2-3-7-6:
+        poam_eligible: true
+        points: 1
+        practice_id: MA.L2-3.7.6
+      requirement--nist-sp-800-171-r2-3-8-1:
+        poam_eligible: false
+        points: 3
+        practice_id: MP.L2-3.8.1
+      requirement--nist-sp-800-171-r2-3-8-2:
+        poam_eligible: false
+        points: 3
+        practice_id: MP.L2-3.8.2
+      requirement--nist-sp-800-171-r2-3-8-3:
+        poam_eligible: false
+        points: 5
+        practice_id: MP.L2-3.8.3
+      requirement--nist-sp-800-171-r2-3-8-4:
+        poam_eligible: true
+        points: 1
+        practice_id: MP.L2-3.8.4
+      requirement--nist-sp-800-171-r2-3-8-5:
+        poam_eligible: true
+        points: 1
+        practice_id: MP.L2-3.8.5
+      requirement--nist-sp-800-171-r2-3-8-6:
+        poam_eligible: true
+        points: 1
+        practice_id: MP.L2-3.8.6
+      requirement--nist-sp-800-171-r2-3-8-7:
+        poam_eligible: false
+        points: 5
+        practice_id: MP.L2-3.8.7
+      requirement--nist-sp-800-171-r2-3-8-8:
+        poam_eligible: false
+        points: 3
+        practice_id: MP.L2-3.8.8
+      requirement--nist-sp-800-171-r2-3-8-9:
+        poam_eligible: true
+        points: 1
+        practice_id: MP.L2-3.8.9
+      requirement--nist-sp-800-171-r2-3-9-1:
+        poam_eligible: false
+        points: 3
+        practice_id: PS.L2-3.9.1
+      requirement--nist-sp-800-171-r2-3-9-2:
+        poam_eligible: false
+        points: 5
+        practice_id: PS.L2-3.9.2
+    scoring:
+      conditional_min_ratio: 0.8
+      max_score: 110
+      poam_closeout_days: 180
+    source: "32 CFR 170.14(c)(3), 170.21, 170.24"
+framework_refs:
+  - framework--nist-sp-800-171-r2
+parameter_bindings:
+  control--ogrl-ac-05:
+    mfa_standard: "phishing-resistant (FIDO2/WebAuthn) or TOTP"
+  control--ogrl-ac-07:
+    privileged_review_frequency: monthly
+  control--ogrl-ac-09:
+    inactivity_period: "90 days"
+  control--ogrl-ac-10:
+    device_lock_timeout: >-
+      15 minutes, concealing all previously visible information
+      behind a pattern-hiding lock screen
+    session_termination_conditions: >-
+      30 minutes of inactivity or 12 hours of total session
+      duration, with associated network and VPN connections
+      terminated at session end
+  control--ogrl-ac-11:
+    remote_access_review_frequency: annually
+  control--ogrl-ac-13:
+    identifier_reuse_period: at least two years
+  control--ogrl-ac-14:
+    failed_attempt_window: "15 minutes"
+    max_failed_attempts: "5"
+    password_composition_rules: >-
+      a minimum length of 12 characters using at least three of
+      uppercase, lowercase, numeric, and special characters, a
+      change of at least 4 characters from the previous password,
+      and no reuse of any of the previous 24 passwords, with
+      temporary passwords valid only for an immediate change to a
+      permanent password
+  control--ogrl-ac-16:
+    banner_review_frequency: annually
+  control--ogrl-ac-17:
+    wireless_authenticated_entities: users and devices
+    wireless_review_frequency: quarterly
+  control--ogrl-ac-18:
+    external_system_review_frequency: annually
+  control--ogrl-ac-19:
+    public_content_removal_window: "24 hours"
+    public_content_review_frequency: quarterly
+  control--ogrl-ac-20:
+    replay_resistant_account_types: >-
+      privileged and non-privileged accounts
+  control--ogrl-ac-22:
+    split_tunnel_safeguards: >-
+      a managed cloud security gateway that receives and inspects
+      all non-tunneled traffic and enforces the organization's
+      network policy
+  control--ogrl-am-01:
+    inventory_attributes: >-
+      unique identifier, type, owner, environment, location or
+      region, data classification, installed software and firmware
+      versions, and associated documentation
+    inventory_review_frequency: quarterly
+  control--ogrl-bc-03:
+    backup_scope: >-
+      production databases, object storage, system configuration not
+      reproducible from version control, and all other backups
+      containing CUI (endpoint, SaaS, and on-premises)
+  control--ogrl-cm-02:
+    baseline_review_frequency: annually
+    baseline_scope: >-
+      all components that process, store, or transmit CUI or protect
+      it, including workforce endpoints, network devices and
+      firmware, cloud accounts, compute images, container images,
+      managed databases, and SaaS tenant security settings, with
+      associated configuration documentation
+  control--ogrl-cm-03:
+    drift_scope: >-
+      CUI cloud resources, IaC-managed components, and workforce
+      endpoints via MDM compliance policies
+  control--ogrl-cm-04:
+    significant_change_types: >-
+      all changes to systems that process, store, or transmit CUI,
+      with analysis depth scaled to change risk
+  control--ogrl-cm-05:
+    change_access_review_frequency: quarterly
+  control--ogrl-cm-08:
+    software_compliance_review_frequency: quarterly
+  control--ogrl-cm-10:
+    maintenance_record_review_frequency: quarterly
+    maintenance_tool_review_frequency: annually
+  control--ogrl-cm-11:
+    offsite_sanitization_information: >-
+      all CUI and other organizational information, including
+      credentials, keys, configuration files, and cached
+      authentication material
+  control--ogrl-cm-12:
+    media_scanning_mechanism: >-
+      the organization's managed anti-malware engine with current
+      signatures on a designated scanning workstation outside the
+      CUI enclave
+  control--ogrl-cm-13:
+    nonlocal_session_approver: the system owner or IT lead
+    nonlocal_session_idle_timeout: "30 minutes"
+  control--ogrl-cm-14:
+    authorized_maintenance_list_review_frequency: annually
+  control--ogrl-cr-01:
+    protected_data_scope: >-
+      all CUI and FCI, plus customer, authentication, and
+      confidential organizational data, including all remote access
+      sessions
+    rest_cipher_suite: >-
+      AES-256 (XTS or GCM) implemented in a FIPS 140-2/140-3
+      validated module operating in approved mode
+    transit_cipher_suite: >-
+      TLS 1.2 or higher using FIPS-validated modules and only
+      FIPS-approved suites (TLS 1.3
+      TLS_AES_256_GCM_SHA384/TLS_AES_128_GCM_SHA256; TLS 1.2
+      ECDHE-ECDSA/ECDHE-RSA with AES-GCM and SHA-256/384)
+  control--ogrl-cr-02:
+    key_management_system: >-
+      a FIPS 140-2/140-3 validated cloud key management service or
+      HSM
+    key_rotation_period: at least annually
+    key_scope: >-
+      all cryptography protecting CUI, including production data
+      stores, backups, TLS endpoints, VPN, endpoint and mobile
+      full-disk encryption, and encrypted removable media
+  control--ogrl-cr-04:
+    media_scope: >-
+      paper media and laptops, workstations, mobile devices,
+      removable media, and other devices that store CUI or
+      organizational data
+    sanitization_methods: >-
+      NIST SP 800-88 clear, purge, or destroy techniques, including
+      cryptographic erase of encrypted devices and cross-cut
+      shredding or pulping of paper
+  control--ogrl-cr-06:
+    crypto_inventory_review_cadence: annually
+  control--ogrl-gv-08:
+    plan_review_frequency: at least annually
+  control--ogrl-gv-09:
+    aup_review_frequency: at least annually
+    reacknowledgment_frequency: annually
+  control--ogrl-gv-10:
+    assessment_frequency: at least annually
+  control--ogrl-gv-11:
+    monitoring_frequency: at least daily
+  control--ogrl-gv-12:
+    remediation_sla: >-
+      30 days for high severity and 90 days for others unless a
+      documented risk acceptance applies; CMMC POA&M items within
+      180 days of the Conditional status date
+    review_frequency: monthly
+  control--ogrl-gv-13:
+    cmmc_assessment_frequency: at least every three years
+    cmmc_assessment_type: >-
+      the CMMC Level 2 self-assessment or Level 2 C3PAO
+      certification assessment specified in the organization's DoD
+      contracts
+  control--ogrl-hr-01:
+    screening_scope: >-
+      identity verification, criminal history, and employment
+      history checks
+  control--ogrl-hr-02:
+    access_disable_sla: "24 hours"
+    transfer_review_sla: "5 business days"
+  control--ogrl-hr-07:
+    content_review_frequency: annually
+    onboarding_training_window: "30 days"
+    training_frequency: annually
+  control--ogrl-hr-08:
+    role_training_frequency: annually
+    trained_roles: >-
+      system administrators, security personnel, incident
+      responders, and personnel with privileged or CUI-handling
+      duties
+  control--ogrl-hr-09:
+    insider_threat_training_frequency: annually
+    insider_threat_training_window: "30 days"
+  control--ogrl-ir-01:
+    ir_test_cadence: at least annually
+  control--ogrl-ir-02:
+    triage_sla: "1 hour"
+  control--ogrl-ir-03:
+    incident_record_retention: at least 3 years
+  control--ogrl-ir-04:
+    external_notification_recipients: >-
+      DoD via DIBNet (per OGRL-IR-07), affected customers and prime
+      contractors, and other authorities as required by contract or
+      law
+    internal_report_window: "24 hours"
+  control--ogrl-ir-07:
+    certificate_check_frequency: quarterly
+    dod_reporting_roles: >-
+      the security lead and at least one designated alternate
+  control--ogrl-lm-01:
+    logged_events: >-
+      authentication attempts, privilege changes, execution of
+      privileged functions, configuration mutations, and access to
+      CUI, each record capturing event type, time, source, outcome,
+      and unique user identity
+    logging_review_cadence: >-
+      at least annually, and after significant system changes or
+      incidents
+    retention_period: "365 days"
+  control--ogrl-lm-02:
+    triage_sla: "4 hours"
+  control--ogrl-lm-03:
+    log_reader_roles: >-
+      security and designated on-call engineering roles
+  control--ogrl-lm-04:
+    log_review_frequency: weekly
+  control--ogrl-lm-06:
+    logging_failure_alert_recipients: >-
+      the security on-call team and the logging platform owner
+    logging_failure_alert_window: "1 hour"
+  control--ogrl-lm-07:
+    max_clock_drift: "1 second"
+    time_comparison_frequency: at least hourly
+    timestamp_granularity: one second or finer
+  control--ogrl-lm-08:
+    capability_test_frequency: at least annually
+  control--ogrl-ps-01:
+    access_review_cadence: quarterly
+    controlled_facilities: >-
+      all facilities where CUI is processed or stored, including
+      offices, equipment rooms, and CUI media storage areas
+  control--ogrl-ps-02:
+    access_device_inventory_cadence: annually
+    controlled_facilities: >-
+      all facilities where CUI is processed or stored, including
+      offices, equipment rooms, and CUI media storage areas
+    entry_control_mechanism: >-
+      electronic badge readers that log each entry, or keyed locks
+      supplemented by a maintained entry log
+    entry_log_retention: at least 1 year
+  control--ogrl-ps-03:
+    controlled_facilities: >-
+      all facilities where CUI is processed or stored, including
+      offices, equipment rooms, and CUI media storage areas
+    visitor_record_retention: at least 1 year
+    visitor_review_cadence: monthly
+  control--ogrl-ps-04:
+    access_log_review_cadence: monthly
+    controlled_facilities: >-
+      all facilities where CUI is processed or stored, including
+      offices, equipment rooms, and CUI media storage areas
+  control--ogrl-ps-08:
+    media_exception_review_cadence: quarterly
+  control--ogrl-ps-09:
+    media_access_review_cadence: quarterly
+  control--ogrl-ps-10:
+    marking_review_cadence: annually
+  control--ogrl-ps-11:
+    transport_log_reconciliation_cadence: monthly
+  control--ogrl-ps-12:
+    alternate_site_assessment_cadence: annually
+  control--ogrl-rm-02:
+    risk_assessment_frequency: at least annually
+  control--ogrl-sd-01:
+    sdlc_review_frequency: annually
+  control--ogrl-vm-01:
+    remediation_sla: >-
+      15 days for critical, 30 days for high, 90 days for medium,
+      and low severity per documented risk assessment
+    scan_cadence: >-
+      at least weekly, on every release, and when new
+      vulnerabilities affecting in-scope systems or applications are
+      identified
+  control--ogrl-vm-02:
+    patch_sla: >-
+      14 days for critical, 30 days for high, and 90 days for other
+      security updates
+  control--ogrl-vm-03:
+    malware_coverage_review_frequency: monthly
+    malware_protected_assets: >-
+      all endpoints and servers in the CMMC assessment scope running
+      general-purpose operating systems
+    malware_scan_frequency: weekly
+  control--ogrl-vm-04:
+    advisory_triage_sla: "2 business days"
+  control--ogrl-vm-06:
+    device_revocation_sla: "24 hours"
+    device_security_requirements: >-
+      FIPS-validated full-disk or container encryption, screen lock
+      after 15 minutes or less, a supported OS with automatic
+      updates, and remote-wipe capability
+  control--ogrl-vm-07:
+    collab_config_review_frequency: quarterly
+    remote_activation_exceptions: >-
+      dedicated video conferencing systems that activate only when a
+      participant in the room places or accepts a call
+  control--ogrl-vm-08:
+    mobile_code_review_frequency: annually
+  control--ogrl-vm-09:
+    voip_review_frequency: at least quarterly
+requirement_refs:
+  - requirement--nist-sp-800-171-r2-3-1-1
+  - requirement--nist-sp-800-171-r2-3-1-2
+  - requirement--nist-sp-800-171-r2-3-1-3
+  - requirement--nist-sp-800-171-r2-3-1-4
+  - requirement--nist-sp-800-171-r2-3-1-5
+  - requirement--nist-sp-800-171-r2-3-1-6
+  - requirement--nist-sp-800-171-r2-3-1-7
+  - requirement--nist-sp-800-171-r2-3-1-8
+  - requirement--nist-sp-800-171-r2-3-1-9
+  - requirement--nist-sp-800-171-r2-3-1-10
+  - requirement--nist-sp-800-171-r2-3-1-11
+  - requirement--nist-sp-800-171-r2-3-1-12
+  - requirement--nist-sp-800-171-r2-3-1-13
+  - requirement--nist-sp-800-171-r2-3-1-14
+  - requirement--nist-sp-800-171-r2-3-1-15
+  - requirement--nist-sp-800-171-r2-3-1-16
+  - requirement--nist-sp-800-171-r2-3-1-17
+  - requirement--nist-sp-800-171-r2-3-1-18
+  - requirement--nist-sp-800-171-r2-3-1-19
+  - requirement--nist-sp-800-171-r2-3-1-20
+  - requirement--nist-sp-800-171-r2-3-1-21
+  - requirement--nist-sp-800-171-r2-3-1-22
+  - requirement--nist-sp-800-171-r2-3-2-1
+  - requirement--nist-sp-800-171-r2-3-2-2
+  - requirement--nist-sp-800-171-r2-3-2-3
+  - requirement--nist-sp-800-171-r2-3-3-1
+  - requirement--nist-sp-800-171-r2-3-3-2
+  - requirement--nist-sp-800-171-r2-3-3-3
+  - requirement--nist-sp-800-171-r2-3-3-4
+  - requirement--nist-sp-800-171-r2-3-3-5
+  - requirement--nist-sp-800-171-r2-3-3-6
+  - requirement--nist-sp-800-171-r2-3-3-7
+  - requirement--nist-sp-800-171-r2-3-3-8
+  - requirement--nist-sp-800-171-r2-3-3-9
+  - requirement--nist-sp-800-171-r2-3-4-1
+  - requirement--nist-sp-800-171-r2-3-4-2
+  - requirement--nist-sp-800-171-r2-3-4-3
+  - requirement--nist-sp-800-171-r2-3-4-4
+  - requirement--nist-sp-800-171-r2-3-4-5
+  - requirement--nist-sp-800-171-r2-3-4-6
+  - requirement--nist-sp-800-171-r2-3-4-7
+  - requirement--nist-sp-800-171-r2-3-4-8
+  - requirement--nist-sp-800-171-r2-3-4-9
+  - requirement--nist-sp-800-171-r2-3-5-1
+  - requirement--nist-sp-800-171-r2-3-5-2
+  - requirement--nist-sp-800-171-r2-3-5-3
+  - requirement--nist-sp-800-171-r2-3-5-4
+  - requirement--nist-sp-800-171-r2-3-5-5
+  - requirement--nist-sp-800-171-r2-3-5-6
+  - requirement--nist-sp-800-171-r2-3-5-7
+  - requirement--nist-sp-800-171-r2-3-5-8
+  - requirement--nist-sp-800-171-r2-3-5-9
+  - requirement--nist-sp-800-171-r2-3-5-10
+  - requirement--nist-sp-800-171-r2-3-5-11
+  - requirement--nist-sp-800-171-r2-3-6-1
+  - requirement--nist-sp-800-171-r2-3-6-2
+  - requirement--nist-sp-800-171-r2-3-6-3
+  - requirement--nist-sp-800-171-r2-3-7-1
+  - requirement--nist-sp-800-171-r2-3-7-2
+  - requirement--nist-sp-800-171-r2-3-7-3
+  - requirement--nist-sp-800-171-r2-3-7-4
+  - requirement--nist-sp-800-171-r2-3-7-5
+  - requirement--nist-sp-800-171-r2-3-7-6
+  - requirement--nist-sp-800-171-r2-3-8-1
+  - requirement--nist-sp-800-171-r2-3-8-2
+  - requirement--nist-sp-800-171-r2-3-8-3
+  - requirement--nist-sp-800-171-r2-3-8-4
+  - requirement--nist-sp-800-171-r2-3-8-5
+  - requirement--nist-sp-800-171-r2-3-8-6
+  - requirement--nist-sp-800-171-r2-3-8-7
+  - requirement--nist-sp-800-171-r2-3-8-8
+  - requirement--nist-sp-800-171-r2-3-8-9
+  - requirement--nist-sp-800-171-r2-3-9-1
+  - requirement--nist-sp-800-171-r2-3-9-2
+  - requirement--nist-sp-800-171-r2-3-10-1
+  - requirement--nist-sp-800-171-r2-3-10-2
+  - requirement--nist-sp-800-171-r2-3-10-3
+  - requirement--nist-sp-800-171-r2-3-10-4
+  - requirement--nist-sp-800-171-r2-3-10-5
+  - requirement--nist-sp-800-171-r2-3-10-6
+  - requirement--nist-sp-800-171-r2-3-11-1
+  - requirement--nist-sp-800-171-r2-3-11-2
+  - requirement--nist-sp-800-171-r2-3-11-3
+  - requirement--nist-sp-800-171-r2-3-12-1
+  - requirement--nist-sp-800-171-r2-3-12-2
+  - requirement--nist-sp-800-171-r2-3-12-3
+  - requirement--nist-sp-800-171-r2-3-12-4
+  - requirement--nist-sp-800-171-r2-3-13-1
+  - requirement--nist-sp-800-171-r2-3-13-2
+  - requirement--nist-sp-800-171-r2-3-13-3
+  - requirement--nist-sp-800-171-r2-3-13-4
+  - requirement--nist-sp-800-171-r2-3-13-5
+  - requirement--nist-sp-800-171-r2-3-13-6
+  - requirement--nist-sp-800-171-r2-3-13-7
+  - requirement--nist-sp-800-171-r2-3-13-8
+  - requirement--nist-sp-800-171-r2-3-13-9
+  - requirement--nist-sp-800-171-r2-3-13-10
+  - requirement--nist-sp-800-171-r2-3-13-11
+  - requirement--nist-sp-800-171-r2-3-13-12
+  - requirement--nist-sp-800-171-r2-3-13-13
+  - requirement--nist-sp-800-171-r2-3-13-14
+  - requirement--nist-sp-800-171-r2-3-13-15
+  - requirement--nist-sp-800-171-r2-3-13-16
+  - requirement--nist-sp-800-171-r2-3-14-1
+  - requirement--nist-sp-800-171-r2-3-14-2
+  - requirement--nist-sp-800-171-r2-3-14-3
+  - requirement--nist-sp-800-171-r2-3-14-4
+  - requirement--nist-sp-800-171-r2-3-14-5
+  - requirement--nist-sp-800-171-r2-3-14-6
+  - requirement--nist-sp-800-171-r2-3-14-7
+tags:
+  - cmmc
+  - cmmc-level-2
+  - nist-800-171-r2
