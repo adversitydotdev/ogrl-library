@@ -1,0 +1,75 @@
+type: control
+id: control--ogrl-ir-07
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+name: "DoD Cyber Incident Reporting (DFARS 252.204-7012)"
+display_id: OGRL-IR-07
+control_type: corrective
+family: ir
+frequency: event-driven
+guidance: >
+  DFARS 252.204-7012 defines "rapidly report" as within 72 hours of
+  discovery, so start the clock at discovery, not at confirmation of
+  impact, and file an initial report with the information available
+  and update it later. The report is filed through the DIBNet portal
+  and must include the minimum elements listed there; access
+  requires a DoD-approved medium assurance certificate, which can
+  take weeks to obtain, so acquire certificates for more than one
+  reporter before any incident and track their expiry. Capture
+  forensic images (for example EBS or managed-disk snapshots,
+  endpoint images, or memory captures) and export relevant SIEM,
+  flow log, and packet capture data to a retention-locked location
+  before rebuilding systems, and keep them at least 90 days after
+  the report is submitted so DoD can request the media or decline
+  interest. Submit malware to DC3 only as DC3 or the Contracting
+  Officer instructs, never to the Contracting Officer. Where a cloud
+  service provider hosts covered defense information, confirm it is
+  contractually bound to the same reporting, preservation, and
+  access obligations. Flow the clause down to subcontractors that
+  handle covered defense information; they report directly to DoD
+  and give the incident report number to the prime or next
+  higher-tier subcontractor as soon as practicable. Record the
+  DIBNet report number and submission time in the incident record.
+objective: >
+  Meet DFARS 252.204-7012 cyber incident obligations so DoD is
+  informed in time and has the evidence it needs to assess damage to
+  covered defense information.
+origin: standard
+parameters:
+  certificate_check_frequency:
+    label: Medium assurance certificate validity check frequency
+    value: quarterly
+  dod_reporting_roles:
+    label: Personnel responsible for DoD incident reporting
+    value: the security lead and at least one designated alternate
+statement: >
+  Designate {{ dod_reporting_roles }} to report cyber incidents to
+  DoD, ensure they hold a valid DoD-approved medium assurance
+  certificate, and verify certificate validity
+  {{ certificate_check_frequency }}. When a cyber incident is
+  discovered that affects a covered contractor information system or
+  the covered defense information residing on it, or that affects
+  the ability to provide operationally critical support: review
+  affected and potentially accessed systems for evidence of
+  compromise of covered defense information, including compromised
+  computers, servers, specific data, and user accounts; report the
+  incident to DoD at https://dibnet.dod.mil within 72 hours of
+  discovery with the minimum required report elements; submit any
+  malicious software discovered and isolated in connection with the
+  reported incident to the DoD Cyber Crime Center (DC3) as DC3 or
+  the Contracting Officer instructs; preserve and protect images of
+  all known affected information systems and all relevant monitoring
+  and packet capture data for at least 90 days from submission of
+  the report; and, upon DoD request, provide access to additional
+  information or equipment necessary for forensic analysis and
+  provide the damage assessment information gathered.
+summary: >
+  Report cyber incidents affecting covered defense information to
+  DoD via DIBNet within 72 hours, submit malware to DC3, preserve
+  forensic images and capture data for 90 days, and support DoD
+  forensic analysis.
+tags:
+  - incident-response
+  - dfars
+  - notification

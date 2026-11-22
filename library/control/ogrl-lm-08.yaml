@@ -1,0 +1,62 @@
+type: control
+id: control--ogrl-lm-08
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+name: "Audit Record Correlation, Reduction, and Reporting"
+display_id: OGRL-LM-08
+control_type: detective
+family: lm
+frequency: continuous
+guidance: >
+  A SIEM or cloud log analytics service (for example Microsoft
+  Sentinel, Splunk, Elastic, Google Security Operations, or a
+  managed SIEM from an MSSP) provides correlation, search, and
+  reporting. Normalize fields such as user, host, source IP, and
+  timestamp so a single query spans the identity provider, cloud
+  control plane, endpoint, network, and application logs. Keep raw
+  events read-only and run filters and reports against them rather
+  than against edited copies. Write down how alert triage
+  (OGRL-LM-02), periodic log review (OGRL-LM-04), and incident
+  handling (OGRL-IR-02) hand off to one another so a finding in one
+  becomes an investigation in another. Evidence is the list of
+  connected sources, saved correlation searches and report
+  templates, the written workflow, and the record of the most recent
+  on-demand query and report test.
+objective: >
+  Enable analysts to see related activity across all log sources and
+  to produce focused queries and reports on demand for investigation
+  and response.
+origin: standard
+parameters:
+  capability_test_frequency:
+    label: Frequency of on-demand query and report testing
+    value: at least annually
+  correlated_log_sources:
+    label: Log sources aggregated and correlated
+    value: >-
+      all in-scope audit log sources, including identity provider,
+      cloud control plane, endpoint, network, and application logs
+  log_analysis_platform:
+    label: Log correlation and analysis platform
+    value: a SIEM or centralized log analytics platform
+statement: >
+  Aggregate audit records from {{ correlated_log_sources }} into
+  {{ log_analysis_platform }} that analyzes and correlates records
+  across sources and provides on-demand filtering, search, and
+  report generation without altering the original content or time
+  ordering of stored audit records; route the results of automated
+  alerting, periodic audit record review, and analysis into a single
+  documented investigation and incident response workflow so
+  indications of unlawful, unauthorized, suspicious, or unusual
+  activity are correlated and handled consistently; and test
+  {{ capability_test_frequency }} that on-demand queries and reports
+  can be produced across all aggregated sources.
+summary: >
+  Correlate audit records across sources in a central platform that
+  supports on-demand analysis and reporting, and tie review and
+  response processes together.
+tags:
+  - logging
+  - siem
+  - correlation

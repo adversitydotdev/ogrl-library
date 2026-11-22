@@ -1,0 +1,61 @@
+type: control
+id: control--ogrl-lm-06
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+name: Audit Logging Failure Alerting
+display_id: OGRL-LM-06
+control_type: detective
+family: lm
+frequency: continuous
+guidance: >
+  Most failures are silent, so alert on the absence of expected data
+  as well as on explicit errors: configure heartbeat or "no events
+  received" detections per log source in the SIEM, alert on agent or
+  forwarder health checks, and alert on cloud events such as
+  CloudTrail StopLogging or DeleteTrail, Azure diagnostic setting
+  deletion, or GCP sink deletion. Watch storage quota and ingestion
+  license limits so logs are not dropped when capacity is reached.
+  Small contractors using a managed SIEM or MSSP should confirm in
+  the contract that the provider monitors source health and pages a
+  named contact. Document the alert recipients and failure types in
+  the system security plan. Evidence is the alert rule
+  configuration, the recipient list, and a ticket from a real or
+  test failure showing the alert and the follow-up actions.
+  Protection of logs against tampering is covered by OGRL-LM-03.
+objective: >
+  Ensure that loss of audit logging is noticed and corrected quickly
+  so gaps in the audit trail are minimized.
+origin: standard
+parameters:
+  logging_failure_actions:
+    label: Actions taken on audit logging failure
+    value: >-
+      open a tracked ticket, restore log collection, and confirm
+      whether events from the gap can be recovered from source
+      systems or buffers
+  logging_failure_alert_recipients:
+    label: Personnel or roles alerted on audit logging failure
+    value: the security on-call team and the logging platform owner
+  logging_failure_alert_window:
+    label: Time limit for alerting after a logging failure
+    value: "1 hour"
+  logging_failure_types:
+    label: Audit logging failure types that generate alerts
+    value: >-
+      a log source that stops sending events, failure of a logging
+      agent or forwarder, ingestion or parsing errors, log storage
+      reaching capacity, and audit logging being disabled or
+      reconfigured
+statement: >
+  Monitor the audit logging process for {{ logging_failure_types }},
+  automatically alert {{ logging_failure_alert_recipients }} within
+  {{ logging_failure_alert_window }} of any such failure, and on
+  each alert {{ logging_failure_actions }}.
+summary: >
+  Detect audit logging failures and alert designated personnel so
+  logging is restored promptly.
+tags:
+  - logging
+  - alerting
+  - audit

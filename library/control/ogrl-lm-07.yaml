@@ -1,0 +1,59 @@
+type: control
+id: control--ogrl-lm-07
+spec_version: "0.1.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+name: Time Synchronization
+display_id: OGRL-LM-07
+control_type: preventive
+family: lm
+frequency: continuous
+guidance: >
+  Cloud instances can use the provider time service (for example
+  Amazon Time Sync Service, the Azure host time source, or Google
+  internal NTP), which is traceable to UTC; on-premises systems and
+  domain controllers should sync to a designated internal NTP
+  hierarchy that in turn syncs to a trusted source such as NIST time
+  servers. Run chrony, ntpd, or w32time with a polling interval that
+  meets the comparison frequency and step or slew the clock when
+  drift exceeds the threshold. For SaaS applications the provider
+  generates timestamps; record that reliance in the system security
+  plan and confirm that exported logs carry UTC timestamps. Evidence
+  is the time configuration on a sample of systems, a drift report
+  or chronyc tracking output, and sample audit records showing the
+  timestamp format.
+objective: >
+  Ensure audit records from different systems carry accurate,
+  consistent timestamps so events can be ordered and correlated
+  during investigations.
+origin: standard
+parameters:
+  authoritative_time_source:
+    label: Authoritative time source
+    value: >-
+      the designated cloud-provider time service or organizational
+      NTP servers synchronized to a UTC-traceable source
+  max_clock_drift:
+    label: Maximum clock difference before synchronization
+    value: "1 second"
+  time_comparison_frequency:
+    label: Clock comparison frequency
+    value: at least hourly
+  timestamp_granularity:
+    label: Audit record timestamp granularity
+    value: one second or finer
+statement: >
+  Configure every system that generates audit records to time-stamp
+  audit records from its internal system clock, recording timestamps
+  with a granularity of {{ timestamp_granularity }} in Coordinated
+  Universal Time or with the UTC offset included; compare internal
+  system clocks with {{ authoritative_time_source }}
+  {{ time_comparison_frequency }}; and synchronize a clock to that
+  source whenever its difference exceeds {{ max_clock_drift }}.
+summary: >
+  Synchronize system clocks with an authoritative time source so
+  audit record timestamps are accurate and comparable.
+tags:
+  - logging
+  - time-synchronization
+  - audit
