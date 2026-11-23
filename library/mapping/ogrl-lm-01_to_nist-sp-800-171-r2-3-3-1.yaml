@@ -1,0 +1,14 @@
+type: mapping
+id: mapping--ogrl-lm-01_to_nist-sp-800-171-r2-3-3-1
+spec_version: "0.2.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: high
+rationale: functional
+relationship: intersects-with
+review_status: reviewed
+source_ref: control--ogrl-lm-01
+summary: >
+  Specifies logged event types and creates and retains audit
+  records, but does not define the required content of each record.
+target_ref: requirement--nist-sp-800-171-r2-3-3-1

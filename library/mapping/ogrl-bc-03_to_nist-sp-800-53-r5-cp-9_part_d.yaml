@@ -1,0 +1,15 @@
+type: mapping
+id: mapping--ogrl-bc-03_to_nist-sp-800-53-r5-cp-9_part_d
+spec_version: "0.2.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: high
+rationale: functional
+relationship: equivalent-to
+review_status: reviewed
+source_ref: control--ogrl-bc-03
+summary: >
+  Encryption, immutable isolated copies, and failure alerting
+  protect the confidentiality, integrity, and availability of
+  backups per CP-9(d).
+target_ref: "requirement--nist-sp-800-53-r5-cp-9#d"

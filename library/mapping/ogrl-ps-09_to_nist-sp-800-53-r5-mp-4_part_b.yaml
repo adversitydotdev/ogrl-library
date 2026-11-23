@@ -1,0 +1,15 @@
+type: mapping
+id: mapping--ogrl-ps-09_to_nist-sp-800-53-r5-mp-4_part_b
+spec_version: "0.2.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: medium
+rationale: functional
+relationship: equivalent-to
+review_status: reviewed
+source_ref: control--ogrl-ps-09
+summary: >
+  Protections remain in force until the media is sanitized or
+  destroyed; the sanitization technique itself is governed by
+  OGRL-CR-04.
+target_ref: "requirement--nist-sp-800-53-r5-mp-4#b"

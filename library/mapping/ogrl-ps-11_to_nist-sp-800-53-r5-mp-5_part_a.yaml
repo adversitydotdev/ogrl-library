@@ -1,0 +1,17 @@
+type: mapping
+id: mapping--ogrl-ps-11_to_nist-sp-800-53-r5-mp-5_part_a
+spec_version: "0.2.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: high
+parameter_map:
+  mp_05_odp_01: transport_media_types
+  mp_5_prm_2: transport_protection_controls
+rationale: functional
+relationship: equivalent-to
+review_status: reviewed
+source_ref: control--ogrl-ps-11
+summary: >
+  Defined CUI media leaving controlled areas is protected with
+  defined packaging and custody controls, as MP-5(a) requires.
+target_ref: "requirement--nist-sp-800-53-r5-mp-5#a"

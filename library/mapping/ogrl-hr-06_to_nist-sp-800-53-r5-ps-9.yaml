@@ -1,0 +1,15 @@
+type: mapping
+id: mapping--ogrl-hr-06_to_nist-sp-800-53-r5-ps-9
+spec_version: "0.2.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: high
+rationale: functional
+relationship: superset-of
+review_status: reviewed
+source_ref: control--ogrl-hr-06
+summary: >
+  The control incorporates security and privacy responsibilities
+  into position descriptions as PS-9 requires and adds periodic
+  review.
+target_ref: requirement--nist-sp-800-53-r5-ps-9

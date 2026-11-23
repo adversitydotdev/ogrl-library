@@ -1,0 +1,15 @@
+type: mapping
+id: mapping--ogrl-ac-12_to_nist-sp-800-53-r5-ac-4
+spec_version: "0.2.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: medium
+rationale: functional
+relationship: subset-of
+review_status: reviewed
+source_ref: control--ogrl-ac-12
+summary: >
+  Tenant isolation enforces one information flow policy within the
+  system; network and inter-system flow controls are outside this
+  control.
+target_ref: requirement--nist-sp-800-53-r5-ac-4

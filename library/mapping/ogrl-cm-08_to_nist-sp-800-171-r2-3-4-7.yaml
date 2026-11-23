@@ -1,0 +1,16 @@
+type: mapping
+id: mapping--ogrl-cm-08_to_nist-sp-800-171-r2-3-4-7
+spec_version: "0.2.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: medium
+rationale: functional
+relationship: subset-of
+review_status: reviewed
+source_ref: control--ogrl-cm-08
+summary: >-
+  Disables nonessential services, ports, and protocols on production
+  hosts and restricts software sources; explicit definition of
+  essential programs and functions and endpoint coverage are
+  missing.
+target_ref: requirement--nist-sp-800-171-r2-3-4-7

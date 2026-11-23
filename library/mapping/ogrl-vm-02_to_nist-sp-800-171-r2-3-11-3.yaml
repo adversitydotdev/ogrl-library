@@ -1,0 +1,15 @@
+type: mapping
+id: mapping--ogrl-vm-02_to_nist-sp-800-171-r2-3-11-3
+spec_version: "0.2.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: medium
+rationale: functional
+relationship: intersects-with
+review_status: reviewed
+source_ref: control--ogrl-vm-02
+summary: >
+  Patching within severity-based SLAs remediates many
+  vulnerabilities but not those fixed by configuration or identified
+  elsewhere.
+target_ref: requirement--nist-sp-800-171-r2-3-11-3

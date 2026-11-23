@@ -1,0 +1,15 @@
+type: mapping
+id: mapping--ogrl-cr-04_to_nist-sp-800-53-r5-mp-6_part_b
+spec_version: "0.2.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: medium
+rationale: functional
+relationship: intersects-with
+review_status: reviewed
+source_ref: control--ogrl-cr-04
+summary: >
+  Using purge or destroy techniques aligned to SP 800-88 supports
+  sanitization strength commensurate with data sensitivity, without
+  formal categorization-based selection.
+target_ref: "requirement--nist-sp-800-53-r5-mp-6#b"

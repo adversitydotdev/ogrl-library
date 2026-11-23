@@ -1,0 +1,14 @@
+type: mapping
+id: mapping--ogrl-cm-05_to_nist-sp-800-53-r5-cm-5
+spec_version: "0.2.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: high
+rationale: functional
+relationship: subset-of
+review_status: reviewed
+source_ref: control--ogrl-cm-05
+summary: >
+  Defines and enforces logical access restrictions for changing
+  production; physical change restrictions are out of scope.
+target_ref: requirement--nist-sp-800-53-r5-cm-5

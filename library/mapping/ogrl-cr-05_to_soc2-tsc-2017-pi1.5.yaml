@@ -1,0 +1,14 @@
+type: mapping
+id: mapping--ogrl-cr-05_to_soc2-tsc-2017-pi1.5
+spec_version: "0.2.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: medium
+rationale: functional
+relationship: intersects-with
+review_status: reviewed
+source_ref: control--ogrl-cr-05
+summary: >
+  Integrity verification and replication help keep stored data
+  complete and accurate over time.
+target_ref: requirement--soc2-tsc-2017-pi1.5

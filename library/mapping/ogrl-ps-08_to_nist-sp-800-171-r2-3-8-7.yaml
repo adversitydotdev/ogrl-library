@@ -1,0 +1,14 @@
+type: mapping
+id: mapping--ogrl-ps-08_to_nist-sp-800-171-r2-3-8-7
+spec_version: "0.2.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: high
+rationale: functional
+relationship: equivalent-to
+review_status: reviewed
+source_ref: control--ogrl-ps-08
+summary: >
+  Technically enforced default-deny device control with an approved
+  allow-list controls removable media on system components.
+target_ref: requirement--nist-sp-800-171-r2-3-8-7

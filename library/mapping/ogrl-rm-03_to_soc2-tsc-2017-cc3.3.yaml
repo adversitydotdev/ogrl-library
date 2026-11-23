@@ -1,0 +1,14 @@
+type: mapping
+id: mapping--ogrl-rm-03_to_soc2-tsc-2017-cc3.3
+spec_version: "0.2.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: high
+rationale: functional
+relationship: intersects-with
+review_status: reviewed
+source_ref: control--ogrl-rm-03
+summary: >
+  Directly addresses consideration of fraud potential in risk
+  assessment; the criterion's broader scope is not claimed.
+target_ref: requirement--soc2-tsc-2017-cc3.3

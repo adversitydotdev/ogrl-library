@@ -1,0 +1,19 @@
+type: mapping
+id: mapping--ogrl-ps-08_to_nist-sp-800-53-r5-mp-7_part_a
+spec_version: "0.2.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: high
+parameter_map:
+  mp_07_odp_01: removable_media_types
+  mp_07_odp_03: in_scope_endpoints
+  mp_07_odp_04: media_enforcement_mechanism
+rationale: functional
+relationship: equivalent-to
+review_status: reviewed
+source_ref: control--ogrl-ps-08
+summary: >
+  Default-deny device control on in-scope endpoints, with an owned
+  and approved allow-list, restricts removable media use as MP-7(a)
+  requires.
+target_ref: "requirement--nist-sp-800-53-r5-mp-7#a"

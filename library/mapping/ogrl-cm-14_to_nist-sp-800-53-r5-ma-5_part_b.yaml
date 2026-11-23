@@ -1,0 +1,15 @@
+type: mapping
+id: mapping--ogrl-cm-14_to_nist-sp-800-53-r5-ma-5_part_b
+spec_version: "0.2.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: high
+rationale: functional
+relationship: equivalent-to
+review_status: reviewed
+source_ref: control--ogrl-cm-14
+summary: >-
+  Unescorted maintenance personnel are checked against the list and
+  required access authorizations before work starts, meeting
+  MA-5(b).
+target_ref: "requirement--nist-sp-800-53-r5-ma-5#b"

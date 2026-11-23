@@ -1,0 +1,14 @@
+type: mapping
+id: mapping--ogrl-ac-13_to_nist-sp-800-53-r5-ia-4_part_c
+spec_version: "0.2.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: high
+rationale: functional
+relationship: equivalent-to
+review_status: reviewed
+source_ref: control--ogrl-ac-13
+summary: >
+  Each unique identifier is assigned to the intended individual in
+  the central identity provider.
+target_ref: "requirement--nist-sp-800-53-r5-ia-4#c"

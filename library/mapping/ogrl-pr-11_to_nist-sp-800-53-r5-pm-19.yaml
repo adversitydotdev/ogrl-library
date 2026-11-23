@@ -1,0 +1,14 @@
+type: mapping
+id: mapping--ogrl-pr-11_to_nist-sp-800-53-r5-pm-19
+spec_version: "0.2.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: low
+rationale: functional
+relationship: subset-of
+review_status: reviewed
+source_ref: control--ogrl-pr-11
+summary: >
+  Designating an accountable privacy lead for complaints is a narrow
+  part of the privacy leadership role in PM-19.
+target_ref: requirement--nist-sp-800-53-r5-pm-19

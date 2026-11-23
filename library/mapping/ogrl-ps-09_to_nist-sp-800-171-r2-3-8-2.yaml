@@ -1,0 +1,15 @@
+type: mapping
+id: mapping--ogrl-ps-09_to_nist-sp-800-171-r2-3-8-2
+spec_version: "0.2.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: high
+rationale: functional
+relationship: equivalent-to
+review_status: reviewed
+source_ref: control--ogrl-ps-09
+summary: >
+  Restricting CUI media and its storage keys to authorized
+  personnel, with periodic review, limits access to CUI on media to
+  authorized users.
+target_ref: requirement--nist-sp-800-171-r2-3-8-2

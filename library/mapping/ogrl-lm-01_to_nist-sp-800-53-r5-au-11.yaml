@@ -1,0 +1,16 @@
+type: mapping
+id: mapping--ogrl-lm-01_to_nist-sp-800-53-r5-au-11
+spec_version: "0.2.0"
+created: "2026-11-20T00:00:00Z"
+modified: "2026-11-20T00:00:00Z"
+confidence: high
+parameter_map:
+  au_11_odp: retention_period
+rationale: functional
+relationship: equivalent-to
+review_status: reviewed
+source_ref: control--ogrl-lm-01
+summary: >
+  Centralized tamper-resistant retention directly satisfies NIST
+  AU-11 audit record retention.
+target_ref: requirement--nist-sp-800-53-r5-au-11

@@ -1,0 +1,14 @@
+type: mapping
+id: mapping--ogrl-ps-02_to_nist-sp-800-53-r5-pe-3_part_b
+spec_version: "0.2.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: medium
+rationale: functional
+relationship: equivalent-to
+review_status: reviewed
+source_ref: control--ogrl-ps-02
+summary: >-
+  Retained electronic entry logs at controlled entry points satisfy
+  PE-3(b).
+target_ref: "requirement--nist-sp-800-53-r5-pe-3#b"

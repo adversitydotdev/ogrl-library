@@ -1,0 +1,17 @@
+type: mapping
+id: mapping--ogrl-bc-02_to_nist-sp-800-53-r5-cp-4
+spec_version: "0.2.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: high
+parameter_map:
+  cp_04_odp_01: dr_test_cadence
+  cp_4_prm_2: dr_test_methods
+rationale: functional
+relationship: equivalent-to
+review_status: reviewed
+source_ref: control--ogrl-bc-02
+summary: >
+  Scheduled plan testing with defined methods, results review, and
+  gap remediation satisfies CP-4 in full.
+target_ref: requirement--nist-sp-800-53-r5-cp-4

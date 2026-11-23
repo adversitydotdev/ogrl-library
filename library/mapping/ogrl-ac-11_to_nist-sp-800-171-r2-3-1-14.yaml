@@ -1,0 +1,14 @@
+type: mapping
+id: mapping--ogrl-ac-11_to_nist-sp-800-171-r2-3-1-14
+spec_version: "0.2.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: medium
+rationale: functional
+relationship: intersects-with
+review_status: reviewed
+source_ref: control--ogrl-ac-11
+summary: >-
+  Routes production remote access through a managed gateway; other
+  in-scope remote access is not explicitly routed.
+target_ref: requirement--nist-sp-800-171-r2-3-1-14

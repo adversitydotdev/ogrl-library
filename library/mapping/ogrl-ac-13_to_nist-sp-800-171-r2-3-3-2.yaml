@@ -1,0 +1,14 @@
+type: mapping
+id: mapping--ogrl-ac-13_to_nist-sp-800-171-r2-3-3-2
+spec_version: "0.2.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: medium
+rationale: functional
+relationship: intersects-with
+review_status: reviewed
+source_ref: control--ogrl-ac-13
+summary: >-
+  Unique identities make actions attributable; defining audit record
+  content and ensuring records include it is not covered.
+target_ref: requirement--nist-sp-800-171-r2-3-3-2

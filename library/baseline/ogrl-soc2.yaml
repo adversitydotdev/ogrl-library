@@ -1,6 +1,6 @@
 type: baseline
 id: baseline--ogrl-soc2
-spec_version: "0.1.0"
+spec_version: "0.2.0"
 created: "2026-11-20T00:00:00Z"
 modified: "2026-11-21T00:00:00Z"
 name: OGRL SOC 2 Baseline
@@ -121,67 +121,67 @@ control_refs:
 framework_refs:
   - framework--soc2-tsc-2017
 requirement_refs:
-  - requirement--soc2-tsc-2017-cc1-1
-  - requirement--soc2-tsc-2017-cc1-2
-  - requirement--soc2-tsc-2017-cc1-3
-  - requirement--soc2-tsc-2017-cc1-4
-  - requirement--soc2-tsc-2017-cc1-5
-  - requirement--soc2-tsc-2017-cc2-1
-  - requirement--soc2-tsc-2017-cc2-2
-  - requirement--soc2-tsc-2017-cc2-3
-  - requirement--soc2-tsc-2017-cc3-1
-  - requirement--soc2-tsc-2017-cc3-2
-  - requirement--soc2-tsc-2017-cc3-3
-  - requirement--soc2-tsc-2017-cc3-4
-  - requirement--soc2-tsc-2017-cc4-1
-  - requirement--soc2-tsc-2017-cc4-2
-  - requirement--soc2-tsc-2017-cc5-1
-  - requirement--soc2-tsc-2017-cc5-2
-  - requirement--soc2-tsc-2017-cc5-3
-  - requirement--soc2-tsc-2017-cc6-1
-  - requirement--soc2-tsc-2017-cc6-2
-  - requirement--soc2-tsc-2017-cc6-3
-  - requirement--soc2-tsc-2017-cc6-4
-  - requirement--soc2-tsc-2017-cc6-5
-  - requirement--soc2-tsc-2017-cc6-6
-  - requirement--soc2-tsc-2017-cc6-7
-  - requirement--soc2-tsc-2017-cc6-8
-  - requirement--soc2-tsc-2017-cc7-1
-  - requirement--soc2-tsc-2017-cc7-2
-  - requirement--soc2-tsc-2017-cc7-3
-  - requirement--soc2-tsc-2017-cc7-4
-  - requirement--soc2-tsc-2017-cc7-5
-  - requirement--soc2-tsc-2017-cc8-1
-  - requirement--soc2-tsc-2017-cc9-1
-  - requirement--soc2-tsc-2017-cc9-2
-  - requirement--soc2-tsc-2017-a1-1
-  - requirement--soc2-tsc-2017-a1-2
-  - requirement--soc2-tsc-2017-a1-3
-  - requirement--soc2-tsc-2017-c1-1
-  - requirement--soc2-tsc-2017-c1-2
-  - requirement--soc2-tsc-2017-pi1-1
-  - requirement--soc2-tsc-2017-pi1-2
-  - requirement--soc2-tsc-2017-pi1-3
-  - requirement--soc2-tsc-2017-pi1-4
-  - requirement--soc2-tsc-2017-pi1-5
-  - requirement--soc2-tsc-2017-p1-1
-  - requirement--soc2-tsc-2017-p2-1
-  - requirement--soc2-tsc-2017-p3-1
-  - requirement--soc2-tsc-2017-p3-2
-  - requirement--soc2-tsc-2017-p4-1
-  - requirement--soc2-tsc-2017-p4-2
-  - requirement--soc2-tsc-2017-p4-3
-  - requirement--soc2-tsc-2017-p5-1
-  - requirement--soc2-tsc-2017-p5-2
-  - requirement--soc2-tsc-2017-p6-1
-  - requirement--soc2-tsc-2017-p6-2
-  - requirement--soc2-tsc-2017-p6-3
-  - requirement--soc2-tsc-2017-p6-4
-  - requirement--soc2-tsc-2017-p6-5
-  - requirement--soc2-tsc-2017-p6-6
-  - requirement--soc2-tsc-2017-p6-7
-  - requirement--soc2-tsc-2017-p7-1
-  - requirement--soc2-tsc-2017-p8-1
+  - requirement--soc2-tsc-2017-cc1.1
+  - requirement--soc2-tsc-2017-cc1.2
+  - requirement--soc2-tsc-2017-cc1.3
+  - requirement--soc2-tsc-2017-cc1.4
+  - requirement--soc2-tsc-2017-cc1.5
+  - requirement--soc2-tsc-2017-cc2.1
+  - requirement--soc2-tsc-2017-cc2.2
+  - requirement--soc2-tsc-2017-cc2.3
+  - requirement--soc2-tsc-2017-cc3.1
+  - requirement--soc2-tsc-2017-cc3.2
+  - requirement--soc2-tsc-2017-cc3.3
+  - requirement--soc2-tsc-2017-cc3.4
+  - requirement--soc2-tsc-2017-cc4.1
+  - requirement--soc2-tsc-2017-cc4.2
+  - requirement--soc2-tsc-2017-cc5.1
+  - requirement--soc2-tsc-2017-cc5.2
+  - requirement--soc2-tsc-2017-cc5.3
+  - requirement--soc2-tsc-2017-cc6.1
+  - requirement--soc2-tsc-2017-cc6.2
+  - requirement--soc2-tsc-2017-cc6.3
+  - requirement--soc2-tsc-2017-cc6.4
+  - requirement--soc2-tsc-2017-cc6.5
+  - requirement--soc2-tsc-2017-cc6.6
+  - requirement--soc2-tsc-2017-cc6.7
+  - requirement--soc2-tsc-2017-cc6.8
+  - requirement--soc2-tsc-2017-cc7.1
+  - requirement--soc2-tsc-2017-cc7.2
+  - requirement--soc2-tsc-2017-cc7.3
+  - requirement--soc2-tsc-2017-cc7.4
+  - requirement--soc2-tsc-2017-cc7.5
+  - requirement--soc2-tsc-2017-cc8.1
+  - requirement--soc2-tsc-2017-cc9.1
+  - requirement--soc2-tsc-2017-cc9.2
+  - requirement--soc2-tsc-2017-a1.1
+  - requirement--soc2-tsc-2017-a1.2
+  - requirement--soc2-tsc-2017-a1.3
+  - requirement--soc2-tsc-2017-c1.1
+  - requirement--soc2-tsc-2017-c1.2
+  - requirement--soc2-tsc-2017-pi1.1
+  - requirement--soc2-tsc-2017-pi1.2
+  - requirement--soc2-tsc-2017-pi1.3
+  - requirement--soc2-tsc-2017-pi1.4
+  - requirement--soc2-tsc-2017-pi1.5
+  - requirement--soc2-tsc-2017-p1.1
+  - requirement--soc2-tsc-2017-p2.1
+  - requirement--soc2-tsc-2017-p3.1
+  - requirement--soc2-tsc-2017-p3.2
+  - requirement--soc2-tsc-2017-p4.1
+  - requirement--soc2-tsc-2017-p4.2
+  - requirement--soc2-tsc-2017-p4.3
+  - requirement--soc2-tsc-2017-p5.1
+  - requirement--soc2-tsc-2017-p5.2
+  - requirement--soc2-tsc-2017-p6.1
+  - requirement--soc2-tsc-2017-p6.2
+  - requirement--soc2-tsc-2017-p6.3
+  - requirement--soc2-tsc-2017-p6.4
+  - requirement--soc2-tsc-2017-p6.5
+  - requirement--soc2-tsc-2017-p6.6
+  - requirement--soc2-tsc-2017-p6.7
+  - requirement--soc2-tsc-2017-p7.1
+  - requirement--soc2-tsc-2017-p8.1
 tags:
   - soc2
   - trust-services-criteria

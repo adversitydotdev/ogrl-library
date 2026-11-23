@@ -1,0 +1,15 @@
+type: mapping
+id: mapping--ogrl-am-01_to_nist-sp-800-171-r2-3-4-1
+spec_version: "0.2.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: high
+rationale: functional
+relationship: subset-of
+review_status: reviewed
+source_ref: control--ogrl-am-01
+summary: >-
+  Establishes and regularly reconciles a system component inventory;
+  baseline configurations and inventory of software, firmware, and
+  documentation are not addressed.
+target_ref: requirement--nist-sp-800-171-r2-3-4-1

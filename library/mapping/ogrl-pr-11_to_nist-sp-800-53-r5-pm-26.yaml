@@ -1,0 +1,18 @@
+type: mapping
+id: mapping--ogrl-pr-11_to_nist-sp-800-53-r5-pm-26
+spec_version: "0.2.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: high
+parameter_map:
+  pm_26_odp_03: complaint_acknowledgement_sla
+  pm_26_odp_04: complaint_response_sla
+  pm_26_prm_1: complaint_resolution_sla
+rationale: functional
+relationship: equivalent-to
+review_status: reviewed
+source_ref: control--ogrl-pr-11
+summary: >
+  Published channels, filing information, tracking, and
+  acknowledgement, response, and resolution timelines cover PM-26.
+target_ref: requirement--nist-sp-800-53-r5-pm-26

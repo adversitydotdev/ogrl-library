@@ -1,0 +1,14 @@
+type: mapping
+id: mapping--ogrl-ac-10_to_nist-sp-800-171-r2-3-13-9
+spec_version: "0.2.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: medium
+rationale: functional
+relationship: intersects-with
+review_status: reviewed
+source_ref: control--ogrl-ac-10
+summary: >-
+  Terminates application and remote sessions after inactivity;
+  termination of the underlying network connections is not stated.
+target_ref: requirement--nist-sp-800-171-r2-3-13-9

@@ -1,0 +1,16 @@
+type: mapping
+id: mapping--ogrl-sd-07_to_nist-sp-800-53-r5-si-11_part_b
+spec_version: "0.2.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: high
+parameter_map:
+  si_11_odp: error_detail_roles
+rationale: functional
+relationship: equivalent-to
+review_status: reviewed
+source_ref: control--ogrl-sd-07
+summary: >-
+  Detailed error information is restricted to defined roles per
+  SI-11(b).
+target_ref: "requirement--nist-sp-800-53-r5-si-11#b"

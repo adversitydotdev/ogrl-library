@@ -1,0 +1,15 @@
+type: mapping
+id: mapping--ogrl-ps-08_to_nist-sp-800-171-r2-3-8-8
+spec_version: "0.2.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: high
+rationale: functional
+relationship: superset-of
+review_status: reviewed
+source_ref: control--ogrl-ps-08
+summary: >
+  Blocking ownerless portable storage satisfies 3.8.8, and the
+  control goes further by allowing only inventoried
+  organization-issued devices.
+target_ref: requirement--nist-sp-800-171-r2-3-8-8

@@ -1,0 +1,14 @@
+type: mapping
+id: mapping--ogrl-cr-05_to_nist-sp-800-53-r5-si-7_part_b
+spec_version: "0.2.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: medium
+rationale: functional
+relationship: intersects-with
+review_status: reviewed
+source_ref: control--ogrl-cr-05
+summary: >
+  Alerting on detected data integrity errors is a response action
+  for information integrity under SI-7(b).
+target_ref: "requirement--nist-sp-800-53-r5-si-7#b"

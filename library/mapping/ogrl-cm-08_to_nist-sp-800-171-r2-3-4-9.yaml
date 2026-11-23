@@ -1,0 +1,16 @@
+type: mapping
+id: mapping--ogrl-cm-08_to_nist-sp-800-171-r2-3-4-9
+spec_version: "0.2.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: medium
+rationale: functional
+relationship: intersects-with
+review_status: reviewed
+source_ref: control--ogrl-cm-08
+summary: >-
+  Removing local administrator rights and limiting installs to
+  approved sources controls user-installed software; continuous
+  monitoring of installations is weaker than periodic compliance
+  review.
+target_ref: requirement--nist-sp-800-171-r2-3-4-9

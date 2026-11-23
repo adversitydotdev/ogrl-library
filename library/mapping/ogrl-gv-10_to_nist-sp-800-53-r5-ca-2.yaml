@@ -1,0 +1,17 @@
+type: mapping
+id: mapping--ogrl-gv-10_to_nist-sp-800-53-r5-ca-2
+spec_version: "0.2.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: medium
+parameter_map:
+  ca_02_odp_01: assessment_frequency
+  ca_02_odp_02: results_recipients
+rationale: functional
+relationship: equivalent-to
+review_status: reviewed
+source_ref: control--ogrl-gv-10
+summary: >
+  Covers assessor selection, an approved assessment plan, periodic
+  assessment, reporting, and distribution of results.
+target_ref: requirement--nist-sp-800-53-r5-ca-2

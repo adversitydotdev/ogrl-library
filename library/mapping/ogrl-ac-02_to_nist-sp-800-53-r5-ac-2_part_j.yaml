@@ -1,0 +1,16 @@
+type: mapping
+id: mapping--ogrl-ac-02_to_nist-sp-800-53-r5-ac-2_part_j
+spec_version: "0.2.0"
+created: "2026-11-20T00:00:00Z"
+modified: "2026-11-20T00:00:00Z"
+confidence: high
+parameter_map:
+  ac_02_odp_10: review_cadence
+rationale: functional
+relationship: equivalent-to
+review_status: reviewed
+source_ref: control--ogrl-ac-02
+summary: >
+  Periodic user access review directly satisfies NIST AC-2(j)
+  account compliance reviews.
+target_ref: "requirement--nist-sp-800-53-r5-ac-2#j"

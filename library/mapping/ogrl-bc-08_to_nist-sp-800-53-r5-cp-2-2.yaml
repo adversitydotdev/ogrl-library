@@ -1,0 +1,15 @@
+type: mapping
+id: mapping--ogrl-bc-08_to_nist-sp-800-53-r5-cp-2-2
+spec_version: "0.2.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: medium
+rationale: functional
+relationship: superset-of
+review_status: reviewed
+source_ref: control--ogrl-bc-08
+summary: >
+  Capacity forecasting explicitly includes contingency operations,
+  covering CP-2(2), and adds ongoing utilization monitoring and
+  alerting.
+target_ref: requirement--nist-sp-800-53-r5-cp-2-2

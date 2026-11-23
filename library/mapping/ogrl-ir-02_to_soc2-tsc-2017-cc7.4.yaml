@@ -1,0 +1,14 @@
+type: mapping
+id: mapping--ogrl-ir-02_to_soc2-tsc-2017-cc7.4
+spec_version: "0.2.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: high
+rationale: functional
+relationship: intersects-with
+review_status: reviewed
+source_ref: control--ogrl-ir-02
+summary: >
+  Containment, eradication, and recovery steps form the core of the
+  organization's incident response activity.
+target_ref: requirement--soc2-tsc-2017-cc7.4

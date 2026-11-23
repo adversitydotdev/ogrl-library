@@ -1,0 +1,15 @@
+type: mapping
+id: mapping--ogrl-ps-05_to_nist-sp-800-53-r5-pe-11
+spec_version: "0.2.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: high
+parameter_map:
+  pe_11_odp: ups_capability
+rationale: functional
+relationship: equivalent-to
+review_status: reviewed
+source_ref: control--ogrl-ps-05
+summary: >-
+  Providing a UPS sized for the defined capability satisfies PE-11.
+target_ref: requirement--nist-sp-800-53-r5-pe-11

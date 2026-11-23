@@ -1,0 +1,15 @@
+type: mapping
+id: mapping--ogrl-ac-18_to_nist-sp-800-53-r5-ac-20_part_a
+spec_version: "0.2.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: medium
+rationale: functional
+relationship: equivalent-to
+review_status: reviewed
+source_ref: control--ogrl-ac-18
+summary: >-
+  Permits access from and processing on external systems only after
+  verifying their controls or retaining an agreement with their
+  owner.
+target_ref: "requirement--nist-sp-800-53-r5-ac-20#a"

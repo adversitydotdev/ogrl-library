@@ -1,0 +1,14 @@
+type: mapping
+id: mapping--ogrl-vm-02_to_soc2-tsc-2017-cc7.1
+spec_version: "0.2.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: medium
+rationale: functional
+relationship: subset-of
+review_status: reviewed
+source_ref: control--ogrl-vm-02
+summary: >-
+  Timely patching remediates the vulnerabilities that CC7.1
+  monitoring identifies.
+target_ref: requirement--soc2-tsc-2017-cc7.1

@@ -1,0 +1,14 @@
+type: mapping
+id: mapping--ogrl-ac-20_to_nist-sp-800-53-r5-ia-6
+spec_version: "0.2.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: high
+rationale: functional
+relationship: equivalent-to
+review_status: reviewed
+source_ref: control--ogrl-ac-20
+summary: >-
+  Obscures authenticators as they are entered on every
+  authentication interface.
+target_ref: requirement--nist-sp-800-53-r5-ia-6

@@ -1,0 +1,15 @@
+type: mapping
+id: mapping--ogrl-pr-04_to_nist-sp-800-53-r5-si-12-1
+spec_version: "0.2.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: high
+parameter_map:
+  si_12_01_odp: permitted_pii_elements
+rationale: functional
+relationship: equivalent-to
+review_status: reviewed
+source_ref: control--ogrl-pr-04
+summary: >-
+  Limiting processing to approved PII elements satisfies SI-12(1).
+target_ref: requirement--nist-sp-800-53-r5-si-12-1

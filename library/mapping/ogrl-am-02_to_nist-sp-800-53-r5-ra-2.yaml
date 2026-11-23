@@ -1,0 +1,15 @@
+type: mapping
+id: mapping--ogrl-am-02_to_nist-sp-800-53-r5-ra-2
+spec_version: "0.2.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: medium
+rationale: functional
+relationship: intersects-with
+review_status: reviewed
+source_ref: control--ogrl-am-02
+summary: >
+  Classifying information and data stores overlaps with system and
+  information categorization; impact-level categorization and
+  authorizing official approval are not provided.
+target_ref: requirement--nist-sp-800-53-r5-ra-2

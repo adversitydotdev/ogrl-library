@@ -1,0 +1,15 @@
+type: mapping
+id: mapping--ogrl-cm-09_to_nist-sp-800-53-r5-si-7_part_b
+spec_version: "0.2.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: high
+parameter_map:
+  si_7_prm_2: integrity_response_actions
+rationale: functional
+relationship: equivalent-to
+review_status: reviewed
+source_ref: control--ogrl-cm-09
+summary: >-
+  Defined response actions on integrity failure satisfy SI-7(b).
+target_ref: "requirement--nist-sp-800-53-r5-si-7#b"

@@ -1,0 +1,14 @@
+type: mapping
+id: mapping--ogrl-sd-07_to_nist-sp-800-53-r5-si-11_part_a
+spec_version: "0.2.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: high
+rationale: functional
+relationship: equivalent-to
+review_status: reviewed
+source_ref: control--ogrl-sd-07
+summary: >
+  User-facing errors that aid correction without revealing
+  exploitable details satisfy SI-11(a).
+target_ref: "requirement--nist-sp-800-53-r5-si-11#a"

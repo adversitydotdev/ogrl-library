@@ -1,0 +1,15 @@
+type: mapping
+id: mapping--ogrl-ac-03_to_nist-sp-800-171-r2-3-1-5
+spec_version: "0.2.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: high
+rationale: functional
+relationship: subset-of
+review_status: reviewed
+source_ref: control--ogrl-ac-03
+summary: >-
+  Enforces least-privilege access and elevation for administrative
+  actions; identification of privileged accounts and security
+  functions is handled elsewhere.
+target_ref: requirement--nist-sp-800-171-r2-3-1-5

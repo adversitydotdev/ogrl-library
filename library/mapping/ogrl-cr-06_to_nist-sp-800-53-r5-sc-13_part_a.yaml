@@ -1,0 +1,16 @@
+type: mapping
+id: mapping--ogrl-cr-06_to_nist-sp-800-53-r5-sc-13_part_a
+spec_version: "0.2.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: high
+parameter_map:
+  sc_13_odp_01: cui_crypto_uses
+rationale: functional
+relationship: equivalent-to
+review_status: reviewed
+source_ref: control--ogrl-cr-06
+summary: >
+  The CUI cryptography inventory determines the cryptographic uses
+  that SC-13(a) asks the organization to identify.
+target_ref: "requirement--nist-sp-800-53-r5-sc-13#a"

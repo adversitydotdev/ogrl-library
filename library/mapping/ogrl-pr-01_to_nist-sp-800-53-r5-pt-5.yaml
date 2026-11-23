@@ -1,0 +1,16 @@
+type: mapping
+id: mapping--ogrl-pr-01_to_nist-sp-800-53-r5-pt-5
+spec_version: "0.2.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: high
+parameter_map:
+  pt_05_odp_02: notice_contents
+rationale: functional
+relationship: equivalent-to
+review_status: reviewed
+source_ref: control--ogrl-pr-01
+summary: >
+  A plain-language notice available at first collection stating
+  purposes, legal basis, and defined contents covers PT-5.
+target_ref: requirement--nist-sp-800-53-r5-pt-5

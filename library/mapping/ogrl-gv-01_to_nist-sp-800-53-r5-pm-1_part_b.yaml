@@ -1,0 +1,17 @@
+type: mapping
+id: mapping--ogrl-gv-01_to_nist-sp-800-53-r5-pm-1_part_b
+spec_version: "0.2.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: high
+parameter_map:
+  pm_01_odp_01: policy_review_frequency
+  pm_01_odp_02: policy_review_triggers
+rationale: functional
+relationship: equivalent-to
+review_status: reviewed
+source_ref: control--ogrl-gv-01
+summary: >
+  Scheduled and event-driven policy review and update fulfils the
+  plan review requirement.
+target_ref: "requirement--nist-sp-800-53-r5-pm-1#b"

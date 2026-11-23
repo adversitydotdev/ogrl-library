@@ -1,0 +1,16 @@
+type: mapping
+id: mapping--ogrl-cr-06_to_nist-sp-800-53-r5-sc-13_part_b
+spec_version: "0.2.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: high
+parameter_map:
+  sc_13_odp_02: fips_validation_standard
+rationale: functional
+relationship: equivalent-to
+review_status: reviewed
+source_ref: control--ogrl-cr-06
+summary: >
+  Each inventoried use must employ the defined type of cryptography,
+  namely FIPS-validated modules in approved mode.
+target_ref: "requirement--nist-sp-800-53-r5-sc-13#b"

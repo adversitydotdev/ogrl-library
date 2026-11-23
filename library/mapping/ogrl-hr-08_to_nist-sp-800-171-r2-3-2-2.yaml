@@ -1,0 +1,14 @@
+type: mapping
+id: mapping--ogrl-hr-08_to_nist-sp-800-171-r2-3-2-2
+spec_version: "0.2.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: high
+rationale: functional
+relationship: subset-of
+review_status: reviewed
+source_ref: control--ogrl-hr-08
+summary: >
+  Role-based training covers training personnel for security duties
+  but not defining and assigning those duties.
+target_ref: requirement--nist-sp-800-171-r2-3-2-2

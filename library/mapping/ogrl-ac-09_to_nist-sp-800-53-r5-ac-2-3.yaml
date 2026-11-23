@@ -1,0 +1,17 @@
+type: mapping
+id: mapping--ogrl-ac-09_to_nist-sp-800-53-r5-ac-2-3
+spec_version: "0.2.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: high
+parameter_map:
+  ac_02_03_odp_01: disable_window
+  ac_02_03_odp_02: inactivity_period
+rationale: functional
+relationship: equivalent-to
+review_status: reviewed
+source_ref: control--ogrl-ac-09
+summary: >
+  Disabling expired, orphaned, non-compliant, and inactive accounts
+  within a defined window covers all of AC-2(3).
+target_ref: requirement--nist-sp-800-53-r5-ac-2-3

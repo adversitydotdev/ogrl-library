@@ -1,0 +1,16 @@
+type: mapping
+id: mapping--ogrl-ac-20_to_nist-sp-800-53-r5-ia-2-8
+spec_version: "0.2.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: high
+parameter_map:
+  ia_02_08_odp: replay_resistant_account_types
+rationale: functional
+relationship: equivalent-to
+review_status: reviewed
+source_ref: control--ogrl-ac-20
+summary: >-
+  Requires replay-resistant authentication for network access to the
+  defined account types.
+target_ref: requirement--nist-sp-800-53-r5-ia-2-8

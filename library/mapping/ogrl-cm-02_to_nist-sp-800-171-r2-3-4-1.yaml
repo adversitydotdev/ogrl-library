@@ -1,0 +1,15 @@
+type: mapping
+id: mapping--ogrl-cm-02_to_nist-sp-800-171-r2-3-4-1
+spec_version: "0.2.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: high
+rationale: functional
+relationship: subset-of
+review_status: reviewed
+source_ref: control--ogrl-cm-02
+summary: >-
+  Establishes and periodically reviews hardened baseline
+  configurations; the system inventory and explicit coverage of
+  hardware, firmware, and documentation are not addressed.
+target_ref: requirement--nist-sp-800-171-r2-3-4-1

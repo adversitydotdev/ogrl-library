@@ -1,0 +1,15 @@
+type: mapping
+id: mapping--ogrl-cm-14_to_nist-sp-800-53-r5-ma-5_part_c
+spec_version: "0.2.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: high
+rationale: functional
+relationship: equivalent-to
+review_status: reviewed
+source_ref: control--ogrl-cm-14
+summary: >-
+  A supervisor with the required authorizations and technical
+  competence oversees maintenance by unauthorized personnel, meeting
+  MA-5(c).
+target_ref: "requirement--nist-sp-800-53-r5-ma-5#c"

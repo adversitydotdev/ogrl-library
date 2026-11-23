@@ -1,0 +1,16 @@
+type: mapping
+id: mapping--ogrl-rm-01_to_nist-sp-800-53-r5-pm-9_part_c
+spec_version: "0.2.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: high
+parameter_map:
+  pm_09_odp: strategy_review_frequency
+rationale: functional
+relationship: equivalent-to
+review_status: reviewed
+source_ref: control--ogrl-rm-01
+summary: >
+  Periodic and change-driven review of the methodology meets the
+  strategy review requirement.
+target_ref: "requirement--nist-sp-800-53-r5-pm-9#c"

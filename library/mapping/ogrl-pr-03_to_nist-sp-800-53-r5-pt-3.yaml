@@ -1,0 +1,16 @@
+type: mapping
+id: mapping--ogrl-pr-03_to_nist-sp-800-53-r5-pt-3
+spec_version: "0.2.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: high
+parameter_map:
+  pt_03_odp_03: purpose_change_review
+rationale: functional
+relationship: equivalent-to
+review_status: reviewed
+source_ref: control--ogrl-pr-03
+summary: >
+  Documenting purposes, reflecting them in the notice, restricting
+  use, and reviewing changes covers PT-3.
+target_ref: requirement--nist-sp-800-53-r5-pt-3

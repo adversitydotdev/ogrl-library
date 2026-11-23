@@ -1,0 +1,17 @@
+type: mapping
+id: mapping--ogrl-gv-12_to_nist-sp-800-53-r5-ca-5
+spec_version: "0.2.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: medium
+parameter_map:
+  ca_05_odp: review_frequency
+rationale: functional
+relationship: equivalent-to
+review_status: reviewed
+source_ref: control--ogrl-gv-12
+summary: >
+  The deficiency register is the plan of action and milestones,
+  updated on a fixed cadence from assessment, audit, and monitoring
+  findings.
+target_ref: requirement--nist-sp-800-53-r5-ca-5

@@ -1,0 +1,17 @@
+type: mapping
+id: mapping--ogrl-hr-04_to_nist-sp-800-53-r5-ps-7
+spec_version: "0.2.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: high
+parameter_map:
+  ps_07_odp_01: notification_recipient
+  ps_07_odp_02: notification_window
+rationale: functional
+relationship: equivalent-to
+review_status: reviewed
+source_ref: control--ogrl-hr-04
+summary: >
+  Contractual personnel security requirements, change notifications,
+  and compliance verification cover each part of PS-7.
+target_ref: requirement--nist-sp-800-53-r5-ps-7

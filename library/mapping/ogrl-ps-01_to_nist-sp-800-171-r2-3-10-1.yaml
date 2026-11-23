@@ -1,0 +1,15 @@
+type: mapping
+id: mapping--ogrl-ps-01_to_nist-sp-800-171-r2-3-10-1
+spec_version: "0.2.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: high
+rationale: functional
+relationship: subset-of
+review_status: reviewed
+source_ref: control--ogrl-ps-01
+summary: >
+  Identifies and approves the individuals allowed physical access
+  and removes access promptly; enforcement at entry points is
+  provided by OGRL-PS-02.
+target_ref: requirement--nist-sp-800-171-r2-3-10-1

@@ -1,0 +1,17 @@
+type: mapping
+id: mapping--ogrl-gv-11_to_nist-sp-800-53-r5-ca-7_part_g
+spec_version: "0.2.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: high
+parameter_map:
+  ca_7_prm_4: status_audience
+  ca_7_prm_5: status_reporting_frequency
+rationale: functional
+relationship: equivalent-to
+review_status: reviewed
+source_ref: control--ogrl-gv-11
+summary: >
+  Regular control health reporting to named recipients meets the
+  status reporting requirement.
+target_ref: "requirement--nist-sp-800-53-r5-ca-7#g"

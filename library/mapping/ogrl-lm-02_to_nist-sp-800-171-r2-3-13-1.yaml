@@ -1,0 +1,15 @@
+type: mapping
+id: mapping--ogrl-lm-02_to_nist-sp-800-171-r2-3-13-1
+spec_version: "0.2.0"
+created: "2026-11-21T00:00:00Z"
+modified: "2026-11-21T00:00:00Z"
+confidence: low
+rationale: functional
+relationship: intersects-with
+review_status: reviewed
+source_ref: control--ogrl-lm-02
+summary: >
+  Security telemetry monitoring contributes to boundary
+  communication monitoring; defining boundaries and controlling and
+  protecting traffic are out of scope.
+target_ref: requirement--nist-sp-800-171-r2-3-13-1
